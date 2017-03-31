@@ -18,6 +18,11 @@ pages:
   - 'echo url: https://$CI_PROJECT_NAMESPACE.gitlab.io > userconfig.yml'
   - 'echo baseurl: /$CI_PROJECT_NAME/~/$CI_COMMIT_REF_NAME >> userconfig.yml'
   - bundle exec jekyll build -d public/~/$CI_COMMIT_REF_NAME --config _config.yml,userconfig.yml --verbose --trace
+
+  environment:
+    name: review/$CI_BUILD_REF_NAME
+    url: https://$CI_PROJECT_NAMESPACE.gitlab.io/$CI_PROJECT_NAME/~/$CI_COMMIT_REF_NAME
+    on_stop: stop_review
   artifacts:
     expire_in: 1 month
     paths:
