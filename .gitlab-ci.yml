@@ -20,13 +20,30 @@ pages:
   - bundle exec jekyll build -d public/~/$CI_COMMIT_REF_NAME --config _config.yml,userconfig.yml --verbose --trace
 
   environment:
-    name: review/$CI_BUILD_REF_NAME
+    name: review/$CI_COMMIT_REF_NAME
     url: https://$CI_PROJECT_NAMESPACE.gitlab.io/$CI_PROJECT_NAME/~/$CI_COMMIT_REF_NAME
     on_stop: stop_review
   artifacts:
     expire_in: 1 month
     paths:
     - public/~/$CI_COMMIT_REF_NAME
+  except:
+  - master
+
+stop_review:
+  stage: deploy
+  variables:
+    GIT_STRATEGY: none
+  before_script: []
+  artifacts: {}
+  cache: {}
+  dependencies: []
+  script:
+  - rm -rf public/~/$CI_COMMIT_REF_NAME
+  when: manual
+  environment:
+    name: review/$CI_COMMIT_REF_NAME
+    action: stop
   except:
   - master
 
