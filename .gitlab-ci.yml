@@ -2,7 +2,7 @@
 # Full project: https://gitlab.com/pages/jekyll
 image: ruby:2.3
 
-test:
+pages:
   stage: test
   script:
   - apt-get update
@@ -16,15 +16,16 @@ test:
   - gem install jekyll bundler
   - bundle install
   - 'echo url: https://$CI_PROJECT_NAMESPACE.gitlab.io > userconfig.yml'
-  - 'echo baseurl: /$CI_PROJECT_NAME >> userconfig.yml'
-  - bundle exec jekyll build -d test --config _config.yml,userconfig.yml --verbose --trace
+  - 'echo baseurl: /$CI_PROJECT_NAME/~/$CI_COMMIT_REF_NAME >> userconfig.yml'
+  - bundle exec jekyll build -d public/~/$CI_COMMIT_REF_NAME --config _config.yml,userconfig.yml --verbose --trace
   artifacts:
+    expire_in: 1 month
     paths:
-    - test
+    - public/~/$CI_COMMIT_REF_NAME
   except:
   - master
 
-pages:
+pages-deploy:
   stage: deploy
   script:
   - apt-get update
