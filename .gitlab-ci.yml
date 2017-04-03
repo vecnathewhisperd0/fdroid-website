@@ -45,9 +45,11 @@ preview:
   stage: test
   script:
    - apt-get update
-   - apt-get install -y npm
-   - npm init --force
+   - apt-get install -y npm nodejs
    - npm install surge
+   # Debian installs nodejs bin, not node bin...
+   # (https://tim.hithlonde.com/2015/node-ubuntu-debian-installation/)
+   - ln -s "$(which nodejs)" /usr/bin/node
    - ./node_modules/.bin/surge --project $OUT_DIR --domain $FULL_URL
   environment:
     name: review/$CI_BUILD_REF_NAME
