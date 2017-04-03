@@ -1,8 +1,17 @@
-# This file is a template, and might need editing before it works on your project.
-# Full project: https://gitlab.com/pages/jekyll
 image: ruby:2.3
 
-test:
+cache:
+  paths:
+   - vendor/ruby
+
+before_script:
+ - ruby -v
+
+variables:
+  OUT_DIR: build
+  URL: $CI_COMMIT_REF_NAME-$CI_PROJECT_NAME-$CI_PROJECT_NAMESPACE.surge.sh
+
+build:
   stage: test
   script:
   - apt-get update
@@ -14,34 +23,56 @@ test:
   - export LC_ALL=en_US.UTF-8
   - apt-get install -y zlib1g-dev
   - gem install jekyll bundler
-  - bundle install
-  - 'echo url: https://$CI_PROJECT_NAMESPACE.gitlab.io > userconfig.yml'
-  - 'echo baseurl: /$CI_PROJECT_NAME >> userconfig.yml'
-  - bundle exec jekyll build -d test --config _config.yml,userconfig.yml --verbose --trace
+  # Pull in the dependencies into the `vendor` dir, which we will cache between pipelines to save time.
+  - bundle install --path vendor
+  - 'echo "url: https://$URL" > userconfig.yml'
+  - 'echo "baseurl: /" >> userconfig.yml'
+  # Use this repo as it is about 1/8th the size of F-Droid, and thus wont take up so much space for gitlab pages.
+  # The default limit seems to be about 100MiB for gitlab.io pages, whereas the main F-Droid repo causes the website
+  # to be 80MiB. This repo results in about 13MiB.
+  #- 'echo fdroid-repo: "https://apt.izzysoft.de/fdroid/repo" >> userconfig.yml'
+  - 'echo fdroid-repo: "https://guardianproject.info/fdroid/repo" >> userconfig.yml'
+  - echo "Additional Jekyll config used for CI" && cat userconfig.yml
+  - bundle exec jekyll build -d $OUT_DIR --config _config.yml,userconfig.yml --verbose --trace
   artifacts:
     paths:
-    - test
+    - $OUT_DIR
   except:
   - master
 
-pages:
-  stage: deploy
+preview:
+  allow_failure: true
+  stage: test
   script:
-  - apt-get update
-  - apt-get install -y locales
-  - echo "en_US UTF-8" > /etc/locale.gen
-  - locale-gen en_US.UTF-8
-  - export LANG=en_US.UTF-8
-  - export LANGUAGE=en_US:en
-  - export LC_ALL=en_US.UTF-8
-  - apt-get install -y zlib1g-dev
-  - gem install jekyll bundler
-  - bundle install
-  - 'echo url: https://$CI_PROJECT_NAMESPACE.gitlab.io > userconfig.yml'
-  - 'echo baseurl: /$CI_PROJECT_NAME >> userconfig.yml'
-  - bundle exec jekyll build -d public --config _config.yml,userconfig.yml
-  artifacts:
-    paths:
-    - public
-  only:
-  - master
+   - apt-get update
+   - apt-get install -y npm
+   - npm init --force
+   - npm install surge
+   - ./node_modules/.bin/surge --project $OUT_DIR --domain $FULL_URL
+  environment:
+    name: review/$CI_BUILD_REF_NAME
+    url: $FULL_URL
+  except:
+   - master
+
+#pages:
+#  stage: deploy
+#  script:
+#  - apt-get update
+#  - apt-get install -y locales
+#  - echo "en_US UTF-8" > /etc/locale.gen
+#  - locale-gen en_US.UTF-8
+#  - export LANG=en_US.UTF-8
+#  - export LANGUAGE=en_US:en
+#  - export LC_ALL=en_US.UTF-8
+#  - apt-get install -y zlib1g-dev
+#  - gem install jekyll bundler
+#  - bundle install
+#  - 'echo url: https://$CI_PROJECT_NAMESPACE.gitlab.io > userconfig.yml'
+#  - 'echo baseurl: /$CI_PROJECT_NAME >> userconfig.yml'
+#  - bundle exec jekyll build -d public --config _config.yml,userconfig.yml
+#  artifacts:
+#    paths:
+#    - public
+#  only:
+#  - master
