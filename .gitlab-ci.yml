@@ -1,5 +1,9 @@
 image: ruby:2.3
 
+stages:
+ - test
+ - deploy
+
 cache:
   paths:
    - vendor/ruby
@@ -9,72 +13,100 @@ before_script:
 
 variables:
   OUT_DIR: build
-  URL: $CI_COMMIT_REF_NAME-$CI_PROJECT_NAME-$CI_PROJECT_NAMESPACE.surge.sh
+  STAGING_URL: $CI_COMMIT_REF_NAME.$CI_PROJECT_NAME.$CI_PROJECT_NAMESPACE.surge.sh
 
 build:
+
   stage: test
+
+  except:
+   - master
+
   script:
-  - apt-get update
-  - apt-get install -y locales
-  - echo "en_US UTF-8" > /etc/locale.gen
-  - locale-gen en_US.UTF-8
-  - export LANG=en_US.UTF-8
-  - export LANGUAGE=en_US:en
-  - export LC_ALL=en_US.UTF-8
-  - apt-get install -y zlib1g-dev
-  - gem install jekyll bundler
-  # Pull in the dependencies into the `vendor` dir, which we will cache between pipelines to save time.
-  - bundle install --path vendor
-  - 'echo "url: https://$URL" > userconfig.yml'
-  - 'echo "baseurl: /" >> userconfig.yml'
-  # Use this repo as it is about 1/8th the size of F-Droid, and thus wont take up so much space for gitlab pages.
-  # The default limit seems to be about 100MiB for gitlab.io pages, whereas the main F-Droid repo causes the website
-  # to be 80MiB. This repo results in about 13MiB.
-  #- 'echo fdroid-repo: "https://apt.izzysoft.de/fdroid/repo" >> userconfig.yml'
-  - 'echo fdroid-repo: "https://guardianproject.info/fdroid/repo" >> userconfig.yml'
-  - echo "Additional Jekyll config used for CI" && cat userconfig.yml
-  - bundle exec jekyll build -d $OUT_DIR --config _config.yml,userconfig.yml --verbose --trace
+   - apt-get update
+   - apt-get install -y locales
+   - echo "en_US UTF-8" > /etc/locale.gen
+   - locale-gen en_US.UTF-8
+   - export LANG=en_US.UTF-8
+   - export LANGUAGE=en_US:en
+   - export LC_ALL=en_US.UTF-8
+   - apt-get install -y zlib1g-dev
+   - gem install jekyll bundler
+   # Pull in the dependencies into the `vendor` dir, which we will cache between pipelines to save time.
+   - bundle install --path vendor
+   - 'echo "url: https://$STAGING_URL" > userconfig.yml'
+   - 'echo "baseurl: \"\"" >> userconfig.yml'
+   # Use this repo as it is about 1/8th the size of F-Droid, and thus wont take up so much space for gitlab pages.
+   # The default limit seems to be about 100MiB for gitlab.io pages, whereas the main F-Droid repo causes the website
+   # to be 80MiB. This repo results in about 13MiB.
+   #- 'echo fdroid-repo: "https://apt.izzysoft.de/fdroid/repo" >> userconfig.yml'
+   - 'echo fdroid-repo: "https://guardianproject.info/fdroid/repo" >> userconfig.yml'
+   - echo "Additional Jekyll config used for CI:" && cat userconfig.yml
+   - bundle exec jekyll build -d $OUT_DIR --config _config.yml,userconfig.yml --verbose --trace
+
   artifacts:
     paths:
-    - $OUT_DIR
-  except:
-  - master
+     - $OUT_DIR
 
+
+# This deploys feature branches to https://surge.sh, a free static site hosting service.
+# See CONTRIBUTING.md for details of how to configure your GitLab project to enable this.
+# Ideally we would use GitLab pages for this, but until they suupport deploying feature
+# branches alongside master branches (https://gitlab.com/gitlab-org/gitlab-pages/issues/33)
+# this is the next best option.
 preview:
+
+  stage: deploy
+
+  except:
+   - master
+
+  # This is allowed to fail because only those who have setup $SURGE_LOGIN and $SURGE_TOKEN
+  # as GitLab secret variables (see CONTRIBUTING.md) are able to preview like this.
   allow_failure: true
-  stage: test
+
   script:
    - apt-get update
    - apt-get install -y npm nodejs
    - npm install surge
-   # Debian installs nodejs bin, not node bin...
-   # (https://tim.hithlonde.com/2015/node-ubuntu-debian-installation/)
+
+   # Debian installs nodejs bin, not node bin (e.g. https://tim.hithlonde.com/2015/node-ubuntu-debian-installation/)
    - ln -s "$(which nodejs)" /usr/bin/node
-   - ./node_modules/.bin/surge --project $OUT_DIR --domain $FULL_URL
+   - ./node_modules/.bin/surge --project $OUT_DIR --domain $STAGING_URL
+
   environment:
+    # Should ideally use $STAGING_URL here, but seems custom variables aren't supported.
+    url: https://$CI_COMMIT_REF_NAME.$CI_PROJECT_NAME.$CI_PROJECT_NAMESPACE.surge.sh
     name: review/$CI_BUILD_REF_NAME
-    url: $FULL_URL
-  except:
+
+
+pages:
+
+  stage: deploy
+
+  only:
    - master
 
-#pages:
-#  stage: deploy
-#  script:
-#  - apt-get update
-#  - apt-get install -y locales
-#  - echo "en_US UTF-8" > /etc/locale.gen
-#  - locale-gen en_US.UTF-8
-#  - export LANG=en_US.UTF-8
-#  - export LANGUAGE=en_US:en
-#  - export LC_ALL=en_US.UTF-8
-#  - apt-get install -y zlib1g-dev
-#  - gem install jekyll bundler
-#  - bundle install
-#  - 'echo url: https://$CI_PROJECT_NAMESPACE.gitlab.io > userconfig.yml'
-#  - 'echo baseurl: /$CI_PROJECT_NAME >> userconfig.yml'
-#  - bundle exec jekyll build -d public --config _config.yml,userconfig.yml
-#  artifacts:
-#    paths:
-#    - public
-#  only:
-#  - master
+  script:
+   - apt-get update
+   - apt-get install -y locales
+   - echo "en_US UTF-8" > /etc/locale.gen
+   - locale-gen en_US.UTF-8
+   - export LANG=en_US.UTF-8
+   - export LANGUAGE=en_US:en
+   - export LC_ALL=en_US.UTF-8
+   - apt-get install -y zlib1g-dev
+   - gem install jekyll bundler
+   - bundle install --path vendor
+
+   # This is where GitLab pages will deploy to by default (e.g. "https://fdroid.gitlab.io/fdroid-website")
+   # so we need to make sure that the Jekyll configuration understands this.
+   - 'echo url: https://$CI_PROJECT_NAMESPACE.gitlab.io > userconfig.yml'
+   - 'echo baseurl: /$CI_PROJECT_NAME >> userconfig.yml'
+   - echo "Additional Jekyll config used for CI:" && cat userconfig.yml
+
+   - bundle exec jekyll build -d public --config _config.yml,userconfig.yml
+
+  artifacts:
+    paths:
+    - public
