@@ -80,6 +80,12 @@ using recent versions of the Android SDK helps.  One specific case is
 starting with Gradle Android Plugin v2.2.2, timestamps in the APK
 file's ZIP header are automatically zeroed out.
 
+There is also an issue where the Android SDK tools force the
+_platform_ version into _AndroidManifest.xml_.  But since the
+revisions of the _platforms_ cannot be installed in parallel, this
+often means the only difference is that version.  For more info, see
+the [Android bug report](https://issuetracker.google.com/issues/37132313).
+
 
 ### Build Server IDs
 
