@@ -1,0 +1,17 @@
+#!/bin/bash
+
+set -e
+set -x
+
+test -e /usr/bin/gitlab-runner
+test -e /root/deploy-whitelist-keyring.gpg
+
+git fetch --tags
+
+gitlab-runner exec docker f-droid.org \
+              --pre-build-script ./prepare-for-deploy.py \
+              --docker-volumes "/root/deploy-whitelist-keyring.gpg:/root/.gnupg/pubring.gpg:ro" \
+              --docker-volumes `pwd`/_site:/builds/output --env DEPLOY_DIR=/builds/output
+
+# TODO put rsync/scp/etc final copy to f-droid.org here
+# rsync -ax _site/build/  f-droid.org:/var/www/

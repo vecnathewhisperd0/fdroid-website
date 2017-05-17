@@ -85,6 +85,8 @@ then copied into place on the _f-droid.org_ servers.
 ## Setting up and running the deploy procedure
 
 The deploy procedure was tested on a machine running Debian/stretch.
+It should be triggered whenever the repo index is published, so it can
+rebuild with the latest app information.
 
 1. [setup docker](https://docs.docker.com/engine/installation/linux/debian/)
 2. [setup gitlab-ci-multi-runner](https://docs.gitlab.com/runner/install/linux-repository.html)
@@ -96,10 +98,5 @@ The deploy procedure was tested on a machine running Debian/stretch.
 ```
 4. get the website source code: `git clone https://gitlab.com/fdroid/fdroid-website`
 5. `cd fdroid-website`
-6.  run the generation
-```console
-# gitlab-runner exec docker f-droid.org --pre-build-script ./prepare-for-deploy.py \
-    --docker-volumes "/root/deploy-whitelist-keyring.gpg:/root/.gnupg/pubring.gpg:ro" \
-    --docker-volumes `pwd`/_site:/builds/output --env DEPLOY_DIR=/builds/output
-```
+6.  run the generation: `./deploy`
 7. deploy the site's files to the webserver (_rsync_, _scp_, etc)
