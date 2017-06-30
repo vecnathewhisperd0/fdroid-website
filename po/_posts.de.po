@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-06-29 14:26+0000\n"
-"Last-Translator: Krombel <krombel@krombel.de>\n"
+"PO-Revision-Date: 2017-06-30 09:41+0000\n"
+"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/weblate-"
 "posts/de/>\n"
 "Language: de\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.15-dev\n"
+"X-Generator: Weblate 2.15\n"
 
 #. type: Title #
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md:1
@@ -34,6 +34,12 @@ msgid ""
 "amounts of data to download in order to just start the app for the first "
 "time."
 msgstr ""
+"Viele Spiele, Kartenwerkzeuge und andere Apps benötigen für ihren Betrieb "
+"große Datenmengen. Die Größe einer APK-Datei für eine Android-App ist auf "
+"100 MB begrenzt, wobei gewöhnlich eine Datei für eine einzige Landkarte "
+"schon weit mehr als 100 MB benötigt. Damit Nutzer Apps möglichst schnell zum "
+"Laufen bringen, sollten sie somit vor dem ersten App-Start nicht den "
+"Download riesiger Datenmengen abwarten müssen."
 
 #. type: Plain text
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md:18
