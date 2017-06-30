@@ -6,8 +6,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-06-30 09:41+0000\n"
+"PO-Revision-Date: 2017-06-30 10:42+0000\n"
 "Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/weblate-"
 "posts/de/>\n"
@@ -52,6 +53,15 @@ msgid ""
 "shipped as an OBB. Then when the app itself is updated (i.e. the APK), it "
 "does not need to include all those assets that are in the OBB file."
 msgstr ""
+"Google schuf OBB, auch bekannt als Erweiterungsdateien (s. “[APK Expansion] "
+"https://developer.android.com/google/play/expansion-files.html“), um ein "
+"flexibles Mittel zur Auslieferung großer Datenmengen bereitzustellen. Diese "
+"Regelung führt zu einer deutlichen Einsparung des Datenverkehrs, da die APK-"
+"Datei und die OBB-Datei getrennt voneinander aktualisiert werden können. Zum "
+"Beispiel muss ein Spielaufbau nicht häufig geändert werden, somit kann er "
+"als OBB ausgeliefert werden. Wenn dann die App selbst (d. h. die APK) "
+"aktualisiert wird, ist es nicht nötig den gesamten Aufbau, der sich in der "
+"OBB-Datei befindet, darin einzuschließen."
 
 #. type: Plain text
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md:25
@@ -63,6 +73,14 @@ msgid ""
 "URLs in case the app itself needs to handle the OBB download/update.  That "
 "is similar to how it works in Google Play."
 msgstr ""
+"OBB-Dateien werden von vielen Apps wie Spielen oder MAPS.ME verwendet. F-"
+"Droid unterstützt OBB, indem die OBB vor der APK heruntergeladen und "
+"installiert werden kann, so dass die OBB-Dateien bereits an Ort und Stelle "
+"und gebrauchsfertig sind, wenn schließlich die APK installiert wird. F-Droid "
+"bietet auch eine ‘Intent‘-Methode für Apps an, um die Adresse (URL) für den "
+"OBB-Download abzurufen, für den Fall dass die App den Download/die "
+"Aktualisierung der OBB selbst erledigen muss. Die Funktionsweise ähnelt der "
+"in Google Play."
 
 #. type: Plain text
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md:27
@@ -72,6 +90,11 @@ msgid ""
 "very easy: just copy them to the same folder where the APKs go, i.e. _/path/"
 "to/fdroid/repo/_."
 msgstr ""
+"Um die OBB-Unterstützung nutzen zu können, benötigen Benutzer mindestens F-"
+"Droid v0.102 und das Repository muss _fdroidserver_v0.7.0 oder neuer "
+"verwenden. Das Hinzufügen von OBB-Dateien zum Repository ist sehr leicht: "
+"Kopieren Sie sie einfach in den selben Ordner, in dem sich die APKs "
+"befinden, d. h. in _/Pfad/zu/fdroid/repo/_."
 
 #. type: Title ##
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md:28
@@ -100,13 +123,15 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md:44
+#, fuzzy
 msgid "`org.fdroid.fdroid.action.GET_OBB_MAIN_URL`"
-msgstr ""
+msgstr "`org.fdroid.fdroid.action.GET_OBB_MAIN_URL`"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md:44
+#, fuzzy
 msgid "`org.fdroid.fdroid.action.GET_OBB_PATCH_URL`"
-msgstr ""
+msgstr "`org.fdroid.fdroid.action.GET_OBB_PATCH_URL`"
 
 #. type: Plain text
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md:47
