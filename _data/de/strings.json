@@ -1,23 +1,37 @@
 {
-    "navigation.browse": "Durchsuchen",
-    "navigation.forum": "Forum",
-    "navigation.documentation": "Dokumentation",
-    "navigation.contribute": "Mitmachen",
-    "navigation.about": "Über",
-    "index.title": "Was ist F-Droid?",
-    "index.download_fdroid": "F-Droid herunterladen",
-    "sidebars.donate.heading": "Spenden",
-    "sidebars.donate.via_paypal": "Spenden",
-    "sidebars.donate.via_bank_transfer": "Überweisung",
-    "sidebars.donate.bank_transfer_name": "Name",
-    "sidebars.last_updated.heading": "Letzte Änderung",
-    "navigation.news": "Nachrichten",
-    "index.screenshot": "App-Screenshot von F-Droid",
-    "sidebars.donate.powered_by_donations": "F-Droid wird durch Ihre Spenden unterstützt!",
-    "sidebars.donate.via_flattr": "Flattr",
-    "sidebars.donate.via_bitcoin": "Bitcoin",
-    "sidebars.news.heading": "Neuigkeiten",
-    "index.introduction": "F-Droid ist ein [installierbarer](https://f-droid.org/FDroid.apk) Katalog mit FOSS (Freie Open Source Software) Apps für Android. Der Client macht es einfach nach Apps zu suchen, Sie zu installieren und über Updates benachrichtigt zu werden.",
-    "navigation.issues": "Probleme",
-    "sidebars.latest_packages.heading": "Neueste Apps"
+    "index": {
+        "download_fdroid": "F-Droid herunterladen", 
+        "introduction": "F-Droid ist ein [installierbarer](https://f-droid.org/FDroid.apk) Katalog mit FOSS-Apps (Free and Open Source Software = kostenlose und quelltextoffene Anwendungen) für Android. Der Client erleichtert die Suche nach Apps, deren Installation und Aktualisierungen.", 
+        "screenshot": "App-Screenshot von F-Droid", 
+        "title": "Was ist F-Droid?"
+    }, 
+    "navigation": {
+        "about": "Über", 
+        "browse": "Entdecken", 
+        "contribute": "Mitmachen", 
+        "documentation": "Dokumentation", 
+        "forum": "Forum", 
+        "issues": "Probleme", 
+        "news": "Nachrichten"
+    }, 
+    "sidebars": {
+        "donate": {
+            "bank_transfer_name": "Name", 
+            "heading": "Spenden", 
+            "powered_by_donations": "F-Droid wird durch Ihre Spenden unterstützt!", 
+            "via_bank_transfer": "Überweisung", 
+            "via_bitcoin": "Bitcoin", 
+            "via_flattr": "Flattr", 
+            "via_paypal": "Spenden"
+        }, 
+        "last_updated": {
+            "heading": "Aktualisierte Apps"
+        }, 
+        "latest_packages": {
+            "heading": "Neuerscheinungen"
+        }, 
+        "news": {
+            "heading": "Schlagzeilen"
+        }
+    }
 }
