@@ -6,14 +6,18 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2017-07-05 10:33+0000\n"
+"Last-Translator: Luca D'Amico <damico.luca91@live.it>\n"
+"Language-Team: Italian <https://hosted.weblate.org/projects/f-droid/website-"
+"docs/it/>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.16-dev\n"
 
 #. type: Title #
 #: build/_pages/md/about.md:1
@@ -30,6 +34,11 @@ msgid ""
 "reviews and other features covering all things Android and software-freedom "
 "related."
 msgstr ""
+"F-Droid è un robot con una passione per il software Libero e a Sorgente "
+"Aperto (FOSS) sulla piattaforma Android. Su questo sito troverai un "
+"repository di app FOSS, insieme ad un client per Android per eseguire "
+"installazioni e aggiornamenti, notizie, recensioni e altre caratteristiche "
+"che trattano tutto su Android e riguardano la libertà del software."
 
 #. type: Plain text
 #: build/_pages/md/about.md:6
@@ -37,6 +46,8 @@ msgid ""
 "F-Droid is operated by F-Droid Limited, a non-profit organisation registered "
 "in England (no. 8420676)."
 msgstr ""
+"F-Droid è operato dalla F-Droid Limited, un'organizzazione non-profit "
+"registrata in Inghilterra (no. 8420676)."
 
 #. type: Plain text
 #: build/_pages/md/about.md:8
@@ -48,6 +59,12 @@ msgid ""
 "If you want to help, you can [join us]({{ \"/contribute/\" | prepend: site."
 "baseurl }})."
 msgstr ""
+"Puoi parlare di F-Droid o richiedere aiuto su IRC nel canale [#fdroid su "
+"FreeNode](https://webchat.freenode.net/?channels=%23fdroid). Le discussioni "
+"su IRC sono registrate su [BotBot.me](https://botbot.me/freenode/fdroid). "
+"Puoi anche contattarci direttamente per email a "
+"[team@f-droid.org](mailto:team@f-droid.org). Se vuoi aiutarci, puoi [unirti "
+"a noi]({{ \"/contribute/\" | prepend: site.baseurl }})."
 
 #. type: Plain text
 #: build/_pages/md/about.md:10
@@ -56,6 +73,9 @@ msgid ""
 "additional artwork, are by Robert Martinez. All are dual licensed under CC-"
 "BY-SA 3.0 Unported or GPLv3+."
 msgstr ""
+"Il logo di F-Droid è stato creato da William Theaker. Gli aggiornamenti su "
+"di esso, e le opere aggiuntive, sono di Robert Martinez. Entrambi sono "
+"rilasciati sotto doppia licenza CC-BY-SA 3.0 Unported o GPLv3+."
 
 #. type: Plain text
 #: build/_pages/md/about.md:12
@@ -64,6 +84,9 @@ msgid ""
 "Commons Attribution-ShareAlike 3.0 License](http://creativecommons.org/"
 "licenses/by-sa/3.0/)."
 msgstr ""
+"I contenuti delle sezioni novità e recensioni sono rilasciati sotto licenza ["
+"Creative Commons Attribution-ShareAlike 3.0 "
+"License](http://creativecommons.org/licenses/by-sa/3.0/)."
 
 #. type: Plain text
 #: build/_pages/md/about.md:14
@@ -72,12 +95,15 @@ msgid ""
 "png \"Creative Commons Logo\")](http://creativecommons.org/licenses/by-"
 "sa/3.0/)"
 msgstr ""
+"[![Logo Creative Commons](https://i.creativecommons.org/l/by-sa/3.0/"
+"88x31.png \"Creative Commons Logo\")](http://creativecommons.org/licenses/by-"
+"sa/3.0/)"
 
 #. type: Title ###
 #: build/_pages/md/about.md:15
 #, no-wrap
 msgid "Terms, etc."
-msgstr ""
+msgstr "Termini, ecc."
 
 #. type: Plain text
 #: build/_pages/md/about.md:18
@@ -89,6 +115,14 @@ msgid ""
 "source code is checked for potential security or privacy issues. This "
 "checking is far from exhaustive though, and there are no guarantees."
 msgstr ""
+"F-Droid è un progetto [volontario]({{ \"/contribute/\" | prepend: "
+"site.baseurl }}) non-profit. Benché ogni sforzo è stato fatto per "
+"assicurarci che ogni cosa sul repository è sicura da installare, lo usi A "
+"TUO RISCHIO.\n"
+"Quando possibile, le applicazioni sul repository sono generate dal sorgente, "
+"e questo codice sorgente è verificato per evitare potenziali problemi di "
+"sicurezza o di privacy. Questo controllo però è lungi dall'essere esaustivo, "
+"e non vengono fornite garanzie."
 
 #. type: Plain text
 #: build/_pages/md/about.md:20
@@ -108,7 +142,7 @@ msgstr ""
 #: build/_pages/md/about.md:21
 #, no-wrap
 msgid "Contributors"
-msgstr ""
+msgstr "Contributori"
 
 #. type: Plain text
 #: build/_pages/md/about.md:25
@@ -116,11 +150,13 @@ msgid ""
 "The F-Droid project was founded in 2010 by Ciaran Gultnieks, and is brought "
 "to you by at least the following people:"
 msgstr ""
+"Il progetto F-Droid è stato fondato nel 2010 da Ciaran Gultnieks, ed è stato "
+"portato avanti da almeno le seguenti persone:"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Alterechtschreibung"
-msgstr ""
+msgstr "Alterechtschreibung"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
