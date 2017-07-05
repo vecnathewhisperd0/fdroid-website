@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-07-02 21:58+0000\n"
+"PO-Revision-Date: 2017-07-05 22:36+0000\n"
 "Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-"
 "posts/de/>\n"
@@ -133,13 +133,11 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md:44
-#, fuzzy
 msgid "`org.fdroid.fdroid.action.GET_OBB_MAIN_URL`"
 msgstr "`org.fdroid.fdroid.action.GET_OBB_MAIN_URL`"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md:44
-#, fuzzy
 msgid "`org.fdroid.fdroid.action.GET_OBB_PATCH_URL`"
 msgstr "`org.fdroid.fdroid.action.GET_OBB_PATCH_URL`"
 
@@ -230,7 +228,6 @@ msgstr ""
 
 #. type: Plain text
 #: build/_posts/md/2017-02-20-new-forum.md:30
-#, fuzzy
 msgid ""
 "Because of temporary limitations of all F-Droid volunteers it was not "
 "possible to move the old forum data to the new one which means that you have "
@@ -325,7 +322,7 @@ msgstr ""
 
 #. type: Plain text
 #: build/_posts/md/2017-04-04-new-ux.md:14
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "{: .gallery}\n"
 " * ![Version 0.11]({{ site.baseurl }}/assets/posts/2017-04-04-new-ux/0.11.png)\n"
@@ -383,7 +380,7 @@ msgstr ""
 
 #. type: Plain text
 #: build/_posts/md/2017-04-04-new-ux.md:33
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "{: .gallery}\n"
 " * ![\"Latest\" screen]({{ site.baseurl }}/assets/posts/2017-04-04-new-ux/latest.png)\n"
