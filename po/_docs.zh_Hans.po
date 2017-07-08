@@ -6,20 +6,24 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2017-07-08 13:16+0000\n"
+"Last-Translator: sima <lin2s@riseup.net>\n"
+"Language-Team: Chinese (Simplified) "
+"<https://hosted.weblate.org/projects/f-droid/website-docs/zh_Hans/>\n"
 "Language: zh_Hans\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2.16-dev\n"
 
 #. type: Title #
 #: build/_pages/md/about.md:1
 #, no-wrap
 msgid "About"
-msgstr ""
+msgstr "关于"
 
 #. type: Plain text
 #: build/_pages/md/about.md:4
@@ -30,13 +34,15 @@ msgid ""
 "reviews and other features covering all things Android and software-freedom "
 "related."
 msgstr ""
+"F-Droid 是一个致力于 Android 系统自由开源软件(FOSS)的应用平台。F-Droid 网址提供各种 FOSS 应用，其 Android "
+"客户端可安装和更新应用，还提供新闻、评论以及其他 Android 和软件自由相关的功能。"
 
 #. type: Plain text
 #: build/_pages/md/about.md:6
 msgid ""
 "F-Droid is operated by F-Droid Limited, a non-profit organisation registered "
 "in England (no. 8420676)."
-msgstr ""
+msgstr "F-Droid 运营方为 F-Droid Limited，一家注册于英格兰的非盈利机构（编号 8420676）。"
 
 #. type: Plain text
 #: build/_pages/md/about.md:8
@@ -48,6 +54,11 @@ msgid ""
 "If you want to help, you can [join us]({{ \"/contribute/\" | prepend: site."
 "baseurl }})."
 msgstr ""
+"讨论 F-Droid 或获取帮助，请访问 IRC 频道 [ FreeNode 上的 "
+"#fdroid](https://webchat.freenode.net/?channels=%23fdroid)。IRC 讨论记录位于 "
+"[BotBot.me](https://botbot.me/freenode/fdroid)。另外，可通过电子邮件与我们直接联系： "
+"[team@f-droid.org](mailto:team@f-droid.org)。如需帮助，请[加入我们]({{ \"/contribute/\" "
+"| prepend: site.baseurl }})。"
 
 #. type: Plain text
 #: build/_pages/md/about.md:10
@@ -56,6 +67,8 @@ msgid ""
 "additional artwork, are by Robert Martinez. All are dual licensed under CC-"
 "BY-SA 3.0 Unported or GPLv3+."
 msgstr ""
+"F-Droid 图标由 William Theaker 制作。图标更新和其他艺术作品由 Robert Martinez 制作。全部作品为双重授权：CC-"
+"BY-SA 3.0 Unported 或 GPLv3+。"
 
 #. type: Plain text
 #: build/_pages/md/about.md:12
@@ -64,6 +77,8 @@ msgid ""
 "Commons Attribution-ShareAlike 3.0 License](http://creativecommons.org/"
 "licenses/by-sa/3.0/)."
 msgstr ""
+"新闻与评论部分的内容依据 [Creative Commons Attribution-ShareAlike 3.0 "
+"License](http://creativecommons.org/licenses/by-sa/3.0/) 授权。"
 
 #. type: Plain text
 #: build/_pages/md/about.md:14
@@ -72,12 +87,15 @@ msgid ""
 "png \"Creative Commons Logo\")](http://creativecommons.org/licenses/by-"
 "sa/3.0/)"
 msgstr ""
+"[![Creative Commons Logo](https://i.creativecommons.org/l/by-sa/3.0/"
+"88x31.png \"Creative Commons Logo\")](http://creativecommons.org/licenses/by-"
+"sa/3.0/)"
 
 #. type: Title ###
 #: build/_pages/md/about.md:15
 #, no-wrap
 msgid "Terms, etc."
-msgstr ""
+msgstr "条款等"
 
 #. type: Plain text
 #: build/_pages/md/about.md:18
@@ -108,7 +126,7 @@ msgstr ""
 #: build/_pages/md/about.md:21
 #, no-wrap
 msgid "Contributors"
-msgstr ""
+msgstr "参与者"
 
 #. type: Plain text
 #: build/_pages/md/about.md:25
@@ -396,20 +414,20 @@ msgstr ""
 #: build/_pages/md/contribute.md:1
 #, no-wrap
 msgid "Contribute"
-msgstr ""
+msgstr "参与"
 
 #. type: Plain text
 #: build/_pages/md/contribute.md:3 build/_docs/md/How_to_Help.md:5
 msgid ""
 "The project is entirely developed and maintained by volunteers. You can help "
 "in the following ways:"
-msgstr ""
+msgstr "该项目完全由志愿者开放和维护。您也可以帮忙，方式如下："
 
 #. type: Title ###
 #: build/_pages/md/contribute.md:4
 #, no-wrap
 msgid "Report Problems"
-msgstr ""
+msgstr "报告问题"
 
 #. type: Plain text
 #: build/_pages/md/contribute.md:7
@@ -8785,7 +8803,7 @@ msgstr ""
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md:24
 #, no-wrap
 msgid "Setup"
-msgstr ""
+msgstr "设置"
 
 #. type: Plain text
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md:31
