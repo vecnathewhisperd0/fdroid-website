@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-07-08 04:37+0000\n"
+"PO-Revision-Date: 2017-07-08 04:39+0000\n"
 "Last-Translator: Chi-Hsun Tsai <chihsun.tsai@gmail.com>\n"
 "Language-Team: Chinese (Traditional) "
 "<https://hosted.weblate.org/projects/f-droid/website-posts/zh_Hant/>\n"
@@ -195,7 +195,7 @@ msgid ""
 "to re-register yourself.  Independent from this all old topics remain at the "
 "current URLs for now."
 msgstr ""
-"考慮到全部 F-Droid 志願者的限制，無法把舊資料自動轉入新論壇，所以必須自行在新論壇重新註冊，而所有舊論壇區的討論主題現在仍然維持目前的URLs"
+"考慮到全部 F-Droid 志願者的限制，無法把舊資料自動轉入新論壇，所以必須自行在新論壇重新註冊，而所有舊論壇區的討論主題現在仍然維持目前的 URLs。"
 
 #. type: Plain text
 #: build/_posts/md/2017-02-20-new-forum.md:34
@@ -264,8 +264,8 @@ msgid ""
 "However, the F-Droid UX has never changed much from [the original three tab "
 "layout](https://f-droid.org/posts/f-droid-repository-alpha/):"
 msgstr ""
-" F-Droid 用戶體驗界面未曾改變太多[原來的三個分頁版型](https://f-droid.org/posts/f-droid-"
-"repository-alpha/):"
+"F-Droid 用戶體驗界面未曾改變太多[原來的三個分頁版型](https://f-droid.org/posts/f-droid-repository-"
+"alpha/)："
 
 #. type: Plain text
 #: build/_posts/md/2017-04-04-new-ux.md:14
@@ -292,7 +292,7 @@ msgid ""
 "Over the past 6 months, the F-Droid team has been busy redesigning a modern "
 "UX which will help bring F-Droid into the present.  Some of the big ticket "
 "items include:"
-msgstr "過去六個月來，F-Droid 團隊忙於重新設計現代版的用戶使用體驗，一些重大的變化"
+msgstr "過去六個月來，F-Droid 團隊忙於重新設計現代版的用戶使用體驗，一些重大的變化："
 
 #. type: Bullet: ' * '
 #: build/_posts/md/2017-04-04-new-ux.md:25
@@ -377,4 +377,4 @@ msgstr "未來幾週 v0.103測試版即將發佈，歡迎用戶的回饋與建�
 msgid ""
 "This is one of the many improvements happening to the broader F-Droid "
 "ecosystem in 2017, so keep an eye out for more!"
-msgstr "這是2017年 F-Droid 生態系重要的改善之一, 請繼續關注。"
+msgstr "這是2017年 F-Droid 生態系重要的改善之一, 請繼續關注！"
