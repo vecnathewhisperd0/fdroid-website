@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-07-08 04:27+0000\n"
+"PO-Revision-Date: 2017-07-08 04:37+0000\n"
 "Last-Translator: Chi-Hsun Tsai <chihsun.tsai@gmail.com>\n"
 "Language-Team: Chinese (Traditional) "
 "<https://hosted.weblate.org/projects/f-droid/website-posts/zh_Hant/>\n"
@@ -49,6 +49,10 @@ msgid ""
 "shipped as an OBB. Then when the app itself is updated (i.e. the APK), it "
 "does not need to include all those assets that are in the OBB file."
 msgstr ""
+"Google 創建了 OBB 又名 \"[APK 擴展](https://developer.android.com/google/play"
+"/expansion-files.html)\" 檔案以提供彈性的方式來傳送大量的資料。這樣的安排也能節省頻寛，因為 APK 檔和 OBB "
+"檔可以各自分開更新。例如, 某個遊戲的資源不會經常變動，因此可以作成一個 OBB。 當此應用更新時 (i.e. APK), 它無需包含存在 OBB "
+"檔案的資源。"
 
 #. type: Plain text
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md:25
@@ -121,6 +125,8 @@ msgid ""
 "the file ultimately ends up in _Android/obb/<packageName>_ on the\n"
 "device's External Storage.\n"
 msgstr ""
+"利用習慣的方式開啟 URL 下載, 確保檔案會自動地存放於 _Android/obb/&lt;packageName&gt;_ on 設備的外部儲存空間。"
+"\n"
 
 #. type: Title #
 #: build/_posts/md/2017-02-20-new-forum.md:1
@@ -269,6 +275,11 @@ msgid ""
 " * ![Version 0.11]({{ site.baseurl }}/assets/posts/2017-04-04-new-ux/0.11.png)\n"
 " * ![Version 0.102]({{ site.baseurl }}/assets/posts/2017-04-04-new-ux/0.102.png)\n"
 msgstr ""
+"{: .gallery}\n"
+" * ![Version 0.11]({{ site.baseurl }}/assets/posts/2017-04-04-new-"
+"ux/0.11.png)\n"
+" * ![Version 0.102]({{ site.baseurl }}/assets/posts/2017-04-04-new-"
+"ux/0.102.png)\n"
 
 #. type: Plain text
 #: build/_posts/md/2017-04-04-new-ux.md:16
@@ -320,6 +331,19 @@ msgid ""
 " * ![App details screen (with screenshots)]({{ site.baseurl }}/assets/posts/2017-04-04-new-ux/appdetails-a.png)\n"
 " * ![App details screen (without screenshots)]({{ site.baseurl }}/assets/posts/2017-04-04-new-ux/appdetails-b.png)\n"
 msgstr ""
+"{: .gallery}\n"
+" * ![\"最新\"\" 畫面]({{ site.baseurl }}/assets/posts/2017-04-04-new-"
+"ux/latest.png)\n"
+" * ![\"類別\" 畫面]({{ site.baseurl }}/assets/posts/2017-04-04-new-"
+"ux/categories.png)\n"
+" * ![\"附近\" 畫面]({{ site.baseurl }}/assets/posts/2017-04-04-new-ux/nearby.png)"
+"\n"
+" * ![\"昇級\" 畫面]({{ site.baseurl }}/assets/posts/2017-04-04-new-"
+"ux/updates.png)\n"
+" * ![應用程式詳情畫面 (帶截圖)]({{ site.baseurl }}/assets/posts/2017-04-04-new-"
+"ux/appdetails-a.png)\n"
+" * ![應用程式詳情畫面 (無截圖)]({{ site.baseurl }}/assets/posts/2017-04-04-new-"
+"ux/appdetails-b.png)\n"
 
 #. type: Plain text
 #: build/_posts/md/2017-04-04-new-ux.md:37
@@ -346,7 +370,7 @@ msgid ""
 "Over the coming weeks you will see alpha releases for v0.103.  We encourage "
 "your feedback and suggestions about how to continually improve the F-Droid "
 "client."
-msgstr ""
+msgstr "未來幾週 v0.103測試版即將發佈，歡迎用戶的回饋與建議，好讓我們持續來改善 F-Droid 客戶端應用。"
 
 #. type: Plain text
 #: build/_posts/md/2017-04-04-new-ux.md:45
