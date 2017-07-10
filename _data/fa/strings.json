@@ -1,1 +1,37 @@
-{}
+{
+    "index": {
+        "download_fdroid": "بارگیری اف‌دروید", 
+        "introduction": "اف‌دروید یک فهرست [قابل نصب](https://f-droid.org/FDroid.apk) از برنامه‌های کاربردی [نرم‌افزار آزاد](https://www.gnu.org/philosophy/free-sw.fa.html) برای بن‌سازهٔ اندروید است. کارخواه اف‌دروید، مرور، نصب و ارتقا را روی دستگاهتان آسان می‌کند.", 
+        "screenshot": "نماگرفت کارهٔ اندروید اف‌دروید", 
+        "title": "اف‌دروید چیست؟"
+    }, 
+    "navigation": {
+        "about": "درباره", 
+        "browse": "مرور", 
+        "contribute": "مشارکت", 
+        "documentation": "مستندات", 
+        "forum": "انجمن", 
+        "issues": "مشکلات", 
+        "news": "خبرها"
+    }, 
+    "sidebars": {
+        "donate": {
+            "bank_transfer_name": "نام", 
+            "heading": "اعانه", 
+            "powered_by_donations": "اف‌دروید از اعانه‌های شما نیرو می‌گیرد!", 
+            "via_bank_transfer": "حوالهٔ بانکی", 
+            "via_bitcoin": "بیت‌کوین", 
+            "via_flattr": "فلتر", 
+            "via_paypal": "اعانه"
+        }, 
+        "last_updated": {
+            "heading": "آخرین به‌روز رسانی"
+        }, 
+        "latest_packages": {
+            "heading": "جدیدترین کاره‌ها"
+        }, 
+        "news": {
+            "heading": "خبرها"
+        }
+    }
+}
