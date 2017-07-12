@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-07-12 13:57+0000\n"
-"Last-Translator: anonymous <>\n"
+"PO-Revision-Date: 2017-07-12 13:59+0000\n"
+"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/de/>\n"
 "Language: de\n"
@@ -51,6 +51,7 @@ msgstr ""
 
 #. type: Plain text
 #: build/_pages/md/about.md:8
+#, fuzzy
 msgid ""
 "You can discuss F-Droid or get help on IRC in channel [#fdroid on FreeNode]"
 "(https://webchat.freenode.net/?channels=%23fdroid). The discussions on IRC "
@@ -62,10 +63,10 @@ msgstr ""
 "Sie können im IRC-Raum [#fdroid on "
 "FreeNode](https://webchat.freenode.net/?channels=%23fdroid) über F-Droid "
 "diskutieren oder Hilfe erhalten. Die Diskussionen im Chat werden auf "
-"[BotBot.me](https://botbot.me/freenode/fdroid) protokolliert. Sie können "
+"[BotBot.me](https://botbot.me/freenode/fdroid) aufgezeichnet. Sie können "
 "auch direkt eine Mail an [team@f-droid.org](mailto:team@f-droid.org) "
 "schreiben. Wenn Sie mithelfen möchten, können Sie [sich uns anschließen]({{ "
-"\"/contribute/\" | prepend: site.baseurl }}). "
+"\"/Mitarbeit/\" | prepend: site.baseurl }})."
 
 #. type: Plain text
 #: build/_pages/md/about.md:10
