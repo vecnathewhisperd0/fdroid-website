@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-07-12 13:59+0000\n"
-"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
+"PO-Revision-Date: 2017-07-12 14:00+0000\n"
+"Last-Translator: anonymous <>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/de/>\n"
 "Language: de\n"
@@ -105,7 +105,7 @@ msgstr ""
 #: build/_pages/md/about.md:15
 #, no-wrap
 msgid "Terms, etc."
-msgstr ""
+msgstr "Bestimmungen"
 
 #. type: Plain text
 #: build/_pages/md/about.md:18
@@ -117,6 +117,14 @@ msgid ""
 "source code is checked for potential security or privacy issues. This "
 "checking is far from exhaustive though, and there are no guarantees."
 msgstr ""
+"F-Droid ist ein nicht kommerzielles Freiwilligenprojekt. Trotz aller "
+"Anstrengungen, die unternommen werden, um Sicherheit bei allen "
+"Installationen aus der Paketquelle zu gewährleisten, verwenden Sie sie AUF "
+"EIGENE GEFAHR. Wo immer möglich werden Anwendungen in der Paketquelle aus "
+"dem Quellcode erstellt, und dieser Code wird hinsichtlich potentieller "
+"Sicherheits- und Datenschutzprobleme überprüft. Die Prüfung ist jedoch weit "
+"davon entfernt, vollständig zu sein, und es können keine Garantien gegeben "
+"werden. "
 
 #. type: Plain text
 #: build/_pages/md/about.md:20
