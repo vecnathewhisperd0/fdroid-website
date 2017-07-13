@@ -6,20 +6,24 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2017-07-13 16:16+0000\n"
+"Last-Translator: tenzin tselek <omaahum99@yahoo.in>\n"
+"Language-Team: Tibetan <https://hosted.weblate.org/projects/f-droid/website-"
+"posts/bo/>\n"
 "Language: bo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2.16-dev\n"
 
 #. type: Title #
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md:1
 #, no-wrap
 msgid "\"F-Droid supports APK Expansion Files aka OBB\""
-msgstr ""
+msgstr "\"ཨིཕ་རོཌ་གྱིས་APKཡིག་ཆ་རྒྱ་སྐྱེད་ aka OBB རྒྱབ་སྐྱོར་བྱེད་ཀྱི་ཡོད།"
 
 #. type: Plain text
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md:9
@@ -31,6 +35,13 @@ msgid ""
 "amounts of data to download in order to just start the app for the first "
 "time."
 msgstr ""
+"རྩེད་ཆས་དང་ས་ཁྲ་བཟོ་བ། དེ་བཞིན་མཉེན་ཆས་གཞན་མང་པོའི་ནང་ལས་ཀ་བྱེད་པར་ཡིག་ཆའི་རི"
+"གས་ཕོན་ཆེན་པོ་དགོས་ཀྱི་ཡོད། ཨེན་ཀྲོཌ་མཉེན་ཆས་གྱི་APK "
+"ཡིག་ཆ་རྣམས་ཆེ་ཆུང་ཚད་གཞི་1OOMB ཡོད་པ་རེད། "
+"ཡིན་ནའང་ཡོངས་གྲགས་ལ་ལུས་པ་གཅིག་གི་ས་ཁྲའི་ཡིག་ཆ་གཅིག་པུ་ལ་ཆེ་ཆུང་100MB "
+"ལས་མང་བ་ཡོད། དེས་མ་ཟད་སྤྱོད་པ་པོ་རྣམས་ཀྱིས་ག་ཚོད་ཐུབ་ཐུབ་ཀྱི་མགྱོགས་བེད་སྤྱོད"
+"་གཏོང་ཐུབ་པའི་ཆེད་དུ་མཉེས་ཆས་ཐོག་མར་ཁ་ཕྱེས་པའི་སྐབས་སུ་ཡིག་ཆ་ཕོན་ཆེན་པོ་ཕབ་ལེ"
+"ན་བྱས་པ་ལ་འགུག་དགོས་མེད།."
 
 #. type: Plain text
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md:18
@@ -43,6 +54,16 @@ msgid ""
 "shipped as an OBB. Then when the app itself is updated (i.e. the APK), it "
 "does not need to include all those assets that are in the OBB file."
 msgstr ""
+"གྷུ་གྷལ་གྱིས་OBB aka \"[APK Expansion]བཟོས་ཡོད།\n"
+"(https://developer.android.com/google/play/expansion-files.html)\""
+"འདི་ནི་ཡིག་ཆ་ཕོན་ཆེན་པོ་ཡོད་པ་དེ་དག་སྟབས་བདེ་པོའི་ངང་ནས་གཏོང་ཐུབ་ཀྱ་ཡོད། APK "
+"ཡིག་ཆ་དང་OBB ཡིག་ཆ་གཉིས་སོ་སོ་ནས་གསར་བསྒྱུར་བྱེད་ཐུབ་ཀྱི་ཡོད་ཙང་། "
+"འདི་གྲ་སྒྲིག་བྱས་པས་bandwith མང་པོ་ཉར་ཚགས་ཐུབ་ཀྱི་ཡོད། དཔེར་ན། "
+"རྩེད་ཆས་ཀྱི་ཁྱད་ཆོས་རིགས་རྣམས་ཡང་སེ་བརྗེ་པོ་རྒྱབ་དགོས་ཀྱི་མེད། "
+"སོང་ཙང་དེ་ཚོ་OBBཡིས་སྐྱེལ་འདྲེན་བྱེད་ཐུབ། "
+"དེའི་རྗེས་སུ་མཉེན་ཆས་དེ་ག་རང་གསར་བསྒྱུར་བྱས་པའི་སྐབས་སུ (དེ་ནི་ APK) OBB ཡིག་"
+"ཆའི་ནང་དུ་ཡོད་པའི་མཉེན་ཆས་ཀྱི་ཁྱད་ཆོས་དེ་དག་འདིའི་ནང་ཚུད་དགོས་ཀྱི་ཡོད་པ་མ་རེད"
+"།."
 
 #. type: Plain text
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md:25
@@ -54,6 +75,14 @@ msgid ""
 "URLs in case the app itself needs to handle the OBB download/update.  That "
 "is similar to how it works in Google Play."
 msgstr ""
+"OBB ཡིག་ཆ་འདི་རྩེད་ཆས་དང་MAPS.ME "
+"སོགས་མཉེན་ཆས་མང་པོས་བེད་སྤྱོད་བྱེད་ཀྱི་ཡོད་པ་རེད། ཨེཕ་རོཌ་ཡིས་OBB "
+"ངོས་ལེན་བྱེད་ཀྱི་ཡོད་ལ། དེ་ཡང་APK "
+"ཕབ་ལེན་དང་འགྲིག་བཅུག་མ་བྱེད་གོང་ནས་OBB་ཕབ་ལེན་དང་འགྲིག་བཅུག་བྱེད་ཀྱི་ཡོད། "
+"གལ་སྲིད་མཉེས་ཆས་ཁོ་རང་རང་གིས་OBBཕབ་ལེན་/གསར་བསྒྱུར་བྱེད་དགོས་པའི་ཚེ། "
+"ཨེཕ་རོཌ་ཡིས་མཉེས་ཆས་འདིས་OBB ཕབ་ལེན་ URLs ལེན་པའི་ཆེད་དུ་ \"དགོས་དོན་\""
+"ཀྱི་ཐབས་ལམ་ཞིག་ཀྱང་སྟོན་གྱི་ཡོད། འགྲོ་ལུགས་འདི་ནི་གྷུ་གྷལ་རྩེད་ཆས་ནང་གི་ལས་ཀ་"
+"བྱེད་སྟངས་དང་གཅིག་མཚུངས་ཆགས་ཀྱི་ཡོད་པ་རེད།."
 
 #. type: Plain text
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md:27
@@ -63,12 +92,17 @@ msgid ""
 "very easy: just copy them to the same folder where the APKs go, i.e. _/path/"
 "to/fdroid/repo/_."
 msgstr ""
+"OBB རྒྱབ་སྐྱོར་བེད་སྤྱོད་བྱེད་པ་ལ་སྤྱོད་པ་པོར་མ་མཐའ་ཡིན་ཡང་ཨེཕ་རོཌ་ཐོན་"
+"v0.102 འདི་དགོས་པ་དང་། རེ་པོ་ཐོན་_fdroidserver_ v0.7.0 "
+"འདི་འམ་ཡང་ན་འདི་ལས་ཐོན་གསར་བ་ངེས་པར་དུ་བེད་སྤྱོད་བྱེད་དགོས། རེ་པོ་སྒང་ལ་OBB "
+"ཡིག་ཆ་ཁ་སྣོན་བྱེད་རྒྱུ་ལས་སླ་པོ་རེད།:APKs "
+"འགྲོ་སའི་ཡིག་ཁུག་དེ་ག་རང་ལ་ཕབ་ཤུས་བྱེད་_/path/to/fdroid/repo/_."
 
 #. type: Title ##
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md:28
 #, no-wrap
 msgid "Developer Usage"
-msgstr ""
+msgstr "བཟོ་མཁན་གྱི་ལམ་སྲོལ།"
 
 #. type: Plain text
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md:38
@@ -81,6 +115,16 @@ msgid ""
 "google/play/licensing/index.html)  service for this, F-Droid provides a "
 "simple method that is all free software."
 msgstr ""
+"མཉེས་ཆས་ཀྱི་ནང་ལ་OBB "
+"ཡིག་ཆ་བེད་སྤྱོད་གཏོང་དགོས་པའི་རྒྱུ་མཚན་ནི་མཉེས་ཆས་གསོག་ཉར་ཁང་ནས་OBB "
+"ཡིག་ཆ་འགྲིག་བཅུག་བྱེད་པའི་ངེས་པ་མེད་པའི་རྐྱེན་གྱིས་རེད། སོང་ཙང་མཉེས་ཆས་འགོ་བཙ"
+"ུགས་ཐུབ་ཀྱང་དེའི་ནང་རེ་སྒུག་བྱེད་པའི་OBBཡིག་ཆ་འདིའི་ནང་མེད། "
+"གནས་སྐབས་དེ་འདྲའི་སྐབས་སུ་མཉེས་ཆས་འདི་ངེས་པར་དུ་ཕབ་ལེན་བྱས་ནས་OBB "
+"ཡིག་ཆ་འགྲིག་བཅུག་བྱེད་དགོས། "
+"གྷུ་གྷལ་མཉེན་ཆས་ཀྱིས་ཀྱང་དེ་ལྟར་ལམ་སྟོན་བྱེད་ཀྱི་ཡོད། "
+"[མཉེན་ཆས་ཆོག་མཆན་ལག་ཁྱེར།]\n"
+"(https://developer.android.com/google/play/licensing/index.html)ཨེཕ་རོཌ་གྱིས་"
+"ཐབས་ལམ་ལས་སླ་པོའི་ཐོག་ནས་མཉེན་ཆས་རིན་མེད་སྟེར་གྱི་ཡོད།"
 
 #. type: Plain text
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md:41
@@ -88,16 +132,20 @@ msgid ""
 "To get the URL for the two possible OBB files, send an `Intent` to F-Droid "
 "using these _Actions_:"
 msgstr ""
+"URL དེ་བཞིན་OBBཡིན་མཁན་གྱི་ཡིག་ཆ་གང་རུང་གཉིས་ལ་ཐོབ་པ་ལ། "
+"ཨེཕ་རོཌ་ལ་སྒང་ལ་_བྱ་བ་_འདི་བེད་སྤྱོད་བྱས་ནས་ 'དགོས་དོན་ 'གཏོང་།:"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md:44
+#, fuzzy
 msgid "`org.fdroid.fdroid.action.GET_OBB_MAIN_URL`"
-msgstr ""
+msgstr "`org.fdroid.fdroid.action.GET_OBB_MAIN_URL`"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md:44
+#, fuzzy
 msgid "`org.fdroid.fdroid.action.GET_OBB_PATCH_URL`"
-msgstr ""
+msgstr "`org.fdroid.fdroid.action.GET_OBB_PATCH_URL`"
 
 #. type: Plain text
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md:47
@@ -107,12 +155,15 @@ msgid ""
 "the file ultimately ends up in _Android/obb/<packageName>_ on the\n"
 "device's External Storage.\n"
 msgstr ""
+"ཁྱེད་རང་གིས་དགའ་མོས་ཆེ་ཤེས་ཀྱི་ཐབས་ལམ་བེད་སྤྱོད་བྱས་ཏེ་དེ་ནས་URL ཕབ་ལེན་བྱེད།"
+" ངེས་དགོས་པ་ཞིག་ལ་ཡིག་ཆ་དེ་མཐའ་མར་_Android/obb/<ཐུམ་སྒྲིལ་གྱི་མིང་།>_ "
+"ནང་གི་ཕྱིའི་གསོག་ཆས་སྒང་ལ་ངེས་པར་དགོས།\n"
 
 #. type: Title #
 #: build/_posts/md/2017-02-20-new-forum.md:1
 #, no-wrap
 msgid "\"Sailing into a new decade of discussions\""
-msgstr ""
+msgstr "\"བཅུ་ཕྲག་གསར་པའི་བགྲོ་གླེང་ནང་ལ་དལ་སྐྱོད་བྱེད་བཞིན།\""
 
 #. type: Plain text
 #: build/_posts/md/2017-02-20-new-forum.md:5
@@ -120,9 +171,13 @@ msgid ""
 "We are excited to announce the release of the new official F-Droid forum: "
 "[forum.f-droid.org](https://forum.f-droid.org)."
 msgstr ""
+"ང་ཚོས་དགའ་ཚོར་ཆེན་པོའི་ཐོག་ནས་ད་ེརས་གཞུང་འགྲེལ་གྱིས་ཨེཕ་རོཌ་གླེང་སྟེགས་གསར་པ་"
+"འདི་བཞིན་འགྲེམ་སྤེལ་ཞུ་རྒྱུའི་གསལ་བསྒྲགས་བྱེད་རྒྱུ་ཡིན།: "
+"[forum.f-droid.org](https://forum.f-droid.org)."
 
 #. type: Plain text
 #: build/_posts/md/2017-02-20-new-forum.md:12
+#, fuzzy
 msgid ""
 "We have been working hard to [revise the website](https://gitlab.com/groups/"
 "fdroid/milestones/launch?title=Launch)  in order to make it easier to "
@@ -134,6 +189,12 @@ msgid ""
 "indepentently hosted one and chose some modern software called [Discourse]"
 "(https://www.discourse.org)."
 msgstr ""
+"ང་ཚོས་དྲྭ་རྒྱ་ལེགས་བཅོས་གཏོང་ཐབས་སུ་འབད་རྩོལ་ཆེན་པོ་བྱེད་ཀྱི་ཡོད།\n"
+"(https://gitlab.com/groups/fdroid/milestones/launch?title=Launch)དེ་ཡང་བེད་སྤ"
+"ྱོད་གཏོང་བདེ་བ་དེང་རབས་དང་མཐུན་པ། རོགས་རམ་ངོས་ལེན་བྱེད་ཐུབ་པ། "
+"རྒྱལ་སྤྱི་དང་མཐུན་པ་བཟོ་ཐབས་ལ་འབད་རྩོལ་བྱེད་ཀྱི་ཡོད། "
+"ལས་ཀ་གཙོ་བོ་ནི་རྨང་གཞིའི་འཕྲུལ་ཆས་འདི་word press "
+"ནས་Jekyll](https://jekyllrb.com/).ལ་བརྗེ་ལེན་བྱེད་རྒྱུ་དེ་རེད།"
 
 #. type: Plain text
 #: build/_posts/md/2017-02-20-new-forum.md:18
@@ -144,6 +205,12 @@ msgid ""
 "experience was bad, and not only because of increasing number of bugs found "
 "in the forum software."
 msgstr ""
+"གླེང་སྟེགས་སྙིང་པ་དེའི་སྒང་ལ་སྐྱོན་ཆ་མང་པོ་ཡོད།:དང་པོ་དེར་ཁྱེད་རང་གིས་གློག་འཕ"
+"ྲིན་རྒྱུད་དེ་ཡིག་ལན་གཏོང་མི་ཐུབ། གཉིས་པ་དེར་ཨེཕ་རོཌ་དྭངས་བླངས་པ་ཚོས་དུས་ཚོད་མ"
+"ང་པོ་ཞིག་ཡིག་རྙོག་ཕོན་ཆེན་པོ་སུབས་ཆེད་དུ་གཏོང་དགོས་ཀྱི་ཡོད་པ་རེད། "
+"(གླེང་སྟེགས་རྙིང་པ་དེའི་སྒང་ལ་ཡིག་རྙོག་བརྒྱ་ཆ་25%ཡོད་པ་རེད།) མཐའ་མར་མཉེན་ཆས་ཀ"
+"ྱི་གླེང་སྟེགས་ནང་ལ་སྐྱོན་མང་དུ་མང་དུ་ལྷག་པའི་རྐྱེན་གྱིས་བེད་སྤྱོད་གཏོང་མཁན་ཁྱ"
+"ོན་ཡོངས་གིས་ཡག་པ་མེད་པའི་ཚོར་བ་ཤུགས་ཆེ་བྱུང་ཡོད།."
 
 #. type: Plain text
 #: build/_posts/md/2017-02-20-new-forum.md:26
@@ -155,6 +222,13 @@ msgid ""
 "Droid, whether discussing the client or the server tools, can help each "
 "other there."
 msgstr ""
+"དེས་ན་གླེང་སྟགས་གསར་འདིས་ ང་ཚོས་ཨེཕ་རོཌ་ཚོགས་པའི་ནང་ལ་སླར་ཡང་འཚོ་ཤུགས་གསར་པ་འ"
+"བྱིན་རྒྱུའི་རེ་བ་བྱེད་ཀྱི་ཡོད། ཉེ་ཆར་མཉེས་ཆས་འདི་[གིཊ་ལེབ་ལ་གནས་སྤོས་](https:"
+"//gitlab.com/fdroid/rfp)བྱས་པའི་སྐབས་སུ་སྔར་གྱི་སྐྱོན་ཆའི་སྙན་ཐོ་ཁག་/རེ་སྐུལ་"
+"ཞུས་པའི་ཁྱད་ཆོས་རྣམས་ད་དུང་ཡང་གིཊ་ལེབ་ནང་ཡོད། གླེང་སྟེགས་གསར་པ་འདི་ནི་ཨེན་ཀྲོ"
+"ཌ་དང་འབྲེལ་བའི་སྐོར་གྱི་བགྲོ་གླེང་བྱས་སའི་ཚོགས་པ་གསར་པ་ཞིག་ཆགས་ཡོད། ཨེན་ཀྲོཌ་"
+"སྤྱོད་མཁན་ཚང་མས་མཉེན་ཆས་སམ་ཡང་ན་ཞབས་ཞུ་ལག་ཆའི་སྐོར་ལ་བགྲོ་གླེང་གང་བྱས་ཀྱང་ཕན་"
+"ཚུན་ཕན་ཐོགས་བྱེད་ཐུབ་ཀྱི་ཡོད།."
 
 #. type: Plain text
 #: build/_posts/md/2017-02-20-new-forum.md:30
@@ -164,6 +238,11 @@ msgid ""
 "to re-register yourself.  Independent from this all old topics remain at the "
 "current URLs for now."
 msgstr ""
+"ད་ལྟ་གནས་སྐབས་ཀྱི་རིང་ལ་ཨེཕ་རོཌ་དངས་བླངས་ཞབས་ཞུ་བ་མི་ལྡང་བའི་རྒྱུ་མཚན་གྱིས་ཡི"
+"ག་ཆ་རྣམས་གླེང་སྟེགས་རྙིང་པ་དེ་ནས་གསར་པའི་སྒང་ལ་གནས་སྤོས་བྱེད་ཐབས་མིན་འདུག་པས་"
+"ཁྱེད་རང་སོ་སོ་རང་ཉིད་ནས་དེབ་སྐྱེལ་གནང་རོགས། "
+"འདི་ནས་རང་དབང་ཐོབ་ན་བརྗོད་གཞི་རྙིང་པ་ཚང་མ་ད་ལྟ་ཡོད་བཞིན་པའི་URL "
+"སྒང་ལ་གནས་ཀྱི་ཡོད།."
 
 #. type: Plain text
 #: build/_posts/md/2017-02-20-new-forum.md:34
@@ -174,6 +253,11 @@ msgid ""
 "the moment there is already a [German group](https://forum.f-droid.org/c/"
 "other-languages/german)."
 msgstr ""
+"ཡིད་མགུ་ནུས་པའི་ཁྱད་ཆོས་གཅིག་ནི་[སྤྱི་ཚོགས་བསྟི་གནས་](https://forum.f-droid.o"
+"rg/c/སྐད་རིགས་གཞན་).སྤྱི་ཚོགས་འདི་ཚོའི་ནང་ལ་ཨེན་ཀྲོཌ་སྒང་ལ་ཡོད་པའི་ཨེཕ་རོཌ་དང"
+"་རིན་མེད་མཉེན་ཆས་ཀྱི་སྐོར་གྱི་བརྗོད་གཞི་རྣམས་རང་རང་སོ་སོའི་མ་སྐད་ཐོག་ནས་བགྲོ་"
+"གླེང་བྱེད་ཐུབ་ཀྱི་ཡོད། ད་ལྟའི་ཆ་ལ་སྔོན་ཚོད་ནས [ཇར་མན་སྡེ་ཚན་](https://forum "
+"f-droid.org/c/སྐད་རིགས་གཞན་/ཇར་མན་)ཡོད།."
 
 #. type: Plain text
 #: build/_posts/md/2017-02-20-new-forum.md:38
@@ -182,6 +266,10 @@ msgid ""
 "[\"Other languages\" category](https://forum.f-droid.org/c/other-languages) "
 "and we will discuss everything else there."
 msgstr ""
+"གལ་སྲིད་ཁྱེད་རང་གིས་རང་སོ་སོའི་སྤྱི་ཚོགས་བསྟི་གནས་བཟོ་འདོད་ཡོད་ན། "
+"བརྗོད་གཞི་ཞེས་པ་ནང་དུ་ཁ་ཕྱེས་རོགས་གནང\n"
+"[\"སྐད་རིགས་གཞན་\" སྡེ་ཚན](https://forum.f-droid.org/c/སྐད་རིགས་གཞན་) "
+"དེ་ནས་ང་ཚོས་འདིའི་ནང་ལ་གནད་དོན་ཚང་མ་བགྲོ་གླེང་བྱེད་ཆོག་."
 
 #. type: Plain text
 #: build/_posts/md/2017-02-20-new-forum.md:42
@@ -191,6 +279,11 @@ msgid ""
 "fdroid/fdroid-website/issues/36)  which gets us closer to [comments on "
 "single applications](https://gitlab.com/fdroid/fdroidclient/issues/646)."
 msgstr ""
+"མཐའ་དོན་ལ། ད་ལྟ་ཡར་རྒྱས་གོང་སྤེལ་གཏོང་བཞིན་པའི་ཨེཕ་རོཌ་ནང་གྱི་ཤེས་བྱ་མཐའ་མ་དེ"
+"་ལ་:ང་ཚོས་གླེང་མོལ་གྱི་ལམ་ནས་[དྲྭ་རྒྱ་ལ་མཆན་]རྒྱབ་ཐུབ་པའི་འཆར་གཞི་ཡོད།\n"
+"(https://gitlab.com/fdroid/fdroid-website/issues/36)  "
+"འདིས་ང་ཚོ་[མཉེས་ཆས་གཅིག་ལ་མཆན་རྒྱབ་ཐུབ་པའི་ཆེད་དུ་ཡིན།]\n"
+"(https://gitlab.com/fdroid/fdroidclient/issues/646)."
 
 #. type: Plain text
 #: build/_posts/md/2017-02-20-new-forum.md:44
@@ -198,12 +291,15 @@ msgid ""
 "Make sure you keep an eye on the new developments happening to F-Droid in "
 "2017.  We for our part are curious if you like the new forum."
 msgstr ""
+"ཕྱི་ལོ་ ༢༠༡༧ ལོར་ཨེཕ་རོཌ་ནང་ཡར་རྒྱས་གོང་སྤེལ་གསར་པ་བཏང་ཡོད་པ་དེ་ལ་ཐུགས་སྣང་ངེ"
+"ས་པར་དུ་གནང་རོགས། ང་ཚོའི་ངོས་ནས་ཀྱང་ཁྱེད་རྣམ་པས་གླེང་སྟེགས་གསར་པ་དེར་དགའ་མོས་"
+"བྱུང་མིན་ཤེས་འདོད་འདུག"
 
 #. type: Title #
 #: build/_posts/md/2017-04-04-new-ux.md:1
 #, no-wrap
 msgid "\"A new UX 6 years in the making\""
-msgstr ""
+msgstr "\"UX གསར་པ་འདི་ལོ་དྲུག་གི་རིང་ལ་བཟོས་བཞིན་ཡོད།\""
 
 #. type: Plain text
 #: build/_posts/md/2017-04-04-new-ux.md:8
@@ -214,6 +310,11 @@ msgid ""
 "master/CHANGELOG.md), the client has been translated into over 40 different "
 "languages, and much more."
 msgstr ""
+"ཨེཕ་རོཌ་དེ་བཞིན་ཨེན་ཀྲོཌ་དཀྱིལ་འཁོར་ནང་གི་ཆ་ཤས་སུ་གནས་ནས་ལོ་ ༦ "
+"ལྷག་ཙམ་འགྲོ་གི་ཡོད། དུས་དེ་ནས་མཛོད་ཁང་ཨ་མའི་ནང་ལ་མཉེན་ཆས་ ༢༠༠༠ "
+"ལྷག་བཟོས་ཐུབ་པ་བྱུང་ཡོད། [ངོ་མཚར་ཅན་གྱི་ཁྱད་ཆོས་དུ་མ་ཞིག་ཁ་སྣོན་བྱས་ཡོད།]\n"
+"(https://gitlab.com/fdroid/fdroidclient/blob/master/CHANGELOG.md) "
+"མཉེས་ཆས་དེ་བཞིན་སྐད་རིགས་ཁག་མི་འདྲ་བ་ ༤༠ ལྷག་ནང་བསྒྱུར་ཡོད།"
 
 #. type: Plain text
 #: build/_posts/md/2017-04-04-new-ux.md:10
@@ -221,6 +322,9 @@ msgid ""
 "However, the F-Droid UX has never changed much from [the original three tab "
 "layout](https://f-droid.org/posts/f-droid-repository-alpha/):"
 msgstr ""
+"ཡིན་ནའང་། ཨེཕ་རོཌ་UX "
+"[ཐོག་མིའི་དྲྭ་ཤོག་གསུམ་སྟོན་པའི་]ཆ་ལ་འགྱུར་བ་དེ་ཙམ་ཕྱིན་མེད། \n"
+"(https://f-droid.org/posts/f-droid-repository-alpha/):"
 
 #. type: Plain text
 #: build/_posts/md/2017-04-04-new-ux.md:14
@@ -230,11 +334,16 @@ msgid ""
 " * ![Version 0.11]({{ site.baseurl }}/assets/posts/2017-04-04-new-ux/0.11.png)\n"
 " * ![Version 0.102]({{ site.baseurl }}/assets/posts/2017-04-04-new-ux/0.102.png)\n"
 msgstr ""
+"{: .པར་རིས་ཁང་}\n"
+" * ![ཐོན་རིམ་ 0.11]({{ site.baseurl }}/assets/posts/2017-04-04-new-"
+"ux/0.11.png)\n"
+" * ![ཐོན་རིམ་0.102]({{ site.baseurl }}/assets/posts/2017-04-04-new-"
+"ux/0.102.png)\n"
 
 #. type: Plain text
 #: build/_posts/md/2017-04-04-new-ux.md:16
 msgid "This will change with the coming release of F-Droid client v0.103."
-msgstr ""
+msgstr "འགྱུར་བ་འདི་ཨེཕ་རོཌ་མཉེན་ཆས་v0.103 འགྲེལ་སྤེལ་བྱས་པ་ནས་ཐོན་ཐུབ།"
 
 #. type: Plain text
 #: build/_posts/md/2017-04-04-new-ux.md:19
@@ -243,31 +352,35 @@ msgid ""
 "UX which will help bring F-Droid into the present.  Some of the big ticket "
 "items include:"
 msgstr ""
+"ཟླ་བ ༦ ཙམ་གྱི་རིང་ལ་ཨེཕ་རོཌ་རུ་ཁག་རྣམས་འབྲེལ་ཚུབ་ཀྱི་ངང་ནས་དེང་དུས་ཀྱི་UX "
+"སྐྱར་དུ་བཟོ་བཀོད་བྱས་ཏེ་ད་ལྟའི་ཨེཕ་རོཌ་གསར་པ་དེ་སྟོན་ཐུབ་པ་ལ་ཕན་ཐོགས་བྱས་ཡོད།"
+" འདིའི་ནང་དུ་ཡོད་པའི་རྣམ་གྲངས་ཆེ་ཁག་ནི།:"
 
 #. type: Bullet: ' * '
 #: build/_posts/md/2017-04-04-new-ux.md:25
 msgid "Screenshots and feature graphics"
-msgstr ""
+msgstr "དྲྭ་ཤེལ་པར་ལེན་དང་བརྐོས་རིས་ཀྱི་ཁྱད་ཆོས་རྣམས།"
 
 #. type: Bullet: ' * '
 #: build/_posts/md/2017-04-04-new-ux.md:25
 msgid "Bulk download and install"
-msgstr ""
+msgstr "མང་པོ་ཕབ་ལེན་དང་འགྲིག་བཅུག"
 
 #. type: Bullet: ' * '
 #: build/_posts/md/2017-04-04-new-ux.md:25
 msgid "Offline \"queue for download\""
-msgstr ""
+msgstr "དྲྭ་ཐོག་ཏུ་མེད་པ། \"རིམ་པ་བཞིན་དུ་ཕབ་ལེན།\""
 
 #. type: Bullet: ' * '
 #: build/_posts/md/2017-04-04-new-ux.md:25
 msgid "Ability to translate apps metadata"
-msgstr ""
+msgstr "མཉེས་ཆས་ཀྱི་རྒྱབ་ལྗོངས་ལོ་རྒྱུས་བསྒྱུར་ཐུབ་པའི་ནུས་པ།"
 
 #. type: Bullet: ' * '
 #: build/_posts/md/2017-04-04-new-ux.md:25
 msgid "Improved notifications for downloads and pending updates"
 msgstr ""
+"ཕབ་ལེན་དང་གསར་བསྒྱུར་འགག་བཞིན་པ་རྣམས་ཀྱི་བརྡ་ལན་སྤྲོད་ཐབས་ཡར་རྒྱས་བཏང་ཡོད།"
 
 #. type: Plain text
 #: build/_posts/md/2017-04-04-new-ux.md:33
@@ -281,6 +394,19 @@ msgid ""
 " * ![App details screen (with screenshots)]({{ site.baseurl }}/assets/posts/2017-04-04-new-ux/appdetails-a.png)\n"
 " * ![App details screen (without screenshots)]({{ site.baseurl }}/assets/posts/2017-04-04-new-ux/appdetails-b.png)\n"
 msgstr ""
+"{: .པར་རིས་ཁང}\n"
+" * ![\"གསར་ཤོས\" དྲྭ་ཤེལ་]({{ site.baseurl }}/assets/posts/2017-04-04-new-"
+"ux/latest.png)\n"
+" * ![\"སྡེ་ཚན་ཁག་\" དྲྭ་ཤེལ་]({{ site.baseurl }}/assets/posts/2017-04-04-new-"
+"ux/categories.png)\n"
+" * ![\"ཉེ་འགྲམ་\" དྲྭ་ཤེལ་]({{ site.baseurl }}/assets/posts/2017-04-04-new-"
+"ux/nearby.png)\n"
+" * ![\"གསར་བསྒྱུར་\" དྲྭ་ཤེལ་]({{ site.baseurl }}/assets/posts/2017-04-04"
+"-new-ux/updates.png)\n"
+" * ![མཉེས་ཆས་ཞིབ་ཚགས་སྐོར་གྱི་དྲྭ་ཤེལ་ (དྲྭ་ཤེལ་པར་ལེན་དང་མཉམ་དུ)]({{ "
+"site.baseurl }}/assets/posts/2017-04-04-new-ux/appdetails-a.png)\n"
+" * ![མཉེས་ཆས་ཞིབ་ཚགས་སྐོར་གྱི་དྲྭ་ཤེལ་ (དྲྭ་ཤེལ་པར་ལེན་མེད་པ་)]({{ "
+"site.baseurl }}/assets/posts/2017-04-04-new-ux/appdetails-b.png)\n"
 
 #. type: Plain text
 #: build/_posts/md/2017-04-04-new-ux.md:37
@@ -290,6 +416,12 @@ msgid ""
 "users who make use of tools such as Talkback, and better support for "
 "donating to open source app developers."
 msgstr ""
+"འདི་དང་མཉམ་དུ་ང་ཚོས་མཉེས་ཆས་ནང་གི་མ་ལག་ཆུང་བ་རྣམས་ལ་སྐྱར་དུ་བཟོ་བཀོད་བྱེད་ཀྱི"
+"་ཡོད། འདི་ཡང་གནད་དོན་གཞན་དང་གཅིག་མཚུངས་ཀྱི་གལ་གནད་ཆེན་པོ་ཞིག་ལ་ངོས་འཛིན་བྱེད་"
+"ཀྱི་ཡོད། "
+"དཔེར་ན་མིག་ལོང་བ་ཚོས་སྒྲ་ཐོག་ཉན་ཆས་བེད་སྤྱོད་ཐུབ་པར་རྒྱབ་སྐྱོར་བྱེད་ཀྱི་ཡོད། "
+"དེས་མ་ཟད་ཕྱི་གསལ་ནང་གསལ་གྱི་ཨང་རྟགས་མཉེན་ཆས་བཟོ་མཁན་ཚོར་ཞལ་འདེབས་གང་མང་ཐོབ་པའ"
+"ི་ཆེད་དུ་རྒྱབ་སྐྱོར་བྱེད་ཀྱི་ཡོད།"
 
 #. type: Plain text
 #: build/_posts/md/2017-04-04-new-ux.md:41
@@ -299,6 +431,11 @@ msgid ""
 "the design process, further field tests are currently being conducted to "
 "ensure that usability issues with the new design are identified and resolved."
 msgstr ""
+"བཟོ་བཀོད་དེའི་ནང་ལ་UX "
+"བཟོ་བཀོད་མཁན་དང་ཚོགས་སྡེ་རྣམས་ཀྱིས་མཐུན་རྐྱེན་ཤུགས་ཆེན་སྦྱར་ཡོད། བཟོ་བཀོད་ཀྱི"
+"་རྒྱུད་རིམ་གྱི་ནང་ལ་སྤྱོད་མཁན་ཚོར་བཟོ་བཀོད་དེའི་ཚོད་ལྟ་བྱས་ཡོད་པ་མ་ཟས་ད་ལྟའི་"
+"ཆར་དངོས་སུ་མང་ཚོགས་ཀྱི་ཁྲོད་ལ་ཚོད་ལྟ་བྱེད་བཞིན་ཡོད་ལ་དེ་ལ་བརྟེན་ནས་ཕྲད་བཞིན་པ"
+"འི་དཀའ་ངལ་རྣམས་ངོས་འཛིན་ཐུབ་པ་བྱུང་ནས་སེལ་ཐུབ་པ་བྱུང་ཡོད།"
 
 #. type: Plain text
 #: build/_posts/md/2017-04-04-new-ux.md:44
@@ -307,6 +444,10 @@ msgid ""
 "your feedback and suggestions about how to continually improve the F-Droid "
 "client."
 msgstr ""
+"ཡོང་འགྱུར་གྱི་བདུན་ཕྲག་འདིའི་ནང་ལ་ v0.103 "
+"ཐོན་དང་པོ་དེ་ཁྱེད་རྣམས་ཀྱི་སྤྱན་ལམ་ལ་འགྲེམ་སྤེལ་ཞུ་གི་ཡོད། ཁྱེད་རྣམས་ཀྱིས་ཨེཕ"
+"་རོཌ་མཉེན་ཆས་དེ་གོང་འཕེལ་གཏོང་ཐབས་སུ་དགོངས་འཆར་གང་མང་གནང་བའི་རེ་སྐུལ་ཞུ་གི་ཡོ"
+"ད།"
 
 #. type: Plain text
 #: build/_posts/md/2017-04-04-new-ux.md:45
@@ -314,3 +455,5 @@ msgid ""
 "This is one of the many improvements happening to the broader F-Droid "
 "ecosystem in 2017, so keep an eye out for more!"
 msgstr ""
+"ཨེཕ་རོཌ་དཀྱིལ་འཁོར་རྒྱ་ཆེ་ས་ནས་ཡར་རྒྱས་གོང་སྤེལ་གཏོང་བའི་ཐབས་ལམ་དེ་ཕྱི་ལོ་ "
+"༢༠༡༧ ནང་ལ་བྱུང་བ་ཞིག་ཡིན། འབྱུང་འགྱུར་དེ་ལས་མང་པ་དོ་སྣང་གནང་རོགས།!"
