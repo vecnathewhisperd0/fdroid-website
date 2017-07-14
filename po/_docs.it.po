@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-07-12 07:06+0000\n"
+"PO-Revision-Date: 2017-07-14 23:54+0000\n"
 "Last-Translator: Roberto Albano De Rosa <robertoalbano@protonmail.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/it/>\n"
@@ -8832,7 +8832,7 @@ msgstr ""
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md:24
 #, no-wrap
 msgid "Setup"
-msgstr ""
+msgstr "Imposta"
 
 #. type: Plain text
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md:31
