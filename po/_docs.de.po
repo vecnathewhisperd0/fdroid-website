@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-07-12 14:40+0000\n"
-"Last-Translator: anonymous <>\n"
+"PO-Revision-Date: 2017-07-15 16:29+0000\n"
+"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/de/>\n"
 "Language: de\n"
@@ -433,6 +433,10 @@ msgid ""
 "list](https://gitlab.com/fdroid/fdroid-website/blob/master/_pages/about.md)! "
 "Keep it sorted by surname, please."
 msgstr ""
+"Wenn Ihr Name fehlt, so ist das ein Versehen und Sie sollten [sich selbst in "
+"die Liste eintragen](https://gitlab.com/fdroid/fdroid-"
+"website/blob/master/_pages/about.md)! Bitte dabei die Sortierung nach "
+"Nachnamen beachten!"
 
 #. type: Plain text
 #: build/_pages/md/about.md:83
@@ -472,7 +476,7 @@ msgid ""
 "(https://forum.f-droid.org/) or on IRC (#fdroid on freenode)."
 msgstr ""
 "Bei Problemen mit der Internetseite oder der Client-Software können diese "
-"über ein Serviceticket  (siehe unten) übermittelt oder im "
+"über ein Serviceticket (siehe unten) übermittelt oder im "
 "[Forum](https://forum.f-droid.org/) bzw. im Chat (#fdroid on freenode) "
 "erörtert werden."
 
@@ -511,6 +515,7 @@ msgstr "Anwendungen einreichen"
 
 #. type: Plain text
 #: build/_pages/md/contribute.md:17
+#, fuzzy
 msgid ""
 "If you see an application missing from the repository (after reading the "
 "[inclusion policy](http://f-droid.org/wiki/page/Inclusion_Policy)), please "
@@ -520,13 +525,24 @@ msgid ""
 "that via the git repository, which will drastically speed up the inclusion "
 "of the application."
 msgstr ""
+"Vermissen Sie eine Anwendung in der Paketquelle, können Sie sie gerne (nach "
+"Lektüre der "
+"[Aufnahmegrundsätze](http://f-droid.org/wiki/page/Inclusion_Policy)) über "
+"den dafür reservierten Forumsbereich [Submission "
+"Queue](https://gitlab.com/fdroid/rfp/issues) einreichen. Wenn Sie die "
+"nötigen technischen Fähigkeiten mitbringen, können Sie auch die "
+"dazugehörigen Metadaten zusammenstellen und diese im Git-Repository "
+"vorlegen, was die Aufnahme der Anwendung deutlich beschleunigen wird."
 
 #. type: Plain text
 #: build/_pages/md/contribute.md:19
+#, fuzzy
 msgid ""
 "[The manual]({{ \"/manual/\" | prepend: site.baseurl }}) should help with "
 "this."
 msgstr ""
+"[Das Handbuch]({{ \"/manual/\" | prepend: site.baseurl }}) sollte dabei "
+"helfen."
 
 #. type: Title ###
 #: build/_pages/md/contribute.md:20 build/_docs/md/How_to_Help.md:63
@@ -582,19 +598,35 @@ msgid ""
 "direction of the project, and do not clash with or duplicate work already in "
 "development."
 msgstr ""
+"Es gibt vier auf GitLab gehostete Git-Quellen – eine für die [Android-"
+"App](https://gitlab.com/fdroid/fdroidclient), eine für die [Server-"
+"Werkzeuge](https://gitlab.com/fdroid/fdroidserver) zum Betrieb einer "
+"Paketquelle und zur lokalen Erstellung bzw. Installation von Anwendungen und "
+"eine für die zugeordneten [Metadaten-Dateien für Anwendungen in der "
+"Hauptquelle von F-Droid](https://gitlab.com/fdroid/fdroiddata).  Die letzte "
+"Quelle bearbeitet [Webseite und Dokumentation](https://gitlab.com/fdroid"
+"/fdroid-website).  Der einfachste Weg an der Entwicklung mitzuwirken, ist "
+"das Klonen dieser Projekte und Merge-Anträge einzureichen.  Bei Planung "
+"großer Änderungen wäre es gut, sie vorab im Chat oder im Forum abzusprechen, "
+"um zu gewährleisten, dass sie zu den Projektzielen passen und nicht mit "
+"bereits laufenden Entwicklungen kollidieren oder die Arbeiten daran nicht "
+"verdoppeln."
 
 #. type: Plain text
 #: build/_pages/md/contribute.md:39
+#, fuzzy
 msgid ""
 "For working with the server and data projects, it’s a good idea to read [the "
 "manual]({{ \"/manual/\" | prepend: site.baseurl }})."
 msgstr ""
+"Für Arbeiten mit den Server- und Datenprojekten lohnt ein Blick in [das "
+"Handbuch]({{ \"/manual/\" | prepend: site.baseurl }})."
 
 #. type: Title #
 #: build/_pages/md/docs.md:1
 #, no-wrap
 msgid "Docs"
-msgstr ""
+msgstr "Dokumentation"
 
 #. type: Plain text
 #: build/_pages/md/docs.md:9
@@ -606,6 +638,14 @@ msgid ""
 "tools for managing the process of turning app source code into published "
 "builds."
 msgstr ""
+"F-Droid ist zweierlei, sowohl eine Paketquelle von geprüfter, kostenloser "
+"Software für Android-Apps als auch ein vollständiger \"App-Store-Baukasten\""
+", der alle Instrumente bietet, die für die Einrichtung und den Betrieb eines "
+"App-Stores benötigt werden. Es ist ein gemeinschaftlich betriebenes, freies "
+"Software-Projekt, das von einer Vielzahl von Mitarbeitern entwickelt wird. "
+"Es beinhaltet darüberhinaus sämtliche Erstellungs- und Versionswerkzeuge, um "
+"den Umwandlungsprozess vom App-Quellcode zur veröffentlichten Version zu "
+"bewerkstelligen."
 
 #. type: Plain text
 #: build/_pages/md/docs.md:15
@@ -616,24 +656,33 @@ msgid ""
 "publishing, or to assist in creating, testing and submitting metadata to the "
 "main repository."
 msgstr ""
+"Die F-Droid-Server-Werkzeuge liefern verschiedene Skripte und Instrumente, "
+"die der Unterstützung der F-Droid-Hauptanwendungsquelle dienen. Sie können "
+"die selben Werkzeuge zur Erstellung eigener, ergänzender oder alternativer "
+"Publikationsquellen oder zur Mithilfe bei der Bildung, Testung und "
+"Übermittlung von Metadaten für die Hauptquelle nutzen."
 
 #. type: Title ###
 #: build/_pages/md/docs.md:17
 #, no-wrap
 msgid "Getting Started"
-msgstr ""
+msgstr "Zum Einstieg"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:22
+#, fuzzy
 msgid "[FAQ - General](FAQ_-_General) Frequently Asked Questions about F-Droid"
-msgstr ""
+msgstr "[FAQ - Allgemein](FAQ_-_General) Häufig gestellte Fragen zu F-Droid"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:22
+#, fuzzy
 msgid ""
 "[FAQ - Client](FAQ_-_Client) Frequently Asked Questions about how to use the "
 "F-Droid app in Android."
 msgstr ""
+"[FAQ - Client](FAQ_-_Client) Häufig gestellte Fragen zur Verwendung der F"
+"-Droid-App in Android."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:22
@@ -641,19 +690,24 @@ msgid ""
 "[Anti-Features](https://f-droid.org/wiki/page/Antifeatures) What they are, "
 "what they mean, and what apps have them."
 msgstr ""
+"[Unfreie Merkmale](https://f-droid.org/wiki/page/Antifeatures) Welche sind "
+"das, was bedeuten sie, und welche Apps beinhalten sie."
 
 #. type: Title ###
 #: build/_pages/md/docs.md:24
 #, no-wrap
 msgid "More Information"
-msgstr ""
+msgstr "Weitergehende Informationen"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:31
+#, fuzzy
 msgid ""
 "[How to Help](How_to_Help) Different ways anyone can contribute to the F-"
 "Droid project."
 msgstr ""
+"[Mithelfen](How_to_Help) Verschiedene Wege zur Mitarbeit am F-Droid-Projekt "
+"für jedermann."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:31
@@ -661,6 +715,9 @@ msgid ""
 "[Known Repositories](https://f-droid.org/wiki/page/Known_Repositories) A "
 "list that tries to keep track of known f-droid compatible repositories."
 msgstr ""
+"[Bekannte Paketquellen](https://f-droid.org/wiki/page/Known_Repositories) "
+"Eine Liste, die versucht, bekannte , mit F-Droid kompatible Paketquellen im "
+"Auge zu behalten."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:31
