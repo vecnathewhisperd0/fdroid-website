@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-07-08 13:16+0000\n"
+"PO-Revision-Date: 2017-07-15 03:24+0000\n"
 "Last-Translator: sima <lin2s@riseup.net>\n"
 "Language-Team: Chinese (Simplified) "
 "<https://hosted.weblate.org/projects/f-droid/website-docs/zh_Hans/>\n"
@@ -436,34 +436,36 @@ msgid ""
 "them in the issue tracker (see below), or discuss them in the [Forum]"
 "(https://forum.f-droid.org/) or on IRC (#fdroid on freenode)."
 msgstr ""
+"如果遇到网站或客户端软件相关的问题，可通过问题跟踪系统报告（见下方），也可以在 [论坛](https://forum.f-droid.org/) 或 "
+"IRC 频道（freenode 上的 #fdroid）讨论。"
 
 #. type: Plain text
 #: build/_pages/md/contribute.md:9
 msgid "For reporting issues, choose an appropriate tracker from the following:"
-msgstr ""
+msgstr "如需报告问题，请选择以下合适的方式："
 
 #. type: Bullet: '* '
 #: build/_pages/md/contribute.md:13
 msgid "[F-Droid client app](https://gitlab.com/fdroid/fdroidclient/issues)"
-msgstr ""
+msgstr "[F-Droid 客户端应用](https://gitlab.com/fdroid/fdroidclient/issues)"
 
 #. type: Bullet: '* '
 #: build/_pages/md/contribute.md:13
 msgid "[Server and build tools](https://gitlab.com/fdroid/fdroidserver/issues)"
-msgstr ""
+msgstr "[服务器与编译工具](https://gitlab.com/fdroid/fdroidserver/issues)"
 
 #. type: Bullet: '* '
 #: build/_pages/md/contribute.md:13
 msgid ""
 "[Official F-Droid repository metadata](https://gitlab.com/fdroid/fdroiddata/"
 "issues)"
-msgstr ""
+msgstr "[官方 F-Droid 资源库元数据](https://gitlab.com/fdroid/fdroiddata/issues)"
 
 #. type: Title ###
 #: build/_pages/md/contribute.md:14
 #, no-wrap
 msgid "Submit Applications"
-msgstr ""
+msgstr "提交应用程序"
 
 #. type: Plain text
 #: build/_pages/md/contribute.md:17
@@ -476,19 +478,22 @@ msgid ""
 "that via the git repository, which will drastically speed up the inclusion "
 "of the application."
 msgstr ""
+"如果发现资源库中未包含某个应用程序（请首先阅读[包含政策](http://f-droid.org/wiki/page/Inclusion_Policy)）"
+"，可随时通过论坛上专用的[提交队列](https://gitlab.com/fdroid/rfp/issues)添加应用。对于具有相关技术能力者，可自己动"
+"手，汇聚相关元数据并通过 git 资源库提交，这样可极大地加快包含某个应用的进程。"
 
 #. type: Plain text
 #: build/_pages/md/contribute.md:19
 msgid ""
 "[The manual]({{ \"/manual/\" | prepend: site.baseurl }}) should help with "
 "this."
-msgstr ""
+msgstr "如需帮助，请阅读[文档 ]({{ \"/manual/\" | prepend: site.baseurl }})。"
 
 #. type: Title ###
 #: build/_pages/md/contribute.md:20 build/_docs/md/How_to_Help.md:63
 #, no-wrap
 msgid "Translate"
-msgstr ""
+msgstr "翻译"
 
 #. type: Plain text
 #: build/_pages/md/contribute.md:23
@@ -498,6 +503,8 @@ msgid ""
 "use the [translation system](https://hosted.weblate.org/projects/f-droid/) "
 "to make your changes."
 msgstr ""
+"客户端应用程序提供更多语言，如果未提供您所用的语言，或需要更新或改善，请注册账号并使用[翻译平台](https://hosted.weblate.org/"
+"projects/f-droid/)进行更改。"
 
 #. type: Plain text
 #: build/_pages/md/contribute.md:25
@@ -506,12 +513,14 @@ msgid ""
 "Translation_and_Localization).  There’s also a [dedicated forum section]"
 "(https://forum.f-droid.org/c/translation) for translation discussions."
 msgstr ""
+"请首先查看[翻译和本地化](docs/Translation_and_Localization)预览。另外，关于翻译的讨论可访问[论坛专用版块](http"
+"s://forum.f-droid.org/c/translation)。"
 
 #. type: Title ###
 #: build/_pages/md/contribute.md:26
 #, no-wrap
 msgid "Help with Development"
-msgstr ""
+msgstr "参与开发"
 
 #. type: Plain text
 #: build/_pages/md/contribute.md:38
@@ -529,19 +538,25 @@ msgid ""
 "direction of the project, and do not clash with or duplicate work already in "
 "development."
 msgstr ""
+"目前在 Gitlab 上有四个 git 资源库：一个是 [Android 客户端应用程序](https://gitlab.com/fdroid/fdroi"
+"dclient)，一个是[服务器工具](https://gitlab.com/fdroid/fdroidserver)，用于运行资源库以及本地编译/安装应"
+"用程序，一个是相关的[主 F-Droid 资源库中应用所用的元数据文件](https://gitlab.com/fdroid/fdroiddata)，最后"
+"一个用于处理[网站和文档](https://gitlab.com/fdroid/fdroid-"
+"website)。参与开发最简单的方式是克隆这些项目并提交合并请求。如果更改较多，建议先在 IRC "
+"或论坛上讨论，确保所做修改与项目目标一致以及不会与正在进行中的开发冲突或重复。"
 
 #. type: Plain text
 #: build/_pages/md/contribute.md:39
 msgid ""
 "For working with the server and data projects, it’s a good idea to read [the "
 "manual]({{ \"/manual/\" | prepend: site.baseurl }})."
-msgstr ""
+msgstr "如果想要参与服务器和数据项目，建议先阅读[文档]({{ \"/manual/\" | prepend: site.baseurl }})。"
 
 #. type: Title #
 #: build/_pages/md/docs.md:1
 #, no-wrap
 msgid "Docs"
-msgstr ""
+msgstr "文档"
 
 #. type: Plain text
 #: build/_pages/md/docs.md:9
@@ -553,6 +568,8 @@ msgid ""
 "tools for managing the process of turning app source code into published "
 "builds."
 msgstr ""
+"F-Droid 是一个包含各种已验证自由软件 Android 应用的资源库，同时又是一个完备的“应用商店工具箱”，提供设置与运行应用商店所需的全部工具。这"
+"是一个属于社区的自由软件项目，由各种各样的参与者开发。同时，提供网站的编译和发布工具，可用于管理应用源代码至发布包流程。"
 
 #. type: Plain text
 #: build/_pages/md/docs.md:15
@@ -563,24 +580,26 @@ msgid ""
 "publishing, or to assist in creating, testing and submitting metadata to the "
 "main repository."
 msgstr ""
+"F-Droid 服务器工具提供各种脚步和工具，可用于维护主 F-Droid "
+"应用程序资源库。您可以使用这些工具创建自己的应用附加或替代资源库，也可用于创建，测试和提交元数据至主资源库。"
 
 #. type: Title ###
 #: build/_pages/md/docs.md:17
 #, no-wrap
 msgid "Getting Started"
-msgstr ""
+msgstr "入门"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:22
 msgid "[FAQ - General](FAQ_-_General) Frequently Asked Questions about F-Droid"
-msgstr ""
+msgstr "[FAQ - 常规](FAQ_-_General) 有关 F-Droid 的常见问题解答"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:22
 msgid ""
 "[FAQ - Client](FAQ_-_Client) Frequently Asked Questions about how to use the "
 "F-Droid app in Android."
-msgstr ""
+msgstr "[FAQ - 客户端](FAQ_-_Client) 有关如何在 Android 系统中使用 F-Droid 应用的常见问题解答。"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:22
@@ -588,19 +607,21 @@ msgid ""
 "[Anti-Features](https://f-droid.org/wiki/page/Antifeatures) What they are, "
 "what they mean, and what apps have them."
 msgstr ""
+"[非免费功能](https://f-droid.org/wiki/page/Antifeatures) 什么是非免费功能(Anti-"
+"Feature)，代表着什么，哪些应用具有这些非免费功能。"
 
 #. type: Title ###
 #: build/_pages/md/docs.md:24
 #, no-wrap
 msgid "More Information"
-msgstr ""
+msgstr "更多信息"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:31
 msgid ""
 "[How to Help](How_to_Help) Different ways anyone can contribute to the F-"
 "Droid project."
-msgstr ""
+msgstr "[如何提供帮助](How_to_Help) 参与 F-Droid 项目的各种方式。"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:31
@@ -608,6 +629,8 @@ msgid ""
 "[Known Repositories](https://f-droid.org/wiki/page/Known_Repositories) A "
 "list that tries to keep track of known f-droid compatible repositories."
 msgstr ""
+"[已知资源库](https://f-droid.org/wiki/page/Known_Repositories) 包含已知的与 f-droid "
+"兼容的资源库。"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:31
@@ -616,40 +639,42 @@ msgid ""
 "are the various channels that F-Droid software are released on, with info to "
 "verify them based on signing keys."
 msgstr ""
+"[发布通道和签名密钥](Release_Channels_and_Signing_Keys) F-Droid "
+"软件发布在多个通道，根据相应签名密钥可对其进行验证。"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:31
 msgid ""
 "[Security Model](Security_Model) A brief explanation of how F-Droid delivers "
 "software to users securely."
-msgstr ""
+msgstr "[安全模型](Security_Model) 关于 F-Droid 如何安全发布软件的简要说明。"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:31
 msgid ""
 "[Translation and Localization](Translation_and_Localization) How all the "
 "parts of F-Droid are localized."
-msgstr ""
+msgstr "[翻译和本地化](Translation_and_Localization) F-Droid 每个组建如何本地化。"
 
 #. type: Title ###
 #: build/_pages/md/docs.md:33
 #, no-wrap
 msgid "Developers"
-msgstr ""
+msgstr "开发人员"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:48
 msgid ""
 "[FAQ - App Developers](FAQ_-_App_Developers) Frequently Asked Questions "
 "about F-Droid"
-msgstr ""
+msgstr "[FAQ - App 开发人员](FAQ_-_App_Developers) 有关 F-Droid 的常见问题"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:48
 msgid ""
 "[Build Metadata Reference](Build_Metadata_Reference) All about the build "
 "\"recipes\""
-msgstr ""
+msgstr "[编译元数据引用](Build_Metadata_Reference) 关于编译“食谱”的信息"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:48
@@ -657,33 +682,34 @@ msgid ""
 "[Submitting to F-Droid: Quick Start Guide](Submitting_to_F-"
 "Droid_Quick_Start_Guide) Add an app to f-droid.org"
 msgstr ""
+"[提交至 F-Droid：快速指南](Submitting_to_F-Droid_Quick_Start_Guide) 添加应用至 f-droid.org"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:48
 msgid ""
 "[Update Processing](Update_Processing) How updates get detected and added."
-msgstr ""
+msgstr "[更新流程](Update_Processing) 如何检查与添加更新。"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:48
 msgid ""
 "[Inclusion Policy](Inclusion_Policy) & [Inclusion How-To](Inclusion_How-To)  "
 "Guidelines for how to request the inclusion of a new app."
-msgstr ""
+msgstr "[包含政策](Inclusion_Policy) & [包含操作说明](Inclusion_How-To)  如何请求包含新应用的指南。"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:48
 msgid ""
 "[Importing Applications](Importing_Applications) Using `fdroid import` to "
 "build a new project."
-msgstr ""
+msgstr "[导入应用](Importing_Applications) 使用 `fdroid import` 生成新项目。"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:48
 msgid ""
 "[Building Applications](Building_Applications) Using `fdroid build` to build "
 "an app."
-msgstr ""
+msgstr "[编译应用](Building_Applications) 使用 `fdroid build` 编译应用。"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:48
@@ -692,6 +718,7 @@ msgid ""
 "(All_About_Descriptions_Graphics_and_Screenshots) Showing off your app in F-"
 "Droid."
 msgstr ""
+"[说明、图片和屏幕截图](All_About_Descriptions_Graphics_and_Screenshots) 展示 F-Droid 中应用。"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:48
@@ -699,6 +726,8 @@ msgid ""
 "[Installing the Server and Repo Tools](Installing_the_Server_and_Repo_Tools) "
 "How to install fdroidserver, the tools for running repos and build servers."
 msgstr ""
+"[安装服务器和资源库工具](Installing_the_Server_and_Repo_Tools) 如何安装 "
+"fdroidserver，运行资源库和编译服务器所需的工具。"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:48
@@ -707,39 +736,41 @@ msgid ""
 "repository of apps that users can easily add to their F-Droid client to get "
 "your apps directly from the source."
 msgstr ""
+"[设置 F-Droid 应用资源库](Setup_an_F-Droid_App_Repo) 如何设置您自己的应用资源库，以便用户轻松将其添加至他们的 F-"
+"Droid 客户端，从而可直接从您的资源库直接获取应用。"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:48
 msgid ""
 "[Build Server Setup](Build_Server_Setup) How to setup the complete f-droid."
 "org build setup on your own machine."
-msgstr ""
+msgstr "[编译服务器设置](Build_Server_Setup) 如何在自己的机器上设置完整的 f-droid.org 编译设定。"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:48
 msgid ""
 "[Signing Process](Signing_Process) How to setup cryptographic signatures "
 "with F-Droid tools"
-msgstr ""
+msgstr "[签名流程](Signing_Process) 如何使用 F-Droid 工具设置加密签名"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:48
 msgid ""
 "[Reproducible Builds](Reproducible_Builds) How to use the F-Droid tools to "
 "make reproducible builds easy."
-msgstr ""
+msgstr "[可重现编译](Reproducible_Builds) 如何使用 F-Droid 工具令可重现编译变得简单。"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:53
 msgid ""
 "[Verification Server](Verification_Server) Setting up a server to verify app "
 "builds are correct."
-msgstr ""
+msgstr "[验证服务器](Verification_Server) 设置对应用进行验证的服务器。"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:53
 msgid "[Whitelabel Builds](Whitelabel_Builds) custom builds of F-Droid"
-msgstr ""
+msgstr "[白标版本](Whitelabel_Builds) F-Droid 自定义版本"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:53
@@ -748,6 +779,8 @@ msgid ""
 "droid-privileged-extension) How to use F-Droid Privileged Extension as a "
 "user and rom developer"
 msgstr ""
+"[特权扩展](https://gitlab.com/fdroid/privileged-extension#f-droid-privileged-"
+"extension) 作为用户和 rom 开发者，如何使用 F-Droid 特权扩展"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:53
@@ -756,6 +789,9 @@ msgid ""
 "(https://gitlab.com/fdroid/fdroid-website) becomes [f-droid.org](https://f-"
 "droid.org)"
 msgstr ""
+"[部署网站](Deploying_the_Website) 如何将 [fdroid-"
+"website.git](https://gitlab.com/fdroid/fdroid-website) 转换为 "
+"[f-droid.org](https://f-droid.org)"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:54
@@ -763,12 +799,13 @@ msgid ""
 "[Work in Progress](https://f-droid.org/wiki/page/Work_in_Progress) Feel free "
 "to add your own topics and link to others."
 msgstr ""
+"[工作进程](https://f-droid.org/wiki/page/Work_in_Progress) 欢迎添加自己的主题和其他主题的链接。"
 
 #. type: Title #
 #: build/_pages/md/issues.md:1
 #, no-wrap
 msgid "Issues"
-msgstr ""
+msgstr "问题"
 
 #. type: Plain text
 #: build/_pages/md/issues.md:5
@@ -777,6 +814,8 @@ msgid ""
 "if we already know about it, and/or report it, in [this issue tracker]"
 "(https://gitlab.com/fdroid/fdroidclient/issues)."
 msgstr ""
+"如果遇到 F-Droid 客户端应用问题，请查看[问题跟踪程序](https://gitlab.com/fdroid/fdroidclient/issue"
+"s)，确认是否为已知问题，或提交报告。"
 
 #. type: Plain text
 #: build/_pages/md/issues.md:9
@@ -785,6 +824,8 @@ msgid ""
 "outdated applications, please use [this issue tracker](https://gitlab.com/"
 "fdroid/fdroiddata/issues)."
 msgstr ""
+"对于资源库内容相关的问题，如找不到某个应用，或应用版本不是最新，请使用[这个问题跟踪程序](https://gitlab.com/fdroid/fdroi"
+"ddata/issues)。"
 
 #. type: Plain text
 #: build/_pages/md/issues.md:12
@@ -793,12 +834,14 @@ msgid ""
 "repo), and issues relating to the web site, please use [this issue tracker]"
 "(https://gitlab.com/fdroid/fdroidserver/issues)."
 msgstr ""
+"对于服务器工具（自己编译应用或运行自己的资源库时所用的工具）以及网站相关问题，请使用[这个问题跟踪系统](https://gitlab.com/fdroi"
+"d/fdroidserver/issues)。"
 
 #. type: Title #
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md:1
 #, no-wrap
 msgid "All About Descriptions, Graphics, and Screenshots"
-msgstr ""
+msgstr "说明、图片和屏幕截图"
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md:9
@@ -810,6 +853,9 @@ msgid ""
 "files in a [simple repository](../TODO).  There are three paths to including "
 "app store content for apps:"
 msgstr ""
+"每个应用可拥有完整的应用商店内容，包括本地化的说明、功能图片和屏幕截图（适用于 F-Droid 客户端应用 v0.103 版本与 "
+"_fdroidserver_  v0.8 版本）。可通过两种方式实现：通过[编译元数据](../TODO) "
+"添加应用，或[简单资源库](../TODO)包含预编译文件。为应用添加应用商店内容的三种路径："
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md:12
@@ -823,27 +869,29 @@ msgid ""
 "* Do not remove this line (it will not be displayed)\n"
 "{:toc}\n"
 msgstr ""
+"* Do not remove this line (it will not be displayed)\n"
+"{:toc}\n"
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md:14
 msgid "There are two data formats:"
-msgstr ""
+msgstr "两种数据格式："
 
 #. type: Bullet: '* '
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md:17
 msgid "descriptive materials in plain text or HTML"
-msgstr ""
+msgstr "纯文本或 HTML 格式的描述说明"
 
 #. type: Bullet: '* '
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md:17
 msgid "graphics and screenshots as PNG or JPEG files"
-msgstr ""
+msgstr "PNG 或 JPEG 格式的图片和屏幕截图文件"
 
 #. type: Title ##
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md:19
 #, no-wrap
 msgid "In the app's source repository"
-msgstr ""
+msgstr "位于应用源资源库"
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md:30
@@ -857,6 +905,12 @@ msgid ""
 "source repo, and those files are included in a tagged release of the app, F-"
 "Droid will include all those files."
 msgstr ""
+"将应用商店数据包含至应用源资源库有两种方式：[fastlane "
+"supply](https://github.com/fastlane/fastlane/blob/2.28.7/supply/README.md"
+"#images-and-screenshots)  和 [Triple-T Gradle Play "
+"Publisher](https://github.com/Triple-T/gradle-play-publisher#play-store-"
+"metadata)。两种方式所用的都是自由软件工具，已集成至 Android 开发人员工具流程。一旦这些文件包含于应用源资源库和应用标记发布，那么 F-"
+"Droid 将包含所有这些文件。"
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md:35
@@ -865,12 +919,14 @@ msgid ""
 "_fastlane supply_ nor _Gradle Play Publisher_.  F-Droid includes these files "
 "purely based on the standard file layout that those tools use."
 msgstr ""
+"最终，无需真的安装或使用 _fastlane supply_ 和 _Gradle Play Publisher_，因为 F-Droid "
+"已包含一些这样的文件，它们完全基于这些工具所用的标准文件布局。"
 
 #. type: Title ##
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md:37
 #, no-wrap
 msgid "In the app's build metadata in an _fdroiddata_ collection"
-msgstr ""
+msgstr "位于应用 _fdroiddata_ 中编译元数据"
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md:46
@@ -882,6 +938,10 @@ msgid ""
 "Any files in this layout will be copied into the repo and added to the "
 "repo's index file by `fdroid update`."
 msgstr ""
+"应用商店的全部内容也可以添加至编译元数据的如何 _fdroiddata_ 资源库。其数据模型源于 [fastlane "
+"supply](https://github.com/fastlane/fastlane/blob/2.28.7/supply/README.md"
+"#images-and-screenshots)，并经过修改以用于 _fdroiddata_ 工作流。使用 `fdroid update` "
+"可将该布局中的全部文件复制到资源库并添加至该资源库的索引文件。"
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md:75
@@ -916,12 +976,40 @@ msgid ""
 "                  └── *.png\n"
 "```\n"
 msgstr ""
+"```\n"
+"- <fdroiddata>/\n"
+"  └── metadata/\n"
+"      └── <package-id>/\n"
+"          └── <locale>/\n"
+"              ├── full_description.txt\n"
+"              ├── short_description.txt\n"
+"              ├── title.txt\n"
+"              ├── video.txt\n"
+"              ├── images/\n"
+"              │   ├── featureGraphic.png\n"
+"              │   ├── icon.png\n"
+"              │   ├── promoGraphic.png\n"
+"              │   └── tvBanner.png\n"
+"              ├── changelogs/\n"
+"              │   ├── <version-code>.txt\n"
+"              │   └── <version-code>.txt\n"
+"              ├── phoneScreenshots/\n"
+"              │   └── *.png\n"
+"              ├── sevenInchScreenshots/\n"
+"              │   └── *.png\n"
+"              ├── tenInchScreenshots/\n"
+"              │   └── *.png\n"
+"              ├── tvScreenshots/\n"
+"              │   └── *.png\n"
+"              └── wearScreenshots/\n"
+"                  └── *.png\n"
+"```\n"
 
 #. type: Title ##
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md:76
 #, no-wrap
 msgid "Directly in the F-Droid repo"
-msgstr ""
+msgstr "位于 F-Droid 资源库"
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md:85
@@ -934,6 +1022,9 @@ msgid ""
 "repo will be overwritten.  The text files from the _fastlane_ layout are "
 "ignored if they are in the repo."
 msgstr ""
+"来自应用源资源库和 _fdroiddata_ 元数据子文件夹的文件，最终目的地是 F-Droid 资源库。所有文本将包含至索引文件（即  "
+"_index-v1.json_）。所有图片文件可直接包含在资源库中。如果应用源或 _fdroiddata_ 也包含这些文件，那么资源库的文件将被覆盖。 "
+"_fastlane_ 布局将被忽略如果同时包含在资源库中。"
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md:106
@@ -960,6 +1051,26 @@ msgid ""
 "                  └── *.png\n"
 "```\n"
 msgstr ""
+"```\n"
+"- fdroid/\n"
+"  └── repo/\n"
+"      └── <package-id>/\n"
+"          └── <locale>/\n"
+"              ├── featureGraphic.png\n"
+"              ├── icon.png\n"
+"              ├── promoGraphic.png\n"
+"              ├── tvBanner.png\n"
+"              ├── phoneScreenshots/\n"
+"              │   └── *.png\n"
+"              ├── sevenInchScreenshots/\n"
+"              │   └── *.png\n"
+"              ├── tenInchScreenshots/\n"
+"              │   └── *.png\n"
+"              ├── tvScreenshots/\n"
+"              │   └── *.png\n"
+"              └── wearScreenshots/\n"
+"                  └── *.png\n"
+"```\n"
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md:109
@@ -968,19 +1079,21 @@ msgid ""
 "index.  `fdroid server update` will sync all of the files in the repo to the "
 "various locations where the repo is actually hosted."
 msgstr ""
+"`fdroid update` 将查找资源库中所有图像文件并将其添加至索引。`fdroid server update` "
+"将资源库中所有文件同步至资源库实际所在的位置。"
 
 #. type: Title #
 #: build/_docs/md/Building_Applications.md:1
 #, no-wrap
 msgid "Building Applications"
-msgstr ""
+msgstr "编译应用"
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md:5
 msgid ""
 "Instead of (or as well as) including binary APKs from external sources in a "
 "repository, you can build them directly from the source code."
-msgstr ""
+msgstr "资源库包含的二进制 APK 可以来自外部资源，也可以直接从源码编译。"
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md:11
@@ -991,25 +1104,27 @@ msgid ""
 "application supplied as a binary APK to present itself as Free Software when "
 "in fact some or all of the following are true:"
 msgstr ""
+"使用编译方式，可根据源码验证应用编译是否正确，以及确保应用仅包含自由软件。遗憾的是，在 Android 平台上，更常见的是应用提供二进制 APK "
+"来展示自身为自由软件，但实际情况可能如下："
 
 #. type: Bullet: '1.  '
 #: build/_docs/md/Building_Applications.md:18
 msgid ""
 "The source code (either for a particular version, or even all versions!) is "
 "unavailable or incomplete."
-msgstr ""
+msgstr "源码（对于特定版本或所有版本）未提供或不完整。"
 
 #. type: Bullet: '2.  '
 #: build/_docs/md/Building_Applications.md:18
 msgid "The source code is not capable of producing the actual binary supplied."
-msgstr ""
+msgstr "源码实际无法生成所提供的二进制。"
 
 #. type: Bullet: '3.  '
 #: build/_docs/md/Building_Applications.md:18
 msgid ""
 "The ’source code’ contains binary files of unknown origin, or with "
 "proprietary licenses."
-msgstr ""
+msgstr "“源码”所含二进制文件来源未知，或者使用专有授权。"
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md:22
@@ -1017,7 +1132,7 @@ msgid ""
 "For this reason, source-built applications are the preferred method for the "
 "main F-Droid repository, although occasionally for technical or historical "
 "reasons, exceptions are made to this policy."
-msgstr ""
+msgstr "由于上述原因，F-Droid 主资源库首选方式为从源码编译应用，但是出于技术或历史的原因，有时存在例外。"
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md:30
@@ -1030,6 +1145,8 @@ msgid ""
 "inconvenience to users, as the process of uninstalling loses any data "
 "associated with the previous installation."
 msgstr ""
+"从源码编译时，应注意，您需使用自己的密钥签署应用（所有 APK 必须经过签名才能在 Android "
+"上安装）。如果设备已安装某个应用，升级至使用不同密钥签署的新版本时，需首先卸载该应用。这可能对用户带来不便，因为卸载将导致与已安装应用相关联数据的丢失。"
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md:34
@@ -1037,31 +1154,31 @@ msgid ""
 "The process for managing a repository for built-from-source applications is "
 "very similar to that described in the Simple Binary Repository chapter, "
 "except now you need to:"
-msgstr ""
+msgstr "源编译应用资源库管理流程与《简单二进制资源库》部分的说明非常类似，不过还需："
 
 #. type: Bullet: '1.  '
 #: build/_docs/md/Building_Applications.md:40
 msgid "Include Build entries in the metadata files."
-msgstr ""
+msgstr "包含编译条目至元数据文件。"
 
 #. type: Bullet: '2.  '
 #: build/_docs/md/Building_Applications.md:40
 msgid ""
 "Run `fdroid build` to build any applications that are not already built."
-msgstr ""
+msgstr "运行 `fdroid build` 编译如何尚未编译的应用。"
 
 #. type: Bullet: '3.  '
 #: build/_docs/md/Building_Applications.md:40
 msgid ""
 "Run `fdroid publish` to finalise packaging and sign any APKs that have been "
 "built."
-msgstr ""
+msgstr "运行 `fdroid publish`  对打包进行最后处理，并对任何已编译的 APK 进行签名。"
 
 #. type: Title ###
 #: build/_docs/md/Building_Applications.md:42
 #, no-wrap
 msgid "App data directory aka _fdroiddata_"
-msgstr ""
+msgstr "应用数据目录，即 _fdroiddata_"
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md:48
@@ -1071,6 +1188,8 @@ msgid ""
 "repository management tasks. You can either create a brand new one, or grab "
 "a copy of the data used by the main F-Droid repository:"
 msgstr ""
+"开始之前，您需要至少一个资源库数据目录。从该目录，可运行 `fdroid` 命令执行所有资源库管理任务。可创建全新的数据，或者复制 F-Droid "
+"主资源库使用的数据："
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md:52
@@ -1086,6 +1205,8 @@ msgid ""
 "file (`./examples/config.py`) from the fdroidserver project to your data "
 "directory and then editing according to the instructions within."
 msgstr ""
+"无论如何使用这些工具，总需要对某些基本设定的细节进行设置：在数据目录创建名为 `config.py` 的文件。可将 fdroidserver "
+"项目复制示例文件 (`./examples/config.py`) 至您的数据目录，然后根据内置指南进行编辑。"
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md:63
@@ -1093,25 +1214,25 @@ msgid ""
 "Once configured in this way, all the functionality of the tools is accessed "
 "by running the `fdroid` command. Run it on its own to get a list of the "
 "available sub-commands."
-msgstr ""
+msgstr "按照这种方式设置之后，即可通过 `fdroid` 命令访问这些工具的所有功能。运行该命令本身可显示可用子命令列表。"
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md:66
 msgid ""
 "You can follow any command with `--help` to get a list of additional options "
 "available for that command."
-msgstr ""
+msgstr "任何命令后加上 `--help` 可获取相应的可用附加命令。"
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md:70
 msgid "```bash fdroid update --help ```"
-msgstr ""
+msgstr "```bash fdroid update --help ```"
 
 #. type: Title ###
 #: build/_docs/md/Building_Applications.md:72
 #, no-wrap
 msgid "More about `fdroid build`"
-msgstr ""
+msgstr "有关 `fdroid build` 的更多信息"
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md:80
@@ -1123,18 +1244,20 @@ msgid ""
 "friend, but a few annotated examples and discussion of the more common usage "
 "modes follows:"
 msgstr ""
+"不加任何参数时，`fdroid build` 可编译 `repo` 目录中没有的所有应用版本（具体为 `unsigned` "
+"目录）。还有其他用途。和所有工具一样，`--help` 选项很有帮助，以下为一些常见用途的示例和说明："
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md:83
 msgid ""
 "To build a single version of a single application, you could run the "
 "following:"
-msgstr ""
+msgstr "针对一个应用编译一个版本，命令如下："
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md:87
 msgid "```bash fdroid build org.fdroid.fdroid:16 ```"
-msgstr ""
+msgstr "```bash fdroid build org.fdroid.fdroid:16 ```"
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md:91
