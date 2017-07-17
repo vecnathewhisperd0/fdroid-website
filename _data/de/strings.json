@@ -14,6 +14,15 @@
         "issues": "Probleme", 
         "news": "Nachrichten"
     }, 
+    "package": {
+        "changelog": "Änderungen", 
+        "donate": "Spenden", 
+        "flattr": "Flattr", 
+        "license": "Lizenz", 
+        "permissions": "Berechtigungen", 
+        "source_code": "Quelltext", 
+        "website": "Internetseite"
+    }, 
     "sidebars": {
         "donate": {
             "bank_transfer_name": "Name", 
