@@ -14,6 +14,15 @@
         "issues": "问题", 
         "news": "新闻"
     }, 
+    "package": {
+        "changelog": "更新日志", 
+        "donate": "捐赠", 
+        "flattr": "Flattr", 
+        "license": "许可证类型", 
+        "permissions": "权限", 
+        "source_code": "源代码", 
+        "website": "网址"
+    }, 
     "sidebars": {
         "donate": {
             "bank_transfer_name": "名称", 
