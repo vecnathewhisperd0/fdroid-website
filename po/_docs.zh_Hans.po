@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-07-15 03:24+0000\n"
+"PO-Revision-Date: 2017-07-17 06:38+0000\n"
 "Last-Translator: sima <lin2s@riseup.net>\n"
 "Language-Team: Chinese (Simplified) "
 "<https://hosted.weblate.org/projects/f-droid/website-docs/zh_Hans/>\n"
@@ -1265,19 +1265,19 @@ msgid ""
 "This attempts to build version code 16 (which is version 0.25) of the F-"
 "Droid client. Many of the tools recognise arguments as packages, allowing "
 "their activity to be limited to just a limited set of packages."
-msgstr ""
+msgstr "该命令用于编译版本代码 16（即 0.25 版本）的 F-Droid 客户端。这些工具中许多命令可将参数识别为包，以便其活动仅限于特定一组包。"
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md:94
 msgid ""
 "If the build above was successful, two files will have been placed in the "
 "`unsigned` directory:"
-msgstr ""
+msgstr "编译成功后， `unsigned` 目录将生成两个文件："
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md:99
 msgid "``` org.fdroid.fdroid_16.apk org.fdroid.fdroid_16_src.tar.gz ```"
-msgstr ""
+msgstr "``` org.fdroid.fdroid_16.apk org.fdroid.fdroid_16_src.tar.gz ```"
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md:104
@@ -1286,17 +1286,17 @@ msgid ""
 "push it direct to your device or an emulator for testing. The second is a "
 "source tarball containing exactly the source that was used to generate the "
 "binary."
-msgstr ""
+msgstr "第一个文件是（未签名的）APK。可使用调试密钥签名并直接在设备或模拟器中进行测试。第二个为源码 tarball，其中包含生成二进制所用的源码。"
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md:106
 msgid "If you were intending to publish these files, you could then run:"
-msgstr ""
+msgstr "如果想要发布这些文件，请运行："
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md:110
 msgid "```bash fdroid publish ```"
-msgstr ""
+msgstr "```bash fdroid publish ```"
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md:115
@@ -1306,6 +1306,8 @@ msgid ""
 "version of the APK would also appear there, and both files would be removed "
 "from the `unsigned` directory."
 msgstr ""
+"源码 tarball 将移至 `repo` 目录（即发送至 web 服务器的目录）。该目录下还将生成经过签名和 zipalign 处理的\n"
+" APK 文件。两个文件将从 `unsigned` 目录删除。"
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md:122
@@ -1316,6 +1318,8 @@ msgid ""
 "similar effect could by achieved by simply deleting the output files from "
 "`unsigned` after the build, but with the risk of forgetting to do so!"
 msgstr ""
+"如果仅用于测试，结果不发送至资源库（或者现在不发布），可使用 `--test` 选项将输出导入至 `tmp` 目录，而不是 `unsigned`。"
+"也可以编译后删除 `unsigned` 中的输出文件，但可能会忘记这样做！"
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md:128
@@ -1326,6 +1330,8 @@ msgid ""
 "known non-free libraries can be forced to build. See also — `scanignore=` "
 "and `scandelete=` in the `Build:` section."
 msgstr ""
+"使用这些命令行（仅限于同时使用 `--test`），可使用 `--force` 强制编译“已禁用”应用，通常禁用的应用完全被忽略。类似，可强制编译包含 "
+"ELF 或已知非自由库的版本。另外，请参阅：`Build:` 部分`scanignore=` 和 `scandelete=`。"
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md:133
@@ -1334,6 +1340,8 @@ msgid ""
 "in the logs/ directory. If that isn’t illuminating, try building the app the "
 "regular way, step by step: android update project, ndk-build, ant debug."
 msgstr ""
+"如果编译未成功，可查看 logs/ 目录输出寻找原因。如果这样仍未找到原因，可按照常规方式编译应用，逐步排除：android update project"
+"，ndk-build，ant debug。"
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md:138
@@ -1342,13 +1350,13 @@ msgid ""
 "app is being considered for the main F-Droid repository, it is important "
 "that all such prebuilts are built either via the metadata or by a reputable "
 "third party."
-msgstr ""
+msgstr "请注意，源码资源库通常包含预编译库。如果该应用用于 F-Droid 主资源库，所有这些预编应通过元数据或可信第三方进行编译，这点非常重要。"
 
 #. type: Title ###
 #: build/_docs/md/Building_Applications.md:140
 #, no-wrap
 msgid "Running `fdroid build` in your app’s source"
-msgstr ""
+msgstr "在应用源码中运行 `fdroid build`"
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md:148
@@ -1360,29 +1368,32 @@ msgid ""
 "`.fdroid.txt`, depending on your preferred data format: JSON, XML, YAML, or "
 "F-Droid’s `.txt` format."
 msgstr ""
+"使用 `fdroid build` 的另一种方式：使用应用源码中包含的元数据文件，而不是包含其他许多应用的 `metadata/` "
+"目录。这个元数据文件应位于源资源库根目录；根据您所选数据格式 JSON，XML，YAML 或 F-Droid 的 `.txt`\n"
+"，文件名应为 `.fdroid.json`，`.fdroid.xml`，`.fdroid.yaml`或`.fdroid.txt`。"
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md:151
 msgid ""
 "Once you have that setup, you can build the most recent version of the app "
 "using the whole FDroid stack by running:"
-msgstr ""
+msgstr "设置完成之后，使用整个 FDroid 栈编译最新版本应用，运行："
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md:155
 msgid "```bash fdroid build ```"
-msgstr ""
+msgstr "```bash fdroid build ```"
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md:157
 msgid "If you want to build every single version, then specify `--all`."
-msgstr ""
+msgstr "如需编译每一个版本，可指定 `--all`。"
 
 #. type: Title ###
 #: build/_docs/md/Building_Applications.md:159
 #, no-wrap
 msgid "Direct Installation"
-msgstr ""
+msgstr "直接安装"
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md:169
@@ -1396,29 +1407,32 @@ msgid ""
 "sanity checks are performed with this mode, so if the files in the signed "
 "output directory were modified, you won’t be notified."
 msgstr ""
+"使用 `fdroid install` 命令，还可以编译并直接安装应用至连接的设置或模拟器。参数为指定包时，将安装每个包所有最新编译和签名的版本。通常，这"
+"并非人们想要的结果，因此将直接终止该命令执行。不过，可使用 `--all` "
+"覆盖这一规则。请注意，当前，该模式不会进行严格的检查，如果已签名输出目录中的文件经过修改，不会提示修改。"
 
 #. type: Title #
 #: build/_docs/md/Build_Metadata_Reference.md:1
 #, no-wrap
 msgid "Build Metadata Reference"
-msgstr ""
+msgstr "编译元数据引用"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:5
 msgid ""
 "Information used by `fdroid update` to compile the public index comes from "
 "several sources:"
-msgstr ""
+msgstr "`fdroid update` 编译公共索引所用信息来自："
 
 #. type: Bullet: '* '
 #: build/_docs/md/Build_Metadata_Reference.md:10
 msgid "APK, media, etc files in the _repo_ sub-directory"
-msgstr ""
+msgstr "_repo_ 子目录中的 APK、媒体等文件"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Build_Metadata_Reference.md:10
 msgid "per-package \"metadata\" files in the _metadata_ sub-directory"
-msgstr ""
+msgstr "_metadata_ 子目录中每个包的“元数据”文件"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Build_Metadata_Reference.md:10
@@ -1427,6 +1441,9 @@ msgid ""
 "_and_Screenshots#in-the-apps-build-metadata-in-an-fdroiddata-collection) in "
 "the _metadata_ subdirectory"
 msgstr ""
+"_metadata_ "
+"子目录下的[可本地化的文本和图片](All_About_Descriptions,_Graphics,_and_Screenshots#in-the-"
+"apps-build-metadata-in-an-fdroiddata-collection)"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Build_Metadata_Reference.md:10
@@ -1435,6 +1452,8 @@ msgid ""
 "(All_About_Descriptions,_Graphics,_and_Screenshots#in-the-apps-source-"
 "repository)"
 msgstr ""
+"[嵌入在应用源码中](All_About_Descriptions,_Graphics,_and_Screenshots#in-the-apps-"
+"source-repository)的可本地化文本和图片"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:18
@@ -1447,28 +1466,30 @@ msgid ""
 "All other fields use camelCase starting with a lower case letter, including "
 "per-build fields, localized fields, etc."
 msgstr ""
+"这些元数据文件是简单的文本文件，易于编辑，文件名通常为“包名称”加文件类型。许多字段可添加信息作为包或应用的说明。对于适用于包或应用所有发布版本的字段，"
+"如 `AuthorName`，字段命名方式为大写开头的驼峰式大小写。其他字段使用小写开头的驼峰式大小写，包括预编译字段，本地化字段等。"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:20
 msgid "There are three supported file types for metadata files:"
-msgstr ""
+msgstr "元数据文件支持三种文件类型："
 
 #. type: Bullet: '* '
 #: build/_docs/md/Build_Metadata_Reference.md:24
 msgid ""
 "_.yml_ files in [YAML](http://www.yaml.org/start.html) format, used by f-"
 "droid.org"
-msgstr ""
+msgstr "[YAML](http://www.yaml.org/start.html) 格式的 _.yml_，f-droid.org 所用"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Build_Metadata_Reference.md:24
 msgid "_.txt_ files in the old, custom, F-Droid text-based format"
-msgstr ""
+msgstr "_.txt_ 文件，可自定义的 F-Droid 基于文本的旧格式"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Build_Metadata_Reference.md:24
 msgid "_.json_ files in [JSON](http://json.org/) format"
-msgstr ""
+msgstr "[JSON](http://json.org/) 格式的_.json_ 文件"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:34
@@ -1482,26 +1503,29 @@ msgid ""
 "fact, you can standardise all packages in a repository using a single "
 "command, without changing the functional content, by running:"
 msgstr ""
+"请注意，虽然元数据文件是为了方便开发者对其进行读写，同时可使用各种脚本进行处理或编辑。在需要时，可自动清除。元数据结构和评论可正确保留下来，但将对字段顺序"
+"进行标准化处理。（对于使用不同顺序的原文件，评论在前，被评论的字段在后。）实际上，可使用一条简单的命令对资源库中所有包进行标准化，而不更改功能内容，该命令"
+"为："
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:38
 msgid "``` fdroid rewritemeta ```"
-msgstr ""
+msgstr "``` fdroid rewritemeta ```"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:40
 msgid "Or just run it on a specific app:"
-msgstr ""
+msgstr "或对特定应用，运行："
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:44
 msgid "``` fdroid rewritemeta org.adaway ```"
-msgstr ""
+msgstr "``` fdroid rewritemeta org.adaway ```"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:46
 msgid "The following sections describe the fields recognised within the file."
-msgstr ""
+msgstr "以下各部分描述了文件内可识别的字段。"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:82
@@ -1522,12 +1546,28 @@ msgid ""
 "Update-Mode)  - [Current Version](#Current-Version)  - [Current Version Code]"
 "(#Current-Version-Code)  - [No Source Since](#No-Source-Since)"
 msgstr ""
+"- [Categories](#Categories)  - [Author Name](#Author-Name)  - [Author Email"
+"](#Author-Email)  - [License](#License)  - [Auto Name](#Auto-Name)  - "
+"[Name](#Name)  - [Provides](#Provides)  - [Web Site](#Web-Site)  - [Source "
+"Code](#Source-Code)  - [Issue Tracker](#Issue-Tracker)  - "
+"[Changelog](#Changelog)  - [Donate](#Donate)  - [FlattrID](#FlattrID)  - "
+"[Bitcoin](#Bitcoin)  - [Litecoin](#Litecoin)  - [Summary](#Summary)  - "
+"[Description](#Description)  - [Maintainer Notes](#Maintainer-Notes)  - ["
+"Repo Type](#Repo-Type)  - [Repo](#Repo)  - [Binaries](#Binaries)  - "
+"[Build](#Build)  - [AntiFeatures](#AntiFeatures)  - [Disabled](#Disabled)  - "
+"[Requires Root](#Requires-Root)  - [Archive Policy](#Archive-Policy)  - ["
+"Update Check Mode](#Update-Check-Mode)  - [Update Check Ignore](#Update-"
+"Check-Ignore)  - [Vercode Operation](#Vercode-Operation)  - [Update Check "
+"Name](#Update-Check-Name)  - [Update Check Data](#Update-Check-Data)  - ["
+"Auto Update Mode](#Auto-Update-Mode)  - [Current Version](#Current-Version)  "
+"- [Current Version Code](#Current-Version-Code)  - [No Source Since](#No-"
+"Source-Since)"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md:85
 #, no-wrap
 msgid "7.1 Categories<a name=\"Categories\"></a>"
-msgstr ""
+msgstr "7.1 类别<a name=\"Categories\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:94
@@ -1539,6 +1579,8 @@ msgid ""
 "one of the existing categories (look at the site/client), or discuss the "
 "proposal to add a new one."
 msgstr ""
+"应用可属于任意数量的类别。类别多少没有固定，客户端和网站可自动显示任何应用所属的任何类别。不过，如果元数据是针对 F-Droid "
+"主资源库，应从客户端或网站上现有的类别中选项，也可提议添加新类别。"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:98
