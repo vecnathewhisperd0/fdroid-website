@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-07-15 16:29+0000\n"
+"PO-Revision-Date: 2017-07-17 15:11+0000\n"
 "Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/de/>\n"
@@ -572,7 +572,7 @@ msgid ""
 "(https://forum.f-droid.org/c/translation) for translation discussions."
 msgstr ""
 "Beginnen Sie mit der Übersicht zu [Übersetzung und "
-"Lokalisation](docs/Translation_and_Localization). Zur Diskussion von "
+"Lokalisation](../docs/Translation_and_Localization). Zur Diskussion von "
 "Übersetzungen gibt es auch einen [fest zugeordneten "
 "Forumbereich](https://forum.f-droid.org/c/translation)."
 
@@ -726,6 +726,10 @@ msgid ""
 "are the various channels that F-Droid software are released on, with info to "
 "verify them based on signing keys."
 msgstr ""
+"[Ausgabekanäle und Signierschlüssel](Release_Channels_and_Signing_Keys) Dies "
+"sind die verschiedenen Kanäle, über die F-Froid-Software abgerufen werden "
+"kann, inklusive der Informationen, wie ihre Echtheit anhand von "
+"Signiersschlüsseln überprüft wird."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:31
@@ -733,6 +737,8 @@ msgid ""
 "[Security Model](Security_Model) A brief explanation of how F-Droid delivers "
 "software to users securely."
 msgstr ""
+"[Sicherheitsmodell](Security_Model) Eine kurze Erklärung wie F-Froid "
+"Software sicher an seine Nutzer ausliefert."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:31
@@ -740,12 +746,14 @@ msgid ""
 "[Translation and Localization](Translation_and_Localization) How all the "
 "parts of F-Droid are localized."
 msgstr ""
+"[Übersetzung und Lokalisation](Translation_and_Localization) Wie alle Teile "
+"von F-Droid lokalisiert werden."
 
 #. type: Title ###
 #: build/_pages/md/docs.md:33
 #, no-wrap
 msgid "Developers"
-msgstr ""
+msgstr "Entwickler"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:48
@@ -753,6 +761,8 @@ msgid ""
 "[FAQ - App Developers](FAQ_-_App_Developers) Frequently Asked Questions "
 "about F-Droid"
 msgstr ""
+"[FAQ - App-Entwickler](FAQ_-_App_Developers) Häufig gestellte Fragen zu "
+"F-Droid"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:48
@@ -760,6 +770,8 @@ msgid ""
 "[Build Metadata Reference](Build_Metadata_Reference) All about the build "
 "\"recipes\""
 msgstr ""
+"[Build-Metadaten-Referenz](Build_Metadata_Reference) Alles über Build-\""
+"Rezepte\""
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:48
@@ -767,12 +779,16 @@ msgid ""
 "[Submitting to F-Droid: Quick Start Guide](Submitting_to_F-"
 "Droid_Quick_Start_Guide) Add an app to f-droid.org"
 msgstr ""
+"[Anträge bei F-Droid: Kurzanleitung](Submitting_to_F-Droid_Quick_Start_Guide)"
+" Eine App auf f-droid.org einfügen"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:48
 msgid ""
 "[Update Processing](Update_Processing) How updates get detected and added."
 msgstr ""
+"[Update-Verarbeitung](Update_Processing) Wie Aktualisierungen bestimmt und "
+"hinzugefügt werden."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:48
@@ -780,6 +796,8 @@ msgid ""
 "[Inclusion Policy](Inclusion_Policy) & [Inclusion How-To](Inclusion_How-To)  "
 "Guidelines for how to request the inclusion of a new app."
 msgstr ""
+"[Aufnahmegrundsätze](Inclusion_Policy) & [Aufnahmeverfahren](Inclusion_How-"
+"To)  Leitfaden wie die Aufnahme einer neuen App beantragt werden kann."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:48
@@ -787,6 +805,8 @@ msgid ""
 "[Importing Applications](Importing_Applications) Using `fdroid import` to "
 "build a new project."
 msgstr ""
+"[Anwendungsimport](Importing_Applications) Verwendung von `fdroid import`, "
+"um ein neues Projekt zu erstellen."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:48
@@ -794,6 +814,8 @@ msgid ""
 "[Building Applications](Building_Applications) Using `fdroid build` to build "
 "an app."
 msgstr ""
+"[Anwendungserstellung](Building_Applications) Verwendung von `fdroid build`, "
+"um eine App herzustellen."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:48
@@ -802,6 +824,9 @@ msgid ""
 "(All_About_Descriptions_Graphics_and_Screenshots) Showing off your app in F-"
 "Droid."
 msgstr ""
+"[Alles über Beschreibungen, Grafiken und "
+"Bildschirmfotos](All_About_Descriptions_Graphics_and_Screenshots) "
+"Präsentation einer App in F-Droid."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:48
@@ -809,6 +834,10 @@ msgid ""
 "[Installing the Server and Repo Tools](Installing_the_Server_and_Repo_Tools) "
 "How to install fdroidserver, the tools for running repos and build servers."
 msgstr ""
+"[Installation der Server- und Repo-"
+"Werkzeuge](Installing_the_Server_and_Repo_Tools) Wie funktioniert die "
+"Installation von ‘fdroidserver‘, den Werkzeugen zum Betrieb der Repo- und "
+"Build-Server."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:48
@@ -817,6 +846,10 @@ msgid ""
 "repository of apps that users can easily add to their F-Droid client to get "
 "your apps directly from the source."
 msgstr ""
+"[Einrichtung eines F-Droid-App-Repos](Setup_an_F-Droid_App_Repo) Wie wird "
+"Ihre eigene App-Paketquelle eingerichtet, damit Nutzer sie einfach in ihre F"
+"-Droid-App einbinden können und dadurch Ihre Apps direkt aus der Quelle "
+"erhalten."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:48
