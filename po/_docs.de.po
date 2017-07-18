@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-07-17 15:11+0000\n"
+"PO-Revision-Date: 2017-07-18 09:17+0000\n"
 "Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/de/>\n"
@@ -729,7 +729,7 @@ msgstr ""
 "[Ausgabekanäle und Signierschlüssel](Release_Channels_and_Signing_Keys) Dies "
 "sind die verschiedenen Kanäle, über die F-Froid-Software abgerufen werden "
 "kann, inklusive der Informationen, wie ihre Echtheit anhand von "
-"Signiersschlüsseln überprüft wird."
+"Signierschlüsseln überprüft wird."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:31
@@ -857,6 +857,9 @@ msgid ""
 "[Build Server Setup](Build_Server_Setup) How to setup the complete f-droid."
 "org build setup on your own machine."
 msgstr ""
+"[Build-Server-Einrichtung](Build_Server_Setup) Wie die Installation der "
+"kompletten Build-Konfiguration von f-droid.org auf dem eigenen Computer "
+"funktioniert."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:48
@@ -864,6 +867,8 @@ msgid ""
 "[Signing Process](Signing_Process) How to setup cryptographic signatures "
 "with F-Droid tools"
 msgstr ""
+"[Signierverfahren](Signing_Process) Wie kryptographische Signaturen mit F"
+"-Droid-Werkzeugen konfiguriert werden."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:48
@@ -871,6 +876,8 @@ msgid ""
 "[Reproducible Builds](Reproducible_Builds) How to use the F-Droid tools to "
 "make reproducible builds easy."
 msgstr ""
+"[Reproduzierbare Builds](Reproducible_Builds) Wie F-Droid-Instrumente zur "
+"einfachen Herstellung von reproduzierbaren Versionen verwendet werden."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:53
@@ -878,11 +885,13 @@ msgid ""
 "[Verification Server](Verification_Server) Setting up a server to verify app "
 "builds are correct."
 msgstr ""
+"[Server zur Verifikation](Verification_Server) Einrichtung eines Servers zur "
+"Überprüfung der Echtheit von App-Versionen."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:53
 msgid "[Whitelabel Builds](Whitelabel_Builds) custom builds of F-Droid"
-msgstr ""
+msgstr "[Whitelabel Builds](Whitelabel_Builds) Einzelanfertigungen von F-Droid"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:53
@@ -891,6 +900,9 @@ msgid ""
 "droid-privileged-extension) How to use F-Droid Privileged Extension as a "
 "user and rom developer"
 msgstr ""
+"[Rechteerweiterung](https://gitlab.com/fdroid/privileged-extension#f-droid-"
+"privileged-extension) Wie die F-Droid-Rechteerweiterung als Nutzer und ROM-"
+"Entwickler verwendet wird."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:53
@@ -899,6 +911,9 @@ msgid ""
 "(https://gitlab.com/fdroid/fdroid-website) becomes [f-droid.org](https://f-"
 "droid.org)"
 msgstr ""
+"[Entwicklung der Internetseite](Deploying_the_Website) Wie [fdroid-"
+"website.git](https://gitlab.com/fdroid/fdroid-website) zu "
+"[f-droid.org](https://f-droid.org) wird."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:54
@@ -906,6 +921,9 @@ msgid ""
 "[Work in Progress](https://f-droid.org/wiki/page/Work_in_Progress) Feel free "
 "to add your own topics and link to others."
 msgstr ""
+"[Laufende Arbeiten](https://f-droid.org/wiki/page/Work_in_Progress) Hier "
+"können Sie gern eigene Themen einbringen und mit Anderen in Verbindung "
+"treten."
 
 #. type: Title #
 #: build/_pages/md/issues.md:1
