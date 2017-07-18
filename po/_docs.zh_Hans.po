@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-07-17 06:38+0000\n"
+"PO-Revision-Date: 2017-07-18 01:55+0000\n"
 "Last-Translator: sima <lin2s@riseup.net>\n"
 "Language-Team: Chinese (Simplified) "
 "<https://hosted.weblate.org/projects/f-droid/website-docs/zh_Hans/>\n"
@@ -1589,18 +1589,20 @@ msgid ""
 "compatibility, F-Droid will use the first category given as &lt;category&gt; "
 "element for older clients to at least see one category."
 msgstr ""
+"类别必须使用单个逗号（,）隔开。为了向后兼容，F-Droid 旧版客户端使用指定的第一个类别为 &lt;category&gt; "
+"元素，这样至少可以显示一个类别。"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:100
 #, no-wrap
 msgid "This is converted to (`<categories>`) in the XML file (_index.xml_).\n"
-msgstr ""
+msgstr "在 XML 文件(_index.xml_)中，该部分转换为 (`<categories>`)。\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md:103
 #, no-wrap
 msgid "7.2 Author Name<a name=\"Author-Name\"></a>"
-msgstr ""
+msgstr "7.2 作者名字 Name<a name=\"Author-Name\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:109
@@ -1608,7 +1610,7 @@ msgid ""
 "The name of the author, either full, abbreviated or pseudonym. If present, "
 "it should represent the name(s) as published by upstream, e.g.  in their "
 "copyright or authors file. This can be omitted (or left blank)."
-msgstr ""
+msgstr "作者名字可为全名、缩写或别名。如果存在，应显示为上游发布的名字，如版权或作者文档。该部分可省略（或留白）。"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:111
