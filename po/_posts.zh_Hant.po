@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-07-08 04:39+0000\n"
-"Last-Translator: Chi-Hsun Tsai <chihsun.tsai@gmail.com>\n"
+"PO-Revision-Date: 2017-07-19 17:46+0000\n"
+"Last-Translator: riotism <thejacklau@gmail.com>\n"
 "Language-Team: Chinese (Traditional) "
 "<https://hosted.weblate.org/projects/f-droid/website-posts/zh_Hant/>\n"
 "Language: zh_Hant\n"
@@ -49,10 +49,9 @@ msgid ""
 "shipped as an OBB. Then when the app itself is updated (i.e. the APK), it "
 "does not need to include all those assets that are in the OBB file."
 msgstr ""
-"Google 創建了 OBB 又名 \"[APK 擴展](https://developer.android.com/google/play"
-"/expansion-files.html)\" 檔案以提供彈性的方式來傳送大量的資料。這樣的安排也能節省頻寛，因為 APK 檔和 OBB "
-"檔可以各自分開更新。例如, 某個遊戲的資源不會經常變動，因此可以作成一個 OBB。 當此應用更新時 (i.e. APK), 它無需包含存在 OBB "
-"檔案的資源。"
+"Google 創建了又名「[APK 擴展](https://developer.android.com/google/play/expansion-"
+"files.html)」的 OBB 檔案，使傳送大量資料時更具彈性。這樣的安排也能節省頻寛，因為 APK 檔和 OBB "
+"檔可以各自分開更新。例如，某個遊戲的資源不會經常變動，因此可以作成一個 OBB。當此應用更新時（即 APK），它無需包含存在 OBB 檔案的資源。"
 
 #. type: Plain text
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md:25
@@ -64,8 +63,9 @@ msgid ""
 "URLs in case the app itself needs to handle the OBB download/update.  That "
 "is similar to how it works in Google Play."
 msgstr ""
-"OBB 檔案被用於許多遊戲或地圖的應用。F-Droid支援 OBB 下載與先於 APK 之前的安裝。因此一旦 APK 安裝好了， OBB "
-"檔早已就位準備派上用場。F-Droid也提供應用以`刻意`方式來抓取 OBB 下載資源，以配合應用本身需要處理 OBB 的下載/更新。"
+"許多遊戲及 MAPS.ME 等的應用程式都使用 OBB 檔案。F-Droid 將在處理 APK 檔案前先下載和安裝 OBB，以使 OBB 檔案在安裝好 "
+"APK 時已經準備就緒，以供使用。F-Droid 更為提供 `刻意` 的方式，讓應用程式可以存取 OBB 的下載網址。此方式可以使應用程式獨立地處理 "
+"OBB 下載和更新，與 Google Play 的處理方法相近。"
 
 #. type: Plain text
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md:27
@@ -75,14 +75,14 @@ msgid ""
 "very easy: just copy them to the same folder where the APKs go, i.e. _/path/"
 "to/fdroid/repo/_."
 msgstr ""
-"要使用 OBB 支援，用戶需要安裝 F-Droid v0.102以上版本，而資源庫則需至少使用 use _fdroidserver_ v0.7.0 "
-"或更新版。要新增 OBB 檔案到資源庫很簡單：只要將之複製到與 APKs 檔同一個資料夾即可， 例如 _/path/to/fdroid/repo/_."
+"F-Droid 0.102 或更新版才支援 OBB，軟體倉庫必須使用 _fdroidserver_ 0.7.0 或更新版。在倉庫新增 OBB "
+"檔案非常簡單：您只需要將 OBB 檔案複製至 APK 檔案所在的資料夾（如： _/path/to/fdroid/repo/_）。"
 
 #. type: Title ##
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md:28
 #, no-wrap
 msgid "Developer Usage"
-msgstr "開發者使用"
+msgstr "針對開發者的使用"
 
 #. type: Plain text
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md:38
@@ -95,17 +95,17 @@ msgid ""
 "google/play/licensing/index.html)  service for this, F-Droid provides a "
 "simple method that is all free software."
 msgstr ""
-"在應用程式中使用 OBB 檔案的細節之一是 OBB 檔案不保證可以被應用程式商店安裝。這表示如果應用可以啟動，但預期中的 OBB "
-"檔案不會存在。這個情況下，該應用自身必須下載和安裝 OBB 檔。Google Play 建議使用他們的專用[應用程式許可](https://develop"
-"er.android.com/google/play/licensing/index.html) 服務, F-Droid "
-"提供一個簡單的方法是全部都為自由軟體。"
+"在應用程式中使用 OBB 檔案時，要注意應用程式商店不一定會安裝 OBB 檔案。未能夠安裝 OBB 檔案的應用程式是可以啟動的，但不會找到所需的 OBB "
+"檔案。這個情況下，該應用程式必須自行下載和安裝 OBB 檔案。Google Play 建議在下載和安裝 OBB 檔案時使用他們的專用[應用程式許可](ht"
+"tps://developer.android.com/google/play/licensing/index.html) 服務，但 F-Droid "
+"則提供一個使用自由軟體的簡單方法。"
 
 #. type: Plain text
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md:41
 msgid ""
 "To get the URL for the two possible OBB files, send an `Intent` to F-Droid "
 "using these _Actions_:"
-msgstr "要取得二個可能的 OBB 檔的 URL 位置, 使用these _Actions_ 來傳送`Intent` 到 F-Droid :"
+msgstr "要取得兩個可能的 OBB 檔的 URL 位置，使用 these _Actions_ 來傳送 `Intent` 到 F-Droid："
 
 #. type: Bullet: '* '
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md:44
