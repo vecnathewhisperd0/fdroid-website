@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-07-18 09:17+0000\n"
+"PO-Revision-Date: 2017-07-19 15:46+0000\n"
 "Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/de/>\n"
@@ -476,7 +476,7 @@ msgid ""
 "(https://forum.f-droid.org/) or on IRC (#fdroid on freenode)."
 msgstr ""
 "Bei Problemen mit der Internetseite oder der Client-Software können diese "
-"über ein Serviceticket (siehe unten) übermittelt oder im "
+"über die Fehlerverfolgung (siehe unten) übermittelt oder im "
 "[Forum](https://forum.f-droid.org/) bzw. im Chat (#fdroid on freenode) "
 "erörtert werden."
 
@@ -484,8 +484,8 @@ msgstr ""
 #: build/_pages/md/contribute.md:9
 msgid "For reporting issues, choose an appropriate tracker from the following:"
 msgstr ""
-"Für Problemberichte wählen Sie ein dafür geeignetes Serviceticket-System aus "
-"folgender Liste:"
+"Für Problemberichte wählen Sie ein dafür geeignetes System zur "
+"Fehlerverfolgung aus folgender Liste:"
 
 #. type: Bullet: '* '
 #: build/_pages/md/contribute.md:13
@@ -929,7 +929,7 @@ msgstr ""
 #: build/_pages/md/issues.md:1
 #, no-wrap
 msgid "Issues"
-msgstr ""
+msgstr "Probleme"
 
 #. type: Plain text
 #: build/_pages/md/issues.md:5
@@ -938,6 +938,9 @@ msgid ""
 "if we already know about it, and/or report it, in [this issue tracker]"
 "(https://gitlab.com/fdroid/fdroidclient/issues)."
 msgstr ""
+"Wenn Sie ein Problem mit dem F-Droid-Client, der App, haben, überprüfen Sie, "
+"ob es bereits bekannt ist, und/oder berichten Sie davon in [dieser "
+"Fehlerverfolgung](https://gitlab.com/fdroid/fdroidclient/issues)."
 
 #. type: Plain text
 #: build/_pages/md/issues.md:9
@@ -946,6 +949,9 @@ msgid ""
 "outdated applications, please use [this issue tracker](https://gitlab.com/"
 "fdroid/fdroiddata/issues)."
 msgstr ""
+"Bei Problemen, die sich auf die Paketquelleninhalte beziehen, wie fehlende "
+"oder veraltete Anwendungen, verwenden Sie [diese "
+"Fehlerverfolgung](https://gitlab.com/fdroid/fdroiddata/issues)."
 
 #. type: Plain text
 #: build/_pages/md/issues.md:12
@@ -954,12 +960,16 @@ msgid ""
 "repo), and issues relating to the web site, please use [this issue tracker]"
 "(https://gitlab.com/fdroid/fdroidserver/issues)."
 msgstr ""
+"Für die Server-Werkzeuge (zur Herstellung eigener Apps oder zum Betrieb "
+"einer eigenen Paketquelle) und Fragen im Zusammenhang mit der Internetseite "
+"verwenden Sie [diese "
+"Fehlerverfolgung](https://gitlab.com/fdroid/fdroidserver/issues)."
 
 #. type: Title #
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md:1
 #, no-wrap
 msgid "All About Descriptions, Graphics, and Screenshots"
-msgstr ""
+msgstr "Alles über Beschreibungen, Grafiken und Bildschirmfotos"
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md:9
@@ -988,17 +998,17 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md:14
 msgid "There are two data formats:"
-msgstr ""
+msgstr "Es gibt zwei Datenformate:"
 
 #. type: Bullet: '* '
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md:17
 msgid "descriptive materials in plain text or HTML"
-msgstr ""
+msgstr "beschreibende Materialien als „plain text“ oder HTML"
 
 #. type: Bullet: '* '
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md:17
 msgid "graphics and screenshots as PNG or JPEG files"
-msgstr ""
+msgstr "Grafiken und Bildschirmfotos als PNG- oder JPEG-Dateien"
 
 #. type: Title ##
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md:19
@@ -1077,6 +1087,34 @@ msgid ""
 "                  └── *.png\n"
 "```\n"
 msgstr ""
+"```\n"
+"- <fdroiddata>/\n"
+"  └── metadata/\n"
+"      └── <package-id>/\n"
+"          └── <locale>/\n"
+"              ├── full_description.txt\n"
+"              ├── short_description.txt\n"
+"              ├── title.txt\n"
+"              ├── video.txt\n"
+"              ├── images/\n"
+"              │   ├── featureGraphic.png\n"
+"              │   ├── icon.png\n"
+"              │   ├── promoGraphic.png\n"
+"              │   └── tvBanner.png\n"
+"              ├── changelogs/\n"
+"              │   ├── <version-code>.txt\n"
+"              │   └── <version-code>.txt\n"
+"              ├── phoneScreenshots/\n"
+"              │   └── *.png\n"
+"              ├── sevenInchScreenshots/\n"
+"              │   └── *.png\n"
+"              ├── tenInchScreenshots/\n"
+"              │   └── *.png\n"
+"              ├── tvScreenshots/\n"
+"              │   └── *.png\n"
+"              └── wearScreenshots/\n"
+"                  └── *.png\n"
+"```\n"
 
 #. type: Title ##
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md:76
@@ -1121,6 +1159,26 @@ msgid ""
 "                  └── *.png\n"
 "```\n"
 msgstr ""
+"```\n"
+"- fdroid/\n"
+"  └── repo/\n"
+"      └── <package-id>/\n"
+"          └── <locale>/\n"
+"              ├── featureGraphic.png\n"
+"              ├── icon.png\n"
+"              ├── promoGraphic.png\n"
+"              ├── tvBanner.png\n"
+"              ├── phoneScreenshots/\n"
+"              │   └── *.png\n"
+"              ├── sevenInchScreenshots/\n"
+"              │   └── *.png\n"
+"              ├── tenInchScreenshots/\n"
+"              │   └── *.png\n"
+"              ├── tvScreenshots/\n"
+"              │   └── *.png\n"
+"              └── wearScreenshots/\n"
+"                  └── *.png\n"
+"```\n"
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md:109
@@ -1236,7 +1294,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md:52
 msgid "```bash git clone https://gitlab.com/fdroid/fdroiddata.git ```"
-msgstr ""
+msgstr "```bash git clone https://gitlab.com/fdroid/fdroiddata.git ```"
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md:59
@@ -1266,7 +1324,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md:70
 msgid "```bash fdroid update --help ```"
-msgstr ""
+msgstr "```bash fdroid update --help ```"
 
 #. type: Title ###
 #: build/_docs/md/Building_Applications.md:72
@@ -1295,7 +1353,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md:87
 msgid "```bash fdroid build org.fdroid.fdroid:16 ```"
-msgstr ""
+msgstr "```bash fdroid build org.fdroid.fdroid:16 ```"
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md:91
@@ -1315,7 +1373,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md:99
 msgid "``` org.fdroid.fdroid_16.apk org.fdroid.fdroid_16_src.tar.gz ```"
-msgstr ""
+msgstr "``` org.fdroid.fdroid_16.apk org.fdroid.fdroid_16_src.tar.gz ```"
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md:104
@@ -1334,7 +1392,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md:110
 msgid "```bash fdroid publish ```"
-msgstr ""
+msgstr "```bash fdroid publish ```"
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md:115
@@ -1409,7 +1467,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md:155
 msgid "```bash fdroid build ```"
-msgstr ""
+msgstr "```bash fdroid build ```"
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md:157
@@ -1524,7 +1582,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:38
 msgid "``` fdroid rewritemeta ```"
-msgstr ""
+msgstr "``` fdroid rewritemeta ```"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:40
@@ -1534,7 +1592,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:44
 msgid "``` fdroid rewritemeta org.adaway ```"
-msgstr ""
+msgstr "``` fdroid rewritemeta org.adaway ```"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:46
@@ -2006,32 +2064,32 @@ msgstr ""
 #. type: Bullet: '-   '
 #: build/_docs/md/Build_Metadata_Reference.md:340
 msgid "‘git’"
-msgstr ""
+msgstr "‘git’"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Build_Metadata_Reference.md:340
 msgid "‘svn’"
-msgstr ""
+msgstr "‘svn’"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Build_Metadata_Reference.md:340
 msgid "‘git-svn’"
-msgstr ""
+msgstr "‘git-svn’"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Build_Metadata_Reference.md:340
 msgid "‘hg’"
-msgstr ""
+msgstr "‘hg’"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Build_Metadata_Reference.md:340
 msgid "‘bzr’"
-msgstr ""
+msgstr "‘bzr’"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Build_Metadata_Reference.md:340
 msgid "‘srclib’"
-msgstr ""
+msgstr "‘srclib’"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md:343
@@ -9261,7 +9319,7 @@ msgstr ""
 #: build/_docs/md/Translation_and_Localization.md:1
 #, no-wrap
 msgid "Translation and Localization"
-msgstr ""
+msgstr "Übersetzung und Lokalisation"
 
 #. type: Plain text
 #: build/_docs/md/Translation_and_Localization.md:8
@@ -9272,6 +9330,11 @@ msgid ""
 "dates, etc. which happens automatically based on the language and country "
 "specified in the device's settings."
 msgstr ""
+"Mit der Veröffentlichung von 0.103 der F-Droid-App besteht die volle "
+"Unterstützung zur Lokalisation. Das bedeutet, dass alle Texte in jede "
+"Sprache übersetzt werden können. Außerdem wird F-Droid automatisch, nach den "
+"Geräteeinstellungen für Sprache und Land, länderspezifische Formate für "
+"Zahlen, Geld-, Datumswerte usw. verwenden."
 
 #. type: Plain text
 #: build/_docs/md/Translation_and_Localization.md:11
@@ -9279,6 +9342,8 @@ msgid ""
 "There are a number of separate sections that are each managed separately, "
 "based on technical requirements:"
 msgstr ""
+"Es gibt eine Reihe von abgetrennten Bereichen, die, aufgrund technischer "
+"Vorgaben, alle gesondert voneinander verwaltet werden:"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Translation_and_Localization.md:16
@@ -9286,22 +9351,26 @@ msgid ""
 "[F-Droid Android app strings](https://hosted.weblate.org/projects/f-droid/f-"
 "droid/)"
 msgstr ""
+"[F-Droid Android App "
+"Strings](https://hosted.weblate.org/projects/f-droid/f-droid/)"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Translation_and_Localization.md:16
 msgid "F-Droid Website pages and posts"
-msgstr ""
+msgstr "Seiten und Artikel für die F-Droid-Internetseite"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Translation_and_Localization.md:16
 msgid ""
 "hand selected apps in [_fdroiddata_](https://gitlab.com/fdroid/fdroiddata)"
 msgstr ""
+"ausgewählte Apps in [_fdroiddata_](https://gitlab.com/fdroid/fdroiddata) "
+"einreichen"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Translation_and_Localization.md:16
 msgid "any app submitted to _fdroiddata_"
-msgstr ""
+msgstr "jede an _fdroiddata_ übermittelte App"
 
 #. type: Plain text
 #: build/_docs/md/Translation_and_Localization.md:20
@@ -9310,6 +9379,10 @@ msgid ""
 "included in a final release.  For alpha releases, we try to include all "
 "translations, no matter how incomplete."
 msgstr ""
+"Als Grundregel gilt, dass eine Übersetzung zu mindestens 70% abgeschlossen "
+"sein muss, um in eine Endversion eingeschlossen zu werden. Bei Alpha-"
+"Versionen versuchen wir alle Übersetzungen zu integrieren, unabhängig von "
+"deren Vollständigkeit."
 
 #. type: Plain text
 #: build/_docs/md/Translation_and_Localization.md:23
@@ -9317,17 +9390,19 @@ msgid ""
 "If there are any issues with missing translations or broken localized "
 "formats, please file an issue so it can be fixed:"
 msgstr ""
+"Bei allen Problemen mit fehlenden Übersetzungen oder fehlerhaften lokalen "
+"Formaten, bitte zur Behebung hier eine Fehlermeldung einstellen:"
 
 #. type: Plain text
 #: build/_docs/md/Translation_and_Localization.md:25
 msgid "https://gitlab.com/fdroid/fdroidclient/issues/new"
-msgstr ""
+msgstr "https://gitlab.com/fdroid/fdroidclient/issues/new"
 
 #. type: Title ##
 #: build/_docs/md/Translation_and_Localization.md:27
 #, no-wrap
 msgid "The \"Languages\" preference"
-msgstr ""
+msgstr "Die \"Sprachen\"-Einstellung"
 
 #. type: Plain text
 #: build/_docs/md/Translation_and_Localization.md:37
@@ -9341,12 +9416,20 @@ msgid ""
 "allowing users to specify a list of language+country \"locales\", ordered by "
 "importance to the user."
 msgstr ""
+"Es gibt Fälle, in denen Englisch als Ausweichsprache nicht genügt.  Ein "
+"Großteil der Welt würde beispielsweise Chinesisch, Spanisch oder Russisch "
+"statt Englisch den Vorzug geben.  Bis Android 6.0 bietet F-Droid innerhalb "
+"der App eine Einstellung \"Sprache\", damit Nutzer F-Droid in eine andere "
+"Sprache umstellen können. Zu beachten ist, dass sich dabei nur die Sprache "
+"ändert, länderspezifische Formate aber evtl. unsauber verarbeitet werden. Ab "
+"Android 7.0 wird dies behoben, indem Nutzer die Möglichkeit erhalten, eine "
+"nach Wichtigkeit sortierte Liste von Sprache+Land \"locales\" festzulegen."
 
 #. type: Title ##
 #: build/_docs/md/Translation_and_Localization.md:39
 #, no-wrap
 msgid "Contributing"
-msgstr ""
+msgstr "Mitarbeit"
 
 #. type: Plain text
 #: build/_docs/md/Translation_and_Localization.md:45
@@ -9357,6 +9440,12 @@ msgid ""
 "translators on the [F-Droid forum](https://forum.f-droid.org/t/about-the-"
 "translation-category/)."
 msgstr ""
+"Gibt es F-Droid nicht in Ihrer Sprache oder ist die Übersetzung fehlerhaft "
+"oder unvollständig? Beteiligen Sie sich an den Übersetzungen durch "
+"Registrierung bei [unserem "
+"Weblate](https://hosted.weblate.org/projects/f-droid/).  Andere Übersetzer "
+"finden Sie im [F-Droid-Forum](https://forum.f-droid.org/t/about-the-"
+"translation-category/)."
 
 #. type: Title #
 #: build/_docs/md/Update_Processing.md:1
