@@ -23,6 +23,10 @@ variables:
   ./tools/i18n.sh po2md
   bundle install --path vendor
 
+# The minification takes anywhere from 2-10 times longer to render the website.
+# As such, it is only used for f-droid.org and GitLab pages builds.
+.minify_html: &minify_html |
+  echo "minify_html: true" >> userconfig.yml
 
 #
 # This is a manual task for building in preperation to deploy to
@@ -50,6 +54,8 @@ f-droid.org:
    - ./tools/add-artwork.sh
    - 'echo "url: https://f-droid.org" > userconfig.yml'
    - 'echo "baseurl: \"\"" >> userconfig.yml'
+   - 'echo "minify_html: true" >> userconfig.yml'
+   - *minify_html
    - echo "Additional Jekyll config used for CI:" && cat userconfig.yml
    - bundle exec jekyll build -d $OUT_DIR --config _config.yml,userconfig.yml --trace
    - ./tools/prepare-multi-lang.sh $OUT_DIR
@@ -147,6 +153,7 @@ pages:
    # so we need to make sure that the Jekyll configuration understands this.
    - 'echo url: https://$CI_PROJECT_NAMESPACE.gitlab.io > userconfig.yml'
    - 'echo baseurl: /$CI_PROJECT_NAME >> userconfig.yml'
+   - *minify_html
 
    - echo "Additional Jekyll config used for CI:" && cat userconfig.yml
    - bundle exec jekyll build -d public --config _config.yml,userconfig.yml
