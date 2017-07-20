@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-07-19 17:46+0000\n"
-"Last-Translator: riotism <thejacklau@gmail.com>\n"
+"PO-Revision-Date: 2017-07-20 05:19+0000\n"
+"Last-Translator: ezjerry liao <ezjerry@gmail.com>\n"
 "Language-Team: Chinese (Traditional) "
 "<https://hosted.weblate.org/projects/f-droid/website-posts/zh_Hant/>\n"
 "Language: zh_Hant\n"
@@ -36,7 +36,7 @@ msgid ""
 "time."
 msgstr ""
 "許多遊戲、地圖或其它應用程式需要大量的資料運行。Android的 APK 檔案大小不可超過 "
-"100MB，但通常一個國家的地圖檔就不只100MB。此外，為了讓用戶能快速執行，不必在首次啟用應用時要等上一段時間來下載大量的資料。"
+"100MB，但通常一個國家的地圖檔就不只100MB。此外，為了讓使用者能快速執行，不必在首次啟用應用時要等上一段時間來下載大量的資料。"
 
 #. type: Plain text
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md:18
@@ -171,7 +171,7 @@ msgid ""
 "in the forum software."
 msgstr ""
 "舊有的討論區有許多缺點：首先, 使用者無法利用郵件回應。再者，F-Droid 志願者要花上不少時間來清理大量的垃圾訊息 (約有 "
-"25%是無用的垃圾訊息)。最後，整體的用戶體驗不良，其問題不只是論壇軟體本身有越來越多的毛病。"
+"25%是無用的垃圾訊息)。最後，整體的使用者體驗不良，其問題不只是論壇軟體本身有越來越多的毛病。"
 
 #. type: Plain text
 #: build/_posts/md/2017-02-20-new-forum.md:26
@@ -362,7 +362,8 @@ msgid ""
 "community.  In addition to the user tests that were conducted early on in "
 "the design process, further field tests are currently being conducted to "
 "ensure that usability issues with the new design are identified and resolved."
-msgstr "這涉及用戶體驗設計者與社區的大量投入，而在早期階段進行用戶測試、進一步的田野測試目前正在進行中，以確保新設計的可用度問題可以及早地發現和解決。"
+msgstr ""
+"這涉及使用者體驗設計者與社區的大量投入，而在早期階段進行使用者測試、進一步的田野測試目前正在進行中，以確保新設計的可用度問題可以及早地發現和解決。"
 
 #. type: Plain text
 #: build/_posts/md/2017-04-04-new-ux.md:44
