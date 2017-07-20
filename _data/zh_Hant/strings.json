@@ -29,7 +29,7 @@
         "signed_by_developer": "套件包由原始開發者構建和簽署的。", 
         "signed_by_fdroid": "套件包由 F-Droid 構建，並簽署保證對應於<a href=\"[source_code_url]\">此原始碼 tarball</a>。", 
         "source_code": "原始碼", 
-        "suggest_downloading_via_fdroid": "雖然下方可用的 APK 下載給予用戶選擇，但要留意這樣的安裝方式將不會收到更新通知，是一種較不安全的下載方法。建議用戶先安裝  F-Droid 客戶端使用。", 
+        "suggest_downloading_via_fdroid": "雖然下方可用的 APK 下載給予用戶選擇，但要留意這樣的安裝方式將不會收到更新通知，是一種較不安全的下載方法。建議用戶先安裝  F-Droid 用戶端使用。", 
         "technical_info": "技術資訊", 
         "version_info": "<b>版本 [package_version]</b> ([package_version_code]) - 於 [package_added_date] 加入", 
         "website": "網站"
