@@ -6,20 +6,24 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2017-07-21 18:33+0000\n"
+"Last-Translator: tenzin tselek <omaahum99@yahoo.in>\n"
+"Language-Team: Tibetan <https://hosted.weblate.org/projects/f-droid/website-"
+"docs/bo/>\n"
 "Language: bo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2.16-dev\n"
 
 #. type: Title #
 #: build/_pages/md/about.md:1
 #, no-wrap
 msgid "About"
-msgstr ""
+msgstr "སྐོར།"
 
 #. type: Plain text
 #: build/_pages/md/about.md:4
@@ -30,6 +34,12 @@ msgid ""
 "reviews and other features covering all things Android and software-freedom "
 "related."
 msgstr ""
+"ཨེཕ་རོཌ་ནི་ཨེན་ཀྲོཌ་བབས་སྟེགས་སྒང་ལ་ཡོད་པའི་རིན་མེད་དང་ཕྱི་གསལ་ནང་གསལ་གྱི་ཨང་"
+"རྟགས་(ཕོས་) མཉེས་ཆས་དང་ལྡན་པའི་འཕྲུལ་མི་ཞིག་རེད། "
+"དྲྭ་ཚིགས་འདིའི་སྒང་ནས་ཁྱེད་རང་གིས་ཕོས་མཉེན་ཆས་ཀྱི་མཛོད་ཁང་འཚོལ་ཐུབ་པ་དང་། "
+"དེ་དང་མཉམ་དུ་ཨེན་ཀྲོཌ་མཉེན་ཆས་འགྲིག་བཅུག་དང་གསར་བསྒྱུར་བྱེད་ཐུབ། "
+"དེ་བཞིན་དུ་གསར་འགྱུར་དང་། སྐྱར་ཞིབ་སོགས་ཨེན་ཀྲོཌ་གྱི་ཁྱད་ཆོས་གཞན་ཚང་མ་དང་མཉེན"
+"་ཆས་རང་དབང་དང་འབྲེལ་བའི་གནས་དོན་ཚང་མ་བྱེད་ཐུབ།"
 
 #. type: Plain text
 #: build/_pages/md/about.md:6
@@ -37,6 +47,8 @@ msgid ""
 "F-Droid is operated by F-Droid Limited, a non-profit organisation registered "
 "in England (no. 8420676)."
 msgstr ""
+"ཨེཕ་རོཌ་ནི་ཨེཕ་རོཌ་བཟོ་ལས་ཁང་གྱིས་འཛིན་སྐྱོང་འོག་དབྱིན་ཇིའི་ལུང་པར་དེབ་སྐྱེལ་"
+"བྱས་པའི་ཁེ་སང་མེད་པའི་ཚོགས་པ་ཞིག་རེད། (no. 8420676)."
 
 #. type: Plain text
 #: build/_pages/md/about.md:8
@@ -48,6 +60,13 @@ msgid ""
 "If you want to help, you can [join us]({{ \"/contribute/\" | prepend: site."
 "baseurl }})."
 msgstr ""
+"ཁྱེད་རང་གིས་ཨེཕ་རོཌ་སྐོར་ལ་གྲོས་སྡུར་དང་ཡང་ན་IRC སྒང་ནས་རོགས་རམ་ཐུབ་།  [#"
+"fdroid on FreeNode](https://webchat.freenode.net/?channels=%23fdroid). IRC "
+"སྒང་ལ་གྲོས་སྡུར་བྱས་ན་འདིའི་ནང་འཛུལ་ "
+"[BotBot.me](https://botbot.me/freenode/fdroid). ཡང་ན་ཁྱེད་རང་གིས་ང་ཚོར་ཐད་ཀར་"
+"གློག་འཕྲིན་རྒྱུད་དེ་འབྲེལ་བ་བྱས་ནའང་འགྲིག་[team@f-droid.org](mailto:team@f-dr"
+"oid.org). གལ་ཏེ་ཁྱེད་རང་ལ་རོགས་པ་དགོས་ན། ང་ཚོ་ [མཉམ་དུ་ཕེབས་ཤོག]({{ \""
+"/contribute/\" | prepend: site.baseurl }})."
 
 #. type: Plain text
 #: build/_pages/md/about.md:10
@@ -56,6 +75,11 @@ msgid ""
 "additional artwork, are by Robert Martinez. All are dual licensed under CC-"
 "BY-SA 3.0 Unported or GPLv3+."
 msgstr ""
+"ཨེཕ་རོཌ་གྱི་ལས་རྟགས་དེ་བཞིན་སྐུ་ཞབས་ཝི་ལེམ། ཐེ་ཀར་གྱིས་བཟོས་གནང་བ་རེད། "
+"འདི་ལ་གསར་བསྒྱུར་དང་སྒྱུ་རྩལ་ཁ་སྣོན་བ་ནི་སྐུ་ཞབས་རོ་བཌ། "
+"མར་ཀྲི་ནེཛ་མཆོག་གིས་གནང་ཡོད། "
+"འདི་ཚང་མ་གཤམ་གྱི་ཆོག་མཆན་ལག་ཁྱེར་མི་འདྲ་བ་གཉིས་ཀྱི་སྒང་ལ་ཡོད། CC-BY-SA 3.0 "
+"Unported or GPLv3+."
 
 #. type: Plain text
 #: build/_pages/md/about.md:12
@@ -64,6 +88,9 @@ msgid ""
 "Commons Attribution-ShareAlike 3.0 License](http://creativecommons.org/"
 "licenses/by-sa/3.0/)."
 msgstr ""
+"གསར་འགྱུར་དང་སྐྱར་ཞིབ་སྡེ་ཚན་གྱི་ནང་དོན་ནི་གཤམ་གྱི་ཆོག་མཆན་ལག་ཁྱེར་འོག་ལ་ཡོད།"
+"[Creative Commons Attribution-ShareAlike 3.0 "
+"License](http://creativecommons.org/licenses/by-sa/3.0/)."
 
 #. type: Plain text
 #: build/_pages/md/about.md:14
@@ -72,12 +99,15 @@ msgid ""
 "png \"Creative Commons Logo\")](http://creativecommons.org/licenses/by-"
 "sa/3.0/)"
 msgstr ""
+"[![རྣམ་དཔྱོད་ལྡན་པའི་ཐུན་མོང་ལས་རྟགས་](https://i.creativecommons.org/l/by-"
+"sa/3.0/88x31.png \"རྣམ་དཔྱོད་ལྡན་པའི་ཐུན་མོང་ལས་རྟགས\""
+")](http://creativecommons.org/licenses/by-sa/3.0/)"
 
 #. type: Title ###
 #: build/_pages/md/about.md:15
 #, no-wrap
 msgid "Terms, etc."
-msgstr ""
+msgstr "དུས་ཡུན་ལ་སོགས་པ།"
 
 #. type: Plain text
 #: build/_pages/md/about.md:18
@@ -108,7 +138,7 @@ msgstr ""
 #: build/_pages/md/about.md:21
 #, no-wrap
 msgid "Contributors"
-msgstr ""
+msgstr "མཉམ་ཞུགས་བྱེད་མཁན་རྣམས།"
 
 #. type: Plain text
 #: build/_pages/md/about.md:25
@@ -116,266 +146,269 @@ msgid ""
 "The F-Droid project was founded in 2010 by Ciaran Gultnieks, and is brought "
 "to you by at least the following people:"
 msgstr ""
+"ཨེཕ་རོཌ་ལས་འཆར་འདི་ཕྱི་ལོ་ ༢༠༡༠ "
+"ལོར་སྐུ་ཞབས་ཁེ་རན་གུལ་ཌ་ནིཀ་ནས་གསར་འཛུགས་གནང་བ་དང་། "
+"གཤམ་དུ་འཁོད་པའི་ལས་བྱེད་པ་རྣམས་ཀྱིས་ང་ཚོའི་སྤྱན་ལམ་དུ་འབུལ་ཡོད།"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Alterechtschreibung"
-msgstr ""
+msgstr "ཨེལ་ཀྲི་རེཆ་ཤེར་བཨང།"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Nico Alt"
-msgstr ""
+msgstr "ནི་ཁོ་ ཨེལཌ།"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Laura Arjona"
-msgstr ""
+msgstr "ལོ་ར། ཨར་ཇོ་ན།"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Ben Arnold"
-msgstr ""
+msgstr "བེན། ཨར་ནོཌ"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Michele Azzolari"
-msgstr ""
+msgstr "མི་ཤལ། ཨེ་ཛོ་ལ་རི།"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Jan Berkel"
-msgstr ""
+msgstr "ཇེན། བེར་ཀེལ།"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "David Black"
-msgstr ""
+msgstr "ཌེ་བིཏ་། བེ་ལེཀ།"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Jan C Borchardt"
-msgstr ""
+msgstr "ཇེན། སི། བོར་ཀར་ཌ།"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Valerio Bozzolan"
-msgstr ""
+msgstr "ཝེ་ལེ་རི་བོ། བོ་ཛོ་ལན།"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Dan Bravender"
-msgstr ""
+msgstr "ཌེན། བར་བེན་ཌར།"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Cédric Cabessa"
-msgstr ""
+msgstr "སེ་ཌེ་རིཀ། ཁ་བེ་ས།"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Kevin Cernekee"
-msgstr ""
+msgstr "ཀེ་བིན། སེར་ནི་ཀི།"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Kevin Everets"
-msgstr ""
+msgstr "ཀི་བིན། ཨེ་བི་རས།"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Alberto A. Fuentes"
-msgstr ""
+msgstr "ཨེལ་བར་ཏོ། ཨ། ཕུན་ཏས།"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Torsten Grote"
-msgstr ""
+msgstr "ཏོར་སན། གོ་རུཌ།"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Ciaran Gultnieks"
-msgstr ""
+msgstr "སཡི་རན། གུལ་ནིཀ།"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Tias Guns"
-msgstr ""
+msgstr "ཊས། གན་ས།"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Michael Haas"
-msgstr ""
+msgstr "མཡི་ཁལ། ཧས།"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Stefan Handschuh"
-msgstr ""
+msgstr "སཊི་ཕན། ཧེན་ས་ཤུ།"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Kees Hulberts"
-msgstr ""
+msgstr "ཀིས། ཧུལ་བཊ།"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Ayron Jungren"
-msgstr ""
+msgstr "ཨེ་རོན། ཇུན་གེ་རན།"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "João Fernando C. Júnior"
-msgstr ""
+msgstr "ཇོ་བོ། ཕེར་ནེན་ཌོ། སི། ཇུ་ནེར།"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Neo Kolokotronis"
-msgstr ""
+msgstr "ནི་བོ། ཀོ་ལོ་ཀོ་ཀྲོ་ནིས།"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Nikita Kozlov"
-msgstr ""
+msgstr "ནི་ཀི་ཏ། ཀོཛ་ལོཕ།"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Matt Kraai"
-msgstr ""
+msgstr "མེཏ། ཀ་རེ་ཡ།"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Daniel Kraft"
-msgstr ""
+msgstr "ཌ་ནེལ། ཀ་རེཕ་ཊ།"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Mariotaku Lee"
-msgstr ""
+msgstr "མ་རི་བོ་ཊ་ཀུ། ལི།"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Leonardo De Luca"
-msgstr ""
+msgstr "ལིའུ་ནར་ཌོ། ཌི། ལུ་ཁ།"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Greg Lyle"
-msgstr ""
+msgstr "གེ་རེཀ། ལ་ཡེལ།"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Daniel Marti"
-msgstr ""
+msgstr "ཌ་ནེལ། མར་ཏི།"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Robert Martinez"
-msgstr ""
+msgstr "རོ་བཊ། མར་ཀྲི་ནེཛ།"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Nat Meysenburg"
-msgstr ""
+msgstr "ནེཊ། མེ་སེན་བ་རེཀ།"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Steven McDonald"
-msgstr ""
+msgstr "སཊི་བན། མེཀ་ཌོ་ནལ།"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Andrew McMillan"
-msgstr ""
+msgstr "ཨེན་ཌེ་རིའུ། མེཀ་མི་ལན།"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Alex Oberhauser"
-msgstr ""
+msgstr "ཨེ་ལེས། ཨོ་བར་ཧོ་སེར།"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Nicolas Raoul"
-msgstr ""
+msgstr "ནི་ཀོ་ལས། རོལ།"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Fabian Rodriguez"
-msgstr ""
+msgstr "ཕེ་བེན། རོ་ཌི་གུཛ།"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Florian Schmaus"
-msgstr ""
+msgstr "ཕོ་ལོ་རིན། སེ་ཀི་མས།"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Hans-Emil Skogh"
-msgstr ""
+msgstr "ཧན་ས། ཨེ་མེལ། ས་ཀོཀ།"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Paul Sokolovsky"
-msgstr ""
+msgstr "པོལ།་སོ་ཀོ་ལོ་བིས་ཀི།"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Graziano Sorbaioli"
-msgstr ""
+msgstr "ག་ར་ཛ་ནོ། སོར་བ་ལིཡོ།"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Hans-Christoph Steiner"
-msgstr ""
+msgstr "ཧན་ས། ཁ་རིས་ཀྲོཕ། སཀྲི་ནར།"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "David Sterry"
-msgstr ""
+msgstr "ཌེ་བིཌ། ས་ཊ་རི།"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Peter Serwylo"
-msgstr ""
+msgstr "པི་ཊར་། སེར་ཝུ་ལོ།"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "John Sullivan"
-msgstr ""
+msgstr "ཇོན། སུ་ལུ་ཝན།"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Antonio Tapiador"
-msgstr ""
+msgstr "ཨེན་ཊོ་ནི་ཡོ། ཊ་པ་ཏོར།"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "William Theaker"
-msgstr ""
+msgstr "ཝི་ལི་ཡམ། ཐེ་ཀེར།"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Henrik Tunedal"
-msgstr ""
+msgstr "ཧེན་རིཀ། ཏུ་ནི་ཌལ།"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Ivo Ugrina"
-msgstr ""
+msgstr "ཨ་ཡི་ཝུ། ཨུཀ་རི་ན།"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Matthias Weiler"
-msgstr ""
+msgstr "མེ་ཐེས། ཝི་ལར།"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Nutchanon Wetchasit"
-msgstr ""
+msgstr "ནུཌ་ཁ་ནོན། ཝེཌ་ཁ་སིཏ།"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Philipp Wollschlegel"
-msgstr ""
+msgstr "ཕི་ལིཔ། ཝུལ་ས་ཁ་ལེ་གལ།"
 
 #. type: Plain text
 #: build/_pages/md/about.md:82
@@ -384,6 +417,10 @@ msgid ""
 "list](https://gitlab.com/fdroid/fdroid-website/blob/master/_pages/about.md)! "
 "Keep it sorted by surname, please."
 msgstr ""
+"གལ་སྲིད་ཁྱེད་རང་གི་མིང་འདི་ནང་མེད་པ་ཡིན་ན། ང་ཚོས་ནོར་འཁྲུལ་ཤོར་ཡོད་པས་ཁྱེད་རང"
+"་གིས་[ཐོ་གཞུང་ནང་དུ་ཁ་སྣོན་གནང་རོགས་](https://gitlab.com/fdroid/fdroid-"
+"website/blob/master/_pages/about.md)! "
+"རུས་མིང་དང་པོར་བཀོད་པའི་རིམ་པ་ལྟར་གནང་རོགས།"
 
 #. type: Plain text
 #: build/_pages/md/about.md:83
@@ -391,12 +428,14 @@ msgid ""
 "The original F-Droid client app was based on the Aptoide app developed by "
 "Roberto Jacinto."
 msgstr ""
+"ཨེཕ་རོཌ་མཉེན་ཆས་ངོ་མ་དེ་སྐུ་ཞབས་རོ་བར་ཌོ། "
+"ཇ་སིན་ཏོས་བཟོས་པའི་ཨིཔ་ཊོ་ཡེ་ཌ་མཉེན་ཆས་རྨང་གཞིར་བཞག་ཡོད།"
 
 #. type: Title #
 #: build/_pages/md/contribute.md:1
 #, no-wrap
 msgid "Contribute"
-msgstr ""
+msgstr "མཉམ་ཞུགས།"
 
 #. type: Plain text
 #: build/_pages/md/contribute.md:3 build/_docs/md/How_to_Help.md:5
@@ -404,12 +443,14 @@ msgid ""
 "The project is entirely developed and maintained by volunteers. You can help "
 "in the following ways:"
 msgstr ""
+"ལས་འཆར་འདི་བཟོ་མཁན་དང་གསོ་ཉར་བྱེད་མཁན་ཚང་མ་དྭངས་བླངས་པ་ཡིན། "
+"ཁྱེད་རང་གིས་གཤམ་ལ་བཀོད་པའི་ཐབས་ལམ་ལ་བརྟེན་ནས་ཕན་ཐོགས་བྱེད་ཐུབ།"
 
 #. type: Title ###
 #: build/_pages/md/contribute.md:4
 #, no-wrap
 msgid "Report Problems"
-msgstr ""
+msgstr "བརྡ་ལན་གྱི་དཀའ་ངལ་རྣམས།"
 
 #. type: Plain text
 #: build/_pages/md/contribute.md:7
@@ -418,21 +459,29 @@ msgid ""
 "them in the issue tracker (see below), or discuss them in the [Forum]"
 "(https://forum.f-droid.org/) or on IRC (#fdroid on freenode)."
 msgstr ""
+"གལ་སྲིད་ཁྱེད་རང་ལ་དྲྭ་ཚིགས་དང་ཡང་ན་མཉེན་ཆས་སྒང་ལ་ཉམས་མྱོང་མེད་པའི་དཀའ་ངལ་ཕྲད་"
+"ཚེ། ཁྱེད་རང་གིས་དཀའ་ངལ་རྗེས་འདེད་གཏོང་མཁན་ནང་ལ་བརྡ་ལན་སྤྲོད། "
+"(གཤམ་ལ་གཟིགས།)ཡང་ན་འདིའི་ནང་ལ་གྲོས་སྡུར་བྱེད།  "
+"[གླེང་སྟེགས།](https://forum.f-droid.org/) or on IRC (#fdroid on freenode)."
 
 #. type: Plain text
 #: build/_pages/md/contribute.md:9
 msgid "For reporting issues, choose an appropriate tracker from the following:"
 msgstr ""
+"དཀའ་ངལ་བརྡ་ལན་གྱི་ཆེད་དུ། "
+"གཤམ་ལ་ཡོད་པའི་རྗེས་འདེད་གཏོང་མཁན་འོས་མཚམས་ཅན་ཞིག་འདེམས་དགོས།:"
 
 #. type: Bullet: '* '
 #: build/_pages/md/contribute.md:13
 msgid "[F-Droid client app](https://gitlab.com/fdroid/fdroidclient/issues)"
-msgstr ""
+msgstr "[ཨེཕ་རོཌ་མཉེན་ཆས།](https://gitlab.com/fdroid/fdroidclient/དཀའ་ངལ་)"
 
 #. type: Bullet: '* '
 #: build/_pages/md/contribute.md:13
 msgid "[Server and build tools](https://gitlab.com/fdroid/fdroidserver/issues)"
 msgstr ""
+"[ཞབས་ཞུ་འཕྲུལ་ཆས་དང་བཟོས་པའི་ལག་ཆ།](https://gitlab.com/fdroid/fdroidserver/དཀ"
+"འ་ངལ།)"
 
 #. type: Bullet: '* '
 #: build/_pages/md/contribute.md:13
@@ -440,12 +489,14 @@ msgid ""
 "[Official F-Droid repository metadata](https://gitlab.com/fdroid/fdroiddata/"
 "issues)"
 msgstr ""
+"[ཨེཕ་རོཌ་གཞུང་འབྲེལ་མཛོད་ཁང་གི་རྒྱབ་ལྗོངས་ཡིག་ཚགས།](https://gitlab.com/fdroid"
+"/fdroiddata/དཀའ་ངལ)"
 
 #. type: Title ###
 #: build/_pages/md/contribute.md:14
 #, no-wrap
 msgid "Submit Applications"
-msgstr ""
+msgstr "སྙན་ཞུ་རྣམས་འབུལ།"
 
 #. type: Plain text
 #: build/_pages/md/contribute.md:17
@@ -465,12 +516,14 @@ msgid ""
 "[The manual]({{ \"/manual/\" | prepend: site.baseurl }}) should help with "
 "this."
 msgstr ""
+"[མཛུབ་འདེམས་]({{ \"/མཛུབ་འདེམས་/\" | prepend: site.baseurl }}) "
+"འདི་དང་མཉམ་དུ་རོགས་པ་ངེས་པར་དུ་བྱེད་དགོས།"
 
 #. type: Title ###
 #: build/_pages/md/contribute.md:20 build/_docs/md/How_to_Help.md:63
 #, no-wrap
 msgid "Translate"
-msgstr ""
+msgstr "ཡིག་བསྒྱུར།"
 
 #. type: Plain text
 #: build/_pages/md/contribute.md:23
@@ -480,6 +533,10 @@ msgid ""
 "use the [translation system](https://hosted.weblate.org/projects/f-droid/) "
 "to make your changes."
 msgstr ""
+"མཉེན་ཆས་འདི་ནི་སྐད་རིགས་མང་པོའི་ནང་ཡོད། གལ་ཏེ་ཁྱེད་རང་གི་སྐད་ཡིག་ཚུད་མེད་པའམ་"
+"ཡང་ན་གསར་བསྒྱར་དང་ཡར་རྒྱས་སོགས་གཏོང་དགོས་ན། དྲྭ་ཐོག་ཁ་བྱང་ཞིག་བཟོས་ནས་[ཡིག་བས"
+"ྒྱུར་མ་ལག་]བེད་སྤྱོད་བཏང་ནས་(https://hosted.weblate.org/projects/f-droid/) "
+"འགྱུར་བ་གཏོང་།"
 
 #. type: Plain text
 #: build/_pages/md/contribute.md:25
@@ -493,7 +550,7 @@ msgstr ""
 #: build/_pages/md/contribute.md:26
 #, no-wrap
 msgid "Help with Development"
-msgstr ""
+msgstr "ཡར་རྒྱས་མཉམ་དུ་རོགས་རམ།"
 
 #. type: Plain text
 #: build/_pages/md/contribute.md:38
