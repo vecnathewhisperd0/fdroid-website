@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-07-18 01:55+0000\n"
+"PO-Revision-Date: 2017-07-24 02:53+0000\n"
 "Last-Translator: sima <lin2s@riseup.net>\n"
 "Language-Team: Chinese (Simplified) "
 "<https://hosted.weblate.org/projects/f-droid/website-docs/zh_Hans/>\n"
@@ -1616,25 +1616,25 @@ msgstr "作者名字可为全名、缩写或别名。如果存在，应显示为
 #: build/_docs/md/Build_Metadata_Reference.md:111
 #, no-wrap
 msgid "This is converted to (`<author>`) in the XML file (_index.xml_).\n"
-msgstr ""
+msgstr "在 XML 文件 (_index.xml_) 中将转换为 (`<author>`)。\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md:114
 #, no-wrap
 msgid "7.3 Author Email<a name=\"Author-Email\"></a>"
-msgstr ""
+msgstr "7.3 作者电子邮箱<a name=\"Author-Email\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:119
 msgid ""
 "The e-mail address of the author(s). This can be omitted (or left blank)."
-msgstr ""
+msgstr "作者的电子邮箱地址。可省略（或留白）。"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:121
 #, no-wrap
 msgid "This is converted to (`<email>`) in the XML file (_index.xml_).\n"
-msgstr ""
+msgstr "在 XML 文件 (_index.xml_) 中将转换为 (`<email>`)。\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md:124
