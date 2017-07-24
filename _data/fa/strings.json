@@ -27,14 +27,17 @@
         "packages": "بسته‌ها", 
         "permissions": "مجوزها", 
         "signed_by_developer": "این توسط توسعه دهنده اصلی امضا و ساخته شده است.", 
+        "signed_by_fdroid": "این توسط اف‌دروید ساخته و امضا شده٬ همچنین تضمین شده برای مطابقت با  <a href=\"[source_code_url]\"> 1 این منبع فایل با فرمت tar </a>.", 
         "source_code": "منبع کد", 
+        "suggest_downloading_via_fdroid": "با اينكه دانلودهای APK در پایین موجود است و به شما امکان انتخاب را می‌دهد باید به بخاطر داشته باشید که شما با نصب آنها به این صورت شما برای به روز بودن آنها هیچ پیامی دریافت نمی‌کنید و این راه کمتر امن است. در نتیجه ما به شما پیشنهاد میکنیم که اف‌دروید را نصب کنید و از آن استفاده کنید.", 
         "technical_info": "اطلاعات فنی", 
+        "version_info": "<b> 1 نسخه [package_version]</b> 2 ([package_version_code]) - اضا کن  [package_added_date]", 
         "website": "وب‌سایت"
     }, 
     "sidebars": {
         "donate": {
             "bank_transfer_name": "نام", 
-            "heading": "کمک", 
+            "heading": "کمک کن", 
             "powered_by_donations": "اف‌دروید از کمک های شما نیرو می‌گیرد!", 
             "via_bank_transfer": "حوالهٔ بانکی", 
         }, 
