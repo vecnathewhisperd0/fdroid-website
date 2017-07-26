@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-07-20 05:54+0000\n"
+"PO-Revision-Date: 2017-07-26 07:49+0000\n"
 "Last-Translator: ezjerry liao <ezjerry@gmail.com>\n"
 "Language-Team: Chinese (Traditional) "
 "<https://hosted.weblate.org/projects/f-droid/website-docs/zh_Hant/>\n"
@@ -303,72 +303,72 @@ msgstr "Andrew McMillan"
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Alex Oberhauser"
-msgstr ""
+msgstr "Alex Oberhauser"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Nicolas Raoul"
-msgstr ""
+msgstr "Nicolas Raoul"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Fabian Rodriguez"
-msgstr ""
+msgstr "Fabian Rodriguez"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Florian Schmaus"
-msgstr ""
+msgstr "Florian Schmaus"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Hans-Emil Skogh"
-msgstr ""
+msgstr "Hans-Emil Skogh"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Paul Sokolovsky"
-msgstr ""
+msgstr "Paul Sokolovsky"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Graziano Sorbaioli"
-msgstr ""
+msgstr "Graziano Sorbaioli"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Hans-Christoph Steiner"
-msgstr ""
+msgstr "Hans-Christoph Steiner"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "David Sterry"
-msgstr ""
+msgstr "David Sterry"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Peter Serwylo"
-msgstr ""
+msgstr "Peter Serwylo"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "John Sullivan"
-msgstr ""
+msgstr "John Sullivan"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Antonio Tapiador"
-msgstr ""
+msgstr "Antonio Tapiador"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "William Theaker"
-msgstr ""
+msgstr "William Theaker"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Henrik Tunedal"
-msgstr ""
+msgstr "Henrik Tunedal"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
@@ -433,11 +433,13 @@ msgid ""
 "them in the issue tracker (see below), or discuss them in the [Forum]"
 "(https://forum.f-droid.org/) or on IRC (#fdroid on freenode)."
 msgstr ""
+"如果您遇到網站或用戶端軟體的問題，您可以在問題追蹤系統中報告他們（見下方），或在 [論壇](https://forum.f-droid.org/) 或是 "
+"IRC（freenode 上的 #fdroid）。"
 
 #. type: Plain text
 #: build/_pages/md/contribute.md:9
 msgid "For reporting issues, choose an appropriate tracker from the following:"
-msgstr ""
+msgstr "對於報告有關的問題，請從下列選項中選擇適當的追蹤系統："
 
 #. type: Bullet: '* '
 #: build/_pages/md/contribute.md:13
