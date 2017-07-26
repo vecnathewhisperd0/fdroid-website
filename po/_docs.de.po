@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-07-21 11:59+0000\n"
+"PO-Revision-Date: 2017-07-26 16:25+0000\n"
 "Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/de/>\n"
@@ -1224,7 +1224,7 @@ msgstr ""
 #: build/_docs/md/Building_Applications.md:1
 #, no-wrap
 msgid "Building Applications"
-msgstr ""
+msgstr "Anwendungen herstellen"
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md:5
@@ -1232,6 +1232,8 @@ msgid ""
 "Instead of (or as well as) including binary APKs from external sources in a "
 "repository, you can build them directly from the source code."
 msgstr ""
+"Anstelle binäre APKs aus externen Quellen in ein Repository aufzunehmen, "
+"können sie ebenso gut direkt aus dem Quellcode hergestellt werden."
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md:11
@@ -1242,6 +1244,12 @@ msgid ""
 "application supplied as a binary APK to present itself as Free Software when "
 "in fact some or all of the following are true:"
 msgstr ""
+"Bei Verwendung dieser Methode, ist es möglich zu überprüfen, ob die "
+"Anwendung korrekt erstellt ist, mit dem Quellcode übereinstimmt und nur "
+"freie Software enthält. Bedauerlicherweise scheint es in der Android-Welt "
+"üblich zu sein, dass Anwendungen, die als binäre APKs angeboten werden, sich "
+"als Freie Software präsentieren, obwohl tatsächlich einige oder alle der "
+"folgenden Umstände zutreffen:"
 
 #. type: Bullet: '1.  '
 #: build/_docs/md/Building_Applications.md:18
@@ -1249,11 +1257,15 @@ msgid ""
 "The source code (either for a particular version, or even all versions!) is "
 "unavailable or incomplete."
 msgstr ""
+"Der Quellcode (entweder einer bestimmten Version oder sogar aller Versionen!)"
+" steht nicht zur Verfügung oder ist unvollständig."
 
 #. type: Bullet: '2.  '
 #: build/_docs/md/Building_Applications.md:18
 msgid "The source code is not capable of producing the actual binary supplied."
 msgstr ""
+"Der Quellcode ist nicht dazu geeignet, die angebotene, eigentliche "
+"Binärdatei zu erzeugen."
 
 #. type: Bullet: '3.  '
 #: build/_docs/md/Building_Applications.md:18
@@ -1261,6 +1273,8 @@ msgid ""
 "The ’source code’ contains binary files of unknown origin, or with "
 "proprietary licenses."
 msgstr ""
+"Der ’Quellcode’ enthält Binärdateien unbekannter Herkunft oder mit "
+"proprietären Lizenzen."
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md:22
@@ -1269,6 +1283,9 @@ msgid ""
 "main F-Droid repository, although occasionally for technical or historical "
 "reasons, exceptions are made to this policy."
 msgstr ""
+"Aus diesen Gründen werden für das F-Droid-Hauptrepository aus dem Quelltext "
+"erstellte Anwendungen bevorzugt, wenngleich gelegentlich, aus technischen "
+"oder historischen Gründen, Ausnahmen von diesem Grundsatz gemacht werden."
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md:30
@@ -1281,6 +1298,15 @@ msgid ""
 "inconvenience to users, as the process of uninstalling loses any data "
 "associated with the previous installation."
 msgstr ""
+"Bei der Herstellung von Anwendungen aus dem Quellcode sollte beachtet "
+"werden, dass Sie sie mit Ihrem eigenen Schlüssel signieren werden (alle APK-"
+"Dateien müssen zur Installation in Android signiert sein). Ist eine "
+"Anwendung auf einem Gerät bereits installiert, dann wird keine "
+"Aktualisierung möglich sein, wenn die neue Version mit einem davon "
+"abweichenden Schlüssel signiert ist, bevor nicht das Original deinstalliert "
+"wurde. Dies kann bei den Nutzern zu Unannehmlichkeiten führen, da mit dem "
+"Deinstallationsvorgang alle mit der ursprünglichen Installation verknüpften "
+"Daten verloren gehen."
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md:34
@@ -1289,17 +1315,22 @@ msgid ""
 "very similar to that described in the Simple Binary Repository chapter, "
 "except now you need to:"
 msgstr ""
+"Die Abläufe zur Verwaltung eines Repository für quelltexterstellten "
+"Anwendungen ähneln denen, die im Kapitel »Einfaches Binärdateien-Repository« "
+"beschrieben sind. Sie müssen nun allerdings:"
 
 #. type: Bullet: '1.  '
 #: build/_docs/md/Building_Applications.md:40
 msgid "Include Build entries in the metadata files."
-msgstr ""
+msgstr "Eintragungen zur Herstellung in die Metadaten-Dateien einschließen."
 
 #. type: Bullet: '2.  '
 #: build/_docs/md/Building_Applications.md:40
 msgid ""
 "Run `fdroid build` to build any applications that are not already built."
 msgstr ""
+"`fdroid build` ausführen, um alle Anwendungen herzustellen, die noch nicht "
+"erstellt sind."
 
 #. type: Bullet: '3.  '
 #: build/_docs/md/Building_Applications.md:40
@@ -1307,12 +1338,14 @@ msgid ""
 "Run `fdroid publish` to finalise packaging and sign any APKs that have been "
 "built."
 msgstr ""
+"`fdroid publish` ausführen, um die Konfektionierung abzuschließen und alle "
+"hergestellten APKs zu signieren."
 
 #. type: Title ###
 #: build/_docs/md/Building_Applications.md:42
 #, no-wrap
 msgid "App data directory aka _fdroiddata_"
-msgstr ""
+msgstr "App-Daten-Verzeichnis oder _fdroiddata_"
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md:48
@@ -1322,6 +1355,11 @@ msgid ""
 "repository management tasks. You can either create a brand new one, or grab "
 "a copy of the data used by the main F-Droid repository:"
 msgstr ""
+"Um alles zu erledigen, wird mindestens ein Repository-Datenverzeichnis "
+"benötigt. Innerhalb dieses Verzeichnisses führen Sie den `fdroid`-Befehl "
+"aus, um alle Repository-Verwaltungsaufgaben auszuführen. Sie können entweder "
+"ein ganz neues erstellen oder eine Kopie der Daten, die im F-Droid-"
+"Hauptrepository verwendet werden, heranziehen:"
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md:52
@@ -1337,6 +1375,12 @@ msgid ""
 "file (`./examples/config.py`) from the fdroidserver project to your data "
 "directory and then editing according to the instructions within."
 msgstr ""
+"Unabhängig von der beabsichtigten Verwendung der Werkzeuge, werden Sie immer "
+"einige grundlegende Konfigurationsdetails festlegen müssen. Dies geschieht "
+"durch Erstellung einer Datei namens `config.py` im Datenverzeichnis. Es "
+"empfiehlt sich die Beispieldatei (`./examples/config.py`) aus dem "
+"fdroidserver-Projekt in Ihr Datenverzeichnis zu kopieren und sie dann "
+"entsprechend der darin enthaltenen Anweisungen zu bearbeiten."
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md:63
@@ -1345,6 +1389,10 @@ msgid ""
 "by running the `fdroid` command. Run it on its own to get a list of the "
 "available sub-commands."
 msgstr ""
+"Ist die Konfiguration auf diese Weise einmal erfolgt, werden alle "
+"Werkzeugfunktionen durch Ausführung des `fdroid`-Befehls zugänglich. Wird "
+"der Befehl für sich allein ausgeführt, erhalten Sie eine Liste der zur "
+"Verfügung stehenden Unterbefehle."
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md:66
@@ -1352,6 +1400,8 @@ msgid ""
 "You can follow any command with `--help` to get a list of additional options "
 "available for that command."
 msgstr ""
+"Jeder Befehl kann mit `--help` ergänzt werden, um eine Liste zusätzlich "
+"verfügbarer Optionen für diesen Befehl zu erhalten."
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md:70
@@ -1362,7 +1412,7 @@ msgstr "```bash fdroid update --help ```"
 #: build/_docs/md/Building_Applications.md:72
 #, no-wrap
 msgid "More about `fdroid build`"
-msgstr ""
+msgstr "Mehr zu `fdroid build`"
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md:80
@@ -1374,6 +1424,12 @@ msgid ""
 "friend, but a few annotated examples and discussion of the more common usage "
 "modes follows:"
 msgstr ""
+"Bei Ausführung ohne weitere Parameter wird `fdroid build` sämtliche "
+"Versionen von Anwendungen herstellen, die noch nicht im `repo`-Verzeichnis ("
+"oder genauer, im `unsigned`-Verzeichnis) enthalten sind. Es gibt zahlreiche "
+"weitere Dinge, die Sie tun können. Wie bei allen Instrumenten ist die "
+"`--help`-Option Ihr Freund. Es folgen lediglich einige erläuternde Beispiele "
+"und die Besprechung der meistgebrauchten Verwendungsarten:"
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md:83
