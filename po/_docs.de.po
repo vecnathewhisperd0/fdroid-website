@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-07-27 09:54+0000\n"
-"Last-Translator: Silvério <ssantos@web.de>\n"
+"PO-Revision-Date: 2017-07-27 16:51+0000\n"
+"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/de/>\n"
 "Language: de\n"
@@ -1437,6 +1437,8 @@ msgid ""
 "To build a single version of a single application, you could run the "
 "following:"
 msgstr ""
+"Um eine Einzelversion einer einzigen Anwendung herzustellen, könnten Sie "
+"Folgendes ausführen:"
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md:87
@@ -1457,6 +1459,8 @@ msgid ""
 "If the build above was successful, two files will have been placed in the "
 "`unsigned` directory:"
 msgstr ""
+"Wenn die o. g. Herstellung erfolgreich war, werden zwei Dateien im "
+"`unsigned`-Verzeichnis eingestellt sein:"
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md:99
@@ -1471,6 +1475,10 @@ msgid ""
 "source tarball containing exactly the source that was used to generate the "
 "binary."
 msgstr ""
+"Die erste ist die (unsignierte) APK. Sie könnte mit einem Debug-Schlüssel "
+"signiert und direkt auf Ihr Gerät oder einen Emulator zum Testen verschoben "
+"werden. Die zweite ist ein Quellcode-Tarball, der genau den Quelltext "
+"enthält, der zur Generierung der Binärdatei verwendet wurde."
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md:106
