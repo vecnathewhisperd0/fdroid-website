@@ -42,10 +42,10 @@
             "via_bank_transfer": "Überweisung", 
         }, 
         "last_updated": {
-            "heading": "Aktualisierte Apps"
+            "heading": "Zuletzt aktualisiert"
         }, 
         "latest_packages": {
-            "heading": "Neuerscheinungen"
+            "heading": "Neuvorstellungen"
         }, 
         "news": {
             "heading": "Schlagzeilen"
