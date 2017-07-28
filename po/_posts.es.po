@@ -6,20 +6,26 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2017-07-28 23:17+0000\n"
+"Last-Translator: Macofe <macofe.languagetool@gmail.com>\n"
+"Language-Team: Spanish <https://hosted.weblate.org/projects/f-droid/website-"
+"posts/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.16-dev\n"
 
 #. type: Title #
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md:1
 #, no-wrap
 msgid "\"F-Droid supports APK Expansion Files aka OBB\""
 msgstr ""
+"\"F-Droid admite archivos de expansión APK Expansion Files, también llamados "
+"OBB\""
 
 #. type: Plain text
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md:9
@@ -68,7 +74,7 @@ msgstr ""
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md:28
 #, no-wrap
 msgid "Developer Usage"
-msgstr ""
+msgstr "Uso del desarrollador"
 
 #. type: Plain text
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md:38
@@ -120,6 +126,8 @@ msgid ""
 "We are excited to announce the release of the new official F-Droid forum: "
 "[forum.f-droid.org](https://forum.f-droid.org)."
 msgstr ""
+"Nos emociona anunciar el lanzamiento del nuevo foro oficial de F-Droid : "
+"[forum.f-droid.org](https://forum.f-droid.org)."
 
 #. type: Plain text
 #: build/_posts/md/2017-02-20-new-forum.md:12
@@ -247,27 +255,27 @@ msgstr ""
 #. type: Bullet: ' * '
 #: build/_posts/md/2017-04-04-new-ux.md:25
 msgid "Screenshots and feature graphics"
-msgstr ""
+msgstr "Capturas de pantalla y gráficos destacados"
 
 #. type: Bullet: ' * '
 #: build/_posts/md/2017-04-04-new-ux.md:25
 msgid "Bulk download and install"
-msgstr ""
+msgstr "Descarga masiva e instalación"
 
 #. type: Bullet: ' * '
 #: build/_posts/md/2017-04-04-new-ux.md:25
 msgid "Offline \"queue for download\""
-msgstr ""
+msgstr "\"Cola para descargar\" sin conexión"
 
 #. type: Bullet: ' * '
 #: build/_posts/md/2017-04-04-new-ux.md:25
 msgid "Ability to translate apps metadata"
-msgstr ""
+msgstr "Posibilidad de traducir metadatos de aplicaciones"
 
 #. type: Bullet: ' * '
 #: build/_posts/md/2017-04-04-new-ux.md:25
 msgid "Improved notifications for downloads and pending updates"
-msgstr ""
+msgstr "Notificaciones mejoradas para descargas y actualizaciones pendientes"
 
 #. type: Plain text
 #: build/_posts/md/2017-04-04-new-ux.md:33
@@ -314,3 +322,5 @@ msgid ""
 "This is one of the many improvements happening to the broader F-Droid "
 "ecosystem in 2017, so keep an eye out for more!"
 msgstr ""
+"Este es uno de las muchas mejoras en el amplio ecosistema de F-Droid en "
+"2017. ¡Hay más por venir!"
