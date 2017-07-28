@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-07-25 17:21+0000\n"
+"PO-Revision-Date: 2017-07-28 09:55+0000\n"
 "Last-Translator: tenzin tselek <omaahum99@yahoo.in>\n"
 "Language-Team: Tibetan <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/bo/>\n"
@@ -119,9 +119,18 @@ msgid ""
 "source code is checked for potential security or privacy issues. This "
 "checking is far from exhaustive though, and there are no guarantees."
 msgstr ""
+"ཨེཕ་རོཌ་ནི་ཁེ་སང་མེད་པའི་[དྭངས་བླངས་]({{ \"/མཉམ་ཞུགས་/\" | prepend: "
+"site.baseurl }}) ལས་འཆར་ཞིག་རེད། སྤྱིར་བཏང་མཛོད་ནང་ཡོད་པ་ཚང་མ་འགྲིག་བཅུག་བྱེད"
+"་པ་ལ་བདེ་འཇགས་ཡོང་བའི་ཆེད་དུ་འབད་བརྩོན་ཆེན་པོ་བྱེད་ཀྱི་ཡོད་ཀྱང་ཁྱེད་རང་གི་ངོས"
+"་ནས་ཉེན་ཁ་དེའི་རིགས་ལ་ཟབ་དགོས། "
+"མཛོད་ཁང་ནང་གི་མཉེན་ཆས་རྣམས་འབྱུང་ཁུངས་ཨ་མས་བཟོས་པ་ཤ་སྟག་ཡིན་པ་དང་། འབྱུང་ཁུངས"
+"་ཨང་རྟགས་རྣམས་སྲུང་སྐྱོབ་ནུས་པའམ་ཡང་ན་སྒེར་གྱི་གནད་དོན་ཐད་ལ་དོ་དམ་བྱེད་ཀྱི་ཡོ"
+"ད། སྤྱིར་བཏང་དེ་ལ་རྟོག་ཞིབ་མཐིལ་ཕྱིན་པ་བྱས་ཡོད་ཀྱང་ཉེན་ཁ་མི་འབྱུང་བའི་ཉེས་པ་མ"
+"ེད་པ་རེད།"
 
 #. type: Plain text
 #: build/_pages/md/about.md:20
+#, fuzzy
 msgid ""
 "F-Droid respects your privacy. We don’t track you, or your device. We don’t "
 "track what you install. You don’t need an account to use the client, and it "
@@ -133,6 +142,12 @@ msgid ""
 "to post on the forum) goes no further than us, and will not be used for "
 "anything other than allowing you to maintain your account."
 msgstr ""
+"ཨེཕ་རོཌ་གྱིས་གསང་དོན་ལ་དོ་སྣང་བྱེད་ཀྱི་ཡོད། "
+"ང་ཚོས་ཁྱེད་རང་དང་ཡོ་བྱད་ལ་རྗེས་འདེད་གཏོང་གི་མེད། "
+"དེ་བཞིན་ཁྱེད་རང་གིས་འགྲིག་བཅུག་གང་བྱེད་པ་དེ་འང་རྗེས་འདེད་གཏོང་གི་མེད། "
+"མཉེས་ཆས་འདི་བེད་སྤྱོད་བྱས་པ་ལ་ཁྱེད་རང་དྲྭ་ཐོག་སྒང་ལ་ཁ་བྱང་དགོས་ཀྱི་མེད་པ་དང་།"
+" ཁྱེད་རང་གིས་ཐོན་རིམ་འདི་མ་ཡིན་པའི་ང་ཚོའི་དྲྭ་རྒྱ་ཞབས་ཞུ་གཞན་དང་གཞན་ནས་སྐད་ཆ་"
+"ཤོད་སྐབས་ངོས་འཛིན་ཡིག་ཆ་འཕར་མ་གང་ཡང་དགོས་ཀྱི་མེད།"
 
 #. type: Title ###
 #: build/_pages/md/about.md:21
@@ -767,6 +782,9 @@ msgid ""
 "(All_About_Descriptions_Graphics_and_Screenshots) Showing off your app in F-"
 "Droid."
 msgstr ""
+"[ཚང་མ་འགྲེལ་བཤད་དང་། བརྐོས་རིས། དྲྭ་ཤེལ་པར་ལེན་སྐོར་རེད། "
+"](ཚང་མ་_སྐོར་_འགྲེལ་བཤད་_བརྐོས་རིས་_དང་_དྲྭ་ཤེལ་པར་ལེན།) "
+"ཨེཕ་རོཌ་ནང་ཁྱེད་རང་གི་མཉེན་ཆས་སྟོན་གྱི་མེད།"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:48
@@ -774,6 +792,10 @@ msgid ""
 "[Installing the Server and Repo Tools](Installing_the_Server_and_Repo_Tools) "
 "How to install fdroidserver, the tools for running repos and build servers."
 msgstr ""
+"[ཞབས་ཞུ་འཕྲུལ་ཆས་དང་རེ་པོ་མ་ལག་འགྲིག་བཅུག་བྱེད་བཞིན་པ་](འགྲིག་བཅུག་བྱེད་བཞིན་"
+"པ་_ཞབས་ཞུ་འཕྲུལ་ཆས་_དང་_རེ་པོ་_ཡན་ལག)ཨེཕ་རོབ་ཞབས་ཞུ་འཕྲུལ་ཆས་གང་འདྲ་སེ་འགྲིག་"
+"བཅུག་བྱེད་དགོས་མིན་དང་། "
+"རེ་པོ་དང་བཟོས་པའི་ཞབས་ཞུ་འཕྲུལ་ཆས་མ་ལག་གི་ནང་དུ་འཁོར་སྐྱོད་གང་འདྲ་བྱེད་མིན།"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:48
@@ -782,6 +804,9 @@ msgid ""
 "repository of apps that users can easily add to their F-Droid client to get "
 "your apps directly from the source."
 msgstr ""
+"[ཨེཕ་རོཌ་རེ་པོ་མཉེན་ཆས་སྒྲིག་བཀོད།](སྒྲིག་བཀོད་_ཨེཕ་རོཌ་_མཉེན་ཆས་_རེ་པོ་) ཁྱེ"
+"ད་རང་གི་མཉེས་ཆས་འབྱུང་ཁུངས་ནས་ཐད་ཀར་ལེན་ཏེ་ཨེཕ་རོཌ་མཉེན་ཆས་ལ་སྟབས་བདེ་པོའི་ངང"
+"་ནས་ཁ་སྣོན་བྱས་ནས་རང་ཉིད་ཀྱི་མཛོད་ཁང་སྒྲིག་བཀོད་གང་འདྲ་བྱེད་དགོས་སམ།"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:48
@@ -789,6 +814,8 @@ msgid ""
 "[Build Server Setup](Build_Server_Setup) How to setup the complete f-droid."
 "org build setup on your own machine."
 msgstr ""
+"[བཟོས་པའི་ཞབས་ཞུ་འཕྲུལ་ཆས་སྒྲིག་བཀོད།](བཟོས་པ་_ཞབས་ཞུ་འཕྲུལ་ཆས་_སྒྲིག་བཀོད་)ར"
+"ང་གི་ངོས་ནས་ f-droid.org བཟོས་པ་འདི་སྒྲིག་བཀོད་ཆ་ཚང་གང་འདྲ་བྱེད་དགོས་སམ།"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:48
@@ -796,13 +823,16 @@ msgid ""
 "[Signing Process](Signing_Process) How to setup cryptographic signatures "
 "with F-Droid tools"
 msgstr ""
+"[མིང་རྟགས་རྒྱུད་རིམ། ](མིང་རྟགས་_རྒྱུད་རིམ་)ཨེཕ་རོཌ་མ་ལག་མཉམ་དུ་གསང་དཀྲོལ་མིང"
+"་རྟགས་སྒྲིག་བཀོད་གང་འདྲ་བྱེད་དགོས་མིན།"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:48
+#, fuzzy
 msgid ""
 "[Reproducible Builds](Reproducible_Builds) How to use the F-Droid tools to "
 "make reproducible builds easy."
-msgstr ""
+msgstr "[སྐྱར་བཟོས་ཐུབ་པའི་བཟོས་པ་]"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:53
@@ -810,6 +840,8 @@ msgid ""
 "[Verification Server](Verification_Server) Setting up a server to verify app "
 "builds are correct."
 msgstr ""
+"[ར་སྤྲོད་ཐུབ་པའི་ཞབས་ཞུ་འཕྲུལ་ཆས་](ར་སྤྲོད་ཐུབ་པ་_ཞབས་ཞུ་འཕྲུལ་ཆས།)བཟོས་པའི་མ"
+"ཉེན་ཆས་རྣམས་འགྲིག་ཡོད་པའི་ར་སྤྲོད་ཆེད་དུ་ཞུབས་ཞུ་འཕྲུལ་ཆས་སྒྲིག་བཀོད།"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:53
@@ -838,6 +870,9 @@ msgid ""
 "[Work in Progress](https://f-droid.org/wiki/page/Work_in_Progress) Feel free "
 "to add your own topics and link to others."
 msgstr ""
+"[ལས་ཀའི་རྒྱུད་རིམ་འགྲོ་བཞིན་པ།](https://f-droid.org/wiki/page/Work_in_Progres"
+"s) ཁྱེད་རང་ཉིད་ཀྱི་འདོད་པ་ཡོད་པའི་བརྗོད་གཞི་འདེམས་ནས་གཞན་ལ་དགག་བྱ་མེད་པའི་ཐོག"
+"་ནས་སྦྲེལ་མཐུད་གནང་རོགས།"
 
 #. type: Title #
 #: build/_pages/md/issues.md:1
@@ -958,7 +993,7 @@ msgstr ""
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md:37
 #, no-wrap
 msgid "In the app's build metadata in an _fdroiddata_ collection"
-msgstr ""
+msgstr "མཉེན་ཆས་ནང་དུ་བཟོས་པའི་་རྒྱབ་ལྗོངས་ཡིག་ཆ་ _fdroiddata_ ཕྱོགས་བསྒྲིགས།"
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md:46
@@ -1004,12 +1039,40 @@ msgid ""
 "                  └── *.png\n"
 "```\n"
 msgstr ""
+"```\n"
+"- <ཨེཕ་རོཌ་ཡིག་ཆ་>/\n"
+"  └── རྒྱབ་ལྗོངས་ཡིག་ཆ་/\n"
+"      └── <ཐུམ་སྒྲིལ་-id>/\n"
+"          └── <བསྟི་གནས་>/\n"
+"              ├── ཆ་ཚང་_འགྲེལ་བཤད་.txt\n"
+"              ├── ཐུང་ཐུང་_འགྲེལ་བཤད་.txt\n"
+"              ├── འགོ་བརྗོད་.txt\n"
+"              ├── བརྙན་ཐུང་.txt\n"
+"              ├── པར་རིས་/\n"
+"              │   ├──བརྐོད་རིས་ཁྱད་ཆོས.png\n"
+"              │   ├── ལས་རྟགས་.png\n"
+"              │   ├── promoGraphic.png\n"
+"              │   └── བརྙན་འཕྲིན་ཕྲེད་དར་.png\n"
+"              ├── གྲངས་ཐོ་འགྱུར་ལྡོག/\n"
+"              │   ├── <version-code>.txt\n"
+"              │   └── <version-code>.txt\n"
+"              ├── ཁ་པར་གྱི་དྲྭ་ཤེལ་པར་ལེན་/\n"
+"              │   └── *.png\n"
+"              ├── ཨེན་ཇི་བདུན་གྱི་དྲྭ་ཤེལ་པར་ལེན་/\n"
+"              │   └── *.png\n"
+"              ├── ཨེན་ཇི་བཅུ་བྱས་པའི་དྲྭ་ཤེལ་པར་ལེན་/\n"
+"              │   └── *.png\n"
+"              ├── བརྙན་འཕྲིན་གྱི་དྲྭ་ཤེལ་པར་ལེན་/\n"
+"              │   └── *.png\n"
+"              └── གྱོན་པའི་དྲྭ་ཤེལ་པར་ལེན་/\n"
+"                  └── *.png\n"
+"```\n"
 
 #. type: Title ##
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md:76
 #, no-wrap
 msgid "Directly in the F-Droid repo"
-msgstr ""
+msgstr "ཨེཕ་རོཌ་རེ་པོ་ནང་ལ་ཐད་ཀར་"
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md:85
@@ -1048,6 +1111,26 @@ msgid ""
 "                  └── *.png\n"
 "```\n"
 msgstr ""
+"```\n"
+"- ཨེཕ་རོཌ་/\n"
+"  └── རེ་པོ་/\n"
+"      └── <ཐུམ་སྒྲིལ་-id>/\n"
+"          └── <བསྟི་གནས་>/\n"
+"              ├── བརྐོད་རིས་ཁྱད་ཆོས.png\n"
+"              ├──མིང་རྟགས་.png\n"
+"              ├── promoGraphic.png\n"
+"              ├── བརྙན་འཕྲིན་ཕྲེད་དར་.png\n"
+"              ├── ཁ་པར་གྱི་དྲྭ་ཤེལ་པར་ལེན་/\n"
+"              │   └── *.png\n"
+"              ├── ཨེན་ཇི་བདུན་བྱས་པའི་དྲྭ་ཤེལ་པར་ལེན/་\n"
+"              │   └── *.png\n"
+"              ├── ཨེན་ཇི་བཅུ་བྱས་པའི་དྲྭ་ཤེལ་པར་ལེན་/\n"
+"              │   └── *.png\n"
+"              ├── བརྙན་འཕྲིན་གྱི་དྲྭ་ཤེལ་པར་ལེན/\n"
+"              │   └── *.png\n"
+"              └── གྱོན་པའི་དྲྭ་ཤེལ་པར་ལེན་/\n"
+"                  └── *.png\n"
+"```\n"
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md:109
@@ -1061,7 +1144,7 @@ msgstr ""
 #: build/_docs/md/Building_Applications.md:1
 #, no-wrap
 msgid "Building Applications"
-msgstr ""
+msgstr "མཉེན་ཆས་བཟོ་བཞིན་པ།"
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md:5
@@ -1086,6 +1169,8 @@ msgid ""
 "The source code (either for a particular version, or even all versions!) is "
 "unavailable or incomplete."
 msgstr ""
+"འབྱུང་ཁུངས་ཨང་རྟགས་(ཐོན་རིམ་བྱེ་བྲག་པ་ཞིག་གམ་ཡང་ནང་ཐོན་རིམ་ཆ་ཚང་ཡིན་)ནི་མེད་པ"
+"འམ་ཚང་མིན་འདུག"
 
 #. type: Bullet: '2.  '
 #: build/_docs/md/Building_Applications.md:18
@@ -1130,13 +1215,13 @@ msgstr ""
 #. type: Bullet: '1.  '
 #: build/_docs/md/Building_Applications.md:40
 msgid "Include Build entries in the metadata files."
-msgstr ""
+msgstr "རྒྱབ་ལྗོངས་ཡིག་ཆའི་ནང་དུ་བཟོས་པ་ནང་འཛུལ་རྣམས་ཚུད་པ་བྱེད་རོགས།"
 
 #. type: Bullet: '2.  '
 #: build/_docs/md/Building_Applications.md:40
 msgid ""
 "Run `fdroid build` to build any applications that are not already built."
-msgstr ""
+msgstr "`ཨེཕ་རོཌ་བཟོས་པ། ` འཁོར་སྐྱོད་བྱས་ནས་མཉེན་ཆས་བཟོས་མ་ཚར་བ་རྣམས་བཟོས།"
 
 #. type: Bullet: '3.  '
 #: build/_docs/md/Building_Applications.md:40
@@ -1144,12 +1229,14 @@ msgid ""
 "Run `fdroid publish` to finalise packaging and sign any APKs that have been "
 "built."
 msgstr ""
+"`ཨེཕ་རོཌ་པར་སྐྲུན་`འཁོར་སྐྱོད་བྱས་ནས་ཐུམ་སྒྲིལ་དང་མིང་རྟགས་བཀོད་པའི་APKཡིག་ཆ་"
+"བཟོས་པ་རྣམས་མཐའ་བསྡོམས་རྒྱོབ།"
 
 #. type: Title ###
 #: build/_docs/md/Building_Applications.md:42
 #, no-wrap
 msgid "App data directory aka _fdroiddata_"
-msgstr ""
+msgstr "མཉེན་ཆས་ཡིག་ཆའི་ཕྱོགས་དེབ་ aka _fdroiddata_"
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md:48
@@ -1159,11 +1246,16 @@ msgid ""
 "repository management tasks. You can either create a brand new one, or grab "
 "a copy of the data used by the main F-Droid repository:"
 msgstr ""
+"གང་རེ་བྱས་ནའང་ཁྱེད་རང་ལ་མ་མཐའ་ཡིན་ནའང་མཛོད་ཁང་གཅིག་གི་ཕྱོགས་དེབ་དགོས། ཕྱོགས་ད"
+"ེབ་ནས་ཁྱེད་རང་གི་ཨེཕ་རོབ་འཁོར་སྐྱོད་བྱེད་ཅིང་མཛོད་ཁང་སྟངས་འཛིན་གྱི་བྱེད་ལས་ཀྱ"
+"ི་བཀོད་ཁྱབ་བྱེད་ཀྱི་ཡོད། ཡང་ནས་ཁྱེད་རང་གིས་གསར་པ་གསར་རྐྱང་གཅིག་བཟོས་པའང་ཡང་ན་"
+"ཨེཕ་རོཌ་མཛོད་ཁང་ཨ་མས་བེད་སྤྱོད་བྱས་པའི་ཡིག་ཆ་ཞིག་ཕབ་ཤུས་བྱས་ནས་རག་ཐབས་བྱེད།"
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md:52
+#, fuzzy
 msgid "```bash git clone https://gitlab.com/fdroid/fdroiddata.git ```"
-msgstr ""
+msgstr "```bash git clone https://gitlab.com/fdroid/fdroiddata.git ```"
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md:59
