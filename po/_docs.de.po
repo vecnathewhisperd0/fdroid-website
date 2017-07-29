@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-07-27 16:51+0000\n"
-"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
+"PO-Revision-Date: 2017-07-29 10:36+0000\n"
+"Last-Translator: anonymous <>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/de/>\n"
 "Language: de\n"
@@ -1484,6 +1484,8 @@ msgstr ""
 #: build/_docs/md/Building_Applications.md:106
 msgid "If you were intending to publish these files, you could then run:"
 msgstr ""
+"Beabsichtigen Sie diese Dateien zu veröffentlichen, könnten Sie nun "
+"Folgendes ausführen:"
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md:110
@@ -1498,6 +1500,10 @@ msgid ""
 "version of the APK would also appear there, and both files would be removed "
 "from the `unsigned` directory."
 msgstr ""
+"Der Quellcode-Tarball würde ins `repo`-Verzeichnis verlagert (das "
+"Verzeichnis, das Sie auf Ihren Webserver verschieben würden). Eine signierte "
+"und zip-komprimierte Version der APK würde ebenfalls dort erscheinen, und "
+"beide Dateien würden aus dem `unsigned`-Verzeichnis entfernt werden."
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md:122
@@ -1508,6 +1514,12 @@ msgid ""
 "similar effect could by achieved by simply deleting the output files from "
 "`unsigned` after the build, but with the risk of forgetting to do so!"
 msgstr ""
+"Erfolgt die Herstellung rein zu Testzwecken und sollen die Ergebnisse nicht, "
+"oder zumindest noch nicht, in ein Repository verschoben werden, kann die "
+"`--test`-Option verwendet werden, um die Ausgabe ins `tmp`-Verzeichnis statt "
+"ins `unsigned` umzuleiten. Der gleiche Effekt könnte erzielt werden, indem "
+"die Ausgabedateien aus `unsigned` nach der Herstellung einfach gelöscht "
+"werden, allerdings mit dem Risiko, dass dies vergessen wird!"
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md:128
