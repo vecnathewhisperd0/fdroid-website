@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-07-25 12:18+0000\n"
+"PO-Revision-Date: 2017-08-01 12:37+0000\n"
 "Last-Translator: Lobsang <lobsangsither@gmail.com>\n"
 "Language-Team: Tibetan <https://hosted.weblate.org/projects/f-droid/website-"
 "posts/bo/>\n"
@@ -137,13 +137,11 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md:44
-#, fuzzy
 msgid "`org.fdroid.fdroid.action.GET_OBB_MAIN_URL`"
 msgstr "`org.fdroid.fdroid.action.GET_OBB_MAIN_URL`"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md:44
-#, fuzzy
 msgid "`org.fdroid.fdroid.action.GET_OBB_PATCH_URL`"
 msgstr "`org.fdroid.fdroid.action.GET_OBB_PATCH_URL`"
 
@@ -178,7 +176,6 @@ msgstr ""
 
 #. type: Plain text
 #: build/_posts/md/2017-02-20-new-forum.md:12
-#, fuzzy
 msgid ""
 "We have been working hard to [revise the website](https://gitlab.com/groups/"
 "fdroid/milestones/launch?title=Launch)  in order to make it easier to "
@@ -195,7 +192,12 @@ msgstr ""
 "ྱོད་གཏོང་བདེ་བ་དེང་རབས་དང་མཐུན་པ། རོགས་རམ་ངོས་ལེན་བྱེད་ཐུབ་པ། "
 "རྒྱལ་སྤྱི་དང་མཐུན་པ་བཟོ་ཐབས་ལ་འབད་རྩོལ་བྱེད་ཀྱི་ཡོད། "
 "ལས་ཀ་གཙོ་བོ་ནི་རྨང་གཞིའི་འཕྲུལ་ཆས་འདི་word press "
-"ནས་Jekyll](https://jekyllrb.com/).ལ་བརྗེ་ལེན་བྱེད་རྒྱུ་དེ་རེད།"
+"ནས་Jekyll](https://jekyllrb.com/).ལ་བརྗེ་ལེན་བྱེད་རྒྱུ་དེ་རེད། "
+"འོན་ཀྱང་གླེང་སྟེགས་འདིས་WordPress ནང་བཙུགས་བེད་སྤྱོད་བྱེད་ཀྱི་ཡོད་ཙང་ང་ཚོས་བས"
+"མ་བློ་བཏང་ནས་[གླེང་སྟེགས་རྙིང་པ་དེ་གཡུག་ནས་](https://gitlab.com/fdroid"
+"/fdroid-website/issues/6) རང་དབང་ལྡན་པའི་ཉར་གསོག་འདི་བེད་སྤྱོད་བྱེད་པ་མ་ཟད་དེ"
+"ང་དུས་དང་མཐུན་པའི་མཉེན་ཆས་[Discourse](https://www.discourse.org)བེད་སྤྱོད་བྱེ"
+"ད་ཡོད།"
 
 #. type: Plain text
 #: build/_posts/md/2017-02-20-new-forum.md:18
@@ -242,8 +244,7 @@ msgstr ""
 "ད་ལྟ་གནས་སྐབས་ཀྱི་རིང་ལ་ཨེཕ་རོཌ་དངས་བླངས་ཞབས་ཞུ་བ་མི་ལྡང་བའི་རྒྱུ་མཚན་གྱིས་ཡི"
 "ག་ཆ་རྣམས་གླེང་སྟེགས་རྙིང་པ་དེ་ནས་གསར་པའི་སྒང་ལ་གནས་སྤོས་བྱེད་ཐབས་མིན་འདུག་པས་"
 "ཁྱེད་རང་སོ་སོ་རང་ཉིད་ནས་དེབ་སྐྱེལ་གནང་རོགས། "
-"འདི་ནས་རང་དབང་ཐོབ་ན་བརྗོད་གཞི་རྙིང་པ་ཚང་མ་ད་ལྟ་ཡོད་བཞིན་པའི་URL "
-"སྒང་ལ་གནས་ཀྱི་ཡོད།."
+"འདི་ལ་མ་ལྟོས་ན་བརྗོད་གཞི་རྙིང་པ་ཚང་མ་ད་ལྟ་ཡོད་བཞིན་པའི་URL སྒང་ལ་གནས་ཀྱི་ཡོད།"
 
 #. type: Plain text
 #: build/_posts/md/2017-02-20-new-forum.md:34
@@ -255,10 +256,10 @@ msgid ""
 "other-languages/german)."
 msgstr ""
 "ཡིད་མགུ་ནུས་པའི་ཁྱད་ཆོས་གཅིག་ནི་[སྤྱི་ཚོགས་བསྟི་གནས་](https://forum.f-droid.o"
-"rg/c/སྐད་རིགས་གཞན་).སྤྱི་ཚོགས་འདི་ཚོའི་ནང་ལ་ཨེན་ཀྲོཌ་སྒང་ལ་ཡོད་པའི་ཨེཕ་རོཌ་དང"
-"་རིན་མེད་མཉེན་ཆས་ཀྱི་སྐོར་གྱི་བརྗོད་གཞི་རྣམས་རང་རང་སོ་སོའི་མ་སྐད་ཐོག་ནས་བགྲོ་"
-"གླེང་བྱེད་ཐུབ་ཀྱི་ཡོད། ད་ལྟའི་ཆ་ལ་སྔོན་ཚོད་ནས [ཇར་མན་སྡེ་ཚན་](https://forum "
-"f-droid.org/c/སྐད་རིགས་གཞན་/ཇར་མན་)ཡོད།"
+"rg/c/other-languages)་སྤྱི་ཚོགས་འདི་ཚོའི་ནང་ལ་ཨེཕ་རོཌ་དང་ཨེན་ཀྲོཌ་སྒང་ལ་ཡོད་པ"
+"འི་རིན་མེད་མཉེན་ཆས་ཀྱི་སྐོར་གྱི་བརྗོད་གཞི་རྣམས་རང་རང་སོ་སོའི་མ་སྐད་ཐོག་ནས་བགྲ"
+"ོ་གླེང་བྱེད་ཐུབ་ཀྱི་ཡོད། ད་ལྟའི་ཆ་ལ་སྔོན་ཚོད་ནས "
+"[ཇར་མན་སྡེ་ཚན་](https://forum.f-droid.org/c/other-languages/german)ཡོད།"
 
 #. type: Plain text
 #: build/_posts/md/2017-02-20-new-forum.md:38
@@ -283,7 +284,7 @@ msgstr ""
 "མཐའ་དོན་ལ། ད་ལྟ་ཡར་རྒྱས་གོང་སྤེལ་གཏོང་བཞིན་པའི་ཨེཕ་རོཌ་ནང་གྱི་ཤེས་བྱ་མཐའ་མ་དེ"
 "་ལ་:ང་ཚོས་གླེང་མོལ་གྱི་ལམ་ནས་[དྲྭ་རྒྱ་ལ་མཆན་]རྒྱབ་ཐུབ་པའི་འཆར་གཞི་ཡོད།\n"
 "(https://gitlab.com/fdroid/fdroid-website/issues/36)  "
-"འདིས་ང་ཚོ་[མཉེས་ཆས་གཅིག་ལ་མཆན་རྒྱབ་ཐུབ་པའི་ཆེད་དུ་ཡིན།]\n"
+"འདིས་ང་ཚོ་[མཉེས་ཆས་གཅིག་ལ་མཆན་རྒྱབ་ཐུབ་པར་།]ཐག་ཉེ་རུ་བཏང་གི་ཡོད།\n"
 "(https://gitlab.com/fdroid/fdroidclient/issues/646)."
 
 #. type: Plain text
