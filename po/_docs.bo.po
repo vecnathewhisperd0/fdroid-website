@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-07-28 09:55+0000\n"
+"PO-Revision-Date: 2017-08-02 18:14+0000\n"
 "Last-Translator: tenzin tselek <omaahum99@yahoo.in>\n"
 "Language-Team: Tibetan <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/bo/>\n"
@@ -847,6 +847,7 @@ msgstr ""
 #: build/_pages/md/docs.md:53
 msgid "[Whitelabel Builds](Whitelabel_Builds) custom builds of F-Droid"
 msgstr ""
+"[མིང་བཏགས་དཀར་པོ་བཟོས་པ་](Whitelabel_Builds) ཨེཕ་རོཌ་ཀྱི་རང་སྒྲུབ་བཟོས་པ།"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:53
@@ -863,6 +864,9 @@ msgid ""
 "(https://gitlab.com/fdroid/fdroid-website) becomes [f-droid.org](https://f-"
 "droid.org)"
 msgstr ""
+"[དྲྭ་རྒྱ་རྒྱ་བསྐྱེད་གཏོང་བཞིན་པ་](Deploying_the_Website) གང་འདྲ་སེ་[fdroid-"
+"website.git](https://gitlab.com/fdroid/fdroid-website) ཆགས་པ་རེད། "
+"[f-droid.org](https://f-droid.org)"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:54
@@ -931,6 +935,12 @@ msgid ""
 "files in a [simple repository](../TODO).  There are three paths to including "
 "app store content for apps:"
 msgstr ""
+"མཉེན་ཆས་རེ་ལ་མཉེས་ཆས་གསོག་ཉར་ནང་དོན་ཆ་ཚང་རེ་ཡོད་ལ། དེའི་ནང་འགྲེལ་བཤད་ཉར་བ་དང།"
+" བརྐོས་རིས་ཀྱི་ཁྱད་ཆོས། དྲྭ་ཤེལ་པར་ལེན་སོགས་ཡོད།(as of v0.103 of the F-Droid "
+"client app and v0.8 of _fdroidserver_)འདི་ནི་མཉེས་ཆས་འདི་[རྒྱབ་ལྗོངས་ཡིག་ཆ་བཟ"
+"ོས་པ་]རྒྱུད་དེ་ཁ་སྣོན་དང་(../TODO)དེ་བཞིན་སྔོན་ཚོད་ནས་བཟོས་པའི་ཡིག་ཆ་[སྟབས་བད"
+"ེའི་མཛོད་ཁང་](../TODO)གཉིས་ཀ་རྒྱུད་ན་སྲིད་པ་རེད། "
+"མཉེན་ཆས་ཀྱི་ཆེད་དུ་མཉེན་ཆས་གསོག་ཉར་ནང་དོན་ཚུད་པའི་ཐབས་ལམ་ཁག་གསུམ་ཡོད་པ་རེད།"
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md:12
