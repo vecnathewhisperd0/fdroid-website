@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-08-06 12:07+0000\n"
+"PO-Revision-Date: 2017-08-09 19:31+0000\n"
 "Last-Translator: tenzin tselek <omaahum99@yahoo.in>\n"
 "Language-Team: Tibetan <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/bo/>\n"
@@ -524,6 +524,13 @@ msgid ""
 "that via the git repository, which will drastically speed up the inclusion "
 "of the application."
 msgstr ""
+"གལ་ཏེ་ཁྱེད་རང་གིས་མཛོད་ཁང་ནས་མཉེན་ཆས་རིགས་བརླགས་པ་འདྲ་མཐོང་ན། [ནང་ཁོངས་སྲིད་བ"
+"ྱུས་ཀློག་པའི་རྗེས་སུ་](http://fdroid.org/wiki/page/Inclusion_Policy)),འབུལ་ཞུ"
+"ས་སྡེ་ཚན་གྱི་འགེངས་ཤོག་རྒྱུད་དེ་['འབུལ་ཞུས་གྲལ་རིམ་](https://gitlab.com/fdroi"
+"d/rfp/issues)ཕུལ་རྒྱུ་མ་བརྗེད་པ་གནང་རོགས། "
+"གལ་ཏེ་ཁྱེད་རང་ལ་འཕྲུལ་ཆས་ཀྱི་རྩལ་ལག་དགོས་ན། ཁྱེད་རང་གིས་འབྲེལ་ཡོད་ཀྱི་རྒྱབ་ལྗ"
+"ོངས་ཡིག་ཆ་རྣམས་མཉམ་དུ་སྒྲིག་སྟེ་གིཊ་མཛོད་ཁང་རྒྱུད་དེ་འབུལ་ལམ་ཞུས། "
+"དེས་མཉེན་ཆས་ཀྱི་ནང་ཁོངས་མགྱོགས་ཚད་ལྡབས་མང་པོས་མགྱོགས་ཏུ་འགྲོ་གི་རེད།"
 
 #. type: Plain text
 #: build/_pages/md/contribute.md:19
@@ -560,6 +567,9 @@ msgid ""
 "Translation_and_Localization).  There’s also a [dedicated forum section]"
 "(https://forum.f-droid.org/c/translation) for translation discussions."
 msgstr ""
+"སྐྱར་ཞིབ་བྱེད་སྒོ་འཛུགས་[ཡིག་བསྒྱུར་དང་ས་གནས་ས་ཐོག](docs/Translation_and_Loca"
+"lization).  དེ་ལ་ཡིག་བསྒྱུར་གྲོས་སྡུར་གྱི་[འབུས་ཞུས་སྡེ་ཚན་འགེངས་ཤོག](https:/"
+"/forum.f-droid.org/c/translation)ཀྱང་ཡོད།"
 
 #. type: Title ###
 #: build/_pages/md/contribute.md:26
@@ -583,6 +593,19 @@ msgid ""
 "direction of the project, and do not clash with or duplicate work already in "
 "development."
 msgstr ""
+"གིཊ་ལེབ་ཀྱིས་གིཊ་མཛོད་ཁང་བཞི་ཉར་གྱི་ཡོད། -གཅིག་ནི་[ཨེན་ཀྲོཌ་མཉེས་ཆས་]ཆེད་དུ་ར"
+"ེད།(https://gitlab.com/fdroid/fdroidclient) གཅིག་ནི་[ཞབས་ཞུ་འཕྲུལ་ཆས་ཀྱི་མ་ལག"
+"]ཆེད་དུ་(https://gitlab.com/fdroid/fdroidserver)མཛོད་ཁང་འཁོར་སྐྱོད་དང་བཟོས་པ་"
+"/བསྟི་གནས་ཀྱི་མཉེས་ཆས་འགྲིག་བཅུག་ཆེད་དུ་ཡིན། དེ་ནས་གཅིག་ནི་མཉམ་འབྲེལ་[ཨེཕ་རོཌ"
+"་ཨ་མའི་མཛོད་ཁང་ནང་དུ་ཡོད་པའི་མཉེན་ཆས་ཀྱི་རྒྱབ་ལྗོངས་ཡིག་ཆ་ཁག་](https://gitlab"
+".com/fdroid/fdroiddata)གི་ཆེད་དུ་ཡིན། རེ་པོ་མཐའ་མ་དེ་[དྲྭ་རྒྱ་དང་ཡིག་ཚགས་]སྟང"
+"ས་འཛིན་བྱེད་ཆེད་དུ་ཡིན།(https://gitlab.com/fdroid/fdroid-website) ཡར་རྒྱས་གོང"
+"་འཕེལ་གཏོང་བའི་ཐབས་ལམ་ལས་སླ་ཤོས་ནི་ལས་འཆར་དེ་ཚོའི་འདྲ་གཟུགས་རེ་བཟོས་ནས་ཟླ་སྒྲ"
+"ིལ་གཏོང་རྒྱུའི་རེ་སྐུལ་འབུལ་ལམ་ཞུས། "
+"གལ་ཏེ་ཁྱེད་ཀྱིས་བཅོས་བསྒྱུར་ཆེན་པོ་གཏོང་ན། IRC ཡང་ན་འགེངས་ཤོག་དང་པོ་གཉིས་ཀྱི་"
+"སྒང་ལ་གོ་སྡུར་བྱེད་ནས་ལས་འཆར་དེ་རྣམས་ཁ་ཕྱོགས་དང་མཐུན་པ་བཟོ་ཐུབ་ན་ཡག་པོ་ཡོད་པ་"
+"དང་། ཡང་ན་ནང་ཁུལ་ཁ་གཏུགས་མ་རྒྱབ་པའི་ཆེད་དུའམ་ཡང་ན་ལས་ཀའི་ངོ་བཤུས་སྔོན་ཚོད་ཙམ་"
+"ནས་ཡར་རྒྱས་བཏང་ཟིན་པའི་རིགས་ལ་ཕན་ཐོགས་ཡོང་།"
 
 #. type: Plain text
 #: build/_pages/md/contribute.md:39
@@ -610,6 +633,13 @@ msgid ""
 "tools for managing the process of turning app source code into published "
 "builds."
 msgstr ""
+"ཨེཕ་རོཌ་ནི་ཁུངས་སྐྱེལ་ཐུབ་པའི་རིན་མེད་ཨེན་ཀྲོཌ་མཉེས་ཆས་མཛོད་ཁང་དང་\""
+"མཉེན་ཆས་གསོག་ཉར་གྱི་ཡོ་བྱད་\"གཉིས་ཀ་ཡིན། དེས་མཉེནཆས་གསོག་ཉར་སྒྲིག་བཀོད་དང་འཁོ"
+"ར་སྐྱོད་ཆེད་དུ་དགོས་མཁོ་ཡོད་པའི་ལག་ཆ་རྣམས་སྟེར་གྱི་ཡོད་།་འདི་ནི་རིན་མེད་ཀྱི་ཐ"
+"ོག་ནས་སྤྱི་ཚོགས་ཀྱིས་བེད་སྤྱོད་བྱས་པའི་ལས་འཆར་ཞིག་ཡིན་ལ་གཞི་རྒྱ་ཆེ་བའི་མཉམ་ཞུ"
+"གས་པ་རྣམས་ཀྱིས་གོང་འཕེལ་དུ་བཏང་བ་ཞིག་རེད། "
+"དེའི་ནང་བཟོས་པ་ཡོངས་རྫོགས་ཚུད་པ་དང་། མཉེན་ཆས་ཀྱི་འབྱུང་ཁུངས་ཨང་རྟགས་ཀྱི་རྒྱུད"
+"་རིམ་སྟངས་འཛིན་བྱེད་པའི་ཆེད་དུ་ལག་ཆ་རྣས་འགྲེམ་སྤེལ་བྱེད་ཀྱི་ཡོད།"
 
 #. type: Plain text
 #: build/_pages/md/docs.md:15
@@ -620,6 +650,12 @@ msgid ""
 "publishing, or to assist in creating, testing and submitting metadata to the "
 "main repository."
 msgstr ""
+"ཨེཕ་རོཌ་ཞབས་ཞུ་འཕྲུལ་ཆས་མ་ལག་གིས་ཡིག་རིགས་འདྲ་མིན་སྣ་ཚོགས་དང་། ཨེཕ་རོཌ་མཛོད་ཁ"
+"ང་ཨ་མ་དེ་རྒྱུན་སྐྱོང་བྱེད་པའི་ཆེད་དུ་བེད་སྤྱོད་བྱས་རྒྱུའི་མ་ལག་རྣམས་མཁོ་སྤྲོད"
+"་བྱེད་ཀྱི་ཡོད། ཁྱེད་རང་གིས་མ་ལག་དེ་ག་རང་བེད་སྤྱོད་བྱས་ཏེ་སོ་སོ་རང་ཉིད་ཀྱི་པར་"
+"སྐྲུན་ཆེད་དུ་མཛོད་ཁང་འཕར་མ་དང་གཞན་དག་བཟོས་ཐུབ་པ་དང་། "
+"ཡང་ན་མཛོད་ཁང་ཨ་མའི་ནང་དུ་རྒྱབ་ལྗོངས་ཡིག་ཆ་བཟོས་པ་དང་། ཚོད་ལྟ་བྱས་པ། "
+"འབུལ་ལམ་ཞུས་པ་སོགས་ལ་རོགས་པའང་བྱེད་ཐུབ།"
 
 #. type: Title ###
 #: build/_pages/md/docs.md:17
@@ -856,6 +892,9 @@ msgid ""
 "droid-privileged-extension) How to use F-Droid Privileged Extension as a "
 "user and rom developer"
 msgstr ""
+"[ཁེ་སང་འཕར་མ་](https://gitlab.com/fdroid/privileged-extension#f-droid-"
+"privileged-extension) སྤྱོད་པ་པོ་ཞིག་དང་རོམ་བཟོ་མཁན་ཞིག་ཡིན་པའི་ཆ་ནས་ཨེཕ་རོཌ་"
+"ཁེ་སང་འཕར་མ་གང་འདྲ་བྱས་ནས་བེད་སྤྱོད་བྱེད་དགོས་མིན།།"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:53
@@ -998,6 +1037,10 @@ msgid ""
 "_fastlane supply_ nor _Gradle Play Publisher_.  F-Droid includes these files "
 "purely based on the standard file layout that those tools use."
 msgstr ""
+"མཐའ་མར། སྤྱིར་བཏང་འགྲིག་བཅུག་དང་ཡང་ན་_རྒྱུད་ལམ་མྱུར་པོར་བཏང་བ་_དེ་མིན་_གྲེ་ཌལ"
+"་མཉེན་ཆས་པར་སྐྲུན་_སོགས་ངེས་པར་དུ་བེད་སྤྱོད་གཏོང་དགོས་ཀྱི་མེད། ཨེཕ་རོཌ་ནང་མ་ལ"
+"ག་དེ་ཚོས་བེད་སྤྱོད་བྱས་པའི་ཚད་ལྡན་གྱི་ཡིག་ཆ་སྒྲིག་བཀོད་བྱས་པ་གཞི་རྩར་བྱས་རྣམས"
+"་ཚུད་ཡོད།"
 
 #. type: Title ##
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md:37
@@ -1357,6 +1400,9 @@ msgid ""
 "Droid client. Many of the tools recognise arguments as packages, allowing "
 "their activity to be limited to just a limited set of packages."
 msgstr ""
+"ཨེཕ་རོཌ་མཉེན་ཆས་ཀྱི་ཐོན་རིམ་ཨང་རྟགས་༡༦ བཟོས་པའི་ཚོད་ལྟ། (ཐོན་རིམ་0.25)མ་ལག་མང"
+"་ཆེ་བས་རྩོད་པ་འདི་ཐུམ་སྒྲིལ་ཞིག་ལ་ངོས་འཛིན་བྱེད་ཀྱི་ཡོད་ལ་དེའི་བྱེད་ལས་རྣམས་ཀ"
+"ྱང་ཐུམ་སྒྲིལ་ཚད་ངེས་ཅན་ཞིག་ཡིན།"
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md:94
@@ -1364,11 +1410,14 @@ msgid ""
 "If the build above was successful, two files will have been placed in the "
 "`unsigned` directory:"
 msgstr ""
+"གལ་ཏེ་གོང་དུ་བཟོས་པ་དེ་ལེགས་སྒྲུབ་བྱུང་ན་། ཡིག་ཆ་གཉིས་པོ་འདི་ "
+"'མིང་རྟགས་མ་བཀོད་'པའི་ཕྱོགས་དེབ་ནང་བཞག་གི་རེད།"
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md:99
+#, fuzzy
 msgid "``` org.fdroid.fdroid_16.apk org.fdroid.fdroid_16_src.tar.gz ```"
-msgstr ""
+msgstr "``` org.fdroid.fdroid_16.apk org.fdroid.fdroid_16_src.tar.gz ```"
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md:104
@@ -1383,11 +1432,13 @@ msgstr ""
 #: build/_docs/md/Building_Applications.md:106
 msgid "If you were intending to publish these files, you could then run:"
 msgstr ""
+"གལ་ཏེ་ཁྱེད་ཀྱིས་ཡིག་ཆ་འདི་དག་པར་སྐྲུན་བྱེད་རྒྱུའི་འཆར་གཞི་ཡོད་ཚེ། "
+"དེ་ནས་གཞི་ནས་ཁྱེད་རང་གིས་འཁོར་སྐྱོད་བྱེད།:"
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md:110
 msgid "```bash fdroid publish ```"
-msgstr ""
+msgstr "```དྲག་རྡུང་ཨེཕ་རོཌ་པར་སྐྲུན།་ ```"
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md:115
@@ -1440,6 +1491,8 @@ msgstr ""
 #, no-wrap
 msgid "Running `fdroid build` in your app’s source"
 msgstr ""
+"`ཨེཕ་རོཌ་བཟོས་པ་` "
+"ནང་དུ་ཁྱེད་རང་གི་མཉེས་ཆས་ཀྱི་འབྱུང་ཁུངས་འཁོར་སྐྱོད་བྱེད་བཞིན་པ།"
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md:148
@@ -1458,22 +1511,26 @@ msgid ""
 "Once you have that setup, you can build the most recent version of the app "
 "using the whole FDroid stack by running:"
 msgstr ""
+"ཁྱེད་ཀྱིས་སྒྲིག་བཀོད་དེ་ཐེངས་གཅིག་སྒྲིག་ཚར་ན། ཁྱེད་རང་གིས་ཨེཕ་རོཌ་ཆ་ཚང་འཁོར་ས"
+"ྐྱོད་བྱེད་ནས་མཉེས་ཆས་ཐོར་རིམ་གསར་ཤོས་དེ་བཟོས་ཐུབ་ཀྱི་ཡོད་པ་རེད།:"
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md:155
 msgid "```bash fdroid build ```"
-msgstr ""
+msgstr "```དྲག་རྡུལ་ཅན་གྱི་ཨེཕ་རོཌ་བཟོས་པ་ ```"
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md:157
 msgid "If you want to build every single version, then specify `--all`."
 msgstr ""
+"གལ་ཏེ་ཁྱེད་ཀྱིས་ཐོན་རིམ་རེ་རེ་ནས་བཟོ་འདོད་ཡོད་ན། དམིགས་སྟོན་བྱེད་ནས། "
+"`--ཆ་ཚང་།`."
 
 #. type: Title ###
 #: build/_docs/md/Building_Applications.md:159
 #, no-wrap
 msgid "Direct Installation"
-msgstr ""
+msgstr "ཐད་ཀར་འགྲིག་བཅུག་བྱེད་པ།"
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md:169
@@ -1492,7 +1549,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md:1
 #, no-wrap
 msgid "Build Metadata Reference"
-msgstr ""
+msgstr "བཟོས་པའི་རྒྱབ་ལྗོངས་ཡིག་ཆའི་དཔྱད་གཞི།"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:5
@@ -1500,16 +1557,20 @@ msgid ""
 "Information used by `fdroid update` to compile the public index comes from "
 "several sources:"
 msgstr ""
+"འབྱུར་ཁུངས་མི་འདྲ་བ་ཁག་ནས་བྱུང་བའི་དམངས་ཀྱི་ཕྱོགས་སྟོན་ཕྱོགས་བཏུས་བྱས་པའི་ཨེཕ"
+"་རོཌ་གསར་བསྒྱུར་གྱིས་བེད་སྤྱོད་བྱས་པའི་གནས་ཚུལ།:"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Build_Metadata_Reference.md:10
 msgid "APK, media, etc files in the _repo_ sub-directory"
-msgstr ""
+msgstr "APK, གསར་འགོད་, ལ་སོགས་པའི་ཡིག་ཆའི་ནང་གི་ _རེ་པོ་_ ཕྱོགས་དེབ་ཡན་ལག"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Build_Metadata_Reference.md:10
 msgid "per-package \"metadata\" files in the _metadata_ sub-directory"
 msgstr ""
+"ཐུམ་སྒྲིལ་རེ་རེ། \"རྒྱབ་ལྗོངས་ཡིག་ཆ་\" ཡིག་ཆའི་ནང་གི་ _རྒྱབ་ལྗོངས་ཡིག་ཆ་_ "
+"ཕྱོགས་དེབ་ཡན་ལག"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Build_Metadata_Reference.md:10
@@ -1526,6 +1587,10 @@ msgid ""
 "(All_About_Descriptions,_Graphics,_and_Screenshots#in-the-apps-source-"
 "repository)"
 msgstr ""
+"སྐད་རིགས་གཞན་ལ་བསྒྱུར་ཐུབ་པའི་ཡིག་ཆ་དང་བརྐོས་རིས་ཁག[མཉེས་ཆས་ཀྱི་འབྱུང་ཁུངས་ཨང"
+"་རྟགས་ནང་དུ་ཚུད་པ]\n"
+"(All_About_Descriptions,_Graphics,_and_Screenshots#in-the-apps-source-"
+"repository)"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:18
@@ -1542,7 +1607,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:20
 msgid "There are three supported file types for metadata files:"
-msgstr ""
+msgstr "རྒྱབ་ལྗོངས་ཡིག་ཆ་རྣམས་ལ་རྒྱབ་སྐྱོར་ཡོད་པའི་ཡིག་ཆ་རིགས་གསུམ་ཡོད།:"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Build_Metadata_Reference.md:24
@@ -1550,16 +1615,20 @@ msgid ""
 "_.yml_ files in [YAML](http://www.yaml.org/start.html) format, used by f-"
 "droid.org"
 msgstr ""
+"_.yml_ files in [YAML](http://www.yaml.org/start.html) བཀོད་སྒྲིག་, used by "
+"f-droid.org"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Build_Metadata_Reference.md:24
 msgid "_.txt_ files in the old, custom, F-Droid text-based format"
 msgstr ""
+"_.txt_ རང་སྒྲུབ་བྱས་པའི་ཡིག་ཆ་རྙིང་པ། "
+"ཨེཕ་རོཌ་ཡི་གེ་གཞི་རྕར་བྱས་པའི་བཀོད་སྒྲིག"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Build_Metadata_Reference.md:24
 msgid "_.json_ files in [JSON](http://json.org/) format"
-msgstr ""
+msgstr "_.json_ ཡིག་ཆའི་ནང་གི་ [JSON](http://json.org/) བཀོད་སྒྲིག"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:34
@@ -1577,22 +1646,24 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:38
 msgid "``` fdroid rewritemeta ```"
-msgstr ""
+msgstr "``` ཨེཕ་རོཌ་སྐྱར་བྲིས་པའི་རྒྱབ་ལྗོངས་ཡིག་ཆ། ```"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:40
 msgid "Or just run it on a specific app:"
-msgstr ""
+msgstr "ཡང་ན་མཉེས་ཆས་བྱེ་བྲག་པ་གཅིག་གི་སྒང་ལ་འཁོར་སྐྱོད་བྱེད།:"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:44
 msgid "``` fdroid rewritemeta org.adaway ```"
-msgstr ""
+msgstr "```ཨེཕ་རོཌ་སྐྱར་བྲིས་རྒྱབ་ལྗོངས་ཡིག་ཆ་org.adaway ```"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:46
 msgid "The following sections describe the fields recognised within the file."
 msgstr ""
+"གཤམ་གྱི་སྡེ་ཚན་ཁག་གིས་་ཡིག་ཆའི་ནང་ངོས་འཛིན་ཐུབ་པའི་ཁྱབ་ཁོངས་འགྲེལ་བཤད་རྒྱབ་ཀྱ"
+"ི་ཡོད།"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:82
@@ -1613,12 +1684,31 @@ msgid ""
 "Update-Mode)  - [Current Version](#Current-Version)  - [Current Version Code]"
 "(#Current-Version-Code)  - [No Source Since](#No-Source-Since)"
 msgstr ""
+"- [སྡེ་ཚན་](#Categories)  - [རྕོམ་པ་པོའི་མིང་།](#Author-Name)  - "
+"[རྩོམ་པ་པོའི་གློག་འཕྲིན་](#Author-Email)  - [ཆོག་མཆན་ལག་ཁྱེར།](#License)  - "
+"[རང་འགུལ་གྱི་མིང་།](#Auto-Name)  - [མིང་](#།Name)  - "
+"[མཁོ་སྤྲོད་བྱས་པ་](#Provides)  - [དྲྭ་ཚིགས་](#Web-Site)  - "
+"[འབྱུང་ཁུངས་ཨང་རྟགས་](#Source-Code)  - [གནད་དོན་རྗེས་འདེད་](#Issue-Tracker)  "
+"- [ཟིན་ཐོ་བརྗེས་](#Changelog)  - [ཞལ་འདེབས་](#Donate)  - "
+"[ཕེ་ལེ་ཌར་ཨེ་ཌི་](#FlattrID)  - [དྲྭ་དངུལ་](#Bitcoin)  - "
+"[དྲྭ་དངུལ་](#Litecoin)  - [སྙིང་བསྡུས་](#Summary)  - "
+"[འགྲེལ་བཤད་](#Description)  - [ཉར་ཚགས་](#Maintainer-Notes)  - [རེ་པོ་རིགས"
+"་](#Repo-Type)  - [རེ་པོ་](#Repo)  - [ཨང་གྲངས་](#Binaries)  - [Build](#Build)"
+"  - [ཁྱད་ཆོས་ཀྱི་འགལ་ཟླ་](#AntiFeatures)  - [སྒོ་རྒྱབ་](#Disabled)  - "
+"[རྕ་བ་དགོས་](#Requires-Root)  - [དྲྭ་མཛོད་སྲིད་བྱུས་](#Archive-Policy)  - "
+"[གསར་བསྒྱུར་བརྟག་དཔྱད་བྱེད་ཚུལ་](#Update-Check-Mode)  - "
+"[གསར་བསྒྱུར་བརྟག་དཔྱད་ཡ་མེད་](#Update-Check-Ignore)  - [ཝར་ཀོཌ་ལས་འགན"
+"།](#Vercode-Operation)  - [གསར་བསྒྱུར་བརྟག་དཔྱད་མིང་།](#Update-Check-Name)  -"
+" [གསར་བསྒྱུར་བརྟག་དཔྱད་ཡིག་ཆ་](#Update-Check-Data)  - "
+"[རང་འགུལ་གྱི་གསར་བསྒྱུར་བྱེད་ཚུལ་](#Auto-Update-Mode)  - [ད་ལྟའི་ཐོན་རིམ"
+"་](#Current-Version)  - [ད་ལྟའི་ཐོན་རིམ་གྱི་ཨང་རྟགས་](#Current-Version-Code)"
+"  - [ད་བར་འབྱུང་ཁུངས་མེད་](#No-Source-Since)"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md:85
 #, no-wrap
 msgid "7.1 Categories<a name=\"Categories\"></a>"
-msgstr ""
+msgstr "7.1 སྡེ་ཚན་ཁག་<a name=\"Categories\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:94
@@ -1643,13 +1733,13 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md:100
 #, no-wrap
 msgid "This is converted to (`<categories>`) in the XML file (_index.xml_).\n"
-msgstr ""
+msgstr "འདི་XML ཡིག་ཆའི་ (`<categories>`) ནང་དུ་བསྒྱུར། (_index.xml_).\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md:103
 #, no-wrap
 msgid "7.2 Author Name<a name=\"Author-Name\"></a>"
-msgstr ""
+msgstr "7.2 རྕོམ་པ་པོའི་མིང་<a name=\"Author-Name\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:109
@@ -1663,31 +1753,32 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md:111
 #, no-wrap
 msgid "This is converted to (`<author>`) in the XML file (_index.xml_).\n"
-msgstr ""
+msgstr "འདི་XML ཡིག་ཆའི་ (`<author>`) ནང་དུ་བསྒྱུར་ (_index.xml_).\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md:114
 #, no-wrap
 msgid "7.3 Author Email<a name=\"Author-Email\"></a>"
-msgstr ""
+msgstr "7.3 རྩོམ་པ་པོའི་གློག་འཕྲིན་<a name=\"Author-Email\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:119
 msgid ""
 "The e-mail address of the author(s). This can be omitted (or left blank)."
 msgstr ""
+"རྩོམ་པ་པའི་(རྣམས་)ཀྱི་གློག་འཕྲིན་ཁ་བྱང་། འདི་སུབས་ན་འགྲིག་(ཡང་ན་སྟོང་པར་བཞག་)"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:121
 #, no-wrap
 msgid "This is converted to (`<email>`) in the XML file (_index.xml_).\n"
-msgstr ""
+msgstr "XML ནང་གི་ཡིག་ཆ་ (`<email>`) འདི་ལ་བསྒྱུར་། (_index.xml_).\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md:124
 #, no-wrap
 msgid "7.4 License<a name=\"License\"></a>"
-msgstr ""
+msgstr "7.4 ཆོག་མཆན་ལག་ཁྱེར། <a name=\"License\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:134
@@ -1713,13 +1804,13 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md:140
 #, no-wrap
 msgid "This is converted to (`<license>`) in the XML file (_index.xml_).\n"
-msgstr ""
+msgstr "XML ནང་གི་ཡིག་ཆ་ (`<license>`) འདི་ལ་བསྒྱུར། (_index.xml_).\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md:143
 #, no-wrap
 msgid "7.5 Auto Name<a name=\"Auto-Name\"></a>"
-msgstr ""
+msgstr "7.5 རང་འགུལ་གྱི་མིང་།<a name=\"Auto-Name\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:151
@@ -1736,13 +1827,13 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md:167
 #, no-wrap
 msgid "This is converted to (`<name>`) in the XML file (_index.xml_).\n"
-msgstr ""
+msgstr "XML ནང་གི་ཡིག་ཆ་ (`<name>`) འདི་ལ་བསྒྱུར་ (_index.xml_).\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md:156
 #, no-wrap
 msgid "7.6 Name<a name=\"Name\"></a>"
-msgstr ""
+msgstr "7.6 མིང་།<a name=\"Name\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:165
@@ -1759,7 +1850,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md:170
 #, no-wrap
 msgid "7.7 Provides<a name=\"Provides\"></a>"
-msgstr ""
+msgstr "7.7 མཁོ་སྤྲོད་<a name=\"Provides\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:178
@@ -1774,19 +1865,19 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:180
 msgid "Currently this functionality is a stub."
-msgstr ""
+msgstr "བྱེད་ལས་འདི་གནས་སྐབས་ཤིག་གི་རིང་ལ་འགགས་འདུག"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:182
 #, no-wrap
 msgid "This is converted to (`<provides>`) in the XML file (_index.xml_).\n"
-msgstr ""
+msgstr "XML ནང་གི་ཡིག་ཆ་ (`<provides>`) འདི་ལ་བསྒྱུར་ (_index.xml_).\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md:185
 #, no-wrap
 msgid "7.8 Web Site<a name=\"Web-Site\"></a>"
-msgstr ""
+msgstr "7.8དྲྭ་ཚིགས་<a name=\"Web-Site\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:190
@@ -1794,18 +1885,20 @@ msgid ""
 "The URL for the application’s web site. If there is no relevant web site, "
 "this can be omitted (or left blank)."
 msgstr ""
+"དྲྭ་ཚིགས་ཀྱི་མཉེན་ཆས་ཆེད་དུ་URL གལ་ཏེ་འབྲེལ་ཡོད་ཀྱི་དྲྭ་ཚིགས་མེད་ན། "
+"འདི་སུབས་ནའང་འགྲིག (ཡང་ན་སྟོང་པར་བཞག)"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:192
 #, no-wrap
 msgid "This is converted to (`<web>`) in the XML file (_index.xml_).\n"
-msgstr ""
+msgstr "XML ནང་གི་ཡིག་ཆ་ (`<web>`) འདི་ལ་བསྒྱུར་ (_index.xml_).\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md:195
 #, no-wrap
 msgid "7.9 Source Code<a name=\"Source-Code\"></a>"
-msgstr ""
+msgstr "7.9 འབྱུང་ཁུངས་ཨང་རྟགས་<a name=\"Source-Code\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:201
@@ -1819,7 +1912,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md:203
 #, no-wrap
 msgid "This is converted to (`<source>`) in the XML file (_index.xml_).\n"
-msgstr ""
+msgstr "XML ནང་གི་ཡིག་ཆ་(`<source>`) འདི་ལ་བསྒྱུར་། (_index.xml_).\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md:206
@@ -5054,6 +5147,8 @@ msgid ""
 "Here is the discussion from the meeting where we nailed this down: <https://"
 "botbot.me/freenode/fdroid-dev/2015-08-04/?msg=46407489&page=1>"
 msgstr ""
+"ང་ཚོས་ཚོགས་འདུའི་སྐབས་སུ་གོ་སྡུར་བྱས་ནས་ཐག་གཅོད་བྱུང་པ་འདིར་བཀོད་ཡོད།: "
+"<https://botbot.me/freenode/fdroid-dev/2015-08-04/?msg=46407489&page=1>"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md:376
