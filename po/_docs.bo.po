@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-08-09 19:31+0000\n"
+"PO-Revision-Date: 2017-08-11 17:41+0000\n"
 "Last-Translator: tenzin tselek <omaahum99@yahoo.in>\n"
 "Language-Team: Tibetan <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/bo/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2.16-dev\n"
+"X-Generator: Weblate 2.16\n"
 
 #. type: Title #
 #: build/_pages/md/about.md:1
@@ -1918,7 +1918,7 @@ msgstr "XML ནང་གི་ཡིག་ཆ་(`<source>`) འདི་ལ་�
 #: build/_docs/md/Build_Metadata_Reference.md:206
 #, no-wrap
 msgid "7.10 Issue Tracker<a name=\"Issue-Tracker\"></a>"
-msgstr ""
+msgstr "7.10 གནས་དོན་རྗེས་འདེད། <a name=\"Issue-Tracker\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:211
@@ -1926,18 +1926,19 @@ msgid ""
 "The URL for the application’s issue tracker. Optional, since not all "
 "applications have one."
 msgstr ""
+"URL གྱི་ཆེད་དུ་མཉེན་ཆས་ཀྱི་གནད་དོན་རྗེས་འདེད། མཉེན་ཆས་ཚང་མར་མེད་པས་གདམ་ཀ་ཡོད།"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:213
 #, no-wrap
 msgid "This is converted to (`<tracker>`) in the XML file (_index.xml_).\n"
-msgstr ""
+msgstr "XML ནང་གི་ཡིག་ཆ་ (`<tracker>`) འདི་ལ་བསྒྱུར་།(_index.xml_).\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md:216
 #, no-wrap
 msgid "7.11 Changelog<a name=\"Changelog\"></a>"
-msgstr ""
+msgstr "7.11 ཟིན་ཐོ་བཅོས་བསྒྱུར་<a name=\"Changelog\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:221
@@ -1945,18 +1946,20 @@ msgid ""
 "The URL for the application’s changelog. Optional, since not all "
 "applications have one."
 msgstr ""
+"URL གྱི་ཆེད་དུ་མཉེས་ཆས་ཀྱི་ཟིན་ཐོ་བཅོས་བསྒྱུར། "
+"མཉེས་ཆས་ཚང་མར་མེད་པས་གདམ་ཀ་རེད།"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:223
 #, no-wrap
 msgid "This is converted to (`<changelog>`) in the XML file (_index.xml_).\n"
-msgstr ""
+msgstr "XML ནང་གི་ཡིག་ཆ་ (`<changelog>`) འདི་ལ་བསྒྱུར། (_index.xml_).\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md:226
 #, no-wrap
 msgid "7.12 Donate<a name=\"Donate\"></a>"
-msgstr ""
+msgstr "7.12 ཞལ་འདེབས་<a name=\"Donate\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:231
@@ -1964,6 +1967,8 @@ msgid ""
 "The URL to donate to the project. This should be the project’s donate page "
 "if it has one."
 msgstr ""
+"URL གྱི་ཆེད་དུ་ལས་འཆར་ལ་ཞལ་འདེབས། "
+"གལ་ཏེ་ལས་འཆར་འདི་ལ་ཞལ་འདེབས་ཀྱི་དྲྭ་ཤོག་ཡོད་ན་འདི་འདྲ་ཞིག་ཡིན་དགོས།"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:238
@@ -1975,18 +1980,26 @@ msgid ""
 "a link that the developer explicitly makes public, rather than something "
 "that is auto-generated ’button code’."
 msgstr ""
+"འདིར་པེ་པལ་གྱི་དྲྭ་ཚིགས་ཐད་ཀར་བེད་སྤྱོད་བྱེད་ཐུབ་ཀྱི་ཡོད། "
+"གལ་ཏེ་དེ་ལ་ཡོད་པ་དེ་ཆ་ཚང་བ་ཞིག་ཡིན་ན། འོན་ཀྱང་ཐུགས་ལ་བཞག་དགོས་པ་ཞིག་ལ་བཟོས་མཁ"
+"ན་གྱི་ངོས་ནས་ཐད་ཀར་དྲྭ་ཚིགས་དེ་ཡོད་པ་མ་ཤེས་པ་སྲིད་པ་དང་། "
+"གལ་ཏེ་ཁོང་ཚོས་རྗེས་ལ་པེ་པལ་གྱི་ཁ་བྱང་གཞན་དག་ཞིག་ལ་བརྗེ་པོ་རྒྱབ་པའམ་ཡང་ན་། "
+"པེ་པལ་གྱི་བཟོ་ལྟ་བརྗེས་པ་འདྲ་བྱུང་ན། གནས་ཚུལ་ཏག་ཏག་མི་ཡོང་བ་ཆགས་སྲིད་ཀྱི་རེད།"
+" དེས་ན་བཟོས་མཁན་གྱིས་དམངས་རང་གི་ཆེད་དུ་དངོས་སུ་བཟོས་པའི་དྲྭ་ཚིགས་དེ་ག་བེད་སྤྱ"
+"ོད་གཏོང་ན་ཡག་ཤོས་རེད། "
+"དེ་མ་ཡིན་པར་མཐེབ་གཞོང་གི་ཨང་རྟགས་རང་འགུལ་གྱི་ཐོག་ནས་ཁ་ཕྱེད་འགྲོ་གི་རེད།"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:240
 #, no-wrap
 msgid "This is converted to (`<donate>`) in the XML file (_index.xml_).\n"
-msgstr ""
+msgstr "XML ནང་གི་ཡིག་ཆ་ (`<donate>`) འདིར་བསྒྱུར། (_index.xml_).\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md:243
 #, no-wrap
 msgid "7.13 FlattrID<a name=\"FlattrID\"></a>"
-msgstr ""
+msgstr "7.13 ཕེ་ལེཊར་ངོས་འཛིན་<a name=\"FlattrID\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:249
@@ -1995,52 +2008,56 @@ msgid ""
 "numeric ID, such that (for example) https://flattr.com/thing/xxxx leads "
 "directly to the page to donate to the project."
 msgstr ""
+"ཕེ་ལེཊར་ལས་འཆར་གྱི་ (http://flattr.com)ངོས་འཛྀན་, གལ་ཏེ་དེ་ལ་གཅིག་ཡོད་ན། "
+"འདི་ངེས་པར་དུ་ཨང་གྲངས་ཀྱི་ངོས་འཛིན་ཡིན་དགོས། "
+"དཔེར་ན།་https://flattr.com/thing/xxxx "
+"འདིས་ལས་འཆར་ལ་ཞལ་འདེབས་རྒྱབ་སའི་དྲྭ་ཤོག་ལ་ཐད་ཀར་སྐྱེལ་གྱི་རེད།"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:251
 #, no-wrap
 msgid "This is converted to (`<flattr>`) in the XML file (_index.xml_).\n"
-msgstr ""
+msgstr "XML ནང་གི་ཡིག་ཆ་(`<flattr>`) འདིར་བསྒྱུར་ (_index.xml_).\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md:254
 #, no-wrap
 msgid "7.14 Bitcoin<a name=\"Bitcoin\"></a>"
-msgstr ""
+msgstr "7.14 དྲྭ་དངུལ་<a name=\"Bitcoin\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:258
 msgid "A bitcoin address for donating to the project."
-msgstr ""
+msgstr "ལས་འཆར་གྱི་ཆེད་དུ་ཞལ་འདེབས་རྒྱབ་སའི་དྲྭ་དངུལ་ཁ་བྱང་།"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:260
 #, no-wrap
 msgid "This is converted to (`<bitcoin>`) in the XML file (_index.xml_).\n"
-msgstr ""
+msgstr "XML ནང་གི་ཡིག་ཆ་(`<bitcoin>`) འདིར་བསྒྱུར། (_index.xml_).\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md:263
 #, no-wrap
 msgid "7.15 Litecoin<a name=\"Litecoin\"></a>"
-msgstr ""
+msgstr "7.15 ལེཌ་དངུལ་<a name=\"Litecoin\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:267
 msgid "A litecoin address for donating to the project."
-msgstr ""
+msgstr "ལས་འཆར་གྱི་ཆེད་དུ་ཞལ་འདེབས་རྒྱབ་སའི་ལིཊ་དངུལ་གྱི་ཁ་བྱང་།"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:269
 #, no-wrap
 msgid "This is converted to (`<litecoin>`) in the XML file (_index.xml_).\n"
-msgstr ""
+msgstr "XML ནང་གི་ཡིག་ཆ་ (`<litecoin>`) འདིར་བསྒྱུར་…(_index.xml_).\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md:272
 #, no-wrap
 msgid "7.16 Summary<a name=\"Summary\"></a>"
-msgstr ""
+msgstr "7.16 སྙིང་བསྡུས་<a name=\"Summary\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:278
@@ -2057,13 +2074,13 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md:280
 #, no-wrap
 msgid "This is converted to (`<summary>`) in the XML file (_index.xml_).\n"
-msgstr ""
+msgstr "XML ནང་གི་ཡིག་ཆ་ (`<summary>`) འདིར་བསྒྱུར་(_index.xml_).\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md:283
 #, no-wrap
 msgid "7.17 Description<a name=\"Description\"></a>"
-msgstr ""
+msgstr "7.17 འགྲེལ་བཤད་<a name=\"Description\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:289
@@ -2083,6 +2100,9 @@ msgid ""
 "new paragraph. Surrounding text with `''` make it italic, and with `'''` "
 "makes it bold."
 msgstr ""
+"མི་ཌི་ཡ་ཝི་-ཀི་པི་ཌི་ཡ་-བཟོ་ལྟ་བེད་སྤྱོད་བཏང་ཆོག "
+"ཐིག་སྟོང་པ་བཞག་ནས་ཐེག་ཕྲེང་གསར་པ་ཞིག་འགོ་བཙུགས། མཐའ་སྐོར་གྱི་ཡི་གེ་དང་མཉམ་དུ་"
+" `''` ཨི་ཌ་ལིཀ་བཟོས་ནས་མཉམ་དུ་ `'''`ཡི་གི་འབུར་ནག་བཟོས་"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:297
@@ -2091,11 +2111,17 @@ msgid ""
 "be made appropriately whether in the Android client, the web repo browser or "
 "the wiki. The link text will be the apps name."
 msgstr ""
+"ཁྱེད་རང་གིས་རེ་པོ་ནང་ལ་མཉེན་ཆས་གཞན་ལ་སྦྲེལ་མཐུད་བྱས་ཏེ་ "
+"`[[app.id]]`བེད་སྤྱོད་བྱེད། སྦྲེལ་མཐུད་བྱས་པ་དེས་ཨེན་ཀྲོཌ་མཉེན་ཆས་། "
+"རེ་པོ་དྲྭ་རྒྱ་བལྟ་ཆས་སམ་ཡང་ན་ཝི་ཀི་སོགས་འོས་མཚམས་ཡོད་པ་བཟོས་ཀྱི་རེད། "
+"སྦྲེལ་མཐུད་ཀྱི་ཡི་གེ་དེ་ནི་མཉེན་ཆས་ཀྱི་མིང་ཆགས་ཀྱི་རེད།"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:299
 msgid "Links to web addresses can be done using `[http://example.com Text]`."
 msgstr ""
+"དྲྭ་རྒྱའི་ཁ་བྱང་ལ་སྦྲེལ་མཐུད་བྱས་པར་འདི་བེད་སྤྱོད་བཏང་ནའང་འགྲིག`[http://"
+"example.com Text]`."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:303
@@ -2120,13 +2146,13 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md:313
 #, no-wrap
 msgid "This is converted to (`<desc>`) in the XML file (_index.xml_).\n"
-msgstr ""
+msgstr "XML ནང་གི་ཡིག་ཆ་ (`<desc>`) འདིར་བསྒྱུར། (_index.xml_).\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md:316
 #, no-wrap
 msgid "7.18 Maintainer Notes<a name=\"Maintainer-Notes\"></a>"
-msgstr ""
+msgstr "7.18 རྒྱུན་སྐྱོང་བའི་དྲན་ཐོ།<a name=\"Maintainer-Notes\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:322
@@ -2139,13 +2165,13 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:324
 msgid "This information is also published to the wiki."
-msgstr ""
+msgstr "གནས་ཚུལ་འདི་ཝི་ཀི་ནང་ལའང་པར་སྐྲུན་བྱས་ཟིན།"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md:327
 #, no-wrap
 msgid "7.19 Repo Type<a name=\"Repo-Type\"></a>"
-msgstr ""
+msgstr "7.19 རེ་པོའི་རྣམ་གྲངས་<a name=\"Repo-Type\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:333
@@ -2154,21 +2180,26 @@ msgid ""
 "specified, automatic building is disabled for this application.  Possible "
 "values are:"
 msgstr ""
+"མཛོད་ཁང་གི་རྣམ་གྲངས་-་ འབྱུང་ཁུངས་ནས་རང་འགུལ་གྱི་ཆེད་དུ་བཟོས་པ། "
+"གལ་ཏེ་འདི་དམིགས་སྟོན་མ་བྱས་ན། "
+"མཉེན་ཆས་འདིའི་རང་འགུལ་གྱི་བཟོས་པ་རྣམས་སྒོ་རྒྱབ་ཀྱི་རེད། "
+"ཐབས་ལམ་སྲིད་པ་རྣམས་ནི:"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Build_Metadata_Reference.md:340
 msgid "‘git’"
-msgstr ""
+msgstr "‘གིཊ་’"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Build_Metadata_Reference.md:340
+#, fuzzy
 msgid "‘svn’"
-msgstr ""
+msgstr "‘svn’"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Build_Metadata_Reference.md:340
 msgid "‘git-svn’"
-msgstr ""
+msgstr "‘གིཊ་-svn’"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Build_Metadata_Reference.md:340
