@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-08-11 17:41+0000\n"
+"PO-Revision-Date: 2017-08-16 19:48+0000\n"
 "Last-Translator: tenzin tselek <omaahum99@yahoo.in>\n"
 "Language-Team: Tibetan <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/bo/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2.16\n"
+"X-Generator: Weblate 2.17-dev\n"
 
 #. type: Title #
 #: build/_pages/md/about.md:1
@@ -1907,6 +1907,9 @@ msgid ""
 "something human-friendly. Machine-readable source-code is covered in the "
 "’Repo’ field."
 msgstr ""
+"URL ལྟ་བྱེད་དམ་ཡང་ན་མཉེན་ཆས་ཀྱི་འབྱུང་ཁུངས་ཨང་རྟགས་ཐོབ་པར་བྱེད་པ་། "
+"འདི་ནི་མི་དང་མཐུན་གྲོགས་ཆེན་པོ་ཡོད། "
+"འཕྲུལ་ཆས་ཀློག་ཆེད་འབྱུང་ཁུངས་ཨང་རྟགས་འདི་རེ་པོ་ཁྱབ་ཁོངས་ནངཚུད་ཡོད།"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:203
@@ -2203,29 +2206,32 @@ msgstr "‘གིཊ་-svn’"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Build_Metadata_Reference.md:340
+#, fuzzy
 msgid "‘hg’"
-msgstr ""
+msgstr "‘hg’"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Build_Metadata_Reference.md:340
+#, fuzzy
 msgid "‘bzr’"
-msgstr ""
+msgstr "‘bzr’"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Build_Metadata_Reference.md:340
+#, fuzzy
 msgid "‘srclib’"
-msgstr ""
+msgstr "‘srclib’"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md:343
 #, no-wrap
 msgid "7.20 Repo<a name=\"Repo\"></a>"
-msgstr ""
+msgstr "7.20 རེ་པོ་<a name=\"Repo\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:347
 msgid "The repository location. Usually a git: or svn: URL, for example."
-msgstr ""
+msgstr "མཛོད་གནས། སྤྱིར་བཏང་གིཊ་:ཡང་ན་svn:དཔེར་ན་URL"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:360
@@ -2256,12 +2262,12 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md:367
 #, no-wrap
 msgid "7.21 Binaries<a name=\"Binaries\"></a>"
-msgstr ""
+msgstr "7.21 ཨང་གྲངས་<a name=\"Binaries\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:371
 msgid "The location of binaries used in verification process."
-msgstr ""
+msgstr "ར་སྤྲོད་བྱས་པའི་རྒྱུད་རིམ་ནང་བེད་སྤྱོད་བྱས་པའི་ཨང་གྲངས་ཀྱི་ས་གནས།"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:377
@@ -2276,12 +2282,14 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md:379
 msgid "F-Droid will use upstream binaries if the verification succeeded."
 msgstr ""
+"གལ་སྲིད་ར་སྤྲོད་ལེགས་གྲུབ་བྱུང་ན་ཨེཕ་རོཌ་གྱིས་ཨང་གྲངས་ནང་བཅུག་བེད་སྤྱོད་བྱེད་"
+"ཀྱི་རེད།"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md:382
 #, no-wrap
 msgid "7.22 Build<a name=\"Build\"></a>"
-msgstr ""
+msgstr "7.22 བཟོས་<a name=\"Build\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:388
@@ -2294,7 +2302,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:390
 msgid "‘Build:1.2,12’"
-msgstr ""
+msgstr "‘བཟོས་པ་:1.2,12’"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:395
@@ -2317,7 +2325,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md:401
 #, no-wrap
 msgid "`disable=<message>`\n"
-msgstr ""
+msgstr "`སྒོ་རྒྱབ་་པ་=<message>`\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:405
@@ -2327,6 +2335,9 @@ msgid ""
 "    compatibility, this can also be achieved by starting the commit ID\n"
 "    with ’!’)\n"
 msgstr ""
+"བཟོས་པ་འདི་སྒོ་རྒྱབ། རྒྱུ་མཚན་གང་ཡིན་ཟེར་ན། (ཕྱིར་འཐེན་བྱེད་པའི་ཆེད་དུ་)\n"
+"མཐུན་པའི་ཆེད་དུ། "
+"འདི་ཐོབ་པ་ལ་ཁས་ལེན་གྱི་ངོས་འཛིན་འགོ་བཙུགས་དང་མཉམ་དུ་བྱས་ནས་།!\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:412
@@ -2339,12 +2350,20 @@ msgid ""
 "    disabling causes it to be deleted once `fdroid update` is run; this\n"
 "    is the procedure if ever a version has to be replaced.\n"
 msgstr ""
+"    ཁྱད་ཆོས་འདིའི་དགོས་པ་ནི་བཟོས་མི་ཐུབ་པའི་འགྲེམ་སྤེལ་ཆོག་མཆན་དར་མཚོན་སྤྲོད་"
+"རྒྱུ་དེ་རེད། (དཔེར་ན།\n"
+"འབྱུང་ཁུངས་པར་སྐྲུན་བྱས་མེད་)དེ་འདྲ་སོང་ཙང་ཡིག་གཟུགས་ཀྱིས་འཕྲིན་ཐུང་དེའི་སྐོར"
+"་ལ་བསྐྱར་ཟློས་མ་བྱས་པ་དང་། "
+"(རྗེས་སུ་སྐྱར་ཞིབ་བྱེད་རྒྱུའི་ཆེད་དུ་གནས་ཚུལ་རྣམས་སྒྲ་འཇུག་བྱེད་དགོས།)\n"
+"གལ་ཏེ་apkསྔོན་ཚོད་ནས་བཟོས་ཚར་པ་ཡིན་ན། `ཨེཕ་རོཌ་གསར་བསྒྱུར་`འཁོར་སྐྱོད་བྱེད་སྐ"
+"བས་སྒོ་རྒྱབ་པའི་རྐྱེན་གྱིས་ཐེངས་གཅིག་སུབས་དགོས་པ་ཆགས་ཡོད། "
+";རྒྱུད་རིམ་འདི་ནི་ཐོན་རིམ་ག་དུས་བརྗེས་པོ་རྒྱབ་དུས་ཡོང་གི་ཡོད།\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:414
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "`subdir=<path>`\n"
-msgstr ""
+msgstr "`subdir=<path>`\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:417
@@ -2357,7 +2376,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:419
 msgid "`submodules=yes`"
-msgstr ""
+msgstr "`submodules=འགྲིག་`"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:424
@@ -2371,8 +2390,9 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:426
+#, fuzzy
 msgid "`init=xxxx`"
-msgstr ""
+msgstr "`init=xxxx`"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:429
