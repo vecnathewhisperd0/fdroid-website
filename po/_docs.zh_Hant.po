@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-07-26 07:49+0000\n"
+"PO-Revision-Date: 2017-08-17 10:44+0000\n"
 "Last-Translator: ezjerry liao <ezjerry@gmail.com>\n"
 "Language-Team: Chinese (Traditional) "
 "<https://hosted.weblate.org/projects/f-droid/website-docs/zh_Hant/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2.16-dev\n"
+"X-Generator: Weblate 2.17-dev\n"
 
 #. type: Title #
 #: build/_pages/md/about.md:1
@@ -102,6 +102,9 @@ msgid ""
 "source code is checked for potential security or privacy issues. This "
 "checking is far from exhaustive though, and there are no guarantees."
 msgstr ""
+"F-Droid 是一個非營利組織[志願者]({{ \"/contribute/\" | prepend: site.baseurl }})專案。縱然盡一切"
+"的努力確保軟體倉庫中所有內容都能安全的安裝，但您自己還是要承擔使用它的風險。軟體倉庫中的應用程式，是盡可能的從原始碼構建，並且那些原始碼已檢驗潛在的安全性"
+"或隱私問題。不過，這種檢驗不是全面的並且不能保證。"
 
 #. type: Plain text
 #: build/_pages/md/about.md:20
@@ -567,7 +570,7 @@ msgstr ""
 #: build/_pages/md/docs.md:17
 #, no-wrap
 msgid "Getting Started"
-msgstr ""
+msgstr "使用入門"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:22
@@ -587,6 +590,8 @@ msgid ""
 "[Anti-Features](https://f-droid.org/wiki/page/Antifeatures) What they are, "
 "what they mean, and what apps have them."
 msgstr ""
+"[Anti-"
+"Features](https://f-droid.org/wiki/page/Antifeatures)它是什麼？它的意思？什麼應用程式有它。"
 
 #. type: Title ###
 #: build/_pages/md/docs.md:24
@@ -599,7 +604,7 @@ msgstr "更多資訊"
 msgid ""
 "[How to Help](How_to_Help) Different ways anyone can contribute to the F-"
 "Droid project."
-msgstr ""
+msgstr "[如何幫忙](How_to_Help) 任何人都可以用不同的方式為 F-Droid 專案做出貢獻。"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:31
