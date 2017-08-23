@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-05-17 11:31+1000\n"
-"PO-Revision-Date: 2017-08-23 22:08+0000\n"
-"Last-Translator: Didier Delhaye <didier.delhaye@drkdidel.be>\n"
+"PO-Revision-Date: 2017-08-23 22:10+0000\n"
+"Last-Translator: anonymous <>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/fr/>\n"
 "Language: fr\n"
@@ -229,17 +229,17 @@ msgstr ""
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Kevin Everets"
-msgstr ""
+msgstr "Kevin Everets"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Alberto A. Fuentes"
-msgstr ""
+msgstr "Alberto A. Fuentes"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Torsten Grote"
-msgstr ""
+msgstr "Torsten Grote"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
@@ -454,7 +454,7 @@ msgid ""
 "in the following ways:"
 msgstr ""
 "Le projet est entièrement développé et maintenu par des bénévoles. Vous "
-"pouvez vous aider de la manière suivante:"
+"pouvez apporter votre aide de la manière suivante :"
 
 #. type: Title ###
 #: build/_pages/md/contribute.md:4
@@ -613,6 +613,13 @@ msgid ""
 "tools for managing the process of turning app source code into published "
 "builds."
 msgstr ""
+"F-Droid est à la fois un dépôt d'applications logiciels libres Android et "
+"aussi un \"kit pour magasin d'applications\", procurant tous les outils "
+"nécessaires à la mise en place et le fonctionnement d'un magasin "
+"d'applications. C'est un projet de logiciel libre tenu par la communauté "
+"développé par un grand nombre de contributeurs. Il inclus aussi les outils "
+"complets de construction et déploiement pour gérer les processus de "
+"transformation d'un code source d'application en logiciel publié."
 
 #. type: Plain text
 #: build/_pages/md/docs.md:15
