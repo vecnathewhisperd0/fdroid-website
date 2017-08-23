@@ -23,7 +23,7 @@
         "gpg_signature": "Signature PGP", 
         "issue_tracker": "Suivi des tickets", 
         "license": "Licence", 
-        "minimum_android_version": "Cette version nécessite Android [android_version] ou plus.", 
+        "minimum_android_version": "Cette version nécessite Android [android_version] ou ultérieur.", 
         "packages": "Paquages", 
         "permissions": "Permissions", 
         "signed_by_developer": "Compilé et signé par le développeur original.", 
