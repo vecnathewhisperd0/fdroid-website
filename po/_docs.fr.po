@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-05-17 11:31+1000\n"
-"PO-Revision-Date: 2017-08-24 21:12+0000\n"
-"Last-Translator: Vincent Finance <linuxmario@linuxmario.net>\n"
+"PO-Revision-Date: 2017-08-25 22:45+0000\n"
+"Last-Translator: Pafzedog <pafzedog@hwl.web4me.fr>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/fr/>\n"
 "Language: fr\n"
@@ -384,33 +384,39 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
+#, fuzzy
 msgid "David Sterry"
-msgstr ""
+msgstr "David Sterry"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
+#, fuzzy
 msgid "Peter Serwylo"
-msgstr ""
+msgstr "Peter Serwylo"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
+#, fuzzy
 msgid "John Sullivan"
-msgstr ""
+msgstr "John Sullivan"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
+#, fuzzy
 msgid "Antonio Tapiador"
-msgstr ""
+msgstr "Antonio Tapiador"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
+#, fuzzy
 msgid "William Theaker"
-msgstr ""
+msgstr "William Theaker"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
+#, fuzzy
 msgid "Henrik Tunedal"
-msgstr ""
+msgstr "Henrik Tunedal"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
@@ -420,25 +426,31 @@ msgstr "Ivo Ugrina"
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Matthias Weiler"
-msgstr ""
+msgstr "Matthias Weiler"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
+#, fuzzy
 msgid "Nutchanon Wetchasit"
-msgstr ""
+msgstr "Nutchanon Wetchasit"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
+#, fuzzy
 msgid "Philipp Wollschlegel"
-msgstr ""
+msgstr "Philipp Wollschlegel"
 
 #. type: Plain text
 #: build/_pages/md/about.md:82
+#, fuzzy
 msgid ""
 "If your name is missing, it’s a mistake and you should [add yourself to the "
 "list](https://gitlab.com/fdroid/fdroid-website/blob/master/_pages/about.md)! "
 "Keep it sorted by surname, please."
 msgstr ""
+"Si votre nom est manquant, c'est une erreur et vous pouvez vous [ajouter à "
+"la liste](https://gitlab.com/fdroid/fdroid-"
+"website/blob/master/_pages/about.md)! Gardez la classée par prénom, svp."
 
 #. type: Plain text
 #: build/_pages/md/about.md:83
@@ -446,6 +458,8 @@ msgid ""
 "The original F-Droid client app was based on the Aptoide app developed by "
 "Roberto Jacinto."
 msgstr ""
+"L'application F-Droid d'origine était basée sur l'application Aptoide "
+"développée par Roberto Jacinto."
 
 #. type: Title #
 #: build/_pages/md/contribute.md:1
