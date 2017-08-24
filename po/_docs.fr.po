@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-05-17 11:31+1000\n"
-"PO-Revision-Date: 2017-08-24 10:34+0000\n"
-"Last-Translator: anonymous <>\n"
+"PO-Revision-Date: 2017-08-24 21:12+0000\n"
+"Last-Translator: Vincent Finance <linuxmario@linuxmario.net>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/fr/>\n"
 "Language: fr\n"
@@ -174,7 +174,7 @@ msgstr ""
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Nico Alt"
-msgstr ""
+msgstr "Nico Alt"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
@@ -188,33 +188,39 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
+#, fuzzy
 msgid "Michele Azzolari"
-msgstr ""
+msgstr "Michele Azzolari"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
+#, fuzzy
 msgid "Jan Berkel"
-msgstr ""
+msgstr "Jan Berkel"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
+#, fuzzy
 msgid "David Black"
-msgstr ""
+msgstr "David Black"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
+#, fuzzy
 msgid "Jan C Borchardt"
-msgstr ""
+msgstr "Jan C Borchardt"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
+#, fuzzy
 msgid "Valerio Bozzolan"
-msgstr ""
+msgstr "Valerio Bozzolan"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
+#, fuzzy
 msgid "Dan Bravender"
-msgstr ""
+msgstr "Dan Bravender"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
@@ -9502,9 +9508,9 @@ msgstr ""
 
 #. type: Title ####
 #: build/_docs/md/Whitelabel_Builds.md:85
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Preferences"
-msgstr ""
+msgstr "Préférences"
 
 #. type: Plain text
 #: build/_docs/md/Whitelabel_Builds.md:93
