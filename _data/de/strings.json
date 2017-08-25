@@ -2,7 +2,7 @@
     "index": {
         "download_fdroid": "F-Droid herunterladen", 
         "gpg_signature": "PGP-Signatur", 
-        "introduction": "F-Droid ist ein [installierbarer](https://f-droid.org/FDroid.apk) Katalog mit FOSS-Apps (Free and Open Source Software = kostenlose und quelltextoffene Anwendungen) für Android. Der Client macht die Suche nach Apps, deren Installation und die Übersicht von Aktualisierungen leicht.", 
+        "introduction": "F-Droid ist ein [installierbarer](https://f-droid.org/FDroid.apk) Katalog mit FOSS-Apps (Free and Open Source Software = kostenlose und quelltextoffene Anwendungen) für Android. Der Client vereinfacht die Suche und Installation von Apps und behält den Überblick über Aktualisierungen.", 
         "screenshot": "F-Droid App-Screenshot", 
         "title": "Was ist F-Droid?"
     }, 
