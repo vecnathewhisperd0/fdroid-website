@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-07-31 18:46+0000\n"
+"PO-Revision-Date: 2017-08-26 19:46+0000\n"
 "Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/de/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.16-dev\n"
+"X-Generator: Weblate 2.17-dev\n"
 
 #. type: Title #
 #: build/_pages/md/about.md:1
@@ -973,6 +973,7 @@ msgstr "Alles über Beschreibungen, Grafiken und Bildschirmfotos"
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md:9
+#, fuzzy
 msgid ""
 "Each app can have complete app store content, including localized "
 "descriptions, feature graphics, and screenshots (as of v0.103 of the F-Droid "
@@ -981,6 +982,13 @@ msgid ""
 "files in a [simple repository](../TODO).  There are three paths to including "
 "app store content for apps:"
 msgstr ""
+"Jede App kann vollständige App-Store-Inhalte besitzen, einschließlich "
+"lokalisierter Beschreibungen, Funktionsgrafiken und Bildschirmfotos (wie bei "
+"v0.103 der F-Droid-App und v0.8 von  _fdroidserver_).  Dies ist möglich, "
+"sowohl wenn Apps über die [Herstellung aus Metadaten](../TODO) hinzugefügt "
+"werden, als auch wenn vorgefertigte Dateien in ein [Einfaches "
+"Repository](../TODO) aufgenommen werden.  Es gibt drei Wege, um App-Store-"
+"Inhalte für Apps einzuschließen:"
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md:12
@@ -1005,7 +1013,7 @@ msgstr "Es gibt zwei Datenformate:"
 #. type: Bullet: '* '
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md:17
 msgid "descriptive materials in plain text or HTML"
-msgstr "beschreibende Materialien als „plain text“ oder HTML"
+msgstr "beschreibende Materialien in einfachen Text- oder HTML-Dateien"
 
 #. type: Bullet: '* '
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md:17
