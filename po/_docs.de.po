@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-08-26 19:46+0000\n"
+"PO-Revision-Date: 2017-08-28 13:46+0000\n"
 "Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/de/>\n"
@@ -1002,7 +1002,7 @@ msgid ""
 "* Do not remove this line (it will not be displayed)\n"
 "{:toc}\n"
 msgstr ""
-"* Entfernen sich diese Zeile nicht (sie wird nicht angezeigt)\n"
+"* Diese Zeile nicht entfernen (sie wird nicht angezeigt)\n"
 "{:toc}\n"
 
 #. type: Plain text
@@ -1576,6 +1576,13 @@ msgid ""
 "`.fdroid.txt`, depending on your preferred data format: JSON, XML, YAML, or "
 "F-Droid’s `.txt` format."
 msgstr ""
+"Eine weitere Möglichkeit, `fdroid build` einzusetzen, besteht, wenn lieber "
+"eine Metadaten-Datei genutzt werden soll, die in der App-Quelle selbst "
+"enthalten ist, als eine in einem `metadata/`-Ordner mit vielen anderen Apps. "
+"Diese Metadaten-Datei sollte sich im Wurzelverzeichnis des Quell-Repos "
+"befinden und mit `.fdroid.json`, `.fdroid.xml`, `.fdroid.yaml` oder "
+"`.fdroid.txt` benannt sein, abhängig vom bevorzugten Datenformat: JSON, XML, "
+"YAML oder F-Droid’s `.txt`-Format."
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md:151
@@ -1592,13 +1599,13 @@ msgstr "```bash fdroid build ```"
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md:157
 msgid "If you want to build every single version, then specify `--all`."
-msgstr ""
+msgstr "Möchten Sie jede Einzelversion herstellen, ergänzen Sie `--all`."
 
 #. type: Title ###
 #: build/_docs/md/Building_Applications.md:159
 #, no-wrap
 msgid "Direct Installation"
-msgstr ""
+msgstr "Direktinstallation"
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md:169
@@ -1617,24 +1624,27 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md:1
 #, no-wrap
 msgid "Build Metadata Reference"
-msgstr ""
+msgstr "Build-Metadaten-Referenz"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:5
+#, fuzzy
 msgid ""
 "Information used by `fdroid update` to compile the public index comes from "
 "several sources:"
 msgstr ""
+"Von `fdroid update` verwendete Informationen, um das frei zugängliche "
+"Register zu kompilieren, stammen aus verschiedenen Quellen:"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Build_Metadata_Reference.md:10
 msgid "APK, media, etc files in the _repo_ sub-directory"
-msgstr ""
+msgstr "APK-, Medien-Dateien usw. im _repo_-Unterverzeichnis"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Build_Metadata_Reference.md:10
 msgid "per-package \"metadata\" files in the _metadata_ sub-directory"
-msgstr ""
+msgstr "\"Metadaten\"-Dateien je Paket im _metadata_-Unterverzeichnis"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Build_Metadata_Reference.md:10
@@ -1654,6 +1664,7 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:18
+#, fuzzy
 msgid ""
 "These metadata files are simple, easy to edit text files, always named as "
 "the \"package name\" with file type appended.  There are a wide range of "
@@ -1663,11 +1674,19 @@ msgid ""
 "All other fields use camelCase starting with a lower case letter, including "
 "per-build fields, localized fields, etc."
 msgstr ""
+"Diese Metadaten-Dateien sind einfache, leicht zu bearbeitende Textdateien, "
+"die immer nach dem \"Paketnamen\" gefolgt vom Dateityp-Suffix benannt sind.  "
+"Es stehen eine Vielzahl von Feldern zur Verfügung, um Informationen zur "
+"Beschreibung der Pakete und/oder Apps hinzuzufügen.  Bei allen Feldern, wie "
+"`AuthorName`, die auf alle Versionen eines Pakets/einer App angewendet "
+"werden, wird CamelCase mit einem Großbuchstaben am Anfang verwendet.  Alle "
+"anderen Felder verwenden camelCase mit einem Kleinbuchstaben am Anfang, "
+"einschließlich der per-build Felder, lokalisierter Felder, etc."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:20
 msgid "There are three supported file types for metadata files:"
-msgstr ""
+msgstr "Als Metadaten-Dateien werden drei Dateitypen unterstützt:"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Build_Metadata_Reference.md:24
@@ -1675,16 +1694,19 @@ msgid ""
 "_.yml_ files in [YAML](http://www.yaml.org/start.html) format, used by f-"
 "droid.org"
 msgstr ""
+"_.yml_-Dateien im [YAML](http://www.yaml.org/start.html)-Format, das von f-"
+"droid.org verwendet wird"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Build_Metadata_Reference.md:24
 msgid "_.txt_ files in the old, custom, F-Droid text-based format"
 msgstr ""
+"_.txt_-Dateien im alten, gebräuchlichen, textbasierten Format von F-Droid"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Build_Metadata_Reference.md:24
 msgid "_.json_ files in [JSON](http://json.org/) format"
-msgstr ""
+msgstr "_.json_ -Dateien im Format [JSON](http://json.org/)"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:34
@@ -1698,6 +1720,16 @@ msgid ""
 "fact, you can standardise all packages in a repository using a single "
 "command, without changing the functional content, by running:"
 msgstr ""
+"Beachten Sie, dass, obwohl die Metadaten-Dateien so gestaltet sind, dass sie "
+"für Menschen leicht les- und schreibbar sind, sie auch von verschiedenen "
+"Skripten verarbeitet und überschrieben werden. Sie können, wenn nötig, "
+"automatisch bereinigt werden. Die Struktur und Kommentare werden "
+"ordnungsgemäß erhalten bleiben, wenngleich die Reihenfolge der Felder "
+"standardisiert werden wird. (Für den Fall, dass die ursprüngliche Datei eine "
+"abweichende Reihenfolge besaß, werden Kommentare so betrachtet, als seien "
+"sie den ihnen folgenden Feldern zugeordnet). Tatsächlich können alle Pakete "
+"in einem Repository, ohne Änderung funktioneller Inhalte, vereinheitlicht "
+"werden, indem Sie Folgendes ausführen:"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:38
@@ -1707,7 +1739,7 @@ msgstr "``` fdroid rewritemeta ```"
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:40
 msgid "Or just run it on a specific app:"
-msgstr ""
+msgstr "Oder lediglich für eine bestimmte App:"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:44
@@ -1717,7 +1749,7 @@ msgstr "``` fdroid rewritemeta org.adaway ```"
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:46
 msgid "The following sections describe the fields recognised within the file."
-msgstr ""
+msgstr "Die folgenden Abschnitte beschreiben die in der Datei erkannten Felder."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:82
@@ -1743,7 +1775,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md:85
 #, no-wrap
 msgid "7.1 Categories<a name=\"Categories\"></a>"
-msgstr ""
+msgstr "7.1 Kategorien<a name=\"Categories\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:94
@@ -1755,6 +1787,13 @@ msgid ""
 "one of the existing categories (look at the site/client), or discuss the "
 "proposal to add a new one."
 msgstr ""
+"Eine beliebige Anzahl von Kategorien für die Anwendung, in denen sie "
+"eingestellt werden soll. Es gibt keine festgeschriebene Liste von Kategorien "
+"- sowohl der Client als auch die Webseite werden automatisch sämtliche, in "
+"allen Anwendungen enthaltene Kategorien anzeigen. Wenn Ihre Metadaten für "
+"das F-Droid-Hauptrepository bestimmt sind, sollten Sie allerdings eine der "
+"bestehenden Kategorien verwenden (siehe Webseite/Client), oder einen Antrag "
+"zur Einführung einer neuen stellen."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:98
@@ -1763,12 +1802,17 @@ msgid ""
 "compatibility, F-Droid will use the first category given as &lt;category&gt; "
 "element for older clients to at least see one category."
 msgstr ""
+"Kategorien müssen durch einfache Kommas ’,’ voneinander getrennt werden. Aus "
+"Gründen der Rückwärtskompatibilität wird F-Droid die erstgenannte Kategorie "
+"als &lt;Kategorie&gt;-Element für ältere Clients verwenden, damit wenigstens "
+"eine Kategorie zu sehen ist."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:100
 #, no-wrap
 msgid "This is converted to (`<categories>`) in the XML file (_index.xml_).\n"
 msgstr ""
+"In der XML-Datei (_index.xml_) erfolgt die Umwandlung zu (`<categories>`).\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md:103
