@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-08-28 13:46+0000\n"
+"PO-Revision-Date: 2017-08-30 16:45+0000\n"
 "Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/de/>\n"
@@ -1460,6 +1460,10 @@ msgid ""
 "Droid client. Many of the tools recognise arguments as packages, allowing "
 "their activity to be limited to just a limited set of packages."
 msgstr ""
+"Es wird hier versucht Version Code 16 (entspricht Version 0.25) des F-Droid-"
+"Client herzustellen. Viele der Instrumente erkennen Argumente als Pakete, "
+"sodass ihr Aufgabenbereich genau auf einen begrenzten Satz von Paketen "
+"beschränkt werden kann."
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md:94
@@ -1661,6 +1665,9 @@ msgid ""
 "(All_About_Descriptions,_Graphics,_and_Screenshots#in-the-apps-source-"
 "repository)"
 msgstr ""
+"lokalisierbare Texte und Grafiken [im Quellcode der App "
+"eingebunden](Alles_Über_Beschreibungen,_Grafiken,_und_Bildschirmfotos#im-"
+"Apps-Quelltext-Repository)"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:18
@@ -1818,7 +1825,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md:103
 #, no-wrap
 msgid "7.2 Author Name<a name=\"Author-Name\"></a>"
-msgstr ""
+msgstr "7.2 Autorenname<a name=\"Author-Name\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:109
@@ -1827,36 +1834,42 @@ msgid ""
 "it should represent the name(s) as published by upstream, e.g.  in their "
 "copyright or authors file. This can be omitted (or left blank)."
 msgstr ""
+"Der Name des Autors, ausgeschrieben, abgekürzt oder als Pseudonym. Wenn "
+"vorhanden, sollte er dem/den beim Upstream veröffentlichten Namen "
+"entsprechen, d. h. denen in der Copyright- oder Autoren-Datei. Kann "
+"weggelassen werden (oder unausgefüllt bleiben)."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:111
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "This is converted to (`<author>`) in the XML file (_index.xml_).\n"
-msgstr ""
+msgstr "Umwandlung zu (`<author>`) in der XML-Datei (_index.xml_).\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md:114
 #, no-wrap
 msgid "7.3 Author Email<a name=\"Author-Email\"></a>"
-msgstr ""
+msgstr "7.3 Autoren-E-Mail<a name=\"Author-Email\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:119
 msgid ""
 "The e-mail address of the author(s). This can be omitted (or left blank)."
 msgstr ""
+"Die E-Mail-Adresse des Autors. Kann weggelassen werden (oder unausgefüllt "
+"bleiben)."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:121
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "This is converted to (`<email>`) in the XML file (_index.xml_).\n"
-msgstr ""
+msgstr "Umwandlung zu (`<email>`) in der XML-Datei (_index.xml_).\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md:124
 #, no-wrap
 msgid "7.4 License<a name=\"License\"></a>"
-msgstr ""
+msgstr "7.4 Lizenz<a name=\"License\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:134
@@ -1880,9 +1893,9 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:140
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "This is converted to (`<license>`) in the XML file (_index.xml_).\n"
-msgstr ""
+msgstr "Umwandlung zu (`<license>`) in der XML-Datei (_index.xml_).\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md:143
@@ -1903,9 +1916,9 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:153
 #: build/_docs/md/Build_Metadata_Reference.md:167
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "This is converted to (`<name>`) in the XML file (_index.xml_).\n"
-msgstr ""
+msgstr "Umwandlung zu (`<name>`) in der XML-Datei (_index.xml_).\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md:156
@@ -1947,9 +1960,9 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:182
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "This is converted to (`<provides>`) in the XML file (_index.xml_).\n"
-msgstr ""
+msgstr "Umwandlung zu (`<provides>`) in der XML-Datei (_index.xml_).\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md:185
@@ -1966,9 +1979,9 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:192
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "This is converted to (`<web>`) in the XML file (_index.xml_).\n"
-msgstr ""
+msgstr "Umwandlung zu (`<web>`) in der XML-Datei (_index.xml_).\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md:195
@@ -1986,9 +1999,9 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:203
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "This is converted to (`<source>`) in the XML file (_index.xml_).\n"
-msgstr ""
+msgstr "Umwandlung zu (`<source>`) in der XML-Datei (_index.xml_).\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md:206
@@ -2005,9 +2018,9 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:213
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "This is converted to (`<tracker>`) in the XML file (_index.xml_).\n"
-msgstr ""
+msgstr "Umwandlung zu (`<tracker>`) in der XML-Datei (_index.xml_).\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md:216
@@ -2024,9 +2037,9 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:223
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "This is converted to (`<changelog>`) in the XML file (_index.xml_).\n"
-msgstr ""
+msgstr "Umwandlung zu (`<changelog>`) in der XML-Datei (_index.xml_).\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md:226
@@ -2054,9 +2067,9 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:240
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "This is converted to (`<donate>`) in the XML file (_index.xml_).\n"
-msgstr ""
+msgstr "Umwandlung zu (`<donate>`) in der XML-Datei (_index.xml_).\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md:243
@@ -2074,9 +2087,9 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:251
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "This is converted to (`<flattr>`) in the XML file (_index.xml_).\n"
-msgstr ""
+msgstr "Umwandlung zu (`<flattr>`) in der XML-Datei (_index.xml_).\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md:254
@@ -2091,9 +2104,9 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:260
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "This is converted to (`<bitcoin>`) in the XML file (_index.xml_).\n"
-msgstr ""
+msgstr "Umwandlung zu (`<bitcoin>`) in der XML-Datei (_index.xml_).\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md:263
@@ -2108,9 +2121,9 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:269
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "This is converted to (`<litecoin>`) in the XML file (_index.xml_).\n"
-msgstr ""
+msgstr "Umwandlung zu (`<litecoin>`) in der XML-Datei (_index.xml_).\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md:272
@@ -2128,9 +2141,9 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:280
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "This is converted to (`<summary>`) in the XML file (_index.xml_).\n"
-msgstr ""
+msgstr "Umwandlung zu (`<summary>`) in der XML-Datei (_index.xml_).\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md:283
@@ -2188,9 +2201,9 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:313
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "This is converted to (`<desc>`) in the XML file (_index.xml_).\n"
-msgstr ""
+msgstr "Umwandlung zu (`<desc>`) in der XML-Datei (_index.xml_).\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md:316
@@ -3117,9 +3130,9 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:750
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "This is converted to (`<antifeatures>`) in the XML file (_index.xml_).\n"
-msgstr ""
+msgstr "Umwandlung zu (`<antifeatures>`) in der XML-Datei (_index.xml_).\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md:753
@@ -3157,9 +3170,9 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:777
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "This is converted to (`<requirements>`) in the XML file (_index.xml_).\n"
-msgstr ""
+msgstr "Umwandlung zu (`<requirements>`) in der XML-Datei (_index.xml_).\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md:780
@@ -3475,9 +3488,9 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:973
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "This is converted to (`<marketversion>`) in the XML file (_index.xml_).\n"
-msgstr ""
+msgstr "Umwandlung zu (`<marketversion>`) in der XML-Datei (_index.xml_).\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md:976
@@ -3511,9 +3524,9 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:991
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "This is converted to (`<marketvercode>`) in the XML file (_index.xml_).\n"
-msgstr ""
+msgstr "Umwandlung zu (`<marketvercode>`) in der XML-Datei (_index.xml_).\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md:994
@@ -3664,6 +3677,13 @@ msgid ""
 "root:~# su fdroid\n"
 "```\n"
 msgstr ""
+"```bash\n"
+"root:~# apt-get install vagrant virtualbox git python3-certifi \\\n"
+"        python3-libvirt python3-requestbuilder python3-yaml \\\n"
+"        python3-clint python3-vagrant python3-paramiko\n"
+"root:~# adduser --disabled-password fdroid\n"
+"root:~# su fdroid\n"
+"```\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md:80
@@ -3680,6 +3700,11 @@ msgid ""
 "py fdroidserver/ fdroid:~$ sed -i \"s@^baseboxurl.*@baseboxurl = \\\"https://"
 "f-droid.org/jessie64.box\\\"@\" fdroidserver/makebuildserver.config.py ```"
 msgstr ""
+"```bash fdroid:~$ cd ~ fdroid:~$ git clone https://gitlab.com/fdroid/"
+"fdroidserver.git fdroid:~$ cp fdroidserver/examples/"
+"makebuildserver.config.py fdroidserver/ fdroid:~$ sed -i \"s@^baseboxurl.*@"
+"baseboxurl = \\\"https://f-droid.org/jessie64.box\\\"@\" fdroidserver/"
+"makebuildserver.config.py ```"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md:90
@@ -3703,6 +3728,9 @@ msgid ""
 "fdroid:~$ echo \"PATH=\\$PATH:$HOME/fdroidserver\" >> ~/.bashrc\n"
 "```\n"
 msgstr ""
+"```bash\n"
+"fdroid:~$ echo \"PATH=\\$PATH:$HOME/fdroidserver\" >> ~/.bashrc\n"
+"```\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md:98
@@ -3717,6 +3745,8 @@ msgid ""
 "```bash fdroid:~$ cd fdroidserver fdroid:~/fdroidserver$ ./makebuildserver "
 "```"
 msgstr ""
+"```bash fdroid:~$ cd fdroidserver fdroid:~/fdroidserver$ ./makebuildserver "
+"```"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md:105
@@ -3731,6 +3761,10 @@ msgid ""
 "fdroiddata/ fdroid:~$ sed -i \"s@^[# ]*build_server_always."
 "*@build_server_always = True@\" fdroiddata/config.py ```"
 msgstr ""
+"```bash fdroid:~/fdroidserver$ cd ~ fdroid:~$ git clone "
+"https://gitlab.com/fdroid/fdroiddata.git fdroid:~$ cp fdroidserver/examples/"
+"config.py fdroiddata/ fdroid:~$ sed -i \"s@^[# ]*build_server_always.*@"
+"build_server_always = True@\" fdroiddata/config.py ```"
 
 #. type: Title ##
 #: build/_docs/md/Build_Server_Setup.md:113
@@ -3838,7 +3872,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md:169
 msgid "```bash ./makebuildserver ```"
-msgstr ""
+msgstr "```bash ./makebuildserver ```"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md:176
@@ -3875,6 +3909,8 @@ msgid ""
 "android-19 mv android-19.tar.gz /path/to/buildserver/addons/cache/platforms/ "
 "```"
 msgstr ""
+"```bash cd /path/to/android-sdk/platforms tar czf android-19.tar.gz android-"
+"19 mv android-19.tar.gz /path/to/buildserver/addons/cache/platforms/ ```"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md:199
@@ -3892,6 +3928,12 @@ msgid ""
 "vagrant ssh -- -C 'cat ~/android-sdk/platforms/android-19.tar.gz' > /path/to/fdroidserver/buildserver/cache/platforms/android19.tar.gz\n"
 "```\n"
 msgstr ""
+"```bash\n"
+"vagrant ssh -- -C 'tar -C ~/android-sdk/platforms czf android-19.tar.gz "
+"android-19'\n"
+"vagrant ssh -- -C 'cat ~/android-sdk/platforms/android-19.tar.gz' > "
+"/path/to/fdroidserver/buildserver/cache/platforms/android19.tar.gz\n"
+"```\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md:209
@@ -3941,6 +3983,8 @@ msgid ""
 "```bash fdroid:~/fdroidserver$ cd ~/fdroiddata fdroid:~/fdroiddata$ ~/"
 "fdroidserver/fdroid build org.fdroid.fdroid -l --server ```"
 msgstr ""
+"```bash fdroid:~/fdroidserver$ cd ~/fdroiddata fdroid:~/fdroiddata$ "
+"~/fdroidserver/fdroid build org.fdroid.fdroid -l --server ```"
 
 #. type: Title ##
 #: build/_docs/md/Build_Server_Setup.md:228
@@ -3965,6 +4009,11 @@ msgid ""
 "root:~# apt-get install vagrant vagrant-mutate vagrant-libvirt ebtables dnsmasq-base \\\n"
 "  libvirt-clients libvirt-daemon libvirt-daemon-system qemu-kvm qemu-utils git\n"
 msgstr ""
+"```bash\n"
+"root:~# apt-get install vagrant vagrant-mutate vagrant-libvirt ebtables "
+"dnsmasq-base \\\n"
+"  libvirt-clients libvirt-daemon libvirt-daemon-system qemu-kvm qemu-utils "
+"git\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md:244
@@ -4054,7 +4103,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md:284
 msgid "```bash root:~# cat /proc/cpuinfo ```"
-msgstr ""
+msgstr "```bash root:~# cat /proc/cpuinfo ```"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md:286
@@ -4064,7 +4113,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md:290
 msgid "```bash root:~# cat /sys/module/kvm_intel/parameters/nested ```"
-msgstr ""
+msgstr "```bash root:~# cat /sys/module/kvm_intel/parameters/nested ```"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md:292
@@ -4079,6 +4128,9 @@ msgid ""
 "echo \"options kvm-intel nested=Y\" > /etc/modprobe.d/kvm-intel.conf\n"
 "```\n"
 msgstr ""
+"```bash\n"
+"echo \"options kvm-intel nested=Y\" > /etc/modprobe.d/kvm-intel.conf\n"
+"```\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md:298
@@ -6641,6 +6693,8 @@ msgid ""
 "```bash git clone https://gitlab.com/fdroid/fdroidclient cd fdroidclient "
 "fdroid import ```"
 msgstr ""
+"```bash git clone https://gitlab.com/fdroid/fdroidclient cd fdroidclient "
+"fdroid import ```"
 
 #. type: Plain text
 #: build/_docs/md/Importing_Applications.md:15
@@ -6650,7 +6704,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Importing_Applications.md:19
 msgid "```bash fdroid import --url=http://address.of.project ```"
-msgstr ""
+msgstr "```bash fdroid import --url=http://address.of.project ```"
 
 #. type: Plain text
 #: build/_docs/md/Importing_Applications.md:25
@@ -7504,7 +7558,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Installing_the_Server_and_Repo_Tools.md:56
 msgid "```bash port install fdroidserver ```"
-msgstr ""
+msgstr "```bash port install fdroidserver ```"
 
 #. type: Plain text
 #: build/_docs/md/Installing_the_Server_and_Repo_Tools.md:58
@@ -7517,6 +7571,8 @@ msgid ""
 "```bash brew install android-sdk android update sdk --no-ui --filter "
 "platform-tools,build-tools-22.0.1 brew install fdroidserver ```"
 msgstr ""
+"```bash brew install android-sdk android update sdk --no-ui --filter "
+"platform-tools,build-tools-22.0.1 brew install fdroidserver ```"
 
 #. type: Plain text
 #: build/_docs/md/Installing_the_Server_and_Repo_Tools.md:66
@@ -7615,6 +7671,10 @@ msgid ""
 "fdroid init   # the keystore gen will fail\n"
 "```\n"
 msgstr ""
+"```bash\n"
+"export ANDROID_HOME=/cygdrive/c/path/to/android-sdk\n"
+"fdroid init   # the keystore gen will fail\n"
+"```\n"
 
 #. type: Plain text
 #: build/_docs/md/Installing_the_Server_and_Repo_Tools.md:112
@@ -7648,6 +7708,9 @@ msgid ""
 "virtualenv env/ # pyvenv also works . env/bin/activate pip3 install -e .  "
 "python3 setup.py install ```"
 msgstr ""
+"```bash git clone https://gitlab.com/fdroid/fdroidserver.git cd fdroidserver "
+"virtualenv env/ # pyvenv also works . env/bin/activate pip3 install -e .  "
+"python3 setup.py install ```"
 
 #. type: Title ##
 #: build/_docs/md/Installing_the_Server_and_Repo_Tools.md:133
@@ -7700,6 +7763,14 @@ msgid ""
 "platform-tools $ android update sdk --no-ui --filter platform-tools,tools,"
 "build-tools-25.0.2,android-24 ```"
 msgstr ""
+"```bash $ sudo apt-get install openjdk-8-jdk lib32stdc++6 lib32gcc1 lib32z1 "
+"lib32ncurses5 ...  $ cd ~ $ wget "
+"https://dl.google.com/android/repository/tools_r25.2.3-linux.zip $ echo \""
+"aafe7f28ac51549784efc2f3bdfc620be8a08213 tools_r25.2.3-linux.zip\" | sha1sum "
+"-c tools_r25.2.3-linux.zip: OK $ unzip tools_r25.2.3-linux.zip $ export "
+"USE_SDK_WRAPPER=yes $ export ANDROID_HOME=~/android-sdk-linux $ export "
+"PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools $ android update "
+"sdk --no-ui --filter platform-tools,tools,build-tools-25.0.2,android-24 ```"
 
 #. type: Plain text
 #: build/_docs/md/Installing_the_Server_and_Repo_Tools.md:171
@@ -7715,6 +7786,11 @@ msgid ""
 "$ echo 'export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools' >> .bashrc\n"
 "```\n"
 msgstr ""
+"```bash\n"
+"$ echo export ANDROID_HOME=$ANDROID_HOME >> .bashrc\n"
+"$ echo 'export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools' "
+">> .bashrc\n"
+"```\n"
 
 #. type: Title ##
 #: build/_docs/md/Installing_the_Server_and_Repo_Tools.md:177
@@ -8769,6 +8845,9 @@ msgid ""
 "    sudo apt-get install nginx\n"
 "```\n"
 msgstr ""
+"```bash\n"
+"    sudo apt-get install nginx\n"
+"```\n"
 
 #. type: Plain text
 #: build/_docs/md/Setup_an_F-Droid_App_Repo.md:83
@@ -8790,6 +8869,8 @@ msgid ""
 "```bash sudo mkdir /usr/share/nginx/www/fdroid sudo chown -R $USER /usr/"
 "share/nginx/www/fdroid cd /usr/share/nginx/www/fdroid fdroid init ```"
 msgstr ""
+"```bash sudo mkdir /usr/share/nginx/www/fdroid sudo chown -R $USER "
+"/usr/share/nginx/www/fdroid cd /usr/share/nginx/www/fdroid fdroid init ```"
 
 #. type: Plain text
 #: build/_docs/md/Setup_an_F-Droid_App_Repo.md:95
@@ -8806,6 +8887,8 @@ msgid ""
 "```bash cd /usr/share/nginx/www/fdroid cp /path/to/\\*.apk /usr/share/nginx/"
 "www/fdroid/repo/ fdroid update --create-metadata ```"
 msgstr ""
+"```bash cd /usr/share/nginx/www/fdroid cp /path/to/\\*.apk "
+"/usr/share/nginx/www/fdroid/repo/ fdroid update --create-metadata ```"
 
 #. type: Plain text
 #: build/_docs/md/Setup_an_F-Droid_App_Repo.md:112
@@ -8939,6 +9022,9 @@ msgid ""
 "repo/ fdroid update --create-metadata emacs config.py # add the "
 "serverwebroot, etc.  fdroid server update -v ```"
 msgstr ""
+"```bash mkdir ~/fdroid cd ~/fdroid fdroid init cp /path/to/\\*.apk "
+"~/fdroid/repo/ fdroid update --create-metadata emacs config.py # add the "
+"serverwebroot, etc.  fdroid server update -v ```"
 
 #. type: Plain text
 #: build/_docs/md/Setup_an_F-Droid_App_Repo.md:197
@@ -9016,6 +9102,10 @@ msgid ""
 "  -keyalg RSA -keysize 2048 -validity 10000\n"
 "```\n"
 msgstr ""
+"```bash\n"
+"keytool -genkey -v -keystore my.keystore -alias repokey \\\n"
+"  -keyalg RSA -keysize 2048 -validity 10000\n"
+"```\n"
 
 #. type: Plain text
 #: build/_docs/md/Signing_Process.md:44
@@ -9227,7 +9317,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md:49
 msgid "```bash"
-msgstr ""
+msgstr "```bash"
 
 #. type: Title #
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md:49
@@ -9342,6 +9432,11 @@ msgid ""
 "    --subdir rabbit-escape-ui-android/app\n"
 "````\n"
 msgstr ""
+"```bash\n"
+"cd ../fdroiddata\n"
+"fdroid import --url https://github.com/andybalaam/rabbit-escape \\\n"
+"    --subdir rabbit-escape-ui-android/app\n"
+"````\n"
 
 #. type: Plain text
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md:99
@@ -9423,6 +9518,9 @@ msgid ""
 "fdroid readmeta fdroid checkupdates net.artificialworlds.rabbitescape fdroid "
 "rewritemeta net.artificialworlds.rabbitescape ```"
 msgstr ""
+"```bash cd ../fdroiddata fdroid lint net.artificialworlds.rabbitescape "
+"fdroid readmeta fdroid checkupdates net.artificialworlds.rabbitescape fdroid "
+"rewritemeta net.artificialworlds.rabbitescape ```"
 
 #. type: Plain text
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md:149
@@ -9446,6 +9544,7 @@ msgstr ""
 msgid ""
 "```bash fdroid build --server -v -l net.artificialworlds.rabbitescape ```"
 msgstr ""
+"```bash fdroid build --server -v -l net.artificialworlds.rabbitescape ```"
 
 #. type: Plain text
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md:169
