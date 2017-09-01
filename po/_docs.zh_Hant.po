@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-08-19 07:44+0000\n"
+"PO-Revision-Date: 2017-09-02 04:44+0000\n"
 "Last-Translator: ezjerry liao <ezjerry@gmail.com>\n"
 "Language-Team: Chinese (Traditional) "
 "<https://hosted.weblate.org/projects/f-droid/website-docs/zh_Hant/>\n"
@@ -548,7 +548,7 @@ msgstr ""
 #: build/_pages/md/docs.md:1
 #, no-wrap
 msgid "Docs"
-msgstr ""
+msgstr "文件檔"
 
 #. type: Plain text
 #: build/_pages/md/docs.md:9
@@ -580,14 +580,14 @@ msgstr "使用入門"
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:22
 msgid "[FAQ - General](FAQ_-_General) Frequently Asked Questions about F-Droid"
-msgstr "[答與問 - 一般](FAQ_-_General) 關於 F-Droid 的答與問"
+msgstr "[常見問答集 - 一般](FAQ_-_General) 關於 F-Droid 的常見問答集"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:22
 msgid ""
 "[FAQ - Client](FAQ_-_Client) Frequently Asked Questions about how to use the "
 "F-Droid app in Android."
-msgstr "[答與問 - 用戶端](FAQ_-_Client) 關於在 Android 上使用 F-Droid 的答與問。"
+msgstr "[常見問答集 - 用戶端](FAQ_-_Client) 關於在 Android 上使用 F-Droid 的常見問答集。"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:22
@@ -617,6 +617,8 @@ msgid ""
 "[Known Repositories](https://f-droid.org/wiki/page/Known_Repositories) A "
 "list that tries to keep track of known f-droid compatible repositories."
 msgstr ""
+"[已知的資源庫](https://f-droid.org/wiki/page/Known_Repositories) 試著追尋已知 f-droid "
+"相容的資源庫清單。"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:31
@@ -651,14 +653,14 @@ msgstr "開發者"
 msgid ""
 "[FAQ - App Developers](FAQ_-_App_Developers) Frequently Asked Questions "
 "about F-Droid"
-msgstr ""
+msgstr "[常見問答集 - 應用程式開發者](FAQ_-_App_Developers) 關於 F-Droid 的常見問答集"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:48
 msgid ""
 "[Build Metadata Reference](Build_Metadata_Reference) All about the build "
 "\"recipes\""
-msgstr ""
+msgstr "[構建中介資料的參考](Build_Metadata_Reference) 所有關於構建的 \"秘訣\""
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:48
@@ -666,12 +668,14 @@ msgid ""
 "[Submitting to F-Droid: Quick Start Guide](Submitting_to_F-"
 "Droid_Quick_Start_Guide) Add an app to f-droid.org"
 msgstr ""
+"[提交給 F-Droid：快速入門指南](Submitting_to_F-Droid_Quick_Start_Guide) 增加應用程式到 "
+"f-droid.org"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:48
 msgid ""
 "[Update Processing](Update_Processing) How updates get detected and added."
-msgstr ""
+msgstr "[更新處理](Update_Processing) 如何更新接受檢測和增加更新。"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:48
@@ -701,6 +705,8 @@ msgid ""
 "(All_About_Descriptions_Graphics_and_Screenshots) Showing off your app in F-"
 "Droid."
 msgstr ""
+"[所有關於說明、圖形和螢幕擷圖](All_About_Descriptions_Graphics_and_Screenshots) 在 F-Droid "
+"中展現您的應用程式。"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:48
@@ -708,6 +714,8 @@ msgid ""
 "[Installing the Server and Repo Tools](Installing_the_Server_and_Repo_Tools) "
 "How to install fdroidserver, the tools for running repos and build servers."
 msgstr ""
+"[安裝伺服器和軟體倉庫工具](Installing_the_Server_and_Repo_Tools) 如何安裝 "
+"fdroidserver，照管軟體倉庫和構建伺服器的工具。"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:48
@@ -722,14 +730,14 @@ msgstr ""
 msgid ""
 "[Build Server Setup](Build_Server_Setup) How to setup the complete f-droid."
 "org build setup on your own machine."
-msgstr ""
+msgstr "[構建伺服器設定](Build_Server_Setup) 如何在自己的的電腦上設定完整的 f-droid.org 構建設定。"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:48
 msgid ""
 "[Signing Process](Signing_Process) How to setup cryptographic signatures "
 "with F-Droid tools"
-msgstr ""
+msgstr "[簽署處理](Signing_Process)如何以 F-Droid 工具設定加密簽名"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:48
@@ -743,7 +751,7 @@ msgstr ""
 msgid ""
 "[Verification Server](Verification_Server) Setting up a server to verify app "
 "builds are correct."
-msgstr ""
+msgstr "[驗證伺服器](Verification_Server)設定伺服器以驗證應用程式構建是否正確。"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:53
@@ -3362,7 +3370,7 @@ msgstr ""
 #: build/_docs/md/Build_Server_Setup.md:113
 #, no-wrap
 msgid "Setting up a build server"
-msgstr ""
+msgstr "設定構建伺服器"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md:117
@@ -4574,6 +4582,8 @@ msgid ""
 "include ads, so people know what they're getting.  They can choose whether "
 "or not these apps will be shown to them."
 msgstr ""
+"許多使用者不喜歡廣告，發現它們是強迫性的。我們會標記包含廣告的應用程式，這樣讓使用者知道他們得到的有什麼。他們可以選擇無論是或否這些應用程式將會顯示給他們"
+"。"
 
 #. type: Bullet: '2.  '
 #: build/_docs/md/FAQ_-_App_Developers.md:240
@@ -4716,6 +4726,9 @@ msgid ""
 "source code and an uncooperative attitude) for us to actually remove the "
 "whole application."
 msgstr ""
+"Ok，這不是一個常見問答集的問題，但是：要移除您的應用程式，您可以使用授權許可來禁止任何人對未來版本從事分發，或者您可以引入獨有的二進制檔案進入到您的原始"
+"程式碼之中。這兩種都將會確保那些未來的版本，不會出現在我們的軟體倉庫中，但是您必須要更進一步（例如以前版本中嚴重的安全性漏洞，以及未發佈的原始碼和不配合的"
+"心態）為我們實際上移除整個應用程式。"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md:322
