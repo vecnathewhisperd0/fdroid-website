@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-05-17 11:31+1000\n"
-"PO-Revision-Date: 2017-09-03 00:36+0000\n"
+"PO-Revision-Date: 2017-09-03 00:43+0000\n"
 "Last-Translator: Frank Mascal <frwendling@posteo.net>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/fr/>\n"
@@ -170,7 +170,7 @@ msgstr ""
 #: build/_pages/md/about.md:78
 #, fuzzy
 msgid "Alterechtschreibung"
-msgstr "Ancienne orthographe"
+msgstr "Alterechtschreibung"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
