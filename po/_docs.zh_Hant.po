@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-09-02 04:44+0000\n"
+"PO-Revision-Date: 2017-09-04 01:44+0000\n"
 "Last-Translator: ezjerry liao <ezjerry@gmail.com>\n"
 "Language-Team: Chinese (Traditional) "
 "<https://hosted.weblate.org/projects/f-droid/website-docs/zh_Hant/>\n"
@@ -627,20 +627,22 @@ msgid ""
 "are the various channels that F-Droid software are released on, with info to "
 "verify them based on signing keys."
 msgstr ""
+"[釋出管道和簽名金鑰](Release_Channels_and_Signing_Keys) 這些都是 F-Droid "
+"軟體釋出的各種管道，具有簽名金鑰來驗證它們的資訊。"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:31
 msgid ""
 "[Security Model](Security_Model) A brief explanation of how F-Droid delivers "
 "software to users securely."
-msgstr ""
+msgstr "[安全模式](Security_Model) F-Droid 如何安全地向使用者提供軟體的簡短說明。"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:31
 msgid ""
 "[Translation and Localization](Translation_and_Localization) How all the "
 "parts of F-Droid are localized."
-msgstr ""
+msgstr "[翻譯和在地化](Translation_and_Localization) F-Droid 的所有部件如何在地化。"
 
 #. type: Title ###
 #: build/_pages/md/docs.md:33
@@ -683,20 +685,21 @@ msgid ""
 "[Inclusion Policy](Inclusion_Policy) & [Inclusion How-To](Inclusion_How-To)  "
 "Guidelines for how to request the inclusion of a new app."
 msgstr ""
+"[包涵政策](Inclusion_Policy) & [包涵指導](Inclusion_How-To)  關於如何請求列入一個新的應用程式的指導方針。"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:48
 msgid ""
 "[Importing Applications](Importing_Applications) Using `fdroid import` to "
 "build a new project."
-msgstr ""
+msgstr "[導入應用程式](Importing_Applications) 使用 `fdroid import` 構建一個新的專案。"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:48
 msgid ""
 "[Building Applications](Building_Applications) Using `fdroid build` to build "
 "an app."
-msgstr ""
+msgstr "[構建應用程式](Building_Applications) 使用 `fdroid build` 以構建一個應用程式。"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:48
@@ -744,7 +747,7 @@ msgstr "[簽署處理](Signing_Process)如何以 F-Droid 工具設定加密簽�
 msgid ""
 "[Reproducible Builds](Reproducible_Builds) How to use the F-Droid tools to "
 "make reproducible builds easy."
-msgstr ""
+msgstr "[可再生構建](Reproducible_Builds) 如何使用 F-Droid 工具輕鬆的進行可再生構建。"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:53
@@ -756,7 +759,7 @@ msgstr "[驗證伺服器](Verification_Server)設定伺服器以驗證應用程�
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:53
 msgid "[Whitelabel Builds](Whitelabel_Builds) custom builds of F-Droid"
-msgstr ""
+msgstr "[白色標籤構建](Whitelabel_Builds) 自訂 F-Droid的構建"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:53
@@ -765,6 +768,8 @@ msgid ""
 "droid-privileged-extension) How to use F-Droid Privileged Extension as a "
 "user and rom developer"
 msgstr ""
+"[特權擴充](https://gitlab.com/fdroid/privileged-extension#f-droid-privileged-"
+"extension) 如何使用 F-Droid 特權擴充作為使用者和 rom 的開發者"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:53
@@ -773,6 +778,9 @@ msgid ""
 "(https://gitlab.com/fdroid/fdroid-website) becomes [f-droid.org](https://f-"
 "droid.org)"
 msgstr ""
+"[部署網站](Deploying_the_Website) 怎樣將 [fdroid-"
+"website.git](https://gitlab.com/fdroid/fdroid-website) 轉為 "
+"[f-droid.org](https://f-droid.org)"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:54
@@ -780,12 +788,13 @@ msgid ""
 "[Work in Progress](https://f-droid.org/wiki/page/Work_in_Progress) Feel free "
 "to add your own topics and link to others."
 msgstr ""
+"[進行中工作](https://f-droid.org/wiki/page/Work_in_Progress) 隨時增加自己的主題並連結到他人的。"
 
 #. type: Title #
 #: build/_pages/md/issues.md:1
 #, no-wrap
 msgid "Issues"
-msgstr ""
+msgstr "問題"
 
 #. type: Plain text
 #: build/_pages/md/issues.md:5
@@ -815,7 +824,7 @@ msgstr ""
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md:1
 #, no-wrap
 msgid "All About Descriptions, Graphics, and Screenshots"
-msgstr ""
+msgstr "所有關於說明、圖形和螢幕擷圖"
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md:9
@@ -840,21 +849,23 @@ msgid ""
 "* Do not remove this line (it will not be displayed)\n"
 "{:toc}\n"
 msgstr ""
+"* 不要移除這一行 (它不會顯示)\n"
+"{:toc}\n"
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md:14
 msgid "There are two data formats:"
-msgstr ""
+msgstr "有兩種資料格式："
 
 #. type: Bullet: '* '
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md:17
 msgid "descriptive materials in plain text or HTML"
-msgstr ""
+msgstr "純文字或 HTML 的說明素材"
 
 #. type: Bullet: '* '
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md:17
 msgid "graphics and screenshots as PNG or JPEG files"
-msgstr ""
+msgstr "圖形和螢幕擷圖為 PNG 或 JPEG 圖檔"
 
 #. type: Title ##
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md:19
@@ -933,6 +944,34 @@ msgid ""
 "                  └── *.png\n"
 "```\n"
 msgstr ""
+"```\n"
+"- <fdroiddata>/\n"
+"  └── metadata/\n"
+"      └── <package-id>/\n"
+"          └── <locale>/\n"
+"              ├── full_description.txt\n"
+"              ├── short_description.txt\n"
+"              ├── title.txt\n"
+"              ├── video.txt\n"
+"              ├── images/\n"
+"              │   ├── featureGraphic.png\n"
+"              │   ├── icon.png\n"
+"              │   ├── promoGraphic.png\n"
+"              │   └── tvBanner.png\n"
+"              ├── changelogs/\n"
+"              │   ├── <version-code>.txt\n"
+"              │   └── <version-code>.txt\n"
+"              ├── phoneScreenshots/\n"
+"              │   └── *.png\n"
+"              ├── sevenInchScreenshots/\n"
+"              │   └── *.png\n"
+"              ├── tenInchScreenshots/\n"
+"              │   └── *.png\n"
+"              ├── tvScreenshots/\n"
+"              │   └── *.png\n"
+"              └── wearScreenshots/\n"
+"                  └── *.png\n"
+"```\n"
 
 #. type: Title ##
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md:76
@@ -7435,7 +7474,7 @@ msgstr ""
 #: build/_docs/md/Release_Channels_and_Signing_Keys.md:1
 #, no-wrap
 msgid "Release Channels and Signing Keys"
-msgstr ""
+msgstr "釋出管道和簽名金鑰"
 
 #. type: Plain text
 #: build/_docs/md/Release_Channels_and_Signing_Keys.md:4
