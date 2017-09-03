@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-05-17 11:31+1000\n"
-"PO-Revision-Date: 2017-09-03 00:45+0000\n"
-"Last-Translator: anonymous <>\n"
+"PO-Revision-Date: 2017-09-04 01:45+0000\n"
+"Last-Translator: Frank Mascal <frwendling@posteo.net>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/fr/>\n"
 "Language: fr\n"
@@ -497,10 +497,11 @@ msgstr ""
 
 #. type: Plain text
 #: build/_pages/md/contribute.md:9
+#, fuzzy
 msgid "For reporting issues, choose an appropriate tracker from the following:"
 msgstr ""
-"Pour rapporter des problèmes, choisissez un suivi approprié à partir de ce "
-"qui suit:"
+"Pour rapporter des problèmes, choisissez le gestionnaire d'incidents "
+"approprié à partir de ce qui suit:"
 
 #. type: Bullet: '* '
 #: build/_pages/md/contribute.md:13
