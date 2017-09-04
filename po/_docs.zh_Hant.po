@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-09-04 01:44+0000\n"
+"PO-Revision-Date: 2017-09-05 13:45+0000\n"
 "Last-Translator: ezjerry liao <ezjerry@gmail.com>\n"
 "Language-Team: Chinese (Traditional) "
 "<https://hosted.weblate.org/projects/f-droid/website-docs/zh_Hant/>\n"
@@ -727,6 +727,8 @@ msgid ""
 "repository of apps that users can easily add to their F-Droid client to get "
 "your apps directly from the source."
 msgstr ""
+"[設定 F-Droid 應用程式軟體倉庫](Setup_an_F-Droid_App_Repo)如何設定自己的應用程式軟體倉庫，"
+"讓使用者能輕易增加到他們的 F-Droid 用戶端，以直接讓您從來源獲取應用程式。"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:48
@@ -871,7 +873,7 @@ msgstr "圖形和螢幕擷圖為 PNG 或 JPEG 圖檔"
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md:19
 #, no-wrap
 msgid "In the app's source repository"
-msgstr ""
+msgstr "在應用程式的來源軟體倉庫中"
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md:30
