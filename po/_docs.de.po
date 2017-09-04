@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-09-04 16:30+0000\n"
-"Last-Translator: anonymous <>\n"
+"PO-Revision-Date: 2017-09-05 11:57+0000\n"
+"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/de/>\n"
 "Language: de\n"
@@ -1896,6 +1896,14 @@ msgid ""
 "app can be used under.  When multiple licenses are combined, that usually "
 "means the most restrictive wins."
 msgstr ""
+"Die Gesamtlizenz für die Anwendung im Hinblick auf die ausführbare Datei, "
+"die der Nutzer installieren kann. Die Werte sollten den Kurzbezeichnungen "
+"aus der [SPDX](https://spdx.org/licenses/)-Lizenzliste entsprechen. Es kann "
+"hier nur eine Lizenz aufgeführt werden. Wenn im Quellcode mehrere Lizenzen "
+"zur Anwendung kommen, dann sollte dieses Feld die am wenigsten restriktive "
+"Lizenz enthalten, unter der die ganze App verwendet werden kann. Werden "
+"mehrere Lizenzen kombiniert, bedeutet das normalerweise, dass sich die "
+"restriktivste durchsetzt."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:138
@@ -1904,6 +1912,9 @@ msgid ""
 "of the app, or apps that have the entire thing released under more than one "
 "license."
 msgstr ""
+"Dieses Feld kann keine komplexen Lizenzstrukturen abbilden, wie Lizenzen, "
+"denen App-Teile unterliegen, oder Apps, die insgesamt unter mehr als einer "
+"Lizenz veröffentlicht wurden."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:140
@@ -2143,7 +2154,7 @@ msgstr "Umwandlung zu (`<litecoin>`) in der XML-Datei (_index.xml_).\n"
 #: build/_docs/md/Build_Metadata_Reference.md:272
 #, no-wrap
 msgid "7.16 Summary<a name=\"Summary\"></a>"
-msgstr ""
+msgstr "7.16 Zusammenfassung<a name=\"Summary\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:278
@@ -2152,10 +2163,14 @@ msgid ""
 "allowed one line on the list of the F-Droid client, keeping it to within 80 "
 "characters will ensure it fits most screens."
 msgstr ""
+"Eine Kurzbeschreibung, um was es bei der Anwendung geht. Da die "
+"Zusammenfassung in der Liste des F-Droid-Clients nur eine Zeile lang sein "
+"darf, sollten 80 Zeichen nicht überschritten werden, um die Anzeige auf den "
+"meisten Bildschirmen zu gewährleisten."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:280
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "This is converted to (`<summary>`) in the XML file (_index.xml_).\n"
 msgstr "Umwandlung zu (`<summary>`) in der XML-Datei (_index.xml_).\n"
 
@@ -2163,7 +2178,7 @@ msgstr "Umwandlung zu (`<summary>`) in der XML-Datei (_index.xml_).\n"
 #: build/_docs/md/Build_Metadata_Reference.md:283
 #, no-wrap
 msgid "7.17 Description<a name=\"Description\"></a>"
-msgstr ""
+msgstr "7.17 Beschreibung<a name=\"Description\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:289
@@ -2172,6 +2187,10 @@ msgid ""
 "can span multiple lines (which should be kept to a maximum of 80 "
 "characters), and is terminated by a line containing a single ’.’."
 msgstr ""
+"Eine komplette Beschreibung der Anwendung entsprechend ihrer aktuellsten "
+"Version. Sie kann mehrere Zeilen umfassen (, die auf 80 Zeichen begrenzt "
+"sein sollten,) und wird mit einer Zeile, die nur einen ’.’ enthält, "
+"abgeschlossen."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:293
@@ -2180,6 +2199,9 @@ msgid ""
 "new paragraph. Surrounding text with `''` make it italic, and with `'''` "
 "makes it bold."
 msgstr ""
+"Es können Basisformatierungen des MediaWiki-style verwendet werden. "
+"Leerzeilen starten einen neuen Absatz. In `''` eingeschlossener Text wird "
+"kursiv und in `'''` eingerahmter fett dargestellt."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:297
@@ -2188,11 +2210,17 @@ msgid ""
 "be made appropriately whether in the Android client, the web repo browser or "
 "the wiki. The link text will be the apps name."
 msgstr ""
+"Sie können Verknüpfungen zu anderen Apps im Repo durch `[[app.id]]` "
+"einbinden. Die Verknüpfung wird, ob im Android-Client, im Web-Repo-Browser "
+"oder im Wiki, entsprechend umgewandelt. Der Verknüpfungstext entspricht dem "
+"App-Namen."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:299
 msgid "Links to web addresses can be done using `[http://example.com Text]`."
 msgstr ""
+"Links zu Web-Adressen können durch Verwendung von `[http://example.com Text]`"
+" erstellt werden."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:303
