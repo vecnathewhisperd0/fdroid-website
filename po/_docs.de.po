@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-09-05 11:57+0000\n"
-"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
+"PO-Revision-Date: 2017-09-05 17:50+0000\n"
+"Last-Translator: anonymous <>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/de/>\n"
 "Language: de\n"
@@ -2070,7 +2070,7 @@ msgstr "Umwandlung zu (`<changelog>`) in der XML-Datei (_index.xml_).\n"
 #: build/_docs/md/Build_Metadata_Reference.md:226
 #, no-wrap
 msgid "7.12 Donate<a name=\"Donate\"></a>"
-msgstr ""
+msgstr "7.12 Spenden<a name=\"Donate\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:231
@@ -2078,6 +2078,8 @@ msgid ""
 "The URL to donate to the project. This should be the project’s donate page "
 "if it has one."
 msgstr ""
+"Die URL, über die für das Projekt gespendet werden kann. Sollte die "
+"Spendenseite des Projekts sein, falls es eine gibt. "
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:238
@@ -2089,6 +2091,13 @@ msgid ""
 "a link that the developer explicitly makes public, rather than something "
 "that is auto-generated ’button code’."
 msgstr ""
+"Es ist möglich, hier eine Direktverbindung zu PayPal zu verwenden, wenn nur "
+"das zur Verfügung steht. Man sollte jedoch im Hinterkopf behalten, dass der "
+"Entwickler von dieser Direktverknüpfung möglicherweise nichts weiß, und, "
+"sollte er später zu einem anderen PayPal-Konto wechseln oder das Format des "
+"PayPal-Links ändern, einiges schief gehen kann. Es ist immer am besten, "
+"einen Link zu nutzen, den der Entwickler ausdrücklich veröffentlicht hat, "
+"als irgendeinen automatisch generierten Code für einen ’Button’."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:240
@@ -2100,7 +2109,7 @@ msgstr "Umwandlung zu (`<donate>`) in der XML-Datei (_index.xml_).\n"
 #: build/_docs/md/Build_Metadata_Reference.md:243
 #, no-wrap
 msgid "7.13 FlattrID<a name=\"FlattrID\"></a>"
-msgstr ""
+msgstr "7.13 FlattrID<a name=\"FlattrID\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:249
@@ -2109,6 +2118,9 @@ msgid ""
 "numeric ID, such that (for example) https://flattr.com/thing/xxxx leads "
 "directly to the page to donate to the project."
 msgstr ""
+"Die Flattr (http://flattr.com) ID des Projekts, wenn eine vorliegt. Sollte "
+"eine numerische ID sein, so dass (zum Beispiel) https://flattr.com/thing/"
+"xxxx direkt auf die Spendenseite des Projekts weiterleitet."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:251
@@ -2120,12 +2132,12 @@ msgstr "Umwandlung zu (`<flattr>`) in der XML-Datei (_index.xml_).\n"
 #: build/_docs/md/Build_Metadata_Reference.md:254
 #, no-wrap
 msgid "7.14 Bitcoin<a name=\"Bitcoin\"></a>"
-msgstr ""
+msgstr "7.14 Bitcoin<a name=\"Bitcoin\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:258
 msgid "A bitcoin address for donating to the project."
-msgstr ""
+msgstr "Eine Bitcoin-Adresse für Projektspenden."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:260
@@ -2137,12 +2149,12 @@ msgstr "Umwandlung zu (`<bitcoin>`) in der XML-Datei (_index.xml_).\n"
 #: build/_docs/md/Build_Metadata_Reference.md:263
 #, no-wrap
 msgid "7.15 Litecoin<a name=\"Litecoin\"></a>"
-msgstr ""
+msgstr "7.15 Litecoin<a name=\"Litecoin\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:267
 msgid "A litecoin address for donating to the project."
-msgstr ""
+msgstr "Eine Litecoin-Adresse für Projektspenden."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:269
@@ -2229,6 +2241,10 @@ msgid ""
 "line, and numbered lists are the same but using `#`. There is currently no "
 "support for nesting lists - you can have one level only."
 msgstr ""
+"Aufzählungen werden durch einfaches Voranstellen von `*` vor jeden "
+"Listenpunkt in einer neuen Zeile erzeugt, Nummerierungen verwenden "
+"stattdessen `#`. Verschachtelte Listen werden momentan nicht unterstützt, es "
+"gibt nur eine Listenebene."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:311
@@ -2240,6 +2256,13 @@ msgid ""
 "version; whether the app supports multiple architectures or whether there is "
 "a maximum SDK specified (such info not being recorded in the index)."
 msgstr ""
+"Es kann hilfreich sein Informationen zu vermerken, die die Änderungen "
+"gegenüber der Vorversion betreffen; ob die App von vorgeschalteten "
+"Entwicklern erstellte, vorgefertigte Elemente enthält oder ob unfreie "
+"Bestandteile entfernt wurden; ob die App sich rasch weiterentwickelt oder ob "
+"die neuste Version gegenüber der momentanen lange auf sich warten ließ; ob "
+"die App mehrere Architekturen unterstützt oder ob ein Mindest-SDK festgelegt "
+"ist (derartige Infos, die im Index nicht verzeichnet werden)."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:313
