@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-09-05 17:50+0000\n"
-"Last-Translator: anonymous <>\n"
+"PO-Revision-Date: 2017-09-06 19:46+0000\n"
+"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/de/>\n"
 "Language: de\n"
@@ -1949,7 +1949,7 @@ msgstr "Umwandlung zu (`<name>`) in der XML-Datei (_index.xml_).\n"
 #: build/_docs/md/Build_Metadata_Reference.md:156
 #, no-wrap
 msgid "7.6 Name<a name=\"Name\"></a>"
-msgstr ""
+msgstr "7.6 Name<a name=\"Name\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:165
@@ -1961,6 +1961,13 @@ msgid ""
 "name in the list of apps presented in the client; it doesn’t changed the "
 "name or application label in the source code."
 msgstr ""
+"Der Name der Anwendung. Normalerweise sollte dieses Feld nicht vorhanden "
+"sein, da der korrekte Name der Anwendung aus der APK-Datei bezogen wird.  In "
+"Situationen, in denen die APK einen fehlerhaften oder keinen Anwendungsnamen "
+"enthält, kann dies jedoch hiermit korrigiert werden. Zu beachten ist, dass "
+"damit lediglich der Name in der App-Liste, die im Client erscheint, "
+"korrigiert wird; der Name oder die App-Bezeichnung im Quelltext bleibt "
+"unverändert."
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md:170
@@ -1993,7 +2000,7 @@ msgstr "Umwandlung zu (`<provides>`) in der XML-Datei (_index.xml_).\n"
 #: build/_docs/md/Build_Metadata_Reference.md:185
 #, no-wrap
 msgid "7.8 Web Site<a name=\"Web-Site\"></a>"
-msgstr ""
+msgstr "7.8 Internetseite<a name=\"Web-Site\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:190
@@ -2001,6 +2008,8 @@ msgid ""
 "The URL for the application’s web site. If there is no relevant web site, "
 "this can be omitted (or left blank)."
 msgstr ""
+"Die URL für die Internetseite der Anwendung. Kann weggelassen werden (oder "
+"leer bleiben), wenn es keine entsprechende Internetseite gibt."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:192
@@ -2012,7 +2021,7 @@ msgstr "Umwandlung zu (`<web>`) in der XML-Datei (_index.xml_).\n"
 #: build/_docs/md/Build_Metadata_Reference.md:195
 #, no-wrap
 msgid "7.9 Source Code<a name=\"Source-Code\"></a>"
-msgstr ""
+msgstr "7.9 Quelltext<a name=\"Source-Code\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:201
@@ -2021,10 +2030,13 @@ msgid ""
 "something human-friendly. Machine-readable source-code is covered in the "
 "’Repo’ field."
 msgstr ""
+"Die URL, um den Quelltext der Anwendung einzusehen oder zu beziehen. Dieser "
+"sollte von Menschen lesbar sein. Maschinenlesbarer Quellcode wird durch das "
+"’Repo’-Feld abgedeckt."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:203
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "This is converted to (`<source>`) in the XML file (_index.xml_).\n"
 msgstr "Umwandlung zu (`<source>`) in der XML-Datei (_index.xml_).\n"
 
@@ -2032,7 +2044,7 @@ msgstr "Umwandlung zu (`<source>`) in der XML-Datei (_index.xml_).\n"
 #: build/_docs/md/Build_Metadata_Reference.md:206
 #, no-wrap
 msgid "7.10 Issue Tracker<a name=\"Issue-Tracker\"></a>"
-msgstr ""
+msgstr "7.10 Problemerfassung<a name=\"Issue-Tracker\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:211
@@ -2040,6 +2052,8 @@ msgid ""
 "The URL for the application’s issue tracker. Optional, since not all "
 "applications have one."
 msgstr ""
+"Die URL zur Problemerfassung der Anwendung. Optional, da nicht alle "
+"Anwendungen eine besitzen."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:213
@@ -2051,7 +2065,7 @@ msgstr "Umwandlung zu (`<tracker>`) in der XML-Datei (_index.xml_).\n"
 #: build/_docs/md/Build_Metadata_Reference.md:216
 #, no-wrap
 msgid "7.11 Changelog<a name=\"Changelog\"></a>"
-msgstr ""
+msgstr "7.11 Änderungsprotokoll<a name=\"Changelog\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:221
@@ -2059,6 +2073,8 @@ msgid ""
 "The URL for the application’s changelog. Optional, since not all "
 "applications have one."
 msgstr ""
+"Die URL zum Änderungsprotokoll der Anwendung. Optional, da nicht alle "
+"Anwendungen eines haben."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:223
@@ -2274,7 +2290,7 @@ msgstr "Umwandlung zu (`<desc>`) in der XML-Datei (_index.xml_).\n"
 #: build/_docs/md/Build_Metadata_Reference.md:316
 #, no-wrap
 msgid "7.18 Maintainer Notes<a name=\"Maintainer-Notes\"></a>"
-msgstr ""
+msgstr "7.18 Wartungsnotizen<a name=\"Maintainer-Notes\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:322
@@ -2283,17 +2299,21 @@ msgid ""
 "description. It’s used to record notes for F-Droid maintainers to assist in "
 "maintaining and updating the application in the repository."
 msgstr ""
+"Ein mehrzeiliges Feld, das die selben Regeln und die selbe Syntax wie die "
+"Beschreibung verwendet. Es wird dazu genutzt Hinweise für die F-Droid-"
+"Maintainers zu vermerken, die sie bei der Pflege und Aktualisierung der "
+"Anwendung im Repository unterstützen."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:324
 msgid "This information is also published to the wiki."
-msgstr ""
+msgstr "Diese Informationen werden auch im Wiki veröffentlicht."
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md:327
 #, no-wrap
 msgid "7.19 Repo Type<a name=\"Repo-Type\"></a>"
-msgstr ""
+msgstr "7.19 Repo-Typ<a name=\"Repo-Type\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:333
@@ -2302,6 +2322,9 @@ msgid ""
 "specified, automatic building is disabled for this application.  Possible "
 "values are:"
 msgstr ""
+"Die Art des Repositorys - zur automatischen Herstellung aus der Quelle. Ist "
+"sie nicht festgelegt, kann für die Anwendung keine automatische Herstellung "
+"erfolgen.  Mögliche Werte sind:"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Build_Metadata_Reference.md:340
@@ -2337,12 +2360,14 @@ msgstr "‘srclib’"
 #: build/_docs/md/Build_Metadata_Reference.md:343
 #, no-wrap
 msgid "7.20 Repo<a name=\"Repo\"></a>"
-msgstr ""
+msgstr "7.20 Repo<a name=\"Repo\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:347
 msgid "The repository location. Usually a git: or svn: URL, for example."
 msgstr ""
+"Der Ort des Repositorys. Für gewöhnlich beispielsweise eine git: oder svn: "
+"URL."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:360
