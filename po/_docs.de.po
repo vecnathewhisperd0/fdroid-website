@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-09-06 19:46+0000\n"
+"PO-Revision-Date: 2017-09-09 16:48+0000\n"
 "Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/de/>\n"
@@ -2371,6 +2371,7 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:360
+#, fuzzy
 msgid ""
 "The git-svn option connects to an SVN repository, and you specify the URL in "
 "exactly the same way, but git is used as a back-end. This is preferable for "
@@ -2385,14 +2386,31 @@ msgid ""
 "http://svn.code.sf.net/p/project/code/svn;trunk=trunk;tags=tags;"
 "branches=branches"
 msgstr ""
+"Die Option ‘git-svn‘ verbindet zu einem SVN-Repository und die URL wird in "
+"genau der selben Weise angegeben, aber Git fungiert als Backend. Das ist aus "
+"Leistungsgründen zu bevorzugen und auch weil eine lokale Kopie des gesamten "
+"Verlaufs erhältlich ist, sollte das vorgeschaltete Repository verlorengehen. "
+"(So etwas passiert!). Um Tags zur Aktualisierungsprüfung für diesen VCS-Typ "
+"zu verwenden, muss die URL den speziellen Argumentesatz ‘tags=‘ enthalten. "
+"Wenn das RepoManifest/branch-Schema verwendet werden soll, kann in ähnlicher "
+"Weise zusätzlich ‘branches=‘ spezifiziert werden. Schließlich kann noch "
+"‘trunk=‘ hinzugefügt werden. Alle diese speziellen Argumente werden der "
+"Reihe nach an \"git svn\" übergeben, und ihre Werte müssen relative Pfade "
+"zum SVN-Repo-Root-Verzeichnis sein. Hier ein Beispiel für eine komplexe git-"
+"svn-Repo-URL: http://svn.code.sf.net/p/project/code/svn;trunk=trunk;tags=tags"
+";branches=branches"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:364
+#, fuzzy
 msgid ""
 "If the Repo Type is `srclib`, then you must specify the name of the "
 "according srclib .txt file. For example if `scrlibs/FooBar.txt` exist and "
 "you want to use this srclib, then you have to set Repo to `FooBar`."
 msgstr ""
+"Wenn der Repo-Typ `srclib` ist, muss der Name der entsprechenden ‘srclib‘-"
+"Textdatei angegeben werden. Existiert zum Beispiel `scrlibs/FooBar.txt` und "
+"soll diese ‘srclib‘ genutzt werden, muss Repo auf `FooBar` festgelegt werden."
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md:367
@@ -2403,7 +2421,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:371
 msgid "The location of binaries used in verification process."
-msgstr ""
+msgstr "Der Ort der Binärdateien, die im Prüfprozess verwendet werden."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:377
@@ -2413,6 +2431,11 @@ msgid ""
 "version code of the current build. To verify the F-Droid client itself you "
 "could use: `Binaries:https://f-droid.org/repo/org.fdroid.fdroid_%c.apk`"
 msgstr ""
+"Wenn angegeben, wird F-Droid die ausgegebene APK-Datei eines Build gegenüber "
+"der aufgeführten abgleichen. Es kann %v und %c verwendet werden, um auf den "
+"Versionsnamen und den Versionscode des aktuellen Build zu verweisen. Um den F"
+"-Droid-Client selbst zu überprüfen, könnte Folgendes verwendet werden: "
+"`Binaries:https://f-droid.org/repo/org.fdroid.fdroid_%c.apk`"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:379
@@ -2436,7 +2459,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:390
 msgid "‘Build:1.2,12’"
-msgstr ""
+msgstr "‘Build:1.2,12’"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:395
@@ -2459,7 +2482,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md:401
 #, no-wrap
 msgid "`disable=<message>`\n"
-msgstr ""
+msgstr "`disable=<message>`\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:405
@@ -2486,7 +2509,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md:414
 #, no-wrap
 msgid "`subdir=<path>`\n"
-msgstr ""
+msgstr "`subdir=<path>`\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:417
@@ -2499,7 +2522,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:419
 msgid "`submodules=yes`"
-msgstr ""
+msgstr "`submodules=yes`"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:424
@@ -2514,7 +2537,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:426
 msgid "`init=xxxx`"
-msgstr ""
+msgstr "`init=xxxx`"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:429
@@ -2538,7 +2561,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:437
 msgid "`oldsdkloc=yes`"
-msgstr ""
+msgstr "`oldsdkloc=yes`"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:443
@@ -2555,7 +2578,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md:445
 #, no-wrap
 msgid "`target=<target>`\n"
-msgstr ""
+msgstr "`target=<target>`\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:452
@@ -2584,7 +2607,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md:460
 #, no-wrap
 msgid "`update=<auto/dirs>`\n"
-msgstr ""
+msgstr "`update=<auto/dirs>`\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:465
@@ -2615,7 +2638,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:473
 msgid "`encoding=xxxx`"
-msgstr ""
+msgstr "`encoding=xxxx`"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:479
@@ -2631,7 +2654,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:481
 msgid "`forceversion=yes`"
-msgstr ""
+msgstr "`forceversion=yes`"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:484
@@ -2655,7 +2678,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:492
 msgid "`forcevercode=yes`"
-msgstr ""
+msgstr "`forcevercode=yes`"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:495
@@ -2669,7 +2692,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md:497
 #, no-wrap
 msgid "`rm=<path1>[,<path2>,...]`\n"
-msgstr ""
+msgstr "`rm=<path1>[,<path2>,...]`\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:503
@@ -2694,7 +2717,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md:508
 #, no-wrap
 msgid "`extlibs=<lib1>[,<lib2>,...]`\n"
-msgstr ""
+msgstr "`extlibs=<lib1>[,<lib2>,...]`\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:512
@@ -2708,7 +2731,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:514
 msgid "`srclibs=[n:]a@r,[n:]b@r1,...`"
-msgstr ""
+msgstr "`srclibs=[n:]a@r,[n:]b@r1,...`"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:519
@@ -2807,7 +2830,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:564
 msgid "`patch=x`"
-msgstr ""
+msgstr "`patch=x`"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:569
@@ -2822,7 +2845,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:571
 msgid "`prebuild=xxxx`"
-msgstr ""
+msgstr "`prebuild=xxxx`"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:578
@@ -2876,7 +2899,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md:597
 #, no-wrap
 msgid "`scanignore=<path1>[,<path2>,...]`\n"
-msgstr ""
+msgstr "`scanignore=<path1>[,<path2>,...]`\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:602
@@ -2900,7 +2923,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md:607
 #, no-wrap
 msgid "`scandelete=<path1>[,<path2>,...]`\n"
-msgstr ""
+msgstr "`scandelete=<path1>[,<path2>,...]`\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:611
@@ -2923,7 +2946,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:617
 msgid "`build=xxxx`"
-msgstr ""
+msgstr "`build=xxxx`"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:622
@@ -2959,7 +2982,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md:634
 #, no-wrap
 msgid "`buildjni=[yes|no|<dir list>]`\n"
-msgstr ""
+msgstr "`buildjni=[yes|no|<dir list>]`\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:640
@@ -2990,7 +3013,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md:651
 #, no-wrap
 msgid "`ndk=<version>`\n"
-msgstr ""
+msgstr "`ndk=<version>`\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:656
@@ -3016,7 +3039,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md:663
 #, no-wrap
 msgid "`gradle=<flavour1>[,<flavour2>,...]`\n"
-msgstr ""
+msgstr "`gradle=<flavour1>[,<flavour2>,...]`\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:667
@@ -3041,7 +3064,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md:674
 #, no-wrap
 msgid "`maven=yes[@<dir>]`\n"
-msgstr ""
+msgstr "`maven=yes[@<dir>]`\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:678
@@ -3056,7 +3079,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md:680
 #, no-wrap
 msgid "`preassemble=<task1>[,<task2>,...]`\n"
-msgstr ""
+msgstr "`preassemble=<task1>[,<task2>,...]`\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:683
@@ -3070,7 +3093,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md:685
 #, no-wrap
 msgid "`gradleprops=<prop1>[,<prop2>,...]`\n"
-msgstr ""
+msgstr "`gradleprops=<prop1>[,<prop2>,...]`\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:688
@@ -3092,7 +3115,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md:693
 #, no-wrap
 msgid "`antcommands=<target1>[,<target2>,...]`\n"
-msgstr ""
+msgstr "`antcommands=<target1>[,<target2>,...]`\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:697
@@ -3106,7 +3129,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:699
 msgid "`output=glob/to/output.apk`"
-msgstr ""
+msgstr "`output=glob/to/output.apk`"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:705
@@ -3122,7 +3145,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:707
 msgid "`novcheck=yes`"
-msgstr ""
+msgstr "`novcheck=yes`"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:712
@@ -3142,7 +3165,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:716
 msgid "‘Build Version:1.09.03,10903,45,subdir=Timeriffic,oldsdkloc=yes’"
-msgstr ""
+msgstr "‘Build Version:1.09.03,10903,45,subdir=Timeriffic,oldsdkloc=yes’"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md:719
