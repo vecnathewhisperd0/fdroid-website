@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-09-05 13:45+0000\n"
+"PO-Revision-Date: 2017-09-11 08:57+0000\n"
 "Last-Translator: ezjerry liao <ezjerry@gmail.com>\n"
 "Language-Team: Chinese (Traditional) "
 "<https://hosted.weblate.org/projects/f-droid/website-docs/zh_Hant/>\n"
@@ -124,6 +124,10 @@ msgid ""
 "to post on the forum) goes no further than us, and will not be used for "
 "anything other than allowing you to maintain your account."
 msgstr ""
+"F-Droid 尊重您的隱私權。我們不會追踪您或您的裝置。我們也不會追踪您安裝的內容。您不需要一個帳號就可在用戶端使用，並且在與我們的網路伺服器進行對話時"
+"，除了其版本號碼，不會發送其它的識別資料。我們甚至不允許您從追踪您的軟體倉庫安裝其它應用程式，除非您先啟用\"參數選擇\"的 AntiFeatures "
+"部分中的\"追踪\""
+"。您決定給我們的任何個人資料（例如您在論壇上發表時，註冊為帳號的電子郵件地址）除了允許您維護您的帳號之外，我們不會更進一步地用於任何其他事情。"
 
 #. type: Title ###
 #: build/_pages/md/about.md:21
@@ -805,6 +809,9 @@ msgid ""
 "if we already know about it, and/or report it, in [this issue tracker]"
 "(https://gitlab.com/fdroid/fdroidclient/issues)."
 msgstr ""
+"如果您遇到 F-Droid "
+"用戶端應用程式有問題，請在[問題追蹤](https://gitlab.com/fdroid/fdroidclient/issues) "
+"查對是否為已知問題，或是提出報告。"
 
 #. type: Plain text
 #: build/_pages/md/issues.md:9
