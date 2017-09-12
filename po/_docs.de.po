@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-09-09 16:48+0000\n"
+"PO-Revision-Date: 2017-09-13 16:46+0000\n"
 "Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/de/>\n"
@@ -1984,11 +1984,18 @@ msgid ""
 "linking to the other app IDs. Useful when an app switches package name, or "
 "when you want an app to act as multiple apps."
 msgstr ""
+"Komma-getrennte Liste der Anwendungs-IDs, die diese App mitbringt. In "
+"anderen Worten, hat der Anwender eine App mit einer dieser IDs installiert, "
+"wird F-Droid stattdessen diese App als installiert anzeigen. Sie wird auch "
+"erscheinen, wenn der Nutzer eine URL aufruft, die auf die anderen App-IDs "
+"verweist. Praktisch, wenn eine App den Paketnamen wechselt oder wenn eine "
+"App mehrfach auftreten soll."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:180
+#, fuzzy
 msgid "Currently this functionality is a stub."
-msgstr ""
+msgstr "Derzeit ist die Funktion ein Platzhalter."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:182
