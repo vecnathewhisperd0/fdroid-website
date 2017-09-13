@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-08-16 19:48+0000\n"
+"PO-Revision-Date: 2017-09-14 13:52+0000\n"
 "Last-Translator: tenzin tselek <omaahum99@yahoo.in>\n"
 "Language-Team: Tibetan <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/bo/>\n"
@@ -1476,6 +1476,11 @@ msgid ""
 "in the logs/ directory. If that isn’t illuminating, try building the app the "
 "regular way, step by step: android update project, ndk-build, ant debug."
 msgstr ""
+"གལ་ཏེ་བཟོ་སྐྲུན་བྱས་པ་དེ་ལེགས་གྲུབ་མ་བྱུང་། ཐོ་གཞུང་དང་ཡང་ན་ཕྱོགས་དེབ་ནང་ཕྱིར"
+"་སྟོན་བྱས་པའི་ནང་ལྟ་ཞིབ་བྱས་ཏེ་རྒྱུ་མཚན་གང་ཡིན་རྕད་གཅོད་ཐུབ། "
+"གལ་ཏེ་དེས་ཡིད་དབང་མ་འཕྲོག་ན། "
+"རིམ་པ་བཞིན་དུ་རྒྱུན་གཏན་གྱི་ཐོག་ནས་མཉེན་ཆས་བཟོ་ཐབས་བྱེད་དགོས། "
+":ཨེན་ཀྲོཌ་གསར་བསྒྱུར་ལས་འཆར། ndk-བཟོ་སྐྲུན། ant སྐྱོན་སེལ།"
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md:138
@@ -1485,6 +1490,11 @@ msgid ""
 "that all such prebuilts are built either via the metadata or by a reputable "
 "third party."
 msgstr ""
+"ཐུགས་གནང་དགོས་པ་ལ། "
+"འབྱུང་ཁུང་ཨང་རྟགས་མཛོད་ཁང་ནང་སྔོན་ཚོད་ནས་བཟོས་པའི་དྲ་མཛོད་ཡང་སེ་ཉར་གྱི་ཡོད། "
+"གལ་ཏེ་མཉེས་ཆས་འདི་ཨེཕ་རོཌ་མཛོད་ཁང་ཨ་མའི་ཆེད་དུ་དམིགས་པ་ཞིག་ཡིན་ན། སྔོན་ཚོད་ཀྱ"
+"ི་བཟོ་སྐྲུན་ཚང་མ་ཡང་ན་རྒྱབ་ལྗོངས་ཀྱི་ཡིག་ཆ་འམ་ཡང་ན་མིང་ཡོད་པའི་ཚོགས་སྡེ་གསུམ་"
+"པ་ཞིག་རྒྱུད་དེ་བཟོ་སྐྲུན་བྱེད་དགོས།"
 
 #. type: Title ###
 #: build/_docs/md/Building_Applications.md:140
@@ -2257,6 +2267,11 @@ msgid ""
 "according srclib .txt file. For example if `scrlibs/FooBar.txt` exist and "
 "you want to use this srclib, then you have to set Repo to `FooBar`."
 msgstr ""
+"གལ་ཏེ་རེ་པོ་གི་དབྱེ་བ་དེ་`srclib`ཡིན་ན། "
+"ཁྱེད་རང་གིས་ངེས་པར་དུ་མིང་དེ་དམིགས་སུ་བཀར་ནས་srclib .txt "
+"གི་ཡིག་ཆ་དང་མཐུན་པ་དགོས། དཔེར་ན། གལ་ཏེ་`scrlibs/FooBar.txt` "
+"འདི་ཡོད་པ་དང་srclibབེད་སྤྱོད་གཏོང་འདོད་ཡོད་ན། "
+"ཁྱེད་རང་གིས་རེ་པོ་དེ་`FooBar`ལ་སྒྲིག་བཀོད་བྱེད།"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md:367
@@ -2298,6 +2313,9 @@ msgid ""
 "automatically build from source. The value is a comma-separated list.  For "
 "example:"
 msgstr ""
+"ཁྱབ་ཁོངས་འདིའི་ནང་གི་ཨང་གྲངས་གང་འདྲ་ཞིག་ཡིན་རུང་ད་ཆ་ཡོད་བཞིན་པ་ཞིག་དང། དེ་དག་"
+"རེ་རེ་ཡིས་ཐོན་རིམ་རེ་ལ་དམིགས་སུ་བཀར་ནས་འབྱུང་ཁུངས་ནས་བཟོ་སྐྲུན་རང་འགུལ་གྱིས་བ"
+"ཟོ་སྐྲུན་བྱས་ཡོད། འདིའི་རིན་ཐང་ནི་comma-separated ཐོ་གཞུང་རེད། དཔེར་ན།:"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:390
@@ -2320,6 +2338,10 @@ msgid ""
 "further parameters can be added (in name=value format) to apply further "
 "configuration to the build. These are (roughly in order of application):"
 msgstr ""
+"གསུམ་གྱི་སྒང་ལ་ཁ་སྣོན་བྱས་ནས། རྟག་ཏུ་དགོས་པ། "
+"ཁྱབ་ཚད་དེ་གོང་ལ་འགྲེལ་བཤད་རྒྱབ་ཡོད། ཁྱབ་ཚད་རྣམས་མུ་མཐུད་ (མིང་ནང=སྒྲིག་བཀོད་ཀ"
+"ྱི་རིན་ཐང་།)དེ་བཟོ་སྐྲུན་བྱས་པའི་སྒྲིག་བཀོད་ལ་ཁ་སྣོན་བྱེད་ཆོག "
+"འདི་དག་(མཉེན་ཆས་ཀྱི་གོ་རིམ་རོབ་ཙམ་སྒྲིག་ཡོད།)"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:401
@@ -2401,6 +2423,8 @@ msgid ""
 ":   As for ’prebuild’, but runs on the source code BEFORE any other\n"
 "    processing takes place.\n"
 msgstr ""
+"སྔོན་ཚོད་བཟོ་སྐྲུན་ཡིན་ན་འཁོར་སྐྱོད་བྱེད་པའི་འབྱུང་ཁུངས་ཨང་རྟགས་རྣམས་ལས་ཀ་མ་བ"
+"ྱས་གོང་ནས་ཡོང་གི་ཡོད།\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:435
@@ -2416,7 +2440,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:437
 msgid "`oldsdkloc=yes`"
-msgstr ""
+msgstr "`oldsdkloc=རེད།"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:443
@@ -2428,12 +2452,18 @@ msgid ""
 "    lines of: \"com.android.ant.SetupTask cannot be found\" when trying to\n"
 "    build, then try enabling this option.\n"
 msgstr ""
+":རེ་པོ་ནང་གི་sdk བསྟི་གནས་འདི་བཟོ་བཀོད་རྙིང་པ་རེད་འདུག ཡང་ན་build.xml\n"
+"ཀྱིས་རེ་བ་འདི་འདྲ་ཞིག་བྱེད་ཀྱི་འདུག "
+"བཟོ་བཀོད་གསར་པ་sdk.dirའདི་རེད་ལ་འོན་ཀྱང་ཧ་ཅང་གི་རྙིང་པའི་བཟོ་བཀོེ་འདི་\n"
+"sdk-locationརེད། གལ་ཏེ་ཁྱེད་རང་ལ་འཕྲིན་ཐུང་འདི་འདྲ་བ་\""
+"com.android.ant.SetupTask cannot be found\" ཞིག་ཐོན་ཚེ།\n"
+"བཟོ་སྐྲུན་བྱས་པའི་སྐབས་གདམ་ཀ་འདི་སྒོ་ཕྱེས།\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:445
 #, no-wrap
 msgid "`target=<target>`\n"
-msgstr ""
+msgstr "འབེན།=<target>`\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:452
@@ -2446,6 +2476,14 @@ msgid ""
 "    the target SDK in the AndroidManifest.xml, which determines the\n"
 "    level of features that can be included in the build.\n"
 msgstr ""
+"ཕྱོགས་སྒྲིག་བྱས་པའི་སྐབས་སུ་དམིགས་སུ་བཀར་ནས་SDKའབེན་བྱེ་བྲག་པ་སྟོན། "
+"མཉེས་ཆས་ཨ་མའི་ལམ་གྱི་ཨང་རྟགས་ནང་གི་ཨང་གྲངས་འདི་སྐྱར་བྲིས་\n"
+"བྱེད་དགོས། བཟོ་སྐྲུན་བྱས་པའི་འགྲོ་ལུགས་བེད་སྤྱོད་ལ་བརྟེན་ནས་འདི་ལ་གྲུབ་འབྲས་མ"
+"ི་འདྲ་ཐོན་གྱི་ཡོད། - དར་ཆོག་དེས་ད་ལྟ་ཡོད་བཞིན་པའི་ Ant, Maven དང་Gradle "
+"ལས་འཆར་ཁ་ོནར་འགྱུར་བ་བཏང་གི་ཡོད། ཐུགས་གནང་དགོས་པ་ཞིག་ལ་AndroidManifest.xml "
+"ནང་གི་SDK འབེན་ལ་བསྒྱུར་བ་འགྲོ་གི་མེད།\n"
+"འདིས་བཟོ་སྐྲུན་ཁོངས་སུ་ཚུད་པའི་ཁྱད་ཆོས་ཀྱི་བག་རིམ་ཐག་གཅོད་བྱེད་ཀྱི་ཡོད་པ་རེད།"
+"\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:458
@@ -2457,12 +2495,17 @@ msgid ""
 "    android file or doesn’t already exist, but not a good idea if it’s\n"
 "    heavily customised.\n"
 msgstr ""
+"    Ant ལས་འཆར་ལ་མཚོན་ན། "
+"འདིས་མཉེན་ཆས་དང་ཡན་ལག་གི་ལས་འཆར་གྱི་ཁྱད་ཆོས་རྣམས་ལ་བསྒྱུར་བ་བཏང་གི་ཡོད། \n"
+"འདིས་build.xmlཆ་ཚང་སྐྱར་དུ་བྲིས་དགོས་པ་བྱུང་གི་རེད། "
+"གལ་ཏེ་འདི་ཨེན་ཀྲོཌ་གི་ཡིག་ཆ་དང་ཡང་ན་སྔོན་ཚོད་ནས་མེད་ཞིག་ཡིན་ན་འགྲིག་ཀྱང་། \n"
+"སོ་སོ་རང་གིས་བསྒྱུར་བཅོས་མང་པོ་བཏང་ཡོད་ན་ཡག་ཡོང་གི་མ་རེད།\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:460
 #, no-wrap
 msgid "`update=<auto/dirs>`\n"
-msgstr ""
+msgstr "གསར་བསྒྱུར་། =<auto/dirs>`\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:465
@@ -2473,6 +2516,11 @@ msgid ""
 "    update=no bypasses that. Note that this is useless in builds that\n"
 "    don’t use Ant.\n"
 msgstr ""
+"སོར་བཞག་རྒྱུད་དེ། Ant "
+"བཟོ་སྐྲུན་གྱི་ནང་ལ་ཨེན་ཀྲོཌ་གསར་བསྒྱུར་བེད་སྤྱོད་བྱས་པའམ་\n"
+"ཡང་ན་ལས་འཆར་དང་དེའི་འབྲེལ་ཡོད་ཀྱི་ལས་འཆར་ཚང་མ་གསར་བསྒྱུར་བྱེད་། "
+"དམིགས་སུ་བཀར་ནས་གསར་བསྒྱུར། = གོང་གི་དེ་ལས་ཀ་བྱེད་ཀྱི་མེད། \n"
+"དོ་སྣང་བྱེད་དགོས་པ་ལ་Ant བེད་སྤྱོད་མ་བྱས་ན་བཟོ་སྐྲུན་འདི་བེད་སྤྱོད་མེད།\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:468
@@ -2489,11 +2537,14 @@ msgid ""
 "    Otherwise, the value can be a comma-separated list of directories in\n"
 "    which to run ’android update’ relative to the application directory.\n"
 msgstr ""
+"    ཡིན་ཀྱང་། ཚད་གཞི་འདི་ཕྱོགས་དེབ་ནང་གི་བར་མཚམས་ཐོ་གཞུང་ནང་ཡོད། \n"
+"འདིས་ཨེན་ཀྲོཌ་གསར་བསྒྱུར་འཁོར་སྐྱོད་བྱས་ཤིང་མཉེས་ཆས་ཕྱོགས་དེབ་དང་འབྲེལ་བ་ཡོད།"
+"\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:473
 msgid "`encoding=xxxx`"
-msgstr ""
+msgstr "`བསྒྱུར་བ།=xxxx`"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:479
@@ -2508,8 +2559,9 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:481
+#, fuzzy
 msgid "`forceversion=yes`"
-msgstr ""
+msgstr "`forceversion=yes`"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:484
@@ -2518,6 +2570,8 @@ msgid ""
 ":   If specified, the package version in AndroidManifest.xml is replaced\n"
 "    with the version name for the build as specified in the metadata.\n"
 msgstr ""
+":གལ་ཏེ་དམིགས་སུ་བཀར་ན། AndroidManifest.xml ནང་གི་ཐུམ་སྒྲིག་བྱས་པའི་ཐོན་རིམ་འད"
+"ི་དམིགས་སུ་བཀར་བའི་རྒྱབ་ལྗོངས་ཐོན་རིམ་དང་མཉམ་དུ་གོ་ས་བརྗེས་།\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:490
@@ -2533,7 +2587,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:492
 msgid "`forcevercode=yes`"
-msgstr ""
+msgstr "`forcevercode=རེད།`"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:495
@@ -2545,9 +2599,9 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:497
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "`rm=<path1>[,<path2>,...]`\n"
-msgstr ""
+msgstr "`rm=<path1>[,<path2>,...]`\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:503
@@ -2567,12 +2621,14 @@ msgid ""
 "    Multiple files/directories can be specified by separating them with\n"
 "    ’,’. Directories will be recursively deleted.\n"
 msgstr ""
+"    དམིགས་སུ་བཀར་བའི་ཡིག་ཆ་སྣ་མང་/ཕྱོགས་དེབ་རྣམས་འདི་དག་དང་ཁ་ཕྲལ་ནས\n"
+" ’,’.ཕྱོགས་དེབ་ནང་ཡོད་པའི་ཡིག་ཆ་ཚང་མ་སུབས་ཀྱི་རེད།\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:508
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "`extlibs=<lib1>[,<lib2>,...]`\n"
-msgstr ""
+msgstr "`extlibs=<lib1>[,<lib2>,...]`\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:512
