@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-09-11 08:57+0000\n"
+"PO-Revision-Date: 2017-09-15 10:45+0000\n"
 "Last-Translator: ezjerry liao <ezjerry@gmail.com>\n"
 "Language-Team: Chinese (Traditional) "
 "<https://hosted.weblate.org/projects/f-droid/website-docs/zh_Hant/>\n"
@@ -124,8 +124,8 @@ msgid ""
 "to post on the forum) goes no further than us, and will not be used for "
 "anything other than allowing you to maintain your account."
 msgstr ""
-"F-Droid 尊重您的隱私權。我們不會追踪您或您的裝置。我們也不會追踪您安裝的內容。您不需要一個帳號就可在用戶端使用，並且在與我們的網路伺服器進行對話時"
-"，除了其版本號碼，不會發送其它的識別資料。我們甚至不允許您從追踪您的軟體倉庫安裝其它應用程式，除非您先啟用\"參數選擇\"的 AntiFeatures "
+"F-Droid 尊重您的隱私權。我們不會追踪您或您的裝置。我們也不會追踪您安裝的內容。您不需要帳號就可在用戶端使用，並且在與我們的網路伺服器進行對話時，除"
+"了其版本號碼，不會發送其它的識別資料。我們甚至不允許您從追踪您的軟體倉庫安裝其它應用程式，除非您先啟用\"參數選擇\"的 AntiFeatures "
 "部分中的\"追踪\""
 "。您決定給我們的任何個人資料（例如您在論壇上發表時，註冊為帳號的電子郵件地址）除了允許您維護您的帳號之外，我們不會更進一步地用於任何其他事情。"
 
@@ -1464,6 +1464,19 @@ msgid ""
 "Update-Mode)  - [Current Version](#Current-Version)  - [Current Version Code]"
 "(#Current-Version-Code)  - [No Source Since](#No-Source-Since)"
 msgstr ""
+"- [分類](#Categories)  - [作者名稱](#Author-Name)  - [作者 Email](#Author-Email)  - "
+"[授權](#License)  - [自動名稱](#Auto-Name)  - [名稱](#Name)  - [提供](#Provides)  - [網站"
+"](#Web-Site)  - [原始碼](#Source-Code)  - [問題追蹤](#Issue-Tracker)  - "
+"[更新日誌](#Changelog)  - [捐助](#Donate)  - [FlattrID](#FlattrID)  - "
+"[Bitcoin](#Bitcoin)  - [Litecoin](#Litecoin)  - [Summary](#Summary)  - "
+"[說明](#Description)  - [維護者注解](#Maintainer-Notes)  - [軟體倉庫類型](#Repo-Type)  - "
+"[軟體倉庫](#Repo)  - [二進制](#Binaries)  - [構建](#Build)  - "
+"[AntiFeatures](#AntiFeatures)  - [停用](#Disabled)  - [要求 Root](#Requires-Root)"
+"  - [Archive Policy](#Archive-Policy)  - [更新檢查方式](#Update-Check-Mode)  - "
+"[忽略更新檢查](#Update-Check-Ignore)  - [驗證碼運算](#Vercode-Operation)  - [名稱更新檢查"
+"](#Update-Check-Name)  - [資料更新檢查](#Update-Check-Data)  - [自動更新模式](#Auto-"
+"Update-Mode)  - [目前版本](#Current-Version)  - [目前版本碼](#Current-Version-Code)  -"
+" [之前沒有來源](#No-Source-Since)"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md:85
@@ -2727,7 +2740,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md:719
 #, no-wrap
 msgid "7.23 AntiFeatures<a name=\"AntiFeatures\"></a>"
-msgstr ""
+msgstr "7.23 AntiFeatures<a name=\"AntiFeatures\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:726
@@ -2801,7 +2814,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md:750
 #, no-wrap
 msgid "This is converted to (`<antifeatures>`) in the XML file (_index.xml_).\n"
-msgstr ""
+msgstr "這是在 XML 檔案 (_index.xml_) 中轉換為 (`<antifeatures>`)。\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md:753
@@ -6667,6 +6680,8 @@ msgid ""
 "They will list a summary of any [AntiFeatures](https://f-droid.org/wiki/page/"
 "Antifeatures) in your application."
 msgstr ""
+"他們將會在您的應用程式裡列出任何 [AntiFeatures](https://f-droid.org/wiki/page/Antifeatures) "
+"的摘要。"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Inclusion_How-To.md:115
@@ -7672,6 +7687,8 @@ msgid ""
 "server guarantees that the resulting APK accurately represents the source "
 "code without any hidden anti-features."
 msgstr ""
+"F-Droid 伺服器不會直接在線上發佈 APK，反而 F-Droid 伺服器需要一個可構建的來源以構建一個 APK。這樣，伺服器就可以保證所合成的 "
+"APK 正確地展現原始碼，而不會有任何隱藏的 anti-features。"
 
 #. type: Plain text
 #: build/_docs/md/Repository_Style_Guide.md:25
