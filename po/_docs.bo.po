@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-09-14 13:52+0000\n"
+"PO-Revision-Date: 2017-09-15 16:50+0000\n"
 "Last-Translator: tenzin tselek <omaahum99@yahoo.in>\n"
 "Language-Team: Tibetan <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/bo/>\n"
@@ -2641,8 +2641,9 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:514
+#, fuzzy
 msgid "`srclibs=[n:]a@r,[n:]b@r1,...`"
-msgstr ""
+msgstr "`srclibs=[n:]a@r,[n:]b@r1,...`"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:519
@@ -2653,6 +2654,8 @@ msgid ""
 "    library name and rev is the revision or tag to use in the respective\n"
 "    source control.\n"
 msgstr ""
+"དཔེ་མཛོད་ཀྱི་འབྱུང་ཁུངས་སམ་ཡང་ན་ཨེན་ཀྲོཌ་ལས་འཆར་གྱི་བར་ཚེགས་ཀྱིས་ཁ་ཕྲལ་བའི་ཐོ"
+"་གཞུང་། རྣམ་གྲངས་རེ་རེ་བ་form name@revཡིན་ཞིང་། འདིའི་མིང་ནི་\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:526
@@ -2698,6 +2701,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md:562
 msgid "‘mavenCentral’ - the original repo, hardcoded in Maven and Gradle."
 msgstr ""
+"‘mavenCentral’རེ་པོ་དངོས་གནས།  Maven དང་ Gradle ནང་གི་འགྱུར་མེད་་ཀྱི་ཡིག་།"
 
 #. type: Bullet: '    -   '
 #: build/_docs/md/Build_Metadata_Reference.md:562
@@ -2731,17 +2735,18 @@ msgstr ""
 #. type: Bullet: '    -   '
 #: build/_docs/md/Build_Metadata_Reference.md:562
 msgid "‘Clojars’ - Clojure libraries repo."
-msgstr ""
+msgstr "‘Clojars’ - Clojure དཔེ་མཛོད་རེ་པོ།"
 
 #. type: Bullet: '    -   '
 #: build/_docs/md/Build_Metadata_Reference.md:562
 msgid "‘CommonsWare’ - repo holding a collection of open-source libs."
-msgstr ""
+msgstr "‘CommonsWare’ - open-source libs གྱི་ཕྱོགས་སྒྲིག་འཛིན་པའི་རེ་པོ།"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:564
+#, fuzzy
 msgid "`patch=x`"
-msgstr ""
+msgstr "`patch=x`"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:569
@@ -2755,8 +2760,9 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:571
+#, fuzzy
 msgid "`prebuild=xxxx`"
-msgstr ""
+msgstr "`prebuild=xxxx`"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:578
@@ -2774,7 +2780,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md:580
 #, no-wrap
 msgid "    The command runs using bash.\n"
-msgstr ""
+msgstr "    bash བེད་སྤྱོད་བྱས་ནས་བཀའ་ཁྱབ་གཏོང་།\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:585
