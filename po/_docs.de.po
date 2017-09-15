@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-09-13 16:46+0000\n"
+"PO-Revision-Date: 2017-09-16 11:08+0000\n"
 "Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/de/>\n"
@@ -2564,6 +2564,15 @@ msgid ""
 "    per-build variables are available likewise: \\$\\$VERSION\\$\\$,\n"
 "    \\$\\$VERCODE\\$\\$ and \\$\\$COMMIT\\$\\$.\n"
 msgstr ""
+"    \\$\\$SDK\\$\\$, \\$\\$NDK\\$\\$, \\$\\$MVN3\\$\\$ und \\$\\$QT\\$\\$ "
+"kann verwendet werden, um\n"
+"    die Pfade zu den Android-SDK- und NDK-Verzeichnissen, dem Maven 3-"
+"Programm\n"
+"    bzw. dem Qt-SDK-Verzeichnis zu ersetzen. Die folgenden Variablen je "
+"Build\n"
+"    stehen ebenfalls zur Verfügung: \\$\\$VERSION\\$\\$, \\$\\$VERCODE\\$\\$ "
+"\n"
+"    und \\$\\$COMMIT\\$\\$.\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:437
@@ -2580,6 +2589,13 @@ msgid ""
 "    lines of: \"com.android.ant.SetupTask cannot be found\" when trying to\n"
 "    build, then try enabling this option.\n"
 msgstr ""
+":   Der SDK-Ort im Repo ist in einem alten Format, oder build.xml\n"
+"    erwartet ein solches. Das ’neue’ Format ist „sdk.dir“, während das SEHR "
+"ALTE\n"
+"    Format „sdk-location“ ist. Wird beim Herstellungsversuch eine Meldung  \n"
+"    ähnlich wie: \"com.android.ant.SetupTask cannot be found\" ausgegeben, \n"
+"    dann sollte typischerweise die Aktivierung dieser Option versucht werden."
+"\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:445
@@ -2589,7 +2605,7 @@ msgstr "`target=<target>`\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:452
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 ":   Specifies a particular SDK target for compilation, overriding the\n"
 "    value defined in the code by upstream. This has different effects\n"
@@ -2598,10 +2614,20 @@ msgid ""
 "    the target SDK in the AndroidManifest.xml, which determines the\n"
 "    level of features that can be included in the build.\n"
 msgstr ""
+":   Gibt eine bestimmte SDK-Zielvorgabe für die Kompilierung an, durch "
+"vorgeschaltetes\n"
+"    Überschreiben des im Code festgelegten Wertes. Abhängig vom verwendeten "
+"Build-System\n"
+"    hat dies verschiedene Auswirkungen — dieses Kennzeichen beeinflusst "
+"momentan\n"
+"    nur Ant-, Maven- und Gradle-Projekte. Zu beachten ist, dass es nicht \n"
+"    das Ziel-SDK in „AndroidManifest.xml“ verändert, das das Ausmaß der "
+"Funktionen,\n"
+"    die ins Build eingeschlossen werden können, bestimmt.\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:458
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "    In the case of an Ant project, it modifies project.properties of the\n"
 "    app and possibly sub-projects. This is likely to cause the whole\n"
@@ -2609,6 +2635,14 @@ msgid ""
 "    android file or doesn’t already exist, but not a good idea if it’s\n"
 "    heavily customised.\n"
 msgstr ""
+"    Im Falle eines Ant-Projekts modifiziert es „project.properties“ der App\n"
+"    und eventueller Unterprojekte. Dies bewirkt wahrscheinlich, dass "
+"„build.xml“\n"
+"    komplett neu geschrieben wird, was in Ordnung geht, wenn es eine "
+"’Standard’-\n"
+"    Android-Datei ist oder sie ohnehin nicht existiert, aber keine gute Idee "
+"ist, wenn\n"
+"    sie intensiv bearbeitet wurde.\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:460
@@ -2625,22 +2659,36 @@ msgid ""
 "    update=no bypasses that. Note that this is useless in builds that\n"
 "    don’t use Ant.\n"
 msgstr ""
+":   In Ant-Builds wird standardmäßig ’android update’ verwendet, um das "
+"Projekt\n"
+"    und alle Projekte, auf die es verweist, zu erzeugen oder zu "
+"aktualisieren. Die Angabe\n"
+"    von „update=no“ umgeht das. Zu beachten ist, dass das in Builds, die "
+"kein Ant verwenden,\n"
+"    nutzlos ist.\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:468
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "    Default value is ’`auto`’, which recursively uses the paths in\n"
 "    project.properties to find all the subprojects to update.\n"
 msgstr ""
+"    Der Standardwert ist ’`auto`’, der rekursiv die Pfade in "
+"„project.properties“\n"
+"    nutzt, um alle zu aktualisierenden Unterprojekte zu finden.\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:471
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "    Otherwise, the value can be a comma-separated list of directories in\n"
 "    which to run ’android update’ relative to the application directory.\n"
 msgstr ""
+"    Ansonsten kann der Wert eine durch Komma getrennte Liste von "
+"Verzeichnissen sein,\n"
+"    in denen ’android update’ relativ zum Anwendungsverzeichnis ausgeführt "
+"werden soll.\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:473
@@ -2649,7 +2697,7 @@ msgstr "`encoding=xxxx`"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:479
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 ":   Adds a java.encoding property to local.properties with the\n"
 "    given value. Generally the value will be ’utf-8’. This is picked up\n"
@@ -2657,6 +2705,15 @@ msgid ""
 "    source files with this encoding. If you receive warnings during the\n"
 "    compile about character encodings, you probably need this.\n"
 msgstr ""
+":   Fügt eine „java.encoding“-Eigenschaft mit dem angegebenen Wert\n"
+"    in „local.properties“ ein. Im Allgemeinen wird der Wert ’utf-8’ sein. "
+"Dieser wird\n"
+"    von den Ant-Regeln des SDK übernommen, und zwingt den Java-Compiler, "
+"die\n"
+"    Quelldateien mit dieser Kodierung zu interpretieren. Werden während der "
+"Kompilierung\n"
+"    Warnungen zur Zeichenkodierung ausgegeben, wird dies möglicherweise "
+"benötigt.\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:481
