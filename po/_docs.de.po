@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-09-16 11:14+0000\n"
-"Last-Translator: anonymous <>\n"
+"PO-Revision-Date: 2017-09-16 11:15+0000\n"
+"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/de/>\n"
 "Language: de\n"
@@ -2550,7 +2550,7 @@ msgstr "`submodules=yes`"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:424
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 ":   Use if the project (git only) has submodules - causes\n"
 "    `git submodule update --init --recursive` to be executed after the\n"
