@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-09-16 11:15+0000\n"
-"Last-Translator: anonymous <>\n"
+"PO-Revision-Date: 2017-09-17 23:05+0000\n"
+"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/de/>\n"
 "Language: de\n"
@@ -2746,14 +2746,14 @@ msgstr "`forceversion=yes`"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:484
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 ":   If specified, the package version in AndroidManifest.xml is replaced\n"
 "    with the version name for the build as specified in the metadata.\n"
 msgstr ""
 ":   Wenn angegeben, wird die Paketversion in AndroidManifest.xml durch\n"
 "    die in den Metadaten festgelegte Versionsbezeichnung für das Build "
-"ersetzt."
+"ersetzt.\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:490
