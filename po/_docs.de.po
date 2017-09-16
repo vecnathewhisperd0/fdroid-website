@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-09-16 11:08+0000\n"
-"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
+"PO-Revision-Date: 2017-09-16 11:09+0000\n"
+"Last-Translator: anonymous <>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/de/>\n"
 "Language: de\n"
@@ -3235,7 +3235,7 @@ msgstr "‘Build Version:1.09.03,10903,45,subdir=Timeriffic,oldsdkloc=yes’"
 #: build/_docs/md/Build_Metadata_Reference.md:719
 #, no-wrap
 msgid "7.23 AntiFeatures<a name=\"AntiFeatures\"></a>"
-msgstr ""
+msgstr "7.23 Unfreie Merkmale<a name=\"AntiFeatures\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:726
@@ -3245,11 +3245,15 @@ msgid ""
 "a good idea to mention the reasons for the anti-feature(s) in the "
 "description:"
 msgstr ""
+"Dies ist optional - wenn vorhanden, enthält es eine durch Komma getrennte "
+"Liste mit jedem der folgenden Werte, die ein unfreies Merkmal beschreiben, "
+"das die Anwendung besitzt.  Es empfiehlt sich, die Gründe für unfreie "
+"Merkmale in der Beschreibung zu erläutern:"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Build_Metadata_Reference.md:748
 msgid "‘Ads’ - the application contains advertising."
-msgstr ""
+msgstr "‘Ads’ - die Anwendung enthält Werbung."
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Build_Metadata_Reference.md:748
@@ -3259,6 +3263,10 @@ msgid ""
 "logs without the user’s consent, or when an app is useless without some kind "
 "of authentication."
 msgstr ""
+"‘Tracking’ - die Anwendung verfolgt und übermittelt irgendwo hin "
+"Anwenderaktivitäten ohne dessen Zustimmung. Wird für gewöhnlich verwendet, "
+"wenn Entwickler Absturzberichte ohne Anwenderzustimmung abrufen, oder wenn "
+"eine App ohne eine Form der Authentifizierung unbrauchbar ist."
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Build_Metadata_Reference.md:748
@@ -3267,6 +3275,9 @@ msgid ""
 "impossible to replace or that the replacement cannot be connected to without "
 "major changes to the app."
 msgstr ""
+"‘NonFreeNet’ - die Anwendung ist auf Rechnerdienste angewiesen, die "
+"unmöglich ersetzt werden können oder der Ersatz kann sich, ohne gravierende "
+"Veränderungen an der App, nicht damit verbinden."
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Build_Metadata_Reference.md:748
