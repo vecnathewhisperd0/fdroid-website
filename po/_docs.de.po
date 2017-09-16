@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-09-16 11:09+0000\n"
-"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
+"PO-Revision-Date: 2017-09-16 11:12+0000\n"
+"Last-Translator: anonymous <>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/de/>\n"
 "Language: de\n"
@@ -1594,6 +1594,9 @@ msgid ""
 "Once you have that setup, you can build the most recent version of the app "
 "using the whole FDroid stack by running:"
 msgstr ""
+"Sind diese Vorgaben erfüllt, kann die Herstellung der aktuellsten Version "
+"der App unter Nutzung des gesamten F-Droid-Funktionsumfanges folgendermaßen "
+"erfolgen:"
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md:155
@@ -3286,6 +3289,8 @@ msgid ""
 "‘NonFreeAdd’ - the application promotes non-free add-ons, such that the app "
 "is effectively an advert for other non-free software."
 msgstr ""
+"‘NonFreeAdd’ - die Anwendung bewirbt unfreie Erweiterungen, so dass die App "
+"gewissermaßen zum Werbeträger für andere nicht freie Software wird."
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Build_Metadata_Reference.md:748
@@ -3294,6 +3299,9 @@ msgid ""
 "Google Maps) - i.e. it requires it to be installed on the device, but does "
 "not include it."
 msgstr ""
+"‘NonFreeDep’ - die Anwendung hängt von einer unfreien Anwendung ab (z. B. "
+"Google Maps) - d. h. deren Installation auf dem Gerät ist erforderlich, sie "
+"ist aber nicht enthalten."
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Build_Metadata_Reference.md:748
@@ -3303,6 +3311,10 @@ msgid ""
 "it has been patched in some way to remove the non-free code. However, "
 "functionality may be missing."
 msgstr ""
+"‘UpstreamNonFree’ - die Anwendung ist unfreie Software oder beruht auf ihr. "
+"Das bedeutet nicht, dass die App nicht freie Software beinhaltet: Am "
+"wahrscheinlichsten erfolgte in irgendeiner Weise ein Patch, um den unfreien "
+"Code zu entfernen. Allerdings könnten Funktionen abhanden gekommen sein."
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Build_Metadata_Reference.md:748
@@ -3311,11 +3323,14 @@ msgid ""
 "The most common case is apps using artwork - images, sounds, music, etc - "
 "under a non-commercial license."
 msgstr ""
+"‘NonFreeAssets’ - die Anwendung enthält oder gebraucht unfreien Besitz. Der "
+"gebräuchlichste Fall ist, dass Apps Kunst - Bilder, Klänge, Musik usw. "
+"verwenden, die einer nicht kommerziellen Lizenz unterliegen."
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Build_Metadata_Reference.md:748
 msgid "‘KnownVuln’ - the application has known security vulnerabilities."
-msgstr ""
+msgstr "‘KnownVuln’ - die Anwendung hat bekannte Sicherheitslücken."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:750
