@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
 "PO-Revision-Date: 2017-09-16 11:09+0000\n"
-"Last-Translator: anonymous <>\n"
+"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/de/>\n"
 "Language: de\n"
@@ -3270,6 +3270,7 @@ msgstr ""
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Build_Metadata_Reference.md:748
+#, fuzzy
 msgid ""
 "‘NonFreeNet’ - the application relies on computational services that are "
 "impossible to replace or that the replacement cannot be connected to without "
