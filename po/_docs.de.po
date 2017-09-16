@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-09-16 11:12+0000\n"
-"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
+"PO-Revision-Date: 2017-09-16 11:13+0000\n"
+"Last-Translator: anonymous <>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/de/>\n"
 "Language: de\n"
@@ -2466,6 +2466,9 @@ msgid ""
 "automatically build from source. The value is a comma-separated list.  For "
 "example:"
 msgstr ""
+"Es kann eine beliebige Anzahl dieser Felder vorhanden sein, von denen jedes "
+"eine Version angibt, die aus der Quelle automatisch erstellt werden soll. "
+"Der Wert entspricht einer durch Kommas getrennten Liste.  Zum Beispiel:"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:390
@@ -2488,6 +2491,10 @@ msgid ""
 "further parameters can be added (in name=value format) to apply further "
 "configuration to the build. These are (roughly in order of application):"
 msgstr ""
+"Neben den drei oben beschriebenen, immer erforderlichen Parametern, können "
+"weitere Parameter (im Format: Name=Wert) hinzugefügt werden, um weitere "
+"Build-Konfigurationsmerkmale anzuwenden. Diese sind (grob in der Reihenfolge "
+"ihrer Anwendung):"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:401
