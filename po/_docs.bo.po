@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-09-19 19:48+0000\n"
+"PO-Revision-Date: 2017-09-21 17:55+0000\n"
 "Last-Translator: tenzin tselek <omaahum99@yahoo.in>\n"
 "Language-Team: Tibetan <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/bo/>\n"
@@ -3872,6 +3872,8 @@ msgid ""
 "In addition to carefully following the steps described there, you should "
 "consider the following:"
 msgstr ""
+"ཟབ་ཟབ་ཀྱི་ངང་ནས་འགྲེལ་བཤད་རྒྱབ་པའི་བང་རིམ་རྣམས་ཤེས་པ་ལ། "
+"གཤམ་གྱི་དོན་རྣམས་ཡིད་ལ་འཇགས་དགོས།"
 
 #. type: Bullet: '1.  '
 #: build/_docs/md/Build_Server_Setup.md:145
@@ -3907,7 +3909,7 @@ msgstr ""
 #: build/_docs/md/Build_Server_Setup.md:156
 #, no-wrap
 msgid "Creating the F-Droid base box"
-msgstr ""
+msgstr "ཨེཕ་རོཌ་བེས་སྒམ་བཟོ་བཞིན་པ།"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md:165
@@ -3923,8 +3925,9 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md:169
+#, fuzzy
 msgid "```bash ./makebuildserver ```"
-msgstr ""
+msgstr "```bash ./makebuildserver ```"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md:176
@@ -3956,11 +3959,14 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md:196
+#, fuzzy
 msgid ""
 "```bash cd /path/to/android-sdk/platforms tar czf android-19.tar.gz "
 "android-19 mv android-19.tar.gz /path/to/buildserver/addons/cache/platforms/ "
 "```"
 msgstr ""
+"```bash cd /path/to/android-sdk/platforms tar czf android-19.tar.gz android-"
+"19 mv android-19.tar.gz /path/to/buildserver/addons/cache/platforms/ ```"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md:199
@@ -3968,16 +3974,24 @@ msgid ""
 "If you have already built a buildserver it is also possible to get this "
 "files directly from the buildserver:"
 msgstr ""
+"གལ་ཏེ་ཁྱེད་རང་གིས་སྔོན་ཚོད་ནས་བཟོ་སྐྲུན་ཞབས་ཞུ་འཕྲུལ་ཆས་བཟོས་ཚར་པ་ཡིན་ན། "
+"བཟོ་སྐྲུན་ཞབས་ཞུ་འཕྲུལ་ཆས་ནས་ཐད་ཀར་ཡིག་ཆ་དེ་དག་རག་ཐུབ།"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md:204
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "```bash\n"
 "vagrant ssh -- -C 'tar -C ~/android-sdk/platforms czf android-19.tar.gz android-19'\n"
 "vagrant ssh -- -C 'cat ~/android-sdk/platforms/android-19.tar.gz' > /path/to/fdroidserver/buildserver/cache/platforms/android19.tar.gz\n"
 "```\n"
 msgstr ""
+"```bash\n"
+"vagrant ssh -- -C 'tar -C ~/android-sdk/platforms czf android-19.tar.gz "
+"android-19'\n"
+"vagrant ssh -- -C 'cat ~/android-sdk/platforms/android-19.tar.gz' > "
+"/path/to/fdroidserver/buildserver/cache/platforms/android19.tar.gz\n"
+"```\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md:209
@@ -4002,7 +4016,7 @@ msgstr ""
 #: build/_docs/md/Build_Server_Setup.md:217
 #, no-wrap
 msgid "Running builds"
-msgstr ""
+msgstr "བཟོ་སྐྲུན་རྣམས་འཁོར་སྐྱོད་བྱེད་བཞིན་པ།"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md:220
@@ -4020,19 +4034,24 @@ msgstr ""
 msgid ""
 "Now you are ready to run builds. Test by building the latest fdroid version:"
 msgstr ""
+"ད་ཁྱེད་རང་གི་བཟོ་སྐྲུན་འཁོར་སྐྱོད་བྱེད་ཆོག་ཆོག་རེད། "
+"ཨེཕ་རོཌ་ཐོན་རིམ་གསར་ཤོས་བཟོས་ནས་ཚོད་ལྟ་བྱེད།"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md:227
+#, fuzzy
 msgid ""
 "```bash fdroid:~/fdroidserver$ cd ~/fdroiddata fdroid:~/fdroiddata$ ~/"
 "fdroidserver/fdroid build org.fdroid.fdroid -l --server ```"
 msgstr ""
+"```bash fdroid:~/fdroidserver$ cd ~/fdroiddata fdroid:~/fdroiddata$ "
+"~/fdroidserver/fdroid build org.fdroid.fdroid -l --server ```"
 
 #. type: Title ##
 #: build/_docs/md/Build_Server_Setup.md:228
 #, no-wrap
 msgid "Optionally using QEMU/KVM/libvirt instead of VirtualBox"
-msgstr ""
+msgstr "གདམ་ཀ་བྱས་ནས་ QEMU/KVM/libvirt ཀྱི་ཚབ་ལ་ VirtualBoxབེད་སྤྱོད་བྱེད།"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md:231
@@ -4045,12 +4064,17 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md:235
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "```bash\n"
 "root:~# apt-get install vagrant vagrant-mutate vagrant-libvirt ebtables dnsmasq-base \\\n"
 "  libvirt-clients libvirt-daemon libvirt-daemon-system qemu-kvm qemu-utils git\n"
 msgstr ""
+"```bash\n"
+"root:~# apt-get install vagrant vagrant-mutate vagrant-libvirt ebtables "
+"dnsmasq-base \\\n"
+"  libvirt-clients libvirt-daemon libvirt-daemon-system qemu-kvm qemu-utils "
+"git\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md:244
@@ -4085,27 +4109,34 @@ msgid ""
 "dynamic_ownership = 1\n"
 "EOF\n"
 msgstr ""
+"ཨ་མ་:~# cat << EOF >> /etc/libvirt/qemu.conf\n"
+"སྤྱོད་མཁན་ = \"libvirt\"\n"
+"ཚོགས་པ་ = \"libvirt\"\n"
+"dynamic_ownership = 1\n"
+"EOF\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md:254
 msgid "root:~# service libvirtd restart root:~# adduser fdroid libvirt ```"
 msgstr ""
+"ཨ་མ་:~# service libvirtd ཨ་མ་ཡང་སྐྱར་འགོ་འཛུགས་:~# adduser fdroid libvirt ```"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md:256
 msgid "Then create a _makebuildserver.config.py_ and add:"
-msgstr ""
+msgstr "དེ་ནས་བཟོས་_makebuildserver.config.py_ དང་ཁ་སྣོན།:"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md:260
+#, fuzzy
 msgid "```python vm_provider = 'libvirt' ```"
-msgstr ""
+msgstr "```python vm_provider = 'libvirt' ```"
 
 #. type: Title ###
 #: build/_docs/md/Build_Server_Setup.md:261
 #, no-wrap
 msgid "Advanced nested KVM Setup:"
-msgstr ""
+msgstr "རིམ་གོང་མའི་ nested KVM སྒྲིག་བཀོད་:"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md:266
@@ -4114,15 +4145,19 @@ msgid ""
 "want to run `fdroid build --server` flag inside a KVM, this chaper will help "
 "you getting started."
 msgstr ""
+"སྡེ་ཚན་འདི་ཨེཕ་རོཌ་ནང་གི་རྒྱུན་གཏན་གྱི་སྒྲིག་བཀོད་དང་འབྲེལ་བ་མིན་འདུག། "
+"གལ་ཏེ་ཁྱེད་རང་KVM ནང་ལ་`fdroid build --server "
+"དར་ཆོག་འཁོར་སྐྱོད་བྱེད་འདོད་ཡོད་ན། "
+"སློབ་ཚན་འདིས་ཁྱེད་རང་ལ་འདི་འགོ་འཛུགས་ཐུབ་པར་ཕན་ཐོགས་བྱེད་ཀྱི་རེད།"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md:268
 msgid "Consider following basic nesting setup:"
-msgstr ""
+msgstr "གཤམ་དུ་ཡོད་པའི་རྨང་གཞིའི་བང་རིམ་སྒྲིག་བཀོད་ལ་ཐུགས་གནང་དགོས།:"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md:274
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "```\n"
 "bare metal host (l0)\n"
@@ -4130,6 +4165,11 @@ msgid ""
 "   \\- F-Droid builder VM (l2)\n"
 "```\n"
 msgstr ""
+"```\n"
+"bare metal host (l0)\n"
+"\\- F-Droid VM (l1)\n"
+"   \\- F-Droid builder VM (l2)\n"
+"```\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md:276
@@ -4137,6 +4177,8 @@ msgid ""
 "The steps above describe how to setup (l1) and _makebuildserver_ sets up "
 "(l2)."
 msgstr ""
+"གོང་དུ་ཡོད་པའི་རིམ་པ་འདིས་སྒྲིག་བཀོད་གང་འདྲ་བྱེད་པའི་འགྲེལ་བཤད་རྒྱབ་པ་དང་(l1)"
+" དང་ _makebuildserver_ སྒྲིག་བཀོད། (l2)."
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md:280
@@ -4145,35 +4187,42 @@ msgid ""
 "amd) instruction set. You can use this command to list details about your "
 "cpu:"
 msgstr ""
+"ཐོག་མ་དེར་ཁྱེད་རང་གིས་cpu་ཀྱིས་ _vmx_ (or _svm_ on "
+"amd)ཀ་རོགས་པ་བྱེད་ཀྱི་ཡོད་མེད་ཚོད་ལྟ་ཞིག་བྱས་ནས་སློབ་སྟོན་སྒྲིག "
+"དེ་ནས་ཁྱེད་རང་གི་cpu ནང་གི་ཐོ་གཞུང་ཞིབ་ཕྲར་བཀའ་བཏང་ཏེ་བདེ་སྤྱོད་བྱེད།:"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md:284
+#, fuzzy
 msgid "```bash root:~# cat /proc/cpuinfo ```"
-msgstr ""
+msgstr "```bash root:~# cat /proc/cpuinfo ```"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md:286
 msgid "On (l0) you have to check that nesting is enabled:"
-msgstr ""
+msgstr "(l0)ཐོག་ལ། ཁྱེད་ཀྱིས་བང་རིམ་སྒྲིག་པ་དེ་སྒོ་ཕྱེས་མིན་ཚོད་ལྟ་བྱེད་དགོས།:"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md:290
 msgid "```bash root:~# cat /sys/module/kvm_intel/parameters/nested ```"
-msgstr ""
+msgstr "```bash root:~# cat /sys/module/kvm_intel/ཁྱབ་ཁོངས་/བང་རིམ་སྒྲིག ```"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md:292
 msgid "If it's not enabled you can turn it on by running:"
-msgstr ""
+msgstr "གལ་ཏེ་འདི་སྒོ་ཕྱེས་མེད་ན་ཁྱེད་རང་གིས་འཁོར་སྐྱོད་བྱས་ནས་ཁ་ཕྱེས།"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md:296
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "```bash\n"
 "echo \"options kvm-intel nested=Y\" > /etc/modprobe.d/kvm-intel.conf\n"
 "```\n"
 msgstr ""
+"```bash\n"
+"echo \"options kvm-intel nested=Y\" > /etc/modprobe.d/kvm-intel.conf\n"
+"```\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md:298
@@ -4191,7 +4240,7 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md:310
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "```xml\n"
 "<cpu mode='custom' match='exact'>\n"
@@ -4201,6 +4250,13 @@ msgid ""
 "</cpu>\n"
 "```\n"
 msgstr ""
+"```xml\n"
+"<cpu mode='custom' match='exact'>\n"
+"    <model fallback='allow'>SandyBridge</model>\n"
+"    <vendor>Intel</vendor>\n"
+"    <feature policy='require' name='vmx'/>\n"
+"</cpu>\n"
+"```\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md:315
@@ -4221,22 +4277,25 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md:320
+#, fuzzy
 msgid ""
 "- <https://jenkins.debian.net/job/"
 "reproducible_setup_fdroid_build_environment_profitbricks7/>"
 msgstr ""
+"- <https://jenkins.debian.net/job/reproducible_setup_fdroid_build_environment"
+"_profitbricks7/>"
 
 #. type: Title #
 #: build/_docs/md/Client_Bug_Reports.md:1
 #, no-wrap
 msgid "Client Bug Reports"
-msgstr ""
+msgstr "མཉེན་ཆས་སྐྱོན་སེལ་བའི་སྙན་ཐོ།"
 
 #. type: Title ###
 #: build/_docs/md/Client_Bug_Reports.md:3
 #, no-wrap
 msgid "What to include in a bug report"
-msgstr ""
+msgstr "ནོར་འཁྲུལ་གྱི་སྙན་ཐོའི་ནང་གང་དང་གང་ཚུད་ཡོད།"
 
 #. type: Plain text
 #: build/_docs/md/Client_Bug_Reports.md:6
@@ -4249,22 +4308,22 @@ msgstr ""
 #. type: Bullet: '* '
 #: build/_docs/md/Client_Bug_Reports.md:13
 msgid "F-Droid version (e.g. \"0.88\" or \"0.89-test\")"
-msgstr ""
+msgstr "ཨེཕ་རོཌ་ཐོན་རིམ་(e.g. \"0.88\" or \"0.89-test\")"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Client_Bug_Reports.md:13
 msgid "Android version (e.g. \"Lollipop\" or \"Android 5.0\")"
-msgstr ""
+msgstr "ཨེན་ཀྲོཌ་ཐོན་རིམ་ (e.g. \"Lollipop\" or \"Android 5.0\")"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Client_Bug_Reports.md:13
 msgid "Device (e.g. \"Nexus 4\")"
-msgstr ""
+msgstr "ཡོ་བྱད། (e.g. \"Nexus 4\")"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Client_Bug_Reports.md:13
 msgid "Steps to reproduce the bug"
-msgstr ""
+msgstr "ཡང་སྐྱར་ནོར་འཁྲུལ་བཟོས་པའི་རིམ་པ།"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Client_Bug_Reports.md:13
@@ -4272,17 +4331,20 @@ msgid ""
 "A logcat from when the crash occured ([Getting logcat messages after crash]"
 "(../Getting_logcat_messages_after_crash))"
 msgstr ""
+"འཕྲོ་བརླག་ཕྱིན་པའི་སྐབས་ཀྱི་ནོར་སྐྱོན་([འཕྲོ་བརླག་ཕྱིན་ཚར་བའི་རྗེས་སུ་ནོར་སྐྱ"
+"ོན་སོང་བའི་འཕྲིན་ཐུང་སེབས་པ](../Getting_logcat_messages_after_crash))"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Client_Bug_Reports.md:13
 msgid "Whether the bug happens on the previous stable version of F-Droid"
 msgstr ""
+"སྔོན་ནས་ཡོད་པའི་ཨེཕ་རོཌ་ཐོན་རིམ་བརྟན་པོ་དེའི་སྐབས་སུ་ནོར་འཁྲུལ་བཟོས་པ་ཡིན་ནམ།"
 
 #. type: Title ###
 #: build/_docs/md/Client_Bug_Reports.md:15
 #, no-wrap
 msgid "Why does an issue say \"waiting on response\" next to it?"
-msgstr ""
+msgstr "གནད་དོན་དེའི་སྐབས་སུ་\"བརྡ་ལན་འགུགས་ནས་ཡོད་\"ཅེས་ལབ་དོན་གང་ཡིན།"
 
 #. type: Plain text
 #: build/_docs/md/Client_Bug_Reports.md:18
@@ -4326,7 +4388,7 @@ msgstr ""
 #: build/_docs/md/Client_Bug_Reports.md:26
 #, no-wrap
 msgid "Where to file bug report"
-msgstr ""
+msgstr "ནོར་འཁྲུལ་ཤོར་བའི་སྙན་ཐོ་གང་དུ་སྐྱེལ་དགོས།"
 
 #. type: Plain text
 #: build/_docs/md/Client_Bug_Reports.md:28
@@ -4334,12 +4396,14 @@ msgid ""
 "[F-droid issue tracker](https://f-droid.org/issues/) specifically [F-droid "
 "client section](https://gitlab.com/fdroid/fdroidclient/issues)"
 msgstr ""
+"[ཨེཕ་རོཌ་དཀའ་ངལ་རྗེས་འདེད་](https://f-droid.org/issues/) དམིགས་བསལ་ "
+"[ཨེཕ་རོཌ་མཉེན་ཆས་སྡེ་ཚན](https://gitlab.com/fdroid/fdroidclient/issues)"
 
 #. type: Title #
 #: build/_docs/md/Deploying_the_Website.md:1
 #, no-wrap
 msgid "Deploying the Website"
-msgstr ""
+msgstr "དྲྭ་རྒྱ་སྤོས་བཞིན་པ།"
 
 #. type: Plain text
 #: build/_docs/md/Deploying_the_Website.md:13
@@ -4377,7 +4441,7 @@ msgstr ""
 #: build/_docs/md/Deploying_the_Website.md:28
 #, no-wrap
 msgid "Deploying merge request branches"
-msgstr ""
+msgstr "ཟླ་སྒྲིལ་གཏོང་རྒྱུའི་ཡན་ལག་རྣམས་སྤོས་པ།"
 
 #. type: Plain text
 #: build/_docs/md/Deploying_the_Website.md:34
@@ -4399,17 +4463,17 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Deploying_the_Website.md:41
 msgid "To configure this:"
-msgstr ""
+msgstr "སྒྲིག་བཀོད་འདི་བྱེད་སྐབས:"
 
 #. type: Bullet: ' * '
 #: build/_docs/md/Deploying_the_Website.md:50
 msgid "Install the [surge.sh](https://surge.sh) CLI: `npm install surge`"
-msgstr ""
+msgstr "སྒྲིག་བཅུག་ [surge.sh](https://surge.sh) CLI: `npm install surge`"
 
 #. type: Bullet: ' * '
 #: build/_docs/md/Deploying_the_Website.md:50
 msgid "Signup for [surge.sh](https://surge.sh): `surge login`"
-msgstr ""
+msgstr "ནང་འཛུལ་གྱི་[surge.sh](https://surge.sh): `surge login`"
 
 #. type: Bullet: ' * '
 #: build/_docs/md/Deploying_the_Website.md:50
@@ -4438,7 +4502,7 @@ msgstr ""
 #: build/_docs/md/Deploying_the_Website.md:56
 #, no-wrap
 msgid "Staging of the official website"
-msgstr ""
+msgstr "གཞུང་འབྲེལ་གྱི་དྲྭ་རྒྱ་གླེང་སྟེགས་སུ་བཞག་པ།"
 
 #. type: Plain text
 #: build/_docs/md/Deploying_the_Website.md:63
@@ -4453,7 +4517,7 @@ msgstr ""
 #: build/_docs/md/Deploying_the_Website.md:65
 #, no-wrap
 msgid "Deploying to https://f-droid.org"
-msgstr ""
+msgstr "https ལ་སྤོས་པ།://f-droid.org"
 
 #. type: Plain text
 #: build/_docs/md/Deploying_the_Website.md:73
@@ -4484,7 +4548,7 @@ msgstr ""
 #: build/_docs/md/Deploying_the_Website.md:82
 #, no-wrap
 msgid "Setting up and running the deploy procedure"
-msgstr ""
+msgstr "སྒྲོག་བཀོད་དང་སྤོ་ཐབས་གང་འདྲ་བྱེད་ཚུལ།"
 
 #. type: Plain text
 #: build/_docs/md/Deploying_the_Website.md:90
@@ -4502,6 +4566,8 @@ msgstr ""
 msgid ""
 "[setup docker](https://docs.docker.com/engine/installation/linux/debian/)"
 msgstr ""
+"[ "
+"dockerསྒྲིག་བཀོད།](https://docs.docker.com/engine/installation/linux/debian/)"
 
 #. type: Bullet: '2. '
 #: build/_docs/md/Deploying_the_Website.md:119
@@ -4509,6 +4575,8 @@ msgid ""
 "[setup gitlab-ci-multi-runner](https://docs.gitlab.com/runner/install/linux-"
 "repository.html)"
 msgstr ""
+"[ gitlab-ci-multi-runnerསྒྲིག་བཀོད་](https://docs.gitlab.com/runner/install"
+"/linux-repository.html)"
 
 #. type: Plain text
 #: build/_docs/md/Deploying_the_Website.md:119
@@ -4544,9 +4612,9 @@ msgstr ""
 
 #. type: Title ###
 #: build/_docs/md/Deploying_the_Website.md:120
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Apache2 config"
-msgstr ""
+msgstr "Apache2 config"
 
 #. type: Plain text
 #: build/_docs/md/Deploying_the_Website.md:124
@@ -4554,6 +4622,8 @@ msgid ""
 "The F-Droid website is translated into several languages.  Two things are "
 "required to ensure this works."
 msgstr ""
+"ཨེཕ་རོཌ་དྲྭ་རྒྱ་དེ་བཞིན་སྐད་རིགས་མི་འདྲ་བ་ཁ་ཤས་ཀྱི་ནང་ཕབ་བསྒྱུར་ཟིན་ཡོད། "
+"ལས་ཀ་འདི་ངེས་བརྟན་བཟོས་པ་ལ་ཆ་རྐྱེན་གཉིས་ཚང་དགོས།"
 
 #. type: Plain text
 #: build/_docs/md/Deploying_the_Website.md:128
@@ -4563,6 +4633,10 @@ msgid ""
 "This ensures that each `.html` file is replaced with an Apache2 [TypeMap]"
 "(https://httpd.apache.org/docs/current/mod/mod_negotiation.html#typemaps)."
 msgstr ""
+"དང་པོའི་འགན་དེ་བཞིན་`.gitlab-ci.yml`, གྱིས་འཁྱེར་ཡོད་ལ། འདི་ནི་ `./tools"
+"/prepare-multi-langs.sh` ཡིག་རིགས་ _མེད་པའི་_ the `--no-type-maps` རྩོད་པ་.  "
+"ངེས་བརྟན་དགོས་པ་ཞིག་ལ་ `.html` ཡིག་ཆ་རེ་རེ་བའི་ཚབ་ལ་ Apache2 [TypeMap](https:"
+"//httpd.apache.org/docs/current/mod/mod_negotiation.html#typemaps)."
 
 #. type: Plain text
 #: build/_docs/md/Deploying_the_Website.md:131
@@ -4572,16 +4646,24 @@ msgid ""
 "the translated version of the file (replace `/var/www/html` with the actual "
 "webroot):"
 msgstr ""
+"གཉིས་པ་ནི། Apache2 ཞབས་ཞུ་འཕྲུལ་ཆས་དང་  VirtualHost config "
+"ལ་གཤམ་གྱི་དེ་རྣམས་ཁ་སྣོན་བྱས་ཏེ་ས་ཁྲ་བདེ་སྤྱོད་ཏག་ཏག་གཏོང་ཐུབ་པའི་ཆེད་དུ་ཡིན།"
+" apache ལ་བརྡ་སྤྲད་དེ་ཕབ་བསྒྱུར་བྱས་ཟིན་པའི་ཡིག་ཆ་རྣམས་གང་དུ་ཡོད་མེད་འདྲིས་("
+"replace `/var/www/html` with the actual webroot):"
 
 #. type: Plain text
 #: build/_docs/md/Deploying_the_Website.md:136
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "```apacheconfig\n"
 "<Files *.html>\n"
 "        SetHandler type-map\n"
 "</Files>\n"
 msgstr ""
+"```apacheconfig\n"
+"<Files *.html>\n"
+"        SetHandler type-map\n"
+"</Files>\n"
 
 #. type: Title #
 #: build/_docs/md/Deploying_the_Website.md:137
@@ -4592,18 +4674,18 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Deploying_the_Website.md:139
 msgid "AliasMatch ^(?:/\\w\\w/)?(.*)?\\$ /var/www/html/\\$1"
-msgstr ""
+msgstr "མཐུན་གྲོགས་ ^(?:/\\w\\w/)?(.*)?\\$ /var/www/html/\\$1"
 
 #. type: Title #
 #: build/_docs/md/Deploying_the_Website.md:140
 #, no-wrap
 msgid "Tell mod_negotiation which language to prefer"
-msgstr ""
+msgstr "mod_negotiation ལ་སྐད་རིགས་གང་འདེམས་དགོས་མིན་དྲིས།"
 
 #. type: Plain text
 #: build/_docs/md/Deploying_the_Website.md:143
 msgid "SetEnvIf Request_URI ^/(\\w\\w)/ prefer-language=\\$1 ```"
-msgstr ""
+msgstr "SetEnvIf Request_URI ^/(\\w\\w)/ འདེམས་པའི་-སྐད་རིགས་=\\$1 ```"
 
 #. type: Plain text
 #: build/_docs/md/Deploying_the_Website.md:145
@@ -4611,12 +4693,16 @@ msgid ""
 "If this is not done or done incorrectly, then you will see something like "
 "the following when viewing any page:"
 msgstr ""
+"གལ་ཏེ་འདི་མ་ཚར་བའམ་ནོར་བ་བྱུང་ན། "
+"ཁྱེད་རང་ལ་གཤམ་གྱི་དྲྭ་ཤོག་གང་འདྲ་ཞིག་ལྟས་ཀྱང་འདི་འདྲ་ཞིག་མཐོང་གི་རེད།"
 
 #. type: Plain text
 #: build/_docs/md/Deploying_the_Website.md:147
 #, no-wrap
 msgid "> URI: index.html.en Content-language: en Content-type: text/html URI: index.html.fr Content-language: fr Content-type: text/html \n"
 msgstr ""
+"> URI: index.html.en ནང་དོན་-སྐད་རིགས་: en Content-type: text/html URI: "
+"index.html.fr Content-language: fr Content-type: text/html \n"
 
 #. type: Plain text
 #: build/_docs/md/Deploying_the_Website.md:149
@@ -4624,6 +4710,8 @@ msgid ""
 "This is the result of the actual TypeMap being returned to the browser, "
 "rather than the translated file."
 msgstr ""
+"འདི་ནི་ཕབ་བསྒྱུར་བྱས་པའི་ཡིག་ཆས་བྱས་པ་མི་ཡིན་པར་TypeMap "
+"དངོས་གནས་དེ་བལྟ་ཆས་ལ་སྐྱར་ལོག་བྱས་པའི་རྐྱེན་གྱིས་བྱུང་བ་རེད།"
 
 #. type: Plain text
 #: build/_docs/md/Deploying_the_Website.md:151
@@ -4631,18 +4719,21 @@ msgid ""
 "Note that this also depends on `mod_alias` and `mod_negotiation` being "
 "enabled, but this happens by default when installing apache2 on Debian."
 msgstr ""
+"ཐུགས་གནང་དགོས་པ་ཞིག་་ལ་འདི་དག་`mod_alias` and "
+"`mod_negotiation`ཁ་ཕྱེས་པ་ལ་བརྟེན་ནས་ཡོད། འོན་ཀྱང་apache2 གྱི་སྒང་ལ་ "
+"Debianསྒྲིག་བཅུག་བྱས་པ་ལས་བྱུང་བ་རེད།"
 
 #. type: Title #
 #: build/_docs/md/FAQ_-_App_Developers.md:1
 #, no-wrap
 msgid "FAQ - App Developers"
-msgstr ""
+msgstr "ཡང་སེ་འདྲི་བའི་དྲི་བ། - མཉེན་ཆས་བཟོ་མཁན་ཚོས།"
 
 #. type: Title ###
 #: build/_docs/md/FAQ_-_App_Developers.md:6
 #, no-wrap
 msgid "How do I get my app included?"
-msgstr ""
+msgstr "ངས་ང་རང་གི་མཉེན་ཆས་ཚུད་ཐབས་གང་འདྲ་སེ་བྱེད་དགོས།"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md:16
@@ -4668,6 +4759,8 @@ msgstr ""
 #, no-wrap
 msgid "How do I change the description and add meta information like screenshots?"
 msgstr ""
+"ངས་འགྲེལ་བཤད་རྒྱབ་པ་དེ་གང་འདྲ་སེ་བརྗེ་དགོས་པ་དང་དྲྭ་ཤེལ་པར་ལེན་འདྲ་བའི་རྒྱབ་ལ"
+"ྗོངས་ཀྱི་གནས་ཚུལ་རྣམས་ཁ་སྣོན་ཇི་ལྟར་བྱེད་དགོས་སམ།"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md:23
