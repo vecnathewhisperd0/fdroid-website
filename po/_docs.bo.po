@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-09-21 17:55+0000\n"
+"PO-Revision-Date: 2017-09-23 19:48+0000\n"
 "Last-Translator: tenzin tselek <omaahum99@yahoo.in>\n"
 "Language-Team: Tibetan <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/bo/>\n"
@@ -4765,7 +4765,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md:23
 msgid "There are three locations we pull metadata from:"
-msgstr ""
+msgstr "ང་ཚོས་རྒྱབ་ལྗོངས་ཀྱི་ཡིག་ཆ་འཐེན་ས་གནས་གསུམ་ནས་ཡོད།:"
 
 #. type: Bullet: '* '
 #: build/_docs/md/FAQ_-_App_Developers.md:27
@@ -4781,6 +4781,8 @@ msgid ""
 "F-Droid's own [metadata repository](https://gitlab.com/fdroid/fdroiddata/"
 "blob/master/metadata)"
 msgstr ""
+"ཨེཕ་རོཌ་རང་གི་[རྒྱབ་ལྗོངས་ཡིག་ཆའི་མཛོད་ཁང་།](https://gitlab.com/fdroid/fdroid"
+"data/blob/master/metadata)"
 
 #. type: Bullet: '* '
 #: build/_docs/md/FAQ_-_App_Developers.md:27
@@ -4788,6 +4790,8 @@ msgid ""
 "F-Droid's own `repo` staging area that gets published on the public F-Droid "
 "server"
 msgstr ""
+"ཨེཕ་རོཌ་རང་གི་`རེ་པོ། ` "
+"བབས་སྟེགས་ཀྱི་ས་གནས་ཀྱི་སྒང་ལ་སྤྱི་པའི་ཨེཕ་རོཌ་ཞབས་ཞུ་འཕྲུལ་ཆས་་པར་སྐྲུན།"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md:31
@@ -4810,7 +4814,7 @@ msgstr ""
 #: build/_docs/md/FAQ_-_App_Developers.md:36
 #, no-wrap
 msgid "How do I license my app?"
-msgstr ""
+msgstr "ང་རང་གི་མཉེན་ཆས་ལ་ཆོག་མཆན་ལག་འཁྱེར་ཇི་ལྟར་ཐོབ་བམ།"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md:42
@@ -4840,7 +4844,7 @@ msgstr ""
 #: build/_docs/md/FAQ_-_App_Developers.md:56
 #, no-wrap
 msgid "How are donations handled?"
-msgstr ""
+msgstr "ཞལ་འདེབས་བྱུང་བ་རྣམས་སྟངས་འཛིན་ཇི་ལྟར་བྱེད་དགོས་སམ།"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md:64
@@ -4867,12 +4871,14 @@ msgid ""
 "If your app is in our repo but we are missing any of the above information, "
 "please make sure we know about it."
 msgstr ""
+"གལ་ཏེ་ཁྱེད་རང་གི་རེ་པོ་ནང་གི་མཉེན་ཆས་ནང་གོང་གི་གནས་ཚུལ་གང་ཡང་རུང་བ་ཞིག་མ་རྙེད"
+"་པ་ཡིན་ན། ང་ཚོར་དེའི་སྐོར་གསུངས་རོགས་གནང་།"
 
 #. type: Title ###
 #: build/_docs/md/FAQ_-_App_Developers.md:74
 #, no-wrap
 msgid "Will my app be built from source?"
-msgstr ""
+msgstr "ངའི་མཉེན་ཆས་འདི་བཞིན་འབྱུང་ཁུངས་ནས་བཟོས་པ་རེད་དམ།"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md:81
@@ -4888,7 +4894,7 @@ msgstr ""
 #: build/_docs/md/FAQ_-_App_Developers.md:83
 #, no-wrap
 msgid "What about versioning?"
-msgstr ""
+msgstr "ཐོན་རིམ་གྱི་སྐོར་གང་ཡིན།"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md:92
@@ -4916,13 +4922,13 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md:102
 msgid "We try not to build from a random repository head version."
-msgstr ""
+msgstr "ང་ཚོས་ངེས་མེད་ཀྱི་ཐོན་རིམ་མཛོད་ཁང་ནས་བཟོ་སྐྲུན་བྱེད་ཀྱི་མེད།"
 
 #. type: Title ###
 #: build/_docs/md/FAQ_-_App_Developers.md:104
 #, no-wrap
 msgid "Do I need to tell you when I update?"
-msgstr ""
+msgstr "ཁྱེད་རང་གསར་བསྒྱུར་ག་དུས་གནང་དགོས་མེད་ངས་ལན་ཕུལ་དགོས་སམ།"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md:114
@@ -4961,7 +4967,7 @@ msgstr ""
 #: build/_docs/md/FAQ_-_App_Developers.md:128
 #, no-wrap
 msgid "I've published a new release. Why is it not in the repository?"
-msgstr ""
+msgstr "ངས་ཐོན་གསར་པ་དེ་པར་སྐྲུན་ཞུས་པ་ཡིན། འདི་མཛོད་ཁང་ནང་མེད་པ་གང་ཡིན་ནམ།"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md:138
@@ -4983,12 +4989,14 @@ msgid ""
 "Another reason could be that the app failed to build. You can watch the\n"
 "build process on <Special:RecentChanges> after clicking 'Show Bots'.\n"
 msgstr ""
+"མཉེས་ཆས་བཟོ་སྐྲུན་མ་ཐུབ་པའི་རྒྱུ་མཚན་གཞན་དག་གཅིག་འདི་ཡིན་གྱི་རེད། "
+"<དམིགས་བསལ་:ཉེ་ཆར་བསྒྱུར་བཅོས།> འདི་སྣོན་པའི་རྗེས་སུ་ 'Show Bots'.\n"
 
 #. type: Title ###
 #: build/_docs/md/FAQ_-_App_Developers.md:143
 #, no-wrap
 msgid "What about signing?"
-msgstr ""
+msgstr "མིང་རྟགས་བཀོད་ཚུལ་གང་འདྲ་ཡིན་ནམ།"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md:152
@@ -5043,7 +5051,7 @@ msgstr ""
 #: build/_docs/md/FAQ_-_App_Developers.md:181
 #, no-wrap
 msgid "Can APKs signed by my key be included?"
-msgstr ""
+msgstr "ངའི་ལྡེ་མིག་གིས་APKs ལ་མིང་རྟགས་བཀོད་པ་དེ་ཚུད་ཡོད་དམ།"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md:190
@@ -5061,6 +5069,8 @@ msgstr ""
 #, no-wrap
 msgid "Can I run my own F-Droid package repository?<a name=\"Can_I_run_my_own_app_repo\"></a>"
 msgstr ""
+"ང་རང་སྒེར་གྱི་ཨེཕ་རོཌ་ཐུམ་སྒྲིལ་མཛོད་ཁང་འཁོར་སྐྱོད་བྱས་ན་འགྲིག་གམ། ?<a name="
+"\"Can_I_run_my_own_app_repo\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md:203
@@ -5079,7 +5089,7 @@ msgstr ""
 #: build/_docs/md/FAQ_-_App_Developers.md:205
 #, no-wrap
 msgid "Can I see who's installing my app?"
-msgstr ""
+msgstr "ངའི་མཉེས་ཆས་སུས་སྒྲིག་བཅུག་བྱེད་པ་མཐོང་ཐུབ་བམ།"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md:213
@@ -5096,7 +5106,7 @@ msgstr ""
 #: build/_docs/md/FAQ_-_App_Developers.md:215
 #, no-wrap
 msgid "Can I track users from my app?"
-msgstr ""
+msgstr "ངའི་མཉེན་ཆས་ནས་སྤྱོད་མཁན་དེ་རྗེས་འདེད་གཏོང་ཐུབ་བམ།"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md:224
@@ -5122,12 +5132,12 @@ msgstr ""
 #: build/_docs/md/FAQ_-_App_Developers.md:230
 #, no-wrap
 msgid "Can I include advertising?"
-msgstr ""
+msgstr "ངས་ཁྱབ་བསྒྲུགས་འདིའི་ནང་ཚུད་ཐུབ་བམ།"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md:233
 msgid "Yes, but:"
-msgstr ""
+msgstr "ཐུབ་ཀྱི་རེད། ཡིན་ནའི།:"
 
 #. type: Bullet: '1.  '
 #: build/_docs/md/FAQ_-_App_Developers.md:240
@@ -5185,7 +5195,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md:266
 msgid "Replacements for known \"usual suspects\":"
-msgstr ""
+msgstr "རྒྱུད་མངའ་ཡོད་པའི་\"ནམ་རྒྱུན་གྱི་དྭོགས་གཞི་ཁག\"བརྗེ་ལེན།"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md:270
@@ -5193,16 +5203,20 @@ msgid ""
 "Note, that all of following are just subjective popularity-based "
 "suggestions; there may be other FOSS projects better suited for your needs."
 msgstr ""
+"ངེས་དགོས་པ་ཞིག་ལ། གཤམ་ལ་ཡོད་པའི་བསམ་འཆར་ཁག་ནི་མི་མང་གིས་མང་མོས་ལ་གཞིགས་ཏེ་སྟོ"
+"ན་པའི་བསམ་འཆར་ཤ་སྟག་རེད། ;ཁྱེད་རང་གི་དགོས་མཁོ་ལ་རན་པའི་FOSS "
+"གྱི་ལས་འཆར་གཞན་ཡོད་སྲིད་ཀྱི་རེད།"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/FAQ_-_App_Developers.md:276
+#, fuzzy
 msgid "Crittercism, BugSense — ACRA"
-msgstr ""
+msgstr "Crittercism, BugSense — ACRA"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/FAQ_-_App_Developers.md:276
 msgid "Google Analytics — Piwik"
-msgstr ""
+msgstr "གུ་གྷལ་དཔྱད་གླེང་།— Piwik"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/FAQ_-_App_Developers.md:276
@@ -5210,12 +5224,15 @@ msgid ""
 "Google Maps — OpenStreetMap, e.g. through [mapsforge](http://www.mapsforge."
 "org) or [osmdroid](http://osmdroid.org)"
 msgstr ""
+"གུ་གྷལ་ས་ཁྲ།  — སྲང་ལམ་གྱི་ས་ཁྲ་, དཔེར་ན་ "
+"[mapsforge](http://www.mapsforge.org) རྒྱུད་དེའམ་ཡང་ན། "
+"[osmdroid](http://osmdroid.org)"
 
 #. type: Title ###
 #: build/_docs/md/FAQ_-_App_Developers.md:277
 #, no-wrap
 msgid "Aren't Google's SDK and libraries free, open source software?"
-msgstr ""
+msgstr "གུ་གྷལ་SDK དང་དཔེ་མཛོད་རྣམས་རིན་མེད་མ་ཡིན་ནམ།"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md:288
@@ -5234,7 +5251,7 @@ msgstr ""
 #: build/_docs/md/FAQ_-_App_Developers.md:290
 #, no-wrap
 msgid "Which build system to use?"
-msgstr ""
+msgstr "བཟོ་སྐྲུན་བྱས་པའི་མ་ལག་གང་བེད་སྤྱོད་བྱེད་དགོས་སམ།"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md:297
@@ -5249,7 +5266,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md:299
 msgid "Special note on Cordova/Phonegap/HTML-Apps:"
-msgstr ""
+msgstr "Cordova/Phonegap/HTML-མཉེན་ཆས་སྒང་ལ་དམིགས་བསལ་གྱི་ཐུགས་གནང་།:"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md:304
@@ -5264,7 +5281,7 @@ msgstr ""
 #: build/_docs/md/FAQ_-_App_Developers.md:306
 #, no-wrap
 msgid "How do I get my app removed?"
-msgstr ""
+msgstr "ང་རང་གི་མཉེནཆས་གང་འདྲ་སེ་མེད་པ་བཟོ་དགོས་སམ།"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md:316
@@ -5319,7 +5336,7 @@ msgstr ""
 #: build/_docs/md/FAQ_-_App_Developers.md:344
 #, no-wrap
 msgid "How is the F-Droid client git workflow structured?"
-msgstr ""
+msgstr "ཨེཕ་རོཌ་མཉེན་ཆས་གིཌ་ལས་ཀ་བྱེད་ལུགས་གང་འདྲ་སེ་སྒྲིག་བཀོད།"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md:352
@@ -5335,7 +5352,7 @@ msgstr ""
 #. type: Bullet: '-   '
 #: build/_docs/md/FAQ_-_App_Developers.md:370
 msgid "all development work happens in the `master` branch"
-msgstr ""
+msgstr "ཡར་རྒྱས་གཏོང་བ་ཚང་མ་ཡན་ལག་`ཨ་མའི་`ནང་འབྱུང་གི་ཡོད།"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/FAQ_-_App_Developers.md:370
@@ -5360,17 +5377,23 @@ msgstr ""
 #: build/_docs/md/FAQ_-_App_Developers.md:370
 msgid "the `master` branch must never be merged with any stable release branch"
 msgstr ""
+"ཡན་ལག་ཨ་མ་དེ་ནམ་ཡང་འགྲེམ་སྤེལ་བྱས་པའི་ཡན་ལག་བརྟན་པོ་གང་རུང་དང་ཟླ་སྒྲིལ་གཏོང་ར"
+"ྒྱུ་མེད།"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/FAQ_-_App_Developers.md:370
 msgid "stable release branches must never be merged with the `master` branch"
 msgstr ""
+"འགྲེམ་སྤེལ་བྱས་པའི་ཡན་ལག་བརྟན་པོ་རྣམས་ཡན་ལག་ཨ་མ་དེ་དང་ནམ་ཡང་ཟླ་སྒྲིལ་གཏོང་རྒྱ"
+"ུ་མེད།"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/FAQ_-_App_Developers.md:370
 msgid ""
 "Merge Requests for a stable release branch can include commits from `master`"
 msgstr ""
+"འགྲེམ་སྤེལ་བརྟན་པོའི་ཡན་ལག་གི་ཆེད་དུ་ཟླ་སྒྲིལ་གཏོང་བའི་རེ་སྐུལ་ཞུས་པའི་ནང་ཨ་མ"
+"་ནས་ཐོན་པའི་སྐྱོན་རྣམས་ཀྱང་འདིའི་ནང་དུ་ཚུད་ཡོད།"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/FAQ_-_App_Developers.md:370
@@ -5378,6 +5401,8 @@ msgid ""
 "not all commits that are included in a stable release branch are required to "
 "be in `master`"
 msgstr ""
+"སྐྱོན་གྱི་རིགས་ཚང་མ་འགྲེམ་སྤེལ་བརྟོན་པོའི་ཡན་ལག་ནང་ཚུད་མེད་ལ་དེ་དག་ཨ་མའི་ནང་ད"
+"ུ་ངེས་པར་དུ་ཡོད་དགོས།"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/FAQ_-_App_Developers.md:370
@@ -5385,6 +5410,8 @@ msgid ""
 "what you do in your git forks is up to you, but the final merge request "
 "should not include merge commits"
 msgstr ""
+"git forks ནང་ག་རེ་བྱུང་མིན་དེ་སོ་སོ་རང་ཉིད་ལ་རག་ལས་ཡོད། འོན་ཀྱང་མཐའ་མའི་ཟླ་སྒ"
+"ྲིལ་གྱི་འབོད་སྐུལ་འདི་འི་ནང་ཟླ་སྒྲིལ་གྱི་སྐྱོན་རྣམས་མ་ཚུད་པ་ཞིག་དགོས།"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md:373
@@ -5402,18 +5429,24 @@ msgid ""
 "\"release branches\" and short-lived vs. long-lived branches: <http://blogs."
 "atlassian.com/2013/11/the-essence-of-branch-based-workflows/>"
 msgstr ""
+"སྙན་རྩོམ་འདིའི་ནང་ \"ཡན་ལག་གི་ཁྱད་ཆོས་\" དང་ \"འགྲེལ་སྤེལ་བྱས་པའི་ཡན་ལག་\" "
+"གཉིས་ཀྱི་བར་དང་། ཡུན་ཙམ་གནས་པའི་ཡན་ལག་དང་ཡུན་རིང་གནས་པའི་ཡན་ལག་གི་སྐོར་ལ་བགྲོ"
+"་གླེང་ཡག་པོ་ཞེ་དྲག་གནང་འདུག་: <http://blogs.atlassian.com/2013/11/the-"
+"essence-of-branch-based-workflows/>"
 
 #. type: Title #
 #: build/_docs/md/FAQ_-_Client.md:1
 #, no-wrap
 msgid "FAQ - Client"
-msgstr ""
+msgstr "ཡང་སེ་སྐུལ་བའི་དྲི་བ། -མཉེན་ཆས།"
 
 #. type: Title ###
 #: build/_docs/md/FAQ_-_Client.md:6
 #, no-wrap
 msgid "The client shows a newer version. Why didn't it notify me of an update?"
 msgstr ""
+"མཉེན་ཆས་འདིས་ཐོན་རིམ་གསར་པ་སྟོན་གྱི་ཡོད། "
+"འདིས་ང་ལ་གསར་བསྒྱུར་དགོས་པའི་བརྡ་ལན་མ་སྤྲད་པ་གང་ཡིན་ནམ།"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md:10
@@ -5421,6 +5454,9 @@ msgid ""
 "Assuming you have update notifications switched on (in Preferences) this "
 "probably means the newer version is not *recommended* for your device."
 msgstr ""
+"ཁྱེད་རང་གིས(གདམ་ཀའི་ནང་ནས་)བརྡ་ལན་སྤྲོད་བྱེད་ཀྱི་ལྡེ་མིག་དེ་སྒོ་ཕྱེས་ཏེ་གསར་བ"
+"སྒྱུར་བྱས་པའི་རེ་བ་ཡོད། འདིས་ཕལ་ཆེར་ཐོན་རིམ་གསར་པ་དེ་བཞིན་ཁྱེད་རང་གི་ཡོ་བྱད་ཀ"
+"ྱི་སྒང་ལ་*ངོས་ལེན་*བྱེད་ཀྱི་མེད་པ་འདྲ།"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md:20
@@ -5441,12 +5477,15 @@ msgid ""
 "For third-party repositories, it may also be the case that the maintainers "
 "neglected to update the current version in their repository's metadata."
 msgstr ""
+"ཚོགས་སྡེ་གསུམ་པའི་མཛོད་ཁང་གི་རིགས་ལ། ཉར་ཚགས་བྱེད་མཁན་ཚོས་ད་ལྟ་ཐོན་རིམ་འདི་རྒྱ"
+"བ་ལྗོངས་ཀྱི་ཡིག་ཆའི་མཛོད་ཁང་ནང་གསར་བསྒྱུར་བྱེད་རྒྱུ་སྣང་མེད་དུ་ཤོར་སྲིད་པ་རེད"
+"།"
 
 #. type: Title ###
 #: build/_docs/md/FAQ_-_Client.md:26
 #, no-wrap
 msgid "Why does F-Droid need these permissions?"
-msgstr ""
+msgstr "ཨེཕ་རོཌ་ལ་ཆོག་མཆན་དེ་ཚོ་དགོས་དོན་གང་ཡིན་ནམ།"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md:36
@@ -5460,22 +5499,32 @@ msgid ""
 "F-Droid declares the permissions it actually uses so that it is honest and "
 "transparent about what it is doing."
 msgstr ""
+"ཨེཕ་རོཌ་ནི་མཉེན་ཆས་གསོག་ཉར་ཁང་ཞིག་ཡིན་ཞིང་། དེས་ན་མཉེས་ཆས་འཚོལ་ཞིབ་དང་། "
+"ཕབ་ལེན། སྒྲིག་བཅུག་སོགས་ལས་འགན་དང་འགན་ཁུར་ཆ་ཚང་འཁྲིད་ཀྱི་ཡོད་པ་རེད། "
+"རྒྱུ་མཚན་དེ་འདྲ་སོང་ཙང་དེ་ལ་ཆོག་མཆན་ཆ་ཚང་ཡོད་རེད། དཔེར་ན། ཆོག་མཆན་མེད་པའི་གནོ"
+"ད་པ་ཅན་གྱི་མཉེན་ཆས་གསོག་ཉར་ཁང་དེས་སྒྲིག་བཅུག་བྱེད་པའི་མཉེན་ཆས་གང་འདྲ་ཞིག་ཡིན་"
+"ནའང་བཟོ་བཅོས་བཏང་ཐུབ་པ་དང་། "
+"བཟོ་བཅོས་བཏང་བའི་མཉེན་ཆས་དེ་དག་རྒྱུད་དེ་ཆོག་མཆན་ཆ་ཚང་སྤྲད་ཀྱི་ཡོད། དེ་འདྲ་སོང"
+"་ཙང་མཉེན་ཆས་གསོག་ཉར་ཁང་འདི་བཞིན་རིན་མེད་ཀྱི་མཉེན་ཆས་དང་དམངས་ཀྱི་སྤྱོད་ཐུབ་པ་ད"
+"ེ་ཧ་ཅང་གི་གལ་ཆེན་པོ་ཆགས་ཀྱི་ཡོད་རེད། "
+"ཨེཕ་རོཌ་འདི་ལ་དེ་འདྲའི་ཆ་རྐྱེན་གཉིས་ཀ་ཚང་ཡོད། ཨེཕ་རོཌ་ཀྱི་ལས་ཀ་གང་བྱས་ཀྱང་དྲང"
+"་བདེན་དང་ཕྱི་གསལ་ནང་གསལ་ཡིན་པའི་ཆོག་མཆན་ཡོད་པའི་ཁྱབ་བསྒྲགས་བཏང་ཡོད།"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md:38
 msgid "Here are the permissions that F-Droid current uses:"
-msgstr ""
+msgstr "འདིར་ཨེཕ་རོཌ་གྱིས་ད་ལྟ་བེད་སྤྱོད་གཏོང་བཞིན་པའི་ཆོག་མཆན་རྣམས་འཁོད་ཡོད།:"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md:40
 msgid "Download apps from f-droid.org and other app repositories"
-msgstr ""
+msgstr "f-droid.org དང་མཉེན་ཆས་མཛོད་ཁང་གཞན་དག་ནས་མཉེན་ཆས་ཕབ་ལེན་བྱེད།"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md:42
 #, no-wrap
 msgid "    android.permission.INTERNET\n"
-msgstr ""
+msgstr "    ཨེན་ཀྲོཌ་.ཆོག་མཆན.དྲྭ་རྒྱ།\n"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md:44
