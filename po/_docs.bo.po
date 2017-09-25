@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-09-23 19:48+0000\n"
+"PO-Revision-Date: 2017-09-25 21:54+0000\n"
 "Last-Translator: tenzin tselek <omaahum99@yahoo.in>\n"
 "Language-Team: Tibetan <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/bo/>\n"
@@ -5535,7 +5535,7 @@ msgstr ""
 #: build/_docs/md/FAQ_-_Client.md:46
 #, no-wrap
 msgid "    android.permission.RECEIVE_BOOT_COMPLETED\n"
-msgstr ""
+msgstr "    ཨེན་ཀྲོཌ.ཆོག་མཆན་.འབྱོར་པ་_BOOT_ཚར་བ།\n"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md:49
@@ -5554,6 +5554,11 @@ msgid ""
 "    android.permission.CHANGE_NETWORK_STATE\n"
 "    android.permission.CHANGE_WIFI_STATE\n"
 msgstr ""
+"    ཨེན་ཀྲོཌ.ཆོག་མཆན་.བདེ་སྤྱོད་_དྲྭ་རྒྱ་_གནས་བབས།\n"
+"    ཨེན་ཀྲོཌ.ཆོག་མཆན་.བདེ་སྤྱོད་_ཝི་ཕི་_གནས་བབས་\n"
+"    ཨེན་ཀྲོཌ.ཆོག་མཆན་.བཅོས་བསྒྱུར་_ཝི་ཕི་_འཁྲབ་སྟོན་སྣ་མང་_གནས་བབས།\n"
+"    ཨེན་ཀྲོཌ.ཆོག་མཆན་.བཅོས་བསྒྱུར་_དྲྭ་རྒྱ་_གནས་བབས་\n"
+"    ཨེན་ཀྲོཌ.ཆོག་མཆན་.བཅོས་བསྒྱུར་_ཝི་ཕི་_གནས་བབས།\n"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md:58
@@ -5569,29 +5574,33 @@ msgid ""
 "    android.permission.BLUETOOTH\n"
 "    android.permission.BLUETOOTH_ADMIN\n"
 msgstr ""
+"    ཨེན་ཀྲོཌ.ཆོག་མཆན་.BLUETOOTH\n"
+"    ཨེན་ཀྲོཌ.ཆོག་མཆན་.BLUETOOTH_ADMIN\n"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md:64
 msgid ""
 "Read app repostory URLs via NFC, for both swap and regular app repositories:"
 msgstr ""
+"NFC རྒྱུད་དེ་བརྗེ་ལེན་དང་རྒྱུན་གཏན་གྱི་མཉེན་ཆས་མཛོད་ཁང་གཉིས་ཀ་ཆེད་དུ་URLsམཉེན"
+"་ཆས་མཛོད་ཁང་ཀློག་རོགས།:"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md:66
 #, no-wrap
 msgid "    android.permission.NFC\n"
-msgstr ""
+msgstr "    ཨེན་ཀྲོཌ.ཆོག་མཆན་.NFC\n"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md:68
 msgid "Temporarily store downloaded files on the SD Card:"
-msgstr ""
+msgstr "SD བྱང་བུའི་སྒང་ལ་གནས་སྐབས་རིང་ལ་ཉར་ཚགས་བྱས་པའི་ཕབ་ལེན་གྱི་ཡིག་ཚགས།:"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md:70
 #, no-wrap
 msgid "    android.permission.WRITE_EXTERNAL_STORAGE\n"
-msgstr ""
+msgstr "    ཨེན་ཀྲོཌ.ཆོག་མཆན་.བྲིས་_ཕྱི་ལོགས་_ཉར་ཚགས།\n"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md:75
@@ -5605,7 +5614,7 @@ msgstr ""
 #: build/_docs/md/FAQ_-_Client.md:77
 #, no-wrap
 msgid "    org.fdroid.fdroid.privileged.USE_SERVICE\n"
-msgstr ""
+msgstr "    org.fdroid.fdroid.ཐོབ་ཐང་.བྱེད་ལས_བེད་སྤྱོད།\n"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md:80
@@ -5618,13 +5627,13 @@ msgstr ""
 #: build/_docs/md/FAQ_-_Client.md:82
 #, no-wrap
 msgid "    android.permission.ACCESS_SUPERUSER\n"
-msgstr ""
+msgstr "    ཨེན་ཀྲོཌ.ཆོག་མཆན་.ཁྱད་དུ་འཕགས་པའི་སྤྱོད་མི་_བེད་སྤྱོད།\n"
 
 #. type: Title ###
 #: build/_docs/md/FAQ_-_Client.md:84
 #, no-wrap
 msgid "Why does F-Droid request root access?"
-msgstr ""
+msgstr "ཨེཕ་རོཌ་གྱིས་ཨ་མ་བེད་སྤྱོད་གཏོང་བའི་རེ་སྐུལ་ཞུ་དགོས་དོན་གང་ཡིན་ནམ།"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md:94
@@ -5638,6 +5647,15 @@ msgid ""
 "future, it should become useful for implementing an \"Update all apps\" "
 "feature."
 msgstr ""
+"(བི་ཌ་ནང་ལ་ད་དུངའང། "
+")མཉམ་ཞུགས་མ་བྱས་པའི་སྒྲིག་བཅུག་ལ་ཆོག་མཆན་སྟེར་བའི་ཁྱད་ཆོས་ཡོད་རེད། "
+"འདི་ལ་ཨ་མ་བེད་སྤྱོད་བྱས་དགོས་ཀྱི་ཡོད། "
+"རྒྱུ་མཚན་ནི་འདིས་ཨེན་ཀྲོཌ་ནང་དུ་རྒྱུན་གཏན་གྱི་apk "
+"སྒྲིག་བཅུག་བྱེད་བཅུག་གི་ཡོད། རང་ཉིད་ག་རེ་བྱེད་ཀྱི་ཡོད་མེད་འགོ་མ་ཚོད་ཀྱི་བར་དུ"
+"་*ང་ཚོས་ཁྱད་ཆོས་འདི་བེད་སྤྱོད་བྱེད་རྒྱུ་མེད་པའི་བསམ་འཆར་སྟོན་གྱི་ཡོད།* ཁྱེད་ཀ"
+"ྱི་སྒྲིག་བཅུག་མ་བྱས་གོང་ལ་མཉེན་ཆས་ལ་ཆོག་མཆན་དགོས་མཁོ་ཡོད་པ་དེ་དག་སྟོན་གྱི་ཡོད"
+"་མ་རེད། ཁྱད་ཆོས་འདི་སྒྲིག་བཀོད་བྱས་ས་ནས་དངོས་སུ་ཁ་ཕྱེས་དགོས། དེ་ཡང་\""
+"མཉེས་ཆས་ཚང་གསར་བསྒྱུར་\"ཞེས་པ་དེ་འདེམས་དགོས།"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md:99
@@ -5651,7 +5669,7 @@ msgstr ""
 #: build/_docs/md/FAQ_-_Client.md:101
 #, no-wrap
 msgid "What is expert mode?"
-msgstr ""
+msgstr "ཕུལ་དུ་བྱུང་བའི་ཚུལ་ག་རེ་རེད།"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md:107
@@ -5661,12 +5679,18 @@ msgid ""
 "This includes things like package IDs and signature hashes. Some extra "
 "configuration options also appear."
 msgstr ""
+"སྒྲིག་བཀོད་ནང་ནས་\"ཕུལ་བྱུང་གི་ཚུལ་\"གདམ་ཀ་བྱས་པས་མཉེན་ཆས་ནང་མཐོང་སྣང་འཕར་མའི"
+"་དེ་དག་མི་མང་ཆེ་བར་བེད་སྤྱོད་མེད་པ་འདྲ་པོ་རེད། འདིའི་ནང་དཔེར་ན། package IDs "
+"དང་signature hashes སོགས་ཀྱང་ཚུད་ཡོད། "
+"དེ་མིན་སྒྲིག་བཀོད་ཀྱི་གདམ་ཀ་འཕཪ་མ་ཡང་མཐོང་རྒྱུ་ཡོད།"
 
 #. type: Title ###
 #: build/_docs/md/FAQ_-_Client.md:109
 #, no-wrap
 msgid "I can download apps, but then \"Install\" is disabled. Why?"
 msgstr ""
+"ངས་མཉེན་ཆས་ཕབ་ལེན་བྱེད་ཐུབ་སོང་།  ཡིན་ནའི་ \"སྒྲིག་བཅུག་\""
+"བྱེད་ཐུབ་ཀྱི་མིན་འདུག གང་ཡིན་ནམ།"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md:118
@@ -5696,6 +5720,8 @@ msgstr ""
 #, no-wrap
 msgid "How do I update all my installed programs at once?"
 msgstr ""
+"ངས་སྒྲིག་བཅུག་བྱས་པའི་མཉེན་ཆས་དེ་དག་དེ་མ་ཐག་ཏུ་གསར་བསྒྱུར་ཇི་ལྟར་བྱེད་དགོས་སམ"
+"།"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md:129
@@ -5703,6 +5729,8 @@ msgid ""
 "You can't yet. See [Issue 36 - Update All](https://f-droid.org/repository/"
 "issues/?do=view_issue&issue=36)."
 msgstr ""
+"ད་ལྟ་ཁྱེད་རང་གིས་ལྟ་མི་ཐུབ། .  [Issue 36 -ཆ་ཚང་གསར་བསྒྱུར་བྱེད་](https://f-dr"
+"oid.org/repository/issues/?do=view_issue&issue=36)ལ་གཟིགས།"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md:134
@@ -5718,6 +5746,8 @@ msgstr ""
 #, no-wrap
 msgid "Why doesn't the client show the number of installs/downloads for each app?"
 msgstr ""
+"མཉེན་ཆས་འདིས་སྒྲིག་བཅུག་བྱས་པའི་གྲངས་ཐོ་/མཉེན་ཆས་རེ་རེའི་ཕབ་ལེན་བྱས་པ་དེ་དག་མ"
+"ི་སྟོན་པའི་རྒྱུ་མཚན་གང་ཡིན་ནམ།"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md:142
@@ -5727,6 +5757,11 @@ msgid ""
 "uninstall on their devices, and sending that data back to ourselves. We "
 "don't do that, and we're not going to do it."
 msgstr ""
+"མི་མང་ཉུང་ཇི་ཙམ་ཞིག་གིས་མཉེན་ཆས་འདི་སྒྲིག་བཅུག་བྱས་པ་སྟོན་པ་དང་། "
+"ང་ཚོས་ཁོང་ཚོར་གསོ་ལྟ་བྱས་སྲིད། ཕྱོགས་གཞན་ཞིག་ནས་བཤད་ན། རང་རང་སོ་སོའི་ཡོ་བྱད་ཀ"
+"ྱི་སྒང་ནས་མཉེན་ཆས་གང་སྒྲིག་བཅུག་བྱས་པ་དང་གང་ཕྱིར་སྟོན་བྱས་ནས་དེ་དག་ཡིག་ཚགས་རྣ"
+"མས་ང་ཚོར་གཏོང་བ་སོགས་ལ་རྗེས་ཤུལ་བཏང་གི་ཡོད། "
+"ལས་ཀ་དེའི་རིགས་ང་ཚོས་བྱེད་ཀྱི་མེད་ལ་མ་འོངས་པ་བྱེད་འཆར་ཡང་མེད།"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md:145
@@ -5734,11 +5769,15 @@ msgid ""
 "Theoretically, the number of downloads is available via our web server logs. "
 "However, this would be a meaningless figure because:"
 msgstr ""
+"ཕབ་ལེན་བྱས་པའི་གྲངས་ཐོ་རྣམས་ང་ཚོའི་དྲྭ་རྒྱའི་ཞབས་ཞུ་འཕྲུལ་ཆས་ཐོ་གཞུང་རྒྱུད་དེ"
+"་རག་ཐུབ། ཡིན་ནའི་གྲངས་ཀ་འདིའི་རིགས་ནི་དོན་མེད་པ་ལྟ་བུ་ཞིག་རེད། རྒྱུ་མཚན་ནི།"
 
 #. type: Bullet: '1.  '
 #: build/_docs/md/FAQ_-_Client.md:150
 msgid "I might download an app, and decide not to install it"
 msgstr ""
+"ངས་གཅིག་བྱས་ན་མཉེན་ཆས་འདི་ཕབ་ལེན་བྱས་ཏེ་ནང་དུ་སྒྲིག་བཅུག་བྱེད་རྒྱུ་མེད་པའི་ཐག"
+"་ཆོད་ཡོད།"
 
 #. type: Bullet: '2.  '
 #: build/_docs/md/FAQ_-_Client.md:150
@@ -5746,11 +5785,14 @@ msgid ""
 "I might download and install it, then uninstall it immediately because I "
 "don't like it"
 msgstr ""
+"གཅིག་བྱས་ན་ངས་ཕབ་ལེན་བྱས་ཏེ་སྒྲིག་བཅུག་བྱས་སྲིད་པ་རེད། "
+"དེ་ནས་སླར་ཡང་ངས་མི་དགའ་བའི་དབང་གིས་དེ་ལམ་སེང་ཕྱིར་འཐེན་བྱེད་སྲིད་ཀྱི་རེད།"
 
 #. type: Bullet: '3.  '
 #: build/_docs/md/FAQ_-_Client.md:150
 msgid "I might download my app 1,000,000 times to make it look popular"
 msgstr ""
+"ངས་མཉེན་ཆས་དེ་གྲགས་ཆེན་པོ་བཟོ་བའི་ཆེད་དུ་ཕབ་ལེན་ཐེངས་1,000,000 ཡང་བྱེད་སྲིད།"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md:157
