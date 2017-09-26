@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-05-17 11:31+1000\n"
 "PO-Revision-Date: 2017-09-26 09:21+0000\n"
-"Last-Translator: Jean-Baptiste <jean-baptiste@holcroft.fr>\n"
+"Last-Translator: anonymous <>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/fr/>\n"
 "Language: fr\n"
@@ -552,13 +552,12 @@ msgstr ""
 
 #. type: Plain text
 #: build/_pages/md/contribute.md:19
-#, fuzzy
 msgid ""
 "[The manual]({{ \"/manual/\" | prepend: site.baseurl }}) should help with "
 "this."
 msgstr ""
-"[Le manuel]({{ \"/manual/\" | prepend: site.baseurl }}) devrait vous aider "
-"pour ce faire."
+"[Le manuel]({{ \"/manual/\" | prepend: site.baseurl }}) devrait aider pour "
+"ceci."
 
 #. type: Title ###
 #: build/_pages/md/contribute.md:20
@@ -575,9 +574,9 @@ msgid ""
 "to make your changes."
 msgstr ""
 "L'application client est disponible dans plusieurs langues, mais si la vôtre "
-"n'est pas incluse ou si elle a besoin d'une mise à jour ou d'une "
-"amélioration, créez un compte et utilisez le [système de traduction] "
-"(https://hosted.weblate.org/projects/f-droid/) pour effectuer vos "
+"n'est pas incluse, ou si elle a besoin d'une mise à jour ou d'une "
+"amélioration, veuillez créer un compte et utilisez le [système de "
+"traduction]https://hosted.weblate.org/projects/f-droid/) pour effectuer vos "
 "modifications."
 
 #. type: Plain text
