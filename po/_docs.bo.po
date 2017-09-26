@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-09-25 21:54+0000\n"
+"PO-Revision-Date: 2017-09-27 19:48+0000\n"
 "Last-Translator: tenzin tselek <omaahum99@yahoo.in>\n"
 "Language-Team: Tibetan <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/bo/>\n"
@@ -10367,13 +10367,13 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Vulnerability_Scanning_with_Drozer.md:96
 msgid "Note: this will destroy docker images!"
-msgstr ""
+msgstr "དྲན་ཐོ། འདིས་ཌོ་ཀར་པར་རིས་མེད་པ་བཟོས་ཀྱི་རེད།!"
 
 #. type: Title ####
 #: build/_docs/md/Vulnerability_Scanning_with_Drozer.md:98
 #, no-wrap
 msgid "`make build`"
-msgstr ""
+msgstr "'བཟོ་སྐྲུན།'"
 
 #. type: Plain text
 #: build/_docs/md/Vulnerability_Scanning_with_Drozer.md:104
@@ -10387,7 +10387,7 @@ msgstr ""
 #: build/_docs/md/Vulnerability_Scanning_with_Drozer.md:106
 #, no-wrap
 msgid "`make kill`"
-msgstr ""
+msgstr "`བསད་པ་བཟོས།`"
 
 #. type: Plain text
 #: build/_docs/md/Vulnerability_Scanning_with_Drozer.md:109
@@ -10398,7 +10398,7 @@ msgstr ""
 #: build/_docs/md/Vulnerability_Scanning_with_Drozer.md:111
 #, no-wrap
 msgid "`make info`"
-msgstr ""
+msgstr "'གནས་ཚུལ་བཟོས་པ་'"
 
 #. type: Plain text
 #: build/_docs/md/Vulnerability_Scanning_with_Drozer.md:116
@@ -10447,12 +10447,15 @@ msgid ""
 "Typical usage is for finding the _adb connect_ line or the _ssh_\n"
 "port (32779 from the `0.0.0.0:32779->22/tcp` note).\n"
 msgstr ""
+"གཤམ་གྱི་འདི་འཚོལ་ཐབས་ཐུན་མོང་མ་ཡིན་པའི་བེད་སྤྱོད་ནི། _adb connect_ line or "
+"the _ssh_\n"
+"port (32779 from the `0.0.0.0:32779->22/tcp` note).\n"
 
 #. type: Title #
 #: build/_docs/md/Whitelabel_Builds.md:1
 #, no-wrap
 msgid "Whitelabel Builds"
-msgstr ""
+msgstr "དཀར་བཏགས་བཟོ་སྐྲུན།"
 
 #. type: Plain text
 #: build/_docs/md/Whitelabel_Builds.md:8
@@ -10467,7 +10470,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Whitelabel_Builds.md:10
 msgid "Starting in *app/build.gradle*, add this:"
-msgstr ""
+msgstr "འདིའི་ནང་འགོ་བཙུགས་ *མཉེན་ཆས་/build.gradle*, འདི་ཁ་སྣོན་བྱེད།:"
 
 #. type: Plain text
 #: build/_docs/md/Whitelabel_Builds.md:20
@@ -10620,7 +10623,7 @@ msgstr ""
 #: build/_docs/md/Whitelabel_Builds.md:68
 #, no-wrap
 msgid "Customizations"
-msgstr ""
+msgstr "རང་སྒྲུབ།"
 
 #. type: Plain text
 #: build/_docs/md/Whitelabel_Builds.md:75
@@ -10635,7 +10638,7 @@ msgstr ""
 #: build/_docs/md/Whitelabel_Builds.md:77
 #, no-wrap
 msgid "Removing ActionBar/Menu Items"
-msgstr ""
+msgstr "ལས་བྱང་མེད་པ་བཟོས་པ་/རེའུ་མིག་རྣམ་གྲངས་ཁག"
 
 #. type: Plain text
 #: build/_docs/md/Whitelabel_Builds.md:83
@@ -10644,12 +10647,16 @@ msgid ""
 "main/res/menu/main.xml_ by copying it into _app/src/mycompany/res/menu/main."
 "xml_, and removing and/or customizing the items there."
 msgstr ""
+"\"མཉེན་ཆས་བརྗེ་ལེན་\"དང་\"མཛོད་ཁང་\"སོགས་སྦས་པ་དང་། "
+"_app/src/main/res/menu/main.xml_སྐྱར་བྲིས་བྱས་ནས་ "
+"_app/src/mycompany/res/menu/main.xml_, "
+"འདིའི་ནང་ཕབ་ཤུས་བྱས་ཏེ་མེ་པ་བཟོས་པ་དང་། /རྣམ་གྲངས་ཁག་རང་སྒྲུབ་བྱེད།"
 
 #. type: Title ####
 #: build/_docs/md/Whitelabel_Builds.md:85
 #, no-wrap
 msgid "Preferences"
-msgstr ""
+msgstr "གདམ་ཀ།"
 
 #. type: Plain text
 #: build/_docs/md/Whitelabel_Builds.md:93
