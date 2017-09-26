@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-05-17 11:31+1000\n"
-"PO-Revision-Date: 2017-09-26 09:21+0000\n"
-"Last-Translator: anonymous <>\n"
+"PO-Revision-Date: 2017-09-26 13:42+0000\n"
+"Last-Translator: Jean-Baptiste <jean-baptiste@holcroft.fr>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/fr/>\n"
 "Language: fr\n"
@@ -168,7 +168,6 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
-#, fuzzy
 msgid "Alterechtschreibung"
 msgstr "Alterechtschreibung"
 
@@ -189,37 +188,31 @@ msgstr "Ben Arnold"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
-#, fuzzy
 msgid "Michele Azzolari"
 msgstr "Michele Azzolari"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
-#, fuzzy
 msgid "Jan Berkel"
 msgstr "Jan Berkel"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
-#, fuzzy
 msgid "David Black"
 msgstr "David Black"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
-#, fuzzy
 msgid "Jan C Borchardt"
 msgstr "Jan C Borchardt"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
-#, fuzzy
 msgid "Valerio Bozzolan"
 msgstr "Valerio Bozzolan"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
-#, fuzzy
 msgid "Dan Bravender"
 msgstr "Dan Bravender"
 
@@ -385,37 +378,31 @@ msgstr "Hans-Christoph Steiner"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
-#, fuzzy
 msgid "David Sterry"
 msgstr "David Sterry"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
-#, fuzzy
 msgid "Peter Serwylo"
 msgstr "Peter Serwylo"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
-#, fuzzy
 msgid "John Sullivan"
 msgstr "John Sullivan"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
-#, fuzzy
 msgid "Antonio Tapiador"
 msgstr "Antonio Tapiador"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
-#, fuzzy
 msgid "William Theaker"
 msgstr "William Theaker"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
-#, fuzzy
 msgid "Henrik Tunedal"
 msgstr "Henrik Tunedal"
 
@@ -437,7 +424,6 @@ msgstr "Nutchanon Wetchasit"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
-#, fuzzy
 msgid "Philipp Wollschlegel"
 msgstr "Philipp Wollschlegel"
 
@@ -497,11 +483,10 @@ msgstr ""
 
 #. type: Plain text
 #: build/_pages/md/contribute.md:9
-#, fuzzy
 msgid "For reporting issues, choose an appropriate tracker from the following:"
 msgstr ""
 "Pour rapporter des problèmes, choisissez le gestionnaire d'incidents "
-"approprié à partir de ce qui suit:"
+"approprié :"
 
 #. type: Bullet: '* '
 #: build/_pages/md/contribute.md:13
@@ -575,7 +560,7 @@ msgid ""
 msgstr ""
 "L'application client est disponible dans plusieurs langues, mais si la vôtre "
 "n'est pas incluse, ou si elle a besoin d'une mise à jour ou d'une "
-"amélioration, veuillez créer un compte et utilisez le [système de "
+"amélioration, veuillez créer un compte et utiliser le [système de "
 "traduction]https://hosted.weblate.org/projects/f-droid/) pour effectuer vos "
 "modifications."
 
@@ -593,13 +578,12 @@ msgstr ""
 
 #. type: Title ###
 #: build/_pages/md/contribute.md:26
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Help with Development"
 msgstr "Aide pour le développement"
 
 #. type: Plain text
 #: build/_pages/md/contribute.md:38
-#, fuzzy
 msgid ""
 "There are four git repositories hosted at Gitlab – one for the [Android "
 "client application](https://gitlab.com/fdroid/fdroidclient), one for the "
@@ -614,33 +598,32 @@ msgid ""
 "direction of the project, and do not clash with or duplicate work already in "
 "development."
 msgstr ""
-"Il y a quatre dépôts git hébergés chez Gitlab - un pour l'[application "
+"Il y a quatre dépôts git hébergés chez Gitlab – un pour l’[application "
 "cliente Android](https://gitlab.com/fdroid/fdroidclient), un pour les ["
 "outils serveur] (https://gitlab.com/fdroid/fdroidserver) utilisés pour faire "
-"tourner un dépôt et construire/installer des applications localement,  et un "
+"tourner un dépôt et construire/installer des applications localement, et un "
 "pour les [métadonnées associées aux applications dans le dépôt F-Droid "
 "principal](https://gitlab.com/fdroid/fdroiddata). Le dernier dépôt gère le ["
 "site web et la documentation](https://gitlab.com/fdroid/fdroid-website). La "
 "façon la plus simple de contribuer au développement est de cloner ces "
 "projets et de soumettre une demande de fusion. Si vous faites des "
-"changements substantiels, il serait préférable d'en parler sur IRC ou le "
-"forum préalablement, afin de s'assurer que ces changements vont dans le sens "
-"du projet, et qu'ils ne rentrent pas en conflit avec un effort de "
+"changements substantiels, il serait préférable d’en parler sur IRC ou le "
+"forum préalablement, afin de s’assurer que ces changements vont dans le sens "
+"du projet, et qu’ils ne rentrent pas en conflit avec un effort de "
 "développement déjà en cours, ou le duplique."
 
 #. type: Plain text
 #: build/_pages/md/contribute.md:39
-#, fuzzy
 msgid ""
 "For working with the server and data projects, it’s a good idea to read [the "
 "manual]({{ \"/manual/\" | prepend: site.baseurl }})."
 msgstr ""
-"Pour travailler sur les projets serveur et données, nous vous recommandons "
-"de lire [le manuel]({{ \"/manual/\" | prepend: site.baseurl }})."
+"Pour travailler sur les projets « server » et « data », nous vous "
+"recommandons de lire [le manuel]({{ \"/manual/\" | prepend: site.baseurl }})."
 
 #. type: Title #
 #: build/_pages/md/docs.md:1
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Docs"
 msgstr "Documentations"
 
@@ -664,7 +647,6 @@ msgstr ""
 
 #. type: Plain text
 #: build/_pages/md/docs.md:15
-#, fuzzy
 msgid ""
 "The F-Droid server tools provide various scripts and tools that are used to "
 "maintain the main F-Droid application repository. You can use these same "
@@ -672,7 +654,7 @@ msgid ""
 "publishing, or to assist in creating, testing and submitting metadata to the "
 "main repository."
 msgstr ""
-"Les outils serveur F-Droid fournissent divers scripts et outils, qui sont "
+"Les outils serveur F-Droid fournissent divers scripts et outils qui sont "
 "utilisés pour maintenir le dépôt d'applications F-Droid principal. Vous "
 "pouvez utiliser ces mêmes outils pour créer votre propre dépôt additionnel "
 "ou alternatif afin de publier, ou aider à créer, tester et soumettre des "
@@ -680,31 +662,26 @@ msgstr ""
 
 #. type: Title ###
 #: build/_pages/md/docs.md:17
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Getting Started"
 msgstr "Guide de démarrage"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:22
-#, fuzzy
 msgid "[FAQ - General](FAQ_-_General) Frequently Asked Questions about F-Droid"
-msgstr ""
-"[FAQ - General](FAQ_-_General) Questions fréquemment posées concernant "
-"F-Droid"
+msgstr "[FAQ - General](FAQ_-_General) Questions fréquentes concernant F-Droid"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:22
-#, fuzzy
 msgid ""
 "[FAQ - Client](FAQ_-_Client) Frequently Asked Questions about how to use the "
 "F-Droid app in Android."
 msgstr ""
-"[FAQ - Application](FAQ_-_Client) Questions fréquemment posées sur "
-"l'utilisation de l'application F-Droid sous Android."
+"[FAQ - Application](FAQ_-_Client) Questions fréquentes sur l'utilisation de "
+"l'application F-Droid sous Android."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:22
-#, fuzzy
 msgid ""
 "[Anti-Features](https://f-droid.org/wiki/page/Antifeatures) What they are, "
 "what they mean, and what apps have them."
@@ -714,13 +691,12 @@ msgstr ""
 
 #. type: Title ###
 #: build/_pages/md/docs.md:24
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "More Information"
 msgstr "Plus d'informations"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:31
-#, fuzzy
 msgid ""
 "[How to Help](How_to_Help) Different ways anyone can contribute to the F-"
 "Droid project."
@@ -730,7 +706,6 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:31
-#, fuzzy
 msgid ""
 "[Known Repositories](https://f-droid.org/wiki/page/Known_Repositories) A "
 "list that tries to keep track of known f-droid compatible repositories."
@@ -740,20 +715,18 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:31
-#, fuzzy
 msgid ""
 "[Release Channels and Signing Keys](Release_Channels_and_Signing_Keys) These "
 "are the various channels that F-Droid software are released on, with info to "
 "verify them based on signing keys."
 msgstr ""
 "[Canaux de publications et clés de "
-"signature](Release_Channels_and_Signing_Keys) A propos des différents canaux "
+"signature](Release_Channels_and_Signing_Keys) À propos des différents canaux "
 "par lesquels F-Droid est publié, avec les informations pour les vérifier "
 "grâce aux clés de signature."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:31
-#, fuzzy
 msgid ""
 "[Security Model](Security_Model) A brief explanation of how F-Droid delivers "
 "software to users securely."
@@ -764,7 +737,6 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:31
-#, fuzzy
 msgid ""
 "[Translation and Localization](Translation_and_Localization) How all the "
 "parts of F-Droid are localized."
@@ -774,43 +746,40 @@ msgstr ""
 
 #. type: Title ###
 #: build/_pages/md/docs.md:33
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Developers"
 msgstr "Développeurs"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:48
-#, fuzzy
 msgid ""
 "[FAQ - App Developers](FAQ_-_App_Developers) Frequently Asked Questions "
 "about F-Droid"
 msgstr ""
 "[FAQ - Développeurs d'application](FAQ_-_App_Developers) Questions "
-"fréquemment posées concernant F-Droid."
+"fréquentes concernant F-Droid"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:48
-#, fuzzy
 msgid ""
 "[Build Metadata Reference](Build_Metadata_Reference) All about the build "
 "\"recipes\""
 msgstr ""
 "[Référentiel des métadonnées de construction](Build_Metadata_Reference) Tout "
-"sur les \"recettes\" de construction."
+"sur les « recettes » de construction"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:48
-#, fuzzy
 msgid ""
 "[Submitting to F-Droid: Quick Start Guide](Submitting_to_F-"
 "Droid_Quick_Start_Guide) Add an app to f-droid.org"
 msgstr ""
-"[Soumettre une application à F-Droid: Guide de démarrage rapide"
-"](Submitting_to_F-Droid_Quick_Start_Guide) Ajouter une application à F-Droid."
+"[Soumettre une application à F-Droid : Guide de démarrage rapide"
+"](Submitting_to_F-Droid_Quick_Start_Guide) Ajouter une application à "
+"f-droid.org"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:48
-#, fuzzy
 msgid ""
 "[Update Processing](Update_Processing) How updates get detected and added."
 msgstr ""
@@ -819,7 +788,6 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:48
-#, fuzzy
 msgid ""
 "[Inclusion Policy](Inclusion_Policy) & [Inclusion How-To](Inclusion_How-To)  "
 "Guidelines for how to request the inclusion of a new app."
@@ -830,27 +798,24 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:48
-#, fuzzy
 msgid ""
 "[Importing Applications](Importing_Applications) Using `fdroid import` to "
 "build a new project."
 msgstr ""
-"[Importer des applications](Importing_Applications) De l'utilisation de `"
-"fdroid import` pour construire un nouveau projet."
+"[Importer des applications](Importing_Applications) Utiliser `fdroid import` "
+"pour construire un nouveau projet."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:48
-#, fuzzy
 msgid ""
 "[Building Applications](Building_Applications) Using `fdroid build` to build "
 "an app."
 msgstr ""
-"[Construire des applications](Building_Applications) Notes sur l'utilisation "
-"de `fdroid build` pour construire une application."
+"[Construire des applications](Building_Applications) Utiliser `fdroid build` "
+"pour construire une application."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:48
-#, fuzzy
 msgid ""
 "[All About Descriptions, Graphics, and Screenshots]"
 "(All_About_Descriptions_Graphics_and_Screenshots) Showing off your app in F-"
@@ -862,18 +827,16 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:48
-#, fuzzy
 msgid ""
 "[Installing the Server and Repo Tools](Installing_the_Server_and_Repo_Tools) "
 "How to install fdroidserver, the tools for running repos and build servers."
 msgstr ""
-"[Installer le serveur et les outils de "
+"[Installation du serveur et des outils de "
 "dépôt](Installing_the_Server_and_Repo_Tools) Comment installer fdroidserver, "
-"les outils pour les dépôts actifs et les serveurs de construction."
+"les outils pour faire fonctionner des dépôts  et serveurs de construction."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:48
-#, fuzzy
 msgid ""
 "[Setup an F-Droid App Repo](Setup_an_F-Droid_App_Repo) How to setup your own "
 "repository of apps that users can easily add to their F-Droid client to get "
@@ -886,7 +849,6 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:48
-#, fuzzy
 msgid ""
 "[Build Server Setup](Build_Server_Setup) How to setup the complete f-droid."
 "org build setup on your own machine."
@@ -897,17 +859,15 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:48
-#, fuzzy
 msgid ""
 "[Signing Process](Signing_Process) How to setup cryptographic signatures "
 "with F-Droid tools"
 msgstr ""
 "[Processus de signature](Signing_Process) Comment mettre en place les "
-"signatures cryptographiques avec les outils F-Droid."
+"signatures cryptographiques avec les outils F-Droid"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:48
-#, fuzzy
 msgid ""
 "[Reproducible Builds](Reproducible_Builds) How to use the F-Droid tools to "
 "make reproducible builds easy."
@@ -917,7 +877,6 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:53
-#, fuzzy
 msgid ""
 "[Verification Server](Verification_Server) Setting up a server to verify app "
 "builds are correct."
@@ -927,15 +886,13 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:53
-#, fuzzy
 msgid "[Whitelabel Builds](Whitelabel_Builds) custom builds of F-Droid"
 msgstr ""
-"[Reconstruction en marque blanche](Whitelabel_Builds) reconstructions "
-"personnalisées de F-Droid."
+"[Constructions en marque blanche](Whitelabel_Builds) constructions "
+"personnalisées de F-Droid"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:53
-#, fuzzy
 msgid ""
 "[Privileged Extension](https://gitlab.com/fdroid/privileged-extension#f-"
 "droid-privileged-extension) How to use F-Droid Privileged Extension as a "
@@ -943,11 +900,10 @@ msgid ""
 msgstr ""
 "[Extension privilégiée](https://gitlab.com/fdroid/privileged-extension#f"
 "-droid-privileged-extension) Comment utiliser l'extension privilégiée de F-"
-"Droid en tant qu'utilisateur et développeur de ROM."
+"Droid en tant qu'utilisateur et développeur de ROM"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:53
-#, fuzzy
 msgid ""
 "[Deploying the Website](Deploying_the_Website) How [fdroid-website.git]"
 "(https://gitlab.com/fdroid/fdroid-website) becomes [f-droid.org](https://f-"
@@ -955,11 +911,10 @@ msgid ""
 msgstr ""
 "[Déploiement du site web](Deploying_the_Website) Comment [fdroid-"
 "website.git](https://gitlab.com/fdroid/fdroid-website) devient "
-"[f-droid.org](https://f-droid.org)."
+"[f-droid.org](https://f-droid.org)"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:54
-#, fuzzy
 msgid ""
 "[Work in Progress](https://f-droid.org/wiki/page/Work_in_Progress) Feel free "
 "to add your own topics and link to others."
@@ -969,13 +924,12 @@ msgstr ""
 
 #. type: Title #
 #: build/_pages/md/issues.md:1
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Issues"
 msgstr "Problèmes"
 
 #. type: Plain text
 #: build/_pages/md/issues.md:5
-#, fuzzy
 msgid ""
 "If you’re having a problem with the F-Droid client application, please check "
 "if we already know about it, and/or report it, in [this issue tracker]"
@@ -988,7 +942,6 @@ msgstr ""
 
 #. type: Plain text
 #: build/_pages/md/issues.md:9
-#, fuzzy
 msgid ""
 "For problems relating to the contents of the repository, such as missing or "
 "outdated applications, please use [this issue tracker](https://gitlab.com/"
@@ -1000,7 +953,6 @@ msgstr ""
 
 #. type: Plain text
 #: build/_pages/md/issues.md:12
-#, fuzzy
 msgid ""
 "For the server tools (used for building apps yourself, or running your own "
 "repo), and issues relating to the web site, please use [this issue tracker]"
@@ -1043,7 +995,7 @@ msgstr ""
 #: build/_docs/md/FAQ_-_General.md:5
 #: build/_docs/md/Installing_the_Server_and_Repo_Tools.md:15
 #: build/_docs/md/Setup_an_F-Droid_App_Repo.md:5
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "* Do not remove this line (it will not be displayed)\n"
 "{:toc}\n"
@@ -1053,7 +1005,6 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md:14
-#, fuzzy
 msgid "There are two data formats:"
 msgstr "Il existe deux formats de données :"
 
