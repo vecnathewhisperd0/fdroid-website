@@ -37,12 +37,12 @@
     "sidebars": {
         "donate": {
             "bank_transfer_name": "Adı", 
-            "heading": "Bağış", 
-            "powered_by_donations": "F-Droid bağışlarınızla güç bulur!", 
-            "via_bank_transfer": "Banka Havalesi", 
             "bitcoin_alt": "Bitcoin", 
             "flattr_alt": "Flattr", 
-            "paypal_alt": "PayPal"
+            "heading": "Bağış", 
+            "paypal_alt": "PayPal", 
+            "powered_by_donations": "F-Droid bağışlarınızla güç bulur!", 
+            "via_bank_transfer": "Banka Havalesi"
         }, 
         "last_updated": {
             "heading": "Son Güncelleme"

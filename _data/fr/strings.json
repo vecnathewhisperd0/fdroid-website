@@ -37,11 +37,11 @@
     "sidebars": {
         "donate": {
             "bank_transfer_name": "Prénom", 
+            "bitcoin_alt": "Bitcoin", 
+            "flattr_alt": "Flattr", 
             "heading": "Faire un don", 
             "powered_by_donations": "F-Droid est alimenté par vos dons !", 
-            "via_bank_transfer": "Virement", 
-            "bitcoin_alt": "Bitcoin", 
-            "flattr_alt": "Flattr" 
+            "via_bank_transfer": "Virement"
         }, 
         "last_updated": {
             "heading": "Dernière mise à jour"
