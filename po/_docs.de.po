@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-10-03 21:22+0000\n"
-"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
+"PO-Revision-Date: 2017-10-03 21:29+0000\n"
+"Last-Translator: anonymous <>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/de/>\n"
 "Language: de\n"
@@ -2835,6 +2835,9 @@ msgid ""
 "    Multiple files/directories can be specified by separating them with\n"
 "    ’,’. Directories will be recursively deleted.\n"
 msgstr ""
+"    Es können mehrere Dateien/Verzeichnisse angegeben werden, die durch ’,’ "
+"\n"
+"    getrennt werden. Verzeichnisse werden rekursiv gelöscht.\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:508
@@ -2850,6 +2853,9 @@ msgid ""
 "    `build/extlib` library, which will be placed in the `libs` directory\n"
 "    of the project.\n"
 msgstr ""
+":   Komma-getrennte Liste externer Bibliotheken (‘jar‘-Dateien) aus der\n"
+"    `build/extlib`-Bibliothek, die im `libs`-Verzeichnis des Projekts \n"
+"    abgelegt werden.\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:514
@@ -2865,6 +2871,13 @@ msgid ""
 "    library name and rev is the revision or tag to use in the respective\n"
 "    source control.\n"
 msgstr ""
+":   Komma-getrennte Liste der Quellbibliotheken oder Android-Projekte. "
+"Jeder\n"
+"    Eintrag hat die Form ‘name@rev‘, wobei ‘name‘ der vorgegebene Name der "
+"Quell-\n"
+"    bibliothek ist und ‘rev‘ die Revision bzw. das Kennzeichen, das in der "
+"entsprechenden\n"
+"    Versionsverwaltung verwendet werden soll.\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:526
@@ -2877,6 +2890,17 @@ msgid ""
 "    do the equivalent of the legacy practice\n"
 "    `prebuild=echo \"android.library.reference.1=$$somelib$$\" >> project.properties`.\n"
 msgstr ""
+"    Bei Ant-Projekten kann optional eine Zahl gefolgt von einem Doppelpunkt "
+"am\n"
+"    Anfang des ‘srclib‘-Eintrags angefügt werden, um ihn automatisch als "
+"eine Bibliothek\n"
+"    mit der festgelegten Nummer in ‘project.properties‘ einzutragen. Zum "
+"Beispiel wird\n"
+"    F-Droid bei Angabe von `1:somelib@1.0` automatisch ausführen, was der "
+"altbekannten\n"
+"    Methode: `prebuild=echo \"android.library.reference.1=$$somelib$$\""
+">>project.properties`\n"
+"    entspricht.\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:538
@@ -3033,6 +3057,10 @@ msgid ""
 "    and probably accompanied by a comment explaining why it\n"
 "    is necessary.\n"
 msgstr ""
+":   Ermöglicht den Ausschluss von Dateien/Pfaden beim Scan-Vorgang\n"
+"    Sollte nur verwendet werden, wenn es dafür einen triftigen Grund gibt,\n"
+"    und möglichst von einem Vermerk begleitet sein, der erklärt, \n"
+"    warum es notwendig ist.\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:605
@@ -3041,6 +3069,10 @@ msgid ""
 "    When scanning the source tree for problems, matching files whose\n"
 "    relative paths start with any of the paths given here are ignored.\n"
 msgstr ""
+"    Beim Durchsuchen des Quellverzeichnis nach Problemen, werden "
+"entsprechende Dateien, \n"
+"    deren relative Pfade mit einem der hier angegebenen Pfade beginnen, "
+"übergangen.\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:607
