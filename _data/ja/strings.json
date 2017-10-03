@@ -25,7 +25,7 @@
         "issue_tracker": "問題トラッカー", 
         "license": "ライセンス", 
         "minimum_android_version": "このバージョンは Android [android_version] 以降が必要です。", 
-        "new_in_version": "新しいバージョン [最新バージョン]", 
+        "new_in_version": "新しいバージョン [latest_version]", 
         "packages": "パッケージ", 
         "permissions": "アクセス許可", 
         "signed_by_developer": "元の開発者によってビルドと署名されました。", 
