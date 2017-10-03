@@ -39,6 +39,7 @@
     "sidebars": {
         "donate": {
             "bank_transfer_name": "Name", 
+            "bitcoin_alt": "Über Bitcoin spenden ", 
             "flattr_alt": "Über Flattr spenden", 
             "heading": "Spenden", 
             "paypal_alt": "Über PayPal spenden ", 
