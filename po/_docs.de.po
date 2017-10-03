@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-10-03 21:31+0000\n"
-"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
+"PO-Revision-Date: 2017-10-03 22:03+0000\n"
+"Last-Translator: anonymous <>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/de/>\n"
 "Language: de\n"
@@ -3088,6 +3088,10 @@ msgid ""
 "    binaries - will be removed. It acts just like scanignore=, but\n"
 "    instead of ignoring the files, it removes them.\n"
 msgstr ""
+":   Bei Ausführung des Scan-Vorganges werden alle Dateien, die Fehler "
+"auslösen \n"
+"    - wie Binärdateien - entfernt. Funktioniert genau wie ‘scanignore=‘, \n"
+"    aber statt die Dateien zu überspringen, werden sie gelöscht.\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:615
@@ -3097,6 +3101,11 @@ msgid ""
 "    unwanted files which are not needed for the build. Instead of\n"
 "    removing them manually via rm=, using scandelete= is easier.\n"
 msgstr ""
+"    Nützlich wenn ein Quelltext-Repository Binärdateien oder andere "
+"unerwünschte Dateien\n"
+"    beinhaltet, die für das Build nicht erforderlich sind. Anstatt sie über "
+"‘rm=‘ \n"
+"    von Hand zu löschen, ist die Verwendung von ‘scandelete=‘ einfacher.\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:617
