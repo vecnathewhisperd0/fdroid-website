@@ -13,7 +13,8 @@
         "documentation": "اسناد", 
         "forum": "انجمن", 
         "issues": "مشکلات", 
-        "news": "اخبار"
+        "news": "اخبار", 
+        "repomaker": "مخزن‌ساز"
     }, 
     "package": {
         "changelog": "تغییرات", 
@@ -24,6 +25,7 @@
         "issue_tracker": "ردیاب مشکلات", 
         "license": "مجوز", 
         "minimum_android_version": "این نسخه به اندروید [android_version] یا جدیدتر نیاز دارد.", 
+        "new_in_version": "جدید در نگارش [latest_version]", 
         "packages": "بسته‌ها", 
         "permissions": "مجوزها", 
         "signed_by_developer": "این توسط توسعه دهنده اصلی امضا و ساخته شده است.", 
@@ -37,7 +39,10 @@
     "sidebars": {
         "donate": {
             "bank_transfer_name": "نام", 
+            "bitcoin_alt": "اعانه با بیت‌کوین", 
+            "flattr_alt": "اعانه با فلتر", 
             "heading": "کمک کن", 
+            "paypal_alt": "اعانه با پی‌پل", 
             "powered_by_donations": "اف‌دروید از کمک های شما نیرو می‌گیرد!", 
             "via_bank_transfer": "حوالهٔ بانکی"
         }, 
