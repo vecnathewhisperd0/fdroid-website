@@ -6,20 +6,24 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2017-10-10 01:38+0000\n"
+"Last-Translator: Danial Behzadi <dani.behzi@ubuntu.com>\n"
+"Language-Team: Persian <https://hosted.weblate.org/projects/f-droid/website-"
+"docs/fa/>\n"
 "Language: fa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 2.17-dev\n"
 
 #. type: Title #
 #: build/_pages/md/about.md:1
 #, no-wrap
 msgid "About"
-msgstr ""
+msgstr "درباره"
 
 #. type: Plain text
 #: build/_pages/md/about.md:4
@@ -30,6 +34,10 @@ msgid ""
 "reviews and other features covering all things Android and software-freedom "
 "related."
 msgstr ""
+"اف‌دروید روباتی متعهّد به نرم‌افزار آزاد روی بن‌سازهٔ اندروید است. در این "
+"پایگاه مخزنی از کاره‌های آزاد، به همراه یک کارخواه اندرویدی برای نصب و به‌"
+"روز رسانی، اخبار، بازبینی‌ها و دیگر امکانانی که هرچیز مربوط به اندروید و "
+"آزادی نرم‌افزار را پوشش دهد، خواهید یافت."
 
 #. type: Plain text
 #: build/_pages/md/about.md:6
@@ -37,6 +45,8 @@ msgid ""
 "F-Droid is operated by F-Droid Limited, a non-profit organisation registered "
 "in England (no. 8420676)."
 msgstr ""
+"اف‌دروید توسّط F-Droid Limited یک سازمان غیرانتفاعی ثبت‌شده در انگلستان "
+"(شمارهٔ ۸۴۲۰۶۷۶) اداره می‌شود."
 
 #. type: Plain text
 #: build/_pages/md/about.md:8
@@ -48,6 +58,13 @@ msgid ""
 "If you want to help, you can [join us]({{ \"/contribute/\" | prepend: site."
 "baseurl }})."
 msgstr ""
+"می‌توانید روی اف‌دروید بحث کنید یا در کانال [#fdroid روی "
+"فری‌نود](https://webchat.freenode.net/?channels=%23fdroid) در IRC کمک "
+"بگیرید. بحث‌های روی IRC در [BotBot.me](https://botbot.me/freenode/fdroid) "
+"ثبت می‌شود. همچنین می‌توانید مسقیماً با نشانی "
+"[team@f-droid.org](mailto:team@f-droid.org) تماس بگیرید. اگر می‌خواهید کمک "
+"کنید، می‌توانید  [به ما بپیوندید]({{ \"/contribute/\" | prepend: "
+"site.baseurl }})."
 
 #. type: Plain text
 #: build/_pages/md/about.md:10
@@ -56,6 +73,9 @@ msgid ""
 "additional artwork, are by Robert Martinez. All are dual licensed under CC-"
 "BY-SA 3.0 Unported or GPLv3+."
 msgstr ""
+"نشان اف‌دروید توسّط ویلیام ثیکر ایجاد شده است. به‌روز رسانی‌های آن و کارهای "
+"هنری افزوده، توسّط روبرت مارتینز هستند. تمامی آن‌ها دوپروانه‌ای و تحت CC-BY-"
+"SA 3.0 یا GPLv3+ اند."
 
 #. type: Plain text
 #: build/_pages/md/about.md:12
@@ -108,7 +128,7 @@ msgstr ""
 #: build/_pages/md/about.md:21
 #, no-wrap
 msgid "Contributors"
-msgstr ""
+msgstr "مشارکت کنندگان"
 
 #. type: Plain text
 #: build/_pages/md/about.md:25
@@ -396,7 +416,7 @@ msgstr ""
 #: build/_pages/md/contribute.md:1
 #, no-wrap
 msgid "Contribute"
-msgstr ""
+msgstr "مشارکت"
 
 #. type: Plain text
 #: build/_pages/md/contribute.md:3 build/_docs/md/How_to_Help.md:5
@@ -409,7 +429,7 @@ msgstr ""
 #: build/_pages/md/contribute.md:4
 #, no-wrap
 msgid "Report Problems"
-msgstr ""
+msgstr "گزارش مشکلات"
 
 #. type: Plain text
 #: build/_pages/md/contribute.md:7
@@ -445,7 +465,7 @@ msgstr ""
 #: build/_pages/md/contribute.md:14
 #, no-wrap
 msgid "Submit Applications"
-msgstr ""
+msgstr "ثبت برنامه‌ها"
 
 #. type: Plain text
 #: build/_pages/md/contribute.md:17
@@ -470,7 +490,7 @@ msgstr ""
 #: build/_pages/md/contribute.md:20 build/_docs/md/How_to_Help.md:63
 #, no-wrap
 msgid "Translate"
-msgstr ""
+msgstr "ترجمه"
 
 #. type: Plain text
 #: build/_pages/md/contribute.md:23
@@ -523,7 +543,7 @@ msgstr ""
 #: build/_pages/md/docs.md:1
 #, no-wrap
 msgid "Docs"
-msgstr ""
+msgstr "مستندات"
 
 #. type: Plain text
 #: build/_pages/md/docs.md:9
@@ -550,7 +570,7 @@ msgstr ""
 #: build/_pages/md/docs.md:17
 #, no-wrap
 msgid "Getting Started"
-msgstr ""
+msgstr "شروع به کار"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:22
@@ -617,7 +637,7 @@ msgstr ""
 #: build/_pages/md/docs.md:33
 #, no-wrap
 msgid "Developers"
-msgstr ""
+msgstr "توسعه‌دهندگان"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:48
@@ -8785,7 +8805,7 @@ msgstr ""
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md:24
 #, no-wrap
 msgid "Setup"
-msgstr ""
+msgstr "برپاسازی"
 
 #. type: Plain text
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md:31
