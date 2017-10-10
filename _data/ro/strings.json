@@ -30,12 +30,16 @@
         "signed_by_fdroid": "Este compilat și semnat de către F-Droid, și este garantat să corespundă cu <a href=\"[source_code_url]\">această arhivă ce conține codul sursă</a>.", 
         "source_code": "Cod sursă", 
         "technical_info": "Informații tehnice", 
+        "version_info": "<b>Versiunea [package_version]</b> ([package_version_code]) - Adăugată pe [package_added_date]", 
         "website": "SIte"
     }, 
     "sidebars": {
         "donate": {
             "bank_transfer_name": "Nume", 
+            "bitcoin_alt": "Donează cu Bitcoin", 
+            "flattr_alt": "Donează prin Flattr", 
             "heading": "Donează", 
+            "paypal_alt": "Donează prin PayPal", 
             "powered_by_donations": "F-Droid este alimentat de donațiile dumneavoastră!", 
             "via_bank_transfer": "Transfer bancar"
         }, 
