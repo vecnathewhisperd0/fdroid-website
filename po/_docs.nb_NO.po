@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-10-10 01:38+0000\n"
+"PO-Revision-Date: 2017-10-10 03:24+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/f-droid"
 "/website-docs/nb_NO/>\n"
@@ -59,6 +59,12 @@ msgid ""
 "If you want to help, you can [join us]({{ \"/contribute/\" | prepend: site."
 "baseurl }})."
 msgstr ""
+"Du kan diskutere F-Droid eller få hjelp på IRC-kanalen "
+"[#fdroid](https://webchat.freenode.net/?channels=%23fdroid) på freenode. "
+"Diskusjonen på IRC loggføres på "
+"[BotBot.me](https://botbot.me/freenode/fdroid).Du kan også kontakte oss "
+"direkte per e-post på [team@f-droid.org](mailto:team@f-droid.org). Hvis du "
+"vil hjelpe, kan du [ta del]({{ \"/contribute/\" | prepend: site.baseurl }})."
 
 #. type: Plain text
 #: build/_pages/md/about.md:10
@@ -68,8 +74,8 @@ msgid ""
 "BY-SA 3.0 Unported or GPLv3+."
 msgstr ""
 "F-Droid-logoen ble laget av Wiliam Theaker. Oppdateringer av den, og andre "
-"kunstbidrag, gjort av Robert Martinez. Alle er dobbeltlisensiert CC-BY-SA "
-"3.0 uportet eller GPLv3+."
+"kunstbidrag, gjort av Robert Martinez. Alt er dobbeltlisensiert CC-BY-SA 3.0 "
+"uportet eller GPLv3+."
 
 #. type: Plain text
 #: build/_pages/md/about.md:12
@@ -78,6 +84,9 @@ msgid ""
 "Commons Attribution-ShareAlike 3.0 License](http://creativecommons.org/"
 "licenses/by-sa/3.0/)."
 msgstr ""
+"Innholdet av nyheter- og vurderings-delen er lisensiert [Creative Commons "
+"Navngivning-Del-på-like-vilkår 3.0](http://creativecommons.org/licenses/by-"
+"sa/3.0/)."
 
 #. type: Plain text
 #: build/_pages/md/about.md:14
@@ -86,6 +95,9 @@ msgid ""
 "png \"Creative Commons Logo\")](http://creativecommons.org/licenses/by-"
 "sa/3.0/)"
 msgstr ""
+"[![Creative Commons-logoen](https://i.creativecommons.org/l/by-sa/3.0/"
+"88x31.png \"Creative Commons-logo\")](http://creativecommons.org/licenses/by-"
+"sa/3.0/)"
 
 #. type: Title ###
 #: build/_pages/md/about.md:15
@@ -103,6 +115,12 @@ msgid ""
 "source code is checked for potential security or privacy issues. This "
 "checking is far from exhaustive though, and there are no guarantees."
 msgstr ""
+"F-Droid er et veldedig  [dugnads]({{ \"/contribute/\" | prepend: "
+"site.baseurl }})prosjekt. Selv om alle forhåndsregler tas for å forsikre at "
+"alt i pakkebrønnen er sikkert å installere, bruker du det PÅ EGEN RISIKO. "
+"Når mulig, blir programmer i pakkebrønnen bygd fra kildekoden, og den "
+"kildekoden sjekkes for potensielle sikkerhets- eller personvernshensyn. "
+"Denne sjekkingen er langt fra dyptgående nok, og det er ingen garantier."
 
 #. type: Plain text
 #: build/_pages/md/about.md:20
@@ -117,6 +135,16 @@ msgid ""
 "to post on the forum) goes no further than us, and will not be used for "
 "anything other than allowing you to maintain your account."
 msgstr ""
+"F-Droid respekterer ditt privatliv. Vi sporer hverken deg, eller din enhet. "
+"Vi sporer ikke hva du installerer. Du trenger ikke en konto for å bruke "
+"klienten, og den sender ingen ytterligere identifiserbar data når den "
+"snakker med vår vev-tjener annen enn dens versjonsnummer. Vi lar deg ikke "
+"engang installere andre programmer fra pakkebrønnen som sporer deg, uten at "
+"du først skrur på \"Sporing\" i AntiFuksjons-delen av innstillingene. All "
+"personlig data du bestemmer deg for å gi til oss (som f.eks. din e-"
+"postadresse når du registrerer deg for en konto på forumet) kommer ingen "
+"andre i hende, og vil ikke bli brukt for noe annet enn å tillate deg å "
+"vedlikeholde din konto."
 
 #. type: Title ###
 #: build/_pages/md/about.md:21
@@ -201,7 +229,7 @@ msgstr "Kevin Everets"
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Alberto A. Fuentes"
-msgstr ""
+msgstr "Alberto A. Fuentes"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
@@ -241,7 +269,7 @@ msgstr "Ayron Jungren"
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "João Fernando C. Júnior"
-msgstr ""
+msgstr "João Fernando C. Júnior"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
@@ -271,127 +299,127 @@ msgstr "Mariotaku Lee"
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Leonardo De Luca"
-msgstr ""
+msgstr "Leonardo De Luca"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Greg Lyle"
-msgstr ""
+msgstr "Greg Lyle"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Daniel Marti"
-msgstr ""
+msgstr "Daniel Marti"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Robert Martinez"
-msgstr ""
+msgstr "Robert Martinez"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Nat Meysenburg"
-msgstr ""
+msgstr "Nat Meysenburg"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Steven McDonald"
-msgstr ""
+msgstr "Steven McDonald"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Andrew McMillan"
-msgstr ""
+msgstr "Andrew McMillan"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Alex Oberhauser"
-msgstr ""
+msgstr "Alex Oberhauser"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Nicolas Raoul"
-msgstr ""
+msgstr "Nicolas Raoul"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Fabian Rodriguez"
-msgstr ""
+msgstr "Fabian Rodriguez"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Florian Schmaus"
-msgstr ""
+msgstr "Florian Schmaus"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Hans-Emil Skogh"
-msgstr ""
+msgstr "Hans-Emil Skogh"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Paul Sokolovsky"
-msgstr ""
+msgstr "Paul Sokolovsky"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Graziano Sorbaioli"
-msgstr ""
+msgstr "Graziano Sorbaioli"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Hans-Christoph Steiner"
-msgstr ""
+msgstr "Hans-Christoph Steiner"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "David Sterry"
-msgstr ""
+msgstr "David Sterry"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Peter Serwylo"
-msgstr ""
+msgstr "Peter Serwylo"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "John Sullivan"
-msgstr ""
+msgstr "John Sullivan"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Antonio Tapiador"
-msgstr ""
+msgstr "Antonio Tapiador"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "William Theaker"
-msgstr ""
+msgstr "William Theaker"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Henrik Tunedal"
-msgstr ""
+msgstr "Henrik Tunedal"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Ivo Ugrina"
-msgstr ""
+msgstr "Ivo Ugrina"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Matthias Weiler"
-msgstr ""
+msgstr "Matthias Weiler"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Nutchanon Wetchasit"
-msgstr ""
+msgstr "Nutchanon Wetchasit"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Philipp Wollschlegel"
-msgstr ""
+msgstr "Philipp Wollschlegel"
 
 #. type: Plain text
 #: build/_pages/md/about.md:82
@@ -441,21 +469,25 @@ msgid ""
 "them in the issue tracker (see below), or discuss them in the [Forum]"
 "(https://forum.f-droid.org/) or on IRC (#fdroid on freenode)."
 msgstr ""
+"Hvis du opplever problemer med siden eller klientprogramvaren, kan du "
+"innrapportere det på feilsporeren (se nedenfor), eller diskutere dem i "
+"[forumet](https://forum.f-droid.org/) eller på IRC (#fdroid on freenode)."
 
 #. type: Plain text
 #: build/_pages/md/contribute.md:9
 msgid "For reporting issues, choose an appropriate tracker from the following:"
-msgstr ""
+msgstr "For å rapportere feil, velg en sømmelig feilsporer blant følgende:"
 
 #. type: Bullet: '* '
 #: build/_pages/md/contribute.md:13
 msgid "[F-Droid client app](https://gitlab.com/fdroid/fdroidclient/issues)"
-msgstr ""
+msgstr "[F-Droid-klientprogram](https://gitlab.com/fdroid/fdroidclient/issues)"
 
 #. type: Bullet: '* '
 #: build/_pages/md/contribute.md:13
 msgid "[Server and build tools](https://gitlab.com/fdroid/fdroidserver/issues)"
 msgstr ""
+"[Tjener og byggingsverktøy](https://gitlab.com/fdroid/fdroidserver/issues)"
 
 #. type: Bullet: '* '
 #: build/_pages/md/contribute.md:13
@@ -463,6 +495,8 @@ msgid ""
 "[Official F-Droid repository metadata](https://gitlab.com/fdroid/fdroiddata/"
 "issues)"
 msgstr ""
+"[Offisiell metadata for F-Droid-"
+"pakkebrønn](https://gitlab.com/fdroid/fdroiddata/issues)"
 
 #. type: Title ###
 #: build/_pages/md/contribute.md:14
@@ -488,6 +522,8 @@ msgid ""
 "[The manual]({{ \"/manual/\" | prepend: site.baseurl }}) should help with "
 "this."
 msgstr ""
+"[Manualen]({{ \"/manual/\" | prepend: site.baseurl }}) burde være nyttig i "
+"så måte."
 
 #. type: Title ###
 #: build/_pages/md/contribute.md:20 build/_docs/md/How_to_Help.md:63
@@ -503,6 +539,10 @@ msgid ""
 "use the [translation system](https://hosted.weblate.org/projects/f-droid/) "
 "to make your changes."
 msgstr ""
+"Klientprogrammet er tilgjengelig på mange språk, men hvis ditt ikke er "
+"inkludert, eller hvis det må oppdateres eller forbedres, opprett en konto og "
+"bruk [oversettelsessystemet](https://hosted.weblate.org/projects/f-droid/) "
+"for å gjøre endringer."
 
 #. type: Plain text
 #: build/_pages/md/contribute.md:25
@@ -511,6 +551,10 @@ msgid ""
 "Translation_and_Localization).  There’s also a [dedicated forum section]"
 "(https://forum.f-droid.org/c/translation) for translation discussions."
 msgstr ""
+"Start med oversikten over [Oversettelse og "
+"lokalisering](../docs/Translation_and_Localization).  Det er også en ["
+"dedikert del av forumet](https://forum.f-droid.org/c/translation) myntet på "
+"oversettelsesdiskusjoner."
 
 #. type: Title ###
 #: build/_pages/md/contribute.md:26
