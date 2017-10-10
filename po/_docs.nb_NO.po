@@ -6,20 +6,24 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2017-10-10 01:38+0000\n"
+"Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
+"Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/f-droid"
+"/website-docs/nb_NO/>\n"
 "Language: nb_NO\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.17-dev\n"
 
 #. type: Title #
 #: build/_pages/md/about.md:1
 #, no-wrap
 msgid "About"
-msgstr ""
+msgstr "Om"
 
 #. type: Plain text
 #: build/_pages/md/about.md:4
@@ -30,6 +34,11 @@ msgid ""
 "reviews and other features covering all things Android and software-freedom "
 "related."
 msgstr ""
+"F-Droid er en robot med lidenskap for fri programvare på Android-"
+"plattformen. På denne siden vil du finne en pakkebrønn med frie programmer, "
+"sammen med en Android-klient for å utføre installasjoner og uppdateringer, "
+"nyheter, vurderinger og funksjoner som dekker alt innenfor fri programvare "
+"og Android."
 
 #. type: Plain text
 #: build/_pages/md/about.md:6
@@ -37,6 +46,8 @@ msgid ""
 "F-Droid is operated by F-Droid Limited, a non-profit organisation registered "
 "in England (no. 8420676)."
 msgstr ""
+"F-Droid drives av F-Droid limited, en organisasjon registrert i England (no. "
+"8420676)."
 
 #. type: Plain text
 #: build/_pages/md/about.md:8
@@ -56,6 +67,9 @@ msgid ""
 "additional artwork, are by Robert Martinez. All are dual licensed under CC-"
 "BY-SA 3.0 Unported or GPLv3+."
 msgstr ""
+"F-Droid-logoen ble laget av Wiliam Theaker. Oppdateringer av den, og andre "
+"kunstbidrag, gjort av Robert Martinez. Alle er dobbeltlisensiert CC-BY-SA "
+"3.0 uportet eller GPLv3+."
 
 #. type: Plain text
 #: build/_pages/md/about.md:12
@@ -77,7 +91,7 @@ msgstr ""
 #: build/_pages/md/about.md:15
 #, no-wrap
 msgid "Terms, etc."
-msgstr ""
+msgstr "Vilkår, osv."
 
 #. type: Plain text
 #: build/_pages/md/about.md:18
@@ -108,7 +122,7 @@ msgstr ""
 #: build/_pages/md/about.md:21
 #, no-wrap
 msgid "Contributors"
-msgstr ""
+msgstr "Bidragsytere"
 
 #. type: Plain text
 #: build/_pages/md/about.md:25
@@ -116,6 +130,8 @@ msgid ""
 "The F-Droid project was founded in 2010 by Ciaran Gultnieks, and is brought "
 "to you by at least the following people:"
 msgstr ""
+"F-Droid-prosjektet ble grunnlagt i 2010 av Ciaran Gultnieks, og har kommet "
+"deg i hende som følge av følgende personers arbeide:"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
@@ -125,32 +141,32 @@ msgstr ""
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Nico Alt"
-msgstr ""
+msgstr "Nico Alt"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Laura Arjona"
-msgstr ""
+msgstr "Laura Arjona"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Ben Arnold"
-msgstr ""
+msgstr "Ben Arnold"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Michele Azzolari"
-msgstr ""
+msgstr "Michele Azzolari"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Jan Berkel"
-msgstr ""
+msgstr "Jan Berkel"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "David Black"
-msgstr ""
+msgstr "David Black"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
@@ -160,27 +176,27 @@ msgstr ""
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Valerio Bozzolan"
-msgstr ""
+msgstr "Valerio Bozzolan"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Dan Bravender"
-msgstr ""
+msgstr "Dan Bravender"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Cédric Cabessa"
-msgstr ""
+msgstr "Cédric Cabessa"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Kevin Cernekee"
-msgstr ""
+msgstr "Kevin Cernekee"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Kevin Everets"
-msgstr ""
+msgstr "Kevin Everets"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
@@ -190,37 +206,37 @@ msgstr ""
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Torsten Grote"
-msgstr ""
+msgstr "Torsten Grote"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Ciaran Gultnieks"
-msgstr ""
+msgstr "Ciaran Gultnieks"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Tias Guns"
-msgstr ""
+msgstr "Tias Guns"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Michael Haas"
-msgstr ""
+msgstr "Michael Haas"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Stefan Handschuh"
-msgstr ""
+msgstr "Stefan Handschuh"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Kees Hulberts"
-msgstr ""
+msgstr "Kees Hulberts"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Ayron Jungren"
-msgstr ""
+msgstr "Ayron Jungren"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
@@ -230,27 +246,27 @@ msgstr ""
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Neo Kolokotronis"
-msgstr ""
+msgstr "Neo Kolokotronis"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Nikita Kozlov"
-msgstr ""
+msgstr "Nikita Kozlov"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Matt Kraai"
-msgstr ""
+msgstr "Matt Kraai"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Daniel Kraft"
-msgstr ""
+msgstr "Daniel Kraft"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
 msgid "Mariotaku Lee"
-msgstr ""
+msgstr "Mariotaku Lee"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md:78
@@ -384,6 +400,9 @@ msgid ""
 "list](https://gitlab.com/fdroid/fdroid-website/blob/master/_pages/about.md)! "
 "Keep it sorted by surname, please."
 msgstr ""
+"Hvis navnet ditt mangler er det en feil, og du burde [legge deg selv til på "
+"listen](https://gitlab.com/fdroid/fdroid-website/blob/master/_pages/about.md)"
+"! Hold den sortert etter etternavn."
 
 #. type: Plain text
 #: build/_pages/md/about.md:83
@@ -391,12 +410,14 @@ msgid ""
 "The original F-Droid client app was based on the Aptoide app developed by "
 "Roberto Jacinto."
 msgstr ""
+"Den opprinnelige F-droidklienten var basert på Aptoide-programmet utviklet "
+"av Roberto Jacinto."
 
 #. type: Title #
 #: build/_pages/md/contribute.md:1
 #, no-wrap
 msgid "Contribute"
-msgstr ""
+msgstr "Bidra"
 
 #. type: Plain text
 #: build/_pages/md/contribute.md:3 build/_docs/md/How_to_Help.md:5
@@ -404,12 +425,14 @@ msgid ""
 "The project is entirely developed and maintained by volunteers. You can help "
 "in the following ways:"
 msgstr ""
+"Prosjektet blir utviklet og vedlikeholdt av frivillige i sin helhet. Du kan "
+"hjelpe til på følgende vis:"
 
 #. type: Title ###
 #: build/_pages/md/contribute.md:4
 #, no-wrap
 msgid "Report Problems"
-msgstr ""
+msgstr "Rapporter problemer"
 
 #. type: Plain text
 #: build/_pages/md/contribute.md:7
@@ -445,7 +468,7 @@ msgstr ""
 #: build/_pages/md/contribute.md:14
 #, no-wrap
 msgid "Submit Applications"
-msgstr ""
+msgstr "Send inn programmer"
 
 #. type: Plain text
 #: build/_pages/md/contribute.md:17
@@ -470,7 +493,7 @@ msgstr ""
 #: build/_pages/md/contribute.md:20 build/_docs/md/How_to_Help.md:63
 #, no-wrap
 msgid "Translate"
-msgstr ""
+msgstr "Oversett"
 
 #. type: Plain text
 #: build/_pages/md/contribute.md:23
@@ -493,7 +516,7 @@ msgstr ""
 #: build/_pages/md/contribute.md:26
 #, no-wrap
 msgid "Help with Development"
-msgstr ""
+msgstr "Hjelp til i utviklingen"
 
 #. type: Plain text
 #: build/_pages/md/contribute.md:38
@@ -523,7 +546,7 @@ msgstr ""
 #: build/_pages/md/docs.md:1
 #, no-wrap
 msgid "Docs"
-msgstr ""
+msgstr "Dokumentasjon"
 
 #. type: Plain text
 #: build/_pages/md/docs.md:9
@@ -550,7 +573,7 @@ msgstr ""
 #: build/_pages/md/docs.md:17
 #, no-wrap
 msgid "Getting Started"
-msgstr ""
+msgstr "Kom i gang"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:22
@@ -575,7 +598,7 @@ msgstr ""
 #: build/_pages/md/docs.md:24
 #, no-wrap
 msgid "More Information"
-msgstr ""
+msgstr "Mer informasjon"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:31
@@ -583,6 +606,8 @@ msgid ""
 "[How to Help](How_to_Help) Different ways anyone can contribute to the F-"
 "Droid project."
 msgstr ""
+"[Hvordan hjelpe](Hvordan_hjelpe) Forskjellige måter alle kan bidra til F"
+"-Droid-prosjektet."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:31
@@ -605,6 +630,8 @@ msgid ""
 "[Security Model](Security_Model) A brief explanation of how F-Droid delivers "
 "software to users securely."
 msgstr ""
+"[Sikkerhetsmodell](Sikkerhetsmodell) En kort forklaring på hvordan F-Droid "
+"distribuerer programvare til brukere på sikkert vis."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:31
@@ -617,7 +644,7 @@ msgstr ""
 #: build/_pages/md/docs.md:33
 #, no-wrap
 msgid "Developers"
-msgstr ""
+msgstr "Utviklere"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:48
@@ -750,7 +777,7 @@ msgstr ""
 #: build/_pages/md/issues.md:1
 #, no-wrap
 msgid "Issues"
-msgstr ""
+msgstr "Problemer"
 
 #. type: Plain text
 #: build/_pages/md/issues.md:5
@@ -780,7 +807,7 @@ msgstr ""
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md:1
 #, no-wrap
 msgid "All About Descriptions, Graphics, and Screenshots"
-msgstr ""
+msgstr "Alt om beskrivelser, grafikk og skjermavbildninger"
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md:9
@@ -809,17 +836,17 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md:14
 msgid "There are two data formats:"
-msgstr ""
+msgstr "Det er to dataformater:"
 
 #. type: Bullet: '* '
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md:17
 msgid "descriptive materials in plain text or HTML"
-msgstr ""
+msgstr "beskrivende materiale i klartekst eller HTML"
 
 #. type: Bullet: '* '
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md:17
 msgid "graphics and screenshots as PNG or JPEG files"
-msgstr ""
+msgstr "grafikk og skjermavbildninger som PNG- eller JPEG- filer"
 
 #. type: Title ##
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md:19
@@ -903,7 +930,7 @@ msgstr ""
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md:76
 #, no-wrap
 msgid "Directly in the F-Droid repo"
-msgstr ""
+msgstr "Direkte i F-droid-pakkebrønnen"
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md:85
@@ -963,6 +990,8 @@ msgid ""
 "Instead of (or as well as) including binary APKs from external sources in a "
 "repository, you can build them directly from the source code."
 msgstr ""
+"Istedenfor (eller såvel som) å inkludere binære APK-er fra eksterne kilder i "
+"pakkebrønnen, kan du bygge dem rett fra kildekoden."
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md:11
@@ -973,6 +1002,11 @@ msgid ""
 "application supplied as a binary APK to present itself as Free Software when "
 "in fact some or all of the following are true:"
 msgstr ""
+"Ved å bruke denne metoden, er det mulig å bekrefte at programmet blir bygd "
+"rett, at det samsvarer med kildekoden, og at det bare inneholder fri "
+"programvare. Dessverre, i Anderoid-verdenen er det veldig vanlig at et "
+"program tilbudt som binær APK-fil bare presenterer seg som fri programvare, "
+"når faktisk noe eller alt av følgende er sant:"
 
 #. type: Bullet: '1.  '
 #: build/_docs/md/Building_Applications.md:18
@@ -980,11 +1014,13 @@ msgid ""
 "The source code (either for a particular version, or even all versions!) is "
 "unavailable or incomplete."
 msgstr ""
+"Kildekoden (enten for en bestemt versjon, eller selv for alle!) er "
+"utilgjengelig, eller ufullstendig."
 
 #. type: Bullet: '2.  '
 #: build/_docs/md/Building_Applications.md:18
 msgid "The source code is not capable of producing the actual binary supplied."
-msgstr ""
+msgstr "Kildekoden kan ikke produsere den faktiske binærfila som er tilbudt."
 
 #. type: Bullet: '3.  '
 #: build/_docs/md/Building_Applications.md:18
@@ -1111,12 +1147,12 @@ msgstr ""
 msgid ""
 "To build a single version of a single application, you could run the "
 "following:"
-msgstr ""
+msgstr "For å bygge én versjon av ett program, kan du kjøre følgende:"
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md:87
 msgid "```bash fdroid build org.fdroid.fdroid:16 ```"
-msgstr ""
+msgstr "```bash fdroid build org.fdroid.fdroid:16 ```"
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md:91
@@ -1193,6 +1229,9 @@ msgid ""
 "in the logs/ directory. If that isn’t illuminating, try building the app the "
 "regular way, step by step: android update project, ndk-build, ant debug."
 msgstr ""
+"Hvis byggingen gikk skeis, kan du finne ut hvorfor ved å se på utdataen i "
+"logs/ -mappen. Hvis det ikke kaster lys på saken, prøv å bygge programmet på "
+"vanlig måte, stegvis: android update project, ndk-build, ant debug."
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md:138
@@ -1235,13 +1274,13 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md:157
 msgid "If you want to build every single version, then specify `--all`."
-msgstr ""
+msgstr "Hvis du ønsker å bygge hver eneste versjon, angi `--all`."
 
 #. type: Title ###
 #: build/_docs/md/Building_Applications.md:159
 #, no-wrap
 msgid "Direct Installation"
-msgstr ""
+msgstr "Direkte installasjon"
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md:169
@@ -1327,7 +1366,7 @@ msgstr ""
 #. type: Bullet: '* '
 #: build/_docs/md/Build_Metadata_Reference.md:24
 msgid "_.json_ files in [JSON](http://json.org/) format"
-msgstr ""
+msgstr "_.json_-filer i [JSON](http://json.org/)-format"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:34
@@ -1360,7 +1399,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:46
 msgid "The following sections describe the fields recognised within the file."
-msgstr ""
+msgstr "Følgende avsnitt beskriver felter gjenkjent i fila."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:82
@@ -1808,7 +1847,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:324
 msgid "This information is also published to the wiki."
-msgstr ""
+msgstr "Denne informasjonen er også publisert i wiki-en."
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md:327
@@ -1914,6 +1953,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md:379
 msgid "F-Droid will use upstream binaries if the verification succeeded."
 msgstr ""
+"F-Droid vil bruke binærfiler oppstrøms fra hvis bekreftelsen er vellykket."
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md:382
@@ -2260,6 +2300,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md:562
 msgid "‘mavenCentral’ - the original repo, hardcoded in Maven and Gradle."
 msgstr ""
+"‘mavenCentral’ - den opprinnelige pakkebrønnen, hardkodet i Maven og Gradle."
 
 #. type: Bullet: '    -   '
 #: build/_docs/md/Build_Metadata_Reference.md:562
