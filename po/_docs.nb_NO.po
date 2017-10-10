@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-10-10 03:24+0000\n"
+"PO-Revision-Date: 2017-10-10 06:31+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/f-droid"
 "/website-docs/nb_NO/>\n"
@@ -578,6 +578,18 @@ msgid ""
 "direction of the project, and do not clash with or duplicate work already in "
 "development."
 msgstr ""
+"Det er fire git-pakkebrønner på GitLab – én for [Android-"
+"klientprogramvaren](https://gitlab.com/fdroid/fdroidclient), én for "
+"[tjenerverktøy](https://gitlab.com/fdroid/fdroidserver) for å drive en "
+"pakkebrønn, og bygge/installere programmer lokalt, og én for tilknyttet ["
+"metadata for programfiler i hovedpakkebrønnen til "
+"F-Droid](https://gitlab.com/fdroid/fdroiddata).  Den siste pakkebrønnen har "
+"å gjøre med [nettsiden og dokumentasjon](https://gitlab.com/fdroid/fdroid-"
+"website).  Den enkleste måten å gjøre endringer på er å lage en klone, gjøre "
+"endringer i den, for så å sende flettingsforespørsler.  Hvis du gjør store "
+"endringer, er det en god idé å diskutere dem på IRC eller i forumet først, "
+"for å forsikre at de passer med framdriften i prosjektet, og ikke kræsjer "
+"med eller gjentar arbeid som allerede er underveis."
 
 #. type: Plain text
 #: build/_pages/md/contribute.md:39
@@ -585,6 +597,8 @@ msgid ""
 "For working with the server and data projects, it’s a good idea to read [the "
 "manual]({{ \"/manual/\" | prepend: site.baseurl }})."
 msgstr ""
+"For å jobbe med tjeneren og dataprosjektene, er det en god idé å lese "
+"[manualen]({{ \"/manual/\" | prepend: site.baseurl }})."
 
 #. type: Title #
 #: build/_pages/md/docs.md:1
@@ -612,6 +626,11 @@ msgid ""
 "publishing, or to assist in creating, testing and submitting metadata to the "
 "main repository."
 msgstr ""
+"F-droid-tjenerskriptene tilbyr deg forskjellige skript og verktøy som brukes "
+"til å vedlikeholde hovedpakkebrønnen til F-Droid. Du kan bruke de samme "
+"verktøyene til å opprette din egen ekstra eller alternative pakkebrønn for "
+"publisering, eller til å hjelpe til med å opprette, teste og sende inn "
+"metadata til hovedpakkebrønnen."
 
 #. type: Title ###
 #: build/_pages/md/docs.md:17
@@ -622,7 +641,7 @@ msgstr "Kom i gang"
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:22
 msgid "[FAQ - General](FAQ_-_General) Frequently Asked Questions about F-Droid"
-msgstr ""
+msgstr "[O-S-S - Grunnleggende](FAQ_-_General) Ofte stilte spørsmål om F-Droid"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:22
@@ -630,13 +649,18 @@ msgid ""
 "[FAQ - Client](FAQ_-_Client) Frequently Asked Questions about how to use the "
 "F-Droid app in Android."
 msgstr ""
+"[O-S-S - Klient](FAQ_-_Client) Ofte stilte spørsmål om bruken av F-Droid-"
+"programmet i Android."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:22
+#, fuzzy
 msgid ""
 "[Anti-Features](https://f-droid.org/wiki/page/Antifeatures) What they are, "
 "what they mean, and what apps have them."
 msgstr ""
+"[Anti-funksjoner](https://f-droid.org/wiki/page/Antifeatures) Hva de er, hva "
+"de betyr, og hvilke programmer som har dem."
 
 #. type: Title ###
 #: build/_pages/md/docs.md:24
@@ -659,6 +683,8 @@ msgid ""
 "[Known Repositories](https://f-droid.org/wiki/page/Known_Repositories) A "
 "list that tries to keep track of known f-droid compatible repositories."
 msgstr ""
+"[Kjente pakkebrønner](https://f-droid.org/wiki/page/Known_Repositories) En "
+"liste som prøver å holde oppsyn med kjente F-Droid-kompatible pakkebrønner."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:31
@@ -667,6 +693,9 @@ msgid ""
 "are the various channels that F-Droid software are released on, with info to "
 "verify them based on signing keys."
 msgstr ""
+"[Utgivelseskanaler og signeringsnøkler](Release_Channels_and_Signing_Keys) "
+"Dette er de forskjellige kanalene F-Droidprogramvare slippes i, med info for "
+"å bekrefte dem basert på signeringsnøkler."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:31
@@ -679,10 +708,13 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:31
+#, fuzzy
 msgid ""
 "[Translation and Localization](Translation_and_Localization) How all the "
 "parts of F-Droid are localized."
 msgstr ""
+"[Oversettelse og lokalisering](Translation_and_Localization) Hvordan alle "
+"delene av F-Droid lokaliseres."
 
 #. type: Title ###
 #: build/_pages/md/docs.md:33
@@ -696,6 +728,8 @@ msgid ""
 "[FAQ - App Developers](FAQ_-_App_Developers) Frequently Asked Questions "
 "about F-Droid"
 msgstr ""
+"[O-S-S - Programutviklere](FAQ_-_App_Developers) Ofte stilte spørsmål om "
+"F-Droid"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:48
@@ -703,6 +737,8 @@ msgid ""
 "[Build Metadata Reference](Build_Metadata_Reference) All about the build "
 "\"recipes\""
 msgstr ""
+"[Bygg metadatareferanse](Build_Metadata_Reference) Alt om \"oppskrifter\" "
+"for bygging"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:48
@@ -710,12 +746,16 @@ msgid ""
 "[Submitting to F-Droid: Quick Start Guide](Submitting_to_F-"
 "Droid_Quick_Start_Guide) Add an app to f-droid.org"
 msgstr ""
+"[Innsending til F-Droid: Hurtigoppstartsveiledning](Submitting_to_F-"
+"Droid_Quick_Start_Guide) Legg til et program på f-droid.org"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:48
 msgid ""
 "[Update Processing](Update_Processing) How updates get detected and added."
 msgstr ""
+"[Oppdateringsbehandling](Update_Processing) Hvordan oppgraderinger blir "
+"oppdaget og lagt til."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:48
@@ -723,6 +763,8 @@ msgid ""
 "[Inclusion Policy](Inclusion_Policy) & [Inclusion How-To](Inclusion_How-To)  "
 "Guidelines for how to request the inclusion of a new app."
 msgstr ""
+"[Inkluderingspraksis](Inclusion_Policy) & [Inclusion How-To](Inclusion_How-"
+"To)  Retningslinjer for hvordan man forespør innlemmelse av et nytt program."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:48
@@ -730,6 +772,8 @@ msgid ""
 "[Importing Applications](Importing_Applications) Using `fdroid import` to "
 "build a new project."
 msgstr ""
+"[Importering av programmer](Importing_Applications) Bruk av `fdroid import` "
+"til å bygge et nytt prosjekt."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:48
@@ -737,6 +781,8 @@ msgid ""
 "[Building Applications](Building_Applications) Using `fdroid build` to build "
 "an app."
 msgstr ""
+"[Bygging av programmer](Building_Applications) Bruk av `fdroid build` til å "
+"bygge et program."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:48
@@ -745,6 +791,9 @@ msgid ""
 "(All_About_Descriptions_Graphics_and_Screenshots) Showing off your app in F-"
 "Droid."
 msgstr ""
+"[Alt om beskrivelser, grafikk og "
+"skjermavbildninger](All_About_Descriptions_Graphics_and_Screenshots) Vis "
+"frem programmet ditt i F-Droid."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:48
@@ -752,6 +801,9 @@ msgid ""
 "[Installing the Server and Repo Tools](Installing_the_Server_and_Repo_Tools) "
 "How to install fdroidserver, the tools for running repos and build servers."
 msgstr ""
+"[Installasjon av tjener- og pakkebrønns-"
+"verktøy](Installing_the_Server_and_Repo_Tools) Hvordan installere "
+"fdroidserver, verktøyene for å drive pakkebrønner og byggingstjenere."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:48
