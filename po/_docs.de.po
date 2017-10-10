@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-10-10 03:24+0000\n"
-"Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
+"PO-Revision-Date: 2017-10-10 23:20+0000\n"
+"Last-Translator: anonymous <>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/de/>\n"
 "Language: de\n"
@@ -2941,6 +2941,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "‘mavenCentral’ - the original repo, hardcoded in Maven and Gradle."
 msgstr ""
+"‘mavenCentral’ - das Original-Repo, festprogrammiert in Maven und Gradle."
 
 #. type: Bullet: '    -   '
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2948,6 +2949,9 @@ msgid ""
 "‘jCenter’ - hardcoded in Gradle, this repo by Bintray tries to provide "
 "easier handling. It should sync with mavenCentral from time to time."
 msgstr ""
+"‘jCenter’ - festprogrammiert in Gradle, dieses Repo von Bintray versucht "
+"einfacher in der Handhabung zu sein. Es sollte von Zeit zu Zeit mit "
+"mavenCentral synchronisiert werden."
 
 #. type: Bullet: '    -   '
 #: build/_docs/md/Build_Metadata_Reference.md
