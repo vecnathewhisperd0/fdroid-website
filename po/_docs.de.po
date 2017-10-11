@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-10-10 23:29+0000\n"
-"Last-Translator: anonymous <>\n"
+"PO-Revision-Date: 2017-10-12 05:42+0000\n"
+"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/de/>\n"
 "Language: de\n"
@@ -1825,7 +1825,7 @@ msgid ""
 msgstr ""
 "Kategorien müssen durch einfache Kommas ’,’ voneinander getrennt werden. Aus "
 "Gründen der Rückwärtskompatibilität wird F-Droid die erstgenannte Kategorie "
-"als &lt;Kategorie&gt;-Element für ältere Clients verwenden, damit wenigstens "
+"als &lt;category&gt;-Element für ältere Clients verwenden, damit wenigstens "
 "eine Kategorie zu sehen ist."
 
 #. type: Plain text
@@ -2423,7 +2423,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.21 Binaries<a name=\"Binaries\"></a>"
-msgstr ""
+msgstr "7.21 Binärdateien<a name=\"Binaries\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2916,6 +2916,24 @@ msgid ""
 "    library directory, but it could need tweaking if you’ve changed into\n"
 "    another directory.\n"
 msgstr ""
+"    Jede srclib besitzt eine Metadaten-Datei in srclibs/ im Verzeichnis\n"
+"    des Repository und der Quelltext wird in build/srclib/ gespeichert. \n"
+"    „Repo Type:“ und „Repo:“ werden in gleicher Weise wie für Apps "
+"festgelegt; \n"
+"    „Subdir:“ kann eine komma-getrennte Liste sein, falls Verzeichnisse beim "
+"\n"
+"    Upstream umbenannt werden; „Update Project:“ aktualisiert die Projekte "
+"im \n"
+"    Arbeitsverzeichnis und eine Stufe darunter; „Prepare:“ kann für jede Art "
+"der \n"
+"    Vorbereitung genutzt werden, insbesondere wenn die Projektaktualisierung "
+"ein \n"
+"    bestimmtes Ziel braucht. Es kann dann auch „\\$\\$name\\$\\$“ im Befehl\n"
+"    „init/prebuild/build“ verwendet werden, um die relativen Pfade zum "
+"Bibliotheken- \n"
+"    Verzeichnis zu ersetzen. Bei einem Wechsel des Verzeichnisses könnten "
+"allerdings \n"
+"    Anpassungen notwendig werden.\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2969,9 +2987,9 @@ msgid ""
 "‘OSS JFrog’ - maintained by the people behind jCenter, this repository "
 "focuses on hosting services for open source project binaries."
 msgstr ""
-"‘OSS JFrog’ - betrieben von den Leuten hinter jCenter. Der Schwepunkt dieses "
-"Repository liegt auf Hosting-Diensten für Binärdateien von Open-Source-"
-"Projekten."
+"‘OSS JFrog’ - betrieben von den Leuten hinter jCenter. Der Schwerpunkt "
+"dieses Repository liegt auf Hosting-Diensten für Binärdateien von Open-"
+"Source-Projekten."
 
 #. type: Bullet: '    -   '
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -3030,6 +3048,15 @@ msgid ""
 "    other contexts; in particular, literal backslashes should not\n"
 "    be escaped.\n"
 msgstr ""
+":   Gibt einen Shell-Befehl (oder -Befehle - verkettet mit &&) an, der vor "
+"der \n"
+"    Durchführung der Herstellung ausgeführt wird. Ein Backslash kann als \n"
+"    Maskierungszeichen verwendet werden, um Kommazeichen einzufügen, oder \n"
+"    um, als letztes Zeichen einer Zeile, diese mit der nächsten zu "
+"verbinden. \n"
+"    Er besitzt keine spezielle Bedeutung in anderen Zusammenhängen; im "
+"Besonderen, \n"
+"    eigentliche Backslash-Zeichen sollten nicht maskiert werden.\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
