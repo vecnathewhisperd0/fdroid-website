@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-07-25 14:16+0000\n"
+"PO-Revision-Date: 2017-10-12 05:41+0000\n"
 "Last-Translator: sima <lin2s@riseup.net>\n"
 "Language-Team: Chinese (Simplified) "
 "<https://hosted.weblate.org/projects/f-droid/website-docs/zh_Hans/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2.16-dev\n"
+"X-Generator: Weblate 2.17-dev\n"
 
 #. type: Title #
 #: build/_pages/md/about.md
@@ -421,7 +421,7 @@ msgstr "参与"
 msgid ""
 "The project is entirely developed and maintained by volunteers. You can help "
 "in the following ways:"
-msgstr "该项目完全由志愿者开放和维护。您也可以帮忙，方式如下："
+msgstr "该项目完全由志愿者开放和维护。您也可以参与，方式如下："
 
 #. type: Title ###
 #: build/_pages/md/contribute.md
@@ -436,13 +436,13 @@ msgid ""
 "them in the issue tracker (see below), or discuss them in the [Forum]"
 "(https://forum.f-droid.org/) or on IRC (#fdroid on freenode)."
 msgstr ""
-"如果遇到网站或客户端软件相关的问题，可通过问题跟踪系统报告（见下方），也可以在 [论坛](https://forum.f-droid.org/) 或 "
-"IRC 频道（freenode 上的 #fdroid）讨论。"
+"如果遇到网站或客户端软件相关的问题，可通过问题跟踪系统报告（见下方），也可以在[论坛](https://forum.f-droid.org/)或 IRC "
+"频道（freenode 上的 #fdroid）讨论。"
 
 #. type: Plain text
 #: build/_pages/md/contribute.md
 msgid "For reporting issues, choose an appropriate tracker from the following:"
-msgstr "如需报告问题，请选择以下合适的方式："
+msgstr "请根据问题的类型，选择相应的方式提交问题："
 
 #. type: Bullet: '* '
 #: build/_pages/md/contribute.md
@@ -824,8 +824,8 @@ msgid ""
 "outdated applications, please use [this issue tracker](https://gitlab.com/"
 "fdroid/fdroiddata/issues)."
 msgstr ""
-"对于资源库内容相关的问题，如找不到某个应用，或应用版本不是最新，请使用[这个问题跟踪程序](https://gitlab.com/fdroid/fdroi"
-"ddata/issues)。"
+"对于资源库内容相关的问题，比如，找不到某个应用或者应用不是最新版本，请通过[问题跟踪程序](https://gitlab.com/fdroid/fdroi"
+"ddata/issues)报告。"
 
 #. type: Plain text
 #: build/_pages/md/issues.md
@@ -834,8 +834,8 @@ msgid ""
 "repo), and issues relating to the web site, please use [this issue tracker]"
 "(https://gitlab.com/fdroid/fdroidserver/issues)."
 msgstr ""
-"对于服务器工具（自己编译应用或运行自己的资源库时所用的工具）以及网站相关问题，请使用[这个问题跟踪系统](https://gitlab.com/fdroi"
-"d/fdroidserver/issues)。"
+"对于服务器工具（自己编译应用或运行自己的资源库时所用的工具）以及网站相关问题，请通过[问题跟踪系统](https://gitlab.com/fdroid/"
+"fdroidserver/issues)报告。"
 
 #. type: Title #
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -6024,7 +6024,7 @@ msgstr ""
 #: build/_docs/md/How_to_Help.md
 #, no-wrap
 msgid "Submit applications"
-msgstr ""
+msgstr "提交应用程序"
 
 #. type: Plain text
 #: build/_docs/md/How_to_Help.md
