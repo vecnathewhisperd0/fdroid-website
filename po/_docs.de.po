@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-10-12 05:42+0000\n"
-"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
+"PO-Revision-Date: 2017-10-12 17:29+0000\n"
+"Last-Translator: anonymous <>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/de/>\n"
 "Language: de\n"
@@ -3062,7 +3062,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "    The command runs using bash.\n"
-msgstr ""
+msgstr "    Zur Ausführung des Befehls wird die Bash verwendet.\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -3073,6 +3073,13 @@ msgid ""
 "    example, take place after this. For custom actions that actually\n"
 "    build things or produce binaries, use ’build’ instead.\n"
 msgstr ""
+"    Beachten Sie, dass während dieser ‘prebuild‘-Phase nichts erstellt "
+"werden sollte -\n"
+"    Scannen des Codes und Erstellen des Quelltext-Tarballs, zum Beispiel, \n"
+"    finden danach statt. Für gebräuchliche Tätigkeiten, die tatsächlich "
+"Dinge \n"
+"    erstellen oder Binärdateien produzieren, verwenden Sie stattdessen "
+"’build’.\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -3081,6 +3088,9 @@ msgid ""
 "    You can use \\$\\$name\\$\\$ to substitute the path to a referenced\n"
 "    srclib - see the `srclib` directory for details of this.\n"
 msgstr ""
+"    Es kann \\$\\$name\\$\\$ verwendet werden, um den Pfad zu einer "
+"eingetragenen ‘scrlib‘ \n"
+"    zu ersetzen - Einzelheiten hierzu unter das `srclib`-Verzeichnis.\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
