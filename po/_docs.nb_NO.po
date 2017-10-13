@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-10-12 02:47+0000\n"
+"PO-Revision-Date: 2017-10-14 10:47+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/f-droid"
 "/website-docs/nb_NO/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.17-dev\n"
+"X-Generator: Weblate 2.17\n"
 
 #. type: Title #
 #: build/_pages/md/about.md:1
@@ -1770,18 +1770,21 @@ msgid ""
 "of the app, or apps that have the entire thing released under more than one "
 "license."
 msgstr ""
+"Dette feltet kan ikke representere kompleksiteten av lisenser som har å "
+"gjøre med deler av programmet, eller programmer som har hele seg lisensiert "
+"med mer enn én lisens."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:140
 #, no-wrap
 msgid "This is converted to (`<license>`) in the XML file (_index.xml_).\n"
-msgstr ""
+msgstr "Dette blir konvertert til (`<license>`) i XML-fila (_index.xml_).\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md:143
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "7.5 Auto Name<a name=\"Auto-Name\"></a>"
-msgstr ""
+msgstr "7.5 Autonavn<a name=\"Auto-Name\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:151
@@ -1792,22 +1795,28 @@ msgid ""
 "found. The Auto Name entry is generated automatically when `fdroid "
 "checkupdates` is run."
 msgstr ""
+"Navnet på programmet kan helst hentes fra kildekoden. Dette gjøres slik at "
+"commitupdates-skriptet kan putte et gjenkjennbart navn i beskrivelsen på "
+"innsendelser som opprettes når en ny versjon av programmet blir funnet. "
+"Autonavn-oppføringen blir generert automatisk når `fdroid checkupdates` "
+"kjøres."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:153
 #: build/_docs/md/Build_Metadata_Reference.md:167
 #, no-wrap
 msgid "This is converted to (`<name>`) in the XML file (_index.xml_).\n"
-msgstr ""
+msgstr "Dette blir konvertert til (`<name>`) i XML-fila (_index.xml_).\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md:156
 #, no-wrap
 msgid "7.6 Name<a name=\"Name\"></a>"
-msgstr ""
+msgstr "7.6 Navn<a name=\"Name\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:165
+#, fuzzy
 msgid ""
 "The name of the application. Normally, this field should not be present "
 "since the application’s correct name is retrieved from the APK file.  "
@@ -1816,12 +1825,18 @@ msgid ""
 "name in the list of apps presented in the client; it doesn’t changed the "
 "name or application label in the source code."
 msgstr ""
+"Navnet på programmet.  Normalt bør ikke dette feltet være tilstede siden "
+"programmets rette navn hentes inn fra APK-fila. Dog, i en situasjon der APK-"
+"fila inneholder et skadet eller manglende programnavn, kan den overskrives "
+"ved å bruke dette. Merk at dette bare overskriver navnet i listen over "
+"programmer som presenteres i klienten; dette endrer ikke navnet på "
+"programmets etikett i kildekoden."
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md:170
 #, no-wrap
 msgid "7.7 Provides<a name=\"Provides\"></a>"
-msgstr ""
+msgstr "7.7 Tilbyr<a name=\"Provides\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:178
@@ -1832,81 +1847,98 @@ msgid ""
 "linking to the other app IDs. Useful when an app switches package name, or "
 "when you want an app to act as multiple apps."
 msgstr ""
+"Kommainndelt liste over program-ID-er dette programmet tilbyr. Med andre "
+"ord, hvis brukeren har noen av disse programmene installert, vil F-Droid "
+"vise dette programmet som installert istedenfor. Det vil også vises hvis "
+"brukeren klikker på URL-er som lenker til andre program-ID-er. Nyttig når et "
+"program bytter pakkenavn, eller når du ønsker at et program skal fungere som "
+"flere programmer."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:180
+#, fuzzy
 msgid "Currently this functionality is a stub."
-msgstr ""
+msgstr "Denne funksjonaliteten er for øyeblikket en stubbe."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:182
 #, no-wrap
 msgid "This is converted to (`<provides>`) in the XML file (_index.xml_).\n"
-msgstr ""
+msgstr "Dette konverteres til (`<provides>`) i XML-fila (_index.xml_).\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md:185
 #, no-wrap
 msgid "7.8 Web Site<a name=\"Web-Site\"></a>"
-msgstr ""
+msgstr "7.8 Nettside<a name=\"Web-Site\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:190
+#, fuzzy
 msgid ""
 "The URL for the application’s web site. If there is no relevant web site, "
 "this can be omitted (or left blank)."
 msgstr ""
+"Nettadresse til programmets nettside. Hvis det ikke finnes noen relevant "
+"nettisde, kan dette unnlates (eller stå tomt)."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:192
 #, no-wrap
 msgid "This is converted to (`<web>`) in the XML file (_index.xml_).\n"
-msgstr ""
+msgstr "Dette blir konvertert til (`<web>`) i XML-fila (_index.xml_).\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md:195
 #, no-wrap
 msgid "7.9 Source Code<a name=\"Source-Code\"></a>"
-msgstr ""
+msgstr "7.9 Kildekode<a name=\"Source-Code\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:201
+#, fuzzy
 msgid ""
 "The URL to view or obtain the application’s source code. This should be "
 "something human-friendly. Machine-readable source-code is covered in the "
 "’Repo’ field."
 msgstr ""
+"Nettadresse til visning eller ervervelse av programmets kildekode. Dette "
+"burde være lesbart for mennesker. Maskin-lesbar kildekode dekkes i "
+"’Repo’-feltet."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:203
 #, no-wrap
 msgid "This is converted to (`<source>`) in the XML file (_index.xml_).\n"
-msgstr ""
+msgstr "Dette blir konvertert til (`<source>`) i XML-fila (_index.xml_).\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md:206
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "7.10 Issue Tracker<a name=\"Issue-Tracker\"></a>"
-msgstr ""
+msgstr "7.10 Problemsporer<a name=\"Issue-Tracker\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:211
+#, fuzzy
 msgid ""
 "The URL for the application’s issue tracker. Optional, since not all "
 "applications have one."
 msgstr ""
+"Nettadresse til programmets problemsporer. Valgfritt, siden ikke alle "
+"programmer har det."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:213
 #, no-wrap
 msgid "This is converted to (`<tracker>`) in the XML file (_index.xml_).\n"
-msgstr ""
+msgstr "Dette blir konvertert til (`<tracker>`) i XML-fila (_index.xml_).\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md:216
 #, no-wrap
 msgid "7.11 Changelog<a name=\"Changelog\"></a>"
-msgstr ""
+msgstr "7.11 Endringslogg<a name=\"Changelog\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:221
@@ -1914,18 +1946,20 @@ msgid ""
 "The URL for the application’s changelog. Optional, since not all "
 "applications have one."
 msgstr ""
+"Nettadresse til programmets endringslogg. Valgritt, siden ikke alle "
+"programmer opererer med det."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:223
 #, no-wrap
 msgid "This is converted to (`<changelog>`) in the XML file (_index.xml_).\n"
-msgstr ""
+msgstr "Dette blir konvert til (`<changelog>`) i XML-fila (_index.xml_).\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md:226
 #, no-wrap
 msgid "7.12 Donate<a name=\"Donate\"></a>"
-msgstr ""
+msgstr "7.12 Doner<a name=\"Donate\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:231
@@ -1933,9 +1967,12 @@ msgid ""
 "The URL to donate to the project. This should be the project’s donate page "
 "if it has one."
 msgstr ""
+"Nettadressen til kronerulling for prosjektet. Dette burde være prosjektets "
+"donasjonside, hvis sådan forefinnes."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:238
+#, fuzzy
 msgid ""
 "It is possible to use a direct PayPal link here, if that is all that is "
 "available. However, bear in mind that the developer may not be aware of that "
@@ -1944,18 +1981,24 @@ msgid ""
 "a link that the developer explicitly makes public, rather than something "
 "that is auto-generated ’button code’."
 msgstr ""
+"Det er mulig å bruke en direkte PayPal-lenke her, hvis det er alt som er "
+"tilgjengelig. Dog, huska at utvikleren kanskje ikke er klar over denne "
+"direkte lenken, og hvis de senere bytter til en annen PayPal-konto, eller at "
+"PayPal-lenkeformatet har endret seg, kan ting gå galt. Det er alltid best å "
+"bruke en lenke som utvikleren eksplisitt har offentliggjort, snarere enn noe "
+"som er autogenerert \"knappekode\"."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:240
 #, no-wrap
 msgid "This is converted to (`<donate>`) in the XML file (_index.xml_).\n"
-msgstr ""
+msgstr "Dette blir konvertert til (`<donate>`) i XML-fila (_index.xml_).\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md:243
 #, no-wrap
 msgid "7.13 FlattrID<a name=\"FlattrID\"></a>"
-msgstr ""
+msgstr "7.13 FlattrID<a name=\"FlattrID\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:249
