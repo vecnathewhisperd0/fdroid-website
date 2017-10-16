@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-10-16 20:11+0000\n"
+"PO-Revision-Date: 2017-10-17 11:27+0000\n"
 "Last-Translator: Володимир Бриняк <bardvv@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/f-droid"
 "/website-docs/uk/>\n"
@@ -784,8 +784,8 @@ msgid ""
 "[Importing Applications](Importing_Applications) Using `fdroid import` to "
 "build a new project."
 msgstr ""
-"[Імпортування застосунків](Importing_Applications) `fdroid import`побудувати "
-"новий проект."
+"[Імпортування застосунків](Importing_Applications) Використання `fdroid "
+"import`для створення нового проекту."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:48
@@ -830,10 +830,13 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:48
+#, fuzzy
 msgid ""
 "[Build Server Setup](Build_Server_Setup) How to setup the complete f-droid."
 "org build setup on your own machine."
 msgstr ""
+"[Створення установки сервера](Build_Server_Setup) Як встановити повну "
+"установку f-droid.org на власній машині."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:48
@@ -853,6 +856,7 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:53
+#, fuzzy
 msgid ""
 "[Verification Server](Verification_Server) Setting up a server to verify app "
 "builds are correct."
