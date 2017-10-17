@@ -3,7 +3,7 @@
         "download_fdroid": "Last ned F-Droid", 
         "gpg_signature": "PGP-signatur", 
         "introduction": "F-Droid er en installerbar katalog av fri programvare for Android-plattformen. Klienten gjør det enkelt å utforske, installere og holde oppsyn med oppdateringer på din enhet.", 
-        "screenshot": "Skjermavbildning av F-Droid Android-program", 
+        "screenshot": "Skjermavbildning av Android-programmet F-Droid", 
         "title": "Hva er F-Droid?"
     }, 
     "navigation": {
@@ -39,7 +39,7 @@
     "sidebars": {
         "donate": {
             "bank_transfer_name": "Navn", 
-            "bitcoin_alt": "Doner via Bitcoin", 
+            "bitcoin_alt": "Bitcoin", 
             "flattr_alt": "Doner via Flattr", 
             "heading": "Doner", 
             "paypal_alt": "Doner via PayPal", 
