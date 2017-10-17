@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-10-17 11:27+0000\n"
+"PO-Revision-Date: 2017-10-18 12:42+0000\n"
 "Last-Translator: Володимир Бриняк <bardvv@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/f-droid"
 "/website-docs/uk/>\n"
@@ -876,6 +876,9 @@ msgid ""
 "droid-privileged-extension) How to use F-Droid Privileged Extension as a "
 "user and rom developer"
 msgstr ""
+"[Привілейоване розширення](https://gitlab.com/fdroid/privileged-extension#f"
+"-droid-privileged-extension) Як користуватися привілейованим розширенням F-"
+"Droid користувачу і rom розробнику"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md:53
@@ -1668,6 +1671,12 @@ msgid ""
 "name in the list of apps presented in the client; it doesn’t changed the "
 "name or application label in the source code."
 msgstr ""
+"Назва застосунку. Зазвичай це поле не повинно бути присутнім, оскільки "
+"правильне ім'я програми завантажується з файлу APK. Однак у ситуації, коли "
+"APK містить погане або відсутнє ім'я програми, його можна скасувати за "
+"допомогою цього. Зауважте, що це лише замінює назву в списку застосунків, "
+"представлених у клієнті; це не змінює назву або ярлик застосунків у "
+"вихідному коді."
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md:170
@@ -1684,23 +1693,29 @@ msgid ""
 "linking to the other app IDs. Useful when an app switches package name, or "
 "when you want an app to act as multiple apps."
 msgstr ""
+"Список розділених комами ідентифікаторів застосунків, які надає застосунок. "
+"Іншими словами, якщо користувач встановив будь-який з цих застосунків, F-"
+"Droid покаже цей застосунок замість встановленого. Він також з'явиться, якщо "
+"користувач натискає URL-адреси, пов'язані з іншими ідентифікаторами "
+"застосунку. Корисно, коли застосунок перемикає назву пакета, або якщо ви "
+"хочете, щоб застосунок функціював як кілька додатків."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:180
 msgid "Currently this functionality is a stub."
-msgstr ""
+msgstr "В даний час ця функціональність є заглушкою."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:182
 #, no-wrap
 msgid "This is converted to (`<provides>`) in the XML file (_index.xml_).\n"
-msgstr ""
+msgstr "Це перетворюється на (`<provides>`) у файлі XML (_index.xml_).\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md:185
 #, no-wrap
 msgid "7.8 Web Site<a name=\"Web-Site\"></a>"
-msgstr ""
+msgstr "7.8 Веб-сайт<a name=\"Web-Site\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:190
@@ -1708,18 +1723,20 @@ msgid ""
 "The URL for the application’s web site. If there is no relevant web site, "
 "this can be omitted (or left blank)."
 msgstr ""
+"URL-адреса веб-сайту застосунку. Якщо немає відповідного веб-сайту, це можна "
+"опустити (або залишити порожнім)."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:192
 #, no-wrap
 msgid "This is converted to (`<web>`) in the XML file (_index.xml_).\n"
-msgstr ""
+msgstr "Це перетворюється на (`<web>`) у файлі XML (_index.xml_).\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md:195
 #, no-wrap
 msgid "7.9 Source Code<a name=\"Source-Code\"></a>"
-msgstr ""
+msgstr "7.9 Вихідний код<a name=\"Source-Code\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:201
@@ -1728,18 +1745,20 @@ msgid ""
 "something human-friendly. Machine-readable source-code is covered in the "
 "’Repo’ field."
 msgstr ""
+"URL, щоб переглянути або отримати вихідний код застосунку. Це має бути щось "
+"зручне для людей. Машинозчитуваний вихідний код розглядається в полі ’Repo’."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:203
 #, no-wrap
 msgid "This is converted to (`<source>`) in the XML file (_index.xml_).\n"
-msgstr ""
+msgstr "Це перетворюється на (`<source>`) у файлі XML (_index.xml_).\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md:206
 #, no-wrap
 msgid "7.10 Issue Tracker<a name=\"Issue-Tracker\"></a>"
-msgstr ""
+msgstr "7.10 Відстеження проблем<a name=\"Issue-Tracker\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:211
@@ -1747,18 +1766,20 @@ msgid ""
 "The URL for the application’s issue tracker. Optional, since not all "
 "applications have one."
 msgstr ""
+"URL-адреса для трекера проблем застосунку. Необов'язково, оскільки не всі "
+"застосунки мають таке."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:213
 #, no-wrap
 msgid "This is converted to (`<tracker>`) in the XML file (_index.xml_).\n"
-msgstr ""
+msgstr "Це перетворюється на (`<tracker>`) у файлі XML (_index.xml_).\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md:216
 #, no-wrap
 msgid "7.11 Changelog<a name=\"Changelog\"></a>"
-msgstr ""
+msgstr "7.11 Історія змін<a name=\"Changelog\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:221
@@ -1766,18 +1787,20 @@ msgid ""
 "The URL for the application’s changelog. Optional, since not all "
 "applications have one."
 msgstr ""
+"URL-адреса журналу змін до застосунку. Необов'язково, оскільки не всі "
+"застосунку мають таке."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:223
 #, no-wrap
 msgid "This is converted to (`<changelog>`) in the XML file (_index.xml_).\n"
-msgstr ""
+msgstr "Це перетворюється в (`<changelog>`) у файлі XML (_index.xml_).\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md:226
 #, no-wrap
 msgid "7.12 Donate<a name=\"Donate\"></a>"
-msgstr ""
+msgstr "7.12 Пожертвування<a name=\"Donate\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:231
@@ -1785,6 +1808,8 @@ msgid ""
 "The URL to donate to the project. This should be the project’s donate page "
 "if it has one."
 msgstr ""
+"URL-адреса пожертвувань для проекту. Це має бути сторінка пожертвувань для "
+"проекту, якщо є така."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md:238
