@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-10-13 18:45+0000\n"
-"Last-Translator: Tobias_Groza <tobias.groza@outlook.de>\n"
+"PO-Revision-Date: 2017-10-19 14:58+0000\n"
+"Last-Translator: anonymous <>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/de/>\n"
 "Language: de\n"
@@ -3401,7 +3401,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "Another example, using extra parameters:"
-msgstr ""
+msgstr "Ein weiteres Beispiel, in dem zusätzliche Parameter verwendet werden:"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -4573,13 +4573,13 @@ msgstr ""
 #: build/_docs/md/Client_Bug_Reports.md
 #, no-wrap
 msgid "Client Bug Reports"
-msgstr ""
+msgstr "App-Fehlerberichte"
 
 #. type: Title ###
 #: build/_docs/md/Client_Bug_Reports.md
 #, no-wrap
 msgid "What to include in a bug report"
-msgstr ""
+msgstr "Was ein Fehlerbericht enthalten muss"
 
 #. type: Plain text
 #: build/_docs/md/Client_Bug_Reports.md
@@ -4588,6 +4588,9 @@ msgid ""
 "reproducing your issue and thus fixing it, please include as much of the "
 "following information as possible in your bug reports:"
 msgstr ""
+"Um sicher zu gehen, dass die F-Droid-Entwickler den Fehler bestmöglich "
+"reproduzieren und dadurch beheben können, sollte der Fehlerbericht  so viele "
+"der folgenden Informationen wie möglich enthalten:"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Client_Bug_Reports.md
