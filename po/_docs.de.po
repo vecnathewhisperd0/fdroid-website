@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-10-19 19:03+0000\n"
+"PO-Revision-Date: 2017-10-20 22:46+0000\n"
 "Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/de/>\n"
@@ -514,7 +514,6 @@ msgstr "Anwendungen einreichen"
 
 #. type: Plain text
 #: build/_pages/md/contribute.md
-#, fuzzy
 msgid ""
 "If you see an application missing from the repository (after reading the "
 "[inclusion policy](http://f-droid.org/wiki/page/Inclusion_Policy)), please "
@@ -612,7 +611,6 @@ msgstr ""
 
 #. type: Plain text
 #: build/_pages/md/contribute.md
-#, fuzzy
 msgid ""
 "For working with the server and data projects, it’s a good idea to read [the "
 "manual]({{ \"/docs/\" | prepend: site.baseurl }})."
@@ -1586,7 +1584,6 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md
-#, fuzzy
 msgid ""
 "Once you have that setup, you can build the most recent version of the app "
 "using the whole FDroid stack by running:"
@@ -1855,7 +1852,7 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "This is converted to (`<author>`) in the XML file (_index.xml_).\n"
 msgstr "Umwandlung zu (`<author>`) in der XML-Datei (_index.xml_).\n"
 
@@ -1875,7 +1872,7 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "This is converted to (`<email>`) in the XML file (_index.xml_).\n"
 msgstr "Umwandlung zu (`<email>`) in der XML-Datei (_index.xml_).\n"
 
@@ -1918,7 +1915,7 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "This is converted to (`<license>`) in the XML file (_index.xml_).\n"
 msgstr "Umwandlung zu (`<license>`) in der XML-Datei (_index.xml_).\n"
 
@@ -1941,7 +1938,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "This is converted to (`<name>`) in the XML file (_index.xml_).\n"
 msgstr "Umwandlung zu (`<name>`) in der XML-Datei (_index.xml_).\n"
 
@@ -2020,7 +2017,7 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "This is converted to (`<web>`) in the XML file (_index.xml_).\n"
 msgstr "Umwandlung zu (`<web>`) in der XML-Datei (_index.xml_).\n"
 
@@ -2064,7 +2061,7 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "This is converted to (`<tracker>`) in the XML file (_index.xml_).\n"
 msgstr "Umwandlung zu (`<tracker>`) in der XML-Datei (_index.xml_).\n"
 
@@ -2085,7 +2082,7 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "This is converted to (`<changelog>`) in the XML file (_index.xml_).\n"
 msgstr "Umwandlung zu (`<changelog>`) in der XML-Datei (_index.xml_).\n"
 
@@ -2124,7 +2121,7 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "This is converted to (`<donate>`) in the XML file (_index.xml_).\n"
 msgstr "Umwandlung zu (`<donate>`) in der XML-Datei (_index.xml_).\n"
 
@@ -2147,7 +2144,7 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "This is converted to (`<flattr>`) in the XML file (_index.xml_).\n"
 msgstr "Umwandlung zu (`<flattr>`) in der XML-Datei (_index.xml_).\n"
 
@@ -2164,7 +2161,7 @@ msgstr "Eine Bitcoin-Adresse für Projektspenden."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "This is converted to (`<bitcoin>`) in the XML file (_index.xml_).\n"
 msgstr "Umwandlung zu (`<bitcoin>`) in der XML-Datei (_index.xml_).\n"
 
@@ -2181,7 +2178,7 @@ msgstr "Eine Litecoin-Adresse für Projektspenden."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "This is converted to (`<litecoin>`) in the XML file (_index.xml_).\n"
 msgstr "Umwandlung zu (`<litecoin>`) in der XML-Datei (_index.xml_).\n"
 
@@ -2289,7 +2286,7 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "This is converted to (`<desc>`) in the XML file (_index.xml_).\n"
 msgstr "Umwandlung zu (`<desc>`) in der XML-Datei (_index.xml_).\n"
 
@@ -5762,7 +5759,7 @@ msgstr ""
 #: build/_docs/md/FAQ_-_Client.md
 #, no-wrap
 msgid "Why does F-Droid need these permissions?"
-msgstr ""
+msgstr "Wozu braucht F-Droid diese Berechtigungen?"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md
@@ -5776,16 +5773,25 @@ msgid ""
 "F-Droid declares the permissions it actually uses so that it is honest and "
 "transparent about what it is doing."
 msgstr ""
+"F-Droid ist ein App-Store, das heißt, es ist vollkommen verantwortlich für "
+"die Ermittlung, das Herunterladen und die Installation von Apps. Das "
+"bedeutet wiederum, es besitzt eigentlich schon alle Berechtigungen. Ein "
+"hinterhältiger App-Store ohne Berechtigungen könnte zum Beispiel jede App "
+"bei deren Installation so verändern, dass ihm selbst über diese "
+"modifizierten Apps alle Berechtigungen gewährt werden. Daher ist es so "
+"wichtig, dass ein App-Store freie Software und öffentlich geprüft ist. F-"
+"Droid ist beides. Nichtdestoweniger erklärt F-Droid die tatsächlich "
+"verwendeten Berechtigungen, damit sein Tun ehrlich und transparent ist."
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md
 msgid "Here are the permissions that F-Droid current uses:"
-msgstr ""
+msgstr "Hier sind die Berechtigungen, die F-Droid momentan nutzt:"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md
 msgid "Download apps from f-droid.org and other app repositories"
-msgstr ""
+msgstr "Apps von f-droid.org und anderen App-Repositorys herunterladen"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md
@@ -5797,6 +5803,8 @@ msgstr "    android.permission.INTERNET\n"
 #: build/_docs/md/FAQ_-_Client.md
 msgid "Start itself automatically at boot time so that it can receive updates:"
 msgstr ""
+"Sich selbst beim Hochfahren automatisch starten, um Aktualisierungen "
+"erhalten zu können:"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md
@@ -5810,6 +5818,8 @@ msgid ""
 "For app swap to get current WiFi status, and prompt the user to enable WiFI "
 "when swapping:"
 msgstr ""
+"Für den App-Tausch, um den aktuellen WLAN-Status zu beziehen, und um den "
+"Nutzer beim Tauschen zur WLAN-Aktivierung aufzufordern:"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md
@@ -5833,6 +5843,8 @@ msgid ""
 "For app swap to see the Bluetooth state, and prompt the user to enable "
 "Bluetooth when swapping:"
 msgstr ""
+"Für den App-Tausch, um den aktuellen Bluetooth-Status zu erkennen, und um "
+"den Nutzer beim Tauschen zur Bluetooth-Aktivierung aufzufordern:"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md
@@ -5849,6 +5861,8 @@ msgstr ""
 msgid ""
 "Read app repostory URLs via NFC, for both swap and regular app repositories:"
 msgstr ""
+"App-Repository-Adressen über NFC einlesen, sowohl zum Tausch als auch für "
+"normale App-Repositorys:"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md
@@ -5859,7 +5873,7 @@ msgstr "    android.permission.NFC\n"
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md
 msgid "Temporarily store downloaded files on the SD Card:"
-msgstr ""
+msgstr "Heruntergeladene Dateien temporär auf der SD-Karte speichern:"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md
@@ -5898,10 +5912,11 @@ msgstr "    android.permission.ACCESS_SUPERUSER\n"
 #: build/_docs/md/FAQ_-_Client.md
 #, no-wrap
 msgid "Why does F-Droid request root access?"
-msgstr ""
+msgstr "Warum fordert F-Droid den Root-Zugriff?"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md
+#, fuzzy
 msgid ""
 "There is a feature (still in beta) which allows unattended installs.  This "
 "requires root access, because it bypasses the usual apk install process in "
@@ -5912,6 +5927,15 @@ msgid ""
 "future, it should become useful for implementing an \"Update all apps\" "
 "feature."
 msgstr ""
+"Es gibt eine Funktion (bis jetzt noch in einer Beta-Version), die "
+"selbstständige Installationen ermöglicht.  Diese benötigt den Root-Zugriff, "
+"da sie den herkömmlichen APK-Installationsvorgang in Android umgeht. *Wir "
+"empfehlen, diese Funktion nicht zu nutzen*, außer Sie wissen, was Sie damit "
+"tun, da Ihnen die von einer App geforderten Berechtigungen bei einer "
+"Installation nicht angezeigt werden. Die Funktion muss ausdrücklich in den "
+"Einstellungen, durch Auswahl des \"Expertenmodus\" und dann \"Install using "
+"root access\", aktiviert werden. Zukünftig könnte sie bei der Umsetzung "
+"einer \"Alle Apps aktualisieren\"-Funktion hilfreich werden."
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md
@@ -5920,12 +5944,16 @@ msgid ""
 "Droid client makes use of root access, you can search [gitlab](https://"
 "gitlab.com/fdroid/fdroidclient) for `eu.chainfire.libsuperuser`."
 msgstr ""
+"Diejenigen, die daran interessiert sind, einen schnellen Überblick zu "
+"gewinnen, an welcher Stelle im Code F-Droid den Root-Zugriff verwendet, "
+"können auf [gitlab](https://gitlab.com/fdroid/fdroidclient) nach "
+"`eu.chainfire.libsuperuser` suchen."
 
 #. type: Title ###
 #: build/_docs/md/FAQ_-_Client.md
 #, no-wrap
 msgid "What is expert mode?"
-msgstr ""
+msgstr "Was ist der Expertenmodus?"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md
@@ -5935,6 +5963,11 @@ msgid ""
 "This includes things like package IDs and signature hashes. Some extra "
 "configuration options also appear."
 msgstr ""
+"Die Aktivierung des 'Expertenmodus' in den Einstellungen führt dazu, dass "
+"ergänzende Informationen in der App angezeigt werden, die wahrscheinlich für "
+"die meisten Leute nicht hilfreich sind. Dazu gehören Dinge wie Paket-IDs und "
+"Signatur-Hashes. Daneben erscheinen auch einige zusätzliche "
+"Konfigurationsoptionen."
 
 #. type: Title ###
 #: build/_docs/md/FAQ_-_Client.md
