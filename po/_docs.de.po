@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-10-19 16:03+0000\n"
+"PO-Revision-Date: 2017-10-19 19:03+0000\n"
 "Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/de/>\n"
@@ -5791,7 +5791,7 @@ msgstr ""
 #: build/_docs/md/FAQ_-_Client.md
 #, no-wrap
 msgid "    android.permission.INTERNET\n"
-msgstr ""
+msgstr "    android.permission.INTERNET\n"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md
@@ -5802,7 +5802,7 @@ msgstr ""
 #: build/_docs/md/FAQ_-_Client.md
 #, no-wrap
 msgid "    android.permission.RECEIVE_BOOT_COMPLETED\n"
-msgstr ""
+msgstr "    android.permission.RECEIVE_BOOT_COMPLETED\n"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md
@@ -5821,6 +5821,11 @@ msgid ""
 "    android.permission.CHANGE_NETWORK_STATE\n"
 "    android.permission.CHANGE_WIFI_STATE\n"
 msgstr ""
+"    android.permission.ACCESS_NETWORK_STATE\n"
+"    android.permission.ACCESS_WIFI_STATE\n"
+"    android.permission.CHANGE_WIFI_MULTICAST_STATE\n"
+"    android.permission.CHANGE_NETWORK_STATE\n"
+"    android.permission.CHANGE_WIFI_STATE\n"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md
@@ -5836,6 +5841,8 @@ msgid ""
 "    android.permission.BLUETOOTH\n"
 "    android.permission.BLUETOOTH_ADMIN\n"
 msgstr ""
+"    android.permission.BLUETOOTH\n"
+"    android.permission.BLUETOOTH_ADMIN\n"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md
@@ -5847,7 +5854,7 @@ msgstr ""
 #: build/_docs/md/FAQ_-_Client.md
 #, no-wrap
 msgid "    android.permission.NFC\n"
-msgstr ""
+msgstr "    android.permission.NFC\n"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md
@@ -5858,7 +5865,7 @@ msgstr ""
 #: build/_docs/md/FAQ_-_Client.md
 #, no-wrap
 msgid "    android.permission.WRITE_EXTERNAL_STORAGE\n"
-msgstr ""
+msgstr "    android.permission.WRITE_EXTERNAL_STORAGE\n"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md
@@ -5872,7 +5879,7 @@ msgstr ""
 #: build/_docs/md/FAQ_-_Client.md
 #, no-wrap
 msgid "    org.fdroid.fdroid.privileged.USE_SERVICE\n"
-msgstr ""
+msgstr "    org.fdroid.fdroid.privileged.USE_SERVICE\n"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md
@@ -5885,7 +5892,7 @@ msgstr ""
 #: build/_docs/md/FAQ_-_Client.md
 #, no-wrap
 msgid "    android.permission.ACCESS_SUPERUSER\n"
-msgstr ""
+msgstr "    android.permission.ACCESS_SUPERUSER\n"
 
 #. type: Title ###
 #: build/_docs/md/FAQ_-_Client.md
