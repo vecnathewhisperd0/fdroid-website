@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-10-19 15:34+0000\n"
-"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
+"PO-Revision-Date: 2017-10-19 15:43+0000\n"
+"Last-Translator: anonymous <>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/de/>\n"
 "Language: de\n"
@@ -6129,6 +6129,8 @@ msgid ""
 "[issue tracker](https://gitlab.com/fdroid/fdroidclient/issues) for the "
 "Android app itself (aka client)"
 msgstr ""
+"[Fehlerverfolgung](https://gitlab.com/fdroid/fdroidclient/issues) für die "
+"Android-App selbst (auch Client genannt)"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/FAQ_-_General.md
@@ -6136,12 +6138,16 @@ msgid ""
 "[issue tracker](https://gitlab.com/fdroid/fdroidserver/issues) for the "
 "developer tools (aka server)"
 msgstr ""
+"[Fehlerverfolgung](https://gitlab.com/fdroid/fdroidserver/issues) für die "
+"Entwicklerwerkzeuge (auch Server genannt)"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/FAQ_-_General.md
 msgid ""
 "[issue tracker](https://gitlab.com/fdroid/rfp/issues) for packaging new apps"
 msgstr ""
+"[Fehlerverfolgung](https://gitlab.com/fdroid/rfp/issues) für die "
+"Konfektionierung neuer Apps"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/FAQ_-_General.md
@@ -6149,6 +6155,8 @@ msgid ""
 "[issue tracker](https://gitlab.com/fdroid/fdroiddata/issues) for issues with "
 "published apps"
 msgstr ""
+"[Fehlerverfolgung](https://gitlab.com/fdroid/fdroiddata/issues) für Probleme "
+"mit veröffentlichten Apps"
 
 #. type: Title ###
 #: build/_docs/md/FAQ_-_General.md
@@ -6200,6 +6208,9 @@ msgid ""
 "nobody is talking about it in the forum, you can try to be the first to do "
 "it: See the [Inclusion How-To](../Inclusion_How-To)."
 msgstr ""
+"Wenn Sie andererseits glauben, dass eine App die Aufnahmekriterien erfüllt "
+"und tatsächlich keiner über sie im Forum spricht, können Sie versuchen, der "
+"erste zu sein, der es tut: Siehe [Aufnahmeverfahren](../Inclusion_How-To)."
 
 #. type: Title ###
 #: build/_docs/md/FAQ_-_General.md
