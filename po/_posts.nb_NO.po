@@ -6,20 +6,24 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-10-06 20:57+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2017-10-19 15:51+0000\n"
+"Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
+"Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/f-droid"
+"/website-posts/nb_NO/>\n"
 "Language: nb_NO\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.17\n"
 
 #. type: Title #
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md
 #, no-wrap
 msgid "\"F-Droid supports APK Expansion Files aka OBB\""
-msgstr ""
+msgstr "\"F-Droid støtter APK-utvidelsesfiler kalt OBB\""
 
 #. type: Plain text
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md
@@ -31,6 +35,12 @@ msgid ""
 "amounts of data to download in order to just start the app for the first "
 "time."
 msgstr ""
+"Mange spill, tastatursnarveier, og andre programmer trenger store mengder "
+"data for å virke.  APK-filen tilhørende et Android-program begrenser seg til "
+"100MB størrelse, likevel er det vanlig for et vanlig landskart å overskride "
+"100MB.  For å få brukere i gang så fort som mulig, bør de ikke måtte vente "
+"på store mengder data å laste ned for å kunne starte programmet for første "
+"gang."
 
 #. type: Plain text
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md
@@ -43,6 +53,13 @@ msgid ""
 "shipped as an OBB. Then when the app itself is updated (i.e. the APK), it "
 "does not need to include all those assets that are in the OBB file."
 msgstr ""
+"Google opprettet OBB-filer aka \"[APK-"
+"utvidelse](https://developer.android.com/google/play/expansion-files.html)\" "
+"for å tilby en fleksibel løsning for levering av store mengder data. Dette "
+"arrangementet sparer store mengder båndbredde siden APK-fila og OBB-fila kan "
+"oppdateres hver for seg.  For eksempel, trenger ikke ting som tilhører spill "
+"å endres særlig ofte, så de kan leveres som en OBB. Når selve programmet "
+"oppdateres (altså selve APK-en), trenger ikke de filene å inkluderes der."
 
 #. type: Plain text
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md
@@ -54,6 +71,13 @@ msgid ""
 "URLs in case the app itself needs to handle the OBB download/update.  That "
 "is similar to how it works in Google Play."
 msgstr ""
+"OBB-filer brukes av en mengde programmer som spill og MAPS.ME.  F-Droid "
+"støtter OBB ved å laste ned og installere OBB-en før APK-en, slik at når APK-"
+"en først er installert, er OBB-filene allerede på plass klare til bruk.  F-"
+"Droid tilbyr også en \"hensikt\"smetode for at programmer skal kunne hente "
+"OBB-nedlastningers nettadresser i fall selve programmer trenger å hanskes "
+"med OBB-nedlasting/oppdatering.  Dette ligner hvordan det virker i Google "
+"Play."
 
 #. type: Plain text
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md
@@ -63,12 +87,16 @@ msgid ""
 "very easy: just copy them to the same folder where the APKs go, i.e. _/path/"
 "to/fdroid/repo/_."
 msgstr ""
+"For å kunne bruke OBB-støtte, trenger brukere minst F-Droid v0.102, og "
+"pakkebrønnen må bruke _fdroidserver_ v0.7.0 eller nyere.  Å legge til OBB-"
+"filer til en pakkebrønn er veldig lett: Bare kopier dem til samme mappen som "
+"APK-filene er i, altså _/sti/til/fdroid/pakkebrønn/_."
 
 #. type: Title ##
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md
 #, no-wrap
 msgid "Developer Usage"
-msgstr ""
+msgstr "Utviklerbruk"
 
 #. type: Plain text
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md
