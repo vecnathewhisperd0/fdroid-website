@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-10-19 14:58+0000\n"
-"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
+"PO-Revision-Date: 2017-10-19 15:07+0000\n"
+"Last-Translator: anonymous <>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/de/>\n"
 "Language: de\n"
@@ -792,8 +792,8 @@ msgid ""
 "[Inclusion Policy](Inclusion_Policy) & [Inclusion How-To](Inclusion_How-To)  "
 "Guidelines for how to request the inclusion of a new app."
 msgstr ""
-"[Aufnahmegrundsätze](Inclusion_Policy) & [Aufnahmeverfahren](Inclusion_How-"
-"To)  Leitfaden wie die Aufnahme einer neuen App beantragt werden kann."
+"[Aufnahmekriterien](Inclusion_Policy) & [Aufnahmeverfahren](Inclusion_How-To)"
+"  Leitfaden wie die Aufnahme einer neuen App beantragt werden kann."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
@@ -4595,22 +4595,22 @@ msgstr ""
 #. type: Bullet: '* '
 #: build/_docs/md/Client_Bug_Reports.md
 msgid "F-Droid version (e.g. \"0.88\" or \"0.89-test\")"
-msgstr ""
+msgstr "F-Droid-Version (z. B. \"0.88\" oder \"0.89-test\")"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Client_Bug_Reports.md
 msgid "Android version (e.g. \"Lollipop\" or \"Android 5.0\")"
-msgstr ""
+msgstr "Android-Version (z. B. \"Lollipop\" oder \"Android 5.0\")"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Client_Bug_Reports.md
 msgid "Device (e.g. \"Nexus 4\")"
-msgstr ""
+msgstr "Gerät (z. B. \"Nexus 4\")"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Client_Bug_Reports.md
 msgid "Steps to reproduce the bug"
-msgstr ""
+msgstr "Schritte, um den Fehler zu reproduzieren"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Client_Bug_Reports.md
@@ -4618,11 +4618,13 @@ msgid ""
 "A logcat from when the crash occured ([Getting logcat messages after crash]"
 "(../Getting_logcat_messages_after_crash))"
 msgstr ""
+"Ein Logcat vom Zeitpunkt des Absturzes ([Logcat-Meldungen nach einem Absturz "
+"abrufen](../Getting_logcat_messages_after_crash))"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Client_Bug_Reports.md
 msgid "Whether the bug happens on the previous stable version of F-Droid"
-msgstr ""
+msgstr "Ob der Fehler in der vorherigen Endversion von F-Droid auftritt"
 
 #. type: Title ###
 #: build/_docs/md/Client_Bug_Reports.md
@@ -4638,6 +4640,11 @@ msgid ""
 "try to engage with the person who requested the feature to see if it is in "
 "the best interests of F-Droid as a whole."
 msgstr ""
+"Das Entwicklerteam von F-Droid wird sein Möglichstes tun, um jeden "
+"berichteten Fehler zu reproduzieren und zu beheben. Auch wenn "
+"Funktionswünsche übermittelt werden, werden wir versuchen, mit der Person, "
+"die den Wunsch äußerte, in Kontakt zu treten, um zu klären, ob er im "
+"Interesse von F-Droid als Ganzes liegt."
 
 #. type: Plain text
 #: build/_docs/md/Client_Bug_Reports.md
@@ -4648,6 +4655,12 @@ msgid ""
 "enough detail for us to respond appropriately. In these situations, we will "
 "apply the \"waiting-on-response\" label to the issue."
 msgstr ""
+"Manchmal können wir einen bestimmten Fehler nicht reproduzieren und "
+"benötigen daher mehr Informationen vom ursprünglichen Fehlermelder (oder "
+"jemand anderem, der das gleiche Problem hat). In anderen Fällen bieten "
+"Funktionswünsche nicht genügend Einzelheiten, um adäquat zu antworten. In "
+"diesen Situationen wird das Problem mit dem Etikett \"waiting-on-response\" "
+"versehen."
 
 #. type: Plain text
 #: build/_docs/md/Client_Bug_Reports.md
@@ -4667,12 +4680,18 @@ msgid ""
 "us to manage, and harder for new contributors to decide what they could work "
 "on."
 msgstr ""
+"Momentan ist kein Zeitrahmen festgelegt, nach dem diese Probleme geschlossen "
+"werden (z. B. keine Antwort innerhalb von 4 Wochen), in der Zukunft könnten "
+"wir uns allerdings dazu entschließen. Der Grund dafür liegt in der "
+"wachsenden Fehlerliste, die für uns zunehmend schwieriger zu bearbeiten wird "
+"und für neue Teilnehmer die Entscheidung, woran sie arbeiten könnten, "
+"erschwert."
 
 #. type: Title ###
 #: build/_docs/md/Client_Bug_Reports.md
 #, no-wrap
 msgid "Where to file bug report"
-msgstr ""
+msgstr "Wo soll ein Fehlerbericht eingereicht werden?"
 
 #. type: Plain text
 #: build/_docs/md/Client_Bug_Reports.md
@@ -4680,6 +4699,9 @@ msgid ""
 "[F-droid issue tracker](https://f-droid.org/issues/) specifically [F-droid "
 "client section](https://gitlab.com/fdroid/fdroidclient/issues)"
 msgstr ""
+"Bei der [F-Droid-Fehlerverfolgung](https://f-droid.org/issues/) speziell in "
+"der [Abteilung für den F-Droid-"
+"Client](https://gitlab.com/fdroid/fdroidclient/issues)"
 
 #. type: Title #
 #: build/_docs/md/Deploying_the_Website.md
@@ -6157,6 +6179,8 @@ msgstr ""
 msgid ""
 "We don't know about it. See the [Inclusion Policy](../Inclusion_Policy)."
 msgstr ""
+"Wir wissen nichts von ihr. Sehen Sie die "
+"[Aufnahmekriterien](../Inclusion_Policy) an."
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_General.md
