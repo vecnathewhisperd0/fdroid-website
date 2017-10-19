@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-10-19 15:23+0000\n"
-"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
+"PO-Revision-Date: 2017-10-19 15:24+0000\n"
+"Last-Translator: anonymous <>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/de/>\n"
 "Language: de\n"
@@ -6148,7 +6148,7 @@ msgstr ""
 #: build/_docs/md/FAQ_-_General.md
 #, no-wrap
 msgid "Why isn't my favorite app included?"
-msgstr ""
+msgstr "Warum ist meine Lieblings-App nicht darunter?"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_General.md
@@ -6176,6 +6176,8 @@ msgid ""
 "It's on our radar, but we haven't got to it yet.  [Search](https://f-droid."
 "org/search) the Forum;"
 msgstr ""
+"Wir haben sie auf dem Schirm, sie ist aber noch nicht bei uns angekommen. "
+"[Durchsuchen](https://f-droid.org/search) Sie das Forum;"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/FAQ_-_General.md
