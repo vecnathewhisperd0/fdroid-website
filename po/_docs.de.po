@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-10-19 15:22+0000\n"
-"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
+"PO-Revision-Date: 2017-10-19 15:23+0000\n"
+"Last-Translator: anonymous <>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/de/>\n"
 "Language: de\n"
@@ -6153,12 +6153,13 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/FAQ_-_General.md
 msgid "Some common reasons:"
-msgstr ""
+msgstr "Einige häufige Gründe:"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/FAQ_-_General.md
 msgid "It's not [Free Software](https://www.gnu.org/philosophy/free-sw.html);"
 msgstr ""
+"Sie ist keine [Freie Software](https://www.gnu.org/philosophy/free-sw.html);"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/FAQ_-_General.md
@@ -6166,6 +6167,8 @@ msgid ""
 "We're trying to include it, but there's a problem with it that we're trying "
 "to resolve. Check the Submissions Held section of the Forum;"
 msgstr ""
+"Wir versuchen sie zu integrieren, aber es gibt ein Problem mit ihr, das wir "
+"zu lösen versuchen. Sehen Sie in der Forumsektion „Submissions Held“ nach;"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/FAQ_-_General.md
