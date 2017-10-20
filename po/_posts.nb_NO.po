@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-10-06 20:57+0200\n"
-"PO-Revision-Date: 2017-10-19 15:51+0000\n"
+"PO-Revision-Date: 2017-10-21 16:47+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/f-droid"
 "/website-posts/nb_NO/>\n"
@@ -109,6 +109,13 @@ msgid ""
 "google/play/licensing/index.html)  service for this, F-Droid provides a "
 "simple method that is all free software."
 msgstr ""
+"En av detaljene vedrørende bruk av OBB-filer i programmer er at OBB-filer "
+"ikke er garantert å bli installert av programbutikken.  Det betyr at "
+"programmet kan starte, uten at den forventede OBB-fila er der.  I sådant "
+"fall, vil programmet laste ned og installere selve OBB-fila på egenhånd.  "
+"Google Play anbefaler deres proprietære  [Programlisensieringstjeneste](https"
+"://developer.android.com/google/play/licensing/index.html) for dette, F-"
+"Droid derimot tilbyr en enkel metode som er fri programvare tvers igjennom."
 
 #. type: Plain text
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md
@@ -116,16 +123,18 @@ msgid ""
 "To get the URL for the two possible OBB files, send an `Intent` to F-Droid "
 "using these _Actions_:"
 msgstr ""
+"For å hente nettadressen for de to mulige OBB-filene, send en \"hensikt\" "
+"til F-Droid ved bruk av disse _Handlingene_:"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md
 msgid "`org.fdroid.fdroid.action.GET_OBB_MAIN_URL`"
-msgstr ""
+msgstr "\"org.fdroid.fdroid.action.GET_OBB_MAIN_URL\""
 
 #. type: Bullet: '* '
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md
 msgid "`org.fdroid.fdroid.action.GET_OBB_PATCH_URL`"
-msgstr ""
+msgstr "\"org.fdroid.fdroid.action.GET_OBB_PATCH_URL\""
 
 #. type: Plain text
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md
@@ -135,19 +144,25 @@ msgid ""
 "the file ultimately ends up in _Android/obb/<packageName>_ on the\n"
 "device's External Storage.\n"
 msgstr ""
+"Last så ned nettadressen ved bruk av din favorittmetode, og forsikre deg så\n"
+"om at fila til slutt havner i _Android/obb/<pakkenavn>_ på\n"
+"enhetens eksternlager.\n"
 
 #. type: Title #
 #: build/_posts/md/2017-02-20-new-forum.md
 #, no-wrap
 msgid "\"Sailing into a new decade of discussions\""
-msgstr ""
+msgstr "\"Innseiling i et nytt tiår med diskusjoner\""
 
 #. type: Plain text
 #: build/_posts/md/2017-02-20-new-forum.md
+#, fuzzy
 msgid ""
 "We are excited to announce the release of the new official F-Droid forum: "
 "[forum.f-droid.org](https://forum.f-droid.org)."
 msgstr ""
+"Vi er oppglødde over å kunne kunngjøre lanseringen av det nye F-Droid-"
+"forumet: [forum.f-droid.org](https://forum.f-droid.org)."
 
 #. type: Plain text
 #: build/_posts/md/2017-02-20-new-forum.md
@@ -162,6 +177,16 @@ msgid ""
 "indepentently hosted one and chose some modern software called [Discourse]"
 "(https://www.discourse.org)."
 msgstr ""
+"Vi har jobbet hardt for å [fornye "
+"nettsiden](https://gitlab.com/groups/fdroid/milestones/launch?title=Launch) "
+"for å gjøre den enklere å modernisere, godta bidrag, og internasjonalisere.  "
+"Hoveddelen av dette arbeidet er å bytte den bakenforliggende teknologien fra "
+"WordPress til [Jekyll](https://jekyllrb.com/).  Dette fikk oss på tanken om "
+"å gjøre noe med forumet, siden det ble drevet av et WordPress-"
+"programtillegg.  Raskt [besluttet vi å droppe det gamle "
+"forumet](https://gitlab.com/fdroid/fdroid-website/issues/6) til fordel for "
+"et vi selv er vertskap for, og valgte i så måte den moderne programvaren "
+"kalt [Discourse](https://www.discourse.org)."
 
 #. type: Plain text
 #: build/_posts/md/2017-02-20-new-forum.md
@@ -172,6 +197,11 @@ msgid ""
 "experience was bad, and not only because of increasing number of bugs found "
 "in the forum software."
 msgstr ""
+"Det gamle forumet hadde en mengde bakdeler: Først kan du ikke svare per e-"
+"post.  Videre måtte F-Droid-frivillige bruke mye tid på å slette store "
+"mengder spam (der gamle forumet hadde 25% spam).  Til sist, var den "
+"helhetlige brukeropplevelsen dårlig, ikke bare på grunn av det økende "
+"antallet feil i forumprogramvaren."
 
 #. type: Plain text
 #: build/_posts/md/2017-02-20-new-forum.md
@@ -183,6 +213,12 @@ msgid ""
 "Droid, whether discussing the client or the server tools, can help each "
 "other there."
 msgstr ""
+"Med Discourse, håper vi å puste liv i F-Droid-gemenskapen.  Samtidig som nye "
+"programinnsendelser har [flyttet til GitLab](https://gitlab.com/fdroid/rfp), "
+"og feilrapporter/funksjonsforespørsler fremdeles er å finne der, er forumet "
+"det nye senteret for diskusjoner vedrørende F-Droid.  Alle F-Droid-brukere, "
+"enten de diskuterer klienten eller tjenerverktøyene, kan hjelpe hverandre "
+"der."
 
 #. type: Plain text
 #: build/_posts/md/2017-02-20-new-forum.md
@@ -192,6 +228,10 @@ msgid ""
 "to re-register yourself.  Independent from this all old topics remain at the "
 "current URLs for now."
 msgstr ""
+"På grunn av midlertidige begrensninger for alle F-Droid-frivillige, var det "
+"ikke mulig å flytte den gamle forumdataen over til det nye forumet, hvilket "
+"betyr at du må registrere deg selv igjen.  Uavhengig av dette er alle gamle "
+"emner å finne på den nåværende nettadressen inntil videre."
 
 #. type: Plain text
 #: build/_posts/md/2017-02-20-new-forum.md
@@ -202,6 +242,11 @@ msgid ""
 "the moment there is already a [German group](https://forum.f-droid.org/c/"
 "other-languages/german)."
 msgstr ""
+"Én interessant ny funksjon er [lokale "
+"gemenskaper](https://forum.f-droid.org/c/other-languages).  I disse kan du "
+"diskutere ditt morsmål om alle emner som har med F-Droid og fri programvare "
+"på Android å gjøre.  For øyeblikket finnes det allerede en [tysk "
+"gruppe](https://forum.f-droid.org/c/other-languages/german)."
 
 #. type: Plain text
 #: build/_posts/md/2017-02-20-new-forum.md
@@ -210,6 +255,9 @@ msgid ""
 "[\"Other languages\" category](https://forum.f-droid.org/c/other-languages) "
 "and we will discuss everything else there."
 msgstr ""
+"Hvis du ønsker å opprette din egen språklige avgreining, åpne et emne i [\""
+"Andre språk\"-kategorien](https://forum.f-droid.org/c/other-languages), så "
+"kan vi diskutere videre der."
 
 #. type: Plain text
 #: build/_posts/md/2017-02-20-new-forum.md
@@ -219,6 +267,11 @@ msgid ""
 "fdroid/fdroid-website/issues/36)  which gets us closer to [comments on "
 "single applications](https://gitlab.com/fdroid/fdroidclient/issues/646)."
 msgstr ""
+"Til sist er det en siste innsikt i den nåværende utviklingen av F-Droid å ta "
+"med seg: Vi planlegger å bruke Discourse for [kommentarer på "
+"nettsiden](https://gitlab.com/fdroid/fdroid-website/issues/36)  som bringer "
+"oss nærmere [kommentarer på "
+"enkeltprogrammer](https://gitlab.com/fdroid/fdroidclient/issues/646)."
 
 #. type: Plain text
 #: build/_posts/md/2017-02-20-new-forum.md
@@ -226,12 +279,14 @@ msgid ""
 "Make sure you keep an eye on the new developments happening to F-Droid in "
 "2017.  We for our part are curious if you like the new forum."
 msgstr ""
+"Hold et øye med ny utvikling av F-Droid i 2017.  Vi er spente på hvordan du "
+"liker det nye forumet."
 
 #. type: Title #
 #: build/_posts/md/2017-04-04-new-ux.md
 #, no-wrap
 msgid "\"A new UX 6 years in the making\""
-msgstr ""
+msgstr "\"Et nytt brukergrensesnitt, 6 år på dreiebenken\""
 
 #. type: Plain text
 #: build/_posts/md/2017-04-04-new-ux.md
@@ -242,6 +297,11 @@ msgid ""
 "master/CHANGELOG.md), the client has been translated into over 40 different "
 "languages, and much more."
 msgstr ""
+"F-Droid har vært en del av Android-økosystemet i 6 år nå.  Siden da, har "
+"2000 programmer blitt bygd for hovedpakkebrønnen, mange [flotte funksjoner "
+"har kommet "
+"til](https://gitlab.com/fdroid/fdroidclient/blob/master/CHANGELOG.md), "
+"klienten har blitt oversatt til over 40 språk, og mye mer."
 
 #. type: Plain text
 #: build/_posts/md/2017-04-04-new-ux.md
@@ -249,57 +309,71 @@ msgid ""
 "However, the F-Droid UX has never changed much from [the original three tab "
 "layout](https://f-droid.org/posts/f-droid-repository-alpha/):"
 msgstr ""
+"Dog har ikke selve brukergrensesnittet i F-Droid endret seg mye fra [det "
+"opprinnelige fanebaserte oppsettet](https://f-droid.org/posts/f-droid-"
+"repository-alpha/):"
 
 #. type: Plain text
 #: build/_posts/md/2017-04-04-new-ux.md
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "{: .gallery}\n"
 " * ![Version 0.11]({{ site.baseurl }}/assets/posts/2017-04-04-new-ux/0.11.png)\n"
 " * ![Version 0.102]({{ site.baseurl }}/assets/posts/2017-04-04-new-ux/0.102.png)\n"
 msgstr ""
+"{: .gallery}\n"
+" * ![Versjon 0.11]({{ site.baseurl }}/assets/posts/2017-04-04-new-"
+"ux/0.11.png)\n"
+" * ![Versjon 0.102]({{ site.baseurl }}/assets/posts/2017-04-04-new-"
+"ux/0.102.png)\n"
 
 #. type: Plain text
 #: build/_posts/md/2017-04-04-new-ux.md
 msgid "This will change with the coming release of F-Droid client v0.103."
-msgstr ""
+msgstr "Dette vil endre seg med kommende utgave av F-Droid-klienten v0.103."
 
 #. type: Plain text
 #: build/_posts/md/2017-04-04-new-ux.md
+#, fuzzy
 msgid ""
 "Over the past 6 months, the F-Droid team has been busy redesigning a modern "
 "UX which will help bring F-Droid into the present.  Some of the big ticket "
 "items include:"
 msgstr ""
+"I løpet av det siste halve året, har F-Droid-erne vært travle med å "
+"omdesigne et moderne brukergrensesnitt som tar F-Droid inn i samtiden.  Noen "
+"av de store endringene er:"
 
 #. type: Bullet: ' * '
 #: build/_posts/md/2017-04-04-new-ux.md
 msgid "Screenshots and feature graphics"
-msgstr ""
+msgstr "Skjermavbildninger og funksjonsgrafikk"
 
 #. type: Bullet: ' * '
 #: build/_posts/md/2017-04-04-new-ux.md
+#, fuzzy
 msgid "Bulk download and install"
-msgstr ""
+msgstr "Bråtenedlastning og installasjon"
 
 #. type: Bullet: ' * '
 #: build/_posts/md/2017-04-04-new-ux.md
+#, fuzzy
 msgid "Offline \"queue for download\""
-msgstr ""
+msgstr "Frakoblet \"sett i kø for nedlasting\""
 
 #. type: Bullet: ' * '
 #: build/_posts/md/2017-04-04-new-ux.md
 msgid "Ability to translate apps metadata"
-msgstr ""
+msgstr "Muligheten til å oversette programmers metadata"
 
 #. type: Bullet: ' * '
 #: build/_posts/md/2017-04-04-new-ux.md
 msgid "Improved notifications for downloads and pending updates"
-msgstr ""
+msgstr "Forbedret merknadsstøtte for nedlastinger og ventende oppdateringer"
 
 #. type: Plain text
 #: build/_posts/md/2017-04-04-new-ux.md
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "{: .gallery}\n"
 " * ![\"Latest\" screen]({{ site.baseurl }}/assets/posts/2017-04-04-new-ux/latest.png)\n"
@@ -309,6 +383,19 @@ msgid ""
 " * ![App details screen (with screenshots)]({{ site.baseurl }}/assets/posts/2017-04-04-new-ux/appdetails-a.png)\n"
 " * ![App details screen (without screenshots)]({{ site.baseurl }}/assets/posts/2017-04-04-new-ux/appdetails-b.png)\n"
 msgstr ""
+"{: .gallery}\n"
+" * ![\"Seneste\"-skjerm]({{ site.baseurl }}/assets/posts/2017-04-04-new-"
+"ux/latest.png)\n"
+" * ![\"Kategorier\" screen]({{ site.baseurl }}/assets/posts/2017-04-04-new-"
+"ux/categories.png)\n"
+" * ![\"I nærheten\" screen]({{ site.baseurl }}/assets/posts/2017-04-04-new-"
+"ux/nearby.png)\n"
+" * ![\"Uppdateringer\" screen]({{ site.baseurl }}/assets/posts/2017-04-04"
+"-new-ux/updates.png)\n"
+" * ![\"Programdetaljsskjerm\" (med skjermavbildninger)]({{ site.baseurl "
+"}}/assets/posts/2017-04-04-new-ux/appdetails-a.png)\n"
+" * ![\"Programdetaljsskjerm\" (uten skjermavbildninger)]({{ site.baseurl "
+"}}/assets/posts/2017-04-04-new-ux/appdetails-b.png)\n"
 
 #. type: Plain text
 #: build/_posts/md/2017-04-04-new-ux.md
@@ -318,6 +405,9 @@ msgid ""
 "users who make use of tools such as Talkback, and better support for "
 "donating to open source app developers."
 msgstr ""
+"I tillegg har vi redesignet noen av de mindre, men minst like viktige delene "
+"av programmet, som bedre støtte for synshemmede brukere, som bruker verktøy "
+"som TalkBack, og bedre støtte for å donere til friprog-utviklere."
 
 #. type: Plain text
 #: build/_posts/md/2017-04-04-new-ux.md
@@ -327,6 +417,10 @@ msgid ""
 "the design process, further field tests are currently being conducted to "
 "ensure that usability issues with the new design are identified and resolved."
 msgstr ""
+"Dette har omfattet en utvidet samtale med våre grensesnittsdesignere og "
+"gemenskapen.  I tillegg til brukertester som ble utført tidlig i prosessen, "
+"videre felttester foretas og blir overveid for å forsikre at bruksproblemer "
+"med det nye designet blir identifisert og løst."
 
 #. type: Plain text
 #: build/_posts/md/2017-04-04-new-ux.md
@@ -335,6 +429,9 @@ msgid ""
 "your feedback and suggestions about how to continually improve the F-Droid "
 "client."
 msgstr ""
+"I løpet av de kommende ukene vil du se alfa-utgaver som leder opp til "
+"v0.103.  Vi kommer dine tilbakemeldinger varmt i møte, og håper på forslag "
+"om hvordan F-Droid-klienten kontinuerlig kan forbedres."
 
 #. type: Plain text
 #: build/_posts/md/2017-04-04-new-ux.md
@@ -342,3 +439,5 @@ msgid ""
 "This is one of the many improvements happening to the broader F-Droid "
 "ecosystem in 2017, so keep an eye out for more!"
 msgstr ""
+"Dette er én av mange forbedringer som har hendt i det videre F-Droid-"
+"økosystemet i 2017, så hold et øye med ting for mer!"
