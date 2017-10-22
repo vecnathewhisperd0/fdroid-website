@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-10-16 20:11+0000\n"
+"PO-Revision-Date: 2017-10-23 17:44+0000\n"
 "Last-Translator: ezjerry liao <ezjerry@gmail.com>\n"
 "Language-Team: Chinese (Traditional) "
 "<https://hosted.weblate.org/projects/f-droid/website-docs/zh_Hant/>\n"
@@ -689,7 +689,7 @@ msgid ""
 "[Inclusion Policy](Inclusion_Policy) & [Inclusion How-To](Inclusion_How-To)  "
 "Guidelines for how to request the inclusion of a new app."
 msgstr ""
-"[包涵政策](Inclusion_Policy) & [包涵指導](Inclusion_How-To)  關於如何請求列入一個新的應用程式的指導方針。"
+"[融合政策](Inclusion_Policy) & [融合指導](Inclusion_How-To)  關於如何請求融合一個新的應用程式的指導方針。"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
