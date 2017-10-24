@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-10-24 21:37+0000\n"
+"PO-Revision-Date: 2017-10-24 21:38+0000\n"
 "Last-Translator: anonymous <>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/de/>\n"
@@ -6059,6 +6059,8 @@ msgid ""
 "Theoretically, the number of downloads is available via our web server logs. "
 "However, this would be a meaningless figure because:"
 msgstr ""
+"Theoretisch ließe sich über unsere Webserver-Protokolle die Anzahl der "
+"Downloads bestimmen. Die wäre jedoch eine bedeutungslose Zahl, denn:"
 
 #. type: Bullet: '1.  '
 #: build/_docs/md/FAQ_-_Client.md
