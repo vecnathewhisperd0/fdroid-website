@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-10-24 21:39+0000\n"
-"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
+"PO-Revision-Date: 2017-10-24 21:47+0000\n"
+"Last-Translator: anonymous <>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/de/>\n"
 "Language: de\n"
@@ -6066,6 +6066,7 @@ msgstr ""
 #: build/_docs/md/FAQ_-_Client.md
 msgid "I might download an app, and decide not to install it"
 msgstr ""
+"Ich könnte eine App herunterladen und beschließen, sie nicht zu installieren"
 
 #. type: Bullet: '2.  '
 #: build/_docs/md/FAQ_-_Client.md
@@ -6073,11 +6074,15 @@ msgid ""
 "I might download and install it, then uninstall it immediately because I "
 "don't like it"
 msgstr ""
+"Ich könnte sie herunterladen und installieren, unmittelbar danach "
+"deinstallieren, weil sie mir nicht gefällt"
 
 #. type: Bullet: '3.  '
 #: build/_docs/md/FAQ_-_Client.md
 msgid "I might download my app 1,000,000 times to make it look popular"
 msgstr ""
+"Ich könnte meine App eine Million Mal herunterladen, um sie beliebt aussehen "
+"zu lassen"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md
@@ -6088,6 +6093,13 @@ msgid ""
 "hit could represent one download, or a million.  Theoretically we could "
 "resolve this, but we are not interested enough to do so."
 msgstr ""
+"Außerdem, vom technischen Standpunkt her, überwachen wir nicht einmal diese "
+"Informationen. Während der Backend-Server Treffer für jede APK sammelt, "
+"werden diese eigentlich durch eine Vielzahl von Frontend-Server "
+"ausgeliefert, die als Zwischenspeicher fungieren. Das bedeutet, ein "
+"gezählter Treffer könnte einen Download darstellen oder eine Million. "
+"Theoretisch könnte das aufgelöst werden, aber wir haben kein großes "
+"Interesse, dies zu tun."
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md
