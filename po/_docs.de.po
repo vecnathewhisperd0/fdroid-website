@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-10-24 22:43+0000\n"
-"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
+"PO-Revision-Date: 2017-10-24 22:47+0000\n"
+"Last-Translator: anonymous <>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/de/>\n"
 "Language: de\n"
@@ -6407,6 +6407,12 @@ msgid ""
 "and signed by F-Droid, and guaranteed to correspond to the source tarball "
 "below\" or \"This version is built and signed by the original developer.\""
 msgstr ""
+"In der App, wird jedes Paket für eine App entweder mit 'source' oder 'bin' "
+"gekennzeichnet. Dies entspricht den zwei verschiedenen Nachrichten, die beim "
+"Durchsuchen der Paketquelle auf der Internetseite für das gleiche Paket "
+"angezeigt werden, entweder \"Diese Version wird von F-Droid erstellt und "
+"signiert, und die Übereinstimmung mit u. g. Quell-Tarball wird garantiert.\" "
+"oder \"Diese Version wird vom Originalentwickler erstellt und signiert.\""
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_General.md
@@ -6415,6 +6421,9 @@ msgid ""
 "way for technical or historical reasons. Ideally everything in the F-Droid "
 "repo would be a source build."
 msgstr ""
+"Die meisten Pakete sind Quelltext-Builds. Diejenigen, die Binärdateien sind, "
+"sind das für gewöhnlich aus technischen oder historischen Gründen. "
+"Idealerweise sollte alles im F-Droid-Repo ein Quellcode-Build sein."
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_General.md
