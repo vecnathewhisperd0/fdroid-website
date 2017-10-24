@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-10-24 22:01+0000\n"
-"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
+"PO-Revision-Date: 2017-10-24 22:19+0000\n"
+"Last-Translator: anonymous <>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/de/>\n"
 "Language: de\n"
@@ -6377,6 +6377,10 @@ msgid ""
 "that also includes updates and other changes, you could subscribe to [this "
 "feed](https://gitlab.com/fdroid/fdroiddata/commits/master.atom)"
 msgstr ""
+"Wenn Sie ein detaillierter und sehr umfangreicher Strom an Informationen, "
+"die auch Aktualisierungen und weitere Änderungen enthalten, nicht stört, "
+"können Sie [diesen "
+"Feed](https://gitlab.com/fdroid/fdroiddata/commits/master.atom) abonnieren"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_General.md
@@ -6384,6 +6388,9 @@ msgid ""
 "We don't yet have a dedicated and user-friendly feed you can subscribe to "
 "for new additions, but we welcome contributions to make this work better."
 msgstr ""
+"Wir haben noch keinen fest zugeordneten und nutzerfreundlichen Feed, der für "
+"Neuerscheinungen abonniert werden kann, begrüßen aber Beiträge, um dies zu "
+"verbessern."
 
 #. type: Title ###
 #: build/_docs/md/FAQ_-_General.md
@@ -6431,7 +6438,7 @@ msgstr ""
 #: build/_docs/md/FAQ_-_General.md
 #, no-wrap
 msgid "Is your building and signing process secure?"
-msgstr ""
+msgstr "Ist der Herstellungs- und Signiervorgang sicher?"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_General.md
@@ -6442,6 +6449,11 @@ msgid ""
 "once the build is complete. Additionally, that build environment is "
 "completely separated from the signing environment."
 msgstr ""
+"Die Herstellung und Signierung erfolgt in einer sicheren **offline** (d. h. "
+"aus dem Internet unzugänglichen) Umgebung. Jedes Paket wird in einer "
+"vollständig unbenutzten, isolierten VM-Umgebung hergestellt, die nach "
+"Abschluss der Herstellung verworfen wird. Außerdem ist die Build-Umgebung "
+"vollständig von der Signierumgebung getrennt."
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_General.md
