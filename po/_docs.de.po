@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
 "PO-Revision-Date: 2017-10-24 22:52+0000\n"
-"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
+"Last-Translator: anonymous <>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/de/>\n"
 "Language: de\n"
@@ -6449,6 +6449,9 @@ msgid ""
 "public sources that the developer makes available directly, and never from "
 "third party sources."
 msgstr ""
+"Binärdateien-Pakete werden vom Entwickler hergestellt und signiert. Wir "
+"erhalten sie aus öffentlichen Quellen, die der Entwickler direkt zugänglich "
+"macht, und niemals aus Drittanbieterquellen."
 
 #. type: Title ###
 #: build/_docs/md/FAQ_-_General.md
