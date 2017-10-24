@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-10-24 21:51+0000\n"
-"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
+"PO-Revision-Date: 2017-10-24 21:57+0000\n"
+"Last-Translator: anonymous <>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/de/>\n"
 "Language: de\n"
@@ -6121,7 +6121,7 @@ msgstr ""
 #: build/_docs/md/FAQ_-_Client.md
 #, no-wrap
 msgid "How do I send a Repo configuration using NFC?"
-msgstr ""
+msgstr "Wie sende ich eine Paketquellenkonfiguration mittels NFC?"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md
@@ -6130,6 +6130,10 @@ msgid ""
 "via NFC. For this to work, both the sending and receiving device must have "
 "NFC and be running Android 4.0 or newer."
 msgstr ""
+"Ab Version v0.59, unterstützt die F-Droid-App das Versenden einer "
+"Paketquellenkonfiguration über NFC. Damit das funktioniert, müssen sowohl "
+"das sendende als auch das empfangende Gerät NFC unterstützen, und es muss "
+"Android 4.0 oder neuer darauf laufen."
 
 #. type: Bullet: '1.  '
 #: build/_docs/md/FAQ_-_Client.md
@@ -6341,17 +6345,21 @@ msgstr ""
 #: build/_docs/md/FAQ_-_General.md
 #, no-wrap
 msgid "How can I keep track of new apps?"
-msgstr ""
+msgstr "Wie behalte ich den Überblick über neue Apps?"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_General.md
 msgid "There are several ways of keeping up with new apps that are added:"
 msgstr ""
+"Es gibt verschiedene Wege, um über neu hinzugefügte Apps auf dem Laufenden "
+"zu bleiben:"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/FAQ_-_General.md
 msgid "In the sidebar on the web site, the 10 most recent apps are shown"
 msgstr ""
+"In der Seitenleiste auf der Internetseite werden die 10 neusten Apps "
+"angezeigt"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/FAQ_-_General.md
@@ -6359,6 +6367,9 @@ msgid ""
 "In the client, the \"What's New\" category shows all apps added in the last "
 "14 days (the number can be changed in settings)"
 msgstr ""
+"In der App zeigt die Seite \"What's New\" alle Apps, die in den letzten 14 "
+"Tagen dazu kamen (die Zahl der Tage kann in den Einstellungen geändert "
+"werden)"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/FAQ_-_General.md
