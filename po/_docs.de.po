@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-10-24 22:20+0000\n"
-"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
+"PO-Revision-Date: 2017-10-24 22:24+0000\n"
+"Last-Translator: anonymous <>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/de/>\n"
 "Language: de\n"
@@ -6464,17 +6464,24 @@ msgid ""
 "including Google Play, you should exercise caution regarding the permissions "
 "they request when you install them. If in doubt, don't install."
 msgstr ""
+"Somit ja, soweit wir wissen, ist es sicher. Jedoch, wie bei allen Dingen auf "
+"dieser Seite, behalten Sie im Hinterkopf, dies ist ein kleines "
+"Gemeinschaftsprojekt, das darauf hinweist, dass Sie es auf eigene Gefahr "
+"nutzen. Wie bei Apps die Sie von anderswo, einschließlich Google Play, "
+"beziehen, sollten Sie umsichtig vorgehen, die Berechtigungen betrachten, die "
+"sie benötigen, wenn Sie sie installieren. Im Zweifelsfall nicht installieren."
 
 #. type: Title ###
 #: build/_docs/md/FAQ_-_General.md
 #, no-wrap
 msgid "Why isn't F-Droid on Google Play?"
-msgstr ""
+msgstr "Warum ist F-Droid nicht auf Google Play?"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_General.md
 msgid "Pick your favourite reason (both are true and valid):"
 msgstr ""
+"Suchen Sie sich einen passenden Grund aus (beide sind wahr und zutreffend):"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/FAQ_-_General.md
