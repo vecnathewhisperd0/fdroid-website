@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-10-26 14:41+0000\n"
-"Last-Translator: anonymous <>\n"
+"PO-Revision-Date: 2017-10-26 16:25+0000\n"
+"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/de/>\n"
 "Language: de\n"
@@ -6815,7 +6815,7 @@ msgstr ""
 "Informationen ans Android-System, die helfen sollen, den Auslöser für das "
 "Problem zu ermitteln. Wenn die F-Droid-Entwickler Zugriff auf diese Daten "
 "haben, bieten sie eine Menge wirklich guter Informationen, um herausfinden "
-"zu können, was schief ging. Das haißt, verglichen mit einer allgemeinen "
+"zu können, was schief ging. Das heißt, verglichen mit einer allgemeinen "
 "Fehlermeldung wie \"F-Droid ist abgestürzt\"."
 
 #. type: Plain text
@@ -6830,12 +6830,22 @@ msgid ""
 "important pieces of information you can provide to help us investigate and "
 "fix any bugs."
 msgstr ""
+"Viele Apps versenden automatisch Absturzberichte an den Entwickler, F-Droid "
+"tut genau das nicht. Das ist weniger eine technische denn eine "
+"philosophische Einschränkung. Wir sind bestrebt, nur dann eine "
+"Internetverbindung herzustellen, wenn die nötig ist, um Ihre Anfragen an uns "
+"umzusetzen: Apps herunterladen und installieren. Die Kehrseite davon ist, "
+"dass wir ein bisschen Hilfe von unseren Nutzern benötigen, wenn sie uns von "
+"Abstürzen berichten. Dieser Artikel erklärt, wie Logcat-Dateien abgerufen "
+"werden, die wichtigsten Bausteine der Informationen, die Sie uns zur "
+"Verfügung stellen können, um uns dabei zu helfen, jeden Fehler zu "
+"untersuchen und zu beheben."
 
 #. type: Title ###
 #: build/_docs/md/Getting_logcat_messages_after_crash.md
 #, no-wrap
 msgid "How to find logcat messages"
-msgstr ""
+msgstr "Wie man Logcat-Meldungen findet"
 
 #. type: Plain text
 #: build/_docs/md/Getting_logcat_messages_after_crash.md
@@ -6845,12 +6855,17 @@ msgid ""
 "Another way is to install the Android SDK on your computer and get the "
 "logcata messages over USB or WiFi."
 msgstr ""
+"Es gibt zwei Wege, um eine Logcat-Meldung abzurufen. Der gebräuchliche Weg "
+"wird die Installation einer App auf Ihrem Gerät sein, die den Zugriff auf "
+"die Logcat-Informationen kennt. Ein anderer Weg ist die Installation des "
+"Android-SDK auf Ihrem Computer und der Abruf der Logcat-Meldungen über USB "
+"oder WLAN."
 
 #. type: Title ####
 #: build/_docs/md/Getting_logcat_messages_after_crash.md
 #, no-wrap
 msgid "Using an app on your device"
-msgstr ""
+msgstr "Verwendung einer App auf Ihrem Gerät"
 
 #. type: Plain text
 #: build/_docs/md/Getting_logcat_messages_after_crash.md
@@ -6858,6 +6873,8 @@ msgid ""
 "For those who don't want to install software on their computers in order to "
 "get the logcat messages, you can download an app such as:"
 msgstr ""
+"Diejenigen, die keine Software auf ihren Computern installieren wollen, um "
+"Logcat-Meldungen abrufen zu können, können eine App herunterladen, wie z. B.:"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Getting_logcat_messages_after_crash.md
@@ -6865,6 +6882,8 @@ msgid ""
 "[CatLog](https://f-droid.org/repository/browse/?fdfilter=logcat&fdid=com."
 "nolanlawson.logcat)"
 msgstr ""
+"[CatLog](https://f-droid.org/repository/browse/?fdfilter=logcat&fdid=com.nola"
+"nlawson.logcat)"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Getting_logcat_messages_after_crash.md
@@ -6872,6 +6891,8 @@ msgid ""
 "[aLogCat](https://f-droid.org/repository/browse/?fdfilter=logcat&fdid=org."
 "jtb.alogcat)"
 msgstr ""
+"[aLogCat](https://f-droid.org/repository/browse/?fdfilter=logcat&fdid=org.jtb"
+".alogcat)"
 
 #. type: Plain text
 #: build/_docs/md/Getting_logcat_messages_after_crash.md
@@ -6882,12 +6903,18 @@ msgid ""
 "and pasted in the [F-Droid issue tracker](https://gitlab.com/fdroid/"
 "fdroidclient/issues)."
 msgstr ""
+"Die Grundidee ist es, die App zu öffnen, in ihr die Aufzeichnung von Logcat-"
+"Meldungen zu starten, und dann zu versuchen einen F-Droid-Absturz "
+"herbeizuführen. Sobald sie abstürzt, wird die Logcat-App die Fehlermeldungen "
+"speichern. Diese Meldungen können dann kopiert und in die [F-Droid-"
+"Fehlerverfolgung](https://gitlab.com/fdroid/fdroidclient/issues) eingefügt "
+"werden."
 
 #. type: Title ####
 #: build/_docs/md/Getting_logcat_messages_after_crash.md
 #, no-wrap
 msgid "Using the Android SDK"
-msgstr ""
+msgstr "Verwendung des Android-SDK"
 
 #. type: Plain text
 #: build/_docs/md/Getting_logcat_messages_after_crash.md
@@ -6899,6 +6926,13 @@ msgid ""
 "your phone is plugged in via USB and has “Debugging” enabled from the "
 "Android settings."
 msgstr ""
+"Ist das [Android SDK](https://developer.android.com/sdk/index.html) auf "
+"Ihrem Computer installiert, dann sind Sie in der Lage, die "
+"[ADB](https://developer.android.com/tools/help/adb.html) (Kommandozeile) "
+"oder das [DDMS]-Instrument "
+"(https://developer.android.com/tools/debugging/ddms.html) (grafische "
+"Benutzeroberfläche) zu verwenden, wenn Ihr Gerät über USB angeschlossen wird "
+"und in den Android-Einstellungen das “Debugging” aktiviert ist."
 
 #. type: Plain text
 #: build/_docs/md/Getting_logcat_messages_after_crash.md
@@ -6906,12 +6940,14 @@ msgid ""
 "Once you have the SDK installed, and are able to use the adb tool, then run "
 "the following command:"
 msgstr ""
+"Sobald Sie das SDK installiert haben und mit der Verwendung des ADB-"
+"Instruments vertraut sind, führen Sie folgenden Befehl aus:"
 
 #. type: Plain text
 #: build/_docs/md/Getting_logcat_messages_after_crash.md
 #, no-wrap
 msgid "    adb logcat\n"
-msgstr ""
+msgstr "    adb logcat\n"
 
 #. type: Plain text
 #: build/_docs/md/Getting_logcat_messages_after_crash.md
@@ -6922,12 +6958,18 @@ msgid ""
 "if apps are logging private information to the log), then you can filter to "
 "only error messages with:"
 msgstr ""
+"Abhängig von der Anzahl der installierten/laufenden Apps, könnte das "
+"Ergebnis so ein bisschen verrauscht sein. Wenn Sie nicht alle unspezifischen "
+"Daten ins Internet stellen wollen (es besteht eine gewisse "
+"Wahrscheinlichkeit, dass sie Informationen enthalten, die nicht ins Internet "
+"sollen - wenn Apps z. B. private Daten ins Protokoll eintragen), dann können "
+"Sie damit ausschließlich Fehlermeldungen herausfiltern:"
 
 #. type: Plain text
 #: build/_docs/md/Getting_logcat_messages_after_crash.md
 #, no-wrap
 msgid "    adb logcat *:E\n"
-msgstr ""
+msgstr "    adb logcat *:E\n"
 
 #. type: Plain text
 #: build/_docs/md/Getting_logcat_messages_after_crash.md
