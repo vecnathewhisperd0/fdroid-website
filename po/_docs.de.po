@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-10-25 23:27+0000\n"
-"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
+"PO-Revision-Date: 2017-10-26 14:41+0000\n"
+"Last-Translator: anonymous <>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/de/>\n"
 "Language: de\n"
@@ -6524,7 +6524,7 @@ msgstr ""
 #: build/_docs/md/FAQ_-_General.md
 #, no-wrap
 msgid "How can I report bugs or request features?"
-msgstr ""
+msgstr "Wie kann ich Fehler oder Funktionswünsche melden?"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_General.md
@@ -6535,6 +6535,13 @@ msgid ""
 "webchat](https://webchat.freenode.net/?randomnick=1&channels="
 "%23fdroid&uio=MT1mYWxzZSYyPXRydWUmND10cnVlJjk9dHJ1ZSYxMD10cnVlJjEyPXRydWU84))."
 msgstr ""
+"Verwenden Sie die "
+"[Fehlerverfolgung](https://gitlab.com/fdroid/fdroidclient/issues)  oder "
+"schreiben Sie eine E-Mail an <team@f-droid.org>. Sie können sie auch im [\\"
+"#fdroid](irc://irc.freenode.net/fdroid) IRC-Chatroom auf Freenode "
+"diskutieren ([hier klicken, um sich am Webchat zu beteiligen](https://webchat"
+".freenode.net/?randomnick=1&channels=%23fdroid&uio=MT1mYWxzZSYyPXRydWUmND10cn"
+"VlJjk9dHJ1ZSYxMD10cnVlJjEyPXRydWU84))."
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_General.md
@@ -6544,6 +6551,11 @@ msgid ""
 "an account that will receive notifications.  Issue reports are usually a "
 "conversation, not just a single report."
 msgstr ""
+"Wenn Sie noch kein Konto haben oder keines anlegen möchten, können Sie unser "
+"wiederverwendbares Konto nutzen. Die Fehlerverfolgung funktioniert besser, "
+"wenn Berichterstatter ein Konto verwenden, das Benachrichtigungen empfängt.  "
+"Problemberichte laufen normalerweise über eine Unterhaltung und sind nicht "
+"nur ein einzelner Bericht."
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_General.md
@@ -6551,18 +6563,20 @@ msgid ""
 "That said, the account username is _fdroid-bug-reporter_ and the password is "
 "_repository-collection_."
 msgstr ""
+"Nichtsdestoweniger, der Benutzername für das Konto ist _fdroid-bug-reporter_ "
+"und das Passwort ist _repository-collection_."
 
 #. type: Title #
 #: build/_docs/md/Feeds.md
 #, no-wrap
 msgid "Feeds"
-msgstr ""
+msgstr "Feeds"
 
 #. type: Title ###
 #: build/_docs/md/Feeds.md
 #, no-wrap
 msgid "News & Reviews"
-msgstr ""
+msgstr "Neuigkeiten & Besprechungen"
 
 #. type: Plain text
 #: build/_docs/md/Feeds.md
@@ -6573,12 +6587,17 @@ msgid ""
 "be great to have more; and who knows they might make their way into the "
 "client some day!"
 msgstr ""
+"Gelegentlich gibt es berichtenswerte Themen (Beiträge sind willkommen!) oder "
+"Client-Veröffentlichungen und Einzelheiten werden im Blog bekanntgegeben: "
+"<https://f-droid.org/news-and-reviews>. In der Vergangenheit hatten wir "
+"Besprechungen von Apps mit Screenshots und es wäre großartig, wenn es mehr "
+"würden; und wer weiß, irgendwann könnten sie Einzug in den Client halten!"
 
 #. type: Title ###
 #: build/_docs/md/Feeds.md
 #, no-wrap
 msgid "Builds"
-msgstr ""
+msgstr "Builds"
 
 #. type: Plain text
 #: build/_docs/md/Feeds.md
@@ -6590,12 +6609,19 @@ msgid ""
 "day ; a new repo index is only published once all outstanding builds are "
 "finished."
 msgstr ""
+"Erforschen Sie, wann APKs zur Verfügung stehen oder wann sich Beschreibungen "
+"ändern: "
+"<https://f-droid.org/wiki/api.php?action=feedcontributions&user=Robot>. Der "
+"Status des allerneusten Builds einer App kann durch Anfügen von /lastbuild "
+"an die Wiki-Internetadresse des Pakets herausgefunden werden. Builds werden "
+"einige Male am Tag erstellt; ein neues Repo-Register wird nur einmal, "
+"nachdem alle bedeutenden Builds erledigt sind, veröffentlicht."
 
 #. type: Title ###
 #: build/_docs/md/Feeds.md:11 build/_docs/md/Repository_Style_Guide.md
 #, no-wrap
 msgid "Source Code"
-msgstr ""
+msgstr "Quellcode"
 
 #. type: Plain text
 #: build/_docs/md/Feeds.md
@@ -6604,12 +6630,16 @@ msgid ""
 "subscribe to atom feeds for them. A feed including actions from all fdroid "
 "repositories is available at <https://gitlab.com/fdroid.atom>."
 msgstr ""
+"Wenn Sie ein Konto bei GitLab haben, können Sie die F-Droid-Repos "
+"beobachten, oder dafür die Atom-Feeds abonnieren. Ein Feed, der die "
+"Aktivitäten in allen F-Droid-Paketquellen beinhaltet, steht auf "
+"<https://gitlab.com/fdroid.atom> zur Verfügung."
 
 #. type: Title ###
 #: build/_docs/md/Feeds.md
 #, no-wrap
 msgid "Forums"
-msgstr ""
+msgstr "Foren"
 
 #. type: Plain text
 #: build/_docs/md/Feeds.md
@@ -6617,6 +6647,8 @@ msgid ""
 "You can subscribe to new [forum](https://forum.f-droid.org/) posts and "
 "threads via the following URLs:"
 msgstr ""
+"Sie können neue Bekanntmachungen und Diskussionen im "
+"[Forum](https://forum.f-droid.org/) über folgende Adressen abonnieren:"
 
 #. type: Plain text
 #: build/_docs/md/Feeds.md
@@ -6624,12 +6656,14 @@ msgid ""
 "- <https://forum.f-droid.org/posts.rss> - <https://forum.f-droid.org/latest."
 "rss>"
 msgstr ""
+"- <https://forum.f-droid.org/posts.rss> - "
+"<https://forum.f-droid.org/latest.rss>"
 
 #. type: Title ###
 #: build/_docs/md/Feeds.md
 #, no-wrap
 msgid "Wiki"
-msgstr ""
+msgstr "Wiki"
 
 #. type: Plain text
 #: build/_docs/md/Feeds.md
@@ -6642,7 +6676,7 @@ msgstr ""
 #: build/_docs/md/Feeds.md
 #, no-wrap
 msgid "Bugs and Suggestions"
-msgstr ""
+msgstr "Fehler & Vorschläge"
 
 #. type: Plain text
 #: build/_docs/md/Feeds.md
@@ -6651,12 +6685,16 @@ msgid ""
 "fdroidserver/issues>, <https://gitlab.com/fdroid/fdroiddata/issues>: All "
 "expose RSS feeds, and also email notifications if desired."
 msgstr ""
+"<https://gitlab.com/fdroid/fdroidclient/issues>, "
+"<https://gitlab.com/fdroid/fdroidserver/issues>, "
+"<https://gitlab.com/fdroid/fdroiddata/issues>: Alle stellen RSS-Feeds aus, "
+"und auf Wunsch auch E-Mail-Benachrichtigungen."
 
 #. type: Title ###
 #: build/_docs/md/Feeds.md
 #, no-wrap
 msgid "IRC"
-msgstr ""
+msgstr "IRC"
 
 #. type: Plain text
 #: build/_docs/md/Feeds.md
@@ -6665,6 +6703,9 @@ msgid ""
 "<https://botbot.me/freenode/fdroid/> and <https://botbot.me/freenode/fdroid-"
 "dev/>."
 msgstr ""
+"chat.freenode.net #fdroid oder #fdroid-dev. Die Kanäle werden auf "
+"<https://botbot.me/freenode/fdroid/> und <https://botbot.me/freenode/fdroid-"
+"dev/> aufgezeichnet."
 
 #. type: Title ##
 #: build/_docs/md/Feeds.md
@@ -6694,6 +6735,17 @@ msgid ""
 "the Akregator for KDE, Liferea for Gnome or [http://newsbeuter.org "
 "newsbeuter] which is nice if you like working in a terminal."
 msgstr ""
+"In Android gibt es: [de.shandschuh.sparserss](https://f-droid.org/repository/"
+"browse/?fdfilter=de.shandschuh.sparserss&fdid=de.shandschuh.sparserss), [net."
+"fred.feedex](https://f-droid.org/repository/browse/?fdfilter=net.fred.feedex&"
+"fdid=net.fred.feedex), [de.danoeh.antennapod](https://f-droid.org/repository/"
+"browse/?fdfilter=de.danoeh.antennapod&fdid=de.danoeh.antennapod), [org.ttrssr"
+"eader](https://f-droid.org/repository/browse/?fdfilter=org.ttrssreader&fdid=o"
+"rg.ttrssreader) (benötigt zum Verbinden einen tt-rss-Server) und [com.newsblu"
+"r](https://f-droid.org/repository/browse/?fdfilter=com.newsblur&fdid=com.news"
+"blur) (via newsblur.com). Auf dem PC können Sie verwenden: den Akregator für "
+"KDE, Liferea für Gnome oder [http://newsbeuter.org newsbeuter], der fein "
+"ist, wenn Sie gerne mit einem Terminal arbeiten."
 
 #. type: Plain text
 #: build/_docs/md/Feeds.md
@@ -6715,18 +6767,40 @@ msgid ""
 "</opml>\n"
 "```\n"
 msgstr ""
+"```xml\n"
+"<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n"
+"<opml version=\"1.0\">\n"
+"  <head>\n"
+"    <title>F-Droid related feeds</title>\n"
+"  </head>\n"
+"  <body>\n"
+"    <outline title=\"F-Droid\">\n"
+"      <outline type=\"rss\" title=\"News and Reviews\" xmlUrl=\""
+"https://f-droid.org/feed\" htmlUrl=\"https://f-droid.org/news-and-reviews/\""
+"/>\n"
+"      <outline type=\"rss\" title=\"Wiki Changes by Humans\" xmlUrl=\""
+"https://f-droid.org/wiki/index.php?title=Special:RecentChanges&amp;feed="
+"atom\" htmlUrl=\"https://f-droid.org/wiki/page/Special:RecentChanges\"/>\n"
+"      <outline type=\"rss\" title=\"Latest Builds\" xmlUrl=\"https://f-droid."
+"org/wiki/api.php?action=feedcontributions&amp;user=Robot&amp;feedformat="
+"atom\" htmlUrl=\"https://f-droid.org/wiki/page/Special:Contributions/Robot\""
+"/>\n"
+"    </outline>\n"
+"  </body>\n"
+"</opml>\n"
+"```\n"
 
 #. type: Title #
 #: build/_docs/md/Getting_logcat_messages_after_crash.md
 #, no-wrap
 msgid "Getting logcat messages after crash"
-msgstr ""
+msgstr "Logcat-Meldungen nach einem Absturz abrufen"
 
 #. type: Title ###
 #: build/_docs/md/Getting_logcat_messages_after_crash.md
 #, no-wrap
 msgid "What is logcat?"
-msgstr ""
+msgstr "Was ist Logcat?"
 
 #. type: Plain text
 #: build/_docs/md/Getting_logcat_messages_after_crash.md
@@ -6737,6 +6811,12 @@ msgid ""
 "good information to help find out what went wrong. This is in comparison to "
 "a generic error message such as \"F-Droid crashed\"."
 msgstr ""
+"Solange eine App läuft und insbesondere wenn sie abstürzt, sendet sie einige "
+"Informationen ans Android-System, die helfen sollen, den Auslöser für das "
+"Problem zu ermitteln. Wenn die F-Droid-Entwickler Zugriff auf diese Daten "
+"haben, bieten sie eine Menge wirklich guter Informationen, um herausfinden "
+"zu können, was schief ging. Das haißt, verglichen mit einer allgemeinen "
+"Fehlermeldung wie \"F-Droid ist abgestürzt\"."
 
 #. type: Plain text
 #: build/_docs/md/Getting_logcat_messages_after_crash.md
