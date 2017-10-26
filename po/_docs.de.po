@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-10-26 16:25+0000\n"
-"Last-Translator: anonymous <>\n"
+"PO-Revision-Date: 2017-10-26 16:26+0000\n"
+"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/de/>\n"
 "Language: de\n"
@@ -6711,7 +6711,7 @@ msgstr ""
 #: build/_docs/md/Feeds.md
 #, no-wrap
 msgid "OPML import to a feed reader"
-msgstr "OPML-Import in einen Feed-Reader"
+msgstr "OPML-Import in einen Feedreader"
 
 #. type: Plain text
 #: build/_docs/md/Feeds.md
