@@ -2,7 +2,7 @@
     "index": {
         "download_fdroid": "F-Droid 다운로드", 
         "gpg_signature": "PGP 서명", 
-        "introduction": "F-Droid는 Android 플랫폼을 위한 설치 가능한 FOSS (자유-오픈 소스 소프트웨어) 애플리케이션의 카탈로그입니다. 클라이언트는 여러분의 장치에서 찾아보고, 설치하거, 업데이트의 추적을 유지하는 것을 쉽게 합니다.", 
+        "introduction": "F-Droid는 Android 플랫폼을 위한 설치 가능한 FOSS (자유-오픈 소스 소프트웨어) 애플리케이션의 카탈로그입니다. 클라이언트는 여러분의 장치에서 찾아보고, 설치하고, 업데이트의 추적을 유지하는 것을 쉽게 합니다.", 
         "screenshot": "F-Droid Android 앱 스크린샷", 
         "title": "F-Droid가 무엇입니까?"
     }, 
@@ -17,7 +17,7 @@
         "repomaker": "저장소제작기"
     }, 
     "package": {
-        "changelog": "바뀜기록", 
+        "changelog": "변경내역", 
         "donate": "기부", 
         "download": "[file_extension] 다운로드", 
         "flattr": "Flattr", 
@@ -29,7 +29,7 @@
         "packages": "패키지", 
         "permissions": "권한", 
         "signed_by_developer": "이것은 원래 개발자에 의해 빌드되고 서명되어 있습니다.", 
-        "signed_by_fdroid": "이것은 F-Droid에 의해 빌드되고 서명되어 있으며, <a href=\"[source_code_url]\">이\n소스 타르볼</a>에 대응되어 보증됩니다.", 
+        "signed_by_fdroid": "이것은 F-Droid에 의해 빌드되고 서명되어 있으며, <a href=\"[source_code_url]\">이 소스 타르볼</a>에 대응되어 보증됩니다.", 
         "source_code": "소스 코드", 
         "suggest_downloading_via_fdroid": "APK 다운로드는 여러분의 선택을 드리기 위해 아래에 사용 가능하지만, 여러분은 해당 방법으로 설치하는 것은 업데이트 알림을 수신할 수 없고 덜 안전한 방법으로 다운로드한다는 것을 알고 있어야 합니다. 우리는 여러분에게 F-Droid 클라이언트를 설치하고 사용하는 것을 권해드립니다.", 
         "technical_info": "기술적인 정보", 
@@ -44,7 +44,7 @@
             "heading": "기부", 
             "paypal_alt": "Paypal을 통해 기부", 
             "powered_by_donations": "F-Droid는 여러분의 기부로 제공됩니다!", 
-            "via_bank_transfer": "계좌 이체"
+            "via_bank_transfer": "은행 송금"
         }, 
         "last_updated": {
             "heading": "마지막 업데이트"
