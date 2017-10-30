@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-10-30 23:32+0000\n"
-"Last-Translator: anonymous <>\n"
+"PO-Revision-Date: 2017-10-31 23:45+0000\n"
+"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/de/>\n"
 "Language: de\n"
@@ -2102,7 +2102,7 @@ msgid ""
 "if it has one."
 msgstr ""
 "Die URL, über die für das Projekt gespendet werden kann. Sollte die "
-"Spendenseite des Projekts sein, falls es eine gibt. "
+"Spendenseite des Projekts sein, falls es eine gibt."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -7636,7 +7636,7 @@ msgstr ""
 #: build/_docs/md/Inclusion_How-To.md
 #, no-wrap
 msgid "Application Inclusion Proposal\n"
-msgstr "Anwendungsaufnahmevorschlag"
+msgstr "Anwendungsaufnahmevorschlag\n"
 
 #. type: Plain text
 #: build/_docs/md/Inclusion_How-To.md
