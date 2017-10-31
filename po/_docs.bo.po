@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-10-26 17:49+0000\n"
+"PO-Revision-Date: 2017-11-01 05:48+0000\n"
 "Last-Translator: tenzin tselek <omaahum99@yahoo.in>\n"
 "Language-Team: Tibetan <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/bo/>\n"
@@ -7158,11 +7158,14 @@ msgid ""
 "You know how to use [Git VCS](https://git-scm.com/), and know how a merge "
 "request (a.k.a. \"pull request\" in GitHub terminology) works in general."
 msgstr ""
+"ཁྱེད་ཀྱིས་འདི་བདེ་སྤྱོད་གཏོང་སྟངས་ཤེས་པ་དང་།[Git VCS](https://git-scm.com/), "
+"དང་ཟླ་སྒྲིལ་གང་འདྲ་གཏོང་མིན་ (a.k.a. \"pull request\" in GitHub terminology) "
+"works in general."
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Inclusion_How-To.md
 msgid "You have an account on [GitLab](https://gitlab.com/)."
-msgstr ""
+msgstr "ཁྱེད་རང་གྱི་དྲྭ་ཐོག་ཁ་བྱང་འདི་[GitLab](https://gitlab.com/).སྒང་ལ་འདུག"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Inclusion_How-To.md
@@ -7183,7 +7186,7 @@ msgstr ""
 #: build/_docs/md/Inclusion_How-To.md
 #, no-wrap
 msgid "Application Review Process\n"
-msgstr ""
+msgstr "མཉེས་ཆས་སྐྱར་ཞིབ་ཀྱི་རྒྱུད་རིམ།\n"
 
 #. type: Plain text
 #: build/_docs/md/Inclusion_How-To.md
