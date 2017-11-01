@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-11-01 09:12+0000\n"
-"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
+"PO-Revision-Date: 2017-11-01 09:13+0000\n"
+"Last-Translator: anonymous <>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/de/>\n"
 "Language: de\n"
@@ -7719,7 +7719,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Inclusion_How-To.md
 msgid "When proposing inclusion this way, it is assumed that:"
-msgstr ""
+msgstr "Bei Aufnahmevorschlägen auf diese Weise, wird vorausgesetzt, dass:"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Inclusion_How-To.md
@@ -7727,6 +7727,9 @@ msgid ""
 "You have a good understanding of what [Free Software](https://www.gnu.org/"
 "philosophy/free-sw.html) means, and what F-Droid is for."
 msgstr ""
+"Sie ein gutes Verständnis davon haben, was [Freie "
+"Software](https://www.gnu.org/philosophy/free-sw.html) bedeutet und wofür F-"
+"Droid steht."
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Inclusion_How-To.md
