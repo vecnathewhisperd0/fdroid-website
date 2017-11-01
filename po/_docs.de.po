@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-11-01 09:18+0000\n"
-"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
+"PO-Revision-Date: 2017-11-01 09:19+0000\n"
+"Last-Translator: anonymous <>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/de/>\n"
 "Language: de\n"
@@ -7849,11 +7849,14 @@ msgid ""
 "whether F-Droid build server can handle it (Ant and Gradle are the most "
 "common and easiest ones)."
 msgstr ""
+"Sie werden Ihr Build-Skript betrachten, um zu sehen welches Build-System Sie "
+"verwenden, und ob der F-Droid-Build-Server damit umgehen kann (Ant und "
+"Gradle sind die verbreitetsten und einfachsten)."
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Inclusion_How-To.md
 msgid "They will try to download a copy of your source code."
-msgstr ""
+msgstr "Sie werden versuchen, eine Kopie Ihres Quellcodes herunterzuladen."
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Inclusion_How-To.md
@@ -7861,6 +7864,8 @@ msgid ""
 "They will look in all source code files to verify that their licenses are "
 "consistent with corresponding license/README files."
 msgstr ""
+"Sie werden in allen Quellcodedateien nachsehen, um nachzuprüfen, dass ihre "
+"Lizenzen mit den dazugehörigen Dateien in license/README übereinstimmen."
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Inclusion_How-To.md
