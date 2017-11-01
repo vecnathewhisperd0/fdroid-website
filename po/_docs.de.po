@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-11-01 09:14+0000\n"
-"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
+"PO-Revision-Date: 2017-11-01 09:16+0000\n"
+"Last-Translator: anonymous <>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/de/>\n"
 "Language: de\n"
@@ -7745,6 +7745,8 @@ msgid ""
 "You already read and understand the [Repository Style Guide](../"
 "Repository_Style_Guide)."
 msgstr ""
+"Sie die [Repository-Aufbauanleitung](../Repository_Style_Guide) gelesen und "
+"verstanden haben."
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Inclusion_How-To.md
@@ -7752,6 +7754,9 @@ msgid ""
 "You already read and understand [the relevant parts of the F-Droid server "
 "manual](https://f-droid.org/docs/Build_Metadata_Reference/)."
 msgstr ""
+"Sie [die relevanten Teile des F-Droid-Server-"
+"Handbuchs](https://f-droid.org/docs/Build_Metadata_Reference/) gelesen und "
+"verstanden haben."
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Inclusion_How-To.md
@@ -7759,11 +7764,14 @@ msgid ""
 "You know how to use [Git VCS](https://git-scm.com/), and know how a merge "
 "request (a.k.a. \"pull request\" in GitHub terminology) works in general."
 msgstr ""
+"Sie wissen, wie [Git VCS](https://git-scm.com/) verwendet wird und wie "
+"generell eine Merge-Anfrage (in der GitHub-Terminologie auch als \"pull "
+"request\" bekannt) funktioniert."
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Inclusion_How-To.md
 msgid "You have an account on [GitLab](https://gitlab.com/)."
-msgstr ""
+msgstr "Sie ein Konto bei [GitLab](https://gitlab.com/) haben."
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Inclusion_How-To.md
@@ -7771,6 +7779,8 @@ msgid ""
 "You have a local instance of the F-Droid server software, and you know what "
 "you are doing."
 msgstr ""
+"Sie über eine lokale Instanz der F-Droid-Server-Software verfügen, und Sie "
+"wissen, was Sie tun."
 
 #. type: Plain text
 #: build/_docs/md/Inclusion_How-To.md
@@ -7779,12 +7789,15 @@ msgid ""
 "application metadata repository](https://gitlab.com/fdroid/fdroiddata/blob/"
 "master/CONTRIBUTING.md)."
 msgstr ""
+"Die empfohlenen Schritte, um eine Aufnahme auf diese Weise vorzuschlagen, "
+"stehen im [F-Droid-Anwendung-Metadaten-Repository](https://gitlab.com/fdroid/"
+"fdroiddata/blob/master/CONTRIBUTING.md)."
 
 #. type: Title -
 #: build/_docs/md/Inclusion_How-To.md
 #, no-wrap
 msgid "Application Review Process\n"
-msgstr ""
+msgstr "Anwendungsprüfprozess"
 
 #. type: Plain text
 #: build/_docs/md/Inclusion_How-To.md
@@ -7794,6 +7807,10 @@ msgid ""
 "determine whether the it fits for inclusion (and when it's not, determine "
 "all necessary steps to make it so)."
 msgstr ""
+"Ist der Aufnahmevorschlag übermittelt, wird die Anwendung in einen "
+"Prüfprozess eintreten, in dem F-Droid-Mitarbeiter einen Blick in den "
+"Anwendungsquellcode werfen und bestimmen, ob er zur Aufnahme geeignet ist ("
+"und wenn nicht, alle notwendigen Schritte festlegen, damit er es wird)."
 
 #. type: Plain text
 #: build/_docs/md/Inclusion_How-To.md
@@ -7802,6 +7819,9 @@ msgid ""
 "review process is for ensuring that all applications distributed from the F-"
 "Droid main repository are Free Software."
 msgstr ""
+"Da F-Droid ein Software-Repository ist, das den Nutzern freie Software "
+"zusagt, dient ein Prüfprozess dazu, sicherzustellen, dass alle Anwendungen, "
+"die aus dem F-Droid-Hauptrepository bezogen werden, Freie Software sind."
 
 #. type: Plain text
 #: build/_docs/md/Inclusion_How-To.md
