@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-05-17 11:31+1000\n"
-"PO-Revision-Date: 2017-10-21 21:45+0000\n"
-"Last-Translator: Anthony Chaput <thonyc4@mailoo.org>\n"
+"PO-Revision-Date: 2017-11-02 20:45+0000\n"
+"Last-Translator: Ldm Public <ldmpub@gmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/fr/>\n"
 "Language: fr\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 2.17\n"
+"X-Generator: Weblate 2.18-dev\n"
 
 #. type: Title #
 #: build/_pages/md/about.md
@@ -1387,13 +1387,12 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md
-#, fuzzy
 msgid ""
 "You can follow any command with `--help` to get a list of additional options "
 "available for that command."
 msgstr ""
-"Vous pouvez suivre n'importe quelle commande avec `--help` pour avoir une "
-"liste d'options additionnelles disponibles pour cette commande."
+"Vous pouvez terminer n'importe quelle commande par '--help' pour obtenir la "
+"liste d'options disponibles pour cette commande."
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md
@@ -1419,7 +1418,6 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md
-#, fuzzy
 msgid ""
 "To build a single version of a single application, you could run the "
 "following:"
@@ -1641,7 +1639,6 @@ msgstr "``` fdroid rewritemeta org.adaway ```"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy
 msgid "The following sections describe the fields recognised within the file."
 msgstr "Les sections suivantes décrivent les champs reconnus dans le fichier."
 
