@@ -17,6 +17,8 @@
         "repomaker": "Deponej-farilo"
     }, 
     "package": {
+        "author": "Aŭtoro", 
+        "build_metadata": "Kompilaj metadatumoj", 
         "changelog": "Ŝanĝoprotokolo", 
         "donate": "Donaci", 
         "download": "Elŝuti [file_extension]", 
