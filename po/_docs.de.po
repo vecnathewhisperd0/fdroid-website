@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
 "PO-Revision-Date: 2017-11-01 12:36+0000\n"
-"Last-Translator: anonymous <>\n"
+"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/de/>\n"
 "Language: de\n"
@@ -2635,6 +2635,7 @@ msgstr ""
 "    Format „sdk-location“ ist. Wird beim Herstellungsversuch eine Meldung  \n"
 "    ähnlich wie: \"com.android.ant.SetupTask cannot be found\" ausgegeben, \n"
 "    dann sollte typischerweise die Aktivierung dieser Option versucht werden."
+"\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
