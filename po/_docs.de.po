@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-11-01 09:11+0000\n"
-"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
+"PO-Revision-Date: 2017-11-01 09:12+0000\n"
+"Last-Translator: anonymous <>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/de/>\n"
 "Language: de\n"
@@ -7676,6 +7676,9 @@ msgid ""
 "amount of reviewer labor required for each application, this is the slowest "
 "method."
 msgstr ""
+"Dies ist die einfachste Art die Anwendung aufnehmen zu lassen. Aber aufgrund "
+"des Aufwands an Prüfarbeiten, die für jede Anwendung nötig sind, ist das die "
+"langsamste Methode."
 
 #. type: Plain text
 #: build/_docs/md/Inclusion_How-To.md
@@ -7690,7 +7693,7 @@ msgstr ""
 #: build/_docs/md/Inclusion_How-To.md
 #, no-wrap
 msgid "Proposal by Metadata Merge Request"
-msgstr ""
+msgstr "Vorschlag als Metadaten-Merge-Anfrage"
 
 #. type: Plain text
 #: build/_docs/md/Inclusion_How-To.md
@@ -7703,6 +7706,15 @@ msgid ""
 "will reduce the burden on reviewers when inspecting your proposed metadata; "
 "the submitter assumes responsibility of providing a correct metadata file."
 msgstr ""
+"Eine fortgeschrittenere Alternative zur Anwendungsaufnahme ist es, eine F"
+"-Droid-Metadaten-Datei für die Anwendung selbst zu schreiben und die "
+"Aufnahme vorzuschlagen, indem eine Git-Merge-Anfrage im Metadaten-Repository "
+"der F-Droid-Anwendung ([fdroiddata GitLab- "
+"Repository](https://gitlab.com/fdroid/fdroidata/)) ausgefüllt wird. Dies "
+"wird zu einer viel schnelleren Aufnahme führen, da die bereits verfügbare "
+"Metadaten-Datei die Arbeitsbelastung für die Prüfer bei Durchsicht Ihrer "
+"vorgeschlagenen Metadaten reduzieren wird; der Antragsteller übernimmt die "
+"Verantwortung, eine korrekte Metadaten-Datei einzureichen."
 
 #. type: Plain text
 #: build/_docs/md/Inclusion_How-To.md
