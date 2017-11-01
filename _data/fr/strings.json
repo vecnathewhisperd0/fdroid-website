@@ -17,6 +17,7 @@
         "repomaker": "Repomaker"
     }, 
     "package": {
+        "author": "Auteur", 
         "changelog": "Journal des modifications", 
         "donate": "Donner", 
         "download": "Télécharger l'[file_extension]", 
