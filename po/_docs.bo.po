@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-11-01 05:48+0000\n"
+"PO-Revision-Date: 2017-11-01 13:03+0000\n"
 "Last-Translator: tenzin tselek <omaahum99@yahoo.in>\n"
 "Language-Team: Tibetan <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/bo/>\n"
@@ -3134,6 +3134,9 @@ msgid ""
 "impossible to replace or that the replacement cannot be connected to without "
 "major changes to the app."
 msgstr ""
+"‘NonFreeNet’རིན་མེད་མིན་པའི་དྲྭ་རྒྱ། མཉེན་ཆས་འདི་རྩིས་འཁོར་གྱི་ཞབས་ཞུ་ལ་བརྟེན"
+"་ཡོད་པས་བརྗེ་པོ་རྒྱབ་ཐུབ་མི་སྲིད་པའམ་ཡང་ན་མཉེས་ཆས་རང་ལ་བསྒྱུར་བ་ཆེན་པོ་ཞིག་མ་"
+"བཏང་བའི་བར་དུ་བརྗེ་པོ་རྒྱབ་ཐུབ་ཐབས་མེད།"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -3141,6 +3144,8 @@ msgid ""
 "‘NonFreeAdd’ - the application promotes non-free add-ons, such that the app "
 "is effectively an advert for other non-free software."
 msgstr ""
+"‘NonFreeAdd’ མཉེན་ཆས་འདིས་རིན་པ་འཇལ་དགོས་པའི་add-ons ཁྱབ་བསྒྲགས་གཏོང་གི་ཡོད། "
+"དེ་ནི་རིན་པ་སྤྲད་དགོས་པའི་མཉེན་ཆས་གཞན་གྱི་ཁྱབ་བསྒྲགས་ནུས་ལྡན་ཞིག་རེད་འདུག"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Build_Metadata_Reference.md
