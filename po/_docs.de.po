@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
 "PO-Revision-Date: 2017-11-01 09:17+0000\n"
-"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
+"Last-Translator: anonymous <>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/de/>\n"
 "Language: de\n"
@@ -7827,6 +7827,7 @@ msgstr ""
 #: build/_docs/md/Inclusion_How-To.md
 msgid "This is a nonexhaustive list of what a reviewer would do:"
 msgstr ""
+"Dies ist eine nicht abschließende Liste dessen, was ein Prüfer tun wird:"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Inclusion_How-To.md
