@@ -19,7 +19,9 @@
         "author": "Autor(a)", 
         "changelog": "Histórico de modificações", 
         "donate": "Doar", 
+        "download": "Baixar [file_extension]", 
         "flattr": "Flattr", 
+        "gpg_signature": "Assinatura PGP", 
         "issue_tracker": "Rastreador de Problemas", 
         "license": "Licença", 
         "minimum_android_version": "Esta versão requer o Android [android_version]  ou uma versão mais atual.", 
@@ -34,7 +36,10 @@
     "sidebars": {
         "donate": {
             "bank_transfer_name": "Nome", 
+            "bitcoin_alt": "Doar via Bitcoin", 
+            "flattr_alt": "Doar via Flattr", 
             "heading": "Fazer doação", 
+            "paypal_alt": "Doar via PayPal", 
             "powered_by_donations": "F-Droid é sustentada por suas doações!", 
             "via_bank_transfer": "Transferência bancária"
         }, 
@@ -46,6 +51,10 @@
         }, 
         "news": {
             "heading": "Novidades"
+        }, 
+        "search": {
+            "heading": "Procurar aplicativos", 
+            "noscript": "O JavaScript precisa ser habilitado"
         }
     }
 }
