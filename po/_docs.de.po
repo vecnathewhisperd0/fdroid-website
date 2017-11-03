@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-11-01 16:20+0000\n"
-"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
+"PO-Revision-Date: 2017-11-03 21:25+0000\n"
+"Last-Translator: anonymous <>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/de/>\n"
 "Language: de\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.17\n"
+"X-Generator: Weblate 2.18-dev\n"
 
 #. type: Title #
 #: build/_pages/md/about.md
@@ -7935,6 +7935,8 @@ msgid ""
 "They will try patching your application to remove usage of third-party "
 "proprietary software (if there is any)."
 msgstr ""
+"Sie werden versuchen Ihre Anwendung zu patchen, um die Verwendung "
+"proprietärer Drittanbieter-Software (so es die gibt) zu entfernen."
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Inclusion_How-To.md
@@ -7943,6 +7945,10 @@ msgid ""
 "g. by looking at how your releases relate to VCS tags and/or version "
 "information in `AndroidManifest.xml`)."
 msgstr ""
+"Sie werden versuchen, einen geeigneten Aktualisierungsvorgang für Ihre "
+"Anwendung festzulegen (z. B. indem sie sich ansehen, wie Ihre Versionen VCS-"
+"Tags und/oder Versionsinformationen in `AndroidManifest.xml` zugeordnet "
+"sind)."
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Inclusion_How-To.md
@@ -7951,6 +7957,10 @@ msgid ""
 "it to local F-Droid build server instance.  (`fdroid rewritemeta`, `fdroid "
 "lint` are used to ensure that metadata is well-formed)"
 msgstr ""
+"Sei werden versuchen eine passende Metadaten-Datei für Ihre Anwendung zu "
+"schreiben, und sie der lokalen F-Droid-Build-Server-Instanz hinzufügen.  (`"
+"fdroid rewritemeta`, `fdroid lint` werden verwendet, um sicherzustellen, "
+"dass die Metadaten korrekt gebildet werden)"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Inclusion_How-To.md
@@ -7958,6 +7968,9 @@ msgid ""
 "They will try to build your application in an isolated environment to see if "
 "the process succeeds and yield a functional APK."
 msgstr ""
+"Sie werden versuchen, Ihre Anwendung in einer abgeschirmten Umgebung "
+"herzustellen, um zu sehen, ob der Prozess erfolgreich abläuft und eine "
+"funktionierende APK erbringt."
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Inclusion_How-To.md
@@ -7965,6 +7978,9 @@ msgid ""
 "If all went smoothly, they will add a new metadata file to their local "
 "fdroiddata git repository and synchronizes the change to GitLab."
 msgstr ""
+"Wenn alles reibungslos lief, werden sie eine neue Metadaten-Datei in ihr "
+"lokales fdroiddata-Git-Repository einfügen und die Änderung mit GitLab "
+"synchronisieren."
 
 #. type: Plain text
 #: build/_docs/md/Inclusion_How-To.md
