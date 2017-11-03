@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-11-03 21:26+0000\n"
-"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
+"PO-Revision-Date: 2017-11-04 21:46+0000\n"
+"Last-Translator: anonymous <>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/de/>\n"
 "Language: de\n"
@@ -7997,6 +7997,9 @@ msgid ""
 "matter of time before F-Droid's official build server will fetch, build, and "
 "publish your application on the main F-Droid repository."
 msgstr ""
+"Ist das fdroiddata-Repository auf GitLab aktualisiert, ist es eigentlich nur "
+"noch eine Frage der Zeit, bis der offizielle Build-Server von F-Droid Ihre "
+"Anwendung abruft, herstellt und im F-Droid-Hauptrepository veröffentlicht."
 
 #. type: Plain text
 #: build/_docs/md/Inclusion_How-To.md
@@ -8005,12 +8008,16 @@ msgid ""
 "fdroiddata revision history](https://gitlab.com/fdroid/fdroiddata/commits/"
 "master)."
 msgstr ""
+"Sie können sich von der Aufnahme Ihrer Anwendung überzeugen, indem Sie sich "
+"den [GitLab-fdroiddata-"
+"Revisionsverlauf](https://gitlab.com/fdroid/fdroiddata/commits/master) "
+"ansehen."
 
 #. type: Title ###
 #: build/_docs/md/Inclusion_How-To.md
 #, no-wrap
 msgid "Special Consideration of Metadata Merge Request"
-msgstr ""
+msgstr "Besondere Überlegungen zur Metadaten-Merge-Anfrage"
 
 #. type: Plain text
 #: build/_docs/md/Inclusion_How-To.md
@@ -8024,6 +8031,15 @@ msgid ""
 "the process is completed, the request will be merged to the `master` branch "
 "of the fdroiddata GitLab repository."
 msgstr ""
+"Für den Fall, dass die Aufnahme über eine GitLab Merge-Anfrage erfolgt, ist "
+"der Prüfprozess theoretisch derselbe. Er wird hauptsächlich durchgeführt, um "
+"zu bestätigen, dass die vorgeschlagenen Metadaten mit denen übereinstimmen, "
+"die tatsächlich im Quellcode der Anwendung enthalten sind. Die Schritte zum "
+"Schreiben und Einstellen der Metadaten werden übersprungen, da die Metadaten-"
+"Originaldatei, die Sie vorgeschlagen haben, verwendet wird. Die Rückmeldung "
+"erfolgt im Original-Thread der Merge-Anfrage, in dem die Anwendung "
+"eingereicht wurde; und ist der Vorgang einmal abgeschlossen, geschieht das "
+"Merging mit der `master`-Branch des fdroiddata-GitLab-Repository."
 
 #. type: Plain text
 #: build/_docs/md/Inclusion_How-To.md
@@ -8035,6 +8051,14 @@ msgid ""
 "time. Policy-violating applications that somehow sneaked in this way will be "
 "dealt with after the fact."
 msgstr ""
+"In der Bestrebung, den Prozess zu optimieren, wenn Sie die Aufnahme über "
+"eine Metadaten-Merge-Anfrage vorschlagen, verlassen sich die F-Droid-"
+"Mitarbeiter auf einige Voraussetzungen, wie ([oben "
+"ausgeführt](#Proposal_by_Metadata_Merge_Request)). Somit wird der "
+"Prüfprozess in gewisser Hinsicht sehr viel weniger intensiv ausfallen und "
+"deutlich weniger Zeit in Anspruch nehmen. Um Richtlinien verletzende "
+"Anwendungen, die sich auf diesem Weg irgendwie einschleichen, wird sich "
+"nachträglich gekümmert."
 
 #. type: Title -
 #: build/_docs/md/Inclusion_How-To.md
