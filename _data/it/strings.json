@@ -18,6 +18,7 @@
     }, 
     "package": {
         "author": "Autore", 
+        "build_metadata": "Build Metadata", 
         "changelog": "Cronologia", 
         "donate": "Donazioni", 
         "download": "Scarica [file_extension]", 
@@ -42,7 +43,7 @@
             "bank_transfer_name": "Nome", 
             "bitcoin_alt": "Dona via Bitcoin", 
             "flattr_alt": "Dona via Flattr", 
-            "heading": "Dona", 
+            "heading": "Donazioni", 
             "paypal_alt": "Dona via Paypal", 
             "powered_by_donations": "F-Droid è sostenuto dalle tue donazioni!", 
             "via_bank_transfer": "Trasferimento bancario"
@@ -54,7 +55,7 @@
             "heading": "App più recenti"
         }, 
         "news": {
-            "heading": "Novità"
+            "heading": "Notizie"
         }, 
         "search": {
             "heading": "Trova app", 
