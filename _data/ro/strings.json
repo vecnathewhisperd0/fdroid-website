@@ -16,6 +16,7 @@
         "news": "Știri"
     }, 
     "package": {
+        "author": "Autor", 
         "changelog": "Listă schimbări", 
         "donate": "Donează", 
         "download": "Descarcă [file_extension]", 
