@@ -17,6 +17,8 @@
         "repomaker": "Repomaker"
     }, 
     "package": {
+        "author": "作者", 
+        "build_metadata": "構建中介資料", 
         "changelog": "更新日誌", 
         "donate": "捐款", 
         "download": "下載 [file_extension]", 
@@ -24,7 +26,7 @@
         "gpg_signature": "PGP 簽章", 
         "issue_tracker": "問題追蹤系統", 
         "license": "授權條款", 
-        "minimum_android_version": "此版本需要 Android [android_version] 或更新的版本。", 
+        "minimum_android_version": "此版本需要 Android [android_version] 或更高的版本。", 
         "new_in_version": "新版本 [latest_version]", 
         "packages": "套件包", 
         "permissions": "權限", 
