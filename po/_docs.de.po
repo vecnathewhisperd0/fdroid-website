@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-11-06 16:49+0000\n"
-"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
+"PO-Revision-Date: 2017-11-06 20:01+0000\n"
+"Last-Translator: anonymous <>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/de/>\n"
 "Language: de\n"
@@ -8081,6 +8081,10 @@ msgid ""
 "source code and related components, build the application, and publish it on "
 "the main F-Droid repository."
 msgstr ""
+"Nachdem die Anwendungsmetadaten dem fdroiddata-GitLab-Repository hinzugefügt "
+"wurden, ist der nächste Schritt für den F-Droid-Build-Server den Quellcode "
+"der Anwendung und die dazugehörigen Komponenten abzurufen, die Anwendung "
+"herzustellen und sie im F-Droid-Hauptrepositiory zu veröffentlichen."
 
 #. type: Plain text
 #: build/_docs/md/Inclusion_How-To.md
@@ -8089,6 +8093,10 @@ msgid ""
 "batch. As steps are done behind the scene and are mostly automatic; all the "
 "submitter needs to do is to wait for it to finish."
 msgstr ""
+"Dieser Build-Prozess geschieht **täglich**, und Anwendungen werden gesammelt "
+"verarbeitet. Die Schritte passieren im Hintergrund und weitestgehend "
+"automatisch; alles, was Antragsteller nun tun müssen, ist, auf den Abschluss "
+"des Vorgangs zu warten."
 
 #. type: Plain text
 #: build/_docs/md/Inclusion_How-To.md
@@ -8099,12 +8107,18 @@ msgid ""
 "wiki/page/org.fdroid.fdroid/lastbuild)).  This is useful to aid in "
 "diagnosing problems when the build unexpectedly failed."
 msgstr ""
+"Eine Aufzeichnung des Build-Prozesses für jede Anwendung wird im F-Droid-"
+"Wiki bereitgestellt, als Unterseite `lastbuild` der Informationsseite der "
+"Anwendung (z. B. [hier die `lastbuild`-Seite für den F-Droid-"
+"Client](https://f-droid.org/wiki/page/org.fdroid.fdroid/lastbuild)).  Dies "
+"ist praktisch beim Ermitteln von Problemen, wenn die Herstellung unerwartet "
+"fehlschlug."
 
 #. type: Title ###
 #: build/_docs/md/Inclusion_How-To.md
 #, no-wrap
 msgid "Metadata Refreshing Process"
-msgstr ""
+msgstr "Metadaten-Erneuerungsprozess"
 
 #. type: Plain text
 #: build/_docs/md/Inclusion_How-To.md
@@ -8141,7 +8155,7 @@ msgstr ""
 #: build/_docs/md/Inclusion_How-To.md
 #, no-wrap
 msgid "APK Signing Process"
-msgstr ""
+msgstr "APK-Signiervorgang"
 
 #. type: Title ###
 #: build/_docs/md/Inclusion_How-To.md
@@ -10052,7 +10066,7 @@ msgstr ""
 #: build/_docs/md/Signing_Process.md
 #, no-wrap
 msgid "Signing Process"
-msgstr ""
+msgstr "Signiervorgang"
 
 #. type: Plain text
 #: build/_docs/md/Signing_Process.md
@@ -10068,11 +10082,27 @@ msgid ""
 "(https://developer.android.com/studio/publish/app-signing.html#secure-key)  "
 "provides only the minimal steps to take to safeguard the keys."
 msgstr ""
+"Kryptographische Signaturen, die öffentliche/private Schlüssel verwenden, "
+"sind zentrale Bestandteile, [wie F-Droid](../Security_Model) eine sichere "
+"App-Auslieferung bereitstellt. Signierschlüssel sind notwendig, um Ihre "
+"eigenen Veröffentlichungen mit den F-Droid-Werkzeugen zu erstellen. "
+"Speicherort, Sicherheits- und Sicherungsstatus Ihrer Schlüsseldateien "
+"sollten sorgfältig bedacht werden. Die Schlüssel müssen für die gesamte "
+"Lebensdauer eines F-Droid-Repos oder einer Android-App sicher bleiben. Der "
+"Signierschlüssel ist das Hauptmerkmal für die Identität einer Android-App "
+"und eines F-Droid-Repos, somit müssen diese Schlüssel zuverlässig, geschützt "
+"und gut gesichert aufbewahrt werden! Berücksichtigen Sie dabei auch, dass "
+"Googles Hinweise zum [Schutz der privaten "
+"Schlüssel](https://developer.android.com/studio/publish/app-signing.html"
+"#secure-key)  nur die Minimalmaßnahmen darstellen, die ergriffen werden "
+"sollten, um die Schlüssel abzusichern."
 
 #. type: Plain text
 #: build/_docs/md/Signing_Process.md
 msgid "There are two kinds of signing involved in running a repository:"
 msgstr ""
+"Es gibt zwei Arten der Signatur, die im Betrieb eines Repositories eine "
+"Rolle spielen:"
 
 #. type: Plain text
 #: build/_docs/md/Signing_Process.md
@@ -10080,12 +10110,14 @@ msgid ""
 "- the signing of the repo index itself - the standard Android APK signing "
 "process"
 msgstr ""
+"- die Signatur des Repo-Registers selbst - der standardmäßige Android-APK-"
+"Signiervorgang"
 
 #. type: Title ###
 #: build/_docs/md/Signing_Process.md
 #, no-wrap
 msgid "Repo Index Signing"
-msgstr ""
+msgstr "Repo-Registersignatur"
 
 #. type: Plain text
 #: build/_docs/md/Signing_Process.md
@@ -10094,6 +10126,10 @@ msgid ""
 "a signing key for the repository index. This will also create a keystore, "
 "which is the file that holds the signing keys."
 msgstr ""
+"Bei Einrichtung des Repositories, sollte einer der ersten Schritte die "
+"Erzeugung eines Signierschlüssels für das Repository-Register sein. Dabei "
+"wird auch ein Schlüsselspeicher erstellt, d. h. die Datei, die die "
+"Signierschlüssel enthält."
 
 #. type: Plain text
 #: build/_docs/md/Signing_Process.md
@@ -10103,6 +10139,11 @@ msgid ""
 "signing keys](https://developer.android.com/studio/publish/app-signing."
 "html#signing-manually), with a command like:"
 msgstr ""
+"`fdroid init` wird automatisch einen neuen Signierschlüssel für ein F-Droid-"
+"Repo erstellen. Es ist möglich, genau wie bei der Erstellung von [Android-"
+"Signierschlüsseln](https://developer.android.com/studio/publish/app-"
+"signing.html#signing-manually), Schlüssel mit einem Befehl wie dem folgenden "
+"manuell zu erstellen:"
 
 #. type: Plain text
 #: build/_docs/md/Signing_Process.md
@@ -10127,6 +10168,13 @@ msgid ""
 "They shouldn’t be the same. In between, you’ll be asked for some identifying "
 "details which will go in the certificate."
 msgstr ""
+"Im o. g., ersetzen Sie _my.keystore_ durch den Namen der "
+"Schlüsselspeicherdatei, die erstellt werden soll, und ’repokey’ durch den "
+"Namen, über den der Repo-Registerschlüssel identifiziert wird.  Sie werden "
+"dazu aufgefordert werden, ein Passwort für den Schlüsselspeicher UND ein "
+"Passwort für den Schlüssel festzulegen. Sie sollten nicht dieselben sein. "
+"Daneben werden Sie gebeten werden, einige kennzeichnende Einzelheiten zu "
+"nennen, die in das Zertifikat einfließen werden."
 
 #. type: Plain text
 #: build/_docs/md/Signing_Process.md
@@ -10136,12 +10184,16 @@ msgid ""
 "and the alias you chose for the key also go into that file is called "
 "`repo_keyalias`."
 msgstr ""
+"Die beiden eingegebenen Passwörter wandern als `keystorepass` bzw. `keypass` "
+"in _config.py*. Der Pfad zur Schlüsselspeicherdatei wird in `keystore` "
+"abgelegt werden, und das für den Schlüssel ausgewählte Alias gelangt unter "
+"der Bezeichnung `repo_keyalias` ebenfalls in diese Datei."
 
 #. type: Title ###
 #: build/_docs/md/Signing_Process.md
 #, no-wrap
 msgid "APK Signing"
-msgstr ""
+msgstr "APK-Signatur"
 
 #. type: Plain text
 #: build/_docs/md/Signing_Process.md
@@ -10152,6 +10204,11 @@ msgid ""
 "field in _config.py_ to contain the same identifying details you entered "
 "before."
 msgstr ""
+"Die F-Droid-Werkzeuge können automatisch APK-Signierschlüssel für jede App, "
+"die es unterstützt, erzeugen und verwalten. Mit der ausgestellten Repo-"
+"Registersignatur, ist alles was zu tun bleibt, damit das Signieren der "
+"Pakete funktioniert, das Übertragen der von Ihnen eingegebenen, "
+"kennzeichnenden Details in das `keydname`-Feld in _config.py_ ."
 
 #. type: Plain text
 #: build/_docs/md/Signing_Process.md
@@ -10160,6 +10217,10 @@ msgid ""
 "is built. (If a specific key is required for a particular application, this "
 "system can be overridden using the keyaliases config settings."
 msgstr ""
+"Ein neuer Schlüssel wird unter Verwendung dieser Details für jede "
+"herzustellende Anwendung erzeugt werden. (Wenn für eine bestimmte Anwendung "
+"ein spezieller Schlüssel benötigt wird, kann dieses Verfahren umgangen "
+"werden, indem die ‘keyaliases‘-Konfigurationseinstellungen verwendet werden.)"
 
 #. type: Title ###
 #: build/_docs/md/Signing_Process.md
@@ -10262,7 +10323,7 @@ msgstr ""
 #. type: Bullet: '* '
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
 msgid "[F-Droid manual](https://f-droid.org/docs/)"
-msgstr ""
+msgstr "[F-Droid-Handbuch](https://f-droid.org/docs/)"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
@@ -10277,6 +10338,8 @@ msgid ""
 "[F-Droid Quickstart](https://gitlab.com/fdroid/fdroiddata/blob/master/README."
 "md#quickstart)"
 msgstr ""
+"[F-Droid-Schnellanleitung](https://gitlab.com/fdroid/fdroiddata/blob/master/R"
+"EADME.md#quickstart)"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
@@ -10323,7 +10386,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
 msgid "Run these commands:"
-msgstr ""
+msgstr "Führen Sie diese Befehle aus:"
 
 #. type: Plain text
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
@@ -10334,7 +10397,7 @@ msgstr "```bash"
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
 #, no-wrap
 msgid "Prerequisites"
-msgstr ""
+msgstr "Vorbereitungen:"
 
 #. type: Plain text
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
@@ -10346,12 +10409,18 @@ msgid ""
 "vagrant plugin install vagrant-cachier\n"
 "ln -s ~/Android/Sdk/build-tools/23.0.2/aapt ~/Android/Sdk/platform-tools/\n"
 msgstr ""
+"sudo apt-get install openjdk-8-jdk subversion git git-svn \\\n"
+"    mercurial bzr virtualbox ruby ruby-dev vagrant python3 python3-paramiko "
+"\\\n"
+"    python3-pil python3-pyasn1-modules python3-clint\n"
+"vagrant plugin install vagrant-cachier\n"
+"ln -s ~/Android/Sdk/build-tools/23.0.2/aapt ~/Android/Sdk/platform-tools/\n"
 
 #. type: Title #
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
 #, no-wrap
 msgid "Get the code"
-msgstr ""
+msgstr "Code beziehen"
 
 #. type: Plain text
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
@@ -10362,12 +10431,17 @@ msgid ""
 "git clone https://gitlab.com/fdroid/fdroiddata.git\n"
 "echo 'export PATH=\"~/code/fdroidserver:$PATH\"' >> ~/.profile source ~/.profile\n"
 msgstr ""
+"cd ~/code\n"
+"git clone https://gitlab.com/fdroid/fdroidserver.git\n"
+"git clone https://gitlab.com/fdroid/fdroiddata.git\n"
+"echo 'export PATH=\"~/code/fdroidserver:$PATH\"' >> ~/.profile source ~/."
+"profile\n"
 
 #. type: Title #
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
 #, no-wrap
 msgid "Config"
-msgstr ""
+msgstr "Konfigurieren"
 
 #. type: Plain text
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
@@ -10378,12 +10452,16 @@ msgid ""
 "chmod 0600 config.py\n"
 "echo 'sdk_path = \"$HOME/Android/Sdk\"' >> config.py\n"
 msgstr ""
+"cd fdroiddata\n"
+"cp ../fdroidserver/examples/config.py ./\n"
+"chmod 0600 config.py\n"
+"echo 'sdk_path = \"$HOME/Android/Sdk\"' >> config.py\n"
 
 #. type: Title #
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
 #, no-wrap
 msgid "Set up Vagrant build box"
-msgstr ""
+msgstr "Vagrant Build Box einrichten"
 
 #. type: Plain text
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
@@ -10391,18 +10469,22 @@ msgid ""
 "cd ../fdroidserver cp ./examples/makebuildserver.config.py ./ ./"
 "makebuildserver"
 msgstr ""
+"cd ../fdroidserver cp ./examples/makebuildserver.config.py ./ "
+"./makebuildserver"
 
 #. type: Title #
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
 #, no-wrap
 msgid "Now wait several hours for this to finish"
-msgstr ""
+msgstr "Nun einige Stunden abwarten, bis dies abgeschlossen ist"
 
 #. type: Title #
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
 #, no-wrap
 msgid "Build a package (the F-Droid client) just to check it works"
 msgstr ""
+"Ein Paket (den F-Droid-Client) herstellen, nur um zu prüfen, ob es "
+"funktioniert"
 
 #. type: Plain text
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
@@ -10416,7 +10498,7 @@ msgstr ""
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
 #, no-wrap
 msgid "Make your own package"
-msgstr ""
+msgstr "Ihr eigenes Paket herstellen"
 
 #. type: Plain text
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
