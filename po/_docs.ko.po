@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-10-06 20:57+0200\n"
-"PO-Revision-Date: 2017-11-03 05:47+0000\n"
+"PO-Revision-Date: 2017-11-06 20:04+0000\n"
 "Last-Translator: Myeongjin Lee <aranet100@gmail.com>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/ko/>\n"
@@ -438,19 +438,19 @@ msgstr ""
 #. type: Bullet: '* '
 #: build/_pages/md/contribute.md
 msgid "[F-Droid client app](https://gitlab.com/fdroid/fdroidclient/issues)"
-msgstr ""
+msgstr "[F-Droid 클라이언트 앱](https://gitlab.com/fdroid/fdroidclient/issues)"
 
 #. type: Bullet: '* '
 #: build/_pages/md/contribute.md
 msgid "[Server and build tools](https://gitlab.com/fdroid/fdroidserver/issues)"
-msgstr ""
+msgstr "[서버와 빌드 도구](https://gitlab.com/fdroid/fdroidserver/issues)"
 
 #. type: Bullet: '* '
 #: build/_pages/md/contribute.md
 msgid ""
 "[Official F-Droid repository metadata](https://gitlab.com/fdroid/fdroiddata/"
 "issues)"
-msgstr ""
+msgstr "[공식 F-Droid 저장소 메타데이터](https://gitlab.com/fdroid/fdroiddata/issues)"
 
 #. type: Title ###
 #: build/_pages/md/contribute.md
@@ -505,7 +505,7 @@ msgstr ""
 #: build/_pages/md/contribute.md
 #, no-wrap
 msgid "Help with Development"
-msgstr ""
+msgstr "개발 도움말"
 
 #. type: Plain text
 #: build/_pages/md/contribute.md
@@ -587,7 +587,7 @@ msgstr ""
 #: build/_pages/md/docs.md
 #, no-wrap
 msgid "More Information"
-msgstr ""
+msgstr "자세한 정보"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
@@ -769,7 +769,7 @@ msgstr ""
 #: build/_pages/md/issues.md
 #, no-wrap
 msgid "Issues"
-msgstr ""
+msgstr "이슈"
 
 #. type: Plain text
 #: build/_pages/md/issues.md
@@ -799,7 +799,7 @@ msgstr ""
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
 #, no-wrap
 msgid "All About Descriptions, Graphics, and Screenshots"
-msgstr ""
+msgstr "설명, 그래픽, 그리고 스크린샷에 대한 모든 것"
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -843,7 +843,7 @@ msgstr ""
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
 #, no-wrap
 msgid "In the app's source repository"
-msgstr ""
+msgstr "앱의 출처 저장소에서"
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -870,7 +870,7 @@ msgstr ""
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
 #, no-wrap
 msgid "In the app's build metadata in an _fdroiddata_ collection"
-msgstr ""
+msgstr "_fdroiddata_ 컬렉션에서의 앱의 빌드 메타데이터에서"
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -921,7 +921,7 @@ msgstr ""
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
 #, no-wrap
 msgid "Directly in the F-Droid repo"
-msgstr ""
+msgstr "F-Droid 저장소에서 직접"
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -973,7 +973,7 @@ msgstr ""
 #: build/_docs/md/Building_Applications.md
 #, no-wrap
 msgid "Building Applications"
-msgstr ""
+msgstr "앱 빌드하기"
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md
@@ -1061,7 +1061,7 @@ msgstr ""
 #: build/_docs/md/Building_Applications.md
 #, no-wrap
 msgid "App data directory aka _fdroiddata_"
-msgstr ""
+msgstr "앱 데이터 디렉터리 즉 _fdroiddata_"
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md
@@ -1111,7 +1111,7 @@ msgstr ""
 #: build/_docs/md/Building_Applications.md
 #, no-wrap
 msgid "More about `fdroid build`"
-msgstr ""
+msgstr "`fdroid build`에 대해 자세히"
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md
@@ -1225,7 +1225,7 @@ msgstr ""
 #: build/_docs/md/Building_Applications.md
 #, no-wrap
 msgid "Running `fdroid build` in your app’s source"
-msgstr ""
+msgstr "앱의 출처에서 `fdroid build` 실행하기"
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md
@@ -1259,7 +1259,7 @@ msgstr ""
 #: build/_docs/md/Building_Applications.md
 #, no-wrap
 msgid "Direct Installation"
-msgstr ""
+msgstr "직접 설치"
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md
@@ -1278,7 +1278,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "Build Metadata Reference"
-msgstr ""
+msgstr "빌드 메타데이터 참조"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1404,7 +1404,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.1 Categories<a name=\"Categories\"></a>"
-msgstr ""
+msgstr "7.1 카테고리<a name=\"Categories\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1435,7 +1435,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.2 Author Name<a name=\"Author-Name\"></a>"
-msgstr ""
+msgstr "7.2 저자 이름<a name=\"Author-Name\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1455,7 +1455,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.3 Author Email<a name=\"Author-Email\"></a>"
-msgstr ""
+msgstr "7.3 저자 이메일<a name=\"Author-Email\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1473,7 +1473,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.4 License<a name=\"License\"></a>"
-msgstr ""
+msgstr "7.4 라이선스<a name=\"License\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1505,7 +1505,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.5 Auto Name<a name=\"Auto-Name\"></a>"
-msgstr ""
+msgstr "7.5 자동 이름<a name=\"Auto-Name\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1527,7 +1527,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.6 Name<a name=\"Name\"></a>"
-msgstr ""
+msgstr "7.6 이름<a name=\"Name\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1544,7 +1544,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.7 Provides<a name=\"Provides\"></a>"
-msgstr ""
+msgstr "7.7 제공<a name=\"Provides\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1571,7 +1571,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.8 Web Site<a name=\"Web-Site\"></a>"
-msgstr ""
+msgstr "7.8 웹 사이트<a name=\"Web-Site\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1590,7 +1590,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.9 Source Code<a name=\"Source-Code\"></a>"
-msgstr ""
+msgstr "7.9 소스 코드<a name=\"Source-Code\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1610,7 +1610,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.10 Issue Tracker<a name=\"Issue-Tracker\"></a>"
-msgstr ""
+msgstr "7.10 이슈 트래커<a name=\"Issue-Tracker\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1629,7 +1629,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.11 Changelog<a name=\"Changelog\"></a>"
-msgstr ""
+msgstr "7.11 변경내역<a name=\"Changelog\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1648,7 +1648,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.12 Donate<a name=\"Donate\"></a>"
-msgstr ""
+msgstr "7.12 기부<a name=\"Donate\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1676,9 +1676,9 @@ msgstr ""
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "7.13 FlattrID<a name=\"FlattrID\"></a>"
-msgstr ""
+msgstr "7.13 FlattrID<a name=\"FlattrID\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1698,7 +1698,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.14 Bitcoin<a name=\"Bitcoin\"></a>"
-msgstr ""
+msgstr "7.14 비트코인<a name=\"Bitcoin\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1715,7 +1715,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.15 Litecoin<a name=\"Litecoin\"></a>"
-msgstr ""
+msgstr "7.15 라이트코인<a name=\"Litecoin\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1732,7 +1732,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.16 Summary<a name=\"Summary\"></a>"
-msgstr ""
+msgstr "7.16 요약<a name=\"Summary\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1752,7 +1752,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.17 Description<a name=\"Description\"></a>"
-msgstr ""
+msgstr "7.17 설명<a name=\"Description\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1812,7 +1812,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.18 Maintainer Notes<a name=\"Maintainer-Notes\"></a>"
-msgstr ""
+msgstr "7.18 정비자 참고<a name=\"Maintainer-Notes\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1831,7 +1831,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.19 Repo Type<a name=\"Repo-Type\"></a>"
-msgstr ""
+msgstr "7.19 저장소 유형<a name=\"Repo-Type\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1875,7 +1875,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.20 Repo<a name=\"Repo\"></a>"
-msgstr ""
+msgstr "7.20 저장소<a name=\"Repo\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1911,7 +1911,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.21 Binaries<a name=\"Binaries\"></a>"
-msgstr ""
+msgstr "7.21 바이너리<a name=\"Binaries\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1936,7 +1936,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.22 Build<a name=\"Build\"></a>"
-msgstr ""
+msgstr "7.22 빌드<a name=\"Build\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2661,7 +2661,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.23 AntiFeatures<a name=\"AntiFeatures\"></a>"
-msgstr ""
+msgstr "7.23 안티기능<a name=\"AntiFeatures\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2741,7 +2741,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.24 Disabled<a name=\"Disabled\"></a>"
-msgstr ""
+msgstr "7.24 비활성화됨<a name=\"Disabled\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2759,7 +2759,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.25 Requires Root<a name=\"Requires-Root\"></a>"
-msgstr ""
+msgstr "7.25 루트 필요<a name=\"Requires-Root\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2781,7 +2781,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.26 Archive Policy<a name=\"Archive-Policy\"></a>"
-msgstr ""
+msgstr "7.26 보존 정책<a name=\"Archive-Policy\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2803,7 +2803,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.27 Update Check Mode<a name=\"Update-Check-Mode\"></a>"
-msgstr ""
+msgstr "7.27 업데이트 확인 모드<a name=\"Update-Check-Mode\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2947,7 +2947,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.28 Vercode Operation<a name=\"Vercode-Operation\"></a>"
-msgstr ""
+msgstr "7.28 Vercode 연산<a name=\"Vercode-Operation\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2970,7 +2970,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.29 Update Check Ignore<a name=\"Update-Check-Ignore\"></a>"
-msgstr ""
+msgstr "7.29 업데이트 확인 무시<a name=\"Update-Check-Ignore\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2985,7 +2985,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.30 Update Check Name<a name=\"Update-Check-Name\"></a>"
-msgstr ""
+msgstr "7.30 업데이트 확인 이름<a name=\"Update-Check-Name\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -3008,7 +3008,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.31 Update Check Data<a name=\"Update-Check-Data\"></a>"
-msgstr ""
+msgstr "7.31 업데이트 확인 데이터<a name=\"Update-Check-Data\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -3019,7 +3019,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.32 Auto Update Mode<a name=\"Auto-Update-Mode\"></a>"
-msgstr ""
+msgstr "7.32 자동 업데이트 모드<a name=\"Auto-Update-Mode\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -3068,7 +3068,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.33 Current Version<a name=\"Current-Version\"></a>"
-msgstr ""
+msgstr "7.33 현재 버전<a name=\"Current-Version\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -3098,7 +3098,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.34 Current Version Code<a name=\"Current-Version-Code\"></a>"
-msgstr ""
+msgstr "7.34 현재 버전 코드<a name=\"Current-Version-Code\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -3134,7 +3134,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.35 No Source Since<a name=\"No-Source-Since\"></a>"
-msgstr ""
+msgstr "7.35 소스가 없기 시작한 때<a name=\"No-Source-Since\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -3152,7 +3152,7 @@ msgstr ""
 #: build/_docs/md/Build_Server_Setup.md
 #, no-wrap
 msgid "Build Server Setup"
-msgstr ""
+msgstr "빌드 서버 설정"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
@@ -3231,7 +3231,7 @@ msgstr ""
 #: build/_docs/md/Build_Server_Setup.md
 #, no-wrap
 msgid "Overview of the setup"
-msgstr ""
+msgstr "설정의 개요"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
@@ -3351,7 +3351,7 @@ msgstr ""
 #: build/_docs/md/Build_Server_Setup.md
 #, no-wrap
 msgid "Setting up a build server"
-msgstr ""
+msgstr "빌드 서버 설정하기"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
@@ -3531,7 +3531,7 @@ msgstr ""
 #: build/_docs/md/Build_Server_Setup.md
 #, no-wrap
 msgid "Running builds"
-msgstr ""
+msgstr "빌드 실행하기"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
@@ -3750,13 +3750,13 @@ msgstr ""
 #: build/_docs/md/Client_Bug_Reports.md
 #, no-wrap
 msgid "Client Bug Reports"
-msgstr ""
+msgstr "클라이언트 버그 보고"
 
 #. type: Title ###
 #: build/_docs/md/Client_Bug_Reports.md
 #, no-wrap
 msgid "What to include in a bug report"
-msgstr ""
+msgstr "버그 보고에 포함할 것"
 
 #. type: Plain text
 #: build/_docs/md/Client_Bug_Reports.md
@@ -3846,7 +3846,7 @@ msgstr ""
 #: build/_docs/md/Client_Bug_Reports.md
 #, no-wrap
 msgid "Where to file bug report"
-msgstr ""
+msgstr "파일 버그 보고의 위치"
 
 #. type: Plain text
 #: build/_docs/md/Client_Bug_Reports.md
@@ -4066,7 +4066,7 @@ msgstr ""
 #: build/_docs/md/Deploying_the_Website.md
 #, no-wrap
 msgid "Apache2 config"
-msgstr ""
+msgstr "Apache2 구성"
 
 #. type: Plain text
 #: build/_docs/md/Deploying_the_Website.md
@@ -4107,7 +4107,7 @@ msgstr ""
 #: build/_docs/md/Deploying_the_Website.md
 #, no-wrap
 msgid "virtualize the language sub\"directories\""
-msgstr ""
+msgstr "언어 하위\"디렉터리\"를 가상화"
 
 #. type: Plain text
 #: build/_docs/md/Deploying_the_Website.md
@@ -4156,7 +4156,7 @@ msgstr ""
 #: build/_docs/md/FAQ_-_App_Developers.md
 #, no-wrap
 msgid "FAQ - App Developers"
-msgstr ""
+msgstr "FAQ - 앱 개발자"
 
 #. type: Title ###
 #: build/_docs/md/FAQ_-_App_Developers.md
@@ -4832,7 +4832,7 @@ msgstr ""
 #: build/_docs/md/FAQ_-_Client.md
 #, no-wrap
 msgid "FAQ - Client"
-msgstr ""
+msgstr "FAQ - 클라이언트"
 
 #. type: Title ###
 #: build/_docs/md/FAQ_-_Client.md
@@ -5027,7 +5027,7 @@ msgstr ""
 #: build/_docs/md/FAQ_-_Client.md
 #, no-wrap
 msgid "What is expert mode?"
-msgstr ""
+msgstr "전문가 모드는 무엇입니까?"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md
@@ -5240,7 +5240,7 @@ msgstr ""
 #: build/_docs/md/FAQ_-_General.md
 #, no-wrap
 msgid "FAQ - General"
-msgstr ""
+msgstr "FAQ - 일반"
 
 #. type: Title ###
 #: build/_docs/md/FAQ_-_General.md
@@ -5506,13 +5506,13 @@ msgstr ""
 #: build/_docs/md/Feeds.md
 #, no-wrap
 msgid "Feeds"
-msgstr ""
+msgstr "피드"
 
 #. type: Title ###
 #: build/_docs/md/Feeds.md
 #, no-wrap
 msgid "News & Reviews"
-msgstr ""
+msgstr "뉴스 및 리뷰"
 
 #. type: Plain text
 #: build/_docs/md/Feeds.md
@@ -5528,7 +5528,7 @@ msgstr ""
 #: build/_docs/md/Feeds.md
 #, no-wrap
 msgid "Builds"
-msgstr ""
+msgstr "빌드"
 
 #. type: Plain text
 #: build/_docs/md/Feeds.md
@@ -5545,7 +5545,7 @@ msgstr ""
 #: build/_docs/md/Feeds.md build/_docs/md/Repository_Style_Guide.md
 #, no-wrap
 msgid "Source Code"
-msgstr ""
+msgstr "소스 코드"
 
 #. type: Plain text
 #: build/_docs/md/Feeds.md
@@ -5559,7 +5559,7 @@ msgstr ""
 #: build/_docs/md/Feeds.md
 #, no-wrap
 msgid "Forums"
-msgstr ""
+msgstr "포럼"
 
 #. type: Plain text
 #: build/_docs/md/Feeds.md
@@ -5579,7 +5579,7 @@ msgstr ""
 #: build/_docs/md/Feeds.md
 #, no-wrap
 msgid "Wiki"
-msgstr ""
+msgstr "위키"
 
 #. type: Plain text
 #: build/_docs/md/Feeds.md
@@ -5592,7 +5592,7 @@ msgstr ""
 #: build/_docs/md/Feeds.md
 #, no-wrap
 msgid "Bugs and Suggestions"
-msgstr ""
+msgstr "버그와 제안"
 
 #. type: Plain text
 #: build/_docs/md/Feeds.md
@@ -5604,9 +5604,9 @@ msgstr ""
 
 #. type: Title ###
 #: build/_docs/md/Feeds.md
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "IRC"
-msgstr ""
+msgstr "IRC"
 
 #. type: Plain text
 #: build/_docs/md/Feeds.md
@@ -5676,7 +5676,7 @@ msgstr ""
 #: build/_docs/md/Getting_logcat_messages_after_crash.md
 #, no-wrap
 msgid "What is logcat?"
-msgstr ""
+msgstr "로그캣은 무엇입니까?"
 
 #. type: Plain text
 #: build/_docs/md/Getting_logcat_messages_after_crash.md
@@ -5705,7 +5705,7 @@ msgstr ""
 #: build/_docs/md/Getting_logcat_messages_after_crash.md
 #, no-wrap
 msgid "How to find logcat messages"
-msgstr ""
+msgstr "로그캣 메시지를 찾는 방법"
 
 #. type: Plain text
 #: build/_docs/md/Getting_logcat_messages_after_crash.md
@@ -5720,7 +5720,7 @@ msgstr ""
 #: build/_docs/md/Getting_logcat_messages_after_crash.md
 #, no-wrap
 msgid "Using an app on your device"
-msgstr ""
+msgstr "여러분의 장치에서 앱 사용하기"
 
 #. type: Plain text
 #: build/_docs/md/Getting_logcat_messages_after_crash.md
@@ -5757,7 +5757,7 @@ msgstr ""
 #: build/_docs/md/Getting_logcat_messages_after_crash.md
 #, no-wrap
 msgid "Using the Android SDK"
-msgstr ""
+msgstr "Android SDK 사용하기"
 
 #. type: Plain text
 #: build/_docs/md/Getting_logcat_messages_after_crash.md
@@ -5828,7 +5828,7 @@ msgstr ""
 #: build/_docs/md/How_to_Help.md
 #, no-wrap
 msgid "Report problems"
-msgstr ""
+msgstr "문제 보고"
 
 #. type: Plain text
 #: build/_docs/md/How_to_Help.md
@@ -5855,7 +5855,7 @@ msgstr ""
 #: build/_docs/md/How_to_Help.md
 #, no-wrap
 msgid "Submit applications"
-msgstr ""
+msgstr "애플리케이션 제출"
 
 #. type: Plain text
 #: build/_docs/md/How_to_Help.md
@@ -5892,7 +5892,7 @@ msgstr ""
 #: build/_docs/md/How_to_Help.md
 #, no-wrap
 msgid "Update apps"
-msgstr ""
+msgstr "앱 업데이트"
 
 #. type: Plain text
 #: build/_docs/md/How_to_Help.md
@@ -5931,7 +5931,7 @@ msgstr ""
 #: build/_docs/md/How_to_Help.md
 #, no-wrap
 msgid "Help with development"
-msgstr ""
+msgstr "개발 도움말"
 
 #. type: Plain text
 #: build/_docs/md/How_to_Help.md
@@ -5982,7 +5982,7 @@ msgstr ""
 #: build/_docs/md/How_to_Help.md
 #, no-wrap
 msgid "Design"
-msgstr ""
+msgstr "디자인"
 
 #. type: Plain text
 #: build/_docs/md/How_to_Help.md
@@ -5999,7 +5999,7 @@ msgstr ""
 #: build/_docs/md/How_to_update_an_app.md
 #, no-wrap
 msgid "How to update an app"
-msgstr ""
+msgstr "앱을 업데이트하는 방법"
 
 #. type: Plain text
 #: build/_docs/md/How_to_update_an_app.md
@@ -6240,7 +6240,7 @@ msgstr ""
 #: build/_docs/md/Importing_Applications.md
 #, no-wrap
 msgid "Importing Applications"
-msgstr ""
+msgstr "애플리케이션 가져오기"
 
 #. type: Plain text
 #: build/_docs/md/Importing_Applications.md
@@ -6814,7 +6814,7 @@ msgstr ""
 #: build/_docs/md/Inclusion_How-To.md
 #, no-wrap
 msgid "External Links\n"
-msgstr ""
+msgstr "바깥 링크\n"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Inclusion_How-To.md
@@ -7030,7 +7030,7 @@ msgstr ""
 #: build/_docs/md/Installing_the_Server_and_Repo_Tools.md
 #, no-wrap
 msgid "Installing the Server and Repo Tools"
-msgstr ""
+msgstr "서버와 저장소 도구 설치하기"
 
 #. type: Plain text
 #: build/_docs/md/Installing_the_Server_and_Repo_Tools.md
@@ -7053,7 +7053,7 @@ msgstr ""
 #: build/_docs/md/Installing_the_Server_and_Repo_Tools.md
 #, no-wrap
 msgid "Debian/Ubuntu/Mint/etc"
-msgstr ""
+msgstr "Debian/Ubuntu/Mint/등"
 
 #. type: Plain text
 #: build/_docs/md/Installing_the_Server_and_Repo_Tools.md
@@ -7073,7 +7073,7 @@ msgstr ""
 #: build/_docs/md/Installing_the_Server_and_Repo_Tools.md
 #, no-wrap
 msgid "Older releases"
-msgstr ""
+msgstr "오래된 배포판"
 
 #. type: Plain text
 #: build/_docs/md/Installing_the_Server_and_Repo_Tools.md
@@ -7099,9 +7099,9 @@ msgstr ""
 
 #. type: Title ##
 #: build/_docs/md/Installing_the_Server_and_Repo_Tools.md
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Apple OSX"
-msgstr ""
+msgstr "Apple OSX"
 
 #. type: Plain text
 #: build/_docs/md/Installing_the_Server_and_Repo_Tools.md
@@ -7145,15 +7145,15 @@ msgstr ""
 
 #. type: Title ##
 #: build/_docs/md/Installing_the_Server_and_Repo_Tools.md
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Windows"
-msgstr ""
+msgstr "Windows"
 
 #. type: Title ###
 #: build/_docs/md/Installing_the_Server_and_Repo_Tools.md
 #, no-wrap
 msgid "Windows 10 Subsystem for Linux"
-msgstr ""
+msgstr "Linux를 위한 Windows 10 하위시스템"
 
 #. type: Plain text
 #: build/_docs/md/Installing_the_Server_and_Repo_Tools.md
@@ -7187,9 +7187,9 @@ msgstr ""
 
 #. type: Title ###
 #: build/_docs/md/Installing_the_Server_and_Repo_Tools.md
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Cygwin"
-msgstr ""
+msgstr "Cygwin"
 
 #. type: Bullet: '1.  '
 #: build/_docs/md/Installing_the_Server_and_Repo_Tools.md
@@ -7243,7 +7243,7 @@ msgstr ""
 #: build/_docs/md/Installing_the_Server_and_Repo_Tools.md
 #, no-wrap
 msgid "Installing the latest code (any platform)"
-msgstr ""
+msgstr "최신 코드 설치하기 (모든 플랫폼)"
 
 #. type: Plain text
 #: build/_docs/md/Installing_the_Server_and_Repo_Tools.md
@@ -7268,7 +7268,7 @@ msgstr ""
 #: build/_docs/md/Installing_the_Server_and_Repo_Tools.md
 #, no-wrap
 msgid "Building apps"
-msgstr ""
+msgstr "앱 빌드하기"
 
 #. type: Plain text
 #: build/_docs/md/Installing_the_Server_and_Repo_Tools.md
@@ -7335,7 +7335,7 @@ msgstr ""
 #: build/_docs/md/Installing_the_Server_and_Repo_Tools.md
 #, no-wrap
 msgid "Building all apps from f-droid.org"
-msgstr ""
+msgstr "f-droid.org에서 모든 앱 빌드하기"
 
 #. type: Plain text
 #: build/_docs/md/Installing_the_Server_and_Repo_Tools.md
@@ -7375,7 +7375,7 @@ msgstr ""
 #: build/_docs/md/Installing_the_Server_and_Repo_Tools.md
 #, no-wrap
 msgid "Proprietary, non-free libraries"
-msgstr ""
+msgstr "사유, 자유롭지 않은 라이브러리"
 
 #. type: Plain text
 #: build/_docs/md/Installing_the_Server_and_Repo_Tools.md
@@ -7411,7 +7411,7 @@ msgstr ""
 #: build/_docs/md/Release_Channels_and_Signing_Keys.md
 #, no-wrap
 msgid "Release Channels and Signing Keys"
-msgstr ""
+msgstr "배포판 채널 및 서명 키"
 
 #. type: Plain text
 #: build/_docs/md/Release_Channels_and_Signing_Keys.md
@@ -7422,7 +7422,7 @@ msgstr ""
 #: build/_docs/md/Release_Channels_and_Signing_Keys.md
 #, no-wrap
 msgid "F-Droid app for Android"
-msgstr ""
+msgstr "Android용 F-Droid 앱"
 
 #. type: Plain text
 #: build/_docs/md/Release_Channels_and_Signing_Keys.md
@@ -7504,9 +7504,9 @@ msgstr ""
 #. type: Title ##
 #: build/_docs/md/Release_Channels_and_Signing_Keys.md
 #: build/_docs/md/Release_Process.md
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "fdroidserver"
-msgstr ""
+msgstr "fdroidserver"
 
 #. type: Plain text
 #: build/_docs/md/Release_Channels_and_Signing_Keys.md
@@ -7554,7 +7554,7 @@ msgstr ""
 #: build/_docs/md/Release_Channels_and_Signing_Keys.md
 #, no-wrap
 msgid "Privileged Extension"
-msgstr ""
+msgstr "특별 권한 확장 기능"
 
 #. type: Plain text
 #: build/_docs/md/Release_Channels_and_Signing_Keys.md
@@ -7572,7 +7572,7 @@ msgstr ""
 #: build/_docs/md/Repository_Style_Guide.md
 #, no-wrap
 msgid "Repository Style Guide"
-msgstr ""
+msgstr "저장소 스타일 안내서"
 
 #. type: Plain text
 #: build/_docs/md/Repository_Style_Guide.md
@@ -7632,7 +7632,7 @@ msgstr ""
 #: build/_docs/md/Repository_Style_Guide.md
 #, no-wrap
 msgid "License"
-msgstr ""
+msgstr "라이선스"
 
 #. type: Plain text
 #: build/_docs/md/Repository_Style_Guide.md
@@ -7689,7 +7689,7 @@ msgstr ""
 #: build/_docs/md/Repository_Style_Guide.md
 #, no-wrap
 msgid "Summaries"
-msgstr ""
+msgstr "요약"
 
 #. type: Plain text
 #: build/_docs/md/Repository_Style_Guide.md
@@ -7703,7 +7703,7 @@ msgstr ""
 #: build/_docs/md/Repository_Style_Guide.md
 #, no-wrap
 msgid "Descriptions"
-msgstr ""
+msgstr "설명"
 
 #. type: Plain text
 #: build/_docs/md/Repository_Style_Guide.md
@@ -7787,7 +7787,7 @@ msgstr ""
 #: build/_docs/md/Repository_Style_Guide.md
 #, no-wrap
 msgid "Donations"
-msgstr ""
+msgstr "기부"
 
 #. type: Plain text
 #: build/_docs/md/Repository_Style_Guide.md
@@ -7805,7 +7805,7 @@ msgstr ""
 #: build/_docs/md/Repository_Style_Guide.md
 #, no-wrap
 msgid "AntiFeatures"
-msgstr ""
+msgstr "안티기능"
 
 #. type: Plain text
 #: build/_docs/md/Repository_Style_Guide.md
@@ -7827,7 +7827,7 @@ msgstr ""
 #: build/_docs/md/Repository_Style_Guide.md
 #, no-wrap
 msgid "Updating"
-msgstr ""
+msgstr "업데이트하기"
 
 #. type: Plain text
 #: build/_docs/md/Repository_Style_Guide.md
@@ -7930,7 +7930,7 @@ msgstr ""
 #: build/_docs/md/Reproducible_Builds.md
 #, no-wrap
 msgid "Verification builds"
-msgstr ""
+msgstr "빌드 검증"
 
 #. type: Plain text
 #: build/_docs/md/Reproducible_Builds.md
@@ -8004,7 +8004,7 @@ msgstr ""
 #: build/_docs/md/Reproducible_Builds.md
 #, no-wrap
 msgid "Build Server IDs"
-msgstr ""
+msgstr "빌드 서버 ID"
 
 #. type: Plain text
 #: build/_docs/md/Reproducible_Builds.md
@@ -8048,7 +8048,7 @@ msgstr ""
 #: build/_docs/md/Reproducible_Builds.md
 #, no-wrap
 msgid "TODO"
-msgstr ""
+msgstr "할 일"
 
 #. type: Bullet: '- '
 #: build/_docs/md/Reproducible_Builds.md
@@ -8080,7 +8080,7 @@ msgstr ""
 #: build/_docs/md/Reproducible_Builds.md
 #, no-wrap
 msgid "Sources"
-msgstr ""
+msgstr "출처"
 
 #. type: Plain text
 #: build/_docs/md/Reproducible_Builds.md
@@ -8096,7 +8096,7 @@ msgstr ""
 #: build/_docs/md/Security_Model.md
 #, no-wrap
 msgid "Security Model"
-msgstr ""
+msgstr "보안 모델"
 
 #. type: Plain text
 #: build/_docs/md/Security_Model.md
@@ -8243,7 +8243,7 @@ msgstr ""
 #: build/_docs/md/Setup_an_F-Droid_App_Repo.md
 #, no-wrap
 msgid "Setup an F-Droid App Repo"
-msgstr ""
+msgstr "F-Droid 앱 저장소 설정"
 
 #. type: Plain text
 #: build/_docs/md/Setup_an_F-Droid_App_Repo.md
@@ -8262,7 +8262,7 @@ msgstr ""
 #: build/_docs/md/Setup_an_F-Droid_App_Repo.md
 #, no-wrap
 msgid "Overview"
-msgstr ""
+msgstr "개요"
 
 #. type: Plain text
 #: build/_docs/md/Setup_an_F-Droid_App_Repo.md
@@ -8361,7 +8361,7 @@ msgstr ""
 #: build/_docs/md/Setup_an_F-Droid_App_Repo.md
 #, no-wrap
 msgid "Local Demo Repo HOWTO"
-msgstr ""
+msgstr "로컬 데모 저장소 방법"
 
 #. type: Plain text
 #: build/_docs/md/Setup_an_F-Droid_App_Repo.md
@@ -8441,7 +8441,7 @@ msgstr ""
 #: build/_docs/md/Setup_an_F-Droid_App_Repo.md
 #, no-wrap
 msgid "Customization"
-msgstr ""
+msgstr "사용자 지정"
 
 #. type: Plain text
 #: build/_docs/md/Setup_an_F-Droid_App_Repo.md
@@ -8497,7 +8497,7 @@ msgstr ""
 #: build/_docs/md/Setup_an_F-Droid_App_Repo.md
 #, no-wrap
 msgid "App Metadata"
-msgstr ""
+msgstr "앱 메타데이터"
 
 #. type: Plain text
 #: build/_docs/md/Setup_an_F-Droid_App_Repo.md
@@ -8526,7 +8526,7 @@ msgstr ""
 #: build/_docs/md/Setup_an_F-Droid_App_Repo.md
 #, no-wrap
 msgid "Real World Setup"
-msgstr ""
+msgstr "현실 세계 설정"
 
 #. type: Plain text
 #: build/_docs/md/Setup_an_F-Droid_App_Repo.md
@@ -8604,7 +8604,7 @@ msgstr ""
 #: build/_docs/md/Signing_Process.md
 #, no-wrap
 msgid "Repo Index Signing"
-msgstr ""
+msgstr "저장소 색인 서명"
 
 #. type: Plain text
 #: build/_docs/md/Signing_Process.md
@@ -8656,7 +8656,7 @@ msgstr ""
 #: build/_docs/md/Signing_Process.md
 #, no-wrap
 msgid "APK Signing"
-msgstr ""
+msgstr "APK 서명"
 
 #. type: Plain text
 #: build/_docs/md/Signing_Process.md
@@ -8680,7 +8680,7 @@ msgstr ""
 #: build/_docs/md/Signing_Process.md
 #, no-wrap
 msgid "Package Signing"
-msgstr ""
+msgstr "패키지 서명"
 
 #. type: Plain text
 #: build/_docs/md/Signing_Process.md
@@ -8696,7 +8696,7 @@ msgstr ""
 #: build/_docs/md/Signing_Process.md
 #, no-wrap
 msgid "Hardware Security Modules"
-msgstr ""
+msgstr "하드웨어 보안 모듈"
 
 #. type: Plain text
 #: build/_docs/md/Signing_Process.md
@@ -8737,13 +8737,13 @@ msgstr ""
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
 #, no-wrap
 msgid "Submitting to F-Droid Quick Start Guide"
-msgstr ""
+msgstr "F-Droid 빠른 시작 안내서로 제출하기"
 
 #. type: Title ###
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
 #, no-wrap
 msgid "Submitting to F-Droid: Quick Start Guide"
-msgstr ""
+msgstr "F-Droid: 빠른 시작 안내서로 제출하기"
 
 #. type: Plain text
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
@@ -8802,7 +8802,7 @@ msgstr ""
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
 #, no-wrap
 msgid "Setup"
-msgstr ""
+msgstr "설정"
 
 #. type: Plain text
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
@@ -8866,7 +8866,7 @@ msgstr ""
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
 #, no-wrap
 msgid "Get the code"
-msgstr ""
+msgstr "코드 받기"
 
 #. type: Plain text
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
@@ -8882,7 +8882,7 @@ msgstr ""
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
 #, no-wrap
 msgid "Config"
-msgstr ""
+msgstr "구성"
 
 #. type: Plain text
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
@@ -8931,7 +8931,7 @@ msgstr ""
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
 #, no-wrap
 msgid "Make your own package"
-msgstr ""
+msgstr "여러분 자신의 패키지를 만들기"
 
 #. type: Plain text
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
@@ -9099,7 +9099,7 @@ msgstr ""
 #: build/_docs/md/Translation_and_Localization.md
 #, no-wrap
 msgid "Translation and Localization"
-msgstr ""
+msgstr "번역 및 지역화"
 
 #. type: Plain text
 #: build/_docs/md/Translation_and_Localization.md
@@ -9165,7 +9165,7 @@ msgstr ""
 #: build/_docs/md/Translation_and_Localization.md
 #, no-wrap
 msgid "The \"Languages\" preference"
-msgstr ""
+msgstr "\"언어\" 환경 설정"
 
 #. type: Plain text
 #: build/_docs/md/Translation_and_Localization.md
@@ -9184,7 +9184,7 @@ msgstr ""
 #: build/_docs/md/Translation_and_Localization.md
 #, no-wrap
 msgid "Contributing"
-msgstr ""
+msgstr "기여하기"
 
 #. type: Plain text
 #: build/_docs/md/Translation_and_Localization.md
@@ -9251,7 +9251,7 @@ msgstr ""
 #: build/_docs/md/Update_Processing.md
 #, no-wrap
 msgid "Adding<a name=\"Adding\"></a>"
-msgstr ""
+msgstr "추가하기<a name=\"Adding\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Update_Processing.md
@@ -9285,7 +9285,7 @@ msgstr ""
 #: build/_docs/md/Verification_Server.md
 #, no-wrap
 msgid "Verification Server"
-msgstr ""
+msgstr "검증 서버"
 
 #. type: Plain text
 #: build/_docs/md/Verification_Server.md
@@ -9435,7 +9435,7 @@ msgstr ""
 #: build/_docs/md/Vulnerability_Scanning_with_Drozer.md
 #, no-wrap
 msgid "Quick Start"
-msgstr ""
+msgstr "빠른 시작"
 
 #. type: Bullet: '1. '
 #: build/_docs/md/Vulnerability_Scanning_with_Drozer.md
@@ -9474,7 +9474,7 @@ msgstr ""
 #: build/_docs/md/Vulnerability_Scanning_with_Drozer.md
 #, no-wrap
 msgid "Command Line Help"
-msgstr ""
+msgstr "명령 줄 도움말"
 
 #. type: Plain text
 #: build/_docs/md/Vulnerability_Scanning_with_Drozer.md
@@ -9514,7 +9514,7 @@ msgstr ""
 #: build/_docs/md/Vulnerability_Scanning_with_Drozer.md
 #, no-wrap
 msgid "From Scratch"
-msgstr ""
+msgstr "Scratch에서"
 
 #. type: Plain text
 #: build/_docs/md/Vulnerability_Scanning_with_Drozer.md
@@ -9543,9 +9543,9 @@ msgstr ""
 
 #. type: Title ####
 #: build/_docs/md/Vulnerability_Scanning_with_Drozer.md
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "`make help`"
-msgstr ""
+msgstr "`make help`"
 
 #. type: Plain text
 #: build/_docs/md/Vulnerability_Scanning_with_Drozer.md
@@ -9566,9 +9566,9 @@ msgstr ""
 
 #. type: Title ####
 #: build/_docs/md/Vulnerability_Scanning_with_Drozer.md
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "`make clean`"
-msgstr ""
+msgstr "`make clean`"
 
 #. type: Plain text
 #: build/_docs/md/Vulnerability_Scanning_with_Drozer.md
@@ -9584,9 +9584,9 @@ msgstr ""
 
 #. type: Title ####
 #: build/_docs/md/Vulnerability_Scanning_with_Drozer.md
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "`make build`"
-msgstr ""
+msgstr "`make build`"
 
 #. type: Plain text
 #: build/_docs/md/Vulnerability_Scanning_with_Drozer.md
@@ -9598,9 +9598,9 @@ msgstr ""
 
 #. type: Title ####
 #: build/_docs/md/Vulnerability_Scanning_with_Drozer.md
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "`make kill`"
-msgstr ""
+msgstr "`make kill`"
 
 #. type: Plain text
 #: build/_docs/md/Vulnerability_Scanning_with_Drozer.md
@@ -9609,9 +9609,9 @@ msgstr ""
 
 #. type: Title ####
 #: build/_docs/md/Vulnerability_Scanning_with_Drozer.md
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "`make info`"
-msgstr ""
+msgstr "`make info`"
 
 #. type: Plain text
 #: build/_docs/md/Vulnerability_Scanning_with_Drozer.md
@@ -9754,7 +9754,7 @@ msgstr ""
 #: build/_docs/md/Whitelabel_Builds.md
 #, no-wrap
 msgid "Customizations"
-msgstr ""
+msgstr "사용자 지정"
 
 #. type: Plain text
 #: build/_docs/md/Whitelabel_Builds.md
@@ -9769,7 +9769,7 @@ msgstr ""
 #: build/_docs/md/Whitelabel_Builds.md
 #, no-wrap
 msgid "Removing ActionBar/Menu Items"
-msgstr ""
+msgstr "액션바/메뉴 항목 제거하기"
 
 #. type: Plain text
 #: build/_docs/md/Whitelabel_Builds.md
@@ -9783,7 +9783,7 @@ msgstr ""
 #: build/_docs/md/Whitelabel_Builds.md
 #, no-wrap
 msgid "Preferences"
-msgstr ""
+msgstr "환경 설정"
 
 #. type: Plain text
 #: build/_docs/md/Whitelabel_Builds.md
