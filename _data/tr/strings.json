@@ -17,6 +17,8 @@
         "repomaker": "Repomaker"
     }, 
     "package": {
+        "author": "Yazar", 
+        "build_metadata": "Meta Veri Oluştur", 
         "changelog": "Değişiklikler", 
         "donate": "Bağış", 
         "download": "[file_extension] indir", 
