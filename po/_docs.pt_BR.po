@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-07-06 00:09+0000\n"
-"Last-Translator: José Victor <josevictor@riseup.net>\n"
+"PO-Revision-Date: 2017-11-08 14:48+0000\n"
+"Last-Translator: Marcus Vinicius Santos <m.vinicius@zoho.com>\n"
 "Language-Team: Portuguese (Brazil) "
 "<https://hosted.weblate.org/projects/f-droid/website-docs/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 2.16-dev\n"
+"X-Generator: Weblate 2.18-dev\n"
 
 #. type: Title #
 #: build/_pages/md/about.md
@@ -34,6 +34,12 @@ msgid ""
 "reviews and other features covering all things Android and software-freedom "
 "related."
 msgstr ""
+"F-Droid é um robô apaixonado por softwares de código livre e aberto (FOSS) "
+"da plataforma Android. Neste site você encontrará um repositório de "
+"aplicativos de código livre e aberto, bem como um cliente Android para "
+"realizar instalações e atualizações. Aqui você também terá acesso a "
+"notícias, análises e outros recursos relacionados ao Android e à liberdade "
+"de software."
 
 #. type: Plain text
 #: build/_pages/md/about.md
@@ -112,7 +118,7 @@ msgstr ""
 #: build/_pages/md/about.md
 #, no-wrap
 msgid "Contributors"
-msgstr ""
+msgstr "Colaboradores"
 
 #. type: Plain text
 #: build/_pages/md/about.md
@@ -400,7 +406,7 @@ msgstr ""
 #: build/_pages/md/contribute.md
 #, no-wrap
 msgid "Contribute"
-msgstr ""
+msgstr "Colabore"
 
 #. type: Plain text
 #: build/_pages/md/contribute.md build/_docs/md/How_to_Help.md
@@ -413,7 +419,7 @@ msgstr ""
 #: build/_pages/md/contribute.md
 #, no-wrap
 msgid "Report Problems"
-msgstr ""
+msgstr "Relate Problemas"
 
 #. type: Plain text
 #: build/_pages/md/contribute.md
@@ -449,7 +455,7 @@ msgstr ""
 #: build/_pages/md/contribute.md
 #, no-wrap
 msgid "Submit Applications"
-msgstr ""
+msgstr "Envie Aplicativos"
 
 #. type: Plain text
 #: build/_pages/md/contribute.md
@@ -474,7 +480,7 @@ msgstr ""
 #: build/_pages/md/contribute.md build/_docs/md/How_to_Help.md
 #, no-wrap
 msgid "Translate"
-msgstr ""
+msgstr "Traduza"
 
 #. type: Plain text
 #: build/_pages/md/contribute.md
@@ -528,7 +534,7 @@ msgstr ""
 #: build/_pages/md/docs.md
 #, no-wrap
 msgid "Docs"
-msgstr ""
+msgstr "Documentos"
 
 #. type: Plain text
 #: build/_pages/md/docs.md
@@ -555,7 +561,7 @@ msgstr ""
 #: build/_pages/md/docs.md
 #, no-wrap
 msgid "Getting Started"
-msgstr ""
+msgstr "Primeiros Passos"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
@@ -622,7 +628,7 @@ msgstr ""
 #: build/_pages/md/docs.md
 #, no-wrap
 msgid "Developers"
-msgstr ""
+msgstr "Desenvolvedores"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
