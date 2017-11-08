@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-05-17 11:31+1000\n"
-"PO-Revision-Date: 2017-11-08 20:11+0000\n"
-"Last-Translator: anonymous <>\n"
+"PO-Revision-Date: 2017-11-09 20:46+0000\n"
+"Last-Translator: Ldm Public <ldmpub@gmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/fr/>\n"
 "Language: fr\n"
@@ -1351,7 +1351,7 @@ msgstr ""
 #: build/_docs/md/Building_Applications.md
 #, no-wrap
 msgid "App data directory aka _fdroiddata_"
-msgstr "Répertoire de donnée de l'application aka _fdroidata_"
+msgstr "Répertoire des données de l'application aka _fdroidata_"
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md
@@ -1681,16 +1681,14 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy
 msgid ""
 "Categories must be separated by a single comma character, ’,’. For backwards "
 "compatibility, F-Droid will use the first category given as &lt;category&gt; "
 "element for older clients to at least see one category."
 msgstr ""
-"Les catégories doivent être séparées par une virgule, ’,’. Pour la rétro-"
-"compatibilité, F-Droid utilisera la première catégorie donnée comme un "
-"élément &lt; catégorie&gt; pour les anciens clients afin de voir au moins "
-"une catégorie."
+"Les catégories doivent être séparées par une virgule ','. Pour rétro-"
+"compatibilité sur les anciens clients, F-Droid affichera dans l'élément &lt; "
+"catégorie&gt; la première catégorie trouvée."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
