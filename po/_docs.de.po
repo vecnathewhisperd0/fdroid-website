@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-11-08 22:07+0000\n"
-"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
+"PO-Revision-Date: 2017-11-09 22:46+0000\n"
+"Last-Translator: anonymous <>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/de/>\n"
 "Language: de\n"
@@ -7161,6 +7161,9 @@ msgid ""
 "The web site, this wiki , and app descriptions are not covered yet, but will "
 "be included in the same system at a later date."
 msgstr ""
+"Die Internetseite, dieses Wiki , und App-Beschreibungen werden noch nicht "
+"abgedeckt, werden aber zu einem späteren Zeitpunkt in das selbe System "
+"integriert."
 
 #. type: Plain text
 #: build/_docs/md/How_to_Help.md
@@ -7168,6 +7171,9 @@ msgid ""
 "There's a [dedicated forum section](https://forum.f-droid.org/c/"
 "translation)  for discussions about translation."
 msgstr ""
+"Es gibt einen [ausgewiesenen "
+"Forumabschnitt](https://forum.f-droid.org/c/translation) für "
+"Übersetzungsfragen."
 
 #. type: Title ###
 #: build/_docs/md/How_to_Help.md
