@@ -18,6 +18,7 @@
     }, 
     "package": {
         "author": "Autor", 
+        "build_metadata": "Metadaten der Paketerstellung", 
         "changelog": "Änderungen", 
         "donate": "Spenden", 
         "download": "[file_extension] herunterladen", 
