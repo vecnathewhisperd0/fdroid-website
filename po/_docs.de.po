@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
 "PO-Revision-Date: 2017-11-08 22:07+0000\n"
-"Last-Translator: anonymous <>\n"
+"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/de/>\n"
 "Language: de\n"
@@ -7153,7 +7153,7 @@ msgid ""
 msgstr ""
 "Die Client-Anwendung ist in vielen Sprachen erhältlich, sollte Ihre nicht "
 "darunter sein oder muss sie aktualisiert oder verbessert werden, folgen Sie ["
-"dieser Anleitung](https://hosted.weblate.org/engage/f-droid/)."
+"diesen Anweisungen](https://hosted.weblate.org/engage/f-droid/)."
 
 #. type: Plain text
 #: build/_docs/md/How_to_Help.md
