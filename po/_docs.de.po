@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-11-08 21:50+0000\n"
-"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
+"PO-Revision-Date: 2017-11-08 21:53+0000\n"
+"Last-Translator: anonymous <>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/de/>\n"
 "Language: de\n"
@@ -3631,12 +3631,16 @@ msgid ""
 "available - in other words, the updating of the Current Version and Current "
 "Version Code fields in the metadata by the `fdroid checkupdates` process."
 msgstr ""
+"Bestimmt die verwendete Ermittlungsmethode, wann neue Versionen zur "
+"Verfügung stehen. - in anderen Worten, die Aktualisierung der Felder der "
+"Aktuellen Version und des Aktuellen Versionscodes in den Metadaten durch den "
+"Vorgang `fdroid checkupdates`."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "Valid modes are:"
-msgstr ""
+msgstr "Gültige Methoden sind:"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -3649,6 +3653,15 @@ msgid ""
 "the developers make a new branch for each release and don’t make tags; or if "
 "you’ve changed the package name or version code logic."
 msgstr ""
+"`None` - Es erfolgt keine Überprüfung, weil es keinen geeigneten, "
+"automatisierten Weg dafür gibt. Es muss manuell auf Aktualisierungen geprüft "
+"werden.  Zum Beispiel zu verwenden, wenn instabile oder gepatchte Versionen "
+"eingesetzt werden; wenn Builds in einem anderen Verzeichnis erfolgen, als "
+"dem in dem sich AndroidManifest.xml befindet; falls die Entwickler das "
+"Gradle-Build-System verwenden und Versionsinfos in einer separaten Datei "
+"speichern; falls die Entwickler für jede Version einen neuen Zweig erstellen "
+"aber keine Kennzeichen; oder wenn der Paketname oder Versionscode logisch "
+"verändert wurde."
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Build_Metadata_Reference.md
