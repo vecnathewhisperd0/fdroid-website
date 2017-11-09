@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-10-06 20:57+0200\n"
-"PO-Revision-Date: 2017-11-06 20:04+0000\n"
+"PO-Revision-Date: 2017-11-10 17:47+0000\n"
 "Last-Translator: Myeongjin Lee <aranet100@gmail.com>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/ko/>\n"
@@ -55,6 +55,11 @@ msgid ""
 "If you want to help, you can [join us]({{ \"/contribute/\" | prepend: site."
 "baseurl }})."
 msgstr ""
+"여러분은 IRC의 채널 [FreeNode에 있는 "
+"#fdroid](https://webchat.freenode.net/?channels=%23fdroid)에서 F-Droid를 토론하거나 "
+"도움을 얻을 수 있습니다. IRC에서의 토론은 [BotBot.me](https://botbot.me/freenode/fdroid)에 "
+"기록됩니다. 또한 직접 우리에게 [team@f-droid.org](mailto:team@f-droid.org)에서 이메일로 연락할 수 "
+"있습니다. 도움받고 싶다면, [가입]({{ \"/contribute/\" | prepend: site.baseurl }})할 수 있습니다."
 
 #. type: Plain text
 #: build/_pages/md/about.md
@@ -63,6 +68,8 @@ msgid ""
 "additional artwork, are by Robert Martinez. All are dual licensed under CC-"
 "BY-SA 3.0 Unported or GPLv3+."
 msgstr ""
+"F-Droid 로고는 윌리엄 테이커가 만들었습니다. 저것으로의 업데이트와 추가 예술 작업은 로버스 마르티네즈가 했습니다. 모두 CC-BY-"
+"SA 3.0 Unported 또는 GPLv3+에 따라 이중으로 이용이 허가됩니다."
 
 #. type: Plain text
 #: build/_pages/md/about.md
@@ -100,6 +107,10 @@ msgid ""
 "source code is checked for potential security or privacy issues. This "
 "checking is far from exhaustive though, and there are no guarantees."
 msgstr ""
+"F-Droid는 비영리 [자원봉사자]({{ \"/contribute/\" | prepend: site.baseurl }}) "
+"프로젝트입니다. 저장소의 모든 것이 안전하게 설치하는 것을 보장하기 위해 모든 노력을 쏟아붓지만, 여러분은 여러분 자신의 책임을 지고 "
+"그것을 사용합니다. 저장소의 애플리케이션이 소스에서 내장되고, 해당 소스 코드가 잠재적 보안이나 개인정보 보호 이슈에 대해 확인되는 것이 "
+"가능하더라도 말입니다. 이 검사는 철저하게 검사하는 것으로부터 멀고, 여기에 보장은 없습니다."
 
 #. type: Plain text
 #: build/_pages/md/about.md
@@ -126,147 +137,148 @@ msgstr "기여자"
 msgid ""
 "The F-Droid project was founded in 2010 by Ciaran Gultnieks, and is brought "
 "to you by at least the following people:"
-msgstr ""
+msgstr "F-Droid 프로젝트는 2010년에 치아란 글트니엑스에 의해 설립되었고, 적어도 다음 사람들에 의해 여러분을 데려다주셨습니다:"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
+#, fuzzy
 msgid "Alterechtschreibung"
-msgstr ""
+msgstr "Alterechtschreibung"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Nico Alt"
-msgstr ""
+msgstr "니코 알트"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Laura Arjona"
-msgstr ""
+msgstr "로라 아르조나"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Ben Arnold"
-msgstr ""
+msgstr "벤 아놀드"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Michele Azzolari"
-msgstr ""
+msgstr "미셸 아졸라리"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Jan Berkel"
-msgstr ""
+msgstr "얀 버켈"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "David Black"
-msgstr ""
+msgstr "데이비드 블랙"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Jan C Borchardt"
-msgstr ""
+msgstr "얀 C 보차르트"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Valerio Bozzolan"
-msgstr ""
+msgstr "발레리오 보졸란"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Dan Bravender"
-msgstr ""
+msgstr "댄 브레이버더"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Cédric Cabessa"
-msgstr ""
+msgstr "세드릭 카베사"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Kevin Cernekee"
-msgstr ""
+msgstr "케빈 체너키"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Kevin Everets"
-msgstr ""
+msgstr "케빈 에버츠"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Alberto A. Fuentes"
-msgstr ""
+msgstr "알베르토 A. 푸엔테스"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Torsten Grote"
-msgstr ""
+msgstr "토르스텐 그로테"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Ciaran Gultnieks"
-msgstr ""
+msgstr "치아란 글트니엑스"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Tias Guns"
-msgstr ""
+msgstr "티에스 건스"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Michael Haas"
-msgstr ""
+msgstr "마이클 하스"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Stefan Handschuh"
-msgstr ""
+msgstr "스테판 헨슈흐"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Kees Hulberts"
-msgstr ""
+msgstr "키스 훌버츠"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Ayron Jungren"
-msgstr ""
+msgstr "에이런 전그렌"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "João Fernando C. Júnior"
-msgstr ""
+msgstr "주앙 페르난도 C. 주니어"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Neo Kolokotronis"
-msgstr ""
+msgstr "네오 코로코트로니스"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Nikita Kozlov"
-msgstr ""
+msgstr "니키타 코즐로프"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Matt Kraai"
-msgstr ""
+msgstr "마트 크라이"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Daniel Kraft"
-msgstr ""
+msgstr "다니엘 크래프트"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Mariotaku Lee"
-msgstr ""
+msgstr "마리오타쿠 리"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Leonardo De Luca"
-msgstr ""
+msgstr "레오나르도 드 루카"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
@@ -395,13 +407,15 @@ msgid ""
 "list](https://gitlab.com/fdroid/fdroid-website/blob/master/_pages/about.md)! "
 "Keep it sorted by surname, please."
 msgstr ""
+"여러분의 이름이 없으면, 그건 실수이며 [여러분이 직접 목록에 추가](https://gitlab.com/fdroid/fdroid-"
+"website/blob/master/_pages/about.md)하셔야 합니다! 성을 기준으로 정렬해주세요."
 
 #. type: Plain text
 #: build/_pages/md/about.md
 msgid ""
 "The original F-Droid client app was based on the Aptoide app developed by "
 "Roberto Jacinto."
-msgstr ""
+msgstr "원래 F-Droid 클라이언트 앱은 로베르토 하인토에 의해 개발된 Aptoide 앱을 바탕으로 했습니다."
 
 #. type: Title #
 #: build/_pages/md/contribute.md
