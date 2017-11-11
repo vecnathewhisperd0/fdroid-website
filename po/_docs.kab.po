@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Kabyle (F-Droid)\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-11-11 12:26+0200\n"
-"PO-Revision-Date: 2017-11-11 11:52+0000\n"
+"PO-Revision-Date: 2017-11-11 21:11+0000\n"
 "Last-Translator: Muḥend Belqasem <belkacem77@gmail.com>\n"
 "Language-Team: Kabyle <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/kab/>\n"
@@ -152,12 +152,12 @@ msgstr ""
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Nico Alt"
-msgstr ""
+msgstr "Nico Alt"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Laura Arjona"
-msgstr ""
+msgstr "Laura Arjona"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
@@ -167,122 +167,122 @@ msgstr "Ben Arnold"
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Michele Azzolari"
-msgstr ""
+msgstr "Michele Azzolari"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Jan Berkel"
-msgstr ""
+msgstr "Jan Berkel"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "David Black"
-msgstr ""
+msgstr "David Black"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Jan C Borchardt"
-msgstr ""
+msgstr "Jan C Borchardt"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Valerio Bozzolan"
-msgstr ""
+msgstr "Valerio Bozzolan"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Dan Bravender"
-msgstr ""
+msgstr "Dan Bravender"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Cédric Cabessa"
-msgstr ""
+msgstr "Cédric Cabessa"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Kevin Cernekee"
-msgstr ""
+msgstr "Kevin Cernekee"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Felix Edelmann"
-msgstr ""
+msgstr "Felix Edelmann"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Kevin Everets"
-msgstr ""
+msgstr "Kevin Everets"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Alberto A. Fuentes"
-msgstr ""
+msgstr "Alberto A. Fuentes"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Torsten Grote"
-msgstr ""
+msgstr "Torsten Grote"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Ciaran Gultnieks"
-msgstr ""
+msgstr "Ciaran Gultnieks"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Tias Guns"
-msgstr ""
+msgstr "Tias Guns"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Michael Haas"
-msgstr ""
+msgstr "Michael Haas"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Stefan Handschuh"
-msgstr ""
+msgstr "Stefan Handschuh"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Marcus Hoffmann"
-msgstr ""
+msgstr "Marcus Hoffmann"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Kees Hulberts"
-msgstr ""
+msgstr "Kees Hulberts"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Ayron Jungren"
-msgstr ""
+msgstr "Ayron Jungren"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "João Fernando C. Júnior"
-msgstr ""
+msgstr "João Fernando C. Júnior"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Neo Kolokotronis"
-msgstr ""
+msgstr "Neo Kolokotronis"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Nikita Kozlov"
-msgstr ""
+msgstr "Nikita Kozlov"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Matt Kraai"
-msgstr ""
+msgstr "Matt Kraai"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Daniel Kraft"
-msgstr ""
+msgstr "Daniel Kraft"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
@@ -292,142 +292,142 @@ msgstr "Boris Kraut"
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Tobias Kuban"
-msgstr ""
+msgstr "Tobias Kuban"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Mariotaku Lee"
-msgstr ""
+msgstr "Mariotaku Lee"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Leonardo De Luca"
-msgstr ""
+msgstr "Leonardo De Luca"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Greg Lyle"
-msgstr ""
+msgstr "Greg Lyle"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Daniel Marti"
-msgstr ""
+msgstr "Daniel Marti"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Robert Martinez"
-msgstr ""
+msgstr "Robert Martinez"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Nat Meysenburg"
-msgstr ""
+msgstr "Nat Meysenburg"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Steven McDonald"
-msgstr ""
+msgstr "Steven McDonald"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Andrew McMillan"
-msgstr ""
+msgstr "Andrew McMillan"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Alex Oberhauser"
-msgstr ""
+msgstr "Alex Oberhauser"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Nicolas Raoul"
-msgstr ""
+msgstr "Nicolas Raoul"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Fabian Rodriguez"
-msgstr ""
+msgstr "Fabian Rodriguez"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Florian Schmaus"
-msgstr ""
+msgstr "Florian Schmaus"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Dominik Schürmann"
-msgstr ""
+msgstr "Dominik Schürmann"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Hans-Emil Skogh"
-msgstr ""
+msgstr "Hans-Emil Skogh"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Paul Sokolovsky"
-msgstr ""
+msgstr "Paul Sokolovsky"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Graziano Sorbaioli"
-msgstr ""
+msgstr "Graziano Sorbaioli"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Hans-Christoph Steiner"
-msgstr ""
+msgstr "Hans-Christoph Steiner"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "David Sterry"
-msgstr ""
+msgstr "David Sterry"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Peter Serwylo"
-msgstr ""
+msgstr "Peter Serwylo"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "John Sullivan"
-msgstr ""
+msgstr "John Sullivan"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Antonio Tapiador"
-msgstr ""
+msgstr "Antonio Tapiador"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "William Theaker"
-msgstr ""
+msgstr "William Theaker"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Henrik Tunedal"
-msgstr ""
+msgstr "Henrik Tunedal"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Ivo Ugrina"
-msgstr ""
+msgstr "Ivo Ugrina"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Matthias Weiler"
-msgstr ""
+msgstr "Matthias Weiler"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Nutchanon Wetchasit"
-msgstr ""
+msgstr "Nutchanon Wetchasit"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Philipp Wollschlegel"
-msgstr ""
+msgstr "Philipp Wollschlegel"
 
 #. type: Plain text
 #: build/_pages/md/about.md
@@ -469,6 +469,9 @@ msgid ""
 "them in the issue tracker (see below), or discuss them in the [Forum]"
 "(https://forum.f-droid.org/) or on IRC (#fdroid on freenode)."
 msgstr ""
+"Ma yella tmuggreḍ-d uguren d usmel neɣ aseɣzan amsaɣ, tzemreḍ ad ten-id-"
+"azneḍ deg uneḍfaṛ n ibugen (wali ddaw-a), neɣ meslay deg "
+"[Unmager](https://forum.f-droid.org/) neɣ di IRC (#fdroid on freenode)."
 
 #. type: Plain text
 #: build/_pages/md/contribute.md
@@ -478,12 +481,13 @@ msgstr ""
 #. type: Bullet: '* '
 #: build/_pages/md/contribute.md
 msgid "[F-Droid client app](https://gitlab.com/fdroid/fdroidclient/issues)"
-msgstr ""
+msgstr "[Asnas amsaɣ F-Droid](https://gitlab.com/fdroid/fdroidclient/issues)"
 
 #. type: Bullet: '* '
 #: build/_pages/md/contribute.md
 msgid "[Server and build tools](https://gitlab.com/fdroid/fdroidserver/issues)"
 msgstr ""
+"[Aqeddac d ifecka n bennu](https://gitlab.com/fdroid/fdroidserver/issues)"
 
 #. type: Bullet: '* '
 #: build/_pages/md/contribute.md
@@ -491,6 +495,8 @@ msgid ""
 "[Official F-Droid repository metadata](https://gitlab.com/fdroid/fdroiddata/"
 "issues)"
 msgstr ""
+"[Iɣef-isefka n ukufi unṣibF-"
+"Droid](https://gitlab.com/fdroid/fdroiddata/issues)"
 
 #. type: Title ###
 #: build/_pages/md/contribute.md
@@ -6296,6 +6302,8 @@ msgid ""
 "[CatLog](https://f-droid.org/repository/browse/?fdfilter=logcat&fdid=com."
 "nolanlawson.logcat)"
 msgstr ""
+"[CatLog](https://f-droid.org/repository/browse/?fdfilter=logcat&fdid=com.nola"
+"nlawson.logcat)"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Getting_logcat_messages_after_crash.md
@@ -6303,6 +6311,8 @@ msgid ""
 "[aLogCat](https://f-droid.org/repository/browse/?fdfilter=logcat&fdid=org."
 "jtb.alogcat)"
 msgstr ""
+"[aLogCat](https://f-droid.org/repository/browse/?fdfilter=logcat&fdid=org.jtb"
+".alogcat)"
 
 #. type: Plain text
 #: build/_docs/md/Getting_logcat_messages_after_crash.md
@@ -6380,17 +6390,19 @@ msgid ""
 "The project is entirely developed and maintained by volunteers. You can help "
 "in the following ways:"
 msgstr ""
+"Asenfaṛ sneflint udiɣ tt-seggiment meṛṛa iwiziwen. Tzemreḍ ad tmuddeḍ afus s "
+"tarrayin-agi:"
 
 #. type: Title ###
 #: build/_docs/md/How_to_Help.md
 #, no-wrap
 msgid "Follow our work"
-msgstr ""
+msgstr "Ḍfer ayen nxeddem"
 
 #. type: Plain text
 #: build/_docs/md/How_to_Help.md
 msgid "The [Feeds](../Feeds) page lists the various sites that we work on."
-msgstr ""
+msgstr "Asebetr n [Isuddam](../Feeds) ad yebder meṛṛa ismal ixeddmen fell-as."
 
 #. type: Title ###
 #: build/_docs/md/How_to_Help.md
@@ -6410,6 +6422,14 @@ msgid ""
 "Repository_Maintenance)  page to see how you can help keeping apps and their "
 "metadata up to date."
 msgstr ""
+"Ma yella tmuggreḍ-d uguren d usmel neɣ aseɣzan amsaɣ, tzemreḍ ad ten-id-"
+"tazneḍ deg [uneḍfaṛ n wuguren](https://gitlab.com/u/fdroid), neɣ meslay "
+"fella-sen deg [Unagraw](https://forum.f-droid.org/) neɣ ɣef IRC ([#fdroid "
+"ɣef freenode](https://webchat.freenode.net/?randomnick=1&channels=%23fdroid&u"
+"io=MT1mYWxzZSYyPXRydWUmND10cnVlJjk9dHJ1ZSYxMD10cnVlJjEyPXRydWU84)). Wali "
+"asebter n [Useggem n "
+"ukufi](https://f-droid.org/wiki/page/Repository_Maintenance) akken ad teẓreḍ "
+"amek ara d-muddeḍ afus akkenad neǧǧ isnasen d  iɣef-isefka nsen ttwaleqmen."
 
 #. type: Plain text
 #: build/_docs/md/How_to_Help.md
