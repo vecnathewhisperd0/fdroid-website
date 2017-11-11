@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-11-11 16:21+0000\n"
-"Last-Translator: anonymous <>\n"
+"PO-Revision-Date: 2017-11-12 17:46+0000\n"
+"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/de/>\n"
 "Language: de\n"
@@ -1796,6 +1796,24 @@ msgid ""
 "Update-Mode)  - [Current Version](#Current-Version)  - [Current Version Code]"
 "(#Current-Version-Code)  - [No Source Since](#No-Source-Since)"
 msgstr ""
+"- [Kategorien](#Categories)  - [Autorenname](#Author-Name)  - [Autoren-E-Mail"
+"](#Author-Email)  - [Lizenz](#License)  - [Automatischer Name](#Auto-Name)  -"
+" [Name](#Name)  - [Unterstützt](#Provides)  - [Internetseite](#Web-Site)  - "
+"[Quelltext](#Source-Code)  - [Issue Tracker](#Issue-Tracker)  - "
+"[Änderungsprotokoll](#Changelog)  - [Spenden](#Donate)  - "
+"[FlattrID](#FlattrID)  - [Bitcoin](#Bitcoin)  - [Litecoin](#Litecoin)  - "
+"[Zusammenfassung](#Summary)  - [Beschreibung](#Description)  - "
+"[Wartungsnotizen](#Maintainer-Notes)  - [Repo-Typ](#Repo-Type)  - "
+"[Repo](#Repo)  - [Binärdateien](#Binaries)  - [Build](#Build)  - [Unfreie "
+"Merkmale](#AntiFeatures)  - [Gesperrt](#Disabled)  - [Braucht Root"
+"](#Requires-Root)  - [Archivierrichtlinie](#Archive-Policy)  - "
+"[Aktualisierungsmethode](#Update-Check-Mode)  - [Ausnahme bei "
+"Aktualisierungsprüfung](#Update-Check-Ignore)  - [Versionscode-Operation"
+"](#Vercode-Operation)  - [Name für Aktualisierungsprüfung](#Update-Check-"
+"Name)  - [Daten zur Aktualisierungsprüfung](#Update-Check-Data)  - ["
+"Automatische Aktualisierungsmethode](#Auto-Update-Mode)  - [Aktuelle Version"
+"](#Current-Version)  - [Aktueller Versionscode](#Current-Version-Code)  - ["
+"Keine Quelle seit](#No-Source-Since)"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -3793,7 +3811,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.28 Vercode Operation<a name=\"Vercode-Operation\"></a>"
-msgstr ""
+msgstr "7.28 Versionscode-Operation<a name=\"Vercode-Operation\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -3817,6 +3835,7 @@ msgstr ""
 #, no-wrap
 msgid "7.29 Update Check Ignore<a name=\"Update-Check-Ignore\"></a>"
 msgstr ""
+"7.29 Ausnahme bei Aktualisierungsprüfung<a name=\"Update-Check-Ignore\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -3831,7 +3850,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.30 Update Check Name<a name=\"Update-Check-Name\"></a>"
-msgstr ""
+msgstr "7.30 Name für Aktualisierungsprüfung<a name=\"Update-Check-Name\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -3854,18 +3873,21 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.31 Update Check Data<a name=\"Update-Check-Data\"></a>"
-msgstr ""
+msgstr "7.31 Daten zur Aktualisierungsprüfung<a name=\"Update-Check-Data\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "Used in conjunction with `Update Check Mode` for certain modes."
 msgstr ""
+"Wird in Verbindung mit der `Aktualisierungsprüfmethode` für bestimmte "
+"Methoden verwendet."
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.32 Auto Update Mode<a name=\"Auto-Update-Mode\"></a>"
 msgstr ""
+"7.32 Automatische Aktualisierungsmethode<a name=\"Auto-Update-Mode\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -3880,7 +3902,7 @@ msgstr ""
 #. type: Bullet: '-   '
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "`None` - No auto-updating is done"
-msgstr ""
+msgstr "`None` - Es erfolgt keine automatische Aktualisierung"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -3914,7 +3936,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.33 Current Version<a name=\"Current-Version\"></a>"
-msgstr ""
+msgstr "7.33 Aktuelle Version<a name=\"Current-Version\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -3933,6 +3955,8 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "This field is normally automatically updated - see Update Check Mode."
 msgstr ""
+"Dieses Feld wird normalerweise automatisch aktualisiert, siehe "
+"Aktualisierungsprüfmethode."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -3944,7 +3968,7 @@ msgstr "Umwandlung zu (`<marketversion>`) in der XML-Datei (_index.xml_).\n"
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.34 Current Version Code<a name=\"Current-Version-Code\"></a>"
-msgstr ""
+msgstr "7.34 Aktueller Versionscode<a name=\"Current-Version-Code\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -3980,7 +4004,7 @@ msgstr "Umwandlung zu (`<marketvercode>`) in der XML-Datei (_index.xml_).\n"
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.35 No Source Since<a name=\"No-Source-Since\"></a>"
-msgstr ""
+msgstr "7.35 Keine Quelle seit<a name=\"No-Source-Since\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
