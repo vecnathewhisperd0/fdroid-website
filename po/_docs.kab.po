@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE
-# Copyright (C) YEAR Free Software Foundation, Inc.
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: Kabyle (F-Droid)\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
-"POT-Creation-Date: 2017-11-01 15:03+0100\n"
-"PO-Revision-Date: 2017-11-11 07:47+0000\n"
+"POT-Creation-Date: 2017-11-11 12:26+0200\n"
+"PO-Revision-Date: 2017-11-11 11:52+0000\n"
 "Last-Translator: Muḥend Belqasem <belkacem77@gmail.com>\n"
 "Language-Team: Kabyle <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/kab/>\n"
@@ -23,7 +18,7 @@ msgstr ""
 #: build/_pages/md/403.md
 #, no-wrap
 msgid "403 Forbidden"
-msgstr ""
+msgstr "403 Yegdel"
 
 #. type: Plain text
 #: build/_pages/md/403.md build/_pages/md/404.md
@@ -36,7 +31,7 @@ msgstr ""
 #: build/_pages/md/404.md
 #, no-wrap
 msgid "404 Page Not Found"
-msgstr ""
+msgstr "404 Ulac asebter"
 
 #. type: Title #
 #: build/_pages/md/about.md
@@ -76,7 +71,7 @@ msgstr ""
 #: build/_pages/md/about.md build/_docs/md/Repository_Style_Guide.md
 #, no-wrap
 msgid "License"
-msgstr ""
+msgstr "Turagt"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
@@ -167,7 +162,7 @@ msgstr ""
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Ben Arnold"
-msgstr ""
+msgstr "Ben Arnold"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
@@ -292,7 +287,7 @@ msgstr ""
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Boris Kraut"
-msgstr ""
+msgstr "Boris Kraut"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
@@ -644,7 +639,7 @@ msgstr ""
 #: build/_pages/md/docs.md
 #, no-wrap
 msgid "More Information"
-msgstr ""
+msgstr "Ugar n isallen"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
@@ -840,7 +835,7 @@ msgstr ""
 #: build/_pages/md/issues.md
 #, no-wrap
 msgid "Issues"
-msgstr ""
+msgstr "Uguren"
 
 #. type: Plain text
 #: build/_pages/md/issues.md
@@ -2058,7 +2053,7 @@ msgstr ""
 #. type: Bullet: '-   '
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "‘svn’"
-msgstr ""
+msgstr "‘svn’"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -4304,6 +4299,13 @@ msgid ""
 "     * `SURGE_LOGIN`: The email you used to signup with `surge login`.\n"
 "     * `SURGE_TOKEN`: The value given when you ran `surge token`.\n"
 msgstr ""
+" * [Add two \"Secret Variables\""
+"](https://docs.gitlab.com/ce/ci/variables/README.html#secret-variables) to "
+"your fork of this project:\n"
+"   * Navigate to your projects Settings -> Pipelines -> Secret Variables.\n"
+"   * Add the following two variables:\n"
+"     * `SURGE_LOGIN`: The email you used to signup with `surge login`.\n"
+"     * `SURGE_TOKEN`: The value given when you ran `surge token`.\n"
 
 #. type: Plain text
 #: build/_docs/md/Deploying_the_Website.md
@@ -4464,7 +4466,7 @@ msgstr ""
 #: build/_docs/md/Deploying_the_Website.md
 #, no-wrap
 msgid "  python-certbot-apache rsync unattended-upgrades locales\n"
-msgstr ""
+msgstr "  python-certbot-apache rsync unattended-upgrades locales\n"
 
 #. type: Title #
 #: build/_docs/md/Deploying_the_Website.md
@@ -4530,7 +4532,7 @@ msgstr ""
 #: build/_docs/md/Deploying_the_Website.md
 #: build/_docs/md/Setup_an_F-Droid_App_Repo.md
 msgid "```"
-msgstr ""
+msgstr "```"
 
 #. type: Title ###
 #: build/_docs/md/Deploying_the_Website.md
@@ -5450,7 +5452,7 @@ msgstr ""
 #: build/_docs/md/FAQ_-_Client.md
 #, no-wrap
 msgid "    android.permission.INTERNET\n"
-msgstr ""
+msgstr "    android.permission.INTERNET\n"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md
@@ -5461,7 +5463,7 @@ msgstr ""
 #: build/_docs/md/FAQ_-_Client.md
 #, no-wrap
 msgid "    android.permission.RECEIVE_BOOT_COMPLETED\n"
-msgstr ""
+msgstr "    android.permission.RECEIVE_BOOT_COMPLETED\n"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md
@@ -5480,6 +5482,11 @@ msgid ""
 "    android.permission.CHANGE_NETWORK_STATE\n"
 "    android.permission.CHANGE_WIFI_STATE\n"
 msgstr ""
+"    android.permission.ACCESS_NETWORK_STATE\n"
+"    android.permission.ACCESS_WIFI_STATE\n"
+"    android.permission.CHANGE_WIFI_MULTICAST_STATE\n"
+"    android.permission.CHANGE_NETWORK_STATE\n"
+"    android.permission.CHANGE_WIFI_STATE\n"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md
@@ -5495,6 +5502,8 @@ msgid ""
 "    android.permission.BLUETOOTH\n"
 "    android.permission.BLUETOOTH_ADMIN\n"
 msgstr ""
+"    android.permission.BLUETOOTH\n"
+"    android.permission.BLUETOOTH_ADMIN\n"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md
@@ -5506,7 +5515,7 @@ msgstr ""
 #: build/_docs/md/FAQ_-_Client.md
 #, no-wrap
 msgid "    android.permission.NFC\n"
-msgstr ""
+msgstr "    android.permission.NFC\n"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md
@@ -5517,7 +5526,7 @@ msgstr ""
 #: build/_docs/md/FAQ_-_Client.md
 #, no-wrap
 msgid "    android.permission.WRITE_EXTERNAL_STORAGE\n"
-msgstr ""
+msgstr "    android.permission.WRITE_EXTERNAL_STORAGE\n"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md
@@ -5544,7 +5553,7 @@ msgstr ""
 #: build/_docs/md/FAQ_-_Client.md
 #, no-wrap
 msgid "    android.permission.ACCESS_SUPERUSER\n"
-msgstr ""
+msgstr "    android.permission.ACCESS_SUPERUSER\n"
 
 #. type: Title ###
 #: build/_docs/md/FAQ_-_Client.md
@@ -6056,7 +6065,7 @@ msgstr ""
 #: build/_docs/md/Feeds.md
 #, no-wrap
 msgid "Feeds"
-msgstr ""
+msgstr "Isuddam"
 
 #. type: Title ###
 #: build/_docs/md/Feeds.md
@@ -6078,7 +6087,7 @@ msgstr ""
 #: build/_docs/md/Feeds.md
 #, no-wrap
 msgid "Builds"
-msgstr ""
+msgstr "Builds"
 
 #. type: Plain text
 #: build/_docs/md/Feeds.md
@@ -6095,7 +6104,7 @@ msgstr ""
 #: build/_docs/md/Feeds.md build/_docs/md/Repository_Style_Guide.md
 #, no-wrap
 msgid "Source Code"
-msgstr ""
+msgstr "Tangalt taɣbalut"
 
 #. type: Plain text
 #: build/_docs/md/Feeds.md
@@ -6109,7 +6118,7 @@ msgstr ""
 #: build/_docs/md/Feeds.md
 #, no-wrap
 msgid "Forums"
-msgstr ""
+msgstr "Inmagaren"
 
 #. type: Plain text
 #: build/_docs/md/Feeds.md
@@ -6124,12 +6133,14 @@ msgid ""
 "- <https://forum.f-droid.org/posts.rss> - <https://forum.f-droid.org/latest."
 "rss>"
 msgstr ""
+"- <https://forum.f-droid.org/posts.rss> - "
+"<https://forum.f-droid.org/latest.rss>"
 
 #. type: Title ###
 #: build/_docs/md/Feeds.md
 #, no-wrap
 msgid "Wiki"
-msgstr ""
+msgstr "Wiki"
 
 #. type: Plain text
 #: build/_docs/md/Feeds.md
@@ -6142,7 +6153,7 @@ msgstr ""
 #: build/_docs/md/Feeds.md
 #, no-wrap
 msgid "Bugs and Suggestions"
-msgstr ""
+msgstr "Ibugen d isumar"
 
 #. type: Plain text
 #: build/_docs/md/Feeds.md
@@ -6156,7 +6167,7 @@ msgstr ""
 #: build/_docs/md/Feeds.md
 #, no-wrap
 msgid "IRC"
-msgstr ""
+msgstr "IRC"
 
 #. type: Plain text
 #: build/_docs/md/Feeds.md
@@ -6226,7 +6237,7 @@ msgstr ""
 #: build/_docs/md/Getting_logcat_messages_after_crash.md
 #, no-wrap
 msgid "What is logcat?"
-msgstr ""
+msgstr "d acu-t logcat?"
 
 #. type: Plain text
 #: build/_docs/md/Getting_logcat_messages_after_crash.md
@@ -6331,7 +6342,7 @@ msgstr ""
 #: build/_docs/md/Getting_logcat_messages_after_crash.md
 #, no-wrap
 msgid "    adb logcat\n"
-msgstr ""
+msgstr "    adb logcat\n"
 
 #. type: Plain text
 #: build/_docs/md/Getting_logcat_messages_after_crash.md
@@ -6347,7 +6358,7 @@ msgstr ""
 #: build/_docs/md/Getting_logcat_messages_after_crash.md
 #, no-wrap
 msgid "    adb logcat *:E\n"
-msgstr ""
+msgstr "    adb logcat *:E\n"
 
 #. type: Plain text
 #: build/_docs/md/Getting_logcat_messages_after_crash.md
@@ -6361,7 +6372,7 @@ msgstr ""
 #: build/_docs/md/How_to_Help.md
 #, no-wrap
 msgid "How to Help"
-msgstr ""
+msgstr "Amek ara d-muddeḍ afus"
 
 #. type: Plain text
 #: build/_docs/md/How_to_Help.md
@@ -6449,7 +6460,7 @@ msgstr ""
 #: build/_docs/md/How_to_Help.md
 #, no-wrap
 msgid "Update apps"
-msgstr ""
+msgstr "Leqqem isnasen"
 
 #. type: Plain text
 #: build/_docs/md/How_to_Help.md
@@ -6539,7 +6550,7 @@ msgstr ""
 #: build/_docs/md/How_to_Help.md
 #, no-wrap
 msgid "Design"
-msgstr ""
+msgstr "Afeṣṣel"
 
 #. type: Plain text
 #: build/_docs/md/How_to_Help.md
@@ -7369,7 +7380,7 @@ msgstr ""
 #: build/_docs/md/Inclusion_How-To.md
 #, no-wrap
 msgid "External Links\n"
-msgstr ""
+msgstr "Iseɣwan izɣarayen\n"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Inclusion_How-To.md
@@ -7622,7 +7633,7 @@ msgstr ""
 #: build/_docs/md/Installing_the_Server_and_Repo_Tools.md
 #, no-wrap
 msgid "    sudo apt-get install fdroidserver\n"
-msgstr ""
+msgstr "    sudo apt-get install fdroidserver\n"
 
 #. type: Title ###
 #: build/_docs/md/Installing_the_Server_and_Repo_Tools.md
@@ -7653,6 +7664,11 @@ msgid ""
 "    sudo apt-get install fdroidserver\n"
 "    ```\n"
 msgstr ""
+"    ```bash\n"
+"    sudo add-apt-repository ppa:fdroid/fdroidserver\n"
+"    sudo apt-get update\n"
+"    sudo apt-get install fdroidserver\n"
+"    ```\n"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Installing_the_Server_and_Repo_Tools.md
@@ -7712,7 +7728,7 @@ msgstr ""
 #: build/_docs/md/Installing_the_Server_and_Repo_Tools.md
 #, no-wrap
 msgid "Windows"
-msgstr ""
+msgstr "Windows"
 
 #. type: Title ###
 #: build/_docs/md/Installing_the_Server_and_Repo_Tools.md
@@ -8091,7 +8107,7 @@ msgstr ""
 #: build/_docs/md/Maintaining_the_Forum.md
 #, no-wrap
 msgid "Troubleshooting"
-msgstr ""
+msgstr "Diagnostic"
 
 #. type: Plain text
 #: build/_docs/md/Maintaining_the_Forum.md
@@ -8159,6 +8175,34 @@ msgid ""
 "        Valid from: Fri Jul 23 13:10:24 EDT 2010 until: Tue Dec 08 12:10:24 EST 2037\n"
 "        Certificate fingerprints:\n"
 msgstr ""
+"-   git repo: <https://gitlab.com/fdroid/fdroidclient>\n"
+"    -   git tags signed by \"Hans-Christoph Steiner\n"
+"        \\<hans@guardianproject.info>\" aka \"Hans-Christoph Steiner\n"
+"        \\<hans@eds.org>\" aka \"Hans-Christoph Steiner\n"
+"        \\<hans@at.or.at>\" with fingerprint: <br />\n"
+"        `EE66 20C7 136B 0D2C 456C 0A4D E9E2 8DEA 00AA 5556`\n"
+"    -   or previously signed by \"Daniel Martí \\<mvdan@mvdan.cc>\" aka\n"
+"        \"Daniel Martí \\<mvdan@fsfe.org>\" with fingerprint: <br\n"
+"        />`A9DA 13CD F7A1 4ACD D3DE E530 F4CA FFDB 4348\n"
+"        041C`\n"
+"-   official binary releases:\n"
+"    <https://f-droid.org/repository/browse/?fdfilter=f-droid&fdid=org.fdroid."
+"fdroid>\n"
+"    -   GPG signing key: \"F-Droid \\<admin@f-droid.org>\"\n"
+"    -   Primary key fingerprint: `37D2 C987 89D8 3119 4839 4E3E 41E7 044E "
+"1DBA 2E89`\n"
+"    -   Subkey fingerprint: `802A 9799 0161 1234 6E1F EFF4 7A02 9E54 DD5D "
+"CE7A`\n"
+"    -   APK signing key:\n"
+"        ```\n"
+"        Owner: CN=Ciaran Gultnieks, OU=Unknown, O=Unknown, L=Wetherby, ST="
+"Unknown, C=UK\n"
+"        Issuer: CN=Ciaran Gultnieks, OU=Unknown, O=Unknown, L=Wetherby, ST="
+"Unknown, C=UK\n"
+"        Serial number: 4c49cd00\n"
+"        Valid from: Fri Jul 23 13:10:24 EDT 2010 until: Tue Dec 08 12:10:24 "
+"EST 2037\n"
+"        Certificate fingerprints:\n"
 
 #. type: Plain text
 #: build/_docs/md/Release_Channels_and_Signing_Keys.md
@@ -8169,6 +8213,11 @@ msgid ""
 "          SHA256: 43:23:8D:51:2C:1E:5E:B2:D6:56:9F:4A:3A:FB:F5:52:34:18:B8:2E:0A:3E:D1:55:27:70:AB:B9:A9:C9:CC:AB\n"
 "        ```\n"
 msgstr ""
+"          MD5:  17:C5:5C:62:80:56:E1:93:E9:56:44:E9:89:79:27:86\n"
+"          SHA1: 05:F2:E6:59:28:08:89:81:B3:17:FC:9A:6D:BF:E0:4B:0F:A1:3B:4E\n"
+"          SHA256: 43:23:8D:51:2C:1E:5E:B2:D6:56:9F:4A:3A:FB:F5:52:34:18:B8:2E"
+":0A:3E:D1:55:27:70:AB:B9:A9:C9:CC:AB\n"
+"        ```\n"
 
 #. type: Plain text
 #: build/_docs/md/Release_Channels_and_Signing_Keys.md
@@ -8234,6 +8283,15 @@ msgid ""
 "        \"Daniel Martí \\<mvdan@fsfe.org>\" with fingerprint: <br\n"
 "        />`A9DA 13CD F7A1 4ACD D3DE E530 F4CA FFDB 4348 041C`\n"
 msgstr ""
+"-   git repo: <https://gitlab.com/fdroid/fdroidserver>\n"
+"    -   git tags signed by \"Hans-Christoph Steiner\n"
+"        \\<hans@guardianproject.info>\" aka \"Hans-Christoph Steiner\n"
+"        \\<hans@eds.org>\" aka \"Hans-Christoph Steiner\n"
+"        \\<hans@at.or.at>\" with fingerprint: <br />\n"
+"        `EE66 20C7 136B 0D2C 456C 0A4D E9E2 8DEA 00AA 5556`\n"
+"    -   or previously \"Daniel Martí \\<mvdan@mvdan.cc>\" aka\n"
+"        \"Daniel Martí \\<mvdan@fsfe.org>\" with fingerprint: <br\n"
+"        />`A9DA 13CD F7A1 4ACD D3DE E530 F4CA FFDB 4348 041C`\n"
 
 #. type: Plain text
 #: build/_docs/md/Release_Channels_and_Signing_Keys.md
@@ -8248,6 +8306,15 @@ msgid ""
 "        or previously <br />`5E61 C878 0F86 295C E17D 8677 9F0F E587 374B BE81`\n"
 "    -   release command: `python3 setup.py sdist upload --sign`\n"
 msgstr ""
+"-   akemmus aɣbalu: <https://pypi.python.org/pypi/fdroidserver>\n"
+"    -   package tags signed by \"Hans-Christoph Steiner\n"
+"        \\<hans@guardianproject.info>\" aka \"Hans-Christoph Steiner\n"
+"        \\<hans@eds.org>\" aka \"Hans-Christoph Steiner\n"
+"        \\<hans@at.or.at>\" with fingerprint: <br />\n"
+"        `EE66 20C7 136B 0D2C 456C 0A4D E9E2 8DEA 00AA 5556`\n"
+"        or previously <br />`5E61 C878 0F86 295C E17D 8677 9F0F E587 374B "
+"BE81`\n"
+"    -   release command: `python3 setup.py sdist upload --sign`\n"
 
 #. type: Plain text
 #: build/_docs/md/Release_Channels_and_Signing_Keys.md
@@ -8264,6 +8331,16 @@ msgid ""
 "        5556` or previously <br />\n"
 "        `5E61 C878 0F86 295C E17D 8677 9F0F E587 374B BE81`\n"
 msgstr ""
+"-   official Debian package: <https://packages.debian.org/fdroidserver>\n"
+"    -   package source:\n"
+"        <https://anonscm.debian.org/git/collab-maint/fdroidserver.git>\n"
+"    -   package tags signed by \"Hans-Christoph Steiner\n"
+"        \\<hans@guardianproject.info>\" aka \"Hans-Christoph Steiner\n"
+"        \\<hans@eds.org>\" aka \"Hans-Christoph Steiner\n"
+"        \\<hans@at.or.at>\" with fingerprint: <br/>\n"
+"        `EE66 20C7 136B 0D2C 456C 0A4D E9E2 8DEA 00AA\n"
+"        5556` or previously <br />\n"
+"        `5E61 C878 0F86 295C E17D 8677 9F0F E587 374B BE81`\n"
 
 #. type: Plain text
 #: build/_docs/md/Release_Channels_and_Signing_Keys.md
@@ -8278,12 +8355,21 @@ msgid ""
 "    sudo apt-get install fdroidserver\n"
 "    ```\n"
 msgstr ""
+"-   official Ubuntu PPA: "
+"<https://launchpad.net/~fdroid/+archive/ubuntu/fdroidserver>\n"
+"    - fingerprint: `9AAC 2531 93B6 5D4D F1D0 A13E EC46 32C7 9C5E 0151`\n"
+"    - how to setup:\n"
+"    ```bash\n"
+"    sudo add-apt-repository ppa:fdroid/fdroidserver\n"
+"    sudo apt-get update\n"
+"    sudo apt-get install fdroidserver\n"
+"    ```\n"
 
 #. type: Title ##
 #: build/_docs/md/Release_Channels_and_Signing_Keys.md
 #, no-wrap
 msgid "Privileged Extension"
-msgstr ""
+msgstr "Isiɣzaf yettwasirgen"
 
 #. type: Plain text
 #: build/_docs/md/Release_Channels_and_Signing_Keys.md
@@ -8295,6 +8381,12 @@ msgid ""
 "        \\<hans@eds.org>\" aka \"Hans-Christoph Steiner\n"
 "        \\<hans@at.or.at>\" with fingerprint: <br/>`EE66 20C7 136B 0D2C 456C 0A4D E9E2 8DEA 00AA 5556`\n"
 msgstr ""
+"-   git repo: <https://gitlab.com/fdroid/privileged-extension>\n"
+"    -   git tags signed by \"Hans-Christoph Steiner\n"
+"        \\<hans@guardianproject.info>\" aka \"Hans-Christoph Steiner\n"
+"        \\<hans@eds.org>\" aka \"Hans-Christoph Steiner\n"
+"        \\<hans@at.or.at>\" with fingerprint: <br/>`EE66 20C7 136B 0D2C 456C "
+"0A4D E9E2 8DEA 00AA 5556`\n"
 
 #. type: Title #
 #: build/_docs/md/Release_Process.md
@@ -8454,7 +8546,7 @@ msgstr ""
 #: build/_docs/md/Release_Process.md
 #, no-wrap
 msgid "privileged-extension"
-msgstr ""
+msgstr "isiɣzaf yettwasirgen"
 
 #. type: Bullet: '6. '
 #: build/_docs/md/Release_Process.md
@@ -8610,7 +8702,7 @@ msgstr ""
 #: build/_docs/md/Repository_Style_Guide.md
 #, no-wrap
 msgid "Descriptions"
-msgstr ""
+msgstr "Iglamen"
 
 #. type: Plain text
 #: build/_docs/md/Repository_Style_Guide.md
@@ -8694,7 +8786,7 @@ msgstr ""
 #: build/_docs/md/Repository_Style_Guide.md
 #, no-wrap
 msgid "Donations"
-msgstr ""
+msgstr "Tiwsiwin"
 
 #. type: Plain text
 #: build/_docs/md/Repository_Style_Guide.md
@@ -8734,7 +8826,7 @@ msgstr ""
 #: build/_docs/md/Repository_Style_Guide.md
 #, no-wrap
 msgid "Updating"
-msgstr ""
+msgstr "Aleqqem"
 
 #. type: Plain text
 #: build/_docs/md/Repository_Style_Guide.md
@@ -9018,7 +9110,7 @@ msgstr ""
 #: build/_docs/md/Reproducible_Builds.md
 #, no-wrap
 msgid "Sources"
-msgstr ""
+msgstr "Iɣbula"
 
 #. type: Plain text
 #: build/_docs/md/Reproducible_Builds.md
@@ -9029,6 +9121,10 @@ msgid ""
 "reproducible-builds.org> - <https://wiki.debian.org/ReproducibleBuilds> - "
 "<https://gitian.org/>"
 msgstr ""
+"- <https://gitlab.com/fdroid/fdroidserver/commit/8568805866dadbdcc6c07449ca6b"
+"84b80d0ab03c> - [Aqeddac n usenqed](../Verification_Server)  - "
+"<https://verification.f-droid.org> - <https://reproducible-builds.org> - "
+"<https://wiki.debian.org/ReproducibleBuilds> - <https://gitian.org/>"
 
 #. type: Title #
 #: build/_docs/md/Security_Model.md
@@ -9200,7 +9296,7 @@ msgstr ""
 #: build/_docs/md/Setup_an_F-Droid_App_Repo.md
 #, no-wrap
 msgid "Overview"
-msgstr ""
+msgstr "Agzul"
 
 #. type: Plain text
 #: build/_docs/md/Setup_an_F-Droid_App_Repo.md
@@ -9705,7 +9801,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
 msgid "References:"
-msgstr ""
+msgstr "Timsisɣal:"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
@@ -9735,7 +9831,7 @@ msgstr ""
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
 #, no-wrap
 msgid "Setup"
-msgstr ""
+msgstr "Sbadu"
 
 #. type: Plain text
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
@@ -9816,7 +9912,7 @@ msgstr ""
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
 #, no-wrap
 msgid "Config"
-msgstr ""
+msgstr "Aswel"
 
 #. type: Plain text
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
@@ -10133,7 +10229,7 @@ msgstr ""
 #: build/_docs/md/Translation_and_Localization.md
 #, no-wrap
 msgid "Contributing"
-msgstr ""
+msgstr "Attekki"
 
 #. type: Plain text
 #: build/_docs/md/Translation_and_Localization.md
@@ -10404,6 +10500,9 @@ msgid ""
 "makebuildserver> - <https://jenkins.debian.net/job/"
 "reproducible_setup_fdroid_build_environment_profitbricks7/>"
 msgstr ""
+"- <https://gitlab.com/fdroid/fdroidserver/blob/master/jenkins-build-"
+"makebuildserver> - <https://jenkins.debian.net/job/reproducible_setup_fdroid_"
+"build_environment_profitbricks7/>"
 
 #. type: Title ###
 #: build/_docs/md/Verification_Server.md
@@ -10506,7 +10605,7 @@ msgstr ""
 #: build/_docs/md/Vulnerability_Scanning_with_Drozer.md
 #, no-wrap
 msgid "Command Line Help"
-msgstr ""
+msgstr "Tallelt n izirig n tladna"
 
 #. type: Plain text
 #: build/_docs/md/Vulnerability_Scanning_with_Drozer.md
@@ -10786,7 +10885,7 @@ msgstr ""
 #: build/_docs/md/Whitelabel_Builds.md
 #, no-wrap
 msgid "Customizations"
-msgstr ""
+msgstr "Aggan"
 
 #. type: Plain text
 #: build/_docs/md/Whitelabel_Builds.md
@@ -10815,7 +10914,7 @@ msgstr ""
 #: build/_docs/md/Whitelabel_Builds.md
 #, no-wrap
 msgid "Preferences"
-msgstr ""
+msgstr "Ismenyifen"
 
 #. type: Plain text
 #: build/_docs/md/Whitelabel_Builds.md
