@@ -33,7 +33,7 @@
         "signed_by_developer": "Ĝi estas kompilita kaj subskribita de la programisto mem.", 
         "signed_by_fdroid": "Ĝi estas kompilita kaj subskribita de F-Droid kaj oni garantias identecon kun <a href=\"[source_code_url]\">tiu ĉi fontkoda pakaĵo</a>.", 
         "source_code": "Fontkodo", 
-        "suggest_downloading_via_fdroid": "Kvankam APK-oj elŝuteblas sube, vi devus scii, ke per instali tiu maniere vi ne ricevos sciigojn pri ĝisdatigoj kaj tio estas malpli sekura maniero por elŝuti. Ni konsilas por ke vi instalu klienton F-Droid kaj uzu ĝin.", 
+        "suggest_downloading_via_fdroid": "Kvankam APK-oj elŝuteblas sube, vi devus scii, ke per instali tiumaniere vi ne ricevos sciigojn pri ĝisdatigoj kaj tio estas malpli sekura maniero por elŝuti. Ni konsilas por ke vi instalu klienton F-Droid kaj uzu ĝin.", 
         "technical_info": "Teĥnikaj detaloj", 
         "version_info": "<b>Versio [package_version]</b> ([package_version_code]) - aldonita je [package_added_date]", 
         "website": "Retejo"
@@ -58,7 +58,7 @@
             "heading": "Novaĵoj"
         }, 
         "search": {
-            "heading": "Trovi aplikaĵojn", 
+            "heading": "Serĉi aplikaĵojn", 
             "noscript": "Postulas aktivan ĝavoskripton"
         }
     }
