@@ -6,20 +6,24 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-11-01 15:03+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2017-11-13 18:46+0000\n"
+"Last-Translator: Verdulo <tomek@disroot.org>\n"
+"Language-Team: Esperanto <https://hosted.weblate.org/projects/f-droid"
+"/website-docs/eo/>\n"
 "Language: eo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.18-dev\n"
 
 #. type: Title #
 #: build/_pages/md/403.md
 #, no-wrap
 msgid "403 Forbidden"
-msgstr ""
+msgstr "Eraro 403: malpermesita"
 
 #. type: Plain text
 #: build/_pages/md/403.md build/_pages/md/404.md
@@ -27,18 +31,20 @@ msgid ""
 "If you think there should be something here, please [submit an issue]"
 "(https://gitlab.com/fdroid/fdroid-website/issues)."
 msgstr ""
+"Se vi pensas, ke io mankas tie ĉi, bonvolu [raporti "
+"problemon](https://gitlab.com/fdroid/fdroid-website/issues)."
 
 #. type: Title #
 #: build/_pages/md/404.md
 #, no-wrap
 msgid "404 Page Not Found"
-msgstr ""
+msgstr "Eraro 404: paĝo ne trovita"
 
 #. type: Title #
 #: build/_pages/md/about.md
 #, no-wrap
 msgid "About"
-msgstr ""
+msgstr "Pri"
 
 #. type: Plain text
 #: build/_pages/md/about.md
@@ -49,6 +55,10 @@ msgid ""
 "reviews and other features covering all things Android and software-freedom "
 "related."
 msgstr ""
+"F-Droid estas roboto kun inklino al Libera kaj Malfermkoda Programaro (FOSS) "
+"por operaciumo Android. Ĉe tiu ĉi retejo vi trovos deponejon de FOSS-"
+"aplikaĵoj, klienton por Android por instali kaj ĝisdatigi kaj novaĵojn, "
+"recenzojn kaj aliajn aĵojn pri Android kaj libereco de programaro."
 
 #. type: Plain text
 #: build/_pages/md/about.md
@@ -56,6 +66,8 @@ msgid ""
 "F-Droid is operated by F-Droid Limited, a non-profit organisation registered "
 "in England (no. 8420676)."
 msgstr ""
+"F-Droid estas estrata de F-Droid Limited, ne-profit-cela organizaĵo "
+"registrita en Anglujo (no. 8420676)."
 
 #. type: Plain text
 #: build/_pages/md/about.md
@@ -67,12 +79,19 @@ msgid ""
 "org). If you want to help, you can [join us]({{ \"/contribute/\" | prepend: "
 "site.baseurl }})."
 msgstr ""
+"Vi povas diskuti pri F-Droid aŭ akiri helpon per IRC ĉe [kanalo "
+"#fdroid](https://webchat.freenode.net/?channels=%23fdroid) ĉe freenode. "
+"Babiloj per IRC estas registrataj ĉe "
+"[BotBot.me](https://botbot.me/freenode/fdroid). Vi ankaŭ povas senpere "
+"kontakti nin per retpoŝto ĉe [team@f-droid.org](mailto:team@f-droid.org). Se "
+"vi volas helpi, vi povas [aliĝi]({{ \"/contribute/\" | prepend: site.baseurl "
+"}})."
 
 #. type: Title ###
 #: build/_pages/md/about.md build/_docs/md/Repository_Style_Guide.md
 #, no-wrap
 msgid "License"
-msgstr ""
+msgstr "Permesilo"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
@@ -81,6 +100,9 @@ msgid ""
 "community are a availble under the [GNU Affero General Public License "
 "version 3 or later (AGPLv3+)](https://www.gnu.org/licenses/agpl-3.0.html)."
 msgstr ""
+"La fontkodo por tiu ĉi retejo kaj la enhavo eldonita de la komunumo de F-"
+"Droid estas disponebla laŭ la permesilo [GNU Affero General Public License "
+"versio 3 aŭ pli nova (AGPLv3+)](https://www.gnu.org/licenses/agpl-3.0.html)."
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
@@ -91,6 +113,11 @@ msgid ""
 "License version 3 or later (GPLv3+)](https://www.gnu.org/licenses/gpl-3.0."
 "html)."
 msgstr ""
+"La enhavo de la sekcio “novaĵoj” kaj la mark-emblemo F-Droid estas "
+"disponeblaj laŭ la permesiloj [Krea Komunaĵo Atribuite-Samkondiĉe 3.0 (CC-BY-"
+"SA-3.0)](https://creativecommons.org/licenses/by-sa/3.0/deed.eo) aŭ [GNU "
+"General Public License versio 3 aŭ pli nova "
+"(GPLv3+)](https://www.gnu.org/licenses/gpl-3.0.html)."
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
@@ -98,6 +125,9 @@ msgid ""
 "The descriptive text and graphics for each app have a specific license from "
 "that project.  Free software should also have free descriptions and graphics."
 msgstr ""
+"La priskrib-teksto kaj grafikaĵo de ĉiu aplikaĵo estas eldonitaj laŭ propra "
+"permesilo por tiu projekto. Libera programaro ankaŭ havu liberan priskribon "
+"kaj grafikaĵon."
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
@@ -105,12 +135,14 @@ msgid ""
 "The F-Droid logo was created by William Theaker. Updates to that, and "
 "additional artwork, are by Robert Martinez."
 msgstr ""
+"La mark-emblemo de F-Droid estis kreita de William THEAKER. Ĝiaj ĝisdatigoj "
+"kaj plia artaĵo danke al Robert MARTINEZ."
 
 #. type: Title ###
 #: build/_pages/md/about.md
 #, no-wrap
 msgid "Terms, etc."
-msgstr ""
+msgstr "Kondiĉoj, ktp."
 
 #. type: Plain text
 #: build/_pages/md/about.md
@@ -122,6 +154,12 @@ msgid ""
 "source code is checked for potential security or privacy issues. This "
 "checking is far from exhaustive though, and there are no guarantees."
 msgstr ""
+"F-Droid estas neprofita [volontula]({{ \"/contribute/\" | prepend: "
+"site.baseurl }}) projekto. Kvankam oni faris ĉion por certigi ke ĉio en la "
+"deponejo estas sekura por instali, vi uzas ĝin NUR SUB VIA RISKO.Kiam tio "
+"eblas, aplikaĵoj en la deponejo estas kompilitaj el fontkodo kaj tiu "
+"fontkodo estas kontrolita pri eblaj sekurecaj kaj privatecaj problemoj. "
+"Tamen tiu kontrolo ne estas funda, do oni garantias nenion."
 
 #. type: Plain text
 #: build/_pages/md/about.md
@@ -136,12 +174,20 @@ msgid ""
 "to post on the forum) goes no further than us, and will not be used for "
 "anything other than allowing you to maintain your account."
 msgstr ""
+"F-Droid respektas vian privatecon. Ni ne spuras vin aŭ vian aparaton. Ni ne "
+"spuras kion vi instalas. Ni ne postulas konton por uzi la klienton kaj "
+"neniuj kromaj identigaj datumoj krom numero de versio estas sendataj al nia "
+"servilo. Ni eĉ ne permesas instali aliajn spurantajn aplikaĵojn el la "
+"deponejo, escepte se vi aktivigos fieblon “spurado” en agordoj. Ĉiuj "
+"personaj datumoj, kiujn vi decidas doni al ni (ekz. retpoŝta adreso kiam "
+"registri konton por skribi en la forumo) ne forlasas nin kaj ne estos uzitaj "
+"por iu escepte administri vian konton."
 
 #. type: Title ###
 #: build/_pages/md/about.md
 #, no-wrap
 msgid "Contributors"
-msgstr ""
+msgstr "Kontribuintoj"
 
 #. type: Plain text
 #: build/_pages/md/about.md
@@ -149,6 +195,8 @@ msgid ""
 "The F-Droid project was founded in 2010 by Ciaran Gultnieks, and is brought "
 "to you by at least the following people:"
 msgstr ""
+"La projekto F-Droid estis fondita je 2010 de Ciaran GULTNIEKS kaj ekzistas "
+"danke al (almenaŭ) jenaj personoj:"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
@@ -437,6 +485,9 @@ msgid ""
 "list](https://gitlab.com/fdroid/fdroid-website/blob/master/_pages/about.md)! "
 "Keep it sorted by surname, please."
 msgstr ""
+"Se via nomo mankas aŭ eraras, aldonu vin al la "
+"listo](https://gitlab.com/fdroid/fdroid-website/blob/master/_pages/about.md)"
+"! Bonvolu ordigi ĝin laŭ familinomo."
 
 #. type: Plain text
 #: build/_pages/md/about.md
@@ -444,24 +495,27 @@ msgid ""
 "The original F-Droid client app was based on the Aptoide app developed by "
 "Roberto Jacinto."
 msgstr ""
+"La originala kliento F-Droid estas bazita sur la aplikaĵo Aptoide de Roberto "
+"JACINTO."
 
 #. type: Title #
 #: build/_pages/md/contribute.md
 #, no-wrap
 msgid "Contribute"
-msgstr ""
+msgstr "Kontribui"
 
 #. type: Plain text
 #: build/_pages/md/contribute.md
 msgid ""
 "The project is entirely developed and maintained by volunteers. You can help:"
 msgstr ""
+"La projekto estas tute kreita kaj prizorgata de volontuloj. Vi povas helpi:"
 
 #. type: Title ###
 #: build/_pages/md/contribute.md
 #, no-wrap
 msgid "Report Problems"
-msgstr ""
+msgstr "Raporti erarojn"
 
 #. type: Plain text
 #: build/_pages/md/contribute.md
@@ -470,21 +524,26 @@ msgid ""
 "them in the issue tracker (see below), or discuss them in the [Forum]"
 "(https://forum.f-droid.org/) or on IRC (#fdroid on freenode)."
 msgstr ""
+"Se vi spertas problemon pri retejo aŭ klienta aplikaĵo, vi povas raporti "
+"ilin al la erar-spurilo (rigardu sube) aŭ pridiskuti ilin en la "
+"[forumo](https://forum.f-droid.org/) aŭ en IRC (#fdroid ĉe freenode)."
 
 #. type: Plain text
 #: build/_pages/md/contribute.md
 msgid "For reporting issues, choose an appropriate tracker from the following:"
-msgstr ""
+msgstr "Por raporti problemon, elektu ĝustan erar-spurilon el la jenaj:"
 
 #. type: Bullet: '* '
 #: build/_pages/md/contribute.md
 msgid "[F-Droid client app](https://gitlab.com/fdroid/fdroidclient/issues)"
 msgstr ""
+"[klienta aplikaĵo de F-Droid](https://gitlab.com/fdroid/fdroidclient/issues)"
 
 #. type: Bullet: '* '
 #: build/_pages/md/contribute.md
 msgid "[Server and build tools](https://gitlab.com/fdroid/fdroidserver/issues)"
 msgstr ""
+"[servilo kaj deponej-ilaro](https://gitlab.com/fdroid/fdroidserver/issues)"
 
 #. type: Bullet: '* '
 #: build/_pages/md/contribute.md
@@ -492,12 +551,14 @@ msgid ""
 "[Official F-Droid repository metadata](https://gitlab.com/fdroid/fdroiddata/"
 "issues)"
 msgstr ""
+"[metadatumoj de oficiala deponejo de "
+"F-Droid](https://gitlab.com/fdroid/fdroiddata/issues)"
 
 #. type: Title ###
 #: build/_pages/md/contribute.md
 #, no-wrap
 msgid "Submit Applications"
-msgstr ""
+msgstr "Aldoni aplikaĵojn"
 
 #. type: Plain text
 #: build/_pages/md/contribute.md
@@ -507,6 +568,10 @@ msgid ""
 "via the dedicated [Requests For Packaging](https://gitlab.com/fdroid/rfp/"
 "issues) issue tracker."
 msgstr ""
+"Se vi rigardis, ke iu aplikaĵo malestas en la deponejo (post legi politikon "
+"pri enmeto](../docs/Inclusion_Policy)), bonvolu simple anonci ĝin per la "
+"speciala erar-spurilo pri [aldoni novajn "
+"pakaĵojn](https://gitlab.com/fdroid/rfp/issues)."
 
 #. type: Plain text
 #: build/_pages/md/contribute.md
@@ -516,11 +581,15 @@ msgid ""
 "gitlab.com/fdroid/fdroiddata/blob/master/CONTRIBUTING.md), which will "
 "drastically speed up the inclusion of the application."
 msgstr ""
+"Se vi estas teĥnike lerta, vi ankaŭ povas kunmeti bezonatajn metadatumojn "
+"kaj [enmeti ilin en la deponejon F-Droid – "
+"datumoj](https://gitlab.com/fdroid/fdroiddata/blob/master/CONTRIBUTING.md), "
+"tio ĉi plirapidigos enmeton de nova aplikaĵo."
 
 #. type: Plain text
 #: build/_pages/md/contribute.md
 msgid "The same applies for helping to build newer versions of applications."
-msgstr ""
+msgstr "Seme kun helpi kompili novajn versiojn de aplikaĵoj."
 
 #. type: Plain text
 #: build/_pages/md/contribute.md
@@ -529,12 +598,14 @@ msgid ""
 "asking [on IRC](https://webchat.freenode.net/?channels=%23fdroid) (#fdroid "
 "on freenode)."
 msgstr ""
+"Pliajn informojn oni trovos en [la dokumentaro](../docs) aŭ per demandi [per "
+"IRC](https://webchat.freenode.net/?channels=%23fdroid) (#fdroid ĉe freenode)."
 
 #. type: Title ###
 #: build/_pages/md/contribute.md build/_docs/md/How_to_Help.md
 #, no-wrap
 msgid "Translate"
-msgstr ""
+msgstr "Traduki"
 
 #. type: Plain text
 #: build/_pages/md/contribute.md
@@ -544,6 +615,10 @@ msgid ""
 "account and use the [translation system](https://hosted.weblate.org/projects/"
 "f-droid/) to make your changes."
 msgstr ""
+"La klienta aplikaĵo estas disponebla en multe da lingvoj. Se via lingvo "
+"mankas aŭ bezonas ĝisdatigon aŭ plibonigon, bonvolu krei konton kaj uzi [la "
+"traduk-sistemon](https://hosted.weblate.org/projects/f-droid/) por fari "
+"ŝanĝojn."
 
 #. type: Plain text
 #: build/_pages/md/contribute.md
@@ -588,7 +663,7 @@ msgstr ""
 #: build/_pages/md/docs.md
 #, no-wrap
 msgid "Docs"
-msgstr ""
+msgstr "Dokumentaro"
 
 #. type: Plain text
 #: build/_pages/md/docs.md
@@ -615,7 +690,7 @@ msgstr ""
 #: build/_pages/md/docs.md
 #, no-wrap
 msgid "Getting Started"
-msgstr ""
+msgstr "Unuaj paŝoj"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
@@ -682,7 +757,7 @@ msgstr ""
 #: build/_pages/md/docs.md
 #, no-wrap
 msgid "Developers"
-msgstr ""
+msgstr "Programistoj"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
