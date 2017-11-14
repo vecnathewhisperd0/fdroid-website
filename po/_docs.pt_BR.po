@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-11-11 14:48+0000\n"
+"PO-Revision-Date: 2017-11-15 13:48+0000\n"
 "Last-Translator: Marcus Vinicius Santos <m.vinicius@zoho.com>\n"
 "Language-Team: Portuguese (Brazil) "
 "<https://hosted.weblate.org/projects/f-droid/website-docs/pt_BR/>\n"
@@ -108,10 +108,11 @@ msgstr ""
 #: build/_pages/md/about.md
 #, no-wrap
 msgid "Terms, etc."
-msgstr ""
+msgstr "Termos etc."
 
 #. type: Plain text
 #: build/_pages/md/about.md
+#, fuzzy
 msgid ""
 "F-Droid is a non-profit [volunteer]({{ \"/contribute/\" | prepend: site."
 "baseurl }}) project. Although every effort is made to ensure that everything "
@@ -120,6 +121,13 @@ msgid ""
 "source code is checked for potential security or privacy issues. This "
 "checking is far from exhaustive though, and there are no guarantees."
 msgstr ""
+"F-Droid é um projeto sem fins lucrativos [voluntário]({{ \"/contribute/\" | "
+"prepend: site.baseurl }}). Apesar de fazermos todos os esforços para "
+"assegurar que todo o conteúdo do repositório é seguro de ser instalado, você "
+"o utilizará POR SUA CONTA E RISCO. Quando possível, os aplicativos do "
+"repositório são compilados a partir do código fonte, que é verificado por "
+"questões de segurança e privacidade. Essa verificação, no entanto, está "
+"longe de ser exaustiva e não há garantias."
 
 #. type: Plain text
 #: build/_pages/md/about.md
