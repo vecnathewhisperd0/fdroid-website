@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-11-14 08:24+0000\n"
-"Last-Translator: anonymous <>\n"
+"PO-Revision-Date: 2017-11-14 20:46+0000\n"
+"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/de/>\n"
 "Language: de\n"
@@ -8011,7 +8011,7 @@ msgid ""
 "They will list a summary of any [AntiFeatures](https://f-droid.org/wiki/page/"
 "Antifeatures) in your application."
 msgstr ""
-"Sie werden eine Zusammenstellung aller [Unfreier "
+"Sie werden eine Zusammenstellung aller [problematischer "
 "Merkmale](https://f-droid.org/wiki/page/Antifeatures) in Ihrer Anwendung "
 "auflisten."
 
@@ -9299,7 +9299,7 @@ msgstr ""
 #: build/_docs/md/Repository_Style_Guide.md
 #, no-wrap
 msgid "AntiFeatures"
-msgstr ""
+msgstr "Problematische Merkmale"
 
 #. type: Plain text
 #: build/_docs/md/Repository_Style_Guide.md
