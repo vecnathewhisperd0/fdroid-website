@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-10-23 17:44+0000\n"
+"PO-Revision-Date: 2017-11-15 09:45+0000\n"
 "Last-Translator: ezjerry liao <ezjerry@gmail.com>\n"
 "Language-Team: Chinese (Traditional) "
 "<https://hosted.weblate.org/projects/f-droid/website-docs/zh_Hant/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2.17\n"
+"X-Generator: Weblate 2.18-dev\n"
 
 #. type: Title #
 #: build/_pages/md/about.md
@@ -509,6 +509,8 @@ msgid ""
 "use the [translation system](https://hosted.weblate.org/projects/f-droid/) "
 "to make your changes."
 msgstr ""
+"客戶端應用程式有多種語言可用，如果不包含您的語言，或者需要更新或作改善，請註冊一個賬號並使用[翻譯系統]\n"
+" (https://hosted.weblate.org/projects/f-droid/) 進行修改。"
 
 #. type: Plain text
 #: build/_pages/md/contribute.md
@@ -811,7 +813,7 @@ msgid ""
 "(https://gitlab.com/fdroid/fdroidclient/issues)."
 msgstr ""
 "如果您遇到 F-Droid "
-"用戶端應用程式有問題，請在[問題追蹤](https://gitlab.com/fdroid/fdroidclient/issues) "
+"客戶端應用程式有問題，請在[問題追蹤](https://gitlab.com/fdroid/fdroidclient/issues) "
 "查對是否為已知問題，或是提出報告。"
 
 #. type: Plain text
@@ -5903,7 +5905,7 @@ msgstr ""
 #: build/_docs/md/How_to_Help.md
 #, no-wrap
 msgid "Follow our work"
-msgstr ""
+msgstr "跟隨我們的工作"
 
 #. type: Plain text
 #: build/_docs/md/How_to_Help.md
@@ -6004,14 +6006,14 @@ msgstr ""
 msgid ""
 "The web site, this wiki , and app descriptions are not covered yet, but will "
 "be included in the same system at a later date."
-msgstr ""
+msgstr "網站、wiki和應用程式說明等尚未涵蓋，但將會在近期包含在同一個系統中。"
 
 #. type: Plain text
 #: build/_docs/md/How_to_Help.md
 msgid ""
 "There's a [dedicated forum section](https://forum.f-droid.org/c/"
 "translation)  for discussions about translation."
-msgstr ""
+msgstr "有一個 [專用論壇的區段](https://forum.f-droid.org/c/translation) 給相關翻譯的討論。"
 
 #. type: Title ###
 #: build/_docs/md/How_to_Help.md
@@ -6068,7 +6070,7 @@ msgstr ""
 #: build/_docs/md/How_to_Help.md
 #, no-wrap
 msgid "Design"
-msgstr ""
+msgstr "設計"
 
 #. type: Plain text
 #: build/_docs/md/How_to_Help.md
@@ -6080,17 +6082,21 @@ msgid ""
 "[client](https://gitlab.com/fdroid/fdroidclient/issues) or the [website]"
 "(https://gitlab.com/fdroid/fdroid-website/issues)."
 msgstr ""
+"我們喜愛任何的貢獻，以使這個專案更漂亮、更容易使用。如果您擅長寫作，我們正在努力改進[首頁](https://f-droid.org/wiki/page/"
+"Home_page)。如果您可以設計版面編排，客戶端開發人員可以使用您的幫助。將它們貼在[客戶端]上的問題追蹤(https://gitlab.com/fd"
+"roid/fdroidclient/issues)或[網站](https://gitlab.com/fdroid/fdroid-"
+"website/issues)。"
 
 #. type: Title #
 #: build/_docs/md/How_to_update_an_app.md
 #, no-wrap
 msgid "How to update an app"
-msgstr ""
+msgstr "如何更新應用程式"
 
 #. type: Plain text
 #: build/_docs/md/How_to_update_an_app.md
 msgid "What I would like to read here would be:"
-msgstr ""
+msgstr "我想在這裡獲悉的是："
 
 #. type: Bullet: '-   '
 #: build/_docs/md/How_to_update_an_app.md
