@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-11-15 19:16+0000\n"
-"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
+"PO-Revision-Date: 2017-11-16 19:46+0000\n"
+"Last-Translator: anonymous <>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/de/>\n"
 "Language: de\n"
@@ -8277,6 +8277,9 @@ msgid ""
 "git repository on GitLab, **it won't immediately appear** in the main F-"
 "Droid repository."
 msgstr ""
+"Wenn Ihre Anwendungsmetadaten genehmigt und im fdroiddata-Git-Repository auf "
+"GitLab angenommen wurden, **erscheinen sie nicht unverzüglich** im F-Droid-"
+"Hauptrepository."
 
 #. type: Plain text
 #: build/_docs/md/Inclusion_How-To.md
@@ -8303,7 +8306,7 @@ msgstr ""
 #: build/_docs/md/Inclusion_How-To.md
 #, no-wrap
 msgid "External Links\n"
-msgstr ""
+msgstr "Externe Verknüpfungen"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Inclusion_How-To.md
@@ -8311,6 +8314,8 @@ msgid ""
 "[F-Droid application submission queue on GitLab](https://gitlab.com/fdroid/"
 "rfp/issues) (for new submissions)"
 msgstr ""
+"[Submission Queue für F-Droid-Anwendungen auf "
+"GitLab](https://gitlab.com/fdroid/rfp/issues) (für Neuanträge)"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Inclusion_How-To.md
@@ -8318,11 +8323,15 @@ msgid ""
 "[F-Droid application submission queue on forum](https://f-droid.org/forums/"
 "forum/submission-queue/) (for following-up old submissions)"
 msgstr ""
+"[Submission Queue für F-Droid-Anwendungen im "
+"Forum](https://f-droid.org/forums/forum/submission-queue/) (zur "
+"Nachverfolgung alter Anträge)"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Inclusion_How-To.md
 msgid "[fdroiddata GitLab repository](https://gitlab.com/fdroid/fdroiddata/)"
 msgstr ""
+"[fdroiddata im GitLab-Repository](https://gitlab.com/fdroid/fdroiddata/)"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Inclusion_How-To.md
@@ -8355,11 +8364,14 @@ msgid ""
 "including all libraries and dependencies used. Additionally, it must be "
 "buildable with only FLOSS tools."
 msgstr ""
+"Damit Software FLOSS sein kann, muss die Software in ihrer Gesamtheit so "
+"sein - einschließlich aller verwendeten Bibliotheken und Abhängigkeiten. "
+"Zusätzlich muss sie allein mit FLOSS-Instrumenten herstellbar sein."
 
 #. type: Plain text
 #: build/_docs/md/Inclusion_Policy.md
 msgid "Notably:"
-msgstr ""
+msgstr "Zu beachten ist:"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Inclusion_Policy.md
@@ -8396,7 +8408,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Inclusion_Policy.md
 msgid "Additionally:"
-msgstr ""
+msgstr "Darüberhinaus:"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Inclusion_Policy.md
@@ -8405,6 +8417,10 @@ msgid ""
 "accessible Version Control System which we have support for (git, hg, svn, "
 "bzr), and the source code needs to be maintained in an up to date state."
 msgstr ""
+"Der Quelltext für die Anwendung muss in einem öffentlich zugänglichen "
+"Versionsverwaltungssystem gepflegt werden, das von uns unterstützt wird ("
+"git, hg, svn, bzr), und der Quelltext muss auf dem neusten Stand gehalten "
+"werden."
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Inclusion_Policy.md
@@ -10588,6 +10604,9 @@ msgid ""
 "Should give no output if it worked fdroid build --server org.fdroid.fdroid "
 "```"
 msgstr ""
+"cd ../fdroiddata mkdir repo fdroid update --create-key fdroid readmeta # "
+"Should give no output if it worked fdroid build --server org.fdroid.fdroid "
+"```"
 
 #. type: Title ####
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
@@ -11417,6 +11436,19 @@ msgid ""
 " adb connect 172.17.0.2:32776\n"
 "```\n"
 msgstr ""
+"```\n"
+"CONTAINER ID        IMAGE                   COMMAND\n"
+"CREATED             STATUS              PORTS\n"
+"NAMES\n"
+"b90a60afe477        dscanner/fdroidserver   \"/home/drozer/entrypo\"   20\n"
+"minutes ago      Up 20 minutes       0.0.0.0:32779->22/tcp,\n"
+"0.0.0.0:32778->5037/tcp, 0.0.0.0:32777->5554/tcp,\n"
+"0.0.0.0:32776->5555/tcp, 0.0.0.0:32775->5900/tcp,\n"
+"0.0.0.0:32774->5901/tcp   dscanner\n"
+"Use:\n"
+" adb kill-server\n"
+" adb connect 172.17.0.2:32776\n"
+"```\n"
 
 #. type: Plain text
 #: build/_docs/md/Vulnerability_Scanning_with_Drozer.md
@@ -11461,6 +11493,15 @@ msgid ""
 "}\n"
 "```\n"
 msgstr ""
+"```gradle\n"
+"android {\n"
+"    productFlavors {\n"
+"       mycompany {\n"
+"           applicationId \"com.mycompany.appstore\"\n"
+"       }\n"
+"    }\n"
+"}\n"
+"```\n"
 
 #. type: Plain text
 #: build/_docs/md/Whitelabel_Builds.md
