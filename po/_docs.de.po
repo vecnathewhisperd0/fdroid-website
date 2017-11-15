@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-11-15 18:56+0000\n"
-"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
+"PO-Revision-Date: 2017-11-15 18:59+0000\n"
+"Last-Translator: anonymous <>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/de/>\n"
 "Language: de\n"
@@ -3241,6 +3241,13 @@ msgid ""
 "    available likewise: \\$\\$VERSION\\$\\$, \\$\\$VERCODE\\$\\$\n"
 "    and \\$\\$COMMIT\\$\\$.\n"
 msgstr ""
+"    Es kann \\$\\$SDK\\$\\$, \\$\\$NDK\\$\\$ and \\$\\$MVN3\\$\\$ verwendet "
+"werden,\n"
+"    um die Pfade zu den Android-SDK- und NDK-Verzeichnissen bzw. zur \n"
+"    ausführbaren Maven 3 zu ersetzen. Die folgenden Variablen pro Build\n"
+"    stehen ebenfalls zur Verfügung: \\$\\$VERSION\\$\\$, \\$\\$VERCODE\\$\\$"
+"\n"
+"    und \\$\\$COMMIT\\$\\$.\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -4022,7 +4029,7 @@ msgstr ""
 #: build/_docs/md/Build_Server_Setup.md
 #, no-wrap
 msgid "Build Server Setup"
-msgstr ""
+msgstr "Build-Serveraufbau"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
@@ -4816,7 +4823,7 @@ msgid ""
 "[F-droid issue tracker](https://f-droid.org/issues/) specifically [F-droid "
 "client section](https://gitlab.com/fdroid/fdroidclient/issues)"
 msgstr ""
-"Bei der [F-Droid-Fehlerverfolgung](https://f-droid.org/issues/) speziell in "
+"Bei den [Issue Tracker von F-Droid](https://f-droid.org/issues/) speziell in "
 "der [Abteilung für den F-Droid-"
 "Client](https://gitlab.com/fdroid/fdroidclient/issues)"
 
