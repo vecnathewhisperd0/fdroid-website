@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-11-15 18:54+0000\n"
-"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
+"PO-Revision-Date: 2017-11-15 18:55+0000\n"
+"Last-Translator: anonymous <>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/de/>\n"
 "Language: de\n"
@@ -2079,7 +2079,7 @@ msgstr "Umwandlung zu (`<source>`) in der XML-Datei (_index.xml_).\n"
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.10 Issue Tracker<a name=\"Issue-Tracker\"></a>"
-msgstr "7.10 Problemerfassung<a name=\"Issue-Tracker\"></a>"
+msgstr "7.10 Issue Tracker<a name=\"Issue-Tracker\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2087,8 +2087,8 @@ msgid ""
 "The URL for the application’s issue tracker. Optional, since not all "
 "applications have one."
 msgstr ""
-"Die URL zur Problemerfassung der Anwendung. Optional, da nicht alle "
-"Anwendungen eine besitzen."
+"Die URL zum Issue Tracker der Anwendung. Optional, da nicht alle Anwendungen "
+"eine besitzen."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
