@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-05-17 11:31+1000\n"
 "PO-Revision-Date: 2017-11-19 16:40+0000\n"
-"Last-Translator: pitchum <pitchum@gramaton.org>\n"
+"Last-Translator: anonymous <>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/fr/>\n"
 "Language: fr\n"
@@ -5354,7 +5354,7 @@ msgstr ""
 #: build/_docs/md/FAQ_-_General.md
 #, no-wrap
 msgid "What's the difference between source and binary builds?"
-msgstr ""
+msgstr "Quelle est la différence entre les sources et les binaires compilés? "
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_General.md
