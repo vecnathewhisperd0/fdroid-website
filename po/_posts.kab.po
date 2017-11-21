@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: Kabyle (F-Droid)\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-11-10 09:44+0200\n"
-"PO-Revision-Date: 2017-11-10 08:59+0000\n"
-"Last-Translator: Muḥend Belqasem <belkacem77@gmail.com>\n"
+"PO-Revision-Date: 2017-11-22 11:48+0000\n"
+"Last-Translator: ButterflyOfFire <ButterflyOfFire@protonmail.com>\n"
 "Language-Team: Kabyle <https://hosted.weblate.org/projects/f-droid/website-"
 "posts/kab/>\n"
 "Language: kab\n"
@@ -18,7 +18,7 @@ msgstr ""
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md
 #, no-wrap
 msgid "\"F-Droid supports APK Expansion Files aka OBB\""
-msgstr "\"F-Droid isefrak isiɣzaf n ifuyla APK aka OBB\""
+msgstr "\"F-Droid isefrak isiγzaf n ifuyla APK aka OBB\""
 
 #. type: Plain text
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md
@@ -266,7 +266,7 @@ msgstr ""
 #. type: Bullet: ' * '
 #: build/_posts/md/2017-04-04-new-ux.md
 msgid "Ability to translate apps metadata"
-msgstr "Iɣef-isefka zemren ad ttwasuqlen"
+msgstr "Iγef-isefka zemren ad ttwasuqlen"
 
 #. type: Bullet: ' * '
 #: build/_posts/md/2017-04-04-new-ux.md
@@ -450,7 +450,7 @@ msgid ""
 msgstr ""
 "![]({{ site.baseurl "
 "}}/assets/posts/2017-07-03-cuba/celulares_apps_and_updates.jpg)<br/>\n"
-"*Taḥanut n tiliɣiryin tizirazin yettmuddun isnasen d ileqman*\n"
+"*Taḥanut n tiliγiryin tizirazin yettmuddun isnasen d ileqman*\n"
 
 #. type: Plain text
 #: build/_posts/md/2017-07-03-cuba.md
@@ -621,7 +621,7 @@ msgstr ""
 #, no-wrap
 msgid "*This post was originally published on [blog.grobox.de/2017/how-f-droid-is-bringing-apps-to-cuba](https://blog.grobox.de/2017/how-f-droid-is-bringing-apps-to-cuba/).*\n"
 msgstr ""
-"*Izen-agi yeffeɣ-d di tazwara di [blog.grobox.de/2017/how-f-droid-is-"
+"*Izen-agi yeffeγ-d di tazwara di [blog.grobox.de/2017/how-f-droid-is-"
 "bringing-apps-to-cuba](https://blog.grobox.de/2017/how-f-droid-is-bringing-"
 "apps-to-cuba/).*\n"
 
@@ -629,7 +629,7 @@ msgstr ""
 #: build/_posts/md/2017-10-10-fdroid-is-1.0.md
 #, no-wrap
 msgid "\"F-Droid is 1.0!\""
-msgstr "\"F-Droid d 1.0!\""
+msgstr "\"F-Droid d 1.0 !\""
 
 #. type: Plain text
 #: build/_posts/md/2017-10-10-fdroid-is-1.0.md
@@ -864,7 +864,7 @@ msgid ""
 "  -I, --icons           对超过像素大小上限的全部图标进行尺寸调整，然后退出\n"
 "```\n"
 msgstr ""
-"tiɣira nniḍen:\n"
+"tiγira nniḍen:\n"
 "  -h, --help            show this help message and exit\n"
 "  -v, --verbose         比一般情况输出更多的信息\n"
 "  -q, --quiet           仅输出警告和出错信息\n"
@@ -969,10 +969,11 @@ msgid ""
 "Android client"
 msgstr ""
 "rnu [missing features](https://gitlab.com/fdroid/fdroidclient/issues) ar "
-"umsaɣ Android clien"
+"umsaγ Android client"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2017-10-10-fdroid-is-1.0.md
+#, fuzzy
 msgid ""
 "make [Repomaker](https://gitlab.com/fdroid/repomaker/issues) work well on "
 "your platform"
