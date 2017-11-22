@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-11-01 15:03+0100\n"
-"PO-Revision-Date: 2017-11-21 11:46+0000\n"
+"PO-Revision-Date: 2017-11-23 23:45+0000\n"
 "Last-Translator: Verdulo <tomek@disroot.org>\n"
 "Language-Team: Esperanto <https://hosted.weblate.org/projects/f-droid"
 "/website-docs/eo/>\n"
@@ -589,7 +589,7 @@ msgstr ""
 #. type: Plain text
 #: build/_pages/md/contribute.md
 msgid "The same applies for helping to build newer versions of applications."
-msgstr "Seme kun helpi kompili novajn versiojn de aplikaĵoj."
+msgstr "Same kun helpi kompili novajn versiojn de aplikaĵoj."
 
 #. type: Plain text
 #: build/_pages/md/contribute.md
@@ -658,7 +658,7 @@ msgstr ""
 "por Android](https://gitlab.com/fdroid/fdroidclient), alia por [servila "
 "ilaro](https://gitlab.com/fdroid/fdroidserver) por lanĉi deponejon kaj "
 "kompili/instali aplikaĵojn loke, alia por rilataj [metadatumoj pri aplikaĵoj "
-"en la ĉefa deponejo de F-Droid](https://gitlab.com/fdroid/fdroiddata. La "
+"en la ĉefa deponejo de F-Droid](https://gitlab.com/fdroid/fdroiddata). La "
 "lasta deponejo temas pri [retejo kaj dokumentaro](https://gitlab.com/fdroid"
 "/fdroid-website). La plej facila maniero por kontribui disvolvadon estas "
 "fari kopion de tiuj deponejoj kaj enmeti ŝanĝojn. Se vi faras seriozajn "
