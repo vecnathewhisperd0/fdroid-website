@@ -2,7 +2,7 @@
     "index": {
         "download_fdroid": "F-Droid'i İndir", 
         "gpg_signature": "PGP İmzası", 
-        "introduction": "F-Droid, Android platformu için FOSS (Özgür ve Açık Kaynaklı Yazılım) uygulamalarının yüklenebilir bir kataloğudur. İstemci; uygulamaları taramayı, kurmayı ve  güncellemeleri aygıtınızda izlemeyi kolaylaştırır.", 
+        "introduction": "F-Droid, Android platformu için FOSS (Özgür ve Açık Kaynaklı Yazılım) uygulamalarının kurulabilir bir kataloğudur. İstemci; uygulamaları taramayı, kurmayı ve  güncellemeleri aygıtınızda izlemeyi kolaylaştırır.", 
         "screenshot": "F-Droid Android uygulaması ekran görüntüsü", 
         "title": "F-Droid nedir?"
     }, 
