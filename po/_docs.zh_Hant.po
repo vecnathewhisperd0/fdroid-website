@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-11-15 09:45+0000\n"
-"Last-Translator: ezjerry liao <ezjerry@gmail.com>\n"
+"PO-Revision-Date: 2017-11-25 08:45+0000\n"
+"Last-Translator: riotism <thejacklau@gmail.com>\n"
 "Language-Team: Chinese (Traditional) "
 "<https://hosted.weblate.org/projects/f-droid/website-docs/zh_Hant/>\n"
 "Language: zh_Hant\n"
@@ -34,16 +34,15 @@ msgid ""
 "reviews and other features covering all things Android and software-freedom "
 "related."
 msgstr ""
-"F-Droid 是一個機器人，熱衷於在 Android 的自由和開源（FOSS）的軟體。您會在這個網站找到一個為 FOSS "
-"應用程式而設的儲存庫，以及一個讓您安裝、更新這些 FOSS 應用程式的 Android 用戶端。除了這些，這裡還有關於 Android "
-"和軟體自由的消息、評論和文章。"
+"F-Droid 是一個熱衷 Android 自由和開源（FOSS）軟體的機器人。本網站除設有一個 FOSS 的應用程式庫，還有一個 Android "
+"用戶端，讓您安裝和更新這些 FOSS 應用程式。關於 Android 和軟體自由林林總總的消息、評論和文章都可以在本網站找到。"
 
 #. type: Plain text
 #: build/_pages/md/about.md
 msgid ""
 "F-Droid is operated by F-Droid Limited, a non-profit organisation registered "
 "in England (no. 8420676)."
-msgstr "F-Droid 由 F-Droid Limited 負責營運，是一個在英格蘭註冊（no. 8420676）的非營利組織。"
+msgstr "F-Droid 的營運者為 F-Droid Limited，是一個在英格蘭註冊（no. 8420676）的非營利組織。"
 
 #. type: Plain text
 #: build/_pages/md/about.md
@@ -95,7 +94,7 @@ msgstr ""
 #: build/_pages/md/about.md
 #, no-wrap
 msgid "Terms, etc."
-msgstr "條款等等。"
+msgstr "條款"
 
 #. type: Plain text
 #: build/_pages/md/about.md
@@ -107,9 +106,9 @@ msgid ""
 "source code is checked for potential security or privacy issues. This "
 "checking is far from exhaustive though, and there are no guarantees."
 msgstr ""
-"F-Droid 是一個非營利組織[志願者]({{ \"/contribute/\" | prepend: site.baseurl }})專案。縱然盡一切"
-"的努力確保軟體倉庫中所有內容都能安全的安裝，但您自己還是要承擔使用它的風險。軟體倉庫中的應用程式，是盡可能的從原始碼構建，並且那些原始碼已檢驗潛在的安全性"
-"或隱私問題。不過，這種檢驗不是全面的並且不能保證。"
+"F-Droid 是一個非營利，依賴[志願者]({{ \"/contribute/\" | prepend: site.baseurl }})支持的計畫。雖"
+"然我們已盡一切努力確保軟體庫中的所有內容都是安全的，但您自己還是要承擔使用其中軟體的風險。軟體庫中的應用程式，是盡可能的從原始碼構建，並且那些原始碼已檢驗"
+"潛在的安全性或隱私問題。不過，這種檢驗不是全面的並且不能保證。"
 
 #. type: Plain text
 #: build/_pages/md/about.md
@@ -409,7 +408,7 @@ msgid ""
 "list](https://gitlab.com/fdroid/fdroid-website/blob/master/_pages/about.md)! "
 "Keep it sorted by surname, please."
 msgstr ""
-"如果遺漏了您的名字，這是一個錯誤並且您應該[將自己增加到清單中](https://gitlab.com/fdroid/fdroid-"
+"如果我們遺漏了您的名字，您應該[將自己的姓名增至名單](https://gitlab.com/fdroid/fdroid-"
 "website/blob/master/_pages/about.md)！請按姓氏排序。"
 
 #. type: Plain text
@@ -417,7 +416,7 @@ msgstr ""
 msgid ""
 "The original F-Droid client app was based on the Aptoide app developed by "
 "Roberto Jacinto."
-msgstr "原來的 F-Droid 用戶端應用程式是基於 Roberto Jacinto 開發的 Aptoide 應用程式。"
+msgstr "F-Droid 用戶端的初形程式建基於 Roberto Jacinto 開發的 Aptoide 應用程式。"
 
 #. type: Title #
 #: build/_pages/md/contribute.md
@@ -430,7 +429,7 @@ msgstr "貢獻"
 msgid ""
 "The project is entirely developed and maintained by volunteers. You can help "
 "in the following ways:"
-msgstr "本計劃完全由志願者開發與維護，您可以透過以下方式幫助我們："
+msgstr "本計畫由志願者開發與維護。您可以透過以下方式幫助我們："
 
 #. type: Title ###
 #: build/_pages/md/contribute.md
@@ -445,18 +444,18 @@ msgid ""
 "them in the issue tracker (see below), or discuss them in the [Forum]"
 "(https://forum.f-droid.org/) or on IRC (#fdroid on freenode)."
 msgstr ""
-"如果您遇到網站或用戶端軟體的問題，您可以在問題追蹤系統中報告他們（見下方），或在 [論壇](https://forum.f-droid.org/) 或是 "
-"IRC（freenode 上的 #fdroid）。"
+"如果您發現網站上或用戶端軟體中的一些問題，請透過問題追蹤系統（見下方）、 [論壇](https://forum.f-droid.org/) 或 IRC（"
+"freenode 上的 #fdroid）報告錯誤。"
 
 #. type: Plain text
 #: build/_pages/md/contribute.md
 msgid "For reporting issues, choose an appropriate tracker from the following:"
-msgstr "對於報告有關的問題，請從下列選項中選擇適當的追蹤系統："
+msgstr "若要報告錯誤，請在下方選擇適當的追蹤系統："
 
 #. type: Bullet: '* '
 #: build/_pages/md/contribute.md
 msgid "[F-Droid client app](https://gitlab.com/fdroid/fdroidclient/issues)"
-msgstr "[F-Droid 使用者端應用程式](https://gitlab.com/fdroid/fdroidclient/issues)"
+msgstr "[F-Droid 用戶端應用程式](https://gitlab.com/fdroid/fdroidclient/issues)"
 
 #. type: Bullet: '* '
 #: build/_pages/md/contribute.md
@@ -468,7 +467,7 @@ msgstr "[伺服器和構建工具](https://gitlab.com/fdroid/fdroidserver/issues
 msgid ""
 "[Official F-Droid repository metadata](https://gitlab.com/fdroid/fdroiddata/"
 "issues)"
-msgstr "[官方 F-Droid 軟體倉庫中介資料](https://gitlab.com/fdroid/fdroiddata/issues)"
+msgstr "[官方 F-Droid 軟體庫元數據](https://gitlab.com/fdroid/fdroiddata/issues)"
 
 #. type: Title ###
 #: build/_pages/md/contribute.md
@@ -493,7 +492,7 @@ msgstr ""
 msgid ""
 "[The manual]({{ \"/docs/\" | prepend: site.baseurl }}) should help with "
 "this."
-msgstr "[手冊]({{ \"/docs/\" | prepend: site.baseurl }}) 這會有所幫助。"
+msgstr "[手冊]({{ \"/docs/\" | prepend: site.baseurl }}) 會有所幫助。"
 
 #. type: Title ###
 #: build/_pages/md/contribute.md build/_docs/md/How_to_Help.md
@@ -582,7 +581,7 @@ msgstr ""
 #: build/_pages/md/docs.md
 #, no-wrap
 msgid "Getting Started"
-msgstr "使用入門"
+msgstr "入門"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
