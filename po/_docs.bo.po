@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-11-24 11:50+0000\n"
+"PO-Revision-Date: 2017-11-27 17:50+0000\n"
 "Last-Translator: tenzin tselek <omaahum99@yahoo.in>\n"
 "Language-Team: Tibetan <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/bo/>\n"
@@ -1796,6 +1796,13 @@ msgid ""
 "one of the existing categories (look at the site/client), or discuss the "
 "proposal to add a new one."
 msgstr ""
+"མཉེས་ཆས་ཀྱི་སྡེ་ཚན་གྱི་ཨང་གྲངས་གང་འདྲ་ཞིག་ཡིན་ནའང་འདིའི་ནང་ཡོད། "
+"འདིའི་ནང་སྡེ་ཚན་གྱི་ཐོ་གཞུང་བརྟན་པོ་མེད་། དེ་ཡང་མཉེས་ཆས་དང་དྲྭ་ཚིགས་གཉིས་ཀས་ར"
+"ང་འགུལ་གྱི་ངང་ནས་མཉེས་ཆས་ནང་ཡོད་པའི་སྡེ་ཚན་རྣམས་སྟོན་གྱི་ཡོད། འོན་ཀྱང་། "
+"གལ་ཏེ་ཁྱེད་རང་གི་རྒྱབ་ལྗོངས་ཡིག་ཆ་དེ་ཨེཕ་རོཌ་གྱི་མཛོད་ཁང་ཨ་མར་འགྱུར་འདོད་ན། "
+"ཁྱེད་ཀྱིས་ཡོད་བཞིན་པའི་སྡེ་ཚན་གང་རུང་ཞིག་བེད་སྤྱོད་གཏོང་དགོས། "
+"(དྲྭ་ཚིགས་དང་མཉེས་ཆས་ལ་ལྟོས། "
+")ཡང་ནང་གསར་པ་ཞིག་ཁ་གནོན་བྱེད་རྒྱུའི་གན་རྒྱའི་ཐོག་ལ་གྲོས་སྡུར་བྱེད།"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1804,6 +1811,9 @@ msgid ""
 "compatibility, F-Droid will use the first category given as &lt;category&gt; "
 "element for older clients to at least see one category."
 msgstr ""
+"སྡེ་ཚན་དེ་དག་ངེས་པར་བར་མཚམས་ཀྱིས་དབྱེ་མཚམས་ཕྱེ་དགོས། "
+"རྒྱབ་ཤིག་དང་མཐུན་པའི་ཆེད་དུ། ཨེཕ་རོཌ་ཀྱིས་སྡེ་ཚན་དང་པོ་བེད་སྤྱོད་བྱེད། &lt; "
+"1སྡེ་ཚན་&gt; 2 མཉེན་ཆས་རྙིང་པའི་རིགས་ཀྱིས་ཚར་གཅིག་ངེས་པར་དུ་གཟིགས་དགོས།"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1824,6 +1834,10 @@ msgid ""
 "it should represent the name(s) as published by upstream, e.g.  in their "
 "copyright or authors file. This can be omitted (or left blank)."
 msgstr ""
+"རྩོམ་པ་པོའི་མིང་། ཚིག་བསྡུ་ཆ་ཚང་། གལ་སྲིད་ད་ལྟ་བ་ཡིན་ན། "
+"པར་སྐྲུན་བྱེད་སྐབས་དེའི་མིང་ངེས་པར་དུ་མཚོན་ཐུབ་པ་ཞིག་དགོས། དཔེར་ན། "
+"དེའི་པར་སྐྲུན་བདག་དབང་ངམ་ཡང་ན། རྩོམ་པ་པོའི་ཡིག་ཆ། འདི་སུབས་ཐུབ་ཀྱི་ཡོད། "
+"(ཡང་ན་སྟོང་པ་བཞག)"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1937,6 +1951,9 @@ msgid ""
 "linking to the other app IDs. Useful when an app switches package name, or "
 "when you want an app to act as multiple apps."
 msgstr ""
+"ཚེགས་ཀྱི་དབྱེ་མཚམས་འབྱེད་པའི་མཉེས་ཆས་ཀྱི་ཐོ་གཞུང་། དོན་གཞན་ནི། "
+"གལ་ཏེ་སྤྱོད་པ་པོས་མཉེས་ཆས་འདིའི་རིགས་སྒྲིག་བཅུག་བྱས་ཚེ། "
+"ཨེཕ་རོཌ་ཀྱིས་སྒྲིག་བཅུག་བྱས་པའི་ཚབ་ལ་མཉེན་ཆས་འདི་སྟོན་གྱི་རེད།"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
