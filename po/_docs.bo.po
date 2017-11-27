@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-11-27 17:50+0000\n"
+"PO-Revision-Date: 2017-11-28 18:50+0000\n"
 "Last-Translator: tenzin tselek <omaahum99@yahoo.in>\n"
 "Language-Team: Tibetan <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/bo/>\n"
@@ -2800,6 +2800,8 @@ msgid ""
 "‘OSS JFrog’ - maintained by the people behind jCenter, this repository "
 "focuses on hosting services for open source project binaries."
 msgstr ""
+"‘OSS JFrog’ -འདི་ནི་jCenterརྒྱབ་ལ་ལས་ཀ་བྱེད་མཁན་ཚོས་བདག་པོ་རྒྱབ་ཀྱི་ཡོད། "
+"མཛོད་ཁང་འདིས་དམིགས་ས་ནི་སྣེ་ལེན་ཞབས་ཞུ་རེད།"
 
 #. type: Bullet: '    -   '
 #: build/_docs/md/Build_Metadata_Reference.md
