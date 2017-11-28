@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-10-06 20:57+0200\n"
-"PO-Revision-Date: 2017-11-10 17:47+0000\n"
+"PO-Revision-Date: 2017-11-29 17:47+0000\n"
 "Last-Translator: Myeongjin Lee <aranet100@gmail.com>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/ko/>\n"
@@ -34,9 +34,9 @@ msgid ""
 "reviews and other features covering all things Android and software-freedom "
 "related."
 msgstr ""
-"F-Droid는 Android 플랫폼의 자유-오픈 소스 소프트웨어 (FOSS)에 열정을 지닌 로봇입니다. 이 사이트에서는, "
-"Android와 자유와 관련된 소프트웨어의 모든 것을 커버하는 설치 및 업데이트, 그리고 뉴스, 리뷰와 다른 기능을 수행하는 "
-"Android 클라이언트와 함께할, FOSS 앱을 찾을 것입니다."
+"F-Droid는 Android 플랫폼의 자유-오픈 소스 (FOSS) 소프트웨어에 열정을 지닌 로봇입니다. 이 사이트에서는 Android와 "
+"자유와 관련된 소프트웨어의 모든 것을 커버하는 설치 및 업데이트, 그리고 뉴스, 리뷰와 다른 기능을 수행하는 Android 클라이언트와 "
+"함께할, FOSS 앱의 저장소를 찾을 것입니다."
 
 #. type: Plain text
 #: build/_pages/md/about.md
@@ -68,7 +68,7 @@ msgid ""
 "additional artwork, are by Robert Martinez. All are dual licensed under CC-"
 "BY-SA 3.0 Unported or GPLv3+."
 msgstr ""
-"F-Droid 로고는 윌리엄 테이커가 만들었습니다. 저것으로의 업데이트와 추가 예술 작업은 로버스 마르티네즈가 했습니다. 모두 CC-BY-"
+"F-Droid 로고는 윌리엄 테이커가 만들었습니다. 저것으로의 업데이트와 추가 예술 작업은 로버트 마르티네즈가 했습니다. 모두 CC-BY-"
 "SA 3.0 Unported 또는 GPLv3+에 따라 이중으로 이용이 허가됩니다."
 
 #. type: Plain text
@@ -93,9 +93,9 @@ msgstr ""
 
 #. type: Title ###
 #: build/_pages/md/about.md
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Terms, etc."
-msgstr "조항 등."
+msgstr "조항 등"
 
 #. type: Plain text
 #: build/_pages/md/about.md
@@ -108,9 +108,9 @@ msgid ""
 "checking is far from exhaustive though, and there are no guarantees."
 msgstr ""
 "F-Droid는 비영리 [자원봉사자]({{ \"/contribute/\" | prepend: site.baseurl }}) "
-"프로젝트입니다. 저장소의 모든 것이 안전하게 설치하는 것을 보장하기 위해 모든 노력을 쏟아붓지만, 여러분은 여러분 자신의 책임을 지고 "
-"그것을 사용합니다. 저장소의 애플리케이션이 소스에서 내장되고, 해당 소스 코드가 잠재적 보안이나 개인정보 보호 이슈에 대해 확인되는 것이 "
-"가능하더라도 말입니다. 이 검사는 철저하게 검사하는 것으로부터 멀고, 여기에 보장은 없습니다."
+"프로젝트입니다. 저장소의 모든 것이 안전하게 설치하는 것을 보장하기 위해 모든 노력을 쏟아붓지만, 여러분은 **여러분 자신의 책임을 "
+"지고** 그것을 사용합니다. 저장소의 애플리케이션이 소스에서 내장되고, 해당 소스 코드가 잠재적 보안이나 개인정보 보호 이슈에 대해 "
+"확인되는 것이 가능하더라도 말입니다. 이 검사는 철저하게 검사하는 것으로부터 멀고, 여기에 보장은 없습니다."
 
 #. type: Plain text
 #: build/_pages/md/about.md
@@ -125,6 +125,12 @@ msgid ""
 "to post on the forum) goes no further than us, and will not be used for "
 "anything other than allowing you to maintain your account."
 msgstr ""
+"F-Droid는 여러분의 개인 정보를 존중합니다. 우리는 여러분이나, 여러분의 장치를 추적하지 않습니다. 우리는 여러분이 설치한 것을 "
+"추적하지 않습니다. 여러분은 클라이언트를 사용하는 데 계정이 필요하지 않으며, 그것은 추가적인 식별 데이터를 버전 번호 말고도 우리의 웹 "
+"서버와 대화할 때 보내지 않습니다. 심지어 우리는 여러분이 먼저 환경 설정의 안티기능 문단에서 ‘추적’을 활성화하지 않는 한, 저장소에서 "
+"여러분을 추적하는 다른 애플리케이션을 설치하도록 하지 않습니다. 어떠한 개인 데이터도 우리보다 더 멀기 가지 않도록 우리들에게 주는 것을 "
+"결정하도록 하며 (예로 포럼에 게시물을 올리기 위해 계정을 등록할 때 여러분의 이메일 주소), 여러분의 계정을 유지보수하기 위해 여러분이 "
+"허용하는 것보다 다른 용도로 사용되지 않을 것입니다."
 
 #. type: Title ###
 #: build/_pages/md/about.md
@@ -283,122 +289,122 @@ msgstr "레오나르도 드 루카"
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Greg Lyle"
-msgstr ""
+msgstr "그렉 라일"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Daniel Marti"
-msgstr ""
+msgstr "다니엘 마르티"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Robert Martinez"
-msgstr ""
+msgstr "로버트 마르티네즈"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Nat Meysenburg"
-msgstr ""
+msgstr "냇 마이센부르크"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Steven McDonald"
-msgstr ""
+msgstr "스티븐 맥도날드"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Andrew McMillan"
-msgstr ""
+msgstr "앤드류 맥밀런"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Alex Oberhauser"
-msgstr ""
+msgstr "알렉스 오버하우저"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Nicolas Raoul"
-msgstr ""
+msgstr "니콜라스 라울"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Fabian Rodriguez"
-msgstr ""
+msgstr "파비안 로드리게스"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Florian Schmaus"
-msgstr ""
+msgstr "플로리안 슈마우스"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Hans-Emil Skogh"
-msgstr ""
+msgstr "한스 에밀 스코그"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Paul Sokolovsky"
-msgstr ""
+msgstr "폴 소콜로브스키"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Graziano Sorbaioli"
-msgstr ""
+msgstr "그라치아노 소르바올리"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Hans-Christoph Steiner"
-msgstr ""
+msgstr "한스 크리스토프 슈타이너"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "David Sterry"
-msgstr ""
+msgstr "데이비드 스테리"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Peter Serwylo"
-msgstr ""
+msgstr "피터 셀왈로"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "John Sullivan"
-msgstr ""
+msgstr "존 설리반"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Antonio Tapiador"
-msgstr ""
+msgstr "안토니오 타피아도르"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "William Theaker"
-msgstr ""
+msgstr "윌리엄 테이커"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Henrik Tunedal"
-msgstr ""
+msgstr "헨릭 튜네델"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Ivo Ugrina"
-msgstr ""
+msgstr "이보 우그리나"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Matthias Weiler"
-msgstr ""
+msgstr "마티아스 와일러"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Nutchanon Wetchasit"
-msgstr ""
+msgstr "너차는 와차싯"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Philipp Wollschlegel"
-msgstr ""
+msgstr "필립 월슈리겔"
 
 #. type: Plain text
 #: build/_pages/md/about.md
@@ -428,7 +434,7 @@ msgstr "기여하기"
 msgid ""
 "The project is entirely developed and maintained by volunteers. You can help "
 "in the following ways:"
-msgstr ""
+msgstr "프로젝트는 전적으로 자원봉사자에 의해 개발되고 유지 관리되고 있습니다. 여러분은 다음 방법으로 도울 수 있습니다:"
 
 #. type: Title ###
 #: build/_pages/md/contribute.md
@@ -443,6 +449,8 @@ msgid ""
 "them in the issue tracker (see below), or discuss them in the [Forum]"
 "(https://forum.f-droid.org/) or on IRC (#fdroid on freenode)."
 msgstr ""
+"여러분이 사이트나 클라이언트 소프트웨어에 문제를 겪으신다면, 이슈 트래커(아래 보기)에서 그것을 보고하거나, 또는 "
+"[포럼](https://forum.f-droid.org/) 또는 IRC(freenode의 #fdroid)에서 그것을 토론할 수 있습니다."
 
 #. type: Plain text
 #: build/_pages/md/contribute.md
