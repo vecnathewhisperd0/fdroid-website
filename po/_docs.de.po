@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-11-29 17:11+0000\n"
-"Last-Translator: Tobias_Groza <tobias.groza@outlook.de>\n"
+"PO-Revision-Date: 2017-11-29 17:12+0000\n"
+"Last-Translator: anonymous <>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/de/>\n"
 "Language: de\n"
@@ -4758,6 +4758,8 @@ msgstr "Ob der Fehler in der vorherigen Endversion von F-Droid auftritt"
 #, no-wrap
 msgid "Why does an issue say \"waiting on response\" next to it?"
 msgstr ""
+"Warum ist ein Problem mit \"waiting on response\" (\"Antwort abwarten\") "
+"gekennzeichnet?"
 
 #. type: Plain text
 #: build/_docs/md/Client_Bug_Reports.md
@@ -9225,7 +9227,7 @@ msgstr ""
 #: build/_docs/md/Repository_Style_Guide.md
 #, no-wrap
 msgid "Summaries"
-msgstr ""
+msgstr "Zusammenfassungen"
 
 #. type: Plain text
 #: build/_docs/md/Repository_Style_Guide.md
