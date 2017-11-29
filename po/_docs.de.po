@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-11-29 17:16+0000\n"
-"Last-Translator: Tobias_Groza <tobias.groza@outlook.de>\n"
+"PO-Revision-Date: 2017-11-29 17:20+0000\n"
+"Last-Translator: anonymous <>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/de/>\n"
 "Language: de\n"
@@ -7246,7 +7246,7 @@ msgstr ""
 #: build/_docs/md/How_to_Help.md
 #, no-wrap
 msgid "Help with development"
-msgstr "Hilfe bei der Weiterentwicklung"
+msgstr "Bei der Entwicklung helfen"
 
 #. type: Plain text
 #: build/_docs/md/How_to_Help.md
@@ -8364,6 +8364,8 @@ msgid ""
 "[fdroiddata revision history](https://gitlab.com/fdroid/fdroiddata/commits/"
 "master)"
 msgstr ""
+"[Revisionsverlauf von "
+"fdroiddata](https://gitlab.com/fdroid/fdroiddata/commits/master)"
 
 #. type: Title #
 #: build/_docs/md/Inclusion_Policy.md
@@ -8381,6 +8383,13 @@ msgid ""
 "in doubt about a license, please refer to the [GNU license list](https://www."
 "gnu.org/licenses/license-list.html)."
 msgstr ""
+"Alle Anwendungen im Repository müssen Free, Libre and Open Source Software "
+"sein – zum Beispiel unter einer GPL- oder Apache-Lizenz veröffentlicht "
+"werden. Es werden alle Anstrengungen unternommen, um nachzuweisen, dass dies "
+"tatsächlich der Fall ist, sowohl durch Durchsicht der Quelle, als auch durch "
+"Herstellung der Anwendung aus der publizierten Quelle. Bei Zweifeln an einer "
+"Lizenz, verweisen Sie auf die [GNU-Lizenzliste](https://www.gnu.org/licenses"
+"/license-list.html)."
 
 #. type: Plain text
 #: build/_docs/md/Inclusion_Policy.md
@@ -8405,6 +8414,10 @@ msgid ""
 "talk to upstream about an untainted build flavor (either using microg or "
 "removing non-free deps completely)."
 msgstr ""
+"Wir können keine Apps erstellen, die Googles proprietäre \"play-services\" "
+"nutzen. Sprechen Sie mit dem Upstream über eine unbedenkliche Build-Variante "
+"(entweder durch Verwendung von microG oder vollständige Entfernung unfreier "
+"Abhängigkeiten)."
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Inclusion_Policy.md
@@ -8414,6 +8427,11 @@ msgid ""
 "flavor (either using a FLOSS analytics software like ACRA or by removing non-"
 "free deps completely)."
 msgstr ""
+"Wir können keine Apps erstellen, die proprietäre Überwachungs-/"
+"Analyseinstrumente nutzen, wie Crashlytics und Firebase. Sprechen Sie mit "
+"dem Upstream über eine makellose Build-Variante (entweder durch Verwendung "
+"einer FLOSS-Analysesoftware, wie ACRA, oder durch vollständige Entfernung "
+"unfreier Abhängigkeiten)."
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Inclusion_Policy.md
@@ -8422,6 +8440,10 @@ msgid ""
 "advertisments (see [AntiFeatures](https://f-droid.org/wiki/page/"
 "Antifeatures)), but they must be provided by a FLOSS compatible way."
 msgstr ""
+"Wir können keine Apps erstellen, die proprietäre Werbebibliotheken nutzen. "
+"Wir haben nichts gegen Werbung (siehe [Problematische "
+"Merkmale](https://f-droid.org/wiki/page/Antifeatures)), aber sie muss in "
+"einer dem FLOSS-Gedanken entsprechenden Weise bereitgestellt werden."
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Inclusion_Policy.md
@@ -8429,6 +8451,8 @@ msgid ""
 "We cannot build apps requiring non-free buildtools, including Oracle's JDK "
 "or some pre-release toolchains."
 msgstr ""
+"Wir können keine Apps erstellen, die unfreie Build-Werkzeuge benötigen, "
+"einschließlich Oracle's JDK oder irgendwelcher Toolchains für Vorabversionen."
 
 #. type: Plain text
 #: build/_docs/md/Inclusion_Policy.md
@@ -8453,6 +8477,9 @@ msgid ""
 "The software should not download additional executable binary files (e.g. "
 "non-free addons, auto-updates, etc)."
 msgstr ""
+"Die Software sollte keine zusätzlichen ausführbaren Binärdateien "
+"herunterladen (z. B. unfreie Erweiterungen, automatische Aktualisierungen "
+"usw.)."
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Inclusion_Policy.md
@@ -8461,6 +8488,10 @@ msgid ""
 "application is a fork of another (even one not included in the F-Droid "
 "repository) it must have a new ID, different from the original."
 msgstr ""
+"Die Software sollte ihre eigene, einzigartige Android-Paket-ID verwenden. Wo "
+"die Anwendung ein Entwicklungszweig einer anderen ist (, selbst einer, die "
+"nicht ins F-Droid-Repository aufgenommen ist), muss sie eine neue ID "
+"besitzen, die sich vom Original unterscheidet."
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Inclusion_Policy.md
