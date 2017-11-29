@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-11-29 17:04+0000\n"
-"Last-Translator: Tobias_Groza <tobias.groza@outlook.de>\n"
+"PO-Revision-Date: 2017-11-29 17:09+0000\n"
+"Last-Translator: anonymous <>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/de/>\n"
 "Language: de\n"
@@ -956,7 +956,7 @@ msgid ""
 "(https://gitlab.com/fdroid/fdroidserver/issues)."
 msgstr ""
 "Für die Server-Werkzeuge (zur Herstellung eigener Apps oder zum Betrieb "
-"eines eigenen Repos) und Fragen im Zusammenhang mit der Internetseite "
+"einer eigenen Paketquelle) und Fragen im Zusammenhang mit der Internetseite "
 "verwenden Sie [diesen Issue "
 "Tracker](https://gitlab.com/fdroid/fdroidserver/issues)."
 
@@ -9231,7 +9231,7 @@ msgstr ""
 #: build/_docs/md/Repository_Style_Guide.md
 #, no-wrap
 msgid "Descriptions"
-msgstr ""
+msgstr "Beschreibungen"
 
 #. type: Plain text
 #: build/_docs/md/Repository_Style_Guide.md
