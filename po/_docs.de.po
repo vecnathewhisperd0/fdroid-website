@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-11-16 19:46+0000\n"
-"Last-Translator: anonymous <>\n"
+"PO-Revision-Date: 2017-11-29 17:04+0000\n"
+"Last-Translator: Tobias_Groza <tobias.groza@outlook.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/de/>\n"
 "Language: de\n"
@@ -5143,7 +5143,7 @@ msgstr ""
 #: build/_docs/md/FAQ_-_App_Developers.md
 #, no-wrap
 msgid "FAQ - App Developers"
-msgstr ""
+msgstr "FAQ - App Entwickler"
 
 #. type: Title ###
 #: build/_docs/md/FAQ_-_App_Developers.md
@@ -5175,6 +5175,8 @@ msgstr ""
 #, no-wrap
 msgid "How do I change the description and add meta information like screenshots?"
 msgstr ""
+"Wie ändere ich die Beschreibung und füge Meta-Informationen wie "
+"Bildschirmfotos hinzu?"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md
@@ -5224,7 +5226,7 @@ msgstr ""
 #: build/_docs/md/FAQ_-_App_Developers.md
 #, no-wrap
 msgid "How do I license my app?"
-msgstr ""
+msgstr "Wie lizenziere ich meine App?"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md
@@ -5254,7 +5256,7 @@ msgstr ""
 #: build/_docs/md/FAQ_-_App_Developers.md
 #, no-wrap
 msgid "How are donations handled?"
-msgstr ""
+msgstr "Wie werden Spenden gehandhabt?"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md
@@ -5493,7 +5495,7 @@ msgstr ""
 #: build/_docs/md/FAQ_-_App_Developers.md
 #, no-wrap
 msgid "Can I see who's installing my app?"
-msgstr ""
+msgstr "Kann ich sehen, wer meine App installiert?"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md
@@ -5536,12 +5538,12 @@ msgstr ""
 #: build/_docs/md/FAQ_-_App_Developers.md
 #, no-wrap
 msgid "Can I include advertising?"
-msgstr ""
+msgstr "Kann ich Werbeanzeigen einbinden?"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md
 msgid "Yes, but:"
-msgstr ""
+msgstr "Ja, aber:"
 
 #. type: Bullet: '1.  '
 #: build/_docs/md/FAQ_-_App_Developers.md
@@ -5678,7 +5680,7 @@ msgstr ""
 #: build/_docs/md/FAQ_-_App_Developers.md
 #, no-wrap
 msgid "How do I get my app removed?"
-msgstr ""
+msgstr "Wie kann ich meine App entfernen?"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md
