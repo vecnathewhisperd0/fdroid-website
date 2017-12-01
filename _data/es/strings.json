@@ -17,6 +17,8 @@
         "repomaker": "Repomaker"
     }, 
     "package": {
+        "author": "Autor", 
+        "build_metadata": "Metadatos de construcción", 
         "changelog": "Historial de cambios", 
         "donate": "Donar", 
         "download": "Descargar [file_extension]", 
