@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-11-28 18:50+0000\n"
+"PO-Revision-Date: 2017-12-02 08:50+0000\n"
 "Last-Translator: tenzin tselek <omaahum99@yahoo.in>\n"
 "Language-Team: Tibetan <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/bo/>\n"
@@ -8885,7 +8885,7 @@ msgstr ""
 #: build/_docs/md/Reproducible_Builds.md
 #, no-wrap
 msgid "Reproducible Builds"
-msgstr ""
+msgstr "སྐྱར་སྐྲུན།"
 
 #. type: Plain text
 #: build/_docs/md/Reproducible_Builds.md
@@ -8905,6 +8905,10 @@ msgid ""
 "different platforms (.e.g OSX version Ubuntu), the resulting binaries will "
 "have differences."
 msgstr ""
+"NDK དང་མཉམ་དུ་བཟོས་པ་གང་འདྲ་ཞིག་ཡིན་རུང་ཛ་དྲག་ཅན་ཆགས་ཀྱི་ཡོད། དཔེར་ན། NDK "
+"གྱི་ཐོན་རིམ་གཅིག་པ་ཡིན་མཁན་གྱི་བཟོ་སྐྲུན་རིགས་ཡིན་ནའང་འདྲ། (e.g. "
+"_r13b_)འོན་ཀྱང་བབས་སྟེགས་མི་འདྲ་(.e.g OSX version "
+"Ubuntu)ལྟ་བུ་ལ་འབྱུངའབྲས་ཨང་གྲངས་མི་འདྲ་བ་ཐོན་གྱི་ཡོད།"
 
 #. type: Plain text
 #: build/_docs/md/Reproducible_Builds.md
@@ -8912,6 +8916,8 @@ msgid ""
 "Additionally, we'll have to look out for anything that includes timestamping "
 "information, is sensitive to sort order, etc."
 msgstr ""
+"འདིའ་སྟེང་དུ། ང་ཚོས་དུས་ཀྱི་ཐམ་ཀ་དང་འབྲེལ་བའི་གནས་ཚུལ་ཛ་དྲག་རིགས་གང་འདྲ་ཞིག་ལ"
+"འང་དོ་སྣང་དགོས།"
 
 #. type: Plain text
 #: build/_docs/md/Reproducible_Builds.md
@@ -8951,6 +8957,8 @@ msgid ""
 "To describe the build environment used by F-Droid builds, APKs have two "
 "files inserted into them:"
 msgstr ""
+"ཨེཕ་རོཌ་བཟོ་སྐྲུན་ཆེད་དུ་བེད་སྤྱོད་བཟོ་སྐྲུན་ཁོར་ཡུག་འགྲེལ་བཤད། APKs "
+"གྱི་ཡིག་ཆ་གཉིས་འདིའི་ནང་བཅུག་འདུག"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Reproducible_Builds.md
@@ -8958,6 +8966,8 @@ msgid ""
 "_META-INF/fdroidserverid_ - git commit hash of [_fdroidserver_](https://"
 "gitlab.com/fdroid/fdroidserver) used for the build"
 msgstr ""
+"_META-INF/fdroidserverid_ - git commit hash of [_fdroidserver_](https://gitla"
+"b.com/fdroid/fdroidserver)བཟོ་སྐྲུན་ཆེད་དུ་བེད་སྤྱོད།"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Reproducible_Builds.md
@@ -8966,6 +8976,9 @@ msgid ""
 "gitlab.com/fdroid/fdroidserver/blob/master/makebuildserver) used for the "
 "build"
 msgstr ""
+"_META-INF/buildserverid_ - git commit hash of [_makebuildserver_](https://git"
+"lab.com/fdroid/fdroidserver/blob/master/makebuildserver) "
+"བཟོ་སྐྲུན་ཆེད་དུ་བེད་སྤྱོད།"
 
 #. type: Plain text
 #: build/_docs/md/Reproducible_Builds.md
@@ -8981,7 +8994,7 @@ msgstr ""
 #: build/_docs/md/Reproducible_Builds.md
 #, no-wrap
 msgid "Migration to reproducible builds"
-msgstr ""
+msgstr "སྐྱར་སྐྲུན་ལ་ཁ་སྤོས་པ།"
 
 #. type: Title ####
 #: build/_docs/md/Reproducible_Builds.md
@@ -8992,12 +9005,12 @@ msgstr "TODO"
 #. type: Bullet: '- '
 #: build/_docs/md/Reproducible_Builds.md
 msgid "NDK inserts changing _build-id_, probably via `ld`"
-msgstr ""
+msgstr "NDK ནང་འཇུག་བསྒྱུར་བཅོས།_build-id_, probably via `ld`"
 
 #. type: Bullet: '- '
 #: build/_docs/md/Reproducible_Builds.md
 msgid "jar sort order for APKs"
-msgstr ""
+msgstr "APKsཆེད་དུ་jar sort གོ་རིམ་སྒྲིག"
 
 #. type: Bullet: '- '
 #: build/_docs/md/Reproducible_Builds.md
