@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-12-02 14:44+0000\n"
+"PO-Revision-Date: 2017-12-11 07:45+0000\n"
 "Last-Translator: ezjerry liao <ezjerry@gmail.com>\n"
 "Language-Team: Chinese (Traditional) "
 "<https://hosted.weblate.org/projects/f-droid/website-docs/zh_Hant/>\n"
@@ -67,8 +67,8 @@ msgid ""
 "additional artwork, are by Robert Martinez. All are dual licensed under CC-"
 "BY-SA 3.0 Unported or GPLv3+."
 msgstr ""
-"F-Droid 的標誌由 William Theaker 設計，其後的更新與附加的設計由 Robert Martinez 負責。標誌的全部以創用CC "
-"BY-SA 3.0 未本地化或 GPLv3+ 條款授權。"
+"F-Droid 的標誌由 William Theaker 所設計，其後的更新與附加的設計由 Robert Martinez 負責。全部都是 CC-BY-"
+"SA 3.0 Unported 或 GPLv3 + 下的雙重授權。"
 
 #. type: Plain text
 #: build/_pages/md/about.md
@@ -123,9 +123,9 @@ msgid ""
 "to post on the forum) goes no further than us, and will not be used for "
 "anything other than allowing you to maintain your account."
 msgstr ""
-"F-Droid 尊重您的隱私權。我們不會追踪您或您的裝置。我們也不會追踪您安裝的內容。您不需要帳號就可在用戶端使用，並且在與我們的網路伺服器進行對話時，除"
-"了其版本號碼，不會發送其它的識別資料。我們甚至不允許您從追踪您的軟體倉庫安裝其它應用程式，除非您先啟用\"參數選擇\"的 AntiFeatures "
-"部分中的\"追踪\""
+"F-Droid 尊重您的隱私權。我們不會追蹤您或您的裝置。我們也不會追蹤您安裝的內容。您不需要帳號就可在用戶端使用，並且在與我們的網路伺服器進行對話時，除"
+"了其版本號碼，不會發送其它的識別資料。我們甚至不允許您，由追蹤您的軟體倉庫安裝其它應用程式，除非您先啟用\"參數選擇\"的 AntiFeatures "
+"部分中的\"追蹤\""
 "。您決定給我們的任何個人資料（例如您在論壇上發表時，註冊為帳號的電子郵件地址）除了允許您維護您的帳號之外，我們不會更進一步地用於任何其他事情。"
 
 #. type: Title ###
@@ -429,7 +429,7 @@ msgstr "貢獻"
 msgid ""
 "The project is entirely developed and maintained by volunteers. You can help "
 "in the following ways:"
-msgstr "本計畫由志願者開發與維護。您可以透過以下方式幫助我們："
+msgstr "本計畫完全是由志願者開發與維護。您可以透過以下方式幫助我們："
 
 #. type: Title ###
 #: build/_pages/md/contribute.md
@@ -486,6 +486,9 @@ msgid ""
 "that via the git repository, which will drastically speed up the inclusion "
 "of the application."
 msgstr ""
+"如果您看到軟體倉庫中缺少應用程式 (在閱讀[納入方法](http://f-droid.org/wiki/page/Inclusion_Policy)後)，"
+"請隨時透過專用的論壇區域[提案佇列表](https://gitlab.com/fdroid/rfp/issues)提交。如果您具有技術需求，您也可以把相關"
+"的中介資料放在一起，並透過 git 的軟體倉庫提交，這將大大加快應用程式的納入。"
 
 #. type: Plain text
 #: build/_pages/md/contribute.md
@@ -508,7 +511,7 @@ msgid ""
 "use the [translation system](https://hosted.weblate.org/projects/f-droid/) "
 "to make your changes."
 msgstr ""
-"客戶端應用程式有多種語言可用，如果不包含您的語言，或者需要更新或作改善，請註冊一個賬號並使用[翻譯系統]\n"
+"用戶端應用程式有多種語言可用，如果不包含您的語言，或者需要更新或作改善，請註冊一個賬號並使用[翻譯系統]\n"
 " (https://hosted.weblate.org/projects/f-droid/) 進行修改。"
 
 #. type: Plain text
@@ -519,6 +522,8 @@ msgid ""
 "(https://forum.f-droid.org/c/translation) for translation related "
 "discussions."
 msgstr ""
+"從[翻譯與在地語系化]的綱要(docs/Translation_and_Localization)開始。還有一個[專用論壇的區域](https://for"
+"um.f-droid.org/c/translation)來進行翻譯相關的討論。"
 
 #. type: Title ###
 #: build/_pages/md/contribute.md
@@ -548,7 +553,7 @@ msgstr ""
 msgid ""
 "For working with the server and data projects, it’s a good idea to read [the "
 "manual]({{ \"/docs/\" | prepend: site.baseurl }})."
-msgstr ""
+msgstr "要伺服器和資料項目處理好工作，最好先閱讀[手冊]({{ \"/docs/\" | prepend: site.baseurl }})。"
 
 #. type: Title #
 #: build/_pages/md/docs.md
@@ -691,7 +696,7 @@ msgid ""
 "[Inclusion Policy](Inclusion_Policy) & [Inclusion How-To](Inclusion_How-To)  "
 "Guidelines for how to request the inclusion of a new app."
 msgstr ""
-"[融合政策](Inclusion_Policy) & [融合指導](Inclusion_How-To)  關於如何請求融合一個新的應用程式的指導方針。"
+"[納入方法](Inclusion_Policy) 和 [納入基本指南](Inclusion_How-To)  關於如何請求納入一個新的應用程式的指導方針。"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
@@ -734,7 +739,7 @@ msgid ""
 "your apps directly from the source."
 msgstr ""
 "[設定 F-Droid 應用程式軟體倉庫](Setup_an_F-Droid_App_Repo)如何設定自己的應用程式軟體倉庫，"
-"讓使用者能輕易增加到他們的 F-Droid 用戶端，以直接讓您從來源獲取應用程式。"
+"讓使用者能輕易增加到他們的 F-Droid 用戶端，以直接讓您從源頭獲取應用程式。"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
@@ -812,7 +817,7 @@ msgid ""
 "(https://gitlab.com/fdroid/fdroidclient/issues)."
 msgstr ""
 "如果您遇到 F-Droid "
-"客戶端應用程式有問題，請在[問題追蹤](https://gitlab.com/fdroid/fdroidclient/issues) "
+"用戶端應用程式有問題，請在[問題追蹤](https://gitlab.com/fdroid/fdroidclient/issues) "
 "查對是否為已知問題，或是提出報告。"
 
 #. type: Plain text
@@ -822,6 +827,8 @@ msgid ""
 "outdated applications, please use [this issue tracker](https://gitlab.com/"
 "fdroid/fdroiddata/issues)."
 msgstr ""
+"對於軟體倉庫的內容相關的問題，例如遺漏或過時的應用程式，請使用 [追蹤此問題] "
+"(https://gitlab.com/fdroid/fdroiddata/issues)。"
 
 #. type: Plain text
 #: build/_pages/md/issues.md
@@ -830,6 +837,8 @@ msgid ""
 "repo), and issues relating to the web site, please use [this issue tracker]"
 "(https://gitlab.com/fdroid/fdroidserver/issues)."
 msgstr ""
+"對於伺服器工具（用於自己構建應用程式或運行自己的軟體倉庫）以及有關該網站的問題，請使用[追蹤此問題](https://gitlab.com/fdroid/"
+"fdroidserver/issues)。"
 
 #. type: Title #
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -1027,6 +1036,26 @@ msgid ""
 "                  └── *.png\n"
 "```\n"
 msgstr ""
+"```\n"
+"- fdroid/\n"
+"  └── repo/\n"
+"      └── <package-id>/\n"
+"          └── <locale>/\n"
+"              ├── featureGraphic.png\n"
+"              ├── icon.png\n"
+"              ├── promoGraphic.png\n"
+"              ├── tvBanner.png\n"
+"              ├── phoneScreenshots/\n"
+"              │   └── *.png\n"
+"              ├── sevenInchScreenshots/\n"
+"              │   └── *.png\n"
+"              ├── tenInchScreenshots/\n"
+"              │   └── *.png\n"
+"              ├── tvScreenshots/\n"
+"              │   └── *.png\n"
+"              └── wearScreenshots/\n"
+"                  └── *.png\n"
+"```\n"
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -1040,7 +1069,7 @@ msgstr ""
 #: build/_docs/md/Building_Applications.md
 #, no-wrap
 msgid "Building Applications"
-msgstr ""
+msgstr "構建應用程式"
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md
@@ -5417,7 +5446,7 @@ msgstr ""
 #: build/_docs/md/FAQ_-_General.md
 msgid ""
 "We don't know about it. See the [Inclusion Policy](../Inclusion_Policy)."
-msgstr ""
+msgstr "我們不知道。請參閱[納入方法](../Inclusion_Policy)。"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_General.md
@@ -5731,6 +5760,16 @@ msgid ""
 "the Akregator for KDE, Liferea for Gnome or [http://newsbeuter.org "
 "newsbeuter] which is nice if you like working in a terminal."
 msgstr ""
+"在 Android 上，我們有 [de.shandschuh.sparserss](https://f-droid.org/repository/brow"
+"se/?fdfilter=de.shandschuh.sparserss&fdid=de.shandschuh.sparserss)、[net.fred."
+"feedex](https://f-droid.org/repository/browse/?fdfilter=net.fred.feedex&fdid="
+"net.fred.feedex)、[de.danoeh.antennapod](https://f-droid.org/repository/browse"
+"/?fdfilter=de.danoeh.antennapod&fdid=de.danoeh.antennapod)、[org.ttrssreader]("
+"https://f-droid.org/repository/browse/?fdfilter=org.ttrssreader&fdid=org.ttrs"
+"sreader) (requires a tt-rss server to connect to) 和 [com.newsblur](https://f-"
+"droid.org/repository/browse/?fdfilter=com.newsblur&fdid=com.newsblur) (via "
+"newsblur.com)。在桌面上，您可以使用 Akregator for KDE, Liferea for Gnome 或 [http://"
+"newsbeuter.org newsbeuter] 如果您喜歡在終端上工作，這很好。"
 
 #. type: Plain text
 #: build/_docs/md/Feeds.md
@@ -6064,6 +6103,8 @@ msgid ""
 "(http://f-droid.org/docs/) and learn our [git workflow](https://f-droid.org/"
 "wiki/page/git_workflow)."
 msgstr ""
+"為了伺服器專案處理好工作，最好先閱讀 [文件檔](http://f-droid.org/docs/) 並學會我們的 [git "
+"作業流程](https://f-droid.org/wiki/page/git_workflow)。"
 
 #. type: Title ###
 #: build/_docs/md/How_to_Help.md
@@ -6082,7 +6123,7 @@ msgid ""
 "(https://gitlab.com/fdroid/fdroid-website/issues)."
 msgstr ""
 "我們喜愛任何的貢獻，以使這個專案更漂亮、更容易使用。如果您擅長寫作，我們正在努力改進[首頁](https://f-droid.org/wiki/page/"
-"Home_page)。如果您可以設計版面編排，客戶端開發人員可以使用您的幫助。將它們貼在[客戶端]上的問題追蹤(https://gitlab.com/fd"
+"Home_page)。如果您可以設計版面編排，用戶端開發人員可以使用您的幫助。將它們貼在[用戶端]上的問題追蹤(https://gitlab.com/fd"
 "roid/fdroidclient/issues)或[網站](https://gitlab.com/fdroid/fdroid-"
 "website/issues)。"
 
@@ -6463,7 +6504,7 @@ msgstr ""
 #: build/_docs/md/Inclusion_How-To.md
 #, no-wrap
 msgid "Inclusion How-To"
-msgstr ""
+msgstr "納入基本指南"
 
 #. type: Plain text
 #: build/_docs/md/Inclusion_How-To.md
@@ -6477,7 +6518,7 @@ msgstr ""
 #: build/_docs/md/Inclusion_How-To.md
 #, no-wrap
 msgid "Application Inclusion Proposal\n"
-msgstr ""
+msgstr "應用程式包括提案\n"
 
 #. type: Plain text
 #: build/_docs/md/Inclusion_How-To.md
@@ -6503,7 +6544,7 @@ msgstr ""
 #: build/_docs/md/Inclusion_How-To.md
 #, no-wrap
 msgid "Proposal by Submission Queue"
-msgstr ""
+msgstr "提交佇列表的提案"
 
 #. type: Plain text
 #: build/_docs/md/Inclusion_How-To.md
@@ -6556,7 +6597,7 @@ msgstr ""
 #: build/_docs/md/Inclusion_How-To.md
 msgid ""
 "You already read and understand the [Inclusion Policy](../Inclusion_Policy)."
-msgstr ""
+msgstr "您已經閱讀並理解了[納入方法](../Inclusion_Policy)。"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Inclusion_How-To.md
@@ -6939,7 +6980,7 @@ msgstr ""
 #: build/_docs/md/Inclusion_Policy.md
 #, no-wrap
 msgid "Inclusion Policy"
-msgstr ""
+msgstr "納入方法"
 
 #. type: Plain text
 #: build/_docs/md/Inclusion_Policy.md
