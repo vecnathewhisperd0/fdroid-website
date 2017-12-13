@@ -25,6 +25,7 @@
         "flattr": "Flattr", 
         "gpg_signature": "PGP-subskribo", 
         "issue_tracker": "Erar-spurilo", 
+        "liberapay": "Liberapay", 
         "license": "Permesilo", 
         "minimum_android_version": "Tiu ĉi versio postulas Androidon de versio [android_version] aŭ posta.", 
         "new_in_version": "Novaj en versio [latest_version]", 
@@ -44,6 +45,7 @@
             "bitcoin_alt": "Donaci per Bitmono", 
             "flattr_alt": "Donaci per Flattr", 
             "heading": "Donaci", 
+            "liberapay_alt": "Donaci per Liberapay", 
             "paypal_alt": "Donaci per PayPal", 
             "powered_by_donations": "F-Droid estas subtenata per viaj donacoj!", 
             "via_bank_transfer": "Ĝiro"
