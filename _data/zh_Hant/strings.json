@@ -25,6 +25,7 @@
         "flattr": "Flattr", 
         "gpg_signature": "PGP 簽章", 
         "issue_tracker": "問題追蹤系統", 
+        "liberapay": "Liberapay", 
         "license": "授權條款", 
         "minimum_android_version": "此版本需要 Android [android_version] 或更高的版本。", 
         "new_in_version": "新版本 [latest_version]", 
@@ -44,6 +45,7 @@
             "bitcoin_alt": "透過 Bitcoin 捐贈", 
             "flattr_alt": "透過 Flattr 捐贈", 
             "heading": "捐贈", 
+            "liberapay_alt": "透過 Liberapay  捐款", 
             "paypal_alt": "透過 Paypal 捐贈", 
             "powered_by_donations": "F-Droid 的動力來自於您的捐贈！", 
             "via_bank_transfer": "銀行轉帳"
