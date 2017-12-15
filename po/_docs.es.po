@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-12-03 00:51+0000\n"
+"PO-Revision-Date: 2017-12-15 11:52+0000\n"
 "Last-Translator: Laura Arjona Reina <larjona@larjona.net>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/es/>\n"
@@ -166,7 +166,7 @@ msgstr ""
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Alterechtschreibung"
-msgstr ""
+msgstr "Alterechtschreibung"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
