@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2017-12-15 11:52+0000\n"
+"PO-Revision-Date: 2017-12-15 14:58+0000\n"
 "Last-Translator: Laura Arjona Reina <larjona@larjona.net>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/es/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.18-dev\n"
+"X-Generator: Weblate 2.18\n"
 
 #. type: Title #
 #: build/_pages/md/about.md
@@ -171,72 +171,72 @@ msgstr "Alterechtschreibung"
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Nico Alt"
-msgstr ""
+msgstr "Nico Alt"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Laura Arjona"
-msgstr ""
+msgstr "Laura Arjona"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Ben Arnold"
-msgstr ""
+msgstr "Ben Arnold"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Michele Azzolari"
-msgstr ""
+msgstr "Michele Azzolari"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Jan Berkel"
-msgstr ""
+msgstr "Jan Berkel"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "David Black"
-msgstr ""
+msgstr "David Black"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Jan C Borchardt"
-msgstr ""
+msgstr "Jan C Borchardt"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Valerio Bozzolan"
-msgstr ""
+msgstr "Valerio Bozzolan"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Dan Bravender"
-msgstr ""
+msgstr "Dan Bravender"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Cédric Cabessa"
-msgstr ""
+msgstr "Cédric Cabessa"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Kevin Cernekee"
-msgstr ""
+msgstr "Kevin Cernekee"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Kevin Everets"
-msgstr ""
+msgstr "Kevin Everets"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Alberto A. Fuentes"
-msgstr ""
+msgstr "Alberto A. Fuentes"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Torsten Grote"
-msgstr ""
+msgstr "Torsten Grote"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
