@@ -25,6 +25,7 @@
         "flattr": "Flattr", 
         "gpg_signature": "PGP İmzası", 
         "issue_tracker": "Sorun İzleyici", 
+        "liberapay": "Liberapay", 
         "license": "Lisans", 
         "minimum_android_version": "Bu sürüm Android [android_version] veya daha yenisini gerektirir.", 
         "new_in_version": "Sürümdeki yenilikler [latest_version]", 
@@ -44,6 +45,7 @@
             "bitcoin_alt": "Bitcoin Aracılığıyla Bağış Yap", 
             "flattr_alt": "Flattr Aracılığıyla Bağış Yap", 
             "heading": "Bağış Yap", 
+            "liberapay_alt": "Liberapay Aracılığıyla Bağış Yap", 
             "paypal_alt": "PayPal Aracılığıyla Bağış Yap", 
             "powered_by_donations": "F-Droid bağışlarınızla güç bulur!", 
             "via_bank_transfer": "Banka Havalesi"
