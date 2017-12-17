@@ -14,7 +14,8 @@
         "forum": "Forum", 
         "issues": "Problemen", 
         "news": "Nieuws", 
-        "repomaker": "Repomaker"
+        "repomaker": "Repomaker", 
+        "tutorials": "Handleidingen"
     }, 
     "package": {
         "author": "Auteur", 
