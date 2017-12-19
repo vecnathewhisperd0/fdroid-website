@@ -27,7 +27,7 @@
         "issue_tracker": "གནད་དོན་རྗེད་དེད་གཏོང་བ།", 
         "license": "ཆོག་མཆན་ལག་ཁྱེར།", 
         "minimum_android_version": "ཐོན་རིམ་འདི་ལ་ཨེན་ཀྲོཌ་དགོས། [android_version] ཡང་ན་དེ་ལས་ཐོན་གསར་བ།", 
-        "new_in_version": "ཐོན་རིམ་གསར་པ། [ཐོན་གསར་ཤོས།]", 
+        "new_in_version": "ཐོན་རིམ་གསར་པ། [latest_version]", 
         "packages": "ཐུམ་སྒྲིལ་ཁག", 
         "permissions": "ཆོག་མཆན་ཁག", 
         "signed_by_developer": "འདི་ནི་བཟོ་མཁན་ངོ་མས་བཟོས་པ་དང་མིང་རྟགས་བཀོད་ཡོད།", 
