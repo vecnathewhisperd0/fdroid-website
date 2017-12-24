@@ -25,6 +25,7 @@
         "flattr": "Flattr", 
         "gpg_signature": "PGP 署名", 
         "issue_tracker": "問題トラッカー", 
+        "liberapay": "Liberapay", 
         "license": "ライセンス", 
         "minimum_android_version": "このバージョンは Android [android_version] 以降が必要です。", 
         "new_in_version": "新しいバージョン [latest_version]", 
@@ -44,6 +45,7 @@
             "bitcoin_alt": "Bitcoin で寄付する", 
             "flattr_alt": "Flattr で寄付する", 
             "heading": "寄付", 
+            "liberapay_alt": "Liberapay経由で寄付する", 
             "paypal_alt": "Paypal で寄付する", 
             "powered_by_donations": "F-Droid は皆さまの寄付によって支えられています!", 
             "via_bank_transfer": "銀行振込"
