@@ -6,20 +6,24 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-11-01 14:24+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2017-12-31 01:27+0000\n"
+"Last-Translator: Takumi Shoji <azumukupoe1999@gmail.com>\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/f-droid/website-"
+"posts/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2.19-dev\n"
 
 #. type: Title #
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md
 #, no-wrap
 msgid "\"F-Droid supports APK Expansion Files aka OBB\""
-msgstr ""
+msgstr "「F-DroidはOBB(APK拡張ファイル)をサポートしています」"
 
 #. type: Plain text
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md
