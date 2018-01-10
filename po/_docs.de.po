@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
 "PO-Revision-Date: 2018-01-10 16:08+0000\n"
-"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
+"Last-Translator: anonymous <>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/de/>\n"
 "Language: de\n"
@@ -8608,6 +8608,9 @@ msgid ""
 "When including donation information, the relevant donation links (e.g. "
 "Bitcoin/ PayPal/Flattr/etc) must also be available either:"
 msgstr ""
+"Bei Einschluss von Spendeninformationen, müssen die relevanten "
+"Spendenverknüpfungen (z. B. Bitcoin, PayPal, Flattr usw.) auch hier abrufbar "
+"sein:"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Inclusion_Policy.md
