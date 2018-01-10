@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2017-06-20 07:46+1000\n"
-"PO-Revision-Date: 2018-01-10 16:08+0000\n"
-"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
+"PO-Revision-Date: 2018-01-10 17:49+0000\n"
+"Last-Translator: anonymous <>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/de/>\n"
 "Language: de\n"
@@ -8615,12 +8615,12 @@ msgstr ""
 #. type: Bullet: '-   '
 #: build/_docs/md/Inclusion_Policy.md
 msgid "In a README or similar file in the projects source code."
-msgstr ""
+msgstr "In einer README- oder ähnlichen Datei im Projektquellcode."
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Inclusion_Policy.md
 msgid "On the applications main website."
-msgstr ""
+msgstr "Auf der Homepage der Anwendung."
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Inclusion_Policy.md
@@ -8629,6 +8629,10 @@ msgid ""
 "requesting donation info to be added to the fdroiddata repository is the "
 "same user account which manages the application source code."
 msgstr ""
+"Wenn die Software auf GitLab gehostet wird, ist es ausreichend, dass die, "
+"dem fdroiddata-Repository hinzugefügten, Informationen zur Person, die zu "
+"Spenden aufruft, zum selben Benutzerkonto gehören, über das der Quelltext "
+"der Anwendung verwaltet wird."
 
 #. type: Plain text
 #: build/_docs/md/Inclusion_Policy.md
@@ -8637,6 +8641,9 @@ msgid ""
 "links of applications in the main F-Droid repository without the consent of "
 "upstream developers."
 msgstr ""
+"Dies soll verhindern, dass jemand willkürlich Spendenverknüpfungen von "
+"Anwendungen im F-Droid-Hauptrepository ohne Zustimmung des einspielenden "
+"Entwicklers böswillig ändert."
 
 #. type: Plain text
 #: build/_docs/md/Inclusion_Policy.md
@@ -8644,12 +8651,14 @@ msgid ""
 "For more information on adding applications to the F-Droid Repository, see "
 "the [Inclusion How-To](../Inclusion_How-To)."
 msgstr ""
+"Zu weiteren Informationen über das Hinzufügen von Anwendungen zum F-Droid-"
+"Repository, siehe [Aufnahmeverfahren](../Inclusion_How-To)."
 
 #. type: Title #
 #: build/_docs/md/Installing_the_Server_and_Repo_Tools.md
 #, no-wrap
 msgid "Installing the Server and Repo Tools"
-msgstr ""
+msgstr "Installation der Server- und Repo-Werkzeuge"
 
 #. type: Plain text
 #: build/_docs/md/Installing_the_Server_and_Repo_Tools.md
@@ -8660,6 +8669,12 @@ msgid ""
 "developers mostly work on Debian, Arch, and Ubuntu, so those are currently "
 "the best supported platforms."
 msgstr ""
+"Die [fdroidserver](https://gitlab.com/fdroid/fdroidserver)-Werkzeuge bieten "
+"alles, was für die Einrichtung und den Unterhalt eigener Repos, den Betrieb "
+"eines fdroid-Build-Servers und sogar die Bereitstellung einer eigenen "
+"Internetseite wie f-droid.org benötigt wird. Die F-Droid-Entwickler arbeiten "
+"zumeist mit Debian, Arch, und Ubuntu, somit sind das aktuell die am besten "
+"unterstützten Plattformen."
 
 #. type: Plain text
 #: build/_docs/md/Installing_the_Server_and_Repo_Tools.md
@@ -8667,12 +8682,15 @@ msgid ""
 "In order to setup and maintain your own collection of apps and media, you "
 "need to setup an F-Droid repository using the tools from *fdroidserver*."
 msgstr ""
+"Um Ihre eigene App- und Mediensammlung einzurichten und zu betreiben, müssen "
+"Sie mithilfe der Instrumente von *fdroidserver* ein F-Droid-Repository "
+"konfigurieren."
 
 #. type: Title ##
 #: build/_docs/md/Installing_the_Server_and_Repo_Tools.md
 #, no-wrap
 msgid "Debian/Ubuntu/Mint/etc"
-msgstr ""
+msgstr "Debian/Ubuntu/Mint/usw."
 
 #. type: Plain text
 #: build/_docs/md/Installing_the_Server_and_Repo_Tools.md
@@ -8681,18 +8699,21 @@ msgid ""
 "releases (Debian/jessie, Ubuntu/utopic, and newer).  This should be enough "
 "to install the basic F-Droid setup:"
 msgstr ""
+"Die F-Droid-Werkzeuge, auch bekannt unter _fdroidserver_, sind Teil "
+"aktueller Versionen (Debian/jessie, Ubuntu/utopic, und neuere).  Dies sollte "
+"genügen, um die F-Droid-Basiskonfiguration zu installieren:"
 
 #. type: Plain text
 #: build/_docs/md/Installing_the_Server_and_Repo_Tools.md
 #, no-wrap
 msgid "    sudo apt-get install fdroidserver\n"
-msgstr ""
+msgstr "    sudo apt-get install fdroidserver\n"
 
 #. type: Title ###
 #: build/_docs/md/Installing_the_Server_and_Repo_Tools.md
 #, no-wrap
 msgid "Older releases"
-msgstr ""
+msgstr "Ältere Versionen"
 
 #. type: Plain text
 #: build/_docs/md/Installing_the_Server_and_Repo_Tools.md
