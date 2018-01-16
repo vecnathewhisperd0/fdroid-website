@@ -84,7 +84,8 @@ msgstr ""
 "Babiloj per IRC estas registrataj ĉe "
 "[BotBot.me](https://botbot.me/freenode/fdroid). Vi ankaŭ povas senpere "
 "kontakti nin per retpoŝto ĉe [team@f-droid.org](mailto:team@f-droid.org). Se "
-"vi volas helpi, vi povas [aliĝi](../contribute)."
+"vi volas helpi, vi povas [aliĝi]({{ \"/contribute/\" | prepend: "
+"site.baseurl }})."
 
 #. type: Title ###
 #: build/_pages/md/about.md build/_docs/md/Repository_Style_Guide.md
@@ -896,7 +897,7 @@ msgid ""
 "[Build Server Setup](Build_Server_Setup) How to setup the complete f-droid."
 "org build setup on your own machine."
 msgstr ""
-"[konstrui kompilan servilon](Setup_an_F-Droid_App_Repo): kiel prepari "
+"[konstrui kompilan servilon](Build_Server_Setup): kiel prepari "
 "kompletan F-Droidan medion por kompili ĉe via komputilo"
 
 #. type: Bullet: '* '
