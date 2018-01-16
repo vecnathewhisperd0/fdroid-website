@@ -631,7 +631,7 @@ msgstr ""
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
 msgid ""
-"[Known Repositories](https://forum.f-droid.org/t/721) A "
+"[Known Repositories](https://f-droid.org/wiki/page/Known_Repositories) A "
 "list that tries to keep track of known F-Droid compatible repositories."
 msgstr ""
 

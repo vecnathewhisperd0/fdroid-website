@@ -756,10 +756,10 @@ msgstr "[kiel helpi](How_to_Help): ĉiu povas kontribui al la projekto F-Droid"
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
 msgid ""
-"[Known Repositories](https://forum.f-droid.org/t/721) A list that tries to "
+"[Known Repositories](https://f-droid.org/wiki/page/Known_Repositories) A list that tries to "
 "keep track of known F-Droid compatible repositories."
 msgstr ""
-"[konataj deponejoj](https://forum.f-droid.org/t/721): listo da F-Droid-"
+"[konataj deponejoj](https://f-droid.org/wiki/page/Known_Repositories): listo da F-Droid-"
 "kongruaj katalogoj de aplikaĵoj (deponejoj)"
 
 #. type: Bullet: '* '

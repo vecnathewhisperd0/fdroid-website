@@ -707,10 +707,10 @@ msgstr ""
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
 msgid ""
-"[Known Repositories](https://forum.f-droid.org/t/721) A "
+"[Known Repositories](https://f-droid.org/wiki/page/Known_Repositories) A "
 "list that tries to keep track of known F-Droid compatible repositories."
 msgstr ""
-"[Dépôts connus](https://forum.f-droid.org/t/721) Une liste "
+"[Dépôts connus](https://f-droid.org/wiki/page/Known_Repositories) Une liste "
 "qui tente de suivre les dépôts connus pour être compatibles avec F-Droid."
 
 #. type: Bullet: '* '

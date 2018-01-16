@@ -625,10 +625,10 @@ msgstr "[如何幫忙](How_to_Help) 任何人都可以用不同的方式為 F-Dr
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
 msgid ""
-"[Known Repositories](https://forum.f-droid.org/t/721) A "
+"[Known Repositories](https://f-droid.org/wiki/page/Known_Repositories) A "
 "list that tries to keep track of known F-Droid compatible repositories."
 msgstr ""
-"[已知的資源庫](https://forum.f-droid.org/t/721) 試著追尋已知 F-Droid "
+"[已知的資源庫](https://f-droid.org/wiki/page/Known_Repositories) 試著追尋已知 F-Droid "
 "相容的資源庫清單。"
 
 #. type: Bullet: '* '

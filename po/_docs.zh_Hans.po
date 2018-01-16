@@ -638,10 +638,10 @@ msgstr "[如何提供帮助](How_to_Help) 参与 F-Droid 项目的各种方式�
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
 msgid ""
-"[Known Repositories](https://forum.f-droid.org/t/721) A "
+"[Known Repositories](https://f-droid.org/wiki/page/Known_Repositories) A "
 "list that tries to keep track of known F-Droid compatible repositories."
 msgstr ""
-"[已知资源库](https://forum.f-droid.org/t/721) 包含已知的与 F-Droid "
+"[已知资源库](https://f-droid.org/wiki/page/Known_Repositories) 包含已知的与 F-Droid "
 "兼容的资源库。"
 
 #. type: Bullet: '* '
