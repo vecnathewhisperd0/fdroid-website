@@ -52,10 +52,10 @@
             "via_bank_transfer": "Banku transferentzia"
         }, 
         "last_updated": {
-            "heading": "Azken eguneratzea"
+            "heading": "Eguneratutako azkenak"
         }, 
         "latest_packages": {
-            "heading": "Azken aplikazioak"
+            "heading": "Aplikazio berriak"
         }, 
         "news": {
             "heading": "Berriak"
