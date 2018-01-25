@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
-"POT-Creation-Date: 2018-01-30 17:23+0100\n"
-"PO-Revision-Date: 2018-01-10 17:49+0000\n"
-"Last-Translator: anonymous <>\n"
+"POT-Creation-Date: 2018-01-24 13:50+0100\n"
+"PO-Revision-Date: 2018-01-26 23:37+0000\n"
+"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/de/>\n"
 "Language: de\n"
@@ -77,7 +77,6 @@ msgstr ""
 
 #. type: Plain text
 #: build/_pages/md/about.md
-#, fuzzy
 msgid ""
 "You can discuss F-Droid or get help on the [forum](https://forum.f-droid."
 "org) and IRC in the [#fdroid channel](https://webchat.freenode.net/?channels="
@@ -87,12 +86,13 @@ msgid ""
 "answered on the forum or #fdroid channel. If you want to help, you can [join "
 "us]({{ \"/contribute/\" | prepend: site.baseurl }})."
 msgstr ""
-"Sie können im IRC-Channel [#fdroid bei FreeNode](https://webchat.freenode."
-"net/?channels=%23fdroid) über F-Droid diskutieren oder Hilfe erhalten. Die "
-"Diskussionen im Chat werden bei [BotBot.me](https://botbot.me/freenode/"
-"fdroid) aufgezeichnet. Sie können auch direkt eine Mail an [team@f-droid.org]"
-"(mailto:team@f-droid.org) schreiben. Wenn Sie mithelfen möchten, können Sie "
-"[sich uns anschließen]({{ \"/contribute/\" | prepend: site.baseurl }})."
+"Sie können im [Forum](https://forum.f-droid.org) und im IRC-Channel [#fdroid "
+"bei FreeNode](https://webchat.freenode.net/?channels=%23fdroid) über F-Droid "
+"diskutieren oder Hilfe erhalten. Die Diskussionen im Chat werden bei "
+"[BotBot.me](https://botbot.me/freenode/fdroid) aufgezeichnet. Sie können "
+"auch direkt eine Mail an [team@f-droid.org](mailto:team@f-droid.org) "
+"schreiben. Wenn Sie mithelfen möchten, können Sie [sich uns anschließen]({{ "
+"\"/contribute/\" | prepend: site.baseurl }})."
 
 #. type: Title ###
 #: build/_pages/md/about.md build/_docs/md/Repository_Style_Guide.md
@@ -110,7 +110,6 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
-#, fuzzy
 msgid ""
 "The content of the news section and the F-Droid logo are also available "
 "under [Creative Commons Attribution-ShareAlike 3.0 License (CC-BY-SA-3.0)]"
@@ -118,9 +117,11 @@ msgid ""
 "License version 3 or later (GPLv3+)](https://www.gnu.org/licenses/gpl-3.0."
 "html)."
 msgstr ""
-"Die Inhalte der Seiten mit Nachrichten und Besprechungen unterliegen einer "
-"[Creative Commons Attribution-ShareAlike 3.0 Lizenz](http://creativecommons."
-"org/licenses/by-sa/3.0/)."
+"Die Inhalte der Nachrichtenseiten und das F-Droid-Logo unterliegen einer ["
+"Creative Commons Attribution-ShareAlike 3.0 License (CC-BY-"
+"SA-3.0)](http://creativecommons.org/licenses/by-sa/3.0/) oder [GNU General "
+"Public License Version 3 oder neuer "
+"(GPLv3+)](https://www.gnu.org/licenses/gpl-3.0.html)."
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
@@ -131,14 +132,12 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
-#, fuzzy
 msgid ""
 "The F-Droid logo was created by William Theaker. Updates to that, and "
 "additional artwork, are by Robert Martinez."
 msgstr ""
-"Das F-Droid-Logo wurde von William Theaker entworfen. Aktualisierungen davon "
-"und nachträgliche Illustrationen sind von Robert Martinez. Sie sind unter CC-"
-"BY-SA 3.0 Unported und GPLv3+ doppelt lizenziert."
+"Das F-Droid-Logo wurde von William Theaker entworfen. Neuerungen daran und "
+"künstlerische Überarbeitungen sind von Robert Martinez."
 
 #. type: Title ###
 #: build/_pages/md/about.md
@@ -347,9 +346,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
-#, fuzzy
 msgid "Tobias Kuban"
-msgstr "Tias Guns"
+msgstr "Tobias Kuban"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
@@ -393,9 +391,8 @@ msgstr "Andrew McMillan"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
-#, fuzzy
 msgid "Andrew Nayenko"
-msgstr "Andrew McMillan"
+msgstr "Andrew Nayenko"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
@@ -404,9 +401,8 @@ msgstr "Alex Oberhauser"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
-#, fuzzy
 msgid "Michael Pöhn"
-msgstr "Michael Haas"
+msgstr "Michael Pöhn"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
@@ -426,7 +422,7 @@ msgstr "Florian Schmaus"
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Dominik Schürmann"
-msgstr ""
+msgstr "Dominik Schürmann"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
@@ -526,12 +522,11 @@ msgstr "Mitarbeit"
 
 #. type: Plain text
 #: build/_pages/md/contribute.md
-#, fuzzy
 msgid ""
 "The project is entirely developed and maintained by volunteers. You can help:"
 msgstr ""
 "Das Projekt wird ausschließlich von Freiwilligen entwickelt und betrieben. "
-"Folgende Arten der Mithilfe sind möglich:"
+"Möglichkeiten der Mitarbeit:"
 
 #. type: Title ###
 #: build/_pages/md/contribute.md
@@ -604,11 +599,18 @@ msgid ""
 "gitlab.com/fdroid/fdroiddata/blob/master/CONTRIBUTING.md), which will "
 "drastically speed up the inclusion of the application."
 msgstr ""
+"Wer die technischen Herausforderungen beherrscht, kann auch die "
+"entsprechenden Metadaten zusammenstellen und diese [über das F-Droid Data "
+"Repository "
+"einreichen](https://gitlab.com/fdroid/fdroiddata/blob/master/CONTRIBUTING.md)"
+", was die Aufnahme der Anwendung deutlich beschleunigen wird."
 
 #. type: Plain text
 #: build/_pages/md/contribute.md
 msgid "The same applies for helping to build newer versions of applications."
 msgstr ""
+"Das Gleiche gilt für die Mithilfe bei der Erstellung neuer "
+"Anwendungsversionen."
 
 #. type: Plain text
 #: build/_pages/md/contribute.md
@@ -617,6 +619,9 @@ msgid ""
 "asking [on IRC](https://webchat.freenode.net/?channels=%23fdroid) (#fdroid "
 "on freenode)."
 msgstr ""
+"Weitere Informationen erhält man in der [Dokumentation](../docs), oder auf "
+"Nachfrage im [IRC](https://webchat.freenode.net/?channels=%23fdroid) (#"
+"fdroid on freenode)."
 
 #. type: Title ###
 #: build/_pages/md/contribute.md build/_docs/md/How_to_Help.md
@@ -626,17 +631,17 @@ msgstr "Übersetzen"
 
 #. type: Plain text
 #: build/_pages/md/contribute.md
-#, fuzzy
 msgid ""
 "The client application is available in many languages. Should yours not be "
 "among those, or be in need of updates or improvement, please create an "
 "account and use the [translation system](https://hosted.weblate.org/projects/"
 "f-droid/) to make your changes."
 msgstr ""
-"Die Client-Anwendung ist in vielen Sprachen erhältlich, sollte Ihre fehlen, "
+"Die Client-Anwendung ist in vielen Sprachen erhältlich. Sollte Ihre fehlen, "
 "aktualisierungs- oder verbesserungsbedürftig sein, erstellen Sie ein Konto "
-"und verwenden Sie das [Übersetzungssystem](https://hosted.weblate.org/"
-"projects/f-droid/), um Änderungen durchzuführen."
+"und verwenden Sie das "
+"[Übersetzungssystem](https://hosted.weblate.org/projects/f-droid/), um "
+"Änderungen durchzuführen."
 
 #. type: Plain text
 #: build/_pages/md/contribute.md
@@ -659,7 +664,6 @@ msgstr "Bei der Weiterentwicklung helfen"
 
 #. type: Plain text
 #: build/_pages/md/contribute.md
-#, fuzzy
 msgid ""
 "There are four git repositories hosted at GitLab – one for the [Android "
 "client application](https://gitlab.com/fdroid/fdroidclient), one for the "
@@ -677,10 +681,10 @@ msgstr ""
 "Es gibt vier auf GitLab gehostete Git-Repositories – eines für die [Android-"
 "App](https://gitlab.com/fdroid/fdroidclient), eines für die [Server-"
 "Werkzeuge](https://gitlab.com/fdroid/fdroidserver) zum Betrieb eines "
-"Repositoreis und zur lokalen Erstellung bzw. Installation von Anwendungen "
-"und eine für die zugeordneten [Metadaten-Dateien für Anwendungen im F-Droid-"
+"Repositorys und zur lokalen Erstellung bzw. Installation von Anwendungen und "
+"eine für die zugehörigen [Metadaten-Dateien für Anwendungen im F-Droid-"
 "Hauptrepository](https://gitlab.com/fdroid/fdroiddata).  Das letzte Repo "
-"bearbeitet [Webseite und Dokumentation](https://gitlab.com/fdroid/fdroid-"
+"bearbeitet [Website und Dokumentation](https://gitlab.com/fdroid/fdroid-"
 "website).  Der einfachste Weg an der Entwicklung mitzuwirken, ist das Klonen "
 "dieser Projekte und Merge-Anträge einzureichen.  Bei Planung großer "
 "Änderungen wäre es gut, sie vorab im Chat oder im Forum abzusprechen, um zu "
