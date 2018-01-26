@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
-"POT-Creation-Date: 2018-01-30 17:23+0100\n"
-"PO-Revision-Date: 2018-01-06 23:12+0000\n"
-"Last-Translator: Ldm Public <ldmpub@gmail.com>\n"
+"POT-Creation-Date: 2018-01-24 13:50+0100\n"
+"PO-Revision-Date: 2018-01-26 18:05+0000\n"
+"Last-Translator: anonymous <>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/fr/>\n"
 "Language: fr\n"
@@ -624,6 +624,9 @@ msgid ""
 "asking [on IRC](https://webchat.freenode.net/?channels=%23fdroid) (#fdroid "
 "on freenode)."
 msgstr ""
+"Vous pouvez trouver plus d'informations dans [la documentation](../docs), ou "
+"en demandant [sur IRC](https://webchat.freenode.net/?channels=%23fdroid) (#"
+"fdroid sur freenode)."
 
 #. type: Title ###
 #: build/_pages/md/contribute.md build/_docs/md/How_to_Help.md
@@ -1027,6 +1030,8 @@ msgid ""
 "[Maintaining the Forum](Maintaining_the_Forum) Useful information for "
 "administrators of [F-Droid's forum](https://forum.f-droid.org)"
 msgstr ""
+"[Maintenir le Forum](Maintaining_the_Forum) Les informations utiles pour un "
+"administrateur d'un [forum F-Droid](https://forum.f-droid.org)"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
