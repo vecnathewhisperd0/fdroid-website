@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-01-24 13:50+0100\n"
-"PO-Revision-Date: 2018-01-28 12:05+0000\n"
+"PO-Revision-Date: 2018-01-29 12:36+0000\n"
 "Last-Translator: リー <meluten@gmail.com>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/de/>\n"
@@ -911,6 +911,8 @@ msgid ""
 "[Publishing Nightly Builds](Publishing_Nightly_Builds) Make an automated "
 "repo of nightly builds of your app."
 msgstr ""
+"[Veröffentlichung von Nightly Builds](Publishing_Nightly_Builds) Erstelle "
+"Automatisch repos für die Nightly Builds deiner App."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
@@ -969,6 +971,9 @@ msgid ""
 "[Building a Signing Server](Building_a_Signing_Server) For higher security, "
 "isolate the signing keys from the rest."
 msgstr ""
+"[Einrichten eines Registrierung Servers](Building_a_Signing_Server) Für mehr "
+"Sicherheit sollten die Registrierungs Schlüssel isoliert vom Rest aufbewahrt "
+"werden."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
@@ -986,15 +991,14 @@ msgstr "[Whitelabel Builds](Whitelabel_Builds) Einzelanfertigungen von F-Droid"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
-#, fuzzy
 msgid ""
 "[Privileged Extension](https://gitlab.com/fdroid/privileged-extension/#f-"
 "droid-privileged-extension) How to use F-Droid Privileged Extension as a "
 "user and rom developer"
 msgstr ""
 "[Rechteerweiterung](https://gitlab.com/fdroid/privileged-extension#f-droid-"
-"privileged-extension) Wie die F-Droid-Rechteerweiterung als Nutzer und ROM-"
-"Entwickler verwendet wird."
+"privileged-extension) Wie die F-Droid-Rechteerweiterung von Nutzern und ROM-"
+"Entwicklern verwendet werden soll"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
