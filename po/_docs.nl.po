@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Dutch (F-Droid)\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-01-25 20:05+0200\n"
-"PO-Revision-Date: 2018-01-25 19:37+0000\n"
+"PO-Revision-Date: 2018-01-29 21:36+0000\n"
 "Last-Translator: Nathan Follens <nathan@email.is>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/nl/>\n"
@@ -26,6 +26,8 @@ msgid ""
 "If you think there should be something here, please [submit an issue]"
 "(https://gitlab.com/fdroid/fdroid-website/issues)."
 msgstr ""
+"Als u denkt dat hier iets hoort te zijn, kunt u [dit "
+"melden](https://gitlab.com/fdroid/fdroid-website/issues)."
 
 #. type: Title #
 #: build/_pages/md/404.md
@@ -71,7 +73,6 @@ msgstr "Contact"
 
 #. type: Plain text
 #: build/_pages/md/about.md
-#, fuzzy
 msgid ""
 "You can discuss F-Droid or get help on the [forum](https://forum.f-droid."
 "org) and IRC in the [#fdroid channel](https://webchat.freenode.net/?channels="
@@ -81,12 +82,14 @@ msgid ""
 "answered on the forum or #fdroid channel. If you want to help, you can [join "
 "us]({{ \"/contribute/\" | prepend: site.baseurl }})."
 msgstr ""
-"U kunt F-Droid bespreken of hulp krijgen op IRC in kanaal [#fdroid on "
-"FreeNode] (https://webchat.freenode.net/?channels=%23fdroid). De discussies "
-"over IRC zijn aangemeld op [BotBot.me] (https://botbot.me/freenode/fdroid). "
-"U kunt ook rechtstreeks contact met ons opnemen via e-mail op [team@f-droid."
-"org] (mailto: team@f-droid.org). Als u wilt helpen, kunt u [meedoen] ({{\"/ "
-"contribute /\" | prepend: site.baseurl}})."
+"U kunt F-Droid bespreken of hulp krijgen [forum](https://forum.f-droid.org) "
+"en op IRC in het kanaal [#fdroid op "
+"FreeNode](https://webchat.freenode.net/?channels=%23fdroid). De discussies "
+"op IRC worden bijgehouden op [BotBot.me](https://botbot.me/freenode/fdroid). "
+"U kunt ook rechtstreeks contact met ons opnemen via e-mail op "
+"[team@f-droid.org](mailto:team@f-droid.org), maar berichten op het forum of "
+"in #fdroid hebben meer kans beantwoord te worden. Als u wilt helpen, kunt u ["
+"zich bij ons aansluiten]({{\"/contribute/\" | prepend: site.baseurl }})."
 
 #. type: Title ###
 #: build/_pages/md/about.md build/_docs/md/Repository_Style_Guide.md
@@ -101,10 +104,12 @@ msgid ""
 "community are a availble under the [GNU Affero General Public License "
 "version 3 or later (AGPLv3+)](https://www.gnu.org/licenses/agpl-3.0.html)."
 msgstr ""
+"De broncode voor deze website en de inhoud gemaakt door de F-Droid-"
+"gemeenschap zijn beschikbaar onder de [GNU Affero General Public License "
+"versie 3 of later (AGPLv3+)](https://www.gnu.org/licenses/agpl-3.0.html)."
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
-#, fuzzy
 msgid ""
 "The content of the news section and the F-Droid logo are also available "
 "under [Creative Commons Attribution-ShareAlike 3.0 License (CC-BY-SA-3.0)]"
@@ -112,9 +117,11 @@ msgid ""
 "License version 3 or later (GPLv3+)](https://www.gnu.org/licenses/gpl-3.0."
 "html)."
 msgstr ""
-"De inhoud van het nieuws en reviews gedeelte is gelicentieerd onder een "
-"[Creative Commons Attribution-ShareAlike 3.0-licentie] (http://"
-"creativecommons.org/licenses/by-sa/3.0/)."
+"De inhoud van het nieuwsgedeelte en het F-Droid-logo zijn ook beschikbaar "
+"onder een [Creative Commons  Naamsvermelding-GelijkDelen 3.0-licentie (CC-BY-"
+"SA-3.0)](http://creativecommons.org/licenses/by-sa/3.0/), of de [GNU General "
+"Public License versie 3 of later "
+"(GPLv3+)](https://www.gnu.org/licenses/gpl-3.0.html)."
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
@@ -122,6 +129,9 @@ msgid ""
 "The descriptive text and graphics for each app have a specific license from "
 "that project.  Free software should also have free descriptions and graphics."
 msgstr ""
+"De beschrijving en de afbeeldingen voor elke app zijn beschikbaar onder een "
+"licentie van hun project. Vrije software zou ook vrije beschrijvingen en "
+"afbeeldingen moeten hebben."
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
@@ -192,6 +202,8 @@ msgid ""
 "The F-Droid project was founded in 2010 by Ciaran Gultnieks, and is brought "
 "to you by at least the following people:"
 msgstr ""
+"Het F-Droid-project is in 2010 door Ciaran Gultnieks opgericht, en wordt u "
+"nu gebracht door minstens volgende personen:"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
@@ -490,6 +502,9 @@ msgid ""
 "list](https://gitlab.com/fdroid/fdroid-website/blob/master/_pages/about.md)! "
 "Keep it sorted by surname, please."
 msgstr ""
+"Als uw naam ontbreekt is dit een fout. Voeg in dat geval [uzelf toe aan de "
+"lijst](https://gitlab.com/fdroid/fdroid-website/blob/master/_pages/about.md)"
+"! Hou het liefst gesorteerd op achternaam."
 
 #. type: Plain text
 #: build/_pages/md/about.md
@@ -497,6 +512,8 @@ msgid ""
 "The original F-Droid client app was based on the Aptoide app developed by "
 "Roberto Jacinto."
 msgstr ""
+"De oorspronkelijke cliëntapp van F-Droid was gebaseerd op de Aptoide-app, "
+"ontwikkeld door Roberto Jacinto."
 
 #. type: Title #
 #: build/_pages/md/contribute.md
@@ -525,21 +542,26 @@ msgid ""
 "them in the issue tracker (see below), or discuss them in the [Forum]"
 "(https://forum.f-droid.org/) or on IRC (#fdroid on freenode)."
 msgstr ""
+"Als u problemen ondervindt met de site of de cliëntsoftware, kunt u deze "
+"melden (zie hieronder), of bespreken op het "
+"[forum](https://forum.f-droid.org/) of op IRC (#fdroid op freenode)."
 
 #. type: Plain text
 #: build/_pages/md/contribute.md
 msgid "For reporting issues, choose an appropriate tracker from the following:"
-msgstr ""
+msgstr "Kies de geschikte bugtracker voor het melden van fouten betreffende:"
 
 #. type: Bullet: '* '
 #: build/_pages/md/contribute.md
 msgid "[F-Droid client app](https://gitlab.com/fdroid/fdroidclient/issues)"
-msgstr ""
+msgstr "[de F-Droid-cliëntapp](https://gitlab.com/fdroid/fdroidclient/issues)"
 
 #. type: Bullet: '* '
 #: build/_pages/md/contribute.md
 msgid "[Server and build tools](https://gitlab.com/fdroid/fdroidserver/issues)"
 msgstr ""
+"[server- en "
+"compilatiegereedschap](https://gitlab.com/fdroid/fdroidserver/issues)"
 
 #. type: Bullet: '* '
 #: build/_pages/md/contribute.md
@@ -547,6 +569,8 @@ msgid ""
 "[Official F-Droid repository metadata](https://gitlab.com/fdroid/fdroiddata/"
 "issues)"
 msgstr ""
+"[metadata van de officiële F-Droid-"
+"pakketbron](https://gitlab.com/fdroid/fdroiddata/issues)"
 
 #. type: Title ###
 #: build/_pages/md/contribute.md
@@ -599,6 +623,10 @@ msgid ""
 "account and use the [translation system](https://hosted.weblate.org/projects/"
 "f-droid/) to make your changes."
 msgstr ""
+"De cliënttoepassing is beschikbaar in een heleboel talen. Als uw taal er nog "
+"niet tussen staat, of verbeterd kan worden, kunt u een account aanmaken en "
+"het [vertaalsysteem](https://hosted.weblate.org/projects/f-droid/) gebruiken "
+"om uw wijzigingen door te voeren."
 
 #. type: Plain text
 #: build/_pages/md/contribute.md
@@ -608,12 +636,15 @@ msgid ""
 "(https://forum.f-droid.org/c/translation) for translation related "
 "discussions."
 msgstr ""
+"Begin met het overzicht van [vertaling en "
+"lokalisering](../docs/Translation_and_Localization).  Er is ook een daartoe ["
+"toegewijd forumonderdeel](https://forum.f-droid.org/c/translation)."
 
 #. type: Title ###
 #: build/_pages/md/contribute.md
 #, no-wrap
 msgid "Help with Development"
-msgstr ""
+msgstr "Hulp bij ontwikkeling"
 
 #. type: Plain text
 #: build/_pages/md/contribute.md
@@ -675,7 +706,7 @@ msgstr "Ermee beginnen"
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
 msgid "[FAQ - General](FAQ_-_General) Frequently Asked Questions about F-Droid"
-msgstr ""
+msgstr "[VGV - algemeen](FAQ_-_General) Veelgestelde vragen over F-Droid"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
@@ -683,6 +714,8 @@ msgid ""
 "[FAQ - Client](FAQ_-_Client) Frequently Asked Questions about how to use the "
 "F-Droid app in Android."
 msgstr ""
+"[VGV - cliënt](FAQ_-_Client) Veelgestelde vragen over het gebruik van de F"
+"-Droid-app in Android."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
@@ -705,6 +738,8 @@ msgid ""
 "[How to Help](How_to_Help) Different ways anyone can contribute to the F-"
 "Droid project."
 msgstr ""
+"[Hoe bij te dragen](How_to_Help) Verschillende manieren om bij te dragen aan "
+"het F-Droid-project."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
@@ -712,6 +747,8 @@ msgid ""
 "[Known Repositories](https://forum.f-droid.org/t/721) A list that tries to "
 "keep track of known F-Droid compatible repositories."
 msgstr ""
+"[Gekende pakketbronnen](https://forum.f-droid.org/t/721) Een lijst die de "
+"gekende pakketbronnen compatibel met F-Droid tracht bij te houden."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
@@ -720,6 +757,10 @@ msgid ""
 "are the various channels that F-Droid software are released on, with info to "
 "verify them based on signing keys."
 msgstr ""
+"[Uitgavekanalen en ondertekeningssleutels](Release_Channels_and_Signing_Keys)"
+" Dit zijn de verschillende kanalen waarop F-Droid-software wordt "
+"uitgebracht, met informatie om ze te verifiëren aan de hand van "
+"ondertekeningssleutels."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
@@ -727,6 +768,8 @@ msgid ""
 "[Security Model](Security_Model) A brief explanation of how F-Droid delivers "
 "software to users securely."
 msgstr ""
+"[Beveiligingsmodel](Security_Model) Een korte uitleg over hoe F-Droid op een "
+"veilige manier software aan gebruikers levert."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
@@ -734,6 +777,8 @@ msgid ""
 "[Translation and Localization](Translation_and_Localization) How all the "
 "parts of F-Droid are localized."
 msgstr ""
+"[Vertaling en lokalisering](Translation_and_Localization) Hoe alle "
+"onderdelen van F-Droid gelokaliseerd worden."
 
 #. type: Title ###
 #: build/_pages/md/docs.md
@@ -747,6 +792,8 @@ msgid ""
 "[FAQ - App Developers](FAQ_-_App_Developers) Frequently Asked Questions "
 "about F-Droid"
 msgstr ""
+"[VGV - appontwikkelaars](FAQ_-_App_Developers) Veelgestelde vragen over "
+"F-Droid"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
@@ -754,6 +801,8 @@ msgid ""
 "[Build Metadata Reference](Build_Metadata_Reference) All about the build "
 "\"recipes\""
 msgstr ""
+"[Compilatiemetadatareferentie](Build_Metadata_Reference) Alles over de "
+"compilatie‘recepten’"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
@@ -761,12 +810,16 @@ msgid ""
 "[Submitting to F-Droid: Quick Start Guide](Submitting_to_F-"
 "Droid_Quick_Start_Guide) Add an app to f-droid.org"
 msgstr ""
+"[Indienen bij F-Droid: snelle start](Submitting_to_F-Droid_Quick_Start_Guide)"
+" Een app toevoegen aan f.droid.org"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
 msgid ""
 "[Update Processing](Update_Processing) How updates get detected and added."
 msgstr ""
+"[Updateverwerking](Update_Processing) Hoe updates gedetecteerd en toegevoegd "
+"worden."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
@@ -774,6 +827,8 @@ msgid ""
 "[Inclusion Policy](Inclusion_Policy) & [Inclusion How-To](Inclusion_How-To)  "
 "Guidelines for how to request the inclusion of a new app."
 msgstr ""
+"[Inclusiebeleid](Inclusion_Policy) & [Inclusiegids](Inclusion_How-To) "
+"Richtlijnen voor het aanvragen van de inclusie van een nieuwe app."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
@@ -781,6 +836,8 @@ msgid ""
 "[Importing Applications](Importing_Applications) Using `fdroid import` to "
 "build a new project."
 msgstr ""
+"[Apps importeren](Importing_Applications) Gebruik van `fdroid import` om een "
+"nieuw project te maken."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
@@ -788,6 +845,8 @@ msgid ""
 "[Building Applications](Building_Applications) Using `fdroid build` to build "
 "an app."
 msgstr ""
+"[Apps compileren](Building_Applications) Gebruik van `fdroid build` om een "
+"app te maken."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
@@ -796,6 +855,9 @@ msgid ""
 "(All_About_Descriptions_Graphics_and_Screenshots) Showing off your app in F-"
 "Droid."
 msgstr ""
+"[Alles over beschrijvingen, afbeeldingen en "
+"schermafdrukken](All_About_Descriptions_Graphics_and_Screenshots) Je app "
+"promoten in F-Droid."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
@@ -803,6 +865,8 @@ msgid ""
 "[Publishing Nightly Builds](Publishing_Nightly_Builds) Make an automated "
 "repo of nightly builds of your app."
 msgstr ""
+"[Nachtelijke compilaties publiceren](Publishing_Nightly_Builds) Een "
+"geautomatiseerde pakketbron van nachtelijke compilaties van je app maken."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
@@ -810,6 +874,10 @@ msgid ""
 "[Installing the Server and Repo Tools](Installing_the_Server_and_Repo_Tools) "
 "How to install fdroidserver, the tools for running repos and build servers."
 msgstr ""
+"[Installatie van server- en "
+"pakketbrongereedschap](Installing_the_Server_and_Repo_Tools) Hoe "
+"fdroidserver en het gereedschap voor het draaien van pakketbronnen en "
+"compilatieservers te installeren."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
@@ -881,6 +949,8 @@ msgid ""
 "[Release Process](Release_Process) All the steps needed to make official "
 "release of F-Droid projects."
 msgstr ""
+"[Uitgaveprocedure](Release_Process) Alle vereiste stappen voor een officiële "
+"uitgave van F-Droid-projecten."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
@@ -888,6 +958,8 @@ msgid ""
 "[Maintaining the Forum](Maintaining_the_Forum) Useful information for "
 "administrators of [F-Droid's forum](https://forum.f-droid.org)"
 msgstr ""
+"[Forumbeheer](Maintaining_the_Forum) Nuttige informatie voor beheerders van "
+"het [F-Droid-forum](https://forum.f-droid.org)"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
@@ -1018,7 +1090,7 @@ msgstr ""
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
 #, no-wrap
 msgid "All About Descriptions, Graphics, and Screenshots"
-msgstr ""
+msgstr "Alles over beschrijvingen, afbeeldingen en schermafdrukken"
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -1042,21 +1114,23 @@ msgid ""
 "* Do not remove this line (it will not be displayed)\n"
 "{:toc}\n"
 msgstr ""
+"* Verwijder deze regel niet (ze wordt niet weergegeven)\n"
+"{:toc}\n"
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
 msgid "There are two data formats:"
-msgstr ""
+msgstr "Er zijn twee gegevensformaten:"
 
 #. type: Bullet: '* '
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
 msgid "descriptive materials in plain text or HTML"
-msgstr ""
+msgstr "beschrijvend materiaal in platte tekst of HTML"
 
 #. type: Bullet: '* '
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
 msgid "graphics and screenshots as PNG or JPEG files"
-msgstr ""
+msgstr "afbeeldingen en schermafdrukken als PNG- of JPEG-bestanden"
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -1072,7 +1146,7 @@ msgstr ""
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
 #, no-wrap
 msgid "In the app's source repository"
-msgstr ""
+msgstr "In de pakketbron van de app"
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -1169,6 +1243,34 @@ msgid ""
 "                  └── *.png\n"
 "```\n"
 msgstr ""
+"```\n"
+"- <fdroiddata>/\n"
+"  └── metadata/\n"
+"      └── <package-id>/\n"
+"          └── <locale>/\n"
+"              ├── full_description.txt\n"
+"              ├── short_description.txt\n"
+"              ├── title.txt\n"
+"              ├── video.txt\n"
+"              ├── images/\n"
+"              │   ├── featureGraphic.png\n"
+"              │   ├── icon.png\n"
+"              │   ├── promoGraphic.png\n"
+"              │   └── tvBanner.png\n"
+"              ├── changelogs/\n"
+"              │   ├── <version-code>.txt\n"
+"              │   └── <version-code>.txt\n"
+"              ├── phoneScreenshots/\n"
+"              │   └── *.png\n"
+"              ├── sevenInchScreenshots/\n"
+"              │   └── *.png\n"
+"              ├── tenInchScreenshots/\n"
+"              │   └── *.png\n"
+"              ├── tvScreenshots/\n"
+"              │   └── *.png\n"
+"              └── wearScreenshots/\n"
+"                  └── *.png\n"
+"```\n"
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -1198,7 +1300,7 @@ msgstr ""
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
 #, no-wrap
 msgid "Directly in the F-Droid repo"
-msgstr ""
+msgstr "Rechtstreeks in de F-Droid-pakketbron"
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -1237,6 +1339,26 @@ msgid ""
 "                  └── *.png\n"
 "```\n"
 msgstr ""
+"```\n"
+"- fdroid/\n"
+"  └── repo/\n"
+"      └── <package-id>/\n"
+"          └── <locale>/\n"
+"              ├── featureGraphic.png\n"
+"              ├── icon.png\n"
+"              ├── promoGraphic.png\n"
+"              ├── tvBanner.png\n"
+"              ├── phoneScreenshots/\n"
+"              │   └── *.png\n"
+"              ├── sevenInchScreenshots/\n"
+"              │   └── *.png\n"
+"              ├── tenInchScreenshots/\n"
+"              │   └── *.png\n"
+"              ├── tvScreenshots/\n"
+"              │   └── *.png\n"
+"              └── wearScreenshots/\n"
+"                  └── *.png\n"
+"```\n"
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -1250,7 +1372,7 @@ msgstr ""
 #: build/_docs/md/Building_Applications.md
 #, no-wrap
 msgid "Building Applications"
-msgstr ""
+msgstr "Apps compileren"
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md
@@ -1275,11 +1397,13 @@ msgid ""
 "The source code (either for a particular version, or even all versions!) is "
 "unavailable or incomplete."
 msgstr ""
+"De broncode (voor één bepaalde versie, of zelfs alle versies!) is niet "
+"beschikbaar of onvolledig."
 
 #. type: Bullet: '2.  '
 #: build/_docs/md/Building_Applications.md
 msgid "The source code is not capable of producing the actual binary supplied."
-msgstr ""
+msgstr "De broncode kan het gegeven binaire bestand niet reproduceren."
 
 #. type: Bullet: '3.  '
 #: build/_docs/md/Building_Applications.md
@@ -1287,6 +1411,8 @@ msgid ""
 "The ’source code’ contains binary files of unknown origin, or with "
 "proprietary licenses."
 msgstr ""
+"De ‘broncode’ bevat bestanden van onbekende oorsprong, of met propriëtaire "
+"licenties."
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md
@@ -1775,12 +1901,12 @@ msgstr "Beveiligingscamera’s"
 #. type: Bullet: '* '
 #: build/_docs/md/Building_a_Signing_Server.md
 msgid "Onsite security guards"
-msgstr ""
+msgstr "Bewakingsagenten ter plaatse"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Building_a_Signing_Server.md
 msgid "Visitor logging"
-msgstr ""
+msgstr "Bijhouden van bezoekers"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Building_a_Signing_Server.md
@@ -1799,7 +1925,7 @@ msgstr ""
 #: build/_docs/md/Building_a_Signing_Server.md
 #, no-wrap
 msgid "Difficult decisions"
-msgstr ""
+msgstr "Moeilijke beslissingen"
 
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
@@ -1815,7 +1941,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "Build Metadata Reference"
-msgstr ""
+msgstr "Compilatiemetadatareferentie"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1823,6 +1949,8 @@ msgid ""
 "Information used by `fdroid update` to compile the public index comes from "
 "several sources:"
 msgstr ""
+"Informatie gebruikt door `fdroid update` om de openbare index te compileren "
+"is afkomstig uit verschillende bronnen:"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1865,7 +1993,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "There are three supported file types for metadata files:"
-msgstr ""
+msgstr "Er zijn drie ondersteunde bestandstypes voor metadatabestanden:"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1873,16 +2001,19 @@ msgid ""
 "_.yml_ files in [YAML](http://www.yaml.org/start.html) format, used by f-"
 "droid.org"
 msgstr ""
+"_.yml_-bestanden in [YAML](http://www.yaml.org/start.html)-formaat, gebruikt "
+"door f-droid.org"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "_.txt_ files in the old, custom, F-Droid text-based format"
 msgstr ""
+"_.txt_-bestanden in het oude, aangepaste, tekstgebaseerde F-Droid-formaat"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "_.json_ files in [JSON](http://json.org/) format"
-msgstr ""
+msgstr "_.json_-bestanden in [JSON](http://json.org/)-formaat"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1905,7 +2036,7 @@ msgstr "``` fdroid rewritemeta ```"
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "Or just run it on a specific app:"
-msgstr ""
+msgstr "Of voer het uit op een specifieke app:"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1915,7 +2046,7 @@ msgstr "``` fdroid rewritemeta org.adaway ```"
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "The following sections describe the fields recognised within the file."
-msgstr ""
+msgstr "Volgende secties beschrijven de velden herkend binnen het bestand."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1937,12 +2068,30 @@ msgid ""
 "Version)  - [Current Version Code](#Current-Version-Code)  - [No Source "
 "Since](#No-Source-Since)"
 msgstr ""
+"- [Categorieën](#Categories)  - [Naam van auteur](#Author-Name)  - [E-"
+"mailadres van auteur](#Author-Email)  - [Licentie](#License)  - ["
+"Automatische naam](#Auto-Name)  - [Naam](#Name)  - [Levert](#Provides)  - "
+"[Website](#Web-Site)  - [Broncode](#Source-Code)  - [Bugtracker](#Issue-"
+"Tracker)  - [Wijzigingslog](#Changelog)  - [Doneren](#Donate)  - [Flattr-"
+"ID](#FlattrID)  - [Liberapay-ID](#LiberapayID)  - [Bitcoin](#Bitcoin)  - "
+"[Litecoin](#Litecoin)  - [Overzicht](#Summary)  - "
+"[Beschrijving](#Description)  - [Ontwikkelaarsnotities](#Maintainer-Notes)  -"
+" [Pakketbrontype](#Repo-Type)  - [Pakketbron](#Repo)  - [Binaire "
+"bestanden](#Binaries)  - [Compileren](#Build)  - "
+"[Antifuncties](#AntiFeatures)  - [Uitgeschakeld](#Disabled)  - [Vereist root"
+"](#Requires-Root)  - [Archiefbeleid](#Archive-Policy)  - [Updatecontrolemodus"
+"](#Update-Check-Mode)  - [Updatecontrole negeren](#Update-Check-Ignore)  - "
+"[Verificatiecodebewerking](#Vercode-Operation)  - [Updatecontrolenaam"
+"](#Update-Check-Name)  - [Updatecontrolegegevens](#Update-Check-Data)  - ["
+"Automatische updatemodus](#Auto-Update-Mode)  - [Huidige versie](#Current-"
+"Version)  - [Huidige versiecode](#Current-Version-Code)  - [Geen broncode "
+"sinds](#No-Source-Since)"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.1 Categories<a name=\"Categories\"></a>"
-msgstr ""
+msgstr "7.1 Categorieën<a name=\"Categories\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1973,7 +2122,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.2 Author Name<a name=\"Author-Name\"></a>"
-msgstr ""
+msgstr "7.2 Naam van auteur<a name=\"Author-Name\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2000,13 +2149,13 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.3 Author Email<a name=\"Author-Email\"></a>"
-msgstr ""
+msgstr "7.3 E-mailadres van auteur<a name=\"Author-Email\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid ""
 "The e-mail address of the author(s). This can be omitted (or left blank)."
-msgstr ""
+msgstr "Het e-mailadres van de auteur(s). Dit hoeft niet ingevuld te worden."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2025,7 +2174,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.4 License<a name=\"License\"></a>"
-msgstr ""
+msgstr "7.4 Licentie<a name=\"License\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2057,7 +2206,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.5 Auto Name<a name=\"Auto-Name\"></a>"
-msgstr ""
+msgstr "7.5 Automatische naam<a name=\"Auto-Name\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2086,7 +2235,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.6 Name<a name=\"Name\"></a>"
-msgstr ""
+msgstr "7.6 Naam<a name=\"Name\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2103,7 +2252,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.7 Provides<a name=\"Provides\"></a>"
-msgstr ""
+msgstr "7.7 Levert<a name=\"Provides\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2130,7 +2279,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.8 Web Site<a name=\"Web-Site\"></a>"
-msgstr ""
+msgstr "7.8 Website<a name=\"Web-Site\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2149,7 +2298,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.9 Source Code<a name=\"Source-Code\"></a>"
-msgstr ""
+msgstr "7.9 Broncode<a name=\"Source-Code\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2169,7 +2318,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.10 Issue Tracker<a name=\"Issue-Tracker\"></a>"
-msgstr ""
+msgstr "7.10 Bugtracker<a name=\"Issue-Tracker\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2188,7 +2337,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.11 Changelog<a name=\"Changelog\"></a>"
-msgstr ""
+msgstr "7.11 Wijzigingslog<a name=\"Changelog\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2207,7 +2356,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.12 Donate<a name=\"Donate\"></a>"
-msgstr ""
+msgstr "7.12 Doneren<a name=\"Donate\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2237,7 +2386,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.13 FlattrID<a name=\"FlattrID\"></a>"
-msgstr ""
+msgstr "7.13 Flattr-ID<a name=\"FlattrID\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2257,7 +2406,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.14 LiberapayID<a name=\"LiberapayID\"></a>"
-msgstr ""
+msgstr "7.14 Liberapay-ID<a name=\"LiberapayID\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2277,12 +2426,12 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.15 Bitcoin<a name=\"Bitcoin\"></a>"
-msgstr ""
+msgstr "7.15 Bitcoin<a name=\"Bitcoin\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "A bitcoin address for donating to the project."
-msgstr ""
+msgstr "Een Bitcoinadres voor donaties aan het project."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2294,12 +2443,12 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.16 Litecoin<a name=\"Litecoin\"></a>"
-msgstr ""
+msgstr "7.16 Litecoin<a name=\"Litecoin\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "A litecoin address for donating to the project."
-msgstr ""
+msgstr "Een Litecoinadres voor donaties aan het project."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2311,7 +2460,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.17 Summary<a name=\"Summary\"></a>"
-msgstr ""
+msgstr "7.17 Overzicht<a name=\"Summary\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2338,7 +2487,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.18 Description<a name=\"Description\"></a>"
-msgstr ""
+msgstr "7.18 Beschrijving<a name=\"Description\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2410,7 +2559,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.19 Maintainer Notes<a name=\"Maintainer-Notes\"></a>"
-msgstr ""
+msgstr "7.19 Ontwikkelaarsnotities<a name=\"Maintainer-Notes\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2429,7 +2578,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.20 Repo Type<a name=\"Repo-Type\"></a>"
-msgstr ""
+msgstr "7.20 Pakketbrontype<a name=\"Repo-Type\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2473,7 +2622,7 @@ msgstr "‘srclib’"
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.21 Repo<a name=\"Repo\"></a>"
-msgstr ""
+msgstr "7.21 Pakketbron<a name=\"Repo\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2509,7 +2658,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.22 Binaries<a name=\"Binaries\"></a>"
-msgstr ""
+msgstr "7.22 Binaire bestanden<a name=\"Binaries\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2534,7 +2683,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.23 Build<a name=\"Build\"></a>"
-msgstr ""
+msgstr "7.23 Compileren<a name=\"Build\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -3304,7 +3453,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.24 AntiFeatures<a name=\"AntiFeatures\"></a>"
-msgstr ""
+msgstr "7.24 Antifuncties<a name=\"AntiFeatures\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -3392,7 +3541,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.25 Disabled<a name=\"Disabled\"></a>"
-msgstr ""
+msgstr "7.25 Uitgeschakeld<a name=\"Disabled\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -3410,7 +3559,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.26 Requires Root<a name=\"Requires-Root\"></a>"
-msgstr ""
+msgstr "7.26 Vereist root<a name=\"Requires-Root\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -3432,7 +3581,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.27 Archive Policy<a name=\"Archive-Policy\"></a>"
-msgstr ""
+msgstr "7.27 Archiefbeleid<a name=\"Archive-Policy\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -3454,7 +3603,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.28 Update Check Mode<a name=\"Update-Check-Mode\"></a>"
-msgstr ""
+msgstr "7.28 Updatecontrolemodus<a name=\"Update-Check-Mode\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -3467,7 +3616,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "Valid modes are:"
-msgstr ""
+msgstr "Geldige modi zijn:"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -3599,7 +3748,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.29 Vercode Operation<a name=\"Vercode-Operation\"></a>"
-msgstr ""
+msgstr "7.29 Verificatiecodebewerking<a name=\"Vercode-Operation\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -3622,7 +3771,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.30 Update Check Ignore<a name=\"Update-Check-Ignore\"></a>"
-msgstr ""
+msgstr "7.30 Updatecontrole negeren<a name=\"Update-Check-Ignore\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -3637,7 +3786,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.31 Update Check Name<a name=\"Update-Check-Name\"></a>"
-msgstr ""
+msgstr "7.31 Updatecontrolenaam<a name=\"Update-Check-Name\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -3660,7 +3809,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.32 Update Check Data<a name=\"Update-Check-Data\"></a>"
-msgstr ""
+msgstr "7.32 Updatecontrolegegevens<a name=\"Update-Check-Data\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -3671,7 +3820,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.33 Auto Update Mode<a name=\"Auto-Update-Mode\"></a>"
-msgstr ""
+msgstr "7.33 Automatische updatemodus<a name=\"Auto-Update-Mode\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -3720,7 +3869,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.34 Current Version<a name=\"Current-Version\"></a>"
-msgstr ""
+msgstr "7.34 Huidige versie<a name=\"Current-Version\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -3750,7 +3899,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.35 Current Version Code<a name=\"Current-Version-Code\"></a>"
-msgstr ""
+msgstr "7.35 Huidige versiecode<a name=\"Current-Version-Code\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -3786,7 +3935,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.36 No Source Since<a name=\"No-Source-Since\"></a>"
-msgstr ""
+msgstr "7.36 Geen broncode sinds<a name=\"No-Source-Since\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -4161,7 +4310,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
 msgid "vagrant box remove jessie64 ```"
-msgstr ""
+msgstr "vagrant box remove jessie64 ```"
 
 #. type: Title ####
 #: build/_docs/md/Build_Server_Setup.md
@@ -4392,7 +4541,7 @@ msgstr "```python vm_provider = 'libvirt' ```"
 #: build/_docs/md/Build_Server_Setup.md
 #, no-wrap
 msgid "Debian/stretch and Ubuntu/xenial"
-msgstr ""
+msgstr "Debian/stretch en Ubuntu/xenial"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
@@ -4420,7 +4569,7 @@ msgstr ""
 #: build/_docs/md/Build_Server_Setup.md
 #, no-wrap
 msgid "Advanced nested KVM Setup:"
-msgstr ""
+msgstr "Geavanceerde genestelde KVM-configuratie:"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
@@ -4563,7 +4712,7 @@ msgstr ""
 #: build/_docs/md/Client_Bug_Reports.md
 #, no-wrap
 msgid "What to include in a bug report"
-msgstr ""
+msgstr "Wat moet er in een foutrapportage staan?"
 
 #. type: Plain text
 #: build/_docs/md/Client_Bug_Reports.md
@@ -4572,26 +4721,29 @@ msgid ""
 "reproducing your issue and thus fixing it, please include as much of the "
 "following information as possible in your bug reports:"
 msgstr ""
+"Om ervoor te zorgen dat de F-Droid-ontwikkelaars zo goed mogelijk uw "
+"probleem kunnen reproduceren en oplossen, is het belangrijk dat u zo veel "
+"mogelijk informatie in uw foutrapportages meegeeft:"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Client_Bug_Reports.md
 msgid "F-Droid version (e.g. \"0.88\" or \"0.89-test\")"
-msgstr "F-Droid-versie (bv. \"0.88\" of \"0.89-test\")"
+msgstr "F-Droid-versie (bv. ‘0.88’ of ‘0.89-test’)"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Client_Bug_Reports.md
 msgid "Android version (e.g. \"Lollipop\" or \"Android 5.0\")"
-msgstr "Android-versie (bv. \"Lollipop\" of \"Android 5.0\")"
+msgstr "Android-versie (bv. ‘Lollipop’ of ‘Android 5.0’)"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Client_Bug_Reports.md
 msgid "Device (e.g. \"Nexus 4\")"
-msgstr "Apparaat (bv. \"Nexus 4\")"
+msgstr "Apparaat (bv. ‘Nexus 4’)"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Client_Bug_Reports.md
 msgid "Steps to reproduce the bug"
-msgstr ""
+msgstr "Stappen om de fout te reproduceren"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Client_Bug_Reports.md
@@ -4599,17 +4751,19 @@ msgid ""
 "A logcat from when the crash occured ([Getting logcat messages after crash]"
 "(../Getting_logcat_messages_after_crash))"
 msgstr ""
+"Een logcat van wanneer de crash optrad ([Logcat-berichten verkrijgen na een "
+"crash](../Getting_logcat_messages_after_crash))"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Client_Bug_Reports.md
 msgid "Whether the bug happens on the previous stable version of F-Droid"
-msgstr ""
+msgstr "Of de fout zich ook voordoet op de vorige stabiele versie van F-Droid"
 
 #. type: Title ###
 #: build/_docs/md/Client_Bug_Reports.md
 #, no-wrap
 msgid "Why does an issue say \"waiting on response\" next to it?"
-msgstr ""
+msgstr "Waarom staat er ‘wachten op antwoord’ naast een foutrapportage?"
 
 #. type: Plain text
 #: build/_docs/md/Client_Bug_Reports.md
@@ -4726,7 +4880,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Deploying_the_Website.md
 msgid "To configure this:"
-msgstr ""
+msgstr "Om dit te configureren:"
 
 #. type: Bullet: ' * '
 #: build/_docs/md/Deploying_the_Website.md
@@ -4992,7 +5146,7 @@ msgstr "```"
 #: build/_docs/md/Deploying_the_Website.md
 #, no-wrap
 msgid "Apache2 config"
-msgstr ""
+msgstr "Apache2-configuratie"
 
 #. type: Plain text
 #: build/_docs/md/Deploying_the_Website.md
@@ -5000,6 +5154,8 @@ msgid ""
 "The F-Droid website is translated into several languages.  There are a few "
 "things required to ensure this works."
 msgstr ""
+"De F-Droid-website wordt vertaald in verschillende talen. Hiervoor zijn een "
+"aantal vereisten."
 
 #. type: Plain text
 #: build/_docs/md/Deploying_the_Website.md
@@ -5037,6 +5193,11 @@ msgid ""
 "    AllowOverride FileInfo\n"
 "</Directory>\n"
 msgstr ""
+"```apache\n"
+"<Directory /var/www/html>\n"
+"    Options FollowSymLinks\n"
+"    AllowOverride FileInfo\n"
+"</Directory>\n"
 
 #. type: Plain text
 #: build/_docs/md/Deploying_the_Website.md
@@ -5046,6 +5207,9 @@ msgid ""
 "    SetHandler type-map\n"
 "</Files>\n"
 msgstr ""
+"<Files *.html>\n"
+"    SetHandler type-map\n"
+"</Files>\n"
 
 #. type: Title #
 #: build/_docs/md/Deploying_the_Website.md
@@ -5101,6 +5265,15 @@ msgid ""
 "tt|te|th|bo|ti|ts|tr|tk|ug|uk|hsb|ur|uz|ca@valencia|ve|vec|vi|wa|cy|vls|wo|"
 "sah|yi|yo|yue|zu)/ prefer-language=$1"
 msgstr ""
+"SetEnvIf Request_URI ^/(ach|af|ak|sq|am|anp|ar|an|hy|as|ast|ay|az|ba|eu|bar|b"
+"e|bn|brx|bs|br|bg|my|ca|km|ch|chr|hne|cgg|zh|ksh|kw|cr|hr|cs|da|doi|nl|dz|en|"
+"eo|et|fo|fil|fi|frp|fr|fy|fur|ff|gd|gl|ka|de|el|kl|gu|gun|ht|ha|haw|he|hi|hu|"
+"is|ig|id|ia|ga|it|ja|jv|kab|kn|ks|csb|kk|rw|tlh|tlh-qaak|kok|ko|ku|ckb|ky|lo|"
+"la|lv|li|ln|lt|jbo|nds|lb|mk|mai|mg|ms|ml|mt|mnk|mi|arn|mr|mni|mn|me|mfe|nqo|"
+"nah|nap|ne|se|no|nb|nn|ny|oc|or|oj|os|pap|nso|fa|pms|pr|pl|pt|pa|ps|ro|rm|ru|"
+"sa|sat|sc|sco|sr|sh|sn|szl|sd|si|sk|sl|so|son|st|es|su|sw|sv|tl|tg|ta|tt|te|t"
+"h|bo|ti|ts|tr|tk|ug|uk|hsb|ur|uz|ca@valencia|ve|vec|vi|wa|cy|vls|wo|sah|yi|yo"
+"|yue|zu)/ prefer-language=$1"
 
 #. type: Title #
 #: build/_docs/md/Deploying_the_Website.md
@@ -5142,6 +5315,30 @@ msgid ""
 "SetEnvIf Request_URI ^/zh_Hant/ prefer-language=zh-hant SetEnvIf Request_URI "
 "^/zh_HK/ prefer-language=zh-hk ```"
 msgstr ""
+"SetEnvIf Request_URI ^/ar_DZ/ prefer-language=ar-dz SetEnvIf Request_URI "
+"^/ar_MA/ prefer-language=ar-ma SetEnvIf Request_URI ^/be_Latn/ prefer-"
+"language=be-latn SetEnvIf Request_URI ^/bn_BD/ prefer-language=bn-bd "
+"SetEnvIf Request_URI ^/bn_IN/ prefer-language=bn-in SetEnvIf Request_URI "
+"^/bs_Cyrl/ prefer-language=bs-cyrl SetEnvIf Request_URI ^/bs_Latn/ prefer-"
+"language=bs-latn SetEnvIf Request_URI ^/de_AT/ prefer-language=de-at "
+"SetEnvIf Request_URI ^/de_CH/ prefer-language=de-ch SetEnvIf Request_URI "
+"^/en_AU/ prefer-language=en-au SetEnvIf Request_URI ^/en_CA/ prefer-language"
+"=en-ca SetEnvIf Request_URI ^/en_GB/ prefer-language=en-gb SetEnvIf "
+"Request_URI ^/en_IE/ prefer-language=en-ie SetEnvIf Request_URI ^/en_PH/ "
+"prefer-language=en-ph SetEnvIf Request_URI ^/en_US/ prefer-language=en-us "
+"SetEnvIf Request_URI ^/en_ZA/ prefer-language=en-za SetEnvIf Request_URI "
+"^/es_AR/ prefer-language=es-ar SetEnvIf Request_URI ^/es_MX/ prefer-language"
+"=es-mx SetEnvIf Request_URI ^/es_PR/ prefer-language=es-pr SetEnvIf "
+"Request_URI ^/es_US/ prefer-language=es-us SetEnvIf Request_URI ^/fr_CA/ "
+"prefer-language=fr-ca SetEnvIf Request_URI ^/nb_NO/ prefer-language=nb-no "
+"SetEnvIf Request_URI ^/nl_BE/ prefer-language=nl-be SetEnvIf Request_URI "
+"^/pt_BR/ prefer-language=pt-br SetEnvIf Request_URI ^/pt_PT/ prefer-language"
+"=pt-pt SetEnvIf Request_URI ^/sr_Cyrl/ prefer-language=sr-cyrl SetEnvIf "
+"Request_URI ^/sr_Latn/ prefer-language=sr-latn SetEnvIf Request_URI ^/ur_PK/ "
+"prefer-language=ur-pk SetEnvIf Request_URI ^/uz_Latn/ prefer-language=uz-"
+"latn SetEnvIf Request_URI ^/zh_Hans/ prefer-language=zh-hans SetEnvIf "
+"Request_URI ^/zh_Hant/ prefer-language=zh-hant SetEnvIf Request_URI ^/zh_HK/ "
+"prefer-language=zh-hk ```"
 
 #. type: Plain text
 #: build/_docs/md/Deploying_the_Website.md
@@ -5210,7 +5407,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md
 msgid "There are three locations we pull metadata from:"
-msgstr ""
+msgstr "We halen metadata van drie locaties:"
 
 #. type: Bullet: '* '
 #: build/_docs/md/FAQ_-_App_Developers.md
@@ -5255,7 +5452,7 @@ msgstr ""
 #: build/_docs/md/FAQ_-_App_Developers.md
 #, no-wrap
 msgid "How do I license my app?"
-msgstr ""
+msgstr "Hoe geef ik mijn app een licentie?"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md
@@ -5525,7 +5722,7 @@ msgstr ""
 #: build/_docs/md/FAQ_-_App_Developers.md
 #, no-wrap
 msgid "Can I see who's installing my app?"
-msgstr ""
+msgstr "Kan ik nagaan wie mijn app installeert?"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md
@@ -5542,7 +5739,7 @@ msgstr ""
 #: build/_docs/md/FAQ_-_App_Developers.md
 #, no-wrap
 msgid "Can I track users from my app?"
-msgstr ""
+msgstr "Kan ik gebruikers van mijn app volgen?"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md
@@ -5568,7 +5765,7 @@ msgstr ""
 #: build/_docs/md/FAQ_-_App_Developers.md
 #, no-wrap
 msgid "Can I include advertising?"
-msgstr ""
+msgstr "Kan ik reclame in mijn app steken?"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md
@@ -5595,7 +5792,7 @@ msgstr ""
 #: build/_docs/md/FAQ_-_App_Developers.md
 #, no-wrap
 msgid "Which libraries and dependencies are good to use?"
-msgstr ""
+msgstr "Welke bibliotheken en afhankelijkheden zijn goed om te gebruiken?"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md
@@ -5664,6 +5861,8 @@ msgstr ""
 #, no-wrap
 msgid "Aren't Google's SDK and libraries free, open source software?"
 msgstr ""
+"Zijn het ontwikkelingsgereedschap en de ontwikkelingsbibliotheken van Google "
+"geen vrije- en openbronsoftware?"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md
@@ -5712,7 +5911,7 @@ msgstr ""
 #: build/_docs/md/FAQ_-_App_Developers.md
 #, no-wrap
 msgid "How do I get my app removed?"
-msgstr ""
+msgstr "Hoe kan ik mijn app laten verwijderen?"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md
@@ -5726,6 +5925,14 @@ msgid ""
 "source code and an uncooperative attitude) for us to actually remove the "
 "whole application."
 msgstr ""
+"Oké, deze vraag worden we niet vaak gesteld, maar: om je app verwijderd te "
+"krijgen, kunt u voor toekomstige versies een licentie gebruiken die verbiedt "
+"dat iemand het distribueert, of kunt u propriëtaire binaire bestanden in uw "
+"broncode verwerken. Beide zaken zullen ertoe leiden dat toekomstige versies "
+"niet meer in onze pakketbron terechtkomen. Om ons de volledige app, dus ook "
+"de oudere versies, te doen verwijderen, moet u heel wat verder gaan (bv. "
+"ernstige beveiligingsfouten in de voorgaande versies, ongepubliceerde "
+"broncode en onbehulpzaam gedrag)."
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md
@@ -5736,12 +5943,19 @@ msgid ""
 "for us to have to go against your wishes. However, the alternative is for us "
 "to deny use of the software to all our users."
 msgstr ""
+"Indien u, om eender welke reden, liever wilt dat we de app niet "
+"distribueren, kunnen we ons enkel verontschuldigen. U verdient respect voor "
+"uw werk, welk u onder een vrijesoftwarelicentie uitgegeven hebt, en het zou "
+"niet aangenaam zijn dat we tegen uw wensen ingaan. Het alternatief is echter "
+"dat we al onze gebruikers het gebruik van uw software ontzeggen."
 
 #. type: Title ###
 #: build/_docs/md/FAQ_-_App_Developers.md
 #, no-wrap
 msgid "I see apps on the big stores that are blatant copies. Wouldn't it be better if I made my app closed source?"
 msgstr ""
+"Ik zie apps in de grote winkels die flagrante kopieën zijn. Zou het niet "
+"beter zijn als ik de broncode van mijn app niet publiceerde?"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md
@@ -5762,6 +5976,23 @@ msgid ""
 "support Bitecoin, Litecoin, Flattr and Liberapay as well as any other "
 "payment method that you can suggest via a website."
 msgstr ""
+"Eerst en vooral hangt dit af van de licentie: tenzij u een copyleft-licentie "
+"zoals de GPLv3 toepast, kunnen anderen doen wat ze willen met de broncode ("
+"hoewel het nodig kan zijn deze te hernoemen). Indien uw app GPLv3 is en de "
+"plagiaatplegers geen broncode ter beschikking stellen, indien hun versies "
+"duidelijk propriëtaire reclamebibliotheken bevatten, of indien enige "
+"verwijzing naar uw ontwikkeling verwijderd is, overtreden deze kopieën de "
+"wet en kunt u [Google verzoeken](https://www.google.com/android_dmca.html) "
+"deze uit hun winkel te verwijderen. U kunt hun bedreigen met de DMCA of "
+"andere lokale wetten indien u dat wenst. Indien niets van dit baat, weeg "
+"dan, vooraleer u ervoor kiest uw app propriëtair te maken, het verlies en de "
+"verwarring voor de gebruikers en de pakketbeheerders van de vrije app af "
+"tegen het gevoel van gerechtigheid dat u krijgt door de illegale klonen hun "
+"paar cent in potentiële reclameinkomsten te zien verliezen. Op lange termijn "
+"willen we donaties via F-Droid verbeteren, zodat u financieel ondersteund "
+"kunt worden. We bieden reeds ondersteuning voor Bitcoin, Litecoin, Flattr, "
+"Liberapay en eender welke andere betalingsmethode die u via een website kunt "
+"aanraden."
 
 #. type: Title ###
 #: build/_docs/md/FAQ_-_App_Developers.md
@@ -5783,7 +6014,7 @@ msgstr ""
 #. type: Bullet: '-   '
 #: build/_docs/md/FAQ_-_App_Developers.md
 msgid "all development work happens in the `master` branch"
-msgstr ""
+msgstr "alle ontwikkeling gebeurt in de tak  `master`"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/FAQ_-_App_Developers.md
@@ -5892,7 +6123,7 @@ msgstr ""
 #: build/_docs/md/FAQ_-_Client.md
 #, no-wrap
 msgid "Why does F-Droid need these permissions?"
-msgstr ""
+msgstr "Waarom heeft F-Droid deze toestemmingen nodig?"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md
@@ -5906,16 +6137,25 @@ msgid ""
 "F-Droid declares the permissions it actually uses so that it is honest and "
 "transparent about what it is doing."
 msgstr ""
+"F-Droid is een appwinkel, wat betekent dat het verantwoordelijk is voor het "
+"zoeken, downloaden en installeren van apps. Dat betekent dat het in de "
+"praktijk al alle toestemmingen heeft. Bijvoorbeeld, een kwaadaardige "
+"appwinkel zonder toestemmingen zou, tijdens de installatie, elke app kunnen "
+"aanpassen, waardoor het via deze gemodificeerde apps alle toestemmingen "
+"verkrijgt. Dit is waarom het zo belangrijk is dat een appwinkel vrije "
+"software is, die een openbare beveiligingsaudit heeft gekregen. F-Droid is "
+"dit allebei. Dat gezegd zijnde, verklaart F-Droid alle toestemmingen die het "
+"gebruikt, zodat het eerlijk en open is over wat het doet."
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md
 msgid "Here are the permissions that F-Droid current uses:"
-msgstr ""
+msgstr "Dit zijn de toestemmingen die F-Droid op dit moment gebruikt:"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md
 msgid "Download apps from f-droid.org and other app repositories"
-msgstr ""
+msgstr "Apps downloaden van f-droid.org en andere pakketbronnen"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md
@@ -5927,6 +6167,8 @@ msgstr "    android.permission.INTERNET\n"
 #: build/_docs/md/FAQ_-_Client.md
 msgid "Start itself automatically at boot time so that it can receive updates:"
 msgstr ""
+"Automatisch starten bij opstarten van apparaat, zodat het updates kan "
+"ontvangen:"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md
@@ -5940,6 +6182,8 @@ msgid ""
 "For app swap to get current WiFi status, and prompt the user to enable WiFI "
 "when swapping:"
 msgstr ""
+"Voor ophalen van wifistatus bij uitwisselen van apps, en om de gebruiker te "
+"vragen wifi in te schakelen bij uitwisselen:"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md
@@ -5963,6 +6207,8 @@ msgid ""
 "For app swap to see the Bluetooth state, and prompt the user to enable "
 "Bluetooth when swapping:"
 msgstr ""
+"Voor ophalen van Bluetoothstatus bij uitwisselen van apps, en om de "
+"gebruiker te vragen Bluetooth in te schakelen bij uitwisselen:"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md
@@ -5979,6 +6225,7 @@ msgstr ""
 msgid ""
 "Read app repostory URLs via NFC, for both swap and regular app repositories:"
 msgstr ""
+"Pakketbron-URL’s lezen via NFC, voor uitwissel- en gewone pakketbronnen:"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md
@@ -5989,7 +6236,7 @@ msgstr "    android.permission.NFC\n"
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md
 msgid "Temporarily store downloaded files on the SD Card:"
-msgstr ""
+msgstr "Gedownloade bestanden tijdelijk opslaan op SD-kaart:"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md
@@ -6028,7 +6275,7 @@ msgstr "    android.permission.ACCESS_SUPERUSER\n"
 #: build/_docs/md/FAQ_-_Client.md
 #, no-wrap
 msgid "Why does F-Droid request root access?"
-msgstr ""
+msgstr "Waarom vraagt F-Droid om root-toegang?"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md
@@ -6071,6 +6318,7 @@ msgstr ""
 #, no-wrap
 msgid "I can download apps, but then \"Install\" is disabled. Why?"
 msgstr ""
+"Ik kan apps downloaden, maar daarna is ‘Installeren’ uitgeschakeld. Waarom?"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md
@@ -6090,12 +6338,16 @@ msgid ""
 "Google+ comment](https://plus.google.com/116713673773180618201/posts/"
 "UvW3tgSgdUp)  for more details."
 msgstr ""
+"Bekijk [probleem 151](https://gitlab.com/fdroid/fdroidclient/issues/151) of ["
+"deze reactie op "
+"Google+](https://plus.google.com/116713673773180618201/posts/UvW3tgSgdUp) "
+"voor meer informatie."
 
 #. type: Title ###
 #: build/_docs/md/FAQ_-_Client.md
 #, no-wrap
 msgid "How do I update all my installed programs at once?"
-msgstr ""
+msgstr "Hoe werk ik tegelijk al mijn geïnstalleerde programma’s bij?"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md
@@ -6103,6 +6355,9 @@ msgid ""
 "You can't yet. See [Issue 36 - Update All](https://f-droid.org/repository/"
 "issues/?do=view_issue&issue=36)."
 msgstr ""
+"Dit is nog niet mogelijk. Bekijk [probleem 36 - alles "
+"bijwerken](https://f-droid.org/repository/issues/?do=view_issue&issue=36) "
+"voor meer informatie."
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md
@@ -6134,11 +6389,13 @@ msgid ""
 "Theoretically, the number of downloads is available via our web server logs. "
 "However, this would be a meaningless figure because:"
 msgstr ""
+"Het aantal downloads is in theorie beschikbaar via de logboeken op onze "
+"server. Dit zou echter weinig betekenisvol zijn:"
 
 #. type: Bullet: '1.  '
 #: build/_docs/md/FAQ_-_Client.md
 msgid "I might download an app, and decide not to install it"
-msgstr ""
+msgstr "Iemand kan een app downloaden, maar ze niet installeren"
 
 #. type: Bullet: '2.  '
 #: build/_docs/md/FAQ_-_Client.md
@@ -6146,11 +6403,14 @@ msgid ""
 "I might download and install it, then uninstall it immediately because I "
 "don't like it"
 msgstr ""
+"Iemand kan een app downloaden en installeren, maar deze onmiddellijk weer "
+"verwijderen omdat ze niet goed is"
 
 #. type: Bullet: '3.  '
 #: build/_docs/md/FAQ_-_Client.md
 msgid "I might download my app 1,000,000 times to make it look popular"
 msgstr ""
+"Iemand kan een app een miljoen keer downloaden om het populair te doen lijken"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md
@@ -6252,7 +6512,7 @@ msgstr ""
 #: build/_docs/md/FAQ_-_Client.md
 #, no-wrap
 msgid "What is the security model that F-Droid uses?"
-msgstr ""
+msgstr "Welk beveiligingsmodel gebruikt F-Droid?"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md
@@ -6282,6 +6542,8 @@ msgid ""
 "We welcome all questions and have a few places to reach out to the F-Droid "
 "community:"
 msgstr ""
+"Alle vragen zijn welkom, en we hebben verschillende plekken om in contact te "
+"komen met de F-Droid-gemeenschap:"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/FAQ_-_General.md
@@ -6291,11 +6553,15 @@ msgid ""
 "randomnick=1&channels="
 "%23fdroid&uio=MT1mYWxzZSYyPXRydWUmND10cnVlJjk9dHJ1ZSYxMD10cnVlJjEyPXRydWU84))"
 msgstr ""
+"de IRC-chatruimte: [\\#fdroid](irc://irc.freenode.net/fdroid) IRC-chatruimte "
+"op Freenode ([klik hier om de webchat te openen](https://webchat.freenode.net"
+"/?randomnick=1&channels=%23fdroid&uio=MT1mYWxzZSYyPXRydWUmND10cnVlJjk9dHJ1ZSY"
+"xMD10cnVlJjEyPXRydWU84))"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/FAQ_-_General.md
 msgid "the [web forum](https://forum.f-droid.org/)"
-msgstr ""
+msgstr "het [forum](https://forum.f-droid.org/)"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/FAQ_-_General.md
@@ -6303,6 +6569,8 @@ msgid ""
 "[issue tracker](https://gitlab.com/fdroid/fdroidclient/issues) for the "
 "Android app itself (aka client)"
 msgstr ""
+"[bugtracker](https://gitlab.com/fdroid/fdroidclient/issues) voor de Android-"
+"app zelf (de cliënt)"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/FAQ_-_General.md
@@ -6310,12 +6578,16 @@ msgid ""
 "[issue tracker](https://gitlab.com/fdroid/fdroidserver/issues) for the "
 "developer tools (aka server)"
 msgstr ""
+"[bugtracker](https://gitlab.com/fdroid/fdroidserver/issues) voor de "
+"ontwikkelaarstools (de server)"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/FAQ_-_General.md
 msgid ""
 "[issue tracker](https://gitlab.com/fdroid/rfp/issues) for packaging new apps"
 msgstr ""
+"[bugtracker](https://gitlab.com/fdroid/rfp/issues) voor inpakken van nieuwe "
+"apps"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/FAQ_-_General.md
@@ -6323,17 +6595,19 @@ msgid ""
 "[issue tracker](https://gitlab.com/fdroid/fdroiddata/issues) for issues with "
 "published apps"
 msgstr ""
+"[bugtracker](https://gitlab.com/fdroid/fdroiddata/issues) voor problemen met "
+"gepubliceerde apps"
 
 #. type: Title ###
 #: build/_docs/md/FAQ_-_General.md
 #, no-wrap
 msgid "Why isn't my favorite app included?"
-msgstr ""
+msgstr "Waarom staat mijn favoriete app er niet tussen?"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_General.md
 msgid "Some common reasons:"
-msgstr ""
+msgstr "Enkele waarschijnlijke redenen:"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/FAQ_-_General.md
@@ -6347,6 +6621,8 @@ msgid ""
 "We're trying to include it, but there's a problem with it that we're trying "
 "to resolve. Check the Submissions Held section of the Forum;"
 msgstr ""
+"We proberen het aan te bieden, maar er is nog een probleem dat we proberen "
+"op te lossen. Bekijk het onderdeel ‘Submissions Held’ op het forum;"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/FAQ_-_General.md
@@ -6354,12 +6630,14 @@ msgid ""
 "It's on our radar, but we haven't got to it yet.  [Search](https://f-droid."
 "org/search) the Forum;"
 msgstr ""
+"Het staat op ons waslijstje, maar we hebben er nog geen tijd voor gehad. "
+"[Zoek](https://f-droid.org/search) op het forum;"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/FAQ_-_General.md
 msgid ""
 "We don't know about it. See the [Inclusion Policy](../Inclusion_Policy)."
-msgstr ""
+msgstr "We kennen het niet. Bekijk het [inclusiebeleid](../Inclusion_Policy)."
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_General.md
@@ -6373,17 +6651,19 @@ msgstr ""
 #: build/_docs/md/FAQ_-_General.md
 #, no-wrap
 msgid "How can I keep track of new apps?"
-msgstr ""
+msgstr "Hoe kan ik volgen welke nieuwe apps er zijn?"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_General.md
 msgid "There are several ways of keeping up with new apps that are added:"
 msgstr ""
+"Er zijn verschillende manieren om bij te houden welke nieuwe apps toegevoegd "
+"worden:"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/FAQ_-_General.md
 msgid "In the sidebar on the web site, the 10 most recent apps are shown"
-msgstr ""
+msgstr "In de zijbalk op de website worden de 10 meest recente apps weergegeven"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/FAQ_-_General.md
@@ -6391,6 +6671,8 @@ msgid ""
 "In the client, the \"What's New\" category shows all apps added in the last "
 "14 days (the number can be changed in settings)"
 msgstr ""
+"In de cliënt toont de categorie ‘Wat is er nieuw’ alle apps toegevoegd in de "
+"laatste 14 dagen (dit aantal kan gewijzigd worden in de instellingen)"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/FAQ_-_General.md
@@ -6519,6 +6801,12 @@ msgid ""
 "webchat](https://webchat.freenode.net/?randomnick=1&channels="
 "%23fdroid&uio=MT1mYWxzZSYyPXRydWUmND10cnVlJjk9dHJ1ZSYxMD10cnVlJjEyPXRydWU84))."
 msgstr ""
+"Gebruik de [bugtracker](https://gitlab.com/fdroid/fdroidclient/issues) of "
+"stuur een e-mail naar <team@f-droid.org>. U kunt er ook over discussiëren in "
+"de [\\#fdroid](irc://irc.freenode.net/fdroid) IRC-chatruimte op Freenode (["
+"klik hier om de webchat te openen](https://webchat.freenode.net/?randomnick=1"
+"&channels=%23fdroid&uio=MT1mYWxzZSYyPXRydWUmND10cnVlJjk9dHJ1ZSYxMD10cnVlJjEyP"
+"XRydWU84))."
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_General.md
@@ -6528,6 +6816,10 @@ msgid ""
 "an account that will receive notifications.  Issue reports are usually a "
 "conversation, not just a single report."
 msgstr ""
+"Indien u nog geen account hebt, of er geen wil aanmaken, kunt u onze "
+"herbruikbare account gebruiken. De bugtracker werkt beter als melders een "
+"account gebruiken die meldingen kan ontvangen. Probleemmeldingen zijn "
+"meestal een gesprek, en niet een enkel rapport."
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_General.md
@@ -6535,6 +6827,8 @@ msgid ""
 "That said, the account username is _fdroid-bug-reporter_ and the password is "
 "_repository-collection_."
 msgstr ""
+"Dat gezegd zijnde is de gebruikersnaam van de account _fdroid-bug-reporter_, "
+"en het wachtwoord _repository-collection_."
 
 #. type: Title #
 #: build/_docs/md/Feeds.md
@@ -6608,6 +6902,8 @@ msgid ""
 "- <https://forum.f-droid.org/posts.rss> - <https://forum.f-droid.org/latest."
 "rss>"
 msgstr ""
+"- <https://forum.f-droid.org/posts.rss> - "
+"<https://forum.f-droid.org/latest.rss>"
 
 #. type: Title ###
 #: build/_docs/md/Feeds.md
@@ -6649,6 +6945,9 @@ msgid ""
 "<https://botbot.me/freenode/fdroid/> and <https://botbot.me/freenode/fdroid-"
 "dev/>."
 msgstr ""
+"chat.freenode.net #fdroid of #fdroid-dev. De geschiedenis van de kanalen "
+"wordt bijgehouden op <https://botbot.me/freenode/fdroid/> en "
+"<https://botbot.me/freenode/fdroid-dev/>."
 
 #. type: Title ##
 #: build/_docs/md/Feeds.md
@@ -6704,7 +7003,7 @@ msgstr ""
 #: build/_docs/md/Getting_logcat_messages_after_crash.md
 #, no-wrap
 msgid "Getting logcat messages after crash"
-msgstr ""
+msgstr "Logcat-berichten verkrijgen na een crash"
 
 #. type: Title ###
 #: build/_docs/md/Getting_logcat_messages_after_crash.md
@@ -6739,7 +7038,7 @@ msgstr ""
 #: build/_docs/md/Getting_logcat_messages_after_crash.md
 #, no-wrap
 msgid "How to find logcat messages"
-msgstr ""
+msgstr "Waar vind ik logcat-berichten?"
 
 #. type: Plain text
 #: build/_docs/md/Getting_logcat_messages_after_crash.md
@@ -6769,6 +7068,8 @@ msgid ""
 "[CatLog](https://f-droid.org/repository/browse/?fdfilter=logcat&fdid=com."
 "nolanlawson.logcat)"
 msgstr ""
+"[CatLog](https://f-droid.org/repository/browse/?fdfilter=logcat&fdid=com.nola"
+"nlawson.logcat)"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Getting_logcat_messages_after_crash.md
@@ -6776,6 +7077,8 @@ msgid ""
 "[aLogCat](https://f-droid.org/repository/browse/?fdfilter=logcat&fdid=org."
 "jtb.alogcat)"
 msgstr ""
+"[aLogCat](https://f-droid.org/repository/browse/?fdfilter=logcat&fdid=org.jtb"
+".alogcat)"
 
 #. type: Plain text
 #: build/_docs/md/Getting_logcat_messages_after_crash.md
@@ -6845,7 +7148,7 @@ msgstr ""
 #: build/_docs/md/How_to_Help.md
 #, no-wrap
 msgid "How to Help"
-msgstr ""
+msgstr "Hoe kan ik helpen?"
 
 #. type: Plain text
 #: build/_docs/md/How_to_Help.md
@@ -6853,12 +7156,14 @@ msgid ""
 "The project is entirely developed and maintained by volunteers. You can help "
 "in the following ways:"
 msgstr ""
+"Het project wordt volledig ontwikkeld en beheerd door vrijwilligers. U kan "
+"helpen op volgende manieren:"
 
 #. type: Title ###
 #: build/_docs/md/How_to_Help.md
 #, no-wrap
 msgid "Follow our work"
-msgstr ""
+msgstr "Volg ons werk"
 
 #. type: Plain text
 #: build/_docs/md/How_to_Help.md
@@ -6869,7 +7174,7 @@ msgstr ""
 #: build/_docs/md/How_to_Help.md
 #, no-wrap
 msgid "Report problems"
-msgstr ""
+msgstr "Meld problemen"
 
 #. type: Plain text
 #: build/_docs/md/How_to_Help.md
@@ -6896,7 +7201,7 @@ msgstr ""
 #: build/_docs/md/How_to_Help.md
 #, no-wrap
 msgid "Submit applications"
-msgstr ""
+msgstr "Dien apps in"
 
 #. type: Plain text
 #: build/_docs/md/How_to_Help.md
@@ -6972,12 +7277,12 @@ msgstr ""
 #: build/_docs/md/How_to_Help.md
 #, no-wrap
 msgid "Help with development"
-msgstr ""
+msgstr "Help bij ontwikkeling"
 
 #. type: Plain text
 #: build/_docs/md/How_to_Help.md
 msgid "There are three git repositories hosted at Gitlab, as follows:"
-msgstr ""
+msgstr "Er worden drie pakketbronnen op GitLab gehost, als volgt:"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/How_to_Help.md
@@ -7278,7 +7583,7 @@ msgstr ""
 #: build/_docs/md/Importing_Applications.md
 #, no-wrap
 msgid "Importing Applications"
-msgstr ""
+msgstr "Apps importeren"
 
 #. type: Plain text
 #: build/_docs/md/Importing_Applications.md
@@ -7294,6 +7599,8 @@ msgid ""
 "```bash git clone https://gitlab.com/fdroid/fdroidclient cd fdroidclient "
 "fdroid import ```"
 msgstr ""
+"```bash git clone https://gitlab.com/fdroid/fdroidclient cd fdroidclient "
+"fdroid import ```"
 
 #. type: Plain text
 #: build/_docs/md/Importing_Applications.md
@@ -7323,7 +7630,7 @@ msgstr "GitLab - `https://gitlab.com/<PROJECTNAME>/<REPONAME>`"
 #. type: Bullet: '3.  '
 #: build/_docs/md/Importing_Applications.md
 msgid "Github - `https://github.com/<USER>/<PROJECT>`"
-msgstr "Github - `https://github.com/<USER>/<PROJECT>`"
+msgstr "GitHub - `https://github.com/<USER>/<PROJECT>`"
 
 #. type: Bullet: '4.  '
 #: build/_docs/md/Importing_Applications.md
