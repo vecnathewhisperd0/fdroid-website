@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
-"POT-Creation-Date: 2018-01-30 17:23+0100\n"
-"PO-Revision-Date: 2018-01-24 08:13+0000\n"
+"POT-Creation-Date: 2018-01-24 13:50+0100\n"
+"PO-Revision-Date: 2018-01-30 02:35+0000\n"
 "Last-Translator: ezjerry liao <ezjerry@gmail.com>\n"
-"Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/f-"
-"droid/website-docs/zh_Hant/>\n"
+"Language-Team: Chinese (Traditional) "
+"<https://hosted.weblate.org/projects/f-droid/website-docs/zh_Hant/>\n"
 "Language: zh_Hant\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -106,7 +106,6 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
-#, fuzzy
 msgid ""
 "The content of the news section and the F-Droid logo are also available "
 "under [Creative Commons Attribution-ShareAlike 3.0 License (CC-BY-SA-3.0)]"
@@ -114,8 +113,9 @@ msgid ""
 "License version 3 or later (GPLv3+)](https://www.gnu.org/licenses/gpl-3.0."
 "html)."
 msgstr ""
-"新聞與評論部分的內容以[創用CC 姓名標示-相同方式分享 3.0](http://"
-"creativecommons.org/licenses/by-sa/3.0/) 條款授權。"
+"新聞與評論部分的內容以[創用CC署名-相同方式共享 3.0 授權(CC-BY-"
+"SA-3.0)](http://creativecommons.org/licenses/by-sa/3.0/) 條款授權或[GNU 通用公共授權條款第 "
+"3 版或之後的(GPLv3+)](https://www.gnu.org/licenses/gpl-3.0.html)。"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
@@ -126,13 +126,10 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
-#, fuzzy
 msgid ""
 "The F-Droid logo was created by William Theaker. Updates to that, and "
 "additional artwork, are by Robert Martinez."
-msgstr ""
-"F-Droid 的標誌由 William Theaker 所設計，其後的更新與附加的設計由 Robert "
-"Martinez 負責。全部都是 CC-BY-SA 3.0 Unported 或 GPLv3 + 下的雙重授權。"
+msgstr "F-Droid 的標誌由 William Theaker 所設計，其後的更新與附加的設計由 Robert Martinez 負責。"
 
 #. type: Title ###
 #: build/_pages/md/about.md
@@ -169,12 +166,9 @@ msgid ""
 "to post on the forum) goes no further than us, and will not be used for "
 "anything other than allowing you to maintain your account."
 msgstr ""
-"F-Droid 尊重您的隱私權。我們不會追蹤您或您的裝置。我們也不會追蹤您安裝的內"
-"容。您不需要帳號就可在用戶端使用，並且在與我們的網路伺服器進行對話時，除了其"
-"版本號碼，不會發送其它的識別資料。我們甚至不允許您，由追蹤您的軟體庫安裝其它"
-"應用程式，除非您先啟用\"參數選擇\"的 AntiFeatures 部分中的\"追蹤\"。您決定給"
-"我們的任何個人資料（例如您在論壇上發表時，註冊為帳號的電子郵件地址）除了允許"
-"您維護您的帳號之外，我們不會更進一步地用於任何其他事情。"
+"F-Droid 尊重您的隱私權。我們不會追蹤您或您的裝置。我們也不會追蹤您安裝的內容。您不需要帳號就可在用戶端使用，並且在與我們的網路伺服器進行對話時，除"
+"了其版本號碼，不會發送其它的識別資料。我們甚至不允許您，由追蹤您的軟體庫安裝其它應用程式，除非您先啟用\"參數選擇\"的反特徵部分中的\"追蹤\""
+"。您決定給我們的任何個人資料（例如您在論壇上發表時，註冊為帳號的電子郵件地址）除了允許您維護您的帳號之外，我們不會更進一步地用於任何其他事情。"
 
 #. type: Title ###
 #: build/_pages/md/about.md
@@ -331,9 +325,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
-#, fuzzy
 msgid "Tobias Kuban"
-msgstr "Tias Guns"
+msgstr "Tobias Kuban"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
@@ -377,9 +370,8 @@ msgstr "Andrew McMillan"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
-#, fuzzy
 msgid "Andrew Nayenko"
-msgstr "Andrew McMillan"
+msgstr "Andrew Nayenko"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
@@ -388,9 +380,8 @@ msgstr "Alex Oberhauser"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
-#, fuzzy
 msgid "Michael Pöhn"
-msgstr "Michael Haas"
+msgstr "Michael Pöhn"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
@@ -508,10 +499,9 @@ msgstr "貢獻"
 
 #. type: Plain text
 #: build/_pages/md/contribute.md
-#, fuzzy
 msgid ""
 "The project is entirely developed and maintained by volunteers. You can help:"
-msgstr "本計畫完全是由志願者開發與維護。您可以透過以下方式幫助我們："
+msgstr "本計畫完全是由志願者開發與維護。您可以幫助的有："
 
 #. type: Title ###
 #: build/_pages/md/contribute.md
@@ -711,9 +701,7 @@ msgstr ""
 msgid ""
 "[Anti-Features](https://f-droid.org/wiki/page/Antifeatures) What they are, "
 "what they mean, and what apps have them."
-msgstr ""
-"[Anti-Features](https://f-droid.org/wiki/page/Antifeatures)它是什麼？它的意"
-"思？什麼應用程式有它。"
+msgstr "[反特徵](https://f-droid.org/wiki/page/Antifeatures)它是什麼？它的意思？什麼應用程式有它。"
 
 #. type: Title ###
 #: build/_pages/md/docs.md
@@ -2037,7 +2025,6 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy
 msgid ""
 "- [Categories](#Categories)  - [Author Name](#Author-Name)  - [Author Email]"
 "(#Author-Email)  - [License](#License)  - [Auto Name](#Auto-Name)  - [Name]"
@@ -2056,20 +2043,19 @@ msgid ""
 "Version)  - [Current Version Code](#Current-Version-Code)  - [No Source "
 "Since](#No-Source-Since)"
 msgstr ""
-"- [分類](#Categories)  - [作者名稱](#Author-Name)  - [作者 Email](#Author-"
-"Email)  - [授權](#License)  - [自動名稱](#Auto-Name)  - [名稱](#Name)  - [提"
-"供](#Provides)  - [網站](#Web-Site)  - [原始碼](#Source-Code)  - [問題追蹤]"
-"(#Issue-Tracker)  - [更新日誌](#Changelog)  - [捐助](#Donate)  - [FlattrID]"
-"(#FlattrID)  - [LiberapayID](#LiberapayID)  - [Bitcoin](#Bitcoin)  - "
-"[Litecoin](#Litecoin)  - [Summary](#Summary)  - [說明](#Description)  - [維護"
-"者注解](#Maintainer-Notes)  - [軟體庫類型](#Repo-Type)  - [軟體庫](#Repo)  - "
-"[二進制](#Binaries)  - [構建](#Build)  - [AntiFeatures](#AntiFeatures)  - [停"
-"用](#Disabled)  - [要求 Root](#Requires-Root)  - [Archive Policy](#Archive-"
-"Policy)  - [更新檢查方式](#Update-Check-Mode)  - [忽略更新檢查](#Update-"
-"Check-Ignore)  - [驗證碼運算](#Vercode-Operation)  - [名稱更新檢查](#Update-"
-"Check-Name)  - [資料更新檢查](#Update-Check-Data)  - [自動更新模式](#Auto-"
-"Update-Mode)  - [目前版本](#Current-Version)  - [目前版本碼](#Current-"
-"Version-Code)  - [之前沒有來源](#No-Source-Since)"
+"- [分類](#Categories)  - [作者名稱](#Author-Name)  - [作者 Email](#Author-Email)  - "
+"[授權](#License)  - [自動名稱](#Auto-Name)  - [名稱](#Name)  - [提供](#Provides)  - [網站"
+"](#Web-Site)  - [原始碼](#Source-Code)  - [問題追蹤](#Issue-Tracker)  - "
+"[更新日誌](#Changelog)  - [捐助](#Donate)  - [FlattrID](#FlattrID)  - "
+"[LiberapayID](#LiberapayID)  - [Bitcoin](#Bitcoin)  - [Litecoin](#Litecoin)  "
+"- [Summary](#Summary)  - [說明](#Description)  - [維護者注解](#Maintainer-Notes)  - "
+"[軟體庫類型](#Repo-Type)  - [軟體庫](#Repo)  - [二進制](#Binaries)  - [構建](#Build)  - "
+"[反特徵](#AntiFeatures)  - [停用](#Disabled)  - [要求 Root](#Requires-Root)  - [檔案策略"
+"](#Archive-Policy)  - [更新檢查方式](#Update-Check-Mode)  - [忽略更新檢查](#Update-Check-"
+"Ignore)  - [驗證碼運算](#Vercode-Operation)  - [名稱更新檢查](#Update-Check-Name)  - "
+"[資料更新檢查](#Update-Check-Data)  - [自動更新模式](#Auto-Update-Mode)  - [目前版本"
+"](#Current-Version)  - [目前版本碼](#Current-Version-Code)  - [之前沒有來源](#No-Source-"
+"Since)"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2402,9 +2388,9 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "This is converted to (`<liberapay>`) in the XML file (_index.xml_).\n"
-msgstr "這是在 XML 檔案 (_index.xml_) 中轉換為 (`<antifeatures>`)。\n"
+msgstr "這是在 XML 檔案 (_index.xml_) 中轉換為 (`<liberapay>`)。\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2541,9 +2527,9 @@ msgstr ""
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "7.19 Maintainer Notes<a name=\"Maintainer-Notes\"></a>"
-msgstr "7.23 AntiFeatures<a name=\"AntiFeatures\"></a>"
+msgstr "7.19 維護注意事項<a name=\"Maintainer-Notes\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2640,9 +2626,9 @@ msgstr ""
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "7.22 Binaries<a name=\"Binaries\"></a>"
-msgstr "7.23 AntiFeatures<a name=\"AntiFeatures\"></a>"
+msgstr "7.22 二進制<a name=\"Binaries\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -3423,7 +3409,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "`antifeatures=<antifeature1>[,<antifeature2>,...]`\n"
-msgstr ""
+msgstr "`反特徵=<antifeature1>[,<antifeature2>,...]`\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -3432,12 +3418,14 @@ msgid ""
 ":   List of Anti-Features for this specific build. They are described\n"
 "    in [AntiFeatures](#AntiFeatures).\n"
 msgstr ""
+":   為此特定構建的反特徵清單。它們已在\n"
+"    [反特徵](#AntiFeatures)中被描述。\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "7.24 AntiFeatures<a name=\"AntiFeatures\"></a>"
-msgstr "7.23 AntiFeatures<a name=\"AntiFeatures\"></a>"
+msgstr "7.24 反特徵<a name=\"AntiFeatures\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -3541,9 +3529,9 @@ msgstr ""
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "7.26 Requires Root<a name=\"Requires-Root\"></a>"
-msgstr "7.23 AntiFeatures<a name=\"AntiFeatures\"></a>"
+msgstr "7.26 需要 Root<a name=\"Requires-Root\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -3802,9 +3790,9 @@ msgstr ""
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "7.33 Auto Update Mode<a name=\"Auto-Update-Mode\"></a>"
-msgstr "7.23 AntiFeatures<a name=\"AntiFeatures\"></a>"
+msgstr "7.33 自動更新模式<a name=\"Auto-Update-Mode\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -3851,9 +3839,9 @@ msgstr ""
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "7.34 Current Version<a name=\"Current-Version\"></a>"
-msgstr "7.23 AntiFeatures<a name=\"AntiFeatures\"></a>"
+msgstr "7.34 目前版本<a name=\"Current-Version\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -7714,9 +7702,7 @@ msgstr ""
 msgid ""
 "They will list a summary of any [AntiFeatures](https://f-droid.org/wiki/page/"
 "Antifeatures) in your application."
-msgstr ""
-"他們將會在您的應用程式裡列出任何 [AntiFeatures](https://f-droid.org/wiki/"
-"page/Antifeatures) 的摘要。"
+msgstr "他們將會在您的應用程式裡列出任何 [反特徵](https://f-droid.org/wiki/page/Antifeatures) 的摘要。"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Inclusion_How-To.md
@@ -8018,6 +8004,8 @@ msgid ""
 "advertisments (see [AntiFeatures](https://f-droid.org/wiki/page/"
 "Antifeatures)), but they must be provided by a FLOSS compatible way."
 msgstr ""
+"我們不可能使用專有的廣告庫構建應用程式。我們並沒有反對廣告 (參見 "
+"[反特徵](https://f-droid.org/wiki/page/Antifeatures))，但它們必須是以 FLOSS 相容的方式提供。"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Inclusion_Policy.md
@@ -9654,7 +9642,7 @@ msgstr ""
 #: build/_docs/md/Repository_Style_Guide.md
 #, no-wrap
 msgid "AntiFeatures"
-msgstr ""
+msgstr "反特徵"
 
 #. type: Plain text
 #: build/_docs/md/Repository_Style_Guide.md
