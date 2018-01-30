@@ -6,20 +6,24 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-01-24 13:57+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2018-01-31 13:34+0000\n"
+"Last-Translator: Osoitz <oelkoro@gmail.com>\n"
+"Language-Team: Basque <https://hosted.weblate.org/projects/f-droid/website-"
+"docs/eu/>\n"
 "Language: eu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.19-dev\n"
 
 #. type: Title #
 #: build/_pages/md/403.md
 #, no-wrap
 msgid "403 Forbidden"
-msgstr ""
+msgstr "403 Debekatuta"
 
 #. type: Plain text
 #: build/_pages/md/403.md build/_pages/md/404.md
@@ -27,18 +31,20 @@ msgid ""
 "If you think there should be something here, please [submit an issue]"
 "(https://gitlab.com/fdroid/fdroid-website/issues)."
 msgstr ""
+"Hemen zerbait egon behar litzatekeela uste baduzu, [bidali arazo bat] "
+"(https://gitlab.com/fdroid/fdroid-website/issues)."
 
 #. type: Title #
 #: build/_pages/md/404.md
 #, no-wrap
 msgid "404 Page Not Found"
-msgstr ""
+msgstr "404 Orrialdea ez da aurkitu"
 
 #. type: Title #
 #: build/_pages/md/about.md
 #, no-wrap
 msgid "About"
-msgstr ""
+msgstr "Honi buruz"
 
 #. type: Plain text
 #: build/_pages/md/about.md
@@ -49,6 +55,11 @@ msgid ""
 "reviews and other features covering all things Android and software-freedom "
 "related."
 msgstr ""
+"F-Droid Android plataformarako software librea (FOSS) maite duen robota da. "
+"Gune honetan aplikazio libreen biltegi bat aurkituko duzu, bertatik "
+"instalazioak eta eguneraketak egiteko Android bezero bat, berriak, "
+"berrikusketak eta Android eta software librearekin zerikusia duten beste "
+"hainbat ezaugarri."
 
 #. type: Plain text
 #: build/_pages/md/about.md
@@ -56,12 +67,14 @@ msgid ""
 "F-Droid is operated by F-Droid Limited, a non-profit organisation registered "
 "in England (no. 8420676)."
 msgstr ""
+"'F-Droid Limited' erakundeak kudeatzen du F-Droid, Ingalaterran "
+"erregistratutako irabazi asmorik gabeko erakundea da (8420676 zenbakia)."
 
 #. type: Title ####
 #: build/_pages/md/about.md
 #, no-wrap
 msgid "Contact"
-msgstr ""
+msgstr "Kontaktua"
 
 #. type: Plain text
 #: build/_pages/md/about.md
@@ -74,12 +87,20 @@ msgid ""
 "answered on the forum or #fdroid channel. If you want to help, you can [join "
 "us]({{ \"/contribute/\" | prepend: site.baseurl }})."
 msgstr ""
+"F-Droid-en inguruan eztabaidatu edo laguntza lortu dezakezu [foroa] "
+"(https://forum.f-droid.org) eta IRC-ko [#fdroid kanalean] "
+"(https://webchat.freenode.net/?channels=) % 23fdroid) freenode-n. IRC-ko "
+"eztabaidak [BotBot.me](https://botbot.me/freenode/fdroid)-n gordetzen dira. "
+"E-mail bat bidali dezakezu [team@f-droid.org](mailto:team@f-droid.org) "
+"helbidera, baina erantzuna erazago lortuko duzu foroan edo #fdroid kanalean. "
+"Lagundu nahi baduzu [elkartu zaitez]({{ \"/contribute/\" | prepend: "
+"site.baseurl }})."
 
 #. type: Title ###
 #: build/_pages/md/about.md build/_docs/md/Repository_Style_Guide.md
 #, no-wrap
 msgid "License"
-msgstr ""
+msgstr "Lizentzia"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
@@ -88,6 +109,10 @@ msgid ""
 "community are a availble under the [GNU Affero General Public License "
 "version 3 or later (AGPLv3+)](https://www.gnu.org/licenses/agpl-3.0.html)."
 msgstr ""
+"Gune honetako iturburu-kodea eta F-Droid komunitateak sortutako edukia [GNU "
+"Affero General Public License 3. bertsioa edo berriagoa (AGPLv3 +)] "
+"(https://www.gnu.org/licenses/agpl- 3.0.html) lizentziarekin dago "
+"eskuragarri ."
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
@@ -98,6 +123,11 @@ msgid ""
 "License version 3 or later (GPLv3+)](https://www.gnu.org/licenses/gpl-3.0."
 "html)."
 msgstr ""
+"Berriak ataleko edukiak eta F-Droid logoa [Creative Commons Attribution-"
+"ShareAlike 3.0 License (CC-BY-SA-3.0)](http://creativecommons.org/licenses"
+"/by-sa/3.0/) edo [GNU General Public License 3. bertsioa edo berriagoa "
+"(GPLv3+)](https://www.gnu.org/licenses/gpl-3.0.html) lizentziekin daude "
+"eskuragarri."
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
@@ -105,6 +135,9 @@ msgid ""
 "The descriptive text and graphics for each app have a specific license from "
 "that project.  Free software should also have free descriptions and graphics."
 msgstr ""
+"Aplikazio bakoitzaren deskripzio testua eta grafikoak proiektuko lizentziak "
+"dauzkate.  Software libreak deskripzio eta grafiko libreak izan beharko "
+"lituzke."
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
@@ -112,12 +145,14 @@ msgid ""
 "The F-Droid logo was created by William Theaker. Updates to that, and "
 "additional artwork, are by Robert Martinez."
 msgstr ""
+"F-Droid logoa William Theaker-ek sortu zuen. Horri egindako eguneraketak eta "
+"arte gehigarria Robert Martinez-en lana dira."
 
 #. type: Title ###
 #: build/_pages/md/about.md
 #, no-wrap
 msgid "Terms, etc."
-msgstr ""
+msgstr "Baldintzak, etab."
 
 #. type: Plain text
 #: build/_pages/md/about.md
@@ -129,6 +164,12 @@ msgid ""
 "source code is checked for potential security or privacy issues. This "
 "checking is far from exhaustive though, and there are no guarantees."
 msgstr ""
+"F-Droid irabazi asmorik gabeko proiektu [boluntarioa]({{ \"/contribute/\" | "
+"prepend: site.baseurl }}) da. Biltegian dagoen guztia segurua izan dadin "
+"ahalegintzen bagara ere, ZURE ERANTZUKIZUNAREN PEAN erabiltzen duzu. Ahal "
+"bada, biltegiko aplikazioak iturritik konpilatzen dira, eta iturburu kode "
+"hori segurtasun eta pribatutasun ahuleziak ez dituela egiaztatzen dugu. "
+"Egiaztaketa hau ez da ordea erabatekoa, ez dago bermerik."
 
 #. type: Plain text
 #: build/_pages/md/about.md
@@ -143,12 +184,21 @@ msgid ""
 "to post on the forum) goes no further than us, and will not be used for "
 "anything other than allowing you to maintain your account."
 msgstr ""
+"F-Droid-ek zure pribatutasunari begirunea dio. Ez dizugu jarraipenik egiten, "
+"ez zuri ez zure gailuari. Ez dugu zer instalatu duzun begiratzen. Ez duzu "
+"kontu bat bezeroa erabiltzeko, eta ez du identifikatu zaitzakeen "
+"informaziorik bidaltzen gure web zerbitzariarekin ari denean, bere bertsio "
+"zenbakia besterik ez. Are gehiago, ez dugu jarraipena egiten duten "
+"aplikazioak instalatzea baimentzen ez baduzu aurretik ezarpenetan jarraipena "
+"onartzen. Zure erabakiz bidaltzen diguzun edozein informazio pertsonal ("
+"Esaterako zure e-mail helbidea foroetan idazteko kontua sortzean) ez zaio "
+"beste inori ematen, eta ez da kontua mantentzeko beste ezertarako erabiliko."
 
 #. type: Title ###
 #: build/_pages/md/about.md
 #, no-wrap
 msgid "Contributors"
-msgstr ""
+msgstr "Parte hartzaileak"
 
 #. type: Plain text
 #: build/_pages/md/about.md
@@ -156,296 +206,298 @@ msgid ""
 "The F-Droid project was founded in 2010 by Ciaran Gultnieks, and is brought "
 "to you by at least the following people:"
 msgstr ""
+"F-Droid proiektua 2010ean sortu zuen Ciaran Gultnieks-ek, eta gutxienez "
+"honako pertsona hauei esker gozatu dezakezu:"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Nico Alt"
-msgstr ""
+msgstr "Nico Alt"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Laura Arjona"
-msgstr ""
+msgstr "Laura Arjona"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Ben Arnold"
-msgstr ""
+msgstr "Ben Arnold"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Michele Azzolari"
-msgstr ""
+msgstr "Michele Azzolari"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Jan Berkel"
-msgstr ""
+msgstr "Jan Berkel"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "David Black"
-msgstr ""
+msgstr "David Black"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Jan C Borchardt"
-msgstr ""
+msgstr "Jan C Borchardt"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Valerio Bozzolan"
-msgstr ""
+msgstr "Valerio Bozzolan"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Dan Bravender"
-msgstr ""
+msgstr "Dan Bravender"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Cédric Cabessa"
-msgstr ""
+msgstr "Cédric Cabessa"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Kevin Cernekee"
-msgstr ""
+msgstr "Kevin Cernekee"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Felix Edelmann"
-msgstr ""
+msgstr "Felix Edelmann"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Kevin Everets"
-msgstr ""
+msgstr "Kevin Everets"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Alberto A. Fuentes"
-msgstr ""
+msgstr "Alberto A. Fuentes"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Torsten Grote"
-msgstr ""
+msgstr "Torsten Grote"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Ciaran Gultnieks"
-msgstr ""
+msgstr "Ciaran Gultnieks"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Tias Guns"
-msgstr ""
+msgstr "Tias Guns"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Michael Haas"
-msgstr ""
+msgstr "Michael Haas"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Stefan Handschuh"
-msgstr ""
+msgstr "Stefan Handschuh"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Marcus Hoffmann"
-msgstr ""
+msgstr "Marcus Hoffmann"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Kees Hulberts"
-msgstr ""
+msgstr "Kees Hulberts"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Ayron Jungren"
-msgstr ""
+msgstr "Ayron Jungren"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "João Fernando C. Júnior"
-msgstr ""
+msgstr "João Fernando C. Júnior"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Neo Kolokotronis"
-msgstr ""
+msgstr "Neo Kolokotronis"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Nikita Kozlov"
-msgstr ""
+msgstr "Nikita Kozlov"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Matt Kraai"
-msgstr ""
+msgstr "Matt Kraai"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Daniel Kraft"
-msgstr ""
+msgstr "Daniel Kraft"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Boris Kraut"
-msgstr ""
+msgstr "Boris Kraut"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Tobias Kuban"
-msgstr ""
+msgstr "Tobias Kuban"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Mariotaku Lee"
-msgstr ""
+msgstr "Mariotaku Lee"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Leonardo De Luca"
-msgstr ""
+msgstr "Leonardo De Luca"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Greg Lyle"
-msgstr ""
+msgstr "Greg Lyle"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Daniel Marti"
-msgstr ""
+msgstr "Daniel Marti"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Robert Martinez"
-msgstr ""
+msgstr "Robert Martinez"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Nat Meysenburg"
-msgstr ""
+msgstr "Nat Meysenburg"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Steven McDonald"
-msgstr ""
+msgstr "Steven McDonald"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Andrew McMillan"
-msgstr ""
+msgstr "Andrew McMillan"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Andrew Nayenko"
-msgstr ""
+msgstr "Andrew Nayenko"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Alex Oberhauser"
-msgstr ""
+msgstr "Alex Oberhauser"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Michael Pöhn"
-msgstr ""
+msgstr "Michael Pöhn"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Nicolas Raoul"
-msgstr ""
+msgstr "Nicolas Raoul"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Fabian Rodriguez"
-msgstr ""
+msgstr "Fabian Rodriguez"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Florian Schmaus"
-msgstr ""
+msgstr "Florian Schmaus"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Dominik Schürmann"
-msgstr ""
+msgstr "Dominik Schürmann"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Hans-Emil Skogh"
-msgstr ""
+msgstr "Hans-Emil Skogh"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Paul Sokolovsky"
-msgstr ""
+msgstr "Paul Sokolovsky"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Graziano Sorbaioli"
-msgstr ""
+msgstr "Graziano Sorbaioli"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Hans-Christoph Steiner"
-msgstr ""
+msgstr "Hans-Christoph Steiner"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "David Sterry"
-msgstr ""
+msgstr "David Sterry"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Peter Serwylo"
-msgstr ""
+msgstr "Peter Serwylo"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "John Sullivan"
-msgstr ""
+msgstr "John Sullivan"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Antonio Tapiador"
-msgstr ""
+msgstr "Antonio Tapiador"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "William Theaker"
-msgstr ""
+msgstr "William Theaker"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Henrik Tunedal"
-msgstr ""
+msgstr "Henrik Tunedal"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Ivo Ugrina"
-msgstr ""
+msgstr "Ivo Ugrina"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Matthias Weiler"
-msgstr ""
+msgstr "Matthias Weiler"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Nutchanon Wetchasit"
-msgstr ""
+msgstr "Nutchanon Wetchasit"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Philipp Wollschlegel"
-msgstr ""
+msgstr "Philipp Wollschlegel"
 
 #. type: Plain text
 #: build/_pages/md/about.md
@@ -454,6 +506,9 @@ msgid ""
 "list](https://gitlab.com/fdroid/fdroid-website/blob/master/_pages/about.md)! "
 "Keep it sorted by surname, please."
 msgstr ""
+"Zure izena falta bada akats bat da, [gehitu zure burua "
+"zerrendara](https://gitlab.com/fdroid/fdroid-"
+"website/blob/master/_pages/about.md)! Abizenez ordenatuta mantendu mesedez."
 
 #. type: Plain text
 #: build/_pages/md/about.md
@@ -461,24 +516,27 @@ msgid ""
 "The original F-Droid client app was based on the Aptoide app developed by "
 "Roberto Jacinto."
 msgstr ""
+"Jatorrizko F-Droid bezeroa Roberto Jacinto-k garatutako Aptoide aplikazioan "
+"oinarritzen zen."
 
 #. type: Title #
 #: build/_pages/md/contribute.md
 #, no-wrap
 msgid "Contribute"
-msgstr ""
+msgstr "Hartu parte"
 
 #. type: Plain text
 #: build/_pages/md/contribute.md
 msgid ""
 "The project is entirely developed and maintained by volunteers. You can help:"
 msgstr ""
+"Proiektua boluntarioek mantentzen dute erabat. Zuk ere lagundu dezakezu:"
 
 #. type: Title ###
 #: build/_pages/md/contribute.md
 #, no-wrap
 msgid "Report Problems"
-msgstr ""
+msgstr "Eman arazoen berri"
 
 #. type: Plain text
 #: build/_pages/md/contribute.md
@@ -487,21 +545,28 @@ msgid ""
 "them in the issue tracker (see below), or discuss them in the [Forum]"
 "(https://forum.f-droid.org/) or on IRC (#fdroid on freenode)."
 msgstr ""
+"Gunearekin edo bezeroarekin arazoak badituzu, eman berri arazoen "
+"kudeatzailean (iokusi behean), edo eztabaidatu "
+"[foroan](https://forum.f-droid.org/) edo IRC-n (#fdroid freenode "
+"zerbitzarian)."
 
 #. type: Plain text
 #: build/_pages/md/contribute.md
 msgid "For reporting issues, choose an appropriate tracker from the following:"
-msgstr ""
+msgstr "Arazoen berri emateko, hautatu hauetako kudeatzailerik egokiena:"
 
 #. type: Bullet: '* '
 #: build/_pages/md/contribute.md
 msgid "[F-Droid client app](https://gitlab.com/fdroid/fdroidclient/issues)"
 msgstr ""
+"[F-Droid bezero aplikazioa](https://gitlab.com/fdroid/fdroidclient/issues)"
 
 #. type: Bullet: '* '
 #: build/_pages/md/contribute.md
 msgid "[Server and build tools](https://gitlab.com/fdroid/fdroidserver/issues)"
 msgstr ""
+"[Zerbitzaria eta konpilazio "
+"tresnak](https://gitlab.com/fdroid/fdroidserver/issues)"
 
 #. type: Bullet: '* '
 #: build/_pages/md/contribute.md
@@ -509,12 +574,14 @@ msgid ""
 "[Official F-Droid repository metadata](https://gitlab.com/fdroid/fdroiddata/"
 "issues)"
 msgstr ""
+"[F-Droid biltegi ofizialeko "
+"metadatuak](https://gitlab.com/fdroid/fdroiddata/issues)"
 
 #. type: Title ###
 #: build/_pages/md/contribute.md
 #, no-wrap
 msgid "Submit Applications"
-msgstr ""
+msgstr "Bidali aplikazioak"
 
 #. type: Plain text
 #: build/_pages/md/contribute.md
@@ -524,6 +591,10 @@ msgid ""
 "via the dedicated [Requests For Packaging](https://gitlab.com/fdroid/rfp/"
 "issues) issue tracker."
 msgstr ""
+"Biltegian aplikazioren bat falta dela ikusten baduzu ([sarrera "
+"politika](../docs/Inclusion_Policy) irakurri eta gero), eman berri horretara "
+"zuzendutako [Paketatze "
+"eskarien](https://gitlab.com/fdroid/rfp/issues)kudeatzailetan."
 
 #. type: Plain text
 #: build/_pages/md/contribute.md
@@ -533,11 +604,15 @@ msgid ""
 "gitlab.com/fdroid/fdroiddata/blob/master/CONTRIBUTING.md), which will "
 "drastically speed up the inclusion of the application."
 msgstr ""
+"Behar den gaitasun teknikoa baduzu, zuk zeuk bildu ditzakezu dagozkien "
+"metadatuak eta  [F-Droid datuen biltegira "
+"bidali](https://gitlab.com/fdroid/fdroiddata/blob/master/CONTRIBUTING.md), "
+"honek izugarri azkartuko du aplikazioa sartzea."
 
 #. type: Plain text
 #: build/_pages/md/contribute.md
 msgid "The same applies for helping to build newer versions of applications."
-msgstr ""
+msgstr "Gauza bera aplikazioen bertsio berriak konpilatzerako orduan."
 
 #. type: Plain text
 #: build/_pages/md/contribute.md
@@ -546,12 +621,15 @@ msgid ""
 "asking [on IRC](https://webchat.freenode.net/?channels=%23fdroid) (#fdroid "
 "on freenode)."
 msgstr ""
+"[Dokumentazioan](../docs) edo [IRC "
+"kanalean](https://webchat.freenode.net/?channels=%23fdroid) (#fdroid "
+"freenode zerbitzarian) informazio gehiago aurkituko duzu."
 
 #. type: Title ###
 #: build/_pages/md/contribute.md build/_docs/md/How_to_Help.md
 #, no-wrap
 msgid "Translate"
-msgstr ""
+msgstr "Itzuli"
 
 #. type: Plain text
 #: build/_pages/md/contribute.md
@@ -561,6 +639,11 @@ msgid ""
 "account and use the [translation system](https://hosted.weblate.org/projects/"
 "f-droid/) to make your changes."
 msgstr ""
+"Bezero aplikazioa hizkuntza ugaritan dago eskuragarri. Zure hizkuntza ez "
+"bada horietako bat, edo hobekuntzak edo eguneraketak behar baditu, sortu "
+"kontu bat eta erabili [itzulpenetarako "
+"sistema](https://hosted.weblate.org/projects/f-droid/) zure aldaketak "
+"egiteko."
 
 #. type: Plain text
 #: build/_pages/md/contribute.md
@@ -570,12 +653,16 @@ msgid ""
 "(https://forum.f-droid.org/c/translation) for translation related "
 "discussions."
 msgstr ""
+"Hasi [Itzulpena eta lokalizazioa](../docs/Translation_and_Localization) "
+"gainbegiratuz. Badago ere [itzulpenen atala foroandedicated forum "
+"section](https://forum.f-droid.org/c/translation) itzulpenei buruz hitz "
+"egiteko."
 
 #. type: Title ###
 #: build/_pages/md/contribute.md
 #, no-wrap
 msgid "Help with Development"
-msgstr ""
+msgstr "Lagundu garapenarekin"
 
 #. type: Plain text
 #: build/_pages/md/contribute.md
@@ -593,6 +680,17 @@ msgid ""
 "direction of the project, and do not clash with or duplicate work already in "
 "development."
 msgstr ""
+"GitLab-en ostatatutako lau git biltegi daude – [Android bezero "
+"aplikazioa](https://gitlab.com/fdroid/fdroidclient), [zerbitzari-"
+"tresnak](https://gitlab.com/fdroid/fdroidserver) biltegi bat sortzeko eta "
+"aplikazioak lokalki konpilatu eta instalatzeko, [F-Droid biltegi nagusiko "
+"aplikazioen metadatu fitxategiak](https://gitlab.com/fdroid/fdroiddata), eta "
+"[webgunea eta dikumentazioa](https://gitlab.com/fdroid/fdroid-website).  "
+"Garapenean parte hartzeko modurik errazena proiektu hauek klonatzea eta "
+"bateratze eskariak bidaltzea da. Aldaketa handiak egingo badituzu, aurretik "
+"IRC kanalean edo foroan eztabaidatzea egokia litzateke, proiektuaren "
+"norabidearekin bat egiten dutela baieztatzeko, eta jada garapenean dagoen "
+"lanarekin talka egiten ez duela ziurtatzeko."
 
 #. type: Plain text
 #: build/_pages/md/contribute.md
@@ -600,12 +698,14 @@ msgid ""
 "For working with the server and data projects, it’s a good idea to read [the "
 "manual]({{ \"/docs/\" | prepend: site.baseurl }})."
 msgstr ""
+"Zerbitzariaren eta datuen proiektuekin lan egiteko,  [eskuliburua]({{ \""
+"/docs/\" | prepend: site.baseurl }}) irakurtzea ideia ona da."
 
 #. type: Title #
 #: build/_pages/md/docs.md
 #, no-wrap
 msgid "Docs"
-msgstr ""
+msgstr "Dokumentuak"
 
 #. type: Plain text
 #: build/_pages/md/docs.md
@@ -617,6 +717,11 @@ msgid ""
 "tools for managing the process of turning app source code into published "
 "builds."
 msgstr ""
+"F-Droid egiaztatutako Android aplikazio libreen biltegi bat da eta baita \""
+"Aplikazioen denda\" bat ezartzeko behar diren tresna guztiak eskura jartzen "
+"dizkizun proiektu bat. Komunitateak kudeatutako software librea da mundu "
+"osoko lagunek garatutakoa. Konpilazio eta kaleratze tresnak ere badakartza "
+"iturburu-kodea argitaratutako aplikazioetan bihurteko prozesua kudeatzeko."
 
 #. type: Plain text
 #: build/_pages/md/docs.md
@@ -627,17 +732,21 @@ msgid ""
 "publishing, or to assist in creating, testing and submitting metadata to the "
 "main repository."
 msgstr ""
+"F-Droid zerbitzari tresnek hainbat script eta tresna hornitzen dituzte, F-"
+"Droid aplikazio-biltegia kudeatzeko erabiltzen direnak. Zuk ere erabili "
+"ditzakezu aplikazioak argitaratzeko zure biltegia sortzeko, edo metadatuak "
+"sortu, egiaztatu eta biltegi nagusira bidaltzen laguntzeko."
 
 #. type: Title ###
 #: build/_pages/md/docs.md
 #, no-wrap
 msgid "Getting Started"
-msgstr ""
+msgstr "Lehen urratsak"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
 msgid "[FAQ - General](FAQ_-_General) Frequently Asked Questions about F-Droid"
-msgstr ""
+msgstr "[FAQ - Orokorra](FAQ_-_General) F-Droid-i buruz maiz egindako galderak"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
@@ -645,6 +754,8 @@ msgid ""
 "[FAQ - Client](FAQ_-_Client) Frequently Asked Questions about how to use the "
 "F-Droid app in Android."
 msgstr ""
+"[FAQ - Bezeroa](FAQ_-_Client) F-Droid aplikazioa Android-en erabiltzeari "
+"buruz maiz egindako galderak."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
@@ -652,12 +763,14 @@ msgid ""
 "[Anti-Features](https://f-droid.org/wiki/page/Antifeatures) What they are, "
 "what they mean, and what apps have them."
 msgstr ""
+"[Ezaugarri zalantzagarriak](https://f-droid.org/wiki/page/Antifeatures) Zer "
+"dira, zer esan nahi dute, eta zeintzuk aplikaziok dituzte."
 
 #. type: Title ###
 #: build/_pages/md/docs.md
 #, no-wrap
 msgid "More Information"
-msgstr ""
+msgstr "Informazio gehiago"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
@@ -665,6 +778,8 @@ msgid ""
 "[How to Help](How_to_Help) Different ways anyone can contribute to the F-"
 "Droid project."
 msgstr ""
+"[Nola lagundu](How_to_Help) Edonork F-Droid proiektuan parte hartzeko "
+"hainbat modu desberdin."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
@@ -672,6 +787,8 @@ msgid ""
 "[Known Repositories](https://forum.f-droid.org/t/721) A list that tries to "
 "keep track of known F-Droid compatible repositories."
 msgstr ""
+"[Biltegi ezagunak](https://forum.f-droid.org/t/721) F-Droid-ekin "
+"bateragarriak diren biltegiei pista jarraitzen saiatzen den zerrenda bat."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
@@ -680,6 +797,9 @@ msgid ""
 "are the various channels that F-Droid software are released on, with info to "
 "verify them based on signing keys."
 msgstr ""
+"[Argitaratze kanalak eta sinadura-gakoak](Release_Channels_and_Signing_Keys) "
+"Hauek dira F-Droid softwarea argitaratzeko erabiltzen diren kanalak, "
+"sinadura-gakoekin egiaztatzeko informazioarekin."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
@@ -687,6 +807,8 @@ msgid ""
 "[Security Model](Security_Model) A brief explanation of how F-Droid delivers "
 "software to users securely."
 msgstr ""
+"[Segurtasun modeloa](Security_Model) F-Droid-ek softwarea erabiltzaileei "
+"modu seguruan helarazteko moduaren azalpen labur bat."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
@@ -694,12 +816,14 @@ msgid ""
 "[Translation and Localization](Translation_and_Localization) How all the "
 "parts of F-Droid are localized."
 msgstr ""
+"[Itzulpena eta lokalizazioa](Translation_and_Localization) Nola lokalizatzen "
+"diren F-Droideko atal desberdinak."
 
 #. type: Title ###
 #: build/_pages/md/docs.md
 #, no-wrap
 msgid "Developers"
-msgstr ""
+msgstr "Garatzaileak"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
@@ -707,6 +831,8 @@ msgid ""
 "[FAQ - App Developers](FAQ_-_App_Developers) Frequently Asked Questions "
 "about F-Droid"
 msgstr ""
+"[FAQ - Aplikazioen garatzaileak](FAQ_-_App_Developers) F-Droid-i buruz maiz "
+"egindako galderak"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
@@ -714,6 +840,8 @@ msgid ""
 "[Build Metadata Reference](Build_Metadata_Reference) All about the build "
 "\"recipes\""
 msgstr ""
+"[Eraiki metadatuen erreferentzia](Build_Metadata_Reference) Konpilazio \""
+"errezetei\" buruzko guztia"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
@@ -721,12 +849,16 @@ msgid ""
 "[Submitting to F-Droid: Quick Start Guide](Submitting_to_F-"
 "Droid_Quick_Start_Guide) Add an app to f-droid.org"
 msgstr ""
+"[F-Droid-era bidaltzea: Hasiera gida](Submitting_to_F-"
+"Droid_Quick_Start_Guide) Gehitu aplikazio bat F-Droid biltegira"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
 msgid ""
 "[Update Processing](Update_Processing) How updates get detected and added."
 msgstr ""
+"[Eguneraketa prozesua](Update_Processing) Nola antzematen diren eguneraketak "
+"eta nola gehitzen diren."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
@@ -734,6 +866,8 @@ msgid ""
 "[Inclusion Policy](Inclusion_Policy) & [Inclusion How-To](Inclusion_How-To)  "
 "Guidelines for how to request the inclusion of a new app."
 msgstr ""
+"[Inklusiorako politika] (Inclusion_Policy) eta [Inklusioa Nola] "
+"(Inclusion_How-To) Aplikazio berri baten inklusioa eskatzeko gidalerroak."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
@@ -741,6 +875,8 @@ msgid ""
 "[Importing Applications](Importing_Applications) Using `fdroid import` to "
 "build a new project."
 msgstr ""
+"[Aplikazioak inportatzea] (Importing_Applications) `fdroid import` "
+"erabiltzea proiektu berri bat eraikitzeko."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
@@ -748,6 +884,8 @@ msgid ""
 "[Building Applications](Building_Applications) Using `fdroid build` to build "
 "an app."
 msgstr ""
+"[Aplikazioak eraikitzea] (Building_Applications) 'fdroid build` erabiltzea "
+"aplikazio bat eraikitzeko."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
@@ -756,6 +894,9 @@ msgid ""
 "(All_About_Descriptions_Graphics_and_Screenshots) Showing off your app in F-"
 "Droid."
 msgstr ""
+"[Deskripzioak, irudiak eta pantaila-argazkiak] "
+"(All_About_Descriptions_Graphics_and_Screenshots) Zure aplikazioa F-Droid-en "
+"erakustea."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
@@ -763,6 +904,8 @@ msgid ""
 "[Publishing Nightly Builds](Publishing_Nightly_Builds) Make an automated "
 "repo of nightly builds of your app."
 msgstr ""
+"[Gaueroko konpilazioak argitaratzea] (Publishing_Nightly_Builds) Sortu zure "
+"aplikazioa gauero konpilatzeko biltegi automatiko bat."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
@@ -770,6 +913,9 @@ msgid ""
 "[Installing the Server and Repo Tools](Installing_the_Server_and_Repo_Tools) "
 "How to install fdroidserver, the tools for running repos and build servers."
 msgstr ""
+"[Zerbitzari eta biltegirako tresnak instalatzea] "
+"(Installing_the_Server_and_Repo_Tools) Nola instalatu fdroidserver, "
+"biltegiak kudeatu eta zerbitzariak eraikitzeko tresnak."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
@@ -778,6 +924,10 @@ msgid ""
 "repository of apps that users can easily add to their F-Droid client to get "
 "your apps directly from the source."
 msgstr ""
+"[Ezarri F-Droid Aplikazio biltegi vat] (Setup_an_F-Droid_App_Repo) Nola "
+"konfiguratu zure aplikazioen biltegi propioa, erabiltzaileek bere F-Droid "
+"bezeroari erraz gehitu dezaketena aplikazioak zure iturburutik zuzenean "
+"eskuratzeko."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
@@ -785,6 +935,8 @@ msgid ""
 "[Build Server Setup](Build_Server_Setup) How to setup the complete f-droid."
 "org build setup on your own machine."
 msgstr ""
+"[Konpilazio zerbitzariaren ezarpena] (Build_Server_Setup) Nola ezarri f-droid"
+".org-eko konpilazio sistema osoa zure makinan."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
@@ -792,6 +944,8 @@ msgid ""
 "[Signing Process](Signing_Process) How to setup cryptographic signatures "
 "with F-Droid tools"
 msgstr ""
+"[Sinadura prozesua] (Sinatu_Prozesua) Nola konfiguratu sinadura "
+"kriptografikoak F-Droid tresnak erabiliz"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
@@ -799,6 +953,8 @@ msgid ""
 "[Reproducible Builds](Reproducible_Builds) How to use the F-Droid tools to "
 "make reproducible builds easy."
 msgstr ""
+"[Konpilazio errepikagarriak] (Reproducible_Builds) Nola erabili F-Droid "
+"tresnak konpilazio errepikagarriak erraz sortzeko."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
@@ -806,6 +962,8 @@ msgid ""
 "[Building a Signing Server](Building_a_Signing_Server) For higher security, "
 "isolate the signing keys from the rest."
 msgstr ""
+"[Sinatze-zerbitzaria eraikitzea] (Building_a_Signing_Server) Segurtasun "
+"handiagoa lortzeko, isolatu sinadura-gakoak beste guztitik."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
@@ -813,11 +971,15 @@ msgid ""
 "[Verification Server](Verification_Server) Setting up a server to verify app "
 "builds are correct."
 msgstr ""
+"[Egiaztaketa zerbitzaria] (Verification_Server) Aplikazioen konpilazioak "
+"zuzenak direla egiaztatzeko zerbitzari bat konfiguratzea."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
 msgid "[Whitelabel Builds](Whitelabel_Builds) custom builds of F-Droid"
 msgstr ""
+"[Etiketa zuriko konpilazioak](Whitelabel_Builds)  F-Droid-en konpilazio "
+"pertsonalak"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
@@ -826,6 +988,9 @@ msgid ""
 "droid-privileged-extension) How to use F-Droid Privileged Extension as a "
 "user and rom developer"
 msgstr ""
+"[Baimendun luzapena](https://gitlab.com/fdroid/privileged-extension/#f-droid-"
+"privileged-extension) Nola erabili F-Droid baimendun luzapena erabiltzaile "
+"gisa eta ROM garatzaile gisa"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
@@ -834,6 +999,9 @@ msgid ""
 "(https://gitlab.com/fdroid/fdroid-website) becomes [f-droid.org](https://f-"
 "droid.org)"
 msgstr ""
+"[Wbgunea kaleratzea](Deploying_the_Website) Nola  [fdroid-"
+"website.git](https://gitlab.com/fdroid/fdroid-website) bihurtzen da "
+"[f-droid.org](https://f-droid.org)"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
@@ -841,6 +1009,8 @@ msgid ""
 "[Release Process](Release_Process) All the steps needed to make official "
 "release of F-Droid projects."
 msgstr ""
+"[Argitaratze prozesua] (Release_Process) F-Droid proiektuak ofizialki "
+"argitaratzeko behar diren urrats guztiak."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
@@ -848,6 +1018,9 @@ msgid ""
 "[Maintaining the Forum](Maintaining_the_Forum) Useful information for "
 "administrators of [F-Droid's forum](https://forum.f-droid.org)"
 msgstr ""
+"[Foroa mantentzea](Maintaining_the_Forum) [F-Droid "
+"foroko](https://forum.f-droid.org) administratzaileentzako informazio "
+"erabilgarria"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
@@ -855,12 +1028,14 @@ msgid ""
 "[Work in Progress](https://f-droid.org/wiki/page/Work_in_Progress) Feel free "
 "to add your own topics and link to others."
 msgstr ""
+"[Lanean](https://f-droid.org/wiki/page/Work_in_Progress) Gehitu zure gaiak "
+"eta lotu besteena."
 
 #. type: Title #
 #: build/_pages/md/issues.md
 #, no-wrap
 msgid "Issues"
-msgstr ""
+msgstr "Arazoak"
 
 #. type: Plain text
 #: build/_pages/md/issues.md
@@ -869,6 +1044,9 @@ msgid ""
 "if we already know about it, and/or report it, in [this issue tracker]"
 "(https://gitlab.com/fdroid/fdroidclient/issues)."
 msgstr ""
+"F-Droid bezero-aplikazioarekin arazo bat baduzu, egiaztatu dagoeneko "
+"ezagutzen dugun eta/edo jakinarazi ezazu [arazo kudeatzaile honetan] "
+"(https://gitlab.com/fdroid/fdroidclient/issues )."
 
 #. type: Plain text
 #: build/_pages/md/issues.md
@@ -876,6 +1054,8 @@ msgid ""
 "To request a new app be added, submit a \"Request For Packaging\" on the "
 "[rfp tracker](https://gitlab.com/fdroid/rfp/issues/new)."
 msgstr ""
+"Aplikazio berri bat gehitzea eskatzeko, bidali \"Paketatze eskaera\" [rfp "
+"tracker](https://gitlab.com/fdroid/rfp/issues/new) orrian."
 
 #. type: Plain text
 #: build/_pages/md/issues.md
@@ -884,6 +1064,9 @@ msgid ""
 "outdated applications, please use [this issue tracker](https://gitlab.com/"
 "fdroid/fdroiddata/issues)."
 msgstr ""
+"Biltegiko edukiekin lotutako arazoei buruz, adibidez, falta diren edo "
+"zaharkiturik dauden aplikazioetarako, erabili [arazo kudeatzaile hau] "
+"(https://gitlab.com/fdroid/fdroiddata/issues)."
 
 #. type: Plain text
 #: build/_pages/md/issues.md
@@ -892,6 +1075,9 @@ msgid ""
 "repo), please use [this issue tracker](https://gitlab.com/fdroid/"
 "fdroidserver/issues)."
 msgstr ""
+"Zerbitzariaren tresnei buruz bada (zuk zeuk aplikazioak konpilatzeko edo "
+"zure biltegia sortzeko), erabili [arazo kudeatzaile hau] "
+"(https://gitlab.com/fdroid/fdroidserver/issues)."
 
 #. type: Plain text
 #: build/_pages/md/issues.md
@@ -899,12 +1085,14 @@ msgid ""
 "For issues relating to this web site, you can use [this issue tracker]"
 "(https://gitlab.com/fdroid/fdroid-website/issues)."
 msgstr ""
+"Webgune honi buruzko gaietarako,  erabili [arazo kudeatzaile hau] "
+"(https://gitlab.com/fdroid/fdroid-website/issues)."
 
 #. type: Title #
 #: build/_pages/md/repomaker.md
 #, no-wrap
 msgid "Repomaker"
-msgstr ""
+msgstr "Repomaker"
 
 #. type: Plain text
 #: build/_pages/md/repomaker.md
@@ -916,6 +1104,11 @@ msgid ""
 "create your own repo and share it with other people independently of F-Droid."
 "org."
 msgstr ""
+"F-Droid.org mundu osoko banakakoek sortutako ehunka biltegien arteko beste "
+"biltegi bat besterik ez da, F-Droid tresnekin edonork sortu dezake bere "
+"biltegia. Bere musika argitaratu nahi duen musikari bat bazara zein gaueroko "
+"konpilazioak argitaratu nahi dituen garatzaile bat bazara, F-Droid.org-etik "
+"independentea den zure biltegia sortu eta partekatzeko askatasuna duzu."
 
 #. type: Plain text
 #: build/_pages/md/repomaker.md
@@ -925,6 +1118,10 @@ msgid ""
 "packages' store details and had to paste screenshots in a special system of "
 "directories to have them served well inside the F-Droid app."
 msgstr ""
+"Iraganean, biltegi bat sortzea zaila zen komando lerroaren ezagutza behar "
+"zenuelako, testu fitxategiak editatu behar ziren zure paketearen xehetasunak "
+"aldatzeko eta pantaila-argazkiak sistemako karpeta berezietan sartu behar "
+"ziren F-Droid aplikazioan behar bezala agertu zitezen."
 
 #. type: Plain text
 #: build/_pages/md/repomaker.md
@@ -933,6 +1130,9 @@ msgid ""
 "repo and do not need to have any special knowledge to do so. More "
 "information on how to install Repomaker coming soon!"
 msgstr ""
+"Hori guztia asko hobetu da: Repomaker erabilita zure biltegia sortu dezakezu "
+"ezagutza berezirik behar gabe. Repomaker instalatzeko informazio gehiago "
+"laster!"
 
 #. type: Plain text
 #: build/_pages/md/repomaker.md
@@ -941,6 +1141,9 @@ msgid ""
 "[![]({{ site.baseurl }}/assets/repomaker-screenshots/repo-details.png)]({{ site.baseurl }}/assets/repomaker-screenshots/repo-details.png)<br/>\n"
 "*Your repo can serve all types of media*\n"
 msgstr ""
+"[![]({{ site.baseurl }}/assets/repomaker-screenshots/repo-details.png)]({{ "
+"site.baseurl }}/assets/repomaker-screenshots/repo-details.png)<br/>\n"
+"*Zure biltegiak edozelako multimedia edukia zerbitzatu dezake*\n"
 
 #. type: Plain text
 #: build/_pages/md/repomaker.md
@@ -949,6 +1152,9 @@ msgid ""
 "[![]({{ site.baseurl }}/assets/repomaker-screenshots/package-details.png)]({{ site.baseurl }}/assets/repomaker-screenshots/package-details.png)<br/>\n"
 "*Editing your package store details never was easier*\n"
 msgstr ""
+"[![]({{ site.baseurl }}/assets/repomaker-screenshots/package-details.png)]({{"
+" site.baseurl }}/assets/repomaker-screenshots/package-details.png)<br/>\n"
+"*Zure paketearen xehetasunak aldatzea inoiz baino errazagoa da*\n"
 
 #. type: Plain text
 #: build/_pages/md/repomaker.md
@@ -957,6 +1163,9 @@ msgid ""
 "[![]({{ site.baseurl }}/assets/repomaker-screenshots/create-repo.png)]({{ site.baseurl }}/assets/repomaker-screenshots/create-repo.png)<br/>\n"
 "*Creating a repo just takes you two clicks*\n"
 msgstr ""
+"[![]({{ site.baseurl }}/assets/repomaker-screenshots/create-repo.png)]({{ "
+"site.baseurl }}/assets/repomaker-screenshots/create-repo.png)<br/>\n"
+"*Biltegi bat sortzeko bi klik besterik ez dira behar*\n"
 
 #. type: Plain text
 #: build/_pages/md/repomaker.md
@@ -965,6 +1174,9 @@ msgid ""
 "[![]({{ site.baseurl }}/assets/repomaker-screenshots/add-storage.png)]({{ site.baseurl }}/assets/repomaker-screenshots/add-storage.png)<br/>\n"
 "*You have many possibilities where to upload your repo*\n"
 msgstr ""
+"[![]({{ site.baseurl }}/assets/repomaker-screenshots/add-storage.png)]({{ "
+"site.baseurl }}/assets/repomaker-screenshots/add-storage.png)<br/>\n"
+"*Zure biltegia hainbat leku desberdinetan ostatatzeko aukera duzu*\n"
 
 #. type: Plain text
 #: build/_pages/md/repomaker.md
@@ -973,12 +1185,16 @@ msgid ""
 "software. You can find the source code and its license on [GitLab.com]"
 "(https://gitlab.com/fdroid/repomaker)."
 msgstr ""
+"F-Droid-eko beste proiektuak bezala, Repomaker software librea eta kode "
+"irekikoa da.  Iturburu-kodea eta lizentzia "
+"[GitLab.com](https://gitlab.com/fdroid/repomaker) zerbitzarian aurkitu "
+"dezakezu."
 
 #. type: Title #
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
 #, no-wrap
 msgid "All About Descriptions, Graphics, and Screenshots"
-msgstr ""
+msgstr "Deskripzioak, grafikoak eta pantaila-argakiei buruz"
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -990,6 +1206,13 @@ msgid ""
 "including pre-built files in a simple repository.  There are three paths to "
 "including app store content for apps (in order of preference):"
 msgstr ""
+"Aplikazio bakoitzak dendarako eduki guztiak izan ditzake, itzulitako "
+"dezkripzioak, nabarmendutako grafikoak, eta pantaila argazkiak barne (F-"
+"Droid bezeroaren v0.103 bertsiotik eta zerbitzariaren v0.8 bertsiotik "
+"aurrera). Hau posiblea da bai aplikazioak [konpilazio "
+"metadatuen](../Build_Metadata_Reference) bidez gehitzean bai aurrez "
+"konpilatutako fitxategi soilak biltegira gehitzean. Hiru modu daude "
+"aplikazio dendarako edukiak gehitzeko (hobetsitako ordenan):"
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -1002,21 +1225,23 @@ msgid ""
 "* Do not remove this line (it will not be displayed)\n"
 "{:toc}\n"
 msgstr ""
+"* Ez ezabatu lerro hau (ez da bistaratuko)\n"
+"{:toc}\n"
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
 msgid "There are two data formats:"
-msgstr ""
+msgstr "Bi datu-formatu daude:"
 
 #. type: Bullet: '* '
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
 msgid "descriptive materials in plain text or HTML"
-msgstr ""
+msgstr "deskripzio materiala testu hutsean edo HTML-an"
 
 #. type: Bullet: '* '
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
 msgid "graphics and screenshots as PNG or JPEG files"
-msgstr ""
+msgstr "grafikoak eta pantaila-argazkiak PNG edo JPEG fitxategi gisa"
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -1027,12 +1252,18 @@ msgid ""
 "massive-android-bug/120393/), and it is not needed to display images.  This "
 "can also mean that the images are recompressed."
 msgstr ""
+"Xehetasun garrantzitsu bat: irudietatik arriskutsuak izan daitezkeen edo "
+"behar ez diren metadatuak ezabatzen dira biltegira gehitu aurretik. "
+"Adibidez, JPEG EXIF datuek [segurtasun arazoak](https://threatpost.com"
+"/google-shuts-down-potentially-massive-android-bug/120393/) dituzte eta ez "
+"dira behar irudiak bistaratzeko. Honek esan nahi du irudiak berriro "
+"konprimitzen direla."
 
 #. type: Title ##
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
 #, no-wrap
 msgid "In the app's source repository"
-msgstr ""
+msgstr "Aplikazioaren iturriaren biltegian"
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -1046,6 +1277,15 @@ msgid ""
 "source repo, and those files are included in a tagged release of the app, F-"
 "Droid will include all those files."
 msgstr ""
+"Bi aukera daude aplikazio dendarako materialak zure aplikazioaren iturburu "
+"biltegian gehitzeko: [fastlane "
+"supply](https://github.com/fastlane/fastlane/blob/2.28.7/supply/README.md"
+"#images-and-screenshots)  eta [Triple-T Gradle Play "
+"Publisher](https://github.com/Triple-T/gradle-play-publisher#play-store-"
+"metadata).  Tresna biak software librea dira eta Android garapenerako lan "
+"fluxuan ongi integratzen dira. Behin fitxategiak aplikazioaren biltegian "
+"gehituta, eta fitxategi hauek aplikazioaren argitaratze batean etiketatzen "
+"direla, F-Droid-ek fitxategi guzti horiek txertatuko ditu."
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -1054,6 +1294,9 @@ msgid ""
 "_fastlane supply_ nor _Gradle Play Publisher_.  F-Droid includes these files "
 "purely based on the standard file layout that those tools use."
 msgstr ""
+"Egia esan ez da guztiz beharrezkoa _fastlane supply_ edo _Gradle Play "
+"Publisher_ erabiltzea. F-Droied tresna hauek erabilitako fitxategi "
+"estruktura estandarrean oinarritzen da fitxategiak txertatzeko besterik gabe."
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -1064,6 +1307,11 @@ msgid ""
 "repo's _master_ branch but not yet in a tagged release, they will not be "
 "included."
 msgstr ""
+"Lokalizatutako deskripzio eta grafiko guztiak F-Droid biltegian automatikoki "
+"agertuko dira behin biltegiak sortzen duen argitaratze baten iturburu "
+"biltegian eskuragarri daudenean. Adibidez, fitxategi hauek _git_ biltegiko "
+"_master_ adarrean badaude, baina ez etiketatutako argitaratze batean, ez "
+"dira txertatuko."
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -1078,12 +1326,22 @@ msgid ""
 "or [issue](https://gitlab.com/fdroid/fdroiddata/issues) to remove _Summary_ "
 "and _Description_ from the app's metadata file."
 msgstr ""
+"Azken xehetasun garrantzitsua, aplikazioaren metadatuetako fitxategiko "
+"testuek  _Fastlane_ edo _Triple-T_ bidez sortutako deskipzio testuak "
+"gainidatziko ditzute. Hau da [Izena](../Build_Metadata_Reference/#Name)/[Auto"
+"Izena](../Build_Metadata_Reference/#AutoName), "
+"[Laburpena](../Build_Metadata_Reference/#Summary), eta "
+"[Deskripzioa](../Build_Metadata_Reference/#Description). Behin aplikazioaren "
+"deskripzio testuak iturburuaren biltegira mugituta, sortu [bateratzeko "
+"eskaria](https://gitlab.com/fdroid/fdroiddata/merge_requests)  edo "
+"[arazoa](https://gitlab.com/fdroid/fdroiddata/issues) _Laburpena_ eta "
+"_Deskrizioa_ aplikazioaren metadatuetako fitxategitik kentzeko."
 
 #. type: Title ##
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
 #, no-wrap
 msgid "In the app's build metadata in an _fdroiddata_ collection"
-msgstr ""
+msgstr "Aplikazioaren konpilazioaren metadatuetan _fdroiddata_  bilduma batean"
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -1129,11 +1387,39 @@ msgid ""
 "                  └── *.png\n"
 "```\n"
 msgstr ""
+"```\n"
+"- <fdroiddata>/\n"
+"  └── metadata/\n"
+"      └── <package-id>/\n"
+"          └── <locale>/\n"
+"              ├── full_description.txt\n"
+"              ├── short_description.txt\n"
+"              ├── title.txt\n"
+"              ├── video.txt\n"
+"              ├── images/\n"
+"              │   ├── featureGraphic.png\n"
+"              │   ├── icon.png\n"
+"              │   ├── promoGraphic.png\n"
+"              │   └── tvBanner.png\n"
+"              ├── changelogs/\n"
+"              │   ├── <version-code>.txt\n"
+"              │   └── <version-code>.txt\n"
+"              ├── phoneScreenshots/\n"
+"              │   └── *.png\n"
+"              ├── sevenInchScreenshots/\n"
+"              │   └── *.png\n"
+"              ├── tenInchScreenshots/\n"
+"              │   └── *.png\n"
+"              ├── tvScreenshots/\n"
+"              │   └── *.png\n"
+"              └── wearScreenshots/\n"
+"                  └── *.png\n"
+"```\n"
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
 msgid "Example:"
-msgstr ""
+msgstr "Adibidea:"
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -1158,7 +1444,7 @@ msgstr ""
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
 #, no-wrap
 msgid "Directly in the F-Droid repo"
-msgstr ""
+msgstr "Zuzenean F-Droid biltegian"
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -1197,6 +1483,26 @@ msgid ""
 "                  └── *.png\n"
 "```\n"
 msgstr ""
+"```\n"
+"- fdroid/\n"
+"  └── repo/\n"
+"      └── <package-id>/\n"
+"          └── <locale>/\n"
+"              ├── featureGraphic.png\n"
+"              ├── icon.png\n"
+"              ├── promoGraphic.png\n"
+"              ├── tvBanner.png\n"
+"              ├── phoneScreenshots/\n"
+"              │   └── *.png\n"
+"              ├── sevenInchScreenshots/\n"
+"              │   └── *.png\n"
+"              ├── tenInchScreenshots/\n"
+"              │   └── *.png\n"
+"              ├── tvScreenshots/\n"
+"              │   └── *.png\n"
+"              └── wearScreenshots/\n"
+"                  └── *.png\n"
+"```\n"
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -1210,7 +1516,7 @@ msgstr ""
 #: build/_docs/md/Building_Applications.md
 #, no-wrap
 msgid "Building Applications"
-msgstr ""
+msgstr "Aplikazioak konpilatzea"
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md
@@ -1218,6 +1524,8 @@ msgid ""
 "Instead of (or as well as) including binary APKs from external sources in a "
 "repository, you can build them directly from the source code."
 msgstr ""
+"APK bitarrak kanpo iturrietatik biltegira gehitu ordez (edo gehitzeaz gain), "
+"zuzenean konpilatu ditzakezu iturburu-kodetik."
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md
