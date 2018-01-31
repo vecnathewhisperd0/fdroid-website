@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-01-24 13:50+0100\n"
-"PO-Revision-Date: 2018-01-29 12:36+0000\n"
-"Last-Translator: リー <meluten@gmail.com>\n"
+"PO-Revision-Date: 2018-02-01 17:37+0000\n"
+"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/de/>\n"
 "Language: de\n"
@@ -131,6 +131,9 @@ msgid ""
 "The descriptive text and graphics for each app have a specific license from "
 "that project.  Free software should also have free descriptions and graphics."
 msgstr ""
+"Beschreibende Texte und Grafiken zu jeder App besitzen eine "
+"projektspezifische Lizenz.  Freie Software sollte auch frei zugängliche "
+"Beschreibungen und Grafiken enthalten."
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
@@ -1024,6 +1027,8 @@ msgid ""
 "[Maintaining the Forum](Maintaining_the_Forum) Useful information for "
 "administrators of [F-Droid's forum](https://forum.f-droid.org)"
 msgstr ""
+"[Forum-Pflege](Maintaining_the_Forum) Nützliche Informationen für "
+"Administratoren des [F-Droid-Forums](https://forum.f-droid.org)"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
@@ -1098,7 +1103,7 @@ msgstr ""
 #: build/_pages/md/repomaker.md
 #, no-wrap
 msgid "Repomaker"
-msgstr ""
+msgstr "Repomaker"
 
 #. type: Plain text
 #: build/_pages/md/repomaker.md
@@ -1110,6 +1115,12 @@ msgid ""
 "create your own repo and share it with other people independently of F-Droid."
 "org."
 msgstr ""
+"F-Droid.org ist gerade einmal ein Repo von hunderten, rund um den Globus von "
+"Menschen geschaffenen Repos. Mit den Instrumenten von F-Droid kann jeder "
+"sein eigenes Repo anlegen. Egal ob Musiker, der seine Musik veröffentlichen "
+"will oder Entwickler, der Nightly Builds seiner App anbieten möchte, es "
+"steht jedem frei, sein eigenes Repo zu erzeugen und es unabhängig von F-"
+"Droid.org mit anderen Leuten zu teilen."
 
 #. type: Plain text
 #: build/_pages/md/repomaker.md
@@ -1127,6 +1138,9 @@ msgid ""
 "repo and do not need to have any special knowledge to do so. More "
 "information on how to install Repomaker coming soon!"
 msgstr ""
+"Das ist jetzt alles einfacher geworden: Mit Repomaker kann man sein eigenes "
+"Repo erzeugen, ohne dafür Spezialwissen zu brauchen. Weitere Informationen "
+"zur Installation von Repomaker in Kürze!"
 
 #. type: Plain text
 #: build/_pages/md/repomaker.md
@@ -1135,6 +1149,9 @@ msgid ""
 "[![]({{ site.baseurl }}/assets/repomaker-screenshots/repo-details.png)]({{ site.baseurl }}/assets/repomaker-screenshots/repo-details.png)<br/>\n"
 "*Your repo can serve all types of media*\n"
 msgstr ""
+"[![]({{ site.baseurl }}/assets/repomaker-screenshots/repo-details.png)]({{ "
+"site.baseurl }}/assets/repomaker-screenshots/repo-details.png)<br/>\n"
+"*Das Repo kann alle Medienarten anbieten*\n"
 
 #. type: Plain text
 #: build/_pages/md/repomaker.md
@@ -1143,6 +1160,9 @@ msgid ""
 "[![]({{ site.baseurl }}/assets/repomaker-screenshots/package-details.png)]({{ site.baseurl }}/assets/repomaker-screenshots/package-details.png)<br/>\n"
 "*Editing your package store details never was easier*\n"
 msgstr ""
+"[![]({{ site.baseurl }}/assets/repomaker-screenshots/package-details.png)]({{"
+" site.baseurl }}/assets/repomaker-screenshots/package-details.png)<br/>\n"
+"*Die Bearbeitung der Paketquellendetails war nie einfacher*\n"
 
 #. type: Plain text
 #: build/_pages/md/repomaker.md
@@ -1151,6 +1171,9 @@ msgid ""
 "[![]({{ site.baseurl }}/assets/repomaker-screenshots/create-repo.png)]({{ site.baseurl }}/assets/repomaker-screenshots/create-repo.png)<br/>\n"
 "*Creating a repo just takes you two clicks*\n"
 msgstr ""
+"[![]({{ site.baseurl }}/assets/repomaker-screenshots/create-repo.png)]({{ "
+"site.baseurl }}/assets/repomaker-screenshots/create-repo.png)<br/>\n"
+"*Die Erzeugung eines Repos erfordert gerade einmal zwei Klicks*\n"
 
 #. type: Plain text
 #: build/_pages/md/repomaker.md
@@ -1159,6 +1182,9 @@ msgid ""
 "[![]({{ site.baseurl }}/assets/repomaker-screenshots/add-storage.png)]({{ site.baseurl }}/assets/repomaker-screenshots/add-storage.png)<br/>\n"
 "*You have many possibilities where to upload your repo*\n"
 msgstr ""
+"[![]({{ site.baseurl }}/assets/repomaker-screenshots/add-storage.png)]({{ "
+"site.baseurl }}/assets/repomaker-screenshots/add-storage.png)<br/>\n"
+"*Es gibt zahlreiche Möglichkeiten, wo das Repo eingespielt werden kann*\n"
 
 #. type: Plain text
 #: build/_pages/md/repomaker.md
@@ -1167,6 +1193,9 @@ msgid ""
 "software. You can find the source code and its license on [GitLab.com]"
 "(https://gitlab.com/fdroid/repomaker)."
 msgstr ""
+"Wie jedes andere Projekt von F-Droid ist Repomaker eine Free & Open Source "
+"Software. Quellcode und Lizenz dazu findet man auf "
+"[GitLab.com](https://gitlab.com/fdroid/repomaker)."
 
 #. type: Title #
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -1231,6 +1260,12 @@ msgid ""
 "massive-android-bug/120393/), and it is not needed to display images.  This "
 "can also mean that the images are recompressed."
 msgstr ""
+"Wichtige Detailinformation: gefährliche und nicht benötigte Metadaten werden "
+"aus Bilddateien entfernt, bevor sie in das Repo aufgenommen werden.  Zum "
+"Beispiel stellen EXIF-Daten in JPEG-Dateien ein "
+"[Sicherheitsrisiko](https://threatpost.com/google-shuts-down-potentially-"
+"massive-android-bug/120393/) dar und werden für die Bildanzeige nicht "
+"gebraucht.  Das kann auch bedeuten, dass Bilder nochmals komprimiert werden."
 
 #. type: Title ##
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -1384,7 +1419,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
 msgid "Example:"
-msgstr ""
+msgstr "Beispiel:"
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -1404,6 +1439,27 @@ msgid ""
 "* .../ToGoZip/fastlane/metadata/android/en-US/images/phoneScreenshots/....\n"
 "  * images in this folder will be shown below the fdroid-s app description\n"
 msgstr ""
+"* .../ToGoZip/app/...\n"
+"  * der Quellcode der Android-App ToGoZip\n"
+"* [.../ToGoZip/fastlane/metadata/android/en-US/full_description.txt](https://"
+"github.com/k3b/ToGoZip/blob/master/fastlane/metadata/android/en-"
+"US/full_description.txt)\n"
+"  * enthält die US-amerikanische Beschreibung der App ToGoZip.\n"
+"* [.../ToGoZip/fastlane/metadata/android/de-DE/full_description.txt](https://"
+"github.com/k3b/ToGoZip/blob/master/fastlane/metadata/android/de-"
+"DE/full_description.txt)\n"
+"  * enthält die deutsche Beschreibung der App ToGoZip.\n"
+"* [.../ToGoZip/fastlane/metadata/android/en-US/changelogs/9.txt](https://gith"
+"ub.com/k3b/ToGoZip/blob/master/fastlane/metadata/android/en-"
+"US/changelogs/9.txt)\n"
+"  * enthält die Beschreibung der in versionCode **9** gemachten Änderungen\n"
+"  * in der F-Droid-App werden diese oberhalb der App-Beschreibung angezeigt\n"
+"* .../ToGoZip/fastlane/metadata/android/en-US/images/featureGraphic.png \n"
+"  * dieses Bild wird in der F-Droid-App über der Beschreibung an oberster "
+"Stelle erscheinen\n"
+"* .../ToGoZip/fastlane/metadata/android/en-US/images/phoneScreenshots/....\n"
+"  * Bilder in diesem Ordner werden in der App unterhalb der Beschreibung "
+"angezeigt\n"
 
 #. type: Title ##
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
