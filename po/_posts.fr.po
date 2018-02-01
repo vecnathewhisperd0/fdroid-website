@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-01-24 14:34+0100\n"
-"PO-Revision-Date: 2018-01-30 18:36+0000\n"
-"Last-Translator: Ldm Public <ldmpub@gmail.com>\n"
+"PO-Revision-Date: 2018-02-02 08:37+0000\n"
+"Last-Translator: anonymous <>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/f-droid/website-"
 "posts/fr/>\n"
 "Language: fr\n"
@@ -417,7 +417,7 @@ msgstr ""
 #. type: Bullet: '* '
 #: build/_posts/md/2017-06-01-announcing-new-libraries-f-droid-update-channels.md
 msgid "users share APKs via services like Aptoide"
-msgstr ""
+msgstr "Les utilisateurs partagent des APKs via des services tels qu'Aptoide"
 
 #. type: Plain text
 #: build/_posts/md/2017-06-01-announcing-new-libraries-f-droid-update-channels.md
