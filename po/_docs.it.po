@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
-"POT-Creation-Date: 2018-01-30 17:23+0100\n"
-"PO-Revision-Date: 2017-11-05 11:47+0000\n"
-"Last-Translator: random r <epsilin@yopmail.com>\n"
+"POT-Creation-Date: 2018-01-24 13:50+0100\n"
+"PO-Revision-Date: 2018-02-01 09:39+0000\n"
+"Last-Translator: Luca D'Amico <damico.luca91@live.it>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/it/>\n"
 "Language: it\n"
@@ -17,13 +17,13 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.18-dev\n"
+"X-Generator: Weblate 2.19-dev\n"
 
 #. type: Title #
 #: build/_pages/md/403.md
 #, no-wrap
 msgid "403 Forbidden"
-msgstr ""
+msgstr "403 Accesso Vietato"
 
 #. type: Plain text
 #: build/_pages/md/403.md build/_pages/md/404.md
@@ -31,12 +31,14 @@ msgid ""
 "If you think there should be something here, please [submit an issue]"
 "(https://gitlab.com/fdroid/fdroid-website/issues)."
 msgstr ""
+"Se pensi ci debba essere qualcosa qui, per favore [invia una "
+"segnalazione](https://gitlab.com/fdroid/fdroid-website/issues)."
 
 #. type: Title #
 #: build/_pages/md/404.md
 #, no-wrap
 msgid "404 Page Not Found"
-msgstr ""
+msgstr "404 Pagina Non Trovata"
 
 #. type: Title #
 #: build/_pages/md/about.md
@@ -72,7 +74,7 @@ msgstr ""
 #: build/_pages/md/about.md
 #, no-wrap
 msgid "Contact"
-msgstr ""
+msgstr "Contatti"
 
 #. type: Plain text
 #: build/_pages/md/about.md
@@ -97,7 +99,7 @@ msgstr ""
 #: build/_pages/md/about.md build/_docs/md/Repository_Style_Guide.md
 #, no-wrap
 msgid "License"
-msgstr ""
+msgstr "Licenza"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
@@ -106,6 +108,9 @@ msgid ""
 "community are a availble under the [GNU Affero General Public License "
 "version 3 or later (AGPLv3+)](https://www.gnu.org/licenses/agpl-3.0.html)."
 msgstr ""
+"Il codice sorgente di questo sito e i contenuti prodotti dalla comunità di F-"
+"Droid sono disponibili sotto la [GNU Affero General Public License versione "
+"3 o successiva (AGPLv3+)](https://www.gnu.org/licenses/agpl-3.0.html)."
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
@@ -127,6 +132,9 @@ msgid ""
 "The descriptive text and graphics for each app have a specific license from "
 "that project.  Free software should also have free descriptions and graphics."
 msgstr ""
+"Il testo descrittivo e la grafica per ogni applicazione hanno una licenza "
+"specifica per progetto. Il software libero dovrebbe anche avere descrizione "
+"e grafica libera."
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
@@ -262,12 +270,12 @@ msgstr "Kevin Cernekee"
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Felix Edelmann"
-msgstr ""
+msgstr "Felix Edelmann"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Kevin Everets"
-msgstr ""
+msgstr "Kevin Everets"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
