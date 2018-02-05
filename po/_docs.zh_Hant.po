@@ -584,7 +584,7 @@ msgid ""
 "asking [on IRC](https://webchat.freenode.net/?channels=%23fdroid) (#fdroid "
 "on freenode)."
 msgstr ""
-"進一步的資訊可以在[文件](../docs)中找到，或是[在 IRC]( "
+"進一步的資訊可以在[文件](../docs)中找到，或是[在 IRC]("
 "https://webchat.freenode.net/?channels=%23fdroid) (#fdroid on freenode)詢問。"
 
 #. type: Title ###

@@ -89,7 +89,7 @@ msgstr ""
 "U kunt ook rechtstreeks contact met ons opnemen via e-mail op "
 "[team@f-droid.org](mailto:team@f-droid.org), maar berichten op het forum of "
 "in #fdroid hebben meer kans beantwoord te worden. Als u wilt helpen, kunt u ["
-"zich bij ons aansluiten]({{\"/contribute/\" | prepend: site.baseurl }})."
+"zich bij ons aansluiten]({{ \"/contribute/\" | prepend: site.baseurl }})."
 
 #. type: Title ###
 #: build/_pages/md/about.md build/_docs/md/Repository_Style_Guide.md
