@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-02-09 21:25+1100\n"
-"PO-Revision-Date: 2018-02-06 11:51+0000\n"
+"PO-Revision-Date: 2018-02-07 11:22+0000\n"
 "Last-Translator: jxt <chihsun.tsai@gmail.com>\n"
 "Language-Team: Chinese (Traditional) "
 "<https://hosted.weblate.org/projects/f-droid/website-posts/zh_Hant/>\n"
@@ -420,7 +420,7 @@ msgstr ""
 #. type: Bullet: '* '
 #: build/_posts/md/2017-06-01-announcing-new-libraries-f-droid-update-channels.md
 msgid "users share APKs via services like Aptoide"
-msgstr ""
+msgstr "用戶透過如 Aptoide 之服務來分享 APKs 應用"
 
 #. type: Plain text
 #: build/_posts/md/2017-06-01-announcing-new-libraries-f-droid-update-channels.md
@@ -434,6 +434,8 @@ msgstr ""
 #, no-wrap
 msgid "\"Get F-Droid\" aka [org.fdroid.getfdroid](https://gitlab.com/fdroid/update-channels/tree/master/getfdroid#f-droid-installer)"
 msgstr ""
+"\"Get F-Droid\" 即是 [org.fdroid.getfdroid](https://gitlab.com/fdroid/update-"
+"channels/tree/master/getfdroid#f-droid-installer)"
 
 #. type: Plain text
 #: build/_posts/md/2017-06-01-announcing-new-libraries-f-droid-update-channels.md
@@ -448,6 +450,8 @@ msgstr ""
 #, no-wrap
 msgid "\"App Updater\" aka [org.fdroid.appupdater](https://gitlab.com/fdroid/update-channels/tree/master/appupdater#f-droid-update-detector)"
 msgstr ""
+"\"App Updater\" 又名 [org.fdroid.appupdater](https://gitlab.com/fdroid/update-"
+"channels/tree/master/appupdater#f-droid-update-detector)"
 
 #. type: Plain text
 #: build/_posts/md/2017-06-01-announcing-new-libraries-f-droid-update-channels.md
@@ -463,7 +467,7 @@ msgstr ""
 #: build/_posts/md/2017-06-01-announcing-new-libraries-f-droid-update-channels.md
 #, no-wrap
 msgid "Compatible with Google Play Terms of Service"
-msgstr ""
+msgstr "合乎 Google Play 服務條款"
 
 #. type: Plain text
 #: build/_posts/md/2017-06-01-announcing-new-libraries-f-droid-update-channels.md
@@ -483,7 +487,7 @@ msgstr ""
 #. type: Plain text
 #: build/_posts/md/2017-07-03-cuba.md
 msgid "![]({{ site.baseurl }}/assets/posts/2017-07-03-cuba/fdroid-logo.png)"
-msgstr ""
+msgstr "![]({{ site.baseurl }}/assets/posts/2017-07-03-cuba/fdroid-logo.png)"
 
 #. type: Plain text
 #: build/_posts/md/2017-07-03-cuba.md
@@ -503,6 +507,9 @@ msgid ""
 "![]({{ site.baseurl }}/assets/posts/2017-07-03-cuba/celulares_apps_and_updates.jpg)<br/>\n"
 "*Mobile Phone Shop offering Apps and Updates*\n"
 msgstr ""
+"![]({{ site.baseurl "
+"}}/assets/posts/2017-07-03-cuba/celulares_apps_and_updates.jpg)<br/>\n"
+"*行動電話商店供應應用和更新 *\n"
 
 #. type: Plain text
 #: build/_posts/md/2017-07-03-cuba.md
@@ -533,6 +540,8 @@ msgid ""
 "![]({{ site.baseurl }}/assets/posts/2017-07-03-cuba/fdroid_repo.jpg)<br/>\n"
 "*DroidT's F-Droid Repository*\n"
 msgstr ""
+"![]({{ site.baseurl }}/assets/posts/2017-07-03-cuba/fdroid_repo.jpg)<br/>\n"
+"*DroidT's F-Droid 軟體倉庫*\n"
 
 #. type: Plain text
 #: build/_posts/md/2017-07-03-cuba.md
@@ -554,6 +563,9 @@ msgid ""
 "![]({{ site.baseurl }}/assets/posts/2017-07-03-cuba/antenna_outside_shop.jpg)<br/>\n"
 "*WiFi Antenna Outside of the Shop*\n"
 msgstr ""
+"![]({{ site.baseurl "
+"}}/assets/posts/2017-07-03-cuba/antenna_outside_shop.jpg)<br/>\n"
+"*商店外有 WiFi  天線*\n"
 
 #. type: Plain text
 #: build/_posts/md/2017-07-03-cuba.md
