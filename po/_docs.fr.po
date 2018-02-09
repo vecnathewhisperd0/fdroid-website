@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-01-24 13:50+0100\n"
-"PO-Revision-Date: 2018-02-09 16:15+0000\n"
-"Last-Translator: Ldm Public <ldmpub@gmail.com>\n"
+"PO-Revision-Date: 2018-02-10 16:36+0000\n"
+"Last-Translator: Julien Lepiller <roptat@lepiller.eu>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/fr/>\n"
 "Language: fr\n"
@@ -1274,6 +1274,12 @@ msgid ""
 "massive-android-bug/120393/), and it is not needed to display images.  This "
 "can also mean that the images are recompressed."
 msgstr ""
+"Un détail important : les métadonnées dangereuses et inutiles sont enlevées "
+"des fichiers d'image avant d'être incluses au dépôt. Par exemple les données "
+"Exif des Jpeg ont des [problèmes de sécurité](https://threatpost.com/google-"
+"shuts-down-potentially-massive-android-bug/120393/), et ne sont pas requises "
+"pour afficher les images. Cela peut vouloir dire que les images sont "
+"recompressées."
 
 #. type: Title ##
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -1324,6 +1330,11 @@ msgid ""
 "repo's _master_ branch but not yet in a tagged release, they will not be "
 "included."
 msgstr ""
+"Toutes les descriptions et les images traduites seront automatiquement "
+"affichées dans le dépôt F-Droid lorsqu'elles seront disponibles dans le "
+"dépôt source d'une version que le dépôt publie. Par exemple, si ces fichiers "
+"sont inclus dans la branche _master_ d'un dépôt _git_ mais pas encore dans "
+"une version étiquetée, ils ne seront pas inclus."
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -1338,12 +1349,24 @@ msgid ""
 "or [issue](https://gitlab.com/fdroid/fdroiddata/issues) to remove _Summary_ "
 "and _Description_ from the app's metadata file."
 msgstr ""
+"Dernier détail important, les textes dans le fichier de métadonnées de "
+"l'application prendront le pas sur les descriptions de _Fastlane_/_Triple-"
+"T_. Il s'agit de [Name](../Build_Metadata_Reference/#Name)/[AutoName](../Buil"
+"d_Metadata_Reference/#AutoName), "
+"[Summary](../Build_Metadata_Reference/#Summary) et "
+"[Description](../Build_Metadata_Reference/#Description).  Une fois que les "
+"descriptions ont été déplacées dans le dépôt source, effectuez une [demande "
+"de fusion](https://gitlab.com/fdroid/fdroiddata/merge_requests)  or "
+"[issue](https://gitlab.com/fdroid/fdroiddata/issues) pour supprimer "
+"_Summary_ et _Description_ du fichier de métadonnées de l'application."
 
 #. type: Title ##
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
 #, no-wrap
 msgid "In the app's build metadata in an _fdroiddata_ collection"
 msgstr ""
+"Dans les métadonnées de construction de l'application dans la collection "
+"_fdroiddata_"
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -1428,7 +1451,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
 msgid "Example:"
-msgstr ""
+msgstr "Exemple :"
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -1448,6 +1471,27 @@ msgid ""
 "* .../ToGoZip/fastlane/metadata/android/en-US/images/phoneScreenshots/....\n"
 "  * images in this folder will be shown below the fdroid-s app description\n"
 msgstr ""
+"* .../ToGoZip/app/...\n"
+"  * le code source pour l'application android ToGoZip\n"
+"* [.../ToGoZip/fastlane/metadata/android/en-US/full_description.txt](https://"
+"github.com/k3b/ToGoZip/blob/master/fastlane/metadata/android/en-"
+"US/full_description.txt)\n"
+"  * contient la description en anglais (US) de l'application ToGoZip.\n"
+"* [.../ToGoZip/fastlane/metadata/android/de-DE/full_description.txt](https://"
+"github.com/k3b/ToGoZip/blob/master/fastlane/metadata/android/de-"
+"DE/full_description.txt)\n"
+"  * contient les descriptions en allemand de l'application ToGoZip.\n"
+"* [.../ToGoZip/fastlane/metadata/android/en-US/changelogs/9.txt](https://gith"
+"ub.com/k3b/ToGoZip/blob/master/fastlane/metadata/android/en-"
+"US/changelogs/9.txt)\n"
+"  * contient les descriptions des changements dans la version **9**\n"
+"  * dans fdroid, cela sera affiché au-dessus de la decription de l'"
+"application\n"
+"* .../ToGoZip/fastlane/metadata/android/en-US/images/featureGraphic.png \n"
+"  * cette image sera affichée au-dessus de la description de l'application\n"
+"* .../ToGoZip/fastlane/metadata/android/en-US/images/phoneScreenshots/....\n"
+"  * les images de ce dossier seront affichées en dessous de la description "
+"de l'application\n"
 
 #. type: Title ##
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -1687,6 +1731,12 @@ msgid ""
 "file (`./examples/config.py`) from the fdroidserver project to your data "
 "directory and then editing according to the instructions within."
 msgstr ""
+"Indépendamment de l'utilisation prévue des outils, vous devrez toujours "
+"paramétrer certains détails de configuration de base. Cela se fait en créant "
+"un fichier nommé `config.py` dans le répertoire _data_. Vous devriez copier "
+"le fichier d'exemple (`./examples/config.py`) edpuis le projet fdroidserver "
+"vers votre répertoire _data_ directement puis modifier en fonction des "
+"instructions contenues dedans."
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md
@@ -1729,6 +1779,12 @@ msgid ""
 "friend, but a few annotated examples and discussion of the more common usage "
 "modes follows:"
 msgstr ""
+"Lorsque vous le lancez sans paramètre, `fdroid build` construira toutes les "
+"versions des applications que vous n'avez pas encore dans le répertoire "
+"`repo` (ou plus précisément le répertoire `unsigned`). Il y a diverses "
+"autres choses que vous pouvez faire. Comme avec les outils, l'option `--help`"
+" est votre amie, mais voici quelques exemples annotés et des discutions des "
+"modes les plus courants :"
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md
@@ -1751,6 +1807,10 @@ msgid ""
 "Droid client. Many of the tools recognise arguments as packages, allowing "
 "their activity to be limited to just a limited set of packages."
 msgstr ""
+"Cela tente de construire la version 16 du code (qui est la version 0.25) du "
+"client F-Droid. Plusieurs des outils reconnaissent les arguments comme des "
+"paquets, ce qui permet de limiter leur action à un ensemble réduit de "
+"paquets."
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md
@@ -1774,6 +1834,10 @@ msgid ""
 "source tarball containing exactly the source that was used to generate the "
 "binary."
 msgstr ""
+"Le premier est l'APK (non signée). vous pourriez le signer avec un clef de "
+"débogage et le pousser directement vers votre appareil ou un émulateur pour "
+"le tester. Le deuxième est une archive source contenant exactement la source "
+"utilisée pour générer le binaire."
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md
