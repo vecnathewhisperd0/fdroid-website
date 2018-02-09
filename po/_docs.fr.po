@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-01-24 13:50+0100\n"
-"PO-Revision-Date: 2018-02-01 17:36+0000\n"
-"Last-Translator: Ldm Public <ldmpub@gmail.com>\n"
+"PO-Revision-Date: 2018-02-09 15:46+0000\n"
+"Last-Translator: Julien Lepiller <roptat@lepiller.eu>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/fr/>\n"
 "Language: fr\n"
@@ -23,7 +23,7 @@ msgstr ""
 #: build/_pages/md/403.md
 #, no-wrap
 msgid "403 Forbidden"
-msgstr ""
+msgstr "403 Accès refusé"
 
 #. type: Plain text
 #: build/_pages/md/403.md build/_pages/md/404.md
@@ -75,7 +75,7 @@ msgstr ""
 #: build/_pages/md/about.md
 #, no-wrap
 msgid "Contact"
-msgstr ""
+msgstr "Contact"
 
 #. type: Plain text
 #: build/_pages/md/about.md
@@ -100,7 +100,7 @@ msgstr ""
 #: build/_pages/md/about.md build/_docs/md/Repository_Style_Guide.md
 #, no-wrap
 msgid "License"
-msgstr ""
+msgstr "Licence"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
@@ -610,11 +610,17 @@ msgid ""
 "gitlab.com/fdroid/fdroiddata/blob/master/CONTRIBUTING.md), which will "
 "drastically speed up the inclusion of the application."
 msgstr ""
+"Si vous avez les compétences techniques requises, vous pouvez aussi "
+"rassembler les métadonnées pertinentes et les [soumettre via le dépôt F-"
+"Droid Data](https://gitlab.com/fdroid/fdroiddata/blob/master/CONTRIBUTING.md)"
+", ce qui accélèrera grandement l'inclusion de l'application."
 
 #. type: Plain text
 #: build/_pages/md/contribute.md
 msgid "The same applies for helping to build newer versions of applications."
 msgstr ""
+"Cela s'applique aussi à l'aide à la construction des nouvelles versions des "
+"applications."
 
 #. type: Plain text
 #: build/_pages/md/contribute.md
@@ -649,17 +655,16 @@ msgstr ""
 
 #. type: Plain text
 #: build/_pages/md/contribute.md
-#, fuzzy
 msgid ""
 "Start with the overview of [Translation and Localization](../docs/"
 "Translation_and_Localization).  There’s also a [dedicated forum section]"
 "(https://forum.f-droid.org/c/translation) for translation related "
 "discussions."
 msgstr ""
-"Commencez par la vue d'ensemble de [Traduction et Localisation](../docs/"
-"Translation_and_Localization). Il existe également une [section de forum "
-"dédiée](https://forum.f-droid.org/c/translation) pour les discussions de "
-"traduction."
+"Commencez par l'introduction à la [traduction et la "
+"localisation](../docs/Translation_and_Localization). Il existe également une "
+"[section du forum dédiée](https://forum.f-droid.org/c/translation) pour "
+"discuter des traduction."
 
 #. type: Title ###
 #: build/_pages/md/contribute.md
@@ -917,6 +922,8 @@ msgid ""
 "[Publishing Nightly Builds](Publishing_Nightly_Builds) Make an automated "
 "repo of nightly builds of your app."
 msgstr ""
+"[Publier des versions nightly](Publishing_Nightly_Builds) Monter un dépôt "
+"automatique des versions nightly de votre application."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
@@ -974,6 +981,8 @@ msgid ""
 "[Building a Signing Server](Building_a_Signing_Server) For higher security, "
 "isolate the signing keys from the rest."
 msgstr ""
+"[Construire un serveur de signature](Building_a_Signing_Server) Pour plus de "
+"sécurité, isolez les clés de signature du reste."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
@@ -1019,6 +1028,8 @@ msgid ""
 "[Release Process](Release_Process) All the steps needed to make official "
 "release of F-Droid projects."
 msgstr ""
+"[Processus de publication](Release_Process) Toutes les étapes requises pour "
+"publier des versions officielles des projets F-Droid."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
@@ -1062,6 +1073,8 @@ msgid ""
 "To request a new app be added, submit a \"Request For Packaging\" on the "
 "[rfp tracker](https://gitlab.com/fdroid/rfp/issues/new)."
 msgstr ""
+"Pour demander à ajouter une nouvelle application, envoyez une « requête de "
+"packaging » sur le [tracker rfp](https://gitlab.com/fdroid/rfp/issues/new)."
 
 #. type: Plain text
 #: build/_pages/md/issues.md
@@ -1098,7 +1111,7 @@ msgstr ""
 #: build/_pages/md/repomaker.md
 #, no-wrap
 msgid "Repomaker"
-msgstr ""
+msgstr "Repomaker"
 
 #. type: Plain text
 #: build/_pages/md/repomaker.md
@@ -1110,6 +1123,12 @@ msgid ""
 "create your own repo and share it with other people independently of F-Droid."
 "org."
 msgstr ""
+"F-Droid.org est juste un dépôt parmi des centaines de dépôts créés par des "
+"individus partout dans le monde. Avec les outils de F-Droid, tout le monde "
+"peut créer son propre dépôt. Donc que vous soyez un musicien qui veut "
+"publier ses musiques ou un développeur qui veut publier des versions nightly "
+"de ses applications, vous êtes libre de créer votre propre dépôt et de le "
+"partager avec d'autres personnes indépendamment de F-Droid.org."
 
 #. type: Plain text
 #: build/_pages/md/repomaker.md
@@ -1119,6 +1138,11 @@ msgid ""
 "packages' store details and had to paste screenshots in a special system of "
 "directories to have them served well inside the F-Droid app."
 msgstr ""
+"Par le passé, il été difficile de créer un dépôt car il fallait connaître la "
+"ligne de commande, requise pour modifier les fichiers pour modifier les "
+"détails de votre magasin de paquets et il fallait mettre les copies d'écrans "
+"dans un système de répertoires particulier pour qu'ils soient bien "
+"disponibles das l'application F-Droid."
 
 #. type: Plain text
 #: build/_pages/md/repomaker.md
@@ -1127,6 +1151,9 @@ msgid ""
 "repo and do not need to have any special knowledge to do so. More "
 "information on how to install Repomaker coming soon!"
 msgstr ""
+"C'est devenu plus facile maintenant : avec Repomaker, vous pouvez créer "
+"votre propre dépôt et n'avez pas besoin de connaissance particulière. "
+"Bientôt, plus d'informations sur l'installation de Repomaker !"
 
 #. type: Plain text
 #: build/_pages/md/repomaker.md
@@ -1135,6 +1162,9 @@ msgid ""
 "[![]({{ site.baseurl }}/assets/repomaker-screenshots/repo-details.png)]({{ site.baseurl }}/assets/repomaker-screenshots/repo-details.png)<br/>\n"
 "*Your repo can serve all types of media*\n"
 msgstr ""
+"[![]({{ site.baseurl }}/assets/repomaker-screenshots/repo-details.png)]({{ "
+"site.baseurl }}/assets/repomaker-screenshots/repo-details.png)<br/>\n"
+"*votre dépôt peut servir n'importe quel type de média*\n"
 
 #. type: Plain text
 #: build/_pages/md/repomaker.md
@@ -1143,6 +1173,10 @@ msgid ""
 "[![]({{ site.baseurl }}/assets/repomaker-screenshots/package-details.png)]({{ site.baseurl }}/assets/repomaker-screenshots/package-details.png)<br/>\n"
 "*Editing your package store details never was easier*\n"
 msgstr ""
+"[![]({{ site.baseurl }}/assets/repomaker-screenshots/package-details.png)]({{"
+" site.baseurl }}/assets/repomaker-screenshots/package-details.png)<br/>\n"
+"*Modifier les détails de votre magasin de paquets n'a jamais été aussi "
+"facile*\n"
 
 #. type: Plain text
 #: build/_pages/md/repomaker.md
@@ -1151,6 +1185,9 @@ msgid ""
 "[![]({{ site.baseurl }}/assets/repomaker-screenshots/create-repo.png)]({{ site.baseurl }}/assets/repomaker-screenshots/create-repo.png)<br/>\n"
 "*Creating a repo just takes you two clicks*\n"
 msgstr ""
+"[![]({{ site.baseurl }}/assets/repomaker-screenshots/create-repo.png)]({{ "
+"site.baseurl }}/assets/repomaker-screenshots/create-repo.png)<br/>\n"
+"*Créer un dépôt ne prend que deux clics*\n"
 
 #. type: Plain text
 #: build/_pages/md/repomaker.md
@@ -1159,6 +1196,9 @@ msgid ""
 "[![]({{ site.baseurl }}/assets/repomaker-screenshots/add-storage.png)]({{ site.baseurl }}/assets/repomaker-screenshots/add-storage.png)<br/>\n"
 "*You have many possibilities where to upload your repo*\n"
 msgstr ""
+"[![]({{ site.baseurl }}/assets/repomaker-screenshots/add-storage.png)]({{ "
+"site.baseurl }}/assets/repomaker-screenshots/add-storage.png)<br/>\n"
+"*Vous avez de nombreuses possibilités de destinations pour votre dépôt*\n"
 
 #. type: Plain text
 #: build/_pages/md/repomaker.md
@@ -1167,6 +1207,9 @@ msgid ""
 "software. You can find the source code and its license on [GitLab.com]"
 "(https://gitlab.com/fdroid/repomaker)."
 msgstr ""
+"Comme les autres projets F-Droid, Repomake est un logiciel libre et open-"
+"source. vous pouvez trouver son code source et sa licence sur "
+"[Gitlab.com](https://gitlab.com/fdroid/repomaker)."
 
 #. type: Title #
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -1176,7 +1219,6 @@ msgstr "Descriptions, graphiques et captures d'écran"
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
-#, fuzzy
 msgid ""
 "Each app can have complete app store content, including localized "
 "descriptions, feature graphics, and screenshots (as of v0.103 of the F-Droid "
@@ -1185,14 +1227,14 @@ msgid ""
 "including pre-built files in a simple repository.  There are three paths to "
 "including app store content for apps (in order of preference):"
 msgstr ""
-"Chaque application peut contenir un contenu complet de la banque "
+"Chaque application peut contenir un contenu complet du magasin "
 "d'applications, y compris des descriptions localisées, des graphiques et des "
-"captures d'écran (à partir de la version 0.103 de l'application client F-"
-"Droid et v0.8 de _fdroidserver_). Ceci est possible à la fois lorsque les "
-"applications sont ajoutées via [metadata de construction](../"
-"Build_Metadata_Reference) ainsi que lors de l'inclusion de fichiers pré-"
-"construits dans un dépôt simple. Il existe trois chemins pour inclure le "
-"contenu de la banque d'applications pour les applications :"
+"captures d'écran (à partir de la version 0.103 du client F-Droid et v0.8 de "
+"_fdroidserver_). Ceci est possible à la fois lorsque les applications sont "
+"ajoutées via les [métadonnées de construction](../Build_Metadata_Reference) "
+"ainsi que lors de l'inclusion de fichiers pré-construits dans un dépôt "
+"simple. Il existe trois manières pour inclure le contenu du magasin "
+"d'applications pour les applications (par ordre de préférence) :"
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
