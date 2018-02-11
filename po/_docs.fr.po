@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-01-24 13:50+0100\n"
-"PO-Revision-Date: 2018-02-10 16:36+0000\n"
+"PO-Revision-Date: 2018-02-12 11:36+0000\n"
 "Last-Translator: Julien Lepiller <roptat@lepiller.eu>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/f-droid/website-"
 "docs/fr/>\n"
@@ -79,7 +79,6 @@ msgstr "Contact"
 
 #. type: Plain text
 #: build/_pages/md/about.md
-#, fuzzy
 msgid ""
 "You can discuss F-Droid or get help on the [forum](https://forum.f-droid."
 "org) and IRC in the [#fdroid channel](https://webchat.freenode.net/?channels="
@@ -89,12 +88,14 @@ msgid ""
 "answered on the forum or #fdroid channel. If you want to help, you can [join "
 "us]({{ \"/contribute/\" | prepend: site.baseurl }})."
 msgstr ""
-"Vous pouvez discuter de F-Droid ou obtenir de l'aide sur IRC au salon "
-"[#fdroid sur FreeNode](https://webchat.freenode.net/?channels=%23fdroid). "
-"Les discussions sur IRC sont enregistrées sur [BotBot.me](https://botbot.me/"
-"freenode/fdroid). Vous pouvez aussi nous contacter directement par courriel "
-"à [team@f-droid.org](mailto:team@f-droid.org). Si vous voulez aider, vous "
-"pouvez [nous rejoindre]({{ \"/contribute/\" | prepend: site.baseurl }})."
+"Vous pouvez discuter de F-Droid ou obtenir de l'aide sur le "
+"[forum](https://forum.f-droid.org) ou IRC au salon [#fdroid sur "
+"FreeNode](https://webchat.freenode.net/?channels=%23fdroid). Les discussions "
+"sur IRC sont enregistrées sur [BotBot.me](https://botbot.me/freenode/fdroid)"
+". Vous pouvez envoyer un courriel à "
+"[team@f-droid.org](mailto:team@f-droid.org) mais vous avez plus de chance de "
+"recevoir une réponse sur le forum ou le canal #fdroid. Si vous voulez aider, "
+"vous pouvez [nous rejoindre]({{ \"/contribute/\" | prepend: site.baseurl }})."
 
 #. type: Title ###
 #: build/_pages/md/about.md build/_docs/md/Repository_Style_Guide.md
@@ -116,7 +117,6 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
-#, fuzzy
 msgid ""
 "The content of the news section and the F-Droid logo are also available "
 "under [Creative Commons Attribution-ShareAlike 3.0 License (CC-BY-SA-3.0)]"
@@ -124,9 +124,11 @@ msgid ""
 "License version 3 or later (GPLv3+)](https://www.gnu.org/licenses/gpl-3.0."
 "html)."
 msgstr ""
-"Le contenu des sections « actualités » et « critiques » est sous licence "
-"[Creative Commons Attribution-ShareAlike 3.0 License](http://creativecommons."
-"org/licenses/by-sa/3.0/)."
+"Le contenu de la section « actualités » et le logo de F-Droid sont aussi "
+"disponibles sous la licence [Creative Commons Attribution-ShareAlike 3.0 (CC-"
+"BY-SA-3.0)](http://creativecommons.org/licenses/by-sa/3.0/) ou [GNU General "
+"Public License version 3 or later "
+"(GPLv3+)](https://www.gnu.org/licenses/gpl-3.0.html)."
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
@@ -509,9 +511,10 @@ msgid ""
 "list](https://gitlab.com/fdroid/fdroid-website/blob/master/_pages/about.md)! "
 "Keep it sorted by surname, please."
 msgstr ""
-"Si votre nom est manquant, c'est une erreur et vous devriez [vous ajouter à "
-"la liste](https://gitlab.com/fdroid/fdroid-website/blob/master/_pages/about."
-"md) ! Veuillez la garder triée par nom de famille, s’il vous plaît."
+"Si votre nom n'est pas affiché, c'est une erreur et vous devriez [vous "
+"ajouter à la liste](https://gitlab.com/fdroid/fdroid-"
+"website/blob/master/_pages/about.md) ! Veuillez la garder triée par nom de "
+"famille, s’il vous plaît."
 
 #. type: Plain text
 #: build/_pages/md/about.md
@@ -674,7 +677,6 @@ msgstr "Aide pour le développement"
 
 #. type: Plain text
 #: build/_pages/md/contribute.md
-#, fuzzy
 msgid ""
 "There are four git repositories hosted at GitLab – one for the [Android "
 "client application](https://gitlab.com/fdroid/fdroidclient), one for the "
@@ -689,13 +691,13 @@ msgid ""
 "direction of the project, and do not clash with or duplicate work already in "
 "development."
 msgstr ""
-"Il y a quatre dépôts git hébergés chez Gitlab – un pour l’[application "
-"cliente Android](https://gitlab.com/fdroid/fdroidclient), un pour les "
-"[outils serveur] (https://gitlab.com/fdroid/fdroidserver) utilisés pour "
-"faire tourner un dépôt et construire/installer des applications localement, "
-"et un pour les [métadonnées associées aux applications dans le dépôt F-Droid "
-"principal](https://gitlab.com/fdroid/fdroiddata). Le dernier dépôt gère le "
-"[site web et la documentation](https://gitlab.com/fdroid/fdroid-website). La "
+"Il y a quatre dépôts git hébergés chez Gitlab : un pour le [client "
+"Android](https://gitlab.com/fdroid/fdroidclient), un pour les [outils "
+"serveur] (https://gitlab.com/fdroid/fdroidserver) utilisés pour faire "
+"tourner un dépôt, construire ou installer des applications localement et un "
+"pour les [métadonnées associées aux applications dans le dépôt F-Droid "
+"principal](https://gitlab.com/fdroid/fdroiddata). Le dernier dépôt gère le ["
+"site web et la documentation](https://gitlab.com/fdroid/fdroid-website). La "
 "façon la plus simple de contribuer au développement est de cloner ces "
 "projets et de soumettre une demande de fusion. Si vous faites des "
 "changements substantiels, il serait préférable d’en parler sur IRC ou le "
