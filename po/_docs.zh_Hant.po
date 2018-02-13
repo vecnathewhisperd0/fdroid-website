@@ -4,19 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: team@f-droid.org\n"
-"POT-Creation-Date: 2018-02-23 09:24+0100\n"
-"PO-Revision-Date: 2018-02-09 09:35+0000\n"
-"Last-Translator: ezjerry liao <ezjerry@gmail.com>\n"
-"Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/f-droid/website-docs/zh_Hant/>\n"
-"Language: zh_Hant\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2.19-dev\n"
+msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-02-12 17:42+0100\nPO-Revision-Date: 2018-02-14 06:34+0000\nLast-Translator: ezjerry liao <ezjerry@gmail.com>\nLanguage-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/f-droid/website-docs/zh_Hant/>\nLanguage: zh_Hant\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Generator: Weblate 2.19-dev\n"
 
 #. type: Title #
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -27,7 +15,7 @@ msgstr "所有關於說明、圖片和螢幕快照"
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
 msgid "Each app can have complete app store content, including localized descriptions, feature graphics, and screenshots (as of v0.103 of the F-Droid client app and v0.8 of _fdroidserver_).  This is possible both when apps are added via [build metadata](../Build_Metadata_Reference) as well as when including pre-built files in a simple repository.  There are three paths to including app store content for apps (in order of preference):"
-msgstr ""
+msgstr "每個應用程式都可以有完整的應用程式商店內容，包括當地語系的說明，程式功能的圖片和螢幕快照 (如 F-Droid 的用戶端應用程式的 0.103 和 _fdroidserver_ 的 v0.8)。這可以透過[構建中介資料](../Build_Metadata_Reference)新增在應用程式，以及將預先構建的檔案包含在一個簡單的軟體庫。有這三種途徑可以把應用程式的內容，納入 app 商店(按優先順序)："
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -61,7 +49,7 @@ msgstr "圖片和螢幕快照為 PNG 或 JPEG 圖檔"
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
 msgid "One important detail: dangerous and unneeded metadata is stripped from image files before they are included in the repo.  For example, JPEG EXIF data has [security issues](https://threatpost.com/google-shuts-down-potentially-massive-android-bug/120393/), and it is not needed to display images.  This can also mean that the images are recompressed."
-msgstr ""
+msgstr "一個重要細節：危險和不必要的中介資料會先從影像檔中剝除，然後再被納入在軟體庫中。例如，JPEG EXIF 資料有[安全問題](https://threatpost.com/google-shuts-down-potentially-massive-android-bug/120393/)，並且無需顯示圖像。這也可能意味著圖像是被重新壓縮過。"
 
 #. type: Title ##
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
