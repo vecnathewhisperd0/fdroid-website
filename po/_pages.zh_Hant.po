@@ -4,19 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: team@f-droid.org\n"
-"POT-Creation-Date: 2018-02-12 17:50+0100\n"
-"PO-Revision-Date: 2018-02-09 09:35+0000\n"
-"Last-Translator: ezjerry liao <ezjerry@gmail.com>\n"
-"Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/f-droid/website-docs/zh_Hant/>\n"
-"Language: zh_Hant\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2.19-dev\n"
+msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-02-12 17:50+0100\nPO-Revision-Date: 2018-02-14 09:35+0000\nLast-Translator: ezjerry liao <ezjerry@gmail.com>\nLanguage-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/f-droid/website-pages/zh_Hant/>\nLanguage: zh_Hant\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Generator: Weblate 2.19-dev\n"
 
 #. type: Title #
 #: build/_pages/md/403.md
@@ -634,7 +622,7 @@ msgstr ""
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
 msgid "[Publishing Nightly Builds](Publishing_Nightly_Builds) Make an automated repo of nightly builds of your app."
-msgstr ""
+msgstr "[發佈開發版本](Publishing_Nightly_Builds)為您的開發版本應用程式自動做成軟體庫。"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
@@ -664,7 +652,7 @@ msgstr "[可再生構建](Reproducible_Builds) 如何使用 F-Droid 工具輕鬆
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
 msgid "[Building a Signing Server](Building_a_Signing_Server) For higher security, isolate the signing keys from the rest."
-msgstr ""
+msgstr "[構建簽署伺服器](Building_a_Signing_Server)為了提高安全，從其餘的部分隔離簽署金鑰。"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
@@ -765,33 +753,27 @@ msgstr ""
 
 #. type: Plain text
 #: build/_pages/md/repomaker.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "[![]({{ site.baseurl }}/assets/repomaker-screenshots/package-details.png)]({{ site.baseurl }}/assets/repomaker-screenshots/package-details.png)<br/>\n"
 "*Editing your package store details never was easier*\n"
-msgstr ""
-"[![]({{ site.baseurl }}/assets/repomaker-screenshots/package-details.png)]({{ site.baseurl }}/assets/repomaker-screenshots/package-details.png)<br/>\n"
-"*您的軟體庫可作各種類型媒體的服務*\n"
+msgstr "[![]({{ site.baseurl }}/assets/repomaker-screenshots/package-details.png)]({{ site.baseurl }}/assets/repomaker-screenshots/package-details.png)<br/>\n*編輯您套件包商店的詳細資料從未如此的簡單*\n"
 
 #. type: Plain text
 #: build/_pages/md/repomaker.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "[![]({{ site.baseurl }}/assets/repomaker-screenshots/create-repo.png)]({{ site.baseurl }}/assets/repomaker-screenshots/create-repo.png)<br/>\n"
 "*Creating a repo just takes you two clicks*\n"
-msgstr ""
-"[![]({{ site.baseurl }}/assets/repomaker-screenshots/create-repo.png)]({{ site.baseurl }}/assets/repomaker-screenshots/create-repo.png)<br/>\n"
-"*您的軟體庫可作各種類型媒體的服務*\n"
+msgstr "[![]({{ site.baseurl }}/assets/repomaker-screenshots/create-repo.png)]({{ site.baseurl }}/assets/repomaker-screenshots/create-repo.png)<br/>\n*建立一個軟體庫只需要您點擊兩下*\n"
 
 #. type: Plain text
 #: build/_pages/md/repomaker.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "[![]({{ site.baseurl }}/assets/repomaker-screenshots/add-storage.png)]({{ site.baseurl }}/assets/repomaker-screenshots/add-storage.png)<br/>\n"
 "*You have many possibilities where to upload your repo*\n"
-msgstr ""
-"[![]({{ site.baseurl }}/assets/repomaker-screenshots/add-storage.png)]({{ site.baseurl }}/assets/repomaker-screenshots/add-storage.png)<br/>\n"
-"*您的軟體庫可作各種類型媒體的服務*\n"
+msgstr "[![]({{ site.baseurl }}/assets/repomaker-screenshots/add-storage.png)]({{ site.baseurl }}/assets/repomaker-screenshots/add-storage.png)<br/>\n*您有多種可能上傳您的軟體庫*\n"
 
 #. type: Plain text
 #: build/_pages/md/repomaker.md
