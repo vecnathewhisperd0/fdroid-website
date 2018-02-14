@@ -1,6 +1,6 @@
 # Sveinn í Felli <sv1@fellsnet.is>, 2018.
 msgid ""
-msgstr "Project-Id-Version: Icelandic (F-Droid)\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-02-14 20:16+0200\nPO-Revision-Date: 2018-02-14 19:22+0000\nLast-Translator: Sveinn í Felli <sv1@fellsnet.is>\nLanguage-Team: Icelandic <https://hosted.weblate.org/projects/f-droid/website-pages/is/>\nLanguage: is\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n % 10 != 1 || n % 100 == 11;\nX-Generator: Weblate 2.19-dev\n"
+msgstr "Project-Id-Version: Icelandic (F-Droid)\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-02-14 20:16+0200\nPO-Revision-Date: 2018-02-14 23:03+0000\nLast-Translator: Sveinn í Felli <sv1@fellsnet.is>\nLanguage-Team: Icelandic <https://hosted.weblate.org/projects/f-droid/website-pages/is/>\nLanguage: is\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n % 10 != 1 || n % 100 == 11;\nX-Generator: Weblate 2.19-dev\n"
 
 #. type: Title #
 #: build/_pages/md/403.md
@@ -11,7 +11,7 @@ msgstr "403 Bannað"
 #. type: Plain text
 #: build/_pages/md/403.md build/_pages/md/404.md
 msgid "If you think there should be something here, please [submit an issue](https://gitlab.com/fdroid/fdroid-website/issues)."
-msgstr ""
+msgstr "Ef þú ert viss um að eitthvað hafi átt að vera hérna, skaltu endilega [tilkynna um vandamálið](https://gitlab.com/fdroid/fdroid-website/issues)."
 
 #. type: Title #
 #: build/_pages/md/404.md
@@ -33,13 +33,13 @@ msgstr ""
 #. type: Plain text
 #: build/_pages/md/about.md
 msgid "F-Droid is operated by F-Droid Limited, a non-profit organisation registered in England (no. 8420676)."
-msgstr ""
+msgstr "F-Droid er rekið af F-Droid Limited, samtökum án hagnaðarsjónarmiða sem skráð eru á Englandi (nr. 8420676)."
 
 #. type: Title ####
 #: build/_pages/md/about.md
 #, no-wrap
 msgid "Contact"
-msgstr ""
+msgstr "Hafa samband"
 
 #. type: Plain text
 #: build/_pages/md/about.md
@@ -97,7 +97,7 @@ msgstr "Þátttakendur"
 #. type: Plain text
 #: build/_pages/md/about.md
 msgid "The F-Droid project was founded in 2010 by Ciaran Gultnieks, and is brought to you by at least the following people:"
-msgstr ""
+msgstr "F-Droid verkefnið var stofnað árið 2010 af Ciaran Gultnieks og er í boði að minnsta kosti eftirfarandi fólks:"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
@@ -397,7 +397,7 @@ msgstr ""
 #. type: Plain text
 #: build/_pages/md/about.md
 msgid "The original F-Droid client app was based on the Aptoide app developed by Roberto Jacinto."
-msgstr ""
+msgstr "Upprunalega F-Droid forritið var byggt á Aptoide-appinu sem þróað var af Roberto Jacinto."
 
 #. type: Title #
 #: build/_pages/md/contribute.md
@@ -408,7 +408,7 @@ msgstr "Taka þátt"
 #. type: Plain text
 #: build/_pages/md/contribute.md
 msgid "The project is entirely developed and maintained by volunteers. You can help:"
-msgstr ""
+msgstr "Verkefnið er algerlega þróað og því viðhaldið af sjálfboðaliðum. Þú getur hjálpað:"
 
 #. type: Title ###
 #: build/_pages/md/contribute.md
@@ -445,7 +445,7 @@ msgstr ""
 #: build/_pages/md/contribute.md
 #, no-wrap
 msgid "Submit Applications"
-msgstr ""
+msgstr "Senda inn forrit"
 
 #. type: Plain text
 #: build/_pages/md/contribute.md
@@ -487,7 +487,7 @@ msgstr ""
 #: build/_pages/md/contribute.md
 #, no-wrap
 msgid "Help with Development"
-msgstr ""
+msgstr "Hjálpa til við þróunina"
 
 #. type: Plain text
 #: build/_pages/md/contribute.md
@@ -718,7 +718,7 @@ msgstr ""
 #: build/_pages/md/repomaker.md
 #, no-wrap
 msgid "Repomaker"
-msgstr ""
+msgstr "Repomaker"
 
 #. type: Plain text
 #: build/_pages/md/repomaker.md
