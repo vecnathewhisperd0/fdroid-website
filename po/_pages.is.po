@@ -1,6 +1,6 @@
 # Sveinn í Felli <sv1@fellsnet.is>, 2018.
 msgid ""
-msgstr "Project-Id-Version: Icelandic (F-Droid)\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-02-14 20:16+0200\nPO-Revision-Date: 2018-02-14 23:22+0000\nLast-Translator: Sveinn í Felli <sv1@fellsnet.is>\nLanguage-Team: Icelandic <https://hosted.weblate.org/projects/f-droid/website-pages/is/>\nLanguage: is\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n % 10 != 1 || n % 100 == 11;\nX-Generator: Weblate 2.19-dev\n"
+msgstr "Project-Id-Version: Icelandic (F-Droid)\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-02-14 20:16+0200\nPO-Revision-Date: 2018-02-14 23:42+0000\nLast-Translator: Sveinn í Felli <sv1@fellsnet.is>\nLanguage-Team: Icelandic <https://hosted.weblate.org/projects/f-droid/website-pages/is/>\nLanguage: is\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n % 10 != 1 || n % 100 == 11;\nX-Generator: Weblate 2.19-dev\n"
 
 #. type: Title #
 #: build/_pages/md/403.md
@@ -86,7 +86,7 @@ msgstr ""
 #. type: Plain text
 #: build/_pages/md/about.md
 msgid "F-Droid respects your privacy. We don’t track you, or your device. We don’t track what you install. You don’t need an account to use the client, and it sends no additional identifying data when talking to our web server other than its version number. We don’t even allow you to install other applications from the repository that track you, unless you first enable ‘Tracking’ in the AntiFeatures section of preferences. Any personal data you decide to give us (e.g. your email address when registering for an account to post on the forum) goes no further than us, and will not be used for anything other than allowing you to maintain your account."
-msgstr ""
+msgstr "F-Droid virðir einkalíf þitt. Við fylgjumst ekki með þér, eða tækjunum þínum. Við skráum ekki hvað þú setur upp. Þú þarft ekki notandareikning til að setja upp F-Droid forritið, og það sendir engin auka persónugreinanleg gögn í samskiptum við vefþjónninn okkar, önnur en útgáfunúmer forritsins. Við leyfum þér ekki einu sinni að setja upp önnur forrit sem fylgjast með þér, nema þú leyfir fyrst að fylgst sé með þér í 'Slæmum' eiginleikum kjörstillinganna. Öll þau persónulegu gögn sem þú gætir ákveðið að láta okkur í té (t.d. tölvupóstfangið þitt þegar þú skráir þig til að geta sent skilaboð á spjallsvæðinu okkar) fara ekkert lengra, og munu ekki verða notuð til neins annars en viðhalds á notandaaðgangi þínum."
 
 #. type: Title ###
 #: build/_pages/md/about.md
