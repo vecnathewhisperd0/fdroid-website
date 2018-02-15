@@ -1,1 +1,33 @@
-{}
+{
+    "misc": {
+        "step_x": "Þrep [number]",
+        "step_x_description": "Þrep [number]: [description]",
+        "overview": {
+            "tutorial_x_title": "Leiðbeiningar [number]: [title]",
+            "summary": "F-Droid er sjálfstætt, samfélagsdrifið hugbúnaðarsafn fyrir Android sem inniheldur einungis frjálsan og opinn hugbúnað. Innan F-Droid getur þú flett upp yfir 1,200 forritum með opnum grunnkóða, leitað að og sett upp forrit úr þegar tilbúnum hugbúnaðarsöfnum, eða búið til þitt eigið hugbúnaðarsafn. Opnaðu f-droid.org á Android símanum þínum til að sækja forritið/appið og hefjast síðan handa!",
+            "title": "Hvað geturðu gert með F-Droid"
+        },
+        "option_x_description": "Valkostur [number]: [description]"
+    },
+    "add_repo": {
+        "overview": {
+            "summary": "Til að ná í fleiri forrit geturðu bætt hugbúnaðarsafni (repository - repo) við F-Droid. Hugbúnaðarsafn er safn yfirfarins efnis, forrita eða annarra gagna. Þú getur uppgötvað hugbúnaðarsöfn annars fólks beint frá þeim. Forritarar eru gjarnan með tengil á F-Droid safn á vefnum sínum. Þjálfarar og kennarar deila oft tenglum á hugbúnaðarsöfn með tölvupósti, Facebook eða Twitter.",
+            "title": "Ná í meira efni."
+        },
+        "scan_qr_code": {
+            "short_summary": "Skanna QR-kóða",
+            "title": "Skannaðu QR-kóða frá öðru tæki"
+        },
+        "title": "Hvernig á að bæta hugbúnaðarsafni við F-Droid"
+    },
+    "swap": {
+        "overview": {
+            "title": "Senda og taka við forritum án nettengingar."
+        }
+    },
+    "create_repo": {
+        "overview": {
+            "title": "Bæta við þínum eigin forritum og skrám."
+        }
+    }
+}
