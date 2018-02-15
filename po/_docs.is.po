@@ -1,6 +1,6 @@
 # Sveinn í Felli <sv1@fellsnet.is>, 2018.
 msgid ""
-msgstr "Project-Id-Version: Icelandic (F-Droid)\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-02-14 20:16+0200\nPO-Revision-Date: 2018-02-15 10:03+0000\nLast-Translator: Sveinn í Felli <sv1@fellsnet.is>\nLanguage-Team: Icelandic <https://hosted.weblate.org/projects/f-droid/website-docs/is/>\nLanguage: is\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n % 10 != 1 || n % 100 == 11;\nX-Generator: Weblate 2.19-dev\n"
+msgstr "Project-Id-Version: Icelandic (F-Droid)\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-02-15 11:07+0200\nPO-Revision-Date: 2018-02-15 12:31+0000\nLast-Translator: Sveinn í Felli <sv1@fellsnet.is>\nLanguage-Team: Icelandic <https://hosted.weblate.org/projects/f-droid/website-docs/is/>\nLanguage: is\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n % 10 != 1 || n % 100 == 11;\nX-Generator: Weblate 2.19-dev\n"
 
 #. type: Title #
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -119,7 +119,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
 msgid "Example:"
-msgstr ""
+msgstr "Dæmi:"
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -3967,7 +3967,7 @@ msgstr ""
 #: build/_docs/md/FAQ_-_General.md
 #, no-wrap
 msgid "FAQ - General"
-msgstr ""
+msgstr "FAQ - Almennt"
 
 #. type: Title ###
 #: build/_docs/md/FAQ_-_General.md
@@ -4123,22 +4123,22 @@ msgstr ""
 #: build/_docs/md/FAQ_-_General.md
 #, no-wrap
 msgid "Why isn't F-Droid on Google Play?"
-msgstr ""
+msgstr "Hvers vegna er F-Droid ekki á Google Play?"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_General.md
 msgid "Pick your favourite reason (both are true and valid):"
-msgstr ""
+msgstr "Veldu eftirlætisástæðuna þína (báðar eru réttar og fullgildar):"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/FAQ_-_General.md
 msgid "We don't use proprietary software: Google Play is proprietary software;"
-msgstr ""
+msgstr "Við notum ekki séreignarhugbúnað: Google Play ER séreignarhugbúnaður;"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/FAQ_-_General.md
 msgid "F-Droid, as an app that \"competes\" with Google Play, is against their [Terms of Service](http://play.google.com/about/developer-distribution-agreement.html#non-compete)."
-msgstr ""
+msgstr "F-Droid, er forrit sem á í \"samkeppni\" við Google Play, og er samrýmist því ekki [þjónustuskilmálum](http://play.google.com/about/developer-distribution-agreement.html#non-compete) þeirra."
 
 #. type: Title ###
 #: build/_docs/md/FAQ_-_General.md
@@ -4165,13 +4165,13 @@ msgstr ""
 #: build/_docs/md/Feeds.md
 #, no-wrap
 msgid "Feeds"
-msgstr ""
+msgstr "Fréttastraumar"
 
 #. type: Title ###
 #: build/_docs/md/Feeds.md
 #, no-wrap
 msgid "News & Reviews"
-msgstr ""
+msgstr "Fréttir og umsagnir"
 
 #. type: Plain text
 #: build/_docs/md/Feeds.md
@@ -4182,7 +4182,7 @@ msgstr ""
 #: build/_docs/md/Feeds.md
 #, no-wrap
 msgid "Builds"
-msgstr ""
+msgstr "Útgáfusamsetningar (builds)"
 
 #. type: Plain text
 #: build/_docs/md/Feeds.md
@@ -4193,7 +4193,7 @@ msgstr ""
 #: build/_docs/md/Feeds.md build/_docs/md/Repository_Style_Guide.md
 #, no-wrap
 msgid "Source Code"
-msgstr ""
+msgstr "Grunnkóði"
 
 #. type: Plain text
 #: build/_docs/md/Feeds.md
@@ -4204,7 +4204,7 @@ msgstr ""
 #: build/_docs/md/Feeds.md
 #, no-wrap
 msgid "Forums"
-msgstr ""
+msgstr "Spjallsvæði"
 
 #. type: Plain text
 #: build/_docs/md/Feeds.md
@@ -4220,7 +4220,7 @@ msgstr ""
 #: build/_docs/md/Feeds.md
 #, no-wrap
 msgid "Wiki"
-msgstr ""
+msgstr "Kvikan (wiki)"
 
 #. type: Plain text
 #: build/_docs/md/Feeds.md
@@ -4242,7 +4242,7 @@ msgstr ""
 #: build/_docs/md/Feeds.md
 #, no-wrap
 msgid "IRC"
-msgstr ""
+msgstr "IRC"
 
 #. type: Plain text
 #: build/_docs/md/Feeds.md
