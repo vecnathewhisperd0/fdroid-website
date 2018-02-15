@@ -1,6 +1,6 @@
 # Sveinn í Felli <sv1@fellsnet.is>, 2018.
 msgid ""
-msgstr "Project-Id-Version: Icelandic (F-Droid)\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-02-14 20:16+0200\nPO-Revision-Date: 2018-02-15 11:56+0000\nLast-Translator: Sveinn í Felli <sv1@fellsnet.is>\nLanguage-Team: Icelandic <https://hosted.weblate.org/projects/f-droid/website-pages/is/>\nLanguage: is\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n % 10 != 1 || n % 100 == 11;\nX-Generator: Weblate 2.19-dev\n"
+msgstr "Project-Id-Version: Icelandic (F-Droid)\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-02-14 20:16+0200\nPO-Revision-Date: 2018-02-15 12:18+0000\nLast-Translator: Sveinn í Felli <sv1@fellsnet.is>\nLanguage-Team: Icelandic <https://hosted.weblate.org/projects/f-droid/website-pages/is/>\nLanguage: is\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n % 10 != 1 || n % 100 == 11;\nX-Generator: Weblate 2.19-dev\n"
 
 #. type: Title #
 #: build/_pages/md/403.md
@@ -692,27 +692,27 @@ msgstr "Vandamál"
 #. type: Plain text
 #: build/_pages/md/issues.md
 msgid "If you’re having a problem with the F-Droid client application, please check if we already know about it, and/or report it, in [this issue tracker](https://gitlab.com/fdroid/fdroidclient/issues)."
-msgstr ""
+msgstr "Ef þú rekst á vandamál varðandi F-Droid biðlaraforritið, skoðaðu fyrst hvort við vitum þegar um það, og ef ekki, tilkynntu það á [þessari verkskráningu](https://gitlab.com/fdroid/fdroidclient/issues)."
 
 #. type: Plain text
 #: build/_pages/md/issues.md
 msgid "To request a new app be added, submit a \"Request For Packaging\" on the [rfp tracker](https://gitlab.com/fdroid/rfp/issues/new)."
-msgstr ""
+msgstr "Til að biðja um að nýju forriti sé bætt við, sendu þá inn \"Request For Packaging\" í [rfp verkskráningunni](https://gitlab.com/fdroid/rfp/issues/new)."
 
 #. type: Plain text
 #: build/_pages/md/issues.md
 msgid "For problems relating to the contents of the repository, such as missing or outdated applications, please use [this issue tracker](https://gitlab.com/fdroid/fdroiddata/issues)."
-msgstr ""
+msgstr "Fyrir vandamál sem tengjast innihaldi hugbúnaðarsafnsins, svo sem forrit sem vantar eða eru úrelt, notaðu [þessa verkskráningu](https://gitlab.com/fdroid/fdroiddata/issues)."
 
 #. type: Plain text
 #: build/_pages/md/issues.md
 msgid "For the server tools (used for building apps yourself, or running your own repo), please use [this issue tracker](https://gitlab.com/fdroid/fdroidserver/issues)."
-msgstr ""
+msgstr "Fyrir vefþjónstólin (sem notuð eru til að  byggja sjálfur forrit eða keyra þitt eigið hugbúnaðarsafn), notaðu þá [þessa verkskráningu](https://gitlab.com/fdroid/fdroidserver/issues)."
 
 #. type: Plain text
 #: build/_pages/md/issues.md
 msgid "For issues relating to this web site, you can use [this issue tracker](https://gitlab.com/fdroid/fdroid-website/issues)."
-msgstr ""
+msgstr "Fyrir vandamál sem tengjast þessu vefsvæði, skaltu endilega nota [þessa verkskráningu](https://gitlab.com/fdroid/fdroid-website/issues)."
 
 #. type: Title #
 #: build/_pages/md/repomaker.md
