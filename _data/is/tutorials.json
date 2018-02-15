@@ -2,22 +2,25 @@
     "misc": {
         "step_x": "Þrep [number]",
         "step_x_description": "Þrep [number]: [description]",
+        "option_x_description": "Valkostur [number]: [description]",
         "overview": {
             "tutorial_x_title": "Leiðbeiningar [number]: [title]",
-            "summary": "F-Droid er sjálfstætt, samfélagsdrifið hugbúnaðarsafn fyrir Android sem inniheldur einungis frjálsan og opinn hugbúnað. Innan F-Droid getur þú flett upp yfir 1,200 forritum með opnum grunnkóða, leitað að og sett upp forrit úr þegar tilbúnum hugbúnaðarsöfnum, eða búið til þitt eigið hugbúnaðarsafn. Opnaðu f-droid.org á Android símanum þínum til að sækja forritið/appið og hefjast síðan handa!",
-            "title": "Hvað geturðu gert með F-Droid"
-        },
-        "option_x_description": "Valkostur [number]: [description]"
+            "title": "Hvað geturðu gert með F-Droid",
+            "summary": "F-Droid er sjálfstætt, samfélagsdrifið hugbúnaðarsafn fyrir Android sem inniheldur einungis frjálsan og opinn hugbúnað. Innan F-Droid getur þú flett upp yfir 1,200 forritum með opnum grunnkóða, leitað að og sett upp forrit úr þegar tilbúnum hugbúnaðarsöfnum, eða búið til þitt eigið hugbúnaðarsafn. Opnaðu f-droid.org á Android símanum þínum til að sækja forritið/appið og hefjast síðan handa!"
+        }
     },
     "add_repo": {
         "no_internet": "Ekkert internet? Ekki vandamál. Lestu um <a href=\"../swap/\">Hvernig á að senda og taka við forritum án nettengingar.</a>",
         "title": "Hvernig á að bæta hugbúnaðarsafni við F-Droid",
         "overview": {
-            "summary": "Til að ná í fleiri forrit geturðu bætt hugbúnaðarsafni (repository - repo) við F-Droid. Hugbúnaðarsafn er safn yfirfarins efnis, forrita eða annarra gagna. Þú getur uppgötvað hugbúnaðarsöfn annars fólks beint frá þeim. Forritarar eru gjarnan með tengil á F-Droid safn á vefnum sínum. Þjálfarar og kennarar deila oft tenglum á hugbúnaðarsöfn með tölvupósti, Facebook eða Twitter.",
-            "title": "Ná í meira efni."
+            "title": "Ná í meira efni.",
+            "summary": "Til að ná í fleiri forrit geturðu bætt hugbúnaðarsafni (repository - repo) við F-Droid. Hugbúnaðarsafn er safn yfirfarins efnis, forrita eða annarra gagna. Þú getur uppgötvað hugbúnaðarsöfn annars fólks beint frá þeim. Forritarar eru gjarnan með tengil á F-Droid safn á vefnum sínum. Þjálfarar og kennarar deila oft tenglum á hugbúnaðarsöfn með tölvupósti, Facebook eða Twitter."
         },
         "scan_qr_code": {
             "related_tutorial": "Þú gætir líka haft áhuga á: <a href=\"../swap/\">Hvernig á að senda og taka við forritum án nettengingar</a>",
+            "steps": {
+                "step_1": "Þegar QR-kóðinn fyrir hugbúnaðarsafnið birtist, skannaðu QR-kóðann með strikamerkjaskönnunarforriti."
+            },
             "description": "Ef einhver sem þú hittir er með hugbúnaðarsafn sem þig langar til að fá, geturðu einfaldlega skannað QR-kóða safnsins af skjánum á símanum hans. Eða ef QR -kóði hugbúnaðarsafns er birtur á vefsvæði sem þú ert að skoða í annarri tölvu, skannaðu kóðann með símanum þínum til að bæta því við F-Droid.",
             "short_summary": "Skanna QR-kóða",
             "title": "Skannaðu QR-kóða frá öðru tæki"
@@ -39,18 +42,18 @@
     },
     "create_repo": {
         "overview": {
-            "summary": "Útbúðu þitt eigið sérsniðið hugbúnaðarsafn með forritum. Notaðu F-Droid til að dreifa efni. Þjálfarar og kennarar nota hugbúnaðarsöfn til að auðvelda sér útdeilingu á efni og forritum með öðrum þátttakendum þegar ekki er hægt að treysta á internet-tengingu. Forritarar nota slík söfn til að dreifa sérhæfðum forritum til notendanna sinna.",
-            "title": "Bæta við þínum eigin forritum og skrám."
+            "title": "Bæta við þínum eigin forritum og skrám.",
+            "summary": "Útbúðu þitt eigið sérsniðið hugbúnaðarsafn með forritum. Notaðu F-Droid til að dreifa efni. Þjálfarar og kennarar nota hugbúnaðarsöfn til að auðvelda sér útdeilingu á efni og forritum með öðrum þátttakendum þegar ekki er hægt að treysta á internet-tengingu. Forritarar nota slík söfn til að dreifa sérhæfðum forritum til notendanna sinna."
         },
         "related_tutorial": "Þú gætir líka haft áhuga á: <a href='../add-repo/'>Hvernig á að bæta hugbúnaðarsafni við F-Droid</a>",
-        "title": "Hvernig á að búa til hugbúnaðarsafn",
+        "update_repo": {
+            "title": "Uppfærðu hugbúnaðarsafnið þitt"
+        },
         "customize_repo": {
             "steps": {
                 "step_2": "Smelltu á 'Breyta'."
             }
         },
-        "update_repo": {
-            "title": "Uppfærðu hugbúnaðarsafnið þitt"
-        }
+        "title": "Hvernig á að búa til hugbúnaðarsafn"
     }
 }
