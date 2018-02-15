@@ -1,10 +1,6 @@
-# SOME DESCRIPTIVE TITLE
-# Copyright (C) YEAR Free Software Foundation, Inc.
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# Sveinn í Felli <sv1@fellsnet.is>, 2018.
 msgid ""
-msgstr "Project-Id-Version: PACKAGE VERSION\nPOT-Creation-Date: 2018-02-12 17:50+0100\nPO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\nLast-Translator: Automatically generated\nLanguage-Team: none\nLanguage: is\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\n"
+msgstr "Project-Id-Version: Icelandic (F-Droid)\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-02-14 20:16+0200\nPO-Revision-Date: 2018-02-15 10:03+0000\nLast-Translator: Sveinn í Felli <sv1@fellsnet.is>\nLanguage-Team: Icelandic <https://hosted.weblate.org/projects/f-droid/website-docs/is/>\nLanguage: is\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n % 10 != 1 || n % 100 == 11;\nX-Generator: Weblate 2.19-dev\n"
 
 #. type: Title #
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -4413,7 +4409,7 @@ msgstr ""
 #: build/_docs/md/How_to_Help.md
 #, no-wrap
 msgid "Report problems"
-msgstr ""
+msgstr "Tilkynna um vandamál"
 
 #. type: Plain text
 #: build/_docs/md/How_to_Help.md
@@ -4429,7 +4425,7 @@ msgstr ""
 #: build/_docs/md/How_to_Help.md
 #, no-wrap
 msgid "Submit applications"
-msgstr ""
+msgstr "Senda inn forrit"
 
 #. type: Plain text
 #: build/_docs/md/How_to_Help.md
@@ -4461,7 +4457,7 @@ msgstr ""
 #: build/_docs/md/How_to_Help.md
 #, no-wrap
 msgid "Translate"
-msgstr ""
+msgstr "Þýðingar"
 
 #. type: Plain text
 #: build/_docs/md/How_to_Help.md
@@ -4482,7 +4478,7 @@ msgstr ""
 #: build/_docs/md/How_to_Help.md
 #, no-wrap
 msgid "Help with development"
-msgstr ""
+msgstr "Hjálpa til við þróunina"
 
 #. type: Plain text
 #: build/_docs/md/How_to_Help.md
@@ -6278,7 +6274,7 @@ msgstr ""
 #: build/_docs/md/Repository_Style_Guide.md
 #, no-wrap
 msgid "License"
-msgstr ""
+msgstr "Notkunarleyfi"
 
 #. type: Plain text
 #: build/_docs/md/Repository_Style_Guide.md
