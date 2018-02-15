@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-02-12 17:11+0100\nPO-Revision-Date: 2018-02-14 15:38+0000\nLast-Translator: Andreas Kleinert <Andy.Kleinert@gmail.com>\nLanguage-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\nLanguage: de\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.19-dev\n"
+msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-02-12 17:11+0100\nPO-Revision-Date: 2018-02-16 20:36+0000\nLast-Translator: Claus Rüdinger <Mail-an-CR@web.de>\nLanguage-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\nLanguage: de\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.19\n"
 
 #. type: Title #
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md
@@ -19,9 +19,8 @@ msgstr "Viele Spiele, Kartenwerkzeuge und andere Apps benötigen für ihren Betr
 
 #. type: Plain text
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md
-#, fuzzy
 msgid "Google created OBB aka \"[APK Expansion](https://developer.android.com/google/play/expansion-files.html)\" files to provide a flexible means of delivering large amounts of data.  This arrangement also saves lots of bandwidth since the APK file and the OBB file can be updated separately.  For example, a game's assets do not need to change often, so they can be shipped as an OBB. Then when the app itself is updated (i.e. the APK), it does not need to include all those assets that are in the OBB file."
-msgstr "Google schuf OBB, auch bekannt als Erweiterungsdateien (s. “[APK Expansion] https://developer.android.com/google/play/expansion-files.html“), um ein flexibles Mittel zur Auslieferung großer Datenmengen bereitzustellen. Diese Regelung führt zu einer deutlichen Einsparung des Datenverkehrs, da die APK-Datei und die OBB-Datei getrennt voneinander aktualisiert werden können. Zum Beispiel muss ein Spielaufbau nicht häufig geändert werden, somit kann er als OBB ausgeliefert werden. Wenn dann die App selbst (d. h. die APK) aktualisiert wird, ist es nicht nötig den gesamten Aufbau, der sich in der OBB-Datei befindet, darin einzuschließen."
+msgstr "Google schuf OBB, auch bekannt als “[APK-Erweiterung] https://developer.android.com/google/play/expansion-files.html“), um ein flexibles Mittel zur Auslieferung großer Datenmengen bereitzustellen. Diese Regelung führt zu einer deutlichen Einsparung des Datenverkehrs, da die APK-Datei und die OBB-Datei getrennt voneinander aktualisiert werden können. Zum Beispiel muss ein Spielaufbau nicht häufig geändert werden, somit kann er als OBB ausgeliefert werden. Wenn dann die App selbst (d. h. die APK) aktualisiert wird, ist es nicht nötig den gesamten Aufbau, der sich in der OBB-Datei befindet, darin einzuschließen."
 
 #. type: Plain text
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md
@@ -126,7 +125,7 @@ msgstr "Behalten Sie die neuen Entwicklungen von F-Droid im Jahr 2017 im Auge. W
 #: build/_posts/md/2017-04-04-new-ux.md
 #, no-wrap
 msgid "\"A new UX 6 years in the making\""
-msgstr "\"Eine neue Anwendererfahrung wird nach 6 Jahren erschaffen\""
+msgstr "\"Ein neues Anwendererlebnis nach 6-jähriger Geschichte\""
 
 #. type: Plain text
 #: build/_posts/md/2017-04-04-new-ux.md
@@ -293,17 +292,18 @@ msgstr ""
 #: build/_posts/md/2017-07-03-cuba.md
 #, no-wrap
 msgid "\"How F-Droid is Bringing Apps to Cuba\""
-msgstr ""
+msgstr "\"Wie F-Droid Apps nach Kuba bringt\""
 
 #. type: Plain text
 #: build/_posts/md/2017-07-03-cuba.md
+#, fuzzy
 msgid "![]({{ site.baseurl }}/assets/posts/2017-07-03-cuba/fdroid-logo.png)"
-msgstr ""
+msgstr "![]({{ site.baseurl }}/assets/posts/2017-07-03-cuba/fdroid-logo.png)"
 
 #. type: Plain text
 #: build/_posts/md/2017-07-03-cuba.md
 msgid "Only in 2015, when the government opened the first public WiFi hotspots in the country, did internet access become available to ordinary Cubans. Before that, even though modern mobile phones had already found their way into the country, they were mostly used off-line. Now, all these phones can be connected to the internet. However, at 1.50 CUC per hour, this is still not affordable to most Cubans whose average salary is only 20 CUC per month."
-msgstr ""
+msgstr "Ab 2015, als die Regierung erste öffentliche WiFi-Hotspots im Land eröffnete, stand gewöhnlichen Kubanern erstmals ein Internetzugang zur Verfügung. Zuvor wurden Mobiltelefone, obwohl sie bereits ihren Weg ins Land gefunden hatten, meist offline verwendet. Nun können sich alle diese Telefone mit dem Internet verbinden. Allerdings zum Preis von 1,50 CUC pro Stunde, was für die meisten Kubaner, deren Durchschnittslohn nur 20 CUC im Monat beträgt, weiterhin unerschwinglich ist."
 
 #. type: Plain text
 #: build/_posts/md/2017-07-03-cuba.md
@@ -311,24 +311,24 @@ msgstr ""
 msgid ""
 "![]({{ site.baseurl }}/assets/posts/2017-07-03-cuba/celulares_apps_and_updates.jpg)<br/>\n"
 "*Mobile Phone Shop offering Apps and Updates*\n"
-msgstr ""
+msgstr "![]({{ site.baseurl }}/assets/posts/2017-07-03-cuba/celulares_apps_and_updates.jpg)<br/>\n*Mobiltelefonladen, der Apps und Updates anbietet*\n"
 
 #. type: Plain text
 #: build/_posts/md/2017-07-03-cuba.md
 msgid "So it is not surprising that most Cubans do not use what little expensive bandwidth they have available to download apps, but use it for other things such as communicating with their relatives. If they want apps, they can go to one of the many mobile phone repair shops and get them installed there for a nominal fee."
-msgstr ""
+msgstr "So ist es nicht verwunderlich, dass die meisten Kubaner ihre zur Verfügung stehende, eingeschränkte und teure Datenkapazität nicht zum Herunterladen von Apps nutzen, sondern sie für andere Zwecke, wie die Kommunikation mit Verwandten, verwenden. Wenn sie Apps möchten, können sie in eines der zahlreichen Reparaturgeschäfte für Mobiltelefone gehen und sie sich dort gegen eine Schutzgebühr installieren lassen."
 
 #. type: Plain text
 #: build/_posts/md/2017-07-03-cuba.md
 #, no-wrap
 msgid "In order to distinguish themselves from the tough competition, some shops take an interesting approach: They <a href=\"https://guardianproject.info/2017/02/22/build-your-own-app-store-android-media-distribution-for-everyone/\">open up their own app store</a> in a local (offline) WiFi network to attract customers.\n"
-msgstr ""
+msgstr "Um sich bei der harten Konkurrenz zu unterscheiden, wählen einige Läden einen interessanten Ansatz: Sie <a href=\"https://guardianproject.info/2017/02/22/build-your-own-app-store-android-media-distribution-for-everyone/\">eröffnen ihren eigenen App-Store</a> in einem lokalen (offline) WLAN-Netz, um Kunden anzuziehen.\n"
 
 #. type: Plain text
 #: build/_posts/md/2017-07-03-cuba.md
 #, no-wrap
 msgid "The only existing technology that allows everybody to open their own app store is called <a href=\"https://f-droid.org/\">F-Droid</a>. It is a full-blown app store kit that comes with all the tools and <a href=\"https://f-droid.org/docs/\">documentation</a> required to open up your own store: an <a href=\"https://gitlab.com/fdroid/fdroidserver/\">app store server</a>, the <a href=\"https://gitlab.com/fdroid/fdroidclient\">app</a> to install the apps with on your phone and a <a href=\"https://gitlab.com/fdroid/repomaker\">curation tool</a> to manage your store with ease.\n"
-msgstr ""
+msgstr "Die einzige existierende Technik, die es jedermann ermöglicht, seinen eigenen App-Store zu eröffnen, heißt <a href=\"https://f-droid.org/\">F-Droid</a>. Es ist ein vollausgestatteter App-Store-Baukasten, der alle Instrumente und die <a href=\"https://f-droid.org/docs/\">Dokumentation</a> mitbringt, die für die Eröffnung eines eigenen Store benötigt werden: einen <a href=\"https://gitlab.com/fdroid/fdroidserver/\">App-Store-Server</a>, die <a href=\"https://gitlab.com/fdroid/fdroidclient\">App</a>, um die Apps auf einem Gerät zu installieren und ein <a href=\"https://gitlab.com/fdroid/repomaker\">Herstellungswerkzeug</a>, um den Store mit Leichtigkeit zu verwalten.\n"
 
 #. type: Plain text
 #: build/_posts/md/2017-07-03-cuba.md
@@ -336,12 +336,12 @@ msgstr ""
 msgid ""
 "![]({{ site.baseurl }}/assets/posts/2017-07-03-cuba/fdroid_repo.jpg)<br/>\n"
 "*DroidT's F-Droid Repository*\n"
-msgstr ""
+msgstr "![]({{ site.baseurl }}/assets/posts/2017-07-03-cuba/fdroid_repo.jpg)<br/>\n*DroidT's F-Droid-Repository*\n"
 
 #. type: Plain text
 #: build/_posts/md/2017-07-03-cuba.md
 msgid "Normally, the F-Droid app that you can download comes with thousands of useful Free Software apps without advertising and user tracking. These however require an internet connection to be downloaded from F-Droid's official server. Thankfully, F-Droid allows you to add other repositories to it. These work similar to the package repositories that you might know from GNU/Linux distributions. Everybody can create their own repository, even in an offline network. As long as people are connected to the same WiFi, they can use your repository to install and update your apps."
-msgstr ""
+msgstr "Normalerweise bietet die F-Droid-App, die heruntergeladen werden kann, tausende nützlicher Free Software Apps ohne Werbung und Nutzerüberwachung. Diese benötigen jedoch eine Internetverbindung, wenn sie von einem offiziellen F-Droid-Server heruntergeladen werden sollen. Dankenswerterweise erlaubt F-Droid das Hinzufügen weiterer Repositories. Diese funktionieren ähnlich wie die Paketquellen, die aus GNU/Linux-Distributionen bekannt sein dürften. Jedermann kann sein eigenes Repository erstellen, selbst in einem Offline-Netz. Sobald Leute mit demselben WLAN-Netz verbunden sind, können sie das Repository nutzen, um Apps zu installieren und zu aktualisieren."
 
 #. type: Plain text
 #: build/_posts/md/2017-07-03-cuba.md
@@ -349,13 +349,13 @@ msgstr ""
 msgid ""
 "![]({{ site.baseurl }}/assets/posts/2017-07-03-cuba/antenna_outside_shop.jpg)<br/>\n"
 "*WiFi Antenna Outside of the Shop*\n"
-msgstr ""
+msgstr "![]({{ site.baseurl }}/assets/posts/2017-07-03-cuba/antenna_outside_shop.jpg)<br/>\n*WiFi-Antenne vor dem Laden*\n"
 
 #. type: Plain text
 #: build/_posts/md/2017-07-03-cuba.md
 #, no-wrap
 msgid "This is exactly what the <a href=\"http://droid-tech.com/\">DroidT shop</a> did that I visited in <a href=\"https://en.wikipedia.org/wiki/Sancti_Sp%C3%ADritus\">Sancti Spíritus</a>, Cuba. They run their own repository within their local WiFi network. Currently, they offer more than 2000 apps, mostly games, but also other useful apps, for free to everybody within the range of their WiFi router. Having a worse store location than their competitors, it really helps them to drive people to their shop and to build up their reputation within the local community. So far, they are the only store in their city offering this free and convenient service to their customers.\n"
-msgstr ""
+msgstr "Das ist genau das, was der <a href=\"http://droid-tech.com/\">DroidT Shop</a> machte, den ich in <a href=\"https://en.wikipedia.org/wiki/Sancti_Sp%C3%ADritus\">Sancti Spíritus</a> auf Kuba besuchte. Er betreibt sein eigenes Repository in seinem örtlichen WLAN-Netz. Momentan bietet er mehr als 2000 Apps an, meist Spiele, aber auch andere nützliche Apps, für jeden innerhalb der Reichweite seines WLAN-Routers umsonst. In einer schlechteren Geschäftslage als seine Konkurrenten, hilft es ihm tatsächlich die Leute zu seinem Laden zu lenken und sich in der örtlichen Geschäftswelt einen guten Ruf aufzubauen. Bislang ist es der einzige Laden in der Stadt, der seinen Kunden diesen kostenlosen und praktischen Dienst anbietet.\n"
 
 #. type: Plain text
 #: build/_posts/md/2017-07-03-cuba.md
@@ -363,17 +363,17 @@ msgstr ""
 msgid ""
 "![]({{ site.baseurl }}/assets/posts/2017-07-03-cuba/child_apps.jpg)<br/>\n"
 "*A Cuban child looking through the print-out of available apps*\n"
-msgstr ""
+msgstr "![]({{ site.baseurl }}/assets/posts/2017-07-03-cuba/child_apps.jpg)<br/>\n*Kubanisches Kind, das sich einen Ausdruck der erhältlichen Apps durchsieht*\n"
 
 #. type: Plain text
 #: build/_posts/md/2017-07-03-cuba.md
 msgid "The apps are downloaded by the store employees once, put into the repository and then are available to an unlimited number of customers without ever needing to connect to the internet again. The DroidT team is even going the last mile by also offering Spanish app metadata such as summaries and app descriptions to make it easier for people to find the app that they are looking for."
-msgstr ""
+msgstr "Die Apps werden von den Angestellten einmal heruntergeladen, im Repository eingestellt und stehen dann einer unbegrenzten Zahl von Kunden zur Verfügung, ohne jemals wieder eine Internetverbindung zu benötigen. Das DroidT-Team geht sogar einen Schritt weiter, indem es auch spanische App-Metadaten, wie Zusammenfassungen und App-Beschreibungen, bereitstellt, um es den Leuten leichter zu machen, die App zu finden, nach der sie suchen."
 
 #. type: Plain text
 #: build/_posts/md/2017-07-03-cuba.md
 msgid "At the moment they work on making use of the new screenshot feature that was introduced to the F-Droid app recently, so their customers can browse through the screenshots before deciding whether to install an app or not."
-msgstr ""
+msgstr "Momentan arbeitet es an der Einbindung der Bildschirmfoto-Funktion, die vor Kurzem in der F-Droid-App eingeführt wurde, damit die Kunden durch die Bildschirmfotos blättern können, bevor sie sich für oder gegen die Installation einer App entscheiden."
 
 #. type: Plain text
 #: build/_posts/md/2017-07-03-cuba.md
@@ -381,45 +381,45 @@ msgstr ""
 msgid ""
 "![]({{ site.baseurl }}/assets/posts/2017-07-03-cuba/fdroid_repo_categories.jpg)<br/>\n"
 "*A Screenshot of DroidT's app categories*\n"
-msgstr ""
+msgstr "![]({{ site.baseurl }}/assets/posts/2017-07-03-cuba/fdroid_repo_categories.jpg)<br/>\n*Bildschirmfoto von DroidT's App-Kategorien*\n"
 
 #. type: Plain text
 #: build/_posts/md/2017-07-03-cuba.md
 msgid "Another nice service they offer are app updates that are securely delivered by F-Droid. When somebody who has already downloaded apps from their repository, comes into the range of their WiFi again, F-Droid will check for updates and offer to install the ones that are available. This is a huge advantage in a country where people normally never care about updates at the expense of security."
-msgstr ""
+msgstr "Ein weiterer feiner Dienst, der von ihm angeboten wird, sind App-Aktualisierungen, die sicher über F-Droid verteilt werden. Wenn jemand, der bereits Apps aus seinem Repository heruntergeladen hat, wieder in die Reichweite des WLAN kommt, wird F-Droid nach Aktualisierungen suchen und diejenigen, die verfügbar sind, zur Installation anbieten. Das ist in einem Land, in dem die Leute sich normalerweise, zu Lasten der Sicherheit, nie um Aktualisierungen kümmern, ein riesiger Fortschritt."
 
 #. type: Plain text
 #: build/_posts/md/2017-07-03-cuba.md
 msgid "So it comes at no surprise that their slogan is \"BE UPDATE\" that even hangs in huge letters right above their desk in their shop. The repository by the way is hosted on the server that you can see directly above the banner with their slogan."
-msgstr ""
+msgstr "So wundert es nicht, dass sein Werbespruch \"BE UPDATE\" ist, der auch in riesigen Lettern genau über dem Schreibtisch des Ladens hängt. Das Repository wird übrigens auf dem Server gehosted, der direkt über dem Werbebanner zu sehen ist."
 
 #. type: Plain text
 #: build/_posts/md/2017-07-03-cuba.md
 msgid "![]({{ site.baseurl }}/assets/posts/2017-07-03-cuba/be_update1.jpg)"
-msgstr ""
+msgstr "![]({{ site.baseurl }}/assets/posts/2017-07-03-cuba/be_update1.jpg)"
 
 #. type: Plain text
 #: build/_posts/md/2017-07-03-cuba.md
 msgid "It is great to see that the free technology that the F-Droid community worked on for so many years to liberate Android users is put to unexpected use by talented individuals in other countries like Cuba and helps to make a difference there."
-msgstr ""
+msgstr "Es ist großartig mit anzusehen, dass die freie Technologie, an der die F-Droid-Community so viele Jahre gearbeitet hat, um Android-Nutzer zu befreien, eine unerwartete Verwendung durch talentierte Menschen in anderen Ländern wie Kuba erfährt und dort etwas bewegt."
 
 #. type: Plain text
 #: build/_posts/md/2017-07-03-cuba.md
 #, no-wrap
 msgid "<hr />\n"
-msgstr ""
+msgstr "<hr />\n"
 
 #. type: Plain text
 #: build/_posts/md/2017-07-03-cuba.md
 #, no-wrap
 msgid "For the sake of completeness however, it should be mentioned that ordinary downloads and F-Droid are not the only ways that Cubans use to get apps. There are weekly data packages that are sent through the country on hard-drives by bus. These <a href=\"https://en.wikipedia.org/wiki/El_Paquete_Semanal\">Paquete Semanal</a> contain mostly movies and TV shows, but also news and apps.\n"
-msgstr ""
+msgstr "Der Vollständigkeit halber sollte allerdings noch erwähnt werden, dass normale Downloads und F-Droid nicht der einzige Weg sind, über den Kubaner Apps erhalten. Es gibt wöchentliche Datenpakete, die auf Festplatten per Bus durch das Land geschickt werden. Diese <a href=\"https://en.wikipedia.org/wiki/El_Paquete_Semanal\">Paquete Semanal</a> enthalten überwiegend Filme und Fernsehshows, aber auch Nachrichten und Apps.\n"
 
 #. type: Plain text
 #: build/_posts/md/2017-07-03-cuba.md
 #, no-wrap
 msgid "Then, there is a proprietary app called <a href=\"https://en.wikipedia.org/wiki/Zapya\">Zapya</a> that is very popular among young Cubans, because it allows them to wirelessly share apps and other files between two phones. Although F-Droid offers the same functionality, this is not yet widely known and currently being improved to match the simplicity that Zapya offers to Cubans at the moment.\n"
-msgstr ""
+msgstr "Schließlich gibt es eine proprietäre App namens <a href=\"https://en.wikipedia.org/wiki/Zapya\">Zapya</a>, die unter jungen Kubanern sehr beliebt ist, da sie die drahtlose Übertragung von Apps und anderen Dateien zwischen zwei Telefonen ermöglicht. Obwohl F-Droid dieselbe Funktion enthält, ist das noch nicht sehr bekannt und momentan noch nicht genügend ausgereift, um an die Einfachheit, die Zapya den Kubanern derzeit bietet, heranzukommen.\n"
 
 #. type: Plain text
 #: build/_posts/md/2017-07-03-cuba.md
@@ -427,13 +427,13 @@ msgstr ""
 msgid ""
 "![]({{ site.baseurl }}/assets/posts/2017-07-03-cuba/zapya_sharing.jpg)<br/>\n"
 "*A Cuban sharing apps with Zapya*\n"
-msgstr ""
+msgstr "![]({{ site.baseurl }}/assets/posts/2017-07-03-cuba/zapya_sharing.jpg)<br/>\n*Kubaner, der über Zapya Apps teilt*\n"
 
 #. type: Plain text
 #: build/_posts/md/2017-07-03-cuba.md
 #, no-wrap
 msgid "*This post was originally published on [blog.grobox.de/2017/how-f-droid-is-bringing-apps-to-cuba](https://blog.grobox.de/2017/how-f-droid-is-bringing-apps-to-cuba/).*\n"
-msgstr ""
+msgstr "*Dieser Post wurde ursprünglich im [blog.grobox.de/2017/how-f-droid-is-bringing-apps-to-cuba](https://blog.grobox.de/2017/how-f-droid-is-bringing-apps-to-cuba/) veröffentlicht.*\n"
 
 #. type: Title #
 #: build/_posts/md/2017-10-10-fdroid-is-1.0.md
