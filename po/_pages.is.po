@@ -1,6 +1,6 @@
 # Sveinn í Felli <sv1@fellsnet.is>, 2018.
 msgid ""
-msgstr "Project-Id-Version: Icelandic (F-Droid)\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-02-14 20:16+0200\nPO-Revision-Date: 2018-02-15 12:18+0000\nLast-Translator: Sveinn í Felli <sv1@fellsnet.is>\nLanguage-Team: Icelandic <https://hosted.weblate.org/projects/f-droid/website-pages/is/>\nLanguage: is\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n % 10 != 1 || n % 100 == 11;\nX-Generator: Weblate 2.19-dev\n"
+msgstr "Project-Id-Version: Icelandic (F-Droid)\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-02-14 20:16+0200\nPO-Revision-Date: 2018-02-16 11:23+0000\nLast-Translator: Sveinn í Felli <sv1@fellsnet.is>\nLanguage-Team: Icelandic <https://hosted.weblate.org/projects/f-droid/website-pages/is/>\nLanguage: is\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n % 10 != 1 || n % 100 == 11;\nX-Generator: Weblate 2.19\n"
 
 #. type: Title #
 #: build/_pages/md/403.md
@@ -723,17 +723,17 @@ msgstr "Repomaker"
 #. type: Plain text
 #: build/_pages/md/repomaker.md
 msgid "F-Droid.org is just a repo out of hundreds of repos created by individuals all around the globe. With the tools of F-Droid, everyone can create their own repo. So whether you are a musician who wants to publish their music or a developer who wants to serve nightly builds of their app, you are free to create your own repo and share it with other people independently of F-Droid.org."
-msgstr ""
+msgstr "F-Droid.org er bara hugbúnaðarsafn sem samanstendur af hundruðum annarra safna sem útbúin eru af einstaklingum um víða veröld. Þannig að hvort sem þú ert tónlistarmaður sem ætlar að dreifa tónlistinni þinni eða forritari sem þarft að gera allra nýjustu prófunarútgáfur forrita aðgengilegar, þá er þér fullkomlega frjálst að útbúa þitt eigið safn og deila því með öðru fólki, alveg óháð F-Droid.org."
 
 #. type: Plain text
 #: build/_pages/md/repomaker.md
 msgid "In the past, creating a repo has been difficult because you had to have knowledge on the command line, needed to edit text files to edit your packages' store details and had to paste screenshots in a special system of directories to have them served well inside the F-Droid app."
-msgstr ""
+msgstr "Áður fyrr var ákveðinn tæknilegur þröskuldur sem réði því hverjir gætu útbúið hugbúnaðarsafn, því þú þurftir að hafa þekkingu á skipanalínukvaðningum, þurftir að sýsla með textaskrár til að skilgreina upplýsingar um safnið, og þurftir að líma skjámyndir á réttan stað í möppukerfi, þannig að allt kæmist til skila í F-Droid forritinu."
 
 #. type: Plain text
 #: build/_pages/md/repomaker.md
 msgid "This all got easier now: with Repomaker, you are able to create your own repo and do not need to have any special knowledge to do so. More information on how to install Repomaker coming soon!"
-msgstr ""
+msgstr "Núna er þetta allt mikið auðveldara: með Repomaker er einfalt að útbúa þitt eigið Hugbúnaðarsafn og þarft í rauninni enga sérstaka tæknilega þekkingu til að gera það. Meiri upplýsingar varðandi uppsetningu Repomaker eru á leiðinni!"
 
 #. type: Plain text
 #: build/_pages/md/repomaker.md
@@ -741,7 +741,7 @@ msgstr ""
 msgid ""
 "[![]({{ site.baseurl }}/assets/repomaker-screenshots/repo-details.png)]({{ site.baseurl }}/assets/repomaker-screenshots/repo-details.png)<br/>\n"
 "*Your repo can serve all types of media*\n"
-msgstr ""
+msgstr "[![]({{ site.baseurl }}/assets/repomaker-screenshots/repo-details.png)]({{ site.baseurl }}/assets/repomaker-screenshots/repo-details.png)<br/>\n*Hugbúnaðarsafnið þitt getur dreift allskyns gögnum*\n"
 
 #. type: Plain text
 #: build/_pages/md/repomaker.md
@@ -749,7 +749,7 @@ msgstr ""
 msgid ""
 "[![]({{ site.baseurl }}/assets/repomaker-screenshots/package-details.png)]({{ site.baseurl }}/assets/repomaker-screenshots/package-details.png)<br/>\n"
 "*Editing your package store details never was easier*\n"
-msgstr ""
+msgstr "[![]({{ site.baseurl }}/assets/repomaker-screenshots/package-details.png)]({{ site.baseurl }}/assets/repomaker-screenshots/package-details.png)<br/>\n*Útfylling upplýsinga um söfn hefur ekki verið eins auðveld og nú*\n"
 
 #. type: Plain text
 #: build/_pages/md/repomaker.md
@@ -757,7 +757,7 @@ msgstr ""
 msgid ""
 "[![]({{ site.baseurl }}/assets/repomaker-screenshots/create-repo.png)]({{ site.baseurl }}/assets/repomaker-screenshots/create-repo.png)<br/>\n"
 "*Creating a repo just takes you two clicks*\n"
-msgstr ""
+msgstr "[![]({{ site.baseurl }}/assets/repomaker-screenshots/create-repo.png)]({{ site.baseurl }}/assets/repomaker-screenshots/create-repo.png)<br/>\n*Að útbúa hugbúnaðarsafn tekur bara tvo smelli*\n"
 
 #. type: Plain text
 #: build/_pages/md/repomaker.md
@@ -765,9 +765,9 @@ msgstr ""
 msgid ""
 "[![]({{ site.baseurl }}/assets/repomaker-screenshots/add-storage.png)]({{ site.baseurl }}/assets/repomaker-screenshots/add-storage.png)<br/>\n"
 "*You have many possibilities where to upload your repo*\n"
-msgstr ""
+msgstr "[![]({{ site.baseurl }}/assets/repomaker-screenshots/add-storage.png)]({{ site.baseurl }}/assets/repomaker-screenshots/add-storage.png)<br/>\n*Þú hefur marga möguleika á hvar þú geymir hugbúnaðarsafnið*\n"
 
 #. type: Plain text
 #: build/_pages/md/repomaker.md
 msgid "Like any other project of F-Droid, Repomaker is free and open source software. You can find the source code and its license on [GitLab.com](https://gitlab.com/fdroid/repomaker)."
-msgstr ""
+msgstr "Rétt eins og hvert annað F-Droid verkefni, er Repomaker frjáls og opinn hugbúnaður. Þú getur fundið grunnkóðann og notkunarleyfi hans á [GitLab.com](https://gitlab.com/fdroid/repomaker)."
