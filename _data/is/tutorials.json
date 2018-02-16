@@ -2,19 +2,19 @@
     "misc": {
         "step_x": "Þrep [number]",
         "step_x_description": "Þrep [number]: [description]",
+        "option_x_description": "Valkostur [number]: [description]",
         "overview": {
             "tutorial_x_title": "Leiðbeiningar [number]: [title]",
-            "summary": "F-Droid er sjálfstætt, samfélagsdrifið hugbúnaðarsafn fyrir Android sem inniheldur einungis frjálsan og opinn hugbúnað. Innan F-Droid getur þú flett upp yfir 1,200 forritum með opnum grunnkóða, leitað að og sett upp forrit úr þegar tilbúnum hugbúnaðarsöfnum, eða búið til þitt eigið hugbúnaðarsafn. Opnaðu f-droid.org á Android símanum þínum til að sækja forritið/appið og hefjast síðan handa!",
-            "title": "Hvað geturðu gert með F-Droid"
-        },
-        "option_x_description": "Valkostur [number]: [description]"
+            "title": "Hvað geturðu gert með F-Droid",
+            "summary": "F-Droid er sjálfstætt, samfélagsdrifið hugbúnaðarsafn fyrir Android sem inniheldur einungis frjálsan og opinn hugbúnað. Innan F-Droid getur þú flett upp yfir 1,200 forritum með opnum grunnkóða, leitað að og sett upp forrit úr þegar tilbúnum hugbúnaðarsöfnum, eða búið til þitt eigið hugbúnaðarsafn. Opnaðu f-droid.org á Android símanum þínum til að sækja forritið/appið og hefjast síðan handa!"
+        }
     },
     "add_repo": {
         "no_internet": "Ekkert internet? Ekki vandamál. Lestu um <a href=\"../swap/\">Hvernig á að senda og taka við forritum án nettengingar.</a>",
         "title": "Hvernig á að bæta hugbúnaðarsafni við F-Droid",
         "overview": {
-            "summary": "Til að ná í fleiri forrit geturðu bætt hugbúnaðarsafni (repository - repo) við F-Droid. Hugbúnaðarsafn er safn yfirfarins efnis, forrita eða annarra gagna. Þú getur uppgötvað hugbúnaðarsöfn annars fólks beint frá þeim. Forritarar eru gjarnan með tengil á F-Droid safn á vefnum sínum. Þjálfarar og kennarar deila oft tenglum á hugbúnaðarsöfn með tölvupósti, Facebook eða Twitter.",
-            "title": "Ná í meira efni."
+            "title": "Ná í meira efni.",
+            "summary": "Til að ná í fleiri forrit geturðu bætt hugbúnaðarsafni (repository - repo) við F-Droid. Hugbúnaðarsafn er safn yfirfarins efnis, forrita eða annarra gagna. Þú getur uppgötvað hugbúnaðarsöfn annars fólks beint frá þeim. Forritarar eru gjarnan með tengil á F-Droid safn á vefnum sínum. Þjálfarar og kennarar deila oft tenglum á hugbúnaðarsöfn með tölvupósti, Facebook eða Twitter."
         },
         "scan_qr_code": {
             "related_tutorial": "Þú gætir líka haft áhuga á: <a href=\"../swap/\">Hvernig á að senda og taka við forritum án nettengingar</a>",
@@ -57,8 +57,8 @@
         "title": "Hvernig á að senda og taka við forritum án nettengingar",
         "step_9": "Þegar uppsetningum er lokið verða forritin þín tiltæk í forritagalleríi Android-kerfisins auk þess að sjást í F-Droid app undir uppsettum forritum.",
         "overview": {
-            "summary": "Ekkert internet? Ekki vandamál. Í F-Droid gefur 'Nálægt' kost á að senda og taka við efni milli fólks í sama herbergi.",
-            "title": "Senda og taka við forritum án nettengingar."
+            "title": "Senda og taka við forritum án nettengingar.",
+            "summary": "Ekkert internet? Ekki vandamál. Í F-Droid gefur 'Nálægt' kost á að senda og taka við efni milli fólks í sama herbergi."
         },
         "step_6": "Viðkomandi fær kvaðningu um að staðfesta tengibeiðnina.",
         "all_devices_need_fdroid": "Öll snjalltækin þurfa að hafa náð í F-Droid og sett það upp áður en hafist er handa. Öll snjalltækin ættu að fylgja leiðbeiningunum hér fyrir neðan.",
@@ -72,16 +72,26 @@
             "steps": {
                 "step_1": "Náðu í og settu upp Repomaker vefforritið á vinnutölvuna þína.",
                 "step_3": "Búðu til nýtt hugbúnaðarsafn og gefðu því viðeigandi heiti.",
-                "step_2": "Ræstu Repomaker vefforritið. Skráðu þig inn eða nýskráðu þig fyrst."
+                "step_2": "Ræstu Repomaker vefforritið. Skráðu þig inn eða nýskráðu þig fyrst.",
+                "step_5": "Smelltu á 'Bæta við/Add' hnappinn næst atriðunum sem þú vilt bæta inn. Þegar því er lokið, smelltu á 'til baka'-örina til að fara aftur í hugbúnaðarsafnið.",
+                "step_4": "Veldu að bæta við forritum úr forritasafninu og tiltækum hugbúnaðarsöfnum, eða sendu inn þínar eigin skrár. Smelltu á 'Bæta við úr safni/Add from Gallery' hnappinn til að velja úr tiltæku efni.",
+                "step_6": "Forritin þín birtast núna í efnisyfirliti hugbúnaðarsafnsins."
             },
             "title": "Ná í og setja upp Repomaker til að hefjast handa"
         },
         "title": "Hvernig á að búa til hugbúnaðarsafn",
         "overview": {
-            "summary": "Útbúðu þitt eigið sérsniðið hugbúnaðarsafn með forritum. Notaðu F-Droid til að dreifa efni. Þjálfarar og kennarar nota hugbúnaðarsöfn til að auðvelda sér útdeilingu á efni og forritum með öðrum þátttakendum þegar ekki er hægt að treysta á internet-tengingu. Forritarar nota slík söfn til að dreifa sérhæfðum forritum til notendanna sinna.",
-            "title": "Bæta við þínum eigin forritum og skrám."
+            "title": "Bæta við þínum eigin forritum og skrám.",
+            "summary": "Útbúðu þitt eigið sérsniðið hugbúnaðarsafn með forritum. Notaðu F-Droid til að dreifa efni. Þjálfarar og kennarar nota hugbúnaðarsöfn til að auðvelda sér útdeilingu á efni og forritum með öðrum þátttakendum þegar ekki er hægt að treysta á internet-tengingu. Forritarar nota slík söfn til að dreifa sérhæfðum forritum til notendanna sinna."
         },
         "share_repo": {
+            "steps": {
+                "step_1": "Hafðu hugbúnaðarsafnið sem þú ætlar að deila opið, smelltu síðan á 'Deila/Share' í valmyndinni. Athugaðu að þú verður að hafa sett upp einhvern stað til að geyma safnið þitt á aur en þú deilir því. Upplýsingar um hvernig það er gert eru í þrepi 2.",
+                "step_3": "Veldu þann geymslumöguleika sem hentar best þörfum þínum. Þegar geymsluplássið er tilbúið, geturðu farið að deila! Farðu aftur í 'Deila/Share'.",
+                "step_2": "Þú verður beðin(n) um að setja upp geymslusvæði til að geta gefið út safnið þitt áður en þú deilir því. Ef þú sérð ekki þessa síðu, haltu þá áfram í þrep 4.",
+                "step_5": "Valkosturinn 'Skoða Hugbúnaðarsafn/View Repo' gerir þér kleift að skoða það sem þú varst að gefa út eða deila.",
+                "step_4": "Veldu að afrita tengilinn og sendu hann beint til fólks með tölvupósti eða textaskilaboðum, nú, eða deildu honum á Facebook eða Twitter. Þegar fólk opnar tengilinn þinn, þarf það að bæta honum inn í Android-tækinu sínu til að fá aðgang aðaforritum í þessu hugbúnaðarsafni. Skoðaðu <a href='../add-repo/'>Hvernig á að bæta hugbúnaðarsafni við F-Droid</a> til að sjá frekari upplýsingar."
+            },
             "title": "Sérsníddu hugbúnaðarsafnið þitt"
         },
         "update_repo": {
@@ -92,9 +102,11 @@
         "customize_repo": {
             "steps": {
                 "step_1": "Smelltu á eitthvað atriði til að sjá ítarlegar upplýsingar.",
-                "step_2": "Smelltu á 'Breyta'.",
+                "step_3": "Sérsníddu efnið fyrir markhópinn þinn. Athugaðu: Breytingarnar sem þú gerir munu eingöngu eiga við hugbúnaðarsafnið þitt. Þær munu ekki uppfæra upprunaleg söfn. Sýndu virðingu þegar þú sérsníður upplýsingar um efni sem ekki er þitt eigið.",
+                "step_2": "Smelltu á 'Breyta/Edit'.",
                 "step_4": "Allar breytingarnar þínar eru vistaðar sjálfvirkt."
             },
+            "description": "Þú getur breytt lýsingum á forritum og skrám til að gera þær aðgengilegri fyrir markhópinn. Þú getur haft tungumálið sértækt eftir því hvaða land á í hlut. Síðan geturðu deilt safninu hnökralaust til þátttakenda á ráðstefnum eða í þjálfunarbúðum.",
             "title": "Sérsníddu hugbúnaðarsafnið þitt"
         }
     }
