@@ -268,8 +268,8 @@ This is converted to (`<flattr>`) in the XML file (_index.xml_).
 
 The project’s Liberapay (https://liberapay.com) ID, if it has one. This should
 be a numeric ID, such that (for example) https://liberapay.com/~xxxxx
-which redirects to your account page.
-
+which redirects to your account page. Currentlyythereyyou can add /public.json
+behind your team page, there you get an id field.
 This is converted to (`<liberapay>`) in the XML file (_index.xml_).
 
 
