@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-02-12 17:50+0100\nPO-Revision-Date: 2018-02-13 20:03+0000\nLast-Translator: Andreas Kleinert <Andy.Kleinert@gmail.com>\nLanguage-Team: German <https://hosted.weblate.org/projects/f-droid/website-pages/de/>\nLanguage: de\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.19-dev\n"
+msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-02-12 17:50+0100\nPO-Revision-Date: 2018-02-19 14:36+0000\nLast-Translator: Claus Rüdinger <Mail-an-CR@web.de>\nLanguage-Team: German <https://hosted.weblate.org/projects/f-droid/website-pages/de/>\nLanguage: de\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.19\n"
 
 #. type: Title #
 #: build/_pages/md/403.md
@@ -732,7 +732,7 @@ msgstr "F-Droid.org ist gerade einmal ein Repo von hunderten, rund um den Globus
 #. type: Plain text
 #: build/_pages/md/repomaker.md
 msgid "In the past, creating a repo has been difficult because you had to have knowledge on the command line, needed to edit text files to edit your packages' store details and had to paste screenshots in a special system of directories to have them served well inside the F-Droid app."
-msgstr "In der Vergangenheit war es schwierig, ein Repo zu erstellen, da man über Kenntnisse über die Kommandozeile verfügen musste, Textdateien bearbeiten musste, um die Details des Pakets zu bearbeiten, und Bildschirmfotos in ein spezielles System von Verzeichnissen einfügen musste, damit sie gut in der F-Droid-App bedient werden konnten."
+msgstr "In der Vergangenheit war es schwierig, ein Repo zu erstellen, da Kommandozeilenkenntnisse nötig waren, man Textdateien bearbeiten musste, um die Details des Pakets zu bearbeiten, und Bildschirmfotos in ein spezielles System von Verzeichnissen einfügen musste, damit sie in der F-Droid-App richtig verarbeitet wurden."
 
 #. type: Plain text
 #: build/_pages/md/repomaker.md
