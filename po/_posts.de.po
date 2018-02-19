@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-02-12 17:11+0100\nPO-Revision-Date: 2018-02-19 21:33+0000\nLast-Translator: anonymous <>\nLanguage-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\nLanguage: de\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.19\n"
+msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-02-12 17:11+0100\nPO-Revision-Date: 2018-02-19 21:34+0000\nLast-Translator: Claus Rüdinger <Mail-an-CR@web.de>\nLanguage-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\nLanguage: de\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.19\n"
 
 #. type: Title #
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md
@@ -889,7 +889,7 @@ msgstr "Fairphone hat einen [Riesenschritt](https://www.fairphone.com/en/2018/01
 #. type: Plain text
 #: build/_posts/md/2018-01-24-fairphone-open-ships-F-Droid.md
 msgid "F-Droid support in Fairphone Open is still beta, so for now, only [Privileged Extension](https://gitlab.com/fdroid/privileged-extension/#f-droid-privileged-extension)  is built into Fairphone Open. So you will still have to download F-Droid and install it as a regular app.  It will automatically find and use the Privileged Extension built into Fairphone Open.  We are working on an F-Droid installer as part of the Fairphone Updater to make that process really easy."
-msgstr "Die F-Droid-Unterstützung in Fairphone Open ist noch eine Beta-Version, so ist bis jetzt lediglich die [Rechteerweiterung](https://gitlab.com/fdroid/privileged-extension/#f-droid-privileged-extension) in Fairphone Open vorinstalliert. F-Droid muss immer noch als reguläre App heruntergeladen und installiert werden. Sie wird automatisch die in Fairphone Open eingebaute Rechteerweiterung erkennen und nutzen. Wir arbeiten an einem F-Droid Installer als Teil des Fairphone Updater, um diesen Schritt noch weiter zu vereinfachen."
+msgstr "Die F-Droid-Unterstützung in Fairphone Open ist noch eine Beta-Version, so ist bis jetzt lediglich die [Rechteerweiterung](https://gitlab.com/fdroid/privileged-extension/#f-droid-privileged-extension) in Fairphone Open vorinstalliert. F-Droid muss immer noch als reguläre App heruntergeladen und installiert werden. Sie wird automatisch die in Fairphone Open eingebaute Rechteerweiterung erkennen und nutzen. Wir arbeiten an einer F-Droid-Installierhilfe als Teil des Fairphone Updater, um diesen Schritt noch weiter zu vereinfachen."
 
 #. type: Plain text
 #: build/_posts/md/2018-01-24-fairphone-open-ships-F-Droid.md
