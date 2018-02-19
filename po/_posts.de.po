@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-02-12 17:11+0100\nPO-Revision-Date: 2018-02-19 21:35+0000\nLast-Translator: Claus Rüdinger <Mail-an-CR@web.de>\nLanguage-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\nLanguage: de\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.19\n"
+msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-02-12 17:11+0100\nPO-Revision-Date: 2018-02-19 21:35+0000\nLast-Translator: anonymous <>\nLanguage-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\nLanguage: de\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.19\n"
 
 #. type: Title #
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md
@@ -909,17 +909,17 @@ msgstr "\"Unbekannte Herkunft\" in Einstellungen -> Sicherheit aktivieren"
 #. type: Bullet: '3. '
 #: build/_posts/md/2018-01-24-fairphone-open-ships-F-Droid.md
 msgid "find _FDroid.apk_ in Downloads and click to install it"
-msgstr ""
+msgstr "_FDroid.apk_ in Downloads suchen und zur Installation anklicken"
 
 #. type: Bullet: '4. '
 #: build/_posts/md/2018-01-24-fairphone-open-ships-F-Droid.md
 msgid "confirm the install on the system's install screen"
-msgstr ""
+msgstr "Installation auf dem Installationsbildschirm des Systems bestätigen"
 
 #. type: Bullet: '5. '
 #: build/_posts/md/2018-01-24-fairphone-open-ships-F-Droid.md
 msgid "disable \"Unknown Sources\""
-msgstr ""
+msgstr "\"Unbekannte Quellen\" deaktivieren"
 
 #. type: Title #
 #: build/_posts/md/2018-02-02-linux-conf-au-fdroid-presentation.md
