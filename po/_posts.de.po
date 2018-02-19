@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-02-12 17:11+0100\nPO-Revision-Date: 2018-02-19 21:34+0000\nLast-Translator: Claus Rüdinger <Mail-an-CR@web.de>\nLanguage-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\nLanguage: de\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.19\n"
+msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-02-12 17:11+0100\nPO-Revision-Date: 2018-02-19 21:34+0000\nLast-Translator: anonymous <>\nLanguage-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\nLanguage: de\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.19\n"
 
 #. type: Title #
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md
@@ -894,17 +894,17 @@ msgstr "Die F-Droid-Unterstützung in Fairphone Open ist noch eine Beta-Version,
 #. type: Plain text
 #: build/_posts/md/2018-01-24-fairphone-open-ships-F-Droid.md
 msgid "For now, these are the steps you need to do to have the full F-Droid experience with Fairphone Open:"
-msgstr ""
+msgstr "Bis jetzt sind dies die Schritte, die unternommen werden müssen, um das komplette F-Droid-Erlebnis mit Fairphone Open zu erzielen:"
 
 #. type: Bullet: '1. '
 #: build/_posts/md/2018-01-24-fairphone-open-ships-F-Droid.md
 msgid "download [F-Droid.apk](https://f-droid.org/F-Droid.apk) and [verify](https://f-droid.org/F-Droid.apk.asc) it"
-msgstr ""
+msgstr "[F-Droid.apk](https://f-droid.org/F-Droid.apk) herunterladen und [verifizieren](https://f-droid.org/F-Droid.apk.asc)"
 
 #. type: Bullet: '2. '
 #: build/_posts/md/2018-01-24-fairphone-open-ships-F-Droid.md
 msgid "enable \"Unknown Sources\" in Settings -> Security"
-msgstr ""
+msgstr "\"Unbekannte Quellen\" in Einstellungen -> Sicherheit aktivieren"
 
 #. type: Bullet: '3. '
 #: build/_posts/md/2018-01-24-fairphone-open-ships-F-Droid.md
