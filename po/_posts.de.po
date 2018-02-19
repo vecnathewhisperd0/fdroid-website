@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-02-12 17:11+0100\nPO-Revision-Date: 2018-02-19 21:14+0000\nLast-Translator: Claus Rüdinger <Mail-an-CR@web.de>\nLanguage-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\nLanguage: de\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.19\n"
+msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-02-12 17:11+0100\nPO-Revision-Date: 2018-02-19 21:16+0000\nLast-Translator: anonymous <>\nLanguage-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\nLanguage: de\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.19\n"
 
 #. type: Title #
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md
@@ -465,22 +465,22 @@ msgstr "Was gibts Neues?"
 #. type: Plain text
 #: build/_posts/md/2017-10-10-fdroid-is-1.0.md
 msgid "There are many things that are new and improved in 1.0, so this post covers some highlights.  In the user interface, there is a whole now architecture as well as a lot of new small improvements."
-msgstr ""
+msgstr "Es gibt viele Dinge in 1.0, die neu und verbessert sind, dieser Post wird einige Höhepunkte betrachten. Die Benutzeroberfläche erhielt neben einem komplett neuen Aufbau zahlreiche neue, kleinere Verbesserungen. "
 
 #. type: Bullet: '* '
 #: build/_posts/md/2017-10-10-fdroid-is-1.0.md
 msgid "apps can include [screenshots and feature graphics]({{ site.baseurl }}/docs/All_About_Descriptions_Graphics_and_Screenshots)"
-msgstr ""
+msgstr "Apps können [Bildschirmfotos und Grafiken]({{ site.baseurl }}/docs/All_About_Descriptions_Graphics_and_Screenshots) beinhalten"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2017-10-10-fdroid-is-1.0.md
 msgid "donations to app developers highlighted on the App Details screen"
-msgstr ""
+msgstr "Spendenmöglichkeiten an App-Entwickler werden in der App-Detailansicht hervorgehoben"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2017-10-10-fdroid-is-1.0.md
 msgid "inline download/install buttons for quick installation"
-msgstr ""
+msgstr "Schaltflächen für Download/Installation in derselben Zeile für eine schnelle Installation"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2017-10-10-fdroid-is-1.0.md
