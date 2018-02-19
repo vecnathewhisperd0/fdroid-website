@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-02-12 17:42+0100\nPO-Revision-Date: 2018-02-14 16:38+0000\nLast-Translator: Claus Rüdinger <Mail-an-CR@web.de>\nLanguage-Team: German <https://hosted.weblate.org/projects/f-droid/website-docs/de/>\nLanguage: de\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.19-dev\n"
+msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-02-12 17:42+0100\nPO-Revision-Date: 2018-02-20 23:36+0000\nLast-Translator: Claus Rüdinger <Mail-an-CR@web.de>\nLanguage-Team: German <https://hosted.weblate.org/projects/f-droid/website-docs/de/>\nLanguage: de\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.19.1\n"
 
 #. type: Title #
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -3919,22 +3919,22 @@ msgstr ""
 #: build/_docs/md/FAQ_-_Client.md
 #, no-wrap
 msgid "The client shows a newer version. Why didn't it notify me of an update?"
-msgstr ""
+msgstr "Der Client zeigt eine neuere Version an. Warum meldete er mir kein Update?"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md
 msgid "Assuming you have update notifications switched on (in Preferences) this probably means the newer version is not *recommended* for your device."
-msgstr ""
+msgstr "Vorausgesetzt die Aktualisierungsbenachrichtigung (in den Einstellungen) ist eingeschaltet, könnte das bedeuten, dass die neuere Version für Ihr Gerät nicht *empfohlen* wird."
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md
 msgid "In the list of versions in the client, the *recommended version* is identified by a '\\*'. This is the version which is closest to the *current version* &ndash; the version that the developers of the application publish to Google Play or their website, or tag in their source code repository. There may be newer versions than this in the list &ndash; they could be, for example, test or beta versions. You can install these, but update notifications are not shown because the Version Code (Android's scheme for version numbering) is greater than the Current Version Code."
-msgstr ""
+msgstr "In der Liste der Versionen im Client wird die  *empfohlene Version* durch ein '\\*' ausgewiesen. Das ist die Version, die der *aktuellen Version* am nächsten kommt, &ndash; die Version, die die Entwickler der Anwendung auf Google Play oder ihrer Internetseite veröffentlichen, oder in ihrem Quellcode-Repository markieren. Es mag neuere Versionen als diese in der Liste geben &ndash; sie könnten zum Beispiel Test- oder Beta-Versionen sein. Sie können diese installieren, aber es werden keine Aktualisierungsbenachrichtigungen für sie angezeigt, weil der Versionscode (Android's Schema zur Nummerierung der Versionen) höher ist als der Code der aktuellen Version."
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md
 msgid "For third-party repositories, it may also be the case that the maintainers neglected to update the current version in their repository's metadata."
-msgstr ""
+msgstr "Bei Drittanbieter-Repositories kann es auch der Fall sein, dass die Betreiber die Aktualisierung der aktuellen Version in ihren Repository-Metadaten vernachlässigten."
 
 #. type: Title ###
 #: build/_docs/md/FAQ_-_Client.md
