@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-02-12 17:50+0100\nPO-Revision-Date: 2018-02-19 07:24+0000\nLast-Translator: ezjerry liao <ezjerry@gmail.com>\nLanguage-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/f-droid/website-pages/zh_Hant/>\nLanguage: zh_Hant\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Generator: Weblate 2.19\n"
+msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-02-12 17:50+0100\nPO-Revision-Date: 2018-02-20 08:35+0000\nLast-Translator: ezjerry liao <ezjerry@gmail.com>\nLanguage-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/f-droid/website-pages/zh_Hant/>\nLanguage: zh_Hant\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Generator: Weblate 2.19\n"
 
 #. type: Title #
 #: build/_pages/md/403.md
@@ -701,7 +701,7 @@ msgstr "如果您遇到 F-Droid 用戶端應用程式有問題，請在[問題�
 #. type: Plain text
 #: build/_pages/md/issues.md
 msgid "To request a new app be added, submit a \"Request For Packaging\" on the [rfp tracker](https://gitlab.com/fdroid/rfp/issues/new)."
-msgstr "要要請求新增一個應用程式，在 [rfp 追蹤](https://gitlab.com/fdroid/rfp/issues/new)上提交會\"請求套件包\" 。"
+msgstr "要求新增一個應用程式，請在 [rfp 追蹤](https://gitlab.com/fdroid/rfp/issues/new) 上提交\"套件包要求\" 。"
 
 #. type: Plain text
 #: build/_pages/md/issues.md
