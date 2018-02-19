@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-02-12 17:11+0100\nPO-Revision-Date: 2018-02-19 21:35+0000\nLast-Translator: anonymous <>\nLanguage-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\nLanguage: de\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.19\n"
+msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-02-12 17:11+0100\nPO-Revision-Date: 2018-02-20 23:36+0000\nLast-Translator: Claus Rüdinger <Mail-an-CR@web.de>\nLanguage-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\nLanguage: de\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.19.1\n"
 
 #. type: Title #
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md
@@ -551,7 +551,7 @@ msgid ""
 " * [![Ukrainian]({{ site.baseurl }}/assets/posts/2017-10-10-fdroid-is-1.0/fdroid-screenshot-uk.png)]({{ site.baseurl }}/assets/fdroid-screenshot-uk.png)\n"
 " * [![Japanese]({{ site.baseurl }}/assets/posts/2017-10-10-fdroid-is-1.0/fdroid-screenshot-ja.png)]({{ site.baseurl }}/assets/fdroid-screenshot-ja.png)\n"
 " * [![Chinese]({{ site.baseurl }}/assets/posts/2017-10-10-fdroid-is-1.0/fdroid-screenshot-zh.png)]({{ site.baseurl }}/assets/fdroid-screenshot-zh.png)\n"
-msgstr ""
+msgstr "{: .gallery}\n * [![Tibetisch]({{ site.baseurl }}/assets/posts/2017-10-10-fdroid-is-1.0/fdroid-screenshot-bo.png)]({{ site.baseurl }}/assets/fdroid-screenshot-bo.png)\n * [![Spanisch]({{ site.baseurl }}/assets/posts/2017-10-10-fdroid-is-1.0/fdroid-screenshot-es.png)]({{ site.baseurl }}/assets/fdroid-screenshot-es.png)\n * [![Persisch]({{ site.baseurl }}/assets/posts/2017-10-10-fdroid-is-1.0/fdroid-screenshot-fa.png)]({{ site.baseurl }}/assets/fdroid-screenshot-fa.png)\n * [![Ukrainisch]({{ site.baseurl }}/assets/posts/2017-10-10-fdroid-is-1.0/fdroid-screenshot-uk.png)]({{ site.baseurl }}/assets/fdroid-screenshot-uk.png)\n * [![Japanisch]({{ site.baseurl }}/assets/posts/2017-10-10-fdroid-is-1.0/fdroid-screenshot-ja.png)]({{ site.baseurl }}/assets/fdroid-screenshot-ja.png)\n * [![Chinesisch]({{ site.baseurl }}/assets/posts/2017-10-10-fdroid-is-1.0/fdroid-screenshot-zh.png)]({{ site.baseurl }}/assets/fdroid-screenshot-zh.png)\n"
 
 #. type: Title ####
 #: build/_posts/md/2017-10-10-fdroid-is-1.0.md
@@ -919,7 +919,7 @@ msgstr "Installation auf dem Installationsbildschirm des Systems bestätigen"
 #. type: Bullet: '5. '
 #: build/_posts/md/2018-01-24-fairphone-open-ships-F-Droid.md
 msgid "disable \"Unknown Sources\""
-msgstr "\"Unbekannte Quellen\" deaktivieren"
+msgstr "\"Unbekannte Herkunft\" deaktivieren"
 
 #. type: Title #
 #: build/_posts/md/2018-02-02-linux-conf-au-fdroid-presentation.md
