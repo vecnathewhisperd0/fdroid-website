@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-02-12 17:11+0100\nPO-Revision-Date: 2018-02-20 23:36+0000\nLast-Translator: Claus Rüdinger <Mail-an-CR@web.de>\nLanguage-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\nLanguage: de\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.19.1\n"
+msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-02-12 17:11+0100\nPO-Revision-Date: 2018-02-22 20:03+0000\nLast-Translator: Claus Rüdinger <Mail-an-CR@web.de>\nLanguage-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\nLanguage: de\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.20-dev\n"
 
 #. type: Title #
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md
@@ -598,7 +598,7 @@ msgstr ""
 #. type: Plain text
 #: build/_posts/md/2017-10-10-fdroid-is-1.0.md
 msgid "_f-droid.org_ is just one app repository (aka \"repo\") out of hundreds of repos created by individuals all around the globe.  So whether you are a musician who wants to publish their music or a developer who wants to serve nightly builds of their app, you are free to create your own repo and share it with other people independently of F-Droid.org.  F-Droid repos can now include any kind of file: apps, videos, audio, ebooks, ZIPs, etc"
-msgstr ""
+msgstr "_f-droid.org_ ist gerade einmal ein App-Repository (auch \"Repo\") von hunderten, rund um den Globus von Menschen geschaffenen Repos. Egal ob Musiker, der seine Musik veröffentlichen will oder Entwickler, der Nightly Builds seiner App anbieten möchte, es steht jedem frei, sein eigenes Repo zu erzeugen und es unabhängig von F-Droid.org mit anderen Leuten zu teilen. F-Droid-Repos können nun jede Art von Dateien enthalten: Apps, Videos, Audiodateien, E-Books, ZIPS, usw."
 
 #. type: Plain text
 #: build/_posts/md/2017-10-10-fdroid-is-1.0.md
@@ -686,12 +686,12 @@ msgstr ""
 #: build/_posts/md/2017-12-13-fdroid-and-janus.md
 #, no-wrap
 msgid "\"F-Droid and the Janus Vulnerability\""
-msgstr ""
+msgstr "\"F-Droid und Janusangriffe\""
 
 #. type: Plain text
 #: build/_posts/md/2017-12-13-fdroid-and-janus.md
 msgid "The [Janus vulnerability](https://www.guardsquare.com/en/blog/new-android-vulnerability-allows-attackers-modify-apps-without-affecting-their-signatures)  has sprung forth unto the Android world, and we have sprung into action to keep it far away."
-msgstr ""
+msgstr "[Janusangriffe](https://www.guardsquare.com/en/blog/new-android-vulnerability-allows-attackers-modify-apps-without-affecting-their-signatures) sind auf die Android-Welt übergesprungen, und wir sind in Aktion getreten, um sie uns vom Leib zu halten."
 
 #. type: Plain text
 #: build/_posts/md/2017-12-13-fdroid-and-janus.md
@@ -700,17 +700,17 @@ msgid ""
 "<p align=\"center\">\n"
 "  <img width=\"300\" height=\"282\" src=\"{{ site.baseurl }}/assets/posts/2017-12-13-fdroid-and-janus/janus.png\" />\n"
 "</p>\n"
-msgstr ""
+msgstr "<p align=\"center\">\n  <img width=\"300\" height=\"282\" src=\"{{ site.baseurl }}/assets/posts/2017-12-13-fdroid-and-janus/janus.png\" />\n</p>\n"
 
 #. type: Plain text
 #: build/_posts/md/2017-12-13-fdroid-and-janus.md
 msgid "First off, _f-droid.org_, _guardianproject.info/fdroid_ and _apt.izzysoft.de/fdroid_ were scanned for possible Janus exploits and none were found.  _f-droid.org_'s greatest protection against malware is the requirement that everything must be built from source, humans review all apps that are added, and a source tarball for each build is stored forever.  Exploit writers do not want to give away the source code to their malware nor have their activities permanently logged in _git_, so this process keeps them away.  No malware has been found in _f-droid.org_ in its 7 years of operation."
-msgstr ""
+msgstr "Zunächst einmal, _f-droid.org_, _guardianproject.info/fdroid_ und _apt.izzysoft.de/fdroid_ wurden auf mögliche Janus-Exploits durchsucht, und es wurden keine gefunden.  Der größte Schutz von _f-droid.org_ gegen Schadsoftware ist die Notwendigkeit, dass alles aus der Quelle hergestellt werden muss, Menschen alle Apps, die hinzugefügt werden, überprüfen, und für immer ein Source-Tarball für jede Version gespeichert wird.  Exploit-Schreiber möchten den Quelltext für ihre Schadsoftware nicht aus den Händen geben, noch ihre Aktivitäten permanent in _git_ protokolliert haben, somit hält dieses Vorgehen sie fern.  In seiner 7-jährigen Tätigkeit wurden bei _f-droid.org_ noch keine Schadprogramme gefunden."
 
 #. type: Plain text
 #: build/_posts/md/2017-12-13-fdroid-and-janus.md
 msgid "F-Droid is also an open ecosystem, that means many people are getting apps from other sources.  For that reason, we are working to add Janus detection to the F-Droid Android client app.  When an APK with a Janus exploit is found, it will prompt the user to uninstall it in the \"Updates\" tab.  If an APK with a Janus exploit is downloaded from a repo that has allowed it in, it will be blocked from being installed."
-msgstr ""
+msgstr "F-Droid ist auch ein offenes Ökosystem, das bedeutet, viele Leute beziehen Apps aus weiteren Quellen. Aus diesem Grund arbeiten wir daran, die F-Droid-App durch eine Janus-Erkennung zu ergänzen. Wenn eine APK mit einem Janus-Exploit entdeckt wird, wird die Erkennung den Anwender auf der \"Updates\"-Seite dazu auffordern, diese zu deinstallieren. Sollte eine APK mit einem Janus-Exploit aus einem Repo, das es eingelassen hat, heruntergeladen werden, wird die Erkennung die Durchführung einer Installation blockieren."
 
 #. type: Plain text
 #: build/_posts/md/2017-12-13-fdroid-and-janus.md
