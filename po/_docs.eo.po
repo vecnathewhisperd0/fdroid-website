@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-02-12 17:42+0100\nPO-Revision-Date: 2018-02-19 15:36+0000\nLast-Translator: Verdulo <tomek@disroot.org>\nLanguage-Team: Esperanto <https://hosted.weblate.org/projects/f-droid/website-docs/eo/>\nLanguage: eo\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.19\n"
+msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-02-12 17:42+0100\nPO-Revision-Date: 2018-02-22 21:35+0000\nLast-Translator: Verdulo <tomek@disroot.org>\nLanguage-Team: Esperanto <https://hosted.weblate.org/projects/f-droid/website-docs/eo/>\nLanguage: eo\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.20-dev\n"
 
 #. type: Title #
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -55,7 +55,7 @@ msgstr "Unu grava rimarko: danĝeraj kaj sennecesaj metadatumoj estas senigataj 
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
 #, no-wrap
 msgid "In the app's source repository"
-msgstr "en la fontkod-deponejo de la aplikaĵo"
+msgstr "En la fontkod-deponejo de la aplikaĵo"
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -81,7 +81,7 @@ msgstr "Alia grava rimarko estas, ke tekstoj en la dosiero de aplikaĵaj metadat
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
 #, no-wrap
 msgid "In the app's build metadata in an _fdroiddata_ collection"
-msgstr "en kompilaj metadatumoj de la aplikaĵo en kolekto _fdroiddata_"
+msgstr "En kompilaj metadatumoj de la aplikaĵo en kolekto _fdroiddata_"
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -150,7 +150,7 @@ msgstr "* .../ToGoZip/app/...\n  * la fontkodo por la aplikaĵo ToGoZip\n* [.../
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
 #, no-wrap
 msgid "Directly in the F-Droid repo"
-msgstr "senpere en la deponejo F-Droid"
+msgstr "Senpere en la deponejo F-Droid"
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
