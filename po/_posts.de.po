@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-02-12 17:11+0100\nPO-Revision-Date: 2018-02-22 20:10+0000\nLast-Translator: Claus Rüdinger <Mail-an-CR@web.de>\nLanguage-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\nLanguage: de\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.20-dev\n"
+msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-02-12 17:11+0100\nPO-Revision-Date: 2018-02-22 20:15+0000\nLast-Translator: anonymous <>\nLanguage-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\nLanguage: de\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.20-dev\n"
 
 #. type: Title #
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md
@@ -725,7 +725,7 @@ msgstr "Außerdem, _apksigner_ ist besser bei der Überprüfung von APK-Signatur
 #. type: Plain text
 #: build/_posts/md/2017-12-13-fdroid-and-janus.md
 msgid "So we can safely say that it would be difficult to inadvertently put a Janus exploit in an F-Droid repo.  And with the new protections in the Android client app, a repo cannot force the user to install one."
-msgstr ""
+msgstr "Somit können wir sicher sagen, dass es schwierig wäre, ein Janus-Exploit versehentlich in eine F-Droid-Repo einzuschleusen.  Und mit den neuen Schutzmechanismen in der Android-App kann ein Repo den Anwender nicht dazu zwingen, eines zu installieren."
 
 #. type: Title #
 #: build/_posts/md/2017-12-14-new-collaborations-on-exposing-tracking.md
@@ -767,7 +767,7 @@ msgstr "\"Bevorstehendes Sicherheitsaudit\""
 #. type: Plain text
 #: build/_posts/md/2018-01-20-upcoming-security-audit.md
 msgid "We have started the process of the second security audit of the F-Droid setup.  The audit will be conducted by [Radically Open Security](https://www.radicallyopensecurity.com), which is a natural partner for F-Droid since they share our focus on free software and open processes.  Once we receive the results and have addressed any issues found, we will publish the full, unedited audit report here.  Thanks to [Open Tech Fund](https://opentech.fund)  for covering the costs of hiring the auditor."
-msgstr ""
+msgstr "Wir haben mit der Durchführung des zweiten Sicherheitsaudits des F-Droid-Aufbaus begonnen. Das Audit wird von  [Radically Open Security](https://www.radicallyopensecurity.com) geleitet werden, das naturgemäßer Partner von F-Droid sind, da sie unseren Schwerpunkt auf freie Software und offene Abläufe teilen. Sobald wir die Ergebnisse erhalten und uns mit irgendwelchen gefundenen Problemen befasst haben, werden wir den vollständigen, ungeänderten Auditbericht hier veröffentlichen.  Dank gebührt [Open Tech Fund](https://opentech.fund)  für die Übernahme der Kosten für den Auditorlohn."
 
 #. type: Plain text
 #: build/_posts/md/2018-01-20-upcoming-security-audit.md
