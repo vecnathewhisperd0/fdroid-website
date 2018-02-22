@@ -2,19 +2,19 @@
     "misc": {
         "step_x": "Paŝo [number]",
         "step_x_description": "Paŝo [number]: [description]",
+        "option_x_description": "Maniero [number]: [description]",
         "overview": {
             "tutorial_x_title": "Gvidilo [number]: [title]",
-            "summary": "F-Droid estas sendependa, povigata de komunumo aplikaĵ-vendejo por Androido, kiu estas tute libera kaj malfermkoda programaro. Per F-Droid vi povas foliumi tra pli ol 1200 malfermkodaj aplikaĵoj, serĉi kaj instali aplikaĵojn el kreitaj deponejoj aŭ eĉ krei vian propran deponejon. Malfermu la retejon f-droid.org ĉe via Androida telefono por komenci!",
-            "title": "Kion mi povas fari per F-Droid?"
-        },
-        "option_x_description": "Maniero [number]: [description]"
+            "title": "Kion mi povas fari per F-Droid?",
+            "summary": "F-Droid estas sendependa, povigata de komunumo aplikaĵ-vendejo por Androido, kiu estas tute libera kaj malfermkoda programaro. Per F-Droid vi povas foliumi tra pli ol 1200 malfermkodaj aplikaĵoj, serĉi kaj instali aplikaĵojn el kreitaj deponejoj aŭ eĉ krei vian propran deponejon. Malfermu la retejon f-droid.org ĉe via Androida telefono por komenci!"
+        }
     },
     "add_repo": {
-        "no_internet": "Seninterrete? Tio ne gravas. Sciigu pri <a href=\"../swap/\">kiel sendi kaj ricevi aplikaĵojn seniterrete</a>.",
+        "no_internet": "Seninterrete? Tio ne gravas. Sciiĝi pri <a href=\"../swap/\">kiel sendi kaj ricevi aplikaĵojn seniterrete</a>.",
         "title": "Kiel aldoni deponejon al F-Droid",
         "overview": {
-            "summary": "Por havigi pli, aldonu deponejon al F-Droid. Deponejo estas kolekto da prizorgata enhavo. Vi povas sciigi pri deponejoj de aliaj homoj per ili mem. Programistoj ofte ligas al iliaj F-Droid-deponejoj ĉe iliaj retejoj. Oni kunhavigas ligilojn al deponejoj per retpoŝto, Facebook aŭ Twitter.",
-            "title": "Akiri pli da enhavo."
+            "title": "Akiri pli da enhavo.",
+            "summary": "Por havigi pli, aldonu deponejon al F-Droid. Deponejo estas kolekto da prizorgata enhavo. Vi povas sciiĝi pri deponejoj de aliaj homoj senpere de ili. Programistoj ofte ligas al iliaj F-Droid-deponejoj ĉe iliaj retejoj. Oni kunhavigas ligilojn al deponejoj per retpoŝto, Facebook aŭ Twitter."
         },
         "scan_qr_code": {
             "related_tutorial": "Vi eble interesiĝus pri <a href=\"../swap/\">kiel sendi kaj ricevi aplikaĵojn seninterrete</a>.",
@@ -51,14 +51,14 @@
         "step_1": "Malfermu F-Droid. Frapetu “proksime” ĉe la menuo malsupre de ekrano.",
         "step_3": "Kiam homoj proksime estos trovitaj, kaj vi kaj la aliulo devas elekti unu la alian.",
         "step_2": "Frapetu “trovi proksimajn ulojn”. La aplikaĵo aŭtomate komencos serĉi.",
-        "step_5": "Frapetu la butonon “—>”.",
+        "step_5": "Frapetu la butonon “→”.",
         "step_4": "Kiam konektita, elektu aplikaĵojn por kunhavigi kun via amiko.",
-        "step_7": "Frapetu la butonon “instali” ĉe aplikaĵo, kiun vi volas instali.",
+        "step_7": "Frapetu la butonon “instali” apud la aplikaĵo, kiun vi volas instali.",
         "title": "Kiel sendi kaj ricevi aplikaĵojn sen interreta konekto",
         "step_9": "Kiam instalado finiĝos, viaj aplikaĵoj montriĝos en via Androido kaj en F-Droid en la sekcio instalitaj aplikaĵoj.",
         "overview": {
-            "summary": "Seninterrete? Neniu problemo. La proksima interŝanĝo de F-Droid ebligas al vi sendi kaj ricevi enhavon kun homoj en la sama ĉambro.",
-            "title": "Sendi kaj ricevi aplikaĵojn seninterrete."
+            "title": "Sendi kaj ricevi aplikaĵojn seninterrete.",
+            "summary": "Seninterrete? Neniu problemo. La proksima interŝanĝo de F-Droid ebligas al vi sendi kaj ricevi enhavon kun homoj en la sama ĉambro."
         },
         "step_6": "Aliulo estos petita pri konfirmi konekt-peton.",
         "all_devices_need_fdroid": "F-Droid devas esti elŝutita kaj instalita en ambaŭ aparatojn antaŭ komenci. Ĉe ambaŭ aparatoj plenumu la paŝojn priskribitajn sube.",
@@ -81,8 +81,8 @@
         },
         "title": "Kiel krei deponejon",
         "overview": {
-            "summary": "Kreu viajn propran alĝustigitan deponejon de aplikaĵoj. Uzu F-Droid por distribui enhavon. Instruistoj uzas deponejojn por facile kunhavigi enhavon kaj aplikaĵojn kun partoprenantoj dum lernado, kiam fidinda konekto mankas. Programistoj uzas deponejojn por distribui siajn aplikaĵojn al malvastaj grupoj de uzantoj.",
-            "title": "Aldoni viajn proprajn aplikaĵojn kaj dosierojn."
+            "title": "Aldoni viajn proprajn aplikaĵojn kaj dosierojn.",
+            "summary": "Kreu viajn propran alĝustigitan deponejon de aplikaĵoj. Uzu F-Droid por distribui enhavon. Instruistoj uzas deponejojn por facile kunhavigi enhavon kaj aplikaĵojn kun partoprenantoj dum lernado, kiam fidinda konekto mankas. Programistoj uzas deponejojn por distribui siajn aplikaĵojn al malvastaj grupoj de uzantoj."
         },
         "share_repo": {
             "steps": {
