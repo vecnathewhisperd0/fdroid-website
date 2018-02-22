@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-02-12 17:11+0100\nPO-Revision-Date: 2018-02-22 20:06+0000\nLast-Translator: Claus Rüdinger <Mail-an-CR@web.de>\nLanguage-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\nLanguage: de\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.20-dev\n"
+msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-02-12 17:11+0100\nPO-Revision-Date: 2018-02-22 20:09+0000\nLast-Translator: anonymous <>\nLanguage-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\nLanguage: de\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.20-dev\n"
 
 #. type: Title #
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md
@@ -715,12 +715,12 @@ msgstr "F-Droid ist auch ein offenes Ökosystem, das bedeutet, viele Leute bezie
 #. type: Plain text
 #: build/_posts/md/2017-12-13-fdroid-and-janus.md
 msgid "There is also some random good news: it turns out that none of the about 10 Janus examples we have can pass `fdroid update`.  Most of them failed to verify when `fdroid update` calls `aapt dump badging`.  The one file that passed those tests was the publicly released [Janus demo APK](https://www.androidpolice.com/wp-content/uploads/janus-poc/HelloWorld-Janus.apk).  But it had strange dates like `2042-14-03 00:62:15` in the ZIP entries, probably because of the tricks needed to assemble this DEX+ZIP file.  This triggered a crash in `fdroid update`, when parsing the date of _AndroidManifest.xml_.  Python complains that there is no 14th month.  This crash prevents the APK from being added to the repo. We have also added an [explicit block](https://gitlab.com/fdroid/fdroidserver/merge_requests/409)  for APKs trying to exploit Janus."
-msgstr ""
+msgstr "Ferner gibt es auch einige zufällige, gute Neuigkeiten: Es stellt sich heraus, dass keines, der ungefähr 10, existierenden Janusbeispiele `fdroid update` überwinden kann. Die meisten von ihnen scheiterten an der Überprüfung, wenn `fdroid update` `aapt dump badging` abruft.  Die einzige Datei, die an diesen Tests vorbeikam, war die öffentlich gemachte [Janus demo APK](https://www.androidpolice.com/wp-content/uploads/janus-poc/HelloWorld-Janus.apk).  Sie hatte jedoch merkwürdige Zeitwerte wie `2042-14-03 00:62:15` in den ZIP-Einträgen, wahrscheinlich wegen der Tricks, die nötig sind, um diese DEX+ZIP-Datei zusammenzufügen.  Dies löste einen Absturz in `fdroid update` bei der Analyse des Datums von _AndroidManifest.xml_ aus.  Python bemängelt, dass es keinen 14. Monat gibt. Dieser Absturz verhindert das Hinzufügen der APK zum Repo. Wir haben darüberhinaus eine [explizite Sperre](https://gitlab.com/fdroid/fdroidserver/merge_requests/409) für APKs eingefügt, die versuchen Janus auszunutzen."
 
 #. type: Plain text
 #: build/_posts/md/2017-12-13-fdroid-and-janus.md
 msgid "Also, _apksigner_ is better at verifying APK signatures, and many Janus examples failed.  If _apksigner_ is installed, then `fdroid build` uses it.  If an APK is signed with a v2 APK Signature, then things like Janus exploits are not possible.  So if you are working with APKs that you have not built from source, be sure to install _apksigner_."
-msgstr ""
+msgstr "Außerdem, _apksigner_ ist besser bei der Überprüfung von APK-Signaturen, und viele Janusangriffe schlugen fehl.  Wenn _apksigner_ installiert ist, dann verwendet es `fdroid build`.  Wenn eine APK mit einer v2-APK-Signatur signiert ist, sind Dinge wie Janus-Exploite nicht möglich. So sollten Sie bei Arbeiten mit APKs, die nicht aus der Quelle erstellt wurden, sicherheitshalber _apksigner_ installieren."
 
 #. type: Plain text
 #: build/_posts/md/2017-12-13-fdroid-and-janus.md
