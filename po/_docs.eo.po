@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-03-01 11:22+0100\n"
-"PO-Revision-Date: 2018-02-22 21:35+0000\n"
+"PO-Revision-Date: 2018-02-24 22:36+0000\n"
 "Last-Translator: Verdulo <tomek@disroot.org>\n"
 "Language-Team: Esperanto <https://hosted.weblate.org/projects/f-droid/website-docs/eo/>\n"
 "Language: eo\n"
@@ -3982,7 +3982,7 @@ msgstr "Ekde v0.59 la kliento F-Droid subtenas sendadon de informoj pri de depon
 #. type: Bullet: '1.  '
 #: build/_docs/md/FAQ_-_Client.md
 msgid "select **Repositories** in the menu on the main screen"
-msgstr "elektu **deponejoj**-n el la menuo de agordoj;"
+msgstr "elektu **deponejoj**n el la menuo de agordoj;"
 
 #. type: Bullet: '2.  '
 #: build/_docs/md/FAQ_-_Client.md
@@ -6601,9 +6601,8 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Reproducible_Builds.md
-#, fuzzy
 msgid "Also see: [Build Metadata Reference - Binaries](../Build_Metadata_Reference/#Binaries)"
-msgstr "[informoj pri kompilaj metadatumoj](../Build_Metadata_Reference/#Binaries) ĉio pri receptoj pri kompilo"
+msgstr "Ankaŭ legu: [informoj pri kompilaj metadatumoj](../Build_Metadata_Reference/#Binaries)"
 
 #. type: Title ###
 #: build/_docs/md/Reproducible_Builds.md
