@@ -4,7 +4,19 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-02-12 17:50+0100\nPO-Revision-Date: 2018-02-18 04:39+0000\nLast-Translator: Danial Behzadi <dani.behzi@ubuntu.com>\nLanguage-Team: Persian <https://hosted.weblate.org/projects/f-droid/website-pages/fa/>\nLanguage: fa\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n > 1;\nX-Generator: Weblate 2.19\n"
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: team@f-droid.org\n"
+"POT-Creation-Date: 2018-02-23 10:04+0100\n"
+"PO-Revision-Date: 2018-02-18 04:39+0000\n"
+"Last-Translator: Danial Behzadi <dani.behzi@ubuntu.com>\n"
+"Language-Team: Persian <https://hosted.weblate.org/projects/f-droid/website-pages/fa/>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 2.19\n"
 
 #. type: Title #
 #: build/_pages/md/403.md
@@ -122,6 +134,12 @@ msgstr "بن آرنولد"
 #: build/_pages/md/about.md
 msgid "Michele Azzolari"
 msgstr "میشل آزولاری"
+
+#. type: Bullet: '* '
+#: build/_pages/md/about.md
+#, fuzzy
+msgid "Danial Behzadi"
+msgstr "دنیل مارتی"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
@@ -745,7 +763,9 @@ msgstr "اکنون همهٔ این‌ها آسان‌تر شده است. با م
 msgid ""
 "[![]({{ site.baseurl }}/assets/repomaker-screenshots/repo-details.png)]({{ site.baseurl }}/assets/repomaker-screenshots/repo-details.png)<br/>\n"
 "*Your repo can serve all types of media*\n"
-msgstr "[![]({{ site.baseurl }}/assets/repomaker-screenshots/repo-details.png)]({{ site.baseurl }}/assets/repomaker-screenshots/repo-details.png)<br/>\n*مخازنتان می‌توانند شامل هرگونه رسانه‌ای باشند*\n"
+msgstr ""
+"[![]({{ site.baseurl }}/assets/repomaker-screenshots/repo-details.png)]({{ site.baseurl }}/assets/repomaker-screenshots/repo-details.png)<br/>\n"
+"*مخازنتان می‌توانند شامل هرگونه رسانه‌ای باشند*\n"
 
 #. type: Plain text
 #: build/_pages/md/repomaker.md
@@ -753,7 +773,9 @@ msgstr "[![]({{ site.baseurl }}/assets/repomaker-screenshots/repo-details.png)](
 msgid ""
 "[![]({{ site.baseurl }}/assets/repomaker-screenshots/package-details.png)]({{ site.baseurl }}/assets/repomaker-screenshots/package-details.png)<br/>\n"
 "*Editing your package store details never was easier*\n"
-msgstr "[![]({{ site.baseurl }}/assets/repomaker-screenshots/package-details.png)]({{ site.baseurl }}/assets/repomaker-screenshots/package-details.png)<br/>\n*ویرایش جزئیات فروشگاه بسته‌هایتان هرگز بدین آسانی نبوده*\n"
+msgstr ""
+"[![]({{ site.baseurl }}/assets/repomaker-screenshots/package-details.png)]({{ site.baseurl }}/assets/repomaker-screenshots/package-details.png)<br/>\n"
+"*ویرایش جزئیات فروشگاه بسته‌هایتان هرگز بدین آسانی نبوده*\n"
 
 #. type: Plain text
 #: build/_pages/md/repomaker.md
@@ -761,7 +783,9 @@ msgstr "[![]({{ site.baseurl }}/assets/repomaker-screenshots/package-details.png
 msgid ""
 "[![]({{ site.baseurl }}/assets/repomaker-screenshots/create-repo.png)]({{ site.baseurl }}/assets/repomaker-screenshots/create-repo.png)<br/>\n"
 "*Creating a repo just takes you two clicks*\n"
-msgstr "[![]({{ site.baseurl }}/assets/repomaker-screenshots/create-repo.png)]({{ site.baseurl }}/assets/repomaker-screenshots/create-repo.png)<br/>\n*ایجاد یک مخزن تنها به اندازهٔ دو کلیک کار می‌برد*\n"
+msgstr ""
+"[![]({{ site.baseurl }}/assets/repomaker-screenshots/create-repo.png)]({{ site.baseurl }}/assets/repomaker-screenshots/create-repo.png)<br/>\n"
+"*ایجاد یک مخزن تنها به اندازهٔ دو کلیک کار می‌برد*\n"
 
 #. type: Plain text
 #: build/_pages/md/repomaker.md
@@ -769,7 +793,9 @@ msgstr "[![]({{ site.baseurl }}/assets/repomaker-screenshots/create-repo.png)]({
 msgid ""
 "[![]({{ site.baseurl }}/assets/repomaker-screenshots/add-storage.png)]({{ site.baseurl }}/assets/repomaker-screenshots/add-storage.png)<br/>\n"
 "*You have many possibilities where to upload your repo*\n"
-msgstr "[![]({{ site.baseurl }}/assets/repomaker-screenshots/add-storage.png)]({{ site.baseurl }}/assets/repomaker-screenshots/add-storage.png)<br/>\n*امکانات بسیاری برای بارگذاری مخزنتان دارید*\n"
+msgstr ""
+"[![]({{ site.baseurl }}/assets/repomaker-screenshots/add-storage.png)]({{ site.baseurl }}/assets/repomaker-screenshots/add-storage.png)<br/>\n"
+"*امکانات بسیاری برای بارگذاری مخزنتان دارید*\n"
 
 #. type: Plain text
 #: build/_pages/md/repomaker.md

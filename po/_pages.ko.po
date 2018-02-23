@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
-"POT-Creation-Date: 2018-02-12 17:50+0100\n"
+"POT-Creation-Date: 2018-02-23 10:04+0100\n"
 "PO-Revision-Date: 2018-02-03 13:38+0000\n"
 "Last-Translator: Myeongjin Lee <aranet100@gmail.com>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/f-droid/website-docs/ko/>\n"
@@ -138,6 +138,12 @@ msgstr "벤 아놀드"
 #: build/_pages/md/about.md
 msgid "Michele Azzolari"
 msgstr "미셸 아졸라리"
+
+#. type: Bullet: '* '
+#: build/_pages/md/about.md
+#, fuzzy
+msgid "Danial Behzadi"
+msgstr "다니엘 마르티"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
