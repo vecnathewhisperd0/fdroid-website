@@ -228,7 +228,7 @@ msgstr "Dies ist eine der vielen Verbesserungen, die 2017 im umfassenden F-Droid
 #: build/_posts/md/2017-06-01-announcing-new-libraries-f-droid-update-channels.md
 #, no-wrap
 msgid "\"Announcing new libraries: F-Droid Update Channels\""
-msgstr "„Ankündigung neuer Bibliotheken: F-Droid Update-Kanäle”"
+msgstr "\"Ankündigung neuer Bibliotheken: F-Droid Update-Kanäle\""
 
 #. type: Plain text
 #: build/_posts/md/2017-06-01-announcing-new-libraries-f-droid-update-channels.md
