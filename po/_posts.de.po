@@ -1,3 +1,18 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
 # SOME DESCRIPTIVE TITLE
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
@@ -8,7 +23,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-03-05 10:57+0100\n"
-"PO-Revision-Date: 2018-02-23 08:58+0000\n"
+"PO-Revision-Date: 2018-02-25 17:37+0000\n"
 "Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\n"
 "Language: de\n"
@@ -755,7 +770,7 @@ msgstr "F-Droid ist auch ein offenes Ökosystem, das bedeutet, viele Leute bezie
 #. type: Plain text
 #: build/_posts/md/2017-12-13-fdroid-and-janus.md
 msgid "There is also some random good news: it turns out that none of the about 10 Janus examples we have can pass `fdroid update`.  Most of them failed to verify when `fdroid update` calls `aapt dump badging`.  The one file that passed those tests was the publicly released [Janus demo APK](https://www.androidpolice.com/wp-content/uploads/janus-poc/HelloWorld-Janus.apk).  But it had strange dates like `2042-14-03 00:62:15` in the ZIP entries, probably because of the tricks needed to assemble this DEX+ZIP file.  This triggered a crash in `fdroid update`, when parsing the date of _AndroidManifest.xml_.  Python complains that there is no 14th month.  This crash prevents the APK from being added to the repo. We have also added an [explicit block](https://gitlab.com/fdroid/fdroidserver/merge_requests/409)  for APKs trying to exploit Janus."
-msgstr "Ferner gibt es auch einige zufällige, gute Neuigkeiten: Es stellt sich heraus, dass keines, der ungefähr 10, existierenden Janusbeispiele `fdroid update` überwinden kann. Die meisten von ihnen scheiterten an der Überprüfung, wenn `fdroid update` `aapt dump badging` abruft.  Die einzige Datei, die an diesen Tests vorbeikam, war die öffentlich gemachte [Janus demo APK](https://www.androidpolice.com/wp-content/uploads/janus-poc/HelloWorld-Janus.apk).  Sie hatte jedoch merkwürdige Zeitwerte wie `2042-14-03 00:62:15` in den ZIP-Einträgen, wahrscheinlich wegen der Tricks, die nötig sind, um diese DEX+ZIP-Datei zusammenzufügen.  Dies löste einen Absturz in `fdroid update` bei der Analyse des Datums von _AndroidManifest.xml_ aus.  Python bemängelt, dass es keinen 14. Monat gibt. Dieser Absturz verhindert das Hinzufügen der APK zum Repo. Wir haben darüberhinaus eine [explizite Sperre](https://gitlab.com/fdroid/fdroidserver/merge_requests/409) für APKs eingefügt, die versuchen Janus auszunutzen."
+msgstr "Ferner gibt es auch einige zufällige, gute Neuigkeiten: Es stellt sich heraus, dass keines, der ungefähr 10 existierenden Janusbeispiele `fdroid update` überwinden kann. Die meisten von ihnen scheiterten an der Überprüfung, wenn `fdroid update` `aapt dump badging` abruft.  Die einzige Datei, die an diesen Tests vorbeikam, war die öffentlich gemachte [Janus Demo APK](https://www.androidpolice.com/wp-content/uploads/janus-poc/HelloWorld-Janus.apk).  Sie hatte jedoch merkwürdige Zeitwerte wie `2042-14-03 00:62:15` in den ZIP-Einträgen, wahrscheinlich wegen der Tricks, die nötig sind, um diese DEX+ZIP-Datei zusammenzufügen.  Dies löste einen Absturz in `fdroid update` bei der Analyse des Datums von _AndroidManifest.xml_ aus.  Python bemängelt, dass es keinen 14. Monat gibt. Dieser Absturz verhindert das Hinzufügen der APK zum Repo. Wir haben darüberhinaus eine [explizite Sperre](https://gitlab.com/fdroid/fdroidserver/merge_requests/409) für APKs eingefügt, die versuchen Janus auszunutzen."
 
 #. type: Plain text
 #: build/_posts/md/2017-12-13-fdroid-and-janus.md
@@ -823,27 +838,27 @@ msgstr "Rückblick auf das erste Sicherheitsaudit"
 #. type: Plain text
 #: build/_posts/md/2018-01-20-upcoming-security-audit.md
 msgid "We received an [external audit](https://cure53.de/pentest-report_fdroid.pdf) in 2015 from Cure53, provided by the [Open Tech Fund](https://opentech.fund). This was the first full security audit of the core security practices of F-Droid.  On top of the core, the focus on the audit was on the new, experimental features that opened up F-Droid as an ecosystem, moving away from the central server model."
-msgstr ""
+msgstr "Wir erhielten ein [externes Audit](https://cure53.de/pentest-report_fdroid.pdf) im Jahr 2015 von Cure53, unterstützt durch den [Open Tech Fund](https://opentech.fund). Dies war das erste komplette Sicherheitsaudit der Kernschutzvorkehrungen von F-Droid.  Über den Kern hinaus, galt bei dem Audit das Hauptaugenmerk den neuen, experimentellen Bestandteilen, die F-Droid als Ökosystem, das sich vom Modell eines zentralen Servers wegbewegt, erschlossen."
 
 #. type: Plain text
 #: build/_posts/md/2018-01-20-upcoming-security-audit.md
 msgid "This audit confirmed the security of core pieces, as listed on the top of this page.  That is a little hard to see since the report only discussed the vulnerabilities that were discovered.  This audit did find critical issues in the website, opt-in beta features, and some minor features like `fdroid import`, which is only used by a couple of people and never on core infrastructure.  It is important to note that the website issues never meant that getting apps via the Android client app was affected.  Most importantly, all of the security issues were fixed.  The audit also demonstrated that building a system with user-generated inputs is hard to fully secure.  Our focus is removing anything that opens up attack vectors to the external data sources like app source repos."
-msgstr ""
+msgstr "Das Audit bestätigte die Sicherheit der Kernstücke, wie oben auf dieser Seite aufgezählt. Das ist ein wenig schwer zu erkennen, da nur die entdeckten Sicherheitsrisiken erörtert werden. Dieses Audit fand kritische Probleme auf der Internetseite, Opt-in-Eigenschaften zu Betas und einige weniger wichtige Funktionen, wie `fdroid import`, die nur von wenigen Leuten genutzt werden und niemals in der Kerninfrastruktur. Es ist wichtig festzustellen, dass die Probleme auf der Internetseite nicht bedeuteten, dass der Bezug von Apps über die Android-App davon betroffen war. Am allerwichtigsten, sämtliche Sicherheitsprobleme wurden behoben. Das Audit demonstrierte auch, dass der Aufbau eines Systems mit von Anwendern erzeugten Beiträgen kaum vollständig abzusichern ist. Unser Augenmerk gilt der Entfernung von allem, was Angriffsvektoren auf die externen Datenquellen, wie die App-Quellrepos, eröffnet."
 
 #. type: Plain text
 #: build/_posts/md/2018-01-20-upcoming-security-audit.md
 msgid "The normal way of using F-Droid was not affected.  For example, regarding _BZ-01-004 Command Injection Flaw_, the root-based installation method was marked experimental, not widely used, and removed around not long after the report came out. The _BZ-01-002_ and _BZ-01-003_ TOFU issues never applied to the default app repos since the repo keys are built into the client app."
-msgstr ""
+msgstr "Die normale Nutzungsart von F-Droid war nicht beeinträchtigt. Betrachtet man beispielsweise  _BZ-01-004 Command Injection Flaw_, die root-basierte Installationsmethode war als experimentell gekennzeichnet, nicht weit verbreitet und wurde nach nicht allzu langer Zeit nach Erscheinen des Berichts entfernt..Die _BZ-01-002_ und _BZ-01-003_ TOFU-Probleme betrafen nie die Standard-App-Repos, da die Reposchlüssel im Client eingebaut sind."
 
 #. type: Plain text
 #: build/_posts/md/2018-01-20-upcoming-security-audit.md
 msgid "The serious issues that affected the ecosystem where:"
-msgstr ""
+msgstr "Wo ernsthafte Probleme das Ökosystem beeinträchtigten:"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-01-20-upcoming-security-audit.md
 msgid "BZ-01-005 App with WES Permission can replace APKs before Installation (_fixed_)"
-msgstr ""
+msgstr "BZ-01-005 App mit WES-Berechtigung kann vor Installation APKs ersetzen (_behoben_)"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-01-20-upcoming-security-audit.md
