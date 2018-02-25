@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-03-01 11:22+0100\n"
-"PO-Revision-Date: 2018-02-20 23:36+0000\n"
+"PO-Revision-Date: 2018-02-26 20:35+0000\n"
 "Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-docs/de/>\n"
 "Language: de\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.19.1\n"
+"X-Generator: Weblate 2.20-dev\n"
 
 #. type: Title #
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -1317,7 +1317,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "`timeout=<seconds>`\n"
-msgstr ""
+msgstr "`timeout=<seconds>`\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -7843,9 +7843,8 @@ msgstr "Übersetzung und Lokalisation"
 
 #. type: Plain text
 #: build/_docs/md/Translation_and_Localization.md
-#, fuzzy
 msgid "As of release 0.103 of the F-Droid client app, there is now full support for localization.  That means that all of the texts can be translated into any language.  F-Droid will also use localized formats for numbers, currency, dates, etc. which happens automatically based on the language and country specified in the device's settings."
-msgstr "Mit der Veröffentlichung von 0.103 der F-Droid-App besteht die volle Unterstützung zur Lokalisation. Das bedeutet, dass alle Texte in jede Sprache übersetzt werden können. Außerdem wird F-Droid automatisch, nach den Geräteeinstellungen für Sprache und Land, länderspezifische Formate für Zahlen, Geld-, Datumswerte usw. verwenden."
+msgstr "Mit der Version 0.103 der F-Droid-App gibt es eine vollständige Unterstützung zur Lokalisation. Das bedeutet, dass alle Texte in jede Sprache übersetzt werden können. Außerdem wird F-Droid automatisch, nach den Geräteeinstellungen für Sprache und Land, länderspezifische Formate für Zahlen, Geld-, Datumswerte usw. verwenden."
 
 #. type: Plain text
 #: build/_docs/md/Translation_and_Localization.md
@@ -7854,27 +7853,23 @@ msgstr "Es gibt eine Reihe von abgetrennten Bereichen, die, aufgrund technischer
 
 #. type: Bullet: '* '
 #: build/_docs/md/Translation_and_Localization.md
-#, fuzzy
 msgid "[F-Droid Android app strings](https://hosted.weblate.org/projects/f-droid/f-droid)"
-msgstr "[F-Droid Android App Strings](https://hosted.weblate.org/projects/f-droid/f-droid/)"
+msgstr "[F-Droid-App-Zeichenketten](https://hosted.weblate.org/projects/f-droid/f-droid/)"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Translation_and_Localization.md
-#, fuzzy
 msgid "[_fdroidserver_ command line tool](https://hosted.weblate.org/projects/f-droid/fdroidserver)"
-msgstr "[F-Droid Android App Strings](https://hosted.weblate.org/projects/f-droid/f-droid/)"
+msgstr "[_fdroidserver_-Kommendozeilenwerkzeug](https://hosted.weblate.org/projects/f-droid/fdroidserver)"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Translation_and_Localization.md
-#, fuzzy
 msgid "[_Repomaker_ web tool](https://hosted.weblate.org/projects/f-droid/repomaker)"
-msgstr "[F-Droid Android App Strings](https://hosted.weblate.org/projects/f-droid/f-droid/)"
+msgstr "[_Repomaker_-Web-Tool](https://hosted.weblate.org/projects/f-droid/repomaker)"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Translation_and_Localization.md
-#, fuzzy
 msgid "[selected app descriptions](https://hosted.weblate.org/projects/f-droid/fdroiddata)"
-msgstr "[F-Droid Android App Strings](https://hosted.weblate.org/projects/f-droid/f-droid/)"
+msgstr "[Ausgewählte App-Beschreibungen](https://hosted.weblate.org/projects/f-droid/fdroiddata)"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Translation_and_Localization.md
@@ -7884,15 +7879,13 @@ msgstr "[F-Droid Android App Strings](https://hosted.weblate.org/projects/f-droi
 
 #. type: Bullet: '* '
 #: build/_docs/md/Translation_and_Localization.md
-#, fuzzy
 msgid "[f-droid.org website blog posts](https://hosted.weblate.org/projects/f-droid/website-posts)"
-msgstr "[F-Droid Android App Strings](https://hosted.weblate.org/projects/f-droid/f-droid/)"
+msgstr "[f-droid.org-Neuigkeitenseite](https://hosted.weblate.org/projects/f-droid/website-posts)"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Translation_and_Localization.md
-#, fuzzy
 msgid "[f-droid.org website docs and pages](https://hosted.weblate.org/projects/f-droid/website-docs)"
-msgstr "[F-Droid Android App Strings](https://hosted.weblate.org/projects/f-droid/f-droid/)"
+msgstr "[f-droid.org-Website, Dokumentation und Seiten](https://hosted.weblate.org/projects/f-droid/website-docs)"
 
 #. type: Plain text
 #: build/_docs/md/Translation_and_Localization.md
@@ -7925,12 +7918,12 @@ msgstr "Gibt es F-Droid nicht in Ihrer Sprache oder ist die Übersetzung fehlerh
 #: build/_docs/md/Translation_and_Localization.md
 #, no-wrap
 msgid "Adding a new language"
-msgstr ""
+msgstr "Eine neue Sprache hinzufügen"
 
 #. type: Plain text
 #: build/_docs/md/Translation_and_Localization.md
 msgid "First and foremost, Android must already support the specific language and locale you want to add.  We cannot work with languages that Android and the SDK do not support, the tools simply break down.  Next, if you are considering adding a country-specific variant of a language (e.g. _de-AT_), first make sure that the main language is well maintained (e.g. _de_). Your contribution might be useful to more people if you contribute to the main language rather than the country-specific variant."
-msgstr ""
+msgstr "Zuerst und vor allem, Android muss die spezielle Sprache und Lokalisation, die Sie hinzufügen möchten, bereits unterstützen. Wir können nicht mit Sprachen arbeiten, die nicht von Android oder dem SDK unterstützt werden, die Instrumente werden schlicht versagen. Als nächstes, wenn Sie beabsichtigen eine landesspezifische Variante einer Sprache zu ergänzen (z. B. _de-AT_), stellen Sie zunächst sicher, dass die Hauptsprache (z. B. _de_) gut gepflegt ist. Ihr Beitrag kann möglicherweise für mehr Menschen von Nutzen sein, wenn Sie eher an der Hauptsprache mitwirken als an der landesspezifischen Variante."
 
 #. type: Plain text
 #: build/_docs/md/Translation_and_Localization.md
