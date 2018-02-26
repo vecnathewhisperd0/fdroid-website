@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-02-23 10:04+0100\nPO-Revision-Date: 2018-02-23 21:45+0000\nLast-Translator: Verdulo <tomek@disroot.org>\nLanguage-Team: Esperanto <https://hosted.weblate.org/projects/f-droid/website-pages/eo/>\nLanguage: eo\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.20-dev\n"
+msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-02-23 10:04+0100\nPO-Revision-Date: 2018-02-26 20:35+0000\nLast-Translator: Verdulo <tomek@disroot.org>\nLanguage-Team: Esperanto <https://hosted.weblate.org/projects/f-droid/website-pages/eo/>\nLanguage: eo\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.20-dev\n"
 
 #. type: Title #
 #: build/_pages/md/403.md
@@ -501,7 +501,7 @@ msgstr "Helpi programi"
 #. type: Plain text
 #: build/_pages/md/contribute.md
 msgid "There are four git repositories hosted at GitLab – one for the [Android client application](https://gitlab.com/fdroid/fdroidclient), one for the [server tools](https://gitlab.com/fdroid/fdroidserver) for running a repository and building/installing applications locally, and one for the associated [metadata files for applications in the main F-Droid repository](https://gitlab.com/fdroid/fdroiddata).  The last repo is handling [website and documentation](https://gitlab.com/fdroid/fdroid-website).  The easiest way to contribute to development is to make clones of these projects and submit merge requests.  If you are making large changes, it would be good to discuss them on IRC or in the forum first, to ensure they fit with the direction of the project, and do not clash with or duplicate work already in development."
-msgstr "Estas kvar git-deponejoj gastigataj ĉe GitLab – unu por la [klienta aplikaĵo por Android](https://gitlab.com/fdroid/fdroidclient), alia por [servila ilaro](https://gitlab.com/fdroid/fdroidserver) por lanĉi deponejon kaj kompili/instali aplikaĵojn loke, alia por rilataj [metadatumoj pri aplikaĵoj en la ĉefa deponejo de F-Droid](https://gitlab.com/fdroid/fdroiddata). La lasta deponejo temas pri [retejo kaj dokumentaro](https://gitlab.com/fdroid/fdroid-website). La plej facila maniero por kontribui disvolvadon estas fari kopion de tiuj deponejoj kaj enmeti ŝanĝojn. Se vi faras seriozajn ŝanĝojn, estus bone pridiskuti ilin ĉe IRC aŭ en la forumo por certiĝi, ke ili kongruas kun la projektcelo aŭ ne kolizias aŭ duobligas laboron de aliaj programistoj."
+msgstr "Estas kvar git-deponejoj gastigataj ĉe GitLab – unu por la [klienta aplikaĵo por Android](https://gitlab.com/fdroid/fdroidclient), alia por [servila ilaro](https://gitlab.com/fdroid/fdroidserver) por lanĉi deponejon kaj kompili/instali aplikaĵojn loke, alia por rilataj [metadatumoj pri aplikaĵoj en la ĉefa deponejo de F-Droid](https://gitlab.com/fdroid/fdroiddata). La lasta deponejo temas pri [retejo kaj dokumentaro](https://gitlab.com/fdroid/fdroid-website). La plej facila maniero por kontribui evoluigadon estas fari kopion de tiuj deponejoj kaj enmeti ŝanĝojn. Se vi faras seriozajn ŝanĝojn, estus bone pridiskuti ilin ĉe IRC aŭ en la forumo por certiĝi, ke ili kongruas kun la projektcelo aŭ ne kolizias aŭ duobligas laboron de aliaj programistoj."
 
 #. type: Plain text
 #: build/_pages/md/contribute.md
@@ -517,7 +517,7 @@ msgstr "Dokumentaro"
 #. type: Plain text
 #: build/_pages/md/docs.md
 msgid "F-Droid is both a repository of verified free software Android apps as well as a whole \"app store kit\", providing all the tools needed to setup and run an app store. It is a community-run free software project developed by a wide range of contributors. It also includes complete build and release tools for managing the process of turning app source code into published builds."
-msgstr "F-Droid estas kaj deponejo de konfidindaj liberaj Androidaj aplikaĵoj kaj “deponej-ilaro” provizanta iloj por instali kaj administri aplikaĵ-vendejon. Ĝi estas liber-programara komunuma projekto disvolvigata de multege de kontribuantoj. Ĝi ankaŭ oferas plenan ilaron por administri operacion de transformi aplikaĵan fontkodon al publikig-pretaj kompilaĵoj."
+msgstr "F-Droid estas kaj deponejo de konfidindaj liberaj Androidaj aplikaĵoj kaj “deponej-ilaro” provizanta iloj por instali kaj administri aplikaĵ-vendejon. Ĝi estas liber-programara komunuma projekto evoluigata de multege da kontribuantoj. Ĝi ankaŭ oferas plenan ilaron por administri operacion de transformi aplikaĵan fontkodon al publikig-pretaj kompilaĵoj."
 
 #. type: Plain text
 #: build/_pages/md/docs.md
