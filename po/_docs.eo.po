@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-03-01 11:22+0100\n"
-"PO-Revision-Date: 2018-02-24 22:36+0000\n"
+"PO-Revision-Date: 2018-02-26 20:35+0000\n"
 "Last-Translator: Verdulo <tomek@disroot.org>\n"
 "Language-Team: Esperanto <https://hosted.weblate.org/projects/f-droid/website-docs/eo/>\n"
 "Language: eo\n"
@@ -4044,7 +4044,7 @@ msgstr "Kio estas la sekur-modelo uzata de F-Droid?"
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md
 msgid "The F-Droid security model started out with HTTPS connections and signed metadata. It has been evolving, inspired by [Debian](https://wiki.debian.org/SecureApt), [The Update Framework](https://github.com/theupdateframework/tuf/blob/develop/docs/tuf-spec.txt), and other things. You can read about details here: [Security Model](../Security_Model)."
-msgstr "La sekurec-modelo de F-Droid komenciĝis kun HTTPS-konektoj kaj subskribitaj metadatumoj. Ĝi estis disvolvigata inspirante laŭ [Debian](https://wiki.debian.org/SecureApt), [The Update Framework](https://github.com/theupdateframework/tuf/blob/develop/docs/tuf-spec.txt) kaj aliaj. Vi povas legi pri detaloj tie ĉi: [sekur-modelol](../Security_Model)."
+msgstr "La sekurec-modelo de F-Droid komenciĝis kun HTTPS-konektoj kaj subskribitaj metadatumoj. Ĝi estis evoluigata inspirante laŭ [Debian](https://wiki.debian.org/SecureApt), [The Update Framework](https://github.com/theupdateframework/tuf/blob/develop/docs/tuf-spec.txt) kaj aliaj. Vi povas legi pri detaloj tie ĉi: [sekur-modelol](../Security_Model)."
 
 #. type: Title #
 #: build/_docs/md/FAQ_-_General.md
@@ -4470,66 +4470,66 @@ msgstr ""
 #: build/_docs/md/How_to_Help.md
 #, no-wrap
 msgid "How to Help"
-msgstr ""
+msgstr "Kiel helpi"
 
 #. type: Plain text
 #: build/_docs/md/How_to_Help.md
 msgid "The project is entirely developed and maintained by volunteers. You can help in the following ways:"
-msgstr ""
+msgstr "Tiu ĉi projekto estas tute evoluigata kaj prizorgata de volontuloj. Vi povas helpi per la jenaj manieroj:"
 
 #. type: Title ###
 #: build/_docs/md/How_to_Help.md
 #, no-wrap
 msgid "Follow our work"
-msgstr ""
+msgstr "Sekvi nian progreson"
 
 #. type: Plain text
 #: build/_docs/md/How_to_Help.md
 msgid "The [Feeds](../Feeds) page lists the various sites that we work on."
-msgstr ""
+msgstr "La retpaĝo de [abon-fluoj](../Feeds) listigas diversajn lokojn kie ni pridiskutas laboron pri la projekto."
 
 #. type: Title ###
 #: build/_docs/md/How_to_Help.md
 #, no-wrap
 msgid "Report problems"
-msgstr ""
+msgstr "Raporti problemojn"
 
 #. type: Plain text
 #: build/_docs/md/How_to_Help.md
 msgid "If you experience problems with the site or client software, you can report them in the [issue tracker](https://gitlab.com/u/fdroid), discuss them in the [Forum](https://forum.f-droid.org/) or on IRC ([#fdroid on freenode](https://webchat.freenode.net/?randomnick=1&channels=%23fdroid&uio=MT1mYWxzZSYyPXRydWUmND10cnVlJjk9dHJ1ZSYxMD10cnVlJjEyPXRydWU84)).  Take a look at the [Repository Maintenance](https://f-droid.org/wiki/page/Repository_Maintenance)  page to see how you can help keeping apps and their metadata up to date."
-msgstr ""
+msgstr "Se vi spertas problemojn rilataj al la retejo aŭ la klienta aplikaĵo, vi povas raporti ilin per la [erar-spurilo](https://gitlab.com/u/fdroid|), pridiskuti ilin en la [forumo](https://forum.f-droid.org/) aŭ per IRC ([#fdroid ĉe freenode](https://webchat.freenode.net/?randomnick=1&channels=%23fdroid&uio=MT1mYWxzZSYyPXRydWUmND10cnVlJjk9dHJ1ZSYxMD10cnVlJjEyPXRydWU84)). Ekkonu kun la retpaĝo [prizorgi deponejon](https://f-droid.org/wiki/page/Repository_Maintenance) por sciigi kiel vi povas helpi igi aplikaĵojn kaj iliajn metadatumojn ĝisdataj."
 
 #. type: Plain text
 #: build/_docs/md/How_to_Help.md
 msgid "If you are reporting an issue with the client, [check out these pointers](../Client_Bug_Reports) to make sure we have the best chance of reproducing and fixing your issue."
-msgstr ""
+msgstr "Se vi raportas problemon pri la kliento, bonvolu [kontroli tiujn ĉi punktojn](../Client_Bug_Reports) por pliigi al ni ŝancon por resperti kaj ripari vian problemon."
 
 #. type: Title ###
 #: build/_docs/md/How_to_Help.md
 #, no-wrap
 msgid "Submit applications"
-msgstr ""
+msgstr "Aldoni aplikaĵojn"
 
 #. type: Plain text
 #: build/_docs/md/How_to_Help.md
 msgid "If you see an application missing from the repository that fits with the [Inclusion Policy](../Inclusion_Policy)), then [you can add that application](../Submitting_to_F-Droid_Quick_Start_Guide)  via a merge request.  Otherwise, to make a simple request, go to the dedicated [Requests for Packaging](https://gitlab.com/fdroid/rfp/issues)  tracker."
-msgstr ""
+msgstr "Se vi rigardas, ke iu aplikaĵo mankas en nia deponejo kaj ĝi kongruas kun la [politikon pri enmeto](../Inclusion_Policy)), vi povas [aldoni tiun aplikaĵon](../Submitting_to_F-Droid_Quick_Start_Guide) per kunfand-peto. Aŭ por simple peti pri ĝi, iru al la dediĉita erar-spurilo pri [petoj pri pakaĵo](https://gitlab.com/fdroid/rfp/issues)."
 
 #. type: Plain text
 #: build/_docs/md/How_to_Help.md
 msgid "Metadata may already be found there but it can always be improved. Often developers don't mark their releases well: you can ask them to use tags via an issue on their tracker, which will allow us to use an automatic check for new versions (and you can suggest a donation method while you're about it!). Another common task is the comparison of included libraries with official versions."
-msgstr ""
+msgstr "Metadatumoj povas troviĝi, tamen oni ĉiam povas ilin plibonigi. Ofte programistoj ne markas siajn eldonojn ĝuste: vi povas peti ilin pri etikedi ĉiujn versiojn, por ke ni povu aŭtomate kontroli pri novaj versioj (kaj vi povas sugesti rimedon por donaci al lia programo). Alia facila tasko estas kompari inkluzivitajn bibliotekojn kun oficialaj versioj."
 
 #. type: Plain text
 #: build/_docs/md/How_to_Help.md
 msgid "If you have the technical skills required, you can also put together the relevant metadata and submit a merge request to the git repository, which should speed up the inclusion of the application. See the [sticky thread](https://f-droid.org/forums/topic/adding-apps-with-git/)  at the top of that forum for more information."
-msgstr ""
+msgstr "Se vi havas necesajn teĥnikajn scipovoj, vi ankaŭ povas kolekti ĉiujn rilatajn metadatumojn kaj fari kunfand-peton al la git-deponejo, tio ĉi probable plirapidigos inkluzivon de la aplikaĵo. Legu [tiun ĉi diskuton](https://f-droid.org/forums/topic/adding-apps-with-git/) ĉe supre de la forumo por pli da informoj."
 
 #. type: Title ###
 #: build/_docs/md/How_to_Help.md
 #, no-wrap
 msgid "Update apps"
-msgstr ""
+msgstr "Ĝisdatigi aplikaĵojn"
 
 #. type: Plain text
 #: build/_docs/md/How_to_Help.md
