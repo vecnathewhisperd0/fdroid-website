@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-03-01 11:22+0100\n"
-"PO-Revision-Date: 2018-02-27 22:58+0000\n"
+"PO-Revision-Date: 2018-03-01 20:39+0000\n"
 "Last-Translator: Ramon PS <ramonporto92@hotmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/f-droid/website-docs/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -252,12 +252,12 @@ msgstr ""
 #. type: Bullet: '2.  '
 #: build/_docs/md/Building_Applications.md
 msgid "Run `fdroid build` to build any applications that are not already built."
-msgstr ""
+msgstr "Executar `fdroid build` para construir quaisquer aplicações que ainda não tenham sido construidas."
 
 #. type: Bullet: '3.  '
 #: build/_docs/md/Building_Applications.md
 msgid "Run `fdroid publish` to finalise packaging and sign any APKs that have been built."
-msgstr ""
+msgstr "Executar `fdroid publish` para finalizar o empacotamento e assinar quaisquer APKs que foram construidas."
 
 #. type: Title ###
 #: build/_docs/md/Building_Applications.md
