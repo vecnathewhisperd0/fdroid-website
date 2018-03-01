@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-03-01 11:22+0100\n"
-"PO-Revision-Date: 2018-02-27 22:58+0000\n"
+"PO-Revision-Date: 2018-03-02 09:48+0000\n"
 "Last-Translator: Verdulo <tomek@disroot.org>\n"
 "Language-Team: Esperanto <https://hosted.weblate.org/projects/f-droid/website-docs/eo/>\n"
 "Language: eo\n"
@@ -4555,54 +4555,54 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/How_to_Help.md
 msgid "There's a [dedicated forum section](https://forum.f-droid.org/c/translation)  for discussions about translation."
-msgstr ""
+msgstr "Estas [dediĉa sekcio en forumo](https://forum.f-droid.org/c/other-languages) por diskuti pri tradukoj."
 
 #. type: Title ###
 #: build/_docs/md/How_to_Help.md
 #, no-wrap
 msgid "Help with development"
-msgstr ""
+msgstr "Helpi evoluigi"
 
 #. type: Plain text
 #: build/_docs/md/How_to_Help.md
 msgid "There are three git repositories hosted at Gitlab, as follows:"
-msgstr ""
+msgstr "Estas tri git-deponejoj gastigataj ĉe GitLab:"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/How_to_Help.md
 msgid "Android client application - <https://gitlab.com/fdroid/fdroidclient> Issues suitable for new contributors are tagged [help-wanted](https://gitlab.com/fdroid/fdroidclient/issues?label_name=help-wanted)"
-msgstr ""
+msgstr "klient-aplikaĵo por Androido – <https://gitlab.com/fdroid/fdroidclient>, problemoj taŭgaj por novaj kontribuantoj estas etikeditaj per «[help-wanted](https://gitlab.com/fdroid/fdroidclient/issues?label_name=help-wanted)»"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/How_to_Help.md
 msgid "Server tools, for the tools for running a repository and building/installing applications locally - <https://gitlab.com/fdroid/fdroidserver>"
-msgstr ""
+msgstr "servil-ilaro, por iloj bezonataj por funkcii deponejon kaj kompili/instali aplikaĵojn loke – <https://gitlab.com/fdroid/fdroidserver>"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/How_to_Help.md
 msgid "Metadata files for applications in the main F-Droid repository - <https://gitlab.com/fdroid/fdroiddata>"
-msgstr ""
+msgstr "metadatumaj dosieroj por aplikaĵoj en la ĉefa deponejo F-Droid – <https://gitlab.com/fdroid/fdroiddata>"
 
 #. type: Plain text
 #: build/_docs/md/How_to_Help.md
 msgid "The easiest way to contribute to development is to make clones of these projects and submit merge requests. If you are making large changes, it would be good to discuss them on IRC or in the forum first, to ensure they fit with the direction of the project, and do not clash with or duplicate work already in development."
-msgstr ""
+msgstr "La plej facila rimedo por kontribui evoluigi estas fari klonojn de tiuj ĉi projektoj kaj fari kunfand-petojn. Se vi faras grandajn ŝanĝojn, estus bone unu pridiskuti ilin ĉe IRC aŭ forumo, por certigi, ke ili kongruas kun evolu-direkto de la projekto kaj ne kolizii kun aŭ duplikati jam faritan laboron."
 
 #. type: Plain text
 #: build/_docs/md/How_to_Help.md
 msgid "For working with the server project, it's a good idea to read [the docs](http://f-droid.org/docs/) and learn our [git workflow](https://f-droid.org/wiki/page/git_workflow)."
-msgstr ""
+msgstr "Pro labori kun la projekto de servilo, estas bone tralegi la [dokumentaron](http://f-droid.org/docs/) kaj ekkoni kun nia [git-laborfluo](https://f-droid.org/wiki/page/git_workflow)."
 
 #. type: Title ###
 #: build/_docs/md/How_to_Help.md
 #, no-wrap
 msgid "Design"
-msgstr ""
+msgstr "Aspekt-projekti"
 
 #. type: Plain text
 #: build/_docs/md/How_to_Help.md
 msgid "We'd love any contributions to make the project prettier and easier to use. If you are good at writing we are working on improving the [Home page](https://f-droid.org/wiki/page/Home_page). If you can design mockups the client developers could use your help. Post them to the issue tracker for [client](https://gitlab.com/fdroid/fdroidclient/issues) or the [website](https://gitlab.com/fdroid/fdroid-website/issues)."
-msgstr ""
+msgstr "Ni akceptas kontribuojn por igi la projekton pli bela kaj facila por uzi. Se vi estas sperta pri skribado, bonvolu helpi plibonigi nian [hejmpaĝon](https://f-droid.org/wiki/page/Home_page). Si vi scipovas pri projekti aplikaĵ-fasadon, programistoj de la klient-aplikaĵo povas uzi vian helpon. Publikigu viajn proponojn en la erar-spurilon de [kliento](https://gitlab.com/fdroid/fdroidclient/issues) aŭ de [retejo](https://gitlab.com/fdroid/fdroid-website/issues)."
 
 #. type: Title #
 #: build/_docs/md/How_to_update_an_app.md
