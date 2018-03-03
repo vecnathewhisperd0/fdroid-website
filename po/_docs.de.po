@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-03-01 11:22+0100\n"
-"PO-Revision-Date: 2018-03-02 09:48+0000\n"
+"PO-Revision-Date: 2018-03-03 10:09+0000\n"
 "Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-docs/de/>\n"
 "Language: de\n"
@@ -7911,7 +7911,7 @@ msgstr "Eine neue Sprache hinzufügen"
 #. type: Plain text
 #: build/_docs/md/Translation_and_Localization.md
 msgid "First and foremost, Android must already support the specific language and locale you want to add.  We cannot work with languages that Android and the SDK do not support, the tools simply break down.  Next, if you are considering adding a country-specific variant of a language (e.g. _de-AT_), first make sure that the main language is well maintained (e.g. _de_). Your contribution might be useful to more people if you contribute to the main language rather than the country-specific variant."
-msgstr "Zuerst und vor allem, Android muss die spezielle Sprache und Lokalisation, die Sie hinzufügen möchten, bereits unterstützen. Wir können nicht mit Sprachen arbeiten, die nicht von Android oder dem SDK unterstützt werden, die Instrumente werden schlicht versagen. Als nächstes, wenn Sie beabsichtigen eine landesspezifische Variante einer Sprache zu ergänzen (z. B. _de-AT_), stellen Sie zunächst sicher, dass die Hauptsprache (z. B. _de_) gut gepflegt ist. Ihr Beitrag kann möglicherweise für mehr Menschen von Nutzen sein, wenn Sie eher an der Hauptsprache mitwirken als an der landesspezifischen Variante."
+msgstr "Zuerst und vor allem muss Android die spezielle Sprache und Lokalisation, die Sie hinzufügen möchten, bereits unterstützen. Wir können nicht mit Sprachen arbeiten, die nicht von Android oder dem SDK unterstützt werden, die Instrumente werden schlicht versagen. Als nächstes, wenn Sie beabsichtigen eine landesspezifische Variante einer Sprache zu ergänzen (z. B. _de-AT_), stellen Sie zunächst sicher, dass die Hauptsprache (z. B. _de_) gut gepflegt ist. Ihr Beitrag kann möglicherweise für mehr Menschen von Nutzen sein, wenn Sie eher an der Hauptsprache mitwirken als an der landesspezifischen Variante."
 
 #. type: Plain text
 #: build/_docs/md/Translation_and_Localization.md
