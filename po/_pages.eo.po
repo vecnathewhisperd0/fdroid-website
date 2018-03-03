@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-02-23 10:04+0100\nPO-Revision-Date: 2018-02-26 20:35+0000\nLast-Translator: Verdulo <tomek@disroot.org>\nLanguage-Team: Esperanto <https://hosted.weblate.org/projects/f-droid/website-pages/eo/>\nLanguage: eo\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.20-dev\n"
+msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-02-23 10:04+0100\nPO-Revision-Date: 2018-03-04 09:37+0000\nLast-Translator: Verdulo <tomek@disroot.org>\nLanguage-Team: Esperanto <https://hosted.weblate.org/projects/f-droid/website-pages/eo/>\nLanguage: eo\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.20-dev\n"
 
 #. type: Title #
 #: build/_pages/md/403.md
@@ -54,7 +54,7 @@ msgstr "Vi povas diskuti pri F-Droid aŭ akiri helpon ĉe la [forumo](https://fo
 #: build/_pages/md/about.md
 #, no-wrap
 msgid "License"
-msgstr "Permesilo"
+msgstr "Permesiloj"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
@@ -742,7 +742,7 @@ msgstr "Pasintece kreado de deponejoj estis malfacila ĉar vi devis scii komanda
 #. type: Plain text
 #: build/_pages/md/repomaker.md
 msgid "This all got easier now: with Repomaker, you are able to create your own repo and do not need to have any special knowledge to do so. More information on how to install Repomaker coming soon!"
-msgstr "Tio ĉi estas nun pli facila: per Deponej-farilo vi povas krei vian propran deponejon kaj ne devas posedi specialan scion pri tio. Pli da informoj pri kiel instali la Deponej-farilon baldaŭ!"
+msgstr "Tio ĉi estas nun pli facila: per la Deponej-farilo vi povas krei vian propran deponejon kaj ne devas posedi specialan scion pri tio. Pli da informoj pri kiel instali la Deponej-farilon baldaŭ!"
 
 #. type: Plain text
 #: build/_pages/md/repomaker.md
@@ -787,7 +787,7 @@ msgstr ""
 #. type: Plain text
 #: build/_pages/md/repomaker.md
 msgid "Like any other project of F-Droid, Repomaker is free and open source software. You can find the source code and its license on [GitLab.com](https://gitlab.com/fdroid/repomaker)."
-msgstr "Same kiel aliaj projektoj de F-Droid, Deponej-farilo estas senpaga kaj malfermkoda programaro. Vi povas trovi la fontkodon kaj ĝian permesilon ĉe [GitLab.com](https://gitlab.com/fdroid/repomaker)."
+msgstr "Same kiel aliaj projektoj de F-Droid, la Deponej-farilo estas senpaga kaj malfermkoda programaro. Vi povas trovi la fontkodon kaj ĝian permesilon ĉe [GitLab.com](https://gitlab.com/fdroid/repomaker)."
 
 #~ msgid "All About Descriptions, Graphics, and Screenshots"
 #~ msgstr "Ĉio pri priskriboj, grafikaĵoj kaj ekranokopioj"
