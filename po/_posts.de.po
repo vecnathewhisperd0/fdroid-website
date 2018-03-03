@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-03-05 10:57+0100\n"
-"PO-Revision-Date: 2018-03-03 23:11+0000\n"
+"PO-Revision-Date: 2018-03-03 23:19+0000\n"
 "Last-Translator: anonymous <>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\n"
 "Language: de\n"
@@ -676,17 +676,17 @@ msgstr ""
 #. type: Bullet: '* '
 #: build/_posts/md/2017-10-10-fdroid-is-1.0.md
 msgid "[improve](https://gitlab.com/fdroid/fdroidserver/issues) the server side tools"
-msgstr ""
+msgstr "Die begleitenden Server-Werkzeuge [verbessern](https://gitlab.com/fdroid/fdroidserver/issues)"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2017-10-10-fdroid-is-1.0.md
 msgid "add [missing features](https://gitlab.com/fdroid/fdroidclient/issues) to the Android client"
-msgstr ""
+msgstr "[Fehlende Funktionen](https://gitlab.com/fdroid/fdroidclient/issues) im Android-Client ergänzen"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2017-10-10-fdroid-is-1.0.md
 msgid "make [Repomaker](https://gitlab.com/fdroid/repomaker/issues) work well on your platform"
-msgstr ""
+msgstr "[Repomaker](https://gitlab.com/fdroid/repomaker/issues) auf Ihrer Plattform zum Laufen bringen"
 
 #. type: Plain text
 #: build/_posts/md/2017-10-10-fdroid-is-1.0.md
@@ -697,17 +697,17 @@ msgstr ""
 #: build/_posts/md/2017-12-11-publishing-nightly-builds-with-gitlab-ci.md
 #, no-wrap
 msgid "\"Publishing a nightly builds repo with GitLab or Travis CI\""
-msgstr ""
+msgstr "\"Publikation eines Repos für Nightly Builds mithilfe GitLab oder Travis CI\""
 
 #. type: Plain text
 #: build/_posts/md/2017-12-11-publishing-nightly-builds-with-gitlab-ci.md
 msgid "Having users run \"nightly\" builds is a great way to get rapid feedback on current development activities.  One key way to get this kind of feedback is to make it as easy as possible for people to install the nightly builds, and to keep updated.  The F-Droid tools now let you automate this whole process for any app hosting on GitLab or GitHub, using a CI build service like gitlab-ci or Travis CI."
-msgstr ""
+msgstr "Anwender zu haben, die mit \"Nightly Builds\" arbeiten, ist eine großartige Möglichkeit, ein schnelles Feedback zu den laufenden Entwicklungsleistungen zu erhalten. Ein entscheidender Punkt, eine derartige Rückmeldung zu bekommen, ist dabei, dass es den Leuten so einfach wie möglich gemacht wird, die Nightly Builds zu installieren und sie auf dem neusten Stand zu halten. Die F-Droid-Instrumente ermöglichen es jetzt, den gesamten Vorgang für jede App zu automatisieren, die auf GitLab oder GitHub gehostet ist, indem ein CI Build Service, wie gitlab-ci oder Travis CI, verwendet wird."
 
 #. type: Plain text
 #: build/_posts/md/2017-12-11-publishing-nightly-builds-with-gitlab-ci.md
 msgid "The new `fdroid nightly` command automates the whole process of setting up and running this repo.  The repo is then published to its own GitLab/GitHub git repo, where any F-Droid client can access it."
-msgstr ""
+msgstr "Der neue Befehl `fdroid nightly` automatisiert den kompletten Prozess der Einrichtung und des Betriebs dieses Repos. Das Repo wird dann in seinem eigenen GitLab/GitHub-git-Repo veröffentlicht, wo es für jeden F-Droid-Client zugänglich ist."
 
 #. type: Plain text
 #: build/_posts/md/2017-12-11-publishing-nightly-builds-with-gitlab-ci.md
