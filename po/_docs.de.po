@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-03-01 11:22+0100\n"
-"PO-Revision-Date: 2018-03-03 10:18+0000\n"
-"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
+"PO-Revision-Date: 2018-03-03 10:20+0000\n"
+"Last-Translator: anonymous <>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-docs/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -5597,7 +5597,7 @@ msgstr "`fdroidserver` kann mithilfe von [MacPorts](https://www.macports.org/por
 #. type: Plain text
 #: build/_docs/md/Installing_the_Server_and_Repo_Tools.md
 msgid "or MacPorts:"
-msgstr ""
+msgstr "über MacPorts:"
 
 #. type: Plain text
 #: build/_docs/md/Installing_the_Server_and_Repo_Tools.md
@@ -5607,7 +5607,7 @@ msgstr "```bash port install fdroidserver ```"
 #. type: Plain text
 #: build/_docs/md/Installing_the_Server_and_Repo_Tools.md
 msgid "or Homebrew:"
-msgstr ""
+msgstr "mitels Homebrew:"
 
 #. type: Plain text
 #: build/_docs/md/Installing_the_Server_and_Repo_Tools.md
@@ -5617,7 +5617,7 @@ msgstr "```bash brew install android-sdk android update sdk --no-ui --filter pla
 #. type: Plain text
 #: build/_docs/md/Installing_the_Server_and_Repo_Tools.md
 msgid "With only `easy_install`:"
-msgstr ""
+msgstr "Allein mit `easy_install`:"
 
 #. type: Plain text
 #: build/_docs/md/Installing_the_Server_and_Repo_Tools.md
