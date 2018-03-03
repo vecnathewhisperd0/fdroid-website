@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-03-01 11:22+0100\n"
-"PO-Revision-Date: 2018-03-03 10:20+0000\n"
-"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
+"PO-Revision-Date: 2018-03-04 10:37+0000\n"
+"Last-Translator: anonymous <>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-docs/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -5622,29 +5622,29 @@ msgstr "mit `easy_install`:"
 #. type: Plain text
 #: build/_docs/md/Installing_the_Server_and_Repo_Tools.md
 msgid "``` sudo easy_install fdroidserver ```"
-msgstr ""
+msgstr "``` sudo easy_install fdroidserver ```"
 
 #. type: Title ##
 #: build/_docs/md/Installing_the_Server_and_Repo_Tools.md
 #, no-wrap
 msgid "Windows"
-msgstr ""
+msgstr "Windows"
 
 #. type: Title ###
 #: build/_docs/md/Installing_the_Server_and_Repo_Tools.md
 #, no-wrap
 msgid "Windows 10 Subsystem for Linux"
-msgstr ""
+msgstr "Windows 10 Subsystem für Linux"
 
 #. type: Plain text
 #: build/_docs/md/Installing_the_Server_and_Repo_Tools.md
 msgid "Starting with the Windows 10 \"Anniversary Update\", you can [enable an Ubuntu environment](https://msdn.microsoft.com/en-us/commandline/wsl/install_guide)  that runs in Windows, known has \"Bash on Windows\", \"Ubuntu on Windows\", or \"Windows Subsystem for Linux\"."
-msgstr ""
+msgstr "Mit dem Windows 10 \"Anniversary Update\", können Sie [eine Ubuntu-Umgebung aktivieren](https://msdn.microsoft.com/en-us/commandline/wsl/install_guide), die in Windows läuft, bekannt als \"Bash in Windows\", \"Ubuntu in Windows\", oder \"Windows-Subsystem für Linux\"."
 
 #. type: Bullet: '1.  '
 #: build/_docs/md/Installing_the_Server_and_Repo_Tools.md
 msgid "[setup Windows Subsystem for Linux](https://msdn.microsoft.com/en-us/commandline/wsl/install_guide)"
-msgstr ""
+msgstr "[Konfiguration des Windows-Subsystems für Linux](https://msdn.microsoft.com/en-us/commandline/wsl/install_guide)"
 
 #. type: Plain text
 #: build/_docs/md/Installing_the_Server_and_Repo_Tools.md
@@ -5665,7 +5665,7 @@ msgstr ""
 #: build/_docs/md/Installing_the_Server_and_Repo_Tools.md
 #, no-wrap
 msgid "Cygwin"
-msgstr ""
+msgstr "Cygwin"
 
 #. type: Bullet: '1.  '
 #: build/_docs/md/Installing_the_Server_and_Repo_Tools.md
@@ -5675,17 +5675,17 @@ msgstr ""
 #. type: Bullet: '2.  '
 #: build/_docs/md/Installing_the_Server_and_Repo_Tools.md
 msgid "Install Cygwin <https://www.sourceware.org/cygwin/>"
-msgstr ""
+msgstr "Cygwin installieren <https://www.sourceware.org/cygwin/>"
 
 #. type: Bullet: '3.  '
 #: build/_docs/md/Installing_the_Server_and_Repo_Tools.md
 msgid "in Cygwin, install these packages: *gcc-core git openssh python3 python3-pyasn1 python3-imaging python3-paramiko python3-requests python3-setuptools rsync wget*"
-msgstr ""
+msgstr "in Cygwin, diese Pakete installieren: *gcc-core git openssh python3 python3-pyasn1 python3-imaging python3-paramiko python3-requests python3-setuptools rsync wget*"
 
 #. type: Bullet: '4.  '
 #: build/_docs/md/Installing_the_Server_and_Repo_Tools.md
 msgid "open a Cygwin bash shell and run: `easy_install fdroidserver`"
-msgstr ""
+msgstr "eine Cygwin-Bash-Shell öffnen und `easy_install fdroidserver` ausführen"
 
 #. type: Plain text
 #: build/_docs/md/Installing_the_Server_and_Repo_Tools.md
@@ -5747,7 +5747,7 @@ msgstr ""
 #: build/_docs/md/Installing_the_Server_and_Repo_Tools.md
 #, no-wrap
 msgid "Building apps"
-msgstr ""
+msgstr "Herstellung von Apps"
 
 #. type: Plain text
 #: build/_docs/md/Installing_the_Server_and_Repo_Tools.md
@@ -6222,7 +6222,7 @@ msgid ""
 "          SHA1: 05:F2:E6:59:28:08:89:81:B3:17:FC:9A:6D:BF:E0:4B:0F:A1:3B:4E\n"
 "          SHA256: 43:23:8D:51:2C:1E:5E:B2:D6:56:9F:4A:3A:FB:F5:52:34:18:B8:2E:0A:3E:D1:55:27:70:AB:B9:A9:C9:CC:AB\n"
 "        ```\n"
-msgstr ""
+msgstr "          MD5:  17:C5:5C:62:80:56:E1:93:E9:56:44:E9:89:79:27:86\n          SHA1: 05:F2:E6:59:28:08:89:81:B3:17:FC:9A:6D:BF:E0:4B:0F:A1:3B:4E\n          SHA256: 43:23:8D:51:2C:1E:5E:B2:D6:56:9F:4A:3A:FB:F5:52:34:18:B8:2E:0A:3E:D1:55:27:70:AB:B9:A9:C9:CC:AB\n        ```\n"
 
 #. type: Plain text
 #: build/_docs/md/Release_Channels_and_Signing_Keys.md
@@ -6244,7 +6244,7 @@ msgstr ""
 #: build/_docs/md/Release_Process.md
 #, no-wrap
 msgid "fdroidserver"
-msgstr ""
+msgstr "fdroidserver"
 
 #. type: Plain text
 #: build/_docs/md/Release_Channels_and_Signing_Keys.md
@@ -6309,7 +6309,7 @@ msgstr ""
 #: build/_docs/md/Release_Channels_and_Signing_Keys.md
 #, no-wrap
 msgid "Privileged Extension"
-msgstr ""
+msgstr "Rechteerweiterung"
 
 #. type: Plain text
 #: build/_docs/md/Release_Channels_and_Signing_Keys.md
