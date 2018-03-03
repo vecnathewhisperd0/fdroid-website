@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-03-01 11:22+0100\n"
-"PO-Revision-Date: 2018-03-02 09:48+0000\n"
+"PO-Revision-Date: 2018-03-04 09:37+0000\n"
 "Last-Translator: Verdulo <tomek@disroot.org>\n"
 "Language-Team: Esperanto <https://hosted.weblate.org/projects/f-droid/website-docs/eo/>\n"
 "Language: eo\n"
@@ -3753,7 +3753,7 @@ msgstr "Ĉe la listo de versioj en la kliento, la *konsilinda versio* estas mark
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md
 msgid "For third-party repositories, it may also be the case that the maintainers neglected to update the current version in their repository's metadata."
-msgstr "Por deponejoj de eksteraj liverantoj, simple prizorgantoj malzorgis pri aktualigi la numeron de konsilinda versio en metadatumoj de ilia deponejo."
+msgstr "Por deponejoj de eksteraj liverantoj, simple prizorgantoj eble malzorgis pri aktualigi la numeron de konsilinda versio en metadatumoj de ilia deponejo."
 
 #. type: Title ###
 #: build/_docs/md/FAQ_-_Client.md
@@ -3898,7 +3898,7 @@ msgstr "Kio estas “altnivela” reĝimo?"
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md
 msgid "Enabling the 'Expert Mode' setting in Preferences will make the client display additional information which is probably not useful to most people. This includes things like package IDs and signature hashes. Some extra configuration options also appear."
-msgstr "Per aktivigi la agordon “altnivelo” la kliento vidigos pliajn informojn, kiuj probable estas sennecesas por plejparto da homoj. Inkluzive identigilo de pakaĵo kaj kontrolsumojn. Ankaŭ kelkaj kromaj agordoj montriĝos."
+msgstr "Per aktivigi la agordon “altnivelo” la kliento vidigos pliajn informojn, kiuj probable estas sennecesaj por plejparto da homoj. Inkluzive identigilon de pakaĵo kaj kontrolsumojn. Ankaŭ kelkaj kromaj agordoj montriĝos."
 
 #. type: Title ###
 #: build/_docs/md/FAQ_-_Client.md
@@ -3920,7 +3920,7 @@ msgstr "Legu pri [problemo 151](https://gitlab.com/fdroid/fdroidclient/issues/15
 #: build/_docs/md/FAQ_-_Client.md
 #, no-wrap
 msgid "How do I update all my installed programs at once?"
-msgstr "Kiamaniere ĝisdatigi ĉiujn instalitajn aplikaĵojn per unufoje?"
+msgstr "Kiamaniere ĝisdatigi ĉiujn instalitajn aplikaĵojn per unufojo?"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md
@@ -3961,7 +3961,7 @@ msgstr "mi povas elŝuti mian aplikaĵon  1 000 000 foje por ŝajnigi ĝin popul
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md
 msgid "Additionally, on a technical level, we don't even track that information. While the back-end server does track hits on each APK, these are actually served up by multiple front-end servers that cache.  This means one counted hit could represent one download, or a million.  Theoretically we could resolve this, but we are not interested enough to do so."
-msgstr "Krom tio, je la teĥnika nivelo ni eĉ ne spuras tiujn informojn. Kiam la interna servilo spuras elŝutojn de ĉiu .apk, tiuj estas servataj de kelkaj kaŝmemorigantaj fasadaj serviloj. Tio ĉi signifas, ke unu elŝuto (ĉe nia interna servilo) povas reprezenti aŭ unu aŭ miliono elŝutoj (ĉe kliento). Ni eĉ povus solvi tion, tamen ni ne interesiĝas pri tio."
+msgstr "Krom tio, je la teĥnika nivelo ni eĉ ne spuras tiujn informojn. Kiam la interna servilo spuras elŝutojn de ĉiu .apk, tiuj estas servataj de kelkaj kaŝmemorigantaj fasadaj serviloj. Tio ĉi signifas, ke unu elŝuto (ĉe nia interna servilo) povas reprezenti aŭ unu aŭ milionon da elŝutoj (ĉe kliento). Ni eĉ povus solvi tion, tamen ni ne interesiĝas pri tio."
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md
@@ -4044,7 +4044,7 @@ msgstr "Kio estas la sekur-modelo uzata de F-Droid?"
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md
 msgid "The F-Droid security model started out with HTTPS connections and signed metadata. It has been evolving, inspired by [Debian](https://wiki.debian.org/SecureApt), [The Update Framework](https://github.com/theupdateframework/tuf/blob/develop/docs/tuf-spec.txt), and other things. You can read about details here: [Security Model](../Security_Model)."
-msgstr "La sekurec-modelo de F-Droid komenciĝis kun HTTPS-konektoj kaj subskribitaj metadatumoj. Ĝi estis evoluigata inspirante laŭ [Debian](https://wiki.debian.org/SecureApt), [The Update Framework](https://github.com/theupdateframework/tuf/blob/develop/docs/tuf-spec.txt) kaj aliaj. Vi povas legi pri detaloj tie ĉi: [sekur-modelol](../Security_Model)."
+msgstr "La sekur-modelo de F-Droid komenciĝis kun HTTPS-konektoj kaj subskribitaj metadatumoj. Ĝi estis evoluigata inspirante laŭ [Debian](https://wiki.debian.org/SecureApt), [The Update Framework](https://github.com/theupdateframework/tuf/blob/develop/docs/tuf-spec.txt) kaj aliaj. Vi povas legi pri detaloj tie: [sekur-modelo](../Security_Model)."
 
 #. type: Title #
 #: build/_docs/md/FAQ_-_General.md
@@ -6357,7 +6357,7 @@ msgstr ""
 #: build/_docs/md/Repository_Style_Guide.md
 #, no-wrap
 msgid "License"
-msgstr "Permesilo"
+msgstr "Permesiloj"
 
 #. type: Plain text
 #: build/_docs/md/Repository_Style_Guide.md
