@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-03-05 10:57+0100\n"
-"PO-Revision-Date: 2018-03-03 10:36+0000\n"
+"PO-Revision-Date: 2018-03-03 10:38+0000\n"
 "Last-Translator: anonymous <>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\n"
 "Language: de\n"
@@ -630,7 +630,7 @@ msgstr ""
 #: build/_posts/md/2017-10-10-fdroid-is-1.0.md
 #, no-wrap
 msgid "Run your own app \"repo\""
-msgstr ""
+msgstr "Ein eigenes App-\"Repo\" betreiben"
 
 #. type: Plain text
 #: build/_posts/md/2017-10-10-fdroid-is-1.0.md
@@ -640,7 +640,7 @@ msgstr "_f-droid.org_ ist gerade einmal ein App-Repository (auch \"Repo\") von h
 #. type: Plain text
 #: build/_posts/md/2017-10-10-fdroid-is-1.0.md
 msgid "Anyone can make their own F-Droid repo using the _fdroidserver_ command line tools, the same as always.  That requires knowledge of the command line, manual editing of \"metadata\" files to edit your packages’ store details, copying screenshots to the right directory, etc.  Now with [Repomaker]({{ site.baseurl }}/repomaker), there is a simple web app to create repos, so special knowledge is no longer needed. More information on how to install Repomaker coming soon!"
-msgstr ""
+msgstr "Alle können ihr eigenes F-Droid-Repo erzeugen, indem sie die _fdroidserver_-Kommandozeilenwerkzeuge nutzen, wie immer schon. Erforderlich dafür sind Kommandozeilenkenntnisse, die manuelle Bearbeitung der \"Metadaten\"-Dateien, um die Details des Paket-Store aufzubereiten, das Kopieren von Bildschirmfotos in das richtige Verzeichnis, usw. Mit [Repomaker]({{ site.baseurl }}/repomaker) gibt es jetzt eine einfache Web-App, um Repos zu erstellen, Spezialwissen ist somit nicht mehr nötig. Ausführlichere Informationen, wie Repomaker installiert wird, in Kürze!"
 
 #. type: Plain text
 #: build/_posts/md/2017-10-10-fdroid-is-1.0.md
