@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-03-01 11:22+0100\n"
 "PO-Revision-Date: 2018-03-03 10:18+0000\n"
-"Last-Translator: anonymous <>\n"
+"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-docs/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -5592,7 +5592,7 @@ msgstr "Apple OSX"
 #. type: Plain text
 #: build/_docs/md/Installing_the_Server_and_Repo_Tools.md
 msgid "You can install `fdroidserver` directly using [MacPorts](https://www.macports.org/ports.php?by=name&substr=fdroidserver), [Homebrew](http://brewformulas.org/Fdroidserver), or `easy_install` as a last resort:"
-msgstr "`fdroidserver` kann mithilfe von [MacPorts](https://www.macports.org/ports.php?by=name&substr=fdroidserver), [Homebrew](http://brewformulas.org/Fdroidserver), oder, als letzte Option, über `easy_install` direkt installiert werden:"
+msgstr "`fdroidserver` kann mithilfe von [MacPorts](https://www.macports.org/ports.php?by=name&substr=fdroidserver), [Homebrew](http://brewformulas.org/Fdroidserver) oder, als letzte Option, über `easy_install` direkt installiert werden:"
 
 #. type: Plain text
 #: build/_docs/md/Installing_the_Server_and_Repo_Tools.md
