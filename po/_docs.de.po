@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-03-01 11:22+0100\n"
-"PO-Revision-Date: 2018-03-03 10:09+0000\n"
-"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
+"PO-Revision-Date: 2018-03-03 10:11+0000\n"
+"Last-Translator: anonymous <>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-docs/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -3754,7 +3754,7 @@ msgstr "Welche Bibliotheken und Abhängigkeiten sollten am besten verwendet werd
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md
 msgid "To be FLOSS, your entire app has to be, including dependencies. If you use non-free/proprietary libraries, we cannot build your app and thus it cannot be included in our mainline repostitory (see \"Can I run my own app repo?\" in that case). Unfortunately that rules out any libraries that are part of the \"Google repository\" from the SDK manager (e.g.  play-services, fabric, firebase) -- only the \"Android support repostiory\" is allowed."
-msgstr ""
+msgstr "Damit es FLOSS ist, muss es Ihre ganze App sein, einschließlich der Abhängigkeiten. Wenn Sie unfreie/proprietäre Bibliotheken verwenden, können wir Ihre App nicht herstellen und somit kann sie nicht in das Hauptrepository aufgenommen werden (siehe „Kann ich mein eigenes App-Repo betreiben?“ für diesen Fall). Damit sind leider alle Bibliotheken, die Teil des \"Google Repository\" aus der SDK-Verwaltung sind, ausgeschlossen (z. B.  Play-Services, Fabric, Firebase) -- nur das \"Android Support Repository\" ist zulässig."
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md
