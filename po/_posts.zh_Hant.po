@@ -1026,6 +1026,4 @@ msgstr ""
 #. type: Plain text
 #: build/_posts/md/2018-03-01-website-updates.md
 msgid "Also: * Last Updated now changes properly * the permissions list per app version is now foldable * the F-Droid Donate section is not shown on the sidebar of app pages"
-msgstr ""
-=======
 msgstr "<a class=\"youtube\" href=\"https://youtube.com/watch?v=y3zVcYuE-WI\">\n    <img src=\"{{ site.baseurl }}/assets/posts/2018-02-02-linux-conf-au-fdroid-presentation/video-thumbnail.png\" />\n</a>\n"
