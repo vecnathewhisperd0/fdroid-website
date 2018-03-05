@@ -4525,7 +4525,7 @@ msgstr "翻譯"
 #. type: Plain text
 #: build/_docs/md/How_to_Help.md
 msgid "The client application is available in many languages, but if yours is not included, or if it needs updating or improving, follow [these instructions](https://hosted.weblate.org/engage/f-droid/)."
-msgstr "用戶端應用程式提供有很多種語言可用，如果不包含您的語言，或者如果需要更新或改進，請按照 [這些指示] (https://hosted.weblate.org/engage/f-droid/)。"
+msgstr "用戶端應用程式提供有很多種語言可用，如果不包含您的語言，或者如果需要更新或改進，請按照 [這些指示](https://hosted.weblate.org/engage/f-droid/)。"
 
 #. type: Plain text
 #: build/_docs/md/How_to_Help.md

@@ -10,7 +10,7 @@ msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.
 #: build/_pages/md/403.md
 #, no-wrap
 msgid "403 Forbidden"
-msgstr "Błąd 403: zabroniony"
+msgstr "Błąd 403 zabroniony"
 
 #. type: Plain text
 #: build/_pages/md/403.md build/_pages/md/404.md
@@ -21,7 +21,7 @@ msgstr "Jeżeli sądzisz, że tutaj powinno się coś pojawić, prosimy [zgłosi
 #: build/_pages/md/404.md
 #, no-wrap
 msgid "404 Page Not Found"
-msgstr "Błąd 404: nie znaleziono strony"
+msgstr "Błąd 404 nie znaleziono strony"
 
 #. type: Title #
 #: build/_pages/md/about.md
