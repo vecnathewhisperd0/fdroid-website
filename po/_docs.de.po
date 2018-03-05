@@ -4,19 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: team@f-droid.org\n"
-"POT-Creation-Date: 2018-03-05 21:04+0100\n"
-"PO-Revision-Date: 2018-03-04 10:37+0000\n"
-"Last-Translator: anonymous <>\n"
-"Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-docs/de/>\n"
-"Language: de\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.20-dev\n"
+msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-03-01 11:22+0100\nPO-Revision-Date: 2018-03-05 19:25+0000\nLast-Translator: Claus Rüdinger <Mail-an-CR@web.de>\nLanguage-Team: German <https://hosted.weblate.org/projects/f-droid/website-docs/de/>\nLanguage: de\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.20-dev\n"
 
 #. type: Title #
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -476,22 +464,22 @@ msgstr "Erstellung und Installation können auch direkt auf einem verbundenen Ge
 #: build/_docs/md/Building_a_Signing_Server.md
 #, no-wrap
 msgid "Building a Signing Server"
-msgstr ""
+msgstr "Aufbau eines Servers zur Signierung"
 
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
 msgid "The Android APK signing model sets the expectation that the signing key will be the same for the entire lifetime of the app.  That can be seen in the recommended lifetype of an Android signing key: [20+ years](https://developer.android.com/studio/publish/app-signing.html#considerations).  On top of that, it is difficult to [migrate an app to a new key](https://guardianproject.info/2015/12/29/how-to-migrate-your-android-apps-signing-key/).  Since the signing key is an essential part to preventing APKs from impersonating another, Android signing keys must be kept safe for the entire life of the app."
-msgstr ""
+msgstr "Das Modell zur APK-Signierung von Android hat die Erwartung, dass der Signierschlüssel für die gesamte Lebenszeit einer App derselbe sein wird. Das lässt sich an der für einen Android-Signierschlüssel empfohlenen Lebenserwartung erkennen: [über 20 Jahre](https://developer.android.com/studio/publish/app-signing.html#considerations). Darüberhinaus ist es schwierig, [eine App zu einem neuen Schlüssel zu migrieren](https://guardianproject.info/2015/12/29/how-to-migrate-your-android-apps-signing-key/). Da der Signierschlüssel ein essentieller Bestandteil ist, um zu verhindern, dass APKs sich gegenseitig nachahmen, müssen Android-Signierschlüssel für die gesamte Lebensdauer einer App sicher aufbewahrt werden."
 
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
 msgid "The F-Droid repo signing keys follow a very similar model: the signing key is the essential way to safely identify an F-Droid repo. So the same considerations apply to F-Droid repo signing keys as to APK signing keys.  This also provides some really useful benefits.  Since the integrity of the repo index file and the APKs are guaranteed by the repo signature, the files can be delivered via whatever method is most convenient, and their integrity will be automatically verified by the F-Droid client app, the _f-droid.org_ deploy process, and Repomaker."
-msgstr ""
+msgstr "Die Repo-Signierschlüssel von F-Droid folgen einem sehr ähnlichen Modell: der Signierschlüssel ist das grundlegende Verfahren, um ein F-Droid-Repo sicher zu identifizieren. Somit gelten für F-Droid-Repo-Signierschlüssel die gleichen Überlegungen wie für APK-Signierschlüssel. Das bietet zudem einige wirklich wertvolle Vorteile. Da die Integrität der Repo-Registerdatei und der APKs durch die Repo-Signatur garantiert wird, können die Dateien über jedwede, gerade am besten passende Methode ausgeliefert werden, und ihre Integrität wird automatisch durch die F-Droid-App, den _f-droid.org_ Bereitstellungsvorgang und Repomaker überprüft werden."
 
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
 msgid "This means the security burden is shifted from the online, public webserver to a private signing machine.  Just keeping that machine out of the public eye goes a long way towards improving security.  There are a number of additional measures that can be taken to further improve the security of the signing process.  Here are some approaches, starting with the easiest and least security, and going on to more secure setups that require more work to setup and run.  Signing is not an resource intensive process, so any machine will work, even a 10 year old, basic laptop.  We recommend using a minimal [Debian](https://www.debian.org) install, and rebuilding the machine from scratch."
-msgstr ""
+msgstr "Das bedeutet, die Last der Sicherheit wird vom öffentlichen Online-Webserver auf eine geheime Signiermaschine verschoben. Gerade das Verbergen dieser Maschine vor der Öffentlichkeit trägt weitreichend zur Verbesserung der Sicherheit bei. Es gibt eine Reihe von zusätzlichen Maßnahmen, die ergriffen werden können, um die Sicherheit des Signierprozesses weiter zu verbessern. Hier einige Lösungsansätze, beginnend mit dem einfachsten und am wenigsten sicheren, bis hin zu sichereren Einrichtungen, die mehr Arbeit erfordern, um sie zu installieren und zu betreiben.  Signieren ist kein ressourcen-intensiver Vorgang, so wird jeder Rechner funktionieren, selbst ein 10 Jahre altes Laptop für Einsteiger. Wir empfehlen eine Minimalinstallation von [Debian](https://www.debian.org) und eine Neueinrichtung des Gerätes von Grund auf."
 
 #. type: Title ###
 #: build/_docs/md/Building_a_Signing_Server.md
@@ -8071,41 +8059,37 @@ msgstr ""
 #: build/_docs/md/Translation_and_Localization.md
 #, no-wrap
 msgid "When translations are included"
-msgstr ""
+msgstr "Wann Übersetzungen aufgenommen werden"
 
 #. type: Plain text
 #: build/_docs/md/Translation_and_Localization.md
-#, fuzzy
 msgid "The translation files are included from Weblate before each release.  As a general rule, a translation must be at least 70% complete for it to be included in a final release.  For alpha releases, we try to include all translations, no matter how incomplete."
-msgstr "Als Grundregel gilt, dass eine Übersetzung zu mindestens 70% abgeschlossen sein muss, um in eine Endversion eingeschlossen zu werden. Bei Alpha-Versionen versuchen wir alle Übersetzungen zu integrieren, unabhängig von deren Vollständigkeit."
+msgstr "Die Übersetzungsdateien aus Weblate werden vor jeder Veröffentlichung miteinbezogen. Als Grundregel gilt, dass eine Übersetzung zu mindestens 70% abgeschlossen sein muss, um in eine Endversion eingeschlossen zu werden. Bei Alpha-Versionen versuchen wir alle Übersetzungen zu integrieren, unabhängig von deren Vollständigkeit."
 
 #. type: Plain text
 #: build/_docs/md/Translation_and_Localization.md
 msgid "For the f-droid.org website, it is a much more complicated system. Since it cannot (yet?) support lots of languages, we have to put stricter requirements on it.  In order for a new language to be added to f-droid.org, it must have:"
-msgstr ""
+msgstr "Für die f-droid.org-Internetseite gilt ein sehr viel komplizierteres System. Da sie (noch?) nicht viele Sprachen unterstützen kann, müssen wir strengere Anforderungen an sie stellen. Damit eine neue Sprache auf f-droid.org hinzugefügt werden kann, muss sie Folgendes erfüllen:"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Translation_and_Localization.md
-#, fuzzy
 msgid "[\"chrome\" strings](https://hosted.weblate.org/projects/f-droid/website) 100% translated"
-msgstr "[F-Droid Android App Strings](https://hosted.weblate.org/projects/f-droid/f-droid/)"
+msgstr "zu 100% übersetzte [\"Chrome\"-Zeichenketten](https://hosted.weblate.org/projects/f-droid/website)"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Translation_and_Localization.md
-#, fuzzy
 msgid "About and Contribute pages in [website docs](https://hosted.weblate.org/projects/f-droid/website-docs) 100% translated"
-msgstr "[F-Droid Android App Strings](https://hosted.weblate.org/projects/f-droid/f-droid/)"
+msgstr "zu 100% übersetzte \"Über\"- und \"Mitarbeiten\"-Seiten in [Website Docs](https://hosted.weblate.org/projects/f-droid/website-docs)"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Translation_and_Localization.md
-#, fuzzy
 msgid "10 apps in [_fdroiddata_](https://hosted.weblate.org/projects/f-droid/fdroiddata) 100% translated"
-msgstr "[F-Droid Android App Strings](https://hosted.weblate.org/projects/f-droid/f-droid/)"
+msgstr "10 zu 100% übersetzte Apps in [Data](https://hosted.weblate.org/projects/f-droid/fdroiddata)"
 
 #. type: Plain text
 #: build/_docs/md/Translation_and_Localization.md
 msgid "There is a [nightly build of the website](https://staging.f-droid.org)  that includes all translations on Weblate, no matter how complete they are. This lets everyone see the progress, and means we can get new languages working well before launching them."
-msgstr ""
+msgstr "Es gibt ein [Nightly Build der Internetseite](https://staging.f-droid.org), die alle Weblate-Übersetzungen einschließt, egal wie vollständig sie sind. Das lässt jeden die Fortschritte erkennen und bedeutet, dass wir neue Sprachen gut funktionierend hinbekommen können, bevor sie an den Start gehen."
 
 #. type: Title #
 #: build/_docs/md/Update_Processing.md
