@@ -4,19 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: team@f-droid.org\n"
-"POT-Creation-Date: 2018-03-05 15:16+0100\n"
-"PO-Revision-Date: 2018-03-05 10:01+0000\n"
-"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
-"Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\n"
-"Language: de\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.20-dev\n"
+msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-03-05 15:16+0100\nPO-Revision-Date: 2018-03-05 19:25+0000\nLast-Translator: Claus Rüdinger <Mail-an-CR@web.de>\nLanguage-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\nLanguage: de\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.20-dev\n"
 
 #. type: Title #
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md
@@ -308,7 +296,6 @@ msgstr "\"Wie F-Droid Apps nach Kuba bringt\""
 
 #. type: Plain text
 #: build/_posts/md/2017-07-03-cuba.md
-#, fuzzy
 msgid "![]({{ site.baseurl }}/assets/posts/2017-07-03-cuba/fdroid-logo.png)"
 msgstr "![]({{ site.baseurl }}/assets/posts/2017-07-03-cuba/fdroid-logo.png)"
 
@@ -776,7 +763,7 @@ msgstr ""
 #. type: Plain text
 #: build/_posts/md/2017-12-14-new-collaborations-on-exposing-tracking.md
 msgid "Since 2010, the F-Droid community has been working to provide only 100% verified Free Software, and to make apparent all forms of tracking, advertising, and \"[anti-features](https://f-droid.org/wiki/page/AntiFeatures)\" commonly found in apps.  F-Droid provides a complete app ecosystem where users are actively notified of tracking and advertising in the apps, and can make informed choices.  We have achieved this through the work of many dedicated volunteers reviewing apps as they are submitted, and marking the things that they find."
-msgstr ""
+msgstr "Seit 2010 arbeitet die F-Droid-Community daran, ausschließlich 100% überprüfte Freie Software anzubieten und alle Formen der Überwachung, Werbung und \"[problematische Merkmale](https://f-droid.org/wiki/page/AntiFeatures)\", die für gewöhnlich in Apps gefunden werden, kenntlich zu machen. F-Droid bietet ein komplettes App-Ökosystem, in dem Anwender aktiv auf Überwachung und Werbung in den Apps hingewiesen werden, und sich informiert entscheiden können. Wir haben das durch die Arbeit vieler engagierter Freiwilliger erreicht, die Apps, so wie sie vorlagen, überprüften und die darin gefundenen Dinge kennzeichneten."
 
 #. type: Plain text
 #: build/_posts/md/2017-12-14-new-collaborations-on-exposing-tracking.md
@@ -1048,15 +1035,12 @@ msgstr ""
 
 #. type: Plain text
 #: build/_posts/md/2018-03-02-liberapay-support.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "<p align=\"center\">\n"
 "  <img width=\"150\" src=\"{{ site.baseurl }}/assets/posts/2018-03-02-liberapay-support/liberapay_icon-v2_yellow-r.svg\" style=\"box-shadow: unset;\" />\n"
 "</p>\n"
-msgstr ""
-"<p align=\"center\">\n"
-"  <img width=\"300\" height=\"282\" src=\"{{ site.baseurl }}/assets/posts/2017-12-13-fdroid-and-janus/janus.png\" />\n"
-"</p>\n"
+msgstr "<p align=\"center\">\n  <img width=\"300\" height=\"282\" src=\"{{ site.baseurl }}/assets/posts/2017-12-13-fdroid-and-janus/janus.png\" />\n</p>\n"
 
 #. type: Plain text
 #: build/_posts/md/2018-03-02-liberapay-support.md
