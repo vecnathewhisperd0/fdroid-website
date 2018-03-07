@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-03-05 15:16+0100\nPO-Revision-Date: 2018-03-05 19:25+0000\nLast-Translator: Claus Rüdinger <Mail-an-CR@web.de>\nLanguage-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\nLanguage: de\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.20-dev\n"
+msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-03-05 15:16+0100\nPO-Revision-Date: 2018-03-07 16:38+0000\nLast-Translator: Claus Rüdinger <Mail-an-CR@web.de>\nLanguage-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\nLanguage: de\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.20-dev\n"
 
 #. type: Title #
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md
@@ -455,7 +455,7 @@ msgstr "\"F-Droid wird 1.0!\""
 #. type: Plain text
 #: build/_posts/md/2017-10-10-fdroid-is-1.0.md
 msgid "October 10th, 10-10, is the perfect day to announce F-Droid 1.0! After 7 years and the last year of intense development, we are ready to call the F-Droid ecosystem ready for prime time.  We think that F-Droid is mature enough and ready for all users."
-msgstr "10. Oktober, 10.10., ein perfekter Tag, um F-Droid 1.0 anzukündigen! Nach 7 Jahren und dem vergangenen Jahr intensiver Entwicklung, sind wir bereit, dem Ökosystem F-Droid die Marktreife zu erteilen. Wir denken, dass F-Droid ausgereift genug und für alle Anwender betriebsbereit ist."
+msgstr "Zehnter Oktober, 10.10., ein perfekter Tag, um F-Droid 1.0 anzukündigen! Nach 7 Jahren und dem vergangenen Jahr intensiver Entwicklung, sind wir bereit, dem Ökosystem F-Droid die Marktreife zu erteilen. Wir denken, dass F-Droid ausgereift genug und für alle Anwender betriebsbereit ist."
 
 #. type: Plain text
 #: build/_posts/md/2017-10-10-fdroid-is-1.0.md
@@ -699,12 +699,12 @@ msgstr "Der neue Befehl `fdroid nightly` automatisiert den kompletten Prozess de
 #. type: Plain text
 #: build/_posts/md/2017-12-11-publishing-nightly-builds-with-gitlab-ci.md
 msgid "Learn how to set this up for your app by reading [Publishing Nightly Builds]({{ site.baseurl }}/docs/Publishing_Nightly_Builds).  See it in action in _fdroidclient_: * <https://gitlab.com/fdroid/fdroidclient-nightly> * <https://gitlab.com/fdroid/fdroidclient/blob/5f26a785/.gitlab-ci.yml>"
-msgstr ""
+msgstr "Lernen Sie, wie Sie es für Ihre App einrichten können, indem Sie den Artikel [Veröffentlichung von Nightly Builds]({{ site.baseurl }}/docs/Publishing_Nightly_Builds) lesen.  Sehen Sie sich die Umsetzung in _fdroidclient_: * <https://gitlab.com/fdroid/fdroidclient-nightly> * <https://gitlab.com/fdroid/fdroidclient/blob/5f26a785/.gitlab-ci.yml> an"
 
 #. type: Plain text
 #: build/_posts/md/2017-12-11-publishing-nightly-builds-with-gitlab-ci.md
 msgid "With F-Droid [Update Channels]({{ site.baseurl }}/2017/06/01/announcing-new-libraries-f-droid-update-channels.html), you can even make your app update itself from your nightly repo."
-msgstr ""
+msgstr "Mit den [F-Droid Update Channels]({{ site.baseurl }}/2017/06/01/announcing-new-libraries-f-droid-update-channels.html) können Sie sogar dafür sorgen, dass Ihre App sich selbst aus Ihrem Repo für Nightlies aktualisiert."
 
 #. type: Title #
 #: build/_posts/md/2017-12-13-fdroid-and-janus.md
@@ -758,7 +758,7 @@ msgstr "Somit können wir sicher sagen, dass es schwierig wäre, ein Janus-Explo
 #: build/_posts/md/2017-12-14-new-collaborations-on-exposing-tracking.md
 #, no-wrap
 msgid "\"New Collaborations on Exposing Tracking\""
-msgstr ""
+msgstr "\"Neue Zusammenarbeit, um Überwachung aufzudecken\""
 
 #. type: Plain text
 #: build/_posts/md/2017-12-14-new-collaborations-on-exposing-tracking.md
@@ -768,22 +768,22 @@ msgstr "Seit 2010 arbeitet die F-Droid-Community daran, ausschließlich 100% üb
 #. type: Plain text
 #: build/_posts/md/2017-12-14-new-collaborations-on-exposing-tracking.md
 msgid "Researchers at [Exodus Privacy](https://exodus-privacy.eu.org) and [Yale Privacy Lab](https://privacylab.yale.edu) are working on taking the next big step, by creating tools for automating the process of finding all the [various forms of tracking](https://theintercept.com/2017/11/24/staggering-variety-of-clandestine-trackers-found-in-popular-android-apps)  that apps can include.  F-Droid will work with them to merge efforts, increasing the effectiveness of volunteers, and exposing the inner workings of software in daily use worldwide."
-msgstr ""
+msgstr "Forscher von [Exodus Privacy](https://exodus-privacy.eu.org) und [Yale Privacy Lab](https://privacylab.yale.edu) arbeiten daran, einen Schritt weiter zu gehen, indem sie Werkzeuge schaffen, die das Auffinden all der [verschiedenen Formen der Überwachung](https://theintercept.com/2017/11/24/staggering-variety-of-clandestine-trackers-found-in-popular-android-apps), die Apps beinhalten können, zu einem automatisierten Prozess machen. F-Droid wird mit ihnen zusammenarbeiten, um die Bemühungen darin zu bündeln, die Effektivität der Freiwilligenarbeit zu steigern und die inneren Arbeitsabläufe von weltweit täglich verwendeter Software aufzudecken."
 
 #. type: Plain text
 #: build/_posts/md/2017-12-14-new-collaborations-on-exposing-tracking.md
 msgid "F-Droid represents a trustworthy method of getting apps, a _libre_ and _gratis_ alternative to the \"app store\" model that is driven by advertising revenue and data collection.  F-Droid makes custom builds of Free Software like Firefox and Telegram, removing code that limits the freedom of its users.  What we most often remove is third-party SDKs (Software Development Kits) that enable tracking while denying the user of the apps a choice."
-msgstr ""
+msgstr "F-Droid steht für ein zuverlässiges Verfahren zum Bezug von Apps, eine _freie_ und _unentgeltliche_ Alternative zu dem \"App-Store\"-Modell, das durch Werbeeinnahmen und Datensammlung betrieben wird. F-Droid stellt maßgeschneiderte Versionen Freier Software, wie Firefox und Telegram, her, indem Code, der die Freiheit seiner Anwender einschränkt, entfernt wird. Was wir am häufigsten entfernen, sind Drittanbieter-SDKs (Software Development Kits), die Überwachung erlauben, während dem Nutzer der Apps hierzu eine Wahlmöglichkeit verweigert wird."
 
 #. type: Plain text
 #: build/_posts/md/2017-12-14-new-collaborations-on-exposing-tracking.md
 msgid "There are pragmatic uses of tracking, such as usability testing, crash reporting, and release management.  Even when such information is collected in an \"anonymous\" or \"randomized\" fashion, it often represents a unique data profile of a user that may expose private details.  This is especially true when information is correlated with the rich data sets of software industry giants."
-msgstr ""
+msgstr "Es gibt pragmatische Verwendungsarten der Überwachung, wie z. B. Tests zur Benutzerfreundlichkeit, Absturzberichte oder das Versionsmanagement. Selbst wenn solche Informationen in \"anonymisierter\" oder \"randomisierter\" Weise gesammelt werden, repräsentieren sie oft ein einzigartiges Datenprofil eines Anwenders, das private Einzelheiten bloßlegt. Dies trifft insbesondere dann zu, wenn Informationen mit den reichhaltigen Datensätzen von industriellen Softwaregiganten zusammentreffen."
 
 #. type: Plain text
 #: build/_posts/md/2017-12-14-new-collaborations-on-exposing-tracking.md
 msgid "Billions of users around the globe are now running mobile platforms based upon Free Software, such as Android.  For many, mobile devices are the primary gateway to the Internet.  These devices are often collecting and transmitting intimate details about users such as behavior and location, through complex and hidden methods.  The international Free Software community must continue to be a leader, protecting and restoring trust, privacy, and security in mobile computing."
-msgstr ""
+msgstr "Milliarden von Anwendern auf der Welt verwenden mittlerweile mobile Plattformen, die auf Freier Software basieren, wie eben Android. Für viele sind Mobilgeräte das Hauptportal ins Internet. Diese Geräte sammeln und übertragen häufig vertrauliche Details ihrer Nutzer, wie Verhalten und Standort, mittels komplizierter und versteckter Verfahren. Die internationale Community für Freie Software muss weiter daran arbeiten in der mobilen Computertechnik, eine Führungsrolle einzunehmen, Vertrauen, Datenschutz und Sicherheit zu bewahren bzw. wiederherzustellen."
 
 #. type: Title #
 #: build/_posts/md/2018-01-20-upcoming-security-audit.md
@@ -835,7 +835,7 @@ msgstr "BZ-01-005 App mit WES-Berechtigung kann vor Installation APKs ersetzen (
 #. type: Bullet: '* '
 #: build/_posts/md/2018-01-20-upcoming-security-audit.md
 msgid "BZ-01-008 Multiple XSS Problems in WP-FDroid Plugin (_we entirely removed Wordpress, the site is now statically generated using Jekyll_)"
-msgstr ""
+msgstr "BZ-01-008 Mehrere XSS-Probleme im WP-FDroid-Plugin (_wir haben Wordpress komplett entfernt, die Site wird nun statisch unter Verwendung von Jekyll erzeugt_)"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-01-20-upcoming-security-audit.md
@@ -957,7 +957,7 @@ msgstr "\"F-Droid-Vorstellung auf der Konferenz Linux.conf.au 2018\""
 #. type: Plain text
 #: build/_posts/md/2018-02-02-linux-conf-au-fdroid-presentation.md
 msgid "In Sydney, New South Wales on Monday 22 January through to Friday 26 January, Linux.conf.au, the Australian Linux conference took place."
-msgstr "In Sydney, New South Wales, fand von Montag, 22. Januar, bis Freitag, 26. Januar, die australische Linux-Konferenz \"Linux.conf.au\" statt."
+msgstr "In Sydney, New South Wales, fand von 22. bis 26. Januar, die australische Linux-Konferenz \"Linux.conf.au\" statt."
 
 #. type: Plain text
 #: build/_posts/md/2018-02-02-linux-conf-au-fdroid-presentation.md
@@ -990,12 +990,12 @@ msgstr ""
 #: build/_posts/md/2018-03-01-website-updates.md
 #, no-wrap
 msgid "\"Website Updates\""
-msgstr ""
+msgstr "\"Website-Aktualisierungen\""
 
 #. type: Plain text
 #: build/_posts/md/2018-03-01-website-updates.md
 msgid "There have been a couple of important updates to this website.  First, a longstanding complaint about this website is that there is only prominent donation buttons for F-Droid itself, and not for the apps.  We want to support as many app developers as possible, so the app pages have been updated to highlight that app's donation options.  See [Mastalab]({{ site.baseurl }}/packages/fr.gouv.etalab.mastodon/), [Telegram]({{ site.baseurl }}/packages/org.telegram.messenger/), or [F-Droid itself]({{ site.baseurl }}/packages/org.fdroid.fdroid/)  to see what the new layout looks like."
-msgstr ""
+msgstr "Es gab eine Reihe von wichtigen Neuerungen auf dieser Internetseite. Erstens, seit langem wird auf dieser Website beklagt, dass es nur hervorstechende Spenden-Buttons für F-Droid selbst gibt, nicht aber für die Apps. Wir wollen so viele Entwickler wie möglich unterstützen, somit wurden die Seiten mit den Apps aktualisiert, um diese Spendenmöglichkeiten für Apps hervorzuheben.  Siehe [Mastalab]({{ site.baseurl }}/packages/fr.gouv.etalab.mastodon/), [Telegram]({{ site.baseurl }}/packages/org.telegram.messenger/), oder [F-Droid selbst]({{ site.baseurl }}/packages/org.fdroid.fdroid/), um herauszufinden, wie das neue Layout aussieht."
 
 #. type: Plain text
 #: build/_posts/md/2018-03-01-website-updates.md
@@ -1031,7 +1031,7 @@ msgstr ""
 #: build/_posts/md/2018-03-02-liberapay-support.md
 #, no-wrap
 msgid "\"Liberapay, a fully free Donation Platform\""
-msgstr ""
+msgstr "\"Liberapay, ein völlig freies Spendenportal\""
 
 #. type: Plain text
 #: build/_posts/md/2018-03-02-liberapay-support.md
@@ -1040,7 +1040,7 @@ msgid ""
 "<p align=\"center\">\n"
 "  <img width=\"150\" src=\"{{ site.baseurl }}/assets/posts/2018-03-02-liberapay-support/liberapay_icon-v2_yellow-r.svg\" style=\"box-shadow: unset;\" />\n"
 "</p>\n"
-msgstr "<p align=\"center\">\n  <img width=\"300\" height=\"282\" src=\"{{ site.baseurl }}/assets/posts/2017-12-13-fdroid-and-janus/janus.png\" />\n</p>\n"
+msgstr "<p align=\"center\">\n  <img width=\"150\" src=\"{{ site.baseurl }}/assets/posts/2018-03-02-liberapay-support/liberapay_icon-v2_yellow-r.svg\" style=\"box-shadow: unset;\" />\n</p>\n"
 
 #. type: Plain text
 #: build/_posts/md/2018-03-02-liberapay-support.md
