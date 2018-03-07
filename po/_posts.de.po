@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-03-05 15:16+0100\nPO-Revision-Date: 2018-03-07 16:38+0000\nLast-Translator: Claus Rüdinger <Mail-an-CR@web.de>\nLanguage-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\nLanguage: de\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.20-dev\n"
+msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-03-05 15:16+0100\nPO-Revision-Date: 2018-03-08 14:50+0000\nLast-Translator: anonymous <>\nLanguage-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\nLanguage: de\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.20-dev\n"
 
 #. type: Title #
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md
@@ -1000,32 +1000,32 @@ msgstr "Es gab eine Reihe von wichtigen Neuerungen auf dieser Internetseite. Ers
 #. type: Plain text
 #: build/_posts/md/2018-03-01-website-updates.md
 msgid "The search field has changed to now be run by our own custom [search service](https://gitlab.com/fdroid/fdroid-website-search).  This allows all aspects of the website to work with or without Javascript to support as wide a range of devices and browsers as possible, including Tor Browser and browsers on cheap mobile devices.  This new search service also includes a much more complete index, so it is now possible to search based on all of the metadata, for example by license:"
-msgstr ""
+msgstr "Das Suchfeld wurde dahingehend geändert, dass es nun über unseren eigenen, individuell erarbeiteten [Suchdienst](https://gitlab.com/fdroid/fdroid-website-search) läuft. Dieser erlaubt, dass alle Ansichten der Website mit oder ohne Javascript funktionieren, um so einen möglichst großen Umfang an Geräten und Browsern zu versorgen, einschließlich dem Tor Browser und Browsern auf billigen mobilen Endgeräten.  Der neue Suchdienst beinhaltet auch ein sehr viel vollständigeres Inhaltsverzeichnis, sodass es nun möglich ist, die Suche auf Basis aller Metadaten durchzuführen, z. B. nach Lizenz:"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-03-01-website-updates.md
 msgid "<https://staging.f-droid.org/search?q=gpl-3.0>"
-msgstr ""
+msgstr "<https://staging.f-droid.org/search?q=gpl-3.0>"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-03-01-website-updates.md
 msgid "<https://staging.f-droid.org/search?q=apache-2.0>"
-msgstr ""
+msgstr "<https://staging.f-droid.org/search?q=apache-2.0>"
 
 #. type: Plain text
 #: build/_posts/md/2018-03-01-website-updates.md
 msgid "There is a lot that can be done to improve the search, we welcome contributions! For example, it would be nice to still offer the old, live search popup.  That just requires someone fixing [this issue](https://gitlab.com/fdroid/fdroid-website/issues/175)."
-msgstr ""
+msgstr "Es gibt noch eine Menge zu tun, um die Suche noch weiter zu verbessern, wir freuen uns über Beiträge! Zum Beispiel wäre es schön, weiterhin das alte Popup zur Live-Suche anzubieten. Dafür wäre es nur nötig, dass jemand [dieses Problem](https://gitlab.com/fdroid/fdroid-website/issues/175) behebt."
 
 #. type: Plain text
 #: build/_posts/md/2018-03-01-website-updates.md
 msgid "Since all of the apps descriptions and graphics are submitted by developers, this website needs to have extra protections to ensure that the text and graphics that come from app developers cannot be used to exploit visitors of this website.  To read more about the measures we take to ensure the security of this site, see the \"Initial Install\" section of [Security Model]({{ site.baseurl }}/docs/Security_Model)."
-msgstr ""
+msgstr "Nachdem alle App-Beschreibungen und -Grafiken von den Entwicklern übermittelt werden, benötigt diese Website zusätzliche Schutzmaßnahmen, um sicherzustellen, dass Texte und Grafiken, die von den App-Entwicklern kommen, nicht dazu verwendet werden können, Besucher dieser Internetseite auszubeuten. Um mehr über die von uns ergriffenen Maßnahmen zur Gewährleistung der Sicherheit dieser Website zu erfahren, sehen Sie sich den Abschnitt \"Erstinstallation\" unter [Sicherheitsmodell]({{ site.baseurl }}/docs/Security_Model) an."
 
 #. type: Plain text
 #: build/_posts/md/2018-03-01-website-updates.md
 msgid "Also: * Last Updated now changes properly * the permissions list per app version is now foldable * the F-Droid Donate section is not shown on the sidebar of app pages"
-msgstr ""
+msgstr "Außerdem: * \"Zuletzt aktualisiert\" wird nun sauber erneuert * die Liste der Berechtigungen zu jeder App ist jetzt ausklappbar * der Aufruf zu Spenden an F-Droid wird auf App-Seiten nicht mehr in der seitlichen Leiste angezeigt"
 
 #. type: Title #
 #: build/_posts/md/2018-03-02-liberapay-support.md
