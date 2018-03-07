@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-02-23 10:04+0100\nPO-Revision-Date: 2018-03-05 19:25+0000\nLast-Translator: anonymous <>\nLanguage-Team: German <https://hosted.weblate.org/projects/f-droid/website-pages/de/>\nLanguage: de\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.20-dev\n"
+msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-02-23 10:04+0100\nPO-Revision-Date: 2018-03-08 08:37+0000\nLast-Translator: Claus Rüdinger <Mail-an-CR@web.de>\nLanguage-Team: German <https://hosted.weblate.org/projects/f-droid/website-pages/de/>\nLanguage: de\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.20-dev\n"
 
 #. type: Title #
 #: build/_pages/md/403.md
@@ -559,7 +559,7 @@ msgstr "[Mithelfen](How_to_Help) Verschiedene Wege zur Mitarbeit am F-Droid-Proj
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
 msgid "[Known Repositories](https://forum.f-droid.org/t/721) A list that tries to keep track of known F-Droid compatible repositories."
-msgstr "[Bekannte Repositories](https://forum.f-droid.org/t/721) Eine Liste, die versucht, bekannte , mit F-Droid kompatible Paketquellen im Auge zu behalten."
+msgstr "[Bekannte Repositories](https://forum.f-droid.org/t/721) Eine Liste, die versucht bekannte, mit F-Droid kompatible Paketquellen im Auge zu behalten."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
@@ -706,7 +706,7 @@ msgstr "Wenn Sie ein Problem mit dem F-Droid-Client, der App, haben, überprüfe
 #. type: Plain text
 #: build/_pages/md/issues.md
 msgid "To request a new app be added, submit a \"Request For Packaging\" on the [rfp tracker](https://gitlab.com/fdroid/rfp/issues/new)."
-msgstr "Um eine neue App zu beantragen, reicht man einen \"Request For Packaging\" auf dem [rfp tracker](https://gitlab.com/fdroid/rfp/issues/new) ein."
+msgstr "Um die Aufnahme einer neuen App anzufordern, stellen Sie einen Antrag im [Tracker \"Requests For Packaging\"](https://gitlab.com/fdroid/rfp/issues/new)."
 
 #. type: Plain text
 #: build/_pages/md/issues.md
