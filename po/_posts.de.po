@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-03-05 15:16+0100\nPO-Revision-Date: 2018-03-08 14:50+0000\nLast-Translator: anonymous <>\nLanguage-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\nLanguage: de\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.20-dev\n"
+msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-03-05 15:16+0100\nPO-Revision-Date: 2018-03-08 19:01+0000\nLast-Translator: Claus Rüdinger <Mail-an-CR@web.de>\nLanguage-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\nLanguage: de\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.20-dev\n"
 
 #. type: Title #
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md
@@ -581,7 +581,7 @@ msgstr ""
 #: build/_posts/md/2017-10-10-fdroid-is-1.0.md
 #, no-wrap
 msgid "_fdroidserver_ tools"
-msgstr "_fdroidserver_-Instrumente"
+msgstr "_fdroidserver_-Tools"
 
 #. type: Plain text
 #: build/_posts/md/2017-10-10-fdroid-is-1.0.md
@@ -593,7 +593,7 @@ msgid ""
 "                     [-b] [-i] [-I] [-e EDITOR] [-w] [--pretty] [--clean]\n"
 "                     [--nosign] [--use-date-from-apk] [--rename-apks]\n"
 "                     [--allow-disabled-algorithms] [-W W]\n"
-msgstr ""
+msgstr "```console\n$ fdroid update -h\nSyntax: fdroid update [-h] [-v] [-q] [--create-key] [-c] [--delete-unknown]\n                     [-b] [-i] [-I] [-e EDITOR] [-w] [--pretty] [--clean]\n                     [--nosign] [--use-date-from-apk] [--rename-apks]\n                     [--allow-disabled-algorithms] [-W W]\n"
 
 #. type: Plain text
 #: build/_posts/md/2017-10-10-fdroid-is-1.0.md
@@ -611,7 +611,7 @@ msgid ""
 "  -i, --interactive     需更新事项的互动提示。\n"
 "  -I, --icons           对超过像素大小上限的全部图标进行尺寸调整，然后退出\n"
 "```\n"
-msgstr ""
+msgstr "optional arguments:\n  -h, --help            show this help message and exit\n  -v, --verbose         比一般情况输出更多的信息\n  -q, --quiet           仅输出警告和出错信息\n  --create-key          在密钥存储中创建资源库签名密钥\n  -c, --create-metadata\n                        创建缺少的主干元数据文件\n  --delete-unknown      从资源库中删除没有元数据的 APK 和 OBB\n  -b, --buildreport     报告编译数据状态\n  -i, --interactive     需更新事项的互动提示。\n  -I, --icons           对超过像素大小上限的全部图标进行尺寸调整，然后退出\n```\n"
 
 #. type: Title ###
 #: build/_posts/md/2017-10-10-fdroid-is-1.0.md
@@ -742,7 +742,7 @@ msgstr "F-Droid ist auch ein offenes Ökosystem, das bedeutet, viele Leute bezie
 #. type: Plain text
 #: build/_posts/md/2017-12-13-fdroid-and-janus.md
 msgid "There is also some random good news: it turns out that none of the about 10 Janus examples we have can pass `fdroid update`.  Most of them failed to verify when `fdroid update` calls `aapt dump badging`.  The one file that passed those tests was the publicly released [Janus demo APK](https://www.androidpolice.com/wp-content/uploads/janus-poc/HelloWorld-Janus.apk).  But it had strange dates like `2042-14-03 00:62:15` in the ZIP entries, probably because of the tricks needed to assemble this DEX+ZIP file.  This triggered a crash in `fdroid update`, when parsing the date of _AndroidManifest.xml_.  Python complains that there is no 14th month.  This crash prevents the APK from being added to the repo. We have also added an [explicit block](https://gitlab.com/fdroid/fdroidserver/merge_requests/409)  for APKs trying to exploit Janus."
-msgstr "Ferner gibt es auch einige zufällige, gute Neuigkeiten: Es stellt sich heraus, dass keines, der ungefähr 10 existierenden Janusbeispiele `fdroid update` überwinden kann. Die meisten von ihnen scheiterten an der Überprüfung, wenn `fdroid update` `aapt dump badging` abruft.  Die einzige Datei, die an diesen Tests vorbeikam, war die öffentlich gemachte [Janus Demo APK](https://www.androidpolice.com/wp-content/uploads/janus-poc/HelloWorld-Janus.apk).  Sie hatte jedoch merkwürdige Zeitwerte wie `2042-14-03 00:62:15` in den ZIP-Einträgen, wahrscheinlich wegen der Tricks, die nötig sind, um diese DEX+ZIP-Datei zusammenzufügen.  Dies löste einen Absturz in `fdroid update` bei der Analyse des Datums von _AndroidManifest.xml_ aus.  Python bemängelt, dass es keinen 14. Monat gibt. Dieser Absturz verhindert das Hinzufügen der APK zum Repo. Wir haben darüberhinaus eine [explizite Sperre](https://gitlab.com/fdroid/fdroidserver/merge_requests/409) für APKs eingefügt, die versuchen Janus auszunutzen."
+msgstr "Ferner gibt es zufällig einige gute Nachrichten: Es stellt sich heraus, dass keines, der ungefähr 10 existierenden Janusbeispiele `fdroid update` überwinden kann. Die meisten von ihnen scheiterten an der Überprüfung, wenn `fdroid update` `aapt dump badging` abruft.  Die einzige Datei, die an diesen Tests vorbeikam, war die öffentlich gemachte [Janus Demo APK](https://www.androidpolice.com/wp-content/uploads/janus-poc/HelloWorld-Janus.apk).  Sie hatte jedoch merkwürdige Zeitwerte wie `2042-14-03 00:62:15` in den ZIP-Einträgen, wahrscheinlich wegen der Tricks, die nötig sind, um diese DEX+ZIP-Datei zusammenzufügen.  Dies löste einen Absturz in `fdroid update` bei der Analyse des Datums von _AndroidManifest.xml_ aus.  Python bemängelt, dass es keinen 14. Monat gibt. Dieser Absturz verhindert das Hinzufügen der APK zum Repo. Wir haben darüberhinaus eine [explizite Sperre](https://gitlab.com/fdroid/fdroidserver/merge_requests/409) für APKs eingefügt, die versuchen Janus auszunutzen."
 
 #. type: Plain text
 #: build/_posts/md/2017-12-13-fdroid-and-janus.md
@@ -840,67 +840,67 @@ msgstr "BZ-01-008 Mehrere XSS-Probleme im WP-FDroid-Plugin (_wir haben Wordpress
 #. type: Bullet: '* '
 #: build/_posts/md/2018-01-20-upcoming-security-audit.md
 msgid "BZ-01-011 Persistent XSS via SVG Upload in MediaWiki (_bug fixed in MediaWiki, SVG upload disabled, and open wiki registrations disabled on f-droid.org_)"
-msgstr ""
+msgstr "BZ-01-011 Persistentes XSS durch SVG-Upload in MediaWiki (_Fehler in MediaWiki behoben, Hochladen von SVG blockiert und Open-Wiki-Anmeldungen auf f-droid.org unterbunden_)"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-01-20-upcoming-security-audit.md
 msgid "BZ-01-014 RCE via fdroid checkupdates Command on Git Repository (_fixed_)"
-msgstr ""
+msgstr "BZ-01-014 RCE über Befehl \"fdroid checkupdates\" im Git-Repository (_behoben_)"
 
 #. type: Plain text
 #: build/_posts/md/2018-01-20-upcoming-security-audit.md
 msgid "These only affected a few non-critical users or were parts of opt-in beta features:"
-msgstr ""
+msgstr "Diese betrafen nur einige unkritische Anwender oder waren Teil von Opt-in-Merkmalen von Betas:"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-01-20-upcoming-security-audit.md
 msgid "BZ-01-002 TOFU Requests too easy to recognize and intercept (_fixed_)"
-msgstr ""
+msgstr "BZ-01-002 TOFU-Anfragen zu leicht zu erkennen und abzufangen (_behoben_)"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-01-20-upcoming-security-audit.md
 msgid "BZ-01-003 Repository Fingerprint is not verified on first Fetch (_fixed_)"
-msgstr ""
+msgstr "BZ-01-003 Repository-Fingerabdruck wird bei erstem FETCH nicht verfiziert (_behoben_)"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-01-20-upcoming-security-audit.md
 msgid "BZ-01-004 Command Injection Flaw in root - based Installation Method (_only repo publisher could do this, removed root-based installation method_)"
-msgstr ""
+msgstr "BZ-01-004 Command Injection Flaw in root-basierter Installationsmethode (_nur Repo-Herausgeber waren dazu in der Lage, root-basierte Installationsmethode entfernt_)"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-01-20-upcoming-security-audit.md
 msgid "BZ-01-012 Arbitrary Command Execution via `fdroid import` and SVN"
-msgstr ""
+msgstr "BZ-01-012 Eigenmächtige Befehlsausführung über `fdroid import` und SVN"
 
 #. type: Plain text
 #: build/_posts/md/2018-01-20-upcoming-security-audit.md
 msgid "The following issues all assume developer- or publisher-level access.  We do not claim to protect against attackers with that level of access. People in those roles can always publish malicious code directly, without resorting to complicated exploits."
-msgstr ""
+msgstr "Die folgenden Probleme setzen alle einen Zugriff auf Entwickler- oder Herausgeberniveau voraus.  Wir maßen uns nicht an, Schutz gegen Angreifer mit derartigen Zugriffsrechten zu bieten. Menschen in dieser Rolle können immer schädlichen Code direkt verbreiten, ohne auf komplizierte Exploits zurückzugreifen."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-01-20-upcoming-security-audit.md
 msgid "BZ-01-007 Malicious symlinked APK can lead to arbitrary File Read"
-msgstr ""
+msgstr "BZ-01-007 Böswillig symbolisch verknüpfte APK kann zu eigenmächtigen Auslesen von Dateien führen"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-01-20-upcoming-security-audit.md
 msgid "BZ-01-013 Directory Traversal Exploit Potential caused by `fdroid import`"
-msgstr ""
+msgstr "BZ-01-013 Directory Traversal Exploit Potential verursacht durch `fdroid import`"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-01-20-upcoming-security-audit.md
 msgid "BZ-01-015 SVN Repository Access leaks Credentials to local Processes"
-msgstr ""
+msgstr "BZ-01-015 SVN-Repository-Zugang spielt Anmeldedaten lokalen Prozessen zu"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-01-20-upcoming-security-audit.md
 msgid "BZ-01-017 Unauthorized Access to internal Network Resources"
-msgstr ""
+msgstr "BZ-01-017 Unautorisierter Zugriff auf interne Netzwerkressourcen"
 
 #. type: Plain text
 #: build/_posts/md/2018-01-20-upcoming-security-audit.md
 msgid "The audit report PDF from Cure53 is also cached on this site: [pentest-report_fdroid.pdf]({{ site.baseurl }}/assets/posts/2018-01-20-upcoming-security-audit/pentest-report_fdroid.pdf)."
-msgstr ""
+msgstr "Der Auditbericht von Cure53 ist als PDF auch auf dieser Seite gespeichert: [pentest-report_fdroid.pdf]({{ site.baseurl }}/assets/posts/2018-01-20-upcoming-security-audit/pentest-report_fdroid.pdf)."
 
 #. type: Title #
 #: build/_posts/md/2018-01-24-fairphone-open-ships-F-Droid.md
@@ -1045,28 +1045,28 @@ msgstr "<p align=\"center\">\n  <img width=\"150\" src=\"{{ site.baseurl }}/asse
 #. type: Plain text
 #: build/_posts/md/2018-03-02-liberapay-support.md
 msgid "Recently F-Droid has gained support for [Liberapay](https://liberapay.com/), a fully free donation platform aimed at software projects.  Liberapay itself is fully free and [open source](https://github.com/liberapay/liberapay.com)  software focusing on recurrent donations to software projects. These recurrent donations are important for the long-term sustainability of projects.  Another interesting feature for software projects is the possibility to create [teams](https://liberapay.com/about/teams) which the members of the project can join and then split the donations in a way where everyone sets the share he or she wants to take."
-msgstr ""
+msgstr "Seit kurzem hat F-Droid die [Liberapay](https://liberapay.com/)-Unterstützung hinzugewonnen, einem völlig freien Spendenportal, das sich an Softwareprojekte richtet. Liberapay selbst ist vollständig freie [Open Source](https://github.com/liberapay/liberapay.com)-Software, die sich auf wiederkehrende Spendenzahlungen an Softwareprojekte konzentriert. Diese regelmäßigen Spenden sind wichtig für die langfristige Zukunftsfähigkeit der Projekte. Eine weitere interessante Funktion für Softwareprojekte ist die Möglichkeit, [Teams](https://liberapay.com/about/teams) zu bilden, denen sich die Mitglieder eines Projekts anschließen und dann die Spendeneinnahmen so aufteilen können, dass jeder den Anteil bestimmt, den er oder sie entnehmen möchte."
 
 #. type: Plain text
 #: build/_posts/md/2018-03-02-liberapay-support.md
 msgid "The donation part of F-Droid has always relied on closed platforms like PayPal but not anymore!"
-msgstr ""
+msgstr "Der Spendenbestandteil von F-Droid hat immer auf geschlossene Portale wie PayPal gebaut, jetzt nicht mehr!"
 
 #. type: Title ####
 #: build/_posts/md/2018-03-02-liberapay-support.md
 #, no-wrap
 msgid "Integration into F-Droid"
-msgstr ""
+msgstr "Integration in F-Droid"
 
 #. type: Plain text
 #: build/_posts/md/2018-03-02-liberapay-support.md
 msgid "F-Droid now has full support for projects offering donation via Liberapay:"
-msgstr ""
+msgstr "F-Droid unterstützt nun vollständig Projekte, die Spenden über Liberapay anbieten:"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-03-02-liberapay-support.md
 msgid "The Liberapay ID of a person or team can be entered into a dedicated [metadata field](https://f-droid.org/en/docs/Build_Metadata_Reference/#LiberapayID).  10 apps in F-Droid already offer this as a donation option. Hopefully more will join soon."
-msgstr ""
+msgstr "Die Liberapay-ID einer Person oder eines Teams kann in ein spezielles [Metadatenfeld](https://f-droid.org/en/docs/Build_Metadata_Reference/#LiberapayID) eingegeben werden. 10 Apps in F-Droid bieten dies bereits als Spendenoption an. Mehr werden sich hoffentlich bald anschließen."
 
 #. type: Plain text
 #: build/_posts/md/2018-03-02-liberapay-support.md
@@ -1081,23 +1081,23 @@ msgid ""
 "  After about two month we are already receiving ~30€/week, making us currently\n"
 "  the third most funded [team](https://en.liberapay.com/explore/teams) on\n"
 "  Liberapay.\n"
-msgstr ""
+msgstr "* Der Android-Client zeigt jetzt das Liberapay-Logo ab: \n  <p align=\"center\">\n   <img width=\"400\" src=\"{{ site.baseurl }}/assets/posts/2018-03-02-liberapay-support/liberapay-client-screenshot.png\" />\n  </p>\n* Die Internetseite enthält jetzt [alle Spendenmöglichkeiten]({{ site.baseurl }}/2018/03/01/website-updates.html).\n* F-Droid selbst hat ein [Liberapay-Team](https://liberapay.com/F-Droid-Data).\n  Nach ungefähr zwei Monaten erhalten wir bereits ~30€/Woche, was uns im Moment  \n  zum dritthöchstgeförderten [Team](https://en.liberapay.com/explore/teams) auf\n  Liberapay macht.\n"
 
 #. type: Title ####
 #: build/_posts/md/2018-03-02-liberapay-support.md
 #, no-wrap
 msgid "Next steps"
-msgstr ""
+msgstr "Nächste Schritte"
 
 #. type: Plain text
 #: build/_posts/md/2018-03-02-liberapay-support.md
 msgid "Liberapay is still a young and very small platform (remember, we became the third most funded team in two months ;-)) so it needs both more projects and more patrons. So spread the word and [ask your favourite](https://github.com/TeamNewPipe/NewPipe/issues/1153)  open source project if you can start giving them money through Liberapay."
-msgstr ""
+msgstr "Liberapay ist noch ein junges und sehr kleines Portal (zur Erinnerung, wir wurden binnen zwei Monaten dritthöchstgefördertes Team ;-)), so braucht es sowohl mehr Projekte als auch mehr Förderer. Also erzählen Sie es weiter und [fragen Sie bei Ihrem Open-Source-Lieblingsprojekt nach](https://github.com/TeamNewPipe/NewPipe/issues/1153), ob Sie damit beginnen können, ihnen Geld über Liberapay zu geben."
 
 #. type: Plain text
 #: build/_posts/md/2018-03-02-liberapay-support.md
 msgid "Do you know any app or developer with a Liberapay account that is not yet shown in F-Droid? Help us by adding it to the [apps metadata](https://gitlab.com/fdroid/fdroiddata)."
-msgstr ""
+msgstr "Kennen Sie eine App oder einen Entwickler mit einem Liberapay-Konto, das in F-Droid noch nicht angezeigt wird? Helfen Sie uns, indem Sie es zu den [Metadaten der Apps](https://gitlab.com/fdroid/fdroiddata) hinzufügen."
 
 #. type: Plain text
 #: build/_posts/md/2018-03-02-liberapay-support.md
@@ -1105,4 +1105,4 @@ msgstr ""
 msgid ""
 "You can also fund the further development of Liberapay through Liberapay itself here:\n"
 "<a href=\"https://liberapay.com/Liberapay/\"><img src=\"{{ site.baseurl }}/assets/liberapay_donate_button.svg\" style=\"box-shadow: unset;\" /></a>\n"
-msgstr ""
+msgstr "Hier können Sie auch die Weiterentwicklung von Liberapay durch Liberapay selbst fördern:\n<a href=\"https://liberapay.com/Liberapay/\"><img src=\"{{ site.baseurl }}/assets/liberapay_donate_button.svg\" style=\"box-shadow: unset;\" /></a>\n"
