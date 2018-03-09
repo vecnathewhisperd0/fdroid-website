@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-03-05 15:16+0100\nPO-Revision-Date: 2018-03-08 03:35+0000\nLast-Translator: ezjerry liao <ezjerry@gmail.com>\nLanguage-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/f-droid/website-posts/zh_Hant/>\nLanguage: zh_Hant\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Generator: Weblate 2.20-dev\n"
+msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-03-05 15:16+0100\nPO-Revision-Date: 2018-03-10 04:35+0000\nLast-Translator: ezjerry liao <ezjerry@gmail.com>\nLanguage-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/f-droid/website-posts/zh_Hant/>\nLanguage: zh_Hant\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Generator: Weblate 2.20-dev\n"
 
 #. type: Title #
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md
@@ -122,7 +122,7 @@ msgstr "請持續關注 F-Droid 在2017的最新發展，我們想知道用戶�
 #: build/_posts/md/2017-04-04-new-ux.md
 #, no-wrap
 msgid "\"A new UX 6 years in the making\""
-msgstr "\"6年光陰打造新的用戶體驗界面\""
+msgstr "「以 6 年打造新的使用者界面」"
 
 #. type: Plain text
 #: build/_posts/md/2017-04-04-new-ux.md
@@ -256,7 +256,7 @@ msgstr "為確保 app 應用可找到更新，我們引入兩個指定的程式�
 #: build/_posts/md/2017-06-01-announcing-new-libraries-f-droid-update-channels.md
 #, no-wrap
 msgid "\"Get F-Droid\" aka [org.fdroid.getfdroid](https://gitlab.com/fdroid/update-channels/tree/master/getfdroid#f-droid-installer)"
-msgstr "\"Get F-Droid\" 即是 [org.fdroid.getfdroid](https://gitlab.com/fdroid/update-channels/tree/master/getfdroid#f-droid-installer)"
+msgstr "「Get F-Droid」又稱 [org.fdroid.getfdroid](https://gitlab.com/fdroid/update-channels/tree/master/getfdroid#f-droid-installer)"
 
 #. type: Plain text
 #: build/_posts/md/2017-06-01-announcing-new-libraries-f-droid-update-channels.md
@@ -267,7 +267,7 @@ msgstr "檢查  F-Droid 是否已安裝。如果否，它可協助用戶透過�
 #: build/_posts/md/2017-06-01-announcing-new-libraries-f-droid-update-channels.md
 #, no-wrap
 msgid "\"App Updater\" aka [org.fdroid.appupdater](https://gitlab.com/fdroid/update-channels/tree/master/appupdater#f-droid-update-detector)"
-msgstr "\"App Updater\" 又名 [org.fdroid.appupdater](https://gitlab.com/fdroid/update-channels/tree/master/appupdater#f-droid-update-detector)"
+msgstr "「應用程式更新」又稱 [org.fdroid.appupdater](https://gitlab.com/fdroid/update-channels/tree/master/appupdater#f-droid-update-detector)"
 
 #. type: Plain text
 #: build/_posts/md/2017-06-01-announcing-new-libraries-f-droid-update-channels.md
