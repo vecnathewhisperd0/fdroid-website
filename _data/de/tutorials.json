@@ -1,6 +1,26 @@
 {
     "misc": {
         "step_x": "Schritt [number]",
-        "step_x_description": "Schritt [number]: [description]"
+        "step_x_description": "Schritt [number]: [description]",
+        "overview": {
+            "tutorial_x_title": "Anleitung [number]: [title]"
+        },
+        "option_x_description": "Option [number]: [description]"
+    },
+    "swap": {
+        "step_1": "Öffnen Sie F-Droid. Drücken Sie 'Nah' im Menü am Unterrand des Bildschirms.",
+        "step_3": "Sobald Menschen in der Nähe gefunden sind, müssen Sie und die Kontaktperson sich gegenseitig auswählen.",
+        "step_2": "Drücken Sie auf 'Menschen in der Nähe finden'. Die App wird automatisch die Suche starten.",
+        "step_5": "Drücken Sie auf '—>'.",
+        "step_4": "Wenn die Verbindung hergestellt ist, wählen Sie die Apps aus, die Sie mit dem Kontakt austauschen wollen.",
+        "step_7": "Drücken Sie die Schaltfläche 'Installieren' neben den Apps, die Sie installieren möchten.",
+        "title": "Wie man Apps ohne Internet sendet und empfängt",
+        "step_9": "Sobald die Installationen abgeschlossen sind, sind Ihre Apps in der App-Übersicht von Android und in Ihrer F-Droid-App unter installierte Anwendungen abrufbar.",
+        "step_8": "Drücken Sie ein zweites Mal 'Installieren'. Dann folgen Sie den Android-Anweisungen, um den Installationsvorgang abzuschließen.",
+        "step_6": "Eine Person wird dazu aufgefordert, die Verbindungsanfrage zu bestätigen.",
+        "all_devices_need_fdroid": "Auf allen Geräten muss F-Droid heruntergeladen und installiert sein, um beginnen zu können. Alle Geräte sollten die u. g. Schritte befolgen.",
+        "related_tutorial": "Das könnte Sie auch interessieren: <a href=\"../create-repo/\">Wie man ein Repo erstellt</a>",
+        "intro": "Kein Internet? Kein Problem. Laden Sie Apps von Menschen in Ihrer Nähe herunter.",
+        "step_10": "Um Ihre installierten Apps abzurufen, öffnen Sie die F-Droid-Einstellungen und wählen Sie 'Installierte Anwendungen verwalten' unter 'Meine Anwendungen'."
     }
 }
