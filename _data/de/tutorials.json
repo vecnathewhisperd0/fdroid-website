@@ -1,1 +1,6 @@
-{}
+{
+    "misc": {
+        "step_x": "Schritt [number]",
+        "step_x_description": "Schritt [number]: [description]"
+    }
+}
