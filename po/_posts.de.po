@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-03-05 15:16+0100\nPO-Revision-Date: 2018-03-08 19:01+0000\nLast-Translator: Claus Rüdinger <Mail-an-CR@web.de>\nLanguage-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\nLanguage: de\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.20-dev\n"
+msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-03-05 15:16+0100\nPO-Revision-Date: 2018-03-11 11:37+0000\nLast-Translator: Claus Rüdinger <Mail-an-CR@web.de>\nLanguage-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\nLanguage: de\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.20-dev\n"
 
 #. type: Title #
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md
@@ -455,7 +455,7 @@ msgstr "\"F-Droid wird 1.0!\""
 #. type: Plain text
 #: build/_posts/md/2017-10-10-fdroid-is-1.0.md
 msgid "October 10th, 10-10, is the perfect day to announce F-Droid 1.0! After 7 years and the last year of intense development, we are ready to call the F-Droid ecosystem ready for prime time.  We think that F-Droid is mature enough and ready for all users."
-msgstr "Zehnter Oktober, 10.10., ein perfekter Tag, um F-Droid 1.0 anzukündigen! Nach 7 Jahren und dem vergangenen Jahr intensiver Entwicklung, sind wir bereit, dem Ökosystem F-Droid die Marktreife zu erteilen. Wir denken, dass F-Droid ausgereift genug und für alle Anwender betriebsbereit ist."
+msgstr "Heute, 10. Oktober, 10.10., ein perfekter Tag, um F-Droid 1.0 anzukündigen! Nach 7 Jahren und dem vergangenen Jahr intensiver Entwicklung, sind wir bereit, dem Ökosystem F-Droid die Marktreife zu erteilen. Wir denken, dass F-Droid ausgereift genug und für alle Anwender betriebsbereit ist."
 
 #. type: Plain text
 #: build/_posts/md/2017-10-10-fdroid-is-1.0.md
@@ -1045,7 +1045,7 @@ msgstr "<p align=\"center\">\n  <img width=\"150\" src=\"{{ site.baseurl }}/asse
 #. type: Plain text
 #: build/_posts/md/2018-03-02-liberapay-support.md
 msgid "Recently F-Droid has gained support for [Liberapay](https://liberapay.com/), a fully free donation platform aimed at software projects.  Liberapay itself is fully free and [open source](https://github.com/liberapay/liberapay.com)  software focusing on recurrent donations to software projects. These recurrent donations are important for the long-term sustainability of projects.  Another interesting feature for software projects is the possibility to create [teams](https://liberapay.com/about/teams) which the members of the project can join and then split the donations in a way where everyone sets the share he or she wants to take."
-msgstr "Seit kurzem hat F-Droid die [Liberapay](https://liberapay.com/)-Unterstützung hinzugewonnen, einem völlig freien Spendenportal, das sich an Softwareprojekte richtet. Liberapay selbst ist vollständig freie [Open Source](https://github.com/liberapay/liberapay.com)-Software, die sich auf wiederkehrende Spendenzahlungen an Softwareprojekte konzentriert. Diese regelmäßigen Spenden sind wichtig für die langfristige Zukunftsfähigkeit der Projekte. Eine weitere interessante Funktion für Softwareprojekte ist die Möglichkeit, [Teams](https://liberapay.com/about/teams) zu bilden, denen sich die Mitglieder eines Projekts anschließen und dann die Spendeneinnahmen so aufteilen können, dass jeder den Anteil bestimmt, den er oder sie entnehmen möchte."
+msgstr "Seit kurzem hat F-Droid die [Liberapay](https://liberapay.com/)-Unterstützung hinzugewonnen, ein komplett unabhängiges Spendenportal, das sich an Softwareprojekte richtet. Liberapay selbst ist vollständig freie [Open Source](https://github.com/liberapay/liberapay.com)-Software, die sich auf wiederkehrende Spendenzahlungen an Softwareprojekte konzentriert. Diese regelmäßigen Spenden sind wichtig für die langfristige Zukunftsfähigkeit der Projekte. Eine weitere interessante Funktion für Softwareprojekte ist die Möglichkeit, [Teams](https://liberapay.com/about/teams) zu bilden, denen sich die Mitglieder eines Projekts anschließen und dann die Spendeneinnahmen so aufteilen können, dass jeder den Anteil bestimmt, den er oder sie entnehmen möchte."
 
 #. type: Plain text
 #: build/_posts/md/2018-03-02-liberapay-support.md
@@ -1081,7 +1081,7 @@ msgid ""
 "  After about two month we are already receiving ~30€/week, making us currently\n"
 "  the third most funded [team](https://en.liberapay.com/explore/teams) on\n"
 "  Liberapay.\n"
-msgstr "* Der Android-Client zeigt jetzt das Liberapay-Logo ab: \n  <p align=\"center\">\n   <img width=\"400\" src=\"{{ site.baseurl }}/assets/posts/2018-03-02-liberapay-support/liberapay-client-screenshot.png\" />\n  </p>\n* Die Internetseite enthält jetzt [alle Spendenmöglichkeiten]({{ site.baseurl }}/2018/03/01/website-updates.html).\n* F-Droid selbst hat ein [Liberapay-Team](https://liberapay.com/F-Droid-Data).\n  Nach ungefähr zwei Monaten erhalten wir bereits ~30€/Woche, was uns im Moment  \n  zum dritthöchstgeförderten [Team](https://en.liberapay.com/explore/teams) auf\n  Liberapay macht.\n"
+msgstr "* Der Android-Client zeigt jetzt das Liberapay-Logo an: \n  <p align=\"center\">\n   <img width=\"400\" src=\"{{ site.baseurl }}/assets/posts/2018-03-02-liberapay-support/liberapay-client-screenshot.png\" />\n  </p>\n* Die Internetseite enthält jetzt [alle Spendenmöglichkeiten]({{ site.baseurl }}/2018/03/01/website-updates.html).\n* F-Droid selbst hat ein [Liberapay-Team](https://liberapay.com/F-Droid-Data).\n  Nach ungefähr zwei Monaten erhalten wir bereits ~30€/Woche, was uns im Moment  \n  zum dritthöchstgeförderten [Team](https://en.liberapay.com/explore/teams) auf\n  Liberapay macht.\n"
 
 #. type: Title ####
 #: build/_posts/md/2018-03-02-liberapay-support.md
