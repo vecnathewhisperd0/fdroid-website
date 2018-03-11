@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-02-23 10:04+0100\nPO-Revision-Date: 2018-03-08 08:37+0000\nLast-Translator: Claus Rüdinger <Mail-an-CR@web.de>\nLanguage-Team: German <https://hosted.weblate.org/projects/f-droid/website-pages/de/>\nLanguage: de\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.20-dev\n"
+msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-02-23 10:04+0100\nPO-Revision-Date: 2018-03-12 10:35+0000\nLast-Translator: Claus Rüdinger <Mail-an-CR@web.de>\nLanguage-Team: German <https://hosted.weblate.org/projects/f-droid/website-pages/de/>\nLanguage: de\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.20-dev\n"
 
 #. type: Title #
 #: build/_pages/md/403.md
@@ -59,7 +59,7 @@ msgstr "Lizenz"
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "The source code for this site and the content produced by the F-Droid community are a availble under the [GNU Affero General Public License version 3 or later (AGPLv3+)](https://www.gnu.org/licenses/agpl-3.0.html)."
-msgstr "Der Quellcode für diese Seite und die von der F-Droid-Community produzierten Inhalte sind unter der [GNU Affero General Public License Version 3 oder höher (AGPLv3+)] verfügbar. (https://www.gnu.org/licenses/agpl-3.0.html)."
+msgstr "Der Quellcode für diese Seite und die von der F-Droid-Community produzierten Inhalte sind unter der [GNU Affero General Public License Version 3 oder höher (AGPLv3+)](https://www.gnu.org/licenses/agpl-3.0.html) verfügbar."
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
