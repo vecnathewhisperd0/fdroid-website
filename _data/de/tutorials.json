@@ -2,10 +2,12 @@
     "misc": {
         "step_x": "Schritt [number]",
         "step_x_description": "Schritt [number]: [description]",
+        "option_x_description": "Option [number]: [description]",
         "overview": {
-            "tutorial_x_title": "Anleitung [number]: [title]"
-        },
-        "option_x_description": "Option [number]: [description]"
+            "tutorial_x_title": "Anleitung [number]: [title]",
+            "summary": "F-Droid ist ein unabhängiger, von der Community gespeister, komplett auf Free & Open Source Software beruhender App-Store für Android. In F-Droid können Sie über 1.200 Open Source Apps entdecken, Apps aus den erstellten Repositories finden und installieren oder Ihr eigenes Repository schaffen. Öffnen Sie f-droid.org im Browser Ihres Android-Smartphones, um die App herunterzuladen und damit anzufangen!",
+            "title": "Was Sie mit F-Droid machen können"
+        }
     },
     "swap": {
         "step_1": "Öffnen Sie F-Droid. Drücken Sie 'Nah' im Menü am Unterrand des Bildschirms.",
