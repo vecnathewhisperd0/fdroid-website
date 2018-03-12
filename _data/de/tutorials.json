@@ -2,12 +2,12 @@
     "misc": {
         "step_x": "Schritt [number]",
         "step_x_description": "Schritt [number]: [description]",
+        "option_x_description": "Option [number]: [description]",
         "overview": {
             "tutorial_x_title": "Anleitung [number]: [title]",
-            "title": "Was Sie mit F-Droid machen können",
-            "summary": "F-Droid ist ein unabhängiger, von der Community gespeister, komplett auf Free & Open Source Software beruhender App-Store für Android. In F-Droid können Sie über 1.200 Open Source Apps entdecken, Apps aus erstellten Repositories (Paketquellen) finden und installieren oder Ihr eigenes Repository schaffen. Öffnen Sie f-droid.org im Browser Ihres Android-Smartphones, um die App herunterzuladen und damit anzufangen!"
-        },
-        "option_x_description": "Option [number]: [description]"
+            "summary": "F-Droid ist ein unabhängiger, von der Community gespeister, komplett auf Free & Open Source Software beruhender App-Store für Android. In F-Droid können Sie über 1.200 Open Source Apps entdecken, Apps aus erstellten Repositories (Paketquellen) finden und installieren oder Ihr eigenes Repository schaffen. Öffnen Sie f-droid.org im Browser Ihres Android-Smartphones, um die App herunterzuladen und damit anzufangen!",
+            "title": "Was Sie mit F-Droid machen können"
+        }
     },
     "swap": {
         "step_1": "Öffnen Sie F-Droid. Drücken Sie 'Nah' im Menü am Unterrand des Bildschirms.",
@@ -24,5 +24,39 @@
         "related_tutorial": "Das könnte Sie auch interessieren: <a href=\"../create-repo/\">Wie man ein Repo erstellt</a>",
         "intro": "Kein Internet? Kein Problem. Laden Sie Apps von Menschen in Ihrer Nähe herunter.",
         "step_10": "Um Ihre installierten Apps abzurufen, öffnen Sie die F-Droid-Einstellungen und wählen Sie 'Installierte Anwendungen verwalten' unter 'Meine Anwendungen'."
+    },
+    "add_repo": {
+        "overview": {
+            "summary": "Um mehr Inhalte zu erhalten, ergänzen Sie F-Droid um ein Repo. Ein Repo ist eine Sammlung gepflegter Inhalte. Sie können Repos anderer Leute direkt über sie kennenlernen. Entwickler verknüpfen häufig auf ihrer Internetseite zu ihrem F-Droid-Repo. Ausbilder geben oft Links zu Repos über E-Mail, Facebook oder Twitter frei."
+        },
+        "scan_qr_code": {
+            "steps": {
+                "step_1": "Sobald der QR-Code für das Repo angezeigt wird, scannen Sie ihn mithilfe einer QR-Scanner-App.",
+                "step_3": "Wenn Sie nicht die Möglichkeit erhalten, den Link mit F-Droid zu öffnen, schließen Sie die Scanner-App und öffnen Sie die F-Droid-App.",
+                "step_2": "Drücken Sie den Link. Wenn die Möglichkeit besteht, öffnen Sie den Link mithilfe von F-Droid. Folgen Sie dann den Anweisungen. Wenn dies funktioniert, sind Sie fertig! Wenn nicht, gehen Sie zum nächsten Schritt weiter.",
+                "step_5": "Auf dem Paketquellen-Bildschirm drücken Sie das '+' in der oberen, rechten Ecke.",
+                "step_4": "In F-Droid drücken Sie 'Optionen'. Unter 'Meine Anwendungen' wählen Sie 'Paketquellen'.",
+                "step_6": "Die Repo-Adresse wird automatisch bestückt. Drücken Sie 'Aktivieren'. Hinweis: Das Repo wird in den F-Droid-Repositories gespeichert, aber es werden keine Apps installiert werden, solange Sie sie nicht manuell auswählen und installieren."
+            },
+            "description": "Wenn jemand in Ihrer Nähe ein Repo besitzt, das Sie gerne hätten, können Sie den QR-Code des Repos von diesem Gerät scannen. Oder wenn ein QR-Code für ein Repo auf einer Internetseite angezeigt wird, scannen Sie ihn mit Ihrem Gerät, um es hinzuzufügen.",
+            "short_summary": "QR-Code scannen",
+            "title": "QR-Code von einem anderen Gerät scannen"
+        },
+        "intro": "Sie können ein Repo zu F-Droid hinzufügen, indem Sie den QR-Code des Repos von einem anderen Gerät scannen oder einen Link zu einem Repo auf Ihrem Gerät öffnen. Beginnen Sie damit, die F-Droid-App auf Ihr Android-Gerät herunterzuladen und zu installieren.",
+        "open_repo_link": {
+            "steps": {
+                "step_1": "Laden Sie die F-Droid-App herunter und installieren Sie sie auf Ihrem Android-System.",
+                "step_3": "Wenn der Link geöffnet ist, drücken Sie auf 'Zu F-Droid hinzufügen'.",
+                "step_2": "Klicken Sie auf den Link und öffnen Sie ihn in einem Browser auf Ihrem Gerät.",
+                "step_5": "Die Ansicht 'Neue Paketquelle hinzufügen' wird angezeigt, die Adresse des Repository ist bereits vorausgefüllt. Drücken Sie auf 'Ok', um es hinzuzufügen.",
+                "step_7": "Drücken Sie auf einen Eintrag, um seine Inhalte zu betrachten.",
+                "step_6": "Ihr neues Repo wird eingefügt. Um die Liste Ihrer Repos anzusehen, öffnen Sie 'Optionen' und wählen 'Paketquellen'.",
+                "step_8": "Wählen Sie die Apps aus, die Sie haben möchten und auf Ihrem Gerät installiert werden sollen."
+            },
+            "description": "Jemand hat Ihnen eine Verknüpfung zu einem Repo über E-Mail, Facebook, Twitter oder als Textnachricht geschickt. Sie möchten diese Apps in Ihrer F-Droid-App einfügen. Sie können ganz einfach ein Repo zu F-Droid auf Ihrem Android-Gerät hinzufügen, indem Sie seine Verknüpfung öffnen.",
+            "short_summary": "Repo-Link öffnen",
+            "title": "Repo-Link auf Ihrem Gerät öffnen"
+        },
+        "title": "Wie ein Repo zu F-Droid hinzugefügt wird"
     }
 }
