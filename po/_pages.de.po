@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-02-23 10:04+0100\nPO-Revision-Date: 2018-03-12 10:35+0000\nLast-Translator: Claus Rüdinger <Mail-an-CR@web.de>\nLanguage-Team: German <https://hosted.weblate.org/projects/f-droid/website-pages/de/>\nLanguage: de\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.20-dev\n"
+msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-02-23 10:04+0100\nPO-Revision-Date: 2018-03-14 17:37+0000\nLast-Translator: Claus Rüdinger <Mail-an-CR@web.de>\nLanguage-Team: German <https://hosted.weblate.org/projects/f-droid/website-pages/de/>\nLanguage: de\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.20-dev\n"
 
 #. type: Title #
 #: build/_pages/md/403.md
@@ -459,7 +459,7 @@ msgstr "Anwendungen einreichen"
 #. type: Plain text
 #: build/_pages/md/contribute.md
 msgid "If you see an application missing from the repository (after reading the [inclusion policy](../docs/Inclusion_Policy)), please feel free to submit it via the dedicated [Requests For Packaging](https://gitlab.com/fdroid/rfp/issues) issue tracker."
-msgstr "Vermissen Sie in der Paketquelle eine Anwendung, die die [Aufnahmekriterien](../docs/Inclusion_Policy)) erfüllt, besuchen Sie die ausgewiesene Erfassung der [Anträge auf Packaging](https://gitlab.com/fdroid/rfp/issues)."
+msgstr "Vermissen Sie in der Paketquelle eine Anwendung, die die [Aufnahmekriterien](../docs/Inclusion_Policy) erfüllt, dann können Sie sie gerne über die dafür ausgewiesenen [Anträge auf Packaging](https://gitlab.com/fdroid/rfp/issues) einreichen."
 
 #. type: Plain text
 #: build/_pages/md/contribute.md
@@ -501,7 +501,7 @@ msgstr "Bei der Weiterentwicklung helfen"
 #. type: Plain text
 #: build/_pages/md/contribute.md
 msgid "There are four git repositories hosted at GitLab – one for the [Android client application](https://gitlab.com/fdroid/fdroidclient), one for the [server tools](https://gitlab.com/fdroid/fdroidserver) for running a repository and building/installing applications locally, and one for the associated [metadata files for applications in the main F-Droid repository](https://gitlab.com/fdroid/fdroiddata).  The last repo is handling [website and documentation](https://gitlab.com/fdroid/fdroid-website).  The easiest way to contribute to development is to make clones of these projects and submit merge requests.  If you are making large changes, it would be good to discuss them on IRC or in the forum first, to ensure they fit with the direction of the project, and do not clash with or duplicate work already in development."
-msgstr "Es gibt vier auf GitLab gehostete Git-Repositories – eines für die [Android-App](https://gitlab.com/fdroid/fdroidclient), eines für die [Server-Werkzeuge](https://gitlab.com/fdroid/fdroidserver) zum Betrieb eines Repositorys und zur lokalen Erstellung bzw. Installation von Anwendungen und eine für die zugehörigen [Metadaten-Dateien für Anwendungen im F-Droid-Hauptrepository](https://gitlab.com/fdroid/fdroiddata).  Das letzte Repo bearbeitet [Website und Dokumentation](https://gitlab.com/fdroid/fdroid-website).  Der einfachste Weg an der Entwicklung mitzuwirken, ist das Klonen dieser Projekte und Merge-Anträge einzureichen.  Bei Planung großer Änderungen wäre es gut, sie vorab im Chat oder im Forum abzusprechen, um zu gewährleisten, dass sie zu den Projektzielen passen und nicht mit bereits laufenden Entwicklungen kollidieren oder die Arbeiten daran nicht verdoppeln."
+msgstr "Es gibt vier auf GitLab gehostete Git-Repositories – eines für die [Android-App](https://gitlab.com/fdroid/fdroidclient), eines für die [Server-Werkzeuge](https://gitlab.com/fdroid/fdroidserver) zum Betrieb eines Repositorys und zur lokalen Erstellung bzw. Installation von Anwendungen und eines für die zugehörigen [Metadaten-Dateien für Anwendungen im F-Droid-Hauptrepository](https://gitlab.com/fdroid/fdroiddata).  Das letzte Repo bearbeitet [Website und Dokumentation](https://gitlab.com/fdroid/fdroid-website).  Der einfachste Weg an der Entwicklung mitzuwirken, ist das Klonen dieser Projekte und Merge-Anträge einzureichen.  Bei Planung großer Änderungen wäre es gut, sie vorab im Chat oder im Forum abzusprechen, um zu gewährleisten, dass sie zu den Projektzielen passen und nicht mit bereits laufenden Entwicklungen kollidieren oder die Arbeiten daran nicht verdoppeln."
 
 #. type: Plain text
 #: build/_pages/md/contribute.md
