@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-03-01 11:22+0100\nPO-Revision-Date: 2018-03-15 16:33+0000\nLast-Translator: anonymous <>\nLanguage-Team: German <https://hosted.weblate.org/projects/f-droid/website-docs/de/>\nLanguage: de\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.20-dev\n"
+msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-03-01 11:22+0100\nPO-Revision-Date: 2018-03-15 16:33+0000\nLast-Translator: Claus Rüdinger <Mail-an-CR@web.de>\nLanguage-Team: German <https://hosted.weblate.org/projects/f-droid/website-docs/de/>\nLanguage: de\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.20-dev\n"
 
 #. type: Title #
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -5357,7 +5357,7 @@ msgstr "Wenn Ihre Anwendungsmetadaten genehmigt und im fdroiddata-Git-Repository
 #. type: Plain text
 #: build/_docs/md/Inclusion_How-To.md
 msgid "Provided that your application does not have any build problems, it would takes somewhere **around 24 to 48 hours** from fdroiddata merge until the application to appears in the main repository.[1](https://f-droid.org/forums/topic/how-fast-the-main-f-droid-repository-updates/)  This timing limitation is due to the APK signing part of the build process, which requires human intervention on keystore access step.[2](https://f-droid.org/forums/topic/encouraging-f-droid-participation-by-developers/#post-17868)"
-msgstr "Vorausgesetzt, dass Ihre Anwendung keine Herstellungsprobleme aufweist, werden zwischen fdroiddata-Merging und Erscheinen der Anwendung im Hauptrepository **rund 24 bis 48 Stunden** vergehen.[1](https://f-droid.org/forums/topic/how-fast-the-main-f-droid-repository-updates/)  Diese zeitliche Einschränkung ist dem APK-Signatur-Teil der Build-Bearbeitung geschuldet, der beim Schlüsselspeicher-Zugangsschritt ein menschliches Eingreifen erfordert.[2](https://f-droid.org/forums/topic/encouraging-f-droid-participation-by-developers/#post-17868)"
+msgstr "Vorausgesetzt, dass Ihre Anwendung keine Herstellungsprobleme aufweist, werden zwischen fdroiddata-Merging und Erscheinen der Anwendung im Hauptrepository **rund 24 bis 48 Stunden** vergehen.[1](https://f-droid.org/forums/topic/how-fast-the-main-f-droid-repository-updates/)  Diese Zeitverzögerung ist dem APK-Signatur-Teil bei der Build-Verarbeitung geschuldet, der beim Zugriff auf den Schlüsselspeicher ein menschliches Eingreifen erfordert.[2](https://f-droid.org/forums/topic/encouraging-f-droid-participation-by-developers/#post-17868)"
 
 #. type: Plain text
 #: build/_docs/md/Inclusion_How-To.md
