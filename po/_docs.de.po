@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-03-01 11:22+0100\nPO-Revision-Date: 2018-03-15 16:41+0000\nLast-Translator: anonymous <>\nLanguage-Team: German <https://hosted.weblate.org/projects/f-droid/website-docs/de/>\nLanguage: de\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.20-dev\n"
+msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-03-01 11:22+0100\nPO-Revision-Date: 2018-03-15 16:41+0000\nLast-Translator: Claus Rüdinger <Mail-an-CR@web.de>\nLanguage-Team: German <https://hosted.weblate.org/projects/f-droid/website-docs/de/>\nLanguage: de\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.20-dev\n"
 
 #. type: Title #
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -5761,7 +5761,7 @@ msgstr "Um Android-Apps mit den _fdroidserver_-Programmierwerkzeugen herzustelle
 #. type: Plain text
 #: build/_docs/md/Installing_the_Server_and_Repo_Tools.md
 msgid "[Install the Android SDK](https://developer.android.com/sdk/index.html#downloads)  and make sure the `ANDROID_HOME` environment variable is properly set. Be sure to verify the file you downloaded, you can double-check the SHA-1 Checksum on Google's download page."
-msgstr "[Installieren Sie das Android-SDK](https://developer.android.com/sdk/index.html#downloads)  und stellen Sie sicher, dass die Umgebungsvariable ‘ANDROID_HOME` korrekt eingestellt ist. Vergewissern Sie sich von der Echtheit der heruntergeladenen Datei, die SHA-1-Prüfsumme kann auf der Google-Download-Seite nachgeprüft werden."
+msgstr "[Installieren Sie das Android-SDK](https://developer.android.com/sdk/index.html#downloads)  und stellen Sie sicher, dass die Umgebungsvariable ‘ANDROID_HOME` korrekt eingestellt ist. Vergewissern Sie sich von der Echtheit der heruntergeladenen Datei, die SHA-1-Prüfsumme kann auf der Google-Download-Seite gegengeprüft werden."
 
 #. type: Plain text
 #: build/_docs/md/Installing_the_Server_and_Repo_Tools.md
