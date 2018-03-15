@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-03-01 11:22+0100\nPO-Revision-Date: 2018-03-15 16:55+0000\nLast-Translator: anonymous <>\nLanguage-Team: German <https://hosted.weblate.org/projects/f-droid/website-docs/de/>\nLanguage: de\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.20-dev\n"
+msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-03-01 11:22+0100\nPO-Revision-Date: 2018-03-16 17:37+0000\nLast-Translator: Claus Rüdinger <Mail-an-CR@web.de>\nLanguage-Team: German <https://hosted.weblate.org/projects/f-droid/website-docs/de/>\nLanguage: de\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.20-dev\n"
 
 #. type: Title #
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -485,12 +485,12 @@ msgstr "Das bedeutet, die Last der Sicherheit wird vom öffentlichen Online-Webs
 #: build/_docs/md/Building_a_Signing_Server.md
 #, no-wrap
 msgid "Automated Signing Server with with HSM"
-msgstr ""
+msgstr "Automatisierter Signierserver mit HSM"
 
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
 msgid "For a fully automated signing setup, the machine running the signing needs to be online and running. Ideally this machine would have no remote access, at the very least remote access should be very carefully controlled and monitored.  A laptop makes it easy to work with even when remote access is disabled, since it provides a built-in keyboard and monitor.  If remote access is required, then any basic PC will work fine.  Using a Hardware Security Module (HSM) to store the keys prevents them from being stolen if the server is broken into.  An attacker could only run the signing process on that server."
-msgstr ""
+msgstr "Für eine komplett automatisierte Konfiguration zur Signierung, muss der Rechner, der die Signierung ausführt, online und eingeschaltet sein. Idealerweise ist auf den Rechner kein Fernzugriff möglich, wenigstens sollte ein Fernzugriff sehr sorgfältig kontrolliert und überwacht werden.  Ein Laptop vereinfacht die Arbeit, selbst wenn der Fernzugriff deaktiviert ist, da es über Tastatur und Bildschirm verfügt. Wenn der Fernzugriff benötigt wird, wird jeder einfache PC gut funktionieren. Die Verwendung eines Hardware Security Module (HSM), um die Schlüssel zu speichern, verhindert deren Diebstahl, sollte in den Server eingebrochen werden. Ein Angreifer könnte nur den Signiervorgang auf diesem Server durchführen."
 
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
