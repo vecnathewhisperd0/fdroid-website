@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-03-01 11:22+0100\nPO-Revision-Date: 2018-03-15 16:49+0000\nLast-Translator: Claus Rüdinger <Mail-an-CR@web.de>\nLanguage-Team: German <https://hosted.weblate.org/projects/f-droid/website-docs/de/>\nLanguage: de\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.20-dev\n"
+msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-03-01 11:22+0100\nPO-Revision-Date: 2018-03-15 16:50+0000\nLast-Translator: anonymous <>\nLanguage-Team: German <https://hosted.weblate.org/projects/f-droid/website-docs/de/>\nLanguage: de\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.20-dev\n"
 
 #. type: Title #
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -5827,7 +5827,7 @@ msgstr "Das Android-SDK wird von Google unter einer proprietären Lizenz zur Ver
 #. type: Plain text
 #: build/_docs/md/Installing_the_Server_and_Repo_Tools.md
 msgid "Google APIs, used for building apps using Google Maps, are free to the extent that the library comes pre-installed on the device.  Google Play Services, Google Admob, GCM, and many other third party libraries are proprietary and cannot be included in the main F-Droid repository.  The [MicroG project](https://microg.org) is developing free software replacements for some of the most used proprietary Google libraries"
-msgstr ""
+msgstr "Google APIs, die zur Herstellung von Apps, die Google Maps nutzen, verwendet werden, sind dahingehend frei, dass die Bibliothek auf dem Gerät vorinstalliert ist. Google Play Services, Google Admob, GCM und viele andere Drittanbieterbibliotheken sind proprietär und können nicht im F-Droid-Hauptrepository aufgenommen werden. Das [MicroG-Projekt](https://microg.org) entwickelt freien Software-Ersatz für einige der am häufigsten verwendeten proprietären Google-Dienste."
 
 #. type: Plain text
 #: build/_docs/md/Installing_the_Server_and_Repo_Tools.md
@@ -6316,12 +6316,12 @@ msgstr ""
 #: build/_docs/md/Release_Channels_and_Signing_Keys.md
 #, no-wrap
 msgid "Release Channels and Signing Keys"
-msgstr ""
+msgstr "Verbreitungskanäle und Signierschlüssel"
 
 #. type: Plain text
 #: build/_docs/md/Release_Channels_and_Signing_Keys.md
 msgid "This is a list of all signing keys used for F-Droid releases."
-msgstr ""
+msgstr "Dies ist eine Liste aller, für F-Droid-Veröffentlichungen verwendeter Signierschlüssel."
 
 #. type: Title ##
 #: build/_docs/md/Release_Channels_and_Signing_Keys.md
