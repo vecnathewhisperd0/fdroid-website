@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-03-01 11:22+0100\nPO-Revision-Date: 2018-03-15 16:46+0000\nLast-Translator: Claus Rüdinger <Mail-an-CR@web.de>\nLanguage-Team: German <https://hosted.weblate.org/projects/f-droid/website-docs/de/>\nLanguage: de\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.20-dev\n"
+msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-03-01 11:22+0100\nPO-Revision-Date: 2018-03-15 16:47+0000\nLast-Translator: anonymous <>\nLanguage-Team: German <https://hosted.weblate.org/projects/f-droid/website-docs/de/>\nLanguage: de\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.20-dev\n"
 
 #. type: Title #
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -5806,18 +5806,18 @@ msgstr "- alle SDK-Plattformen auf die Apps zurückgreifen, die Sie herstellen m
 #. type: Plain text
 #: build/_docs/md/Installing_the_Server_and_Repo_Tools.md
 msgid "On top of that, to build apps like they are built on f-droid.org, then the whole [Build Server Setup](../Build_Server_Setup) is required.  That is a more secure, production-ready setup that requires quite a bit more setup and resources.  The [build server provisioning scripts](https://gitlab.com/fdroid/fdroidserver/tree/master/buildserver/)  provide a useful reference for all the needed bits."
-msgstr ""
+msgstr "Obendrein wird, um Apps so herzustellen, wie es auf f-droid.org geschieht, die komplette [Build-Server-Konfiguration](../Build_Server_Setup) benötigt. Das ist eine sicherere, gebrauchsfertige Konfiguration, die einige weitere Einstellungen und Ressourcen erfordert.  Die [Skripte zur Build-Server-Bereitstellung](https://gitlab.com/fdroid/fdroidserver/tree/master/buildserver/) liefern nützliche Hinweise zu allen notwendigen Kleinigkeiten."
 
 #. type: Plain text
 #: build/_docs/md/Installing_the_Server_and_Repo_Tools.md
 msgid "If you want to make your own official releases with the F-Droid tools, then you'll also need to set up the [Signing Process](../Signing_Process)."
-msgstr ""
+msgstr "Möchten Sie Ihre eigenen, offiziellen Versionen mit den F-Droid-Werkzeugen erstellen, dann muss auch der [Signierprozess](../Signing_Process) eingerichtet werden."
 
 #. type: Title ##
 #: build/_docs/md/Installing_the_Server_and_Repo_Tools.md
 #, no-wrap
 msgid "Proprietary, non-free libraries"
-msgstr ""
+msgstr "Proprietäre, unfreie Bibliotheken"
 
 #. type: Plain text
 #: build/_docs/md/Installing_the_Server_and_Repo_Tools.md
