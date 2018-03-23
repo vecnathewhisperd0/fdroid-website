@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-03-01 11:22+0100\nPO-Revision-Date: 2018-03-16 17:37+0000\nLast-Translator: Claus Rüdinger <Mail-an-CR@web.de>\nLanguage-Team: German <https://hosted.weblate.org/projects/f-droid/website-docs/de/>\nLanguage: de\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.20-dev\n"
+msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-03-01 11:22+0100\nPO-Revision-Date: 2018-03-24 08:36+0000\nLast-Translator: Claus Rüdinger <Mail-an-CR@web.de>\nLanguage-Team: German <https://hosted.weblate.org/projects/f-droid/website-docs/de/>\nLanguage: de\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.20-dev\n"
 
 #. type: Title #
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -421,7 +421,7 @@ msgstr "Wenn die Erstellung fehlschlug, können Sie einen Blick auf die Ausgabe 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md
 msgid "Note that source code repositories often contain prebuilt libraries. If the app is being considered for the main F-Droid repository, it is important that all such prebuilts are built either via the metadata or by a reputable third party."
-msgstr "Berücksichtigen Sie, dass Quellcode-Repositories oft vorgefertigte Bibliotheken enthalten. Wenn die App für das F-Droid-Hauptrepository bestimmt ist, ist es wichtig, dass alle solche Vorgaben entweder über die Metadaten oder durch einen seriösen Drittanbieter hergestellt werden."
+msgstr "Berücksichtigen Sie, dass Quellcode-Repositories oft vorgefertigte Programmbibliotheken enthalten. Wenn die App für das F-Droid-Hauptrepository bestimmt ist, ist es wichtig, dass alle diese Bibliotheken entweder über die Metadaten oder durch einen seriösen Drittanbieter hergestellt sind."
 
 #. type: Title ###
 #: build/_docs/md/Building_Applications.md
@@ -6316,7 +6316,7 @@ msgstr ""
 #: build/_docs/md/Release_Channels_and_Signing_Keys.md
 #, no-wrap
 msgid "Release Channels and Signing Keys"
-msgstr "Verbreitungskanäle und Signierschlüssel"
+msgstr "Bezugsquellen und Signaturen"
 
 #. type: Plain text
 #: build/_docs/md/Release_Channels_and_Signing_Keys.md
@@ -6327,7 +6327,7 @@ msgstr "Dies ist eine Liste aller für F-Droid-Veröffentlichungen verwendeter S
 #: build/_docs/md/Release_Channels_and_Signing_Keys.md
 #, no-wrap
 msgid "F-Droid client app for Android"
-msgstr ""
+msgstr "F-Droid-Client, -App für Android"
 
 #. type: Plain text
 #: build/_docs/md/Release_Channels_and_Signing_Keys.md
@@ -6355,7 +6355,7 @@ msgid ""
 "        Serial number: 4c49cd00\n"
 "        Valid from: Fri Jul 23 13:10:24 EDT 2010 until: Tue Dec 08 12:10:24 EST 2037\n"
 "        Certificate fingerprints:\n"
-msgstr ""
+msgstr "-   Git-Repo: <https://gitlab.com/fdroid/fdroidclient>\n    -   Git-Tags signiert durch \"Hans-Christoph Steiner\n        \\<hans@guardianproject.info>\", alias \"Hans-Christoph Steiner\n        \\<hans@eds.org>\", alias \"Hans-Christoph Steiner\n        \\<hans@at.or.at>\" mit Hashwert: <br />\n        `EE66 20C7 136B 0D2C 456C 0A4D E9E2 8DEA 00AA 5556`\n    -   oder früher signiert durch \"Daniel Martí \\<mvdan@mvdan.cc>\", alias \n        \"Daniel Martí \\<mvdan@fsfe.org>\" mit Hashwert: <br\n        />`A9DA 13CD F7A1 4ACD D3DE E530 F4CA FFDB 4348\n        041C`\n-   offizielle Binärdateiveröffentlichungen:\n    <https://f-droid.org/repository/browse/?fdfilter=f-droid&fdid=org.fdroid.fdroid>\n    -   GPG-Signatur: \"F-Droid \\<admin@f-droid.org>\"\n    -   Primärschlüssel-Hashwert: `37D2 C987 89D8 3119 4839 4E3E 41E7 044E 1DBA 2E89`\n    -   Unterschlüssel-Hashwert: `802A 9799 0161 1234 6E1F EFF4 7A02 9E54 DD5D CE7A`\n    -   APK-Signatur:\n        ```\n        Eigentümer: CN=Ciaran Gultnieks, OU=Unknown, O=Unknown, L=Wetherby, ST=Unknown, C=UK\n        Herausgeber: CN=Ciaran Gultnieks, OU=Unknown, O=Unknown, L=Wetherby, ST=Unknown, C=UK\n        Seriennummer: 4c49cd00\n        Gültig von: Fr, 23. Jul 2010, 13:10:24 UTC-4 bis: Di, 08. Dez 2037, 12:10:24 UTC-5        \n        Zertifikat-Hashwerte:\n"
 
 #. type: Plain text
 #: build/_docs/md/Release_Channels_and_Signing_Keys.md
@@ -6406,7 +6406,7 @@ msgid ""
 "    -   or previously \"Daniel Martí \\<mvdan@mvdan.cc>\" aka\n"
 "        \"Daniel Martí \\<mvdan@fsfe.org>\" with fingerprint: <br\n"
 "        />`A9DA 13CD F7A1 4ACD D3DE E530 F4CA FFDB 4348 041C`\n"
-msgstr ""
+msgstr "-   Git-Repo: <https://gitlab.com/fdroid/fdroidserver>\n    -   Git-Tags signiert durch \"Hans-Christoph Steiner\n        \\<hans@guardianproject.info>\", alias \"Hans-Christoph Steiner\n        \\<hans@eds.org>\", alias \"Hans-Christoph Steiner\n        \\<hans@at.or.at>\" mit Hashwert: <br />\n        `EE66 20C7 136B 0D2C 456C 0A4D E9E2 8DEA 00AA 5556`\n    -   oder früher durch \"Daniel Martí \\<mvdan@mvdan.cc>\", alias\n        \"Daniel Martí \\<mvdan@fsfe.org>\" mit Hashwert: <br\n        />`A9DA 13CD F7A1 4ACD D3DE E530 F4CA FFDB 4348 041C`\n"
 
 #. type: Plain text
 #: build/_docs/md/Release_Channels_and_Signing_Keys.md
@@ -6420,7 +6420,7 @@ msgid ""
 "        `EE66 20C7 136B 0D2C 456C 0A4D E9E2 8DEA 00AA 5556`\n"
 "        or previously <br />`5E61 C878 0F86 295C E17D 8677 9F0F E587 374B BE81`\n"
 "    -   release command: `python3 setup.py sdist upload --sign`\n"
-msgstr ""
+msgstr "-   Paketquelle: <https://pypi.python.org/pypi/fdroidserver>\n    -   Paket-Tags signiert durch \"Hans-Christoph Steiner\n        \\<hans@guardianproject.info>\", alias \"Hans-Christoph Steiner\n        \\<hans@eds.org>\", alias \"Hans-Christoph Steiner\n        \\<hans@at.or.at>\" mit Hashwert: <br />\n        `EE66 20C7 136B 0D2C 456C 0A4D E9E2 8DEA 00AA 5556`\n        oder früher <br />`5E61 C878 0F86 295C E17D 8677 9F0F E587 374B BE81`\n    -   Abrufbefehl: `python3 setup.py sdist upload --sign`\n"
 
 #. type: Plain text
 #: build/_docs/md/Release_Channels_and_Signing_Keys.md
@@ -6436,7 +6436,7 @@ msgid ""
 "        `EE66 20C7 136B 0D2C 456C 0A4D E9E2 8DEA 00AA\n"
 "        5556` or previously <br />\n"
 "        `5E61 C878 0F86 295C E17D 8677 9F0F E587 374B BE81`\n"
-msgstr ""
+msgstr "-   offizielles Debian-Paket: <https://packages.debian.org/fdroidserver>\n    -   Paketquelle:\n        <https://anonscm.debian.org/git/collab-maint/fdroidserver.git>\n    -   Paket-Tags signiert durch \"Hans-Christoph Steiner\n        \\<hans@guardianproject.info>\", alias \"Hans-Christoph Steiner\n        \\<hans@eds.org>\", alias \"Hans-Christoph Steiner\n        \\<hans@at.or.at>\" mit Hashwert: <br/>\n        `EE66 20C7 136B 0D2C 456C 0A4D E9E2 8DEA 00AA\n        5556` oder früher <br />\n        `5E61 C878 0F86 295C E17D 8677 9F0F E587 374B BE81`\n"
 
 #. type: Plain text
 #: build/_docs/md/Release_Channels_and_Signing_Keys.md
@@ -6450,7 +6450,7 @@ msgid ""
 "    sudo apt-get update\n"
 "    sudo apt-get install fdroidserver\n"
 "    ```\n"
-msgstr ""
+msgstr "-   offizielles Ubuntu-Paket: <https://launchpad.net/~fdroid/+archive/ubuntu/fdroidserver>\n    - Hashwert: `9AAC 2531 93B6 5D4D F1D0 A13E EC46 32C7 9C5E 0151`\n    - Einrichtung:\n    ```bash\n    sudo add-apt-repository ppa:fdroid/fdroidserver\n    sudo apt-get update\n    sudo apt-get install fdroidserver\n    ```\n"
 
 #. type: Title ##
 #: build/_docs/md/Release_Channels_and_Signing_Keys.md
@@ -6467,7 +6467,7 @@ msgid ""
 "        \\<hans@guardianproject.info>\" aka \"Hans-Christoph Steiner\n"
 "        \\<hans@eds.org>\" aka \"Hans-Christoph Steiner\n"
 "        \\<hans@at.or.at>\" with fingerprint: <br/>`EE66 20C7 136B 0D2C 456C 0A4D E9E2 8DEA 00AA 5556`\n"
-msgstr ""
+msgstr "-   Git-Repo: <https://gitlab.com/fdroid/privileged-extension>\n    -   Git-Tags signiert durch \"Hans-Christoph Steiner\n        \\<hans@guardianproject.info>\", alias \"Hans-Christoph Steiner\n        \\<hans@eds.org>\", alias \"Hans-Christoph Steiner\n        \\<hans@at.or.at>\" mit Hashwert: <br/>`EE66 20C7 136B 0D2C 456C 0A4D E9E2 8DEA 00AA 5556`\n"
 
 #. type: Title #
 #: build/_docs/md/Release_Process.md
@@ -7148,12 +7148,12 @@ msgstr ""
 #: build/_docs/md/Reproducible_Builds.md
 #, no-wrap
 msgid "Sources"
-msgstr ""
+msgstr "Quellen"
 
 #. type: Plain text
 #: build/_docs/md/Reproducible_Builds.md
 msgid "- <https://gitlab.com/fdroid/fdroidserver/commit/8568805866dadbdcc6c07449ca6b84b80d0ab03c> - [Verification Server](../Verification_Server)  - <https://verification.f-droid.org> - <https://reproducible-builds.org> - <https://wiki.debian.org/ReproducibleBuilds> - <https://gitian.org/> - <https://issuetracker.google.com/issues/70292819> (_Google login and Javascript required_)  - <https://issuetracker.google.com/issues/37132313> (_Google login and Javascript required_)"
-msgstr ""
+msgstr "- <https://gitlab.com/fdroid/fdroidserver/commit/8568805866dadbdcc6c07449ca6b84b80d0ab03c> - [Verifikationsserver](../Verification_Server)  - <https://verification.f-droid.org> - <https://reproducible-builds.org> - <https://wiki.debian.org/ReproducibleBuilds> - <https://gitian.org/> - <https://issuetracker.google.com/issues/70292819> (_Google-Konto und Javascript erforderlich_)  - <https://issuetracker.google.com/issues/37132313> (_Google-Konto und Javascript erforderlich_)"
 
 #. type: Title #
 #: build/_docs/md/Security_Model.md
@@ -7163,7 +7163,6 @@ msgstr "Sicherheitsmodell"
 
 #. type: Plain text
 #: build/_docs/md/Security_Model.md
-#, fuzzy
 msgid "The security architecture is based on models proven by [Debian](https://wiki.debian.org/SecureApt), [The Update Framework](https://github.com/theupdateframework/tuf/blob/develop/docs/tuf-spec.txt)  , and others:"
 msgstr "Die Sicherheitsarchitektur beruht auf Modellen, die bei [Debian](https://wiki.debian.org/SecureApt), [The Update Framework](https://github.com/theupdateframework/tuf/blob/develop/docs/tuf-spec.txt) und anderen erprobt sind:"
 
@@ -7174,9 +7173,8 @@ msgstr "[HTTPS-Verbindungen als Standard](https://gitlab.com/fdroid/fdroidclient
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Security_Model.md
-#, fuzzy
 msgid "server only works over HTTPS, [HTTP](http://f-droid.org) is a redirect"
-msgstr "der Server funktioniert nur über HTTPS, [HTTP](http://f-droid.org) ist eine Umleitung"
+msgstr "der Server funktioniert nur über HTTPS, [HTTP](http://f-droid.org) fungiert als Weiterleitungsadresse"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Security_Model.md
@@ -7227,7 +7225,7 @@ msgstr "Wenngleich die aktuelle Konfiguration bereits eine solide Grundlage dars
 #. type: Bullet: '-   '
 #: build/_docs/md/Security_Model.md
 msgid "The signed metadata will include list of official mirrors, then the client [chooses mirrors](https://gitlab.com/fdroid/fdroidclient/issues/35) based on availability and freshness based on local criteria like whether Tor is in use, closest on the internet, etc."
-msgstr "Die signierten Metadaten werden eine Liste offizieller Spiegel enthalten, der Client bestimmt danach die [Spiegelauswahl](https://gitlab.com/fdroid/fdroidclient/issues/35), abhängig von Verfügbarkeit und Auslastung sowie lokalen Kriterien, wie Nutzung von Tor, größtmöglicher Nähe im Internet usw."
+msgstr "Die signierten Metadaten schließen eine Liste offizieller Spiegel ein, der Client bestimmt danach die [Spiegelauswahl](https://gitlab.com/fdroid/fdroidclient/issues/35), abhängig von Verfügbarkeit und Auslastung sowie lokalen Kriterien, wie Nutzung von Tor, größtmöglicher Nähe im Internet usw."
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Security_Model.md
@@ -7242,9 +7240,8 @@ msgstr "[in den Client integriertes, fest verankertes TLS-Zertifikat](https://gi
 
 #. type: Plain text
 #: build/_docs/md/Security_Model.md
-#, fuzzy
 msgid "In order to defend against an attacker that holds the signing keys for the app repository, there must be a trustworthy source of information to compare against. Reproducible builds means that anyone with the same source code will produce the exact same binary. When paired with an auditing system, it is easy to catch malware inserted in the build process, rather than the source code, like XCodeGhost. Reproducible builds also makes it possible to have all builds of a release binary have the exact same hash. Then any app repository can build apps only from source code, and have a source of verification data from any other app repository building the same app. Building software from source has become cheap enough that many companies like gitlab.com and Travis CI are offering free, automated build services in the cloud. Since the whole F-Droid toolset is free software and designed to be easy to setup, the barriers to setting up automatic auditing are quite low. People in separate areas of the world with different risk profiles can run [verification servers](../Verification_Server) to provide more trustworthy information."
-msgstr "Um Angreifer, die im Besitz des Signierschlüssels für das App-Repository sind, abzuwehren, wird eine vertrauenswürdige Informationsquelle zum Gegenabgleich benötigt. Für reproduzierbare Builds gilt, dass jeder mit dem selben Quelltext exakt die selbe Binärdatei erzeugen wird. Bei Anbindung an ein Auditierungssystem ist es, eher als im Quelltext, einfach, in den Build-Prozess eingeschleuste Schadsoftware, wie XCodeGhost, abzufangen. Reproduzierbare Builds machen es außerdem möglich, dass alle Builds einer Binärdateiausgabe genau den selben Hashwert besitzen. Jedes App-Repository kann danach nur aus dem Quellcode Apps erstellen und besitzt eine Quelle mit Überprüfungsdaten zu allen anderen App-Repositorys, die die selbe App herstellen. Softwareherstellung aus dem Quellcode ist so preiswert geworden, dass viele Firmen, wie gitlab.com und Travis CI, kostenlose, automatisierte Build-Leistungen in der Cloud anbieten. Nachdem sämtliche F-Droid-Werkzeuge freie Programme sind und auf eine einfache Einrichtung ausgelegt sind, sind die Hürden für eine automatisierte Auditierung ziemlich niedrig. Menschen in verschiedenen Teilen der Welt mit unterschiedlichen Risikoprofilen können so [Prüfserver](../Verification_Server) abfragen, die weitergehende vertrauenswürdige Informationen bereitstellen."
+msgstr "Um Angreifer, die im Besitz des Signierschlüssels für das App-Repository sind, abzuwehren, wird eine vertrauenswürdige Informationsquelle zum Gegenabgleich benötigt. Für reproduzierbare Builds gilt, dass jeder mit dem selben Quelltext exakt die selbe Binärdatei erzeugen wird. Bei Anbindung an ein Auditierungssystem ist es, eher als im Quelltext, einfach, in den Build-Prozess eingeschleuste Schadsoftware, wie XCodeGhost, abzufangen. Reproduzierbare Builds machen es außerdem möglich, dass alle Builds einer Binärdateiausgabe genau den selben Hashwert besitzen. Jedes App-Repository kann danach nur aus dem Quellcode Apps erstellen und besitzt eine Quelle mit Überprüfungsdaten zu allen anderen App-Repositorys, die die selbe App herstellen. Softwareherstellung aus dem Quellcode ist so preiswert geworden, dass viele Firmen, wie gitlab.com und Travis CI, kostenlose, automatisierte Build-Leistungen in der Cloud anbieten. Nachdem sämtliche F-Droid-Werkzeuge freie Programme sind und auf eine einfache Einrichtung ausgelegt sind, sind die Hürden für eine automatisierte Auditierung ziemlich niedrig. Menschen in verschiedenen Teilen der Welt mit unterschiedlichen Risikoprofilen können so [Prüfserver](../Verification_Server) betreiben, um weitergehende vertrauenswürdige Informationen bereitzustellen."
 
 #. type: Plain text
 #: build/_docs/md/Security_Model.md
@@ -7255,84 +7252,84 @@ msgstr "Die Dokumentation zum Sicherheitsmodell der [Build-Server-Konfiguration]
 #: build/_docs/md/Security_Model.md
 #, no-wrap
 msgid "Initial Installs"
-msgstr ""
+msgstr "Erstinstallationen"
 
 #. type: Plain text
 #: build/_docs/md/Security_Model.md
 msgid "Most users of F-Droid download the APK from _f-droid.org_ and install it.  This is a potential vector of attack that built-in app stores do not have.  Therefore, many additional security precautions are taken to make it as hard as possible to exploit this vector."
-msgstr ""
+msgstr "Die meisten Nutzer von F-Droid laden die APK von _f-droid.org_ herunter und installieren sie.  Dies ist ein potentieller Angriffsvektor, den vorinstallierte App-Stores nicht haben.  Deshalb werden viele zusätzliche Sicherheitsvorkehrungen getroffen, um es so schwierig wie möglich zu machen, diesen Angriffsweg auszunutzen."
 
 #. type: Bullet: '* '
 #: build/_docs/md/Security_Model.md
 msgid "included on the [HSTS preload list](https://hstspreload.org/?domain=f-droid.org), so major browsers will only ever use HTTPS for all connections to _f-droid.org_"
-msgstr ""
+msgstr "Einschluss in die [HSTS Preload List](https://hstspreload.org/?domain=f-droid.org), damit gängige Browser ausschließlich HTTPS für alle Verbindungen zu _f-droid.org_ verwenden."
 
 #. type: Bullet: '* '
 #: build/_docs/md/Security_Model.md
 msgid "a [strong](https://observatory.mozilla.org/analyze.html?host=f-droid.org#third) TLS/HTTPS configuration"
-msgstr ""
+msgstr "eine [starke](https://observatory.mozilla.org/analyze.html?host=f-droid.org#third) TLS/HTTPS-Konfiguration"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Security_Model.md
 msgid "a [strong](https://observatory.mozilla.org/analyze.html?host=f-droid.org) HTTP Content Security Policy"
-msgstr ""
+msgstr "eine [starke](https://observatory.mozilla.org/analyze.html?host=f-droid.org) Sicherheitsrichtlinie zu HTTP-Inhalten"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Security_Model.md
 msgid "[PGP-signature](/F-Droid.apk.asc) on the initial install [download link](/F-Droid.apk)"
-msgstr ""
+msgstr "[PGP-Signatur](/F-Droid.apk.asc) der [Download-Verknüpfung](/F-Droid.apk) zur Erstinstallation"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Security_Model.md
 msgid "automated [regular](https://gitlab.com/fdroid/fdroid-website/-/jobs/47503948)  and [random](https://verification.f-droid.org/check-fdroid-apk)  [auditing](https://gitlab.com/fdroid/fdroidserver/blob/dfbe114af3c4cef15ce3aa5e979d9f4684f2acbc/tests/check-fdroid-apk)  that [F-Droid.apk](/F-Droid.apk) has not been tampered with"
-msgstr ""
+msgstr "automatisierte [regelmäßige](https://gitlab.com/fdroid/fdroid-website/-/jobs/47503948)  und [stichprobenartige](https://verification.f-droid.org/check-fdroid-apk)  [Auditierungen](https://gitlab.com/fdroid/fdroidserver/blob/dfbe114af3c4cef15ce3aa5e979d9f4684f2acbc/tests/check-fdroid-apk),  dass an [F-Droid.apk](/F-Droid.apk) keine unerlaubten Änderungen vorgenommen wurden"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Security_Model.md
 msgid "F-Droid Limited controls many potential phishing domains like [fdroid.org](https://whois.icann.org/lookup?name=fdroid.org), [f-droid.com](https://whois.icann.org/lookup?name=f-droid.com), and [f-dro1d.org](https://whois.icann.org/lookup?name=f-dro1d.org). (donations of more are welcome!)"
-msgstr ""
+msgstr "F-Droid Limited überwacht viele potentielle Phishing-Domänen, wie [fdroid.org](https://whois.icann.org/lookup?name=fdroid.org), [f-droid.com](https://whois.icann.org/lookup?name=f-droid.com) und [f-dro1d.org](https://whois.icann.org/lookup?name=f-dro1d.org). (die Bekanntgabe weiterer wird begrüßt!)"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Security_Model.md
 msgid "website is [statically generated](https://gitlab.com/fdroid/fdroid-website) to greatly reduce the attack surface"
-msgstr ""
+msgstr "Die Website wird [statisch erzeugt](https://gitlab.com/fdroid/fdroid-website), um die Angriffsfläche in hohem Maße zu reduzieren"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Security_Model.md
 msgid "website is fully functional when Javascript is disabled in the browser, eliminating all possibility of XSS attacks"
-msgstr ""
+msgstr "die Website ist komplett funktionsfähig, wenn Javascript im Browser deaktiviert ist, wodurch alle XSS-Angriffsmöglichkeiten beseitigt werden"
 
 #. type: Title ###
 #: build/_docs/md/Security_Model.md
 #, no-wrap
 msgid "F-Droid as built in app store"
-msgstr ""
+msgstr "F-Droid als vorinstallierter App-Store"
 
 #. type: Plain text
 #: build/_docs/md/Security_Model.md
 msgid "When F-Droid is built into Android, either as part of the ROM or by flashing an [OTA update]({{ site.baseurl }}/packages/org.fdroid.fdroid.privileged.ota/), it no longer needs \"Unknown Sources\" enabled to function.  This is the preferred method of operation, so we aim to make it as easy as possible for users to run F-Droid this way.  Flashing the OTA package for F-Droid [Privileged Extension](https://gitlab.com/fdroid/privileged-extension/#how-do-i-install-it-on-my-device)  has the same or lower risk profile as installing the standard \"gapps\" package that many people flash onto custom ROMs. So this delivery method does not increase the risk profile of those users."
-msgstr ""
+msgstr "Wenn F-Droid in Android vorinstalliert ist, entweder als Teil des ROM oder durch Einspielen eines [OTA Update]({{ site.baseurl }}/packages/org.fdroid.fdroid.privileged.ota/), wird die Aktivierung der \"Unbekannten Herkunft\" nicht mehr benötigt, damit es funktioniert.  Dies ist die bevorzugte Arbeitsmethode, so haben wir uns zum Ziel gesetzt, es Anwendern so einfach wie möglich zu machen, F-Droid auf diese Art zu betreiben.  Die Installation des OTA-Paketes für F-Droid's [Rechteerweiterung](https://gitlab.com/fdroid/privileged-extension/#how-do-i-install-it-on-my-device)  hat das gleiche wenn nicht niedrigere Risikoprofil wie die Installation des Standard-\"GApps\"-Paketes, das viele Menschen zu Custom-ROMs flashen. So erhöht diese Bereitstellungsmethode nicht das Risiko für jene Anwender."
 
 #. type: Plain text
 #: build/_docs/md/Security_Model.md
 msgid "On top of this, F-Droid makes it as easy as possible to [build it into](https://gitlab.com/fdroid/privileged-extension/#how-do-i-build-it-into-my-rom)  ROM projects.  It is already included in [Replicant](https://www.replicant.us/), [CopperheadOS](https://copperhead.co/android/), [LineageOS for microG](https://lineage.microg.org/) and [Fairphone Open](https://code.fairphone.com/projects/fp-osos/)."
-msgstr ""
+msgstr "Darüberhinaus, macht F-Droid die [Vorinstallation](https://gitlab.com/fdroid/privileged-extension/#how-do-i-build-it-into-my-rom) in ROM-Projekte so einfach wie möglich.  In [Replicant](https://www.replicant.us/), [CopperheadOS](https://copperhead.co/android/), [LineageOS for microG](https://lineage.microg.org/) und [Fairphone Open](https://code.fairphone.com/projects/fp-osos/) ist es bereits integriert."
 
 #. type: Title ##
 #: build/_docs/md/Security_Model.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Security Audits"
-msgstr "Sicherheitsmodell"
+msgstr "Sicherheitsaudits"
 
 #. type: Bullet: '1. '
 #: build/_docs/md/Security_Model.md
 msgid "There was a quick, informal [security audit](https://dev.guardianproject.info/projects/bazaar/wiki/Initial_FDroid_Audit_by_pd0x)  done in 2013 by then graduate student Daniel McCarney aka _pd0x_."
-msgstr ""
+msgstr "Es wurde ein kurzes, informelles [Sicherheitsaudit](https://dev.guardianproject.info/projects/bazaar/wiki/Initial_FDroid_Audit_by_pd0x) im Jahr 2013 durch den damaligen Hochschulabsolventen Daniel McCarney, auch bekannt unter _pd0x_, durchgeführt."
 
 #. type: Bullet: '2. '
 #: build/_docs/md/Security_Model.md
 msgid "The first \"Bazaar\" project funded by Open Tech Fund included an [external public audit]({{ site.baseurl }}/2018/01/20/upcoming-security-audit.html)"
-msgstr ""
+msgstr "Das erste, von Open Tech Fund finanzierte \"Bazaar\"-Projekt schloss ein [externes öffentliches Audit]({{ site.baseurl }}/2018/01/20/upcoming-security-audit.html) ein"
 
 #. type: Title #
 #: build/_docs/md/Setup_an_F-Droid_App_Repo.md
