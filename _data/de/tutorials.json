@@ -2,12 +2,12 @@
     "misc": {
         "step_x": "Schritt [number]",
         "step_x_description": "Schritt [number]: [description]",
+        "option_x_description": "Option [number]: [description]",
         "overview": {
             "tutorial_x_title": "Anleitung [number]: [title]",
-            "title": "Was Sie mit F-Droid machen können",
-            "summary": "F-Droid ist ein unabhängiger, von der Community gespeister, komplett auf Free & Open Source Software beruhender App-Store für Android. In F-Droid können Sie über 1.200 Open Source Apps entdecken, Apps aus erstellten Repositories (Paketquellen) finden und installieren oder Ihr eigenes Repository schaffen. Öffnen Sie f-droid.org im Browser Ihres Android-Smartphones, um die App herunterzuladen und damit anzufangen!"
-        },
-        "option_x_description": "Option [number]: [description]"
+            "summary": "F-Droid ist ein unabhängiger, von der Community gespeister, komplett auf Free & Open Source Software beruhender App-Store für Android. In F-Droid können Sie über 1.200 Open Source Apps entdecken, Apps aus erstellten Repositories (Paketquellen) finden und installieren oder Ihr eigenes Repository schaffen. Öffnen Sie f-droid.org im Browser Ihres Android-Smartphones, um die App herunterzuladen und damit anzufangen!",
+            "title": "Was Sie mit F-Droid machen können"
+        }
     },
     "swap": {
         "step_1": "Öffnen Sie F-Droid. Drücken Sie 'Nah' im Menü am Unterrand des Bildschirms.",
@@ -24,8 +24,8 @@
         "related_tutorial": "Das könnte Sie auch interessieren: <a href=\"../create-repo/\">Wie ein Repo erstellt wird</a>",
         "intro": "Kein Internet? Kein Problem. Laden Sie Apps von Menschen in Ihrer Nähe herunter.",
         "overview": {
-            "title": "Apps offline senden und empfangen",
-            "summary": "Kein Internet? Kein Problem. Die F-Droid-Nahfunktion ermöglicht Ihnen den Austausch von Inhalten mit Menschen im selben Raum."
+            "summary": "Kein Internet? Kein Problem. Die F-Droid-Nahfunktion ermöglicht Ihnen den Austausch von Inhalten mit Menschen im selben Raum.",
+            "title": "Apps offline senden und empfangen."
         },
         "step_10": "Um Ihre installierten Apps abzurufen, öffnen Sie die F-Droid-Einstellungen und wählen Sie 'Installierte Anwendungen verwalten' unter 'Meine Anwendungen'."
     },
@@ -33,8 +33,8 @@
         "no_internet": "Kein Internet? Kein Problem. Lernen Sie, <a href=\"../swap/\">wie Apps offline gesendet und empfangen werden.</a>",
         "title": "Wie ein Repo zu F-Droid hinzugefügt wird",
         "overview": {
-            "title": "Inhalte erweitern.",
-            "summary": "Um mehr Inhalte zu erhalten, ergänzen Sie F-Droid um ein Repo. Ein Repo ist eine Sammlung gepflegter Inhalte. Sie können Repos anderer Leute direkt über sie kennenlernen. Entwickler verknüpfen häufig auf ihrer Internetseite zu ihrem F-Droid-Repo. Ausbilder geben oft Links zu Repos über E-Mail, Facebook oder Twitter frei."
+            "summary": "Um mehr Inhalte zu erhalten, ergänzen Sie F-Droid um ein Repo. Ein Repo ist eine Sammlung gepflegter Inhalte. Sie können Repos anderer Leute direkt über sie kennenlernen. Entwickler verknüpfen häufig auf ihrer Internetseite zu ihrem F-Droid-Repo. Ausbilder geben oft Links zu Repos über E-Mail, Facebook oder Twitter frei.",
+            "title": "Inhalte erweitern."
         },
         "scan_qr_code": {
             "related_tutorial": "Das könnte Sie auch interessieren: <a href=\"../swap/\">Wie Apps offline gesendet und empfangen werden</a>",
@@ -74,15 +74,15 @@
                 "step_3": "Erstellen Sie ein neues Repo und benennen Sie es entsprechend.",
                 "step_2": "Starten Sie Repomaker. Führen Sie die Anmeldung oder Registrierung durch, um zu beginnen.",
                 "step_5": "Klicken Sie auf 'Hinzufügen' neben den Elementen, die Sie dazutun möchten. Wenn Sie das erledigt haben, drücken Sie auf den 'Zurück'-Pfeil, um zu Ihrem Repo zurückzukehren.",
-                "step_4": "Wählen Sie Apps aus der Galerie und vorhandenen Repositories aus, um sie hinzuzufügen, oder laden Sie Ihre eigenen Dateien hoch. Klicken Sie auf 'Aus der Galerie hinzufügen', um fertig verfügbare Inhalte auszuwählen.",
+                "step_4": "Wählen Sie Apps aus der Sammlung und vorhandenen Repositories aus, um sie hinzuzufügen, oder laden Sie Ihre eigenen Dateien hoch. Klicken Sie auf 'Aus der Galerie hinzufügen', um fertig verfügbare Inhalte auszuwählen.",
                 "step_6": "Ihre Apps werden in der Ansicht mit den Repo-Inhalten angezeigt werden."
             },
-            "title": "Repomaker herunteladen und installieren, um mit der Erstellung zu beginnen"
+            "title": "Repomaker herunterladen und installieren, um mit der Erstellung zu beginnen"
         },
         "title": "Wie ein Repo erstellt wird",
         "overview": {
-            "title": "Eigene Apps und Dateien hinzufügen.",
-            "summary": "Schaffen Sie Ihr eigenes maßgeschneidertes App-Repositiory. Verwenden Sie F-Droid, um seine Inhalte zu verbreiten. Ausbilder nutzen Repos, um Ressourcen- und App-Sammlungen mit Schulungsteilnehmern zu teilen, wenn es keine zuverlässige Internetverbindung gibt. Entwickler verwenden Repos, um ihre Apps an Nischenzielgruppen zu verteilen."
+            "summary": "Schaffen Sie Ihr eigenes maßgeschneidertes App-Repositiory. Verwenden Sie F-Droid, um seine Inhalte zu verbreiten. Ausbilder nutzen Repos, um Ressourcen- und App-Sammlungen mit Schulungsteilnehmern zu teilen, wenn es keine zuverlässige Internetverbindung gibt. Entwickler verwenden Repos, um ihre Apps an Nischenzielgruppen zu verteilen.",
+            "title": "Eigene Apps und Dateien hinzufügen."
         },
         "share_repo": {
             "steps": {
