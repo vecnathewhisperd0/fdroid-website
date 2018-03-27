@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-03-01 11:22+0100\nPO-Revision-Date: 2018-03-24 08:36+0000\nLast-Translator: Claus Rüdinger <Mail-an-CR@web.de>\nLanguage-Team: German <https://hosted.weblate.org/projects/f-droid/website-docs/de/>\nLanguage: de\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.20-dev\n"
+msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-03-01 11:22+0100\nPO-Revision-Date: 2018-03-28 20:37+0000\nLast-Translator: Claus Rüdinger <Mail-an-CR@web.de>\nLanguage-Team: German <https://hosted.weblate.org/projects/f-droid/website-docs/de/>\nLanguage: de\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.20-dev\n"
 
 #. type: Title #
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -7995,9 +7995,8 @@ msgstr "[Ausgewählte App-Beschreibungen](https://hosted.weblate.org/projects/f-
 
 #. type: Bullet: '* '
 #: build/_docs/md/Translation_and_Localization.md
-#, fuzzy
 msgid "[f-droid.org website \"chrome\" strings](https://hosted.weblate.org/projects/f-droid/website)"
-msgstr "[F-Droid Android App Strings](https://hosted.weblate.org/projects/f-droid/f-droid/)"
+msgstr "[\"Chrome\"-Zeichenketten der f-droid.org-Website ](https://hosted.weblate.org/projects/f-droid/website)"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Translation_and_Localization.md
@@ -8007,12 +8006,12 @@ msgstr "[f-droid.org-Neuigkeitenseite](https://hosted.weblate.org/projects/f-dro
 #. type: Bullet: '* '
 #: build/_docs/md/Translation_and_Localization.md
 msgid "[f-droid.org website docs and pages](https://hosted.weblate.org/projects/f-droid/website-docs)"
-msgstr "[f-droid.org-Website, Dokumentation und Seiten](https://hosted.weblate.org/projects/f-droid/website-docs)"
+msgstr "[f-droid.org-Dokumentationsseite und Folgeseiten](https://hosted.weblate.org/projects/f-droid/website-docs)"
 
 #. type: Plain text
 #: build/_docs/md/Translation_and_Localization.md
 msgid "If the upstream project's source repo includes app descriptions, then those will be automatically included as long as they use the [supported layouts](../All_About_Descriptions_Graphics_and_Screenshots).  If there are any issues with missing translations or broken localized formats, please [file an issue](https://gitlab.com/groups/fdroid/issues) so it can be fixed."
-msgstr ""
+msgstr "Wenn das vorgeschaltete Quell-Repo des Projekts App-Beschreibungen enthält, werden diese automatisch eingeschlossen, solange sie ein [unterstütztes Layout](../All_About_Descriptions_Graphics_and_Screenshots) verwenden.  Sollten Probleme mit fehlenden Übersetzungen oder fehlerhaft lokalisierten Formaten auftreten, senden Sie bitte einen [Problembericht](https://gitlab.com/groups/fdroid/issues), damit sie behoben werden können."
 
 #. type: Title ##
 #: build/_docs/md/Translation_and_Localization.md
@@ -8050,7 +8049,7 @@ msgstr "Zuerst und vor allem muss Android die spezielle Sprache und Lokalisation
 #. type: Plain text
 #: build/_docs/md/Translation_and_Localization.md
 msgid "For [_fdroidclient_](https://hosted.weblate.org/projects/f-droid/f-droid/), [_fdroidserver_](https://hosted.weblate.org/projects/f-droid/fdroidserver/)  and [_Repomaker_](https://hosted.weblate.org/projects/f-droid/repomaker), anyone can create a new language via Weblate.  For the rest of the translation \"components\" on Weblate, please [file an admin issue](https://gitlab.com/fdroid/admin/issues) to request a new language."
-msgstr ""
+msgstr "Für [_fdroidclient_](https://hosted.weblate.org/projects/f-droid/f-droid/), [_fdroidserver_](https://hosted.weblate.org/projects/f-droid/fdroidserver/)  und [_Repomaker_](https://hosted.weblate.org/projects/f-droid/repomaker) kann jeder über Weblate eine neue Sprache einführen.  Für die übrigen Übersetzungs\"komponenten\" auf Weblate, senden Sie bitte einen [Problembericht an die Administratoren](https://gitlab.com/fdroid/admin/issues), um eine neue Sprache anzufordern."
 
 #. type: Title ###
 #: build/_docs/md/Translation_and_Localization.md
