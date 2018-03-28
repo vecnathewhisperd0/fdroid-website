@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-02-23 10:04+0100\nPO-Revision-Date: 2018-03-23 18:36+0000\nLast-Translator: Claus Rüdinger <Mail-an-CR@web.de>\nLanguage-Team: German <https://hosted.weblate.org/projects/f-droid/website-pages/de/>\nLanguage: de\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.20-dev\n"
+msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-02-23 10:04+0100\nPO-Revision-Date: 2018-03-29 20:37+0000\nLast-Translator: Claus Rüdinger <Mail-an-CR@web.de>\nLanguage-Team: German <https://hosted.weblate.org/projects/f-droid/website-pages/de/>\nLanguage: de\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.20-dev\n"
 
 #. type: Title #
 #: build/_pages/md/403.md
@@ -522,7 +522,7 @@ msgstr "F-Droid ist zweierlei, sowohl eine Paketquelle (= ein Repository) mit ge
 #. type: Plain text
 #: build/_pages/md/docs.md
 msgid "The F-Droid server tools provide various scripts and tools that are used to maintain the main F-Droid application repository. You can use these same tools to create your own additional or alternative repository for publishing, or to assist in creating, testing and submitting metadata to the main repository."
-msgstr "Die F-Droid-Server-Werkzeuge liefern verschiedene Skripte und Instrumente, die zum Betrieb des Hauptrepository der F-Droid-Anwendung verwendet werden. Sie können die selben Werkzeuge zur Erstellung eines eigenen, ergänzenden oder alternativen Repositories zur Publikation oder zur Mithilfe bei der Bildung, Testung und Übermittlung von Metadaten an das Hauptrepository nutzen."
+msgstr "Die F-Droid-Server-Werkzeuge liefern verschiedene Skripte und Instrumente, die zum Betrieb des Hauptrepository der F-Droid-Anwendung verwendet werden. Sie können dieselben Werkzeuge zur Erstellung eines eigenen, ergänzenden oder alternativen Repositories zur Publikation oder zur Mithilfe bei der Bildung, Testung und Übermittlung von Metadaten an das Hauptrepository nutzen."
 
 #. type: Title ###
 #: build/_pages/md/docs.md
