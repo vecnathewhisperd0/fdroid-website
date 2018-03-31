@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-03-05 15:16+0100\nPO-Revision-Date: 2018-03-31 01:19+0000\nLast-Translator: Fabiola Maurice <fabiola.mauriceh@gmail.com>\nLanguage-Team: Spanish <https://hosted.weblate.org/projects/f-droid/website-posts/es/>\nLanguage: es\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.20-dev\n"
+msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-03-05 15:16+0100\nPO-Revision-Date: 2018-03-31 01:56+0000\nLast-Translator: Fabiola Maurice <fabiola.mauriceh@gmail.com>\nLanguage-Team: Spanish <https://hosted.weblate.org/projects/f-droid/website-posts/es/>\nLanguage: es\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.20-dev\n"
 
 #. type: Title #
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md
@@ -355,7 +355,7 @@ msgstr "![]({{ site.baseurl }}/assets/posts/2017-07-03-cuba/antenna_outside_shop
 #: build/_posts/md/2017-07-03-cuba.md
 #, no-wrap
 msgid "This is exactly what the <a href=\"http://droid-tech.com/\">DroidT shop</a> did that I visited in <a href=\"https://en.wikipedia.org/wiki/Sancti_Sp%C3%ADritus\">Sancti Spíritus</a>, Cuba. They run their own repository within their local WiFi network. Currently, they offer more than 2000 apps, mostly games, but also other useful apps, for free to everybody within the range of their WiFi router. Having a worse store location than their competitors, it really helps them to drive people to their shop and to build up their reputation within the local community. So far, they are the only store in their city offering this free and convenient service to their customers.\n"
-msgstr "Eso es exactamente lo que <a href=\"http://droid-tech.com/\"> 1 la tienda DroidT </a> 2  que visite en <a href=\"https://en.wikipedia.org/wiki/Sancti_Sp%C3%ADritus\"> 3 Sancti Spíritus</a> 4, Cuba hizo.  Ellos operan su propio repositorio con una red local de WiFi. Actualmente, ofrecen mas de 2000 aplicaciones, la mayoria juegos, pero tambien otras aplicaciones utiles, de manera gratuita para cualquier persona en el radio de alcance de su router.  Debido a que tienen una ubicacion menos conveniente que la de sus competidores,  esto realmente les ayuda a atraer gente a su tienda y mejorar su  reputacion en su comunidad.\n"
+msgstr "Eso es exactamente lo que <a href=\"http://droid-tech.com/\"> 1 la tienda DroidT </a> 2  que visite en <a href=\"https://en.wikipedia.org/wiki/Sancti_Sp%C3%ADritus\"> 3 Sancti Spíritus</a> 4, Cuba hizo.  Ellos operan su propio repositorio con una red local de WiFi. Actualmente, ofrecen mas de 2000 aplicaciones, la mayoria juegos, pero tambien otras aplicaciones utiles, de manera gratuita para cualquier persona en el radio de alcance de su router.  Debido a que tienen una ubicacion menos conveniente que la de sus competidores,  esto realmente les ayuda a atraer gente a su tienda y mejorar su  reputacion en su comunidad. Por el momento, son la unica tienda en la ciudad ofreciendo este servicio gratuito y conveniente a sus clientes.\n"
 
 #. type: Plain text
 #: build/_posts/md/2017-07-03-cuba.md
@@ -363,17 +363,17 @@ msgstr "Eso es exactamente lo que <a href=\"http://droid-tech.com/\"> 1 la tiend
 msgid ""
 "![]({{ site.baseurl }}/assets/posts/2017-07-03-cuba/child_apps.jpg)<br/>\n"
 "*A Cuban child looking through the print-out of available apps*\n"
-msgstr ""
+msgstr "![]({{ site.baseurl }}/assets/posts/2017-07-03-cuba/child_apps.jpg)<br/> 1\n*Un niño Cubano viendo la lista impresa de aplicaciones disponibles*\n"
 
 #. type: Plain text
 #: build/_posts/md/2017-07-03-cuba.md
 msgid "The apps are downloaded by the store employees once, put into the repository and then are available to an unlimited number of customers without ever needing to connect to the internet again. The DroidT team is even going the last mile by also offering Spanish app metadata such as summaries and app descriptions to make it easier for people to find the app that they are looking for."
-msgstr ""
+msgstr "Las aplicaciones son descargadas por los empleados de la tienda una vez, colocadas en el repositorio y despues estan disponibles para un numero ilimitado de clientes sin la necesidad de conectarse nuevamente a internet. El equipo de DroidT se esfuerza aun mas ofreciendo metadata en espanol de las aplicaciones como resumenes y descripciones de aplicaciones para ayudar a las personas a encontrar  la aplicacion que estan buscando."
 
 #. type: Plain text
 #: build/_posts/md/2017-07-03-cuba.md
 msgid "At the moment they work on making use of the new screenshot feature that was introduced to the F-Droid app recently, so their customers can browse through the screenshots before deciding whether to install an app or not."
-msgstr ""
+msgstr "Por el momento estan trabajando en hacer uso de la funcion nueva de imagenes de pantalla agregada a la aplicacion de F-Droid recientemente, para que sus clientes puedan ver las imagenes de pantalla antes de decidir si instalan la aplicacion o no."
 
 #. type: Plain text
 #: build/_posts/md/2017-07-03-cuba.md
@@ -381,22 +381,22 @@ msgstr ""
 msgid ""
 "![]({{ site.baseurl }}/assets/posts/2017-07-03-cuba/fdroid_repo_categories.jpg)<br/>\n"
 "*A Screenshot of DroidT's app categories*\n"
-msgstr ""
+msgstr "![]({{ site.baseurl }}/assets/posts/2017-07-03-cuba/fdroid_repo_categories.jpg)<br/> 1\n*Una foto de pantalla de las categorias de aplicaciones en  DroidT's *\n"
 
 #. type: Plain text
 #: build/_posts/md/2017-07-03-cuba.md
 msgid "Another nice service they offer are app updates that are securely delivered by F-Droid. When somebody who has already downloaded apps from their repository, comes into the range of their WiFi again, F-Droid will check for updates and offer to install the ones that are available. This is a huge advantage in a country where people normally never care about updates at the expense of security."
-msgstr ""
+msgstr "Otro servicio que ofrecen es la actualizacion de aplicaciones realizada de manera segura unsando F-Droid. Cuando alguien que ha realizado descargas de su repositorio previamente esta en su rango de alcanze, F-Droid busca actualizaciones y ofrece instalar las que estan disponibles.  Esta es una ventaja muy grande en un pais  donde generalmente las personas no se preocupan por actualizaciones arriesgando su seguridad."
 
 #. type: Plain text
 #: build/_posts/md/2017-07-03-cuba.md
 msgid "So it comes at no surprise that their slogan is \"BE UPDATE\" that even hangs in huge letters right above their desk in their shop. The repository by the way is hosted on the server that you can see directly above the banner with their slogan."
-msgstr ""
+msgstr "Por lo que no nos sorprende que su slogan sea  \" MANTENTE ACTUALIZADO \"  e incluso esta colgado en letras enorme arriba del escritorio de su tienda. Por cierto el repositorio esta hospedado en el servidor que puedes ver arriba de el letrero con su slogan."
 
 #. type: Plain text
 #: build/_posts/md/2017-07-03-cuba.md
 msgid "![]({{ site.baseurl }}/assets/posts/2017-07-03-cuba/be_update1.jpg)"
-msgstr ""
+msgstr "![]({{ site.baseurl }}/assets/posts/2017-07-03-cuba/be_update1.jpg)"
 
 #. type: Plain text
 #: build/_posts/md/2017-07-03-cuba.md
