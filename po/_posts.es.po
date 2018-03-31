@@ -287,7 +287,7 @@ msgstr "Compatible con los terminos de servicio de Google Play"
 #. type: Plain text
 #: build/_posts/md/2017-06-01-announcing-new-libraries-f-droid-update-channels.md
 msgid "Both of these libraries also check whether Google Play is installed, if so, will disable itself.  This allows apps to include this library in APKs that are uploaded to Google Play since it will not violate the Google Play Terms of Service."
-msgstr "Ambas librerias tambien verifican si Google Play esta instalado, y si lo esta,  se deshabilitara el mismo."
+msgstr "Ambas librerias tambien verifican si Google Play esta instalado, y si lo esta,  se deshabilitara el mismo. Esto permite a las aplicaciones incluir  esta libreria en los APKs  que son subidos a Google Play ya que no violan los Terminos de Servicio de Google Play"
 
 #. type: Title #
 #: build/_posts/md/2017-07-03-cuba.md
