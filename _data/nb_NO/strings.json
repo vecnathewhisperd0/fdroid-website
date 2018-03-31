@@ -43,7 +43,7 @@
     "sidebars": {
         "donate": {
             "bank_transfer_name": "Navn", 
-            "bitcoin_alt": "Bitcoin", 
+            "bitcoin_alt": "Send bitcoin", 
             "flattr_alt": "Doner via Flattr", 
             "heading": "Doner", 
             "liberapay_alt": "Doner via Liberapay", 
