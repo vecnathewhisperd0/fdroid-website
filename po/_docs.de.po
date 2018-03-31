@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-03-01 11:22+0100\nPO-Revision-Date: 2018-03-28 20:37+0000\nLast-Translator: Claus Rüdinger <Mail-an-CR@web.de>\nLanguage-Team: German <https://hosted.weblate.org/projects/f-droid/website-docs/de/>\nLanguage: de\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.20-dev\n"
+msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-03-01 11:22+0100\nPO-Revision-Date: 2018-04-01 08:41+0000\nLast-Translator: Claus Rüdinger <Mail-an-CR@web.de>\nLanguage-Team: German <https://hosted.weblate.org/projects/f-droid/website-docs/de/>\nLanguage: de\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.20-dev\n"
 
 #. type: Title #
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -4097,23 +4097,23 @@ msgstr "Ich kann Apps herunterladen, aber dann ist \"Installieren\" deaktiviert.
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md
 msgid "Some users have apps such as Twilight installed, which draw directly to the screen regardless of what app is shown. For security reasons, Android wisely doesn't allow apps to be installed when such apps are running. If it did, then people could create apps that draw a fake \"Install\" button over the top of the real one, resulting in users installing unwanted apps. The solution is to disable such apps before installing via F-Droid."
-msgstr ""
+msgstr "Einige Anwender verwenden Apps, wie Twilight, die direkt auf den Bildschirm zeichnen, egal welche App angezeigt wird. Vernünftigerweise verbietet Android aus Sicherheitsgründen die App-Installation, wenn solche Apps laufen. Wenn es das täte, könnten Leute Apps erstellen, die eine gefälschte \"Installieren\"-Schaltfläche über die echte zeichnen, mit dem Ergebnis, dass Anwender ungewünschte Apps installieren. Die Lösung dafür ist die Deaktivierung solcher Apps vor einer Installation über F-Droid."
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md
 msgid "See [Issue 151](https://gitlab.com/fdroid/fdroidclient/issues/151) or [this Google+ comment](https://plus.google.com/116713673773180618201/posts/UvW3tgSgdUp)  for more details."
-msgstr ""
+msgstr "Weitere Details unter [Issue 151](https://gitlab.com/fdroid/fdroidclient/issues/151) oder [in diesem Kommentar auf Google+](https://plus.google.com/116713673773180618201/posts/UvW3tgSgdUp)."
 
 #. type: Title ###
 #: build/_docs/md/FAQ_-_Client.md
 #, no-wrap
 msgid "How do I update all my installed programs at once?"
-msgstr ""
+msgstr "Wie aktualisiere ich alle meine installierten Programme auf ein Mal?"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md
 msgid "You can't yet. See [Issue 36 - Update All](https://f-droid.org/repository/issues/?do=view_issue&issue=36)."
-msgstr ""
+msgstr "Das geht noch nicht. Siehe [Issue 36 - Update All](https://f-droid.org/repository/issues/?do=view_issue&issue=36)."
 
 #. type: Title ###
 #: build/_docs/md/FAQ_-_Client.md
@@ -4196,12 +4196,12 @@ msgstr ""
 #: build/_docs/md/FAQ_-_Client.md
 #, no-wrap
 msgid "How can I send the F-Droid app using NFC or Android Beam?"
-msgstr ""
+msgstr "Wie kann ich die F-Droid-App über NFC oder Android Beam versenden?"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md
 msgid "Starting in v0.59, the F-Droid client supports sending the F-Droid app itself to another device to set it up for the first time. For this to work, both the sending and receiving device must have NFC, Android Beam, and be running Android 4.1 or newer."
-msgstr ""
+msgstr "Ab Version v0.59 unterstützt der F-Droid-Client das Senden der F-Droid-App selbst an ein anderes Gerät zur Ersteinrichtung. Damit das funktioniert, müssen sowohl das sendende als auch das empfangende Gerät über NFC, Android Beam, und Android 4.1 oder neuer verfügen."
 
 #. type: Bullet: '1.  '
 #: build/_docs/md/FAQ_-_Client.md
@@ -4227,12 +4227,12 @@ msgstr ""
 #: build/_docs/md/FAQ_-_Client.md
 #, no-wrap
 msgid "What is the security model that F-Droid uses?"
-msgstr ""
+msgstr "Welches Sicherheitsmodell verwendet F-Droid?"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md
 msgid "The F-Droid security model started out with HTTPS connections and signed metadata. It has been evolving, inspired by [Debian](https://wiki.debian.org/SecureApt), [The Update Framework](https://github.com/theupdateframework/tuf/blob/develop/docs/tuf-spec.txt), and other things. You can read about details here: [Security Model](../Security_Model)."
-msgstr ""
+msgstr "Das F-Droid-Sicherheitsmodell begann mit HTTPS-Verbindungen und signierten Metadaten. Es hat sich, beeinflusst von  [Debian](https://wiki.debian.org/SecureApt), [The Update Framework](https://github.com/theupdateframework/tuf/blob/develop/docs/tuf-spec.txt) und anderen Dingen, weiterentwickelt. Einzelheiten dazu finden Sie hier: [Sicherheitsmodell](../Security_Model)."
 
 #. type: Title #
 #: build/_docs/md/FAQ_-_General.md
