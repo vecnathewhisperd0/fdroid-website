@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-03-05 15:16+0100\nPO-Revision-Date: 2018-03-31 00:34+0000\nLast-Translator: Fabiola Maurice <fabiola.mauriceh@gmail.com>\nLanguage-Team: Spanish <https://hosted.weblate.org/projects/f-droid/website-posts/es/>\nLanguage: es\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.20-dev\n"
+msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-03-05 15:16+0100\nPO-Revision-Date: 2018-03-31 00:35+0000\nLast-Translator: Fabiola Maurice <fabiola.mauriceh@gmail.com>\nLanguage-Team: Spanish <https://hosted.weblate.org/projects/f-droid/website-posts/es/>\nLanguage: es\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.20-dev\n"
 
 #. type: Title #
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md
@@ -287,18 +287,18 @@ msgstr "Compatible con los terminos de servicio de Google Play"
 #. type: Plain text
 #: build/_posts/md/2017-06-01-announcing-new-libraries-f-droid-update-channels.md
 msgid "Both of these libraries also check whether Google Play is installed, if so, will disable itself.  This allows apps to include this library in APKs that are uploaded to Google Play since it will not violate the Google Play Terms of Service."
-msgstr "Ambas librerias tambien verifican si Google Play esta instalado, y si lo esta,  se deshabilitara el mismo. Esto permite a las aplicaciones incluir  esta libreria en los APKs  que son subidos a Google Play ya que no violan los Terminos de Servicio de Google Play"
+msgstr "Ambas librerias tambien verifican si Google Play esta instalado, y si lo esta,  se deshabilitara el mismo. Esto permite a las aplicaciones incluir  esta libreria en los APKs  que son subidos a Google Play ya que no violan los Terminos de Servicio de Google Play."
 
 #. type: Title #
 #: build/_posts/md/2017-07-03-cuba.md
 #, no-wrap
 msgid "\"How F-Droid is Bringing Apps to Cuba\""
-msgstr ""
+msgstr "\" Como F-Droid esta llevando aplicaciones a Cuba \""
 
 #. type: Plain text
 #: build/_posts/md/2017-07-03-cuba.md
 msgid "![]({{ site.baseurl }}/assets/posts/2017-07-03-cuba/fdroid-logo.png)"
-msgstr ""
+msgstr "![]({{ site.baseurl }}/assets/posts/2017-07-03-cuba/fdroid-logo.png)"
 
 #. type: Plain text
 #: build/_posts/md/2017-07-03-cuba.md
