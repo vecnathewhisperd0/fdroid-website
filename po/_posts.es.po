@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-03-05 15:16+0100\nPO-Revision-Date: 2018-03-31 01:56+0000\nLast-Translator: Fabiola Maurice <fabiola.mauriceh@gmail.com>\nLanguage-Team: Spanish <https://hosted.weblate.org/projects/f-droid/website-posts/es/>\nLanguage: es\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.20-dev\n"
+msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-03-05 15:16+0100\nPO-Revision-Date: 2018-04-01 22:39+0000\nLast-Translator: Fabiola Maurice <fabiola.mauriceh@gmail.com>\nLanguage-Team: Spanish <https://hosted.weblate.org/projects/f-droid/website-posts/es/>\nLanguage: es\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.20-dev\n"
 
 #. type: Title #
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md
@@ -401,25 +401,25 @@ msgstr "![]({{ site.baseurl }}/assets/posts/2017-07-03-cuba/be_update1.jpg)"
 #. type: Plain text
 #: build/_posts/md/2017-07-03-cuba.md
 msgid "It is great to see that the free technology that the F-Droid community worked on for so many years to liberate Android users is put to unexpected use by talented individuals in other countries like Cuba and helps to make a difference there."
-msgstr ""
+msgstr "Es increible ver como la tecnologia gratuita  en la que la comunidad F-Droid trabajo por tantos años para liberar a los usuarios de Android ha sido aplicada a un uso inesperado por individuos talentosos en otros paises como Cuba y esta ayudando a hacer un cambio alli."
 
 #. type: Plain text
 #: build/_posts/md/2017-07-03-cuba.md
 #, no-wrap
 msgid "<hr />\n"
-msgstr ""
+msgstr "<hr /> 1\n"
 
 #. type: Plain text
 #: build/_posts/md/2017-07-03-cuba.md
 #, no-wrap
 msgid "For the sake of completeness however, it should be mentioned that ordinary downloads and F-Droid are not the only ways that Cubans use to get apps. There are weekly data packages that are sent through the country on hard-drives by bus. These <a href=\"https://en.wikipedia.org/wiki/El_Paquete_Semanal\">Paquete Semanal</a> contain mostly movies and TV shows, but also news and apps.\n"
-msgstr ""
+msgstr "Para ser completamente claros, debemos mensionar que  las descargas ordinarias  y F-Droid  no son las unicas formas que los Cubanos usan para obtener aplicaciones. Existen  paquetes de datos semanales que son enviados en autobus atravez del pais en discos duros. Este  <a href=\"https://en.wikipedia.org/wiki/El_Paquete_Semanal\"> 1 Paquete Semanal </a> 2  contiene en su mayoria peliculas y series de television, pero tambien nuevas aplicaciones.\n"
 
 #. type: Plain text
 #: build/_posts/md/2017-07-03-cuba.md
 #, no-wrap
 msgid "Then, there is a proprietary app called <a href=\"https://en.wikipedia.org/wiki/Zapya\">Zapya</a> that is very popular among young Cubans, because it allows them to wirelessly share apps and other files between two phones. Although F-Droid offers the same functionality, this is not yet widely known and currently being improved to match the simplicity that Zapya offers to Cubans at the moment.\n"
-msgstr ""
+msgstr "Tambien, existe una aplicacion de software propietario llamada  <a href=\"https://en.wikipedia.org/wiki/Zapya\"> 1Zapya</a> 2 que es muy popular entre juvenes Cubanos, porque les permite compartir de manera inalambrica  archivos y aplicaciones entre dos telefonos. Y aunque  F-Droid ofrece la misma funcion, pero no muchos usuarios lo saben y esta siendo mejorado para igualar la simplicidad que Zapya ofrece a los Cubanos actualmente.\n"
 
 #. type: Plain text
 #: build/_posts/md/2017-07-03-cuba.md
@@ -427,24 +427,24 @@ msgstr ""
 msgid ""
 "![]({{ site.baseurl }}/assets/posts/2017-07-03-cuba/zapya_sharing.jpg)<br/>\n"
 "*A Cuban sharing apps with Zapya*\n"
-msgstr ""
+msgstr "![]({{ site.baseurl }}/assets/posts/2017-07-03-cuba/zapya_sharing.jpg)<br/> 1\n*Un Cubano compartiendo aplicaciones con Zapya*\n"
 
 #. type: Plain text
 #: build/_posts/md/2017-07-03-cuba.md
 #, no-wrap
 msgid "*This post was originally published on [blog.grobox.de/2017/how-f-droid-is-bringing-apps-to-cuba](https://blog.grobox.de/2017/how-f-droid-is-bringing-apps-to-cuba/).*\n"
-msgstr ""
+msgstr "\" Esta nota fue publicada originalmente en [blog.grobox.de/2017/how-f-droid-is-bringing-apps-to-cuba](https://blog.grobox.de/2017/how-f-droid-is-bringing-apps-to-cuba/).*\n"
 
 #. type: Title #
 #: build/_posts/md/2017-10-10-fdroid-is-1.0.md
 #, no-wrap
 msgid "\"F-Droid is 1.0!\""
-msgstr ""
+msgstr "\"F-Droid es 1.0!\""
 
 #. type: Plain text
 #: build/_posts/md/2017-10-10-fdroid-is-1.0.md
 msgid "October 10th, 10-10, is the perfect day to announce F-Droid 1.0! After 7 years and the last year of intense development, we are ready to call the F-Droid ecosystem ready for prime time.  We think that F-Droid is mature enough and ready for all users."
-msgstr ""
+msgstr "10 de Octubre, 10-10, es el dia perfecto para anunciar F-Droid 1.0! Despues de 7 años y el año pasado de desarrollo intenso, estamos listos para llamar al ecosistema F-Droid listo y optimo. Pensamos que F-Droid es sufientemente maduro y listo para los usuarios."
 
 #. type: Plain text
 #: build/_posts/md/2017-10-10-fdroid-is-1.0.md
