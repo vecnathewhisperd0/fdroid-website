@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-03-05 15:16+0100\nPO-Revision-Date: 2018-03-31 00:35+0000\nLast-Translator: Fabiola Maurice <fabiola.mauriceh@gmail.com>\nLanguage-Team: Spanish <https://hosted.weblate.org/projects/f-droid/website-posts/es/>\nLanguage: es\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.20-dev\n"
+msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-03-05 15:16+0100\nPO-Revision-Date: 2018-03-31 01:19+0000\nLast-Translator: Fabiola Maurice <fabiola.mauriceh@gmail.com>\nLanguage-Team: Spanish <https://hosted.weblate.org/projects/f-droid/website-posts/es/>\nLanguage: es\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.20-dev\n"
 
 #. type: Title #
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md
@@ -303,7 +303,7 @@ msgstr "![]({{ site.baseurl }}/assets/posts/2017-07-03-cuba/fdroid-logo.png)"
 #. type: Plain text
 #: build/_posts/md/2017-07-03-cuba.md
 msgid "Only in 2015, when the government opened the first public WiFi hotspots in the country, did internet access become available to ordinary Cubans. Before that, even though modern mobile phones had already found their way into the country, they were mostly used off-line. Now, all these phones can be connected to the internet. However, at 1.50 CUC per hour, this is still not affordable to most Cubans whose average salary is only 20 CUC per month."
-msgstr ""
+msgstr "Unicamente en el 2015, cuando el govierno abrio el primer punto de acceso WiFi en el pais, el acceso a internet se volvio disponible para los Cubanos ordinarios. Antes de eso, incluso cuando los telefonos modernos llegaron al pais, eran utilizados unicamente sin acceso a Internet. Ahora todos estos telefonos se pueden conectar al internet. Sinembargo, a 1.50 CUC por hora, sigue siendo inaccesible para la mayoria de los Cubanos que ganan un salario mensuel de 20 CUC."
 
 #. type: Plain text
 #: build/_posts/md/2017-07-03-cuba.md
@@ -311,24 +311,24 @@ msgstr ""
 msgid ""
 "![]({{ site.baseurl }}/assets/posts/2017-07-03-cuba/celulares_apps_and_updates.jpg)<br/>\n"
 "*Mobile Phone Shop offering Apps and Updates*\n"
-msgstr ""
+msgstr "![]({{ site.baseurl }}/assets/posts/2017-07-03-cuba/celulares_apps_and_updates.jpg)<br/> 1\n* Tienda de telefonos mobiles ofreciendo aplicaciones y actualizaciones*\n"
 
 #. type: Plain text
 #: build/_posts/md/2017-07-03-cuba.md
 msgid "So it is not surprising that most Cubans do not use what little expensive bandwidth they have available to download apps, but use it for other things such as communicating with their relatives. If they want apps, they can go to one of the many mobile phone repair shops and get them installed there for a nominal fee."
-msgstr ""
+msgstr "Por lo tanto no es ninguna sorpresa que los Cubanos no utilizen el ancho de banda limitado al que tienen acceso para descargar aplicaciones,  lo utilizan  en otras actividades como comunicarse con sus familiares. Si quieren aplicaciones pueden ir a las tiendas de reparacion de telefonos mobiles e instalarlas ahi por una cantidad minima."
 
 #. type: Plain text
 #: build/_posts/md/2017-07-03-cuba.md
 #, no-wrap
 msgid "In order to distinguish themselves from the tough competition, some shops take an interesting approach: They <a href=\"https://guardianproject.info/2017/02/22/build-your-own-app-store-android-media-distribution-for-everyone/\">open up their own app store</a> in a local (offline) WiFi network to attract customers.\n"
-msgstr ""
+msgstr "Algunas tiendas han tomado un enfoque interesante para distiguirse de la competencia: Abren <a href=\"https://guardianproject.info/2017/02/22/build-your-own-app-store-android-media-distribution-for-everyone/\"> 1 su propia tienda de aplicaciones </a> 2 en una red WiFi local ( sin acceso a internet)  para atraer clientes.\n"
 
 #. type: Plain text
 #: build/_posts/md/2017-07-03-cuba.md
 #, no-wrap
 msgid "The only existing technology that allows everybody to open their own app store is called <a href=\"https://f-droid.org/\">F-Droid</a>. It is a full-blown app store kit that comes with all the tools and <a href=\"https://f-droid.org/docs/\">documentation</a> required to open up your own store: an <a href=\"https://gitlab.com/fdroid/fdroidserver/\">app store server</a>, the <a href=\"https://gitlab.com/fdroid/fdroidclient\">app</a> to install the apps with on your phone and a <a href=\"https://gitlab.com/fdroid/repomaker\">curation tool</a> to manage your store with ease.\n"
-msgstr ""
+msgstr "LA unica tecnologia existente que les permite a todos abrir su propia tienda de aplicaciones se llama <a href=\"https://f-droid.org/\"> 1F-Droid</a> 2. Es un kit completo para una tienda de aplicaciones que incluye todas las herramientas  <a href=\"https://f-droid.org/docs/\"> 3documentation</a> 4 requeridas para abrir tu propia tienda de aplicaciones: un  <a href=\"https://gitlab.com/fdroid/fdroidserver/\"> 5 servidor para la tienda de aplicaciones </a> 6, la <a href=\"https://gitlab.com/fdroid/fdroidclient\"> 7 aplicacion requerida </a> 8 para instalar las aplicaciones  en tu telefono y una <a href=\"https://gitlab.com/fdroid/repomaker\"> 9 herramienta de curacion </a> 0 para administrar la tienda con facilidad.\n"
 
 #. type: Plain text
 #: build/_posts/md/2017-07-03-cuba.md
@@ -336,12 +336,12 @@ msgstr ""
 msgid ""
 "![]({{ site.baseurl }}/assets/posts/2017-07-03-cuba/fdroid_repo.jpg)<br/>\n"
 "*DroidT's F-Droid Repository*\n"
-msgstr ""
+msgstr "![]({{ site.baseurl }}/assets/posts/2017-07-03-cuba/fdroid_repo.jpg)<br/> 1\n*DroidT's Repositorio  F-Droid *\n"
 
 #. type: Plain text
 #: build/_posts/md/2017-07-03-cuba.md
 msgid "Normally, the F-Droid app that you can download comes with thousands of useful Free Software apps without advertising and user tracking. These however require an internet connection to be downloaded from F-Droid's official server. Thankfully, F-Droid allows you to add other repositories to it. These work similar to the package repositories that you might know from GNU/Linux distributions. Everybody can create their own repository, even in an offline network. As long as people are connected to the same WiFi, they can use your repository to install and update your apps."
-msgstr ""
+msgstr "Generalmente, la aplicacion F-Droid que puedes descargar incluye miles de Aplicaciones de Software Libre  utiles y sin anuncios y monitoreo de usuarios. Sinembargo esto requiere una conexion a internet para ser descargado de el servidor oficial de F-Droid.  Afortunadamente, F-Droid te permite agregar otros repositorios. Esto funciona de manera similar a los paquetes repositorios  que probablemente ya conoces de distribuciones GNU/Linux. Cualquiera puede crear su propio repositorio, incluso en una red sin acceso a Internet.  Las personas pueden usar tu repositorio para instalar o actualizar aplicaciones  siempre y  conectadas al mismo WiFi."
 
 #. type: Plain text
 #: build/_posts/md/2017-07-03-cuba.md
@@ -349,13 +349,13 @@ msgstr ""
 msgid ""
 "![]({{ site.baseurl }}/assets/posts/2017-07-03-cuba/antenna_outside_shop.jpg)<br/>\n"
 "*WiFi Antenna Outside of the Shop*\n"
-msgstr ""
+msgstr "![]({{ site.baseurl }}/assets/posts/2017-07-03-cuba/antenna_outside_shop.jpg)<br/> 1\n* Antena WiFi afuera de la tienda*\n"
 
 #. type: Plain text
 #: build/_posts/md/2017-07-03-cuba.md
 #, no-wrap
 msgid "This is exactly what the <a href=\"http://droid-tech.com/\">DroidT shop</a> did that I visited in <a href=\"https://en.wikipedia.org/wiki/Sancti_Sp%C3%ADritus\">Sancti Spíritus</a>, Cuba. They run their own repository within their local WiFi network. Currently, they offer more than 2000 apps, mostly games, but also other useful apps, for free to everybody within the range of their WiFi router. Having a worse store location than their competitors, it really helps them to drive people to their shop and to build up their reputation within the local community. So far, they are the only store in their city offering this free and convenient service to their customers.\n"
-msgstr ""
+msgstr "Eso es exactamente lo que <a href=\"http://droid-tech.com/\"> 1 la tienda DroidT </a> 2  que visite en <a href=\"https://en.wikipedia.org/wiki/Sancti_Sp%C3%ADritus\"> 3 Sancti Spíritus</a> 4, Cuba hizo.  Ellos operan su propio repositorio con una red local de WiFi. Actualmente, ofrecen mas de 2000 aplicaciones, la mayoria juegos, pero tambien otras aplicaciones utiles, de manera gratuita para cualquier persona en el radio de alcance de su router.  Debido a que tienen una ubicacion menos conveniente que la de sus competidores,  esto realmente les ayuda a atraer gente a su tienda y mejorar su  reputacion en su comunidad.\n"
 
 #. type: Plain text
 #: build/_posts/md/2017-07-03-cuba.md
