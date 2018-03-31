@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-03-05 15:16+0100\nPO-Revision-Date: 2018-03-31 00:15+0000\nLast-Translator: Fabiola Maurice <fabiola.mauriceh@gmail.com>\nLanguage-Team: Spanish <https://hosted.weblate.org/projects/f-droid/website-posts/es/>\nLanguage: es\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.20-dev\n"
+msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-03-05 15:16+0100\nPO-Revision-Date: 2018-03-31 00:30+0000\nLast-Translator: Fabiola Maurice <fabiola.mauriceh@gmail.com>\nLanguage-Team: Spanish <https://hosted.weblate.org/projects/f-droid/website-posts/es/>\nLanguage: es\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.20-dev\n"
 
 #. type: Title #
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md
@@ -244,45 +244,45 @@ msgstr "Tiendas de aplicaciones independientes extraen APKs de otras tiendas de 
 #. type: Bullet: '* '
 #: build/_posts/md/2017-06-01-announcing-new-libraries-f-droid-update-channels.md
 msgid "APKs are bluetoothed, directly, downloaded, etc"
-msgstr "Los APKs son compartidos via Bluetooth, directamente, descargados, etc."
+msgstr "Los APKs son compartidos via Bluetooth, directamente, descargados, etc"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2017-06-01-announcing-new-libraries-f-droid-update-channels.md
 msgid "users share APKs via services like Aptoide"
-msgstr ""
+msgstr "los usuarios comparten APKs usando servicios como Aptoide"
 
 #. type: Plain text
 #: build/_posts/md/2017-06-01-announcing-new-libraries-f-droid-update-channels.md
 msgid "In order to ensure that your app always can find updates, we are introducing two specific libraries:"
-msgstr ""
+msgstr "Para asegurarnos que tus aplicaciones siempre encuentren actualizaciones, introducimos dos librerias especificas:"
 
 #. type: Title ###
 #: build/_posts/md/2017-06-01-announcing-new-libraries-f-droid-update-channels.md
 #, no-wrap
 msgid "\"Get F-Droid\" aka [org.fdroid.getfdroid](https://gitlab.com/fdroid/update-channels/tree/master/getfdroid#f-droid-installer)"
-msgstr ""
+msgstr "\" Obten F-Droid \" tambien conocido como [org.fdroid.getfdroid](https://gitlab.com/fdroid/update-channels/tree/master/getfdroid#f-droid-installer)"
 
 #. type: Plain text
 #: build/_posts/md/2017-06-01-announcing-new-libraries-f-droid-update-channels.md
 msgid "Checks whether F-Droid is installed.  If not, it will help the user to download and install F-Droid in a secure way.  F-Droid then provides the update channel for all apps available in F-Droid."
-msgstr ""
+msgstr "Comprueba que F-Droid este instalado. Si no lo esta ayuda al usuario a descargar e instalar F-Droid en una forma segura. Y despues F-Droid proporciona el canal de actualizacion para todas las aplicaciones disponible en F-Droid."
 
 #. type: Title ###
 #: build/_posts/md/2017-06-01-announcing-new-libraries-f-droid-update-channels.md
 #, no-wrap
 msgid "\"App Updater\" aka [org.fdroid.appupdater](https://gitlab.com/fdroid/update-channels/tree/master/appupdater#f-droid-update-detector)"
-msgstr ""
+msgstr "\" Actualizador de Aplicaciones \" o [org.fdroid.appupdater](https://gitlab.com/fdroid/update-channels/tree/master/appupdater#f-droid-update-detector)"
 
 #. type: Plain text
 #: build/_posts/md/2017-06-01-announcing-new-libraries-f-droid-update-channels.md
 msgid "Keeps the app current by checking the hard-coded app repository set up by the developer.  This is similar to the popular \"App Updater\" library, but handles everything securely using F-Droid signed metadata.  The _fdroidserver_ tools handle the creation and maintenance of the app repository."
-msgstr ""
+msgstr "Mantiene la aplicacion actualizada checando el repositoriode ficheros de codigo rigido establecido por el desarrollador. Esto es semejante la libreria popular \" Actualizador de Aplicaciones \" , pero maneja todo de manera segura usando metadatos firmados por F-Droid. La herramienta _fdroidserver_ maneja la creacion y mantenimiento del repositorio de ficheros de la aplicacion."
 
 #. type: Title ####
 #: build/_posts/md/2017-06-01-announcing-new-libraries-f-droid-update-channels.md
 #, no-wrap
 msgid "Compatible with Google Play Terms of Service"
-msgstr ""
+msgstr "Compatible con los terminos de servicio de Google Play."
 
 #. type: Plain text
 #: build/_posts/md/2017-06-01-announcing-new-libraries-f-droid-update-channels.md
