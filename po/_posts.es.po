@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-03-05 15:16+0100\nPO-Revision-Date: 2018-04-02 07:18+0000\nLast-Translator: Fabiola Maurice <fabiola.mauriceh@gmail.com>\nLanguage-Team: Spanish <https://hosted.weblate.org/projects/f-droid/website-posts/es/>\nLanguage: es\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.20-dev\n"
+msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-03-05 15:16+0100\nPO-Revision-Date: 2018-04-02 07:32+0000\nLast-Translator: Fabiola Maurice <fabiola.mauriceh@gmail.com>\nLanguage-Team: Spanish <https://hosted.weblate.org/projects/f-droid/website-posts/es/>\nLanguage: es\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.20-dev\n"
 
 #. type: Title #
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md
@@ -449,48 +449,48 @@ msgstr "10 de Octubre, 10-10, es el dia perfecto para anunciar F-Droid 1.0! Desp
 #. type: Plain text
 #: build/_posts/md/2017-10-10-fdroid-is-1.0.md
 msgid "With 60+ languages, 100+ contributors, 2500+ apps, and many millions of downloads, F-Droid is already widely used.  It is even the default, built-in app store for two important Android ROM projects: [Replicant](https://www.replicant.us/) and [CopperheadOS](https://copperhead.co/android/)."
-msgstr "Con 60+ Idiomas, 100+ colaboradores, 2500+aplicaciones y millones de descargas, F-Droid ya es usado en uchas partes. \" Incluso es la  tienda de aplicaciones instalada por default en dos proyectos importantes de ROM para Android:  [Replicant](https://www.replicant.us/) y [CopperheadOS](https://copperhead.co/android/)."
+msgstr "Con 60+ Idiomas, 100+ colaboradores, 2500+aplicaciones y millones de descargas, F-Droid ya es usado en uchas partes.  Incluso es la  tienda de aplicaciones instalada por default en dos proyectos importantes de ROM para Android:  [Replicant](https://www.replicant.us/) y [CopperheadOS](https://copperhead.co/android/)."
 
 #. type: Plain text
 #: build/_posts/md/2017-10-10-fdroid-is-1.0.md
 msgid "F-Droid started out with a focus on providing verified free software in an Android app repository.  That remains the core goal of the F-Droid community.  We built a lot of software to achieve that goal, and along the way, we realized that F-Droid is also a complete \"app store kit\" that anyone could use. It also includes complete build and release tools for managing the process of turning app source code into published builds."
-msgstr "F-Droid empezo enfocado a proveer sofware gratuito y verificado en un repositorio de Android. \" Y esa es aun la meta proncipal de la comunidad de F-Droid.\" Desarrollamos mucho software  para alcanzar esa meta, y durante ese proceso nos dimos cuenta  que F-Droid es tambien un \" kit de tienda de aplicaciones\" completo que cualquiera puede usar.  Ademas incluye herramientas completas de construccion y liberacion para administrar el proceso de convertir el codigo fuente de aplicaciones en desarrollos publicados."
+msgstr "F-Droid empezo como un proyecto enfocado a proveer sofware gratuito y verificado en un repositorio de Android. \" Y esa es aun la meta principal de la comunidad de F-Droid.\" Desarrollamos mucho software  para lograrlo, y durante ese proceso nos dimos cuenta  que F-Droid es tambien un \" kit para una tienda de aplicaciones\" completo que cualquiera puede usar.  Ademas incluye herramientas completas de creacion y lanzamiento para administrar el proceso de convertir el codigo fuente de aplicaciones en desarrollos publicados."
 
 #. type: Title ##
 #: build/_posts/md/2017-10-10-fdroid-is-1.0.md
 #, no-wrap
 msgid "What's New"
-msgstr ""
+msgstr "Lo nuevo"
 
 #. type: Plain text
 #: build/_posts/md/2017-10-10-fdroid-is-1.0.md
 msgid "There are many things that are new and improved in 1.0, so this post covers some highlights.  In the user interface, there is a whole now architecture as well as a lot of new small improvements."
-msgstr ""
+msgstr "Hay muchas cosas nuevas y mejoradas  en 1.0, asi que esta publicacion abarca las mas importantes.  En la interfaz de usuario hay una arquitectura completamente nueva asi como muchas pequeñas mejoras ."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2017-10-10-fdroid-is-1.0.md
 msgid "apps can include [screenshots and feature graphics]({{ site.baseurl }}/docs/All_About_Descriptions_Graphics_and_Screenshots)"
-msgstr ""
+msgstr "Las aplicaciones pueden incluir capturas de pantalla [screenshots and feature graphics]({{ site.baseurl }}/docs/All_About_Descriptions_Graphics_and_Screenshots)"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2017-10-10-fdroid-is-1.0.md
 msgid "donations to app developers highlighted on the App Details screen"
-msgstr ""
+msgstr "Las donaciones a los desarrolladores de las aplicaciones estan resaltadas en la pantalla de detalles de la aplicacion"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2017-10-10-fdroid-is-1.0.md
 msgid "inline download/install buttons for quick installation"
-msgstr ""
+msgstr "Descarga en linea/botones de instalacion para instalaciones rapidas"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2017-10-10-fdroid-is-1.0.md
 msgid "all app texts can be [translated]({{ site.baseurl }}/docs/Translation_and_Localization)"
-msgstr ""
+msgstr "todos los textos de las aplicaciones pueden ser [translated]({{ site.baseurl }}/docs/Translation_and_Localization)"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2017-10-10-fdroid-is-1.0.md
 msgid "apps with [known security vulnerabilities](https://f-droid.org/wiki/page/AntiFeature:KnownVuln) will be marked"
-msgstr ""
+msgstr "las aplicaciones con [vulnerabilidades de seguridad conocidas] (https://f-droid.org/wiki/page/AntiFeature:KnownVuln) seran marcadas"
 
 #. type: Plain text
 #: build/_posts/md/2017-10-10-fdroid-is-1.0.md
@@ -500,7 +500,7 @@ msgid ""
 " * [![App Details]({{ site.baseurl }}/assets/posts/2017-10-10-fdroid-is-1.0/screenshot-app-details.png)](https://f-droid.org/repo/org.fdroid.fdroid/en-US/phoneScreenshots/screenshot-app-details.png)\n"
 " * [![Search]({{ site.baseurl }}/assets/posts/2017-10-10-fdroid-is-1.0/screenshot-search.png)](https://f-droid.org/repo/org.fdroid.fdroid/en-US/phoneScreenshots/screenshot-search.png)\n"
 " * [![Updates]({{ site.baseurl }}/assets/posts/2017-10-10-fdroid-is-1.0/screenshot-updates.png)](https://f-droid.org/repo/org.fdroid.fdroid/en-US/phoneScreenshots/screenshot-updates.png)\n"
-msgstr ""
+msgstr "{: .gallery}\n * [![App Details]({{ site.baseurl }}/assets/posts/2017-10-10-fdroid-is-1.0/screenshot-app-details.png)](https://f-droid.org/repo/org.fdroid.fdroid/en-US/phoneScreenshots/screenshot-app-details.png)\n * [![Search]({{ site.baseurl }}/assets/posts/2017-10-10-fdroid-is-1.0/screenshot-search.png)](https://f-droid.org/repo/org.fdroid.fdroid/en-US/phoneScreenshots/screenshot-search.png)\n * [![Updates]({{ site.baseurl }}/assets/posts/2017-10-10-fdroid-is-1.0/screenshot-updates.png)](https://f-droid.org/repo/org.fdroid.fdroid/en-US/phoneScreenshots/screenshot-updates.png)\n"
 
 #. type: Title ###
 #: build/_posts/md/2017-10-10-fdroid-is-1.0.md
