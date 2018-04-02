@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-03-05 15:16+0100\nPO-Revision-Date: 2018-04-02 17:12+0000\nLast-Translator: Fabiola Maurice <fabiola.mauriceh@gmail.com>\nLanguage-Team: Spanish <https://hosted.weblate.org/projects/f-droid/website-posts/es/>\nLanguage: es\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.20-dev\n"
+msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-03-05 15:16+0100\nPO-Revision-Date: 2018-04-02 17:44+0000\nLast-Translator: Fabiola Maurice <fabiola.mauriceh@gmail.com>\nLanguage-Team: Spanish <https://hosted.weblate.org/projects/f-droid/website-posts/es/>\nLanguage: es\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.20-dev\n"
 
 #. type: Title #
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md
@@ -756,124 +756,124 @@ msgstr "Existen usos pragmaticos de el trackeo , como pruebas de usabilidad,  in
 #. type: Plain text
 #: build/_posts/md/2017-12-14-new-collaborations-on-exposing-tracking.md
 msgid "Billions of users around the globe are now running mobile platforms based upon Free Software, such as Android.  For many, mobile devices are the primary gateway to the Internet.  These devices are often collecting and transmitting intimate details about users such as behavior and location, through complex and hidden methods.  The international Free Software community must continue to be a leader, protecting and restoring trust, privacy, and security in mobile computing."
-msgstr ""
+msgstr "Miles de millones de usuarios en todo el mundo ahora están ejecutando plataformas móviles basadas en software libre, como Android. Para muchos, los dispositivos móviles son la puerta de entrada principal a Internet. Estos dispositivos suelen recopilar y transmitir detalles íntimos sobre los usuarios, como el comportamiento y la ubicación, a través de métodos complejos y ocultos. La comunidad internacional de Software Libre debe continuar siendo líder, protegiendo y restaurando la confianza, la privacidad y la seguridad en la informática móvil."
 
 #. type: Title #
 #: build/_posts/md/2018-01-20-upcoming-security-audit.md
 #, no-wrap
 msgid "\"Upcoming Security Audit\""
-msgstr ""
+msgstr "\"Próxima auditoría de seguridad\""
 
 #. type: Plain text
 #: build/_posts/md/2018-01-20-upcoming-security-audit.md
 msgid "We have started the process of the second security audit of the F-Droid setup.  The audit will be conducted by [Radically Open Security](https://www.radicallyopensecurity.com), which is a natural partner for F-Droid since they share our focus on free software and open processes.  Once we receive the results and have addressed any issues found, we will publish the full, unedited audit report here.  Thanks to [Open Tech Fund](https://opentech.fund)  for covering the costs of hiring the auditor."
-msgstr ""
+msgstr "Hemos comenzado el proceso de la segunda auditoría de seguridad de la configuración de F-Droid. La auditoría se llevará a cabo por [Radically Open Security] (https://www.radicallyopensecurity.com), que es un socio natural de F-Droid, ya que comparten nuestro enfoque en el software libre y los procesos abiertos. Una vez que recibamos los resultados y abordemos cualquier problema encontrado, publicaremos aquí el informe de auditoría completo sin editar. Gracias a [Open Tech Fund] (https://opentech.fund) por cubrir los costos de contratación del auditor."
 
 #. type: Plain text
 #: build/_posts/md/2018-01-20-upcoming-security-audit.md
 msgid "For more information about F-Droid's security practices on in the documentation about the [Security Model]({{ site.baseurl }}/docs/Security_Model/)."
-msgstr ""
+msgstr "Para obtener más información sobre las prácticas de seguridad de F-Droid, consulte la documentación sobre [Modelo de seguridad] ({{site.baseurl}} / docs / Security_Model /)."
 
 #. type: Title ##
 #: build/_posts/md/2018-01-20-upcoming-security-audit.md
 #, no-wrap
 msgid "Looking back at the first security audit"
-msgstr ""
+msgstr "Mirando hacia atrás a la primera auditoría de seguridad"
 
 #. type: Plain text
 #: build/_posts/md/2018-01-20-upcoming-security-audit.md
 msgid "We received an [external audit](https://cure53.de/pentest-report_fdroid.pdf) in 2015 from Cure53, provided by the [Open Tech Fund](https://opentech.fund). This was the first full security audit of the core security practices of F-Droid.  On top of the core, the focus on the audit was on the new, experimental features that opened up F-Droid as an ecosystem, moving away from the central server model."
-msgstr ""
+msgstr "Recibimos una [auditoría externa] (https://cure53.de/pentest-report_fdroid.pdf) en 2015 de Cure53, proporcionada por [Open Tech Fund] (https://opentech.fund). Esta fue la primera auditoría de seguridad completa de las prácticas de seguridad básicas de F-Droid. Además del núcleo, el enfoque en la auditoría fue en las nuevas características experimentales que abrieron a F-Droid como un ecosistema, alejándose del modelo de servidor central."
 
 #. type: Plain text
 #: build/_posts/md/2018-01-20-upcoming-security-audit.md
 msgid "This audit confirmed the security of core pieces, as listed on the top of this page.  That is a little hard to see since the report only discussed the vulnerabilities that were discovered.  This audit did find critical issues in the website, opt-in beta features, and some minor features like `fdroid import`, which is only used by a couple of people and never on core infrastructure.  It is important to note that the website issues never meant that getting apps via the Android client app was affected.  Most importantly, all of the security issues were fixed.  The audit also demonstrated that building a system with user-generated inputs is hard to fully secure.  Our focus is removing anything that opens up attack vectors to the external data sources like app source repos."
-msgstr ""
+msgstr "Esta auditoría confirmó la seguridad de las piezas del núcleo, como se enumeran en la parte superior de esta página. Eso es un poco difícil de ver ya que el informe solo discutió las vulnerabilidades que se descubrieron. Esta auditoría sí encontró problemas críticos en el sitio web, características opcionales de beta y algunas características menores como `fdroid import`, que solo es usado por un par de personas y nunca en la infraestructura central. Es importante tener en cuenta que los problemas del sitio web nunca significaron que la aplicación de Android se viera afectada. Lo más importante, todos los problemas de seguridad fueron corregidos. La auditoría también demostró que construir un sistema con entradas generadas por los usuarios es difícil de asegurar por completo. Nuestro objetivo es eliminar todo lo que abre vectores de ataque a las fuentes de datos externas, como repositorios fuente de la aplicación."
 
 #. type: Plain text
 #: build/_posts/md/2018-01-20-upcoming-security-audit.md
 msgid "The normal way of using F-Droid was not affected.  For example, regarding _BZ-01-004 Command Injection Flaw_, the root-based installation method was marked experimental, not widely used, and removed around not long after the report came out. The _BZ-01-002_ and _BZ-01-003_ TOFU issues never applied to the default app repos since the repo keys are built into the client app."
-msgstr ""
+msgstr "La forma normal de usar F-Droid no se vio afectada. Por ejemplo, con respecto a _BZ-01-004 Command Injection Flaw_, el método de instalación basado en la raíz se marcó experimental, no se usó ampliamente, y se eliminó no mucho después de que salió el informe. Los problemas de _BZ-01-002_ y _BZ-01-003_ TOFU nunca se aplicaron a los repos de aplicaciones predeterminadas ya que las claves de repos están integradas en la aplicación de cliente."
 
 #. type: Plain text
 #: build/_posts/md/2018-01-20-upcoming-security-audit.md
 msgid "The serious issues that affected the ecosystem where:"
-msgstr ""
+msgstr "Los problemas serios que afectaron al ecosistema fueron:"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-01-20-upcoming-security-audit.md
 msgid "BZ-01-005 App with WES Permission can replace APKs before Installation (_fixed_)"
-msgstr ""
+msgstr "La aplicación BZ-01-005 con WES Permiso puede reemplazar los APK antes de la instalación (_fixed_)"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-01-20-upcoming-security-audit.md
 msgid "BZ-01-008 Multiple XSS Problems in WP-FDroid Plugin (_we entirely removed Wordpress, the site is now statically generated using Jekyll_)"
-msgstr ""
+msgstr "BZ-01-008 Múltiples problemas XSS en el plugin WP-FDroid (_ eliminamos  completamente Wordpress, el sitio ahora está generado estáticamente usando Jekyll_)"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-01-20-upcoming-security-audit.md
 msgid "BZ-01-011 Persistent XSS via SVG Upload in MediaWiki (_bug fixed in MediaWiki, SVG upload disabled, and open wiki registrations disabled on f-droid.org_)"
-msgstr ""
+msgstr "BZ-01-011 XSS persistente a través de SVG Cargar en MediaWiki (_bug corregido en MediaWiki, carga de SVG deshabilitada y abrir registros de wiki deshabilitados en f-droid.org_)"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-01-20-upcoming-security-audit.md
 msgid "BZ-01-014 RCE via fdroid checkupdates Command on Git Repository (_fixed_)"
-msgstr ""
+msgstr "BZ-01-014 RCE a través del Comando fdroid checkupdates en  el repositorio Git  (_fixed_)"
 
 #. type: Plain text
 #: build/_posts/md/2018-01-20-upcoming-security-audit.md
 msgid "These only affected a few non-critical users or were parts of opt-in beta features:"
-msgstr ""
+msgstr "Estos solo afectaron a algunos usuarios no críticos o formaban parte de las características beta optativas:"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-01-20-upcoming-security-audit.md
 msgid "BZ-01-002 TOFU Requests too easy to recognize and intercept (_fixed_)"
-msgstr ""
+msgstr "La solicitud BZ-01-002 TOFU es demasiado fácil de reconocer e interceptar (_fixed_)"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-01-20-upcoming-security-audit.md
 msgid "BZ-01-003 Repository Fingerprint is not verified on first Fetch (_fixed_)"
-msgstr ""
+msgstr "El Fingerprint de el repositorio BZ-01-003 no se verifica en la primera extracción (_fixed_)"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-01-20-upcoming-security-audit.md
 msgid "BZ-01-004 Command Injection Flaw in root - based Installation Method (_only repo publisher could do this, removed root-based installation method_)"
-msgstr ""
+msgstr "BZ-01-004 Error de inyección de comando en el método de instalación basado en la raíz (_ solo el editor del repositorio podia hacer esto, eliminamos el método de instalación basado en la raíz_)"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-01-20-upcoming-security-audit.md
 msgid "BZ-01-012 Arbitrary Command Execution via `fdroid import` and SVN"
-msgstr ""
+msgstr "BZ-01-012 Ejecución de comandos arbitrarios a través de `fdroid import` y SVN"
 
 #. type: Plain text
 #: build/_posts/md/2018-01-20-upcoming-security-audit.md
 msgid "The following issues all assume developer- or publisher-level access.  We do not claim to protect against attackers with that level of access. People in those roles can always publish malicious code directly, without resorting to complicated exploits."
-msgstr ""
+msgstr "Todos los siguientes problemas asumen el acceso de nivel desarrollador o editor. No pretendemos proteger contra los atacantes con ese nivel de acceso. Las personas en esos roles siempre pueden publicar código malicioso directamente, sin recurrir a exploits complicados."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-01-20-upcoming-security-audit.md
 msgid "BZ-01-007 Malicious symlinked APK can lead to arbitrary File Read"
-msgstr ""
+msgstr "BZ-01-007 APK enlazado maliciosamente puede conducir a la lectura de archivos arbitraria"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-01-20-upcoming-security-audit.md
 msgid "BZ-01-013 Directory Traversal Exploit Potential caused by `fdroid import`"
-msgstr ""
+msgstr "BZ-01-013 Posibilidad de explotación  de directorio causado por `importación de fdroid`"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-01-20-upcoming-security-audit.md
 msgid "BZ-01-015 SVN Repository Access leaks Credentials to local Processes"
-msgstr ""
+msgstr "BZ-01-015 SVN Repository Access filtra credenciales a procesos locales"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-01-20-upcoming-security-audit.md
 msgid "BZ-01-017 Unauthorized Access to internal Network Resources"
-msgstr ""
+msgstr "BZ-01-017 Acceso no autorizado a recursos internos de la red"
 
 #. type: Plain text
 #: build/_posts/md/2018-01-20-upcoming-security-audit.md
 msgid "The audit report PDF from Cure53 is also cached on this site: [pentest-report_fdroid.pdf]({{ site.baseurl }}/assets/posts/2018-01-20-upcoming-security-audit/pentest-report_fdroid.pdf)."
-msgstr ""
+msgstr "El PDF del informe de auditoría  de Cure53 también se almacena en caché en este sitio: [pentest-report_fdroid.pdf] ({{site.baseurl}} / assets / posts / 2018-01-20-upcoming-security-audit / pentest-report_fdroid.pdf )"
 
 #. type: Title #
 #: build/_posts/md/2018-01-24-fairphone-open-ships-F-Droid.md
