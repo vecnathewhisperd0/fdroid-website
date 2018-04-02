@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-03-05 15:16+0100\nPO-Revision-Date: 2018-04-02 08:30+0000\nLast-Translator: Fabiola Maurice <fabiola.mauriceh@gmail.com>\nLanguage-Team: Spanish <https://hosted.weblate.org/projects/f-droid/website-posts/es/>\nLanguage: es\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.20-dev\n"
+msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-03-05 15:16+0100\nPO-Revision-Date: 2018-04-02 15:57+0000\nLast-Translator: Fabiola Maurice <fabiola.mauriceh@gmail.com>\nLanguage-Team: Spanish <https://hosted.weblate.org/projects/f-droid/website-posts/es/>\nLanguage: es\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.20-dev\n"
 
 #. type: Title #
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md
@@ -654,44 +654,44 @@ msgstr "Haz que [ Repomaker ] (https://gitlab.com/fdroid/repomaker/issues) funci
 #. type: Plain text
 #: build/_posts/md/2017-10-10-fdroid-is-1.0.md
 msgid "If you are looking for a good place to get started, see the list of \"[first timer](https://gitlab.com/groups/fdroid/issues?label_name%5B%5D=first-timer)\" issues."
-msgstr "Si estas buscando un buen lugar para empezar, ve la lista de  problemas  de \"[ usuario nuevo ] (https://gitlab.com/groups/fdroid/issues?label_name%5B%5D=first-timer)\""
+msgstr "Si estas buscando un buen lugar para empezar, ve la lista de  problemas  de \"[ usuario nuevo ] (https://gitlab.com/groups/fdroid/issues?label_name%5B%5D=first-timer)\"."
 
 #. type: Title #
 #: build/_posts/md/2017-12-11-publishing-nightly-builds-with-gitlab-ci.md
 #, no-wrap
 msgid "\"Publishing a nightly builds repo with GitLab or Travis CI\""
-msgstr ""
+msgstr "\" Publicando un repositorio de actualizaciones nocturnas en GitLAb o Travis CI\""
 
 #. type: Plain text
 #: build/_posts/md/2017-12-11-publishing-nightly-builds-with-gitlab-ci.md
 msgid "Having users run \"nightly\" builds is a great way to get rapid feedback on current development activities.  One key way to get this kind of feedback is to make it as easy as possible for people to install the nightly builds, and to keep updated.  The F-Droid tools now let you automate this whole process for any app hosting on GitLab or GitHub, using a CI build service like gitlab-ci or Travis CI."
-msgstr ""
+msgstr "Tener usuarios ejecutando \"nightly\" builds  es una buena manera de obtener  comentarios rapidamente acerca de  activideades de desarrollos actuales. Una forma clave de obtener este tipo de realimentacion es hacer tan facil como sea posible  instalar the nightly builds, y permanecer actualizado. Ahora lass herramientas de F-Droid  te dejan automatizar el proceso completo para cualquier  hosting de aplicacion en GitLab or GitHub, usando un servicio CI como gitlab-ci  o  Travis CI."
 
 #. type: Plain text
 #: build/_posts/md/2017-12-11-publishing-nightly-builds-with-gitlab-ci.md
 msgid "The new `fdroid nightly` command automates the whole process of setting up and running this repo.  The repo is then published to its own GitLab/GitHub git repo, where any F-Droid client can access it."
-msgstr ""
+msgstr "El comando nuevo `fdroid nightly`automatiza el proceso completo de configurar y ejecutar este repositorio. El repositorio es publicado entonces en su propio GitLab/GitHub git repositorio, donde cualquier cliente F-Droid puede accesarlo."
 
 #. type: Plain text
 #: build/_posts/md/2017-12-11-publishing-nightly-builds-with-gitlab-ci.md
 msgid "Learn how to set this up for your app by reading [Publishing Nightly Builds]({{ site.baseurl }}/docs/Publishing_Nightly_Builds).  See it in action in _fdroidclient_: * <https://gitlab.com/fdroid/fdroidclient-nightly> * <https://gitlab.com/fdroid/fdroidclient/blob/5f26a785/.gitlab-ci.yml>"
-msgstr ""
+msgstr "Aprende a configurar esta funcion para tu aplicacion leyendo lo siguiente: [Publishing Nightly Builds]({{ site.baseurl }}/docs/Publishing_Nightly_Builds). Miralo en accion en  _fdroidclient_: * <https://gitlab.com/fdroid/fdroidclient-nightly> * <https://gitlab.com/fdroid/fdroidclient/blob/5f26a785/.gitlab-ci.yml>"
 
 #. type: Plain text
 #: build/_posts/md/2017-12-11-publishing-nightly-builds-with-gitlab-ci.md
 msgid "With F-Droid [Update Channels]({{ site.baseurl }}/2017/06/01/announcing-new-libraries-f-droid-update-channels.html), you can even make your app update itself from your nightly repo."
-msgstr ""
+msgstr "Con F-Droid [Canales Actualizados] ({{ site.baseurl }}/2017/06/01/announcing-new-libraries-f-droid-update-channels.html), puedes incluso hacer que tu aplicacion se actualize sola de tu repositorio nocturno."
 
 #. type: Title #
 #: build/_posts/md/2017-12-13-fdroid-and-janus.md
 #, no-wrap
 msgid "\"F-Droid and the Janus Vulnerability\""
-msgstr ""
+msgstr "\"F-Droid y la vulnerabilidad de Janus\""
 
 #. type: Plain text
 #: build/_posts/md/2017-12-13-fdroid-and-janus.md
 msgid "The [Janus vulnerability](https://www.guardsquare.com/en/blog/new-android-vulnerability-allows-attackers-modify-apps-without-affecting-their-signatures)  has sprung forth unto the Android world, and we have sprung into action to keep it far away."
-msgstr ""
+msgstr "La [Vulnerabilidad de Janus](https://www.guardsquare.com/en/blog/new-android-vulnerability-allows-attackers-modify-apps-without-affecting-their-signatures)  ha surgido en el mundo de Android, y nos hemos apresurado a mantenerlo lejos."
 
 #. type: Plain text
 #: build/_posts/md/2017-12-13-fdroid-and-janus.md
@@ -700,12 +700,12 @@ msgid ""
 "<p align=\"center\">\n"
 "  <img width=\"300\" height=\"282\" src=\"{{ site.baseurl }}/assets/posts/2017-12-13-fdroid-and-janus/janus.png\" />\n"
 "</p>\n"
-msgstr ""
+msgstr "<p align=\"center\"> 1\n  <img width=\"300\" height=\"282\" src=\"{{ site.baseurl }}/assets/posts/2017-12-13-fdroid-and-janus/janus.png\" /> 2\n</p> 3\n"
 
 #. type: Plain text
 #: build/_posts/md/2017-12-13-fdroid-and-janus.md
 msgid "First off, _f-droid.org_, _guardianproject.info/fdroid_ and _apt.izzysoft.de/fdroid_ were scanned for possible Janus exploits and none were found.  _f-droid.org_'s greatest protection against malware is the requirement that everything must be built from source, humans review all apps that are added, and a source tarball for each build is stored forever.  Exploit writers do not want to give away the source code to their malware nor have their activities permanently logged in _git_, so this process keeps them away.  No malware has been found in _f-droid.org_ in its 7 years of operation."
-msgstr ""
+msgstr "Primero,  _f-droid.org_, _guardianproject.info/fdroid_ and _apt.izzysoft.de/fdroid_ fueron  escaneados  en busca de posibles aplicaciones afectadas por Janus y no fue encontrada ninguna. La mayor proteccion de _f-droid.org_ en contra de malware es el requisito de que todo tiene"
 
 #. type: Plain text
 #: build/_posts/md/2017-12-13-fdroid-and-janus.md
