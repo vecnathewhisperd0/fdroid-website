@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-03-05 15:16+0100\nPO-Revision-Date: 2018-04-02 08:25+0000\nLast-Translator: Fabiola Maurice <fabiola.mauriceh@gmail.com>\nLanguage-Team: Spanish <https://hosted.weblate.org/projects/f-droid/website-posts/es/>\nLanguage: es\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.20-dev\n"
+msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-03-05 15:16+0100\nPO-Revision-Date: 2018-04-02 08:30+0000\nLast-Translator: Fabiola Maurice <fabiola.mauriceh@gmail.com>\nLanguage-Team: Spanish <https://hosted.weblate.org/projects/f-droid/website-posts/es/>\nLanguage: es\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.20-dev\n"
 
 #. type: Title #
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md
@@ -649,12 +649,12 @@ msgstr "agrega [las funciones que faltan](https://gitlab.com/fdroid/fdroidclient
 #. type: Bullet: '* '
 #: build/_posts/md/2017-10-10-fdroid-is-1.0.md
 msgid "make [Repomaker](https://gitlab.com/fdroid/repomaker/issues) work well on your platform"
-msgstr ""
+msgstr "Haz que [ Repomaker ] (https://gitlab.com/fdroid/repomaker/issues) funcione bien en tu plataforma"
 
 #. type: Plain text
 #: build/_posts/md/2017-10-10-fdroid-is-1.0.md
 msgid "If you are looking for a good place to get started, see the list of \"[first timer](https://gitlab.com/groups/fdroid/issues?label_name%5B%5D=first-timer)\" issues."
-msgstr ""
+msgstr "Si estas buscando un buen lugar para empezar, ve la lista de  problemas  de \"[ usuario nuevo ] (https://gitlab.com/groups/fdroid/issues?label_name%5B%5D=first-timer)\""
 
 #. type: Title #
 #: build/_posts/md/2017-12-11-publishing-nightly-builds-with-gitlab-ci.md
