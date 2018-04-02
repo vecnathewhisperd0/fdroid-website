@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-03-05 15:16+0100\nPO-Revision-Date: 2018-04-02 07:32+0000\nLast-Translator: Fabiola Maurice <fabiola.mauriceh@gmail.com>\nLanguage-Team: Spanish <https://hosted.weblate.org/projects/f-droid/website-posts/es/>\nLanguage: es\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.20-dev\n"
+msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-03-05 15:16+0100\nPO-Revision-Date: 2018-04-02 07:53+0000\nLast-Translator: Fabiola Maurice <fabiola.mauriceh@gmail.com>\nLanguage-Team: Spanish <https://hosted.weblate.org/projects/f-droid/website-posts/es/>\nLanguage: es\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.20-dev\n"
 
 #. type: Title #
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md
@@ -506,39 +506,39 @@ msgstr "{: .gallery}\n * [![App Details]({{ site.baseurl }}/assets/posts/2017-10
 #: build/_posts/md/2017-10-10-fdroid-is-1.0.md
 #, no-wrap
 msgid "F-Droid is now a first class app store"
-msgstr ""
+msgstr "F-Droid es ahora una tienda de aplicaciones de primera clase"
 
 #. type: Plain text
 #: build/_posts/md/2017-10-10-fdroid-is-1.0.md
 msgid "F-Droid can now be your only app store, fully integrated into your device with background updates and streamlined installs, all without sacrificing any of the privacy or security that F-Droid has always offered.  F-Droid is already well known among those who install custom Android ROMs on their devices, and that is now much better supported via the F-Droid [Privileged Extension](https://f-droid.org/packages/org.fdroid.fdroid.privileged.ota), which can be flashed onto a device like any other OTA (Over-The-Air)  update ZIP."
-msgstr ""
+msgstr "F-Droid puede ahora convertirse en tu única tienda de aplicaciones, completamente integrada en tu dispositivo con actualizaciones  en el segundo plano e instalaciones optimizadas, todo esto sin sacrificar los ROMs de Android en los dispositivos, y ahora es mucho mejor soportado usando F-Droid [Privileged Extension](https://f-droid.org/packages/org.fdroid.fdroid.privileged.ota), que puede ser flasheado en otro  dispositivo como cualquier otro  OTA (Over-The-Air)-."
 
 #. type: Plain text
 #: build/_posts/md/2017-10-10-fdroid-is-1.0.md
 msgid "We will work with any ROM project to help them integrate F-Droid as the default app store, built into the ROM.  See the [Privileged Extension instructions](https://gitlab.com/fdroid/privileged-extension/#how-do-i-build-it-into-my-rom)  for how to get started."
-msgstr ""
+msgstr "Trabajaremos con cualquier proyecto de ROM  para ayudarlos a integrar F-Droid como la tienda de aplicaciones predeterminada en el ROM.  Ve [Privileged Extension instructions](https://gitlab.com/fdroid/privileged-extension/#how-do-i-build-it-into-my-rom) para saber como empezar."
 
 #. type: Title ###
 #: build/_posts/md/2017-10-10-fdroid-is-1.0.md
 #, no-wrap
 msgid "F-Droid in your language"
-msgstr ""
+msgstr "F-Droid en tu idioma"
 
 #. type: Plain text
 #: build/_posts/md/2017-10-10-fdroid-is-1.0.md
 msgid "All parts of F-Droid are now translatable, including the app descriptions, website and the command line tools.  They are already translated into many languages.  Having free software available in people's native languages greatly reduces the barriers to entry. Look at the menu in the upper right of this website for the available languages."
-msgstr ""
+msgstr "Ahora todas las partes de F-Droid pueden ser traducidas, incluyendo las descripciones de las aplicaciones, sitio web y las herramientas de el comando de linea. Que ya estan traducidas en muchos lenguajes. Tener software gratuito disponible en los lenguajes nativos de la gente reduce muchas  barreras de entrada. Ve el menu en la parte derecha de arriba de este sitio web para ver los lenguajes disponibles."
 
 #. type: Plain text
 #: build/_posts/md/2017-10-10-fdroid-is-1.0.md
 msgid "Is F-Droid not available in your language? Or would you like to help improve the existing translations? [Get involved!]({{ site.baseurl }}/docs/Translation_and_Localization)"
-msgstr ""
+msgstr "¿F-Droid no esta disponible en tu idioma? O ¿Te gustaria ayudarnos a mejorar las traducciones existentes? [Get involved!]({{ site.baseurl }}/docs/Translation_and_Localization)"
 
 #. type: Title ####
 #: build/_posts/md/2017-10-10-fdroid-is-1.0.md
 #, no-wrap
 msgid "F-Droid app"
-msgstr ""
+msgstr "La aplicación F-Droid"
 
 #. type: Plain text
 #: build/_posts/md/2017-10-10-fdroid-is-1.0.md
@@ -551,7 +551,7 @@ msgid ""
 " * [![Ukrainian]({{ site.baseurl }}/assets/posts/2017-10-10-fdroid-is-1.0/fdroid-screenshot-uk.png)]({{ site.baseurl }}/assets/fdroid-screenshot-uk.png)\n"
 " * [![Japanese]({{ site.baseurl }}/assets/posts/2017-10-10-fdroid-is-1.0/fdroid-screenshot-ja.png)]({{ site.baseurl }}/assets/fdroid-screenshot-ja.png)\n"
 " * [![Chinese]({{ site.baseurl }}/assets/posts/2017-10-10-fdroid-is-1.0/fdroid-screenshot-zh.png)]({{ site.baseurl }}/assets/fdroid-screenshot-zh.png)\n"
-msgstr ""
+msgstr "{: .gallery}\n * [![Tibetan]({{ site.baseurl }}/assets/posts/2017-10-10-fdroid-is-1.0/fdroid-screenshot-bo.png)]({{ site.baseurl }}/assets/fdroid-screenshot-bo.png)\n * [![Spanish]({{ site.baseurl }}/assets/posts/2017-10-10-fdroid-is-1.0/fdroid-screenshot-es.png)]({{ site.baseurl }}/assets/fdroid-screenshot-es.png)\n * [![Persian]({{ site.baseurl }}/assets/posts/2017-10-10-fdroid-is-1.0/fdroid-screenshot-fa.png)]({{ site.baseurl }}/assets/fdroid-screenshot-fa.png)\n * [![Ukrainian]({{ site.baseurl }}/assets/posts/2017-10-10-fdroid-is-1.0/fdroid-screenshot-uk.png)]({{ site.baseurl }}/assets/fdroid-screenshot-uk.png)\n * [![Japanese]({{ site.baseurl }}/assets/posts/2017-10-10-fdroid-is-1.0/fdroid-screenshot-ja.png)]({{ site.baseurl }}/assets/fdroid-screenshot-ja.png)\n * [![Chinese]({{ site.baseurl }}/assets/posts/2017-10-10-fdroid-is-1.0/fdroid-screenshot-zh.png)]({{ site.baseurl }}/assets/fdroid-screenshot-zh.png)\n"
 
 #. type: Title ####
 #: build/_posts/md/2017-10-10-fdroid-is-1.0.md
