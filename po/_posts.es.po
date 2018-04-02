@@ -587,7 +587,7 @@ msgid ""
 "  -i, --interactive     需更新事项的互动提示。\n"
 "  -I, --icons           对超过像素大小上限的全部图标进行尺寸调整，然后退出\n"
 "```\n"
-msgstr ""
+msgstr "optional arguments:\n  -h, --help            show this help message and exit\n  -v, --verbose         比一般情况输出更多的信息\n  -q, --quiet           仅输出警告和出错信息\n  --create-key          在密钥存储中创建资源库签名密钥\n  -c, --create-metadata\n                        创建缺少的主干元数据文件\n  --delete-unknown      从资源库中删除没有元数据的 APK 和 OBB\n  -b, --buildreport     报告编译数据状态\n  -i, --interactive     需更新事项的互动提示。\n  -I, --icons           对超过像素大小上限的全部图标进行尺寸调整，然后退出\n```\n"
 
 #. type: Title ###
 #: build/_posts/md/2017-10-10-fdroid-is-1.0.md
