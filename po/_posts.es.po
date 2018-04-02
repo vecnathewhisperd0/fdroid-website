@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-03-05 15:16+0100\nPO-Revision-Date: 2018-04-01 22:39+0000\nLast-Translator: Fabiola Maurice <fabiola.mauriceh@gmail.com>\nLanguage-Team: Spanish <https://hosted.weblate.org/projects/f-droid/website-posts/es/>\nLanguage: es\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.20-dev\n"
+msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-03-05 15:16+0100\nPO-Revision-Date: 2018-04-02 07:06+0000\nLast-Translator: Fabiola Maurice <fabiola.mauriceh@gmail.com>\nLanguage-Team: Spanish <https://hosted.weblate.org/projects/f-droid/website-posts/es/>\nLanguage: es\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.20-dev\n"
 
 #. type: Title #
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md
@@ -449,7 +449,7 @@ msgstr "10 de Octubre, 10-10, es el dia perfecto para anunciar F-Droid 1.0! Desp
 #. type: Plain text
 #: build/_posts/md/2017-10-10-fdroid-is-1.0.md
 msgid "With 60+ languages, 100+ contributors, 2500+ apps, and many millions of downloads, F-Droid is already widely used.  It is even the default, built-in app store for two important Android ROM projects: [Replicant](https://www.replicant.us/) and [CopperheadOS](https://copperhead.co/android/)."
-msgstr ""
+msgstr "Con 60+ Idiomas, 100+ colaboradores"
 
 #. type: Plain text
 #: build/_posts/md/2017-10-10-fdroid-is-1.0.md
