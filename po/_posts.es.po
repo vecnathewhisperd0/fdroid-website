@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-03-05 15:16+0100\nPO-Revision-Date: 2018-04-02 08:01+0000\nLast-Translator: Fabiola Maurice <fabiola.mauriceh@gmail.com>\nLanguage-Team: Spanish <https://hosted.weblate.org/projects/f-droid/website-posts/es/>\nLanguage: es\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.20-dev\n"
+msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-03-05 15:16+0100\nPO-Revision-Date: 2018-04-02 08:16+0000\nLast-Translator: Fabiola Maurice <fabiola.mauriceh@gmail.com>\nLanguage-Team: Spanish <https://hosted.weblate.org/projects/f-droid/website-posts/es/>\nLanguage: es\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.20-dev\n"
 
 #. type: Title #
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md
@@ -603,23 +603,23 @@ msgstr "_f-droid.org_ es solamente un repositorio ( aka \"repo\" ) entre los mil
 #. type: Plain text
 #: build/_posts/md/2017-10-10-fdroid-is-1.0.md
 msgid "Anyone can make their own F-Droid repo using the _fdroidserver_ command line tools, the same as always.  That requires knowledge of the command line, manual editing of \"metadata\" files to edit your packages’ store details, copying screenshots to the right directory, etc.  Now with [Repomaker]({{ site.baseurl }}/repomaker), there is a simple web app to create repos, so special knowledge is no longer needed. More information on how to install Repomaker coming soon!"
-msgstr ""
+msgstr "Caulquiera puede crear  su propio repositorio en F-Droid usando las herramientas de linea de comando _fdroidserver_, igual que antes. Lo que requiere conocimiento de la linea de comandos, edicion manual de los metadatos de los archivos para editar tus paquetes, copiar las capturas de pantalla en el directorio correcto, etc. Ahora con [Repomaker]({{ site.baseurl }}/repomaker), hay una aplicacion web simple para crear repositorios, de manera que no es requerido conocimiento especializado . Mas informacion sobre como instalar Repomaker esta por venir!"
 
 #. type: Plain text
 #: build/_posts/md/2017-10-10-fdroid-is-1.0.md
 msgid "There are also new options for publishing custom, hosted repos.  Standard webservers and Amazon S3 have been supported for a while.  Now you can also publish repos directly to GitLab or GitHub.  On top of that, we have improved the _fdroidserver_ workflow when working with large collections of APKs, based on feedback from the developers of [Izzysoft](https://apt.izzysoft.de/fdroid/) and [Metro Tech & Solutions]({{ site.baseurl }}/2017/07/03/cuba.html)."
-msgstr ""
+msgstr "Tambien hay opciones nuevas para publicar repositorios personalizados. Servidores estandares y Amazon S3 han sido soportados por algun tiempo. Ahora tambien puedes publicar repos directamente on GitLab y Github. Y ademas, hemos mejorado el flujo de trabajo de _fdroidserver_ cuando esta trabajando con una colección grande de APKs, basado en cometarios de los desarrolladores de [Izzysoft](https://apt.izzysoft.de/fdroid/) y [Metro Tech & Solutions]({{ site.baseurl }}/2017/07/03/cuba.html)."
 
 #. type: Title ###
 #: build/_posts/md/2017-10-10-fdroid-is-1.0.md
 #, no-wrap
 msgid "Join us!"
-msgstr ""
+msgstr "Únete a nosotros!"
 
 #. type: Plain text
 #: build/_posts/md/2017-10-10-fdroid-is-1.0.md
 msgid "Do you also want to see Android as a complete free software platform? Join us! There are many ways to [contribute]({{ site.baseurl }}/contribute)."
-msgstr ""
+msgstr "¿Quieres que Android se convierta en una plataforma de software completamente gratuito?"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2017-10-10-fdroid-is-1.0.md
