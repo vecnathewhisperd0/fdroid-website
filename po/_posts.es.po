@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-03-05 15:16+0100\nPO-Revision-Date: 2018-04-02 17:44+0000\nLast-Translator: Fabiola Maurice <fabiola.mauriceh@gmail.com>\nLanguage-Team: Spanish <https://hosted.weblate.org/projects/f-droid/website-posts/es/>\nLanguage: es\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.20-dev\n"
+msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-03-05 15:16+0100\nPO-Revision-Date: 2018-04-02 23:11+0000\nLast-Translator: Fabiola Maurice <fabiola.mauriceh@gmail.com>\nLanguage-Team: Spanish <https://hosted.weblate.org/projects/f-droid/website-posts/es/>\nLanguage: es\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.20-dev\n"
 
 #. type: Title #
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md
@@ -873,69 +873,69 @@ msgstr "BZ-01-017 Acceso no autorizado a recursos internos de la red"
 #. type: Plain text
 #: build/_posts/md/2018-01-20-upcoming-security-audit.md
 msgid "The audit report PDF from Cure53 is also cached on this site: [pentest-report_fdroid.pdf]({{ site.baseurl }}/assets/posts/2018-01-20-upcoming-security-audit/pentest-report_fdroid.pdf)."
-msgstr "El PDF del informe de auditoría  de Cure53 también se almacena en caché en este sitio: [pentest-report_fdroid.pdf] ({{site.baseurl}} / assets / posts / 2018-01-20-upcoming-security-audit / pentest-report_fdroid.pdf )"
+msgstr "El PDF del informe de auditoría  de Cure53 también se almacena en caché en este sitio: [pentest-report_fdroid.pdf] ({{site.baseurl}} / assets / posts / 2018-01-20-upcoming-security-audit / pentest-report_fdroid.pdf )."
 
 #. type: Title #
 #: build/_posts/md/2018-01-24-fairphone-open-ships-F-Droid.md
 #, no-wrap
 msgid "\"Fairphone Open ships F-Droid Privileged Extension!\""
-msgstr ""
+msgstr "\"¡Fairphone Open envía F-Droid Privileged Extension!\""
 
 #. type: Plain text
 #: build/_posts/md/2018-01-24-fairphone-open-ships-F-Droid.md
 msgid "Fairphone has taken a [big step](https://www.fairphone.com/en/2018/01/23/f-droid-auto-updates/)  towards making a fully free Android phone! They already have [Fairphone Open](https://www.fairphone.com/en/2016/04/28/releasing-the-fairphone-2-open-operating-system-2/), an alternate version of Android that does not include any proprietary apps.  The built-in Fairphone Updater makes it really easy to switch a Fairphone away from the Google Android version to Fairphone Open.  And now, Fairphone Open includes F-Droid! That means it is a fully functional device, removing the requirement to flash extra packages to get an app store.  It also means that F-Droid works without enabling \"Unknown Sources\".  Then your Fairphone Open can automatically update apps and it'll have a smoother install experience where you just need to press install once, and the whole process will finish in the background (when you are ready for background updates, go to F-Droid's Settings to enable them)."
-msgstr ""
+msgstr "Fairphone ha tomado un [gran paso] (https://www.fairphone.com/en/2018/01/23/f-droid-auto-updates/) para crear un teléfono Android totalmente gratuito. Ya tienen [Fairphone Open] (https://www.fairphone.com/en/2016/04/28/releasing-the-fairphone-2-open-operating-system-2/), una versión alternativa de Android que no incluye ninguna aplicación propietaria. El Fairphone Updater incorporado hace que sea muy fácil cambiar un Fairphone de la versión de Google Android a Fairphone Open. ¡Y ahora, Fairphone Open incluye F-Droid! Eso significa que es un dispositivo completamente funcional, eliminando el requisito de flashear paquetes adicionales para obtener una tienda de aplicaciones. También significa que F-Droid funciona sin habilitar \"Fuentes Desconocidas\". Luego, su Fairphone Open puede actualizar automáticamente las aplicaciones y tendrá una experiencia de instalación más suave donde solo tendrá que presionar instalar una vez, y todo el proceso finalizará en segundo plano (cuando esté listo para las actualizaciones de fondo, vaya a la configuración de F-Droid para habilitarlos)."
 
 #. type: Plain text
 #: build/_posts/md/2018-01-24-fairphone-open-ships-F-Droid.md
 msgid "F-Droid support in Fairphone Open is still beta, so for now, only [Privileged Extension](https://gitlab.com/fdroid/privileged-extension/#f-droid-privileged-extension)  is built into Fairphone Open. So you will still have to download F-Droid and install it as a regular app.  It will automatically find and use the Privileged Extension built into Fairphone Open.  We are working on an F-Droid installer as part of the Fairphone Updater to make that process really easy."
-msgstr ""
+msgstr "El soporte de F-Droid en Fairphone Open sigue siendo beta, por lo que por ahora, solo [Privileged Extension] (https://gitlab.com/fdroid/privileged-extension/#f-droid-privileged-extension) está integrado en Fairphone Open. Por lo tanto, tendrá que descargar F-Droid e instalarlo como una aplicación normal. Automáticamente encontrará y usará la Privileged Extension integrada en Fairphone Open. Estamos trabajando en un instalador de F-Droid como parte de Fairphone Updater para hacer que el proceso sea realmente fácil."
 
 #. type: Plain text
 #: build/_posts/md/2018-01-24-fairphone-open-ships-F-Droid.md
 msgid "For now, these are the steps you need to do to have the full F-Droid experience with Fairphone Open:"
-msgstr ""
+msgstr "Por ahora, estos son los pasos que debes seguir para tener la experiencia completa de F-Droid con Fairphone Open:"
 
 #. type: Bullet: '1. '
 #: build/_posts/md/2018-01-24-fairphone-open-ships-F-Droid.md
 msgid "download [F-Droid.apk](/F-Droid.apk) and [verify](/F-Droid.apk.asc) it"
-msgstr ""
+msgstr "descarga [F-Droid.apk](/F-Droid.apk) y [verificalo](/F-Droid.apk.asc)"
 
 #. type: Bullet: '2. '
 #: build/_posts/md/2018-01-24-fairphone-open-ships-F-Droid.md
 msgid "enable \"Unknown Sources\" in Settings -> Security"
-msgstr ""
+msgstr "habilita \"Fuentes desconocidas\" en Configuración -> Seguridad"
 
 #. type: Bullet: '3. '
 #: build/_posts/md/2018-01-24-fairphone-open-ships-F-Droid.md
 msgid "find _FDroid.apk_ in Downloads and click to install it"
-msgstr ""
+msgstr "encuentre _FDroid.apk_ en Descargas y haga clic para instalarlo"
 
 #. type: Bullet: '4. '
 #: build/_posts/md/2018-01-24-fairphone-open-ships-F-Droid.md
 msgid "confirm the install on the system's install screen"
-msgstr ""
+msgstr "confirmar la instalación en la pantalla de instalación del sistema"
 
 #. type: Bullet: '5. '
 #: build/_posts/md/2018-01-24-fairphone-open-ships-F-Droid.md
 msgid "disable \"Unknown Sources\""
-msgstr ""
+msgstr "deshabilitar \"Fuentes Desconocidas"
 
 #. type: Title #
 #: build/_posts/md/2018-02-02-linux-conf-au-fdroid-presentation.md
 #, no-wrap
 msgid "\"F-Droid presentation at the Linux.conf.au 2018 conference\""
-msgstr ""
+msgstr "\"Presentación de F-Droid en la conferencia Linux.conf.au 2018\""
 
 #. type: Plain text
 #: build/_posts/md/2018-02-02-linux-conf-au-fdroid-presentation.md
 msgid "In Sydney, New South Wales on Monday 22 January through to Friday 26 January, Linux.conf.au, the Australian Linux conference took place."
-msgstr ""
+msgstr "En Sydney, Nueva Gales del Sur, desde el lunes 22 de enero hasta el viernes 26 de enero, Linux.conf.au, tuvo lugar la conferencia australiana Linux."
 
 #. type: Plain text
 #: build/_posts/md/2018-02-02-linux-conf-au-fdroid-presentation.md
 msgid "F-Droid's [Peter Serwylo](https://gitlab.com/pserwylo) was there Thursday, 25 Jan, presenting his _\"F-Droid: The private, secure, free and open app store for Android\"_."
-msgstr ""
+msgstr "F-Droid [Peter Serwylo] (https://gitlab.com/pserwylo) estuvo allí el jueves 25 de enero, presentando su _ \"F-Droid: la tienda de aplicaciones privada, segura, gratuita y abierta para Android\" _"
 
 #. type: Plain text
 #: build/_posts/md/2018-02-02-linux-conf-au-fdroid-presentation.md
