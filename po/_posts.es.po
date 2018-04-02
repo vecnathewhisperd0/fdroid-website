@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-03-05 15:16+0100\nPO-Revision-Date: 2018-04-02 15:57+0000\nLast-Translator: Fabiola Maurice <fabiola.mauriceh@gmail.com>\nLanguage-Team: Spanish <https://hosted.weblate.org/projects/f-droid/website-posts/es/>\nLanguage: es\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.20-dev\n"
+msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-03-05 15:16+0100\nPO-Revision-Date: 2018-04-02 17:12+0000\nLast-Translator: Fabiola Maurice <fabiola.mauriceh@gmail.com>\nLanguage-Team: Spanish <https://hosted.weblate.org/projects/f-droid/website-posts/es/>\nLanguage: es\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.20-dev\n"
 
 #. type: Title #
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md
@@ -705,53 +705,53 @@ msgstr "<p align=\"center\"> 1\n  <img width=\"300\" height=\"282\" src=\"{{ sit
 #. type: Plain text
 #: build/_posts/md/2017-12-13-fdroid-and-janus.md
 msgid "First off, _f-droid.org_, _guardianproject.info/fdroid_ and _apt.izzysoft.de/fdroid_ were scanned for possible Janus exploits and none were found.  _f-droid.org_'s greatest protection against malware is the requirement that everything must be built from source, humans review all apps that are added, and a source tarball for each build is stored forever.  Exploit writers do not want to give away the source code to their malware nor have their activities permanently logged in _git_, so this process keeps them away.  No malware has been found in _f-droid.org_ in its 7 years of operation."
-msgstr "Primero,  _f-droid.org_, _guardianproject.info/fdroid_ and _apt.izzysoft.de/fdroid_ fueron  escaneados  en busca de posibles aplicaciones afectadas por Janus y no fue encontrada ninguna. La mayor proteccion de _f-droid.org_ en contra de malware es el requisito de que todo tiene"
+msgstr "Primero,  _f-droid.org_, _guardianproject.info/fdroid_ and _apt.izzysoft.de/fdroid_ fueron  escaneados  en busca de posibles aplicaciones afectadas por Janus y no fue encontrada ninguna. La mayor proteccion de _f-droid.org_ en contra de malware es el requisito de que todo tiene que estar construido de fuente, humanos revisan todas las aplicaciones que son agregadas, y una fuente tarball por cada creacion es almacenada para siempre.  Los programadores maliciosos no quieren entregar el codigo fuente  de su malware y no quieren que sus actividades sean grabadas permanentemente en _git_, asi que este proceso los mantiene alejados. Ningun malware ha sido encontrado en  _f-droid.org_  en 7 años de operacion."
 
 #. type: Plain text
 #: build/_posts/md/2017-12-13-fdroid-and-janus.md
 msgid "F-Droid is also an open ecosystem, that means many people are getting apps from other sources.  For that reason, we are working to add Janus detection to the F-Droid Android client app.  When an APK with a Janus exploit is found, it will prompt the user to uninstall it in the \"Updates\" tab.  If an APK with a Janus exploit is downloaded from a repo that has allowed it in, it will be blocked from being installed."
-msgstr ""
+msgstr "F-Droid es tambien un ecosistema abierto, lo que significa que muchas personas estan obteniendo aplicaciones de otras fuentes. Por esta razon, estamos trabajando para agregar deteccion de Janus a la aplicacion  cliente Android F-Droid. Cuando una APK afectada con Janus es encontrada,  requirira al usuario installarla en la lista de  \" Actualizaciones\" . Si una APK afectada por anus es descargada de un repositorio que le  ha permitido entrar, la instalacion sera bloqueada."
 
 #. type: Plain text
 #: build/_posts/md/2017-12-13-fdroid-and-janus.md
 msgid "There is also some random good news: it turns out that none of the about 10 Janus examples we have can pass `fdroid update`.  Most of them failed to verify when `fdroid update` calls `aapt dump badging`.  The one file that passed those tests was the publicly released [Janus demo APK](https://www.androidpolice.com/wp-content/uploads/janus-poc/HelloWorld-Janus.apk).  But it had strange dates like `2042-14-03 00:62:15` in the ZIP entries, probably because of the tricks needed to assemble this DEX+ZIP file.  This triggered a crash in `fdroid update`, when parsing the date of _AndroidManifest.xml_.  Python complains that there is no 14th month.  This crash prevents the APK from being added to the repo. We have also added an [explicit block](https://gitlab.com/fdroid/fdroidserver/merge_requests/409)  for APKs trying to exploit Janus."
-msgstr ""
+msgstr "Tambien hay algunas buenas noticias relacionadas: resulta que ninguna de los 10 ejemplos de Janus que tenemos pueden pasar `fdroid update`.  La mayoria de ellos fallaron la verificacion cuando F-droid lla la actualizacion  calls `aapt dump badging`. El unico archivo que paso esas pruebas fue el lanzamiento publico [Janus demo APK](https://www.androidpolice.com/wp-content/uploads/janus-poc/HelloWorld-Janus.apk).  Pero tenia fechas extrañas como `2042-14-03 00:62:15` en las entradas del ZIP, probablemente por los trucos necesarios para armar el archivo DEX+ZIP. Esto detono un fallo en `fdroid update`,  durante el analisis de la fecha de  _AndroidManifest.xml_.  Python señala que no existe el mes 14.  Este error evita que la APK sea instalada en el repositorio. Tambien hemos agregado un [ bloqueo explicito ](https://gitlab.com/fdroid/fdroidserver/merge_requests/409)  para APKs intentando explotar Janus."
 
 #. type: Plain text
 #: build/_posts/md/2017-12-13-fdroid-and-janus.md
 msgid "Also, _apksigner_ is better at verifying APK signatures, and many Janus examples failed.  If _apksigner_ is installed, then `fdroid build` uses it.  If an APK is signed with a v2 APK Signature, then things like Janus exploits are not possible.  So if you are working with APKs that you have not built from source, be sure to install _apksigner_."
-msgstr ""
+msgstr "Tambien,  _apksigner_ es mejor verificando firmas de APK, y muchos ejemplos de Janus fallaron. Si  _apksigner_  esta instalado, entonces `fdroid build`  lo usa. Si una APK esta firmada con una firma APK v2, entonces cosas como explotaciones de Janus no son posibles, Asi que si estas trabajando con APKs que no has construido de la fuente, asegurate de instalar _apksigner_."
 
 #. type: Plain text
 #: build/_posts/md/2017-12-13-fdroid-and-janus.md
 msgid "So we can safely say that it would be difficult to inadvertently put a Janus exploit in an F-Droid repo.  And with the new protections in the Android client app, a repo cannot force the user to install one."
-msgstr ""
+msgstr "Asi que podemos asegurar que seria muy dificil poner una aplicacion afectada por Janus inadvertidamente en un repositorio F-Droid. Y con las medidas de seguridad nuevas en la aplicacion cliente de Android,  un repositorio no puede obligar a un usuario a instalarlo."
 
 #. type: Title #
 #: build/_posts/md/2017-12-14-new-collaborations-on-exposing-tracking.md
 #, no-wrap
 msgid "\"New Collaborations on Exposing Tracking\""
-msgstr ""
+msgstr "\" Nuevas colaboraciones para exponer Trackeo\""
 
 #. type: Plain text
 #: build/_posts/md/2017-12-14-new-collaborations-on-exposing-tracking.md
 msgid "Since 2010, the F-Droid community has been working to provide only 100% verified Free Software, and to make apparent all forms of tracking, advertising, and \"[anti-features](https://f-droid.org/wiki/page/AntiFeatures)\" commonly found in apps.  F-Droid provides a complete app ecosystem where users are actively notified of tracking and advertising in the apps, and can make informed choices.  We have achieved this through the work of many dedicated volunteers reviewing apps as they are submitted, and marking the things that they find."
-msgstr ""
+msgstr "Desde el 210, la comunidad de F-Droid ha estado trabajando en proveer unicamente  Software gratuito  verificado 100% , y para hacer obvias todas las formas de trackeo, y [anti-features](https://f-droid.org/wiki/page/AntiFeatures)\" encontradas comunmente en aplicaciones. F-Droid provee un ecosistema de aplicaciones completo  donde los usuarios son notificados activamente sobre trackeo y anuncios en las aplicaciones, y pueden realizar selecciones basados en informacion. Hemos logrado esto gracias al trabajo de muchos voluntarios dedicados  a revisar las aplicaciones en cuanto son enviadas, y marcando las cosas que encuentran."
 
 #. type: Plain text
 #: build/_posts/md/2017-12-14-new-collaborations-on-exposing-tracking.md
 msgid "Researchers at [Exodus Privacy](https://exodus-privacy.eu.org) and [Yale Privacy Lab](https://privacylab.yale.edu) are working on taking the next big step, by creating tools for automating the process of finding all the [various forms of tracking](https://theintercept.com/2017/11/24/staggering-variety-of-clandestine-trackers-found-in-popular-android-apps)  that apps can include.  F-Droid will work with them to merge efforts, increasing the effectiveness of volunteers, and exposing the inner workings of software in daily use worldwide."
-msgstr ""
+msgstr "Investigadores en [Exodus Privacy](https://exodus-privacy.eu.org) y  [Yale Privacy Lab](https://privacylab.yale.edu) estan trabajando para tomar el siguiente paso,  mediante la creacion de herramientas para la automatizacion de el proceso para detectar todas las [formas de trackeo](https://theintercept.com/2017/11/24/staggering-variety-of-clandestine-trackers-found-in-popular-android-apps) que pueden incluir las aplicaciones. F-Droid trabajara con ellos para combinar esfuerzos, incrementar la efectividad de los voluntarios, y exponer el funcionamiento interno de el Software de uso diario a  nivel mundial."
 
 #. type: Plain text
 #: build/_posts/md/2017-12-14-new-collaborations-on-exposing-tracking.md
 msgid "F-Droid represents a trustworthy method of getting apps, a _libre_ and _gratis_ alternative to the \"app store\" model that is driven by advertising revenue and data collection.  F-Droid makes custom builds of Free Software like Firefox and Telegram, removing code that limits the freedom of its users.  What we most often remove is third-party SDKs (Software Development Kits) that enable tracking while denying the user of the apps a choice."
-msgstr ""
+msgstr "F-Droid representa un metodo de confianza para obtener aplicaciones, una alternativa  _libre_ and _gratis_  a el modelo de \"tienda de aplicaciones\"  que es manejado por anuncios,   ganancias economicas y coleccion de datos. F-Droid desarrolla Software gratuito personalizado como Firefox y elegram, removiendo el codigo que limita la libertad de sus usuarios. Lo que mas removemos generalmente es  SDKs ( Software Development Kits) de terceras personas que habilitan el trackeo mientras niegan al usuario la opcion en la aplicacion."
 
 #. type: Plain text
 #: build/_posts/md/2017-12-14-new-collaborations-on-exposing-tracking.md
 msgid "There are pragmatic uses of tracking, such as usability testing, crash reporting, and release management.  Even when such information is collected in an \"anonymous\" or \"randomized\" fashion, it often represents a unique data profile of a user that may expose private details.  This is especially true when information is correlated with the rich data sets of software industry giants."
-msgstr ""
+msgstr "Existen usos pragmaticos de el trackeo , como pruebas de usabilidad,  informes de fallos y gestion de versiones. Incluso cuando dicha información se recopila de forma \"anónima\" o \"aleatoria\", a menudo representa un perfil de datos único de un usuario que puede exponer detalles privados. Esto es especialmente cierto cuando la información se correlaciona con los  conjuntos de datos de gigantes de la industria del software"
 
 #. type: Plain text
 #: build/_posts/md/2017-12-14-new-collaborations-on-exposing-tracking.md
