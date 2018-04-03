@@ -3,8 +3,16 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+#, fuzzy
 msgid ""
-msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: team@f-droid.org\nPOT-Creation-Date: 2018-03-05 15:16+0100\nPO-Revision-Date: 2018-04-02 23:40+0000\nLast-Translator: Fabiola Maurice <fabiola.mauriceh@gmail.com>\nLanguage-Team: Spanish <https://hosted.weblate.org/projects/f-droid/website-posts/es/>\nLanguage: es\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2.20-dev\n"
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"PO-Revision-Date: 2018-04-03 15:58+0200\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
 
 #. type: Title #
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md
@@ -233,7 +241,7 @@ msgstr "\" Anunciando nuevas librerias: Canales de actualizacion F-Droid \""
 #. type: Plain text
 #: build/_posts/md/2017-06-01-announcing-new-libraries-f-droid-update-channels.md
 msgid "In order to complete the F-Droid distribution ecosystem, we are introducing [__F-Droid Update Channels__](https://gitlab.com/fdroid/update-channels).  It is a suite of libraries for apps to find updates, no matter from where it was originally downloaded.  In many parts of the world, it is very common to get Android APKs outside of the app stores where the developers upload them."
-msgstr "Para poder completar el ecosistema de distribucion de F-Droid, introducimos [__Canales de Actualizacion F-Droid__ ] (https://gitlab.com/fdroid/update-channels). \" Un conjunto de librerias para encontrar actualizaciones para aplicaciones , sin importar de donde fueron descargadas originalmente.\" En muchas partes del mundo, es muy comun obtener  APKs para Android fuera de las tiendas de aplicaciones donde los desarolladores las suben."
+msgstr "Para poder completar el ecosistema de distribucion de F-Droid, introducimos [__Canales de Actualizacion F-Droid__ ](https://gitlab.com/fdroid/update-channels). \" Un conjunto de librerias para encontrar actualizaciones para aplicaciones , sin importar de donde fueron descargadas originalmente.\" En muchas partes del mundo, es muy comun obtener  APKs para Android fuera de las tiendas de aplicaciones donde los desarolladores las suben."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2017-06-01-announcing-new-libraries-f-droid-update-channels.md
@@ -489,7 +497,7 @@ msgstr "todos los textos de las aplicaciones pueden ser [translated]({{ site.bas
 #. type: Bullet: '* '
 #: build/_posts/md/2017-10-10-fdroid-is-1.0.md
 msgid "apps with [known security vulnerabilities](https://f-droid.org/wiki/page/AntiFeature:KnownVuln) will be marked"
-msgstr "las aplicaciones con [vulnerabilidades de seguridad conocidas] (https://f-droid.org/wiki/page/AntiFeature:KnownVuln) seran marcadas"
+msgstr "las aplicaciones con [vulnerabilidades de seguridad conocidas](https://f-droid.org/wiki/page/AntiFeature:KnownVuln) seran marcadas"
 
 #. type: Plain text
 #: build/_posts/md/2017-10-10-fdroid-is-1.0.md
@@ -648,12 +656,12 @@ msgstr "agrega [las funciones que faltan](https://gitlab.com/fdroid/fdroidclient
 #. type: Bullet: '* '
 #: build/_posts/md/2017-10-10-fdroid-is-1.0.md
 msgid "make [Repomaker](https://gitlab.com/fdroid/repomaker/issues) work well on your platform"
-msgstr "Haz que [ Repomaker ] (https://gitlab.com/fdroid/repomaker/issues) funcione bien en tu plataforma"
+msgstr "Haz que [Repomaker](https://gitlab.com/fdroid/repomaker/issues) funcione bien en tu plataforma"
 
 #. type: Plain text
 #: build/_posts/md/2017-10-10-fdroid-is-1.0.md
 msgid "If you are looking for a good place to get started, see the list of \"[first timer](https://gitlab.com/groups/fdroid/issues?label_name%5B%5D=first-timer)\" issues."
-msgstr "Si estas buscando un buen lugar para empezar, ve la lista de  problemas  de \"[ usuario nuevo ] (https://gitlab.com/groups/fdroid/issues?label_name%5B%5D=first-timer)\"."
+msgstr "Si estas buscando un buen lugar para empezar, ve la lista de  problemas  de \"[usuario nuevo](https://gitlab.com/groups/fdroid/issues?label_name%5B%5D=first-timer)\"."
 
 #. type: Title #
 #: build/_posts/md/2017-12-11-publishing-nightly-builds-with-gitlab-ci.md
@@ -679,7 +687,7 @@ msgstr "Aprende a configurar esta funcion para tu aplicacion leyendo lo siguient
 #. type: Plain text
 #: build/_posts/md/2017-12-11-publishing-nightly-builds-with-gitlab-ci.md
 msgid "With F-Droid [Update Channels]({{ site.baseurl }}/2017/06/01/announcing-new-libraries-f-droid-update-channels.html), you can even make your app update itself from your nightly repo."
-msgstr "Con F-Droid [Canales Actualizados] ({{ site.baseurl }}/2017/06/01/announcing-new-libraries-f-droid-update-channels.html), puedes incluso hacer que tu aplicacion se actualize sola de tu repositorio nocturno."
+msgstr "Con F-Droid [Canales Actualizados]({{ site.baseurl }}/2017/06/01/announcing-new-libraries-f-droid-update-channels.html), puedes incluso hacer que tu aplicacion se actualize sola de tu repositorio nocturno."
 
 #. type: Title #
 #: build/_posts/md/2017-12-13-fdroid-and-janus.md
@@ -766,12 +774,12 @@ msgstr "\"Próxima auditoría de seguridad\""
 #. type: Plain text
 #: build/_posts/md/2018-01-20-upcoming-security-audit.md
 msgid "We have started the process of the second security audit of the F-Droid setup.  The audit will be conducted by [Radically Open Security](https://www.radicallyopensecurity.com), which is a natural partner for F-Droid since they share our focus on free software and open processes.  Once we receive the results and have addressed any issues found, we will publish the full, unedited audit report here.  Thanks to [Open Tech Fund](https://opentech.fund)  for covering the costs of hiring the auditor."
-msgstr "Hemos comenzado el proceso de la segunda auditoría de seguridad de la configuración de F-Droid. La auditoría se llevará a cabo por [Radically Open Security] (https://www.radicallyopensecurity.com), que es un socio natural de F-Droid, ya que comparten nuestro enfoque en el software libre y los procesos abiertos. Una vez que recibamos los resultados y abordemos cualquier problema encontrado, publicaremos aquí el informe de auditoría completo sin editar. Gracias a [Open Tech Fund] (https://opentech.fund) por cubrir los costos de contratación del auditor."
+msgstr "Hemos comenzado el proceso de la segunda auditoría de seguridad de la configuración de F-Droid. La auditoría se llevará a cabo por [Radically Open Security](https://www.radicallyopensecurity.com), que es un socio natural de F-Droid, ya que comparten nuestro enfoque en el software libre y los procesos abiertos. Una vez que recibamos los resultados y abordemos cualquier problema encontrado, publicaremos aquí el informe de auditoría completo sin editar. Gracias a [Open Tech Fund](https://opentech.fund) por cubrir los costos de contratación del auditor."
 
 #. type: Plain text
 #: build/_posts/md/2018-01-20-upcoming-security-audit.md
 msgid "For more information about F-Droid's security practices on in the documentation about the [Security Model]({{ site.baseurl }}/docs/Security_Model/)."
-msgstr "Para obtener más información sobre las prácticas de seguridad de F-Droid, consulte la documentación sobre [Modelo de seguridad] ({{site.baseurl}} / docs / Security_Model /)."
+msgstr "Para obtener más información sobre las prácticas de seguridad de F-Droid, consulte la documentación sobre [Modelo de seguridad]({{ site.baseurl }}/docs/Security_Model/)."
 
 #. type: Title ##
 #: build/_posts/md/2018-01-20-upcoming-security-audit.md
@@ -782,7 +790,7 @@ msgstr "Mirando hacia atrás a la primera auditoría de seguridad"
 #. type: Plain text
 #: build/_posts/md/2018-01-20-upcoming-security-audit.md
 msgid "We received an [external audit](https://cure53.de/pentest-report_fdroid.pdf) in 2015 from Cure53, provided by the [Open Tech Fund](https://opentech.fund). This was the first full security audit of the core security practices of F-Droid.  On top of the core, the focus on the audit was on the new, experimental features that opened up F-Droid as an ecosystem, moving away from the central server model."
-msgstr "Recibimos una [auditoría externa] (https://cure53.de/pentest-report_fdroid.pdf) en 2015 de Cure53, proporcionada por [Open Tech Fund] (https://opentech.fund). Esta fue la primera auditoría de seguridad completa de las prácticas de seguridad básicas de F-Droid. Además del núcleo, el enfoque en la auditoría fue en las nuevas características experimentales que abrieron a F-Droid como un ecosistema, alejándose del modelo de servidor central."
+msgstr "Recibimos una [auditoría externa](https://cure53.de/pentest-report_fdroid.pdf) en 2015 de Cure53, proporcionada por [Open Tech Fund](https://opentech.fund). Esta fue la primera auditoría de seguridad completa de las prácticas de seguridad básicas de F-Droid. Además del núcleo, el enfoque en la auditoría fue en las nuevas características experimentales que abrieron a F-Droid como un ecosistema, alejándose del modelo de servidor central."
 
 #. type: Plain text
 #: build/_posts/md/2018-01-20-upcoming-security-audit.md
@@ -872,7 +880,7 @@ msgstr "BZ-01-017 Acceso no autorizado a recursos internos de la red"
 #. type: Plain text
 #: build/_posts/md/2018-01-20-upcoming-security-audit.md
 msgid "The audit report PDF from Cure53 is also cached on this site: [pentest-report_fdroid.pdf]({{ site.baseurl }}/assets/posts/2018-01-20-upcoming-security-audit/pentest-report_fdroid.pdf)."
-msgstr "El PDF del informe de auditoría  de Cure53 también se almacena en caché en este sitio: [pentest-report_fdroid.pdf] ({{site.baseurl}} / assets / posts / 2018-01-20-upcoming-security-audit / pentest-report_fdroid.pdf )."
+msgstr "El PDF del informe de auditoría  de Cure53 también se almacena en caché en este sitio: [pentest-report_fdroid.pdf]({{ site.baseurl }}/assets/posts/2018-01-20-upcoming-security-audit/pentest-report_fdroid.pdf)."
 
 #. type: Title #
 #: build/_posts/md/2018-01-24-fairphone-open-ships-F-Droid.md
@@ -883,12 +891,12 @@ msgstr "\"¡Fairphone Open envía F-Droid Privileged Extension!\""
 #. type: Plain text
 #: build/_posts/md/2018-01-24-fairphone-open-ships-F-Droid.md
 msgid "Fairphone has taken a [big step](https://www.fairphone.com/en/2018/01/23/f-droid-auto-updates/)  towards making a fully free Android phone! They already have [Fairphone Open](https://www.fairphone.com/en/2016/04/28/releasing-the-fairphone-2-open-operating-system-2/), an alternate version of Android that does not include any proprietary apps.  The built-in Fairphone Updater makes it really easy to switch a Fairphone away from the Google Android version to Fairphone Open.  And now, Fairphone Open includes F-Droid! That means it is a fully functional device, removing the requirement to flash extra packages to get an app store.  It also means that F-Droid works without enabling \"Unknown Sources\".  Then your Fairphone Open can automatically update apps and it'll have a smoother install experience where you just need to press install once, and the whole process will finish in the background (when you are ready for background updates, go to F-Droid's Settings to enable them)."
-msgstr "Fairphone ha tomado un [gran paso] (https://www.fairphone.com/en/2018/01/23/f-droid-auto-updates/) para crear un teléfono Android totalmente gratuito. Ya tienen [Fairphone Open] (https://www.fairphone.com/en/2016/04/28/releasing-the-fairphone-2-open-operating-system-2/), una versión alternativa de Android que no incluye ninguna aplicación propietaria. El Fairphone Updater incorporado hace que sea muy fácil cambiar un Fairphone de la versión de Google Android a Fairphone Open. ¡Y ahora, Fairphone Open incluye F-Droid! Eso significa que es un dispositivo completamente funcional, eliminando el requisito de flashear paquetes adicionales para obtener una tienda de aplicaciones. También significa que F-Droid funciona sin habilitar \"Fuentes Desconocidas\". Luego, su Fairphone Open puede actualizar automáticamente las aplicaciones y tendrá una experiencia de instalación más suave donde solo tendrá que presionar instalar una vez, y todo el proceso finalizará en segundo plano (cuando esté listo para las actualizaciones de fondo, vaya a la configuración de F-Droid para habilitarlos)."
+msgstr "Fairphone ha tomado un [gran paso](https://www.fairphone.com/en/2018/01/23/f-droid-auto-updates/) para crear un teléfono Android totalmente gratuito. Ya tienen [Fairphone Open](https://www.fairphone.com/en/2016/04/28/releasing-the-fairphone-2-open-operating-system-2/), una versión alternativa de Android que no incluye ninguna aplicación propietaria. El Fairphone Updater incorporado hace que sea muy fácil cambiar un Fairphone de la versión de Google Android a Fairphone Open. ¡Y ahora, Fairphone Open incluye F-Droid! Eso significa que es un dispositivo completamente funcional, eliminando el requisito de flashear paquetes adicionales para obtener una tienda de aplicaciones. También significa que F-Droid funciona sin habilitar \"Fuentes Desconocidas\". Luego, su Fairphone Open puede actualizar automáticamente las aplicaciones y tendrá una experiencia de instalación más suave donde solo tendrá que presionar instalar una vez, y todo el proceso finalizará en segundo plano (cuando esté listo para las actualizaciones de fondo, vaya a la configuración de F-Droid para habilitarlos)."
 
 #. type: Plain text
 #: build/_posts/md/2018-01-24-fairphone-open-ships-F-Droid.md
 msgid "F-Droid support in Fairphone Open is still beta, so for now, only [Privileged Extension](https://gitlab.com/fdroid/privileged-extension/#f-droid-privileged-extension)  is built into Fairphone Open. So you will still have to download F-Droid and install it as a regular app.  It will automatically find and use the Privileged Extension built into Fairphone Open.  We are working on an F-Droid installer as part of the Fairphone Updater to make that process really easy."
-msgstr "El soporte de F-Droid en Fairphone Open sigue siendo beta, por lo que por ahora, solo [Privileged Extension] (https://gitlab.com/fdroid/privileged-extension/#f-droid-privileged-extension) está integrado en Fairphone Open. Por lo tanto, tendrá que descargar F-Droid e instalarlo como una aplicación normal. Automáticamente encontrará y usará la Privileged Extension integrada en Fairphone Open. Estamos trabajando en un instalador de F-Droid como parte de Fairphone Updater para hacer que el proceso sea realmente fácil."
+msgstr "El soporte de F-Droid en Fairphone Open sigue siendo beta, por lo que por ahora, solo [Privileged Extension](https://gitlab.com/fdroid/privileged-extension/#f-droid-privileged-extension) está integrado en Fairphone Open. Por lo tanto, tendrá que descargar F-Droid e instalarlo como una aplicación normal. Automáticamente encontrará y usará la Privileged Extension integrada en Fairphone Open. Estamos trabajando en un instalador de F-Droid como parte de Fairphone Updater para hacer que el proceso sea realmente fácil."
 
 #. type: Plain text
 #: build/_posts/md/2018-01-24-fairphone-open-ships-F-Droid.md
@@ -934,12 +942,12 @@ msgstr "En Sydney, Nueva Gales del Sur, desde el lunes 22 de enero hasta el vier
 #. type: Plain text
 #: build/_posts/md/2018-02-02-linux-conf-au-fdroid-presentation.md
 msgid "F-Droid's [Peter Serwylo](https://gitlab.com/pserwylo) was there Thursday, 25 Jan, presenting his _\"F-Droid: The private, secure, free and open app store for Android\"_."
-msgstr "F-Droid [Peter Serwylo] (https://gitlab.com/pserwylo) estuvo allí el jueves 25 de enero, presentando su _ \"F-Droid: la tienda de aplicaciones privada, segura, gratuita y abierta para Android\" _."
+msgstr "F-Droid [Peter Serwylo](https://gitlab.com/pserwylo) estuvo allí el jueves 25 de enero, presentando su _ \"F-Droid: la tienda de aplicaciones privada, segura, gratuita y abierta para Android\" _."
 
 #. type: Plain text
 #: build/_posts/md/2018-02-02-linux-conf-au-fdroid-presentation.md
 msgid "The 45 minutes long talk covers how F-Droid come to be, focussing on the client, its security model, and how it is being used to ensure everyone (look out for the \"[collateral freedom](https://en.wikipedia.org/wiki/Collateral_freedom)\" bit) is able to access high quality open source apps, using tools developed to make it easier for anybody to setup and run their own curated app store."
-msgstr "La charla de 45 minutos cubre cómo F-Droid se convierte en realidad, centrándose en el cliente, su modelo de seguridad y cómo se usa para garantizar que todos (busquen la \"Libertad colateral\" (https: //en.wikipedia .org / wiki / Collateral_freedom) \"bit) es capaz de acceder a aplicaciones de código abierto de alta calidad, utilizando herramientas desarrolladas para que sea más fácil para cualquiera configurar y ejecutar su propia tienda de aplicaciones seleccionada."
+msgstr "La charla de 45 minutos cubre cómo F-Droid se convierte en realidad, centrándose en el cliente, su modelo de seguridad y cómo se usa para garantizar que todos (busquen la \"Libertad colateral\" (https: //en.wikipedia .org/wiki/Collateral_freedom) \"bit) es capaz de acceder a aplicaciones de código abierto de alta calidad, utilizando herramientas desarrolladas para que sea más fácil para cualquiera configurar y ejecutar su propia tienda de aplicaciones seleccionada."
 
 #. type: Plain text
 #: build/_posts/md/2018-02-02-linux-conf-au-fdroid-presentation.md
@@ -964,7 +972,7 @@ msgstr "\" Actualizaciones del Sitio Web\""
 #. type: Plain text
 #: build/_posts/md/2018-03-01-website-updates.md
 msgid "There have been a couple of important updates to this website.  First, a longstanding complaint about this website is that there is only prominent donation buttons for F-Droid itself, and not for the apps.  We want to support as many app developers as possible, so the app pages have been updated to highlight that app's donation options.  See [Mastalab]({{ site.baseurl }}/packages/fr.gouv.etalab.mastodon/), [Telegram]({{ site.baseurl }}/packages/org.telegram.messenger/), or [F-Droid itself]({{ site.baseurl }}/packages/org.fdroid.fdroid/)  to see what the new layout looks like."
-msgstr "Hemos hecho un par de actualizaciones importantes en este sitio web. En primer lugar, una quejaque tuvimos por mucho tiempo sobre este sitio web es que solo hay botones de donación prominentes para F-Droid, y no para las aplicaciones. Queremos apoyar a tantos desarrolladores de aplicaciones como sea posible, por lo que las páginas de la aplicación se han actualizado para resaltar las opciones de donación de la aplicación. Ver [Mastalab] ({{site.baseurl}} / packages / fr.gouv.etalab.mastodon /), [Telegram] ({{site.baseurl}} / packages / org.telegram.messenger /), o [F -Droid ] ({{site.baseurl}} / packages / org.fdroid.fdroid /) para ver cómo se ve el nuevo diseño."
+msgstr "Hemos hecho un par de actualizaciones importantes en este sitio web. En primer lugar, una quejaque tuvimos por mucho tiempo sobre este sitio web es que solo hay botones de donación prominentes para F-Droid, y no para las aplicaciones. Queremos apoyar a tantos desarrolladores de aplicaciones como sea posible, por lo que las páginas de la aplicación se han actualizado para resaltar las opciones de donación de la aplicación. Ver [Mastalab]({{ site.baseurl }}/packages/fr.gouv.etalab.mastodon/), [Telegram]({{ site.baseurl }}/packages/org.telegram.messenger/), o [F-Droid]({{ site.baseurl }}/packages/org.fdroid.fdroid/) para ver cómo se ve el nuevo diseño."
 
 #. type: Plain text
 #: build/_posts/md/2018-03-01-website-updates.md
@@ -984,12 +992,12 @@ msgstr "<https://staging.f-droid.org/search?q=apache-2.0>"
 #. type: Plain text
 #: build/_posts/md/2018-03-01-website-updates.md
 msgid "There is a lot that can be done to improve the search, we welcome contributions! For example, it would be nice to still offer the old, live search popup.  That just requires someone fixing [this issue](https://gitlab.com/fdroid/fdroid-website/issues/175)."
-msgstr "Hay mucho que se puede hacer para mejorar la búsqueda, ¡damos la bienvenida a las contribuciones! Por ejemplo, sería bueno seguir ofreciendo la ventana emergente de búsqueda que teniamos anteriormente . Eso solo requiere que alguien solucione [este problema] (https://gitlab.com/fdroid/fdroid-website/issues/175)."
+msgstr "Hay mucho que se puede hacer para mejorar la búsqueda, ¡damos la bienvenida a las contribuciones! Por ejemplo, sería bueno seguir ofreciendo la ventana emergente de búsqueda que teniamos anteriormente . Eso solo requiere que alguien solucione [este problema](https://gitlab.com/fdroid/fdroid-website/issues/175)."
 
 #. type: Plain text
 #: build/_posts/md/2018-03-01-website-updates.md
 msgid "Since all of the apps descriptions and graphics are submitted by developers, this website needs to have extra protections to ensure that the text and graphics that come from app developers cannot be used to exploit visitors of this website.  To read more about the measures we take to ensure the security of this site, see the \"Initial Install\" section of [Security Model]({{ site.baseurl }}/docs/Security_Model)."
-msgstr "Dado que todas las descripciones y los gráficos de las aplicaciones son enviados por los desarrolladores, este sitio web debe tener protecciones adicionales para garantizar que el texto y los gráficos que provienen de los desarrolladores de la aplicación no puedan utilizarse para explotar a los visitantes de este sitio web. Para obtener más información sobre las medidas que tomamos para garantizar la seguridad de este sitio, consulte la sección \"Instalación inicial\" de [Modelo de seguridad] ({{site.baseurl}} / docs / Security_Model)."
+msgstr "Dado que todas las descripciones y los gráficos de las aplicaciones son enviados por los desarrolladores, este sitio web debe tener protecciones adicionales para garantizar que el texto y los gráficos que provienen de los desarrolladores de la aplicación no puedan utilizarse para explotar a los visitantes de este sitio web. Para obtener más información sobre las medidas que tomamos para garantizar la seguridad de este sitio, consulte la sección \"Instalación inicial\" de [Modelo de seguridad]({{ site.baseurl }}/docs/Security_Model)."
 
 #. type: Plain text
 #: build/_posts/md/2018-03-01-website-updates.md
@@ -1014,7 +1022,7 @@ msgstr "<p align=\"center\"> 1\n  <img width=\"150\" src=\"{{ site.baseurl }}/as
 #. type: Plain text
 #: build/_posts/md/2018-03-02-liberapay-support.md
 msgid "Recently F-Droid has gained support for [Liberapay](https://liberapay.com/), a fully free donation platform aimed at software projects.  Liberapay itself is fully free and [open source](https://github.com/liberapay/liberapay.com)  software focusing on recurrent donations to software projects. These recurrent donations are important for the long-term sustainability of projects.  Another interesting feature for software projects is the possibility to create [teams](https://liberapay.com/about/teams) which the members of the project can join and then split the donations in a way where everyone sets the share he or she wants to take."
-msgstr "Recientemente, F-Droid ha ganado el apoyo de [Liberapay] (https://liberapay.com/), una plataforma de donación totalmente gratuita destinada a proyectos de software. Liberapay en sí mismo es un software totalmente gratuito [de código abierto] (https://github.com/liberapay/liberapay.com) que se enfoca en donaciones recurrentes a proyectos de software. Estas donaciones recurrentes son importantes para la sostenibilidad a largo plazo de los proyectos. Otra característica interesante para los proyectos de software es la posibilidad de crear [equipos] (https://liberapay.com/about/teams) a los que los miembros del proyecto pueden unirse y luego dividir las donaciones de manera que todos establezcan la parte que él o ella quiere tomar."
+msgstr "Recientemente, F-Droid ha ganado el apoyo de [Liberapay](https://liberapay.com/), una plataforma de donación totalmente gratuita destinada a proyectos de software. Liberapay en sí mismo es un software totalmente gratuito [de código abierto](https://github.com/liberapay/liberapay.com) que se enfoca en donaciones recurrentes a proyectos de software. Estas donaciones recurrentes son importantes para la sostenibilidad a largo plazo de los proyectos. Otra característica interesante para los proyectos de software es la posibilidad de crear [equipos](https://liberapay.com/about/teams) a los que los miembros del proyecto pueden unirse y luego dividir las donaciones de manera que todos establezcan la parte que él o ella quiere tomar."
 
 #. type: Plain text
 #: build/_posts/md/2018-03-02-liberapay-support.md
@@ -1050,7 +1058,7 @@ msgid ""
 "  After about two month we are already receiving ~30€/week, making us currently\n"
 "  the third most funded [team](https://en.liberapay.com/explore/teams) on\n"
 "  Liberapay.\n"
-msgstr "* El  cliente de Android ahora muestra el widget de Liberapay : \n  <p align=\"center\"> 1\n   <img width=\"400\" src=\"{{ site.baseurl }}/assets/posts/2018-03-02-liberapay-support/liberapay-client-screenshot.png\" /> 2\n  </p> 3\n* El sitio web ahora incluye [todas las opciones de donación] ({{site.baseurl}} / 2018/03/01 / website-updates.html).\n* F-Droid tiene un [equipo Liberapay] (https://liberapay.com/F-Droid-Data).\n  Después de aproximadamente dos meses ya estamos recibiendo ~ 30 € / semana, lo que nos hace actualmente\n  el tercer [equipo] más financiado (https://en.liberapay.com/explore/teams) en\n  Liberapay.\n"
+msgstr "* El  cliente de Android ahora muestra el widget de Liberapay : \n  <p align=\"center\"> 1\n   <img width=\"400\" src=\"{{ site.baseurl }}/assets/posts/2018-03-02-liberapay-support/liberapay-client-screenshot.png\" /> 2\n  </p> 3\n* El sitio web ahora incluye [todas las opciones de donación]({{ site.baseurl }}/2018/03/01/website-updates.html).\n* F-Droid tiene un [equipo Liberapay](https://liberapay.com/F-Droid-Data).\n  Después de aproximadamente dos meses ya estamos recibiendo ~30€ por semana, lo que nos hace actualmente\n  el tercer [equipo] más financiado (https://en.liberapay.com/explore/teams) en\n  Liberapay.\n"
 
 #. type: Title ####
 #: build/_posts/md/2018-03-02-liberapay-support.md
@@ -1061,12 +1069,12 @@ msgstr "Siguientes pasos"
 #. type: Plain text
 #: build/_posts/md/2018-03-02-liberapay-support.md
 msgid "Liberapay is still a young and very small platform (remember, we became the third most funded team in two months ;-)) so it needs both more projects and more patrons. So spread the word and [ask your favourite](https://github.com/TeamNewPipe/NewPipe/issues/1153)  open source project if you can start giving them money through Liberapay."
-msgstr "Liberapay sigue siendo una plataforma joven y muy pequeña (recuerde, nos convertimos en el tercer equipo más financiado en dos meses ;-)) por lo que necesita tanto más proyectos como más clientes. Así que corra la voz y [pregunte a proyecto su favorito] (https://github.com/TeamNewPipe/NewPipe/issues/1153)  de código abierto si puede comenzar a darles dinero a través de Liberapay."
+msgstr "Liberapay sigue siendo una plataforma joven y muy pequeña (recuerde, nos convertimos en el tercer equipo más financiado en dos meses ;-)) por lo que necesita tanto más proyectos como más clientes. Así que corra la voz y [pregunte a proyecto su favorito](https://github.com/TeamNewPipe/NewPipe/issues/1153)  de código abierto si puede comenzar a darles dinero a través de Liberapay."
 
 #. type: Plain text
 #: build/_posts/md/2018-03-02-liberapay-support.md
 msgid "Do you know any app or developer with a Liberapay account that is not yet shown in F-Droid? Help us by adding it to the [apps metadata](https://gitlab.com/fdroid/fdroiddata)."
-msgstr "¿Conoces alguna aplicación o desarrollador con una cuenta de Liberapay que aún no se muestre en F-Droid? Ayúdenos agregándolo a [metadatos de aplicaciones] (https://gitlab.com/fdroid/fdroiddata)."
+msgstr "¿Conoces alguna aplicación o desarrollador con una cuenta de Liberapay que aún no se muestre en F-Droid? Ayúdenos agregándolo a [metadatos de aplicaciones](https://gitlab.com/fdroid/fdroiddata)."
 
 #. type: Plain text
 #: build/_posts/md/2018-03-02-liberapay-support.md
@@ -1074,4 +1082,4 @@ msgstr "¿Conoces alguna aplicación o desarrollador con una cuenta de Liberapay
 msgid ""
 "You can also fund the further development of Liberapay through Liberapay itself here:\n"
 "<a href=\"https://liberapay.com/Liberapay/\"><img src=\"{{ site.baseurl }}/assets/liberapay_donate_button.svg\" style=\"box-shadow: unset;\" /></a>\n"
-msgstr "También puede financiar el mayor desarrollo de Liberapay a través de Liberapay aquí:\n<a href=\"https://liberapay.com/Liberapay/\"> 1 <img src = \"{{site.baseurl}} / assets / liberapay_donate_button.svg\" style = \"box-shadow: unset;\" /> 2 </a> 3\n"
+msgstr "También puede financiar el mayor desarrollo de Liberapay a través de Liberapay aquí:\n<a href=\"https://liberapay.com/Liberapay/\"> 1 <img src = \"{{ site.baseurl }}/assets/liberapay_donate_button.svg\" style = \"box-shadow: unset;\" /> 2 </a> 3\n"
