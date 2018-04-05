@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-03-01 11:22+0100\n"
-"PO-Revision-Date: 2018-04-05 19:50+0000\n"
+"PO-Revision-Date: 2018-04-06 13:56+0000\n"
 "Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-docs/de/>\n"
 "Language: de\n"
@@ -600,7 +600,7 @@ msgstr ""
 #: build/_docs/md/Building_a_Signing_Server.md
 #, fuzzy
 msgid "Security cameras"
-msgstr "Sicherheitskameras"
+msgstr "Überwachungskameras"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Building_a_Signing_Server.md
@@ -842,9 +842,9 @@ msgstr "Der Name der Anwendung. Normalerweise sollte dieses Feld nicht vorhanden
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "7.7 Provides<a name=\"Provides\"></a>"
-msgstr "7.7 Unterstützt<a name=\"Provides\"></a>"
+msgstr "7.7 Bietet<a name=\"Provides\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -977,9 +977,8 @@ msgstr "7.14 Liberapay-ID<a name=\"LiberapayID\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy
 msgid "The project’s Liberapay (https://liberapay.com) ID, if it has one. This should be a numeric ID, such that (for example) https://liberapay.com/~xxxxx which redirects to your account page. Currently the numeric ID is not displayed on Liberapay’s site, but you can add /public.json behind your team page and get the value of id field in the JSON response."
-msgstr "Die Liberapay-ID (http://liberapay.com) des Projekts, wenn eine vorliegt. Sollte eine numerische ID sein, so dass (zum Beispiel) https://liberapay.com/~xxxxx direkt auf Ihre Kontenseite weiterleitet."
+msgstr "Die Liberapay-ID (http://liberapay.com) des Projekts, wenn eine vorliegt. Sollte eine numerische ID sein, so dass (zum Beispiel) https://liberapay.com/~xxxxx direkt auf Ihre Kontenseite weiterleitet. Derzeit wird die numerische ID nicht auf der Liberapay-Website angezeigt, aber Sie können /public.json hinter Ihrer Teamseite hinzufügen und den Wert des ID-Feldes in der JSON-Antwort erhalten."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1172,7 +1171,7 @@ msgstr "Die Option ‘git-svn‘ verbindet zu einem SVN-Repository und die URL w
 #: build/_docs/md/Build_Metadata_Reference.md
 #, fuzzy
 msgid "If the Repo Type is `srclib`, then you must specify the name of the according srclib .txt file. For example if `scrlibs/FooBar.txt` exist and you want to use this srclib, then you have to set Repo to `FooBar`."
-msgstr "Wenn der Repo-Typ `srclib` ist, muss der Name der entsprechenden ‘srclib‘-Textdatei angegeben werden. Existiert zum Beispiel `scrlibs/FooBar.txt` und soll diese ‘srclib‘ genutzt werden, muss Repo auf `FooBar` festgelegt werden."
+msgstr "Wenn der Repo-Typ `srclib` ist, müssen Sie den Namen der entsprechenden srclib.txt-Datei angeben. Wenn zum Beispiel `scrlibs/FooBar.txt` existiert und Sie diese srclib verwenden wollen, dann müssen Sie Repo auf `FooBar` setzen."
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1230,13 +1229,13 @@ msgstr "`disable=<message>`\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 ":   Disables this build, giving a reason why. (For backwards\n"
 "    compatibility, this can also be achieved by starting the commit ID\n"
 "    with ’!’)\n"
 msgstr ""
-":   Deaktiviert dieses Build, mit Angabe eines Grundes warum. (Aus Rückwärts-\n"
+":   Deaktiviert dieses Build und gibt einen Grund dafür an. (Aus Rückwärts-\n"
 "    Kompatibilitätsgründen kann dies auch durch Voranstellen eines ’!’ vor die Commit-ID\n"
 "    erzielt werden)\n"
 
