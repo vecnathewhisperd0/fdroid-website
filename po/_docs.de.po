@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-03-01 11:22+0100\n"
 "PO-Revision-Date: 2018-04-07 15:37+0000\n"
-"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
+"Last-Translator: anonymous <>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-docs/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -594,7 +594,7 @@ msgstr "Bei hochgefährdeten Signierschlüsseln ist die Anwendung mehrerer Schut
 #. type: Bullet: '* '
 #: build/_docs/md/Building_a_Signing_Server.md
 msgid "Restricted physical access to HSMs or smart cards"
-msgstr ""
+msgstr "Eingeschränkter physischer Zugriff auf HSMs oder Smart Cards"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Building_a_Signing_Server.md
@@ -609,7 +609,7 @@ msgstr "Wachleute vor Ort"
 #. type: Bullet: '* '
 #: build/_docs/md/Building_a_Signing_Server.md
 msgid "Visitor logging"
-msgstr ""
+msgstr "Besuchererfassung"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Building_a_Signing_Server.md
@@ -619,18 +619,18 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
 msgid "The signing server should be physically separate from the rest of the infrastructure.  And the logs, machine, and network should be periodically audited."
-msgstr ""
+msgstr "Der Server zum Signieren sollte physisch vom Rest der Infrastruktur abgetrennt sein.  Und Protokolle, Maschine und Netzwerk sollten regelmäßig geprüft werden."
 
 #. type: Title ##
 #: build/_docs/md/Building_a_Signing_Server.md
 #, no-wrap
 msgid "Difficult decisions"
-msgstr ""
+msgstr "Schwierige Entscheidungen"
 
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
 msgid "Ideally all of these practices would be put into place, but each of these security measures comes at a cost of difficulty, expense, and complexity.  They can also delay the process of getting regular updates out.  So there are risks of implementing too strict security policies, much like the risks of not implementing enough."
-msgstr ""
+msgstr "Im Idealfall kommen alle diese Praktiken zur Anwendung, allerdings haben alle diese Sicherheitsmaßnahmen ihren Preis hinsichtlich Erschwernis, Kosten und Umfang.  Sie können auch den Vorgang verzögern, regelmäßig Aktualisierungen bereitzustellen.  Somit ist die Gefahr, zu strenge Sicherheitsmethoden anzuwenden, genauso gegeben wie das Risiko, nicht genügend umzusetzen."
 
 #. type: Title #
 #: build/_docs/md/Build_Metadata_Reference.md
