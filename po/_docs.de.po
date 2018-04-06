@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-03-01 11:22+0100\n"
 "PO-Revision-Date: 2018-04-06 14:52+0000\n"
-"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
+"Last-Translator: anonymous <>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-docs/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -82,7 +82,7 @@ msgstr "Letztlich ist es nicht einmal nötig, die Instrumente _fastlane supply_ 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
 msgid "All the localized descriptions and graphics will automatically show up in the F-Droid repo once they are available in the source repo of a release that the repo builds.  For example, if these files are included in a _git_ repo's _master_ branch but not yet in a tagged release, they will not be included."
-msgstr ""
+msgstr "Alle lokalisierten Beschreibungen und Grafiken werden automatisch im F-Droid-Repo erscheinen, sobald sie im Quellrepo einer Version abrufbar sind, die das Repo herstellt.  Sind diese Dateien, zum Beispiel, in einem _git_ Repo _Master_-Zweig enthalten, aber noch nicht zur Veröffentlichung markiert, werden sie nicht aufgenommen werden."
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -506,7 +506,7 @@ msgstr "Für eine komplett automatisierte Konfiguration zur Signierung, muss der
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
 msgid "Ideally, this machine would only be accessible via Tor.  That hides the physical location of the server, and hides the traffic from network.  This makes it much harder attackers to find the actual machine to attack."
-msgstr ""
+msgstr "Im Idealfall wäre diese Maschine nur über Tor erreichbar. Das versteckt die physikalische Position des Servers und den Verkehr vom Netzwerk. Dies macht es deutlich schwerer für Angreifer, die tatsächliche Maschine zu attackieren."
 
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
