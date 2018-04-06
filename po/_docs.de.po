@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-03-01 11:22+0100\n"
-"PO-Revision-Date: 2018-04-06 14:06+0000\n"
+"PO-Revision-Date: 2018-04-06 14:52+0000\n"
 "Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-docs/de/>\n"
 "Language: de\n"
@@ -1086,7 +1086,7 @@ msgstr "Auf 4000 Zeichen begrenzt"
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "__Warning__: this overrides all Description entries [set in the app's source code](../All_About_Descriptions_Graphics_and_Screenshots)."
-msgstr "__Achtung__: Dies ist allen [im App-Quellcode festgelegten](../All_About_Descriptions_Graphics_and_Screenshots) Zusammenfassungen übergeordnet."
+msgstr "__Achtung__: Dies ist allen [im App-Quellcode festgelegten](../All_About_Descriptions_Graphics_and_Screenshots) Beschreibungen übergeordnet."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1103,7 +1103,7 @@ msgstr "7.19 Wartungsnotizen<a name=\"Maintainer-Notes\"></a>"
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "This is a multi-line field using the same rules and syntax as the description. It’s used to record notes for F-Droid maintainers to assist in maintaining and updating the application in the repository."
-msgstr "Ein mehrzeiliges Feld, das die selben Regeln und die selbe Syntax wie die Beschreibung verwendet. Es wird dazu genutzt Hinweise für die F-Droid-Maintainers zu vermerken, die sie bei der Pflege und Aktualisierung der Anwendung im Repository unterstützen."
+msgstr "Ein mehrzeiliges Feld, das dieselben Regeln und dieselbe Syntax wie die Beschreibung verwendet. Es wird dazu genutzt Hinweise für die F-Droid-Maintainers zu vermerken, die sie bei der Pflege und Aktualisierung der Anwendung im Repository unterstützen."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1324,6 +1324,9 @@ msgid ""
 "    buildserver VM is forcefully terminated.  The default is 7200\n"
 "    (2 hours); 0 means no limit.\n"
 msgstr ""
+":   Zeitliche Begrenzung für dieses Build (in Sekunden).  Nach Ablauf der Zeit\n"
+"    wird die Beendigung der Buildserver-VM erzwungen.  Standardwert ist 7200\n"
+"    (2 Stunden); 0 bedeutet ohne Begrenzung.\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1332,6 +1335,8 @@ msgid ""
 "    Limitation is applied only in server mode, i.e. when `fdroid build`\n"
 "    is invoked with the `--server` option.\n"
 msgstr ""
+"    Die Begrenzung wird nur im Servermodus angewandt, d. h. wenn `fdroid build`\n"
+"    mit der Option `--server` aufgerufen wird.\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1681,7 +1686,7 @@ msgstr "‘OSS JFrog’ - betrieben von den Leuten hinter jCenter. Der Schwerpun
 #. type: Bullet: '    -   '
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "‘JitPack.io’ - builds directly from Github repositories.  However, they do not provide any option to reproduce or verify the resulting binaries. Builds pre-release versions in some cases."
-msgstr ""
+msgstr "‘JitPack.io’ - erstellt Builds direkt aus Github-Repositories.  Sie bieten allerdings keine Optionen, die Ausgabebinärdateien zu reproduzieren oder verifizieren. Erstellt in manchen Fällen Builds von Pre-release-Versionen."
 
 #. type: Bullet: '    -   '
 #: build/_docs/md/Build_Metadata_Reference.md
