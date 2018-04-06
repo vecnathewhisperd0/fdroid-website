@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-03-01 11:22+0100\n"
 "PO-Revision-Date: 2018-04-06 15:02+0000\n"
-"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
+"Last-Translator: anonymous <>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-docs/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -511,18 +511,18 @@ msgstr "Im Idealfall wäre diese Maschine nur über Tor erreichbar. Dadurch blei
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
 msgid "For the HSM, we recommend using [Nitrokey](https://www.nitrokey.com/)  hardware, since they are free software/hardware, and provide a wide range of options.  Use a separate machine to put the signing keys on HSM.  A good HSM will keep an audit trail of how many signatures have been made, so that information could be used to create an automatic auditing process to raise alarms if too many signatures have been made.  That could mean that this server was breached and used to sign unauthorized packages."
-msgstr ""
+msgstr "Für das HSM, empfehlen wir die Nutzung von [Nitrokey](https://www.nitrokey.com/) -Hardware, da es sich um freie Software/Hardware handelt und weitgefächerte Einstellungsmöglichkeiten bietet.  Verwenden Sie eine abgetrennte Maschine, um die Signierschlüssel im HSM einzufügen.  Ein gutes HSM wird ein Buchungsprotokoll über die Zahl der erstellten Signaturen führen, dessen Informationen zur Schaffung eines automatischen Prüfprozesses genutzt werden können, um Warnungen bereitzustellen, falls zu viele Signaturen hergestellt wurden.  Das könnte nämlich bedeuten, dass dieser Server beschädigt und zur Signierung nicht autorisierter Pakete verwendet wurde."
 
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
 msgid "Other possibility it to use a setup like [Fedora](https://pagure.io/sigul)'s [Sigul](http://www.devops-blog.net/koji/gpg-signing-rpms-with-sigul-signing-server-koji-integration)  that involves three machines."
-msgstr ""
+msgstr "Eine andere Möglichkeit ist die Verwendung einer Konfiguration wie in [Fedora](https://pagure.io/sigul)'s [Sigul](http://www.devops-blog.net/koji/gpg-signing-rpms-with-sigul-signing-server-koji-integration) , das drei Rechner einbindet."
 
 #. type: Title ###
 #: build/_docs/md/Building_a_Signing_Server.md
 #, no-wrap
 msgid "Basic laptop dedicated to signing"
-msgstr ""
+msgstr "Basis-Laptop, das fest der Signierung zugeordnet ist"
 
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
@@ -589,7 +589,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
 msgid "For high risk signing keys, using multiple layers of defense is important:"
-msgstr ""
+msgstr "Für hochgefährdete Signierschlüssel ist die Verwendung mehrerer Verteidigungsebenen wichtig:"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Building_a_Signing_Server.md
