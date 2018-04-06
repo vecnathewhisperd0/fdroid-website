@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-03-01 11:22+0100\n"
 "PO-Revision-Date: 2018-04-06 13:56+0000\n"
-"Last-Translator: ssantos <ssantos@web.de>\n"
+"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-docs/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -755,7 +755,7 @@ msgstr "Der Name des Autors, ausgeschrieben, abgekürzt oder als Pseudonym. Wenn
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "__Warning__: this overrides all Author Name entries [set in the app's source code](../All_About_Descriptions_Graphics_and_Screenshots)."
-msgstr "__Achtung__: Es werden keinerlei [im App-Quellcode enthaltene](../All_About_Descriptions_Graphics_and_Screenshots) Autorennamen berücksichtigt."
+msgstr "__Achtung__: Dies ist allen [im App-Quellcode festgelegten](../All_About_Descriptions_Graphics_and_Screenshots) Namenseinträgen übergeordnet."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -777,7 +777,7 @@ msgstr "Die E-Mail-Adresse des Autors. Kann weggelassen werden (oder unausgefül
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "__Warning__: this overrides all Author Email entries [set in the app's source code](../All_About_Descriptions_Graphics_and_Screenshots)."
-msgstr "__Achtung__: Es werden keinerlei [im App-Quellcode enthaltene](../All_About_Descriptions_Graphics_and_Screenshots) Autoren-E-Mailadressen berücksichtigt."
+msgstr "__Achtung__: Dies ist allen [im App-Quellcode festgelegten](../All_About_Descriptions_Graphics_and_Screenshots) Namenseinträgen übergeordnet."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -821,7 +821,7 @@ msgstr "Der Name der Anwendung, wie er am besten aus dem Quelltext abgerufen wer
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "__Warning__: this overrides all Name entries [set in the app's source code](../All_About_Descriptions_Graphics_and_Screenshots)."
-msgstr "__Achtung__: Es werden keinerlei [im App-Quellcode enthaltene](../All_About_Descriptions_Graphics_and_Screenshots) Namenseinträge berücksichtigt."
+msgstr "__Achtung__: Dies ist allen [im App-Quellcode festgelegten](../All_About_Descriptions_Graphics_and_Screenshots) Namenseinträgen übergeordnet."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -849,7 +849,7 @@ msgstr "7.7 Bietet<a name=\"Provides\"></a>"
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "Comma-separated list of application IDs that this app provides. In other words, if the user has any of these apps installed, F-Droid will show this app as installed instead. It will also appear if the user clicks on urls linking to the other app IDs. Useful when an app switches package name, or when you want an app to act as multiple apps."
-msgstr "Komma-getrennte Liste der Anwendungs-IDs, die diese App mitbringt. In anderen Worten, hat der Anwender eine App mit einer dieser IDs installiert, wird F-Droid stattdessen diese App als installiert anzeigen. Sie wird auch erscheinen, wenn der Nutzer eine URL aufruft, die auf die anderen App-IDs verweist. Praktisch, wenn eine App den Paketnamen wechselt oder wenn eine App mehrfach auftreten soll."
+msgstr "Komma-getrennte Liste der Anwendungs-IDs, die diese App beliefert. In anderen Worten, hat der Anwender eine App mit irgendeiner dieser IDs installiert, wird F-Droid stattdessen diese App als installiert anzeigen. Sie wird auch erscheinen, wenn der Nutzer eine URL aufruft, die auf eine der anderen App-IDs verweist. Praktisch, wenn eine App den Paketnamen wechselt oder wenn eine App mehrfach auftreten soll."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
