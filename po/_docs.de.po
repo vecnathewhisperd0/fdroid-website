@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-03-01 11:22+0100\n"
-"PO-Revision-Date: 2018-04-06 13:56+0000\n"
+"PO-Revision-Date: 2018-04-06 14:06+0000\n"
 "Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-docs/de/>\n"
 "Language: de\n"
@@ -717,7 +717,7 @@ msgstr "Die folgenden Abschnitte beschreiben die in der Datei erkannten Felder."
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "- [Categories](#Categories)  - [Author Name](#Author-Name)  - [Author Email](#Author-Email)  - [License](#License)  - [Auto Name](#Auto-Name)  - [Name](#Name)  - [Provides](#Provides)  - [Web Site](#Web-Site)  - [Source Code](#Source-Code)  - [Issue Tracker](#Issue-Tracker)  - [Changelog](#Changelog)  - [Donate](#Donate)  - [FlattrID](#FlattrID)  - [LiberapayID](#LiberapayID)  - [Bitcoin](#Bitcoin)  - [Litecoin](#Litecoin)  - [Summary](#Summary)  - [Description](#Description)  - [Maintainer Notes](#Maintainer-Notes)  - [Repo Type](#Repo-Type)  - [Repo](#Repo)  - [Binaries](#Binaries)  - [Build](#Build)  - [AntiFeatures](#AntiFeatures)  - [Disabled](#Disabled)  - [Requires Root](#Requires-Root)  - [Archive Policy](#Archive-Policy)  - [Update Check Mode](#Update-Check-Mode)  - [Update Check Ignore](#Update-Check-Ignore)  - [Vercode Operation](#Vercode-Operation)  - [Update Check Name](#Update-Check-Name)  - [Update Check Data](#Update-Check-Data)  - [Auto Update Mode](#Auto-Update-Mode)  - [Current Version](#Current-Version)  - [Current Version Code](#Current-Version-Code)  - [No Source Since](#No-Source-Since)"
-msgstr "- [Kategorien](#Categories)  - [Autorenname](#Author-Name)  - [Autoren-E-Mail](#Author-Email)  - [Lizenz](#License)  - [Automatischer Name](#Auto-Name)  - [Name](#Name)  - [Unterstützt](#Provides)  - [Internetseite](#Web-Site)  - [Quelltext](#Source-Code)  - [Issue Tracker](#Issue-Tracker)  - [Änderungsprotokoll](#Changelog)  - [Spenden](#Donate)  - [Flattr-ID](#FlattrID)  - [Liberapay-ID](#LiberapayID)  - [Bitcoin](#Bitcoin)  - [Litecoin](#Litecoin)  - [Zusammenfassung](#Summary)  - [Beschreibung](#Description)  - [Wartungsnotizen](#Maintainer-Notes)  - [Repo-Typ](#Repo-Type)  - [Repo](#Repo)  - [Binärdateien](#Binaries)  - [Build](#Build)  - [Problematische Merkmale](#AntiFeatures)  - [Gesperrt](#Disabled)  - [Erfordert Root](#Requires-Root)  - [Archivierrichtlinie](#Archive-Policy)  - [Aktualisierungsmethode](#Update-Check-Mode)  - [Ausnahme bei Aktualisierungsprüfung](#Update-Check-Ignore)  - [Versionscode-Operation](#Vercode-Operation)  - [Name für Aktualisierungsprüfung](#Update-Check-Name)  - [Daten zur Aktualisierungsprüfung](#Update-Check-Data)  - [Automatische Aktualisierungsmethode](#Auto-Update-Mode)  - [Aktuelle Version](#Current-Version)  - [Aktueller Versionscode](#Current-Version-Code)  - [Keine Quelle seit](#No-Source-Since)"
+msgstr "- [Kategorien](#Categories)  - [Autorenname](#Author-Name)  - [Autoren-E-Mail](#Author-Email)  - [Lizenz](#License)  - [Automatischer Name](#Auto-Name)  - [Name](#Name)  - [Beliefert](#Provides)  - [Internetseite](#Web-Site)  - [Quelltext](#Source-Code)  - [Issue Tracker](#Issue-Tracker)  - [Änderungsprotokoll](#Changelog)  - [Spenden](#Donate)  - [Flattr-ID](#FlattrID)  - [Liberapay-ID](#LiberapayID)  - [Bitcoin](#Bitcoin)  - [Litecoin](#Litecoin)  - [Zusammenfassung](#Summary)  - [Beschreibung](#Description)  - [Wartungsnotizen](#Maintainer-Notes)  - [Repo-Typ](#Repo-Type)  - [Repo](#Repo)  - [Binärdateien](#Binaries)  - [Build](#Build)  - [Problematische Merkmale](#AntiFeatures)  - [Gesperrt](#Disabled)  - [Erfordert Root](#Requires-Root)  - [Archivierrichtlinie](#Archive-Policy)  - [Aktualisierungsmethode](#Update-Check-Mode)  - [Ausnahme bei Aktualisierungsprüfung](#Update-Check-Ignore)  - [Versionscode-Operation](#Vercode-Operation)  - [Name für Aktualisierungsprüfung](#Update-Check-Name)  - [Daten zur Aktualisierungsprüfung](#Update-Check-Data)  - [Automatische Aktualisierungsmethode](#Auto-Update-Mode)  - [Aktuelle Version](#Current-Version)  - [Aktueller Versionscode](#Current-Version-Code)  - [Keine Quelle seit](#No-Source-Since)"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -844,7 +844,7 @@ msgstr "Der Name der Anwendung. Normalerweise sollte dieses Feld nicht vorhanden
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.7 Provides<a name=\"Provides\"></a>"
-msgstr "7.7 Bietet<a name=\"Provides\"></a>"
+msgstr "7.7 Beliefert<a name=\"Provides\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -900,7 +900,7 @@ msgstr "Umwandlung zu (`<source>`) in der XML-Datei (_index.xml_).\n"
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.10 Issue Tracker<a name=\"Issue-Tracker\"></a>"
-msgstr "7.10 Fehlerverfolgung<a name=\"Fehlerverfolgung\"></a>"
+msgstr "7.10 Fehlerverfolgung<a name=\"Issue-Tracker\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1034,7 +1034,7 @@ msgstr "Eine Kurzbeschreibung, um was es bei der Anwendung geht. Da die Zusammen
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "__Warning__: this overrides all Summary entries [set in the app's source code](../All_About_Descriptions_Graphics_and_Screenshots)."
-msgstr "__Achtung__: Es werden keinerlei [im App-Quellcode enthaltene](../All_About_Descriptions_Graphics_and_Screenshots) Zusammenfassungen berücksichtigt."
+msgstr "__Achtung__: Dies ist allen [im App-Quellcode festgelegten](../All_About_Descriptions_Graphics_and_Screenshots) Zusammenfassungen übergeordnet."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1086,7 +1086,7 @@ msgstr "Auf 4000 Zeichen begrenzt"
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "__Warning__: this overrides all Description entries [set in the app's source code](../All_About_Descriptions_Graphics_and_Screenshots)."
-msgstr "__Achtung__: Es werden keinerlei [im App-Quellcode enthaltene](../All_About_Descriptions_Graphics_and_Screenshots) Beschreibungen berücksichtigt."
+msgstr "__Achtung__: Dies ist allen [im App-Quellcode festgelegten](../All_About_Descriptions_Graphics_and_Screenshots) Zusammenfassungen übergeordnet."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
