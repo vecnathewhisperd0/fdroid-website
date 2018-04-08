@@ -83,24 +83,24 @@ by `fdroid update`.
               ├── short_description.txt
               ├── title.txt
               ├── video.txt
-              ├── images/
-              │   ├── featureGraphic.png
-              │   ├── icon.png
-              │   ├── promoGraphic.png
-              │   └── tvBanner.png
               ├── changelogs/
               │   ├── <version-code>.txt
               │   └── <version-code>.txt
-              ├── phoneScreenshots/
-              │   └── *.png
-              ├── sevenInchScreenshots/
-              │   └── *.png
-              ├── tenInchScreenshots/
-              │   └── *.png
-              ├── tvScreenshots/
-              │   └── *.png
-              └── wearScreenshots/
-                  └── *.png
+              └── images/
+                  ├── featureGraphic.png
+                  ├── icon.png
+                  ├── promoGraphic.png
+                  ├── tvBanner.png
+                  ├── phoneScreenshots/
+                  │   └── *.png
+                  ├── sevenInchScreenshots/
+                  │   └── *.png
+                  ├── tenInchScreenshots/
+                  │   └── *.png
+                  ├── tvScreenshots/
+                  │   └── *.png
+                  └── wearScreenshots/
+                      └── *.png
 ```
 
 Example:
