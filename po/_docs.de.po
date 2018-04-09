@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-03-01 11:22+0100\n"
-"PO-Revision-Date: 2018-04-07 15:37+0000\n"
-"Last-Translator: anonymous <>\n"
+"PO-Revision-Date: 2018-04-10 14:36+0000\n"
+"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-docs/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -2142,7 +2142,7 @@ msgstr "‘UpstreamNonFree’ - die Anwendung ist unfreie Software oder beruht a
 #. type: Bullet: '-   '
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "‘NonFreeAssets’ - the application contains and makes use of non-free assets. The most common case is apps using artwork - images, sounds, music, etc - under a non-commercial license."
-msgstr "‘NonFreeAssets’ - die Anwendung enthält oder gebraucht unfreien Besitz. Der gebräuchlichste Fall ist, dass Apps Kunst - Bilder, Klänge, Musik usw. - verwenden, die einer nicht kommerziellen Lizenz unterliegt."
+msgstr "‘NonFreeAssets’ - die Anwendung enthält oder bedient sich unfreier Medieninhalte. Der gebräuchlichste Fall ist, dass Apps Kunst - Bilder, Klänge, Musik usw. - verwenden, die einer nicht kommerziellen Lizenz unterliegt."
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Build_Metadata_Reference.md
