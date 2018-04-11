@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-03-01 11:22+0100\n"
-"PO-Revision-Date: 2018-04-10 14:36+0000\n"
+"PO-Revision-Date: 2018-04-11 21:24+0000\n"
 "Last-Translator: anonymous <>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-docs/de/>\n"
 "Language: de\n"
@@ -532,7 +532,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
 msgid "This could be made quite automatic with some custom scripts.  The person running the process would only need to take out the machine, connect it, turn it on, wait until the process completes, then put it all away again."
-msgstr ""
+msgstr "Mit einigen angepassten Skripten könnte dies ganz automatisch durchgeführt werden.  Die Person, die den Vorgang ausführt, müsste sich lediglich die Maschine greifen, sie einschalten, verbinden, auf den Abschluss des Vorgangs warten und sie dann wieder beiseitestellen."
 
 #. type: Title ###
 #: build/_docs/md/Building_a_Signing_Server.md
