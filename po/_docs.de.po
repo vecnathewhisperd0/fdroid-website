@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-03-01 11:22+0100\n"
-"PO-Revision-Date: 2018-04-11 21:24+0000\n"
-"Last-Translator: anonymous <>\n"
+"PO-Revision-Date: 2018-04-12 14:56+0000\n"
+"Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-docs/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.20\n"
+"X-Generator: Weblate 3.0-dev\n"
 
 #. type: Title #
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -532,13 +532,13 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
 msgid "This could be made quite automatic with some custom scripts.  The person running the process would only need to take out the machine, connect it, turn it on, wait until the process completes, then put it all away again."
-msgstr "Mit einigen angepassten Skripten könnte dies ganz automatisch durchgeführt werden.  Die Person, die den Vorgang ausführt, müsste sich lediglich die Maschine greifen, sie einschalten, verbinden, auf den Abschluss des Vorgangs warten und sie dann wieder beiseitestellen."
+msgstr "Mit einigen angepassten Skripten könnte dies ganz automatisch durchgeführt werden.  Die Person, die den Vorgang ausführt, müsste sich lediglich die Maschine nehmen, sie einschalten, verbinden, auf den Abschluss des Vorgangs warten und sie dann wieder beiseitestellen."
 
 #. type: Title ###
 #: build/_docs/md/Building_a_Signing_Server.md
 #, no-wrap
 msgid "Fully offline signing laptop with USB thumb drives"
-msgstr ""
+msgstr "Vollständig offline Signaturlaptop mit USB-Sticks"
 
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
