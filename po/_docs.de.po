@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-03-01 11:22+0100\n"
 "PO-Revision-Date: 2018-04-12 15:04+0000\n"
-"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
+"Last-Translator: anonymous <>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-docs/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -3605,12 +3605,12 @@ msgstr "Ja. Mit Ausnahme sehr weniger (technisch oder historisch begründeter) F
 #: build/_docs/md/FAQ_-_App_Developers.md
 #, no-wrap
 msgid "What about versioning?"
-msgstr ""
+msgstr "Wie sieht die Versionierung aus?"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md
 msgid "Android is aware of two version information, the versionName (a user-facing string) and the versionCode (an integer that gets compared to determine what actually IS an update). For additional information, please see the [Android Developer Documentation](https://developer.android.com/studio/publish/versioning.html).  Please make sure not to have contradicting information (e.g. mismatching _AndroidManifest.xml_ and build.gradle)."
-msgstr ""
+msgstr "Android kennt zwei Versionsinformationen, den VersionsNamen (eine auf den Anwender ausgerichteter Begriff) und den VersionsCode (eine Ganzzahl, die zum Vergleich herangezogen wird, um zu bestimmen, was IST eigentlich eine Aktualisierung). Weitere Information dazu finden Sie in der [Android Developer Documentation](https://developer.android.com/studio/publish/versioning.html).  Vergewissern Sie sich, keine widersprüchlichen Informationen bereitzustellen (z. B. eine Diskrepanz zwischen _AndroidManifest.xml_ und build.gradle)."
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md
