@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-03-01 11:22+0100\n"
 "PO-Revision-Date: 2018-04-12 15:07+0000\n"
-"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
+"Last-Translator: anonymous <>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-docs/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -3615,7 +3615,7 @@ msgstr "Android kennt zwei Versionsinformationen, den VersionsNamen (eine auf de
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md
 msgid "We try to build only what you would consider to be releases. These should have matching version names and, more importantly, matching version codes to releases you build yourself, and be built from the same code. Obviously this task is easier if your source code history is clear - for example, if releases are tagged or otherwise labeled. If you tag release, please ensure you keep the same tagging scheme, e.g. if you start using a \"v\" prefix, keep using that."
-msgstr ""
+msgstr "Wir versuchen, nur das herzustellen, was Sie als zur Veröffentlichung bestimmte Versionen betrachten. Diese sollten zu den Versionen, die Sie selbst herstellen und die aus demselben Code hergestellt werden, passende Versionsnamen und, noch wichtiger, passende Versionscodes besitzen. Diese Aufgabe fällt deutlich leichter, wenn Ihre Quellcodeentwicklung klar ist - zum Beispiel, wenn zu veröffentlichende Versionen durch Tags oder anderweitige Beschreibungen gekennzeichnet sind. Wenn Sie die Veröffentlichung kennzeichnen, stellen Sie bitte sicher, dass das Schema dafür dasselbe bleibt, z. B. wenn Sie ein \"v\" als Präfix verwenden, behalten Sie das bei."
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md
