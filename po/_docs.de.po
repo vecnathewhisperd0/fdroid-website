@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-03-01 11:22+0100\n"
 "PO-Revision-Date: 2018-04-12 14:59+0000\n"
-"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
+"Last-Translator: anonymous <>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-docs/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -3515,7 +3515,7 @@ msgstr "Überprüfen Sie die [Aufnahmekriterien](../Inclusion_Policy), um sicher
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md
 msgid "You can also [set up your own repo](#Can_I_run_my_own_app_repo)  and distribute apps yourself, outside of the F-Droid.org repo."
-msgstr ""
+msgstr "Sie können auch [Ihr eigenes Repo einrichten](#Can_I_run_my_own_app_repo)  und Apps selbst, außerhalb des F-Droid.org-Repos herausgeben."
 
 #. type: Title ###
 #: build/_docs/md/FAQ_-_App_Developers.md
@@ -3526,7 +3526,7 @@ msgstr "Wie ändere ich die Beschreibung und füge Meta-Informationen wie Bildsc
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md
 msgid "There are three locations we pull metadata from:"
-msgstr ""
+msgstr "Es gibt drei Orte, von denen wir Metadaten beziehen:"
 
 #. type: Bullet: '* '
 #: build/_docs/md/FAQ_-_App_Developers.md
@@ -3562,7 +3562,7 @@ msgstr "Wie lizenziere ich meine App?"
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md
 msgid "There are, broadly, two categories: copyleft and permissive, with the GPLv3 and the Apachev2 being the most popular respectively. Choose the former if you insist that derivatives have the same licence and the latter if you permit any kind of re-use."
-msgstr ""
+msgstr "Allgemein gibt es zwei Kategorien: Copyleft und freizügig, mit der GPLv3 und der Apachev2 als jeweils beliebtesten Vertreter. Entscheiden Sie sich für Erstere, wenn Sie darauf bestehen, dass Derivate dieselbe Lizenz besitzen, und für Letztere, wenn Sie jede Art der Wiederverwendung gestatten. "
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md
