@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-03-01 11:22+0100\n"
 "PO-Revision-Date: 2018-04-12 14:56+0000\n"
-"Last-Translator: anonymous <>\n"
+"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-docs/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -295,7 +295,7 @@ msgstr "Der ’Quellcode’ enthält Binärdateien unbekannter Herkunft oder mit
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md
 msgid "For this reason, source-built applications are the preferred method for the main F-Droid repository, although occasionally for technical or historical reasons, exceptions are made to this policy."
-msgstr "Aus diesen Gründen werden für das F-Droid-Hauptrepository originalerstellte Anwendungen bevorzugt, wenngleich gelegentlich, aus technischen oder historischen Gründen, Ausnahmen von diesem Grundsatz gemacht werden."
+msgstr "Aus diesen Gründen werden für das F-Droid-Hauptrepository aus dem Quellcode erstellte Anwendungen bevorzugt, wenngleich gelegentlich, aus technischen oder historischen Gründen, Ausnahmen von diesem Grundsatz gemacht werden."
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md
@@ -2197,7 +2197,7 @@ msgstr "7.26 Archivierrichtlinie<a name=\"Archive-Policy\"></a>"
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "This determines the policy for moving old versions of an app to the archive repo, if one is configured. The configuration sets a default maximum number of versions kept in the main repo, after which older ones are moved to the archive. This app-specific policy setting can override that."
-msgstr "Legt die Richtlinien fest, nach der alte Versionen einer App ins Archiv-Repo verschoben werden, wenn eines  eingerichtet ist. Die Konfiguration legt den Standardwert für die maximale Anzahl von im Haupt-Repo aufbewahrten Versionen fest, nach dem ältere Versionen ins Archiv verschoben werden. Diese app-spezifische Richtlinieneinstellung kann diesen Wert überschreiben."
+msgstr "Legt die Richtlinien fest, nach der alte Versionen einer App ins Archiv-Repo verschoben werden, wenn eines  eingerichtet ist. Die Konfiguration legt den Standardwert für die maximale Anzahl von im Haupt-Repo aufbewahrten Versionen fest, nach dem ältere Versionen ins Archiv verschoben werden. Diese app-spezifische Richtlinienfestlegung kann den Wert überschreiben."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -3567,7 +3567,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md
 msgid "The overall licence must be compatible with the licence of the components. However we will grant some flexibility when it comes to assets and resources; so if you have, for example, some music under a Creative Commons non-commercial licence (i.e. a non-free licence), then we will accept it. The important thing is to include copyright info for assets as well as source code, in the file headers and/or the readme. A copy of the licences in the root of the repo is helpful (LICENSE or COPYING files). Also make a note of the copyright and licenses pertaining to external resources or programs and if it does connect to a free service, consider using the Affero GPL. See the [Inclusion Policy](../Inclusion_Policy) for more."
-msgstr "Die Gesamtlizenz muss mit der Lizenz der Komponenten kompatibel sein. Wir garantieren jedoch ein gewisses Maß an Flexibilität, was Medieninhalte und Ressourcen betrifft; wenn Sie also, zum Beispiel Musik unter einer nicht kommerziellen (d. h. nicht freien) Creative Commons-Lizenz haben, werden wir das akzeptieren. Wichtig ist dabei, die Copyright-Informationen für die Medieninhalte genauso wie den Quellcode in die Dateikopfdaten und/oder die Readme-Datei einzuschließen. Eine Kopie der Lizenzen im Wurzelverzeichnis des Repo ist hierfür praktisch (LICENSE oder COPYING Dateien). Erstellen Sie auch einen Vermerk zu Urheberrecht und Lizenzen, die zu externen Ressourcen oder Programmen gehören, und bei Verbindung mit einem freien Dienst, berücksichtigen Sie die Verwendung der Affero GPL. Siehe auch [Aufnahmerichtlinien](../Inclusion_Policy)."
+msgstr "Die Gesamtlizenz muss mit der Lizenz der Komponenten kompatibel sein. Wir garantieren jedoch ein gewisses Maß an Flexibilität, was Medieninhalte und Ressourcen betrifft; wenn Sie also, zum Beispiel Musik unter einer nicht kommerziellen (d. h. nicht freien) Creative Commons-Lizenz haben, werden wir das akzeptieren. Wichtig ist dabei, die Copyright-Informationen für die Medieninhalte genauso wie den Quellcode in die Dateikopfdaten und/oder die Readme-Datei einzuschließen. Eine Kopie der Lizenzen im Wurzelverzeichnis des Repo ist hierfür praktisch (LICENSE oder COPYING Dateien). Erstellen Sie auch einen Vermerk zu Urheberrecht und Lizenzen, die zu externen Ressourcen oder Programmen gehören, und bei Verbindung mit einem freien Dienst, berücksichtigen Sie die Verwendung der Affero GPL. Siehe auch [Aufnahmekriterien](../Inclusion_Policy)."
 
 #. type: Title ###
 #: build/_docs/md/FAQ_-_App_Developers.md
