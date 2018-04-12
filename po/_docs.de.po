@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-03-01 11:22+0100\n"
 "PO-Revision-Date: 2018-04-12 15:01+0000\n"
-"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
+"Last-Translator: anonymous <>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-docs/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -3594,12 +3594,12 @@ msgstr "Wenn Ihre App in unserem Repo ist und irgendeine der o. g. Informationen
 #: build/_docs/md/FAQ_-_App_Developers.md
 #, no-wrap
 msgid "Will my app be built from source?"
-msgstr ""
+msgstr "Wird meine App aus der Quelle hergestellt werden?"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md
 msgid "Yes. In all but a very few cases (for technical or historical reasons), we build all applications directly from the source code. This guarantees that the source code is available for the version people have installed.  While we're not suggesting that *your* source code is incomplete, not published or out of date, this happens a lot."
-msgstr ""
+msgstr "Ja. Mit Ausnahme sehr weniger (technisch der historisch begründeter) Fälle, erstellen wir alle Anwendungen direkt nach dem Quellcode. Das gewährleistet die Abrufbarkeit des Quellcodes für die Version, die die Leute installieren.  Obwohl wir davon abraten, dass *Ihr* Quellcode unvollständig, nicht öffentlich oder veraltet ist, kommt dies häufig vor."
 
 #. type: Title ###
 #: build/_docs/md/FAQ_-_App_Developers.md
