@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-03-01 11:22+0100\n"
 "PO-Revision-Date: 2018-04-14 22:10+0000\n"
-"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
+"Last-Translator: anonymous <>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-docs/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -3847,12 +3847,12 @@ msgstr "Wie kann ich meine App entfernen?"
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md
 msgid "Ok, this isn't a frequently asked question, but: To get your app removed, you could use a license for future versions that prohibits anyone from distributing it, or you could introduce proprietary binaries into your source code. Both of those things will ensure that those future versions do not appear in our repository, but you would have to go a lot further (e.g. serious security flaws in the previous versions, combined with unpublished source code and an uncooperative attitude) for us to actually remove the whole application."
-msgstr ""
+msgstr "Ok, das ist keine häufig gestellte Frage, aber: Damit Ihre App entfernt wird, könnten Sie für zukünftige Versionen eine Lizenz verwenden, die jedem verbietet, sie zu verbreiten, oder Sie könnten in Ihren Quellcode proprietäre Binärdateien einfügen. Beides wird dafür sorgen, dass jene zukünftigen Versionen nicht in unserem Repository erscheinen, aber Sie müssten noch ein ganzes Stück weitergehen (z. B. Sicherheitsmängel in vorherigen Versionen, in Kombination mit unveröffentlichtem Quellcode und einem unkooperativen Verhalten), damit wir tatsächlich die ganze Anwendung entfernen."
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md
 msgid "If, for whatever reason, you would simply prefer us not to distribute the app then we can only apologise. You deserve respect for your work which you've released under a Free Software license, and it wouldn't be pleasant for us to have to go against your wishes. However, the alternative is for us to deny use of the software to all our users."
-msgstr ""
+msgstr "Wenn Sie, aus welchen Gründen auch immer, es lieber sehen würden, dass nicht wir die App verteilen, dann tut uns das sehr leid. Sie verdienen Anerkennung für Ihre Arbeit, die Sie unter einer Freien Software-Lizenz veröffentlichen, und es wäre unangemessen von uns, gegen Ihre Wünsche vorzugehen. Die Konsequenz ist allerdings, dass wir all unseren Nutzern die Verwendung der Software verweigern."
 
 #. type: Title ###
 #: build/_docs/md/FAQ_-_App_Developers.md
@@ -3863,7 +3863,7 @@ msgstr "Ich finde in den großen App-Stores Apps, die augenscheinlich Kopien sin
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md
 msgid "Firstly, it depends on the license: unless you apply a copyleft licence like the GPLv3, other people can do whatever they like with the source code (though they may be required to rebrand it). If your app is GPLv3 and no source code is published by the plagiarists; their versions obviously include proprietary ad libraries, or any sign of your authorship was simply removed, those copies are breaking the law and you should [demand Google](https://www.google.com/android_dmca.html) to remove them from their app store. You may threaten them with DMCA or other local laws if you wish. If all else fails, before going proprietary, balance the loss and confusion to the users and maintainers of the free app against the feeling of justice that you'll get by seeing those illegal clones lose the few cents in ad revenue that they would have got. In the longer run we want to improve donations via F-Droid so you can be supported financially and we already support Bitecoin, Litecoin, Flattr and Liberapay as well as any other payment method that you can suggest via a website."
-msgstr ""
+msgstr "Zunächst einmal hängt es von der Lizenz ab: solange Sie keine Copyleft-Lizenz, wie die GPLv3, anwenden, können andere Menschen alles mit dem Quellcode anstellen, was sie möchten (obgleich sie verpflichtet werden können, es zu kennzeichnen). Unterliegt Ihre App einer GPLv3 und es wird von den Plagiatoren kein Quellcode veröffentlicht, enthalten ihre Versionen offenkundig proprietäre Werbe-Bibliotheken oder wurden alle Zeichen Ihrer Urheberschaft einfach entfernt, dann verstoßen diese Kopien gegen das Gesetz und Sie sollten [Google auffordern](https://www.google.com/android_dmca.html), sie unverzüglich aus ihrem App-Store zu streichen. Wenn Sie möchten, können Sie ihnen eine Klage aufgrund eines Verstoßes gegen den DMCA oder andere Landesgesetze androhen. Wenn das alles nichts hilft, bevor Sie proprietär werden, wiegen Sie den Verlust und die Bestürzung der Anwender und Verfechter der freien App gegen das Gefühl nach Gerechtigkeit auf, das Sie erreichen werden, wenn Sie sehen, wie diese illegalen Klone die paar Cents an Werbeeinnahmen verlieren, die sie erhalten hätten. Auf lange Sicht wollen wir die Spenden über F-Droid so verbessern, dass Sie finanziell unterstützt werden können und wir bieten jetzt schon Bitcoin, Litecoin, Flattr and Liberapay, sowie weitere Zahlungsmethoden, die Sie über eine Internetseite anbieten können."
 
 #. type: Title ###
 #: build/_docs/md/FAQ_-_App_Developers.md
