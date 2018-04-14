@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-03-01 11:22+0100\n"
-"PO-Revision-Date: 2018-04-13 15:37+0000\n"
+"PO-Revision-Date: 2018-04-14 22:10+0000\n"
 "Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-docs/de/>\n"
 "Language: de\n"
@@ -3652,7 +3652,7 @@ msgstr "Ich habe eine neue Version veröffentlicht. Warum ist sie nicht im Repos
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md
 msgid "When we detect a new release, it may take a few days to make it into the repository as the build process runs only once a day. Before the build has completed, the wiki page for your app will list it in [:Category:Apps to Update](https://f-droid.org/wiki/page/:Category:Apps_to_Update). As long as the text under *Versions* stating \"The current (recommended) version is *xxx* (version code *yyy*)\" shows the version numbers corresponding to your latest release, we detected it and the APK should be available soon. Just give it some time."
-msgstr "Wenn wir eine neue Version entdecken, kann es einige Tage dauern, um sie im Repository einzufügen, da der Herstellungsprozess nur einmal am Tag läuft. Vor Abschluss des Build wird sie auf der Wiki-Seite Ihrer App in [:Category:Apps to Update](https://f-droid.org/wiki/page/:Category:Apps_to_Update) gelistet. Sobald der Text unter *Versionen* mit der Aussage \"Die aktuelle (empfohlene) Version ist *xxx* (Versionscode *yyy*)\" die Versionsnummern anzeigt, die Ihrer neusten Version entsprechen, wurde sie erfasst und die APK sollte in Kürze abrufbar sein. Haben Sie einfach etwas Geduld."
+msgstr "Wenn wir eine neue Version entdecken, kann es einige Tage dauern, um sie im Repository einzufügen, da der Herstellungsprozess nur einmal am Tag läuft. Vor Abschluss des Build wird sie auf der Wiki-Seite Ihrer App in [:Category:Apps to Update](https://f-droid.org/wiki/page/:Category:Apps_to_Update) gelistet. Sobald der Text unter *Versionen* mit der Aussage \"Die aktuelle (empfohlene) Version ist *xxx* (Versionscode *yyy*)\" die Versionsnummer anzeigt, die Ihrer neusten Version entspricht, wurde sie erfasst und die APK sollte in Kürze abrufbar sein. Haben Sie einfach etwas Geduld."
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md
