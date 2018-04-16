@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-03-01 11:22+0100\n"
 "PO-Revision-Date: 2018-04-17 15:37+0000\n"
-"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
+"Last-Translator: anonymous <>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-docs/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -3631,17 +3631,17 @@ msgstr "Muss ich Aktualisierungen bei Euch ankündigen?"
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md
 msgid "We will [detect](../Build_Metadata_Reference#Update-Check-Mode) new releases of your app and update our metadata accordingly, which will then cause us to check the code and add new builds to our system. Tags help greatly for adding new versions, but do remember to push the tags to the origin repo each time. Of course, if you move source code to a different website, you should tell us. There are currently some issues around detecting new versions when the _AndroidManifest.xml_ is moved so if there is some urgency, you can let us know if that happens."
-msgstr ""
+msgstr "Wir werden neue Versionen Ihrer App [ermitteln](../Build_Metadata_Reference#Update-Check-Mode) und unsere Metadaten entsprechend aktualisieren, was dann wiederum die Prüfung des Codes und das Hinzufügen neuer Builds in unser System auslösen wird. Tags sind eine große Hilfe, um neue Versionen hinzuzufügen, vergessen Sie also nicht, jedes Mal die Tags ins Originalrepo einzutragen.  Natürlich sollten Sie uns mitteilen, wenn Sie den Quellcode auf eine andere Website verschieben. Es gibt momentan einige Probleme bei der Bestimmung neuer Versionen, wenn _AndroidManifest.xml_ verschoben wird, in dringenden Fällen sollten Sie uns darüber informieren, dass das geschehen ist."
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md
 msgid "Some app developers submit merge requests to us with all the relevant build data when they release. You don't need to do this, but it can speed things up. Historically, as a small community project, we have been slower to process updates than we'd like to be, but this situation is improving all the time."
-msgstr ""
+msgstr "Einige App-Entwickler senden Merge-Anträge mit allen relevanten Daten zum Build an uns ein, wenn sie Versionen veröffentlichen. Das ist nicht nötig, aber es kann die Angelegenheit beschleunigen. Aufgrund unserer Geschichte als kleines Community-Projekt sind wir in der Verarbeitung von Updates oftmals langsamer als wir es gerne wären, aber diese Situation verbessert sich kontinuierlich."
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md
 msgid "Our update checks are dumb and just scrape build files: We do not run any build code, so do not use time-based versioning or any other sort of calculating your version at build time (e.g. moving them to multiple subversions that get concatenated at build or even having complex function calls to do this)."
-msgstr ""
+msgstr "Unsere Aktualisierungsprüfungen sind stupid und kratzen lediglich Build-Dateien heraus: Bei uns läuft kein Build-Code, verwenden Sie also keine zeitgestützte Versionierung oder irgendeine Form der Berechnung einer Versionsinformation zum Herstellungszeitpunkt (z. B. durch Aufteilung in mehrere Unterversionen, die beim Build verkettet werden, oder sogar durch Einschluss komplexer Funktionsaufrufe, die das tun sollen)."
 
 #. type: Title ###
 #: build/_docs/md/FAQ_-_App_Developers.md
@@ -3815,7 +3815,7 @@ msgstr "Sind Google's SDK und Programmbibliotheken keine Free & Open Source Soft
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md
 msgid "While much of Android is free open source software, much of it is not at all.  The Android SDK binaries is made available by Google under a proprietary license but almost all of the source code for the Android SDK is available under the Apache license.  Google APIs, used for building apps using Google Services like Maps, GCM, etc, are free to the extent that the library comes pre-installed on the device.  Almost all of the Google libraries, like Play Services, Google Admob, and GCM, are proprietary and cannot be included in the main F-Droid repository."
-msgstr ""
+msgstr "Obwohl viel in Android Free & Open Source Software ist, gilt das für vieles überhaupt nicht.  Die Android-SDK-Binärdateien werden von Google unter einer proprietären Lizenz zur Verfügung gestellt, aber fast der gesamte Quellcode für das Android-SDK ist unter der Apache-Lizenz abrufbar.  APIs von Google, die zur Herstellung von Apps verwendet werden, die Google-Dienste wie Maps, GCM, usw. nutzen, sind dahingehend frei erhältlich, dass die Programmbibliotheken auf dem Gerät bereits vorinstalliert sind.  Fast alle Google-Bibliotheken, wie Play Services, Google Admob und GCM, sind aber proprietär und können nicht in das F-Droid-Hauptrepository aufgenommen werden."
 
 #. type: Title ###
 #: build/_docs/md/FAQ_-_App_Developers.md
