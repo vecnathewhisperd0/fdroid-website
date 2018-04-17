@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-03-05 21:04+0100\n"
-"PO-Revision-Date: 2018-02-03 13:38+0000\n"
+"PO-Revision-Date: 2018-04-18 18:39+0000\n"
 "Last-Translator: Myeongjin Lee <aranet100@gmail.com>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/f-droid/website-docs/ko/>\n"
 "Language: ko\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2.19-dev\n"
+"X-Generator: Weblate 3.0-dev\n"
 
 #. type: Title #
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -535,9 +535,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: build/_docs/md/Building_a_Signing_Server.md
-#, fuzzy
 msgid "Security cameras"
-msgstr "보안 모델"
+msgstr "보안 카메라"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Building_a_Signing_Server.md
@@ -910,7 +909,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, fuzzy, no-wrap
 msgid "7.14 LiberapayID<a name=\"LiberapayID\"></a>"
-msgstr "7.4 라이선스<a name=\"License\"></a>"
+msgstr "7.14 LiberapayID<a name=\"LiberapayID\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -925,9 +924,9 @@ msgstr ""
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "7.15 Bitcoin<a name=\"Bitcoin\"></a>"
-msgstr "7.14 비트코인<a name=\"Bitcoin\"></a>"
+msgstr "7.15 비트코인<a name=\"Bitcoin\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -942,9 +941,9 @@ msgstr ""
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "7.16 Litecoin<a name=\"Litecoin\"></a>"
-msgstr "7.15 라이트코인<a name=\"Litecoin\"></a>"
+msgstr "7.16 라이트코인<a name=\"Litecoin\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -959,9 +958,9 @@ msgstr ""
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "7.17 Summary<a name=\"Summary\"></a>"
-msgstr "7.16 요약<a name=\"Summary\"></a>"
+msgstr "7.17 요약<a name=\"Summary\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -981,9 +980,9 @@ msgstr ""
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "7.18 Description<a name=\"Description\"></a>"
-msgstr "7.17 설명<a name=\"Description\"></a>"
+msgstr "7.18 설명<a name=\"Description\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1033,9 +1032,9 @@ msgstr ""
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "7.19 Maintainer Notes<a name=\"Maintainer-Notes\"></a>"
-msgstr "7.18 정비자 참고<a name=\"Maintainer-Notes\"></a>"
+msgstr "7.19 정비자 참고<a name=\"Maintainer-Notes\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1049,9 +1048,9 @@ msgstr ""
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "7.20 Repo Type<a name=\"Repo-Type\"></a>"
-msgstr "7.19 저장소 유형<a name=\"Repo-Type\"></a>"
+msgstr "7.20 저장소 유형<a name=\"Repo-Type\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1090,9 +1089,9 @@ msgstr ""
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "7.21 Repo<a name=\"Repo\"></a>"
-msgstr "7.20 저장소<a name=\"Repo\"></a>"
+msgstr "7.21 저장소<a name=\"Repo\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1111,9 +1110,9 @@ msgstr ""
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "7.22 Binaries<a name=\"Binaries\"></a>"
-msgstr "7.21 바이너리<a name=\"Binaries\"></a>"
+msgstr "7.22 바이너리<a name=\"Binaries\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1132,9 +1131,9 @@ msgstr ""
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "7.23 Build<a name=\"Build\"></a>"
-msgstr "7.22 빌드<a name=\"Build\"></a>"
+msgstr "7.23 빌드<a name=\"Build\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1883,9 +1882,9 @@ msgstr ""
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "7.24 AntiFeatures<a name=\"AntiFeatures\"></a>"
-msgstr "7.23 안티기능<a name=\"AntiFeatures\"></a>"
+msgstr "7.24 안티기능<a name=\"AntiFeatures\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1945,9 +1944,9 @@ msgstr ""
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "7.25 Disabled<a name=\"Disabled\"></a>"
-msgstr "7.24 비활성화됨<a name=\"Disabled\"></a>"
+msgstr "7.25 비활성화됨<a name=\"Disabled\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1956,9 +1955,9 @@ msgstr ""
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "7.26 Requires Root<a name=\"Requires-Root\"></a>"
-msgstr "7.25 루트 필요<a name=\"Requires-Root\"></a>"
+msgstr "7.26 루트 필요<a name=\"Requires-Root\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1973,9 +1972,9 @@ msgstr ""
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "7.27 Archive Policy<a name=\"Archive-Policy\"></a>"
-msgstr "7.26 보존 정책<a name=\"Archive-Policy\"></a>"
+msgstr "7.27 보존 정책<a name=\"Archive-Policy\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1989,9 +1988,9 @@ msgstr ""
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "7.28 Update Check Mode<a name=\"Update-Check-Mode\"></a>"
-msgstr "7.27 업데이트 확인 모드<a name=\"Update-Check-Mode\"></a>"
+msgstr "7.28 업데이트 확인 모드<a name=\"Update-Check-Mode\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2089,9 +2088,9 @@ msgstr ""
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "7.29 Vercode Operation<a name=\"Vercode-Operation\"></a>"
-msgstr "7.28 Vercode 연산<a name=\"Vercode-Operation\"></a>"
+msgstr "7.29 Vercode 연산<a name=\"Vercode-Operation\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2105,9 +2104,9 @@ msgstr ""
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "7.30 Update Check Ignore<a name=\"Update-Check-Ignore\"></a>"
-msgstr "7.29 업데이트 확인 무시<a name=\"Update-Check-Ignore\"></a>"
+msgstr "7.30 업데이트 확인 무시<a name=\"Update-Check-Ignore\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2116,9 +2115,9 @@ msgstr ""
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "7.31 Update Check Name<a name=\"Update-Check-Name\"></a>"
-msgstr "7.30 업데이트 확인 이름<a name=\"Update-Check-Name\"></a>"
+msgstr "7.31 업데이트 확인 이름<a name=\"Update-Check-Name\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2132,9 +2131,9 @@ msgstr ""
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "7.32 Update Check Data<a name=\"Update-Check-Data\"></a>"
-msgstr "7.31 업데이트 확인 데이터<a name=\"Update-Check-Data\"></a>"
+msgstr "7.32 업데이트 확인 데이터<a name=\"Update-Check-Data\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2143,9 +2142,9 @@ msgstr ""
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "7.33 Auto Update Mode<a name=\"Auto-Update-Mode\"></a>"
-msgstr "7.32 자동 업데이트 모드<a name=\"Auto-Update-Mode\"></a>"
+msgstr "7.33 자동 업데이트 모드<a name=\"Auto-Update-Mode\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2184,9 +2183,9 @@ msgstr ""
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "7.34 Current Version<a name=\"Current-Version\"></a>"
-msgstr "7.33 현재 버전<a name=\"Current-Version\"></a>"
+msgstr "7.34 현재 버전<a name=\"Current-Version\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2206,9 +2205,9 @@ msgstr ""
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "7.35 Current Version Code<a name=\"Current-Version-Code\"></a>"
-msgstr "7.34 현재 버전 코드<a name=\"Current-Version-Code\"></a>"
+msgstr "7.35 현재 버전 코드<a name=\"Current-Version-Code\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2233,9 +2232,9 @@ msgstr ""
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "7.36 No Source Since<a name=\"No-Source-Since\"></a>"
-msgstr "7.35 소스가 없기 시작한 때<a name=\"No-Source-Since\"></a>"
+msgstr "7.36 소스가 없기 시작한 때<a name=\"No-Source-Since\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -3172,7 +3171,7 @@ msgstr ""
 
 #. type: Title #
 #: build/_docs/md/Deploying_the_Website.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Virtualize the language sub\"directories\""
 msgstr "언어 하위\"디렉터리\"를 가상화"
 
@@ -5573,9 +5572,9 @@ msgstr ""
 
 #. type: Title ###
 #: build/_docs/md/Maintaining_the_Forum.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "General information"
-msgstr "자세한 정보"
+msgstr "일반 정보"
 
 #. type: Plain text
 #: build/_docs/md/Maintaining_the_Forum.md
@@ -5709,9 +5708,9 @@ msgstr ""
 
 #. type: Title ###
 #: build/_docs/md/Maintaining_the_Forum.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Installation log"
-msgstr "직접 설치"
+msgstr "설치 기록"
 
 #. type: Plain text
 #: build/_docs/md/Maintaining_the_Forum.md
@@ -6039,9 +6038,9 @@ msgstr ""
 
 #. type: Title ##
 #: build/_docs/md/Release_Channels_and_Signing_Keys.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "F-Droid client app for Android"
-msgstr "Android용 F-Droid 앱"
+msgstr "Android용 F-Droid 클라이언트 앱"
 
 #. type: Plain text
 #: build/_docs/md/Release_Channels_and_Signing_Keys.md
@@ -6253,9 +6252,9 @@ msgstr ""
 
 #. type: Title ###
 #: build/_docs/md/Release_Process.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "major release"
-msgstr "오래된 배포판"
+msgstr "주요 배포판"
 
 #. type: Plain text
 #: build/_docs/md/Release_Process.md
@@ -6309,7 +6308,7 @@ msgstr ""
 
 #. type: Title ##
 #: build/_docs/md/Release_Process.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "privileged-extension"
 msgstr "특별 권한 확장 기능"
 
@@ -6345,7 +6344,7 @@ msgstr ""
 #: build/_docs/md/Release_Process.md
 #, fuzzy, no-wrap
 msgid "fdroid-website"
-msgstr "fdroidserver"
+msgstr "fdroid-website"
 
 #. type: Bullet: '2. '
 #: build/_docs/md/Release_Process.md
@@ -7007,9 +7006,9 @@ msgstr ""
 
 #. type: Title ###
 #: build/_docs/md/Security_Model.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "F-Droid as built in app store"
-msgstr "Android용 F-Droid 앱"
+msgstr "앱 스토어가 내장된 F-Droid"
 
 #. type: Plain text
 #: build/_docs/md/Security_Model.md
@@ -7023,9 +7022,9 @@ msgstr ""
 
 #. type: Title ##
 #: build/_docs/md/Security_Model.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Security Audits"
-msgstr "보안 모델"
+msgstr "보안 감사"
 
 #. type: Bullet: '1. '
 #: build/_docs/md/Security_Model.md
@@ -7376,9 +7375,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
-#, fuzzy
 msgid "[F-Droid documentation](https://f-droid.org/docs)"
-msgstr "[F-Droid 클라이언트 앱](https://gitlab.com/fdroid/fdroidclient/issues)"
+msgstr "[F-Droid 설명문서](https://f-droid.org/docs)"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
@@ -7648,14 +7646,13 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: build/_docs/md/Translation_and_Localization.md
-#, fuzzy
 msgid "[_fdroidserver_ command line tool](https://hosted.weblate.org/projects/f-droid/fdroidserver)"
-msgstr "[서버와 빌드 도구](https://gitlab.com/fdroid/fdroidserver/issues)"
+msgstr "[_fdroidserver_ 명령 줄 도구](https://hosted.weblate.org/projects/f-droid/fdroidserver)"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Translation_and_Localization.md
 msgid "[_Repomaker_ web tool](https://hosted.weblate.org/projects/f-droid/repomaker)"
-msgstr ""
+msgstr "[_저장소제작기_ 웹 도구](https://hosted.weblate.org/projects/f-droid/repomaker)"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Translation_and_Localization.md
