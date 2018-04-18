@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-03-01 11:22+0100\n"
 "PO-Revision-Date: 2018-04-18 13:43+0000\n"
-"Last-Translator: J. Lochmann <jonas@determapp.de>\n"
+"Last-Translator: anonymous <>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-docs/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -87,7 +87,7 @@ msgstr "Alle lokalisierten Beschreibungen und Grafiken werden automatisch im F-D
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
 msgid "The last important detail is that the texts in the app's metadata file will override all other descriptive texts from _Fastlane_/_Triple-T_. That is specifically [Name](../Build_Metadata_Reference/#Name)/[AutoName](../Build_Metadata_Reference/#AutoName), [Summary](../Build_Metadata_Reference/#Summary), and [Description](../Build_Metadata_Reference/#Description).  Once an app's descriptive texts have been moved into the source repo, then file a [merge request](https://gitlab.com/fdroid/fdroiddata/merge_requests)  or [issue](https://gitlab.com/fdroid/fdroiddata/issues) to remove _Summary_ and _Description_ from the app's metadata file."
-msgstr ""
+msgstr "Das letzte wichtige Detail ist, dass die Texte in der Metadaten-Datei der App alle anderen beschreibenden Texte von  _Fastlane_/_Triple-T_ überschreiben werden. Das gilt insbesondere für [Name](../Build_Metadata_Reference/#Name)/[AutoName](../Build_Metadata_Reference/#AutoName), [Zusammenfassung](../Build_Metadata_Reference/#Summary) und [Beschreibung](../Build_Metadata_Reference/#Description).  Sobald die die App beschreibenden Texte in das Quellrepo verschoben sind, reichen Sie einen [Merge Request](https://gitlab.com/fdroid/fdroiddata/merge_requests)  oder [Issue](https://gitlab.com/fdroid/fdroiddata/issues) ein, um _Zusammenfassung_ und _Beschreibung_ aus der Metadaten-Datei der App zu entfernen."
 
 #. type: Title ##
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
