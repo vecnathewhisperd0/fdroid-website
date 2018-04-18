@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-03-01 11:22+0100\n"
-"PO-Revision-Date: 2018-04-18 13:48+0000\n"
-"Last-Translator: anonymous <>\n"
+"PO-Revision-Date: 2018-04-19 15:37+0000\n"
+"Last-Translator: J. Lochmann <jonas@determapp.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-docs/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -527,7 +527,7 @@ msgstr "Basis-Laptop, das fest der Signierung zugeordnet ist"
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
 msgid "Start with a laptop that can be wiped clean and rebuilt from scratch.  What is most important is that only the essential software is installed on it, and nothing else.  Do not include any browser at all, for example, since that is the most common vector of attack.  No remote access setup (e.g. SSH or VNC) should be installed or configured.  To sign apps and repos, someone would take out this laptop, connect it to the network, and run the signing process.  The signed results can then be published via the network connection.  When the signing is complete, the machine can be turned off and disconnected and kept in a safe place."
-msgstr "Beginnen Sie mit einem Laptop, das komplett gelöscht und neu aufgesetzt werden kann.  Am wichtigsten dabei ist, dass auf ihm nur die unbedingt notwendige Software und sonst nichts installiert ist.  Setzen Sie, zum Beispiel, keinerlei Browser ein, da dies der häufigste Angriffsvektor ist.  Es sollte keine Einrichtung zum Fernzugriff (z. B. SSH oder VNC) installiert oder konfiguriert werden.  Um Apps und Repos zu signieren, würde sich jemand dieses Laptop herausgreifen, es mit dem Netz verbinden, und den Signiervorgang ausführen.  Die signierten Ergebnisse können dann über die Netzwerkverbindung verbreitet werden.  Wenn das Signieren abgeschlossen ist, kann die Maschine abgeschaltet und dekonnektiert und an einem sicheren Ort aufbewahrt werden."
+msgstr "Beginnen Sie mit einem Laptop, der komplett gelöscht und neu aufgesetzt wird.  Am wichtigsten ist dabei, dass Sie auf ihm nur die unbedingt notwendige Software und sonst nichts installieren.  Setzen Sie, z.B., keinen Browser ein, da dies der häufigste Angriffsvektor ist.  Es sollte keine Möglichkeit zum Fernzugriff (z. B. SSH oder VNC) installiert oder konfiguriert werden.  Um Apps und Repos zu signieren wird dieser Laptop genommen und mit dem Netz verbunden und den Signiervorgang ausführen.  Die signierten Ergebnisse können dann über die Netzwerkverbindung gesendet werden.  Wenn das Signieren abgeschlossen ist, kann und sollte der Laptop abgeschaltet werden und an einem sicheren Ort aufbewahrt werden."
 
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
@@ -543,17 +543,17 @@ msgstr "Vollständig offline Signaturlaptop mit USB-Sticks"
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
 msgid "This process is based on the same basic, stripped down laptop as the previous example.  But this time, the networking should be entirely disabled before the install process.  For example, it is easy in many laptops to physically remove the WiFi card.  Therefore, it makes sense to use a laptop that does not include an ethernet jack, which are usually not possible to remove.  Otherwise, blacklisting all kernel modules related to neworking can suffice.  Since this machine is fully offline, the extra work of using an HSM is not as important, but it can't hurt to include it."
-msgstr ""
+msgstr "Diese Variante hat die selben Grundlagen - einen minimalistischen Laptop wie o.g.. Aber dieses mal werden die Netzwerkschnittstellen vor dem Installationsprozess vollständig deaktiviert. Beispielsweise kann bei vielen älteren Laptops das WLAN-Modul ausgebaut werden. Deshalb macht es Sinn, einen Laptop zu verwenden, der keinen LAN-Anschluss hat, da diese normalerweise nicht entfernt werden können. Andernfalls kann es ausreichen, alle Netzwerk-Kernel-Module zu deaktivieren. Da diese Maschine vollständig offline ist, ist der Extraaufwand ein HSM zu verwenden nicht so wichtig, aber er kann dennoch nicht schaden."
 
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
 msgid "Download the full \"CD\" or \"DVD\" image of Debian to run the install.  Be sure to [verify](https://www.debian.org/CD/verify) the GPG signatures and the SHA-256 hashes.  One essential utility is _apt-offline_, which automates the process of downloading Debian packages, verifying their signatures, and copying them over to an offline machine."
-msgstr ""
+msgstr "Laden Sie zum Installieren das vollständige CD- oder DVD-Abbild von Debian herunter. [Überprüfen](https://www.debian.org/CD/verify) Sie unbedingt die GPG-Signaturen und SHA-256-Hashs. Ein grundlegendes Werkzeug ist _apt-offline_, dass das Herunterladen von Debian-Paketen, die Prüfung deren Signaturen und das Kopieren auf die Offline-Maschine automatisiert."
 
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
 msgid "To be extra careful, all of the software used should be verified.  Chromebooks are nice, cheap laptops that run Linux natively.  They also use Coreboot for the BIOS."
-msgstr ""
+msgstr "Um extra vorsichtig zu sein, prüfen Sie alle Programme. Chromebooks sind gute, preiswerte Laptops auf denen Linux nativ läuft. Diese verwenden anstatt einem BIOS Coreboot."
 
 #. type: Bullet: '* '
 #: build/_docs/md/Building_a_Signing_Server.md
@@ -563,28 +563,28 @@ msgstr "Kaufen Sie einen Computer in bar aus dem Regal, meiden Sie den Versandha
 #. type: Bullet: '* '
 #: build/_docs/md/Building_a_Signing_Server.md
 msgid "Buy a Debian-supported [Chromebook](https://www.chromium.org/chromium-os/developer-information-for-chrome-os-devices/acer-c720-chromebook) with removeable WiFi hardware, and needs no binary blobs"
-msgstr ""
+msgstr "Kaufen Sie ein von Debain unterstütztes [Chromebook](https://www.chromium.org/chromium-os/developer-information-for-chrome-os-devices/acer-c720-chromebook) mit entfernbarem WLAN-Modul, dass keine proprietären Binärdateien benötigt"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Building_a_Signing_Server.md
 msgid "Install a reproducibly built coreboot binary"
-msgstr ""
+msgstr "Installieren Sie eine reproduzierbar kompilierte Coreboot-Version"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Building_a_Signing_Server.md
 msgid "Install from a reproducibly built Debian image, wiping out Chrome OS entirely"
-msgstr ""
+msgstr "Installieren Sie von einem reproduzierbar erstelltem Debian-Abbild; löschen Sie dabei Chrome OS vollständig"
 
 #. type: Title ##
 #: build/_docs/md/Building_a_Signing_Server.md
 #, no-wrap
 msgid "The Physical Environment"
-msgstr ""
+msgstr "Die physische Umgebung"
 
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
 msgid "The last thing to consider is the physical location where signatures happen, and where essential equipment is stored.  The signing environment must be physically secure. Otherwise, there is no way to prevent laptops or HSMs from being lost or used to sign inappropriate content.  For the offline machines, keeping them in a locked room is a good start.  For an online machine, forcing all network traffic and remote access over Tor hides the physical location of the machine from network observers."
-msgstr ""
+msgstr "Der letzte zu betrachtende Aspekt ist der physische Ort, an dem das Signieren stattfindet und wo die nötigen Materialien gelagert werden. Die Siginier-Umgebung muss physisch sicher sein. Andernfalls gibt es keinen Weg den Verlust oder die Verwendung von Laptops und/ oder HSMs zum Signieren von unpassenden Inhalten zu verhindern. Bei Offline-Maschinen ist die Aufbewahrung in einem verschlossenen Raum ein guter Anfang. Bei einer Online-Maschine ist es sinnvoll, den gesamten Netzwerkverkehr (auch die Fernsteuerung) über Tor zu leiten, um den physische Standort der Maschine vor Netzwerküberwachern zu verbergen."
 
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
@@ -614,7 +614,7 @@ msgstr "Besuchererfassung"
 #. type: Bullet: '* '
 #: build/_docs/md/Building_a_Signing_Server.md
 msgid "A tools-resistant server safe for online code-signing servers"
-msgstr ""
+msgstr "Ein werkzeugsicherer Safe für Online-Signier-Server"
 
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
@@ -1191,7 +1191,7 @@ msgstr "Wenn angegeben, wird F-Droid die ausgegebene APK-Datei eines Build gegen
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "F-Droid will use upstream binaries if the verification succeeded."
-msgstr ""
+msgstr "F-Droid verwendet die Original-APKs, wenn die Verifizierung erfolgreich ist."
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1211,9 +1211,8 @@ msgstr "‘Build:1.2,12’"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy
 msgid "The above specifies to build version 1.2, which has a version code of 12.  The `commit=` parameter specifies the tag, commit or revision number from which to build it in the source repository. It is the only mandatory flag, which in this case could for example be `commit=v1.2`."
-msgstr "Oben Genanntes legt fest, Version 1.2 herzustellen, die den Versionscode 12 besitzt. Der Parameter `commit=` definiert das Merkmal, ‘Commit‘- oder ‘Revision‘-Nummer, ab der sie im Originalrepository erstellt werden soll. Es ist das einzige verpflichtende Kennzeichen, das in diesem Fall zum Beispiel `commit=v1.2` sein könnte."
+msgstr "Oben genanntes legt fest, die Version 1.2 zu kompilieren, die den Versionscode 12 besitzt. Der Parameter `commit=` definiert den 'Tag', die ‘Commit‘- oder ‘Revision‘-Nummer vom Originalrepository, aus der die Version erstellt werden soll. Es ist der einzige erforderliche Parameter, der in diesem Fall zum Beispiel `commit=v1.2` sein könnte."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1307,7 +1306,7 @@ msgid ""
 "    is useful for setting up the buildserver for complex builds that\n"
 "    need very specific things that are not appropriate to install for\n"
 "    all builds, or for things that would conflict with other builds.\n"
-msgstr ""
+msgstr "Gibt ein Skript an, dass mittels `sudo bash -x -c \"xxxx\"` in der Buildserver-Gast-VM ausgeführt werden soll. Dieses Skript läuft mir root-Privilegien, aber die VM wird nach jedem Build zurückgesetzt. Die große Mehrheit der Apps wird in einer Standard-Debian-Stable-Umgebung kompiliert. Dieser Parameter ist sinnvoll um den Buildserver auf komplexe Vorgänge vorzubereiten, die sehr spezifische Dinge benötigen, bei denen es nicht angemessen wäre, sie für alle Builds zu installieren; oder für Dinge, die andere Builds stören würden.\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1415,7 +1414,7 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "    In the case of an Ant project, it modifies project.properties of the\n"
 "    app and possibly sub-projects. This is likely to cause the whole\n"
@@ -1425,8 +1424,8 @@ msgid ""
 msgstr ""
 "    Im Falle eines Ant-Projekts modifiziert es „project.properties“ der App\n"
 "    und eventueller Unterprojekte. Dies bewirkt wahrscheinlich, dass „build.xml“\n"
-"    komplett neu geschrieben wird, was in Ordnung geht, wenn es eine ’Standard’-\n"
-"    Android-Datei ist oder sie ohnehin nicht existiert, aber keine gute Idee ist, wenn\n"
+"    komplett neu geschrieben wird, was in Ordnung ist, wenn es eine ’Standard’-\n"
+"    Android-Datei ist oder noch nicht existiert, aber keine gute Idee ist, wenn\n"
 "    sie intensiv bearbeitet wurde.\n"
 
 #. type: Plain text
@@ -1497,13 +1496,13 @@ msgstr "`forceversion=yes`"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 ":   If specified, the package version in AndroidManifest.xml is replaced\n"
 "    with the version name for the build as specified in the metadata.\n"
 msgstr ""
-":   Wenn angegeben, wird die Paketversion in AndroidManifest.xml durch\n"
-"    die in den Metadaten festgelegte Versionsbezeichnung für das Build ersetzt.\n"
+":   Falls angegeben, wird die Paketversion in dem AndroidManifest.xml durch\n"
+"    die in den Metadaten des Builds festgelegte Versionsbezeichnung ersetzt.\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1514,7 +1513,7 @@ msgid ""
 "    that the version differs significantly from upstream; or to make it\n"
 "    apparent which architecture or platform the apk is designed to\n"
 "    run on.\n"
-msgstr ""
+msgstr "    Das ist sinnvoll wenn die Version im Quell-Repository bei einem Tag nicht gesetzt wurde, um eine willkürliche Version zu erstellen, um darauf hinzuweisen, dass die Version große Unterschiede zum Upstream aufweist oder um zu zeigen, für welche Architektur die APK gedacht ist.\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
