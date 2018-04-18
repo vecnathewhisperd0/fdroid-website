@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-03-01 11:22+0100\n"
 "PO-Revision-Date: 2018-04-18 13:48+0000\n"
-"Last-Translator: J. Lochmann <jonas@determapp.de>\n"
+"Last-Translator: anonymous <>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-docs/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -527,7 +527,7 @@ msgstr "Basis-Laptop, das fest der Signierung zugeordnet ist"
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
 msgid "Start with a laptop that can be wiped clean and rebuilt from scratch.  What is most important is that only the essential software is installed on it, and nothing else.  Do not include any browser at all, for example, since that is the most common vector of attack.  No remote access setup (e.g. SSH or VNC) should be installed or configured.  To sign apps and repos, someone would take out this laptop, connect it to the network, and run the signing process.  The signed results can then be published via the network connection.  When the signing is complete, the machine can be turned off and disconnected and kept in a safe place."
-msgstr ""
+msgstr "Beginnen Sie mit einem Laptop, das komplett gelöscht und neu aufgesetzt werden kann.  Am wichtigsten dabei ist, dass auf ihm nur die unbedingt notwendige Software und sonst nichts installiert ist.  Setzen Sie, zum Beispiel, keinerlei Browser ein, da dies der häufigste Angriffsvektor ist.  Es sollte keine Einrichtung zum Fernzugriff (z. B. SSH oder VNC) installiert oder konfiguriert werden.  Um Apps und Repos zu signieren, würde sich jemand dieses Laptop herausgreifen, es mit dem Netz verbinden, und den Signiervorgang ausführen.  Die signierten Ergebnisse können dann über die Netzwerkverbindung verbreitet werden.  Wenn das Signieren abgeschlossen ist, kann die Maschine abgeschaltet und dekonnektiert und an einem sicheren Ort aufbewahrt werden."
 
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
