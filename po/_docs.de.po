@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-03-01 11:22+0100\n"
 "PO-Revision-Date: 2018-04-20 17:35+0000\n"
-"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
+"Last-Translator: anonymous <>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-docs/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -3830,12 +3830,12 @@ msgstr "Wir bieten gute Unterstützung für Builds auf Basis von \"Ant\" und \"G
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md
 msgid "Special note on Cordova/Phonegap/HTML-Apps:"
-msgstr ""
+msgstr "Besonderer Hinweis für Cordova/Phonegap/HTML-Apps:"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md
 msgid "We cannot build cordova apps directly, but recent version allows you to export the platform-specific code that can be build standalone using \"gradle\". So for now we require this code to be present and up-to-date in the source repository."
-msgstr ""
+msgstr "Wir können Cordova-Apps nicht direkt herstellen, aber die jüngste Version ermöglicht es Ihnen, den plattformspezifischen Code zu exportieren, sodass mit \"Gradle\" ein eigenständiges Build erzeugt werden kann. Bis jetzt benötigen wir somit diesen Code, der im Quellrepository vorhanden und auf dem neusten Stand sein muss."
 
 #. type: Title ###
 #: build/_docs/md/FAQ_-_App_Developers.md
