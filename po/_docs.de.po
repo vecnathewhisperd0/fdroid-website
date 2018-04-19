@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-03-01 11:22+0100\n"
-"PO-Revision-Date: 2018-04-19 16:40+0000\n"
-"Last-Translator: anonymous <>\n"
+"PO-Revision-Date: 2018-04-19 16:52+0000\n"
+"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-docs/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -3672,7 +3672,7 @@ msgstr "Wie funktioniert das Signieren?"
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md
 msgid "Packages built by F-Droid are signed by F-Droid, so all apps in the [official F-Droid repo](https://f-droid.org/repo) are signed by F-Droid keys. F-Droid will generate a new key for each app that is included. All of the different APKs built from different versions of an app will be signed by the same app key. But do note: if an app is also distributed in an APK signed by the developer, like in the Google Play Store, then the F-Droid APK will have a different signature."
-msgstr "Von.F-Droid hergestellte Pakete sind von F-Droid signiert, somit sind alle Apps im [offiziellen F-Droid-Repo](https://f-droid.org/repo) mit F-Droid-Schlüsseln signiert. F-Droid wird für jede App einen neuen Schlüssel erzeugen, der darin enthalten ist. All die verschiedenen APKs, die aus verschiedenen Versionen einer App hergestellt werden, werden mit demselben App-Schlüssel signiert werden. Beachten Sie aber: Wenn eine App auch als eine vom Entwickler signierte APK verbreitet wird, wie im Google Play Store, dann wird die F-Droid-APK eine davon abweichende Signatur besitzen."
+msgstr "Von F-Droid hergestellte Pakete sind von F-Droid signiert, somit sind alle Apps im [offiziellen F-Droid-Repo](https://f-droid.org/repo) mit F-Droid-Schlüsseln signiert. F-Droid wird für jede App einen neuen Schlüssel erzeugen, der in ihr enthalten ist. All die verschiedenen APKs, die aus verschiedenen Versionen einer App hergestellt werden, werden mit demselben App-Schlüssel signiert. Beachten Sie aber: Wenn eine App auch als eine vom Entwickler signierte APK verbreitet wird, wie im Google Play Store, dann wird die F-Droid-APK eine davon abweichende Signatur besitzen."
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md
