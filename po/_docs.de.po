@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-03-01 11:22+0100\n"
-"PO-Revision-Date: 2018-04-19 16:58+0000\n"
-"Last-Translator: anonymous <>\n"
+"PO-Revision-Date: 2018-04-20 17:35+0000\n"
+"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-docs/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -87,7 +87,7 @@ msgstr "Alle lokalisierten Beschreibungen und Grafiken werden automatisch im F-D
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
 msgid "The last important detail is that the texts in the app's metadata file will override all other descriptive texts from _Fastlane_/_Triple-T_. That is specifically [Name](../Build_Metadata_Reference/#Name)/[AutoName](../Build_Metadata_Reference/#AutoName), [Summary](../Build_Metadata_Reference/#Summary), and [Description](../Build_Metadata_Reference/#Description).  Once an app's descriptive texts have been moved into the source repo, then file a [merge request](https://gitlab.com/fdroid/fdroiddata/merge_requests)  or [issue](https://gitlab.com/fdroid/fdroiddata/issues) to remove _Summary_ and _Description_ from the app's metadata file."
-msgstr "Das letzte wichtige Detail ist, dass die Texte in der Metadaten-Datei der App alle anderen beschreibenden Texte von  _Fastlane_/_Triple-T_ überschrieben. Das gilt insbesondere für den [Namen](../Build_Metadata_Reference/#Name)/[AutoName](../Build_Metadata_Reference/#AutoName), die [Zusammenfassung](../Build_Metadata_Reference/#Summary) und die [Beschreibung](../Build_Metadata_Reference/#Description).  Sobald Sie die die App beschreibenden Texte hochgeladen sind, erstellen Sie einen [Merge Request](https://gitlab.com/fdroid/fdroiddata/merge_requests)  oder [Issue](https://gitlab.com/fdroid/fdroiddata/issues), um die _Zusammenfassung_ und die  _Beschreibung_ aus der Metadaten-Datei der App zu entfernen/ entfernen zu lassen."
+msgstr "Das letzte wichtige Detail ist, dass die Texte in der Metadaten-Datei der App alle anderen beschreibenden Texte von  _Fastlane_/_Triple-T_ überschreiben. Das gilt insbesondere für den [Namen](../Build_Metadata_Reference/#Name)/[AutoName](../Build_Metadata_Reference/#AutoName), die [Zusammenfassung](../Build_Metadata_Reference/#Summary) und die [Beschreibung](../Build_Metadata_Reference/#Description).  Sobald Sie die app-beschreibenden Texte hochgeladen haben, erstellen Sie einen [Merge Request](https://gitlab.com/fdroid/fdroiddata/merge_requests)  oder [Issue](https://gitlab.com/fdroid/fdroiddata/issues), um die _Zusammenfassung_ und die  _Beschreibung_ aus der Metadaten-Datei der App zu entfernen bzw. entfernen zu lassen."
 
 #. type: Title ##
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -3498,7 +3498,7 @@ msgstr ""
 #: build/_docs/md/FAQ_-_App_Developers.md
 #, no-wrap
 msgid "FAQ - App Developers"
-msgstr "FAQ - App Entwickler"
+msgstr "FAQ - App-Entwickler"
 
 #. type: Title ###
 #: build/_docs/md/FAQ_-_App_Developers.md
@@ -3530,27 +3530,27 @@ msgstr "Es gibt drei Orte, von denen wir Metadaten beziehen:"
 #. type: Bullet: '* '
 #: build/_docs/md/FAQ_-_App_Developers.md
 msgid "upstream app repo, following the [fastlane](https://github.com/fastlane/fastlane) or [Triple-T play plugin](https://github.com/Triple-T/gradle-play-publisher) structure"
-msgstr ""
+msgstr "das vorgeschaltete App-Repo, das dem Aufbau von [fastlane](https://github.com/fastlane/fastlane) or [Triple-T play plugin](https://github.com/Triple-T/gradle-play-publisher) folgt"
 
 #. type: Bullet: '* '
 #: build/_docs/md/FAQ_-_App_Developers.md
 msgid "F-Droid's own [metadata repository](https://gitlab.com/fdroid/fdroiddata/blob/master/metadata)"
-msgstr ""
+msgstr "F-Droid's eigenes [Metadaten-Repository](https://gitlab.com/fdroid/fdroiddata/blob/master/metadata)"
 
 #. type: Bullet: '* '
 #: build/_docs/md/FAQ_-_App_Developers.md
 msgid "F-Droid's own `repo` staging area that gets published on the public F-Droid server"
-msgstr ""
+msgstr "F-Droid's eigener `repo`-Bereitstellungsraum, der auf dem öffentlichen F-Droid-Server publiziert wird"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md
 msgid "While you cannot edit the last one, merge requests to the metadata repository updating the description are quite welcome. Screenshots on the other hand are currently only used from upstream repository."
-msgstr ""
+msgstr "Während letzterer nicht bearbeitet werden kann, sind Merge Requests an das Metadaten-Repository zur Aktualisierung der Beschreibungen stets willkommen. Bildschirmfotos können andererseits momentan nur aus dem vorgeschalteten Repository verwendet werden."
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md
 msgid "We hope to pull in more stuff (e.g. changelogs) directly from upstream in the future, giving app developers more control of how their app is shown in F-Droid.  However, we will always keep a minimal, authoritative metadata repo of our own."
-msgstr ""
+msgstr "Wir hoffen, zukünftig mehr Material (z. B. Änderungsprotokolle) direkt aus dem Upstream einzubeziehen, um App-Entwicklern mehr Kontrolle über die Darstellung ihrer App in F-Droid zu gewähren. Allerdings werden wir immer ein minimales, maßgebliches Metadaten-Repo für uns behalten."
 
 #. type: Title ###
 #: build/_docs/md/FAQ_-_App_Developers.md
@@ -3709,7 +3709,7 @@ msgstr "Kann ich mein eigenes F-Droid-Paket-Repository betreiben?<a name=\"Can_I
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md
 msgid "Yes! You can also setup and run your own F-Droid repository of apps and other packages.  If you also release your own app via other app stores, like Google Play, we recommend that you also include those releases in your own binary repo, for among other reasons, this will provide a source of APKs for [reproducible builds](../Reproducible_Builds).  This repository can be a \"[simple binary repo](../Setup_an_F-Droid_App_Repo)\", which does not use the _fdroidserver_ build system, or you could host your own mirror of the full F-Droid.org repo."
-msgstr "Ja! Sie können auch Ihr eigenes F-Droid-Repository mit Apps und anderen Paketen einrichten und betreiben. Wenn Sie Ihre eigene App auch in anderen App-Stores, wie Google Play, veröffentlichen, empfehlen wir, dass sie diese Versionen ebenfalls in Ihr eigenes Binärdatei-Repo aufnehmen, weil so, neben anderen Gründen, eine Quelle für APKs für [reproduzierbare Builds](../Reproducible_Builds) zur Verfügung steht.  Dieses Repository kann ein \"[einfaches Binärdatei-Repo](../Setup_an_F-Droid_App_Repo)\" sein, das nicht das Build-System des _fdroidserver_ nutzt, oder Sie könnten Ihren eigenen Spiegel des kompletten F-Droid.org-Repos hosten."
+msgstr "Ja! Sie können auch Ihr eigenes F-Droid-Repository mit Apps und anderen Paketen einrichten und betreiben. Wenn Sie Ihre eigene App auch in anderen App-Stores, wie Google Play, veröffentlichen, empfehlen wir, dass Sie diese Versionen ebenfalls in Ihr eigenes Binärdatei-Repo aufnehmen, weil so, neben anderen Gründen, eine Quelle für APKs für [reproduzierbare Builds](../Reproducible_Builds) zur Verfügung steht.  Dieses Repository kann ein \"[einfaches Binärdatei-Repo](../Setup_an_F-Droid_App_Repo)\" sein, das nicht das Build-System des _fdroidserver_ nutzt, oder Sie könnten Ihren eigenen Spiegel des kompletten F-Droid.org-Repos hosten."
 
 #. type: Title ###
 #: build/_docs/md/FAQ_-_App_Developers.md
@@ -3825,7 +3825,7 @@ msgstr "Welches Build-System sollte verwendet werden?"
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md
 msgid "We have good support for \"ant\" and \"gradle\" based builds, while \"maven\" was only used for a short period of time and for dependencies. For other build systems, you might have to provide us some detailed information on how to handle that, so we can setup the app correctly or maybe even incorporate them into our server tools."
-msgstr "Wir bieten gute Unterstützung für auf \"Ant\" und \"Gradle\" basierende Builds, während \"Maven\" nur für einen kurzen Zeitabschnitt und für Abhängigkeiten genutzt wurde. Bei anderen Build-Systemen müssten Sie uns einige detaillierte Informationen darüber bereitstellen, wie mit ihnen umgegangen werden soll, damit wir die App korrekt konfigurieren oder möglicherweise sogar die Systeme in unsere Serverwerkzeuge integrieren können"
+msgstr "Wir bieten gute Unterstützung für Builds auf Basis von \"Ant\" und \"Gradle\", während \"Maven\" nur für einen kurzen Zeitabschnitt und für Abhängigkeiten genutzt wurde. Bei anderen Build-Systemen müssten Sie uns einige detaillierte Informationen darüber bereitstellen, wie mit ihnen umgegangen werden soll, damit wir die App korrekt konfigurieren oder möglicherweise sogar die Systeme in unsere Serverwerkzeuge integrieren können"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md
@@ -3934,7 +3934,7 @@ msgstr ""
 #: build/_docs/md/FAQ_-_Client.md
 #, no-wrap
 msgid "FAQ - Client"
-msgstr ""
+msgstr "FAQ - F-Droid-App"
 
 #. type: Title ###
 #: build/_docs/md/FAQ_-_Client.md
@@ -5332,13 +5332,13 @@ msgstr ""
 #: build/_docs/md/Inclusion_How-To.md
 #, no-wrap
 msgid "Application Preprocessing"
-msgstr ""
+msgstr "Vorbehandlung der Anwendung"
 
 #. type: Title ###
 #: build/_docs/md/Inclusion_How-To.md
 #, no-wrap
 msgid "Application Build Process"
-msgstr ""
+msgstr "Build der Anwendung"
 
 #. type: Title ###
 #: build/_docs/md/Inclusion_How-To.md
@@ -5350,19 +5350,19 @@ msgstr "APK-Signiervorgang"
 #: build/_docs/md/Inclusion_How-To.md
 #, no-wrap
 msgid "Wiki Page Generation Process"
-msgstr ""
+msgstr "Wiki-Seiten-Erzeugung"
 
 #. type: Title ###
 #: build/_docs/md/Inclusion_How-To.md
 #, no-wrap
 msgid "Repository Publishing Process"
-msgstr ""
+msgstr "Repository-Veröffentlichung"
 
 #. type: Title -
 #: build/_docs/md/Inclusion_How-To.md
 #, no-wrap
 msgid "What to Expect\n"
-msgstr ""
+msgstr "Womit zu rechnen ist\n"
 
 #. type: Plain text
 #: build/_docs/md/Inclusion_How-To.md
@@ -5372,12 +5372,14 @@ msgstr "Wenn Ihre Anwendungsmetadaten genehmigt und im fdroiddata-Git-Repository
 #. type: Plain text
 #: build/_docs/md/Inclusion_How-To.md
 msgid "Provided that your application does not have any build problems, it would takes somewhere **around 24 to 48 hours** from fdroiddata merge until the application to appears in the main repository.[1](https://f-droid.org/forums/topic/how-fast-the-main-f-droid-repository-updates/)  This timing limitation is due to the APK signing part of the build process, which requires human intervention on keystore access step.[2](https://f-droid.org/forums/topic/encouraging-f-droid-participation-by-developers/#post-17868)"
-msgstr "Vorausgesetzt, dass Ihre Anwendung keine Herstellungsprobleme aufweist, werden zwischen fdroiddata-Merging und Erscheinen der Anwendung im Hauptrepository **rund 24 bis 48 Stunden** vergehen.[1](https://f-droid.org/forums/topic/how-fast-the-main-f-droid-repository-updates/)  Diese Zeitverzögerung ist dem APK-Signatur-Teil bei der Build-Verarbeitung geschuldet, der beim Zugriff auf den Schlüsselspeicher ein menschliches Eingreifen erfordert.[2](https://f-droid.org/forums/topic/encouraging-f-droid-participation-by-developers/#post-17868)"
+msgstr ""
+"Vorausgesetzt, dass Ihre Anwendung keine Herstellungsprobleme aufweist, werden zwischen fdroiddata-Merging und Erscheinen der Anwendung im Hauptrepository **rund 24 bis 48 Stunden** vergehen ([1](https://f-droid.org/forums/topic/how-fast-the-main-f-droid-repository-updates/)). \n"
+"Diese Zeitverzögerung ist dem APK-Signatur-Teil bei der Build-Verarbeitung geschuldet, der beim Zugriff auf den Schlüsselspeicher ein menschliches Eingreifen erfordert ([2](https://f-droid.org/forums/topic/encouraging-f-droid-participation-by-developers/#post-17868))."
 
 #. type: Plain text
 #: build/_docs/md/Inclusion_How-To.md
 msgid "Nevertheless, your application will not appear in f-droid.org's Lastest Apps list just yet, even though people can now already search and download it: Once the application appeared in the main F-Droid repository, it would take another day before appearing on [Latest Apps list](https://f-droid.org/)."
-msgstr ""
+msgstr "Dennoch wird Ihre Anwendung noch immer nicht in der Liste der neusten Apps von f-droid.org auftauchen, auch wenn die Leute jetzt bereits nach ihr suchen und sie herunterladen können: Sobald die Anwendung im F-Droid-Hauptrepository erscheint, dauert es einen weiteren Tag bis zum Erscheinen in der [Liste der neusten Apps](https://f-droid.org/)."
 
 #. type: Title -
 #: build/_docs/md/Inclusion_How-To.md
@@ -5414,7 +5416,7 @@ msgstr "Aufnahmekriterien"
 #. type: Plain text
 #: build/_docs/md/Inclusion_Policy.md
 msgid "All applications in the repository must be Free, Libre and Open Source software – for example, released under a GPL or Apache license. Every effort is made to verify that this is actually the case, both by visual inspection of the source, and by building the application from the published source. If in doubt about a license, please refer to the [GNU license list](https://www.gnu.org/licenses/license-list.html)."
-msgstr "Alle Anwendungen im Repository müssen Free, Libre and Open Source Software sein – zum Beispiel unter einer GPL- oder Apache-Lizenz veröffentlicht werden. Es werden alle Anstrengungen unternommen, um nachzuweisen, dass dies tatsächlich der Fall ist, sowohl durch Durchsicht der Quelle, als auch durch Herstellung der Anwendung aus der publizierten Quelle. Bei Zweifeln an einer Lizenz, verweisen Sie auf die [GNU-Lizenzliste](https://www.gnu.org/licenses/license-list.html)."
+msgstr "Alle Anwendungen im Repository müssen Free, Libre and Open Source Software sein – zum Beispiel unter einer GPL- oder Apache-Lizenz veröffentlicht werden. Es werden alle Anstrengungen unternommen, um nachzuweisen, dass dies tatsächlich der Fall ist, sowohl durch Durchsicht der Quelle, als auch durch Herstellung der Anwendung aus der publizierten Quelle. Bei Zweifeln an einer Lizenz, nehmen Sie Bezug auf die [GNU-Lizenzliste](https://www.gnu.org/licenses/license-list.html)."
 
 #. type: Plain text
 #: build/_docs/md/Inclusion_Policy.md
@@ -5469,7 +5471,7 @@ msgstr "Die Software sollte ihre eigene, einzigartige Android-Paket-ID verwenden
 #. type: Bullet: '-   '
 #: build/_docs/md/Inclusion_Policy.md
 msgid "Although not ideal, \"non-functional\" assets (e.g. artwork) *may* be acceptable under less permissive licenses than functional code - an example would be artwork assets that are licensed only for use with that particular game. In any case though, they must be included under some kind of license, and not be copyright violations."
-msgstr "Wenngleich nicht ideal, *können* \"nichtfunktionale\" Bestandteile (z. B. künstlerische Darstellungen), die einer weniger freizügigen Lizenz unterliegen als der funktionale Code, akzeptabel sein - ein Beispiel wären Illustrationen, die nur zur Verwendung mit diesem bestimmten Spiel lizenziert sind. In jedem Fall müssen sie allerdings irgendeiner Form einer Lizenz unterliegen und dürfen keine Urheberrechte verletzen."
+msgstr "Wenngleich nicht ideal, *können* \"nichtfunktionale\" Medieninhalte (z. B. künstlerische Darstellungen), die einer weniger freizügigen Lizenz unterliegen als der funktionale Code, akzeptabel sein - ein Beispiel wären Illustrationen, die nur zur Verwendung mit diesem bestimmten Spiel lizenziert sind. In jedem Fall müssen sie allerdings irgendeiner Form einer Lizenz unterliegen und dürfen keine Urheberrechte verletzen."
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Inclusion_Policy.md
@@ -5479,7 +5481,7 @@ msgstr "Markenzeichen dürfen nicht verletzt werden und sämtliche juristischen 
 #. type: Bullet: '-   '
 #: build/_docs/md/Inclusion_Policy.md
 msgid "F-Droid does not sign up for any API keys. Even if provided by a third party, we include them in both, binary and sourcecode releases."
-msgstr ""
+msgstr "F-Droid meldet sich nicht für irgendwelche API-Schlüssel an. Selbst wenn sie von Drittanbietern bereitgestellt sind, schließen wir sie sowohl in Binärcode- als auch in Quellcode-Versionen ein."
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Inclusion_Policy.md
