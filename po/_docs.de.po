@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-03-01 11:22+0100\n"
 "PO-Revision-Date: 2018-04-19 16:55+0000\n"
-"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
+"Last-Translator: anonymous <>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-docs/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -3687,7 +3687,7 @@ msgstr "Dieser Umstand führt zu *kleineren* Unannehmlichkeiten für die Anwende
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md
 msgid "We also support reproducible builds, so we can build a version from source and check against your official release. If they match (ignoring the signature) we can then publish your official apk with your signature used. This is a tedious task, since we have to standardize on the build parameters and tools, but it should be worth it in the long run. We also try to verify our own builds and get a lot of binary differences, see [our verification server results](https://verification.f-droid.org/).  However, things will improve over time."
-msgstr ""
+msgstr "Wir unterstützen auch reproduzierbare Builds, wir können also eine Version aus der Quelle herstellen und sie gegen Ihre offizielle Veröffentlichung abgleichen. Stimmen beide überein (abgesehen von der Signatur) können wir Ihre offizielle, mit Ihrer Signatur versehene APK veröffentlichen. Das ist ein mühsamer Prozess, da wir die Build-Parameter und -Werkzeuge vereinheitlichen müssen, aber auf lange Sicht sollte es sich lohnen. Wir versuchen auch unsere eigenen Builds zu überprüfen und stoßen dabei auf eine Menge Binärdateiunterschiede, siehe [unsere Verifikationsserver-Ergebnisse](https://verification.f-droid.org/). Doch mit der Zeit wird sich das bessern."
 
 #. type: Title ###
 #: build/_docs/md/FAQ_-_App_Developers.md
