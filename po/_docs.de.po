@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-03-01 11:22+0100\n"
 "PO-Revision-Date: 2018-04-19 16:52+0000\n"
-"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
+"Last-Translator: anonymous <>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-docs/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -3677,12 +3677,12 @@ msgstr "Von F-Droid hergestellte Pakete sind von F-Droid signiert, somit sind al
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md
 msgid "The Android OS requires that for an app to be upgraded in place, it bears the same signature as the currently installed version. This protects against inadvertent installation of an untrusted or unwanted upgrade, and also protects the app's private data, which can only be accessed by that application (or an application that has been granted root access)."
-msgstr ""
+msgstr "Das Android-OS fordert, dass eine App, die an Ort und Stelle aktualisiert werden soll, dieselbe Signatur trägt wie die momentan installierte Version. Dies schützt vor unbeabsichtigter Installation nicht vertrauenswürdiger oder unerwünschter Versionen und bewahrt auch die App-Daten, auf die nur diese Anwendung (oder eine Anwendung, die Root-Rechte besitzt) Zugriff hat."
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md
 msgid "This situation presents a *minor* inconvenience to users who want to switch from a version signed by one party to a version signed by another. For example, if a user is running a version they installed via F-Droid, and later wish to switch to a version you sign and distribute yourself via another channel, they would have to take the additional step of uninstalling and reinstalling the app. On its own this is not even enough to qualify as a minor inconvenience - however, the consequences of the uninstall are that the app's private data is removed (again, this is for security) so the user will probably want to export that first, and re-import it afterwards."
-msgstr ""
+msgstr "Diese Gegebenheiten führen zu *kleineren* Unannehmlichkeiten für Anwender, die von einer durch die eine Partei signierten Version zu einer durch eine andere Partei signierte Version wechseln wollen. Wenn z. B. Nutzer eine Anwendung verwenden, die über F-Droid installiert wurde und später zu einer Version wechseln möchten, die Sie selbst signiert haben und über andere Kanäle verbreiten, müssen sie einen zusätzlichen Schritt unternehmen, in dem sie die App deinstallieren und neu installieren. Für sich genommen würde das nicht einmal reichen, um es als *kleinere* Unannehmlichkeit zu werten - allerdings ist die Folge der Deinstallation die gleichzeitige Löschung der App-Daten (was wiederum aus Sicherheitsgründen geschieht). Sehr wahrscheinlich wird sich der Anwender wünschen, diese vorher zu exportieren und sie hinterher wieder zu importieren."
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md
