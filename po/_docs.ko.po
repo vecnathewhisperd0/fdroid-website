@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-03-05 21:04+0100\n"
-"PO-Revision-Date: 2018-04-18 18:39+0000\n"
+"PO-Revision-Date: 2018-04-21 04:38+0000\n"
 "Last-Translator: Myeongjin Lee <aranet100@gmail.com>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/f-droid/website-docs/ko/>\n"
 "Language: ko\n"
@@ -7627,22 +7627,22 @@ msgstr ""
 #: build/_docs/md/Translation_and_Localization.md
 #, no-wrap
 msgid "Translation and Localization"
-msgstr "번역 및 지역화"
+msgstr "번역과 지역화"
 
 #. type: Plain text
 #: build/_docs/md/Translation_and_Localization.md
 msgid "As of release 0.103 of the F-Droid client app, there is now full support for localization.  That means that all of the texts can be translated into any language.  F-Droid will also use localized formats for numbers, currency, dates, etc. which happens automatically based on the language and country specified in the device's settings."
-msgstr ""
+msgstr "F-Droid 클라이언트 앱의 배포판 0.103 즈음에, 여기에는 이제 지역화를 완전히 지원합니다.  저것은 모든 텍스트가 어떠한 언어 안으로라도 번역될 수 있다는 것을 뜻합니다.  F-Droid는 또한 장치의 설정에서 지정된 언어와 국가에 따라 자동으로 숫자, 통화, 날짜, 등등을 위한 지역화된 형식을 사용할 것입니다."
 
 #. type: Plain text
 #: build/_docs/md/Translation_and_Localization.md
 msgid "There are a number of separate sections that are each managed separately, based on technical requirements:"
-msgstr ""
+msgstr "여기에는 기술 요구 사항을 바탕으로, 각각 따로 관리되는 다수의 구분된 섹션이 있습니다:"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Translation_and_Localization.md
 msgid "[F-Droid Android app strings](https://hosted.weblate.org/projects/f-droid/f-droid)"
-msgstr ""
+msgstr "[F-Droid Android 앱 문자열](https://hosted.weblate.org/projects/f-droid/f-droid)"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Translation_and_Localization.md
@@ -7657,27 +7657,27 @@ msgstr "[_저장소제작기_ 웹 도구](https://hosted.weblate.org/projects/f-
 #. type: Bullet: '* '
 #: build/_docs/md/Translation_and_Localization.md
 msgid "[selected app descriptions](https://hosted.weblate.org/projects/f-droid/fdroiddata)"
-msgstr ""
+msgstr "[선택된 앱 설명](https://hosted.weblate.org/projects/f-droid/fdroiddata)"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Translation_and_Localization.md
 msgid "[f-droid.org website \"chrome\" strings](https://hosted.weblate.org/projects/f-droid/website)"
-msgstr ""
+msgstr "[f-droid.org 웹사이트 \"chrome\" 문자열](https://hosted.weblate.org/projects/f-droid/website)"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Translation_and_Localization.md
 msgid "[f-droid.org website blog posts](https://hosted.weblate.org/projects/f-droid/website-posts)"
-msgstr ""
+msgstr "[f-droid.org 웹사이트 블로그 게시물](https://hosted.weblate.org/projects/f-droid/website-posts)"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Translation_and_Localization.md
 msgid "[f-droid.org website docs and pages](https://hosted.weblate.org/projects/f-droid/website-docs)"
-msgstr ""
+msgstr "[f-droid.org 웹사이트 설명문서와 페이지](https://hosted.weblate.org/projects/f-droid/website-docs)"
 
 #. type: Plain text
 #: build/_docs/md/Translation_and_Localization.md
 msgid "If the upstream project's source repo includes app descriptions, then those will be automatically included as long as they use the [supported layouts](../All_About_Descriptions_Graphics_and_Screenshots).  If there are any issues with missing translations or broken localized formats, please [file an issue](https://gitlab.com/groups/fdroid/issues) so it can be fixed."
-msgstr ""
+msgstr "업스트림 프로젝트의 소스 저장소에 앱 설명을 포함한다면, 그것들은 그들이 [지원되는 레이아웃](../All_About_Descriptions_Graphics_and_Screenshots)을 사용하는 한 자동으로 포함할 것입니다.  거기에 없는 번역이나 잘못된 지역화 형식으로 된 어떠한 이슈가 있다면, [이슈를 제기](https://gitlab.com/groups/fdroid/issues)하시면 그것은 고쳐질 수 있습니다."
 
 #. type: Title ##
 #: build/_docs/md/Translation_and_Localization.md
@@ -7699,13 +7699,13 @@ msgstr "기여하기"
 #. type: Plain text
 #: build/_docs/md/Translation_and_Localization.md
 msgid "Is F-Droid not in your language, or the translation is incorrect or incomplete? Get involved in the translations by signing up for [our Weblate](https://hosted.weblate.org/projects/f-droid/).  You can also find other translators on the [F-Droid forum](https://forum.f-droid.org/t/about-the-translation-category/)."
-msgstr ""
+msgstr "F-Droid에 여러분의 언어가 없거나, 번역이 부정확하거나 불완전합니까? [우리의 Weblate](https://hosted.weblate.org/projects/f-droid/)에 가입하여 번역을 참여해주세요.  여러분은 [F-Droid 포럼](https://forum.f-droid.org/t/about-the-translation-category/)에서 다른 변역자들을 찾으실 수도 있습니다."
 
 #. type: Title ###
 #: build/_docs/md/Translation_and_Localization.md
 #, no-wrap
 msgid "Adding a new language"
-msgstr ""
+msgstr "새로운 언어를 추가하기"
 
 #. type: Plain text
 #: build/_docs/md/Translation_and_Localization.md
@@ -7721,37 +7721,37 @@ msgstr ""
 #: build/_docs/md/Translation_and_Localization.md
 #, no-wrap
 msgid "When translations are included"
-msgstr ""
+msgstr "번역이 포함되는 때"
 
 #. type: Plain text
 #: build/_docs/md/Translation_and_Localization.md
 msgid "The translation files are included from Weblate before each release.  As a general rule, a translation must be at least 70% complete for it to be included in a final release.  For alpha releases, we try to include all translations, no matter how incomplete."
-msgstr ""
+msgstr "번역 파일은 Weblate에서 각 배포 전에 포함됩니다.  일반적인 규칙으로, 번역이 최종 배포판에 포함되기 위해서는 적어도 70% 완료되어야 합니다.  알파 배포판에 대해서는, 우리는 아무리 불완전하더라도 모든 번역을 포함하고자 합니다."
 
 #. type: Plain text
 #: build/_docs/md/Translation_and_Localization.md
 msgid "For the f-droid.org website, it is a much more complicated system. Since it cannot (yet?) support lots of languages, we have to put stricter requirements on it.  In order for a new language to be added to f-droid.org, it must have:"
-msgstr ""
+msgstr "f-droid.org 웹사이트에 대해, 그것은 훨씬 더 복잡한 시스템입니다. 많은 언어를 지원할 수 없는 (아직?) 이래로, 우리는 그것에 더 엄격한 요구 사항을 두게 합니다.  새로운 언어가 f-droid.org에 추가되려면, 그것은 다음 조건을 만족해야 합니다:"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Translation_and_Localization.md
 msgid "[\"chrome\" strings](https://hosted.weblate.org/projects/f-droid/website) 100% translated"
-msgstr ""
+msgstr "[\"chrome\" 문자열](https://hosted.weblate.org/projects/f-droid/website)은 100% 번역됨"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Translation_and_Localization.md
 msgid "About and Contribute pages in [website docs](https://hosted.weblate.org/projects/f-droid/website-docs) 100% translated"
-msgstr ""
+msgstr "[웹사이트 페이지](https://hosted.weblate.org/projects/f-droid/website-docs)의 정보와 기여하기 페이지는 100% 번역됨"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Translation_and_Localization.md
 msgid "10 apps in [_fdroiddata_](https://hosted.weblate.org/projects/f-droid/fdroiddata) 100% translated"
-msgstr ""
+msgstr "[_fdroiddata_](https://hosted.weblate.org/projects/f-droid/fdroiddata)의 앱 10개는 100% 번역됨"
 
 #. type: Plain text
 #: build/_docs/md/Translation_and_Localization.md
 msgid "There is a [nightly build of the website](https://staging.f-droid.org)  that includes all translations on Weblate, no matter how complete they are. This lets everyone see the progress, and means we can get new languages working well before launching them."
-msgstr ""
+msgstr "여기에는 얼마나 번역이 완료되는지 상관없이, Weblate의 모든 번역이 포함되는  [웹사이트의 nightly 빌드](https://staging.f-droid.org)가 있습니다. 이것은 모두가 과정을 보게끔 하며, 우리가 새로운 언어가 잘 작동하는지를 그들을 실행하기 전에 얻을 수 있다는 것을 뜻합니다."
 
 #. type: Title #
 #: build/_docs/md/Update_Processing.md
