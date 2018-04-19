@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-03-01 11:22+0100\n"
 "PO-Revision-Date: 2018-04-19 16:58+0000\n"
-"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
+"Last-Translator: anonymous <>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-docs/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -3698,7 +3698,7 @@ msgstr "Können mit meinem Schlüssel signierte APKs aufgenommen werden?"
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md
 msgid "Only APKs built by F-Droid are included in the official F-Droid repo. We can try to reproduce your APK, as mentioned above, but if this fails (or e.g. when you want to distribute an app with closed-source components or API keys etc.), you can put any APK in your own \"[F-Droid binary repo](../Setup_an_F-Droid_App_Repo)\", and people can add your repo to their F-Droid client in order to get your APKs."
-msgstr ""
+msgstr "Nur von F-Droid hergestellte APKs werden in das offizielle F-Droid-Repo aufgenommen. Wir können versuchen, Ihre APK, wie oben erwähnt, zu reproduzieren, misslingt das (oder wollen Sie z. B. eine App mit proprietären Komponenten und API-Schlüsseln oder Ähnlichem veröffentlichen), können Sie jede APK in Ihr eigenes \"[F-Droid-Binärdateien-Repo](../Setup_an_F-Droid_App_Repo)\" einstellen, und die Menschen können Ihr Repo zu ihren F-Droid-Clients hinzufügen, um so an Ihre APKs zu gelangen."
 
 #. type: Title ###
 #: build/_docs/md/FAQ_-_App_Developers.md
@@ -3709,7 +3709,7 @@ msgstr "Kann ich mein eigenes F-Droid-Paket-Repository betreiben?<a name=\"Can_I
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md
 msgid "Yes! You can also setup and run your own F-Droid repository of apps and other packages.  If you also release your own app via other app stores, like Google Play, we recommend that you also include those releases in your own binary repo, for among other reasons, this will provide a source of APKs for [reproducible builds](../Reproducible_Builds).  This repository can be a \"[simple binary repo](../Setup_an_F-Droid_App_Repo)\", which does not use the _fdroidserver_ build system, or you could host your own mirror of the full F-Droid.org repo."
-msgstr ""
+msgstr "Ja! Sie können auch Ihr eigenes F-Droid-Repository mit Apps und anderen Paketen einrichten und betreiben. Wenn Sie Ihre eigene App auch in anderen App-Stores, wie Google Play, veröffentlichen, empfehlen wir, dass sie diese Versionen ebenfalls in Ihr eigenes Binärdatei-Repo aufnehmen, weil so, neben anderen Gründen, eine Quelle für APKs für [reproduzierbare Builds](../Reproducible_Builds) zur Verfügung steht.  Dieses Repository kann ein \"[einfaches Binärdatei-Repo](../Setup_an_F-Droid_App_Repo)\" sein, das nicht das Build-System des _fdroidserver_ nutzt, oder Sie könnten Ihren eigenen Spiegel des kompletten F-Droid.org-Repos hosten."
 
 #. type: Title ###
 #: build/_docs/md/FAQ_-_App_Developers.md
@@ -3825,7 +3825,7 @@ msgstr "Welches Build-System sollte verwendet werden?"
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md
 msgid "We have good support for \"ant\" and \"gradle\" based builds, while \"maven\" was only used for a short period of time and for dependencies. For other build systems, you might have to provide us some detailed information on how to handle that, so we can setup the app correctly or maybe even incorporate them into our server tools."
-msgstr ""
+msgstr "Wir bieten gute Unterstützung für auf \"Ant\" und \"Gradle\" basierende Builds, während \"Maven\" nur für einen kurzen Zeitabschnitt und für Abhängigkeiten genutzt wurde. Bei anderen Build-Systemen müssten Sie uns einige detaillierte Informationen darüber bereitstellen, wie mit ihnen umgegangen werden soll, damit wir die App korrekt konfigurieren oder möglicherweise sogar die Systeme in unsere Serverwerkzeuge integrieren können"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md
