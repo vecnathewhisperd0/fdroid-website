@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-03-01 11:22+0100\n"
-"PO-Revision-Date: 2018-04-20 17:35+0000\n"
-"Last-Translator: anonymous <>\n"
+"PO-Revision-Date: 2018-04-21 17:37+0000\n"
+"Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-docs/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -3825,7 +3825,7 @@ msgstr "Welches Build-System sollte verwendet werden?"
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md
 msgid "We have good support for \"ant\" and \"gradle\" based builds, while \"maven\" was only used for a short period of time and for dependencies. For other build systems, you might have to provide us some detailed information on how to handle that, so we can setup the app correctly or maybe even incorporate them into our server tools."
-msgstr "Wir bieten gute Unterstützung für Builds auf Basis von \"Ant\" und \"Gradle\", während \"Maven\" nur für einen kurzen Zeitabschnitt und für Abhängigkeiten genutzt wurde. Bei anderen Build-Systemen müssten Sie uns einige detaillierte Informationen darüber bereitstellen, wie mit ihnen umgegangen werden soll, damit wir die App korrekt konfigurieren oder möglicherweise sogar die Systeme in unsere Serverwerkzeuge integrieren können"
+msgstr "Wir bieten gute Unterstützung für Builds auf Basis von \"Ant\" und \"Gradle\", während \"Maven\" nur für einen kurzen Zeitabschnitt und für Abhängigkeiten genutzt wurde. Bei anderen Build-Systemen müssten Sie uns einige detaillierte Informationen darüber zur Verfügung stellen, wie mit ihnen umgegangen werden soll, damit wir die App korrekt konfigurieren oder möglicherweise sogar die Systeme in unsere Serverwerkzeuge integrieren können."
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md
