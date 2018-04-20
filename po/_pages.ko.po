@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-02-23 10:04+0100\n"
-"PO-Revision-Date: 2018-04-19 08:28+0000\n"
+"PO-Revision-Date: 2018-04-21 16:39+0000\n"
 "Last-Translator: Myeongjin Lee <aranet100@gmail.com>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/f-droid/website-pages/ko/>\n"
 "Language: ko\n"
@@ -642,7 +642,7 @@ msgstr "[Nightly 빌드 게시하기](Publishing_Nightly_Builds) 여러분의 �
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
 msgid "[Installing the Server and Repo Tools](Installing_the_Server_and_Repo_Tools) How to install fdroidserver, the tools for running repos and build servers."
-msgstr "[서버와 저장소 도구 설치하기](Installing_the_Server_and_Repo_Tools) 저장소를 실행하고 서버를 빌드허기 위한 도구인 fdroidserver를 설치하는 방법입니다."
+msgstr "[서버와 저장소 도구 설치하기](Installing_the_Server_and_Repo_Tools) 저장소를 실행하고 서버를 빌드하기 위한 도구인 fdroidserver를 설치하는 방법입니다."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
@@ -682,7 +682,7 @@ msgstr "[화이트레이블 빌드](Whitelabel_Builds) F-Droid의 사용자 지�
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
 msgid "[Privileged Extension](https://gitlab.com/fdroid/privileged-extension/#f-droid-privileged-extension) How to use F-Droid Privileged Extension as a user and rom developer"
-msgstr "[특별 권한 확장 기능](https://gitlab.com/fdroid/privileged-extension/#f-droid-privileged-extension) How to use F-Droid 특별 권한 확장 기능을 사용자와 롬 개발자로서 사용하는 방법"
+msgstr "[특별 권한 확장 기능](https://gitlab.com/fdroid/privileged-extension/#f-droid-privileged-extension) F-Droid 특별 권한 확장 기능을 사용자와 롬 개발자로서 사용하는 방법"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
@@ -744,7 +744,7 @@ msgstr "저장소제작기"
 #. type: Plain text
 #: build/_pages/md/repomaker.md
 msgid "F-Droid.org is just a repo out of hundreds of repos created by individuals all around the globe. With the tools of F-Droid, everyone can create their own repo. So whether you are a musician who wants to publish their music or a developer who wants to serve nightly builds of their app, you are free to create your own repo and share it with other people independently of F-Droid.org."
-msgstr "F-Droid.org는 전세계의 개개인에 의해 만들어진 수 백개의 저장소 가운데 하나인 저장소입니다. F-Droid의 도구로, 모든 이들은 그들 자신의 저장소를 만들 수 있습니다. 그래서 여러분이 그들의 음악을 배포하고자 하는 음악가이던 그들의 앱의 나이틀리 빌드를 제공하고자 하는 개발자이건 상관없이, 여러분은 자유롭게 여러분 자신의 저장소를 만들고 F-Droid.org와 독립적으로 다른 사람들과 그것을 공유합니다."
+msgstr "F-Droid.org는 전세계의 개개인에 의해 만들어진 수 백개의 저장소 가운데 하나인 저장소입니다. F-Droid의 도구로, 모든 이들은 그들 자신의 저장소를 만들 수 있습니다. 그래서 여러분이 그들의 음악을 배포하고자 하는 음악가이건 그들의 앱의 nightly 빌드를 제공하고자 하는 개발자이건 상관없이, 여러분은 자유롭게 여러분 자신의 저장소를 만들고 F-Droid.org와 독립적으로 다른 사람들과 그것을 공유합니다."
 
 #. type: Plain text
 #: build/_pages/md/repomaker.md
@@ -794,7 +794,7 @@ msgid ""
 "*You have many possibilities where to upload your repo*\n"
 msgstr ""
 "[![]({{ site.baseurl }}/assets/repomaker-screenshots/add-storage.png)]({{ site.baseurl }}/assets/repomaker-screenshots/add-storage.png)<br/>\n"
-"*여러분의 저장소를 업로드 하는 곳에 많은 가능성이 있습니다*\n"
+"*여러분의 저장소를 업로드하는 곳에 많은 가능성이 있습니다*\n"
 
 #. type: Plain text
 #: build/_pages/md/repomaker.md
