@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-03-05 21:04+0100\n"
-"PO-Revision-Date: 2018-04-21 04:38+0000\n"
+"PO-Revision-Date: 2018-04-27 14:00+0000\n"
 "Last-Translator: Myeongjin Lee <aranet100@gmail.com>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/f-droid/website-docs/ko/>\n"
 "Language: ko\n"
@@ -40,21 +40,23 @@ msgid ""
 "* Do not remove this line (it will not be displayed)\n"
 "{:toc}\n"
 msgstr ""
+"* 이 줄을 제거하지 마시오 (표시되지 않을 것입니다)\n"
+"{:toc}\n"
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
 msgid "There are two data formats:"
-msgstr ""
+msgstr "여기에는 데이터 형식 두 가지가 있습니다:"
 
 #. type: Bullet: '* '
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
 msgid "descriptive materials in plain text or HTML"
-msgstr ""
+msgstr "일반 텍스트와 HTML의 설명 자료"
 
 #. type: Bullet: '* '
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
 msgid "graphics and screenshots as PNG or JPEG files"
-msgstr ""
+msgstr "PNG나 JPEG 파일로 된 그래픽과 스크린샷"
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -135,7 +137,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
 msgid "Example:"
-msgstr ""
+msgstr "예:"
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -412,7 +414,7 @@ msgstr ""
 #: build/_docs/md/Building_a_Signing_Server.md
 #, no-wrap
 msgid "Building a Signing Server"
-msgstr ""
+msgstr "서명 서버 빌드하기"
 
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
@@ -433,7 +435,7 @@ msgstr ""
 #: build/_docs/md/Building_a_Signing_Server.md
 #, no-wrap
 msgid "Automated Signing Server with with HSM"
-msgstr ""
+msgstr "HSM과 함께 자동화된 서명 서버"
 
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
@@ -459,7 +461,7 @@ msgstr ""
 #: build/_docs/md/Building_a_Signing_Server.md
 #, no-wrap
 msgid "Basic laptop dedicated to signing"
-msgstr ""
+msgstr "서명 전용 기초 랩톱"
 
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
@@ -475,7 +477,7 @@ msgstr ""
 #: build/_docs/md/Building_a_Signing_Server.md
 #, no-wrap
 msgid "Fully offline signing laptop with USB thumb drives"
-msgstr ""
+msgstr "USB 플래시 드라이브로 완전한 오프라인 서명 랩톱"
 
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
@@ -516,7 +518,7 @@ msgstr ""
 #: build/_docs/md/Building_a_Signing_Server.md
 #, no-wrap
 msgid "The Physical Environment"
-msgstr ""
+msgstr "물리적 환경"
 
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
@@ -562,7 +564,7 @@ msgstr ""
 #: build/_docs/md/Building_a_Signing_Server.md
 #, no-wrap
 msgid "Difficult decisions"
-msgstr ""
+msgstr "어려운 결정"
 
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
@@ -623,7 +625,7 @@ msgstr ""
 #. type: Bullet: '* '
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "_.json_ files in [JSON](http://json.org/) format"
-msgstr ""
+msgstr "[JSON](http://json.org/) 형식의 _.json_ 파일"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -890,7 +892,7 @@ msgstr ""
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "7.13 FlattrID<a name=\"FlattrID\"></a>"
 msgstr "7.13 FlattrID<a name=\"FlattrID\"></a>"
 
@@ -1002,7 +1004,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "Links to web addresses can be done using `[http://example.com Text]`."
-msgstr ""
+msgstr "웹 주소로의 연결은 `[http://example.com 텍스트]`를 사용하여 완료할 수 있습니다."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1017,7 +1019,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "4000 char limit"
-msgstr ""
+msgstr "4000자 제한"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1572,7 +1574,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "    The command runs using bash.\n"
-msgstr ""
+msgstr "    명령은 bash를 사용하여 실행합니다.\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2396,7 +2398,7 @@ msgstr ""
 #: build/_docs/md/Build_Server_Setup.md
 #, no-wrap
 msgid "Creating the Debian base box"
-msgstr ""
+msgstr "데비안 베이스 박스 만들기"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
@@ -2412,7 +2414,7 @@ msgstr ""
 #: build/_docs/md/Build_Server_Setup.md
 #, no-wrap
 msgid "Using the Debian provided vagrant boxes"
-msgstr ""
+msgstr "Vagrant box를 제공하는 데비안을 사용하기"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
@@ -2482,13 +2484,13 @@ msgstr ""
 #: build/_docs/md/Build_Server_Setup.md
 #, no-wrap
 msgid "Remove any previous versions (if one exists) of the 'jessie64' machine"
-msgstr ""
+msgstr "'jessie64' 기계의 어떠한 이전 버전(존재한다면)도 제거"
 
 #. type: Title #
 #: build/_docs/md/Build_Server_Setup.md
 #, no-wrap
 msgid "created by makebuildserver. Otherwise it will reuse the old version."
-msgstr ""
+msgstr "makebuildserver에 의해 만들어집니다. 그렇지 않으면 오래된 버전을 다시 사용할 것입니다."
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
@@ -2499,7 +2501,7 @@ msgstr ""
 #: build/_docs/md/Build_Server_Setup.md
 #, no-wrap
 msgid "Building a Debian base box from scratch"
-msgstr ""
+msgstr "Scratch로부터 데비안 베이스 박스를 빌드하기"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
@@ -2535,7 +2537,7 @@ msgstr ""
 #: build/_docs/md/Build_Server_Setup.md
 #, no-wrap
 msgid "Creating the F-Droid base box"
-msgstr ""
+msgstr "F-Droid 베이스 박스 만들기"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
@@ -2612,7 +2614,7 @@ msgstr ""
 #: build/_docs/md/Build_Server_Setup.md
 #, no-wrap
 msgid "Optionally using QEMU/KVM/libvirt instead of VirtualBox"
-msgstr ""
+msgstr "선택적으로 VirtualBox 대신에 QEMU/KVM/libvirt를 사용하기"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
@@ -2649,7 +2651,7 @@ msgstr ""
 #: build/_docs/md/Build_Server_Setup.md
 #, no-wrap
 msgid "Debian/stretch and Ubuntu/xenial"
-msgstr ""
+msgstr "Debian/stretch와 Ubuntu/xenial"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
@@ -2660,7 +2662,7 @@ msgstr ""
 #: build/_docs/md/Build_Server_Setup.md
 #, no-wrap
 msgid "older Debian and Ubuntu"
-msgstr ""
+msgstr "오래된 Debian과 Ubuntu"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
@@ -2671,7 +2673,7 @@ msgstr ""
 #: build/_docs/md/Build_Server_Setup.md
 #, no-wrap
 msgid "Advanced nested KVM Setup:"
-msgstr ""
+msgstr "고급 중첩된 KVM 설정:"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
@@ -2822,7 +2824,7 @@ msgstr ""
 #: build/_docs/md/Client_Bug_Reports.md
 #, no-wrap
 msgid "Why does an issue say \"waiting on response\" next to it?"
-msgstr ""
+msgstr "왜 이슈가 \"응답 대기 중\"이 그것 옆에서 말합니까?"
 
 #. type: Plain text
 #: build/_docs/md/Client_Bug_Reports.md
@@ -2859,7 +2861,7 @@ msgstr ""
 #: build/_docs/md/Deploying_the_Website.md
 #, no-wrap
 msgid "Deploying the Website"
-msgstr ""
+msgstr "웹사이트 배포하기"
 
 #. type: Plain text
 #: build/_docs/md/Deploying_the_Website.md
@@ -2870,7 +2872,7 @@ msgstr ""
 #: build/_docs/md/Deploying_the_Website.md
 #, no-wrap
 msgid "Staging on development forks"
-msgstr ""
+msgstr "개발 포크에서 스테이징"
 
 #. type: Plain text
 #: build/_docs/md/Deploying_the_Website.md
@@ -2881,7 +2883,7 @@ msgstr ""
 #: build/_docs/md/Deploying_the_Website.md
 #, no-wrap
 msgid "Deploying merge request branches"
-msgstr ""
+msgstr "병합 요청 브랜치 배포하기"
 
 #. type: Plain text
 #: build/_docs/md/Deploying_the_Website.md
@@ -2933,7 +2935,7 @@ msgstr ""
 #: build/_docs/md/Deploying_the_Website.md
 #, no-wrap
 msgid "Staging of the official website"
-msgstr ""
+msgstr "공식 웹사이트의 스테이징"
 
 #. type: Plain text
 #: build/_docs/md/Deploying_the_Website.md
@@ -2980,7 +2982,7 @@ msgstr ""
 #: build/_docs/md/Deploying_the_Website.md
 #, no-wrap
 msgid "Setting up and running the deploy procedure"
-msgstr ""
+msgstr "배포 절차를 설정하고 실행하기"
 
 #. type: Plain text
 #: build/_docs/md/Deploying_the_Website.md
@@ -7688,7 +7690,7 @@ msgstr "\"언어\" 환경 설정"
 #. type: Plain text
 #: build/_docs/md/Translation_and_Localization.md
 msgid "There are cases where having English as the fallback language is not helpful.  For example, much of the world would prefer to fall back to Chinese, Spanish, or Russian instead of English.  On Android 6.0 and older, F-Droid provides a \"Languages\" setting inside the app so that users can switch F-Droid to a different language.  Note that this might not handle localized format properly, just the language. Android 7.0 fixed this by allowing users to specify a list of language+country \"locales\", ordered by importance to the user."
-msgstr ""
+msgstr "여기에는 영어를 대체 언어로 가지는 경우는 유용하지 않습니다.  예를 들어, 세계 대다수는 영어를 대신해 중국어, 스페인어 또는 러시아어로 대체하는 것을 선호할 것입니다.  Android 6.0 이하에서는, F-Droid는 앱 안에 \"언어\" 설정을 제공하므로 사용자들은 F-Droid를 다른 언어로 전환할 수 있습니다.  이것은 지역화된 형식을 제대로 처리하지 못할 수 있고, 단지 언어를 처리한다는 것을 참고하세요. Android 7.0은 사용자가 사용자에게 중요도 순으로 언어+지역 \"로캘\"의 목록을 지정할 수 있도록 하여 이점을 고쳤습니다."
 
 #. type: Title ##
 #: build/_docs/md/Translation_and_Localization.md
@@ -7757,7 +7759,7 @@ msgstr "여기에는 얼마나 번역이 완료되는지 상관없이, Weblate�
 #: build/_docs/md/Update_Processing.md
 #, no-wrap
 msgid "Update Processing"
-msgstr ""
+msgstr "업데이트 처리"
 
 #. type: Plain text
 #: build/_docs/md/Update_Processing.md
@@ -7768,7 +7770,7 @@ msgstr ""
 #: build/_docs/md/Update_Processing.md
 #, no-wrap
 msgid "Detecting<a name=\"Detecting\"></a>"
-msgstr ""
+msgstr "감지하기<a name=\"Detecting\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Update_Processing.md
@@ -7836,7 +7838,7 @@ msgstr ""
 #: build/_docs/md/Verification_Server.md
 #, no-wrap
 msgid "Verification based on APK signature"
-msgstr ""
+msgstr "APK 서명을 바탕으로 검증"
 
 #. type: Plain text
 #: build/_docs/md/Verification_Server.md
@@ -7847,7 +7849,7 @@ msgstr ""
 #: build/_docs/md/Verification_Server.md
 #, no-wrap
 msgid "Setting one up"
-msgstr ""
+msgstr "하나를 설정하기"
 
 #. type: Plain text
 #: build/_docs/md/Verification_Server.md
@@ -8079,7 +8081,7 @@ msgstr ""
 #: build/_docs/md/Whitelabel_Builds.md
 #, no-wrap
 msgid "Whitelabel Builds"
-msgstr ""
+msgstr "화이트레이블 빌드"
 
 #. type: Plain text
 #: build/_docs/md/Whitelabel_Builds.md
