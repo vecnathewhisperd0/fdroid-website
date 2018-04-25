@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-03-01 11:22+0100\n"
-"PO-Revision-Date: 2018-04-21 17:37+0000\n"
+"PO-Revision-Date: 2018-04-26 16:38+0000\n"
 "Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-docs/de/>\n"
 "Language: de\n"
@@ -1168,9 +1168,8 @@ msgstr "Die Option ‘git-svn‘ verbindet zu einem SVN-Repository und die URL w
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy
 msgid "If the Repo Type is `srclib`, then you must specify the name of the according srclib .txt file. For example if `scrlibs/FooBar.txt` exist and you want to use this srclib, then you have to set Repo to `FooBar`."
-msgstr "Wenn der Repo-Typ `srclib` ist, müssen Sie den Namen der entsprechenden srclib.txt-Datei angeben. Wenn zum Beispiel `scrlibs/FooBar.txt` existiert und Sie diese srclib verwenden wollen, dann müssen Sie Repo auf `FooBar` setzen."
+msgstr "Wenn der Repo-Typ `srclib` ist, müssen Sie den Namen der entsprechenden srclib .txt-Datei angeben. Wenn zum Beispiel `scrlibs/FooBar.txt` existiert und Sie diese srclib verwenden wollen, dann müssen Sie Repo auf `FooBar` setzen."
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1873,6 +1872,9 @@ msgid ""
 "    either Ant, mvn or gradle will be executed to clean the build\n"
 "    environment right before build= (or the final build) is run.\n"
 msgstr ""
+"    Jeder build, der vor build= stattfindet, wird ignoriert, da entweder \n"
+"    Ant, mvn oder gradle ausgeführt wird, um die Build Umgebung \n"
+"    direkt bevor build= (oder dem endgültigen Build) ausgeführt wird, zu bereinigen\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2084,9 +2086,9 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "`antifeatures=<antifeature1>[,<antifeature2>,...]`\n"
-msgstr "`antcommands=<target1>[,<target2>,...]`\n"
+msgstr "`antifeatures=<problematisches Merkmal 1>[,<problematisches Merkmal 2>,...]`\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2098,9 +2100,9 @@ msgstr ""
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "7.24 AntiFeatures<a name=\"AntiFeatures\"></a>"
-msgstr "7.23 Problematische Merkmale<a name=\"AntiFeatures\"></a>"
+msgstr "7.24 Problematische Merkmale<a name=\"AntiFeatures\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2119,7 +2121,6 @@ msgstr "‘Tracking’ - die Anwendung verfolgt und übermittelt irgendwo hin An
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy
 msgid "‘NonFreeNet’ - the application relies on computational services that are impossible to replace or that the replacement cannot be connected to without major changes to the app."
 msgstr "‘NonFreeNet’ - die Anwendung ist auf Rechnerdienste angewiesen, die unmöglich ersetzt werden können oder der Ersatz kann sich, ohne gravierende Veränderungen an der App, nicht damit verbinden."
 
@@ -2155,15 +2156,15 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "This is converted to (`<antifeatures>`) in the XML file (_index.xml_).\n"
 msgstr "Umwandlung zu (`<antifeatures>`) in der XML-Datei (_index.xml_).\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "7.25 Disabled<a name=\"Disabled\"></a>"
-msgstr "7.24 Gesperrt<a name=\"Disabled\"></a>"
+msgstr "7.25 Deaktiviert<a name=\"Disabled\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2172,9 +2173,9 @@ msgstr "Ist dieses Feld vorhanden, wird die Anwendung nicht in das der Öffentli
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "7.26 Requires Root<a name=\"Requires-Root\"></a>"
-msgstr "7.25 Braucht Root<a name=\"Requires-Root\"></a>"
+msgstr "7.26 Benötigt Root<a name=\"Requires-Root\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2183,15 +2184,15 @@ msgstr "Dieses optionale Feld sollte \"Yes\" enthalten, wenn die Anwendung Root-
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "This is converted to (`<requirements>`) in the XML file (_index.xml_).\n"
 msgstr "Umwandlung zu (`<requirements>`) in der XML-Datei (_index.xml_).\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "7.27 Archive Policy<a name=\"Archive-Policy\"></a>"
-msgstr "7.26 Archivierrichtlinie<a name=\"Archive-Policy\"></a>"
+msgstr "7.27 Archivrichtlinie<a name=\"Archive-Policy\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2205,9 +2206,9 @@ msgstr "Momentan ist das einzige unterstützte Format \"n versions\", wobei n di
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "7.28 Update Check Mode<a name=\"Update-Check-Mode\"></a>"
-msgstr "7.27 Aktualisierungsprüfmethode<a name=\"Update-Check-Mode\"></a>"
+msgstr "7.28 Aktualisierungsprüfmethode<a name=\"Update-Check-Mode\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2313,9 +2314,9 @@ msgstr ""
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "7.29 Vercode Operation<a name=\"Vercode-Operation\"></a>"
-msgstr "7.28 Versionscode-Operation<a name=\"Vercode-Operation\"></a>"
+msgstr "7.29 Versionscode-Vorgang<a name=\"Vercode-Operation\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2329,9 +2330,9 @@ msgstr ""
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "7.30 Update Check Ignore<a name=\"Update-Check-Ignore\"></a>"
-msgstr "7.29 Ausnahme bei Aktualisierungsprüfung<a name=\"Update-Check-Ignore\"></a>"
+msgstr "7.30 Aktualisierungsprüfung ignorieren<a name=\"Update-Check-Ignore\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2340,9 +2341,9 @@ msgstr ""
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "7.31 Update Check Name<a name=\"Update-Check-Name\"></a>"
-msgstr "7.30 Name für Aktualisierungsprüfung<a name=\"Update-Check-Name\"></a>"
+msgstr "7.31 Name für Aktualisierungsprüfung<a name=\"Update-Check-Name\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2356,9 +2357,9 @@ msgstr ""
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "7.32 Update Check Data<a name=\"Update-Check-Data\"></a>"
-msgstr "7.31 Daten zur Aktualisierungsprüfung<a name=\"Update-Check-Data\"></a>"
+msgstr "7.32 Daten zur Aktualisierungsprüfung<a name=\"Update-Check-Data\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2367,9 +2368,9 @@ msgstr "Wird in Verbindung mit der `Aktualisierungsprüfmethode` für bestimmte 
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "7.33 Auto Update Mode<a name=\"Auto-Update-Mode\"></a>"
-msgstr "7.32 Automatische Aktualisierungsmethode<a name=\"Auto-Update-Mode\"></a>"
+msgstr "7.33 Automatische Aktualisierungsmethode<a name=\"Auto-Update-Mode\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2408,9 +2409,9 @@ msgstr ""
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "7.34 Current Version<a name=\"Current-Version\"></a>"
-msgstr "7.33 Aktuelle Version<a name=\"Current-Version\"></a>"
+msgstr "7.34 Aktuelle Version<a name=\"Current-Version\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2424,15 +2425,15 @@ msgstr "Dieses Feld wird normalerweise automatisch aktualisiert, siehe Aktualisi
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "This is converted to (`<marketversion>`) in the XML file (_index.xml_).\n"
 msgstr "Umwandlung zu (`<marketversion>`) in der XML-Datei (_index.xml_).\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "7.35 Current Version Code<a name=\"Current-Version-Code\"></a>"
-msgstr "7.34 Aktueller Versionscode<a name=\"Current-Version-Code\"></a>"
+msgstr "7.35 Aktueller Versionscode<a name=\"Current-Version-Code\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2451,15 +2452,15 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "This is converted to (`<marketvercode>`) in the XML file (_index.xml_).\n"
 msgstr "Umwandlung zu (`<marketvercode>`) in der XML-Datei (_index.xml_).\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "7.36 No Source Since<a name=\"No-Source-Since\"></a>"
-msgstr "7.35 Keine Quelle seit<a name=\"No-Source-Since\"></a>"
+msgstr "7.36 Keine Quelle seit<a name=\"No-Source-Since\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2540,7 +2541,7 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "```bash\n"
 "root:~# apt-get install vagrant virtualbox git python3-certifi \\\n"
@@ -2554,7 +2555,8 @@ msgstr ""
 "```bash\n"
 "root:~# apt-get install vagrant virtualbox git python3-certifi \\\n"
 "        python3-libvirt python3-requestbuilder python3-yaml \\\n"
-"        python3-clint python3-vagrant python3-paramiko\n"
+"        python3-clint python3-vagrant python3-paramiko python3-pyasn1 \\\n"
+"        python3-pyasn1-modules\n"
 "root:~# adduser --disabled-password fdroid\n"
 "root:~# su fdroid\n"
 "```\n"
@@ -2860,7 +2862,7 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "```console\n"
 "root:~# apt-get install vagrant vagrant-mutate vagrant-libvirt ebtables dnsmasq-base \\\n"
@@ -2873,15 +2875,21 @@ msgid ""
 "root:~# service libvirtd restart\n"
 "```\n"
 msgstr ""
-"```bash\n"
+"```console\n"
 "root:~# apt-get install vagrant vagrant-mutate vagrant-libvirt ebtables dnsmasq-base \\\n"
-"  libvirt-clients libvirt-daemon libvirt-daemon-system qemu-kvm qemu-utils git\n"
+"        python3-libvirt libvirt-clients libvirt-daemon-system qemu-kvm qemu-utils git\n"
+"root:~# cat << EOF >> /etc/libvirt/qemu.conf\n"
+"user = \"libvirt\"\n"
+"group = \"libvirt\"\n"
+"dynamic_ownership = 1\n"
+"EOF\n"
+"root:~# service libvirtd restart\n"
+"```\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
-#, fuzzy
 msgid "Then create a _makebuildserver.config.py_ next to _makebuildserver_ and add:"
-msgstr "cd ../fdroidserver cp ./examples/makebuildserver.config.py ./ ./makebuildserver"
+msgstr "Erstellen Sie dann neben _makebuildserver_ eine _makebuildserver.config.py_ und fügen Sie hinzu:"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
@@ -2896,9 +2904,8 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
-#, fuzzy
 msgid "```console root:~# adduser fdroid libvirt root:~# adduser fdroid libvirt-qemu ```"
-msgstr "root:~# service libvirtd restart root:~# adduser fdroid libvirt ```"
+msgstr "```console root:~# adduser fdroid libvirt root:~# adduser fdroid libvirt-qemu ```"
 
 #. type: Title #####
 #: build/_docs/md/Build_Server_Setup.md
@@ -2908,9 +2915,8 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
-#, fuzzy
 msgid "```console root:~# adduser fdroid libvirtd root:~# adduser fdroid kvm ```"
-msgstr "root:~# service libvirtd restart root:~# adduser fdroid libvirt ```"
+msgstr "```console root:~# adduser fdroid libvirtd root:~# adduser fdroid kvm ```"
 
 #. type: Title ###
 #: build/_docs/md/Build_Server_Setup.md
@@ -3123,9 +3129,8 @@ msgstr "Bereitstellung der Internetseite"
 
 #. type: Plain text
 #: build/_docs/md/Deploying_the_Website.md
-#, fuzzy
 msgid "The F-Droid website is built using [Jekyll](https://jekyllrb.com/) and [gitlab-ci](https://about.gitlab.com/features/gitlab-ci-cd/).  The whole website now works using a standard git [\"fork\" workflow](https://docs.gitlab.com/ce/workflow/forking_workflow.html)  that is well supported by gitlab, and well known from services like GitHub.  For all of the pages and information about apps and packages distributed by _f-droid.org_, those pages are generated using our [jekyll-fdroid](https://gitlab.com/fdroid/jekyll-fdroid) plugin, which takes the content from the [_f-droid.org_ index file](https://f-droid.org/repo/index-v1.jar)."
-msgstr "Bei der Erstellung der F-Droid-Internetseite wird [Jekyll](https://jekyllrb.com/) und [gitlab-ci](https://about.gitlab.com/features/gitlab-ci-cd/) verwendet.  Die gesamte Internetseite funktioniert nun durch Nutzung eines Standard-Git-[\"fork\"-Workflows](https://docs.gitlab.com/ce/workflow/forking_workflow.html), der völlig von GitLab unterhalten wird und von Diensten wie GitHub bestens bekannt ist. Alle Seiten und Informationen über Apps und Pakete , die von _f-droid.org_ vertrieben werden, werden mithilfe unseres Plugins [jekyll-fdroid](https://gitlab.com/fdroid/jekyll-fdroid) erzeugt, das die Inhalte aus der [_f-droid.org_ Indexdatei](https://f-droid.org/repo/index-v1.json) bezieht."
+msgstr "Bei der Erstellung der F-Droid-Internetseite wird [Jekyll](https://jekyllrb.com/) und [gitlab-ci](https://about.gitlab.com/features/gitlab-ci-cd/) verwendet.  Die gesamte Internetseite funktioniert nun durch Nutzung eines Standard-Git [\"fork\"-Workflows](https://docs.gitlab.com/ce/workflow/forking_workflow.html),  der völlig von GitLab unterhalten wird und von Diensten wie GitHub bestens bekannt ist.  Alle Seiten und Informationen über Apps und Pakete, die von _f-droid.org_ vertrieben werden, werden mithilfe unseres Plugins [jekyll-fdroid](https://gitlab.com/fdroid/jekyll-fdroid) erzeugt, das die Inhalte aus der [_f-droid.org_ Indexdatei](https://f-droid.org/repo/index-v1.jar) bezieht."
 
 #. type: Title ###
 #: build/_docs/md/Deploying_the_Website.md
@@ -3423,15 +3428,14 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Deploying_the_Website.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "<Files *.html>\n"
 "    SetHandler type-map\n"
 "</Files>\n"
 msgstr ""
-"```apacheconfig\n"
 "<Files *.html>\n"
-"        SetHandler type-map\n"
+"    SetHandler type-map\n"
 "</Files>\n"
 
 #. type: Title #
@@ -4083,7 +4087,6 @@ msgstr "Warum fordert F-Droid den Root-Zugriff?"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md
-#, fuzzy
 msgid "There is a feature (still in beta) which allows unattended installs.  This requires root access, because it bypasses the usual apk install process in Android. *We suggest not to use this feature* unless you know what you are doing, as it doesn't show you the permissions an app requires before you install it. Thise feature must explicitly be enabled in the settings, by selecting \"Expert Mode\" and then \"Install using root access\". In the future, it should become useful for implementing an \"Update all apps\" feature."
 msgstr "Es gibt eine Funktion (bis jetzt noch in einer Beta-Version), die selbstständige Installationen ermöglicht.  Diese benötigt den Root-Zugriff, da sie den herkömmlichen APK-Installationsvorgang in Android umgeht. *Wir empfehlen, diese Funktion nicht zu nutzen*, außer Sie wissen, was Sie damit tun, da Ihnen die von einer App geforderten Berechtigungen bei einer Installation nicht angezeigt werden. Die Funktion muss ausdrücklich in den Einstellungen, durch Auswahl des \"Expertenmodus\" und dann \"Install using root access\", aktiviert werden. Zukünftig könnte sie bei der Umsetzung einer \"Alle Apps aktualisieren\"-Funktion hilfreich werden."
 
@@ -5546,9 +5549,8 @@ msgstr "Die [fdroidserver](https://gitlab.com/fdroid/fdroidserver)-Werkzeuge bie
 
 #. type: Plain text
 #: build/_docs/md/Installing_the_Server_and_Repo_Tools.md
-#, fuzzy
 msgid "To setup and maintain your own collection of apps and media from the command line, setup an F-Droid repository using the tools from _fdroidserver_.  To run the full F-Droid build server setup, see [Build Server Setup](../Build_Server_Setup)."
-msgstr "Um Ihre eigene App- und Mediensammlung einzurichten und zu betreiben, müssen Sie mithilfe der Instrumente von *fdroidserver* ein F-Droid-Repository konfigurieren."
+msgstr "Um Ihre eigene App- und Mediensammlung einzurichten und zu betreiben, müssen Sie mithilfe der Instrumente von _fdroidserver_ ein F-Droid-Repository konfigurieren.  Um das komplette F-Droid Buildserver-Setup auszuführen, siehe [Build Server Setup](../Build_Server_Setup)."
 
 #. type: Title ##
 #: build/_docs/md/Installing_the_Server_and_Repo_Tools.md
@@ -5876,7 +5878,7 @@ msgstr ""
 #: build/_docs/md/Maintaining_the_Forum.md
 #, fuzzy, no-wrap
 msgid "General information"
-msgstr "Weitergehende Informationen"
+msgstr "Allgemeine Informationen"
 
 #. type: Plain text
 #: build/_docs/md/Maintaining_the_Forum.md
@@ -6012,7 +6014,7 @@ msgstr ""
 #: build/_docs/md/Maintaining_the_Forum.md
 #, fuzzy, no-wrap
 msgid "Installation log"
-msgstr "Direktinstallation"
+msgstr "Installationsprotokoll"
 
 #. type: Plain text
 #: build/_docs/md/Maintaining_the_Forum.md
@@ -6085,9 +6087,8 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Maintaining_the_Forum.md
-#, fuzzy
 msgid "```bash apt install docker-ce ```"
-msgstr "```bash port install fdroidserver ```"
+msgstr "```bash apt install docker-ce ```"
 
 #. type: Plain text
 #: build/_docs/md/Maintaining_the_Forum.md
@@ -6096,9 +6097,8 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Maintaining_the_Forum.md
-#, fuzzy
 msgid "```bash docker run hello-world ```"
-msgstr "```bash fdroid build ```"
+msgstr "```bash docker run hello-world ```"
 
 #. type: Title ####
 #: build/_docs/md/Maintaining_the_Forum.md
@@ -6490,7 +6490,7 @@ msgstr "-   Git-Repo: <https://gitlab.com/fdroid/privileged-extension>\n    -   
 #: build/_docs/md/Release_Process.md
 #, fuzzy, no-wrap
 msgid "Release Process"
-msgstr "Aktualisierungsverarbeitung"
+msgstr "Release-Prozess"
 
 #. type: Plain text
 #: build/_docs/md/Release_Process.md
@@ -6530,9 +6530,8 @@ msgstr ""
 
 #. type: Bullet: '6. '
 #: build/_docs/md/Release_Process.md
-#, fuzzy
 msgid "once the _weblate_ branch is merged, reset the git repo in <https://hosted.weblate.org/projects/f-droid/f-droid/#repository>"
-msgstr "[F-Droid Android App Strings](https://hosted.weblate.org/projects/f-droid/f-droid/)"
+msgstr "sobald der Zweig _weblate_ zusammengeführt wurde, setzen Sie den git repo in <https://hosted.weblate.org/projects/f-droid/f-droid/#repository> zurück"
 
 #. type: Bullet: '7. '
 #: build/_docs/md/Release_Process.md
@@ -6563,7 +6562,7 @@ msgstr ""
 #: build/_docs/md/Release_Process.md
 #, fuzzy, no-wrap
 msgid "major release"
-msgstr "Ältere Versionen"
+msgstr "Major Release"
 
 #. type: Plain text
 #: build/_docs/md/Release_Process.md
@@ -6980,9 +6979,8 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Reproducible_Builds.md
-#, fuzzy
 msgid "Also see: [Build Metadata Reference - Binaries](../Build_Metadata_Reference/#Binaries)"
-msgstr "Weitere Informationen, siehe [F-Droid-Handbuch](https://f-droid.org/docs/Build_Metadata_Reference/index.html#Categories)."
+msgstr "Siehe auch: [Build Metadata Reference - Binaries](../Build_Metadata_Reference/#Binaries)"
 
 #. type: Title ###
 #: build/_docs/md/Reproducible_Builds.md
@@ -7246,9 +7244,8 @@ msgstr "Die signierten Metadaten schließen eine Liste offizieller Spiegel ein, 
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Security_Model.md
-#, fuzzy
 msgid "We are also moving the standard HTTP “etag” cache check from the server [to the client](https://gitlab.com/fdroid/fdroidclient/issues/562) so it cannot be abused to track users"
-msgstr "Darüberhinaus wird der Standardtest des HTTP-“etag”-Zwischenspeichers vom Server [auf den Client](https://gitlab.com/fdroid/fdroidclient/issues/562) verlagert, damit er nicht zur Rückverfolgung von Nutzern mißbraucht werden kann"
+msgstr "Darüber hinaus verlagern wir den Standardtest des HTTP-“etag”-Zwischenspeichers vom Server [auf den Client](https://gitlab.com/fdroid/fdroidclient/issues/562), damit er nicht zur Rückverfolgung von Nutzern mißbraucht werden kann"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Security_Model.md
@@ -7694,7 +7691,6 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
-#, fuzzy
 msgid "[F-Droid documentation](https://f-droid.org/docs)"
 msgstr "[F-Droid-Handbuch](https://f-droid.org/docs/)"
 
@@ -7769,7 +7765,7 @@ msgstr "Code beziehen"
 
 #. type: Plain text
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "cd ~/code\n"
 "git clone https://gitlab.com/fdroid/fdroidserver.git\n"
@@ -7780,7 +7776,8 @@ msgstr ""
 "cd ~/code\n"
 "git clone https://gitlab.com/fdroid/fdroidserver.git\n"
 "git clone https://gitlab.com/fdroid/fdroiddata.git\n"
-"echo 'export PATH=\"~/code/fdroidserver:$PATH\"' >> ~/.profile source ~/.profile\n"
+"echo 'export PATH=\"~/code/fdroidserver:$PATH\"' >> ~/.profile\n"
+"source ~/.profile\n"
 
 #. type: Title #
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
@@ -7925,9 +7922,8 @@ msgstr "Auto Update Mode:Version v%v Update Check Mode:Tags v\\d+\\.\\d+(\\.\\d+
 
 #. type: Plain text
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
-#, fuzzy
 msgid "For more info, see the F-Droid [Build Metadata Reference](../Build_Metadata_Reference)."
-msgstr "Weitere Informationen, siehe [F-Droid-Handbuch](https://f-droid.org/docs/Build_Metadata_Reference/index.html#Categories)."
+msgstr "Weitere Informationen finden Sie unter F-Droid [Build Metadata Reference](../Build_Metadata_Reference)."
 
 #. type: Plain text
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
