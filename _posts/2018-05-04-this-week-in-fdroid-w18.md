@@ -25,6 +25,7 @@ Hi everyone! You have been telling us you liked the first [#twif](https://mastod
 #### Community News
 * [Briar](https://briarproject.org/) is moving out of beta, and put out a release candidate for version 1.0. Briar is a messaging app designed for activists, journalists, and anyone else who needs a safe, easy and robust way to communicate. It can operate over WiFi and bluetooth, even during an internet blackout. It has integrated Tor support, private chats, forums, blogs and more to come like crisis mapping and collaborative document editing.\
   Briar is not yet in the F-Droid main repository because we're stuck on [reproducible build issues](https://code.briarproject.org/akwizgran/briar/issues/164). If you want to try it right now, you can [add the Briar repository to your F-Droid](https://briarproject.org/fdroid.html).
+* We were mentioned in a buzzfeed article on [how apps sell your data](https://www.buzzfeed.com/nicolenguyen/how-apps-take-your-data-and-sell-it-without-you-even). _"[...] Kwet also suggests Android users try the F-Droid App Store, because it offers apps without tracking and has a strict auditing process."_
 
 #### New apps
 
@@ -51,12 +52,12 @@ In total, a whopping 59 apps were updated! Here are the highlights:
   ANYWAY. As of now analytics are disabled by default, so no more antifeature! This only affects new installs, however. If you want to opt out of analytics in your already installed app, you can disable it in settings. Other highlights include **read-only** sticker support, and making notifications swipeable again.\
   Oh, and if you want Riot to not die in the background, you need to disable battery optimization for it, and enable background sync in settings. Note that if you don't disable battery optimization, background sync will turn itself off again!
 * [Tusky](https://f-droid.org/app/com.keylesspalace.tusky) was updated from 1.6.1 to 1.7.0, with support for custom toot size limit of some instances, new translations and updates, and bug fixes. To copy the content of a toot to the clipboard you now need to long press it.
+* [WaveUp](https://f-droid.org/app/com.jarsilio.android.waveup) 2.0.0 now includes a foreground service (with an obligatory notification that you can hide) to prevent it from being killed by the system on Android 8 (Oreo).
 * [AFWall+](https://f-droid.org/app/dev.ukanth.ufirewall) was updated from 2.9.8 to 2.9.9
 * [Gadgetbridge](https://f-droid.org/app/nodomain.freeyourgadget.gadgetbridge) was updated from 0.26.1 to 0.26.2
 * [Markor](https://f-droid.org/app/net.gsantner.markor) was updated from 0.3.5 to 0.3.6
 * [Tasks](https://f-droid.org/app/org.tasks) was updated from 5.3.6 to 6.0.5
 * [The Light](https://f-droid.org/app/org.hlwd.bible) was updated from 2.13 to 3.0
-* [WaveUp](https://f-droid.org/app/com.jarsilio.android.waveup) was updated from 1.7.1 to 2.0.0
 
 #### Archived apps
 
