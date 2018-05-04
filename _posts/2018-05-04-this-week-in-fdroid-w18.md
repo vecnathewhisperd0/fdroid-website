@@ -25,7 +25,7 @@ Hi everyone! You have been telling us you liked the first [#twif](https://mastod
 #### Community News
 * [Briar](https://briarproject.org/) is moving out of beta, and put out a release candidate for version 1.0. Briar is a messaging app designed for activists, journalists, and anyone else who needs a safe, easy and robust way to communicate. It can operate over WiFi and bluetooth, even during an internet blackout. It has integrated Tor support, private chats, forums, blogs and more to come like crisis mapping and collaborative document editing.\
   Briar is not yet in the F-Droid main repository because we're stuck on [reproducible build issues](https://code.briarproject.org/akwizgran/briar/issues/164). If you want to try it right now, you can [add the Briar repository to your F-Droid](https://briarproject.org/fdroid.html).
-* We were mentioned in a buzzfeed article on [how apps sell your data](https://www.buzzfeed.com/nicolenguyen/how-apps-take-your-data-and-sell-it-without-you-even). _"[...] Kwet also suggests Android users try the F-Droid App Store, because it offers apps without tracking and has a strict auditing process."_
+* We were mentioned in a BuzzFeed article on [how apps sell your data](https://www.buzzfeed.com/nicolenguyen/how-apps-take-your-data-and-sell-it-without-you-even). _"[...] Kwet also suggests Android users try the F-Droid App Store, because it offers apps without tracking and has a strict auditing process."_
 
 #### New apps
 
