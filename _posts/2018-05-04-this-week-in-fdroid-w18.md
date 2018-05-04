@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "This Week in F-Droid, Week 18"
-author: "[Coffee](https://forum.f-droid.org/u/coffee)"
+author: "Coffee"
 
 ---
 
