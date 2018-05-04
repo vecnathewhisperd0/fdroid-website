@@ -21,6 +21,7 @@ Hi everyone! You have been telling us you liked the first [#twif](https://mastod
 * Well, kind of. As it turns out, switching between old and new index formats uncovered another bug, in which one index was generated in the wrong time zone. That, combined with the index downgrade protection, means F-Droid will refuse to update and give an "index.jar older than current index" error.\
   This was fixed last week for f-droid.org, but it affects all 3rd-party repositories as well. We'll try to get an fdroidserver bugfix release out soon, but meanwhile fdroidserver@master is fixed and will fix your repository index.
 * We're at almost 1900 followers on [Mastodon](https://mastodon.technology/@fdroidorg)!
+* Thanks to everyone who suggested apps to highlight. It's been very helpful! Unfortunately a few suggestions couldn't be processed because the apps in question weren't updated this week. Better luck next time!
 
 #### Community News
 * [Briar](https://briarproject.org/) is moving out of beta, and put out a release candidate for version 1.0. Briar is a messaging app designed for activists, journalists, and anyone else who needs a safe, easy and robust way to communicate. It can operate over WiFi and bluetooth, even during an internet blackout. It has integrated Tor support, private chats, forums, blogs and more to come like crisis mapping and collaborative document editing.\
