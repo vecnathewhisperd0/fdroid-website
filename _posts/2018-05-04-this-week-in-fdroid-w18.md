@@ -14,8 +14,6 @@ Hi everyone! You have been telling us you liked the first [#twif](https://mastod
 * F-Droid client v1.3-alpha0 is available. It has the new wifi/data preferences, which was one of the priorities of the [Viento](https://guardianproject.info/wind/) funding: making F-Droid work better on cheap devices, low/expensive bandwidth, and small storage.
 
   As mentioned in the [previous TWIF](https://f-droid.org/en/2018/04/27/this-week-in-fdroid.html), V1.3 no longer supports Android 2.3.3 or 3.x. Android 4.0 is the minimum. That freed us to update tons of things, and ditch our own custom forks.
-* The new build server host running on Debian/stretch is going to run as a KVM guest that then launches the build server VM as a KVM guest within the main guest.
-* We are also in the process of setting up the first trial mirror, which will receive push rsync from the source. This'll let us start testing lots of things, 
 * [Bubu](https://forum.f-droid.org/u/Bubu) did some work work on bringing the rocketchat app to F-Droid. The FOSS flavour is currently pending upstream review. It lacks push notifications, but otherwise works fine.
 * Search page styling broke last Wednesday and got fixed again on Thursday.
 * The "error getting index file" and the Arabic titles bugs got fixed. You can switch back to the new index format if you were using the old one as a workaround.
