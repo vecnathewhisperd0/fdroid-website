@@ -6,527 +6,530 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-05-06 16:58+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2018-05-08 19:51+0000\n"
+"Last-Translator: ditokp <ditokpl@gmail.com>\n"
+"Language-Team: Indonesian <https://hosted.weblate.org/projects/f-droid/website-pages/id/>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 3.0-dev\n"
 
 #. type: Title #
 #: build/_pages/md/403.md
 #, no-wrap
 msgid "403 Forbidden"
-msgstr ""
+msgstr "403 Terlarang"
 
 #. type: Plain text
 #: build/_pages/md/403.md build/_pages/md/404.md
 msgid "If you think there should be something here, please [submit an issue](https://gitlab.com/fdroid/fdroid-website/issues)."
-msgstr ""
+msgstr "Jika Anda pikir disini ada sesuatu, tolong [daftarkan masalah](https://gitlab.com/fdroid/fdroid-website/issues)."
 
 #. type: Title #
 #: build/_pages/md/404.md
 #, no-wrap
 msgid "404 Page Not Found"
-msgstr ""
+msgstr "404 Halaman Tidak Ditemukan"
 
 #. type: Title #
 #: build/_pages/md/about.md
 #, no-wrap
 msgid "About"
-msgstr ""
+msgstr "Tentang"
 
 #. type: Plain text
 #: build/_pages/md/about.md
 msgid "F-Droid is a robot with a passion for Free and Open Source (FOSS) software on the Android platform. On this site you’ll find a repository of FOSS apps, along with an Android client to perform installations and updates, and news, reviews and other features covering all things Android and software-freedom related."
-msgstr ""
+msgstr "F-Droid adalah robot dengan semangat untuk Aplikasi Gratis dan Kode Sumber Terbuka (FOSS) di Android. Di situs ini Anda akan menemukan repositori dari aplikasi FOSS, beserta dengan client Android untuk melakukan pemasangan dan pembaharuan, berita, mengulas serta fitur lainnya tentang Android dan kemerdekaan aplikasi."
 
 #. type: Plain text
 #: build/_pages/md/about.md
 msgid "F-Droid is operated by F-Droid Limited, a non-profit organisation registered in England (no. 8420676)."
-msgstr ""
+msgstr "F-Droid di operasikan oleh F-Droid Limited, organisasi non-profit yang teregistrasi di Inggris (no. 8420676)."
 
 #. type: Title ####
 #: build/_pages/md/about.md
 #, no-wrap
 msgid "Contact"
-msgstr ""
+msgstr "Kontak"
 
 #. type: Plain text
 #: build/_pages/md/about.md
 msgid "You can discuss F-Droid or get help on the [forum](https://forum.f-droid.org) and IRC in the [#fdroid channel](https://webchat.freenode.net/?channels=%23fdroid) on freenode. The discussions on IRC are logged on [BotBot.me](https://botbot.me/freenode/fdroid).  You can send email at [team@f-droid.org](mailto:team@f-droid.org), but messages are much more likely to be answered on the forum or #fdroid channel. If you want to help, you can [join us]({{ \"/contribute/\" | prepend: site.baseurl }})."
-msgstr ""
+msgstr "Anda bisa berdiskusi tentang F-Droid atau meminta bantuan di [forum](https://forum.f-droid.org) dan IRC di [channel #fdroid](https://webchat.freenode.net/?channels=%23fdroid) di freenode. Diskusi di IRC tercatat di [BotBot.me](https://botbot.me/freenode/fdroid). Anda dapat mengirim surel ke [team@f-droid.org](mailto:team@f-droid.org), tapi pesan-pesan lebih sering dibalas di forum atau channel #fdroid. Jika Anda ingin membantu, Anda bisa [bergabung]({{ \"/contribute/\" | prepend: site.baseurl }})."
 
 #. type: Title ###
 #: build/_pages/md/about.md
 #, no-wrap
 msgid "License"
-msgstr ""
+msgstr "Lisensi"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "The source code for this site and the content produced by the F-Droid community are a availble under the [GNU Affero General Public License version 3 or later (AGPLv3+)](https://www.gnu.org/licenses/agpl-3.0.html)."
-msgstr ""
+msgstr "Kode sumber dari situs ini dan konten yang di produksi oleh komunitas F-Droid tersedia di bawah [GNU Affero General Public License versi 3 atau setelahnya (AGPLv3+)](https://www.gnu.org/licenses/agpl-3.0.html)."
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "The content of the news section and the F-Droid logo are also available under [Creative Commons Attribution-ShareAlike 3.0 License (CC-BY-SA-3.0)](http://creativecommons.org/licenses/by-sa/3.0/) or [GNU General Public License version 3 or later (GPLv3+)](https://www.gnu.org/licenses/gpl-3.0.html)."
-msgstr ""
+msgstr "Konten yang ada di bagian berita dan logo F-Droid juga tersedia dibawah [Lisensi Creative Commons Attribution-ShareAlike 3.0 (CC-BY-SA-3.0)](http://creativecommons.org/licenses/by-sa/3.0/) atau [GNU General Public License version 3 or later (GPLv3+)](https://www.gnu.org/licenses/gpl-3.0.html)."
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "The descriptive text and graphics for each app have a specific license from that project.  Free software should also have free descriptions and graphics."
-msgstr ""
+msgstr "Deskripsi teks dan gambar dari tiap aplikasi mempunyai lisensi sendiri. Aplikasi gratis juga mempunyai deskripsi dan gambar secara gratis."
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "The F-Droid logo was created by William Theaker. Updates to that, and additional artwork, are by Robert Martinez."
-msgstr ""
+msgstr "Logo F-Droid dibuat oleh William Theaker. Pembaharuan dan beberapa tambahan oleh Robert Martinez."
 
 #. type: Title ###
 #: build/_pages/md/about.md
 #, no-wrap
 msgid "Terms, etc."
-msgstr ""
+msgstr "Terms, dll."
 
 #. type: Plain text
 #: build/_pages/md/about.md
 msgid "F-Droid is a non-profit [volunteer]({{ \"/contribute/\" | prepend: site.baseurl }}) project. Although every effort is made to ensure that everything in the repository is safe to install, you use it AT YOUR OWN RISK. Wherever possible, applications in the repository are built from source, and that source code is checked for potential security or privacy issues. This checking is far from exhaustive though, and there are no guarantees."
-msgstr ""
+msgstr "F-Droid adalah proyek non-profit [sukarela]({{ \"/contribute/\" | prepend: site.baseurl }}). Meskipun setiap upaya dilakukan untuk memastikan bahwa segala sesuatu dalam repositori aman untuk dipasang, Anda menggunakannya dengan RESIKO ANDA SENDIRI. Jika memungkinkan, aplikasi di dalam repositori dibuat dari awal, dan kode sumber tersebut diperiksa untuk melihat potensi masalah keamanan atau privasi. Pemeriksaan ini jauh dari lengkap, dan tidak ada jaminan."
 
 #. type: Plain text
 #: build/_pages/md/about.md
 msgid "F-Droid respects your privacy. We don’t track you, or your device. We don’t track what you install. You don’t need an account to use the client, and it sends no additional identifying data when talking to our web server other than its version number. We don’t even allow you to install other applications from the repository that track you, unless you first enable ‘Tracking’ in the AntiFeatures section of preferences. Any personal data you decide to give us (e.g. your email address when registering for an account to post on the forum) goes no further than us, and will not be used for anything other than allowing you to maintain your account."
-msgstr ""
+msgstr "F-Droid menghormati privasi Anda. Kami tidak melacak Anda ataupun perangkat Anda. Kami tidak melacak apa yang di pasang. Anda tidak butuh akun untuk menggunakan clientnya dan clientnya tidak mengirim data pengidentifikasian tambahan ketika berbicara kepada server web kami apapun selain nomor versi. Kami bahkan tidak memperbolehkan Anda untuk memasang aplikasi lain dari repositori yang melacak Anda, kecuali kalau Anda mengaktifkan 'Pelacakan' di bagian AntiFitur di pengaturan. Data pribadi apapun yang Anda pilih untuk diberikan kepada kami (contohnya alamat surel Anda ketika mendaftarkan akun untuk memposting di forum) tidak akan pergi lebih jauh daripada kami dan tidak akan digunakan untuk apapun selain untuk memperbolehkan Anda untuk memelihara akun Anda."
 
 #. type: Title ###
 #: build/_pages/md/about.md
 #, no-wrap
 msgid "Contributors"
-msgstr ""
+msgstr "Kontributor"
 
 #. type: Plain text
 #: build/_pages/md/about.md
 msgid "The F-Droid project was founded in 2010 by Ciaran Gultnieks, and is brought to you by at least the following people:"
-msgstr ""
+msgstr "Proyek F-Droid didirikan pada tahun 2010 oleh Ciaran Gultnieks dan dibawa kehadapan Anda oleh beberapa orang berikut ini:"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Nico Alt"
-msgstr ""
+msgstr "Nico Alt"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Laura Arjona"
-msgstr ""
+msgstr "Laura Arjona"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Ben Arnold"
-msgstr ""
+msgstr "Ben Arnold"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Michele Azzolari"
-msgstr ""
+msgstr "Michele Azzolari"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Danial Behzadi"
-msgstr ""
+msgstr "Danial Behzadi"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Jan Berkel"
-msgstr ""
+msgstr "Jan Berkel"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "David Black"
-msgstr ""
+msgstr "David Black"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Ruslan Boitsov"
-msgstr ""
+msgstr "Ruslan Boitsov"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Jan C Borchardt"
-msgstr ""
+msgstr "Jan C Borchardt"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Valerio Bozzolan"
-msgstr ""
+msgstr "Valerio Bozzolan"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Dan Bravender"
-msgstr ""
+msgstr "Dan Bravender"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Cédric Cabessa"
-msgstr ""
+msgstr "Cédric Cabessa"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Kevin Cernekee"
-msgstr ""
+msgstr "Kevin Cernekee"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Felix Edelmann"
-msgstr ""
+msgstr "Felix Edelmann"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Kevin Everets"
-msgstr ""
+msgstr "Kevin Everets"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Alberto A. Fuentes"
-msgstr ""
+msgstr "Alberto A. Fuentes"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Torsten Grote"
-msgstr ""
+msgstr "Torsten Grote"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Ciaran Gultnieks"
-msgstr ""
+msgstr "Ciaran Gultnieks"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Tias Guns"
-msgstr ""
+msgstr "Tias Guns"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Michael Haas"
-msgstr ""
+msgstr "Michael Haas"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Stefan Handschuh"
-msgstr ""
+msgstr "Stefan Handschuh"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Marcus Hoffmann"
-msgstr ""
+msgstr "Marcus Hoffmann"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Kees Hulberts"
-msgstr ""
+msgstr "Kees Hulberts"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Ayron Jungren"
-msgstr ""
+msgstr "Ayron Jungren"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "João Fernando C. Júnior"
-msgstr ""
+msgstr "João Fernando C. Júnior"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Neo Kolokotronis"
-msgstr ""
+msgstr "Neo Kolokotronis"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Nikita Kozlov"
-msgstr ""
+msgstr "Nikita Kozlov"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Matt Kraai"
-msgstr ""
+msgstr "Matt Kraai"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Daniel Kraft"
-msgstr ""
+msgstr "Daniel Kraft"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Boris Kraut"
-msgstr ""
+msgstr "Boris Kraut"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Tobias Kuban"
-msgstr ""
+msgstr "Tobias Kuban"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Mariotaku Lee"
-msgstr ""
+msgstr "Mariotaku Lee"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Leonardo De Luca"
-msgstr ""
+msgstr "Leonardo De Luca"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Greg Lyle"
-msgstr ""
+msgstr "Greg Lyle"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Daniel Marti"
-msgstr ""
+msgstr "Daniel Marti"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Robert Martinez"
-msgstr ""
+msgstr "Robert Martinez"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Nat Meysenburg"
-msgstr ""
+msgstr "Nat Meysenburg"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Steven McDonald"
-msgstr ""
+msgstr "Steven McDonald"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Andrew McMillan"
-msgstr ""
+msgstr "Andrew McMillan"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Andrew Nayenko"
-msgstr ""
+msgstr "Andrew Nayenko"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Alex Oberhauser"
-msgstr ""
+msgstr "Alex Oberhauser"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Michael Pöhn"
-msgstr ""
+msgstr "Michael Pöhn"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Nicolas Raoul"
-msgstr ""
+msgstr "Nicolas Raoul"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Fabian Rodriguez"
-msgstr ""
+msgstr "Fabian Rodriguez"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Florian Schmaus"
-msgstr ""
+msgstr "Florian Schmaus"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Dominik Schürmann"
-msgstr ""
+msgstr "Dominik Schürmann"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Hans-Emil Skogh"
-msgstr ""
+msgstr "Hans-Emil Skogh"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Paul Sokolovsky"
-msgstr ""
+msgstr "Paul Sokolovsky"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Graziano Sorbaioli"
-msgstr ""
+msgstr "Graziano Sorbaioli"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Hans-Christoph Steiner"
-msgstr ""
+msgstr "Hans-Christoph Steiner"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "David Sterry"
-msgstr ""
+msgstr "David Sterry"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Peter Serwylo"
-msgstr ""
+msgstr "Peter Serwylo"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "John Sullivan"
-msgstr ""
+msgstr "John Sullivan"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Antonio Tapiador"
-msgstr ""
+msgstr "Antonio Tapiador"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "William Theaker"
-msgstr ""
+msgstr "William Theaker"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Henrik Tunedal"
-msgstr ""
+msgstr "Henrik Tunedal"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Ivo Ugrina"
-msgstr ""
+msgstr "Ivo Ugrina"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Matthias Weiler"
-msgstr ""
+msgstr "Matthias Weiler"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Nutchanon Wetchasit"
-msgstr ""
+msgstr "Nutchanon Wetchasit"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Philipp Wollschlegel"
-msgstr ""
+msgstr "Philipp Wollschlegel"
 
 #. type: Plain text
 #: build/_pages/md/about.md
 msgid "If your name is missing, it’s a mistake and you should [add yourself to the list](https://gitlab.com/fdroid/fdroid-website/blob/master/_pages/about.md)! Keep it sorted by surname, please."
-msgstr ""
+msgstr "Jika nama Anda menghilang, pasti ada kesalahan dan Anda dapat [menambah nama Anda ke daftar](https://gitlab.com/fdroid/fdroid-website/blob/master/_pages/about.md)! Tolong tetap di urutkan sesuai nama keluarga."
 
 #. type: Plain text
 #: build/_pages/md/about.md
 msgid "The original F-Droid client app was based on the Aptoide app developed by Roberto Jacinto."
-msgstr ""
+msgstr "Aplikasi client F-Droid yang asli berdasarkan aplikasi Aptoide yang dikembangkan oleh Roberto Jacinto."
 
 #. type: Title #
 #: build/_pages/md/contribute.md
 #, no-wrap
 msgid "Contribute"
-msgstr ""
+msgstr "Berkontribusi"
 
 #. type: Plain text
 #: build/_pages/md/contribute.md
 msgid "The project is entirely developed and maintained by volunteers. You can help:"
-msgstr ""
+msgstr "Seluruh proyek dikembangkan dan diperbaiki secara sukarela. Anda bisa membantu:"
 
 #. type: Title ###
 #: build/_pages/md/contribute.md
 #, no-wrap
 msgid "Report Problems"
-msgstr ""
+msgstr "Melaporkan Masalah"
 
 #. type: Plain text
 #: build/_pages/md/contribute.md
 msgid "If you experience problems with the site or client software, you can report them in the issue tracker (see below), or discuss them in the [Forum](https://forum.f-droid.org/) or on IRC (#fdroid on freenode)."
-msgstr ""
+msgstr "Jika Anda merasakan masalah dengan situs atau aplikasi client, Anda dapat melaporkannya ke pelacak masalah (lihat di bawah), atau mendiskusikannya di [Forum](https://forum.f-droid.org/) atau di IRC (#fdroid on freenode)."
 
 #. type: Plain text
 #: build/_pages/md/contribute.md
 msgid "For reporting issues, choose an appropriate tracker from the following:"
-msgstr ""
+msgstr "Untuk melaporkan masalah, pilih pelacak yang sesuai dari daftar berikut:"
 
 #. type: Bullet: '* '
 #: build/_pages/md/contribute.md
 msgid "[F-Droid client app](https://gitlab.com/fdroid/fdroidclient/issues)"
-msgstr ""
+msgstr "[Aplikasi client F-Droid](https://gitlab.com/fdroid/fdroidclient/issues)"
 
 #. type: Bullet: '* '
 #: build/_pages/md/contribute.md
 msgid "[Server and build tools](https://gitlab.com/fdroid/fdroidserver/issues)"
-msgstr ""
+msgstr "[Server dan build tools](https://gitlab.com/fdroid/fdroidserver/issues)"
 
 #. type: Bullet: '* '
 #: build/_pages/md/contribute.md
 msgid "[Official F-Droid repository metadata](https://gitlab.com/fdroid/fdroiddata/issues)"
-msgstr ""
+msgstr "[Metadata repositori F-Droid resmi](https://gitlab.com/fdroid/fdroiddata/issues)"
 
 #. type: Title ###
 #: build/_pages/md/contribute.md
 #, no-wrap
 msgid "Submit Applications"
-msgstr ""
+msgstr "Kirim Aplikasi"
 
 #. type: Plain text
 #: build/_pages/md/contribute.md
 msgid "If you see an application missing from the repository (after reading the [inclusion policy](../docs/Inclusion_Policy)), please feel free to submit it via the dedicated [Requests For Packaging](https://gitlab.com/fdroid/rfp/issues) issue tracker."
-msgstr ""
+msgstr "Jika Anda melihat aplikasi yang menghilang dari repository (setelah membaca [kebijakan pencantuman](../docs/Inclusion_Policy)), silahkan mengirimkannya melalui pelacakan masalah untuk [Permintaan untuk Kemasan](https://gitlab.com/fdroid/rfp/issues)."
 
 #. type: Plain text
 #: build/_pages/md/contribute.md
 msgid "If you have the technical skills required, you can also put together the relevant metadata and [submit that via the F-Droid Data repository](https://gitlab.com/fdroid/fdroiddata/blob/master/CONTRIBUTING.md), which will drastically speed up the inclusion of the application."
-msgstr ""
+msgstr "Jika Anda mempunyai kemampuan teknis yang diperlukan, Anda bisa memasukkan metada yang relevan dan [mengirimkannya melalui repositori Data F-Droid](https://gitlab.com/fdroid/fdroiddata/blob/master/CONTRIBUTING.md), yang secara cepat akan mempercepat masuknya aplikasi."
 
 #. type: Plain text
 #: build/_pages/md/contribute.md
 msgid "The same applies for helping to build newer versions of applications."
-msgstr ""
+msgstr "Hal itu juga berlaku untuk membantu membuat versi baru dari aplikasi."
 
 #. type: Plain text
 #: build/_pages/md/contribute.md
 msgid "Further information can be found in [the documentation](../docs), or by asking [on IRC](https://webchat.freenode.net/?channels=%23fdroid) (#fdroid on freenode)."
-msgstr ""
+msgstr "Informasi lebih lanjut bisa ditemukan di [dokumentasi](../docs), atau bertanya [di IRC](https://webchat.freenode.net/?channels=%23fdroid) (#fdroid on freenode)."
 
 #. type: Title ###
 #: build/_pages/md/contribute.md
 #, no-wrap
 msgid "Translate"
-msgstr ""
+msgstr "Terjemahkan"
 
 #. type: Plain text
 #: build/_pages/md/contribute.md
 msgid "The client application is available in many languages. Should yours not be among those, or be in need of updates or improvement, please create an account and use the [translation system](https://hosted.weblate.org/projects/f-droid/) to make your changes."
-msgstr ""
+msgstr "Aplikasi client tersedia di banyak bahasa, Jika bahasa Anda tidak berada di antaranya, atau membutuhkan pembaruan atau peningkatan, silakan buat akun dan gunakan [sistem terjemahan](https://hosted.weblate.org/projects/f-droid/) untuk membuat perubahan."
 
 #. type: Plain text
 #: build/_pages/md/contribute.md
 msgid "Start with the overview of [Translation and Localization](../docs/Translation_and_Localization).  There’s also a [dedicated forum section](https://forum.f-droid.org/c/translation) for translation related discussions."
-msgstr ""
+msgstr "Dimulai dengan gambaran dari [Menerjemahkan dan Melokalisasi](../docs/Translation_and_Localization). Ada juga [bagian dari forum](https://forum.f-droid.org/c/translation) untuk berdiskusi tentang terjemahan."
 
 #. type: Title ###
 #: build/_pages/md/contribute.md
 #, no-wrap
 msgid "Help with Development"
-msgstr ""
+msgstr "Bantuan Pengembangan"
 
 #. type: Plain text
 #: build/_pages/md/contribute.md
 msgid "There are four git repositories hosted at GitLab – one for the [Android client application](https://gitlab.com/fdroid/fdroidclient), one for the [server tools](https://gitlab.com/fdroid/fdroidserver) for running a repository and building/installing applications locally, and one for the associated [metadata files for applications in the main F-Droid repository](https://gitlab.com/fdroid/fdroiddata).  The last repo is handling [website and documentation](https://gitlab.com/fdroid/fdroid-website).  The easiest way to contribute to development is to make clones of these projects and submit merge requests.  If you are making large changes, it would be good to discuss them on IRC or in the forum first, to ensure they fit with the direction of the project, and do not clash with or duplicate work already in development."
-msgstr ""
+msgstr "Ada empat repositori git yang di taruh di Gitlab - yang pertama untuk [Aplikasi client Android](https://gitlab.com/fdroid/fdroidclient), kedua untuk [server tools](https://gitlab.com/fdroid/fdroidserver) untuk menjalankan repositori dan membuat/memasang aplikasi secara lokal, dan yang ketiga untuk file terkait [metadata untuk aplikasi di repositori F-Droid utama](https://gitlab.com/fdroid/fdroiddata).  Repositori terakhir menangani [situs web dan dokumentasi](https://gitlab.com/fdroid/fdroid-website). Cara tergampang untuk berkontribusi untuk membantu pengembangan adalah menyalin proyek ini dan mengirimkan permintaan penggabungan. Jika Anda membuat perubahan yang besar, lebih baik didiskusikan dahulu di IRC atau di forum untuk memastikan mereka sesuai arah direksi dari proyek, dan jangan berbenturan dengan atau menduplikasi pekerjaan yang sudah dalam pengembangan."
 
 #. type: Plain text
 #: build/_pages/md/contribute.md
 msgid "For working with the server and data projects, it’s a good idea to read [the manual]({{ \"/docs/\" | prepend: site.baseurl }})."
-msgstr ""
+msgstr "Untuk bekerja dengan server dan data proyek, itu ide yang bagus untuk membaca [manual]({{ \"/docs/\" | prepend: site.baseurl }})."
 
 #. type: Title #
 #: build/_pages/md/docs.md
 #, no-wrap
 msgid "Docs"
-msgstr ""
+msgstr "Dokumen"
 
 #. type: Plain text
 #: build/_pages/md/docs.md
