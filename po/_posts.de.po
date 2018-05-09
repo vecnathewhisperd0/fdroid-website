@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-05-06 16:58+0200\n"
-"PO-Revision-Date: 2018-05-07 13:07+0000\n"
+"PO-Revision-Date: 2018-05-10 13:09+0000\n"
 "Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\n"
 "Language: de\n"
@@ -1351,7 +1351,7 @@ msgstr "Wir haben fast 1900 Followers auf [Mastodon](https://mastodon.technology
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-04-this-week-in-fdroid-w18.md
 msgid "Thanks to everyone who suggested apps to highlight. It's been very helpful! Unfortunately a few suggestions couldn't be processed because the apps in question weren't updated this week. Better luck next time!"
-msgstr "Vielen Dank allen, die Apps vorschlugen, die hervorgehoben werden sollten. Das war sehr hilfreich! Unglücklicherweise konnten einge Vorschläge nicht berücksichtigt werden, weil die in Frage kommenden Apps in dieser Woche nicht aktualisiert wurden. Vielleicht haben sie beim nächsten Mal mehr Glück!"
+msgstr "Vielen Dank allen, die Apps vorschlugen, die hervorgehoben werden sollten. Das war sehr hilfreich! Unglücklicherweise konnten einige Vorschläge nicht berücksichtigt werden, weil die in Frage kommenden Apps in dieser Woche nicht aktualisiert wurden. Vielleicht haben sie beim nächsten Mal mehr Glück!"
 
 #. type: Title ####
 #: build/_posts/md/2018-05-04-this-week-in-fdroid-w18.md
@@ -1429,7 +1429,7 @@ msgstr "[Altcoin Prices](https://f-droid.org/app/eu.uwot.fabio.altcoinprices) wu
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-04-this-week-in-fdroid-w18.md
 msgid "[DAVdroid](https://f-droid.org/app/at.bitfire.davdroid) 1.11.1 fixes a memory leak which had caused contact sync problems + some minor improvements."
-msgstr "[DAVdroid](https://f-droid.org/app/at.bitfire.davdroid) 1.11.1 repariert ein Speicherleck, das Kontaktsynchronisationsprobleme verursachte, + einge kleinere Verbesserungen."
+msgstr "[DAVdroid](https://f-droid.org/app/at.bitfire.davdroid) 1.11.1 repariert ein Speicherleck, das Kontaktsynchronisationsprobleme verursachte, und einige kleinere Verbesserungen."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-04-this-week-in-fdroid-w18.md
@@ -1439,7 +1439,7 @@ msgstr "Die neue Version von [Mastalab](https://f-droid.org/app/fr.gouv.etalab.m
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-04-this-week-in-fdroid-w18.md
 msgid "[PySolFC](https://f-droid.org/app/org.lufebe16.pysolfc) was updated from 0.8 to 2.2.0. Development of the Python sources has recently resumed (after an 8-year hyatus) using a [GitHub project](https://github.com/shlomif/PySolFC) and other resources. This new release adds compatibility with Python version 3.x and some other improvements."
-msgstr "[PySolFC](https://f-droid.org/app/org.lufebe16.pysolfc) wurde von 0.8 auf 2.2.0 aktualisiert. Die Entwicklung der Python-Quellen wurde vor Kurzem wieder aufgenommen (nach 8-jähriger Pause), wobei ein [GitHub-ProjeKt](https://github.com/shlomif/PySolFC) und weitere Ressourcen verwendet werden. In dieser neuen Version werden die Kompatibilität mit der Python-Version 3.x und einige weitere Verbesserungen ergänzt."
+msgstr "[PySolFC](https://f-droid.org/app/org.lufebe16.pysolfc) wurde von 0.8 auf 2.2.0 aktualisiert. Die Entwicklung der Python-Quellen wurde vor Kurzem wieder aufgenommen (nach 8-jähriger Pause), wobei ein [GitHub-Projekt](https://github.com/shlomif/PySolFC) und weitere Ressourcen verwendet werden. In dieser neuen Version werden die Kompatibilität mit der Python-Version 3.x und einige weitere Verbesserungen ergänzt."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-04-this-week-in-fdroid-w18.md
@@ -1465,7 +1465,7 @@ msgstr "  Oh, wenn Riot nicht im Hintergrund sterben soll, muss die Akku-Optimie
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-04-this-week-in-fdroid-w18.md
 msgid "[Tusky](https://f-droid.org/app/com.keylesspalace.tusky) was updated from 1.6.1 to 1.7.0, with support for custom toot size limit of some instances, new translations and updates, and bug fixes. To copy the content of a toot to the clipboard you now need to long press it."
-msgstr "[Tusky](https://f-droid.org/app/com.keylesspalace.tusky) wurde von 1.6.1 nach 1.7.0 aktualisiert, mit Unterstützung einer ngenbenutzerdefinierten Begrenzung der Toot-Größe für bestimmte Instanzen, neuen Übersetzungen und Überarbeitungen, und Bugfixes. Um die Inhalte eines Toot in die Zwischenablage zu kopieren, muss er lange gedrückt werden."
+msgstr "[Tusky](https://f-droid.org/app/com.keylesspalace.tusky) wurde von 1.6.1 nach 1.7.0 aktualisiert, mit Unterstützung einer benutzerdefinierten Begrenzung der Toot-Größe für bestimmte Instanzen, neuen Übersetzungen und Überarbeitungen, und Bugfixes. Um die Inhalte eines Toot in die Zwischenablage zu kopieren, muss er lange gedrückt werden."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-04-this-week-in-fdroid-w18.md
