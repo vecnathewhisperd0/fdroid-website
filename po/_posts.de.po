@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-05-11 14:06+0200\n"
 "PO-Revision-Date: 2018-05-13 14:43+0000\n"
-"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
+"Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -1325,9 +1325,8 @@ msgstr "  Wie bereits im [letzten DWIF](https://f-droid.org/en/2018/04/27/this-w
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-04-this-week-in-fdroid-w18.md
-#, fuzzy
 msgid "[Bubu](https://forum.f-droid.org/u/Bubu) did some work on bringing the [Rocket.Chat](https://rocket.chat) [app](https://github.com/RocketChat/Rocket.Chat.Android) to F-Droid. The FOSS flavour is currently pending upstream review. It lacks push notifications, but otherwise works fine."
-msgstr "[Bubu](https://forum.f-droid.org/u/Bubu) arbeitete daran, den [Rocket.Chat](https://rocket.chat) [app](https://github.com/RocketChat/Rocket.Chat.Android) auf F-Droid zu bringen. Die FOSS-Variante wartet momentan auf die Revivion des Upstream. Ihr fehlen die Push-Benachrichtigungen, ansonsten funktioniert sie gut."
+msgstr "[Bubu](https://forum.f-droid.org/u/Bubu) arbeitete daran, den [Rocket.Chat](https://rocket.chat) [app](https://github.com/RocketChat/Rocket.Chat.Android) auf F-Droid zu bringen. Die FOSS-Variante wartet momentan auf die Revision des Upstream. Ihr fehlen die Push-Benachrichtigungen, ansonsten funktioniert sie gut."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-04-this-week-in-fdroid-w18.md
@@ -1535,7 +1534,7 @@ msgstr "\"Diese Woche in F-Droid, Woche 19\""
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-11-this-week-in-fdroid-w19.md
 msgid "**Rudloff** has been tearing through the [rfp backlog](https://gitlab.com/fdroid/rfp/issues) faster than [Bubu](https://forum.f-droid.org/u/Bubu) and **mimi89999** can review it. This means new apps are getting added to F-Droid faster."
-msgstr ""
+msgstr "**Rudloff** hat den [rfp-Backlog](https://gitlab.com/fdroid/rfp/issues) schneller durchpflügt als [Bubu](https://forum.f-droid.org/u/Bubu) und **mimi89999** kann es überprüfen. Das bedeutet, dass neue Anwendungen schneller zu F-Droid hinzugefügt werden."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-11-this-week-in-fdroid-w19.md
@@ -1545,7 +1544,7 @@ msgstr "Es gab zahlreiche Kommentare von Leuten, die sich fragen, wo VLC abgebli
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-11-this-week-in-fdroid-w19.md
 msgid "[Mastodon](https://joinmastodon.org/): We broke 2K followers on Mastodon this week! In part because [linuxrocks.online](https://linuxrocks.online) was restarted, restoring federation and resulting in an influx of followers from that instance, as well as some 10 day old mentions."
-msgstr ""
+msgstr "[Mastodon](https://joinmastodon.org/): wir haben diese Woche 2000 Anhänger auf Mastodon erreicht! Zum Teil, weil [linuxrocks.online](https://linuxrocks.online) wurde neu gestartet, wodurch die Federation wiederhergestellt wurde, was zu einem Zustrom von Anhängern aus dieser Instanz sowie zu einigen 10 Tage alten Erwähnungen führte."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-11-this-week-in-fdroid-w19.md
@@ -1560,17 +1559,17 @@ msgstr "[Martin Pitt](https://piware.de) schrieb einen ziemlich guten [Artikel z
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-11-this-week-in-fdroid-w19.md
 msgid "[Secure photo viewer](https://f-droid.org/app/com.gtp.showapicturetoyourfriend): A media-viewer that functions ontop of your lockscreen. Prevents someone seeing what they are not supposed to or doing anything to your phone."
-msgstr ""
+msgstr "[Sicherer Bildbetrachter](https://f-droid.org/app/com.gtp.showapicturetoyourfriend): Ein Media-Viewer, der auf Ihrem Sperrbildschirm läuft. Verhindert, dass jemand sieht, was er nicht sehen soll, oder etwas mit Ihrem Telefon macht."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-11-this-week-in-fdroid-w19.md
 msgid "[Fairphone Launcher 3](https://f-droid.org/app/community.fairphone.fplauncher3): Fairphone Lancher 3 originally developed for Fairphone 2. We've had reports of it failing to install on some phones. See [here](https://gitlab.com/fdroid/fdroiddata/merge_requests/3119) and [here](https://github.com/WeAreFairphone/android_packages_apps_FairphoneLauncher3/issues/6)."
-msgstr ""
+msgstr "[Fairphone Launcher 3](https://f-droid.org/app/community.fairphone.fplauncher3): Fairphone Lancher 3 wurde ursprünglich für Fairphone 2 entwickelt. Es wurde berichtet, dass es auf einigen Telefonen nicht installiert werden konnte. Siehe [hier](https://gitlab.com/fdroid/fdroiddata/merge_requests/3119) und [hier](https://github.com/WeAreFairphone/android_packages_apps_FairphoneLauncher3/issues/6)."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-11-this-week-in-fdroid-w19.md
 msgid "[ADSdroid](https://f-droid.org/app/hu.vsza.adsdroid): Get technical datasheets"
-msgstr ""
+msgstr "[ADSdroid](https://f-droid.org/app/hu.vsza.adsdroid): Technische Datenblätter anfordern"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-11-this-week-in-fdroid-w19.md
@@ -1580,12 +1579,12 @@ msgstr "[MaterialOS](https://f-droid.org/app/org.materialos.icons): Material-Des
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-11-this-week-in-fdroid-w19.md
 msgid "[OpenVegeMap](https://f-droid.org/app/pro.rudloff.openvegemap): Find vegetarian and vegan restaurants in your city"
-msgstr ""
+msgstr "[OpenVegeMap](https://f-droid.org/app/pro.rudloff.openvegemap): Finden Sie vegetarische und vegane Restaurants in Ihrer Stadt"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-11-this-week-in-fdroid-w19.md
 msgid "[Updater for Spotify](https://f-droid.org/app/ru.ra66it.updaterforspotify): Download the latest version of Spotify"
-msgstr ""
+msgstr "[Updater für Spotify](https://f-droid.org/app/ru.ra66it.updaterforspotify): Die neueste Version von Spotify herunterladen"
 
 #. type: Plain text
 #: build/_posts/md/2018-05-11-this-week-in-fdroid-w19.md
@@ -1595,39 +1594,38 @@ msgstr "Insgesamt wurden diese Woche 49 Apps aktualisiert. Hier die Höhepunkte:
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-11-this-week-in-fdroid-w19.md
 msgid "[Fennec F-Droid](https://f-droid.org/app/org.mozilla.fennec_fdroid), which is F-Droid's unbranded Firefox build, updated to v60, [finally bringing all Firefox quantum improvements to android](https://www.androidpolice.com/2018/05/04/firefox-60-now-available-finally-brings-quantum-css-engine-android/)."
-msgstr ""
+msgstr "[Fennec F-Droid](https://f-droid.org/app/org.mozilla.fennec_fdroid), das ist F-Droids unbranded Firefox-Build, aktualisiert auf v60, [und bringt endlich alle Firefox-Quantenverbesserungen zu Android](https://www.androidpolice.com/2018/05/04/firefox-60-now-available-finally-brings-quantum-css-engine-android/)."
 
 #. type: Plain text
 #: build/_posts/md/2018-05-11-this-week-in-fdroid-w19.md
 #, no-wrap
 msgid "  By the way, several people told us they find the icon ugly. Think you can do better? Here's your chance! Send us a new design, and we might make it the official new Fennec F-Droid icon!\n"
-msgstr ""
+msgstr "  Übrigens haben uns einige Leute gesagt, dass sie die Icons hässlich finden. Denken Sie, Sie könne es besser? Hier ist Ihre Chance! Schicken Sie uns ein neues Design und wir könnten es zum offiziellen neuen Fennec F-Droid Icon machen!\n"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-11-this-week-in-fdroid-w19.md
 msgid "[Conversations](https://f-droid.org/app/eu.siacs.conversations) was updated to version 2.2.0 featuring integrated message search, voice recorder and location sharing. Users of the plugins \"[Voice Recorder Plugin](https://f-droid.org/app/eu.siacs.conversations.voicerecorder)\" from the F-Droid repo and \"Open Share Location Plugin\" from the F-Droid Archive repo can safely uninstall them after updating."
-msgstr ""
+msgstr "[Conversations](https://f-droid.org/app/eu.siacs.conversations) wurde auf Version 2.2.0 mit integrierter Nachrichtensuche, Sprachaufzeichnung und Location-Sharing aktualisiert. Benutzer der Plugins \"[Voice Recorder Plugin](https://f-droid.org/app/eu.siacs.conversations.voicerecorder)\" aus dem F-Droid Repo und \"Open Share Location Plugin\" aus dem F-Droid Archive Repo können sie nach dem Update sicher deinstallieren."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-11-this-week-in-fdroid-w19.md
 msgid "[Markor](https://f-droid.org/app/net.gsantner.markor) 0.3.7 is out on F-Droid, with option to disable red spell check underline, delete action, open link in browser, and more."
-msgstr ""
+msgstr "[Markor](https://f-droid.org/app/net.gsantner.markor) 0.3.7 ist auf F-Droid verfügbar, mit der Option, den roten Rechtschreibprüfungs-Unterstrich zu deaktivieren, Aktionen zu löschen, den Link im Browser zu öffnen und vieles mehr."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-11-this-week-in-fdroid-w19.md
-#, fuzzy
 msgid "[DAVdroid](https://f-droid.org/app/at.bitfire.davdroid) 1.11.2-ose enables [Collection Synchronization](https://forums.bitfire.at/post/467)."
-msgstr "[DAVdroid](https://f-droid.org/app/at.bitfire.davdroid) 1.11.1 repariert ein Speicherleck, das Kontaktsynchronisationsprobleme verursachte, und einige kleinere Verbesserungen."
+msgstr "[DAVdroid](https://f-droid.org/app/at.bitfire.davdroid) 1.11.2-ose ermöglicht die [Synchronisation der Sammlung](https://forums.bitfire.at/post/467)."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-11-this-week-in-fdroid-w19.md
 msgid "[NewPipe](https://f-droid.org/app/org.schabi.newpipe) was updated to 0.13.3. You can now double-tap the middle of the player screen to pause the video. The history view and project layout was refactored, along with other improvements and fixes."
-msgstr ""
+msgstr "[NewPipe](https://f-droid.org/app/org.schabi.newpipe) wurde auf 0.13.3 aktualisiert. Sie können nun auf die Mitte des Playerbildschirms doppeltippen, um das Video anzuhalten. Die History-Ansicht und das Projektlayout wurden überarbeitet, zusammen mit weiteren Verbesserungen und Korrekturen."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-11-this-week-in-fdroid-w19.md
 msgid "[KISS launcher](https://f-droid.org/app/fr.neamar.kiss) 3.2.0 brings improved gestures, drag & drop for favourites, and the keyboard layout no longer changes when typing a phone number."
-msgstr ""
+msgstr "[KISS Launcher](https://f-droid.org/app/fr.neamar.kiss) 3.2.0 bringt verbesserte Gesten, Drag & Drop für Favoriten, und das Tastaturlayout ändert sich nicht mehr, wenn eine Telefonnummer eingegeben wird."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-11-this-week-in-fdroid-w19.md
@@ -1637,20 +1635,18 @@ msgstr "[Street­Complete](https://f-droid.org/app/de.westnordost.streetcomplete
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-11-this-week-in-fdroid-w19.md
-#, fuzzy
 msgid "[Ring](https://f-droid.org/app/cx.ring) was updated from 20180421 to 20180501"
-msgstr "[The Light](https://f-droid.org/app/org.hlwd.bible) wurde von 2.13 auf 3.0 aktualisiert"
+msgstr "[Ring](https://f-droid.org/app/cx.ring) wurde von 20180421 auf 20180501 aktualisiert"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-11-this-week-in-fdroid-w19.md
-#, fuzzy
 msgid "[Maps](https://f-droid.org/app/com.github.axet.maps) was updated from 8.1.0-4-Google to 8.2.3-1-Google"
-msgstr "[Tasks](https://f-droid.org/app/org.tasks) erhielt ein Update von 5.3.6 nach 6.0.5"
+msgstr "[Maps](https://f-droid.org/app/com.github.axet.maps) wurde von 8.1.0-4-Google auf 8.2.3-1-Google aktualisiert"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-11-this-week-in-fdroid-w19.md
 msgid "**Orweb** was archived because it has been superceded by **Orfox** from the Guardian Project repo a while ago, and is no longer maintained at all."
-msgstr ""
+msgstr "**Orweb** wurde archiviert, weil es vor einiger Zeit durch **Orfox** aus dem Guardian Project Repo ersetzt wurde und überhaupt nicht mehr gepflegt wird."
 
 #. type: Plain text
 #: build/_posts/md/2018-05-11-this-week-in-fdroid-w19.md
