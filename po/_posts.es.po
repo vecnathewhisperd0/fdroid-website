@@ -1158,13 +1158,13 @@ msgstr ""
 #. type: Plain text
 #: build/_posts/md/2018-04-27-this-week-in-fdroid.md
 msgid "Hi everyone! This is a little experiment triggered by the [Matrix Project](https://matrix.org/) starting their own [TWIM](https://matrix.org/blog/2018/04/20/this-week-in-matrix-2018-04-20/) (This Week In Matrix), who in turn stole the idea off [TWIR](https://this-week-in-rust.org/) (This Week In Rust). Therefore, we now give you the first trial TWIF!"
-msgstr "¡Hola a todos! Este es un pequeño experimento desencadenado por [Matrix Project] (https://matrix.org/) comenzando su propio [TWIM] (https://matrix.org/blog/2018/04/20/this-week-in -matrix-2018-04-20 /) (Esta semana en Matrix), quien a su vez robó la idea de [TWIR] (https://this-week-in-rust.org/) (This Week In Rust). Por lo tanto, ahora te damos la primera versión de prueba de TWIF!"
+msgstr "¡Hola a todos! Este es un pequeño experimento desencadenado por [Matrix Project](https://matrix.org/) comenzando su propio [TWIM](https://matrix.org/blog/2018/04/20/this-week-in -matrix-2018-04-20 /) (Esta semana en Matrix), quien a su vez robó la idea de [TWIR](https://this-week-in-rust.org/) (This Week In Rust). Por lo tanto, ahora te damos la primera versión de prueba de TWIF!"
 
 #. type: Plain text
 #: build/_posts/md/2018-04-27-this-week-in-fdroid.md
 #: build/_posts/md/2018-05-04-this-week-in-fdroid-w18.md
 msgid "[F-Droid](https://f-droid.org/) is an installable [catalogue](https://f-droid.org/en/packages/) of [FOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software) (Free and Open Source Software) applications for the Android platform. The [client](https://f-droid.org/app/org.fdroid.fdroid) makes it easy to browse, install, and keep track of updates on your device. This post lists notable things that happened in and around F-Droid this past week."
-msgstr "[F-Droid] (https://f-droid.org/) es un [catálogo] instalable (https://f-droid.org/en/packages/) de [FOSS] (https: // en. wikipedia.org/wiki/Free_and_open-source_software) (aplicaciones de software libre y de código abierto) para la plataforma Android. El [cliente] (https://f-droid.org/app/org.fdroid.fdroid) facilita la navegación, la instalación y el seguimiento de las actualizaciones en su dispositivo. Esta publicación enumera cosas notables que sucedieron en y alrededor de F-Droid la semana pasada."
+msgstr "[F-Droid](https://f-droid.org/) es un [catálogo] instalable (https://f-droid.org/en/packages/) de [FOSS](https: // en. wikipedia.org/wiki/Free_and_open-source_software) (aplicaciones de software libre y de código abierto) para la plataforma Android. El [cliente](https://f-droid.org/app/org.fdroid.fdroid) facilita la navegación, la instalación y el seguimiento de las actualizaciones en su dispositivo. Esta publicación enumera cosas notables que sucedieron en y alrededor de F-Droid la semana pasada."
 
 #. type: Title ####
 #: build/_posts/md/2018-04-27-this-week-in-fdroid.md
@@ -1186,7 +1186,7 @@ msgstr "Hablando de eso, ha habido problemas con algunos títulos de aplicacione
 #. type: Bullet: '* '
 #: build/_posts/md/2018-04-27-this-week-in-fdroid.md
 msgid "The [F-Droid](https://f-droid.org/app/org.fdroid.fdroid) app saw two new updates this week. 1.2.2 fixes a critical bug on older android phones, where it was instantly crashing and restarting in a loop. It seems to be stable so far."
-msgstr "La aplicación [F-Droid] (https://f-droid.org/app/org.fdroid.fdroid) vio dos nuevas actualizaciones esta semana. 1.2.2 corrige un error crítico en los teléfonos Android más antiguos, donde se bloqueaba instantáneamente y se reiniciaba en un bucle. Parece ser estable hasta el momento."
+msgstr "La aplicación [F-Droid](https://f-droid.org/app/org.fdroid.fdroid) vio dos nuevas actualizaciones esta semana. 1.2.2 corrige un error crítico en los teléfonos Android más antiguos, donde se bloqueaba instantáneamente y se reiniciaba en un bucle. Parece ser estable hasta el momento."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-04-27-this-week-in-fdroid.md
@@ -1204,10 +1204,10 @@ msgid ""
 "* If you hadn't noticed yet, **Bubu** made F-Droid accounts on Mastodon ([@fdroidorg](https://mastodon.technology/@fdroidorg)) and Twitter ([@fdroidorg](https://twitter.com/fdroidorg)). We've been surprised and excited that our Mastodon has proven much more popular than our Twitter! The set-up automatically mirrors everything between the two accounts, and Bubu has been doing a good job of pushing regular updates and answering people's questions.\n"
 msgstr ""
 "  Probablemente habrá alfas v1.3 más inestables ya que hubo muchas actualizaciones de la biblioteca, ¡por favor, prueba! Y no actualices a menos que estés realmente dispuesto a usar una version alfa.\n"
-"* CiaranG puso androguard en el servidor de compilación, que finalmente debería arreglar [admin # 65] (https://gitlab.com/fdroid/admin/issues/65). Esto significa que los usuarios de la Extensión Privilegiada finalmente podrán dejar Fuentes Desconocidas desactivadas. También debería corregir los nombres árabes y los nombres en blanco.\n"
+"* CiaranG puso androguard en el servidor de compilación, que finalmente debería arreglar [admin # 65](https://gitlab.com/fdroid/admin/issues/65). Esto significa que los usuarios de la Extensión Privilegiada finalmente podrán dejar Fuentes Desconocidas desactivadas. También debería corregir los nombres árabes y los nombres en blanco.\n"
 "* La subvención de $ 22K para el flujo de trabajo de traducción se ha confirmado oficialmente. Incluirá algunos trabajos de desarrollo web. Se espera que esto suceda en junio.\n"
-"* [Liberapay] (https://liberapay.com/): El [equipo de F-Droid Data] (https://liberapay.com/F-Droid-Data) está recibiendo actualmente € 61.05 por semana de 144 clientes, lo quenos  hace  el quinto equipo más grande en Liberapay. ¡Ayúdanos a recuperar la tercera posición!\n"
-"* Si aún no lo habías notado, ** Bubu ** creó cuentas de F-Droid en Mastodon ([@fdroidorg] (https://mastodon.technology/@fdroidorg)) y Twitter ([@fdroidorg] (https: / /twitter.com/fdroidorg)). ¡Nos sorprendió y entusiasmó que nuestro Mastodon haya demostrado ser mucho más popular que nuestro Twitter! La configuración refleja automáticamente todo lo que se encuentra entre las dos cuentas, y Bubu ha estado haciendo un buen trabajo al impulsar actualizaciones regulares y responder las preguntas de las personas.\n"
+"* [Liberapay](https://liberapay.com/): El [equipo de F-Droid Data](https://liberapay.com/F-Droid-Data) está recibiendo actualmente € 61.05 por semana de 144 clientes, lo quenos  hace  el quinto equipo más grande en Liberapay. ¡Ayúdanos a recuperar la tercera posición!\n"
+"* Si aún no lo habías notado, ** Bubu ** creó cuentas de F-Droid en Mastodon ([@fdroidorg](https://mastodon.technology/@fdroidorg)) y Twitter ([@fdroidorg](https: / /twitter.com/fdroidorg)). ¡Nos sorprendió y entusiasmó que nuestro Mastodon haya demostrado ser mucho más popular que nuestro Twitter! La configuración refleja automáticamente todo lo que se encuentra entre las dos cuentas, y Bubu ha estado haciendo un buen trabajo al impulsar actualizaciones regulares y responder las preguntas de las personas.\n"
 
 #. type: Title ####
 #: build/_posts/md/2018-04-27-this-week-in-fdroid.md
@@ -1218,12 +1218,12 @@ msgstr "Otras Noticias"
 #. type: Bullet: '* '
 #: build/_posts/md/2018-04-27-this-week-in-fdroid.md
 msgid "One of the GSOC projects from [Matrix](https://matrix.org/) is building an alternative to [GCM](https://en.wikipedia.org/wiki/Google_Cloud_Messaging) push for matrix. This will directly benefit the fdroid version of [Riot.im](https://f-droid.org/app/im.vector.alpha)!"
-msgstr "Uno de los proyectos de GSOC de [Matrix] (https://matrix.org/) está creando una alternativa a [GCM] (https://en.wikipedia.org/wiki/Google_Cloud_Messaging) push para la matriz. Esto beneficiará directamente a la versión fdroid de [Riot.im] (https://f-droid.org/app/im.vector.alpha)!"
+msgstr "Uno de los proyectos de GSOC de [Matrix](https://matrix.org/) está creando una alternativa a [GCM](https://en.wikipedia.org/wiki/Google_Cloud_Messaging) push para la matriz. Esto beneficiará directamente a la versión fdroid de [Riot.im](https://f-droid.org/app/im.vector.alpha)!"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-04-27-this-week-in-fdroid.md
 msgid "**_hc**'s work under the [Guardian Project Viento](https://guardianproject.info/wind/) funding is coming to a close, with maybe one or two weeks left."
-msgstr "El trabajo de ** _ hc ** bajo el proyecto [Guardian Project Viento] (https://guardianproject.info/wind/) está llegando a su fin, con quizás una o dos semanas más."
+msgstr "El trabajo de ** _ hc ** bajo el proyecto [Guardian Project Viento](https://guardianproject.info/wind/) está llegando a su fin, con quizás una o dos semanas más."
 
 #. type: Title ####
 #: build/_posts/md/2018-04-27-this-week-in-fdroid.md
@@ -1247,22 +1247,22 @@ msgstr "Aplicaciones actualizadas"
 #. type: Bullet: '* '
 #: build/_posts/md/2018-04-27-this-week-in-fdroid.md
 msgid "[Ring](https://f-droid.org/app/cx.ring) is finally up-to-date again on F-Droid! (And should hopefully not fall behind that much again.) We had to stop accepting updates because Ring introduced the proprietary [GCM](https://en.wikipedia.org/wiki/Google_Cloud_Messaging) push service. Although that was soon made optional, nobody had time to update the build recipe. (Until now.)"
-msgstr "[Ring] (https://f-droid.org/app/cx.ring) finalmente está actualizado en F-Droid. (Y con suerte no deberíamos quedarnos atrás de nuevo.) Tuvimos que dejar de aceptar actualizaciones porque Ring introdujo el servicio de inserción patentado [GCM] (https://en.wikipedia.org/wiki/Google_Cloud_Messaging). Aunque eso pronto se hizo opcional, nadie tuvo tiempo de actualizar la receta de compilación. (Hasta ahora.)"
+msgstr "[Ring](https://f-droid.org/app/cx.ring) finalmente está actualizado en F-Droid. (Y con suerte no deberíamos quedarnos atrás de nuevo.) Tuvimos que dejar de aceptar actualizaciones porque Ring introdujo el servicio de inserción patentado [GCM](https://en.wikipedia.org/wiki/Google_Cloud_Messaging). Aunque eso pronto se hizo opcional, nadie tuvo tiempo de actualizar la receta de compilación. (Hasta ahora.)"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-04-27-this-week-in-fdroid.md
 msgid "[Telegram](https://f-droid.org/app/org.telegram.messenger): Russia doesn't like not being able to spy on people, and has been trying to block Telegram. The upcoming version of Telegram-FOSS will have better chances to connect through the Russian Telegram blocks. If you need it right now you can install the beta build from here: https://github.com/Telegram-FOSS-Team/Telegram-FOSS/releases/tag/v4.6b"
-msgstr "[Telegram] (https://f-droid.org/app/org.telegram.messenger): A Rusia no le gusta no poder espiar a la gente, y ha estado tratando de bloquear a Telegram. La próxima versión de Telegram-FOSS tendrá mejores posibilidades de conectarse a través de los bloques de ruso Telegram. Si lo necesita ahora, puede instalar la versión beta desde aquí: https://github.com/Telegram-FOSS-Team/Telegram-FOSS/releases/tag/v4.6b"
+msgstr "[Telegram](https://f-droid.org/app/org.telegram.messenger): A Rusia no le gusta no poder espiar a la gente, y ha estado tratando de bloquear a Telegram. La próxima versión de Telegram-FOSS tendrá mejores posibilidades de conectarse a través de los bloques de ruso Telegram. Si lo necesita ahora, puede instalar la versión beta desde aquí: https://github.com/Telegram-FOSS-Team/Telegram-FOSS/releases/tag/v4.6b"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-04-27-this-week-in-fdroid.md
 msgid "[Yalp Store](https://f-droid.org/app/com.github.yeriomin.yalpstore): There is an update for yalp store not being able to find any app updates."
-msgstr "[Tienda Yalp] (https://f-droid.org/app/com.github.yeriomin.yalpstore): hay una actualización para que yalp store no pueda encontrar ninguna actualización de la aplicación."
+msgstr "[Tienda Yalp](https://f-droid.org/app/com.github.yeriomin.yalpstore): hay una actualización para que yalp store no pueda encontrar ninguna actualización de la aplicación."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-04-27-this-week-in-fdroid.md
 msgid "**Misc**: Updates for [Conversations](https://f-droid.org/app/eu.siacs.conversations), [Nextcloud Talk](https://f-droid.org/app/com.nextcloud.talk2), [Telegram](https://f-droid.org/app/org.telegram.messenger), [Duck Duck Go](https://f-droid.org/app/se.johanhil.duckduckgo), [Firefox Klar](https://f-droid.org/app/org.mozilla.klar), [Tusky](https://f-droid.org/app/com.keylesspalace.tusky) 1.6.1, [Mastalab](https://f-droid.org/app/fr.gouv.etalab.mastodon) 1.8.6, [BRouter](https://f-droid.org/app/btools.routingapp) 1.4.11, [Nextcloud](https://f-droid.org/app/com.nextcloud.client) 3.1.0 and many more!"
-msgstr "** Varios **: Actualizaciones para [Conversaciones] (https://f-droid.org/app/eu.siacs.conversations), [Nextcloud Talk] (https://f-droid.org/app/com. nextcloud.talk2), [Telegram] (https://f-droid.org/app/org.telegram.messenger), [Duck Duck Go] (https://f-droid.org/app/se.johanhil. duckduckgo), [Firefox Klar] (https://f-droid.org/app/org.mozilla.klar), [Tusky] (https://f-droid.org/app/com.keylesspalace.tusky) 1.6 .1, [Mastalab] (https://f-droid.org/app/fr.gouv.etalab.mastodon) 1.8.6, [BRouter] (https://f-droid.org/app/btools.routingapp ) 1.4.11, [Nextcloud] (https://f-droid.org/app/com.nextcloud.client) 3.1.0 ¡y mucho más!"
+msgstr "** Varios **: Actualizaciones para [Conversaciones](https://f-droid.org/app/eu.siacs.conversations), [Nextcloud Talk](https://f-droid.org/app/com. nextcloud.talk2), [Telegram](https://f-droid.org/app/org.telegram.messenger), [Duck Duck Go](https://f-droid.org/app/se.johanhil. duckduckgo), [Firefox Klar](https://f-droid.org/app/org.mozilla.klar), [Tusky](https://f-droid.org/app/com.keylesspalace.tusky) 1.6 .1, [Mastalab](https://f-droid.org/app/fr.gouv.etalab.mastodon) 1.8.6, [BRouter](https://f-droid.org/app/btools.routingapp ) 1.4.11, [Nextcloud](https://f-droid.org/app/com.nextcloud.client) 3.1.0 ¡y mucho más!"
 
 #. type: Title ####
 #: build/_posts/md/2018-04-27-this-week-in-fdroid.md
@@ -1274,7 +1274,7 @@ msgstr "Aplicaciones archivadas"
 #. type: Bullet: '* '
 #: build/_posts/md/2018-04-27-this-week-in-fdroid.md
 msgid "[Eleven](https://gitlab.com/ymber/Eleven) was moved to the archive because it is unmaintained and more or less broken according to the app's author."
-msgstr "[Eleven] (https://gitlab.com/ymber/Eleven) se movió al archivo porque no se ha mantenido y se ha roto más o menos según el autor de la aplicación."
+msgstr "[Eleven](https://gitlab.com/ymber/Eleven) se movió al archivo porque no se ha mantenido y se ha roto más o menos según el autor de la aplicación."
 
 #. type: Title ####
 #: build/_posts/md/2018-04-27-this-week-in-fdroid.md
@@ -1291,7 +1291,7 @@ msgstr "¿Habrá otra edición de TWIF? ¡Eso depende de ti, querido lector! Esp
 #. type: Plain text
 #: build/_posts/md/2018-04-27-this-week-in-fdroid.md
 msgid "Come talk to us in #fdroid on [Freenode](https://freenode.net/), in Matrix via [#freenode_#fdroid:matrix.org](https://matrix.to/#/#freenode_#fdroid:matrix.org) or via [Telegram](https://t.me/joinchat/AlRQekvjWDTuQrCgMYSNVA). Join us on the [forum](https://forum.f-droid.org/). [Toot on Mastodon](https://mastodon.technology/@fdroidorg), or, if you absolutely must, [tweet us](https://twitter.com/fdroidorg)."
-msgstr "Ven a hablar con nosotros en #fdroid en [Freenode] (https://freenode.net/), en Matrix a través de [# freenode_ # fdroid: matrix.org] (https://matrix.to/#/#freenode_#fdroid : matrix.org) o vía [Telegram] (https://t.me/joinchat/AlRQekvjWDTuQrCgMYSNVA). Únete a nosotros en el [foro] (https://forum.f-droid.org/). [Toot on Mastodon] (https://mastodon.technology/@fdroidorg), o, si es necesario, [tweet us] (https://twitter.com/fdroidorg)."
+msgstr "Ven a hablar con nosotros en #fdroid en [Freenode](https://freenode.net/), en Matrix a través de [# freenode_ # fdroid: matrix.org](https://matrix.to/#/#freenode_#fdroid : matrix.org) o vía [Telegram](https://t.me/joinchat/AlRQekvjWDTuQrCgMYSNVA). Únete a nosotros en el [foro](https://forum.f-droid.org/). [Toot on Mastodon](https://mastodon.technology/@fdroidorg), o, si es necesario, [tweet us](https://twitter.com/fdroidorg)."
 
 #. type: Title #
 #: build/_posts/md/2018-05-04-this-week-in-fdroid-w18.md

@@ -27,7 +27,7 @@ msgstr "Todo sobre descripciones, gráficos y capturas de pantalla"
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
 msgid "Each app can have complete app store content, including localized descriptions, feature graphics, and screenshots (as of v0.103 of the F-Droid client app and v0.8 of _fdroidserver_).  This is possible both when apps are added via [build metadata](../Build_Metadata_Reference) as well as when including pre-built files in a simple repository.  There are three paths to including app store content for apps (in order of preference):"
-msgstr "Cada aplicación puede tener contenido completo de la tienda de aplicaciones, incluidas descripciones localizadas, gráficos de características y capturas de pantalla (a partir del v0.103 de la aplicación de cliente F-Droid y v0.8 de _fdroidserver_). Esto es posible tanto cuando se agregan aplicaciones a través de [metadatos de compilación] (../ Build_Metadata_Reference) como cuando se incluyen archivos preconstruidos en un repositorio simple. Hay tres caminos para incluir el contenido de la tienda de aplicaciones para las aplicaciones (en orden de preferencia):"
+msgstr "Cada aplicación puede tener contenido completo de la tienda de aplicaciones, incluidas descripciones localizadas, gráficos de características y capturas de pantalla (a partir del v0.103 de la aplicación de cliente F-Droid y v0.8 de _fdroidserver_). Esto es posible tanto cuando se agregan aplicaciones a través de [metadatos de compilación](../Build_Metadata_Reference) como cuando se incluyen archivos preconstruidos en un repositorio simple. Hay tres caminos para incluir el contenido de la tienda de aplicaciones para las aplicaciones (en orden de preferencia):"
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -61,7 +61,7 @@ msgstr "gráficos y capturas de pantalla como archivos PNG o JPEG"
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
 msgid "One important detail: dangerous and unneeded metadata is stripped from image files before they are included in the repo.  For example, JPEG EXIF data has [security issues](https://threatpost.com/google-shuts-down-potentially-massive-android-bug/120393/), and it is not needed to display images.  This can also mean that the images are recompressed."
-msgstr "Un detalle importante: los metadatos peligrosos e innecesarios se eliminan de los archivos de imagen antes de que se incluyan en el repositorio. Por ejemplo, los datos JPEG EXIF tienen [problemas de seguridad] (https://threatpost.com/google-shuts-down-potentially-massive-android-bug/120393/), y no es necesario para mostrar imágenes. Esto también puede significar que las imágenes se vuelven a comprimir."
+msgstr "Un detalle importante: los metadatos peligrosos e innecesarios se eliminan de los archivos de imagen antes de que se incluyan en el repositorio. Por ejemplo, los datos JPEG EXIF tienen [problemas de seguridad](https://threatpost.com/google-shuts-down-potentially-massive-android-bug/120393/), y no es necesario para mostrar imágenes. Esto también puede significar que las imágenes se vuelven a comprimir."
 
 #. type: Title ##
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -72,7 +72,7 @@ msgstr "En el repositorio de origen de la aplicación"
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
 msgid "There are two options for including the app store materials in an app's source repository: [fastlane supply](https://github.com/fastlane/fastlane/blob/2.28.7/supply/README.md#images-and-screenshots)  and [Triple-T Gradle Play Publisher](https://github.com/Triple-T/gradle-play-publisher#play-store-metadata).  Both of these are free software tools that integrate into an Android developer's workflow.  Once the files are included in the app's source repo, and those files are included in a tagged release of the app, F-Droid will include all those files."
-msgstr "Hay dos opciones para incluir los materiales de la tienda de aplicaciones en el repositorio de origen de una aplicación: [suministro de fastlane] (https://github.com/fastlane/fastlane/blob/2.28.7/supply/README.md#images-and-screenshots ) y [Triple-T Gradle Play Publisher] (https://github.com/Triple-T/gradle-play-publisher#play-store-metadata). Ambas son herramientas de software gratuitas que se integran en el flujo de trabajo de un desarrollador de Android. Una vez que los archivos se incluyen en el repositorio de origen de la aplicación, y esos archivos se incluyen en una versión etiquetada de la aplicación, F-Droid incluirá todos esos archivos."
+msgstr "Hay dos opciones para incluir los materiales de la tienda de aplicaciones en el repositorio de origen de una aplicación: [suministro de fastlane](https://github.com/fastlane/fastlane/blob/2.28.7/supply/README.md#images-and-screenshots ) y [Triple-T Gradle Play Publisher](https://github.com/Triple-T/gradle-play-publisher#play-store-metadata). Ambas son herramientas de software gratuitas que se integran en el flujo de trabajo de un desarrollador de Android. Una vez que los archivos se incluyen en el repositorio de origen de la aplicación, y esos archivos se incluyen en una versión etiquetada de la aplicación, F-Droid incluirá todos esos archivos."
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -87,7 +87,7 @@ msgstr "Todas las descripciones y gráficos localizados aparecerán automáticam
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
 msgid "The last important detail is that the texts in the app's metadata file will override all other descriptive texts from _Fastlane_/_Triple-T_. That is specifically [Name](../Build_Metadata_Reference/#Name)/[AutoName](../Build_Metadata_Reference/#AutoName), [Summary](../Build_Metadata_Reference/#Summary), and [Description](../Build_Metadata_Reference/#Description).  Once an app's descriptive texts have been moved into the source repo, then file a [merge request](https://gitlab.com/fdroid/fdroiddata/merge_requests)  or [issue](https://gitlab.com/fdroid/fdroiddata/issues) to remove _Summary_ and _Description_ from the app's metadata file."
-msgstr "El último detalle importante es que los textos en el archivo de metadatos de la aplicación anularán todos los demás textos descriptivos de _Fastlane _ / _ Triple-T_. Eso es específicamente [Nombre] (../ Build_Metadata_Reference / # Name) / [AutoName] (../ Build_Metadata_Reference / # AutoName), [Summary] (../ Build_Metadata_Reference / # Summary), y [Description] (../ Build_Metadata_Reference / # Description). Una vez que los textos descriptivos de una aplicación se han movido al repositorio de origen, entonces presente una [solicitud de fusión] (https://gitlab.com/fdroid/fdroiddata/merge_requests) o [issue] (https://gitlab.com/fdroid/ fdroiddata / issues) para eliminar _Summary_ y _Description_ del archivo de metadatos de la aplicación."
+msgstr "El último detalle importante es que los textos en el archivo de metadatos de la aplicación anularán todos los demás textos descriptivos de _Fastlane _ / _ Triple-T_. Eso es específicamente [Nombre](../Build_Metadata_Reference/#Name) / [AutoName](../Build_Metadata_Reference/#AutoName), [Summary](../Build_Metadata_Reference/#Summary), y [Description](../Build_Metadata_Reference/#Description). Una vez que los textos descriptivos de una aplicación se han movido al repositorio de origen, entonces presente una [solicitud de fusión](https://gitlab.com/fdroid/fdroiddata/merge_requests) o [issue](https://gitlab.com/fdroid/ fdroiddata / issues) para eliminar _Summary_ y _Description_ del archivo de metadatos de la aplicación."
 
 #. type: Title ##
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -98,7 +98,7 @@ msgstr "En los metadatos de compilación de la aplicación en una _fdroiddata_ c
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
 msgid "All the app store materials can also be added to any _fdroiddata_ repository of build metadata.  This follows a file layout modeled after [fastlane supply](https://github.com/fastlane/fastlane/blob/2.28.7/supply/README.md#images-and-screenshots), modified to fit into the _fdroiddata_ workflow.  Any files in this layout will be copied into the repo and added to the repo's index file by `fdroid update`."
-msgstr "Todos los materiales de la tienda de aplicaciones también se pueden agregar a cualquier repositorio de datos de compilación _fdroiddata_. Esto sigue un diseño de archivo modelado después de [suministro de fastlane] (https://github.com/fastlane/fastlane/blob/2.28.7/supply/README.md#images-and-screenshots), modificado para ajustarse al flujo de trabajo _fdroiddata_ . Todos los archivos en este diseño se copiarán en el repositorio y se agregarán al archivo de índice del repositorio mediante `fdroid update`."
+msgstr "Todos los materiales de la tienda de aplicaciones también se pueden agregar a cualquier repositorio de datos de compilación _fdroiddata_. Esto sigue un diseño de archivo modelado después de [suministro de fastlane](https://github.com/fastlane/fastlane/blob/2.28.7/supply/README.md#images-and-screenshots), modificado para ajustarse al flujo de trabajo _fdroiddata_ . Todos los archivos en este diseño se copiarán en el repositorio y se agregarán al archivo de índice del repositorio mediante `fdroid update`."
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -187,11 +187,11 @@ msgid ""
 msgstr ""
 "* ... / ToGoZip / app / ...\n"
 "  * el código fuente de la aplicación Android ToGoZip\n"
-"* [... / ToGoZip / fastlane / metadata / android / es-US / full_description.txt] (https://github.com/k3b/ToGoZip/blob/master/fastlane/metadata/android/en-US/full_description .TXT)\n"
+"* [... / ToGoZip / fastlane / metadata / android / es-US / full_description.txt](https://github.com/k3b/ToGoZip/blob/master/fastlane/metadata/android/en-US/full_description .TXT)\n"
 "  * contiene la descripción (us-) en inglés de la aplicación ToGoZip.\n"
-"* [... / ToGoZip / fastlane / metadata / android / de-DE / full_description.txt] (https://github.com/k3b/ToGoZip/blob/master/fastlane/metadata/android/de-DE/full_description .TXT)\n"
+"* [... / ToGoZip / fastlane / metadata / android / de-DE / full_description.txt](https://github.com/k3b/ToGoZip/blob/master/fastlane/metadata/android/de-DE/full_description .TXT)\n"
 "  * contiene la descripción alemana de la aplicación ToGoZip.\n"
-"* [... / ToGoZip / fastlane / metadata / android / es-US / changelogs / 9.txt] (https://github.com/k3b/ToGoZip/blob/master/fastlane/metadata/android/en-US /changelogs/9.txt)\n"
+"* [... / ToGoZip / fastlane / metadata / android / es-US / changelogs / 9.txt](https://github.com/k3b/ToGoZip/blob/master/fastlane/metadata/android/en-US /changelogs/9.txt)\n"
 "  * contiene una descripción de los cambios realizados en versionCode ** 9 **\n"
 "  * en la aplicación fdroid esto se mostrará arriba de la descripción de la aplicación\n"
 "* ... / ToGoZip / fastlane / metadata / android / es-US / images / featureGraphic.png\n"
@@ -485,7 +485,7 @@ msgstr "Construyendo un Signing Server"
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
 msgid "The Android APK signing model sets the expectation that the signing key will be the same for the entire lifetime of the app.  That can be seen in the recommended lifetype of an Android signing key: [20+ years](https://developer.android.com/studio/publish/app-signing.html#considerations).  On top of that, it is difficult to [migrate an app to a new key](https://guardianproject.info/2015/12/29/how-to-migrate-your-android-apps-signing-key/).  Since the signing key is an essential part to preventing APKs from impersonating another, Android signing keys must be kept safe for the entire life of the app."
-msgstr "El modelo de firma de Android APK establece la expectativa de que la clave de firma será la misma durante toda la vida útil de la aplicación. Esto se puede ver en el tipo de vida recomendado de una clave de firma de Android: [más de 20 años] (https://developer.android.com/studio/publish/app-signing.html#considerations). Además de eso, es difícil [migrar una aplicación a una nueva clave] (https://guardianproject.info/2015/12/29/how-to-migrate-your-android-apps-signing-key/) . Dado que la clave de firma es una parte esencial para evitar que los APK se hagan pasar por otro, las claves de firma de Android deben mantenerse seguras durante toda la vida de la aplicación."
+msgstr "El modelo de firma de Android APK establece la expectativa de que la clave de firma será la misma durante toda la vida útil de la aplicación. Esto se puede ver en el tipo de vida recomendado de una clave de firma de Android: [más de 20 años](https://developer.android.com/studio/publish/app-signing.html#considerations). Además de eso, es difícil [migrar una aplicación a una nueva clave](https://guardianproject.info/2015/12/29/how-to-migrate-your-android-apps-signing-key/) . Dado que la clave de firma es una parte esencial para evitar que los APK se hagan pasar por otro, las claves de firma de Android deben mantenerse seguras durante toda la vida de la aplicación."
 
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
@@ -495,7 +495,7 @@ msgstr "Las claves de firma de repositorio de F-Droid siguen un modelo muy simil
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
 msgid "This means the security burden is shifted from the online, public webserver to a private signing machine.  Just keeping that machine out of the public eye goes a long way towards improving security.  There are a number of additional measures that can be taken to further improve the security of the signing process.  Here are some approaches, starting with the easiest and least security, and going on to more secure setups that require more work to setup and run.  Signing is not an resource intensive process, so any machine will work, even a 10 year old, basic laptop.  We recommend using a minimal [Debian](https://www.debian.org) install, and rebuilding the machine from scratch."
-msgstr "Esto significa que la carga de seguridad se desplaza del servidor web público y en línea a una máquina de firma privada. Mantener esa máquina fuera de la vista del público contribuye en gran medida a mejorar la seguridad. Hay una serie de medidas adicionales que se pueden tomar para mejorar aún más la seguridad del proceso de firma. Aquí hay algunos enfoques, comenzando con la seguridad más fácil y la menos segura, y pasando a configuraciones más seguras que requieren más trabajo de configuración y ejecución. La firma no es un proceso intensivo en recursos, por lo que cualquier máquina funcionará, incluso una computadora portátil básica de 10 años. Recomendamos utilizar una instalación mínima [Debian] (https://www.debian.org) y reconstruir la máquina desde cero."
+msgstr "Esto significa que la carga de seguridad se desplaza del servidor web público y en línea a una máquina de firma privada. Mantener esa máquina fuera de la vista del público contribuye en gran medida a mejorar la seguridad. Hay una serie de medidas adicionales que se pueden tomar para mejorar aún más la seguridad del proceso de firma. Aquí hay algunos enfoques, comenzando con la seguridad más fácil y la menos segura, y pasando a configuraciones más seguras que requieren más trabajo de configuración y ejecución. La firma no es un proceso intensivo en recursos, por lo que cualquier máquina funcionará, incluso una computadora portátil básica de 10 años. Recomendamos utilizar una instalación mínima [Debian](https://www.debian.org) y reconstruir la máquina desde cero."
 
 #. type: Title ###
 #: build/_docs/md/Building_a_Signing_Server.md
@@ -516,12 +516,12 @@ msgstr "Idealmente, esta máquina solo sería accesible a través de Tor. Eso oc
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
 msgid "For the HSM, we recommend using [Nitrokey](https://www.nitrokey.com/)  hardware, since they are free software/hardware, and provide a wide range of options.  Use a separate machine to put the signing keys on HSM.  A good HSM will keep an audit trail of how many signatures have been made, so that information could be used to create an automatic auditing process to raise alarms if too many signatures have been made.  That could mean that this server was breached and used to sign unauthorized packages."
-msgstr "Para el HSM, recomendamos usar hardware [Nitrokey] (https://www.nitrokey.com/), ya que son software / hardware gratuitos y ofrecen una amplia gama de opciones. Usa una máquina separada para colocar las claves de firma en HSM. Un buen HSM mantendrá una pista de auditoría de cuántas firmas se han hecho, de modo que la información se pueda usar para crear un proceso de auditoría automático para generar alarmas si se han realizado demasiadas firmas. Eso podría significar que este servidor fue violado y utilizado para firmar paquetes no autorizados."
+msgstr "Para el HSM, recomendamos usar hardware [Nitrokey](https://www.nitrokey.com/), ya que son software / hardware gratuitos y ofrecen una amplia gama de opciones. Usa una máquina separada para colocar las claves de firma en HSM. Un buen HSM mantendrá una pista de auditoría de cuántas firmas se han hecho, de modo que la información se pueda usar para crear un proceso de auditoría automático para generar alarmas si se han realizado demasiadas firmas. Eso podría significar que este servidor fue violado y utilizado para firmar paquetes no autorizados."
 
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
 msgid "Other possibility it to use a setup like [Fedora](https://pagure.io/sigul)'s [Sigul](http://www.devops-blog.net/koji/gpg-signing-rpms-with-sigul-signing-server-koji-integration)  that involves three machines."
-msgstr "Otra posibilidad es usar una configuración como [Fedora] (https://pagure.io/sigul) 's [Sigul] (http://www.devops-blog.net/koji/gpg-signing-rpms-with- sigul-signing-server-koji-integration) que involucra tres máquinas."
+msgstr "Otra posibilidad es usar una configuración como [Fedora](https://pagure.io/sigul) 's [Sigul](http://www.devops-blog.net/koji/gpg-signing-rpms-with- sigul-signing-server-koji-integration) que involucra tres máquinas."
 
 #. type: Title ###
 #: build/_docs/md/Building_a_Signing_Server.md
@@ -553,7 +553,7 @@ msgstr "Este proceso se basa en la misma computadora portátil básica y sin cab
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
 msgid "Download the full \"CD\" or \"DVD\" image of Debian to run the install.  Be sure to [verify](https://www.debian.org/CD/verify) the GPG signatures and the SHA-256 hashes.  One essential utility is _apt-offline_, which automates the process of downloading Debian packages, verifying their signatures, and copying them over to an offline machine."
-msgstr "Descarga la imagen completa \"CD\" o \"DVD\" de Debian para ejecutar la instalación. Asegúrese de [verificar] (https://www.debian.org/CD/verify) las firmas GPG y los hashes SHA-256. Una utilidad esencial es _apt-offline_, que automatiza el proceso de descarga de paquetes Debian, verifica sus firmas y las copia en una máquina fuera de línea."
+msgstr "Descarga la imagen completa \"CD\" o \"DVD\" de Debian para ejecutar la instalación. Asegúrese de [verificar](https://www.debian.org/CD/verify) las firmas GPG y los hashes SHA-256. Una utilidad esencial es _apt-offline_, que automatiza el proceso de descarga de paquetes Debian, verifica sus firmas y las copia en una máquina fuera de línea."
 
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
