@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-05-11 14:06+0200\n"
-"PO-Revision-Date: 2018-05-10 13:09+0000\n"
+"PO-Revision-Date: 2018-05-13 14:43+0000\n"
 "Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\n"
 "Language: de\n"
@@ -1518,7 +1518,7 @@ msgstr "Klar, wir haben noch weitere Neuigkeiten aus dem F-Droid-Kernteam, aber 
 #. type: Plain text
 #: build/_posts/md/2018-05-04-this-week-in-fdroid-w18.md
 msgid "Please post submissions to the [TWIF submission thread](https://forum.f-droid.org/t/twif-submission-thread) on the forum or mention [@fdroidorg@mastodon.technology](https://mastodon.technology/@fdroidorg) and tag [#fdroid](https://mastodon.technology/tags/fdroid) in your toot."
-msgstr "Beiträge senden Sie bitte an den [TWIF Submission Thread](https://forum.f-droid.org/t/twif-submission-thread) im Forum oder nennen [@fdroidorg@mastodon.technology](https://mastodon.technology/@fdroidorg) und kennzeichnen [#fdroid](https://mastodon.technology/tags/fdroid) Sie sie in Ihrem Toot."
+msgstr "Beiträge senden Sie bitte an den [TWIF Submission Thread](https://forum.f-droid.org/t/twif-submission-thread) im Forum oder erwähnen Sie sie [@fdroidorg@mastodon.technology](https://mastodon.technology/@fdroidorg) mit dem Tag [#fdroid](https://mastodon.technology/tags/fdroid) in Ihrem Toot."
 
 #. type: Plain text
 #: build/_posts/md/2018-05-04-this-week-in-fdroid-w18.md
@@ -1528,9 +1528,9 @@ msgstr "Feedback? Sprechen Sie mit uns in #fdroid auf [Freenode](https://freenod
 
 #. type: Title #
 #: build/_posts/md/2018-05-11-this-week-in-fdroid-w19.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "\"This Week in F-Droid, Week 19\""
-msgstr "\"Diese Woche in F-Droid, Woche 18\""
+msgstr "\"Diese Woche in F-Droid, Woche 19\""
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-11-this-week-in-fdroid-w19.md
@@ -1540,7 +1540,7 @@ msgstr ""
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-11-this-week-in-fdroid-w19.md
 msgid "We've had several comments from people wondering where VLC is. The VLC developers don't want us to distribute outdated versions, so it's in the archive until we can reliably and automatically build it when it updates. For more information, see the [forum thread](https://forum.f-droid.org/t/where-is-the-vlc-app/108)."
-msgstr ""
+msgstr "Es gab zahlreiche Kommentare von Leuten, die sich fragen, wo VLC abgeblieben ist. Die VLC-Entwickler wollen uns keine veralteten Versionen verbreiten lassen, weshalb sie ins Archiv kam, bis wir in der Lage sind verlässlich und automatisch Builds herzustellen, wenn eine Aktualisierung ansteht. Weiter Informationen finden Sie im [Forumbeitrag](https://forum.f-droid.org/t/where-is-the-vlc-app/108)."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-11-this-week-in-fdroid-w19.md
@@ -1550,12 +1550,12 @@ msgstr ""
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-11-this-week-in-fdroid-w19.md
 msgid "Did you know it's been possible to view changelogs in F-Droid for a while now? You can help by adding them to upstream projects, [like this](https://github.com/lexica/lexica/tree/master/metadata/android/en-US/changelogs)."
-msgstr ""
+msgstr "Wussten Sie, dass es seit einer Weile möglich ist Änderungsprotokolle in F-Droid anzusehen? Sie können mithelfen, indem Sie sie bei Upstream-Projekten ergänzen, [wie hier](https://github.com/lexica/lexica/tree/master/metadata/android/en-US/changelogs)."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-11-this-week-in-fdroid-w19.md
 msgid "[Martin Pitt](https://piware.de) wrote a rather nice [article on de-Googlifying a phone](https://piware.de/post/2018-05-01-android-degoogle/), with a prominent role for F-Droid."
-msgstr ""
+msgstr "[Martin Pitt](https://piware.de) schrieb einen ziemlich guten [Artikel zur Ent-Google-ung eines Smartphones](https://piware.de/post/2018-05-01-android-degoogle/), in dem F-Droid eine wichtige Rolle spielte."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-11-this-week-in-fdroid-w19.md
@@ -1575,7 +1575,7 @@ msgstr ""
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-11-this-week-in-fdroid-w19.md
 msgid "[MaterialOS](https://f-droid.org/app/org.materialos.icons): Material Design icons for your homescreen"
-msgstr ""
+msgstr "[MaterialOS](https://f-droid.org/app/org.materialos.icons): Material-Design-Symbole für Ihre Startseite"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-11-this-week-in-fdroid-w19.md
@@ -1589,9 +1589,8 @@ msgstr ""
 
 #. type: Plain text
 #: build/_posts/md/2018-05-11-this-week-in-fdroid-w19.md
-#, fuzzy
 msgid "In total, 49 apps were updated this week. Here are the highlights:"
-msgstr "Insgesamt wurden kolossale 59 Apps aktualisiert! Hier die Höhepunkte:"
+msgstr "Insgesamt wurden diese Woche 49 Apps aktualisiert. Hier die Höhepunkte:"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-11-this-week-in-fdroid-w19.md
@@ -1632,8 +1631,9 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-11-this-week-in-fdroid-w19.md
+#, fuzzy
 msgid "[Street­Complete](https://f-droid.org/app/de.westnordost.streetcomplete) was updated from 5.0 to 5.2, fixing battery drain and performance problems, a crash on downloading construction quest, compass improvements and more."
-msgstr ""
+msgstr "[Street­Complete](https://f-droid.org/app/de.westnordost.streetcomplete) wurde von 5.0 auf 5.2 aktualisiert, mit Lösungen zu Problemen mit dem Akkuverbrauch und der Leistung, einem Absturz beim Download von Konstruktionsfragen, Kompass-Verbesserungen und mehr."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-11-this-week-in-fdroid-w19.md
@@ -1655,10 +1655,9 @@ msgstr ""
 #. type: Plain text
 #: build/_posts/md/2018-05-11-this-week-in-fdroid-w19.md
 msgid "We want to hear from you! Did your favourite app update? Tell us what's good and new! Did someone write an article involving F-Droid? Let us know! Anything that's of interest to F-Droid users is game."
-msgstr ""
+msgstr "Lassen Sie von sich hören! Wurde Ihre Lieblingsapp aktualisiert? Erzählen Sie, was gut und neu ist! Hat jemand einen Bericht geschrieben, in dem F-Droid vorkam? Lassen Sie es uns wissen! Alles was für F-Droid-Anwender von Interesse ist, gehört hierher."
 
 #. type: Plain text
 #: build/_posts/md/2018-05-11-this-week-in-fdroid-w19.md
-#, fuzzy
 msgid "Please tell us in the [TWIF submission thread](https://forum.f-droid.org/t/twif-submission-thread) on the forum, or tag your update [#fdroid](https://mastodon.technology/tags/fdroid) on Mastodon. (And cc [@fdroidorg@mastodon.technology](https://mastodon.technology/@fdroidorg) to make sure it reaches our instance.)"
-msgstr "Beiträge senden Sie bitte an den [TWIF Submission Thread](https://forum.f-droid.org/t/twif-submission-thread) im Forum oder nennen [@fdroidorg@mastodon.technology](https://mastodon.technology/@fdroidorg) und kennzeichnen [#fdroid](https://mastodon.technology/tags/fdroid) Sie sie in Ihrem Toot."
+msgstr "Erzählen Sie von Ihrem Update im [TWIF Submission Thread](https://forum.f-droid.org/t/twif-submission-thread) im Forum oder taggen Sie es mit [#fdroid](https://mastodon.technology/tags/fdroid) auf Mastodon. (Und leiten Sie es an [@fdroidorg@mastodon.technology](https://mastodon.technology/@fdroidorg) weiter, um sicherzugehen, dass es unsere Instanz erreicht.)"
