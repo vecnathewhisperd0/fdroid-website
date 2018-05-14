@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-04-27 16:02+0200\n"
-"PO-Revision-Date: 2018-05-14 16:36+0000\n"
+"PO-Revision-Date: 2018-05-14 16:37+0000\n"
 "Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-docs/de/>\n"
 "Language: de\n"
@@ -72,7 +72,7 @@ msgstr "Im Originalrepository der App"
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
 msgid "There are two options for including the app store materials in an app's source repository: [fastlane supply](https://github.com/fastlane/fastlane/blob/2.28.7/supply/README.md#images-and-screenshots)  and [Triple-T Gradle Play Publisher](https://github.com/Triple-T/gradle-play-publisher#play-store-metadata).  Both of these are free software tools that integrate into an Android developer's workflow.  Once the files are included in the app's source repo, and those files are included in a tagged release of the app, F-Droid will include all those files."
-msgstr "Es gibt zwei Möglichkeiten, App-Store-Materialien in ein Originalrepository einer App einzuschließen: Die Bereitstellung über [fastlane](https://github.com/fastlane/fastlane/blob/2.28.7/supply/README.md#images-and-screenshots) und [Triple-T Gradle Play Publisher](https://github.com/Triple-T/gradle-play-publisher#play-store-metadata). Beides sind freie Software-Tools, die sich in den Workflow eines Android-Entwicklers integrieren. Sind die Dateien erst einmal im Originalrepo der App erfasst und sind diese Dateien Teil einer zur Freigabe markierten App-Version, wird F-Droid alle diese Dateien miteinbeziehen."
+msgstr "Es gibt zwei Möglichkeiten, App-Store-Materialien in ein Originalrepository einer App einzuschließen: Die Bereitstellung über [fastlane](https://github.com/fastlane/fastlane/blob/2.28.7/supply/README.md#images-and-screenshots) und [Triple-T Gradle Play Publisher](https://github.com/Triple-T/Gradle-play-publisher#play-store-metadata). Beides sind freie Software-Tools, die sich in den Workflow eines Android-Entwicklers integrieren. Sind die Dateien erst einmal im Originalrepo der App erfasst und sind diese Dateien Teil einer zur Freigabe markierten App-Version, wird F-Droid alle diese Dateien miteinbeziehen."
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -1878,7 +1878,7 @@ msgid ""
 "    environment right before build= (or the final build) is run.\n"
 msgstr ""
 "    Jeder build, der vor build= stattfindet, wird ignoriert, da entweder \n"
-"    Ant, mvn oder gradle ausgeführt wird, um die Build Umgebung \n"
+"    Ant, mvn oder Gradle ausgeführt wird, um die Build Umgebung \n"
 "    direkt bevor build= (oder dem endgültigen Build) ausgeführt wird, zu bereinigen\n"
 
 #. type: Plain text
@@ -3552,7 +3552,7 @@ msgstr "Es gibt drei Orte, von denen wir Metadaten beziehen:"
 #. type: Bullet: '* '
 #: build/_docs/md/FAQ_-_App_Developers.md
 msgid "upstream app repo, following the [fastlane](https://github.com/fastlane/fastlane) or [Triple-T play plugin](https://github.com/Triple-T/gradle-play-publisher) structure"
-msgstr "das vorgeschaltete App-Repo, das dem Aufbau von [fastlane](https://github.com/fastlane/fastlane) or [Triple-T play plugin](https://github.com/Triple-T/gradle-play-publisher) folgt"
+msgstr "das vorgeschaltete App-Repo, das dem Aufbau von [fastlane](https://github.com/fastlane/fastlane) or [Triple-T play plugin](https://github.com/Triple-T/Gradle-play-publisher) folgt"
 
 #. type: Bullet: '* '
 #: build/_docs/md/FAQ_-_App_Developers.md
@@ -8577,7 +8577,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Whitelabel_Builds.md
 msgid "Then *gradle* will automatically look at whole set of folders for custom versions of files:"
-msgstr "Dann wird *gradle* in mehreren Ordnern nach modifizierten Versionen von Dateien suchen:"
+msgstr "Dann wird *Gradle* in mehreren Ordnern nach modifizierten Versionen von Dateien suchen:"
 
 #. type: Plain text
 #: build/_docs/md/Whitelabel_Builds.md
@@ -8661,7 +8661,7 @@ msgstr "Anpassungen"
 #. type: Plain text
 #: build/_docs/md/Whitelabel_Builds.md
 msgid "When using gradle build flavors, it is very easy to customize any of the XML files. So this is the recommended way to start with customizing your build of F-Droid. Any XML file in _app/src/main/res_ can be overridden by placing an XML with the same name in _app/src/mycompany/res_. Here are some examples"
-msgstr "Wenn gradle build flavors benutzt werden ist es sehr einfach alle XML-Dateien anzupassen. Das ist der empfohlene Weg, um mit der Anpassung Ihrer Variante von F-Droid anzufangen. Jede XML-Datei in _app/src/main/res_ kann durch eine XML-Datei mit dem gleichen Namen unter _app/src/mycompany/res_ ersetzt werden. Hier sind einige Beispiele"
+msgstr "Wenn Gradle build flavors benutzt werden ist es sehr einfach alle XML-Dateien anzupassen. Das ist der empfohlene Weg, um mit der Anpassung Ihrer Variante von F-Droid anzufangen. Jede XML-Datei in _app/src/main/res_ kann durch eine XML-Datei mit dem gleichen Namen unter _app/src/mycompany/res_ ersetzt werden. Hier sind einige Beispiele"
 
 #. type: Title ####
 #: build/_docs/md/Whitelabel_Builds.md
