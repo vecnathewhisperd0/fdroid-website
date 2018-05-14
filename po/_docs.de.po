@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-04-27 16:02+0200\n"
-"PO-Revision-Date: 2018-05-14 16:58+0000\n"
+"PO-Revision-Date: 2018-05-15 17:38+0000\n"
 "Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-docs/de/>\n"
 "Language: de\n"
@@ -1128,12 +1128,12 @@ msgstr "‘git’"
 #. type: Bullet: '-   '
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "‘svn’"
-msgstr "‘SVN’"
+msgstr "‘svn’"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "‘git-svn’"
-msgstr "‘git-SVN’"
+msgstr "‘git-svn’"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2098,7 +2098,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "`antifeatures=<antifeature1>[,<antifeature2>,...]`\n"
-msgstr "`antifeatures=<problematisches Merkmal 1>[,<problematisches Merkmal 2>,...]`\n"
+msgstr "`antifeatures=<unerwünschtes Merkmal 1>[,<unerwünschtes Merkmal 2>,...]`\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2117,7 +2117,7 @@ msgstr "7.24 Problematische Merkmale<a name=\"AntiFeatures\"></a>"
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "This is optional - if present, it contains a comma-separated list of any of the following values, describing an anti-feature the application has.  It is a good idea to mention the reasons for the anti-feature(s) in the description:"
-msgstr "Dies ist optional - wenn vorhanden, enthält es eine durch Komma getrennte Liste mit jedem der folgenden Werte, die ein problematisches Merkmal beschreiben, das die Anwendung besitzt.  Es empfiehlt sich, die Gründe für problematische Merkmale in der Beschreibung zu erläutern:"
+msgstr "Dies ist optional - wenn vorhanden, enthält es eine durch Komma getrennte Liste mit jedem der folgenden Werte, die ein unerwünschtes Merkmal beschreiben, das die Anwendung besitzt.  Es empfiehlt sich, die Gründe für unerwünschte Merkmale in der Beschreibung zu erläutern:"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2278,8 +2278,8 @@ msgid ""
 "    trunk and tags or else no tags will be found.\n"
 msgstr ""
 "    Zurzeit funktioniert es nur für Git, Hg, Bazaar und Git-SVN Repositories.\n"
-" Bei letzterem muss die URL zum Repository den Pfad zum Stamm\n"
-" und Schlagwörter enthalten, sonst werden keine Schlagwörter gefunden.\n"
+"    Bei letzterem muss die URL zum Repository den Pfad zum Stamm\n"
+"    und Schlagwörter enthalten, sonst werden keine Schlagwörter gefunden.\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2629,7 +2629,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
 msgid "```bash fdroid:~/fdroidserver$ cd ~ fdroid:~$ git clone https://gitlab.com/fdroid/fdroiddata.git fdroid:~$ cp fdroidserver/examples/config.py fdroiddata/ fdroid:~$ sed -i \"s@^[# ]*build_server_always.*@build_server_always = True@\" fdroiddata/config.py ```"
-msgstr "```bash fdroid:~/fdroidserver$ cd ~ fdroid:~$ Git clone https://Gitlab.com/fdroid/fdroiddata.Git fdroid:~$ cp fdroidserver/examples/config.py fdroiddata/ fdroid:~$ sed -i \"s@^[# ]*build_server_always.*@build_server_always = True@\" fdroiddata/config.py ```"
+msgstr "```bash fdroid:~/fdroidserver$ cd ~ fdroid:~$ git clone https://gitlab.com/fdroid/fdroiddata.git fdroid:~$ cp fdroidserver/examples/config.py fdroiddata/ fdroid:~$ sed -i \"s@^[# ]*build_server_always.*@build_server_always = True@\" fdroiddata/config.py ```"
 
 #. type: Title ##
 #: build/_docs/md/Build_Server_Setup.md
@@ -3753,7 +3753,7 @@ msgstr "Kann ich Anwender meiner App rückverfolgen?"
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md
 msgid "You can, but if you include any kind of tracking or analytics in your application (even sending crash reports) this must be something that the user explicitly opts **in** to - i.e. you ask them on first run, before sending anything anywhere, or there's a preference that defaults to OFF.  In all other cases, we may still include the app, but it will be flagged with our 'Tracking' AntiFeature, which means users will only ever see the app if they choose to view such apps."
-msgstr "Sie können, aber wenn Sie irgendeine Form der Überwachung oder Nutzungsanalyse (selbst den Versand von Absturzberichten) in Ihre Anwendung integrieren, darf dies nur mit ausdrücklicher **Zustimmung** des Anwenders geschehen - d. h. er muss beim ersten Start der App danach gefragt werden, bevor irgendetwas irgendwohin versendet wird, oder es gibt eine Einstellung, deren Standardwert AUS ist.  In allen anderen Fällen können wir die App zwar aufnehmen, sie wird aber mit dem Kennzeichen 'Überwachung' als problematisches Merkmal versehen werden, was bedeutet, dass Anwender sie nur dann sehen werden, wenn sie die Anzeige solcher Apps ausgewählt haben."
+msgstr "Sie können, aber wenn Sie irgendeine Form der Überwachung oder Nutzungsanalyse (selbst den Versand von Absturzberichten) in Ihre Anwendung integrieren, darf dies nur mit ausdrücklicher **Zustimmung** des Anwenders geschehen - d. h. er muss beim ersten Start der App danach gefragt werden, bevor irgendetwas irgendwohin versendet wird, oder es gibt eine Einstellung, deren Standardwert AUS ist.  In allen anderen Fällen können wir die App zwar aufnehmen, sie wird aber mit dem Kennzeichen 'Überwachung' als unerwünschtes Merkmal versehen werden, was bedeutet, dass Anwender sie nur dann sehen werden, wenn sie die Anzeige solcher Apps ausgewählt haben."
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md
@@ -5253,7 +5253,7 @@ msgstr "Sie werden Ihren Quellcode überfliegen, um zu sehen, ob Ihre Anwendung 
 #. type: Bullet: '-   '
 #: build/_docs/md/Inclusion_How-To.md
 msgid "They will list a summary of any [AntiFeatures](https://f-droid.org/wiki/page/Antifeatures) in your application."
-msgstr "Sie werden eine Zusammenstellung aller [problematischer Merkmale](https://f-droid.org/wiki/page/Antifeatures) in Ihrer Anwendung auflisten."
+msgstr "Sie werden eine Zusammenstellung aller [unerwünschter Merkmale](https://f-droid.org/wiki/page/Antifeatures) in Ihrer Anwendung auflisten."
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Inclusion_How-To.md
@@ -5521,7 +5521,7 @@ msgstr "Versionen sollten durch Schlagworte (oder auf andere Weise) eindeutig ge
 #. type: Plain text
 #: build/_docs/md/Inclusion_Policy.md
 msgid "Some software, while being Free and Open Source, may engage in practices which are undesirable to some or all users. Where possible, we still include these applications in the repository, but they are flagged with the appropriate [AntiFeatures](https://f-droid.org/wiki/page/Antifeatures). Even though such software can be included, when appropriately flagged, it is frequently the case that other \"FLOSS\" software with these features is actually not entirely free. For example, advertising and spying on user is often enabled via proprietary binary libraries which we cannot include."
-msgstr "Manche Software, obwohl Free & Open Source, kann sich Praktiken bedienen, die für einige oder alle Nutzer unerwünscht sind. Wenn möglich werden wir alle diese Anwendungen trotzdem ins Repository aufnehmen, aber sie werden mit dem entsprechenden [problematischen Merkmal](https://f-droid.org/wiki/page/Antifeatures) ausgewiesen. Auch wenn solche Software eingeschlossen werden kann, wenn sie entsprechend markiert ist, ist es häufig so, dass andere \"FLOSS\"-Software mit diesen Merkmalen eigentlich nicht völlig frei ist. Zum Beispiel wird Werbung und Überwachung von Nutzern über proprietäre Binärdateibibliotheken ermöglicht, die wir nicht einschließen können."
+msgstr "Manche Software, obwohl Free & Open Source, kann sich Praktiken bedienen, die für einige oder alle Nutzer unerwünscht sind. Wenn möglich werden wir alle diese Anwendungen trotzdem ins Repository aufnehmen, aber sie werden mit dem entsprechenden [unerwünschten Merkmal](https://f-droid.org/wiki/page/Antifeatures) ausgewiesen. Auch wenn solche Software eingeschlossen werden kann, wenn sie entsprechend markiert ist, ist es häufig so, dass andere \"FLOSS\"-Software mit diesen Merkmalen eigentlich nicht völlig frei ist. Zum Beispiel wird Werbung und Überwachung von Nutzern über proprietäre Binärdateibibliotheken ermöglicht, die wir nicht einschließen können."
 
 #. type: Plain text
 #: build/_docs/md/Inclusion_Policy.md
