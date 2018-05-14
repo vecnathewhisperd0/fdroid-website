@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-04-27 16:02+0200\n"
-"PO-Revision-Date: 2018-05-08 17:37+0000\n"
+"PO-Revision-Date: 2018-05-14 16:36+0000\n"
 "Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-docs/de/>\n"
 "Language: de\n"
@@ -2243,7 +2243,7 @@ msgstr "`Static` - Es findet keine Überprüfung statt - entweder wurde die Weit
 #. type: Bullet: '-   '
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "`RepoManifest` - At the most recent commit, the `AndroidManifest.xml` and `build.gradle` files are looked for in the directory where they were found in the the most recent build. The appropriateness of this method depends on the development process used by the application’s developers. You should not specify this method unless you’re sure it’s appropriate. For example, some developers bump the version when commencing development instead of when publishing. It will return an error if the AndroidManifest.xml has moved to a different directory or if the package name has changed. The current version that it gives may not be accurate, since not all versions are fit to be published.  Therefore, before building, it is often necessary to check if the current version has been published somewhere by the upstream developers, either by checking for apks that they distribute or for tags in the source code repository."
-msgstr ""
+msgstr "`RepoManifest` - Nach dem neusten Commit, wird nach den Dateien `AndroidManifest.xml` und `build.gradle` in den Verzeichnissen gesucht, in denen sie sich beim aktuellsten Build befanden. Die Eignung dieser Methode hängt vom Entwicklungsprozess ab, den die App-Entwickler verwenden. Wenn nicht sicher ist, ob sie sich eignet, sollte sie nicht festgelegt werden. Zum Beispiel stoßen einige Entwickler Versionen zu Beginn der Entwicklung an anstatt vor der Veröffentlichung. Das Verschieben von AndroidManifest.xml in ein anderes Verzeichnis oder das Ändern des Paketnamens wird einen Fehler auslösen. Die zurückgegebene aktuelle Version wird nicht korrekt sein, da nicht alle Versionen zur Veröffentlichung taugen.  Daher ist es häufig, vor der Herstellung, notwendig, zu überprüfen, ob die aktuelle Version irgendwo von den Upstream-Entwicklern publiziert wurde, entweder durch Kontrolle der von ihnen verbreiteten APKs oder der Tags im Quellcode-Repository."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2267,7 +2267,7 @@ msgstr ""
 #. type: Bullet: '-   '
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "`Tags` - The `AndroidManifest.xml` and `build.gradle` files in all tagged revisions in the source repository are checked, looking for the highest version code.  The appropriateness of this method depends on the development process used by the application’s developers. You should not specify this method unless you’re sure it’s appropriate. It shouldn’t be used if the developers like to tag unstable versions or are known to forget to tag releases. Like RepoManifest, it will not return the correct value if the directory containing the AndroidManifest.xml has moved. Despite these caveats, it is the often the favourite update check mode."
-msgstr ""
+msgstr "`Tags` - Die Dateien `AndroidManifest.xml` und `build.gradle` in allen getaggten Revisionen im Quellrepository werden überprüft, indem nach dem höchstem Versionscode gesucht wird. Die Eignung dieser Methode hängt vom Entwicklungsprozess ab, den die App-Entwickler verwenden. Wenn nicht sicher ist, ob sie sich eignet, sollte sie nicht festgelegt werden. Sie sollte nicht verwendet werden, wenn die Entwickler gerne instabile Versionen taggen oder dafür bekannt sind, Tags für Releaseversionen zu vergessen. Wie bei `RepoManifest` wird ein falscher Wert zurückgegeben werden, wenn AndroidManifest.xml verschoben wurde. Trotz dieser Vorbehalte ist es oft die bevorzugte Prüfmethode für Aktualisierungen."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2300,7 +2300,7 @@ msgstr ""
 #. type: Bullet: '-   '
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "`HTTP` - HTTP requests are used to determine the current version code and version name. This is controlled by the `Update Check Data` field, which is of the form `urlcode|excode|urlver|exver`."
-msgstr ""
+msgstr "`HTTP` - Es werden HTTP-Requests verwendet, um den aktuellen Versionscode und -namen zu ermitteln. Dies wird durch das Feld `Daten zur Aktualisierungsprüfung` gesteuert, das in Form von `urlcode|excode|urlver|exver` vorliegt."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2310,6 +2310,9 @@ msgid ""
 "    retrieved, and matched against the regular expression `excode`, with\n"
 "    the first group becoming the version code.\n"
 msgstr ""
+"    Zuerst wird, wenn `urlcode` nicht leer ist, das Dokument von dieser URL\n"
+"    bezogen und gegen den regulären Ausdruck `excode` abgeglichen, so dass\n"
+"    die erste Gruppe der Versionscode wird.\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2321,6 +2324,11 @@ msgid ""
 "    set to simply ’.’ which says to use the same document returned for\n"
 "    the version code again, rather than retrieving a different one.\n"
 msgstr ""
+"    Danach wird, wenn `urlver` nicht leer ist, das Dokument von dieser URL\n"
+"    geholt und gegen den regulären Ausdruck `exver` abgeglichen, wodurch\n"
+"    die erste Gruppe zum Versionsnamen wird. Das Feld `urlver` kann einfach\n"
+"    auf ’.’ gesetzt werden, was besagt, dasselbe Dokument wieder zu verwenden,\n"
+"    das für den Versionscode zurückkam, bevor ein Weiteres bezogen wird.\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
