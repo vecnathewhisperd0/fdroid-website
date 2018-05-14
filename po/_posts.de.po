@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-05-11 14:06+0200\n"
-"PO-Revision-Date: 2018-05-13 14:43+0000\n"
-"Last-Translator: ssantos <ssantos@web.de>\n"
+"PO-Revision-Date: 2018-05-14 17:00+0000\n"
+"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -1544,7 +1544,7 @@ msgstr "Es gab zahlreiche Kommentare von Leuten, die sich fragen, wo VLC abgebli
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-11-this-week-in-fdroid-w19.md
 msgid "[Mastodon](https://joinmastodon.org/): We broke 2K followers on Mastodon this week! In part because [linuxrocks.online](https://linuxrocks.online) was restarted, restoring federation and resulting in an influx of followers from that instance, as well as some 10 day old mentions."
-msgstr "[Mastodon](https://joinmastodon.org/): wir haben diese Woche 2000 Anhänger auf Mastodon erreicht! Zum Teil, weil [linuxrocks.online](https://linuxrocks.online) wurde neu gestartet, wodurch die Federation wiederhergestellt wurde, was zu einem Zustrom von Anhängern aus dieser Instanz sowie zu einigen 10 Tage alten Erwähnungen führte."
+msgstr "[Mastodon](https://joinmastodon.org/): wir haben diese Woche 2000 Anhänger auf Mastodon erreicht! Zum Teil, weil [linuxrocks.online](https://linuxrocks.online) wieder startete, wodurch die Föderation ausgebaut wurde, was zu einem Zustrom von Anhängern aus dieser Instanz sowie zu einigen 10 Tage alten Erwähnungen führte."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-11-this-week-in-fdroid-w19.md
@@ -1600,17 +1600,17 @@ msgstr "[Fennec F-Droid](https://f-droid.org/app/org.mozilla.fennec_fdroid), das
 #: build/_posts/md/2018-05-11-this-week-in-fdroid-w19.md
 #, no-wrap
 msgid "  By the way, several people told us they find the icon ugly. Think you can do better? Here's your chance! Send us a new design, and we might make it the official new Fennec F-Droid icon!\n"
-msgstr "  Übrigens haben uns einige Leute gesagt, dass sie die Icons hässlich finden. Denken Sie, Sie könne es besser? Hier ist Ihre Chance! Schicken Sie uns ein neues Design und wir könnten es zum offiziellen neuen Fennec F-Droid Icon machen!\n"
+msgstr "  Übrigens haben uns einige Leute gesagt, dass sie das Icon hässlich finden. Denken Sie, Sie könnten es verbessern? Hier ist Ihre Chance! Schicken Sie uns ein neues Design und wir könnten es zum offiziellen, neuen Icon von Fennec F-Droid machen!\n"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-11-this-week-in-fdroid-w19.md
 msgid "[Conversations](https://f-droid.org/app/eu.siacs.conversations) was updated to version 2.2.0 featuring integrated message search, voice recorder and location sharing. Users of the plugins \"[Voice Recorder Plugin](https://f-droid.org/app/eu.siacs.conversations.voicerecorder)\" from the F-Droid repo and \"Open Share Location Plugin\" from the F-Droid Archive repo can safely uninstall them after updating."
-msgstr "[Conversations](https://f-droid.org/app/eu.siacs.conversations) wurde auf Version 2.2.0 mit integrierter Nachrichtensuche, Sprachaufzeichnung und Location-Sharing aktualisiert. Benutzer der Plugins \"[Voice Recorder Plugin](https://f-droid.org/app/eu.siacs.conversations.voicerecorder)\" aus dem F-Droid Repo und \"Open Share Location Plugin\" aus dem F-Droid Archive Repo können sie nach dem Update sicher deinstallieren."
+msgstr "[Conversations](https://f-droid.org/app/eu.siacs.conversations) erhielt ein Update auf Version 2.2.0 mit integrierter Nachrichtensuche, Sprachaufzeichnung und Standortfreigabe. Benutzer der Plugins \"[Voice Recorder Plugin](https://f-droid.org/app/eu.siacs.conversations.voicerecorder)\" aus dem F-Droid-Repo und \"Open Share Location Plugin\" aus dem F-Droid-Archiv können sie nach dem Update sicher deinstallieren."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-11-this-week-in-fdroid-w19.md
 msgid "[Markor](https://f-droid.org/app/net.gsantner.markor) 0.3.7 is out on F-Droid, with option to disable red spell check underline, delete action, open link in browser, and more."
-msgstr "[Markor](https://f-droid.org/app/net.gsantner.markor) 0.3.7 ist auf F-Droid verfügbar, mit der Option, den roten Rechtschreibprüfungs-Unterstrich zu deaktivieren, Aktionen zu löschen, den Link im Browser zu öffnen und vieles mehr."
+msgstr "[Markor](https://f-droid.org/app/net.gsantner.markor) 0.3.7 ist auf F-Droid verfügbar, mit der Option, den roten Rechtschreibprüfungs-Unterstrich zu deaktivieren, Aktionen zu löschen, Links im Browser zu öffnen und vielem mehr."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-11-this-week-in-fdroid-w19.md
@@ -1620,7 +1620,7 @@ msgstr "[DAVdroid](https://f-droid.org/app/at.bitfire.davdroid) 1.11.2-ose ermö
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-11-this-week-in-fdroid-w19.md
 msgid "[NewPipe](https://f-droid.org/app/org.schabi.newpipe) was updated to 0.13.3. You can now double-tap the middle of the player screen to pause the video. The history view and project layout was refactored, along with other improvements and fixes."
-msgstr "[NewPipe](https://f-droid.org/app/org.schabi.newpipe) wurde auf 0.13.3 aktualisiert. Sie können nun auf die Mitte des Playerbildschirms doppeltippen, um das Video anzuhalten. Die History-Ansicht und das Projektlayout wurden überarbeitet, zusammen mit weiteren Verbesserungen und Korrekturen."
+msgstr "[NewPipe](https://f-droid.org/app/org.schabi.newpipe) wurde auf 0.13.3 aktualisiert. Sie können nun auf die Mitte des Playerbildschirms doppeltippen, um das Video anzuhalten. Die Ansicht des Verlaufs und das Projektlayout wurden überarbeitet, zusammen mit weiteren Verbesserungen und Korrekturen."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-11-this-week-in-fdroid-w19.md
