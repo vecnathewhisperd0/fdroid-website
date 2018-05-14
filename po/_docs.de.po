@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-04-27 16:02+0200\n"
-"PO-Revision-Date: 2018-05-14 16:51+0000\n"
+"PO-Revision-Date: 2018-05-14 16:58+0000\n"
 "Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-docs/de/>\n"
 "Language: de\n"
@@ -82,7 +82,7 @@ msgstr "Letztlich ist es nicht einmal nötig, die Instrumente _fastlane supply_ 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
 msgid "All the localized descriptions and graphics will automatically show up in the F-Droid repo once they are available in the source repo of a release that the repo builds.  For example, if these files are included in a _git_ repo's _master_ branch but not yet in a tagged release, they will not be included."
-msgstr "Alle lokalisierten Beschreibungen und Grafiken werden automatisch im F-Droid-Repo erscheinen, sobald sie im Quellrepo einer Version abrufbar sind, die das Repo herstellt.  Sind diese Dateien, zum Beispiel, in einem _git_ Repo _Master_-Zweig enthalten, aber noch nicht zur Veröffentlichung markiert, werden sie nicht aufgenommen werden."
+msgstr "Alle lokalisierten Beschreibungen und Grafiken werden automatisch im F-Droid-Repo erscheinen, sobald sie im Quellrepo einer Version abrufbar sind, die das Repo herstellt.  Sind diese Dateien, zum Beispiel, in einem _Git_ Repo _Master_-Zweig enthalten, aber noch nicht zur Veröffentlichung markiert, werden sie nicht aufgenommen werden."
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -2277,7 +2277,7 @@ msgid ""
 "    In the case of the latter, the repo URL must contain the path to the\n"
 "    trunk and tags or else no tags will be found.\n"
 msgstr ""
-"    Zurzeit funktioniert es nur für git, Hg, Bazaar und git-SVN Repositories.\n"
+"    Zurzeit funktioniert es nur für Git, Hg, Bazaar und Git-SVN Repositories.\n"
 " Bei letzterem muss die URL zum Repository den Pfad zum Stamm\n"
 " und Schlagwörter enthalten, sonst werden keine Schlagwörter gefunden.\n"
 
@@ -2629,7 +2629,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
 msgid "```bash fdroid:~/fdroidserver$ cd ~ fdroid:~$ git clone https://gitlab.com/fdroid/fdroiddata.git fdroid:~$ cp fdroidserver/examples/config.py fdroiddata/ fdroid:~$ sed -i \"s@^[# ]*build_server_always.*@build_server_always = True@\" fdroiddata/config.py ```"
-msgstr "```bash fdroid:~/fdroidserver$ cd ~ fdroid:~$ git clone https://gitlab.com/fdroid/fdroiddata.git fdroid:~$ cp fdroidserver/examples/config.py fdroiddata/ fdroid:~$ sed -i \"s@^[# ]*build_server_always.*@build_server_always = True@\" fdroiddata/config.py ```"
+msgstr "```bash fdroid:~/fdroidserver$ cd ~ fdroid:~$ Git clone https://Gitlab.com/fdroid/fdroiddata.Git fdroid:~$ cp fdroidserver/examples/config.py fdroiddata/ fdroid:~$ sed -i \"s@^[# ]*build_server_always.*@build_server_always = True@\" fdroiddata/config.py ```"
 
 #. type: Title ##
 #: build/_docs/md/Build_Server_Setup.md
@@ -5476,7 +5476,7 @@ msgstr "Darüberhinaus:"
 #. type: Bullet: '-   '
 #: build/_docs/md/Inclusion_Policy.md
 msgid "The source code for the application must be maintained in a publicly accessible Version Control System which we have support for (git, hg, svn, bzr), and the source code needs to be maintained in an up to date state."
-msgstr "Der Quelltext für die Anwendung muss in einem öffentlich zugänglichen Versionsverwaltungssystem gepflegt werden, das von uns unterstützt wird (git, Hg, SVN, Bazaar), und der Quelltext muss auf dem neusten Stand gehalten werden."
+msgstr "Der Quelltext für die Anwendung muss in einem öffentlich zugänglichen Versionsverwaltungssystem gepflegt werden, das von uns unterstützt wird (Git, Hg, SVN, Bazaar), und der Quelltext muss auf dem neusten Stand gehalten werden."
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Inclusion_Policy.md
