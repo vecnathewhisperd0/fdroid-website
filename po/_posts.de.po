@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-05-11 14:06+0200\n"
-"PO-Revision-Date: 2018-05-14 17:00+0000\n"
+"PO-Revision-Date: 2018-05-15 17:38+0000\n"
 "Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\n"
 "Language: de\n"
@@ -793,7 +793,7 @@ msgstr "\"Neue Zusammenarbeit, um Überwachung aufzudecken\""
 #. type: Plain text
 #: build/_posts/md/2017-12-14-new-collaborations-on-exposing-tracking.md
 msgid "Since 2010, the F-Droid community has been working to provide only 100% verified Free Software, and to make apparent all forms of tracking, advertising, and \"[anti-features](https://f-droid.org/wiki/page/AntiFeatures)\" commonly found in apps.  F-Droid provides a complete app ecosystem where users are actively notified of tracking and advertising in the apps, and can make informed choices.  We have achieved this through the work of many dedicated volunteers reviewing apps as they are submitted, and marking the things that they find."
-msgstr "Seit 2010 arbeitet die F-Droid-Community daran, ausschließlich 100% überprüfte Freie Software anzubieten und alle Formen der Überwachung, Werbung und \"[problematische Merkmale](https://f-droid.org/wiki/page/AntiFeatures)\", die für gewöhnlich in Apps gefunden werden, kenntlich zu machen. F-Droid bietet ein komplettes App-Ökosystem, in dem Anwender aktiv auf Überwachung und Werbung in den Apps hingewiesen werden, und sich informiert entscheiden können. Wir haben das durch die Arbeit vieler engagierter Freiwilliger erreicht, die Apps, so wie sie vorlagen, überprüften und die darin gefundenen Dinge kennzeichneten."
+msgstr "Seit 2010 arbeitet die F-Droid-Community daran, ausschließlich 100% überprüfte Freie Software anzubieten und alle Formen der Überwachung, Werbung und \"[unerwünschte Merkmale](https://f-droid.org/wiki/page/AntiFeatures)\", die für gewöhnlich in Apps gefunden werden, kenntlich zu machen. F-Droid bietet ein komplettes App-Ökosystem, in dem Anwender aktiv auf Überwachung und Werbung in den Apps hingewiesen werden, und sich informiert entscheiden können. Wir haben das durch die Arbeit vieler engagierter Freiwilliger erreicht, die Apps, so wie sie vorlagen, überprüften und die darin gefundenen Dinge kennzeichneten."
 
 #. type: Plain text
 #: build/_posts/md/2017-12-14-new-collaborations-on-exposing-tracking.md
