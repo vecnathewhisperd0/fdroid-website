@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-05-11 14:06+0200\n"
-"PO-Revision-Date: 2018-05-15 17:38+0000\n"
+"PO-Revision-Date: 2018-05-16 22:49+0000\n"
 "Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\n"
 "Language: de\n"
@@ -1167,7 +1167,7 @@ msgstr "Hallo zusammen! Dies ist ein kleines Experiment, angestoßen vom [Matrix
 #: build/_posts/md/2018-05-04-this-week-in-fdroid-w18.md
 #: build/_posts/md/2018-05-11-this-week-in-fdroid-w19.md
 msgid "[F-Droid](https://f-droid.org/) is an installable [catalogue](https://f-droid.org/en/packages/) of [FOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software) (Free and Open Source Software) applications for the Android platform. The [client](https://f-droid.org/app/org.fdroid.fdroid) makes it easy to browse, install, and keep track of updates on your device. This post lists notable things that happened in and around F-Droid this past week."
-msgstr "[F-Droid](https://f-droid.org/) ist ein installierbarer [Katalog](https://f-droid.org/en/packages/) aus [FOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software) (Free and Open Source Software)-Anwendungen für Android. Der [Client](https://f-droid.org/app/org.fdroid.fdroid) erleichtert die App-Suche, -Installation und -Aktualisierung auf Ihrem Gerät. Dieser Beitrag zählt berichtenswerte Dinge auf, die in der vergangenen Woche bei und rund um F-Droid passiert sind."
+msgstr "[F-Droid](https://f-droid.org/) ist ein installierbarer [Katalog](https://f-droid.org/en/packages/) aus [FOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software) (Free and Open Source Software)-Anwendungen für Android. Der [Client](https://f-droid.org/app/org.fdroid.fdroid) erleichtert deren Suche, Installation und Aktualisierung auf Ihrem Gerät. Dieser Beitrag zählt berichtenswerte Dinge auf, die in der vergangenen Woche bei und rund um F-Droid passiert sind."
 
 #. type: Title ####
 #: build/_posts/md/2018-04-27-this-week-in-fdroid.md
