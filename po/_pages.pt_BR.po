@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-05-06 16:58+0200\n"
-"PO-Revision-Date: 2018-05-16 22:49+0000\n"
+"PO-Revision-Date: 2018-05-17 10:45+0000\n"
 "Last-Translator: Robson Cassiano <robson.cordeiro777@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/f-droid/website-pages/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -450,7 +450,7 @@ msgstr "Relate Problemas"
 #. type: Plain text
 #: build/_pages/md/contribute.md
 msgid "If you experience problems with the site or client software, you can report them in the issue tracker (see below), or discuss them in the [Forum](https://forum.f-droid.org/) or on IRC (#fdroid on freenode)."
-msgstr ""
+msgstr "Se você experimentar problemas com o site ou o software cliente, você pode reportar eles para no issue tracker (veja abaixo) ou falar sobre eles no [Forum](https://forum.f-droid.org/) ou no IRC (#fdroid no freenode)."
 
 #. type: Plain text
 #: build/_pages/md/contribute.md
