@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-04-27 16:02+0200\n"
-"PO-Revision-Date: 2018-05-15 17:38+0000\n"
-"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
+"PO-Revision-Date: 2018-05-17 10:45+0000\n"
+"Last-Translator: Chessplayer960 <urr42885@sawoe.com>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-docs/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -584,7 +584,7 @@ msgstr "Die physische Umgebung"
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
 msgid "The last thing to consider is the physical location where signatures happen, and where essential equipment is stored.  The signing environment must be physically secure. Otherwise, there is no way to prevent laptops or HSMs from being lost or used to sign inappropriate content.  For the offline machines, keeping them in a locked room is a good start.  For an online machine, forcing all network traffic and remote access over Tor hides the physical location of the machine from network observers."
-msgstr "Der letzte zu betrachtende Aspekt ist der physische Ort, an dem das Signieren stattfindet und wo die nötigen Materialien gelagert werden. Die Siginier-Umgebung muss physisch sicher sein. Andernfalls gibt es keinen Weg den Verlust oder die Verwendung von Laptops und/ oder HSMs zum Signieren von unpassenden Inhalten zu verhindern. Bei Offline-Maschinen ist die Aufbewahrung in einem verschlossenen Raum ein guter Anfang. Bei einer Online-Maschine ist es sinnvoll, den gesamten Netzwerkverkehr (auch die Fernsteuerung) über Tor zu leiten, um den physische Standort der Maschine vor Netzwerküberwachern zu verbergen."
+msgstr "Der letzte zu betrachtende Aspekt ist der physische Ort, an dem das Signieren stattfindet und wo die nötigen Materialien gelagert werden. Die Siginier-Umgebung muss physisch sicher sein. Andernfalls gibt es keinen Weg, den Verlust oder die Verwendung von Laptops und/ oder HSMs zum Signieren von unpassenden Inhalten zu verhindern. Bei Offline-Maschinen ist die Aufbewahrung in einem verschlossenen Raum ein guter Anfang. Bei einer Online-Maschine ist es sinnvoll, den gesamten Netzwerkverkehr (auch die Fernsteuerung) über Tor zu leiten, um den physische Standort der Maschine vor Netzwerküberwachern zu verbergen."
 
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
@@ -6567,7 +6567,7 @@ msgstr ""
 
 #. type: Title #
 #: build/_docs/md/Release_Process.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Release Process"
 msgstr "Release-Prozess"
 
@@ -6639,7 +6639,7 @@ msgstr ""
 
 #. type: Title ###
 #: build/_docs/md/Release_Process.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "major release"
 msgstr "Major Release"
 
