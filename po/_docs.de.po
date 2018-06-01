@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-05-26 15:02+0200\n"
-"PO-Revision-Date: 2018-05-31 16:38+0000\n"
+"PO-Revision-Date: 2018-06-02 20:38+0000\n"
 "Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-docs/de/>\n"
 "Language: de\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.0-dev\n"
+"X-Generator: Weblate 3.0\n"
 
 #. type: Title #
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -1932,6 +1932,14 @@ msgid ""
 "    isn’t used nor built will result in an error saying that native\n"
 "    libraries were expected in the resulting package.\n"
 msgstr ""
+"    Die Build- und Scan-Prozesse werde sich beschweren (sie weigern sich zu bauen), wenn\n"
+"    dieser Parameter nicht definiert ist, aber es ist ein `jni` Verzeichnis vorhanden. Wenn\n"
+"    der native Code mit anderen Mitteln wie z.B. eines Gradle-Tasks, gebaut werden,\n"
+"    können Sie hier `nein` angeben, um das zu vermeiden. Wenn jedoch der native Code\n"
+"    nicht benötigt oder verwendet wird, entfernen Sie stattdessen das Verzeichnis\n"
+"    (zum Beispiel mit `rm=jni`). Mit `buildjni=no` wenn der jni-Code nicht\n"
+"    verwendet oder gebaut wird, führt zu einem Fehler, der besagt, dass native\n"
+"    Bibliotheken in dem resultierenden Paket erwartet wurden.\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2295,7 +2303,7 @@ msgstr ""
 #. type: Bullet: '-   '
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "`RepoTrunk` - For svn and git-svn repositories, especially those who don’t have a bundled AndroidManifest.xml file, the Tags and RepoManifest checks will not work, since there is no version information to obtain. But, for those apps who automate their build process with the commit ref that HEAD points to, RepoTrunk will set the Current Version and Current Version Code to that number."
-msgstr ""
+msgstr "`RepoTrunk` - Für svn und git-svn Repositories, besonders für diejenigen, die keine mitgelieferte AndroidManifest.xml Datei haben, werden die Tags und RepoManifest Prüfungen nicht funktionieren, da es keine Versionsinformationen gibt, die es holen kann. Aber für die Apps, die ihren Build-Prozess mit dem Commit-Ref, auf den HEAD zeigt, automatisieren, wird RepoTrunk die aktuelle Version und den aktuellen Versionscode auf diese Nummer setzen."
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2426,7 +2434,7 @@ msgstr "7.33 Automatische Aktualisierungsmethode<a name=\"Auto-Update-Mode\"></a
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "This determines the method using for auto-generating new builds when new releases are available - in other words, adding a new Build Version line to the metadata. This happens in conjunction with the ’Update Check Mode’ functionality - i.e. when an update is detected by that, it is also processed by this."
-msgstr ""
+msgstr "Dies bestimmt die Methode zur automatischen Erzeugung neuer Builds, wenn neue Releases verfügbar sind, d.h. das Hinzufügen einer neuen Build-Versionszeile zu den Metadaten. Dies geschieht in Verbindung mit der Funktionalität 'Update Check Mode' - d.h. wenn ein Update von diesem erkannt wird, wird es auch von diesem verarbeitet."
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2436,7 +2444,7 @@ msgstr "`None` - Es erfolgt keine automatische Aktualisierung"
 #. type: Bullet: '-   '
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "`Version` - Identifies the target commit (i.e. tag) for the new build based on the given version specification, which is simply text in which %v and %c are replaced with the required version name and version code respectively."
-msgstr ""
+msgstr "`Version` - Identifiziert den Ziel-Commit (d.h. Tag) für den neuen Build basierend auf der angegebenen Versionsspezifikation, die einfach aus einem Text besteht, in dem %v und %c durch den gewünschten Versionsnamen bzw. Versionscode ersetzt werden."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2447,6 +2455,10 @@ msgid ""
 "    always has a tag \"ver\\_1234\" for a version with version code 1234,\n"
 "    you would specify \"Version ver\\_%c\".\n"
 msgstr ""
+"    Zum Beispiel, wenn eine App immer einen Tag \"2.7.2\" hat, der Version 2.7.2\n"
+"    entspricht würden Sie einfach \"Version %v\" angeben. Wenn eine App\n"
+"    immer einen Tag \"ver\\_1234\" für eine Version mit dem Versionscode 1234 hat,\n"
+"    würden Sie \"Version ver\\_%c\" angeben.\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2457,6 +2469,10 @@ msgid ""
 "    Continuing the first example above, you would specify that as\n"
 "    \"Version +-fdroid %v\" - \"-fdroid\" is the suffix.\n"
 msgstr ""
+"    Zusätzlich kann dem Versionsnamen an dieser Stelle ein Suffix hinzugefügt\n"
+"    werden, um den F-Droid-Build vom Original zu unterscheiden.\n"
+"    Um das erste Beispiel oben anzusetzen, würden Sie als Suffix\n"
+"    \"Version +-fdroid %v\" - \"-fdroid\" angeben.\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2466,8 +2482,9 @@ msgstr "7.34 Aktuelle Version<a name=\"Current-Version\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
+#, fuzzy
 msgid "The [name of the version](https://developer.android.com/guide/topics/manifest/manifest-element.html#vname) that is the recommended release. There may be newer versions of the application than this (e.g. unstable versions), and there will almost certainly be older ones. This should be the one that is recommended for general use. In the event that there is no source code for the current version, or that non-free libraries are being used, this would ideally be the latest version that is still free, though it may still be expedient to retain the automatic update check — see No Source Since."
-msgstr ""
+msgstr "Der [Name der Version](https://developer.android.com/guide/topics/manifest/manifest-element.html#vname), der die empfohlene Version ist. Es kann neuere Versionen der Anwendung geben (z.B. instabile Versionen) und es wird mit ziemlicher Sicherheit ältere Versionen geben. Diese sollte diejenige sein, die für den allgemeinen Gebrauch empfohlen wird. Für den Fall, dass es keinen Quellcode für die aktuelle Version gibt oder dass unfreie Bibliotheken verwendet werden, wäre dies idealerweise die neueste Version, die noch frei ist, obwohl es sinnvoll sein kann, die automatische Update-Prüfung beizubehalten - siehe Bisher keine Quellen."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
