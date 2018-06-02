@@ -10,15 +10,13 @@ F-Droid is operated by F-Droid Limited, a non-profit organisation registered in 
 
 #### Contact
 
-You can discuss F-Droid or get help on the
-[forum](https://forum.f-droid.org) and IRC in the
-[#fdroid channel](https://webchat.freenode.net/?channels=%23fdroid) on
-freenode. The discussions on IRC are logged on
-[BotBot.me](https://botbot.me/freenode/fdroid).  You can send email at
-[team@f-droid.org](mailto:team@f-droid.org), but messages are much
-more likely to be answered on the forum or #fdroid channel. If you
-want to help, you can [join us]({{ "/contribute/" | prepend:
-site.baseurl }}).
+You can discuss F-Droid or get help on the [forum](https://forum.f-droid.org) and IRC in the [#fdroid channel](https://webchat.freenode.net/?channels=%23fdroid) on freenode. The discussions on IRC are logged on [BotBot.me](https://botbot.me/freenode/fdroid).
+
+You can send email at [team@f-droid.org](mailto:team@f-droid.org), but messages are much more likely to be answered on the forum or #fdroid channel.
+
+If you want to help, you can [join us]({{ "/contribute/" | prepend:site.baseurl }}).
+
+See also: [our PGP signing keys]({{ "/Release_Channels_and_Signing_Keys/" | prepend:site.baseurl }}).
 
 
 ### License
