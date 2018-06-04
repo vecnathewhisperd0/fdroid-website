@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-05-26 15:02+0200\n"
-"PO-Revision-Date: 2018-06-02 20:38+0000\n"
+"PO-Revision-Date: 2018-06-05 21:38+0000\n"
 "Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-docs/de/>\n"
 "Language: de\n"
@@ -2554,12 +2554,12 @@ msgstr "Angenommen, ein einspielendes Quell-Repository ist beschädigt. Hier ein
 #. type: Bullet: '1.  '
 #: build/_docs/md/Build_Server_Setup.md
 msgid "Use custom build steps to execute virtually anything as the user doing the build."
-msgstr ""
+msgstr "Verwenden Sie benutzerdefinierte Build-Schritte, um praktisch alles als der Benutzer auszuführen, der den Build erstellt."
 
 #. type: Bullet: '2.  '
 #: build/_docs/md/Build_Server_Setup.md
 msgid "Access the keystore."
-msgstr ""
+msgstr "Auf den Schlüsselspeicher zugreifen."
 
 #. type: Bullet: '3.  '
 #: build/_docs/md/Build_Server_Setup.md
@@ -2569,28 +2569,28 @@ msgstr ""
 #. type: Bullet: '4.  '
 #: build/_docs/md/Build_Server_Setup.md
 msgid "Modify the metadata (which includes build scripts, which again, also includes the ability to execute anything) for other applications in the repository."
-msgstr ""
+msgstr "Ändern Sie die Metadaten (zu denen auch Build-Skripte gehören, die wiederum die Möglichkeit beinhalten, alles auszuführen) für andere Anwendungen im Repository."
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
 msgid "Through complete isolation, the repurcussions are at least limited to the application in question. Not only is the build environment fresh for each build, and thrown away afterwards, but it is also totally isolated from the signing environment."
-msgstr ""
+msgstr "Durch die vollständige Isolierung sind die Auswirkungen zumindest auf die jeweilige Anwendung beschränkt. Nicht nur, dass die Build-Umgebung für jeden Build frisch ist und danach weggeworfen wird, sie ist auch völlig isoliert von der Signatur-Umgebung."
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
 msgid "Aside from security issues, there are some applications which have strange requirements such as old versions of the NDK. It would be impractical (or at least extremely messy) to start modifying and restoring the SDK on a multi-purpose system, but within the confines of a throwaway single-use virtual machine, anything is possible."
-msgstr ""
+msgstr "Abgesehen von Sicherheitsproblemen gibt es einige Anwendungen, die seltsame Anforderungen haben, wie z.B. alte Versionen des NDK. Es wäre unpraktisch (oder zumindest extrem chaotisch), das SDK auf einem Mehrzwecksystem zu modifizieren und wiederherzustellen, aber innerhalb der Grenzen einer Einweg-Virtual Machine ist alles möglich."
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
 msgid "All this is in addition to the obvious advantage of having a standardised and completely reproducible environment in which builds are made. Additionally, it allows for specialised custom build environments for particular applications."
-msgstr ""
+msgstr "Hinzu kommt der offensichtliche Vorteil einer standardisierten und vollständig reproduzierbaren Umgebung, in der gebaut wird. Darüber hinaus ermöglicht es spezialisierte, maßgeschneiderte Umgebungen für bestimmte Anwendungen."
 
 #. type: Title ##
 #: build/_docs/md/Build_Server_Setup.md
 #, no-wrap
 msgid "Overview of the setup"
-msgstr ""
+msgstr "Überblick über das Setup"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
