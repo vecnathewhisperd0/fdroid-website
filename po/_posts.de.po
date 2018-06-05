@@ -1675,7 +1675,7 @@ msgstr "Erzählen Sie von Ihrem Update im [TWIF Submission Thread](https://forum
 #: build/_posts/md/2018-05-17-this-week-in-fdroid-w20.md
 #, no-wrap
 msgid "\"This Week in F-Droid, Week 20\""
-msgstr "\"Diese Woche in F-Droid, Woche 18\""
+msgstr "\"Diese Woche in F-Droid, Woche 20\""
 
 #. type: Plain text
 #: build/_posts/md/2018-05-17-this-week-in-fdroid-w20.md
@@ -1994,7 +1994,7 @@ msgstr "Es wurden keine Apps entfernt."
 #: build/_posts/md/2018-05-31-this-week-in-fdroid-w22.md
 #, fuzzy, no-wrap
 msgid "\"This Week in F-Droid, Week 22\""
-msgstr "\"Diese Woche in F-Droid, Woche 18\""
+msgstr "\"Diese Woche in F-Droid, Woche 22\""
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-31-this-week-in-fdroid-w22.md
