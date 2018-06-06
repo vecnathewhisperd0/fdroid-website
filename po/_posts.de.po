@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-06-04 20:07+0200\n"
-"PO-Revision-Date: 2018-06-05 19:51+0000\n"
-"Last-Translator: ssantos <ssantos@web.de>\n"
+"PO-Revision-Date: 2018-06-07 17:38+0000\n"
+"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -1675,12 +1675,12 @@ msgstr "Erzählen Sie von Ihrem Update im [TWIF Submission Thread](https://forum
 #: build/_posts/md/2018-05-17-this-week-in-fdroid-w20.md
 #, no-wrap
 msgid "\"This Week in F-Droid, Week 20\""
-msgstr "\"Diese Woche in F-Droid, Woche 18\""
+msgstr "\"Diese Woche in F-Droid, Woche 20\""
 
 #. type: Plain text
 #: build/_posts/md/2018-05-17-this-week-in-fdroid-w20.md
 msgid "[F-Droid](https://f-droid.org/) is a [repository](https://f-droid.org/en/packages/) of verified [free and open source](https://en.wikipedia.org/wiki/Free_and_open-source_software) Android apps, a [client](https://f-droid.org/app/org.fdroid.fdroid) to access it, as well as a whole \"app store kit\", providing all the tools needed to set up and run an app store. It is a community-run free software project developed by a wide range of contributors. This is their story this past week."
-msgstr "[F-Droid](https://f-droid.org/) ist ein [Repository](https://f-droid.org/en/packages/) verifizierter [free and open source](https://en.wikipedia.org/wiki/Free_and_open-source_software) Android Apps, ein [client](https://f-droid.org/app/org.fdroid.fdroid), um darauf zuzugreifen, sowie ein ganzes \"App Store Set\", das alle notwendigen Tools zum Einrichten und Betreiben eines App Stores bietet. Es ist ein gemeinschaftlich geführtes freies Softwareprojekt, das von einer Vielzahl von Mitwirkenden entwickelt wurde. Das ist ihre Geschichte der letzten Woche."
+msgstr "[F-Droid](https://f-droid.org/) ist ein [Repository](https://f-droid.org/en/packages/) verifizierter [free and open source](https://en.wikipedia.org/wiki/Free_and_open-source_software) Android Apps, ein [Client](https://f-droid.org/app/org.fdroid.fdroid), um darauf zuzugreifen, sowie ein ganzes \"App Store Set\", das alle notwendigen Tools zum Einrichten und Betreiben eines App Stores bietet. Es ist ein gemeinschaftlich geführtes freies Softwareprojekt, das von einer Vielzahl von Mitwirkenden entwickelt wurde. Das ist ihre Geschichte der letzten Woche."
 
 #. type: Title ####
 #: build/_posts/md/2018-05-17-this-week-in-fdroid-w20.md
@@ -1709,7 +1709,7 @@ msgstr "  Unter der Haube kann fdroidserver nun die meisten Aufgaben ohne das An
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-17-this-week-in-fdroid-w20.md
 msgid "[_hc](https://forum.f-droid.org/u/hans) also added a security scanner for Python to the build process. It didn't catch anything, but for an extra 1.5 minutes of build time, it's nice to have."
-msgstr "[_hc](https://forum.f-droid.org/u/hans) hat auch einen Sicherheitsscanner für Python zum Build-Prozess hinzugefügt. Es hat nichts gefangen, aber für zusätzliche 1,5 Minuten Bauzeit ist es gut, es zu haben."
+msgstr "[_hc](https://forum.f-droid.org/u/hans) hat auch einen Sicherheitsscanner für Python zum Build-Prozess hinzugefügt. Er hat nichts erfasst, aber für zusätzliche 1,5 Minuten Bauzeit ist es fein, einen zu haben."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-17-this-week-in-fdroid-w20.md
@@ -1891,7 +1891,7 @@ msgstr "**uniq** hat auch den Grundstein gelegt, um unseren Build-Server auf Deb
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-25-this-week-in-fdroid-w21.md
 msgid "You may have noticed the total absence of any [GDPR](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation) related work. [We take your privacy seriously](https://f-droid.org/about/) and always have."
-msgstr "Sie haben vielleicht bemerkt, dass es keine mit [DSGVO](https://de.wikipedia.org/wiki/Datenschutz-Grundverordnung) verwandte Arbeiten gibt. [Wir nehmen Ihre Privatsphäre ernst](https://f-droid.org/de/about/) und haben es immer."
+msgstr "Sie haben vielleicht bemerkt, dass es keinerlei zur [DSGVO](https://de.wikipedia.org/wiki/Datenschutz-Grundverordnung) gehörenden Arbeiten gibt. [Wir nehmen Ihre Privatsphäre ernst](https://f-droid.org/de/about/) und haben es immer getan."
 
 #. type: Plain text
 #: build/_posts/md/2018-05-25-this-week-in-fdroid-w21.md
