@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-06-08 13:37+0200\n"
-"PO-Revision-Date: 2018-06-09 08:31+0000\n"
-"Last-Translator: ssantos <ssantos@web.de>\n"
+"PO-Revision-Date: 2018-06-10 21:53+0000\n"
+"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.0\n"
+"X-Generator: Weblate 3.0.1\n"
 
 #. type: Title #
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md
@@ -1724,7 +1724,7 @@ msgstr "[hotlittlewhitedog](https://forum.f-droid.org/u/hotlittlewhitedog) hat e
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-17-this-week-in-fdroid-w20.md
 msgid "[hellcp](https://forum.f-droid.org/u/hellcp) submitted [an icon](https://forum.f-droid.org/t/new-icon-for-fennec-f-droid/2810/3) for our Fennec icon challenge and it's looking quite good! There's a lively discussion going on, so feel free to [join in](https://forum.f-droid.org/t/2810), or maybe even [submit another icon](https://forum.f-droid.org/t/2810)!"
-msgstr "(hellcp)(https://forum.f-droid.org/u/hellcp) hat [ein Icon](https://forum.f-droid.org/t/new-icon-for-fennec-f-droid/2810/3) für unsere Fennec Icon Challenge eingereicht und es sieht ziemlich gut aus! Es gibt eine lebhafte Diskussion, also zögern Sie nicht, [mitzumachen](https://forum.f-droid.org/t/2810) oder vielleicht sogar ein anderes Icon [einzureichen](https://forum.f-droid.org/t/2810)!"
+msgstr "[hellcp](https://forum.f-droid.org/u/hellcp) hat [ein Icon](https://forum.f-droid.org/t/new-icon-for-fennec-f-droid/2810/3) für unsere Fennec Icon Challenge eingereicht und es sieht ziemlich gut aus! Es gibt eine lebhafte Diskussion, also zögern Sie nicht, [mitzumachen](https://forum.f-droid.org/t/2810) oder vielleicht sogar ein anderes Icon [einzureichen](https://forum.f-droid.org/t/2810)!"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-17-this-week-in-fdroid-w20.md
@@ -1759,7 +1759,7 @@ msgstr "[FragDenStaat](https://f-droid.org/app/de.fragdenstaat.app): In FragDenS
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-17-this-week-in-fdroid-w20.md
 msgid "[sesam](https://f-droid.org/app/de.larcado.sesam): Hash based password manager"
-msgstr "(sesam)(https://f-droid.org/app/de.larcado.sesam): Hash-basierter Passwort-Manager"
+msgstr "[Sesam](https://f-droid.org/app/de.larcado.sesam): Hash-basierter Passwort-Manager"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-17-this-week-in-fdroid-w20.md
@@ -1830,7 +1830,7 @@ msgstr "Entfernte Apps"
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-17-this-week-in-fdroid-w20.md
 msgid "[RunnerUp](https://f-droid.org/app/org.runnerup) was completely removed because it depends on and includes the non-free ANT+ SDK."
-msgstr "(RunnerUp)(https://f-droid.org/app/org.runnerup) wurde komplett entfernt, da es auf das unfreie ANT+ SDK angewiesen ist und dieses enthält."
+msgstr "[RunnerUp](https://f-droid.org/app/org.runnerup) wurde komplett entfernt, da es auf das unfreie ANT+ SDK angewiesen ist und dieses enthält."
 
 #. type: Plain text
 #: build/_posts/md/2018-05-17-this-week-in-fdroid-w20.md
@@ -2056,7 +2056,7 @@ msgstr "[ShellMS](https://f-droid.org/app/com.android.shellms): SMS über Androi
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-31-this-week-in-fdroid-w22.md
 msgid "[TEdit](https://f-droid.org/app/com.atr.tedit): A simple text editor"
-msgstr "(TEdit)(https://f-droid.org/app/com.atr.tedit): Ein einfacher Texteditor"
+msgstr "[TEdit](https://f-droid.org/app/com.atr.tedit): Ein einfacher Texteditor"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-31-this-week-in-fdroid-w22.md
@@ -2183,13 +2183,13 @@ msgstr "\"Diese Woche in F-Droid, Woche 23\""
 #. type: Bullet: '* '
 #: build/_posts/md/2018-06-07-this-week-in-fdroid-w23.md
 msgid "Only a few days left for the [Fennec icon challenge](https://forum.f-droid.org/t/new-icon-for-fennec-f-droid/2810)! This is your final reminder that submissions close [Sunday the 10th of June, 24:00 UTC](https://www.wolframalpha.com/input/?i=June+10,+2018,+24:00+UTC)!"
-msgstr "Nur noch wenige Tage bis zum[Fennec icon challenge] (https://forum.f-droid.org/t/new-icon-for-fennec-f-droid/2810)! Dies ist die letzte Erinnerung, dass die Einreichungen am [Sonntag, den 10. Juni, 24:00 UTC](https://www.wolframalpha.com/input/?i=Juni+10,+2018,+24:00+UTC) enden!"
+msgstr "Nur noch wenige Tage bis zur [Fennec Icon Challenge] (https://forum.f-droid.org/t/new-icon-for-fennec-f-droid/2810)! Dies ist die letzte Erinnerung an den Einsendeschluss am [Sonntag, den 10. Juni, 24:00 UTC](https://www.wolframalpha.com/input/?i=Juni+10,+2018,+24:00+UTC)!"
 
 #. type: Plain text
 #: build/_posts/md/2018-06-07-this-week-in-fdroid-w23.md
 #, no-wrap
 msgid "  We will be starting the vote shortly after that. The voting period will last until the end of June to give less frequent contributers a chance to vote.\n"
-msgstr "  Wir werden kurz danach mit der Abstimmung beginnen. Die Abstimmungs wird bis Ende Juni dauern, um den weniger häufigen Mitwirkenden die Möglichkeit zur Abstimmung zu geben.\n"
+msgstr "  Wir werden kurz danach mit der Abstimmung beginnen. Die Abstimmung wird bis Ende Juni dauern, um weniger häufig Mitwirkenden eine Möglichkeit zur Abstimmung zu geben.\n"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-06-07-this-week-in-fdroid-w23.md
@@ -2215,7 +2215,7 @@ msgstr "Diese Woche haben wir 19! neue Apps hinzugefügt, die den bisherigen Rek
 #. type: Bullet: '* '
 #: build/_posts/md/2018-06-07-this-week-in-fdroid-w23.md
 msgid "[OpenL](https://f-droid.org/app/com.anthony.deepl.openl): Unofficial application of DeepL Translator"
-msgstr "(OpenL)(https://f-droid.org/app/com.anthony.deepl.openl): Inoffizielle Anwendung des DeepL Übersetzers"
+msgstr "[OpenL](https://f-droid.org/app/com.anthony.deepl.openl): Inoffizielle Anwendung des DeepL Übersetzers"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-06-07-this-week-in-fdroid-w23.md
@@ -2230,7 +2230,7 @@ msgstr "[Feeel](https://f-droid.org/app/com.enjoyingfoss.feeel): Angeleitete Üb
 #. type: Bullet: '* '
 #: build/_posts/md/2018-06-07-this-week-in-fdroid-w23.md
 msgid "[Music Player GO](https://f-droid.org/app/com.iven.musicplayergo): Very slim music player"
-msgstr "(Music Player GO)(https://f-droid.org/app/com.iven.musicplayergo): Sehr schlanker Musikplayer"
+msgstr "[Music Player GO](https://f-droid.org/app/com.iven.musicplayergo): Sehr schlanker Musikplayer"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-06-07-this-week-in-fdroid-w23.md
@@ -2270,12 +2270,12 @@ msgstr "[Open Sudoku](https://f-droid.org/app/org.moire.opensudoku): Sudoku-Spie
 #. type: Bullet: '* '
 #: build/_posts/md/2018-06-07-this-week-in-fdroid-w23.md
 msgid "[Mupen64Plus AE](https://f-droid.org/app/org.mupen64plusae.v3.alpha): Front end for Mupen64 Plus"
-msgstr "(Mupen64Plus AE)(https://f-droid.org/app/org.mupen64plusae.v3.alpha): Frontend für Mupen64 Plus"
+msgstr "[Mupen64Plus AE](https://f-droid.org/app/org.mupen64plusae.v3.alpha): Frontend für Mupen64 Plus"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-06-07-this-week-in-fdroid-w23.md
 msgid "[BurgerWP](https://f-droid.org/app/org.sasehash.burgerwp): Get rid of your old boring Wallpaper and replace it with burgers and pizza"
-msgstr "(BurgerWP)(https://f-droid.org/app/org.sasehash.burgerwp): Werde deine alte, langweilige Wallpaper los und ersetze sie durch Burger und Pizza"
+msgstr "[BurgerWP](https://f-droid.org/app/org.sasehash.burgerwp): Werde deine alte, langweilige Wallpaper los und ersetze sie durch Burger und Pizza"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-06-07-this-week-in-fdroid-w23.md
