@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-05-26 15:02+0200\n"
-"PO-Revision-Date: 2018-06-07 21:38+0000\n"
+"PO-Revision-Date: 2018-06-10 21:53+0000\n"
 "Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-docs/de/>\n"
 "Language: de\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.0\n"
+"X-Generator: Weblate 3.0.1\n"
 
 #. type: Title #
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -2605,7 +2605,7 @@ msgstr "Der Basisserver muss mindestens Debian/Jessie sein oder es müssen einig
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
 msgid "First, install the necessary packages and create a new user to run the whole process here, e.g. _fdroid_. These are only the packages required by all builds, you might need to install additional packages to build apps, for example, _mercurial_ or _subversion_. Once the packages are installed and the _fdroid_ user is created, nothing else in this process should be run using root or _sudo_."
-msgstr ""
+msgstr "Installieren Sie zunächst die notwendigen Pakete und legen Sie einen neuen Benutzer an, um den gesamten Prozess hier auszuführen, z.B. _fdroid_. Dies sind nur die Pakete, die von allen Builds benötigt werden. Möglicherweise müssen Sie zusätzliche Pakete installieren, um Anwendungen zu erstellen, z.B. _mercurial_ oder _subversion_. Sobald die Pakete installiert sind und der Benutzer _fdroid_ erstellt wurde, sollte in diesem Prozess nichts anderes mehr mit root oder _sudo_ ausgeführt werden."
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
@@ -2632,7 +2632,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
 msgid "Clone source code and configure the buildserver settings, running as _fdroid_ user:"
-msgstr ""
+msgstr "Klonen Sie den Quellcode und konfigurieren Sie die Buildserver-Einstellungen, die als _fdroid_-Benutzer ausgeführt werden:"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
@@ -2642,12 +2642,12 @@ msgstr "```bash fdroid:~$ cd ~ fdroid:~$ git clone https://gitlab.com/fdroid/fdr
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
 msgid "You also have to make sure your `ANDROID_HOME` environment variable is [set up](../Installing_the_Server_and_Repo_Tools#building-apps) correctly."
-msgstr ""
+msgstr "Sie müssen auch sicherstellen, dass Ihre `ANDROID_HOME`-Umgebungsvariable korrekt [eingerichtet ist](../Installation_der_Server_und_Repo_Tools#Building-apps)."
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
 msgid "For your convenience you optionally may add the fdroid executable to your path:"
-msgstr ""
+msgstr "Für Ihre Bequemlichkeit können Sie optional die ausführbare Datei fdroid zu Ihrem Pfad hinzufügen:"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
@@ -2664,7 +2664,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
 msgid "Create the base buildserver image... (downloading the basebox and all the sdk platforms can take long time)."
-msgstr ""
+msgstr "Erstellen Sie das Basis-Buildserver-Image.... (das Herunterladen der Basebox und aller sdk-Plattformen kann lange dauern)."
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
@@ -2674,7 +2674,7 @@ msgstr "```bash fdroid:~$ cd fdroidserver fdroid:~/fdroidserver$ ./makebuildserv
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
 msgid "Get all of the app build metadata from the fdroiddata repo..."
-msgstr ""
+msgstr "Holen Sie sich alle App-Metadaten aus dem fdroiddata Repo...."
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
@@ -2685,33 +2685,33 @@ msgstr "```bash fdroid:~/fdroidserver$ cd ~ fdroid:~$ git clone https://gitlab.c
 #: build/_docs/md/Build_Server_Setup.md
 #, no-wrap
 msgid "Setting up a build server"
-msgstr ""
+msgstr "Einrichten eines Build-Servers"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
 msgid "In addition to the basic setup previously described, you will also need a Vagrant-compatible Debian/jessie base box called ’jessie64’."
-msgstr ""
+msgstr "Zusätzlich zum zuvor beschriebenen Basis-Setup benötigen Sie eine Vagrant-kompatible Debian/Jessie-Basis-Box namens 'jessie64'."
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
 msgid "You can use a different version or distro for the base box, so long as you don’t expect any help making it work. One thing to be aware of is that working copies of source trees are moved from the host to the guest, so for example, having subversion v1.6 on the host and v1.7 on the guest would fail."
-msgstr ""
+msgstr "Sie können eine andere Version oder Distro für die Basisbox verwenden, solange Sie keine Hilfe erwarten, damit sie funktioniert. Zu beachten ist, dass Arbeitskopien von Quellbäumen vom Host zum Gast verschoben werden, so dass z.B. Subversion v1.6 auf dem Host und v1.7 auf dem Gast fehlschlagen würde."
 
 #. type: Title ###
 #: build/_docs/md/Build_Server_Setup.md
 #, no-wrap
 msgid "Creating the Debian base box"
-msgstr ""
+msgstr "Erstellen der Debian-Basisbox"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
 msgid "We have created a script for easily bootstrapping vagrant base boxes from scratch."
-msgstr ""
+msgstr "Wir haben ein Skript erstellt, mit dem sich Vagrant-Basisboxen einfach von Grund auf neu installieren lassen."
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
 msgid "Here's how you can get started building our basebox quickly:"
-msgstr ""
+msgstr "So können Sie schnell mit dem Bau unserer Basebox beginnen:"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
@@ -2722,18 +2722,18 @@ msgstr "```bash fdroid:~$ cd ~ fdroid:~$ git clone https://gitlab.com/fdroid/fdr
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
 msgid "Additional documentation is available in the projects [README file](https://gitlab.com/fdroid/basebox#makebuildserver_baseboxpy)."
-msgstr ""
+msgstr "Weitere Dokumentation finden Sie in [README-Dateien](https://gitlab.com/fdroid/basebox#makebuildserver_baseboxpy) des Projekts."
 
 #. type: Title ###
 #: build/_docs/md/Build_Server_Setup.md
 #, no-wrap
 msgid "Creating the F-Droid base box"
-msgstr ""
+msgstr "Erstellen der F-Droid-Basisbox"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
 msgid "The next step in the process is to create `makebuildserver.config.py`, using `./examples/makebuildserver.config.py` as a reference - look at the settings and documentation there to decide if any need changing to suit your environment. There is a path for retrieving the base box if it doesn’t exist, and an apt proxy definition, both of which may need customising for your environment. You can then go to the `fdroidserver` directory and run this:"
-msgstr ""
+msgstr "Der nächste Schritt im Prozess ist die Erstellung von `makebuildserver.config.py` mit `./examples/makebuildserver.config.py` als Referenz - schauen Sie sich die Einstellungen und die Dokumentation dort an, um zu entscheiden, ob etwas an Ihre Umgebung angepasst werden muss. Es gibt einen Pfad zum Abrufen der Basisbox, falls sie nicht existiert sowie eine passende Proxy-Definition, die beide für Ihre Umgebung angepasst werden müssen. Sie können dann in das Verzeichnis `fdroidserver` wechseln und folgendes ausführen:"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
@@ -2743,7 +2743,7 @@ msgstr "```bash ./makebuildserver ```"
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
 msgid "This will take a long time, and use a lot of bandwidth - most of it spent installing the necessary parts of the Android SDK for all the various platforms. Luckily you only need to do it occasionally. Once you have a working build server image, if the recipes change (e.g. when packages need to be added) you can just run that script again and the existing one will be updated in place."
-msgstr ""
+msgstr "Dies wird lange dauern und viel Bandbreite beanspruchen - der größte Teil davon wurde für die Installation der notwendigen Teile des Android-SDKs für die verschiedenen Plattformen aufgewendet. Zum Glück müssen Sie das nur gelegentlich tun. Sobald Sie ein funktionierendes Build-Server-Image haben, wenn sich die Rezepte ändern (z.B. wenn Pakete hinzugefügt werden müssen), können Sie dieses Skript einfach erneut ausführen und das vorhandene wird aktualisiert."
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
