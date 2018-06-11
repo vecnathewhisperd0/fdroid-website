@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-05-26 15:02+0200\n"
-"PO-Revision-Date: 2018-06-10 21:53+0000\n"
+"PO-Revision-Date: 2018-06-12 21:37+0000\n"
 "Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-docs/de/>\n"
 "Language: de\n"
@@ -2758,7 +2758,7 @@ msgstr "```bash cd /path/to/android-sdk/platforms tar czf android-19.tar.gz andr
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
 msgid "If you have already built a buildserver it is also possible to get this files directly from the buildserver:"
-msgstr ""
+msgstr "Wenn Sie bereits einen Buildserver erstellt haben, ist es auch möglich, diese Dateien direkt vom Buildserver zu beziehen:"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
@@ -2777,28 +2777,28 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
 msgid "Once it’s complete you’ll have a new base box called ’buildserver’ which is what’s used for the actual builds. You can then build packages as normal, but with the addition of the `--server` flag to `fdroid build` to instruct it to do all the hard work within the virtual machine."
-msgstr ""
+msgstr "Sobald es fertig ist, haben Sie eine neue Basis-Box namens 'buildserver', die für die eigentlichen Builds verwendet wird. Sie können dann Pakete wie gewohnt erstellen, aber des Hinzufügen des Flags `--server` weist `fdroid build` an, die ganze Arbeit innerhalb der virtuellen Maschine zu erledigen."
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
 msgid "The first time a build is done, a new virtual machine is created using the ’buildserver’ box as a base. A snapshot of this clean machine state is saved for use in future builds, to improve performance. You can force discarding of this snapshot and rebuilding from scratch using the `--resetserver` switch with `fdroid build`."
-msgstr ""
+msgstr "Beim ersten Build wird eine neue virtuelle Maschine erstellt, die die \"Buildserver\"-Box als Basis verwendet. Ein Snapshot dieses sauberen Maschinenzustandes wird für zukünftige Builds gespeichert, um die Leistung zu verbessern. Sie können das Verwerfen dieses Snapshots und den Neuaufbau von Grund auf erzwingen, indem Sie den Schalter `--resetserver` mit `fdroid build` verwenden."
 
 #. type: Title ##
 #: build/_docs/md/Build_Server_Setup.md
 #, no-wrap
 msgid "Running builds"
-msgstr ""
+msgstr "Builds laufen lassen"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
 msgid "When using the buildserver, running `fdroid` directly from a git checkout of _fdroidserver_ will be the easiest.  If you don't already have the _fdroidserver_ tools installed and setup, you will need to do that next: [Installing the Server and Repo Tools](../Installing_the_Server_and_Repo_Tools).  That provides all of the dependencies needed to run _fdroidserver_ from git."
-msgstr ""
+msgstr "Bei Verwendung des Buildservers ist es am einfachsten, `fdroid` direkt von einem Git-Checkout von _fdroidserver_ aus zu starten.  Wenn Sie die _fdroidserver_-Tools noch nicht installiert und eingerichtet haben, müssen Sie das als nächstes tun: [Server und Repo-Werkzeuge installieren](../Installing_the_Server_and_Repo_Tools).  Das liefert alle Abhängigkeiten, die benötigt werden, um _fdroidserver_ von git auszuführen."
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
 msgid "Now you are ready to run builds. Test by building the latest fdroid version:"
-msgstr ""
+msgstr "Jetzt sind Sie bereit, Builds auszuführen. Testen Sie die neueste Version von fdroid:"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
@@ -2809,12 +2809,12 @@ msgstr "```bash fdroid:~/fdroidserver$ cd ~/fdroiddata fdroid:~/fdroiddata$ ~/fd
 #: build/_docs/md/Build_Server_Setup.md
 #, no-wrap
 msgid "Optionally using QEMU/KVM/libvirt instead of VirtualBox"
-msgstr ""
+msgstr "Optionale Verwendung von QEMU/KVM/libvirt statt VirtualBox"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
 msgid "It is also possible to QEMU/KVM guest VMs via libvirt instead of the default VirtualBox.  VirtualBox is still the recommended setup since that is what is used by f-droid.org, but there are cases where it is not possible to run VirtualBox, like on a machine that is already running QEMU/KVM guests.  In order to make the libvirt image files directly readable by `vagrant package`, _libvirt_'s QEMU needs to be configured to always set the ownership to `libvirt.libvirt`."
-msgstr ""
+msgstr "Es ist auch möglich, QEMU/KVM-Gast-VMs über libvirt anstelle des standardmäßigen VirtualBox zu laden.  VirtualBox ist immer noch das empfohlene Setup, da auch von f-droid.org verwendet wird, aber es gibt Fälle, in denen es nicht möglich ist, VirtualBox auszuführen, wie z.B. auf einer Maschine, auf der bereits QEMU/KVM-Gäste laufen.  Um die libvirt-Bilddateien direkt mit `vagrant package` lesbar zu machen, muss QEMU von _libvirt_ so konfiguriert werden, dass es immer auf `libvirt.libvirt` gesetzt wird."
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
@@ -2856,7 +2856,7 @@ msgstr "```python vm_provider = 'libvirt' ```"
 #: build/_docs/md/Build_Server_Setup.md
 #, no-wrap
 msgid "Debian/stretch and Ubuntu/xenial"
-msgstr ""
+msgstr "Debian/stretch und Ubuntu/xenial"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
@@ -2867,7 +2867,7 @@ msgstr "```console root:~# adduser fdroid libvirt root:~# adduser fdroid libvirt
 #: build/_docs/md/Build_Server_Setup.md
 #, no-wrap
 msgid "older Debian and Ubuntu"
-msgstr ""
+msgstr "ältere Debian und Ubuntu"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
@@ -2878,17 +2878,17 @@ msgstr "```console root:~# adduser fdroid libvirtd root:~# adduser fdroid kvm ``
 #: build/_docs/md/Build_Server_Setup.md
 #, no-wrap
 msgid "Advanced nested KVM Setup:"
-msgstr ""
+msgstr "Erweitertes verschachteltes KVM Setup:"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
 msgid "This section is not relevant for using F-Droid in a normal setup. If you want to run `fdroid build --server` flag inside a KVM, this chaper will help you getting started."
-msgstr ""
+msgstr "Dieser Abschnitt ist nicht relevant für die Verwendung von F-Droid in einem normalen Setup. Wenn Sie das Flag `fdroid build --server` in einem KVM laufen lassen wollen, hilft Ihnen dieses Kapitel beim Start."
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
 msgid "Consider following basic nesting setup:"
-msgstr ""
+msgstr "Beachten Sie die folgenden grundlegenden Schachtelungseinstellungen:"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
