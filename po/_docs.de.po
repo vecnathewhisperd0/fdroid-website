@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-05-26 15:02+0200\n"
-"PO-Revision-Date: 2018-06-12 21:37+0000\n"
-"Last-Translator: ssantos <ssantos@web.de>\n"
+"PO-Revision-Date: 2018-06-15 12:20+0000\n"
+"Last-Translator: Tobias Bannert <tobannert@gmail.com>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-docs/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -2590,7 +2590,7 @@ msgstr "Hinzu kommt der offensichtliche Vorteil einer standardisierten und volls
 #: build/_docs/md/Build_Server_Setup.md
 #, no-wrap
 msgid "Overview of the setup"
-msgstr "Überblick über das Setup"
+msgstr "Überblick über die Einrichtung"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
@@ -6507,7 +6507,7 @@ msgstr ""
 #: build/_docs/md/Release_Process.md
 #, no-wrap
 msgid "Release Process"
-msgstr "Release-Prozess"
+msgstr "Veröffentlichungsprozess"
 
 #. type: Plain text
 #: build/_docs/md/Release_Process.md
@@ -6579,7 +6579,7 @@ msgstr ""
 #: build/_docs/md/Release_Process.md
 #, no-wrap
 msgid "major release"
-msgstr "Major Release"
+msgstr "Hauptausgabe"
 
 #. type: Plain text
 #: build/_docs/md/Release_Process.md
@@ -8052,7 +8052,7 @@ msgstr "Wenn das vorgeschaltete Quell-Repo des Projekts App-Beschreibungen enth�
 #: build/_docs/md/Translation_and_Localization.md
 #, no-wrap
 msgid "The \"Languages\" preference"
-msgstr "Die \"Sprachen\"-Einstellung"
+msgstr "Die Spracheneinstellung"
 
 #. type: Plain text
 #: build/_docs/md/Translation_and_Localization.md
