@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-05-26 15:02+0200\n"
 "PO-Revision-Date: 2018-06-15 12:20+0000\n"
-"Last-Translator: Tobias Bannert <tobannert@gmail.com>\n"
+"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-docs/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -7365,18 +7365,18 @@ msgstr "Das erste, von Open Tech Fund finanzierte \"Bazaar\"-Projekt schloss ein
 #: build/_docs/md/Setup_an_F-Droid_App_Repo.md
 #, no-wrap
 msgid "Setup an F-Droid App Repo"
-msgstr ""
+msgstr "Einrichtung eines F-Droid-App-Repos"
 
 #. type: Plain text
 #: build/_docs/md/Setup_an_F-Droid_App_Repo.md
 msgid "F-Droid.org is the default package repository (repo) in the F-Droid client, but it is not the only possibility. Anyone can create their own repo, and users can control which repos their client is using, including even disabling the default f-droid.org repo. This model is modeled somewhat after the [Debian GNU/Linux](https://www.debian.org)  distro.  Like Debian and Ubuntu, you can also setup your own repos for anyone to use.  Custom repos do not even need to build the APKs, they can just be \"simple binary repos\" of any APKs."
-msgstr ""
+msgstr "F-Droid.org ist die Standardpaketquelle (Repository, Repo) im F-Droid-Client, aber es ist nicht die einzig mögliche. Jeder kann sein eigenes Repo erstellen, und Anwender können steuern, welche Repos ihr Client verwendet, sogar inklusive der Deaktivierung des Standardrepos von f-droid.org. Dieser Modellaufbau ähnelt dem in der [Debian GNU/Linux](https://www.debian.org) Distro.  Wie in Debian und Ubuntu können Sie auch Ihr eigenes Repo einrichten, das jeder nutzen kann.  Maßgeschneiderte Repos müssen nicht einmal die APKs erstellen, sie können nur \"einfache Binärdatei-Repos\" mit allen APKs sein."
 
 #. type: Title ##
 #: build/_docs/md/Setup_an_F-Droid_App_Repo.md
 #, no-wrap
 msgid "Overview"
-msgstr ""
+msgstr "Übersicht"
 
 #. type: Plain text
 #: build/_docs/md/Setup_an_F-Droid_App_Repo.md
@@ -7391,37 +7391,37 @@ msgstr ""
 #. type: Bullet: '2.  '
 #: build/_docs/md/Setup_an_F-Droid_App_Repo.md
 msgid "create a directory called _fdroid_, then run `fdroid init` in that directory"
-msgstr ""
+msgstr "erstellen Sie ein Verzeichnis mit dem Namen _fdroid_, führen Sie dann `fdroid init` in diesem Verzeichnis aus"
 
 #. type: Bullet: '3.  '
 #: build/_docs/md/Setup_an_F-Droid_App_Repo.md
 msgid "Optionally edit the _config.py_ to your liking, details examples are in [`./examples/config.py`](https://gitlab.com/fdroid/fdroidserver/blob/master/examples/config.py)"
-msgstr ""
+msgstr "Bearbeiten Sie optional die _config.py_ nach Ihren Vorlieben, detaillierte Beispiele sind in  [`./examples/config.py`](https://gitlab.com/fdroid/fdroidserver/blob/master/examples/config.py)"
 
 #. type: Bullet: '4.  '
 #: build/_docs/md/Setup_an_F-Droid_App_Repo.md
 msgid "Within _fdroid_, make a directory called _repo_ and put APK files in it."
-msgstr ""
+msgstr "In _fdroid_ erstellen Sie ein Verzeichnis namens _repo_ und legen APK-Dateien darin ab."
 
 #. type: Bullet: '5.  '
 #: build/_docs/md/Setup_an_F-Droid_App_Repo.md
 msgid "Run `fdroid update`."
-msgstr ""
+msgstr "Führen Sie `fdroid update` aus."
 
 #. type: Bullet: '6.  '
 #: build/_docs/md/Setup_an_F-Droid_App_Repo.md
 msgid "If it reports that any metadata files are missing, you can create them in the `metadata` directory and run it again."
-msgstr ""
+msgstr "Bei Meldungen zu irgendwelchen fehlenden Metadatendateien können Sie sie im Verzeichnis `metadata` erstellen und den Vorgang wiederholen."
 
 #. type: Bullet: '7.  '
 #: build/_docs/md/Setup_an_F-Droid_App_Repo.md
 msgid "To ease creation of metadata files, run `fdroid update` with the `-c` option. It will create ’skeleton’ metadata files that are missing, and you can then just edit them and fill in the details."
-msgstr ""
+msgstr "Um die Erstellung von Metadatendateien zu vereinfachen, führen Sie `fdroid update` mit der Option `-c` aus. Sie wird ein ’Gerüst’ der fehlenden Metadatendateien erstellen, und Sie können sie danach einfach bearbeiten und die Einzelheiten in sie eintragen."
 
 #. type: Bullet: '8.  '
 #: build/_docs/md/Setup_an_F-Droid_App_Repo.md
 msgid "Then, if you’ve changed things, run `fdroid update` again."
-msgstr ""
+msgstr "Haben Sie die Sachen verändert, wiederholen Sie schließlich `fdroid update`."
 
 #. type: Bullet: '9.  '
 #: build/_docs/md/Setup_an_F-Droid_App_Repo.md
