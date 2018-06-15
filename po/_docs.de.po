@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-05-26 15:02+0200\n"
-"PO-Revision-Date: 2018-06-15 12:20+0000\n"
-"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
+"PO-Revision-Date: 2018-06-16 19:38+0000\n"
+"Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-docs/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -2914,7 +2914,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
 msgid "First of all you'll have to check if you cpu support the _vmx_ (or _svm_ on amd) instruction set. You can use this command to list details about your cpu:"
-msgstr ""
+msgstr "Zuerst müssen Sie prüfen, ob die CPU den Befehlssatz _vmx_ (oder _svm_ auf amd) unterstützt. Mit diesem Befehl können Sie Details über Ihre CPU auflisten:"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
@@ -2924,7 +2924,7 @@ msgstr "```bash root:~# cat /proc/cpuinfo ```"
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
 msgid "On (l0) you have to check that nesting is enabled:"
-msgstr ""
+msgstr "Bei (l0) müssen Sie prüfen, ob die Verschachtelung aktiviert ist:"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
@@ -2934,7 +2934,7 @@ msgstr "```bash root:~# cat /sys/module/kvm_intel/parameters/nested ```"
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
 msgid "If it's not enabled you can turn it on by running:"
-msgstr ""
+msgstr "Wenn es nicht aktiviert ist, können Sie es einschalten durch Ausführen von:"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
@@ -2951,12 +2951,12 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
 msgid "You'll need to reboot to for this to take effect."
-msgstr ""
+msgstr "Sie müssen einen Neustart durchführen, damit dies wirksam wird."
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
 msgid "Next you'll need to make sure that your (l1) vm configuration forwards cpu features required for nesting. So open up your configuration for the VM _/etc/libvirt/qemu/my-vm.xml_ and insert a cpu block inside your domain-tag. (_virt-manager_ also provides a user-interface for this operation.)"
-msgstr ""
+msgstr "Als nächstes müssen Sie sicherstellen, dass Ihre (l1) VM-Konfiguration die zum Verschachteln benötigten CPU-Funktionen weiterleitet. Öffnen Sie also Ihre Konfiguration für die VM _/etc/libvirt/qemu/my-vm.xml_ und fügen Sie einen CPU-Block in Ihr Domain-Tag ein. (_virt-manager_ bietet auch eine Benutzeroberfläche für diese Tätigkeit.)"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
@@ -2981,17 +2981,17 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
 msgid "The actually required configuration here depends on your cpu. You can find details in [libvirts manual](https://libvirt.org/formatdomain.html#elementsCPU).  The important part is that you forward _vmx_ (or _svm_ on amd) to the guest system."
-msgstr ""
+msgstr "Die tatsächlich benötigte Konfiguration hängt von Ihrer CPU ab. Details finden Sie im [libvirts Handbuch](https://libvirt.org/formatdomain.html#elementsCPU).  Das wichtigste ist _vmx_ (oder _svm_ auf amd) an das Gastsystem weiterzuleiten."
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
 msgid "This is the setup that is used in the Continuous Integration builds as part of the [reproducible builds](https://reproducible-builds.org) effort.  You can see this in action on the Debian Project's jenkins setup:"
-msgstr ""
+msgstr "Dies ist das Setup, das in den Continuous Integration-Builds als Teil der [reproduzierbaren Builds](https://reproducible-builds.org) verwendet wird.  Sie können dies auf dem Jenkins-Setup des Debian-Projekts in Aktion sehen:"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
 msgid "- <https://jenkins.debian.net/job/reproducible_setup_fdroid_build_environment_profitbricks7/>"
-msgstr ""
+msgstr "- <https://jenkins.debian.net/job/reproducible_setup_fdroid_build_environment_profitbricks7/>"
 
 #. type: Title #
 #: build/_docs/md/Client_Bug_Reports.md
@@ -3092,48 +3092,48 @@ msgstr "Bei der Erstellung der F-Droid-Internetseite wird [Jekyll](https://jekyl
 #: build/_docs/md/Deploying_the_Website.md
 #, no-wrap
 msgid "Staging on development forks"
-msgstr ""
+msgstr "Staging auf Entwicklungs-Forks"
 
 #. type: Plain text
 #: build/_docs/md/Deploying_the_Website.md
 msgid "All development forks of [fdroid-website](https://gitlab.com/fdroid/fdroid-website)  automatically have a staging server setup and maintained by the _gitlab-ci_ configuration.  This automatically deploys the content of the fork's _master_ branch to [GitLab Pages](https://pages.gitlab.io/).  For example, _nicoalt_'s git fork is at <https://gitlab.com/nicoalt/fdroid-website>, and the _master_ branch from that is automatically deployed to <https://nicoalt.gitlab.io/fdroid-website>."
-msgstr ""
+msgstr "Alle Entwicklungs-Forks der [fdroid-Website](https://gitlab.com/fdroid/fdroid-website) haben automatisch einen Staging-Server eingerichtet und werden von der _gitlab-ci_ Konfiguration gepflegt.  Dadurch wird der Inhalt des Branches _master_ des Forks automatisch nach [GitLab Pages](https://pages.gitlab.io/) verteilt.  Zum Beispiel, _nicoalt_'s git Fork ist auf <https://gitlab.com/nicoalt/fdroid-website> und der _master_ Branch davon wird automatisch auf <https://nicoalt.gitlab.io/fdroid-website> verteilt."
 
 #. type: Title #####
 #: build/_docs/md/Deploying_the_Website.md
 #, no-wrap
 msgid "Deploying merge request branches"
-msgstr ""
+msgstr "Bereitstellung von Merge-Request-Branches"
 
 #. type: Plain text
 #: build/_docs/md/Deploying_the_Website.md
 msgid "The current _gitlab-ci_ setup is optionally capable of pushing the resulting HTML to a live webserver and linking to it automatically from the GitLab merge request, deploying to [surge.sh](https://surge.sh)."
-msgstr ""
+msgstr "Das aktuelle _gitlab-ci_ Setup ist optional in der Lage, das resultierende HTML auf einen Live-Webserver zu übertragen und automatisch aus der GitLab Merge-Anforderung heraus zu verlinken, indem es nach [surge.sh](https://surge.sh) verteilt wird."
 
 #. type: Plain text
 #: build/_docs/md/Deploying_the_Website.md
 msgid "Doing so will allow for easier review of your merge requests, but is not required.  If you don't follow the steps below, your merge requests will still run through the _gitlab-ci_ continuous integration checks, but the resulting HTML will not be accessible online."
-msgstr ""
+msgstr "Dies ermöglicht eine einfachere Überprüfung Ihrer Merge-Anfragen, ist aber nicht erforderlich.  Wenn Sie die folgenden Schritte nicht befolgen, werden Ihre Merge-Anfragen weiterhin die kontinuierlichen Integrationsprüfungen von _gitlab-ci_ durchlaufen, aber das resultierende HTML wird nicht online verfügbar sein."
 
 #. type: Plain text
 #: build/_docs/md/Deploying_the_Website.md
 msgid "To configure this:"
-msgstr ""
+msgstr "Um dies zu konfigurieren:"
 
 #. type: Bullet: ' * '
 #: build/_docs/md/Deploying_the_Website.md
 msgid "Install the [surge.sh](https://surge.sh) CLI: `npm install surge`"
-msgstr ""
+msgstr "Installieren Sie die [surge.sh](https://surge.sh) CLI: `npm install surge`"
 
 #. type: Bullet: ' * '
 #: build/_docs/md/Deploying_the_Website.md
 msgid "Signup for [surge.sh](https://surge.sh): `surge login`"
-msgstr ""
+msgstr "Anmeldung für [surge.sh](https://surge.sh): `surge login`"
 
 #. type: Bullet: ' * '
 #: build/_docs/md/Deploying_the_Website.md
 msgid "Get a \"token\" to allow CI to deploy on your behalf: `surge token`"
-msgstr ""
+msgstr "Holen Sie sich einen \"Token\", damit CI in Ihrem Namen verteilen kann: `surge token`"
 
 #. type: Plain text
 #: build/_docs/md/Deploying_the_Website.md
@@ -3149,24 +3149,24 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Deploying_the_Website.md
 msgid "Now your CI jobs should be authorized to deploy to surge.sh, and the GitLab merge requests screen will automatically link to this deployment."
-msgstr ""
+msgstr "Jetzt sollten Ihre CI-Jobs berechtigt sein, in surge.sh zu verteilen und der GitLab-Bildschirm für Merge-Anfragen wird automatisch mit dieser Bereitstellung verknüpft."
 
 #. type: Title ###
 #: build/_docs/md/Deploying_the_Website.md
 #, no-wrap
 msgid "Staging of the official website"
-msgstr ""
+msgstr "Staging der offiziellen Website"
 
 #. type: Plain text
 #: build/_docs/md/Deploying_the_Website.md
 msgid "Like with forks, the _master_ branch of the main git repo for the website, <https://gitlab.com/fdroid/fdroid-website>, is automatically deployed to <https://fdroid.gitlab.io/fdroid-website>.  That is the place to review the current state of the website before tagging a release."
-msgstr ""
+msgstr "Wie bei Forks wird der _master_-Zweig des Haupt-Git-Repos für die Website, <https://gitlab.com/fdroid/fdroid-website>, automatisch nach <https://fdroid.gitlab.io/fdroid-website> deployed.  Das ist der Ort, um den aktuellen Zustand der Website zu überprüfen, bevor man eine Veröffentlichung markiert."
 
 #. type: Title ###
 #: build/_docs/md/Deploying_the_Website.md
 #, no-wrap
 msgid "Deploying to https://f-droid.org"
-msgstr ""
+msgstr "Auf https://f-droid.org deployen"
 
 #. type: Plain text
 #: build/_docs/md/Deploying_the_Website.md
