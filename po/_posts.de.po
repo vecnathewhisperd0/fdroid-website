@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-06-15 15:16+0200\n"
-"PO-Revision-Date: 2018-06-10 21:53+0000\n"
-"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
+"PO-Revision-Date: 2018-06-15 18:19+0000\n"
+"Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -2361,106 +2361,101 @@ msgstr "Vielen Dank an alle, die Updates vorgeschlagen oder Tipps gegeben haben.
 
 #. type: Title #
 #: build/_posts/md/2018-06-14-this-week-in-fdroid-w24.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "\"This Week in F-Droid, Week 24\""
-msgstr "\"Diese Woche in F-Droid, Woche 20\""
+msgstr "\"Diese Woche in F-Droid, Woche 24\""
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-06-14-this-week-in-fdroid-w24.md
 msgid "We broke 2500 followers on Mastodon!"
-msgstr ""
+msgstr "Wir haben 2500 Anhänger auf Mastodon erreicht!"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-06-14-this-week-in-fdroid-w24.md
 msgid "[_hc](https://forum.f-droid.org/u/hans) is working full-time on the [whitelabel](https://f-droid.org/wiki/page/Whitelabel_Builds) support this week, eliminating some technical debt in the process. This work is part of a paid contract."
-msgstr ""
+msgstr "[_hc](https://forum.f-droid.org/u/hans) arbeitet diese Woche hauptberuflich an der Unterstützung von [whitelabel](https://f-droid.org/wiki/page/Whitelabel_Builds) und beseitigt dabei einige technische Verpflichtungen. Diese Arbeit ist Teil eines bezahlten Vertrages."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-06-14-this-week-in-fdroid-w24.md
 msgid "[mvdan](https://forum.f-droid.org/u/mvdan) [released](https://github.com/mvdan/fdroidcl/releases/tag/v0.4.0) fdroidcl 0.4.0. [Fdroidcl](https://github.com/mvdan/fdroidcl) is an F-Droid desktop client which talks to connected devices via [ADB](https://en.wikipedia.org/wiki/Android_Debug_Bridge). If you have any input or suggestions, please open new issues on the [tracker](https://github.com/mvdan/fdroidcl/issues). Pull requests are always welcome."
-msgstr ""
+msgstr "[mvdan](https://forum.f-droid.org/u/mvdan) [veröffentlichte](https://github.com/mvdan/fdroidcl/releases/tag/v0.4.0) fdroidcl 0.4.0. [Fdroidcl](https://github.com/mvdan/fdroidcl) ist ein F-Droid-Desktop-Client, der über [ADB](https://en.wikipedia.org/wiki/Android_Debug_Bridge) mit angeschlossenen Geräten kommuniziert. Wenn Sie Anregungen oder Vorschläge haben, öffnen Sie bitte neue Probleme auf dem [tracker](https://github.com/mvdan/fdroidcl/issues). Pull-Anfragen sind immer willkommen."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-06-14-this-week-in-fdroid-w24.md
 msgid "The slides to [Bubu](https://forum.f-droid.org/u/Bubu)'s talk which we mentioned last week are now [available]({{ site.baseurl }}/assets/posts/2018-06-14-this-week-in-fdroid-w24/2018-06-08-bubu-fdroid-talk-afra.pdf)!"
-msgstr ""
+msgstr "Die Folien zu [Bubu](https://forum.f-droid.org/u/Bubu)'s Vortrag, den wir letzte Woche erwähnt haben, sind nun [verfügbar]({{ site.baseurl }}/assets/posts/2018-06-14-diese-Woche-in-fdroid-w24/2018-06-06-08-bubu-fdroid-talk-afra.pdf)!"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-06-14-this-week-in-fdroid-w24.md
-#, fuzzy
 msgid "[Simple Search](https://f-droid.org/app/de.tobiasbielefeld.searchbar): Simple and customizable search bar"
-msgstr "[Simple Keyboard]](https://f-droid.org/app/rkr.simplekeyboard.inputmethod): Einfache Tastatur und sonst nichts"
+msgstr "[Simple Search](https://f-droid.org/app/de.tobiasbielefeld.searchbar): Einfache und anpassbare Suchleiste"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-06-14-this-week-in-fdroid-w24.md
 msgid "[IMCKTG](https://f-droid.org/app/us.achromaticmetaphor.imcktg): Generates Morse code ringtones in WAVE and iMelody formats"
-msgstr ""
+msgstr "[IMCKTG](https://f-droid.org/app/us.achromaticmetaphor.imcktg): Erzeugt Morse-Klingeltöne in den Formaten WAVE und iMelody"
 
 #. type: Plain text
 #: build/_posts/md/2018-06-14-this-week-in-fdroid-w24.md
-#, fuzzy
 msgid "In total, 60 apps were updated this week. Here are the highlights:"
-msgstr "Insgesamt wurden diese Woche 68 Apps aktualisiert. Hier die Höhepunkte:"
+msgstr "Insgesamt wurden diese Woche 60 Apps aktualisiert. Hier die Höhepunkte:"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-06-14-this-week-in-fdroid-w24.md
 msgid "[Fennec F-Droid](https://f-droid.org/app/org.mozilla.fennec_fdroid) 60.0.2 has been released to fix a [security issue](https://www.mozilla.org/en-US/security/advisories/mfsa2018-14/)."
-msgstr ""
+msgstr "[Fennec F-Droid](https://f-droid.org/app/org.mozilla.fennec_fdroid) 60.0.2 wurde veröffentlicht, um ein [Sicherheitsproblem](https://www.mozilla.org/en-US/security/advisories/mfsa2018-14/) zu beheben."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-06-14-this-week-in-fdroid-w24.md
 msgid "Links to gitlab.com will now open in [LabCoat](https://f-droid.org/app/com.commit451.gitlab) as of version 2.6.0!"
-msgstr ""
+msgstr "Links zu gitlab.com werden jetzt in [LabCoat](https://f-droid.org/app/com.commit451.gitlab) ab Version 2.6.0 geöffnet!"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-06-14-this-week-in-fdroid-w24.md
 msgid "[Nextcloud Talk](https://f-droid.org/app/com.nextcloud.talk2) had a major update to 2.0.0 and now has chat! (Including paginated scrolling, mentions auto-completion and other nice tricks.) Other major features include client certificate based authentication, voice-only calls, significantly improved calls UI, and endless loading for contacts & remote search. Note that this app requires you to have your own server."
-msgstr ""
+msgstr "[Nextcloud Talk](https://f-droid.org/app/com.nextcloud.talk2) hatte ein größeres Update auf 2.0.0 und hat jetzt einen Chat! (Inklusive paginiertem Scrollen, Auto-Vervollständigung und anderen netten Tricks.) Weitere wichtige Funktionen sind die auf Client-Zertifikaten basierende Authentifizierung, Voice-Only-Anrufe, eine deutlich verbesserte Benutzeroberfläche für Anrufe und das endlose Laden von Kontakten und die Remote-Suche. Beachten Sie, dass Sie für diese Anwendung einen eigenen Server benötigen."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-06-14-this-week-in-fdroid-w24.md
 msgid "[The Light](https://f-droid.org/app/org.hlwd.bible) is an easy to use multilingual bible app with quick search and share, plans of reading and articles. Version 3.3 comes with several UI fixes, and recently it has also seen a major update with an additional layout to support tablets, Android TV and set-top boxes. In addition to touchscreen and mouse, it can be controlled by keyboard and [D-pad](https://en.wikipedia.org/wiki/D-pad)."
-msgstr ""
+msgstr "[The Light](https://f-droid.org/app/org.hlwd.bible) ist eine einfach zu bedienende, mehrsprachige Bibelanwendung mit schneller Suche und Weitergabe, Leseplänen und Artikeln. Version 3.3 kommt mit mehreren UI-Fixes und seit kurzem gibt es auch eine große Aktualisierung mit einem zusätzlichen Layout zur Unterstützung von Tablets, Android TV und Set-Top-Boxen. Neben Touchscreen und Maus kann es auch über die Tastatur und das D-Pad gesteuert werden (https://en.wikipedia.org/wiki/D-pad)."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-06-14-this-week-in-fdroid-w24.md
 msgid "[Suntimes](https://f-droid.org/app/com.forrestguice.suntimeswidget) is an offline app that calculates when the sun and moon rise and set, and shows you this in the app or in a widget. Includes golden hour, blue hour, civil, nautical and astronomical twilight etc. 0.8.4 fixes several crashes and bugs, mostly related to the polar regions."
-msgstr ""
+msgstr "[Suntimes](https://f-droid.org/app/com.forrestguice.suntimeswidget) ist eine Offline-App, die berechnet, wann die Sonne und der Mond aufgehen und untergehen, und dies in der App oder in einem Widget anzeigt. Beinhaltet goldene Stunde, blaue Stunde, zivile, nautische und astronomische Dämmerung, etc. 0.8.4 behebt einige Abstürze und Fehler, die hauptsächlich mit den Polarregionen zusammenhängen."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-06-14-this-week-in-fdroid-w24.md
 msgid "[Music Player GO](https://f-droid.org/app/com.iven.musicplayergo) is a very slim mucic player (app size only ~1M). It offers a colorful and simple \"Unified UI\" (no need to navigate between activities). With version 2.5 comes a new and improved UI."
-msgstr ""
+msgstr "[Music Player GO](https://f-droid.org/app/com.iven.musicplayergo) ist ein sehr schlanker Mucic-Player (App-Größe nur ~1M). Es bietet eine farbenfrohe und einfache \"Unified UI\" (keine Notwendigkeit, zwischen den Aktivitäten zu navigieren). Mit der Version 2.5 kommt eine neue und verbesserte Benutzeroberfläche."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-06-14-this-week-in-fdroid-w24.md
 msgid "After about a year of inactivity, [BirthDay Droid](https://f-droid.org/app/com.tmendes.birthdaydroid) was updated from 20170615_VC12 to 20180602_VC20. Changes are unclear, but it requires at least Android 6.0 now. (Previously 4.4.)"
-msgstr ""
+msgstr "Nach etwa einem Jahr Inaktivität wurde [BirthDay Droid](https://f-droid.org/app/com.tmendes.birthdaydroid) von 20170615_VC12 auf 20180602_VC20 aktualisiert. Änderungen sind unklar, aber es wird mindestens Android 6.0 benötigt. (Bisher 4.4.)"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-06-14-this-week-in-fdroid-w24.md
-#, fuzzy
 msgid "[WiFiAnalyzer](https://f-droid.org/app/com.vrem.wifianalyzer) was updated from 1.8.11 to 1.9.1, with translation updates, a new icon, and bug fixes."
-msgstr "[Altcoin Prices](https://f-droid.org/app/eu.uwot.fabio.altcoinprices) wurde von 1.4.17 nach 1.5.2 aktualisiert, mit neu gestalteter Benutzeroberfläche und Fehlerlösungen."
+msgstr "[WiFiAnalyzer](https://f-droid.org/app/com.vrem.wifianalyzer) wurde von 1.8.11 auf 1.9.1 aktualisiert, mit Übersetzungsupdates, einem neuen Icon und Fehlerkorrekturen."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-06-14-this-week-in-fdroid-w24.md
 msgid "[OpenFoodFacts](https://f-droid.org/app/openfoodfacts.github.scrachx.openfood), [OpenBeautyFacts](https://f-droid.org/app/openfoodfacts.github.scrachx.openbeauty) and [Open Pet Food Facts](https://f-droid.org/app/org.openpetfoodfacts.scanner) all had a big version jump to bring the version numbers in alignment with the Play Store flavor."
-msgstr ""
+msgstr "[OpenFoodFacts](https://f-droid.org/app/openfoodfacts.github.scrachx.openfood), [OpenBeautyFacts](https://f-droid.org/app/openfoodfacts.github.scrachx.openbeauty) und [Open Pet Food Facts](https://f-droid.org/app/org.openpetfoodfacts.scanner) hatten alle einen großen Versionssprung, um die Versionsnummern an die Play Store-Variante anzupassen."
 
 #. type: Plain text
 #: build/_posts/md/2018-06-14-this-week-in-fdroid-w24.md
 msgid "The next TWIF will be an XL edition, covering the next two weeks. That's right, [Coffee](https://forum.f-droid.org/u/Coffee) is taking some vacation, so see you in two weeks!"
-msgstr ""
+msgstr "Die nächste TWIF wird eine XL-Ausgabe sein, die die nächsten zwei Wochen abdeckt. Das stimmt, [Coffee](https://forum.f-droid.org/u/Coffee) macht Urlaub, also bis in zwei Wochen!"
 
 #. type: Plain text
 #: build/_posts/md/2018-06-14-this-week-in-fdroid-w24.md
-#, fuzzy
 msgid "As usual, please report interesting updates. There are way too many app updates to keep track of them all, so we need your help to highlight the most interesting changes. And of course, we love to hear about all things involving F-Droid in some way."
-msgstr "Was im nächsten TWIF landet, liegt ganz bei Ihnen! Es gibt viel zu viele App-Updates, um sie alle im Auge zu behalten, deshalb brauchen wir Ihre Hilfe, um die interessantesten Änderungen hervorzuheben. Und natürlich freuen wir uns über alles, was mit F-Droid zu tun hat."
+msgstr "Berichten Sie bitte wie üblich über interessante Aktualisierungen. Es gibt viel zu viele App-Updates, um sie alle im Auge zu behalten, deshalb brauchen wir Ihre Hilfe, um die interessantesten Änderungen hervorzuheben. Und natürlich freuen wir uns über alles, was mit F-Droid zu tun hat."
 
 #. type: Plain text
 #: build/_posts/md/2018-06-14-this-week-in-fdroid-w24.md
-#, fuzzy
 msgid "Please tell us in the [TWIF submission thread](https://forum.f-droid.org/t/twif-submission-thread) on the forum, or tag your update [#fdroid](https://mastodon.technology/tags/fdroid) on Mastodon. (And cc [@fdroidorg@mastodon.technology](https://mastodon.technology/@fdroidorg) to make sure it reaches our instance.) The deadline to the next TWIF is Thursday 28 June 2018, 12:00 UTC."
-msgstr "Erzählen Sie von Ihrem Update im [TWIF Submission Thread](https://forum.f-droid.org/t/twif-submission-thread) im Forum oder taggen Sie es mit [#fdroid](https://mastodon.technology/tags/fdroid) auf Mastodon. (Und nehmen Sie [@fdroidorg@mastodon.technology](https://mastodon.technology/@fdroidorg) in Kopie, um sicherzugehen, dass es unsere Instanz erreicht.) Die Frist bis zum nächsten TWIF ist Donnerstag 12:00 UTC."
+msgstr "Bitte erzählen Sie uns im [TWIF submission thread](https://forum.f-droid.org/t/twif-submission-thread) im Forum mit oder markieren Sie Ihr Update[#fdroid](https://mastodon.technology/tags/fdroid) auf Mastodon. (Und cc [@fdroidorg@mastodon.technology](https://mastodon.technology/@fdroidorg), um sicherzustellen, dass es unsere Instanz erreicht.) Die Frist bis zum nächsten TWIF ist Donnerstag, 28. Juni 2018, 12:00 UTC."
