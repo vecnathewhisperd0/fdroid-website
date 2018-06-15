@@ -2642,7 +2642,7 @@ msgstr "```bash fdroid:~$ cd ~ fdroid:~$ git clone https://gitlab.com/fdroid/fdr
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
 msgid "You also have to make sure your `ANDROID_HOME` environment variable is [set up](../Installing_the_Server_and_Repo_Tools#building-apps) correctly."
-msgstr "Sie müssen auch sicherstellen, dass Ihre `ANDROID_HOME`-Umgebungsvariable korrekt [eingerichtet ist](../Installation_der_Server_und_Repo_Tools#Building-apps)."
+msgstr "Sie müssen auch sicherstellen, dass Ihre `ANDROID_HOME`-Umgebungsvariable korrekt [eingerichtet ist](../Installing_the_Server_and_Repo_Tools#building-apps)."
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md

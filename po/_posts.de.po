@@ -2183,7 +2183,7 @@ msgstr "\"Diese Woche in F-Droid, Woche 23\""
 #. type: Bullet: '* '
 #: build/_posts/md/2018-06-07-this-week-in-fdroid-w23.md
 msgid "Only a few days left for the [Fennec icon challenge](https://forum.f-droid.org/t/new-icon-for-fennec-f-droid/2810)! This is your final reminder that submissions close [Sunday the 10th of June, 24:00 UTC](https://www.wolframalpha.com/input/?i=June+10,+2018,+24:00+UTC)!"
-msgstr "Nur noch wenige Tage bis zur [Fennec Icon Challenge] (https://forum.f-droid.org/t/new-icon-for-fennec-f-droid/2810)! Dies ist die letzte Erinnerung an den Einsendeschluss am [Sonntag, den 10. Juni, 24:00 UTC](https://www.wolframalpha.com/input/?i=Juni+10,+2018,+24:00+UTC)!"
+msgstr "Nur noch wenige Tage bis zur [Fennec Icon Challenge](https://forum.f-droid.org/t/new-icon-for-fennec-f-droid/2810)! Dies ist die letzte Erinnerung an den Einsendeschluss am [Sonntag, den 10. Juni, 24:00 UTC](https://www.wolframalpha.com/input/?i=Juni+10,+2018,+24:00+UTC)!"
 
 #. type: Plain text
 #: build/_posts/md/2018-06-07-this-week-in-fdroid-w23.md
@@ -2210,7 +2210,7 @@ msgstr "  An alle, die GitHub verlassen: Bitte lassen Sie Ihre Paketbetreuer wis
 #. type: Plain text
 #: build/_posts/md/2018-06-07-this-week-in-fdroid-w23.md
 msgid "This week we added 19! new apps, shattering the previous record of 12! Most of these come from the backlog of our volunteers working through [Rudloff](https://forum.f-droid.org/u/rudloff)'s additions."
-msgstr "Diese Woche haben wir 19! neue Apps hinzugefügt, die den bisherigen Rekord von 12 brechen! Die meisten davon stammen aus dem Backlog der Freiwilligen, die durch die Ergänzungen von [Rudloff] (https://forum.f-droid.org/u/rudloff) arbeiteten."
+msgstr "Diese Woche haben wir 19! neue Apps hinzugefügt, die den bisherigen Rekord von 12 brechen! Die meisten davon stammen aus dem Backlog der Freiwilligen, die durch die Ergänzungen von [Rudloff](https://forum.f-droid.org/u/rudloff) arbeiteten."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-06-07-this-week-in-fdroid-w23.md
