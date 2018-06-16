@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-06-15 15:16+0200\n"
-"PO-Revision-Date: 2018-06-15 18:19+0000\n"
-"Last-Translator: ssantos <ssantos@web.de>\n"
+"PO-Revision-Date: 2018-06-17 09:38+0000\n"
+"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -936,7 +936,7 @@ msgstr "Der Auditbericht von Cure53 ist als PDF auch auf dieser Seite gespeicher
 #: build/_posts/md/2018-01-24-fairphone-open-ships-F-Droid.md
 #, no-wrap
 msgid "\"Fairphone Open ships F-Droid Privileged Extension!\""
-msgstr "\"Fairphone Open kommt mit F-Droid-Rechterweiterung!\""
+msgstr "\"Fairphone Open liefert F-Droid-Rechteerweiterung!\""
 
 #. type: Plain text
 #: build/_posts/md/2018-01-24-fairphone-open-ships-F-Droid.md
@@ -1160,14 +1160,14 @@ msgstr "\"Diese Woche in F-Droid\""
 #. type: Plain text
 #: build/_posts/md/2018-04-27-this-week-in-fdroid.md
 msgid "Hi everyone! This is a little experiment triggered by the [Matrix Project](https://matrix.org/) starting their own [TWIM](https://matrix.org/blog/2018/04/20/this-week-in-matrix-2018-04-20/) (This Week In Matrix), who in turn stole the idea off [TWIR](https://this-week-in-rust.org/) (This Week In Rust). Therefore, we now give you the first trial TWIF!"
-msgstr "Hallo zusammen! Dies ist ein kleines Experiment, angestoßen vom [Matrix Project](https://matrix.org/), die ihr eigenes [DWIM](https://matrix.org/blog/2018/04/20/this-week-in-matrix-2018-04-20/) (Diese Woche in Matrix) starten, die wiederum die Idee von [DWIR](https://this-week-in-rust.org/) (Diese Woche in Rust) gestohlen haben. Wir versuchen daher nun erstmals ein DWIF!"
+msgstr "Hallo zusammen! Dies ist ein kleines Experiment, angestoßen vom [Matrix Project](https://matrix.org/), die ihr eigenes [TWIM](https://matrix.org/blog/2018/04/20/this-week-in-matrix-2018-04-20/) (Diese Woche in Matrix) starten, die wiederum die Idee von [TWIR](https://this-week-in-rust.org/) (Diese Woche in Rust) gestohlen haben. Wir versuchen daher nun erstmals ein TWIF!"
 
 #. type: Plain text
 #: build/_posts/md/2018-04-27-this-week-in-fdroid.md
 #: build/_posts/md/2018-05-04-this-week-in-fdroid-w18.md
 #: build/_posts/md/2018-05-11-this-week-in-fdroid-w19.md
 msgid "[F-Droid](https://f-droid.org/) is an installable [catalogue](https://f-droid.org/en/packages/) of [FOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software) (Free and Open Source Software) applications for the Android platform. The [client](https://f-droid.org/app/org.fdroid.fdroid) makes it easy to browse, install, and keep track of updates on your device. This post lists notable things that happened in and around F-Droid this past week."
-msgstr "[F-Droid](https://f-droid.org/) ist ein installierbarer [Katalog](https://f-droid.org/en/packages/) von Android-Apps, die [FOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software) (Free and Open Source Software) sind. Der [Client](https://f-droid.org/app/org.fdroid.fdroid) erleichtert deren Suche, Installation und Aktualisierung auf Ihrem Gerät. Dieser Beitrag zählt berichtenswerte Dinge auf, die in der vergangenen Woche bei und rund um F-Droid passiert sind."
+msgstr "[F-Droid](https://f-droid.org/) ist ein installierbarer [Katalog](https://f-droid.org/en/packages/) von Android-Apps, die [FOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software) (Free & Open Source Software) sind. Der [Client](https://f-droid.org/app/org.fdroid.fdroid) erleichtert deren Suche, Installation und Aktualisierung auf Ihrem Gerät. Dieser Beitrag zählt berichtenswerte Dinge auf, die in der vergangenen Woche bei und rund um F-Droid passiert sind."
 
 #. type: Title ####
 #: build/_posts/md/2018-04-27-this-week-in-fdroid.md
@@ -1304,12 +1304,12 @@ msgstr "[Eleven](https://gitlab.com/ymber/Eleven) wurde ins Archiv verschoben, d
 #: build/_posts/md/2018-06-14-this-week-in-fdroid-w24.md
 #, no-wrap
 msgid "In the next TWIF"
-msgstr "Im nächsten DWIF"
+msgstr "Im nächsten TWIF"
 
 #. type: Plain text
 #: build/_posts/md/2018-04-27-this-week-in-fdroid.md
 msgid "Will there be another edition of TWIF? That's up to you, dear reader! We are hoping to publish a new TWIF every friday, but we can't do this without your help. If you are working on something F-Droid related, like to talk about your app that's getting updated or newly included in F-Droid, or have some news related to F-Droid, get in touch!"
-msgstr "Wird es eine weitere Ausgabe von DWIF geben? Das liegt an Ihnen, liebe Leser! Wir hoffen, jeden Freitag ein neues DWIF veröffentlichen zu können, aber ohne Ihre Mithilfe wird das nicht möglich sein. Arbeiten Sie an etwas, was zu F-Droid gehört, möchten Sie über Ihre App erzählen, die aktualisiert oder neu in F-Droid eingeführt wird, oder haben Sie einige Neuigkeiten mit Bezug zu F-Droid, dann melden Sie sich!"
+msgstr "Wird es eine weitere Ausgabe von TWIF geben? Das liegt an Ihnen, liebe Leser! Wir hoffen, jeden Freitag ein neues TWIF veröffentlichen zu können, aber ohne Ihre Mithilfe wird das nicht möglich sein. Arbeiten Sie an etwas, was zu F-Droid gehört, möchten Sie über Ihre App erzählen, die aktualisiert oder neu in F-Droid eingeführt wird, oder haben Sie einige Neuigkeiten mit Bezug zu F-Droid, dann melden Sie sich!"
 
 #. type: Plain text
 #: build/_posts/md/2018-04-27-this-week-in-fdroid.md
@@ -1325,7 +1325,7 @@ msgstr "\"Diese Woche in F-Droid, Woche 18\""
 #. type: Plain text
 #: build/_posts/md/2018-05-04-this-week-in-fdroid-w18.md
 msgid "Hi everyone! You have been telling us you liked the first [#twif](https://mastodon.technology/tags/twif), so have another!"
-msgstr "Hallo zusammen! Sie haben uns wissen lassen, dass Ihnen der erste [#DWIF](https://mastodon.technology/tags/twif) gefiel, also auf ein Neues!"
+msgstr "Hallo zusammen! Sie haben uns wissen lassen, dass Ihnen das erste [#TWIF](https://mastodon.technology/tags/twif) gefiel, also auf ein Neues!"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-04-this-week-in-fdroid-w18.md
@@ -1336,7 +1336,7 @@ msgstr "F-Droid-Client v1.3-alpha0 ist abrufbar. Er besitzt neue WLAN-/Mobilfunk
 #: build/_posts/md/2018-05-04-this-week-in-fdroid-w18.md
 #, no-wrap
 msgid "  As mentioned in the [previous TWIF](https://f-droid.org/en/2018/04/27/this-week-in-fdroid.html), V1.3 no longer supports Android 2.3.3 or 3.x. Android 4.0 is the minimum. That freed us to update tons of things, and ditch our own custom forks.\n"
-msgstr "  Wie bereits im [letzten DWIF](https://f-droid.org/en/2018/04/27/this-week-in-fdroid.html) erwähnt, unterstützt V1.3 Android 2.3.3 or 3.x nicht mehr. Android 4.0 ist das Minimum. Das machte den Weg frei, jede Menge Sachen zu aktualisieren und unsere eigenen, selbsterstellten Forks wegzuschmeißen.\n"
+msgstr "  Wie bereits im [letzten TWIF](https://f-droid.org/en/2018/04/27/this-week-in-fdroid.html) erwähnt, unterstützt V1.3 Android 2.3.3 or 3.x nicht mehr. Android 4.0 ist das Minimum. Das machte den Weg frei, jede Menge Sachen zu aktualisieren und unsere eigenen, selbsterstellten Forks wegzuschmeißen.\n"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-04-this-week-in-fdroid-w18.md
@@ -1372,7 +1372,7 @@ msgstr "Wir haben fast 1900 Followers auf [Mastodon](https://mastodon.technology
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-04-this-week-in-fdroid-w18.md
 msgid "Thanks to everyone who suggested apps to highlight. It's been very helpful! Unfortunately a few suggestions couldn't be processed because the apps in question weren't updated this week. Better luck next time!"
-msgstr "Vielen Dank allen, die Apps vorschlugen, die hervorgehoben werden sollten. Das war sehr hilfreich! Unglücklicherweise konnten einige Vorschläge nicht berücksichtigt werden, weil die in Frage kommenden Apps in dieser Woche nicht aktualisiert wurden. Vielleicht haben sie beim nächsten Mal mehr Glück!"
+msgstr "Vielen Dank allen, die Apps vorschlugen, die hervorgehoben werden sollten. Das war sehr hilfreich! Leider konnten einige Vorschläge nicht berücksichtigt werden, weil die in Frage kommenden Apps in dieser Woche nicht aktualisiert wurden. Vielleicht haben sie beim nächsten Mal mehr Glück!"
 
 #. type: Title ####
 #: build/_posts/md/2018-05-04-this-week-in-fdroid-w18.md
@@ -1688,7 +1688,7 @@ msgstr "\"Diese Woche in F-Droid, Woche 20\""
 #. type: Plain text
 #: build/_posts/md/2018-05-17-this-week-in-fdroid-w20.md
 msgid "[F-Droid](https://f-droid.org/) is a [repository](https://f-droid.org/en/packages/) of verified [free and open source](https://en.wikipedia.org/wiki/Free_and_open-source_software) Android apps, a [client](https://f-droid.org/app/org.fdroid.fdroid) to access it, as well as a whole \"app store kit\", providing all the tools needed to set up and run an app store. It is a community-run free software project developed by a wide range of contributors. This is their story this past week."
-msgstr "[F-Droid](https://f-droid.org/) ist ein [Repository](https://f-droid.org/en/packages/) verifizierter [free and open source](https://en.wikipedia.org/wiki/Free_and_open-source_software) Android Apps, ein [Client](https://f-droid.org/app/org.fdroid.fdroid), um darauf zuzugreifen, sowie ein ganzes \"App Store Set\", das alle notwendigen Tools zum Einrichten und Betreiben eines App Stores bietet. Es ist ein gemeinschaftlich geführtes freies Softwareprojekt, das von einer Vielzahl von Mitwirkenden entwickelt wurde. Das ist ihre Geschichte der letzten Woche."
+msgstr "[F-Droid](https://f-droid.org/) ist ein [Repository](https://f-droid.org/en/packages/) verifizierter [Free & Open Source](https://en.wikipedia.org/wiki/Free_and_open-source_software) Android Apps, ein [Client](https://f-droid.org/app/org.fdroid.fdroid), um darauf zuzugreifen, sowie ein ganzes \"App Store Set\", das alle notwendigen Tools zum Einrichten und Betreiben eines App Stores bietet. Es ist ein gemeinschaftlich geführtes freies Softwareprojekt, das von einer Vielzahl von Mitwirkenden entwickelt wurde. Das ist ihre Geschichte der letzten Woche."
 
 #. type: Title ####
 #: build/_posts/md/2018-05-17-this-week-in-fdroid-w20.md
@@ -1865,7 +1865,7 @@ msgstr "\"Diese Woche in F-Droid, Woche 21\""
 #: build/_posts/md/2018-06-07-this-week-in-fdroid-w23.md
 #: build/_posts/md/2018-06-14-this-week-in-fdroid-w24.md
 msgid "[F-Droid](https://f-droid.org/) is a [repository](https://f-droid.org/packages/) of verified [free and open source](https://en.wikipedia.org/wiki/Free_and_open-source_software) Android apps, a [client](https://f-droid.org/app/org.fdroid.fdroid) to access it, as well as a whole \"app store kit\", providing all the tools needed to set up and run an app store. It is a community-run free software project developed by a wide range of contributors. This is their story this past week."
-msgstr "[F-Droid](https://f-droid.org/) ist ein [Repository](https://f-droid.org/de/packages/) verifizierter [free and open source](https://de.wikipedia.org/wiki/Free/Libre_Open_Source_Software) Android Apps, ein [Client](https://f-droid.org/app/org.fdroid.fdroid), um darauf zuzugreifen, sowie ein ganzes \"App Store Set\", das alle notwendigen Werkzeuge zum Einrichten und Betreiben eines App Stores bietet. Es ist ein gemeinschaftlich geführtes freies Softwareprojekt, das von einer Vielzahl von Mitwirkenden entwickelt wurde. Das ist ihre Geschichte der letzten Woche."
+msgstr "[F-Droid](https://f-droid.org/) ist ein [Repository](https://f-droid.org/de/packages/) verifizierter [Free & Open Source](https://de.wikipedia.org/wiki/Free/Libre_Open_Source_Software) Android Apps, ein [Client](https://f-droid.org/app/org.fdroid.fdroid), um darauf zuzugreifen, sowie ein ganzes \"App Store Set\", das alle notwendigen Werkzeuge zum Einrichten und Betreiben eines App Stores bietet. Es ist ein gemeinschaftlich geführtes freies Softwareprojekt, das von einer Vielzahl von Mitwirkenden entwickelt wurde. Das ist ihre Geschichte der letzten Woche."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-25-this-week-in-fdroid-w21.md
@@ -2373,7 +2373,7 @@ msgstr "Wir haben 2500 Anhänger auf Mastodon erreicht!"
 #. type: Bullet: '* '
 #: build/_posts/md/2018-06-14-this-week-in-fdroid-w24.md
 msgid "[_hc](https://forum.f-droid.org/u/hans) is working full-time on the [whitelabel](https://f-droid.org/wiki/page/Whitelabel_Builds) support this week, eliminating some technical debt in the process. This work is part of a paid contract."
-msgstr "[_hc](https://forum.f-droid.org/u/hans) arbeitet diese Woche hauptberuflich an der Unterstützung von [whitelabel](https://f-droid.org/wiki/page/Whitelabel_Builds) und beseitigt dabei einige technische Verpflichtungen. Diese Arbeit ist Teil eines bezahlten Vertrages."
+msgstr "[_hc](https://forum.f-droid.org/u/hans) arbeitet diese Woche hauptberuflich an der Betreuung von [Whitelabel](https://f-droid.org/wiki/page/Whitelabel_Builds), um ein paar technischen Verpflichtungen in dem Verfahren nachzukommen. Diese Arbeit ist Teil eines bezahlten Vertrags."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-06-14-this-week-in-fdroid-w24.md
@@ -2383,7 +2383,7 @@ msgstr "[mvdan](https://forum.f-droid.org/u/mvdan) [veröffentlichte](https://gi
 #. type: Bullet: '* '
 #: build/_posts/md/2018-06-14-this-week-in-fdroid-w24.md
 msgid "The slides to [Bubu](https://forum.f-droid.org/u/Bubu)'s talk which we mentioned last week are now [available]({{ site.baseurl }}/assets/posts/2018-06-14-this-week-in-fdroid-w24/2018-06-08-bubu-fdroid-talk-afra.pdf)!"
-msgstr "Die Folien zu [Bubu](https://forum.f-droid.org/u/Bubu)'s Vortrag, den wir letzte Woche erwähnt haben, sind nun [verfügbar]({{ site.baseurl }}/assets/posts/2018-06-14-diese-Woche-in-fdroid-w24/2018-06-06-08-bubu-fdroid-talk-afra.pdf)!"
+msgstr "Die Folien zu [Bubu](https://forum.f-droid.org/u/Bubu)'s Vortrag, den wir letzte Woche erwähnt haben, sind nun [abrufbar]({{ site.baseurl }}/assets/posts/2018-06-14-diese-Woche-in-fdroid-w24/2018-06-06-08-bubu-fdroid-talk-afra.pdf)!"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-06-14-this-week-in-fdroid-w24.md
@@ -2428,7 +2428,7 @@ msgstr "[Suntimes](https://f-droid.org/app/com.forrestguice.suntimeswidget) ist 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-06-14-this-week-in-fdroid-w24.md
 msgid "[Music Player GO](https://f-droid.org/app/com.iven.musicplayergo) is a very slim mucic player (app size only ~1M). It offers a colorful and simple \"Unified UI\" (no need to navigate between activities). With version 2.5 comes a new and improved UI."
-msgstr "[Music Player GO](https://f-droid.org/app/com.iven.musicplayergo) ist ein sehr schlanker Mucic-Player (App-Größe nur ~1M). Es bietet eine farbenfrohe und einfache \"Unified UI\" (keine Notwendigkeit, zwischen den Aktivitäten zu navigieren). Mit der Version 2.5 kommt eine neue und verbesserte Benutzeroberfläche."
+msgstr "[Music Player GO](https://f-droid.org/app/com.iven.musicplayergo) ist ein sehr schlanker Music-Player (App-Größe nur ~1M). Es bietet eine farbenfrohe und einfache \"Unified UI\" (keine Notwendigkeit, zwischen den Aktivitäten zu navigieren). Mit der Version 2.5 kommt eine neue und verbesserte Benutzeroberfläche."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-06-14-this-week-in-fdroid-w24.md
@@ -2448,7 +2448,7 @@ msgstr "[OpenFoodFacts](https://f-droid.org/app/openfoodfacts.github.scrachx.ope
 #. type: Plain text
 #: build/_posts/md/2018-06-14-this-week-in-fdroid-w24.md
 msgid "The next TWIF will be an XL edition, covering the next two weeks. That's right, [Coffee](https://forum.f-droid.org/u/Coffee) is taking some vacation, so see you in two weeks!"
-msgstr "Die nächste TWIF wird eine XL-Ausgabe sein, die die nächsten zwei Wochen abdeckt. Das stimmt, [Coffee](https://forum.f-droid.org/u/Coffee) macht Urlaub, also bis in zwei Wochen!"
+msgstr "Das nächste TWIF wird eine XL-Ausgabe sein, die die nächsten zwei Wochen abdeckt. Es stimmt, [Coffee](https://forum.f-droid.org/u/Coffee) macht Urlaub, also bis in zwei Wochen!"
 
 #. type: Plain text
 #: build/_posts/md/2018-06-14-this-week-in-fdroid-w24.md
@@ -2458,4 +2458,4 @@ msgstr "Berichten Sie bitte wie üblich über interessante Aktualisierungen. Es 
 #. type: Plain text
 #: build/_posts/md/2018-06-14-this-week-in-fdroid-w24.md
 msgid "Please tell us in the [TWIF submission thread](https://forum.f-droid.org/t/twif-submission-thread) on the forum, or tag your update [#fdroid](https://mastodon.technology/tags/fdroid) on Mastodon. (And cc [@fdroidorg@mastodon.technology](https://mastodon.technology/@fdroidorg) to make sure it reaches our instance.) The deadline to the next TWIF is Thursday 28 June 2018, 12:00 UTC."
-msgstr "Bitte erzählen Sie uns im [TWIF submission thread](https://forum.f-droid.org/t/twif-submission-thread) im Forum mit oder markieren Sie Ihr Update[#fdroid](https://mastodon.technology/tags/fdroid) auf Mastodon. (Und cc [@fdroidorg@mastodon.technology](https://mastodon.technology/@fdroidorg), um sicherzustellen, dass es unsere Instanz erreicht.) Die Frist bis zum nächsten TWIF ist Donnerstag, 28. Juni 2018, 12:00 UTC."
+msgstr "Bitte erzählen Sie uns im [TWIF Submission Thread](https://forum.f-droid.org/t/twif-submission-thread) im Forum mit oder markieren Sie Ihr Update[#fdroid](https://mastodon.technology/tags/fdroid) auf Mastodon. (Und cc [@fdroidorg@mastodon.technology](https://mastodon.technology/@fdroidorg), um sicherzustellen, dass es unsere Instanz erreicht.) Die Frist bis zum nächsten TWIF ist Donnerstag, 28. Juni 2018, 12:00 UTC."
