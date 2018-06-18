@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-05-26 15:02+0200\n"
-"PO-Revision-Date: 2018-06-16 19:38+0000\n"
-"Last-Translator: ssantos <ssantos@web.de>\n"
+"PO-Revision-Date: 2018-06-19 19:56+0000\n"
+"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-docs/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -4936,7 +4936,7 @@ msgstr ""
 #: build/_docs/md/Importing_Applications.md
 #, no-wrap
 msgid "Importing Applications"
-msgstr ""
+msgstr "Anwendungen importieren"
 
 #. type: Plain text
 #: build/_docs/md/Importing_Applications.md
@@ -4961,7 +4961,7 @@ msgstr "```bash fdroid import --url=http://address.of.project ```"
 #. type: Plain text
 #: build/_docs/md/Importing_Applications.md
 msgid "When a URL is specified using the `--url=` flag, `fdroid import` will use that URL to find out information about the project, and if it finds a git repo, it will also clone that. For this to work, the URL must point to a project format that the script understands. Currently this is limited to one of the following:"
-msgstr "Wenn eine Adresse durch Verwendung des Parameters `--url=` festgelegt ist, wird `fdroid import` diese verwenden, um Informationen zum Projekt herauszufinden, und wenn dabei ein Git-Repo gefunden wird, dieses auch clonen. Damit dies funktioniert, muss die URL auf ein Projektformat verweisen, das das Skript versteht. Momentan ist dies auf eines der Folgenden beschränkt:"
+msgstr "Wenn eine Adresse durch Verwendung des Parameters `--url=` festgelegt ist, wird `fdroid import` diese verwenden, um Informationen zum Projekt herauszufinden, und wenn dabei ein Git-Repo gefunden wird, dieses auch klonen. Damit dies funktioniert, muss die URL auf ein Projektformat verweisen, das das Skript versteht. Momentan ist dies auf eines der Folgenden beschränkt:"
 
 #. type: Bullet: '1.  '
 #: build/_docs/md/Importing_Applications.md
@@ -6762,12 +6762,12 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Repository_Style_Guide.md
 msgid "All apps in the F-Droid repository *must* be FOSS (Free and Open Source software). If the software doesn't clearly state a license that is listed as a Free Software License in the [GNU license list](http://www.gnu.org/licenses/license-list.html#SoftwareLicenses)  then it probably isn't."
-msgstr ""
+msgstr "Alle Apps im F-Droid-Repository *müssen* FOSS (Free and Open Source Software) sein. Wenn die Software nicht eindeutig eine Lizenz benennt, die als eine freie Software-Lizenz in der [GNU Lizenzliste](http://www.gnu.org/licenses/license-list.html#SoftwareLicenses) geführt wird, dann ist es wahrscheinlich keine."
 
 #. type: Plain text
 #: build/_docs/md/Repository_Style_Guide.md
 msgid "If there aren't any `README` or `LICENSE` in the source code of the app it's very difficult for the F-Droid community verify that the entire source code, libraries and artwork each are released under a suitable Free and Open Source license. So, it's a good pratice to verify that the app has headers in every file of the source code, a text file in the library folder and a statement in the source code or on the official website of the app that clearly explain the license about all the stuff that can be find related the app."
-msgstr ""
+msgstr "Wenn im Quelltext der App weder `README` noch `LICENSE` enthalten sind, ist es für die F-Droid-Community sehr schwierig zu überprüfen, dass sowohl der gesamte Quellcode als auch Bibliotheken und Illustrationen unter einer geeigneten Free and Open Source Lizenz veröffentlicht werden. Es empfiehlt sich daher, zu prüfen, dass die App Kopfzeilen in jeder Quellcode-Datei, eine Textdatei im Bibliothekenordner und eine Erklärung im Quellcode oder auf der offiziellen Internetseite der App hat, die eindeutig die Lizenz für alle zur App gehörenden Dinge beschreiben."
 
 #. type: Plain text
 #: build/_docs/md/Repository_Style_Guide.md
@@ -6794,7 +6794,7 @@ msgstr "Zusammenfassungen"
 #. type: Plain text
 #: build/_docs/md/Repository_Style_Guide.md
 msgid "The summary should be the shortest possible thing that describes what the app does or enables the user to do, e.g. instead of \"E-mail client\" use \"Receive and send e-mails\"."
-msgstr ""
+msgstr "Die Zusammenfassung sollte die kürzest mögliche Erklärung sein, was die App macht oder dem Nutzer ermöglicht, z. B. anstelle von \"E-Mail-Client\" besser \"E-Mails empfangen und senden\"."
 
 #. type: Title ###
 #: build/_docs/md/Repository_Style_Guide.md
@@ -6805,37 +6805,37 @@ msgstr "Beschreibungen"
 #. type: Plain text
 #: build/_docs/md/Repository_Style_Guide.md
 msgid "Descriptions should be written in an objective, neutral style, with at least the first paragraph devoted to describing what the application is and what features it has. This can be followed with concise help for specific features/problems, and links to external resources for more information. Additional information such as links to related/compatible/required (but not alternative) applications should also be included where appropriate."
-msgstr ""
+msgstr "Beschreibungen sollten in einen objektiven, neutralen Stil verfasst werden, zumindest der erste Abschnitt sollte der Erklärung gewidmet sein, was die Anwendung ist und welche Eigenschaften sie hat. Ihr kann eine kurzgefasste Hilfe zu speziellen Eigenschaften/Problemen und Verknüpfungen zu externen Ressourcen mit weitergehenden Informationen folgen. Zusätzliche Informationen wie Links zu zugehörigen/kompatiblen/benötigten (aber nicht alternativen) Anwendungen sollten gegebenenfalls auch eingeschlossen werden."
 
 #. type: Plain text
 #: build/_docs/md/Repository_Style_Guide.md
 msgid "Some other notes:"
-msgstr ""
+msgstr "Einige weitere Hinweise:"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Repository_Style_Guide.md
 msgid "Phrases like \"a note-taking app for Android\" should never appear.  Obviously it's for Android. Obviously it's an app."
-msgstr ""
+msgstr "Sätze wie \"eine bemerkenswerte Android-App\" sollten niemals auftauchen.  Klar ist es für Android. Klar ist es eine App."
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Repository_Style_Guide.md
 msgid "Similary, don't say \"it's free software\" or \"it's open source\" because obviously it is."
-msgstr ""
+msgstr "In ähnlicher Weise, sagen Sie nicht \"es ist freie Software\" oder \"es ist Open Source\", weil das offenkundig ist."
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Repository_Style_Guide.md
 msgid "There shouldn't be any compatiblity-related things in there (e.g.  \"for Android 2.3+\") because this is handled automatically. Only include compatibility notes when the client app doesn't automatically detect them."
-msgstr ""
+msgstr "Es sollten keine Dinge zur Kompatibilität (z. B. \"für Android 2.3+\") darin enthalten sein, da dies automatisch bearbeitet wird. Schließen Sie nur Kompatibilitätshinweise ein, wenn der Client sie nicht automatisch erkennt."
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Repository_Style_Guide.md
 msgid "The summary will always be shown with the description, so avoid repeating it."
-msgstr ""
+msgstr "Die Zusammenfassung wird immer mit der Beschreibung angezeigt, vermeiden Sie also, sie zu wiederholen."
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Repository_Style_Guide.md
 msgid "If there is anything different about the F-Droid build compared to a standard one, it should be described."
-msgstr ""
+msgstr "Wenn es zwischen dem F-Droid-Build verglichen mit einem Standard-Build irgendwelche Unterschiede gibt, sollte das beschrieben werden.  "
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Repository_Style_Guide.md
@@ -6845,28 +6845,28 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Repository_Style_Guide.md
 msgid "Other information worth mentioning are:"
-msgstr ""
+msgstr "Weitere Informationen, die einer Erwähnung wert sind:"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Repository_Style_Guide.md
 msgid "Does the app require root permissions?"
-msgstr ""
+msgstr "Benötigt die App Root-Rechte?"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Repository_Style_Guide.md
 msgid "Can it interact with other apps?"
-msgstr ""
+msgstr "Kann sie mit anderen Apps interagieren?"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Repository_Style_Guide.md
 msgid "How easy is it to use?"
-msgstr ""
+msgstr "Wie leicht lässt sie sich bedienen?"
 
 #. type: Title ###
 #: build/_docs/md/Repository_Style_Guide.md
 #, no-wrap
 msgid "Donations"
-msgstr ""
+msgstr "Spenden"
 
 #. type: Plain text
 #: build/_docs/md/Repository_Style_Guide.md
