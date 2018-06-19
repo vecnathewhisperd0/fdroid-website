@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-05-26 15:02+0200\n"
-"PO-Revision-Date: 2018-06-19 19:56+0000\n"
-"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
+"PO-Revision-Date: 2018-06-20 15:15+0000\n"
+"Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-docs/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.0.1\n"
+"X-Generator: Weblate 3.1-dev\n"
 
 #. type: Title #
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -6835,7 +6835,7 @@ msgstr "Die Zusammenfassung wird immer mit der Beschreibung angezeigt, vermeiden
 #. type: Bullet: '-   '
 #: build/_docs/md/Repository_Style_Guide.md
 msgid "If there is anything different about the F-Droid build compared to a standard one, it should be described."
-msgstr "Wenn es zwischen dem F-Droid-Build verglichen mit einem Standard-Build irgendwelche Unterschiede gibt, sollte das beschrieben werden.  "
+msgstr "Wenn es zwischen dem F-Droid-Build verglichen mit einem Standard-Build irgendwelche Unterschiede gibt, sollte das beschrieben werden."
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Repository_Style_Guide.md
