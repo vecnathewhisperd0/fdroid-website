@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-05-26 15:02+0200\n"
 "PO-Revision-Date: 2018-06-20 15:15+0000\n"
-"Last-Translator: ssantos <ssantos@web.de>\n"
+"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-docs/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -522,7 +522,7 @@ msgstr "Eine andere Möglichkeit ist die Verwendung einer Konfiguration wie in [
 #: build/_docs/md/Building_a_Signing_Server.md
 #, no-wrap
 msgid "Basic laptop dedicated to signing"
-msgstr "Basis-Laptop, das fest der Signierung zugeordnet ist"
+msgstr "Basis-Laptop, der fest der Signierung zugeordnet ist"
 
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
@@ -1956,10 +1956,10 @@ msgid ""
 "    that require toolchains no longer included in current versions of\n"
 "    the NDK.\n"
 msgstr ""
-":   Version des NDK für diesen Build. Standardmäßig wird das neueste NDK Release\n"
-"    verwendet, das Legacy-Toolchains enthält, um Builds nicht zu brechen,\n"
-"    die Toolchains benötigen, die nicht mehr in aktuellen Versionen des\n"
-"    NDKs enthalten sind.\n"
+":   Version des NDK für diesen Build. Standardmäßig wird das letzte NDK\n"
+"    verwendet, das Legacy-Toolchains enthält, sodass Builds,\n"
+"    die Toolchains benötigen, die in aktuellen NDK-Versionen nicht mehr \n"
+"    enthalten sind, nicht abbrechen.\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2715,9 +2715,8 @@ msgstr "So können Sie schnell mit dem Bau unserer Basebox beginnen:"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
-#, fuzzy
 msgid "```bash fdroid:~$ git clone https://gitlab.com/fdroid/basebox.git fdroid:~$ cd basebox fdroid:~/basebox$ sudo ./makebuildserver_basebox.py --provider virtualbox fdroid:~/basebox$ vagrant box add --force jessie64 fdroid-jessie64-virtualbox.box fdroid:~/basebox$ rm fdroid-jessie64-virtualbox.box ```"
-msgstr "```bash fdroid:~$ cd ~ fdroid:~$ git clone https://gitlab.com/fdroid/fdroidserver.git fdroid:~$ cp fdroidserver/examples/makebuildserver.config.py fdroidserver/ fdroid:~$ sed -i \"s@^baseboxurl.*@baseboxurl = \\\"https://f-droid.org/jessie64.box\\\"@\" fdroidserver/makebuildserver.config.py ```"
+msgstr "```bash fdroid:~$ git clone https://gitlab.com/fdroid/basebox.git fdroid:~$ cd basebox fdroid:~/basebox$ sudo ./makebuildserver_basebox.py --provider virtualbox fdroid:~/basebox$ vagrant box add --force jessie64 fdroid-jessie64-virtualbox.box fdroid:~/basebox$ rm fdroid-jessie64-virtualbox.box ```"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
