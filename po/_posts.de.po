@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-06-15 15:16+0200\n"
-"PO-Revision-Date: 2018-06-17 09:38+0000\n"
+"PO-Revision-Date: 2018-06-20 15:15+0000\n"
 "Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\n"
 "Language: de\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.0.1\n"
+"X-Generator: Weblate 3.1-dev\n"
 
 #. type: Title #
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md
@@ -2428,7 +2428,7 @@ msgstr "[Suntimes](https://f-droid.org/app/com.forrestguice.suntimeswidget) ist 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-06-14-this-week-in-fdroid-w24.md
 msgid "[Music Player GO](https://f-droid.org/app/com.iven.musicplayergo) is a very slim mucic player (app size only ~1M). It offers a colorful and simple \"Unified UI\" (no need to navigate between activities). With version 2.5 comes a new and improved UI."
-msgstr "[Music Player GO](https://f-droid.org/app/com.iven.musicplayergo) ist ein sehr schlanker Music-Player (App-Größe nur ~1M). Es bietet eine farbenfrohe und einfache \"Unified UI\" (keine Notwendigkeit, zwischen den Aktivitäten zu navigieren). Mit der Version 2.5 kommt eine neue und verbesserte Benutzeroberfläche."
+msgstr "[Music Player GO](https://f-droid.org/app/com.iven.musicplayergo) ist ein sehr schlanker Music-Player (App-Größe nur ~1M). Er bietet eine farbenfrohe und einfache \"Unified UI\" (keine Notwendigkeit, zwischen den Aktivitäten zu navigieren). Mit der Version 2.5 kommt eine neue und verbesserte Benutzeroberfläche."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-06-14-this-week-in-fdroid-w24.md
