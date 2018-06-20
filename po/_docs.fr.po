@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-05-26 15:02+0200\n"
-"PO-Revision-Date: 2018-03-30 16:36+0000\n"
-"Last-Translator: Julien Maulny <julien.maulny@protonmail.com>\n"
+"PO-Revision-Date: 2018-06-20 15:15+0000\n"
+"Last-Translator: Jonathan Alescio <jonathan.alescio@pm.me>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/f-droid/website-docs/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 2.20-dev\n"
+"X-Generator: Weblate 3.1-dev\n"
 
 #. type: Title #
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -468,7 +468,7 @@ msgstr ""
 #: build/_docs/md/Building_Applications.md
 #, no-wrap
 msgid "Direct Installation"
-msgstr ""
+msgstr "Installation Directe"
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md
@@ -498,9 +498,9 @@ msgstr ""
 
 #. type: Title ###
 #: build/_docs/md/Building_a_Signing_Server.md
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Automated Signing Server with with HSM"
-msgstr ""
+msgstr "Serveur d'Authentification Automatisé avec HSM"
 
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
@@ -509,8 +509,9 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
+#, fuzzy
 msgid "Ideally, this machine would only be accessible via Tor.  That hides the physical location of the server, and hides the traffic from network.  This makes it much harder attackers to find the actual machine to attack."
-msgstr ""
+msgstr "Idéalement, cette machine devrait uniquement être accessible via Tor. Cela cache la localisation physique du serveur, et cache le trafic en provenance du réseau. Cela augmente la difficulté pour des attaquants pour trouver la machine à attaquer."
 
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
@@ -520,7 +521,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
 msgid "Other possibility it to use a setup like [Fedora](https://pagure.io/sigul)'s [Sigul](http://www.devops-blog.net/koji/gpg-signing-rpms-with-sigul-signing-server-koji-integration)  that involves three machines."
-msgstr ""
+msgstr "Une autre possibilité est d'utiliser une installation comme [Fedora](https://pagure.io/sigul)'s [Sigul](http://www.devops-blog.net/koji/gpg-signing-rpms-with-sigul-signing-server-koji-integration). Cela implique trois machines."
 
 #. type: Title ###
 #: build/_docs/md/Building_a_Signing_Server.md
@@ -551,13 +552,15 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
+#, fuzzy
 msgid "Download the full \"CD\" or \"DVD\" image of Debian to run the install.  Be sure to [verify](https://www.debian.org/CD/verify) the GPG signatures and the SHA-256 hashes.  One essential utility is _apt-offline_, which automates the process of downloading Debian packages, verifying their signatures, and copying them over to an offline machine."
-msgstr ""
+msgstr "Télécharger l'image \"CD\" ou \"DVD\" complète de Debian pour lancer l'installation. Soyez sur de [vérifier](https://www.debian.org/CD/verify) la signature GPG et le hash SHA-256. Un outil essentiel est _apt-offline_, qui automatise le processus de téléchargement des paquets Debian, en vérifiant leur signatures, et en les copiant sur une machine non-connectée."
 
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
+#, fuzzy
 msgid "To be extra careful, all of the software used should be verified.  Chromebooks are nice, cheap laptops that run Linux natively.  They also use Coreboot for the BIOS."
-msgstr ""
+msgstr "Pour être très prudent, tout les logiciels utilisés devrait être vérifiés. Les Chromebooks sont bons, ordinateurs portables premiers prix qui exécutent Linux nativement. Ils utilisent aussi Coreboot comme BIOS"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Building_a_Signing_Server.md
@@ -567,7 +570,7 @@ msgstr ""
 #. type: Bullet: '* '
 #: build/_docs/md/Building_a_Signing_Server.md
 msgid "Buy a Debian-supported [Chromebook](https://www.chromium.org/chromium-os/developer-information-for-chrome-os-devices/acer-c720-chromebook) with removeable WiFi hardware, and needs no binary blobs"
-msgstr ""
+msgstr "Achetez un [Chromebook](https://www.chromium.org/chromium-os/developer-information-for-chrome-os-devices/acer-c720-chromebook) compatible avec Debian avec du matériel WiFi amovible et ne nécessitant pas de logiciels propriétaires"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Building_a_Signing_Server.md
@@ -583,7 +586,7 @@ msgstr ""
 #: build/_docs/md/Building_a_Signing_Server.md
 #, no-wrap
 msgid "The Physical Environment"
-msgstr ""
+msgstr "L'Environnement Physique"
 
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
@@ -592,18 +595,20 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
+#, fuzzy
 msgid "For high risk signing keys, using multiple layers of defense is important:"
-msgstr ""
+msgstr "Pour des clés de chiffrement à haut risque, l'utilisation de multiple couches de défense est important:"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Building_a_Signing_Server.md
+#, fuzzy
 msgid "Restricted physical access to HSMs or smart cards"
-msgstr ""
+msgstr "Accès physique restreint au HSMs ou aux cartes à puce"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Building_a_Signing_Server.md
 msgid "Security cameras"
-msgstr ""
+msgstr "Caméras de sécurité"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Building_a_Signing_Server.md
@@ -613,7 +618,7 @@ msgstr ""
 #. type: Bullet: '* '
 #: build/_docs/md/Building_a_Signing_Server.md
 msgid "Visitor logging"
-msgstr ""
+msgstr "Enregistrement des visiteurs"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Building_a_Signing_Server.md
@@ -629,7 +634,7 @@ msgstr ""
 #: build/_docs/md/Building_a_Signing_Server.md
 #, no-wrap
 msgid "Difficult decisions"
-msgstr ""
+msgstr "Décisions difficiles"
 
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
@@ -645,7 +650,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "Information used by `fdroid update` to compile the public index comes from several sources:"
-msgstr ""
+msgstr "Les informations utilisées par `fdroid update` pour compiler l'index public proviennent de nombreuses sources:"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Build_Metadata_Reference.md
