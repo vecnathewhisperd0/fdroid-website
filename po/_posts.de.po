@@ -2391,7 +2391,7 @@ msgstr "[mvdan](https://forum.f-droid.org/u/mvdan) [veröffentlichte](https://gi
 #. type: Bullet: '* '
 #: build/_posts/md/2018-06-14-this-week-in-fdroid-w24.md
 msgid "The slides to [Bubu](https://forum.f-droid.org/u/Bubu)'s talk which we mentioned last week are now [available]({{ site.baseurl }}/assets/posts/2018-06-14-this-week-in-fdroid-w24/2018-06-08-bubu-fdroid-talk-afra.pdf)!"
-msgstr "Die Folien zu [Bubu](https://forum.f-droid.org/u/Bubu)'s Vortrag, den wir letzte Woche erwähnt haben, sind nun [abrufbar]({{ site.baseurl }}/assets/posts/2018-06-14-diese-Woche-in-fdroid-w24/2018-06-06-08-bubu-fdroid-talk-afra.pdf)!"
+msgstr "Die Folien zu [Bubu](https://forum.f-droid.org/u/Bubu)'s Vortrag, den wir letzte Woche erwähnt haben, sind nun [abrufbar]({{ site.baseurl }}/assets/posts/2018-06-14-this-week-in-fdroid-w24/2018-06-08-bubu-fdroid-talk-afra.pdf)!"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-06-14-this-week-in-fdroid-w24.md
