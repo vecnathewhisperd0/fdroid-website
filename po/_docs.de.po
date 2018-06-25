@@ -3,13 +3,13 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-06-25 12:59+0200\n"
-"PO-Revision-Date: 2018-06-25 08:59+0000\n"
-"Last-Translator: ssantos <ssantos@web.de>\n"
+"PO-Revision-Date: 2018-06-26 17:37+0000\n"
+"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-docs/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -4957,7 +4957,7 @@ msgstr "Anwendungen importieren"
 #. type: Plain text
 #: build/_docs/md/Importing_Applications.md
 msgid "To help with starting work on including a new application, use `fdroid import` to set up a new template project. It has two modes of operation, starting with a cloned git repo:"
-msgstr ""
+msgstr "Verwenden Sie als Einstiegshilfe bei Arbeiten zur Aufnahme einer neuen Anwendung `fdroid import`, um eine neue Projektvorlage einzurichten. Es gibt zwei Arbeitsverfahren, mit einem geklonten Git-Repo anfangen:"
 
 #. type: Plain text
 #: build/_docs/md/Importing_Applications.md
@@ -4967,7 +4967,7 @@ msgstr "```bash git clone https://gitlab.com/fdroid/fdroidclient cd fdroidclient
 #. type: Plain text
 #: build/_docs/md/Importing_Applications.md
 msgid "Or starting with a URL to a project page:"
-msgstr ""
+msgstr "oder mit einer URL zu einer Projektseite beginnen:"
 
 #. type: Plain text
 #: build/_docs/md/Importing_Applications.md
@@ -5080,7 +5080,7 @@ msgstr "Zu beachten ist, dass Sie die Aufnahme selbst dann vorschlagen können, 
 #: build/_docs/md/Inclusion_How-To.md
 #, no-wrap
 msgid "Proposal by Submission Queue"
-msgstr ""
+msgstr "Vorschlag über die Submission Queue"
 
 #. type: Plain text
 #: build/_docs/md/Inclusion_How-To.md
@@ -5090,7 +5090,7 @@ msgstr "Dies ist die einfachste Art die Anwendung aufnehmen zu lassen. Aber aufg
 #. type: Plain text
 #: build/_docs/md/Inclusion_How-To.md
 msgid "Do this by creating a new ticket at the [F-Droid Submission Queue on GitLab](https://gitlab.com/fdroid/rfp/issues), add all details required by the minimal issue template; and wait for people in F-Droid team to review the application and do all necessary steps for you."
-msgstr ""
+msgstr "Machen Sie das, indem Sie ein neues Ticket in der [F-Droid Submission Queue auf GitLab](https://gitlab.com/fdroid/rfp/issues) erstellen, fügen Sie alle erforderlichen Details gemäß der Maske mit den Minimalanforderungen hinzu und warten Sie darauf, dass das F-Droid-Team die Anwendung prüfen und alle nötigen Schritte für Sie unternehmen wird."
 
 #. type: Title ###
 #: build/_docs/md/Inclusion_How-To.md
@@ -5126,7 +5126,7 @@ msgstr "Sie die [Repository-Aufbauanleitung](../Repository_Style_Guide) gelesen 
 #. type: Bullet: '-   '
 #: build/_docs/md/Inclusion_How-To.md
 msgid "You already read and understand [the relevant parts of the F-Droid documentation](../Build_Metadata_Reference)."
-msgstr "Sie haben bereits [die relevanten Teile des F-Droid-Handbuchs](https://f-droid.org/docs/Build_Metadata_Reference/) gelesen und verstanden."
+msgstr "Sie bereits [die relevanten Teile des F-Droid-Handbuchs](https://f-droid.org/docs/Build_Metadata_Reference/) gelesen und verstanden haben."
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Inclusion_How-To.md
@@ -5207,7 +5207,7 @@ msgstr "Sie werden Ihren Quellcode überfliegen, um zu sehen, ob Ihre Anwendung 
 #. type: Bullet: '-   '
 #: build/_docs/md/Inclusion_How-To.md
 msgid "They will list a summary of any [AntiFeatures](https://f-droid.org/wiki/page/Antifeatures) in your application."
-msgstr "Sie werden eine Zusammenstellung aller [unerwünschter Merkmale](https://f-droid.org/wiki/page/Antifeatures) in Ihrer Anwendung auflisten."
+msgstr "Sie werden eine Zusammenstellung aller [unerwünschten Merkmale](https://f-droid.org/wiki/page/Antifeatures) in Ihrer Anwendung auflisten."
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Inclusion_How-To.md
@@ -5295,12 +5295,12 @@ msgstr "Metadaten-Erneuerungsprozess"
 #. type: Plain text
 #: build/_docs/md/Inclusion_How-To.md
 msgid "When the scheduled building time arrives, the F-Droid build server will fetch changes from the fdroiddata GitLab repository and merge it to a local repository. Then, update checks will be performed for all applications. If a new version is found, their metadata files will be updated and committed to the repository by the author `F-Droid Builder <admin@f-droid.org>`."
-msgstr ""
+msgstr "Bei Erreichen der für das Build festgelegten Zeit wird der F-Droid-Build-Server Änderungen aus dem fdroiddata GitLab-Repository beziehen und sie mit einem lokalen Repository zusammenführen. Danach werden für alle Anwendungen Aktualisierungsprüfungen durchgeführt. Wenn eine neue Version gefunden wird, werden deren Metadaten-Dateien aktualisiert und durch den Autor  `F-Droid Builder <admin@f-droid.org>` als Commit im Repository eingetragen."
 
 #. type: Plain text
 #: build/_docs/md/Inclusion_How-To.md
 msgid "Once metadata files are updated, the F-Droid Server will check them against a list of released APKs to constuct a list of new applications and/or versions that need to be built. It will then enter the application preprocessing process, followed by the build process for each of them."
-msgstr ""
+msgstr "Sind die Metadaten-Dateien einmal aktualisiert, wird der F-Droid-Server sie gegen eine Liste veröffentlichter APKs abgleichen, um eine Liste neuer Anwendungen und/oder Versionen aufzustellen, die hergestellt werden müssen. Er wird dann in den Prozess zur Vorbehandlung eintreten, gefolgt vom jeweiligen Build-Prozess pro Anwendung."
 
 #. type: Title ###
 #: build/_docs/md/Inclusion_How-To.md
