@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-06-25 12:59+0200\n"
-"PO-Revision-Date: 2018-06-22 17:44+0000\n"
+"PO-Revision-Date: 2018-06-26 20:43+0000\n"
 "Last-Translator: Markel <wakutiteo@protonmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/f-droid/website-docs/es/>\n"
 "Language: es\n"
@@ -391,7 +391,6 @@ msgstr "Si la compilación anterior se ha realizado correctamente,se han colocad
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md
-#, fuzzy
 msgid "``` org.fdroid.fdroid_16.apk org.fdroid.fdroid_16_src.tar.gz ```"
 msgstr "``` org.fdroid.fdroid_16.apk org.fdroid.fdroid_16_src.tar.gz ```"
 
@@ -627,7 +626,7 @@ msgstr ""
 #: build/_docs/md/Building_a_Signing_Server.md
 #, no-wrap
 msgid "Difficult decisions"
-msgstr ""
+msgstr "Decisiones difíciles"
 
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
