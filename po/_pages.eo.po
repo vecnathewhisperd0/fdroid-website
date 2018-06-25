@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-06-25 01:38+0200\n"
-"PO-Revision-Date: 2018-05-07 09:53+0000\n"
+"PO-Revision-Date: 2018-06-25 14:11+0000\n"
 "Last-Translator: Verdulo <tomek@disroot.org>\n"
 "Language-Team: Esperanto <https://hosted.weblate.org/projects/f-droid/website-pages/eo/>\n"
 "Language: eo\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.0-dev\n"
+"X-Generator: Weblate 3.1-dev\n"
 
 #. type: Title #
 #: build/_pages/md/403.md
@@ -338,7 +338,7 @@ msgstr "Fabian RODRIGUEZ"
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Pierre Rudloff"
-msgstr ""
+msgstr "Pierre RUDLOFF"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
