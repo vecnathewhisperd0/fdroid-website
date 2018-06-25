@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-06-25 01:38+0200\n"
-"PO-Revision-Date: 2018-06-25 16:07+0000\n"
+"PO-Revision-Date: 2018-06-26 16:37+0000\n"
 "Last-Translator: Julien Maulny <julien.maulny@protonmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/f-droid/website-pages/fr/>\n"
 "Language: fr\n"
@@ -71,7 +71,7 @@ msgstr "Licence"
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "The source code for this site and the content produced by the F-Droid community are a availble under the [GNU Affero General Public License version 3 or later (AGPLv3+)](https://www.gnu.org/licenses/agpl-3.0.html)."
-msgstr "Le code source de ce site et les contenus produits par la communauté F-Droid sont maintenant disponibles sous la [GNU Affero General Public License version 3 ou ultérieure (AGPLv3+)](https://www.gnu.org/licenses/agpl-3.0.html)."
+msgstr "Le code source de ce site et les contenus produits par la communauté F-Droid sont disponibles sous la [GNU Affero General Public License version 3 ou ultérieure (AGPLv3+)](https://www.gnu.org/licenses/agpl-3.0.fr.html)."
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
