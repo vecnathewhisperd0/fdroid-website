@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-06-25 01:38+0200\n"
-"PO-Revision-Date: 2018-06-21 20:38+0000\n"
-"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
+"PO-Revision-Date: 2018-06-25 18:21+0000\n"
+"Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-pages/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -338,7 +338,7 @@ msgstr "Fabian Rodriguez"
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Pierre Rudloff"
-msgstr ""
+msgstr "Pierre Rudloff"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
