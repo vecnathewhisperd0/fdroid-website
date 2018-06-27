@@ -50,9 +50,7 @@ of language+country "locales", ordered by importance to the user.
 
 Is F-Droid not in your language, or the translation is incorrect or
 incomplete?  Get involved in the translations by signing up for
-[our Weblate](https://hosted.weblate.org/projects/f-droid/).  You can
-also find other translators on the
-[F-Droid forum](https://forum.f-droid.org/t/about-the-translation-category/).
+[our Weblate](https://hosted.weblate.org/projects/f-droid/).
 
 
 ### Adding a new language
