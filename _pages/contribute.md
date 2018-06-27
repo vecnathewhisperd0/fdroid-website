@@ -29,7 +29,7 @@ Further information can be found in [the documentation](../docs), or by asking [
 
 The client application is available in many languages. Should yours not be among those, or be in need of updates or improvement, please create an account and use the [translation system](https://hosted.weblate.org/projects/f-droid/) to make your changes.
 
-Start with the overview of [Translation and Localization](../docs/Translation_and_Localization).  There’s also a [dedicated forum section](https://forum.f-droid.org/c/translation) for translation related discussions.
+Start with the overview of [Translation and Localization](../docs/Translation_and_Localization).
 
 ### Help with Development
 
