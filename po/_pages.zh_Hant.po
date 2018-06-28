@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-06-25 01:38+0200\n"
-"PO-Revision-Date: 2018-05-14 09:38+0000\n"
+"PO-Revision-Date: 2018-06-28 14:29+0000\n"
 "Last-Translator: ezjerry liao <ezjerry@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/f-droid/website-pages/zh_Hant/>\n"
 "Language: zh_Hant\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.0-dev\n"
+"X-Generator: Weblate 3.1-dev\n"
 
 #. type: Title #
 #: build/_pages/md/403.md
@@ -338,7 +338,7 @@ msgstr "Fabian Rodriguez"
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Pierre Rudloff"
-msgstr ""
+msgstr "Pierre Rudloff"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
