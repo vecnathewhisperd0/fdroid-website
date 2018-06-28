@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-06-25 12:59+0200\n"
-"PO-Revision-Date: 2018-06-26 17:37+0000\n"
+"PO-Revision-Date: 2018-06-29 19:38+0000\n"
 "Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-docs/de/>\n"
 "Language: de\n"
@@ -5833,17 +5833,17 @@ msgstr ""
 #: build/_docs/md/Maintaining_the_Forum.md
 #, no-wrap
 msgid "Maintaining the forum"
-msgstr ""
+msgstr "Forumpflege"
 
 #. type: Plain text
 #: build/_docs/md/Maintaining_the_Forum.md
 msgid "[F-Droid's forum](https://forum.f-droid.org) is powered by [Discourse](https://www.discourse.org/) and [maintained by volunteers](https://forum.f-droid.org/about)."
-msgstr ""
+msgstr "Das [F-Droid-Forum](https://forum.f-droid.org) wird mit [Discourse](https://www.discourse.org/) betrieben und [von Ehrenamtlichen gepflegt](https://forum.f-droid.org/about)."
 
 #. type: Plain text
 #: build/_docs/md/Maintaining_the_Forum.md
 msgid "This page is the central place where all information needed to maintain the forum are stored."
-msgstr ""
+msgstr "Diese Seite ist der zentrale Ort, an dem alle zur Forumpflege benötigten Informationen gespeichert sind."
 
 #. type: Title ###
 #: build/_docs/md/Maintaining_the_Forum.md
@@ -5854,59 +5854,60 @@ msgstr "Allgemeine Informationen"
 #. type: Plain text
 #: build/_docs/md/Maintaining_the_Forum.md
 msgid "Here is some general, non-sensitive information about our instance.  When setting up the forum, we followed [Docker's](https://docs.docker.com/engine/installation/linux/docker-ce/debian)  and [Dicourse's](https://github.com/discourse/discourse/blob/master/docs/INSTALL-cloud.md)  official installation guides.  Posts from the old forum were not imported due to time restrictions of the voluntary administrators."
-msgstr ""
+msgstr "Hier einige allgemeine Informationen zu unserer Instanz.  Bei Einrichtung des Forums wurden die offiziellen Installationsanleitungen von [Docker](https://docs.docker.com/engine/installation/linux/docker-ce/debian)  und [Dicourse](https://github.com/discourse/discourse/blob/master/docs/INSTALL-cloud.md)  befolgt.  Posts aus dem alten Forum wurden aufgrund des damit verbundenen Zeitaufwands für die ehrenamtlichen Administratoren nicht importiert."
 
 #. type: Bullet: '* '
 #: build/_docs/md/Maintaining_the_Forum.md
 msgid "Installation type: [docker-ce](https://github.com/discourse/discourse_docker)"
-msgstr ""
+msgstr "Installationstyp: [docker-ce](https://github.com/discourse/discourse_docker)"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Maintaining_the_Forum.md
 msgid "Storage driver: [AUFS](https://docs.docker.com/engine/userguide/storagedriver/aufs-driver/)"
-msgstr ""
+msgstr "Speichertreiber: [AUFS](https://docs.docker.com/engine/userguide/storagedriver/aufs-driver/)"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Maintaining_the_Forum.md
 msgid "Sever's specifications: 2 cores, 4GB RAM, 30GB SSD"
-msgstr ""
+msgstr "Severaufbau: 2 Cores, 4GB RAM, 30GB SSD"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Maintaining_the_Forum.md
 msgid "Server's location: Amsterdam"
-msgstr ""
+msgstr "Serverstandort: Amsterdam"
 
 #. type: Title ####
 #: build/_docs/md/Maintaining_the_Forum.md
 #, no-wrap
 msgid "Paths"
-msgstr ""
+msgstr "Pfade"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Maintaining_the_Forum.md
 msgid "Installation directory: _/var/discourse_"
-msgstr ""
+msgstr "Installationsverzeichnis: _/var/discourse_"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Maintaining_the_Forum.md
 msgid "App configuration: _/var/discourse/containers/app.yml_"
-msgstr ""
+msgstr "App-Konfiguration: _/var/discourse/containers/app.yml_"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Maintaining_the_Forum.md
 msgid "Backups: _/var/discourse/shared/standalone/backups/default_"
-msgstr ""
+msgstr "Sicherungen: _/var/discourse/shared/standalone/backups/default_"
 
 #. type: Title ####
 #: build/_docs/md/Maintaining_the_Forum.md
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Discourse"
-msgstr ""
+msgstr "Discourse"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Maintaining_the_Forum.md
+#, fuzzy
 msgid "Version: _tests-passed_"
-msgstr ""
+msgstr "Version: _tests-passed_"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Maintaining_the_Forum.md
@@ -5916,33 +5917,33 @@ msgstr ""
 #. type: Bullet: '* '
 #: build/_docs/md/Maintaining_the_Forum.md
 msgid "Login methods: local, GitHub"
-msgstr ""
+msgstr "Login-Methoden: lokal, GitHub"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Maintaining_the_Forum.md
 msgid "Backup frequency: every day"
-msgstr ""
+msgstr "Sicherungsfrequenz: täglich"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Maintaining_the_Forum.md
 msgid "Backups amount: 15"
-msgstr ""
+msgstr "Anzahl an Sicherungen: 15"
 
 #. type: Title ###
 #: build/_docs/md/Maintaining_the_Forum.md
 #, no-wrap
 msgid "Upgrading"
-msgstr ""
+msgstr "Upgrades"
 
 #. type: Plain text
 #: build/_docs/md/Maintaining_the_Forum.md
 msgid "Upgrading the forum is quite simple.  It is always announced at least 15 minutes beforehand in a dedicated [maintenance log topic](https://forum.f-droid.org/t/maintenance-log/775)  in the forum.  Upgrades are planned to be done every one to two weeks.  If you feel like there was an important update to Discourse which should get deployed earlier, feel free to suggest that in the topic mentioned above."
-msgstr ""
+msgstr "Ein Upgrade des Forums ist ganz einfach.  Es wird immer mindestens 15 Minuten im Voraus in einem speziellen  [maintenance log topic](https://forum.f-droid.org/t/maintenance-log/775)  im Forum angekündigt.  Durchführungen von Upgrades sind alle ein bis zwei Wochen geplant.  Wenn Sie der Meinung sind, dass es ein wichtiges Update an  Discourse gab, das früher eingestellt werden sollte, können Sie das gerne in oben erwähntem Themenfeld vorschlagen."
 
 #. type: Plain text
 #: build/_docs/md/Maintaining_the_Forum.md
 msgid "For administrators, this is the common way on how to upgrade the forum:"
-msgstr ""
+msgstr "Für Administratoren ist dies der gebräuchliche Weg für ein Upgrade des Forums:"
 
 #. type: Plain text
 #: build/_docs/md/Maintaining_the_Forum.md
@@ -5958,28 +5959,38 @@ msgid ""
 "* Report that all updates were successful in the\n"
 "[maintenance log topic](https://forum.f-droid.org/t/maintenance-log/775)\n"
 msgstr ""
+"* Ankündigung der Aktualisierung mindestens 15 Minuten im Voraus im \n"
+"[maintenance log topic](https://forum.f-droid.org/t/maintenance-log/775)\n"
+"* [Eine Sicherung des Forums durchführen](https://forum.f-droid.org/admin/backups)\n"
+"* Das Ende der Sicherung abwarten und sie herunterladen (Sie werden einen Link per Mail erhalten)\n"
+"* Zum [Upgrade-Abschnitt](https://forum.f-droid.org/admin/upgrade) wechseln\n"
+"* Upgrade (der verschiedenen Teile) des Forums durchführen, z. B. sind manchmal\n"
+"_docker_manager_ Updates abrufbar, die vor _discourse_ geschehen müssen\n"
+"* Meldung, dass alle Aktualisierungen erfolgreich waren, im\n"
+"[maintenance log topic](https://forum.f-droid.org/t/maintenance-log/775)\n"
 
 #. type: Title ###
 #: build/_docs/md/Maintaining_the_Forum.md
 #, no-wrap
 msgid "Troubleshooting"
-msgstr ""
+msgstr "Problemlösung"
 
 #. type: Plain text
 #: build/_docs/md/Maintaining_the_Forum.md
 msgid "In case something goes wrong with the forum, stay calm, you're likely not the first to be affected by this. Mostly a quick internet search gives you detailed instructions on how to fix a problem.  There is also a really good guide called [Advanced Troubleshooting with Docker](https://meta.discourse.org/t/advanced-troubleshooting-with-docker/15927)  on Discourse's forum. In the past, the following instructions were helpful:"
-msgstr ""
+msgstr "Falls mit dem Forum etwas schief ging, bleiben Sie ruhig, Sie sind vermutlich nicht der Erste, der davon betroffen ist. Meistens bringt eine kurze Internetsuche detaillierte Angaben zur Problemlösung.  Es gibt auch eine wirklich gute Anleitung namens [Advanced Troubleshooting with Docker](https://meta.discourse.org/t/advanced-troubleshooting-with-docker/15927)  im Forum von Discourse. In der Vergangenheit haben die folgenden Maßnahmen geholfen:"
 
 #. type: Title ####
 #: build/_docs/md/Maintaining_the_Forum.md
 #, no-wrap
 msgid "Rebuilding the container"
-msgstr ""
+msgstr "Container neu bauen"
 
 #. type: Plain text
 #: build/_docs/md/Maintaining_the_Forum.md
+#, fuzzy
 msgid "```bash cd /var/discourse git pull ./launcher rebuild app ```"
-msgstr ""
+msgstr "```bash cd /var/discourse git pull ./launcher rebuild app ```"
 
 #. type: Title ###
 #: build/_docs/md/Maintaining_the_Forum.md
@@ -5990,39 +6001,41 @@ msgstr "Installationsprotokoll"
 #. type: Plain text
 #: build/_docs/md/Maintaining_the_Forum.md
 msgid "In case we need to set up the virtual machine because of some problem, you can use this instruction to do so quickly."
-msgstr ""
+msgstr "Für den Fall, dass die virtuelle Maschine aufgrund einiger Probleme eingerichtet werden muss, können Sie die folgenden Angaben verwenden, um dies schnell zu erledigen."
 
 #. type: Plain text
 #: build/_docs/md/Maintaining_the_Forum.md
 #, no-wrap
 msgid "Install Docker"
-msgstr ""
+msgstr "Docker installieren"
 
 #. type: Plain text
 #: build/_docs/md/Maintaining_the_Forum.md
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
 msgid "References:"
-msgstr ""
+msgstr "Referenz:"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Maintaining_the_Forum.md
+#, fuzzy
 msgid "https://docs.docker.com/engine/installation/linux/docker-ce/debian"
-msgstr ""
+msgstr "https://docs.docker.com/engine/installation/linux/docker-ce/debian"
 
 #. type: Plain text
 #: build/_docs/md/Maintaining_the_Forum.md
 msgid "Download Docker's PGP key"
-msgstr ""
+msgstr "Docker's PGP-Key herunterladen"
 
 #. type: Plain text
 #: build/_docs/md/Maintaining_the_Forum.md
+#, fuzzy
 msgid "```bash wget -O docker-gpg https://download.docker.com/linux/debian/gpg apt-key add docker-gpg ```"
-msgstr ""
+msgstr "```bash wget -O docker-gpg https://download.docker.com/linux/debian/gpg apt-key add docker-gpg ```"
 
 #. type: Plain text
 #: build/_docs/md/Maintaining_the_Forum.md
 msgid "Check PGP key"
-msgstr ""
+msgstr "PGP-Key prüfen"
 
 #. type: Plain text
 #: build/_docs/md/Maintaining_the_Forum.md
@@ -6032,29 +6045,34 @@ msgstr "```bash"
 
 #. type: Title #
 #: build/_docs/md/Maintaining_the_Forum.md
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Must match '9DC8 5822 9FC7 DD38 854A E2D8 8D81 803C 0EBF CD88'"
-msgstr ""
+msgstr "Must match '9DC8 5822 9FC7 DD38 854A E2D8 8D81 803C 0EBF CD88'"
 
 #. type: Plain text
 #: build/_docs/md/Maintaining_the_Forum.md
+#, fuzzy
 msgid "apt-key fingerprint 0EBFCD88 ```"
-msgstr ""
+msgstr "apt-key fingerprint 0EBFCD88 ```"
 
 #. type: Plain text
 #: build/_docs/md/Maintaining_the_Forum.md
 msgid "Add Docker repository"
-msgstr ""
+msgstr "Docker-Repository hinzufügen"
 
 #. type: Plain text
 #: build/_docs/md/Maintaining_the_Forum.md
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "```bash\n"
 "echo 'deb [arch=amd64] https://download.docker.com/linux/debian stretch stable' >> /etc/apt/sources.list.d/docker.com.list\n"
 "apt update\n"
 "```\n"
 msgstr ""
+"```bash\n"
+"echo 'deb [arch=amd64] https://download.docker.com/linux/debian stretch stable' >> /etc/apt/sources.list.d/docker.com.list\n"
+"apt update\n"
+"```\n"
 
 #. type: Plain text
 #: build/_docs/md/Maintaining_the_Forum.md
@@ -6064,7 +6082,7 @@ msgstr "```bash apt install docker-ce ```"
 #. type: Plain text
 #: build/_docs/md/Maintaining_the_Forum.md
 msgid "Check Docker"
-msgstr ""
+msgstr "Docker prüfen"
 
 #. type: Plain text
 #: build/_docs/md/Maintaining_the_Forum.md
@@ -6075,17 +6093,17 @@ msgstr "```bash docker run hello-world ```"
 #: build/_docs/md/Maintaining_the_Forum.md
 #, no-wrap
 msgid "Install Discourse"
-msgstr ""
+msgstr "Discourse installieren"
 
 #. type: Plain text
 #: build/_docs/md/Maintaining_the_Forum.md
 msgid "If you still have the old _/var/discourse_ directory available, you can simply deploy it on the new server and start it by `./launcher rebuild app`."
-msgstr ""
+msgstr "Wenn das alte _/var/discourse_ Verzeichnis noch zur Verfügung steht, kann es einfach auf dem neuen Server  eingesetzt und durch `./launcher rebuild app` gestartet werden."
 
 #. type: Plain text
 #: build/_docs/md/Maintaining_the_Forum.md
 msgid "Follow the [official installation guide](https://github.com/discourse/discourse/blob/master/docs/INSTALL-cloud.md)."
-msgstr ""
+msgstr "Folgen Sie der [offiziellen Installationsanleitung](https://github.com/discourse/discourse/blob/master/docs/INSTALL-cloud.md)."
 
 #. type: Title #
 #: build/_docs/md/Publishing_Nightly_Builds.md
