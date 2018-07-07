@@ -6843,6 +6843,16 @@ msgid ""
 "legally compatible with the Android support library and the others\n"
 "libraries).\n"
 msgstr ""
+"*Hinweis:* Zur Verwendung der *GNU General Public License **v2***\n"
+"ist eine kleine Präzisierung zu machen. Die Android Support Library und die\n"
+"meisten anderen Android-Bibliotheken sind unter der *Apache Licence* lizensiert.\n"
+"Aus formalrechtlichen Gründen kann diese nicht mit der *GNU General\n"
+"Public License **v2*** kombiniert werden. Wenn eine App unter der\n"
+"*GPL**v2*** veröffentlicht wird, wird das von Rechts wegen nur akzeptiert, wenn\n"
+"die Kopfzeilen des App-Quellcodes von «GPLv2 **or later**» nennen, dann können\n"
+"wir als Gesamtlizenz *GPL**v3*** auswählen (da umgekehrt die *GPL**v3***\n"
+"mit der Android Support Library und den anderen Bibliotheken in vollem Umfang\n"
+"rechtlich kompatibel ist).\n"
 
 #. type: Title ###
 #: build/_docs/md/Repository_Style_Guide.md
@@ -6930,7 +6940,7 @@ msgstr "Spenden"
 #. type: Plain text
 #: build/_docs/md/Repository_Style_Guide.md
 msgid "Where a project accepts donations, the ideal donation link would be to a specific page that the project maintains for that purpose. If one doesn't exist, it's acceptable to just link to their page that has a donation icon or similar somewhere on it, but this doesn't create a good user experience when, for example, someone selects 'Donate' in the F-Droid client and then has to search a page for the details. Try to encourage the developers to create a dedicate page if possible."
-msgstr ""
+msgstr "Nimmt ein Projekt Spendenzahlungen entgegen, führt die Spendenverknüpfung idealerweise auf eine spezielle Seite, die das Projekt zu diesem Zweck unterhält. Gibt es keine, ist es vertretbar, einfach auf die Projektseite weiterzuleiten, die irgendwo ein Spendensymbol oder etwas Ähnliches enthält, was aber kein gutes Nutzererleben schafft, wenn, zum Beispiel, jemand in der F-Droid-App 'Spenden' wählt und dann eine Seite nach den Einzelheiten dazu durchsuchen muss. Versuchen Sie die Entwickler davon zu überzeugen, möglichst eine dafür ausgewiesene Seite zu erstellen."
 
 #. type: Title ###
 #: build/_docs/md/Repository_Style_Guide.md
@@ -6941,50 +6951,50 @@ msgstr "Problematische Merkmale"
 #. type: Plain text
 #: build/_docs/md/Repository_Style_Guide.md
 msgid "In addition some software, even being Free and Open Source software, may do practices which can be considered undesirable and that we consider [AntiFeatures](https://f-droid.org/wiki/page/Antifeatures)\". Where possible the F-Droid community still include these applications in the repository but flagging and cataloging these antifeatures in order to warn users (on the F-Droid client and on the web repository browser) by any antifeatures present on the app. Even though software can be included in the F-Droid even with antifeatures, it is frequently the case that software with these antifeatures is actually not entirely FOSS (for example advertising and tracking user activity is often enabled via non-free binary libraries) compromising in this way the inclusion of the app in the F-Droid repository."
-msgstr ""
+msgstr "Darüber hinaus kann sich bestimmte Software, selbst solche, die Free and Open Source ist, Praktiken bedienen, die als unerwünscht angesehen werden und die wir als [AntiFeatures](https://f-droid.org/wiki/page/Antifeatures)\" einstufen. Wenn möglich, wird die F-Droid-Gemeinschaft diese Anwendungen weiter im Repository behalten, diese Merkmale aber kennzeichnen und katalogisieren, um Nutzer (im F-Droid-Client und im App-Browser auf der Website) vor allen, in der App vorhandenen, problematischen Merkmalen zu warnen. Auch wenn Software selbst mit problematischen Merkmalen in F-Droid aufgenommen werden kann, ist es häufig so, dass Software mit diesen Kennzeichen eigentlich nicht vollständig FOSS ist (zum Beispiel wird Werbung und Verfolgung von Nutzeraktivitäten oft über nicht freie Binär-Bibliotheken erzielt) und auf diese Weise die Aufnahme der App ins F-Droid-Repository beeinträchtigt wird."
 
 #. type: Title ###
 #: build/_docs/md/Repository_Style_Guide.md
 #, no-wrap
 msgid "Updating"
-msgstr ""
+msgstr "Aktualisiere"
 
 #. type: Plain text
 #: build/_docs/md/Repository_Style_Guide.md
 msgid "- *E.g.* <https://gitlab.com/fdroid/fdroidclient/graphs/master> & <https://gitlab.com/fdroid/fdroidclient/network/master> & <http://f-droid.org/news-and-reviews>"
-msgstr ""
+msgstr "- *Z.B.* <https://gitlab.com/fdroid/fdroidclient/graphs/master> & <https://gitlab.com/fdroid/fdroidclient/network/master> & <http://f-droid.org/news-and-reviews>"
 
 #. type: Plain text
 #: build/_docs/md/Repository_Style_Guide.md
 msgid "Getting the app in the repository isn't the end of the story: we have to keep the versions, descriptions and URLs up-to-date."
-msgstr ""
+msgstr "Die App in das Repository zu bekommen ist nicht das Ende vom Lied: wir müssen die Versionen, Beschreibungen und URLs aktuell halten."
 
 #. type: Plain text
 #: build/_docs/md/Repository_Style_Guide.md
 msgid "The most important is to know when new versions are published. We have three automatic methods and one manual: from tags; checking the `AndroidManifest.xml` at the most recent revision in the repository; and checking Google Play. If these won't do, we must look at the version of the package published by the upstream developers, either by loading the Google Play web page or downloading an APK and checking its version.  Repository tags are the natural way of labelling new versions (look for them under \"releases\" on an example in [github.com](https://github.com/dschuermann/document-viewer/releases) or under the \"tags\" directory in the case of SVN repos). If you can't find tags it would be a helpful to make an issue about it on the issue tracker. In the example, we point to a changelog page as a backup check; other possiblities are a Google Code download page or a Google Play link."
-msgstr ""
+msgstr "Das Wichtigste ist zu wissen, wann neue Versionen veröffentlicht werden. Wir haben drei automatische Methoden und ein Handbuch: von Tags; durch Überprüfung der `AndroidManifest.xml` bei der letzten Revision im Repository; und durch Überprüfung bei Google Play. Wenn dies nicht der Fall ist, müssen wir uns die Version des Pakets ansehen, die von den Upstream-Entwicklern veröffentlicht wurde, indem wir entweder die Google Play-Webseite laden oder ein APK herunterladen und dessen Version überprüfen.  Repository-Tags sind die natürliche Art, neue Versionen zu kennzeichnen (siehe unter \"releases\" auf einem Beispiel in [github.com](https://github.com/dschuermann/document-viewer/releases) oder unter dem Verzeichnis \"tags\" im Falle von SVN repos). Wenn Sie keine Tags finden können, wäre es hilfreich, ein Issue damit im Issue Tracker anzulegen. Im Beispiel zeigen wir auf eine Changelog-Seite als Backup-Check; andere Möglichkeiten sind eine Google Code Download-Seite oder ein Google Play-Link."
 
 #. type: Title ###
 #: build/_docs/md/Reproducible_Builds.md
 #, no-wrap
 msgid "Reproducible Builds"
-msgstr ""
+msgstr "Reproduzierbare Builds"
 
 #. type: Plain text
 #: build/_docs/md/Reproducible_Builds.md
 msgid "F-Droid supports [reproducible builds](https://reproducible-builds.org)  of apps, so that anyone can run the build process again and reproduce the same APK as the original release.  This means that F-Droid can verify that an app is 100% free software while still using the original developer's APK signatures.  Ideally, all of the built APKs will have the exact same hash, but that is a more difficult standard with less payoff. Right now, F-Droid verifies reproducible builds using the APK signature."
-msgstr ""
+msgstr "F-Droid unterstützt [reproduzierbare Builds](https://reproducible-builds.org) von Apps, so dass jeder den Build-Prozess erneut ausführen und das gleiche APK wie das Original-Release reproduzieren kann.  Dies bedeutet, dass F-Droid überprüfen kann, ob eine Anwendung 100% freie Software ist, während die APK-Signaturen des ursprünglichen Entwicklers verwendet werden.  Im Idealfall haben alle gebauten APKs den exakt gleichen Hash, aber das ist ein schwierigerer Standard mit geringeren Vorteilen. Im Moment überprüft F-Droid reproduzierbare Builds anhand der APK-Signatur."
 
 #. type: Plain text
 #: build/_docs/md/Reproducible_Builds.md
 msgid "This concept is occasionally called \"deterministic builds\".  That is a much stricter standard: that means that the whole process runs with the same ordering each time.  The most important thing is that anyone can run the process and end up with the exact same result."
-msgstr ""
+msgstr "Dieses Konzept wird gelegentlich als \"deterministische Builds\" bezeichnet.  Das ist ein viel strengerer Standard: es bedeutet, dass der gesamte Prozess jedes Mal in der gleichen Reihenfolge abläuft.  Das Wichtigste ist, dass jeder den Prozess ausführen kann und am Ende genau das gleiche Ergebnis hat."
 
 #. type: Title ###
 #: build/_docs/md/Reproducible_Builds.md
 #, no-wrap
 msgid "How it is implemented as of now"
-msgstr ""
+msgstr "Wie es ab sofort umgesetzt wird"
 
 #. type: Plain text
 #: build/_docs/md/Reproducible_Builds.md
@@ -6994,64 +7004,64 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Reproducible_Builds.md
 msgid "This procedures are implemented as part of `fdroid publish`. At the publish step, the reproducibility check will follow this logic:"
-msgstr ""
+msgstr "Diese Prozeduren sind im Rahmen von `fdroid publish` implementiert. Beim Publizieren folgt die Reproduzierbarkeitsprüfung dieser Logik:"
 
 #. type: Plain text
 #: build/_docs/md/Reproducible_Builds.md
 msgid "![Flow-chart for reproducibility check]({{ site.baseurl }}/assets/docs/reproducible-builds/publish.png)"
-msgstr ""
+msgstr "![Flussdiagramm zur Reproduzierbarkeitsprüfung]({{ site.baseurl }}}/assets/docs/reproducible-builds/publish.png)"
 
 #. type: Title ####
 #: build/_docs/md/Reproducible_Builds.md
 #, no-wrap
 msgid "Publish both (upstream-)developer singed and F-Droid signed APKs"
-msgstr ""
+msgstr "Veröffentlichung sowohl von (Upstream-)Entwicklern als auch von F-Droid signierten APKs"
 
 #. type: Plain text
 #: build/_docs/md/Reproducible_Builds.md
 msgid "Use this approach for shipping a version of an app, with both (upstream-)developer signed and F-Droid signed APKs. This enables us to ship updates for users who installed apps from other sources than F-Droid (eg. Play Store) which are therefore singed by the app-developers, while also shipping updates for apps which were built and singed by F-Droid."
-msgstr ""
+msgstr "Verwenden Sie diesen Ansatz für die Lieferung einer Appversion, wobei sowohl (Upstream-)Entwickler als auch F-Droid signierte APKs verwendet werden. Dies ermöglicht es uns, Updates für Benutzer auszuliefern, die Apps von anderen Quellen als F-Droid installiert haben (z.B. Play Store), die daher von den App-Entwicklern versendet werden, sowie Updates für Apps, die von F-Droid erstellt und signiert wurden."
 
 #. type: Plain text
 #: build/_docs/md/Reproducible_Builds.md
 msgid "This requires to put (upstream-)developer signatures into fdroiddata.  We provide a command for easily extracting signatures from APKs:"
-msgstr ""
+msgstr "Dazu müssen (Upstream-)Entwicklersignaturen in fdroiddata eingefügt werden.  Wir bieten einen Befehl zum einfachen Extrahieren von Signaturen aus APKs:"
 
 #. type: Plain text
 #: build/_docs/md/Reproducible_Builds.md
 msgid "```console $ cd /path/to/fdroiddata $ fdroid signatures F-Droid.apk ```"
-msgstr ""
+msgstr "```console $ cd /path/to/fdroiddata $ fdroid signatures F-Droid.apk ```"
 
 #. type: Plain text
 #: build/_docs/md/Reproducible_Builds.md
 msgid "You may also supply HTTPS-URLs directly to `fdroid signatures` instead of local files. The signature files are extracted to the according metadata directory ready to be used with `fdroid publish`. A signature consists of 3 files and the result of extracting one will resemble this file listing:"
-msgstr ""
+msgstr "Sie können HTTPS-URLs auch direkt an `fdroid signatures` anstelle von lokalen Dateien liefern. Die Signaturdateien werden in das entsprechende Metadatenverzeichnis extrahiert und können mit `fdroid publish` verwendet werden. Eine Signatur besteht aus 3 Dateien und das Ergebnis des Extrahierens ähnelt dieser Dateiliste:"
 
 #. type: Plain text
 #: build/_docs/md/Reproducible_Builds.md
 msgid "```console $ ls metadata/org.fdroid.fdroid/signatures/1000012/ CIARANG.RSA CIARANG.SF MANIFEST.MF ```"
-msgstr ""
+msgstr "```console $ ls metadata/org.fdroid.fdroid/signatures/1000012/ CIARANG.RSA CIARANG.SF MANIFEST.MF ```"
 
 #. type: Title ####
 #: build/_docs/md/Reproducible_Builds.md
 #, no-wrap
 msgid "Exclusively publishing (upstream-)developer signed APKs"
-msgstr ""
+msgstr "Exklusive Veröffentlichung von von (Upstream-)Developer signierten APKs"
 
 #. type: Plain text
 #: build/_docs/md/Reproducible_Builds.md
 msgid "For using this older approach, everything in the metadata should be the same as normal, with the addition of the `Binaries:` directive to specify where to get the binaries from. In this case F-Droid will never attempt to ship APKs signed by F-Droid. Should `fdroid publish` manage to verify that a downloaded APK can be built reproducibly, the downloaded APK will be published. Otherwise F-Droid will skip publishing this version of the app."
-msgstr ""
+msgstr "Um diesen älteren Ansatz zu verwenden, sollte alles in den Metadaten wie üblich sein, mit dem Zusatz der `Binaries:` Direktive, um anzugeben, woher die Binaries kommen sollen. In diesem Fall wird F-Droid niemals versuchen, von F-Droid signierte APKs zu versenden. Sollte es `fdroid publish` gelingen, zu überprüfen, ob ein heruntergeladenes APK reproduzierbar erstellt werden kann, wird das heruntergeladene APK veröffentlicht. Andernfalls überspringt F-Droid die Veröffentlichung dieser Version der App."
 
 #. type: Plain text
 #: build/_docs/md/Reproducible_Builds.md
 msgid "Here is an example for a `Binaries` directive:"
-msgstr ""
+msgstr "Hier ein Beispiel für eine `Binaries` Direktive:"
 
 #. type: Plain text
 #: build/_docs/md/Reproducible_Builds.md
 msgid "```yaml Binaries: https://foo.com/path/to/myapp-%v.apk ```"
-msgstr ""
+msgstr "```yaml Binaries: https://foo.com/path/to/myapp-%v.apk ```"
 
 #. type: Plain text
 #: build/_docs/md/Reproducible_Builds.md
@@ -7062,38 +7072,38 @@ msgstr "Siehe auch: [Build Metadata Reference - Binaries](../Build_Metadata_Refe
 #: build/_docs/md/Reproducible_Builds.md
 #, no-wrap
 msgid "Verification builds"
-msgstr ""
+msgstr "Verifikations-Builds"
 
 #. type: Plain text
 #: build/_docs/md/Reproducible_Builds.md
 msgid "Many people or organizations will only be interested in reproducing builds to make sure that the f-droid.org builds match the original source and nothing has been inserted in.  In that case, the resulting APKs are not published for installation.  The [Verification Server](../Verification_Server) automates this process."
-msgstr ""
+msgstr "Viele Leute oder Organisationen werden nur daran interessiert sein, Builds zu reproduzieren, um sicherzustellen, dass die f-droid.org-Builds mit dem ursprünglichen Quellcode übereinstimmen und nichts eingefügt wurde.  In diesem Fall werden die resultierenden APKs nicht zur Installation veröffentlicht.  Der [Verification Server](../Verification_Server) automatisiert diesen Vorgang."
 
 #. type: Plain text
 #: build/_docs/md/Reproducible_Builds.md
 msgid "An awful lot of builds already verify with no extra effort since Java code is often compiled into the same bytecode by a wide range of Java versions.  The Android SDK's _build-tools_ will create differences in the resulting XML, PNG, etc. files, but this is usually not a problem since the _build.gradle_ includes the exact version of _build-tools_ to use."
-msgstr ""
+msgstr "Viele Builds verifizieren bereits ohne zusätzlichen Aufwand, da Java-Code oft von einer Vielzahl von Java-Versionen in den gleichen Bytecode kompiliert wird.  Die _build-tools_ des Android SDKs erzeugen Unterschiede in den resultierenden XML-, PNG-, usw. Dateien, aber das ist normalerweise kein Problem, da die _build.gradle_ die genaue Version von _build-tools_ enthält."
 
 #. type: Plain text
 #: build/_docs/md/Reproducible_Builds.md
 msgid "Anything built with the NDK will be much more sensitive.  For example, even for builds that use the exact same version of the NDK (e.g. _r13b_) but on different platforms (.e.g OSX version Ubuntu), the resulting binaries will have differences."
-msgstr ""
+msgstr "Alles, was mit dem NDK gebaut wird, wird viel empfindlicher sein.  Selbst für Builds, die genau die gleiche Version des NDK verwenden (z.B. _r13b_), aber auf verschiedenen Plattformen (z.B. OSX-Version, Ubuntu), werden die resultierenden Binärdateien Unterschiede aufweisen."
 
 #. type: Plain text
 #: build/_docs/md/Reproducible_Builds.md
 msgid "Additionally, we'll have to look out for anything that includes timestamping information, is sensitive to sort order, etc."
-msgstr ""
+msgstr "Zusätzlich müssen wir nach allem Ausschau halten, was Zeitstempelinformationen, Sortierreihenfolge usw. enthält."
 
 #. type: Plain text
 #: build/_docs/md/Reproducible_Builds.md
 msgid "Google is also working towards reproducible builds of Android apps, so using recent versions of the Android SDK helps.  One specific case is starting with Gradle Android Plugin v2.2.2, timestamps in the APK file's ZIP header are automatically zeroed out."
-msgstr ""
+msgstr "Google arbeitet auch an reproduzierbaren Builds von Android-Apps, so dass die Verwendung aktueller Versionen des Android-SDKs hilft.  Ein spezieller Fall beginnt mit dem Gradle Android Plugin v2.2.2, Zeitstempel im ZIP-Header der APK-Datei werden automatisch auf Null gesetzt."
 
 #. type: Title ##
 #: build/_docs/md/Reproducible_Builds.md
 #, no-wrap
 msgid "_platform_ Revisions"
-msgstr ""
+msgstr "_platform_ Revisionen"
 
 #. type: Plain text
 #: build/_docs/md/Reproducible_Builds.md
