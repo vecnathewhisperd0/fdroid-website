@@ -29,7 +29,7 @@
         "signed_by_developer": "Det är byggt och signerat av den huvudsakliga utvecklaren.",
         "gpg_signature": "PGP-signatur",
         "technical_info": "Teknisk info",
-        "download": "Ladda ner [fil_ändelse]",
+        "download": "Ladda ner [file_extension]",
         "source_code": "Källkod",
         "packages": "Paket",
         "minimum_android_version": "Den här versionen kräver Android [android_version] eller senare.",
