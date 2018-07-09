@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-07-09 13:01+0200\n"
-"PO-Revision-Date: 2018-06-25 20:02+0000\n"
-"Last-Translator: ssantos <ssantos@web.de>\n"
+"PO-Revision-Date: 2018-07-10 16:37+0000\n"
+"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -2560,29 +2560,29 @@ msgstr "Erwarten Sie, dass Ihr gewohnter TWIF-Autor [Coffee](https://forum.f-dro
 
 #. type: Title #
 #: build/_posts/md/2018-06-29-this-week-in-fdroid-w26.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "\"This Week in F-Droid, Week 26\""
-msgstr "\"Diese Woche in F-Droid, Woche 20\""
+msgstr "\"Diese Woche in F-Droid, Woche 26\""
 
 #. type: Plain text
 #: build/_posts/md/2018-06-29-this-week-in-fdroid-w26.md
 msgid "Thanks to [Bubu](https://forum.f-droid.org/u/Bubu) for doing a surprise week 25 TWIF!"
-msgstr ""
+msgstr "Danke an [Bubu](https://forum.f-droid.org/u/Bubu) für das Überraschungs-TWIF für Woche 25!"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-06-29-this-week-in-fdroid-w26.md
 msgid "If you installed alpha2 of the F-Droid client _and_ are using the [Privileged Extension](https://gitlab.com/fdroid/privileged-extension/#f-droid-privileged-extension), you will need to enable Unknown Sources to be able to upgrade. (After which you can turn it off again.)"
-msgstr ""
+msgstr "Wenn Sie die Alpha2 des F-Droid-Clients installiert haben _und_ die [Rechteerweiterung](https://gitlab.com/fdroid/privileged-extension/#f-droid-privileged-extension) verwenden, müssen Sie die Unbekannte Herkunft aktivieren, um ein Upgrade durchführen zu können. (Danach können Sie sie wieder abschalten.)"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-06-29-this-week-in-fdroid-w26.md
 msgid "Work on the whitelabel client continues, and [issue 1311](https://gitlab.com/fdroid/fdroidclient/issues/1311), in which F-Droid wants to update/reinstall uninstalled apps, is being fixed as part of this work."
-msgstr ""
+msgstr "Die Arbeit am Whitelabel Client geht voran, und [Issue 1311](https://gitlab.com/fdroid/fdroidclient/issues/1311), bei dem F-Droid nicht installierte Apps aktualisieren/wieder installieren will, wurde im Rahmen dieser Arbeiten behoben."
 
 #. type: Plain text
 #: build/_posts/md/2018-06-29-this-week-in-fdroid-w26.md
 msgid "No news. (Is good news.)"
-msgstr ""
+msgstr "Keine Nachrichten. (Sind gute Nachrichten.)"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-06-29-this-week-in-fdroid-w26.md
@@ -2592,39 +2592,37 @@ msgstr ""
 #. type: Bullet: '* '
 #: build/_posts/md/2018-06-29-this-week-in-fdroid-w26.md
 msgid "[AnySoftKeyboard: Afrikaans](https://f-droid.org/app/com.anysoftkeyboard.languagepack.afrikaans): Language pack for [AnySoftKeyboard](https://f-droid.org/app/com.menny.android.anysoftkeyboard)"
-msgstr ""
+msgstr "[AnySoftKeyboard: Afrikaans](https://f-droid.org/app/com.anysoftkeyboard.languagepack.afrikaans): Sprachpaket für [AnySoftKeyboard](https://f-droid.org/app/com.menny.android.anysoftkeyboard)"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-06-29-this-week-in-fdroid-w26.md
 msgid "[AnySoftKeyboard: Galician](https://f-droid.org/app/com.anysoftkeyboard.languagepack.galician): Language pack for [AnySoftKeyboard](https://f-droid.org/app/com.menny.android.anysoftkeyboard)"
-msgstr ""
+msgstr "[AnySoftKeyboard: Galician](https://f-droid.org/app/com.anysoftkeyboard.languagepack.galician): Sprachpaket für [AnySoftKeyboard](https://f-droid.org/app/com.menny.android.anysoftkeyboard)"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-06-29-this-week-in-fdroid-w26.md
 msgid "[HABPanelViewer](https://f-droid.org/app/de.vier_bier.habpanelviewer)"
-msgstr ""
+msgstr "[HABPanelViewer](https://f-droid.org/app/de.vier_bier.habpanelviewer)"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-06-29-this-week-in-fdroid-w26.md
 msgid "[Stratum 0 Widget](https://f-droid.org/app/horse.amazin.my.stratum0.statuswidget): Status Widget for Stratum 0, Hackerspace Braunschweig"
-msgstr ""
+msgstr "[Stratum 0 Widget](https://f-droid.org/app/horse.amazin.my.stratum0.statuswidget): Status-Widget für Stratum 0, Hackerspace Braunschweig"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-06-29-this-week-in-fdroid-w26.md
-#, fuzzy
 msgid "[J2ME Loader](https://f-droid.org/app/ru.playsoftware.j2meloader): J2ME emulator"
-msgstr "[TEdit](https://f-droid.org/app/com.atr.tedit): Ein einfacher Texteditor"
+msgstr "[J2ME Loader](https://f-droid.org/app/ru.playsoftware.j2meloader): J2ME-Emulator"
 
 #. type: Plain text
 #: build/_posts/md/2018-06-29-this-week-in-fdroid-w26.md
-#, fuzzy
 msgid "In total, 95 apps were updated in the past two weeks. Here are the highlights:"
-msgstr "Insgesamt wurden diese Woche 49 Apps aktualisiert. Hier die Höhepunkte:"
+msgstr "Insgesamt wurden in den vergangenen zwei Wochen 95 Apps aktualisiert. Hier die Höhepunkte:"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-06-29-this-week-in-fdroid-w26.md
 msgid "The package ID of [p≡p pretty Easy privacy](https://f-droid.org/app/pep.android.k9) was changed from \"pep.android.k9\" to \"[security.pEp](https://f-droid.org/app/security.pEp)\". In order to update, and to continue receiving updates, you will need to uninstall and reinstall [p≡p](https://f-droid.org/app/security.pEp) once."
-msgstr ""
+msgstr "Die Paket-ID von [p≡p pretty Easy privacy](https://f-droid.org/app/pep.android.k9) wurde von \"pep.android.k9\" auf \"[security.pEp](https://f-droid.org/app/security.pEp)\" geändert. Zur Aktualisierung und um weiterhin Updates zu erhalten, muss [p≡p](https://f-droid.org/app/security.pEp) einmal deinstalliert und neu installiert werden."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-06-29-this-week-in-fdroid-w26.md
@@ -2634,7 +2632,7 @@ msgstr ""
 #. type: Bullet: '* '
 #: build/_posts/md/2018-06-29-this-week-in-fdroid-w26.md
 msgid "[UltraSonic](https://f-droid.org/app/org.moire.ultrasonic) was updated from 2.1.0 to 2.5.0, with a new app icon, restart of playback if headphones are re-inserted, improved cache management, better error handling and feedback, and loads of bug fixes. And last but not least, builds on F-Droid again."
-msgstr ""
+msgstr "[UltraSonic](https://f-droid.org/app/org.moire.ultrasonic) wurde von 2.1.0 auf 2.5.0 aktualisiert, mit einem neuen App-Symbol, dem Wiedereinsetzen der Wiedergabe beim Einstecken von Kopfhörern, einem verbesserten Cache-Management, einer besseren Fehlerbehandlung und verbessertem Feedback sowie zahlreichen Fehlerkorrekturen. Und nicht zuletzt, sie hat wieder ein F-Droid-Build."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-06-29-this-week-in-fdroid-w26.md
