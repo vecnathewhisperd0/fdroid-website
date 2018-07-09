@@ -7009,7 +7009,7 @@ msgstr "Diese Prozeduren sind im Rahmen von `fdroid publish` implementiert. Beim
 #. type: Plain text
 #: build/_docs/md/Reproducible_Builds.md
 msgid "![Flow-chart for reproducibility check]({{ site.baseurl }}/assets/docs/reproducible-builds/publish.png)"
-msgstr "![Flussdiagramm zur Reproduzierbarkeitsprüfung]({{ site.baseurl }}}/assets/docs/reproducible-builds/publish.png)"
+msgstr "![Flussdiagramm zur Reproduzierbarkeitsprüfung]({{ site.baseurl }}/assets/docs/reproducible-builds/publish.png)"
 
 #. type: Title ####
 #: build/_docs/md/Reproducible_Builds.md
