@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-06-30 12:20+0200\n"
-"PO-Revision-Date: 2018-07-10 19:31+0000\n"
+"PO-Revision-Date: 2018-07-10 20:08+0000\n"
 "Last-Translator: WaldiS <admin@sto.ugu.pl>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/f-droid/website-docs/pl/>\n"
 "Language: pl\n"
@@ -22,12 +22,12 @@ msgstr ""
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
 #, no-wrap
 msgid "All About Descriptions, Graphics, and Screenshots"
-msgstr ""
+msgstr "Wszystko o opisach, grafice i zrzutach ekranu"
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
 msgid "Each app can have complete app store content, including localized descriptions, feature graphics, and screenshots (as of v0.103 of the F-Droid client app and v0.8 of _fdroidserver_).  This is possible both when apps are added via [build metadata](../Build_Metadata_Reference) as well as when including pre-built files in a simple repository.  There are three paths to including app store content for apps (in order of preference):"
-msgstr ""
+msgstr "Każda aplikacja może zawierać pełną zawartość sklepu z aplikacjami, w tym zlokalizowane opisy, grafikę elementów i zrzuty ekranu (od wersji v0.103 aplikacji klienckiej F-Droid i wersji v0.8 serwera _fdroid). Jest to możliwe zarówno wtedy, gdy aplikacje są dodawane za pomocą [kompilacji metadanych] (../ Build_Metadata_Reference), jak i wtedy, gdy zawierają gotowe pliki w prostym repozytorium. Istnieją trzy ścieżki dostępu do zawartości sklepu z aplikacjami (według preferencji):"
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -40,42 +40,44 @@ msgid ""
 "* Do not remove this line (it will not be displayed)\n"
 "{:toc}\n"
 msgstr ""
+"*Nie usuwaj tej linii (nie będzie wyświetlana)\n"
+"{:toc}\n"
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
 msgid "There are two data formats:"
-msgstr ""
+msgstr "Istnieją dwa formaty danych:"
 
 #. type: Bullet: '* '
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
 msgid "descriptive materials in plain text or HTML"
-msgstr ""
+msgstr "materiały opisowe w postaci zwykłego tekstu lub HTML"
 
 #. type: Bullet: '* '
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
 msgid "graphics and screenshots as PNG or JPEG files"
-msgstr ""
+msgstr "grafika i zrzuty ekranu jako pliki PNG lub JPEG"
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
 msgid "One important detail: dangerous and unneeded metadata is stripped from image files before they are included in the repo.  For example, JPEG EXIF data has [security issues](https://threatpost.com/google-shuts-down-potentially-massive-android-bug/120393/), and it is not needed to display images.  This can also mean that the images are recompressed."
-msgstr ""
+msgstr "Jeden ważny szczegół: niebezpieczne i niepotrzebne metadane są usuwane z plików graficznych, zanim zostaną uwzględnione w repozytorium. Na przykład dane JPEG EXIF mają [problemy bezpieczeństwa] (https://threatpost.com/google-shuts-down-potentially-massive-android-bug/120393/) i nie jest konieczne wyświetlanie obrazów. Może to również oznaczać, że obrazy są rekompresowane."
 
 #. type: Title ##
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
 #, no-wrap
 msgid "In the app's source repository"
-msgstr ""
+msgstr "W repozytorium źródłowym aplikacji"
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
 msgid "There are two options for including the app store materials in an app's source repository: [fastlane supply](https://github.com/fastlane/fastlane/blob/2.28.7/supply/README.md#images-and-screenshots)  and [Triple-T Gradle Play Publisher](https://github.com/Triple-T/gradle-play-publisher#play-store-metadata).  Both of these are free software tools that integrate into an Android developer's workflow.  Once the files are included in the app's source repo, and those files are included in a tagged release of the app, F-Droid will include all those files."
-msgstr ""
+msgstr "Istnieją dwie możliwości włączenia materiałów do sklepu z aplikacjami do źródłowego repozytorium aplikacji: [dostawa szybka] (https://github.com/fastlane/fastlane/blob/2.28.7/supply/README.mdimages-and-screenshots) i [Wydawnictwo Triple-T Gradle Play] (https://github.com/Triple-T/gradle-play-publisherplay-store-metadata). Oba są darmowymi narzędziami programowymi, które integrują się z przepływem pracy programisty Androida. Gdy pliki zostaną uwzględnione w repozytorium źródłowym aplikacji, a te pliki znajdą się w otagowanej wersji aplikacji, F-Droid będzie zawierał wszystkie te pliki."
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
 msgid "In the end, it is not actually necessary to actually install or use either _fastlane supply_ nor _Gradle Play Publisher_.  F-Droid includes these files purely based on the standard file layout that those tools use."
-msgstr ""
+msgstr "Ostatecznie nie jest faktycznie konieczne instalowanie ani używanie ani _fastlane supply_ ani _Gradle Play Publisher_. F-Droid zawiera te pliki wyłącznie na podstawie standardowego układu plików używanego przez te narzędzia."
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
