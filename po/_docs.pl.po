@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-06-30 12:20+0200\n"
-"PO-Revision-Date: 2018-07-10 20:08+0000\n"
+"PO-Revision-Date: 2018-07-13 08:09+0000\n"
 "Last-Translator: WaldiS <admin@sto.ugu.pl>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/f-droid/website-docs/pl/>\n"
 "Language: pl\n"
@@ -82,7 +82,7 @@ msgstr "Ostatecznie nie jest faktycznie konieczne instalowanie ani używanie ani
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
 msgid "All the localized descriptions and graphics will automatically show up in the F-Droid repo once they are available in the source repo of a release that the repo builds.  For example, if these files are included in a _git_ repo's _master_ branch but not yet in a tagged release, they will not be included."
-msgstr ""
+msgstr "Wszystkie zlokalizowane opisy i grafika pojawią się automatycznie w repozytorium F-Droid, gdy będą dostępne w repozytorium źródłowym wydania, które buduje repo. Na przykład, jeśli pliki te znajdują się w gałęzi _master_Reppo, a nie mają jeszcze w otagowanym wydaniu, nie zostaną uwzględnione."
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -162,7 +162,7 @@ msgstr ""
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
 #, no-wrap
 msgid "Directly in the F-Droid repo"
-msgstr ""
+msgstr "Bezpośrednio w repozytorium F-Droid"
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -7271,7 +7271,7 @@ msgstr ""
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
 #, no-wrap
 msgid "Setup"
-msgstr ""
+msgstr "Instalacja"
 
 #. type: Plain text
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
