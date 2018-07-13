@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-06-30 12:21+0200\n"
-"PO-Revision-Date: 2018-07-10 13:31+0000\n"
+"PO-Revision-Date: 2018-07-13 10:15+0200\n"
 "Last-Translator: Osoitz <oelkoro@gmail.com>\n"
 "Language-Team: Basque <https://hosted.weblate.org/projects/f-droid/website-pages/eu/>\n"
 "Language: eu\n"
@@ -726,7 +726,7 @@ msgstr "Arazoak"
 msgid ""
 "* [Client](https://gitlab.com/fdroid/fdroidclient/issues) issue tracker: If you’re having a problem with the F-Droid client application,\n"
 "please check if we already know about it, and/or report it in this issue tracker.\n"
-msgstr "* [Bezeroa] (https://gitlab.com/fdroid/fdroidclient/issues) arazo kudeatzailea: F-Droid bezero-aplikazioarekin arazo bat baduzu, egiaztatu dagoeneko ezagutzen dugun eta/edo jakinarazi ezazu arazo kudeatzaile honetan.\n"
+msgstr "* [Bezeroa](https://gitlab.com/fdroid/fdroidclient/issues) arazo kudeatzailea: F-Droid bezero-aplikazioarekin arazo bat baduzu, egiaztatu dagoeneko ezagutzen dugun eta/edo jakinarazi ezazu arazo kudeatzaile honetan.\n"
 
 #. type: Plain text
 #: build/_pages/md/issues.md
@@ -734,7 +734,7 @@ msgstr "* [Bezeroa] (https://gitlab.com/fdroid/fdroidclient/issues) arazo kudeat
 msgid ""
 "* [RFP](https://gitlab.com/fdroid/rfp/issues/new) tracker: To request a new app be added, submit a \"Request For Packaging\" on the\n"
 "rfp tracker.\n"
-msgstr "* [RFP] (https://gitlab.com/fdroid/fdroidclient/issues) kudeatzailea: Aplikazio berri bat gehitzea eskatzeko, bidali \"Paketatze eskaera\" rfp tracker kudeatzailean.\n"
+msgstr "* [RFP](https://gitlab.com/fdroid/fdroidclient/issues) kudeatzailea: Aplikazio berri bat gehitzea eskatzeko, bidali \"Paketatze eskaera\" rfp tracker kudeatzailean.\n"
 
 #. type: Plain text
 #: build/_pages/md/issues.md

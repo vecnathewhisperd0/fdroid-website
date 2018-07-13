@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-07-09 13:02+0200\n"
-"PO-Revision-Date: 2018-07-13 08:09+0000\n"
+"PO-Revision-Date: 2018-07-13 10:15+0200\n"
 "Last-Translator: WaldiS <admin@sto.ugu.pl>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/f-droid/website-posts/pl/>\n"
 "Language: pl\n"
@@ -32,7 +32,7 @@ msgstr "Wiele gier, map i innych aplikacji wymaga dużej ilości danych do dzia�
 #. type: Plain text
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md
 msgid "Google created OBB aka \"[APK Expansion](https://developer.android.com/google/play/expansion-files.html)\" files to provide a flexible means of delivering large amounts of data.  This arrangement also saves lots of bandwidth since the APK file and the OBB file can be updated separately.  For example, a game's assets do not need to change often, so they can be shipped as an OBB. Then when the app itself is updated (i.e. the APK), it does not need to include all those assets that are in the OBB file."
-msgstr "Google stworzyło OBB, czyli pliki '[Rozszerzenie APK] (https://developer.android.com/google/play/expansion-files.html)', które zapewniają elastyczny sposób dostarczania dużych ilości danych. Taki układ oszczędza także dużo przepustowości od pliku APK, a plik OBB można aktualizować osobno. Na przykład zasoby gry nie muszą się często zmieniać, więc mogą być wysyłane jako OBB. Wtedy, gdy sama aplikacja jest aktualizowana (tj. Pakiet APK), nie musi uwzględniać wszystkich zasobów znajdujących się w pliku OBB."
+msgstr "Google stworzyło OBB, czyli pliki '[Rozszerzenie APK](https://developer.android.com/google/play/expansion-files.html)', które zapewniają elastyczny sposób dostarczania dużych ilości danych. Taki układ oszczędza także dużo przepustowości od pliku APK, a plik OBB można aktualizować osobno. Na przykład zasoby gry nie muszą się często zmieniać, więc mogą być wysyłane jako OBB. Wtedy, gdy sama aplikacja jest aktualizowana (tj. Pakiet APK), nie musi uwzględniać wszystkich zasobów znajdujących się w pliku OBB."
 
 #. type: Plain text
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md
