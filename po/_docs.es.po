@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-07-13 10:54+0200\n"
-"PO-Revision-Date: 2018-06-26 20:43+0000\n"
-"Last-Translator: Markel <wakutiteo@protonmail.com>\n"
+"PO-Revision-Date: 2018-07-14 10:43+0000\n"
+"Last-Translator: emma peel <emma.peel@riseup.net>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/f-droid/website-docs/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -595,12 +595,12 @@ msgstr ""
 #. type: Bullet: '* '
 #: build/_docs/md/Building_a_Signing_Server.md
 msgid "Restricted physical access to HSMs or smart cards"
-msgstr ""
+msgstr "Acceso físico restringido a HSMs o tarjetas inteligentes"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Building_a_Signing_Server.md
 msgid "Security cameras"
-msgstr ""
+msgstr "Cámaras de seguridad"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Building_a_Signing_Server.md
@@ -620,7 +620,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
 msgid "The signing server should be physically separate from the rest of the infrastructure.  And the logs, machine, and network should be periodically audited."
-msgstr ""
+msgstr "El servidor de registro debería estar físicamente separado del resto de la infraestructura. Y los logs, máquina y red deberían ser periódicamente auditados."
 
 #. type: Title ##
 #: build/_docs/md/Building_a_Signing_Server.md
@@ -631,7 +631,7 @@ msgstr "Decisiones difíciles"
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
 msgid "Ideally all of these practices would be put into place, but each of these security measures comes at a cost of difficulty, expense, and complexity.  They can also delay the process of getting regular updates out.  So there are risks of implementing too strict security policies, much like the risks of not implementing enough."
-msgstr ""
+msgstr "Idealmente todas esas prácticas deberían estar establecidas, pero cada una de esas medidas de seguridad trae un costo de dificultad, expansión y complejidad.··También pueden demorar el proceso de obtención de actualizaciones regulares.··Entonces hay riesgos de implementación con políticas de seguridad demasiado estrictas,  tanto como los riesgos de insuficiente implementación."
 
 #. type: Title #
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -642,12 +642,12 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "Information used by `fdroid update` to compile the public index comes from several sources:"
-msgstr ""
+msgstr "Información usada por 'actualización fdroid' para compilar los índices públicos provenientes de distintas fuentes."
 
 #. type: Bullet: '* '
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "APK, media, etc files in the _repo_ sub-directory"
-msgstr ""
+msgstr "Archivos APK, medios, etc, en el _repo_sub-directory"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Build_Metadata_Reference.md
