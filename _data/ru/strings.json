@@ -1,69 +1,70 @@
 {
     "index": {
-        "download_fdroid": "Скачать F-Droid", 
-        "gpg_signature": "PGP-подпись", 
-        "introduction": "F-Droid это каталог бесплатных приложений с открытым исходным кодом для Android. Программа позволяет легко находить, устанавливать и следить за обновлениями приложений на вашем устройстве.", 
-        "screenshot": "F-Droid приложение для создания скриншотов на Android", 
+        "download_fdroid": "Скачать F-Droid",
+        "introduction": "F-Droid это каталог бесплатных приложений с открытым исходным кодом для Android. Программа позволяет легко находить, устанавливать и следить за обновлениями приложений на вашем устройстве.",
+        "gpg_signature": "PGP-подпись",
+        "screenshot": "F-Droid приложение для создания скриншотов на Android",
         "title": "Что такое F-Droid?"
-    }, 
+    },
     "navigation": {
-        "about": "О нас", 
-        "browse": "Обзор", 
-        "contribute": "Помочь", 
-        "documentation": "Документация", 
-        "forum": "Форум", 
-        "issues": "Ошибки", 
-        "news": "Новости", 
-        "repomaker": "Repomaker", 
-        "tutorials": "Материалы"
-    }, 
+        "about": "О нас",
+        "documentation": "Документация",
+        "forum": "Форум",
+        "browse": "Обзор",
+        "contribute": "Помочь",
+        "repomaker": "Repomaker",
+        "tutorials": "Материалы",
+        "news": "Новости",
+        "issues": "Ошибки"
+    },
     "package": {
-        "author": "Автор", 
-        "build_metadata": "Метаданные сборки", 
-        "changelog": "История изменений", 
-        "donate": "Пожертвовать", 
-        "download": "Скачать [file_extension]", 
-        "flattr": "Flattr", 
-        "gpg_signature": "PGP-подпись", 
-        "issue_tracker": "Система отслеживания ошибок", 
-        "liberapay": "Liberapay", 
-        "license": "Лицензия", 
-        "minimum_android_version": "Для этой версии требуется Android [android_version] или новее.", 
-        "new_in_version": "Новое в версии [latest_version]", 
-        "packages": "Пакеты", 
-        "permissions": "Разрешения", 
-        "signed_by_developer": "Приложение собрано и подписано разработчиком.", 
-        "signed_by_fdroid": "Собрано и подписано F-Droid, и точно соответствует <a href=\"[source_code_url]\">исходному коду из архива</a>.", 
-        "source_code": "Исходный Код", 
-        "suggest_downloading_via_fdroid": "Несмотря на то, что для вашего выбора доступна загрузка APK, обратите внимание, что при такой установке вы не будете получать уведомления об обновлениях, и это менее безопасный способ скачивания. Мы рекомендуем вам установить приложение F-Droid и использовать его.", 
-        "technical_info": "Техническая информация", 
-        "version_info": "<b>Версия [package_version]</b> ([package_version_code]) - Добавлена [package_added_date]", 
-        "website": "Веб-страница"
-    }, 
+        "website": "Веб-страница",
+        "license": "Лицензия",
+        "new_in_version": "Новое в версии [latest_version]",
+        "liberapay": "Liberapay",
+        "flattr": "Flattr",
+        "build_metadata": "Метаданные сборки",
+        "changelog": "История изменений",
+        "author": "Автор",
+        "version_info": "<b>Версия [package_version]</b> ([package_version_code]) - Добавлена [package_added_date]",
+        "signed_by_developer": "Приложение собрано и подписано разработчиком.",
+        "gpg_signature": "PGP-подпись",
+        "signed_by_fdroid": "Собрано и подписано F-Droid, и точно соответствует <a href=\"[source_code_url]\">исходному коду из архива</a>.",
+        "source_code": "Исходный Код",
+        "technical_info": "Техническая информация",
+        "packages": "Пакеты",
+        "download": "Скачать [file_extension]",
+        "minimum_android_version": "Для этой версии требуется Android [android_version] или новее.",
+        "donate": "Пожертвовать",
+        "suggest_downloading_via_fdroid": "Несмотря на то, что для вашего выбора доступна загрузка APK, обратите внимание, что при такой установке вы не будете получать уведомления об обновлениях, и это менее безопасный способ скачивания. Мы рекомендуем вам установить приложение F-Droid и использовать его.",
+        "issue_tracker": "Система отслеживания ошибок",
+        "permissions": "Разрешения"
+    },
     "sidebars": {
-        "donate": {
-            "bank_transfer_name": "Имя", 
-            "bitcoin_alt": "Пожертвовать через Bitcoin", 
-            "flattr_alt": "Пожертвовать через Flattr", 
-            "heading": "Пожертвовать", 
-            "liberapay_alt": "Пожертвовать через Liberapay", 
-            "litecoin_alt": "Пожертвовать через Litecoin", 
-            "paypal_alt": "Пожертвовать через PayPal", 
-            "powered_by_donations": "F-Droid работает за счет ваших пожертвований!", 
-            "via_bank_transfer": "Банковский Перевод"
-        }, 
-        "last_updated": {
-            "heading": "Обновлено"
-        }, 
         "latest_packages": {
             "heading": "Новые приложения"
-        }, 
+        },
         "news": {
             "heading": "Новости"
-        }, 
+        },
         "search": {
-            "heading": "Поиск приложений", 
-            "noscript": "Необходимо активировать JavaScript"
+            "noscript": "Необходимо активировать JavaScript",
+            "search": "Поиск",
+            "heading": "Поиск приложений"
+        },
+        "donate": {
+            "bank_transfer_name": "Имя",
+            "bitcoin_alt": "Пожертвовать через Bitcoin",
+            "powered_by_donations": "F-Droid работает за счет ваших пожертвований!",
+            "via_bank_transfer": "Банковский Перевод",
+            "litecoin_alt": "Пожертвовать через Litecoin",
+            "flattr_alt": "Пожертвовать через Flattr",
+            "paypal_alt": "Пожертвовать через PayPal",
+            "liberapay_alt": "Пожертвовать через Liberapay",
+            "heading": "Пожертвовать"
+        },
+        "last_updated": {
+            "heading": "Обновлено"
         }
     }
 }
