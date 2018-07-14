@@ -1,1 +1,10 @@
-{}
+{
+    "misc": {
+        "step_x": "Krok [number]",
+        "step_x_description": "Krok [number]: [description]",
+        "overview": {
+            "title": "Co můžete dělat s aplikací F-Droid"
+        },
+        "option_x_description": "Možnost [number]: [description]"
+    }
+}
