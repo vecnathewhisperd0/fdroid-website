@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-07-13 10:54+0200\n"
-"PO-Revision-Date: 2018-07-14 10:43+0000\n"
-"Last-Translator: emma peel <emma.peel@riseup.net>\n"
+"PO-Revision-Date: 2018-07-16 10:46+0000\n"
+"Last-Translator: Markel <wakutiteo@protonmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/f-droid/website-docs/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -745,7 +745,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.2 Author Name<a name=\"Author-Name\"></a>"
-msgstr ""
+msgstr "7.2 Nombre del autor<a name=\"Author-Name\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -767,7 +767,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.3 Author Email<a name=\"Author-Email\"></a>"
-msgstr ""
+msgstr "7.3 Email del autor<a name=\"Author-Email\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -789,7 +789,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.4 License<a name=\"License\"></a>"
-msgstr ""
+msgstr "7.4 Licencia<a name=\"License\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -833,7 +833,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.6 Name<a name=\"Name\"></a>"
-msgstr ""
+msgstr "7.6 Nombre<a name=\"Name\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -883,7 +883,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.9 Source Code<a name=\"Source-Code\"></a>"
-msgstr ""
+msgstr "7.9 Código fuente<a name=\"Source-Code\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -917,29 +917,29 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.11 Changelog<a name=\"Changelog\"></a>"
-msgstr ""
+msgstr "7.11 Historial de cambios<a name=\"Changelog\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "The URL for the application’s changelog. Optional, since not all applications have one."
-msgstr ""
+msgstr "La URL para el historial de cambios de la aplicación. Opcional, ya que no todas las aplicaciones tienen uno."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "This is converted to (`<changelog>`) in the XML file (_index.xml_).\n"
-msgstr ""
+msgstr "Esto se convierte a (`<changelog>`) en el archivo XML (_index.xml_).\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.12 Donate<a name=\"Donate\"></a>"
-msgstr ""
+msgstr "7.12 Donar<a name=\"Donate\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "The URL to donate to the project. This should be the project’s donate page if it has one."
-msgstr ""
+msgstr "La URL para el donar al proyecto. Esta debería ser la página de donaciones si tiene una."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -971,9 +971,9 @@ msgstr ""
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "7.14 LiberapayID<a name=\"LiberapayID\"></a>"
-msgstr ""
+msgstr "7.14 LiberapayID<a name=\"LiberapayID\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -990,7 +990,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.15 Bitcoin<a name=\"Bitcoin\"></a>"
-msgstr ""
+msgstr "7.15 Bitcoin<a name=\"Bitcoin\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1007,24 +1007,24 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.16 Litecoin<a name=\"Litecoin\"></a>"
-msgstr ""
+msgstr "7.16 Litecoin<a name=\"Litecoin\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "A litecoin address for donating to the project."
-msgstr ""
+msgstr "Una dirección Litecoin para donar al proyecto."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "This is converted to (`<litecoin>`) in the XML file (_index.xml_).\n"
-msgstr ""
+msgstr "Esto se convierte a (`<litecoin>`) en el archivo XML (_index.xml_).\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.17 Summary<a name=\"Summary\"></a>"
-msgstr ""
+msgstr "7.17 Resumen<a name=\"Summary\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1040,13 +1040,13 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "This is converted to (`<summary>`) in the XML file (_index.xml_).\n"
-msgstr ""
+msgstr "Esto se convierte a (`<summary>`) en el archivo XML (_index.xml_).\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.18 Description<a name=\"Description\"></a>"
-msgstr ""
+msgstr "7.18 Descripción<a name=\"Description\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1081,7 +1081,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "4000 char limit"
-msgstr ""
+msgstr "Límite de 4000 caracteres"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1098,7 +1098,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.19 Maintainer Notes<a name=\"Maintainer-Notes\"></a>"
-msgstr ""
+msgstr "7.19 Notas del mantenedor<a name=\"Maintainer-Notes\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1108,13 +1108,13 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "This information is also published to the wiki."
-msgstr ""
+msgstr "Esta información también se publica en la wiki."
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.20 Repo Type<a name=\"Repo-Type\"></a>"
-msgstr ""
+msgstr "7.20 Tipo se repositorio<a name=\"Repo-Type\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1124,43 +1124,43 @@ msgstr ""
 #. type: Bullet: '-   '
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "‘git’"
-msgstr ""
+msgstr "‘git’"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "‘svn’"
-msgstr ""
+msgstr "‘svn’"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "‘git-svn’"
-msgstr ""
+msgstr "‘git-svn’"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "‘hg’"
-msgstr ""
+msgstr "‘hg’"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "‘bzr’"
-msgstr ""
+msgstr "‘bzr’"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "‘srclib’"
-msgstr ""
+msgstr "‘srclib’"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.21 Repo<a name=\"Repo\"></a>"
-msgstr ""
+msgstr "7.21 Repositorio<a name=\"Repo\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "The repository location. Usually a git: or svn: URL, for example."
-msgstr ""
+msgstr "La ubicación del repositorio. Generalmente un git: o svn: URL, por ejemplo."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1176,12 +1176,12 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.22 Binaries<a name=\"Binaries\"></a>"
-msgstr ""
+msgstr "7.22 Binarios<a name=\"Binaries\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "The location of binaries used in verification process."
-msgstr ""
+msgstr "La ubicación de los binarios usados en el proceso de verificación."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1636,7 +1636,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "    The command runs using bash.\n"
-msgstr ""
+msgstr "    El comando se ejecuta usando bash.\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2010,7 +2010,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.25 Disabled<a name=\"Disabled\"></a>"
-msgstr ""
+msgstr "7.25 Deshabilitado<a name=\"Disabled\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
