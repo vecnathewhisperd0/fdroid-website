@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-07-13 10:54+0200\n"
-"PO-Revision-Date: 2018-07-14 21:38+0000\n"
-"Last-Translator: ssantos <ssantos@web.de>\n"
+"PO-Revision-Date: 2018-07-18 09:38+0000\n"
+"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-docs/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -4341,7 +4341,7 @@ msgstr "Was ist der Unterschied zwischen Quell- und Binärcode-Builds?"
 #. type: Plain text
 #: build/_docs/md/FAQ_-_General.md
 msgid "In the client, each package for an app is labelled either 'source' or 'bin'. These correspond to two different messages you'll see for the same package when browsing the repository on the web site, either \"This version is built and signed by F-Droid, and guaranteed to correspond to the source tarball below\" or \"This version is built and signed by the original developer.\""
-msgstr "In der App, wird jedes Paket für eine App entweder mit 'source' oder 'bin' gekennzeichnet. Dies entspricht den zwei verschiedenen Nachrichten, die beim Durchsuchen der Paketquelle auf der Internetseite für das gleiche Paket angezeigt werden, entweder \"Diese Version wird von F-Droid erstellt und signiert, und die Übereinstimmung mit u. g. Quell-Tarball wird garantiert.\" oder \"Diese Version wird vom Originalentwickler erstellt und signiert.\""
+msgstr "In der App, wird jedes Paket für eine App entweder mit 'source' oder 'bin' gekennzeichnet. Dies entspricht den beiden unterschiedlichen Meldungen, die beim Durchsuchen der Paketquelle auf der Internetseite für das gleiche Paket angezeigt werden, entweder \"Diese Version wird von F-Droid erstellt und signiert, und die Übereinstimmung mit u. g. Quell-Tarball wird garantiert.\" oder \"Diese Version wird vom Originalentwickler erstellt und signiert.\""
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_General.md
@@ -4351,7 +4351,7 @@ msgstr "Die meisten Pakete sind Quellcode-Builds. Diejenigen, die auf Binärcode
 #. type: Plain text
 #: build/_docs/md/FAQ_-_General.md
 msgid "Source builds are built and signed securely by F-Droid, and are accompanied on the web site by a complete and corresponding copy of the exact source code we built it with. It may include some prebuilt libraries and you may need to download some external libraries, but as long as those libraries are still on the internet, you should be able to build an exact copy."
-msgstr "Quellcode-Builds werden von F-Droid sicher hergestellt und signiert, und werden auf der Internetseite von einer vollständigen und dazugehörigen Kopie des genauen Quellcodes begleitet, mit dem sie erstellt werden. Sie dürfen einige vorgefertigte Bibliotheken enthalten, und Sie müssen unter Umständen einige externe Bibliotheken herunterladen, solange aber diese Bibliotheken im Internet zugänglich sind, sollten Sie in der Lage sein, eine exakte Kopie davon herzustellen."
+msgstr "Quellcode-Builds werden von F-Droid sicher hergestellt und signiert, und werden auf der Internetseite von einer vollständigen und dazugehörigen Kopie des genauen Quellcodes begleitet, mit dem sie erstellt wurden. Sie dürfen einige vorgefertigte Bibliotheken enthalten, und Sie müssen unter Umständen einige externe Bibliotheken herunterladen, solange aber diese Bibliotheken im Internet zugänglich sind, sollten Sie in der Lage sein, eine exakte Kopie herzustellen."
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_General.md
@@ -4602,9 +4602,8 @@ msgstr "Diejenigen, die keine Software auf ihren Computern installieren wollen, 
 
 #. type: Bullet: '* '
 #: build/_docs/md/Getting_logcat_messages_after_crash.md
-#, fuzzy
 msgid "[aLogCat](https://f-droid.org/packages/org.jtb.alogcat/)"
-msgstr "[aLogCat](https://f-droid.org/repository/browse/?fdfilter=logcat&fdid=org.jtb.alogcat)"
+msgstr "[aLogCat](https://f-droid.org/packages/org.jtb.alogcat/)"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Getting_logcat_messages_after_crash.md
@@ -4613,9 +4612,8 @@ msgstr "[Logcat Reader](https://f-droid.org/packages/com.dp.logcatapp/)"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Getting_logcat_messages_after_crash.md
-#, fuzzy
 msgid "[Logs](https://f-droid.org/packages/com.tananaev.logcat/)"
-msgstr "[CatLog](https://f-droid.org/repository/browse/?fdfilter=logcat&fdid=com.nolanlawson.logcat)"
+msgstr "[Logs](https://f-droid.org/packages/com.tananaev.logcat/)"
 
 #. type: Plain text
 #: build/_docs/md/Getting_logcat_messages_after_crash.md
@@ -4744,7 +4742,7 @@ msgstr "Die Client-Anwendung ist in vielen Sprachen erhältlich, sollte Ihre nic
 #. type: Plain text
 #: build/_docs/md/How_to_Help.md
 msgid "The web site, this wiki , and app descriptions are not covered yet, but will be included in the same system at a later date."
-msgstr "Die Internetseite, dieses Wiki , und App-Beschreibungen werden noch nicht abgedeckt, werden aber zu einem späteren Zeitpunkt in das selbe System integriert."
+msgstr "Die Internetseite, dieses Wiki, und App-Beschreibungen werden noch nicht abgedeckt, werden aber zu einem späteren Zeitpunkt in dasselbe System integriert."
 
 #. type: Plain text
 #: build/_docs/md/How_to_Help.md
@@ -5914,13 +5912,12 @@ msgstr "Sicherungen: _/var/discourse/shared/standalone/backups/default_"
 
 #. type: Title ####
 #: build/_docs/md/Maintaining_the_Forum.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Discourse"
 msgstr "Discourse"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Maintaining_the_Forum.md
-#, fuzzy
 msgid "Version: _tests-passed_"
 msgstr "Version: _tests-passed_"
 
@@ -6003,7 +6000,6 @@ msgstr "Container neu bauen"
 
 #. type: Plain text
 #: build/_docs/md/Maintaining_the_Forum.md
-#, fuzzy
 msgid "```bash cd /var/discourse git pull ./launcher rebuild app ```"
 msgstr "```bash cd /var/discourse git pull ./launcher rebuild app ```"
 
@@ -6032,7 +6028,6 @@ msgstr "Referenz:"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Maintaining_the_Forum.md
-#, fuzzy
 msgid "https://docs.docker.com/engine/installation/linux/docker-ce/debian"
 msgstr "https://docs.docker.com/engine/installation/linux/docker-ce/debian"
 
@@ -6043,7 +6038,6 @@ msgstr "Docker's PGP-Key herunterladen"
 
 #. type: Plain text
 #: build/_docs/md/Maintaining_the_Forum.md
-#, fuzzy
 msgid "```bash wget -O docker-gpg https://download.docker.com/linux/debian/gpg apt-key add docker-gpg ```"
 msgstr "```bash wget -O docker-gpg https://download.docker.com/linux/debian/gpg apt-key add docker-gpg ```"
 
@@ -6077,7 +6071,7 @@ msgstr "Docker-Repository hinzufügen"
 
 #. type: Plain text
 #: build/_docs/md/Maintaining_the_Forum.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "```bash\n"
 "echo 'deb [arch=amd64] https://download.docker.com/linux/debian stretch stable' >> /etc/apt/sources.list.d/docker.com.list\n"
@@ -6587,12 +6581,12 @@ msgstr ""
 #: build/_docs/md/Release_Process.md
 #, no-wrap
 msgid "Release Process"
-msgstr "Veröffentlichungsprozess"
+msgstr "Freigabeprozess"
 
 #. type: Plain text
 #: build/_docs/md/Release_Process.md
 msgid "For each piece of the F-Droid ecosystem, there is a specific release process.  They generally follow the same patterns, but all have unique steps.  The official signing keys are listed in [Release Channels and Signing Keys](../Release_Channels_and_Signing_Keys)."
-msgstr "Für jedes Teil des F-Droid-Ökosystems gibt es einen spezifischen Freigabeprozess.  Sie folgen im Allgemeinen den gleichen Mustern, aber alle haben einzigartige Schritte.  Die offiziellen Signierschlüssel sind in [Releasekanäle and Signierschlüssel](../Release_Channels_and_Signing_Keys) aufgelistet."
+msgstr "Für jedes Teil des F-Droid-Ökosystems gibt es einen spezifischen Freigabeprozess.  Sie folgen generell demselben Muster, beinhalten aber alle individuelle Schritte.  Die offiziellen Signierschlüssel sind in [Bezugsquellen und Signaturen](../Release_Channels_and_Signing_Keys) aufgelistet."
 
 #. type: Title ##
 #: build/_docs/md/Release_Process.md
@@ -6608,7 +6602,7 @@ msgstr "die neuesten Commits von Weblate in einen lokalen Branch namens _weblate
 #. type: Bullet: '2. '
 #: build/_docs/md/Release_Process.md
 msgid "run `./tools/check-format-strings.py` and `./tools/remove-unused-and-blank-translations.py` and commit changes"
-msgstr "Führen Sie `./tools/check-format-strings.py` und `./tools/remove-unused-and-blank-translations.py` aus und committen Sie Änderungen"
+msgstr "`./tools/check-format-strings.py` und `./tools/remove-unused-and-blank-translations.py` ausführen und Änderungen committen"
 
 #. type: Bullet: '3. '
 #: build/_docs/md/Release_Process.md
@@ -6623,12 +6617,12 @@ msgstr "einen lokalen _weblate_-Branch zu Ihrem Fork pushen, einen Merge-Request
 #. type: Bullet: '5. '
 #: build/_docs/md/Release_Process.md
 msgid "make sure all tests pass before merging, including all _android-10_ emulator tests"
-msgstr "stellen Sie sicher, dass alle Tests vor dem mergen bestanden werden, einschließlich aller _android-10_ Emulator-Tests"
+msgstr "sicherstellen, dass alle Tests vor dem Merging bestanden werden, einschließlich aller _android-10_ Emulator-Tests"
 
 #. type: Bullet: '6. '
 #: build/_docs/md/Release_Process.md
 msgid "once the _weblate_ branch is merged, reset the git repo in <https://hosted.weblate.org/projects/f-droid/f-droid/#repository>"
-msgstr "sobald der Zweig _weblate_ zusammengeführt wurde, setzen Sie den git repo in <https://hosted.weblate.org/projects/f-droid/f-droid/#repository> zurück"
+msgstr "sobald der Zweig _weblate_ zusammengeführt wurde, das git-Repo in <https://hosted.weblate.org/projects/f-droid/f-droid/#repository> zurücksetzen"
 
 #. type: Bullet: '7. '
 #: build/_docs/md/Release_Process.md
@@ -7276,9 +7270,8 @@ msgstr "Quellen"
 
 #. type: Plain text
 #: build/_docs/md/Reproducible_Builds.md
-#, fuzzy
 msgid "- <https://gitlab.com/fdroid/fdroidserver/commit/8568805866dadbdcc6c07449ca6b84b80d0ab03c> - [Verification Server](../Verification_Server)  - <https://verification.f-droid.org> - <https://reproducible-builds.org> - <https://wiki.debian.org/ReproducibleBuilds> - <https://gitian.org/> - <https://issuetracker.google.com/issues/70292819> (_Google login and Javascript required_)  - <https://issuetracker.google.com/issues/37132313> (_Google login and Javascript required_)  - <https://issuetracker.google.com/issues/110237303> (_Google login and Javascript required_)"
-msgstr "- <https://gitlab.com/fdroid/fdroidserver/commit/8568805866dadbdcc6c07449ca6b84b80d0ab03c> - [Verifikationsserver](../Verification_Server)  - <https://verification.f-droid.org> - <https://reproducible-builds.org> - <https://wiki.debian.org/ReproducibleBuilds> - <https://gitian.org/> - <https://issuetracker.google.com/issues/70292819> (_Google-Konto und Javascript erforderlich_)  - <https://issuetracker.google.com/issues/37132313> (_Google-Konto und Javascript erforderlich_)"
+msgstr "- <https://gitlab.com/fdroid/fdroidserver/commit/8568805866dadbdcc6c07449ca6b84b80d0ab03c> - [Verifikationsserver](../Verification_Server)  - <https://verification.f-droid.org> - <https://reproducible-builds.org> - <https://wiki.debian.org/ReproducibleBuilds> - <https://gitian.org/> - <https://issuetracker.google.com/issues/70292819> (_Google-Konto und Javascript erforderlich_)  - <https://issuetracker.google.com/issues/37132313> (_Google-Konto und Javascript erforderlich_)  - <https://issuetracker.google.com/issues/110237303> (_Google-Konto und Javascript erforderlich_)"
 
 #. type: Title #
 #: build/_docs/md/Security_Model.md
@@ -8197,21 +8190,18 @@ msgstr "Für die f-droid.org-Internetseite gilt ein sehr viel komplizierteres Sy
 
 #. type: Bullet: '* '
 #: build/_docs/md/Translation_and_Localization.md
-#, fuzzy
 msgid "[Website](https://hosted.weblate.org/projects/f-droid/website) component: 100% translated"
-msgstr "zu 100% übersetzte [\"Chrome\"-Zeichenketten](https://hosted.weblate.org/projects/f-droid/website)"
+msgstr "[Website](https://hosted.weblate.org/projects/f-droid/website)-Komponente: 100% übersetzt"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Translation_and_Localization.md
-#, fuzzy
 msgid "[Website Pages](https://hosted.weblate.org/projects/f-droid/website-pages/) component: At least \"About\" and \"Contribute\" pages fully translated"
-msgstr "zu 100% übersetzte [\"Chrome\"-Zeichenketten](https://hosted.weblate.org/projects/f-droid/website)"
+msgstr "[Website Pages](https://hosted.weblate.org/projects/f-droid/website-pages/)-Komponente: Vollständige Übersetzung zumindest der Seiten \"Über\" und \"Mitarbeiten\""
 
 #. type: Bullet: '* '
 #: build/_docs/md/Translation_and_Localization.md
-#, fuzzy
 msgid "[Data](https://hosted.weblate.org/projects/f-droid/fdroiddata) component: at least 10 app descriptions fully translated"
-msgstr "zu 100% übersetzte [\"Chrome\"-Zeichenketten](https://hosted.weblate.org/projects/f-droid/website)"
+msgstr "[Data](https://hosted.weblate.org/projects/f-droid/fdroiddata)-Komponente: Mindestens 10 vollständig übersetzte App-Beschreibungen"
 
 #. type: Plain text
 #: build/_docs/md/Translation_and_Localization.md
@@ -8578,12 +8568,12 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Whitelabel_Builds.md
 msgid "F-Droid can be rebranded and embedded in Android ROMs, building upon F-Droid as the \"white-label\" version. This is a basic introduction for how to do that. For this, [\"_gradle_ flavors\"](https://developer.android.com/studio/build/build-variants.html)  are used for building rebranded, configured versions of F-Droid."
-msgstr "F-Droid kann umgebrandet werden und in Android-ROMs eingebunden werden mittels einer White-Labeled-F-Droid-Version. Dies ist eine grundlegende Erklärung, wie das getan werden kann. Es werden [\"_gradle_ flavors\"](https://developer.android.com/studio/build/build-variants.html) genutzt, um umgebrandete, konfigurierte Versionen von F-Droid zu erstellen."
+msgstr "F-Droid kann ein neues Branding erhalten und in Android-ROMs eingebunden werden, indem auf F-Droid eine White-Label-Version aufgebaut wird. Hier finden Sie einige grundlegende Informationen, wie das getan werden kann. Zur Erstellung umgebrandeter, konfigurierter Versionen von F-Droid werden [\"_gradle_ flavors\"](https://developer.android.com/studio/build/build-variants.html) genutzt."
 
 #. type: Plain text
 #: build/_docs/md/Whitelabel_Builds.md
 msgid "Starting in *app/build.gradle*, add this:"
-msgstr "Um anzufangen, fügen Sie in *app/build.gradle* folgendes hinzu:"
+msgstr "Fügen Sie zu Beginn in *app/build.gradle* Folgendes hinzu:"
 
 #. type: Plain text
 #: build/_docs/md/Whitelabel_Builds.md
@@ -8612,12 +8602,16 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Whitelabel_Builds.md
 msgid "Then *gradle* will automatically look at whole set of folders for custom versions of files:"
-msgstr "Dann wird *Gradle* in mehreren Ordnern nach modifizierten Versionen von Dateien suchen:"
+msgstr "*Gradle* wird dann automatisch die gesamte Ordnerstruktur nach modifizierten Dateiversionen durchsuchen:"
 
 #. type: Plain text
 #: build/_docs/md/Whitelabel_Builds.md
 msgid "- Java sources: _app/src/mycompany/java_ - Manifest file: _app/src/mycompany/AndroidManifest.xml_ - Android resources: _app/src/mycompany/res_ - Assets: _app/src/mycompany/assets_"
-msgstr "- Java Quelltexte: _app/src/mycompany/java_ - Manifest-Datei: _app/src/mycompany/AndroidManifest.xml_ - Android-Ressourcen: _app/src/mycompany/res_ - Assets: _app/src/mycompany/assets_"
+msgstr ""
+"- Java-Quellen: _app/src/mycompany/java_ \n"
+"- Manifest-Datei: _app/src/mycompany/AndroidManifest.xml_ \n"
+"- Android-Ressourcen: _app/src/mycompany/res_ \n"
+"- Assets: _app/src/mycompany/assets_"
 
 #. type: Plain text
 #: build/_docs/md/Whitelabel_Builds.md
@@ -8696,7 +8690,7 @@ msgstr "Anpassungen"
 #. type: Plain text
 #: build/_docs/md/Whitelabel_Builds.md
 msgid "When using gradle build flavors, it is very easy to customize any of the XML files. So this is the recommended way to start with customizing your build of F-Droid. Any XML file in _app/src/main/res_ can be overridden by placing an XML with the same name in _app/src/mycompany/res_. Here are some examples"
-msgstr "Wenn Gradle build flavors benutzt werden ist es sehr einfach alle XML-Dateien anzupassen. Das ist der empfohlene Weg, um mit der Anpassung Ihrer Variante von F-Droid anzufangen. Jede XML-Datei in _app/src/main/res_ kann durch eine XML-Datei mit dem gleichen Namen unter _app/src/mycompany/res_ ersetzt werden. Hier sind einige Beispiele"
+msgstr "Bei Verwendung von Gradle Build Flavors ist es sehr einfach alle XML-Dateien anzupassen. Es wird daher empfohlen, auf diese Weise mit der Anpassung Ihrer Variante von F-Droid anzufangen. Jede XML-Datei in _app/src/main/res_ kann durch eine XML-Datei mit dem gleichen Namen unter _app/src/mycompany/res_ ersetzt werden. Hier sind einige Beispiele"
 
 #. type: Title ####
 #: build/_docs/md/Whitelabel_Builds.md
@@ -8718,7 +8712,7 @@ msgstr "Einstellungen"
 #. type: Plain text
 #: build/_docs/md/Whitelabel_Builds.md
 msgid "For a custom build that enables Automatic Updates by default, override _app/src/main/res/xml/preferences.xml_. You can customize the preferences and their default values in _app/src/mycompany/res/xml/preferences.xml_. The fully automatic update requires system/root access. With regular access, the updates will only automatically download. The user still needs to click install on each one."
-msgstr "Für einen F-Droid-Variante, bei der automatische Updates standardmäßig aktiviert sind, überschreiben Sie _app/src/main/res/xml/preferences.xml_. Sie können die Einstellungen und deren Standardwerte in _app/src/mycompany/res/xml/preferences.xml_ anpassen. Mit Standardberechtigungen werden die Updates aber nur automatisch heruntergeladen und der Nutzer muss jedes Update einzeln und manuell installieren."
+msgstr "Für eine F-Droid-Variante, die automatische Updates standardmäßig aktiviert, überschreiben Sie _app/src/main/res/xml/preferences.xml_. Sie können die Einstellungen und deren Standardwerte in _app/src/mycompany/res/xml/preferences.xml_ anpassen. Das vollautomatische Update benötigt System-/Root-Zugriff. Mit Standardberechtigungen werden die Updates nur automatisch heruntergeladen. Der Nutzer muss weiterhin jedes Update einzeln, manuell installieren."
 
 #~ msgid "About and Contribute pages in [website docs](https://hosted.weblate.org/projects/f-droid/website-docs) 100% translated"
 #~ msgstr "zu 100% übersetzte \"Über\"- und \"Mitarbeiten\"-Seiten in [Website Docs](https://hosted.weblate.org/projects/f-droid/website-docs)"
