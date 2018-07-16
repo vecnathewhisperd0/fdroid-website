@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-07-13 10:54+0200\n"
-"PO-Revision-Date: 2018-07-16 10:46+0000\n"
+"PO-Revision-Date: 2018-07-17 23:42+0000\n"
 "Last-Translator: Markel <wakutiteo@protonmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/f-droid/website-docs/es/>\n"
 "Language: es\n"
@@ -2847,7 +2847,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Deploying_the_Website.md
 msgid "To configure this:"
-msgstr ""
+msgstr "Para configurar esto:"
 
 #. type: Bullet: ' * '
 #: build/_docs/md/Deploying_the_Website.md
@@ -3000,7 +3000,7 @@ msgstr ""
 #: build/_docs/md/Deploying_the_Website.md
 #, no-wrap
 msgid "apt install apache2 certbot tor ca-certificates geoip-bin libapache2-mod-geoip \\"
-msgstr ""
+msgstr "apt install apache2 certbot tor ca-certificates geoip-bin libapache2-mod-geoip \\"
 
 #. type: Plain text
 #: build/_docs/md/Deploying_the_Website.md
@@ -3078,7 +3078,7 @@ msgstr ""
 #: build/_docs/md/Deploying_the_Website.md
 #, no-wrap
 msgid "Apache2 config"
-msgstr ""
+msgstr "Configuración de Apache2"
 
 #. type: Plain text
 #: build/_docs/md/Deploying_the_Website.md
@@ -3242,7 +3242,7 @@ msgstr ""
 #: build/_docs/md/FAQ_-_App_Developers.md
 #, no-wrap
 msgid "How do I license my app?"
-msgstr ""
+msgstr "¿Como licencio mi aplicación?"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md
@@ -3258,7 +3258,7 @@ msgstr ""
 #: build/_docs/md/FAQ_-_App_Developers.md
 #, no-wrap
 msgid "How are donations handled?"
-msgstr ""
+msgstr "¿Cómo se manejan las donaciones?"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md
@@ -3950,7 +3950,7 @@ msgstr ""
 #. type: Bullet: '-   '
 #: build/_docs/md/FAQ_-_General.md
 msgid "the [web forum](https://forum.f-droid.org/)"
-msgstr ""
+msgstr "el [foro web](https://forum.f-droid.org/)"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/FAQ_-_General.md
@@ -3976,17 +3976,17 @@ msgstr ""
 #: build/_docs/md/FAQ_-_General.md
 #, no-wrap
 msgid "Why isn't my favorite app included?"
-msgstr ""
+msgstr "¿Por qué no se incluye mi aplicación favorita?"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_General.md
 msgid "Some common reasons:"
-msgstr ""
+msgstr "Algunas razones comunes:"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/FAQ_-_General.md
 msgid "It's not [Free Software](https://www.gnu.org/philosophy/free-sw.html);"
-msgstr ""
+msgstr "No es [Software Libre](https://www.gnu.org/philosophy/free-sw.html);"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/FAQ_-_General.md
@@ -4085,17 +4085,17 @@ msgstr ""
 #: build/_docs/md/FAQ_-_General.md
 #, no-wrap
 msgid "Why isn't F-Droid on Google Play?"
-msgstr ""
+msgstr "¿Por qué no está F-Droid en Google Play?"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_General.md
 msgid "Pick your favourite reason (both are true and valid):"
-msgstr ""
+msgstr "Escoja su razón favorita (ambas son verdaderas y válidas):"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/FAQ_-_General.md
 msgid "We don't use proprietary software: Google Play is proprietary software;"
-msgstr ""
+msgstr "No usamos software privativo: Google Play es software privativo;"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/FAQ_-_General.md
@@ -4106,7 +4106,7 @@ msgstr ""
 #: build/_docs/md/FAQ_-_General.md
 #, no-wrap
 msgid "How can I report bugs or request features?"
-msgstr ""
+msgstr "¿Cómo puedo reportar fallos y solicitar funciones?"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_General.md
@@ -4492,7 +4492,7 @@ msgstr ""
 #: build/_docs/md/How_to_update_an_app.md
 #, no-wrap
 msgid "How to update an app"
-msgstr ""
+msgstr "Cómo actualizar una aplicación"
 
 #. type: Plain text
 #: build/_docs/md/How_to_update_an_app.md
