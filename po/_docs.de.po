@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-07-13 10:54+0200\n"
 "PO-Revision-Date: 2018-07-18 09:38+0000\n"
-"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
+"Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-docs/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -6742,6 +6742,13 @@ msgid ""
 "    that in that\n"
 "    [metadata file](https://gitlab.com/fdroid/fdroiddata/blob/master/metadata/org.fdroid.fdroid.privileged.txt)\n"
 msgstr ""
+"10. git signierte Tags hinzufügen, die nach dem genauen Versionsnamen benannt sind (kein\n"
+"   vorangestelltes __v__)\n"
+"11. Wenn die OTA-Aktualisierungs-ZIP aktualisiert werden soll, fügen Sie einen neuen Eintrag `Build:` in die Datei\n"
+"    [Metadaten-Datei](https://gitlab.com/fdroid/fdroiddata/blob/master/metadata/org.fdroid.fdroid.privileged.ota.txt) hinzu\n"
+"12. Das APK sollte, basierend auf dem Signatur-Tag, automatisch aktualisiert werden.  Prüfen\n"
+"    dass in der\n"
+"    [Metadaten-Datei](https://gitlab.com/fdroid/fdroiddata/blob/master/metadata/org.fdroid.fdroid.privileged.txt) gegen\n"
 
 #. type: Title ##
 #: build/_docs/md/Release_Process.md
@@ -7591,7 +7598,7 @@ msgstr "Sie können Ihr Repo auch anpassen, indem Sie die Konfigurationsdatei be
 #. type: Plain text
 #: build/_docs/md/Setup_an_F-Droid_App_Repo.md
 msgid "```python repo_url = \"http://guardianproject.info/fdroid/repo\" repo_name = \"My Local Repo\" repo_icon = \"GP_Logo_hires.png\" repo_description = \"\"\""
-msgstr ""
+msgstr "```python repo_url = \"http://guardianproject.info/fdroid/repo\" repo_name = \"Mein lokales Repo\" repo_icon = \"GP_Logo_hires.png\" repo_description = \"\"\""
 
 #. type: Plain text
 #: build/_docs/md/Setup_an_F-Droid_App_Repo.md
@@ -7617,7 +7624,7 @@ msgstr "App-Metadaten"
 #. type: Plain text
 #: build/_docs/md/Setup_an_F-Droid_App_Repo.md
 msgid "You can control lots of aspects of how an app is represented in your repo by editing the app's metadata. Running `fdroid update --create-metadata` creates stub files for you, in order to have a working repo. Then you can edit those files to add a description, donation links, bug tracker, license, home page, etc. See the [Build Metadata Reference](../Build_Metadata_Reference) for more info on what all the options are."
-msgstr ""
+msgstr "Sie können viele Aspekte der Darstellung einer App in Ihrem Repo steuern, indem Sie die Metadaten der App bearbeiten. Das Ausführen von `fdroid update --create-metadata` erzeugt Stub-Dateien für Sie, um ein funktionierendes Repo zu erhalten. Dann können Sie diese Dateien bearbeiten, um eine Beschreibung, Spenden-Links, Bug-Tracker, Lizenz, Homepage, etc. hinzuzufügen. Weitere Informationen zu allen Optionen finden Sie unter [Metadatenreferenz erstellen](../Build_Metadata_Reference)."
 
 #. type: Plain text
 #: build/_docs/md/Setup_an_F-Droid_App_Repo.md
