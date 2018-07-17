@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-07-13 10:54+0200\n"
-"PO-Revision-Date: 2018-07-17 18:56+0000\n"
-"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
+"PO-Revision-Date: 2018-07-17 18:57+0000\n"
+"Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -2592,9 +2592,8 @@ msgstr "Keine Nachrichten. (Sind gute Nachrichten.)"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-06-29-this-week-in-fdroid-w26.md
-#, fuzzy
 msgid "[Stoic Reading](https://f-droid.org/app/app.reading.stoic.stoicreading): Consolidation of Stoic texts"
-msgstr "[Stoic Reading](https://f-droid.org/app/app.reading.stoic.stoicreading): Zusammenstellung von Texten der Stoiker"
+msgstr "[Stoic Reading](https://f-droid.org/app/app.reading.stoic.stoicreading): Zusammenstellung stoischer Texte"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-06-29-this-week-in-fdroid-w26.md
@@ -2643,13 +2642,11 @@ msgstr "[UltraSonic](https://f-droid.org/app/org.moire.ultrasonic) wurde von 2.1
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-06-29-this-week-in-fdroid-w26.md
-#, fuzzy
 msgid "[Video Transcoder](https://f-droid.org/app/protect.videoeditor) updated to 0.11, adding a scroll bar when searching through folder, support for SEND intent and custom resolutions, a setting to configure media search location, and changing the app icon and color scheme."
-msgstr "[Video Transcoder](https://f-droid.org/app/protect.videoeditor)-Aktualisierung auf 0.11, mit Ergänzung einer Bildlaufleiste beim Durchsuchen von Ordnern, Unterstützung des SEND-Intent und benutzerdefinierter Auflösungen , einer Einstellung, um den Ort für die Mediensuche zu konfigurieren sowie Änderung des App-Icons und des Farbschemas."
+msgstr "[Video Transcoder](https://f-droid.org/app/protect.videoeditor)-Aktualisierung auf 0.11, mit Ergänzung einer Bildlaufleiste beim Durchsuchen von Ordnern, Unterstützung des SEND-Intent und benutzerdefinierter Auflösungen, einer Einstellung, um den Ort für die Mediensuche zu konfigurieren sowie Änderung des App-Icons und des Farbschemas."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-06-29-this-week-in-fdroid-w26.md
-#, fuzzy
 msgid "After more than 2 years, [Wi-Fi Reminders](https://f-droid.org/app/ru.glesik.wifireminders) has a new release in the form of Android 8-only version 1.3.0 with mobile CellID support and adaptive icon."
 msgstr "Nach mehr als 2 Jahren gibt es eine Neuveröffentlichung für [Wi-Fi Reminders](https://f-droid.org/app/ru.glesik.wifireminders) in Form einer nur für Android 8 bestimmten Version 1.3.0 mit MobilfunkzellenID-Unterstützung und adaptivem Icon."
 
