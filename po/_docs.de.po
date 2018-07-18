@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-07-13 10:54+0200\n"
-"PO-Revision-Date: 2018-07-18 09:38+0000\n"
-"Last-Translator: ssantos <ssantos@web.de>\n"
+"PO-Revision-Date: 2018-07-20 08:23+0000\n"
+"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-docs/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -1232,7 +1232,7 @@ msgid ""
 "    compatibility, this can also be achieved by starting the commit ID\n"
 "    with ’!’)\n"
 msgstr ""
-":   Deaktiviert dieses Build und gibt einen Grund dafür an. (Aus Rückwärts-\n"
+":   Deaktiviert diesen Build und gibt einen Grund dafür an. (Aus Rückwärts-\n"
 "    Kompatibilitätsgründen kann dies auch durch Voranstellen eines ’!’ vor die Commit-ID\n"
 "    erzielt werden)\n"
 
@@ -1305,7 +1305,7 @@ msgid ""
 "    is useful for setting up the buildserver for complex builds that\n"
 "    need very specific things that are not appropriate to install for\n"
 "    all builds, or for things that would conflict with other builds.\n"
-msgstr "Gibt ein Skript an, dass mittels `sudo bash -x -c \"xxxx\"` in der Buildserver-Gast-VM ausgeführt werden soll. Dieses Skript läuft mir root-Privilegien, aber die VM wird nach jedem Build zurückgesetzt. Die große Mehrheit der Apps wird in einer Standard-Debian-Stable-Umgebung kompiliert. Dieser Parameter ist sinnvoll um den Buildserver auf komplexe Vorgänge vorzubereiten, die sehr spezifische Dinge benötigen, bei denen es nicht angemessen wäre, sie für alle Builds zu installieren; oder für Dinge, die andere Builds stören würden.\n"
+msgstr "Gibt ein Skript an, dass mittels `sudo bash -x -c \"xxxx\"` in der Buildserver-Gast-VM ausgeführt werden soll. Dieses Skript läuft mit Root-Privilegien, aber die VM wird nach jedem Build zurückgesetzt. Die große Mehrheit der Apps wird in einer Standard-Debian-Stable-Umgebung kompiliert. Dieser Parameter ist sinnvoll, um den Buildserver auf komplexe Vorgänge vorzubereiten, die sehr spezifische Dinge benötigen, bei denen es nicht angemessen wäre, sie für alle Builds zu installieren; oder für Dinge, die andere Builds stören würden.\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1321,7 +1321,7 @@ msgid ""
 "    buildserver VM is forcefully terminated.  The default is 7200\n"
 "    (2 hours); 0 means no limit.\n"
 msgstr ""
-":   Zeitliche Begrenzung für dieses Build (in Sekunden).  Nach Ablauf der Zeit\n"
+":   Zeitliche Begrenzung für diesen Build (in Sekunden).  Nach Ablauf der Zeit\n"
 "    wird die Beendigung der Buildserver-VM erzwungen.  Standardwert ist 7200\n"
 "    (2 Stunden); 0 bedeutet ohne Begrenzung.\n"
 
@@ -1532,7 +1532,7 @@ msgid ""
 "    replaced with the version code for the build. See also forceversion.\n"
 msgstr ""
 ":   Wenn festgelegt, wird der Paketversionscode in AndroidManifest.xml durch \n"
-"    den Versionscode für das Build ersetzt. Siehe auch ‘forceversion‘.\n"
+"    den Versionscode für den Build ersetzt. Siehe auch ‘forceversion‘.\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1847,7 +1847,7 @@ msgid ""
 "    removing them manually via rm=, using scandelete= is easier.\n"
 msgstr ""
 "    Nützlich wenn ein Quelltext-Repository Binärdateien oder andere unerwünschte Dateien\n"
-"    beinhaltet, die für das Build nicht erforderlich sind. Anstatt sie über ‘rm=‘ \n"
+"    beinhaltet, die für den Build nicht erforderlich sind. Anstatt sie über ‘rm=‘ \n"
 "    von Hand zu löschen, ist die Verwendung von ‘scandelete=‘ einfacher.\n"
 
 #. type: Plain text
@@ -2103,7 +2103,7 @@ msgstr ""
 ":   Geben Sie einen Glob-Pfad an, in dem sich das resultierende unsignierte Release apk\n"
 "    des Builds befinden sollte. Dies kann verwendet werden in Kombination mit Build-\n"
 "    Methoden wie `gradle=yes` oder `maven=yes`, aber wenn keine Build-Methode \n"
-"    angegeben ist, ist das Build manuell. Sie sollten Ihre Build-Befehle ausführen,\n"
+"    angegeben ist, ist der Build manuell. Sie sollten Ihre Build-Befehle ausführen,\n"
 "    z.B. `make` in `build=`.\n"
 
 #. type: Plain text
@@ -5294,7 +5294,7 @@ msgstr "Metadaten-Erneuerungsprozess"
 #. type: Plain text
 #: build/_docs/md/Inclusion_How-To.md
 msgid "When the scheduled building time arrives, the F-Droid build server will fetch changes from the fdroiddata GitLab repository and merge it to a local repository. Then, update checks will be performed for all applications. If a new version is found, their metadata files will be updated and committed to the repository by the author `F-Droid Builder <admin@f-droid.org>`."
-msgstr "Bei Erreichen der für das Build festgelegten Zeit wird der F-Droid-Build-Server Änderungen aus dem fdroiddata GitLab-Repository beziehen und sie mit einem lokalen Repository zusammenführen. Danach werden für alle Anwendungen Aktualisierungsprüfungen durchgeführt. Wenn eine neue Version gefunden wird, werden deren Metadaten-Dateien aktualisiert und durch den Autor  `F-Droid Builder <admin@f-droid.org>` als Commit im Repository eingetragen."
+msgstr "Bei Erreichen der für den Build festgelegten Zeit wird der F-Droid-Build-Server Änderungen aus dem fdroiddata GitLab-Repository beziehen und sie mit einem lokalen Repository zusammenführen. Danach werden für alle Anwendungen Aktualisierungsprüfungen durchgeführt. Wenn eine neue Version gefunden wird, werden deren Metadaten-Dateien aktualisiert und durch den Autor  `F-Droid Builder <admin@f-droid.org>` als Commit im Repository eingetragen."
 
 #. type: Plain text
 #: build/_docs/md/Inclusion_How-To.md
@@ -6159,7 +6159,7 @@ msgstr "Inkrementieren des `versionCode` der letzten Version (z.B. 104030034, 10
 #. type: Bullet: '* '
 #: build/_docs/md/Publishing_Nightly_Builds.md
 msgid "git commit count (`git rev-list --first-parent --count HEAD`)  provides some hints of where in the code the build was made from"
-msgstr "git commit count (`git rev-list --first-parent --count HEAD`) gibt Hinweise, woher im Code das Build stammt"
+msgstr "git commit count (`git rev-list --first-parent --count HEAD`) gibt Hinweise, woher im Code der Build stammt"
 
 #. type: Plain text
 #: build/_docs/md/Publishing_Nightly_Builds.md
@@ -6287,7 +6287,7 @@ msgstr "Und hier ist ein einfaches Beispiel, wie Sie _fdroidserver_ zu Ihrem Tra
 #. type: Plain text
 #: build/_docs/md/Publishing_Nightly_Builds.md
 msgid "```yaml sudo: required language: android"
-msgstr ""
+msgstr "```yaml sudo: required language: android"
 
 #. type: Plain text
 #: build/_docs/md/Publishing_Nightly_Builds.md
@@ -6597,22 +6597,24 @@ msgstr "fdroidclient"
 #. type: Bullet: '1. '
 #: build/_docs/md/Release_Process.md
 msgid "pull in latest commits from Weblate into a local branch called _weblate_"
-msgstr "die neuesten Commits von Weblate in einen lokalen Branch namens _weblate_ einbinden"
+msgstr "neueste Commits von Weblate in einen lokalen Branch namens _weblate_ einbinden"
 
 #. type: Bullet: '2. '
 #: build/_docs/md/Release_Process.md
+#, fuzzy
 msgid "run `./tools/check-format-strings.py` and `./tools/remove-unused-and-blank-translations.py` and commit changes"
-msgstr "`./tools/check-format-strings.py` und `./tools/remove-unused-and-blank-translations.py` ausführen und Änderungen committen"
+msgstr "`./tools/check-format-strings.py` und `./tools/remove-unused-and-blank-translations.py` ausführen und Änderungen übergeben"
 
 #. type: Bullet: '3. '
 #: build/_docs/md/Release_Process.md
+#, fuzzy
 msgid "rebase the _weblate_ branch on the latest commits in _master_ of <https://gitlab.com/fdroid/fdroidclient> and fix any conflicts"
-msgstr "den _weblate_-Zweig auf die letzten Commits in _master_ von <https://gitlab.com/fdroid/fdroidclient> rebasen und alle Konflikte beheben"
+msgstr "den _weblate_-Branch anhand der letzten Commits im _master_ von <https://gitlab.com/fdroid/fdroidclient> neu begründen und alle Konflikte beheben"
 
 #. type: Bullet: '4. '
 #: build/_docs/md/Release_Process.md
 msgid "push local _weblate_ branch to your fork create a merge request, and tag it with the _localization_ label"
-msgstr "einen lokalen _weblate_-Branch zu Ihrem Fork pushen, einen Merge-Request erstellen und ihn mit dem Label _localization_ versehen"
+msgstr "lokalen _weblate_-Branch zu Ihrem Fork pushen, einen Merge-Request erstellen und ihn mit dem Label _localization_ versehen"
 
 #. type: Bullet: '5. '
 #: build/_docs/md/Release_Process.md
@@ -6622,7 +6624,7 @@ msgstr "sicherstellen, dass alle Tests vor dem Merging bestanden werden, einschl
 #. type: Bullet: '6. '
 #: build/_docs/md/Release_Process.md
 msgid "once the _weblate_ branch is merged, reset the git repo in <https://hosted.weblate.org/projects/f-droid/f-droid/#repository>"
-msgstr "sobald der Zweig _weblate_ zusammengeführt wurde, das git-Repo in <https://hosted.weblate.org/projects/f-droid/f-droid/#repository> zurücksetzen"
+msgstr "sobald der _weblate_-Branch zusammengeführt wurde, das git-Repo in <https://hosted.weblate.org/projects/f-droid/f-droid/#repository> zurücksetzen"
 
 #. type: Bullet: '7. '
 #: build/_docs/md/Release_Process.md
@@ -6632,12 +6634,12 @@ msgstr "_versionCode_ in _app/build.gradle_ setzen"
 #. type: Bullet: '8. '
 #: build/_docs/md/Release_Process.md
 msgid "add new entry in _metadata/en-US/changelogs/_"
-msgstr "neuen Eintrag in _metadata/de-US/changelogs/_ hinzufügen"
+msgstr "neuen Eintrag in _metadata/en-US/changelogs/_ hinzufügen"
 
 #. type: Bullet: '9. '
 #: build/_docs/md/Release_Process.md
 msgid "copy that new entry to _CHANGELOG.md_"
-msgstr "kopieren Sie den neuen Eintrag nach _CHANGELOG.md_"
+msgstr "diesen neuen Eintrag nach _CHANGELOG.md_ kopieren"
 
 #. type: Plain text
 #: build/_docs/md/Release_Process.md
@@ -6648,10 +6650,10 @@ msgid ""
 "11. add new `Build:` entry to\n"
 "    [metadata file](https://gitlab.com/fdroid/fdroiddata/blob/master/metadata/org.fdroid.fdroid.txt)\n"
 msgstr ""
-"10. fügen Sie git signierte Tags hinzu, die nach dem genauen Versionsnamen benannt sind (keine\n"
-"   vorangestelltes __v__)\n"
-"11. neuen Eintrag `Build:` hinzufügen zu\n"
-"    [Metadaten-Datei](https://gitlab.com/fdroid/fdroiddata/blob/master/metadata/org.fdroid.fdroid.txt)\n"
+"10. git-signierten Tag, der nach dem genauen Versionsnamen (ohne vorangestelltes __v__)\n"
+"   benannt ist, hinzufügen \n"
+"11. neuen `Build:`-Eintrag in der\n"
+"    [Metadaten-Datei](https://gitlab.com/fdroid/fdroiddata/blob/master/metadata/org.fdroid.fdroid.txt) einfügen\n"
 
 #. type: Title ###
 #: build/_docs/md/Release_Process.md
@@ -6662,12 +6664,12 @@ msgstr "Hauptausgabe"
 #. type: Plain text
 #: build/_docs/md/Release_Process.md
 msgid "If it is a major release, then a new stable branch (e.g. _stable-v1.0_ or _stable-v1.1_) should be created first.  The incomplete translations should be removed using `./tools/trim-incomplete-translations-for-release.py`.  This has to happen in the stable branch only, since it will remove the incomplete translations.  If the incomplete translations are remove from _master_, then Weblate will sync with that, and remove them there as well."
-msgstr "Wenn es sich um eine Hauptrelease handelt, sollte zuerst ein neuer stabiler Branch (z.B. _stable-v1.0_ oder _stable-v1.1_) erstellt werden.  Unvollständige Übersetzungen sollten mit `./tools/trim-incomplete-translations-for-release.py` entfernt werden.  Dies muss nur im stabilen Branch geschehen, da es die unvollständigen Übersetzungen entfernt.  Wenn die unvollständigen Übersetzungen aus _master_ entfernt werden, wird Weblate damit synchronisiert und auch dort entfernt."
+msgstr "Wenn es sich um ein Hauptrelease handelt, sollte zuerst ein neuer stabiler Branch (z.B. _stable-v1.0_ oder _stable-v1.1_) erstellt werden.  Unvollständige Übersetzungen sollten mit `./tools/trim-incomplete-translations-for-release.py` entfernt werden.  Dies muss nur im stabilen Branch geschehen, da es die unvollständigen Übersetzungen entfernt.  Wenn die unvollständigen Übersetzungen aus _master_ entfernt werden, wird Weblate damit synchronisiert und sie werden auch dort entfernt."
 
 #. type: Bullet: '1. '
 #: build/_docs/md/Release_Process.md
 msgid "Make sure its passing the [tests on Ubuntu/trusty and OSX](https://travis-ci.org/f-droid/fdroidserver)"
-msgstr "Stellen Sie sicher, dass die [Tests auf Ubuntu/trusty und OSX](https://travis-ci.org/f-droid/fdroidserver) bestanden werden"
+msgstr "Sicherstellen, dass die [Tests auf Ubuntu/trusty und OSX](https://travis-ci.org/f-droid/fdroidserver) bestanden werden"
 
 #. type: Bullet: '3. '
 #: build/_docs/md/Release_Process.md
@@ -6677,22 +6679,22 @@ msgstr "den _weblate_-Zweig auf die letzten Commits in _master_ von <https://git
 #. type: Bullet: '5. '
 #: build/_docs/md/Release_Process.md
 msgid "make sure all tests pass before merging"
-msgstr "stellen Sie sicher, dass alle Tests vor dem Merge bestanden werden"
+msgstr "sicherstellen, dass alle Tests vor dem Merge bestanden werden"
 
 #. type: Bullet: '6. '
 #: build/_docs/md/Release_Process.md
 msgid "once the _weblate_ branch is merged, reset the git repo in <https://hosted.weblate.org/projects/f-droid/fdroidserver/#repository>"
-msgstr "sobald der Branch _weblate_ gemerged wurde, setzen Sie den git repo in <https://hosted.weblate.org/projects/f-droid/f-droid/#repository> zurück"
+msgstr "nach dem Merging des _weblate_ -Branch, das git-Repo in <https://hosted.weblate.org/projects/f-droid/f-droid/#repository> zurücksetzen"
 
 #. type: Bullet: '7. '
 #: build/_docs/md/Release_Process.md
 msgid "set `version=''` in _setup.py_"
-msgstr "setze `version=''` in _setup.py_"
+msgstr "`version=''` in _setup.py_ festlegen"
 
 #. type: Bullet: '7. '
 #: build/_docs/md/Release_Process.md
 msgid "add git signed tag named after the exact version name (no preceeding __v__), using the exact same string as `version=''`"
-msgstr "fügen Sie git signierte Tags hinzu, die nach dem exakten Versionsnamen benannt sind (kein vorangestelltes __v__), unter Verwendung des gleichen Strings wie `version=''`"
+msgstr "git-signierten Tag einfügen, benannt nach dem exakten Versionsnamen (ohne vorangestelltes __v__), unter Verwendung genau desselben Strings wie `version=''`"
 
 #. type: Bullet: '9. '
 #: build/_docs/md/Release_Process.md
@@ -6713,7 +6715,7 @@ msgstr "auf [F-Droid PPA](https://launchpad.net/~fdroid/+archive/ubuntu/fdroidse
 #: build/_docs/md/Release_Process.md
 #, no-wrap
 msgid "privileged-extension"
-msgstr ""
+msgstr "privileged-extension"
 
 #. type: Bullet: '3. '
 #: build/_docs/md/Release_Process.md
@@ -6723,7 +6725,7 @@ msgstr "den _weblate_-Zweig auf die letzten Commits in _master_ von <https://git
 #. type: Bullet: '6. '
 #: build/_docs/md/Release_Process.md
 msgid "once the _weblate_ branch is merged, reset the git repo in <https://hosted.weblate.org/projects/f-droid/privileged-extension/#repository>"
-msgstr "sobald der Branch _weblate_ gemerged wurde, setzen Sie den git repo in <https://hosted.weblate.org/projects/f-droid/f-droid/#repository> zurück"
+msgstr "sobald der Branch _weblate_ gemerged wurde, das git-Repo in <https://hosted.weblate.org/projects/f-droid/f-droid/#repository> zurücksetzen"
 
 #. type: Bullet: '7. '
 #: build/_docs/md/Release_Process.md
@@ -8058,7 +8060,7 @@ msgstr "``` INFO: Processing net.artificialworlds.rabbitescape...  INFO: ...upda
 #. type: Plain text
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
 msgid "Then I made sure it built OK:"
-msgstr "Dann vergewissere ich mich, dass das Build o.k. ist:"
+msgstr "Dann vergewissere ich mich, dass der Build o.k. ist:"
 
 #. type: Plain text
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
