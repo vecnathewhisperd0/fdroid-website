@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-07-13 10:54+0200\n"
-"PO-Revision-Date: 2018-07-13 10:15+0200\n"
+"PO-Revision-Date: 2018-07-19 20:40+0000\n"
 "Last-Translator: WaldiS <admin@sto.ugu.pl>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/f-droid/website-docs/pl/>\n"
 "Language: pl\n"
@@ -93,7 +93,7 @@ msgstr ""
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
 #, no-wrap
 msgid "In the app's build metadata in an _fdroiddata_ collection"
-msgstr ""
+msgstr "W metadanych kompilacji aplikacji w _fdroiddata_ collection"
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -137,7 +137,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
 msgid "Example:"
-msgstr ""
+msgstr "Przykład:"
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -204,62 +204,62 @@ msgstr ""
 #: build/_docs/md/Building_Applications.md
 #, no-wrap
 msgid "Building Applications"
-msgstr ""
+msgstr "Budowanie Aplikacji"
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md
 msgid "Instead of (or as well as) including binary APKs from external sources in a repository, you can build them directly from the source code."
-msgstr ""
+msgstr "Zamiast (lub tak samo), w tym binarne pliki APK ze źródeł zewnętrznych w repozytorium, można je budować bezpośrednio z kodu źródłowego."
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md
 msgid "Using this method, it is is possible to verify that the application builds correctly, corresponds to the source code, and contains only free software. Unfortunately, in the Android world, it seems to be very common for an application supplied as a binary APK to present itself as Free Software when in fact some if not all of the following is true:"
-msgstr ""
+msgstr "Korzystając z tej metody, można sprawdzić, czy aplikacja jest poprawnie zbudowana, odpowiada kodowi źródłowemu i zawiera tylko wolne oprogramowanie. Niestety, w świecie Androida wydaje się bardzo powszechne, że aplikacja dostarczana jako binarny pakiet APK przedstawia się jako Wolne oprogramowanie, gdy w rzeczywistości niektóre, jeśli nie wszystkie z poniższych, są prawdziwe:"
 
 #. type: Bullet: '1.  '
 #: build/_docs/md/Building_Applications.md
 msgid "The source code (either for a particular version, or even all versions!) is unavailable or incomplete."
-msgstr ""
+msgstr "Kod źródłowy (dla konkretnej wersji lub nawet wszystkich wersji!) Jest niedostępny lub niekompletny."
 
 #. type: Bullet: '2.  '
 #: build/_docs/md/Building_Applications.md
 msgid "The source code is not capable of producing the actual binary supplied."
-msgstr ""
+msgstr "Kod źródłowy nie jest w stanie wytworzyć dostarczonego pliku binarnego."
 
 #. type: Bullet: '3.  '
 #: build/_docs/md/Building_Applications.md
 msgid "The ’source code’ contains binary files of unknown origin, or with proprietary licenses."
-msgstr ""
+msgstr "'Kod źródłowy' zawiera pliki binarne o nieznanym pochodzeniu lub z zastrzeżonymi licencjami."
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md
 msgid "For this reason, source-built applications are the preferred method for the main F-Droid repository, although occasionally for technical or historical reasons, exceptions are made to this policy."
-msgstr ""
+msgstr "Z tego powodu aplikacje oparte na źródłach są preferowaną metodą dla głównego repozytorium F-Droid, chociaż czasami z przyczyn technicznych lub historycznych, wyjątki są wprowadzane do tych zasad."
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md
 msgid "When building applications from source, it should be noted that you will be signing them (all APK files must be signed to be installable on Android) with your own key. When an application is already installed on a device, it is not possible to upgrade it in place to a new version signed with a different key without first uninstalling the original.  This may present an inconvenience to users, as the process of uninstalling loses any data associated with the previous installation."
-msgstr ""
+msgstr "Budując aplikacje ze źródeł, należy zauważyć, że będziesz je podpisywać (wszystkie pliki APK muszą być podpisane, aby można je było zainstalować na systemie Android) za pomocą własnego klucza. Gdy aplikacja jest już zainstalowana na urządzeniu, nie można jej zaktualizować do nowej wersji podpisanej innym kluczem bez uprzedniego odinstalowania oryginału. Może to stanowić utrudnienie dla użytkowników, ponieważ proces odinstalowywania traci wszystkie dane związane z poprzednią instalacją."
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md
 msgid "The process for managing a repository for built-from-source applications is very similar to that described in the Simple Binary Repository chapter, except now you need to:"
-msgstr ""
+msgstr "Proces zarządzania repozytorium dla aplikacji wbudowanych jest bardzo podobny do tego opisanego w rozdziale Proste repozytorium binarne, z wyjątkiem tego, że teraz musisz:"
 
 #. type: Bullet: '1.  '
 #: build/_docs/md/Building_Applications.md
 msgid "Include Build entries in the metadata files."
-msgstr ""
+msgstr "Uwzględnij pozycje kompilacji w plikach metadanych."
 
 #. type: Bullet: '2.  '
 #: build/_docs/md/Building_Applications.md
 msgid "Run `fdroid build` to build any applications that are not already built."
-msgstr ""
+msgstr "Uruchom `fdroid build`, aby zbudować aplikacje, które nie zostały jeszcze zbudowane."
 
 #. type: Bullet: '3.  '
 #: build/_docs/md/Building_Applications.md
 msgid "Run `fdroid publish` to finalise packaging and sign any APKs that have been built."
-msgstr ""
+msgstr "Uruchom `fdroid publish`, aby sfinalizować opakowanie i podpisać wszystkie pliki APK, które zostały zbudowane."
 
 #. type: Title ###
 #: build/_docs/md/Building_Applications.md
