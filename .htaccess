@@ -46,6 +46,17 @@ AddOutputFilterByType DEFLATE application/svg+xml
 RewriteEngine On
 
 ##
+## Default page to display
+##
+## Using the DirectoryIndex setting, we can tell Apache which
+## files to show when no one is specified explicitly.
+##
+## When the wiki goes offline (https://gitlab.com/fdroid/admin/issues/50),
+## we can probably remove `index.php` from here.
+##
+DirectoryIndex index.php index.html index.xml
+
+##
 ## HTTP Error Document
 ##
 ## This will not respect the language selected via the language
