@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-07-13 10:54+0200\n"
-"PO-Revision-Date: 2018-07-22 21:41+0000\n"
+"PO-Revision-Date: 2018-07-27 19:40+0000\n"
 "Last-Translator: WaldiS <admin@sto.ugu.pl>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/f-droid/website-docs/pl/>\n"
 "Language: pl\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 3.1-dev\n"
+"X-Generator: Weblate 3.1.1\n"
 
 #. type: Title #
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -98,7 +98,7 @@ msgstr "W metadanych kompilacji aplikacji w _fdroiddata_ collection"
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
 msgid "All the app store materials can also be added to any _fdroiddata_ repository of build metadata.  This follows a file layout modeled after [fastlane supply](https://github.com/fastlane/fastlane/blob/2.28.7/supply/README.md#images-and-screenshots), modified to fit into the _fdroiddata_ workflow.  Any files in this layout will be copied into the repo and added to the repo's index file by `fdroid update`."
-msgstr ""
+msgstr "Wszystkie materiały z magazynu aplikacji można również dodać do dowolnego repozytorium _fdroiddata_ metadanych kompilacji. Jest to zgodne z układem plików wzorowanym na [dostawa szybka] (https://github.com/fastlane/fastlane/blob/2.2.7.7/supply/README.mdimages-and-screenshots), zmodyfikowanym tak, aby pasował do przepływu pracy _fdroiddata_. Wszystkie pliki w tym układzie zostaną skopiowane do repozytorium i dodane do pliku indeksu transakcji repo za pomocą `fdroid update`."
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -198,7 +198,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
 msgid "`fdroid update` adds all the graphics files it finds in the repo to the index.  `fdroid server update` will sync all of the files in the repo to the various locations where the repo is actually hosted."
-msgstr ""
+msgstr "`fdroid update` dodaje wszystkie pliki graficzne znalezione w repo do indeksu. `fdroid server update` zsynchronizuje wszystkie pliki repo z różnymi lokalizacjami, w których repo jest rzeczywiście hostowane."
 
 #. type: Title #
 #: build/_docs/md/Building_Applications.md
@@ -280,7 +280,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md
 msgid "Regardless of the intended usage of the tools, you will always need to set up some basic configuration details. This is done by creating a file called `config.py` in the data directory. You should do this by copying the example file (`./examples/config.py`) from the fdroidserver project to your data directory and then editing according to the instructions within."
-msgstr ""
+msgstr "Bez względu na zamierzone użycie narzędzi, zawsze będziesz musiał skonfigurować podstawowe szczegóły konfiguracji. Odbywa się to poprzez utworzenie w katalogu danych pliku o nazwie `config.py`. Powinieneś to zrobić, kopiując przykładowy plik (`. /examples/config.py`) z projektu fdroidserver do katalogu danych, a następnie edytując zgodnie z instrukcjami wewnątrz."
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md
@@ -306,7 +306,7 @@ msgstr "Więcej informacji na temat `fdroid build`"
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md
 msgid "When run without any parameters, `fdroid build` will build any and all versions of applications that you don’t already have in the `repo` directory (or more accurately, the `unsigned` directory). There are various other things you can do. As with all the tools, the `--help` option is your friend, but a few annotated examples and discussion of the more common usage modes follows:"
-msgstr ""
+msgstr "Po uruchomieniu bez żadnych parametrów, `fdroid build` zbuduje wszystkie wersje aplikacji, których jeszcze nie posiadasz w katalogu `repo` (lub dokładniej, katalogu `unsigned`). Istnieje wiele innych rzeczy, które możesz zrobić. Podobnie jak w przypadku wszystkich narzędzi, opcja '--help' jest Twoim przyjacielem, ale kilka przykładów z komentarzem i omówienie najczęściej używanych trybów jest następujące:"
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md
@@ -321,12 +321,12 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md
 msgid "This attempts to build version code 16 (which is version 0.25) of the F-Droid client. Many of the tools recognise arguments as packages, allowing their activity to be limited to just a limited set of packages."
-msgstr ""
+msgstr "Ta próba zbudowania wersji kodu 16 (która jest wersją 0.25) klienta F-Droid. Wiele narzędzi rozpoznaje argumenty jako pakiety, dzięki czemu ich działanie ogranicza się do ograniczonego zestawu pakietów."
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md
 msgid "If the build above was successful, two files will have been placed in the `unsigned` directory:"
-msgstr ""
+msgstr "Jeśli powyższa kompilacja się powiedzie, dwa pliki zostaną umieszczone w katalogu `unsigned`:"
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md
@@ -351,7 +351,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md
 msgid "The source tarball would move to the `repo` directory (which is the directory you would push to your web server). A signed and zipaligned version of the APK would also appear there, and both files would be removed from the `unsigned` directory."
-msgstr ""
+msgstr "Skrypt źródłowy zostanie przeniesiony do katalogu `repo` (który jest katalogiem, który można przesłać do serwera WWW). Zostanie tam również podpisana i zipowa wersja pliku APK, a oba pliki zostaną usunięte z katalogu `unsigned`."
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md
