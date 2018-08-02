@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-07-13 10:54+0200\n"
-"PO-Revision-Date: 2018-07-20 08:23+0000\n"
-"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
+"PO-Revision-Date: 2018-08-03 13:48+0000\n"
+"Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-docs/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.1-dev\n"
+"X-Generator: Weblate 3.1.1\n"
 
 #. type: Title #
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -82,7 +82,7 @@ msgstr "Letztlich ist es nicht einmal nötig, die Instrumente _fastlane supply_ 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
 msgid "All the localized descriptions and graphics will automatically show up in the F-Droid repo once they are available in the source repo of a release that the repo builds.  For example, if these files are included in a _git_ repo's _master_ branch but not yet in a tagged release, they will not be included."
-msgstr "Alle lokalisierten Beschreibungen und Grafiken werden automatisch im F-Droid-Repo erscheinen, sobald sie im Quellrepo einer Version abrufbar sind, die das Repo herstellt.  Sind diese Dateien, zum Beispiel, in einem _Git_ Repo _Master_-Zweig enthalten, aber noch nicht zur Veröffentlichung markiert, werden sie nicht aufgenommen werden."
+msgstr "Alle lokalisierten Beschreibungen und Grafiken werden automatisch im F-Droid-Repo erscheinen, sobald sie im Quellrepo einer Version abrufbar sind, die das Repo herstellt.  Sind diese Dateien, zum Beispiel in einem _Git_ Repo _Master_-Zweig enthalten, aber noch nicht zur Veröffentlichung markiert, werden sie nicht aufgenommen."
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -2482,9 +2482,8 @@ msgstr "7.34 Aktuelle Version<a name=\"Current-Version\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy
 msgid "The [name of the version](https://developer.android.com/guide/topics/manifest/manifest-element.html#vname) that is the recommended release. There may be newer versions of the application than this (e.g. unstable versions), and there will almost certainly be older ones. This should be the one that is recommended for general use. In the event that there is no source code for the current version, or that non-free libraries are being used, this would ideally be the latest version that is still free, though it may still be expedient to retain the automatic update check — see No Source Since."
-msgstr "Der [Name der Version](https://developer.android.com/guide/topics/manifest/manifest-element.html#vname), der die empfohlene Version ist. Es kann neuere Versionen der Anwendung geben (z.B. instabile Versionen) und es wird mit ziemlicher Sicherheit ältere Versionen geben. Diese sollte diejenige sein, die für den allgemeinen Gebrauch empfohlen wird. Für den Fall, dass es keinen Quellcode für die aktuelle Version gibt oder dass unfreie Bibliotheken verwendet werden, wäre dies idealerweise die neueste Version, die noch frei ist, obwohl es sinnvoll sein kann, die automatische Update-Prüfung beizubehalten - siehe Bisher keine Quellen."
+msgstr "Der [Name der Version](https://developer.android.com/guide/topics/manifest/manifest-element.html#vname), die empfohlene Version. Es kann neuere Versionen der Anwendung geben (z.B. instabile Versionen) und es wird mit ziemlicher Sicherheit ältere Versionen geben. Diese sollte diejenige sein, die für den allgemeinen Gebrauch empfohlen wird. Für den Fall, dass es keinen Quellcode für die aktuelle Version gibt oder dass unfreie Bibliotheken verwendet werden, wäre dies idealerweise die neueste Version, die noch frei ist, obwohl es sinnvoll sein kann, die automatische Update-Prüfung beizubehalten - siehe Bisher Keine Quellen."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -6054,13 +6053,12 @@ msgstr "```bash"
 
 #. type: Title #
 #: build/_docs/md/Maintaining_the_Forum.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Must match '9DC8 5822 9FC7 DD38 854A E2D8 8D81 803C 0EBF CD88'"
-msgstr "Must match '9DC8 5822 9FC7 DD38 854A E2D8 8D81 803C 0EBF CD88'"
+msgstr "Muss übereinstimmen mit '9DC8 5822 9FC7 DD38 854A E2D8 8D81 803C 0EBF CD88'"
 
 #. type: Plain text
 #: build/_docs/md/Maintaining_the_Forum.md
-#, fuzzy
 msgid "apt-key fingerprint 0EBFCD88 ```"
 msgstr "apt-key fingerprint 0EBFCD88 ```"
 
@@ -6601,15 +6599,13 @@ msgstr "neueste Commits von Weblate in einen lokalen Branch namens _weblate_ ein
 
 #. type: Bullet: '2. '
 #: build/_docs/md/Release_Process.md
-#, fuzzy
 msgid "run `./tools/check-format-strings.py` and `./tools/remove-unused-and-blank-translations.py` and commit changes"
-msgstr "`./tools/check-format-strings.py` und `./tools/remove-unused-and-blank-translations.py` ausführen und Änderungen übergeben"
+msgstr "`./tools/check-format-strings.py` und `./tools/remove-unused-and-blank-translations.py` ausführen und Änderungen committen"
 
 #. type: Bullet: '3. '
 #: build/_docs/md/Release_Process.md
-#, fuzzy
 msgid "rebase the _weblate_ branch on the latest commits in _master_ of <https://gitlab.com/fdroid/fdroidclient> and fix any conflicts"
-msgstr "den _weblate_-Branch anhand der letzten Commits im _master_ von <https://gitlab.com/fdroid/fdroidclient> neu begründen und alle Konflikte beheben"
+msgstr "den _weblate_-Branch auf die letzten Commits im _master_ von <https://gitlab.com/fdroid/fdroidclient> rebasen und alle Konflikte beheben"
 
 #. type: Bullet: '4. '
 #: build/_docs/md/Release_Process.md
@@ -7982,7 +7978,6 @@ msgstr "Ich lege die folgenden Informationen fest:"
 
 #. type: Plain text
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
-#, fuzzy
 msgid "``` Categories:Games License:GPL-2.0-or-later Author Name:Andy Balaam and the Rabbit Escape developers Author Email:rabbitescape@artificialworlds.net Web Site:http://artificialworlds.net/rabbit-escape Source Code:https://github.com/andybalaam/rabbit-escape Issue Tracker:https://github.com/andybalaam/rabbit-escape/issues"
 msgstr "``` Categories:Games License:GPL-2.0-or-later Author Name:Andy Balaam and the Rabbit Escape developers Author Email:rabbitescape@artificialworlds.net Web Site:http://artificialworlds.net/rabbit-escape Source Code:https://github.com/andybalaam/rabbit-escape Issue Tracker:https://github.com/andybalaam/rabbit-escape/issues"
 
