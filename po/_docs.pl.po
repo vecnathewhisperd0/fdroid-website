@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-07-13 10:54+0200\n"
-"PO-Revision-Date: 2018-08-01 18:41+0000\n"
+"PO-Revision-Date: 2018-08-07 14:42+0000\n"
 "Last-Translator: WaldiS <admin@sto.ugu.pl>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/f-droid/website-docs/pl/>\n"
 "Language: pl\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 3.1.1\n"
+"X-Generator: Weblate 3.2-dev\n"
 
 #. type: Title #
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -6322,7 +6322,7 @@ msgstr ""
 #: build/_docs/md/Repository_Style_Guide.md
 #, no-wrap
 msgid "License"
-msgstr ""
+msgstr "Licencja"
 
 #. type: Plain text
 #: build/_docs/md/Repository_Style_Guide.md
