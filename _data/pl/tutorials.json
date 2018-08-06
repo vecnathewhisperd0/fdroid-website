@@ -1,6 +1,39 @@
 {
     "misc": {
         "step_x": "Krok [number]",
-        "step_x_description": "Krok [number]: [description]"
+        "step_x_description": "Krok [number]: [description]",
+        "overview": {
+            "title": "Co możesz zrobić z F-Droid"
+        },
+        "option_x_description": "Opcja [number]: [description]"
+    },
+    "add_repo": {
+        "no_internet": "Brak internetu? Brak problemu. Zobacz <a href=\"../swap/\">Jak wysyłać i odbierać aplikacje offline.</a>",
+        "overview": {
+            "title": "Zobacz więcej zawartości."
+        },
+        "scan_qr_code": {
+            "short_summary": "Zeskanuj kod QR",
+            "title": "Zeskanuj kod QR z innego urządzenia"
+        },
+        "open_repo_link": {
+            "steps": {
+                "step_1": "Pobierz i zainstaluj aplikację F-Droid na swoim Androidzie.",
+                "step_3": "Jeżeli masz otwarty link, stuknij przycisk 'Dodaj do F-Droid'.",
+                "step_2": "Kliknij na link i otwórz w przeglądarce na twoim telefonie.",
+                "step_4": "Stuknij przycisk Posiadam F-Droid. aplikacja F-Droid się uruchomi.",
+                "step_7": "Stuknij na repo aby zobaczyć jego zawartość."
+            },
+            "short_summary": "Otwórz link do Repo",
+            "title": "Otwórz link do Repo na twoim telefonie"
+        },
+        "title": "Jak dodać Repo do F-Droid"
+    },
+    "swap": {
+        "overview": {
+            "title": "Wysyłaj i odbieraj aplikacje offline."
+        },
+        "intro": "Brak internetu? Nie problem. Pobierz aplikacje od ludzi w pobliżu Ciebie.",
+        "title": "Jak wysyłać i odbierać aplikacje offline"
     }
 }
