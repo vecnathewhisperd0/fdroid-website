@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-06-30 12:21+0200\n"
-"PO-Revision-Date: 2018-08-10 16:27+0000\n"
+"PO-Revision-Date: 2018-08-11 08:15+0000\n"
 "Last-Translator: WaldiS <admin@sto.ugu.pl>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/f-droid/website-pages/pl/>\n"
 "Language: pl\n"
@@ -581,7 +581,7 @@ msgstr "[How to Help](How_to_Help) Różne sposoby jak każdy może pomóc w roz
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
 msgid "[Known Repositories](https://forum.f-droid.org/t/721) A list that tries to keep track of known F-Droid compatible repositories."
-msgstr "[Znane Repozytoria](https://forum.f-droid.org/t/721) Lista śledząca znane repozytoria kompatybilne z F-Droid."
+msgstr "[Znane repozytoria](https://forum.f-droid.org/t/721) Lista, której zamiarem jest śledzenie znanych kompatybilnych repozytoriów F-Droid."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
