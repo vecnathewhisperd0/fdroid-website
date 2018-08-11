@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-07-13 10:54+0200\n"
-"PO-Revision-Date: 2018-08-11 08:15+0000\n"
+"PO-Revision-Date: 2018-08-12 16:50+0000\n"
 "Last-Translator: WaldiS <admin@sto.ugu.pl>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/f-droid/website-docs/pl/>\n"
 "Language: pl\n"
@@ -491,18 +491,18 @@ msgstr "Klucze do podpisywania repo F-Droida działają według bardzo podobnego
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
 msgid "This means the security burden is shifted from the online, public webserver to a private signing machine.  Just keeping that machine out of the public eye goes a long way towards improving security.  There are a number of additional measures that can be taken to further improve the security of the signing process.  Here are some approaches, starting with the easiest and least security, and going on to more secure setups that require more work to setup and run.  Signing is not an resource intensive process, so any machine will work, even a 10 year old, basic laptop.  We recommend using a minimal [Debian](https://www.debian.org) install, and rebuilding the machine from scratch."
-msgstr ""
+msgstr "Oznacza to, że obciążenie związane z bezpieczeństwem zostaje przeniesione z internetowego, publicznego serwera WWW na prywatny komputer podpisujący. Wyłączenie tej maszyny z publicznego punktu widzenia stanowi długą drogę do poprawy bezpieczeństwa. Istnieje szereg dodatkowych środków, które można podjąć w celu dalszej poprawy bezpieczeństwa procesu podpisywania. Oto kilka podejść, poczynając od najłatwiejszego i najmniejszego bezpieczeństwa, a kończąc na bezpieczniejszych konfiguracjach, które wymagają więcej pracy do skonfigurowania i uruchomienia. Podpisywanie nie jest procesem wymagającym dużych zasobów, więc każda maszyna będzie działać, nawet 10-letni, podstawowy laptop. Zalecamy instalację minimalną [Debian] (https://www.debian.org) i przebudowanie maszyny od nowa."
 
 #. type: Title ###
 #: build/_docs/md/Building_a_Signing_Server.md
 #, no-wrap
 msgid "Automated Signing Server with with HSM"
-msgstr ""
+msgstr "Automatyczny serwer podpisu z HSM"
 
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
 msgid "For a fully automated signing setup, the machine running the signing needs to be online and running. Ideally this machine would have no remote access, at the very least remote access should be very carefully controlled and monitored.  A laptop makes it easy to work with even when remote access is disabled, since it provides a built-in keyboard and monitor.  If remote access is required, then any basic PC will work fine.  Using a Hardware Security Module (HSM) to store the keys prevents them from being stolen if the server is broken into.  An attacker could only run the signing process on that server."
-msgstr ""
+msgstr "Aby w pełni zautomatyzować konfigurację podpisywania, urządzenie, na którym jest podpisane, musi być w trybie online i działać. Idealnie byłoby, gdyby ten komputer nie miał dostępu zdalnego, a przynajmniej dostęp zdalny powinien być bardzo dokładnie kontrolowany i monitorowany. Laptop ułatwia pracę nawet, gdy zdalny dostęp jest wyłączony, ponieważ zapewnia wbudowaną klawiaturę i monitor. Jeśli wymagany jest dostęp zdalny, wówczas każdy podstawowy komputer będzie działał prawidłowo. Używanie modułu bezpieczeństwa sprzętowego (HSM) do przechowywania kluczy zapobiega ich kradzieży w przypadku włamania do serwera. Osoba atakująca może uruchomić proces podpisywania tylko na tym serwerze."
 
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
@@ -517,105 +517,105 @@ msgstr "W przypadku HSM zalecamy korzystanie ze sprzętu [Nitrokey] (https://www
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
 msgid "Other possibility it to use a setup like [Fedora](https://pagure.io/sigul)'s [Sigul](http://www.devops-blog.net/koji/gpg-signing-rpms-with-sigul-signing-server-koji-integration)  that involves three machines."
-msgstr ""
+msgstr "Inna możliwość użycia konfiguracji jak [Fedora](https://pagure.io/sigul)'s [Sigul](http://www.devops-blog.net/koji/gpg-signing-rpms-with-sigul-signing-server-koji-integration)  to obejmuje trzy maszyny."
 
 #. type: Title ###
 #: build/_docs/md/Building_a_Signing_Server.md
 #, no-wrap
 msgid "Basic laptop dedicated to signing"
-msgstr ""
+msgstr "Podstawowy laptop dedykowany do podpisu"
 
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
 msgid "Start with a laptop that can be wiped clean and rebuilt from scratch.  What is most important is that only the essential software is installed on it, and nothing else.  Do not include any browser at all, for example, since that is the most common vector of attack.  No remote access setup (e.g. SSH or VNC) should be installed or configured.  To sign apps and repos, someone would take out this laptop, connect it to the network, and run the signing process.  The signed results can then be published via the network connection.  When the signing is complete, the machine can be turned off and disconnected and kept in a safe place."
-msgstr ""
+msgstr "Zacznij od laptopa, który można wyczyścić i przebudować od zera. Najważniejsze jest to, że zainstalowane jest na nim tylko niezbędne oprogramowanie i nic więcej. W ogóle nie włączaj żadnej przeglądarki, ponieważ jest to najpowszechniejszy wektor ataku. Żadne ustawienia dostępu zdalnego (np. SSH lub VNC) nie powinny być instalowane ani konfigurowane. Aby podpisywać aplikacje i repozytorium, ktoś wyjąłby tego laptopa, podłączył go do sieci i uruchomił proces podpisywania. Podpisane wyniki można następnie opublikować za pośrednictwem połączenia sieciowego. Po zakończeniu podpisywania urządzenie można wyłączyć, odłączyć i przechowywać w bezpiecznym miejscu."
 
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
 msgid "This could be made quite automatic with some custom scripts.  The person running the process would only need to take out the machine, connect it, turn it on, wait until the process completes, then put it all away again."
-msgstr ""
+msgstr "Można to zrobić całkiem automatycznie za pomocą niektórych niestandardowych skryptów. Osoba prowadząca proces musiałaby jedynie wyjąć maszynę, podłączyć ją, włączyć, poczekać, aż proces się zakończy, a następnie odłożyć wszystko ponownie."
 
 #. type: Title ###
 #: build/_docs/md/Building_a_Signing_Server.md
 #, no-wrap
 msgid "Fully offline signing laptop with USB thumb drives"
-msgstr ""
+msgstr "W pełni offline, podpisując laptopa z pamięci USB"
 
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
 msgid "This process is based on the same basic, stripped down laptop as the previous example.  But this time, the networking should be entirely disabled before the install process.  For example, it is easy in many laptops to physically remove the WiFi card.  Therefore, it makes sense to use a laptop that does not include an ethernet jack, which are usually not possible to remove.  Otherwise, blacklisting all kernel modules related to neworking can suffice.  Since this machine is fully offline, the extra work of using an HSM is not as important, but it can't hurt to include it."
-msgstr ""
+msgstr "en proces opiera się na tym samym podstawowym, zdemontowanym laptopie, jak w poprzednim przykładzie. Ale tym razem sieć powinna być całkowicie wyłączona przed procesem instalacji. Na przykład w wielu laptopach łatwo jest fizycznie usunąć kartę WiFi. Dlatego warto używać laptopa, który nie ma gniazda ethernetowego, którego zwykle nie można usunąć. W przeciwnym razie wystarczy czarna lista wszystkich modułów jądra związanych z nowością. Ponieważ to urządzenie jest w pełni niedostępne, dodatkowa praca z wykorzystaniem HSM nie jest tak ważna, ale nie zaszkodzi go uwzględnić."
 
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
 msgid "Download the full \"CD\" or \"DVD\" image of Debian to run the install.  Be sure to [verify](https://www.debian.org/CD/verify) the GPG signatures and the SHA-256 hashes.  One essential utility is _apt-offline_, which automates the process of downloading Debian packages, verifying their signatures, and copying them over to an offline machine."
-msgstr ""
+msgstr "Pobierz pełny obraz Debiana \"CD\" lub \"DVD\", aby uruchomić instalację. Upewnij się, że zweryfikujesz (https://www.debian.org/CD/verify) podpisy GPG i skróty SHA-256. Jednym z podstawowych narzędzi jest _apt-offline_, który automatyzuje proces pobierania pakietów Debiana, weryfikowania ich podpisów i kopiowania ich na komputer offline."
 
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
 msgid "To be extra careful, all of the software used should be verified.  Chromebooks are nice, cheap laptops that run Linux natively.  They also use Coreboot for the BIOS."
-msgstr ""
+msgstr "Aby zachować szczególną ostrożność, całe oprogramowanie powinno zostać zweryfikowane. Chromebooki to ładne, tanie laptopy z systemem Linux. Używają także Coreboot do BIOS-u."
 
 #. type: Bullet: '* '
 #: build/_docs/md/Building_a_Signing_Server.md
 msgid "Buy a computer off the shelf with cash, avoid having it shipped, especially across borders"
-msgstr ""
+msgstr "Kup komputer z półki za gotówkę, unikaj wysyłania go, zwłaszcza za granicę"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Building_a_Signing_Server.md
 msgid "Buy a Debian-supported [Chromebook](https://www.chromium.org/chromium-os/developer-information-for-chrome-os-devices/acer-c720-chromebook) with removeable WiFi hardware, and needs no binary blobs"
-msgstr ""
+msgstr "Kup Chromebooka z obsługą Debiana (https://www.chromium.org/chromium-os/developer-information-for-chrome-os-devices/acer-c720-chromebook) z odłączalnym sprzętem WiFi i nie wymaga binarnej plamki"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Building_a_Signing_Server.md
 msgid "Install a reproducibly built coreboot binary"
-msgstr ""
+msgstr "Zainstaluj odtwarzany plik binarny coreboot"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Building_a_Signing_Server.md
 msgid "Install from a reproducibly built Debian image, wiping out Chrome OS entirely"
-msgstr ""
+msgstr "Zainstaluj z odtwarzanego obrazu Debiana, całkowicie usuwając system operacyjny Chrome"
 
 #. type: Title ##
 #: build/_docs/md/Building_a_Signing_Server.md
 #, no-wrap
 msgid "The Physical Environment"
-msgstr ""
+msgstr "Środowisko fizyczne"
 
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
 msgid "The last thing to consider is the physical location where signatures happen, and where essential equipment is stored.  The signing environment must be physically secure. Otherwise, there is no way to prevent laptops or HSMs from being lost or used to sign inappropriate content.  For the offline machines, keeping them in a locked room is a good start.  For an online machine, forcing all network traffic and remote access over Tor hides the physical location of the machine from network observers."
-msgstr ""
+msgstr "Ostatnią rzeczą do rozważenia jest fizyczna lokalizacja, w której odbywają się podpisy i gdzie przechowywane są niezbędne urządzenia. Warunki podpisywania muszą być fizycznie bezpieczne. W przeciwnym razie nie można zapobiec zgubieniu laptopów lub HSM lub użyć ich do podpisywania nieodpowiednich treści. W przypadku urządzeń pracujących w trybie offline utrzymanie ich w zamkniętym pomieszczeniu to dobry początek. W przypadku komputera online wymuszenie całego ruchu sieciowego i zdalnego dostępu przez Tora powoduje ukrycie fizycznej lokalizacji urządzenia przed obserwatorami sieci."
 
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
 msgid "For high risk signing keys, using multiple layers of defense is important:"
-msgstr ""
+msgstr "W przypadku kluczy podpisywania wysokiego ryzyka ważne jest używanie wielu warstw obrony:"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Building_a_Signing_Server.md
 msgid "Restricted physical access to HSMs or smart cards"
-msgstr ""
+msgstr "Ograniczony fizyczny dostęp do HSM lub kart inteligentnych"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Building_a_Signing_Server.md
 msgid "Security cameras"
-msgstr ""
+msgstr "Kamery bezpieczeństwa"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Building_a_Signing_Server.md
 msgid "Onsite security guards"
-msgstr ""
+msgstr "Ochroniarze na miejscu"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Building_a_Signing_Server.md
 msgid "Visitor logging"
-msgstr ""
+msgstr "Rejestracja odwiedzających"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Building_a_Signing_Server.md
 msgid "A tools-resistant server safe for online code-signing servers"
-msgstr ""
+msgstr "Bezpieczny serwer odporny na ataki dla serwerów podpisujących kody online"
 
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
