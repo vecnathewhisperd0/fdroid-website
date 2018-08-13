@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-07-13 10:54+0200\n"
-"PO-Revision-Date: 2018-08-12 16:50+0000\n"
+"PO-Revision-Date: 2018-08-14 11:41+0000\n"
 "Last-Translator: WaldiS <admin@sto.ugu.pl>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/f-droid/website-docs/pl/>\n"
 "Language: pl\n"
@@ -426,9 +426,8 @@ msgstr "Wzdłuż podobnych linii (i tylko w połączeniu z `--test`, możesz uż
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md
-#, fuzzy
 msgid "If the build was unsuccessful, you can find out why by looking at the output in the logs/ directory. If that isn’t illuminating, try building the app the regular way, step by step: android update project, ndk-build, ant debug."
-msgstr "Jeśli kompilacja nie powiodła się, możesz dowiedzieć się dlaczego, patrząc na dane wyjściowe w katalogu logs. Jeśli to nie oświetla, spróbuj zbudować aplikację w regularny sposób, krok po kroku: projekt aktualizacji Android, ndk-build, mrówka debugowania."
+msgstr "Jeśli kompilacja nie powiodła się, możesz dowiedzieć się dlaczego, patrząc na dane wyjściowe w katalogu logs. Jeśli to się nie wyświetla, spróbuj zbudować aplikację w regularny sposób, krok po kroku: projekt aktualizacji Android, ndk-build, mrówka debugowania (ang. ant debug)."
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md
@@ -620,99 +619,99 @@ msgstr "Bezpieczny serwer odporny na ataki dla serwerów podpisujących kody onl
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
 msgid "The signing server should be physically separate from the rest of the infrastructure.  And the logs, machine, and network should be periodically audited."
-msgstr ""
+msgstr "Serwer podpisujący powinien być fizycznie oddzielony od reszty infrastruktury. Dzienniki, maszyny i sieć powinny być okresowo kontrolowane."
 
 #. type: Title ##
 #: build/_docs/md/Building_a_Signing_Server.md
 #, no-wrap
 msgid "Difficult decisions"
-msgstr ""
+msgstr "Trudne decyzje"
 
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
 msgid "Ideally all of these practices would be put into place, but each of these security measures comes at a cost of difficulty, expense, and complexity.  They can also delay the process of getting regular updates out.  So there are risks of implementing too strict security policies, much like the risks of not implementing enough."
-msgstr ""
+msgstr "Najlepiej byłoby, gdyby wszystkie te praktyki zostały wprowadzone, ale każdy z tych środków bezpieczeństwa wiąże się z kosztem trudności, kosztów i złożoności. Mogą również opóźnić proces uzyskiwania regularnych aktualizacji. Istnieje ryzyko wprowadzenia zbyt restrykcyjnych polityk bezpieczeństwa, podobnie jak ryzyko niewystarczającego wdrożenia."
 
 #. type: Title #
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "Build Metadata Reference"
-msgstr ""
+msgstr "Utwórz odwołania do metadanych"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "Information used by `fdroid update` to compile the public index comes from several sources:"
-msgstr ""
+msgstr "Informacje wykorzystywane przez 'aktualizacja fdroid' do kompilacji publicznego indeksu pochodzi z kilku źródeł:"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "APK, media, etc files in the _repo_ sub-directory"
-msgstr ""
+msgstr "Pliki APK, media, itp. w podkatalogu _repo_ sub-directory"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "per-package \"metadata\" files in the _metadata_ sub-directory"
-msgstr ""
+msgstr "pakiet \"metadanych\" pliki w podkatalogu the _metadata_ sub-directory"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "[localizable texts and graphics](../All_About_Descriptions_Graphics_and_Screenshots#in-the-apps-build-metadata-in-an-fdroiddata-collection) in the _metadata_ subdirectory"
-msgstr ""
+msgstr "[zlokalizowalne teksty i grafika] (../All_About_Descriptions_Graphics_and_Screenshots#in-the-apps-build-metadata-in-an-fdroiddata-collection) w podkatalogu_metadata_ subdirectory"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "localizable texts and graphics [embedded in an app's source code](../All_About_Descriptions_Graphics_and_Screenshots#in-the-apps-source-repository)"
-msgstr ""
+msgstr "zlokalizowane teksty i grafika [osadzone w kodzie źródłowym aplikacji] (../All_About_Descriptions_Graphics_and_Screenshots#in-the-apps-source-repository)"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "These metadata files are simple, easy to edit text files, always named as the \"package name\" with file type appended.  There are a wide range of available fields for adding information to describe packages and/or apps.  For all of the fields like `AuthorName` that apply to all releases of a package/app, the fields use CamelCase starting with an upper case letter.  All other fields use camelCase starting with a lower case letter, including per-build fields, localized fields, etc."
-msgstr ""
+msgstr "Te pliki metadanych to proste, łatwe do edycji pliki tekstowe, zawsze nazywane \"nazwą pakietu\" z dodanym typem pliku. Istnieje szeroki zakres dostępnych pól do dodawania informacji do opisu pakietów i/lub aplikacji. W przypadku wszystkich pól, takich jak \"AuthorName\", które dotyczą wszystkich wydań pakietu/aplikacji, pola korzystają z CamelCase zaczynając od dużej litery. Wszystkie inne pola korzystają z camelCase zaczynając od małej litery, w tym pól typu per-build, zlokalizowanych pól itp."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "There are three supported file types for metadata files:"
-msgstr ""
+msgstr "Istnieją trzy obsługiwane typy plików dla plików metadanych:"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "_.yml_ files in [YAML](http://www.yaml.org/start.html) format, used by f-droid.org"
-msgstr ""
+msgstr "_.yml_ files w [YAML](http://www.yaml.org/start.html) format używany przez f-droid.org"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "_.txt_ files in the old, custom, F-Droid text-based format"
-msgstr ""
+msgstr "_.txt_ files w starym, niestandardowym formacie tekstowym F-Droid"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "_.json_ files in [JSON](http://json.org/) format"
-msgstr ""
+msgstr "_.json_ files format w [JSON](http://json.org/)"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "Note that although the metadata files are designed to be easily read and writable by humans, they are also processed and written by various scripts. They can be automatically cleaned up when necessary. The structure and comments will be preserved correctly, although the order of fields will be standardised. (In the event that the original file was in a different order, comments are considered as being attached to the field following them). In fact, you can standardise all packages in a repository using a single command, without changing the functional content, by running:"
-msgstr ""
+msgstr "Zauważ, że chociaż pliki metadanych są zaprojektowane tak, aby były łatwe do odczytania i zapisu przez ludzi, są one również przetwarzane i pisane przez różne skrypty. W razie potrzeby można je automatycznie oczyścić. Struktura i komentarze zostaną zachowane poprawnie, chociaż kolejność pól będzie ustandaryzowana. (W przypadku, gdy oryginalny plik był w innej kolejności, komentarze są traktowane jako dołączone do pola następującego po nich). W rzeczywistości można ujednolicić wszystkie pakiety w repozytorium za pomocą pojedynczego polecenia, bez zmiany zawartości funkcjonalnej, uruchamiając:"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "``` fdroid rewritemeta ```"
-msgstr ""
+msgstr "``` fdroid rewritemeta ```"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "Or just run it on a specific app:"
-msgstr ""
+msgstr "Lub po prostu uruchom go na konkretnej aplikacji:"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "``` fdroid rewritemeta org.adaway ```"
-msgstr ""
+msgstr "``` fdroid rewritemeta org.adaway ```"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "The following sections describe the fields recognised within the file."
-msgstr ""
+msgstr "Poniższe sekcje opisują pola rozpoznane w pliku."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -723,67 +722,67 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.1 Categories<a name=\"Categories\"></a>"
-msgstr ""
+msgstr "7.1 Kategorie<a name=\"Categories\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "Any number of categories for the application to be placed in. There is no fixed list of categories - both the client and the web site will automatically show any categories that exist in any applications.  However, if your metadata is intended for the main F-Droid repository, you should use one of the existing categories (look at the site/client), or discuss the proposal to add a new one."
-msgstr ""
+msgstr "Dowolna liczba kategorii dla aplikacji, w której zostanie umieszczony. Nie ma ustalonej listy kategorii - zarówno klient, jak i strona internetowa automatycznie pokażą wszystkie kategorie istniejące w dowolnych aplikacjach. Jeśli jednak twoje metadane są przeznaczone dla głównego repozytorium F-Droid, powinieneś użyć jednej z istniejących kategorii (spójrz na stronę/klienta) lub omów propozycję, aby dodać nową."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "Categories must be separated by a single comma character, ’,’. For backwards compatibility, F-Droid will use the first category given as &lt;category&gt; element for older clients to at least see one category."
-msgstr ""
+msgstr "Kategorie muszą być oddzielone pojedynczym znakiem przecinka, ','. W celu zapewnienia kompatybilności wstecznej, F-Droid użyje pierwszej kategorii podanej jako &lt;category&gt; element dla starszych klientów, aby przynajmniej zobaczył jedną kategorię."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "This is converted to (`<categories>`) in the XML file (_index.xml_).\n"
-msgstr ""
+msgstr "To jest konwertowane na (`<categories>`) w pliku XML (_index.xml_).\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.2 Author Name<a name=\"Author-Name\"></a>"
-msgstr ""
+msgstr "7.2 Nazwa Autora<a name=\"Author-Name\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "The name of the author, either full, abbreviated or pseudonym. If present, it should represent the name(s) as published by upstream, e.g.  in their copyright or authors file. This can be omitted (or left blank)."
-msgstr ""
+msgstr "Imię i nazwisko autora, pełne, skrócone lub pseudonim. Jeśli jest obecny, powinien reprezentować nazwę (nazwy) opublikowane w pliku nadrzędnym, np. prawa autorskie lub autorskim pliku. Można to pominąć (lub pozostawić puste)."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "__Warning__: this overrides all Author Name entries [set in the app's source code](../All_About_Descriptions_Graphics_and_Screenshots)."
-msgstr ""
+msgstr "__Warning__: to przesłonięcie wszystkich wpisów nazw autorów [ustawionych w kodzie źródłowym aplikacji](../All_About_Descriptions_Graphics_and_Screenshots)."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "This is converted to (`<author>`) in the XML file (_index.xml_).\n"
-msgstr ""
+msgstr "To jest konwertowane na (`<author>`) w pliku XML (_index.xml_).\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.3 Author Email<a name=\"Author-Email\"></a>"
-msgstr ""
+msgstr "7.3 Email Autora<a name=\"Author-Email\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "The e-mail address of the author(s). This can be omitted (or left blank)."
-msgstr ""
+msgstr "Adres e-mail autora (ów). Można to pominąć (lub pozostawić puste)."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "__Warning__: this overrides all Author Email entries [set in the app's source code](../All_About_Descriptions_Graphics_and_Screenshots)."
-msgstr ""
+msgstr "__Warning__: powoduje to zastąpienie wszystkich wpisów w e-mailu autora [ustawionych w kodzie źródłowym aplikacji](../All_About_Descriptions_Graphics_and_Screenshots)."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "This is converted to (`<email>`) in the XML file (_index.xml_).\n"
-msgstr ""
+msgstr "To jest konwertowane na (`<email>`) w pliku XML (_index.xml_).\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
