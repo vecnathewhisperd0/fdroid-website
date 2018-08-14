@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-07-13 10:54+0200\n"
-"PO-Revision-Date: 2018-08-14 11:41+0000\n"
+"PO-Revision-Date: 2018-08-15 17:39+0000\n"
 "Last-Translator: WaldiS <admin@sto.ugu.pl>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/f-droid/website-docs/pl/>\n"
 "Language: pl\n"
@@ -788,23 +788,23 @@ msgstr "To jest konwertowane na (`<email>`) w pliku XML (_index.xml_).\n"
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.4 License<a name=\"License\"></a>"
-msgstr ""
+msgstr "7.4 Licencja<a name=\"License\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "The overall license for the application in terms of the binary that the user can install. Values should correspond to short identifiers of the [SPDX](https://spdx.org/licenses/) license list. There can only be one license listed here. If there are multiple licenses that apply to the source code, then this field should contain the least restrictive license that the whole app can be used under.  When multiple licenses are combined, that usually means the most restrictive wins."
-msgstr ""
+msgstr "Ogólna licencja dla aplikacji pod względem plików binarnych, które użytkownik może zainstalować. Wartości powinny odpowiadać krótkim identyfikacjom na liście licencji [SPDX] (https://spdx.org/licenses/). Tutaj może być tylko jedna licencja. Jeśli istnieje wiele licencji, które mają zastosowanie do kodu źródłowego, to pole powinno zawierać najmniej restrykcyjną licencję, na której można używać w całej aplikacji. Gdy połączonych jest wiele licencji, zwykle oznacza to najbardziej restrykcyjne wygrane."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "This field cannot represent the complexity of licenses that apply to parts of the app, or apps that have the entire thing released under more than one license."
-msgstr ""
+msgstr "To pole nie może reprezentować złożoności licencji, które dotyczą części aplikacji lub aplikacji, które mają całą wydaną wersję na podstawie więcej niż jednej licencji."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "This is converted to (`<license>`) in the XML file (_index.xml_).\n"
-msgstr ""
+msgstr "To jest konwertowane na (`<license>`) w pliku XML (_index.xml_).\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -815,7 +815,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "The name of the application as can best be retrieved from the source code. This is done so that the commitupdates script can put a familiar name in the description of commits created when a new update of the application is found. The Auto Name entry is generated automatically when `fdroid checkupdates` is run."
-msgstr ""
+msgstr "Nazwa aplikacji może być najlepiej pobrana z kodu źródłowego. Dzieje się to tak, że skrypt commitupdates może umieścić znaną nazwę w opisie commitów utworzonych po znalezieniu nowej aktualizacji aplikacji. Wpis Auto Name jest generowany automatycznie po uruchomieniu `fdroid checkupdates`."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
