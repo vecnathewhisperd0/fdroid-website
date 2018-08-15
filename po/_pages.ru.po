@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-06-30 12:21+0200\n"
-"PO-Revision-Date: 2018-08-15 15:34+0000\n"
-"Last-Translator: mesnevi <shams@airpost.net>\n"
+"PO-Revision-Date: 2018-08-15 19:16+0000\n"
+"Last-Translator: Andrey <andrey@mailbox.org>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/f-droid/website-pages/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
@@ -71,22 +71,22 @@ msgstr "Лицензия"
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "The source code for this site and the content produced by the F-Droid community are a availble under the [GNU Affero General Public License version 3 or later (AGPLv3+)](https://www.gnu.org/licenses/agpl-3.0.html)."
-msgstr "Исходный код этой страницы и всего её содержимого написан сообществом F-Droid и доступен согласно [публичной лицензии GNU Affero General 3 или более поздней версии (AGPLv3+)](https://www.gnu.org/licenses/agpl-3.0.html)."
+msgstr "Исходный код этого сайта и контент, созданный сообществом F-Droid, доступны под [публичной лицензией GNU Affero General 3 или более поздней версии (AGPLv3+)](https://www.gnu.org/licenses/agpl-3.0.html)."
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "The content of the news section and the F-Droid logo are also available under [Creative Commons Attribution-ShareAlike 3.0 License (CC-BY-SA-3.0)](http://creativecommons.org/licenses/by-sa/3.0/) or [GNU General Public License version 3 or later (GPLv3+)](https://www.gnu.org/licenses/gpl-3.0.html)."
-msgstr "Содержимое секции \"Что нового\" и логотип F-Droid также доступны согласно [Creative Commons Attribution-ShareAlike 3.0 лицензии (CC-BY-SA-3.0)](http://creativecommons.org/licenses/by-sa/3.0/) или [GNU General Public License 3 или более поздней версии (GPLv3+)](https://www.gnu.org/licenses/gpl-3.0.html)."
+msgstr "Содержимое раздела новостей и логотип F-Droid также доступны под [лицензией Creative Commons Attribution-ShareAlike 3.0 (CC-BY-SA-3.0)](http://creativecommons.org/licenses/by-sa/3.0/) или [публичной лицензией GNU General 3 или более поздней версии (GPLv3+)](https://www.gnu.org/licenses/gpl-3.0.html)."
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "The descriptive text and graphics for each app have a specific license from that project.  Free software should also have free descriptions and graphics."
-msgstr "Текст и картинки в описании каждого приложения доступны по лицензиям, обозначенным для соответствующих проектов. Обычно у свободного ПО они есть в публичном доступе."
+msgstr "Описательные тексты и изображения для каждого приложения имеют свою специфичную лицензию.  Обычно у свободного ПО они есть и в публичном доступе."
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "The F-Droid logo was created by William Theaker. Updates to that, and additional artwork, are by Robert Martinez."
-msgstr "Создатель логотипа F-droid — William Theaker. Все обновления и любые дополнительные задачи по логотипу выполняет Robert Martinez."
+msgstr "Логотип F-Droid был создан William Theaker. Инновации и художественные изменения - Robert Martinez."
 
 #. type: Title ###
 #: build/_pages/md/about.md
