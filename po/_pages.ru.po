@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-06-30 12:21+0200\n"
-"PO-Revision-Date: 2018-08-15 19:16+0000\n"
-"Last-Translator: mesnevi <shams@airpost.net>\n"
+"PO-Revision-Date: 2018-08-17 11:18+0000\n"
+"Last-Translator: Andrey <andrey@mailbox.org>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/f-droid/website-pages/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
@@ -97,12 +97,12 @@ msgstr "Условия и прочее."
 #. type: Plain text
 #: build/_pages/md/about.md
 msgid "F-Droid is a non-profit [volunteer]({{ \"/contribute/\" | prepend: site.baseurl }}) project. Although every effort is made to ensure that everything in the repository is safe to install, you use it AT YOUR OWN RISK. Wherever possible, applications in the repository are built from source, and that source code is checked for potential security or privacy issues. This checking is far from exhaustive though, and there are no guarantees."
-msgstr "F-Droid — некоммерческий [volunteer]({{ \"/contribute/\" | prepend: site.baseurl }}) проект. Мы прикладываем все силы, чтобы сделать все здешние приложения и их установку безопасными, тем не менее, устанавливая их, ВЫ ДЕЙСТВУЕТЕ НА СВОЙ СТРАХ И РИСК. Все приложения собирают из исходного кода, который предварительно проверяют на потенциальные нарушения безопасности или личного пространства. Впрочем, мы не особо надрываемся, проверяя, поэтому никаких гарантий не даём."
+msgstr "F-Droid — некоммерческий [volunteer]({{ \"/contribute/\" | prepend: site.baseurl }}) проект. Несмотря на все усилия, направленные на обеспечение безопасности всех установок из репозитория, вы действуете  НА СВОЙ СТРАХ И РИСК. По возможности, приложения в репозитории создаются из исходного кода, и этот код проверяется на потенциальные проблемы безопасности и конфиденциальности. Однако эта проверка далеко не исчерпывающая, и никаких гарантий нет."
 
 #. type: Plain text
 #: build/_pages/md/about.md
 msgid "F-Droid respects your privacy. We don’t track you, or your device. We don’t track what you install. You don’t need an account to use the client, and it sends no additional identifying data when talking to our web server other than its version number. We don’t even allow you to install other applications from the repository that track you, unless you first enable ‘Tracking’ in the AntiFeatures section of preferences. Any personal data you decide to give us (e.g. your email address when registering for an account to post on the forum) goes no further than us, and will not be used for anything other than allowing you to maintain your account."
-msgstr "F-Droid уважает ваше личное пространство. Мы не отслеживаем вас или ваше устройство. Мы не отслеживаем, что вы устанавливаете. Для использования клиента не нужно создавать аккаунт, также он не отсылает никаких идентификационных данных во время общения с нашим веб-сервером, кроме номера собственной версии. Мы позволяем устанавливать отслеживающие приложения из репозитория только в том случае,  когда вы включили 'Отслеживание' в разделе Анти-функции в настройках. Любые персональные данные, которые вы решили нам предоставить (например, адрес электронной почты при регистрации учетной записи для публикации на форуме), не идут дальше нас, и не будут использованы ни для чего другого, кроме поддержания вашей учетной записи."
+msgstr "F-Droid уважает ваше личное пространство. Мы не отслеживаем вас или ваше устройство. Мы не отслеживаем, что вы устанавливаете. Для использования клиента не нужно создавать аккаунт, также он не отсылает никаких идентификационных данных во время общения с нашим веб-сервером, кроме номера версии. Мы позволяем устанавливать отслеживающие приложения из репозитория только в том случае, если вы включили 'Отслеживание' в разделе Анти-функции в настройках. Любые персональные данные, которые вы решили нам предоставить (например, адрес электронной почты при регистрации учетной записи для публикации на форуме), не идут дальше нас, и не будут использованы ни для чего другого, кроме поддержания вашей учетной записи."
 
 #. type: Title ###
 #: build/_pages/md/about.md
@@ -113,7 +113,7 @@ msgstr "Участники"
 #. type: Plain text
 #: build/_pages/md/about.md
 msgid "The F-Droid project was founded in 2010 by Ciaran Gultnieks, and is brought to you by at least the following people:"
-msgstr "Проект F-Droid основан в 2010 году Ciaran Gultnieks. Вы пользуетесь им благодаря нижеперечисленным светлым головам:"
+msgstr "Проект F-Droid основан в 2010 году Ciaran Gultnieks и вы имеете удовольствие использовать его благодаря неполному списку следующих участников:"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
