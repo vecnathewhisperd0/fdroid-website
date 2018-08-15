@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-07-13 10:54+0200\n"
-"PO-Revision-Date: 2018-08-03 13:48+0000\n"
+"PO-Revision-Date: 2018-08-17 11:18+0000\n"
 "Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-docs/de/>\n"
 "Language: de\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.1.1\n"
+"X-Generator: Weblate 3.2-dev\n"
 
 #. type: Title #
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -6996,7 +6996,7 @@ msgstr "Die App in das Repository zu bekommen ist nicht das Ende vom Lied: wir m
 #. type: Plain text
 #: build/_docs/md/Repository_Style_Guide.md
 msgid "The most important is to know when new versions are published. We have three automatic methods and one manual: from tags; checking the `AndroidManifest.xml` at the most recent revision in the repository; and checking Google Play. If these won't do, we must look at the version of the package published by the upstream developers, either by loading the Google Play web page or downloading an APK and checking its version.  Repository tags are the natural way of labelling new versions (look for them under \"releases\" on an example in [github.com](https://github.com/dschuermann/document-viewer/releases) or under the \"tags\" directory in the case of SVN repos). If you can't find tags it would be a helpful to make an issue about it on the issue tracker. In the example, we point to a changelog page as a backup check; other possiblities are a Google Code download page or a Google Play link."
-msgstr "Das Wichtigste ist zu wissen, wann neue Versionen veröffentlicht werden. Wir haben drei automatische Methoden und ein Handbuch: von Tags; durch Überprüfung der `AndroidManifest.xml` bei der letzten Revision im Repository; und durch Überprüfung bei Google Play. Wenn dies nicht der Fall ist, müssen wir uns die Version des Pakets ansehen, die von den Upstream-Entwicklern veröffentlicht wurde, indem wir entweder die Google Play-Webseite laden oder ein APK herunterladen und dessen Version überprüfen.  Repository-Tags sind die natürliche Art, neue Versionen zu kennzeichnen (siehe unter \"releases\" auf einem Beispiel in [github.com](https://github.com/dschuermann/document-viewer/releases) oder unter dem Verzeichnis \"tags\" im Falle von SVN repos). Wenn Sie keine Tags finden können, wäre es hilfreich, ein Issue damit im Issue Tracker anzulegen. Im Beispiel zeigen wir auf eine Changelog-Seite als Backup-Check; andere Möglichkeiten sind eine Google Code Download-Seite oder ein Google Play-Link."
+msgstr "Das Wichtigste ist zu wissen, wann neue Versionen veröffentlicht werden. Wir haben drei automatische Methoden und eine manuelle: von Tags; durch Überprüfung der `AndroidManifest.xml` bei der letzten Revision im Repository und durch Überprüfung bei Google Play. Wenn dies nicht zutrifft, müssen wir uns die Version des Pakets ansehen, die von den Upstream-Entwicklern veröffentlicht wurde, indem wir entweder die Google Play-Webseite laden oder ein APK herunterladen und dessen Version überprüfen.  Repository-Tags sind die normale Art, neue Versionen zu kennzeichnen (siehe unter \"releases\" in einem Beispiel auf [github.com](https://github.com/dschuermann/document-viewer/releases) oder unter dem Verzeichnis \"tags\" bei SVN Repos). Wenn Sie keine Tags finden können, hilft es, ein Issue damit im Issue Tracker anzulegen. Im Beispiel zeigen wir auf eine Changelog-Seite als Backup-Check; andere Möglichkeiten sind eine Google Code Download-Seite oder ein Google Play-Link."
 
 #. type: Title ###
 #: build/_docs/md/Reproducible_Builds.md
@@ -7627,23 +7627,23 @@ msgstr "Sie können viele Aspekte der Darstellung einer App in Ihrem Repo steuer
 #. type: Plain text
 #: build/_docs/md/Setup_an_F-Droid_App_Repo.md
 msgid "`Current Version Code` provides a handy way to deploy beta releases in the same stream as your full releases. You can set `Current Version Code` to your current stable release, then add APKs to your repo. Users will only be updated automatically to the version code you specify. Any APKs for a given app in your repo that have a newer version code will not be automatically installed. Instead, the user can see them in the app detail view in the client, and can manually install them."
-msgstr ""
+msgstr "`Current Version Code` bietet eine praktische Möglichkeit, Beta-Versionen im selben Stream wie Ihre Vollversionen zu verteilen. Sie können `Current Version Code` auf Ihre aktuelle stabile Version setzen und dann APKs zu Ihrem Repo hinzufügen. Benutzer werden nur automatisch auf den von Ihnen angegebenen Versionscode aktualisiert. Alle APKs für eine bestimmte Anwendung in Ihrem Repo, die einen neueren Versionscode haben, werden nicht automatisch installiert. Stattdessen kann der Benutzer sie in der App-Detailansicht im Client sehen und manuell installieren."
 
 #. type: Title ##
 #: build/_docs/md/Setup_an_F-Droid_App_Repo.md
 #, no-wrap
 msgid "Real World Setup"
-msgstr ""
+msgstr "Reales Setup"
 
 #. type: Plain text
 #: build/_docs/md/Setup_an_F-Droid_App_Repo.md
 msgid "Now that you have a working repo, it is straightforward to create a real world setup. Generating a repo in place like we did above is very easy, that is why this HOWTO started there, but it is not as secure as it should be if your repo is going to be your main distribution point. For example, the repo signing keys should not ever be on a public server."
-msgstr ""
+msgstr "Jetzt, da Sie ein funktionierendes Repo haben, ist es einfach, ein reales Setup zu erstellen. Ein Repo zu generieren, wie oben, ist sehr einfach, deshalb hat dieses HOWTO dort begonnen, aber es ist nicht so sicher, wie es sein sollte, wenn Ihr Repo Ihr Hauptverteilungspunkt sein wird. Beispielsweise sollten sich die Repo-Signaturschlüssel niemals auf einem öffentlichen Server befinden."
 
 #. type: Plain text
 #: build/_docs/md/Setup_an_F-Droid_App_Repo.md
 msgid "To improve this situation, generate the repo on a non-public machine like your laptop, keeping _config.py_ and the keystore only on that machine (remember to make backups!). Then use `fdroid server update` to publish the changes to your repo on a separate server via ssh. So start a new repo from scratch on your non-public machine:"
-msgstr ""
+msgstr "Um diese Situation zu verbessern, erzeugen Sie das Repo auf einem nicht-öffentlichen Rechner wie Ihrem Laptop, wobei Sie _config.py_ und den Schlüsselspeicher nur auf diesem Rechner behalten (denken Sie daran, Backups zu erstellen!). Verwenden Sie dann `fdroid server update`, um die Änderungen an Ihrem Repo auf einem separaten Server via ssh zu veröffentlichen. Also starten Sie ein neues Repo von Grund auf neu auf Ihrer nicht-öffentlichen Maschine:"
 
 #. type: Plain text
 #: build/_docs/md/Setup_an_F-Droid_App_Repo.md
@@ -7653,7 +7653,7 @@ msgstr "```bash mkdir ~/fdroid cd ~/fdroid fdroid init cp /path/to/\\*.apk ~/fdr
 #. type: Plain text
 #: build/_docs/md/Setup_an_F-Droid_App_Repo.md
 msgid "Now edit _config.py_ to set `serverwebroot`, it is in the form of a standard SCP file destination. Then `fdroid server update` will do the publishing via rsync over ssh. So both computers will have to have ssh and rsync installed and setup. You can also use your own existing signing key rather than the one generated by `fdroid init`, just edit `repo_keyalias`, `keystore`, `keystorepass`, `keypass`, and `keydname` in _~/fdroid/config.py_."
-msgstr ""
+msgstr "Bearbeiten Sie nun _config.py_, um `serverwebroot` zu setzen, es hat die Form eines Standard-SCP-Dateiziels. Dann wird `fdroid server update` die Veröffentlichung über rsync über ssh durchführen. Beide Computer müssen also ssh und rsync installiert und eingerichtet haben. Sie können auch Ihren eigenen vorhandenen Signierschlüssel verwenden, anstatt den von `fdroid init` erzeugten, bearbeiten Sie einfach `repo_keyalias`, `keystore`, `keystorepass`, `keypass` und `keydname` in _~/fdroid/config.py_."
 
 #. type: Title #
 #: build/_docs/md/Signing_Process.md
@@ -7736,38 +7736,38 @@ msgstr "Ein neuer Schlüssel wird unter Verwendung dieser Details für jede herz
 #: build/_docs/md/Signing_Process.md
 #, no-wrap
 msgid "Package Signing"
-msgstr ""
+msgstr "Paketsignierung"
 
 #. type: Plain text
 #: build/_docs/md/Signing_Process.md
 msgid "All packages built and/or distributed using F-Droid tools can also be signed by PGP using [GnuPG](https://gnupg.org), anything from APKs to media files will be signed.  This process is run with `fdroid gpgsign`.  Add `gpghome` and `gpgkey` to your _config.py_ to configure it, there is more information in [examples/config.py][examples/config.py]."
-msgstr ""
+msgstr "Alle Pakete, die mit F-Droid-Tools erstellt und/oder verteilt werden, können auch von PGP mit [GnuPG](https://gnupg.org) signiert werden, von APKs bis hin zu Mediendateien.  Dieser Prozess wird mit `fdroid gpgsign` ausgeführt.  Fügen Sie `gpghome` und `gpgkey` zu Ihrer _config.py_ hinzu, um sie zu konfigurieren, weitere Informationen finden Sie in [examples/config.py][examples/config.py]."
 
 #. type: Title ###
 #: build/_docs/md/Signing_Process.md
 #, no-wrap
 msgid "Hardware Security Modules"
-msgstr ""
+msgstr "Hardware-Sicherheitsmodule"
 
 #. type: Plain text
 #: build/_docs/md/Signing_Process.md
 msgid "Hardware Security Modules (HSMs) are specially designed pieces of hardware for securely storing and using cryptographic keys.  They provide write-only storage, so that a private key can only be written to the HSM and never read off of it.  _fdroidserver_ has support for using HSMs for repo signing keys."
-msgstr ""
+msgstr "Hardware-Sicherheitsmodule (Hardware Security Modules, HSMs) sind speziell für die sichere Speicherung und Verwendung von kryptographischen Schlüsseln entwickelte Hardwarekomponenten.  Sie bieten Nur-schreib-Speicher, so dass ein privater Schlüssel nur auf das HSM geschrieben und nie ausgelesen werden kann.  _fdroidserver_ unterstützt die Verwendung von HSMs für die Repo-Signierung von Schlüsseln."
 
 #. type: Plain text
 #: build/_docs/md/Signing_Process.md
 msgid "For information on how to configure an F-Droid repo to use an HSM, see the \"smartcard\" sections of [examples/config.py][examples/config.py], specifically `keystore` and `smartcardoptions`.  Most likely, [OpenSC](https://github.com/OpenSC/OpenSC) will need to be set up as a PKCS11 provider for Java."
-msgstr ""
+msgstr "Informationen zur Konfiguration eines F-Droid-Repos für die Verwendung eines HSM finden Sie in den Abschnitten \"Smartcard\" von [examples/config.py][examples/config.py], insbesondere `keystore` und `smartcardoptions`.  Höchstwahrscheinlich muss [OpenSC](https://github.com/OpenSC/OpenSC) als PKCS11-Provider für Java eingerichtet werden."
 
 #. type: Plain text
 #: build/_docs/md/Signing_Process.md
 msgid "For more in-depth information, see [Security in a thumb drive: the promise and pain of hardware security modules, take one!](https://guardianproject.info/2014/03/28/security-in-a-thumb-drive-the-promise-and-pain-of-hardware-security-modules-take-one/)"
-msgstr ""
+msgstr "Ausführlichere Informationen finden Sie unter [Sicherheit im USB-Stick: das Versprechen und das Schmerzhafte über Hardware-Sicherheitsmodule, wählen Sie eins!](https://guardianproject.info/2014/03/28/security-in-a-thumb-drive-the-promise-and-pain-of-hardware-security-modules-take-one/)"
 
 #. type: Plain text
 #: build/_docs/md/Signing_Process.md
 msgid "[examples/config.py]: https://gitlab.com/fdroid/fdroidserver/blob/0.7.0/examples/config.py \"example config file\""
-msgstr ""
+msgstr "[examples/config.py]: https://gitlab.com/fdroid/fdroidserver/blob/0.7.0/examples/config.py \"Beispielkonfigurationsdatei\""
 
 #. type: Title #
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
@@ -7784,17 +7784,17 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
 msgid "by Andy Balaam, original at [artificialworlds.net](http://www.artificialworlds.net/blog/2017/01/17/submitting-a-package-to-f-droid/)"
-msgstr ""
+msgstr "von Andy Balaam, Original bei [artificialworlds.net](http://www.artificialworlds.net/blog/2017/01/17/submitting-a-package-to-f-droid/)"
 
 #. type: Plain text
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
 msgid "Here's what I needed to get a dev environment for [F-Droid](https://f-droid.org/) up and running on Ubuntu 16.10, using F-Droid server version 0.7.0 (commit id 8147f9235), so that I could submit a package for inclusion in the F-Droid repository."
-msgstr ""
+msgstr "Nachfolgend was ich brauchte, um eine Entwicklungsumgebung für [F-Droid](https://f-droid.org/) unter Ubuntu 16.10 mit F-Droid Server Version 0.7.0 (Commit-ID 8147f9235) zu bekommen, damit ich ein Paket zur Aufnahme in das F-Droid Repository einreichen konnte."
 
 #. type: Plain text
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
 msgid "Doing this is apparently the best way to get your own package into the repository, since you can provide a direct merge request for the metadata about your package, making it easy for the maintainers."
-msgstr ""
+msgstr "Dies ist anscheinend der beste Weg, um Ihr eigenes Paket in das Repository zu bekommen, da Sie eine direkte Merge-Anfrage für die Metadaten zu Ihrem Paket stellen können, was es für die Betreuer einfach macht."
 
 #. type: Bullet: '* '
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
@@ -7804,7 +7804,7 @@ msgstr "[F-Droid-Handbuch](https://f-droid.org/docs/)"
 #. type: Bullet: '* '
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
 msgid "[F-Droid's CONTRIBUTING.md](https://gitlab.com/fdroid/fdroiddata/blob/master/CONTRIBUTING.md)"
-msgstr ""
+msgstr "[F-Droid's CONTRIBUTING.md](https://gitlab.com/fdroid/fdroiddata/blob/master/CONTRIBUTING.md)"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
@@ -7814,7 +7814,7 @@ msgstr "[F-Droid-Schnellanleitung](https://gitlab.com/fdroid/fdroiddata/blob/mas
 #. type: Bullet: '* '
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
 msgid "[Contribute to F-Droid](https://f-droid.org/contribute/)"
-msgstr ""
+msgstr "[Zu F-Droid beitragen](https://f-droid.org/contribute/)"
 
 #. type: Title ####
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
@@ -7825,12 +7825,12 @@ msgstr "Einrichtung"
 #. type: Plain text
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
 msgid "Before you start, manually install the Android SDK at ~/Android/Sdk/ - see [Download Android Studio](https://developer.android.com/studio/index.html#downloads).  I installed version 23.0.2, but you will probably have a later one and may need to adjust the version number below."
-msgstr ""
+msgstr "Bevor Sie beginnen, installieren Sie das Android SDK unter ~/Android/Sdk/, siehe [Download Android Studio](https://developer.android.com/studio/index.html#downloads). Ich installierte Version 23.0.2, aber Sie werden wahrscheinlich eine jüngere haben und möglicherweise müssen Sie die Versionsnummer unten anpassen."
 
 #. type: Plain text
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
 msgid "Note: If you're only planning to contribute a package I'm fairly certain you don't need to install the Android SDK at all - you can just use the build server by running ./makebuildserver as I outline below."
-msgstr ""
+msgstr "Hinweis: Wenn Sie nur planen, ein Paket beizusteuern, bin ich mir ziemlich sicher, dass Sie das Android SDK überhaupt nicht installieren müssen - Sie können einfach den Build-Server verwenden indem Sie ./makebuildserver ausführen, wie unten beschrieben."
 
 #. type: Plain text
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
@@ -8065,17 +8065,17 @@ msgstr "```bash fdroid build --server -v -l net.artificialworlds.rabbitescape ``
 #. type: Plain text
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
 msgid "Actually, it didn't work, and I decided I had to request a new package (sox) be installed in the build machine environment (in the fdroidserver project).  The relevant commit is here: [19e372026](https://gitlab.com/andybalaam/fdroidserver/commit/19e372026aaca62349e6f5fd541dc3ba29d94836).  Actually though, after [discussion with the F-Droid devs](https://botbot.me/freenode/fdroid-dev/2017-01-17/?msg=79512863&page=1) we agreed I'd be better off not using sox during the build, so I didn't need this."
-msgstr ""
+msgstr "Eigentlich funktionierte es nicht und ich beschloss, ein neues Paket (sox) in der Buildmaschinen-Umgebung (im fdroidserver-Projekt) zu installieren.  Der entsprechende Commit ist hier: [19e372026](https://gitlab.com/andybalaam/fdroidserver/commit/19e372026aaca62349e6f5fd541dc3ba29d94836).  Eigentlich, waren wir uns nach der [Diskussion mit den F-Droid-Entwicklern](https://botbot.me/freenode/fdroid-dev/2017-01-17/?msg=79512863&page=1) einig, dass es besser wäre, Sox während des Builds nicht zu benutzen, also brauchte ich das nicht."
 
 #. type: Plain text
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
 msgid "Side note: if you do end up needing to modify the build environment for F-Droid, make sure you delete the fdroiddata/buildserver directory when you re-try your build.  That one had me stuck for a few days, with the old environment being used no matter what caches I cleared and vagrant commands I ran."
-msgstr ""
+msgstr "Anmerkung: wenn Sie die Build-Umgebung für F-Droid ändern müssen, stellen Sie sicher, dass Sie das Verzeichnis fdroiddata/buildserver löschen, wenn Sie es erneut versuchen.  Dies hatte mich für ein paar Tage festgefahren, wobei die alte Umgebung benutzt wurde, egal welche Caches ich gelöscht habe und welche Befehle ich ausgeführt habe."
 
 #. type: Plain text
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
 msgid "And now I was ready to request my package be included in F-Droid by committing and pushing the changes I had made to the fdroiddata project to my forked repo, and clicking the Merge Request button in the gitlab UI.  My merge request is here: [gitlab.com/fdroid/fdroiddata/merge_requests/1965](https://gitlab.com/fdroid/fdroiddata/merge_requests/1965)"
-msgstr ""
+msgstr "Und jetzt war ich bereit, mein Paket in F-Droid einzubinden, indem ich die Änderungen, die ich am fdroiddata-Projekt vorgenommen hatte, in mein geforktes Repo übertragen und auf die Schaltfläche Merge Request in der gitlab-Benutzeroberfläche klickte.  Meine Merge-Anfrage ist hier zu finden: [gitlab.com/fdroid/fdroiddata/merge_requests/1965](https://gitlab.com/fdroid/fdroiddata/merge_requests/1965)"
 
 #. type: Title #
 #: build/_docs/md/Translation_and_Localization.md
