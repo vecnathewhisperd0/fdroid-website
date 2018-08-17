@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-06-30 12:21+0200\n"
-"PO-Revision-Date: 2018-05-21 15:08+0000\n"
+"PO-Revision-Date: 2018-08-17 10:24+0000\n"
 "Last-Translator: random r <epsilin@yopmail.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/f-droid/website-pages/it/>\n"
 "Language: it\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.0-dev\n"
+"X-Generator: Weblate 3.2-dev\n"
 
 #. type: Title #
 #: build/_pages/md/403.md
@@ -340,7 +340,7 @@ msgstr "Fabian Rodriguez"
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Pierre Rudloff"
-msgstr ""
+msgstr "Pierre Rudloff"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
@@ -724,36 +724,45 @@ msgstr "Problemi"
 
 #. type: Plain text
 #: build/_pages/md/issues.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "* [Client](https://gitlab.com/fdroid/fdroidclient/issues) issue tracker: If you’re having a problem with the F-Droid client application,\n"
 "please check if we already know about it, and/or report it in this issue tracker.\n"
-msgstr "Se stai avendo un problema con l'applicazione client F-Droid, controlla se ne siamo già al corrente e/o segnalalo in [questo tracker](https://gitlab.com/fdroid/fdroidclient/issues)."
+msgstr ""
+"* [Client](https://gitlab.com/fdroid/fdroidclient/issues) segnalazione problemi: Se stai avendo un problema con l'applicazione client F-Droid,\n"
+"controlla se ne siamo già al corrente e/o segnalalo in questo tracker.\n"
 
 #. type: Plain text
 #: build/_pages/md/issues.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "* [RFP](https://gitlab.com/fdroid/rfp/issues/new) tracker: To request a new app be added, submit a \"Request For Packaging\" on the\n"
 "rfp tracker.\n"
-msgstr "Per richiedere l'aggiunta di una nuova app, invia una \"Richiesta di imballaggio\" nel [tracker rfp](https://gitlab.com/fdroid/rfp/issues/new)."
+msgstr ""
+"* [RFP](https://gitlab.com/fdroid/rfp/issues/new) tracker: Per richiedere l'aggiunta di una nuova app, invia una \"Richiesta di imballaggio\" nel\n"
+"tracker rfp.\n"
 
 #. type: Plain text
 #: build/_pages/md/issues.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "* [Data](https://gitlab.com/fdroid/fdroiddata/issues) issue tracker: For problems relating to the contents of the repository,\n"
 "such as missing or outdated applications,\n"
 "please use this issue tracker.\n"
-msgstr "Per problemi riguardo i contenuti del repository, come applicazioni mancanti o obsolete, usa il [tracker dei problemi](https://gitlab.com/fdroid/fdroiddata/issues)."
+msgstr ""
+"* [Data](https://gitlab.com/fdroid/fdroiddata/issues) segnalazione problemi: Per problemi riguardo i contenuti del repository,\n"
+"come applicazioni mancanti o obsolete,\n"
+"usa questo tracker di problemi.\n"
 
 #. type: Plain text
 #: build/_pages/md/issues.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "* [Server](https://gitlab.com/fdroid/fdroidserver/issues) issue tracker: For the server tools (used for building apps yourself,\n"
 "or running your own repo), please use this issue tracker.\n"
-msgstr "Per gli strumenti server (usati per compilare da solo le app, o avere un repo personale), usa [questo tracker di problemi](https://gitlab.com/fdroid/fdroidserver/issues)."
+msgstr ""
+"* [Server](https://gitlab.com/fdroid/fdroidserver/issues) segnalazione problemi: Per gli strumenti server (usati per compilare da solo le app,\n"
+"o avere un repo personale), usa questo tracker di problemi.\n"
 
 #. type: Plain text
 #: build/_pages/md/issues.md
@@ -762,6 +771,8 @@ msgid ""
 "* [Website](https://gitlab.com/fdroid/fdroid-website/issues) issue tracker: For issues relating to this web site, you can use\n"
 "this issue tracker.\n"
 msgstr ""
+"* [Sito web](https://gitlab.com/fdroid/fdroid-website/issues) segnalazione problemi: Per problemi relativi a questo sito, puoi usare\n"
+"questo tracker di problemi.\n"
 
 #. type: Title #
 #: build/_pages/md/repomaker.md
