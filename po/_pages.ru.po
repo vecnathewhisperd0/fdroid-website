@@ -450,7 +450,7 @@ msgstr "Сообщить о проблеме"
 #. type: Plain text
 #: build/_pages/md/contribute.md
 msgid "If you experience problems with the site or client software, you can report them in the issue tracker (see below), or discuss them in the [Forum](https://forum.f-droid.org/) or on IRC (#fdroid on freenode)."
-msgstr "Если у вас возникли проблемы с сайтом или клиентским программным обеспечением, вы можете сообщить о них в трекере проблем (см. Ниже) или обсудить их на [Форуме] (https://forum.f-droid.org/) или в IRC ( #fdroid на freenode)."
+msgstr "Если у вас возникли проблемы с сайтом или клиентским программным обеспечением, вы можете сообщить о них в трекере проблем (см. Ниже) или обсудить их на [Форуме](https://forum.f-droid.org/) или в IRC ( #fdroid на freenode)."
 
 #. type: Plain text
 #: build/_pages/md/contribute.md
@@ -576,7 +576,7 @@ msgstr "Больше информации"
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
 msgid "[How to Help](How_to_Help) Different ways anyone can contribute to the F-Droid project."
-msgstr "[Как помочь] (How_to_Help) Различные способы участия в проекте F-Droid."
+msgstr "[Как помочь](How_to_Help) Различные способы участия в проекте F-Droid."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
@@ -622,7 +622,7 @@ msgstr ""
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
 msgid "[Update Processing](Update_Processing) How updates get detected and added."
-msgstr "[Процесс Обновления] (Update_Processing) Как обновления обнаруживаются и добавляются."
+msgstr "[Процесс Обновления](Update_Processing) Как обновления обнаруживаются и добавляются."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
@@ -817,4 +817,4 @@ msgstr ""
 #. type: Plain text
 #: build/_pages/md/repomaker.md
 msgid "Like any other project of F-Droid, Repomaker is free and open source software. You can find the source code and its license on [GitLab.com](https://gitlab.com/fdroid/repomaker)."
-msgstr "Как и любой другой проект F-Droid, Repomaker - это бесплатное программное обеспечение с открытым исходным кодом. Исходный код и его лицензию можно найти на [GitLab.com] (https://gitlab.com/fdroid/repomaker)."
+msgstr "Как и любой другой проект F-Droid, Repomaker - это бесплатное программное обеспечение с открытым исходным кодом. Исходный код и его лицензию можно найти на [GitLab.com](https://gitlab.com/fdroid/repomaker)."

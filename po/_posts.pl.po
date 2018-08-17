@@ -53,7 +53,7 @@ msgstr "Użycie autora"
 #. type: Plain text
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md
 msgid "One of the details about using OBB files in apps is that OBB files are not guaranteed to be installed by the app store.  That means the app could start, and the expected OBB files will not be there.  In that case, the app must download and install the OBB file itself.  Google Play recommends using their proprietary [Application Licensing](https://developer.android.com/google/play/licensing/index.html)  service for this, F-Droid provides a simple method that is all free software."
-msgstr "Jednym ze szczegółów dotyczących używania plików OBB w aplikacjach jest to, że nie można zagwarantować, że pliki OBB będą instalowane w sklepie z aplikacjami. Oznacza to, że aplikacja może się uruchomić, a oczekiwane pliki OBB nie będą dostępne. W takim przypadku aplikacja musi pobrać i zainstalować sam plik OBB. Google Play zaleca używanie do tego zastrzeżonej usługi [Licencjonowanie aplikacji] (https://developer.android.com/google/play/licensing/index.html), F-Droid zapewnia prostą metodę, która jest bezpłatnym oprogramowaniem."
+msgstr "Jednym ze szczegółów dotyczących używania plików OBB w aplikacjach jest to, że nie można zagwarantować, że pliki OBB będą instalowane w sklepie z aplikacjami. Oznacza to, że aplikacja może się uruchomić, a oczekiwane pliki OBB nie będą dostępne. W takim przypadku aplikacja musi pobrać i zainstalować sam plik OBB. Google Play zaleca używanie do tego zastrzeżonej usługi [Licencjonowanie aplikacji](https://developer.android.com/google/play/licensing/index.html), F-Droid zapewnia prostą metodę, która jest bezpłatnym oprogramowaniem."
 
 #. type: Plain text
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md
@@ -91,12 +91,12 @@ msgstr "\"Wypłynięcie w nową dekadę dyskusji\""
 #. type: Plain text
 #: build/_posts/md/2017-02-20-new-forum.md
 msgid "We are excited to announce the release of the new official F-Droid forum: [forum.f-droid.org](https://forum.f-droid.org)."
-msgstr "Z przyjemnością ogłaszamy wydanie nowego oficjalnego forum F-Droid: [forum.f-droid.org] (https://forum.f-droid.org)."
+msgstr "Z przyjemnością ogłaszamy wydanie nowego oficjalnego forum F-Droid: [forum.f-droid.org](https://forum.f-droid.org)."
 
 #. type: Plain text
 #: build/_posts/md/2017-02-20-new-forum.md
 msgid "We have been working hard to [revise the website](https://gitlab.com/groups/fdroid/milestones/launch?title=Launch)  in order to make it easier to modernize, accept contributions, and internationalise.  The main part of this is switching the underlying technology from WordPress to [Jekyll](https://jekyllrb.com/).  However, this caused us to think about the forum as it was powered by a WordPress plugin.  Quickly [we decided to drop the old forum](https://gitlab.com/fdroid/fdroid-website/issues/6) in favor of an indepentently hosted one and chose some modern software called [Discourse](https://www.discourse.org)."
-msgstr "Ciężko pracowaliśmy, aby [zrewidować stronę internetową] (https://gitlab.com/groups/fdroid/milestones/launch?title=Launch), aby ułatwić modernizację, przyjmowanie wkładów i umiędzynarodowienie. Główną jego częścią jest przełączenie podstawowej technologii z WordPress na [Jekyll] (https://jekyllrb.com/). Jednak spowodowało to, że zaczęliśmy myśleć o forum, ponieważ było zasilane przez wtyczkę WordPress. Szybko [zdecydowaliśmy się zarzucić stare forum] (https://gitlab.com/fdroid/fdroid-website/issues/6) na rzecz niezależnego hostingu i wybraliśmy nowoczesne oprogramowanie o nazwie [Dyskurs] (https://www.discourse.org)."
+msgstr "Ciężko pracowaliśmy, aby [zrewidować stronę internetową](https://gitlab.com/groups/fdroid/milestones/launch?title=Launch), aby ułatwić modernizację, przyjmowanie wkładów i umiędzynarodowienie. Główną jego częścią jest przełączenie podstawowej technologii z WordPress na [Jekyll](https://jekyllrb.com/). Jednak spowodowało to, że zaczęliśmy myśleć o forum, ponieważ było zasilane przez wtyczkę WordPress. Szybko [zdecydowaliśmy się zarzucić stare forum](https://gitlab.com/fdroid/fdroid-website/issues/6) na rzecz niezależnego hostingu i wybraliśmy nowoczesne oprogramowanie o nazwie [Dyskurs](https://www.discourse.org)."
 
 #. type: Plain text
 #: build/_posts/md/2017-02-20-new-forum.md
@@ -106,7 +106,7 @@ msgstr "Stare forum miało wiele wad: Po pierwsze, nie można odpowiadać poczt�
 #. type: Plain text
 #: build/_posts/md/2017-02-20-new-forum.md
 msgid "With Discourse, we hope to breathe life back into the F-Droid community.  While app submissions recently [moved to GitLab](https://gitlab.com/fdroid/rfp), and bug reports/feature requests still live in GitLab, the new forum is the new centre for all discussions related to F-Droid.  All users of F-Droid, whether discussing the client or the server tools, can help each other there."
-msgstr "W Dyskursie mamy nadzieję przywrócić życie społeczności F-Droid. Chociaż ostatnio przesłane aplikacje do [GitLab] (https://gitlab.com/fdroid/rfp) i raporty o błędach/prośby o funkcje wciąż są dostępne w GitLab, nowe forum jest nowym centrum wszystkich dyskusji związanych z F-Droid. Wszyscy użytkownicy F-Droida, niezależnie od tego, czy omawiają klienta, czy narzędzia serwerowe, mogą sobie w tym pomóc."
+msgstr "W Dyskursie mamy nadzieję przywrócić życie społeczności F-Droid. Chociaż ostatnio przesłane aplikacje do [GitLab](https://gitlab.com/fdroid/rfp) i raporty o błędach/prośby o funkcje wciąż są dostępne w GitLab, nowe forum jest nowym centrum wszystkich dyskusji związanych z F-Droid. Wszyscy użytkownicy F-Droida, niezależnie od tego, czy omawiają klienta, czy narzędzia serwerowe, mogą sobie w tym pomóc."
 
 #. type: Plain text
 #: build/_posts/md/2017-02-20-new-forum.md
@@ -116,17 +116,17 @@ msgstr "Z powodu tymczasowych ograniczeń wszystkich ochotników F-Droida nie by
 #. type: Plain text
 #: build/_posts/md/2017-02-20-new-forum.md
 msgid "One interesting new feature is [local communities](https://forum.f-droid.org/c/other-languages).  In these communities you can discuss in your mother tongue about all topics related to F-Droid and free software on Android.  At the moment there is already a [German group](https://forum.f-droid.org/c/other-languages/german)."
-msgstr "Jedną z interesujących nowych funkcji są [społeczności lokalne] (https://forum.f-droid.org/c/other-languages). W tych społecznościach możesz dyskutować w swoim języku ojczystym na wszystkie tematy związane z F-Droid i bezpłatnym oprogramowaniem na Androida. W tej chwili jest już [grupa niemiecka] (https://forum.f-droid.org/c/other-languages/german)."
+msgstr "Jedną z interesujących nowych funkcji są [społeczności lokalne](https://forum.f-droid.org/c/other-languages). W tych społecznościach możesz dyskutować w swoim języku ojczystym na wszystkie tematy związane z F-Droid i bezpłatnym oprogramowaniem na Androida. W tej chwili jest już [grupa niemiecka](https://forum.f-droid.org/c/other-languages/german)."
 
 #. type: Plain text
 #: build/_posts/md/2017-02-20-new-forum.md
 msgid "If you want to create your own local community, please open a topic in the [\"Other languages\" category](https://forum.f-droid.org/c/other-languages) and we will discuss everything else there."
-msgstr "Jeśli chcesz stworzyć własną społeczność lokalną, otwórz temat w kategorii [Inne języki] (https://forum.f-droid.org/c/other-languages), a my omówimy tam wszystko inne."
+msgstr "Jeśli chcesz stworzyć własną społeczność lokalną, otwórz temat w kategorii [Inne języki](https://forum.f-droid.org/c/other-languages), a my omówimy tam wszystko inne."
 
 #. type: Plain text
 #: build/_posts/md/2017-02-20-new-forum.md
 msgid "Finally, there is one last insight into the current development of F-Droid: we plan to use Discourse for [comments on the website](https://gitlab.com/fdroid/fdroid-website/issues/36)  which gets us closer to [comments on single applications](https://gitlab.com/fdroid/fdroidclient/issues/646)."
-msgstr "Wreszcie, mamy ostatni wgląd w aktualny rozwój F-Droid: planujemy użyć Dyskursu dla [komentarzy na stronie internetowej] (https://gitlab.com/fdroid/fdroid-website/issues/36), który zbliża nas do [komentarzy na temat pojedynczych aplikacji] (https://gitlab.com/fdroid/fdroidclient/issues/646)."
+msgstr "Wreszcie, mamy ostatni wgląd w aktualny rozwój F-Droid: planujemy użyć Dyskursu dla [komentarzy na stronie internetowej](https://gitlab.com/fdroid/fdroid-website/issues/36), który zbliża nas do [komentarzy na temat pojedynczych aplikacji](https://gitlab.com/fdroid/fdroidclient/issues/646)."
 
 #. type: Plain text
 #: build/_posts/md/2017-02-20-new-forum.md
@@ -142,12 +142,12 @@ msgstr "\"Nowy UX 6 lat w przygotowaniu\""
 #. type: Plain text
 #: build/_posts/md/2017-04-04-new-ux.md
 msgid "F-Droid has been a part of the Android ecosystem for over 6 years now.  Since then, over 2000 apps have been built for the main repository, many [great features have been added](https://gitlab.com/fdroid/fdroidclient/blob/master/CHANGELOG.md), the client has been translated into over 40 different languages, and much more."
-msgstr "F-Droid jest częścią ekosystemu Androida od ponad 6 lat. Od tego czasu powstało ponad 2000 aplikacji dla głównego repozytorium [dodano wspaniałe funkcje] (https://gitlab.com/fdroid/fdroidclient/blob/master/CHANGELOG.md), klient został przetłumaczony na ponad 40 różnych języków i wiele więcej."
+msgstr "F-Droid jest częścią ekosystemu Androida od ponad 6 lat. Od tego czasu powstało ponad 2000 aplikacji dla głównego repozytorium [dodano wspaniałe funkcje](https://gitlab.com/fdroid/fdroidclient/blob/master/CHANGELOG.md), klient został przetłumaczony na ponad 40 różnych języków i wiele więcej."
 
 #. type: Plain text
 #: build/_posts/md/2017-04-04-new-ux.md
 msgid "However, the F-Droid UX has never changed much from [the original three tab layout](https://f-droid.org/posts/f-droid-repository-alpha/):"
-msgstr "Jednak F-Droid UX nigdy się nie zmienił z [pierwotnego układu trzech kart] (https://f-droid.org/posts/f-droid-repository-alpha/):"
+msgstr "Jednak F-Droid UX nigdy się nie zmienił z [pierwotnego układu trzech kart](https://f-droid.org/posts/f-droid-repository-alpha/):"
 
 #. type: Plain text
 #: build/_posts/md/2017-04-04-new-ux.md
@@ -245,7 +245,7 @@ msgstr "\"Ogłaszanie nowych bibliotek: kanały aktualizacji F-Droid\""
 #. type: Plain text
 #: build/_posts/md/2017-06-01-announcing-new-libraries-f-droid-update-channels.md
 msgid "In order to complete the F-Droid distribution ecosystem, we are introducing [__F-Droid Update Channels__](https://gitlab.com/fdroid/update-channels).  It is a suite of libraries for apps to find updates, no matter from where it was originally downloaded.  In many parts of the world, it is very common to get Android APKs outside of the app stores where the developers upload them."
-msgstr "W celu uzupełnienia ekosystemu dystrybucji F-Droid, wprowadzamy [__Kanały Aktualizacji F-Droid__] (https://gitlab.com/fdroid/update-channels). Jest to zestaw bibliotek dla aplikacji, które znajdują aktualizacje, niezależnie od tego, skąd zostały pierwotnie pobrane. W wielu częściach świata bardzo powszechne jest pobieranie plików APK Androida z poza sklepów z aplikacjami, do których programiści przesyłają pliki."
+msgstr "W celu uzupełnienia ekosystemu dystrybucji F-Droid, wprowadzamy [__Kanały Aktualizacji F-Droid__](https://gitlab.com/fdroid/update-channels). Jest to zestaw bibliotek dla aplikacji, które znajdują aktualizacje, niezależnie od tego, skąd zostały pierwotnie pobrane. W wielu częściach świata bardzo powszechne jest pobieranie plików APK Androida z poza sklepów z aplikacjami, do których programiści przesyłają pliki."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2017-06-01-announcing-new-libraries-f-droid-update-channels.md
@@ -538,12 +538,12 @@ msgstr "F-Droid jest teraz sklepem pierwszej klasy"
 #. type: Plain text
 #: build/_posts/md/2017-10-10-fdroid-is-1.0.md
 msgid "F-Droid can now be your only app store, fully integrated into your device with background updates and streamlined installs, all without sacrificing any of the privacy or security that F-Droid has always offered.  F-Droid is already well known among those who install custom Android ROMs on their devices, and that is now much better supported via the F-Droid [Privileged Extension](https://f-droid.org/packages/org.fdroid.fdroid.privileged.ota), which can be flashed onto a device like any other OTA (Over-The-Air)  update ZIP."
-msgstr "F-Droid może teraz być Twoim jedynym sklepem z aplikacjami, w pełni zintegrowanym z Twoim urządzeniem dzięki aktualizacjom w tle i usprawnionym instalacjom, a wszystko to bez poświęcania prywatności ani bezpieczeństwa, które zawsze oferował F-Droid. F-Droid jest już dobrze znany wśród tych, którzy instalują niestandardowe pamięci ROM z Androidem na swoich urządzeniach, a teraz jest o wiele lepiej obsługiwany przez F-Droid [Rozszerzenie Privileged] (https://f-droid.org/packages/org.fdroid .fdroid.privileged.ota), które można przesłać na urządzenie, jak każde inne uaktualnienie ZIP OTA (Over-The-Air)."
+msgstr "F-Droid może teraz być Twoim jedynym sklepem z aplikacjami, w pełni zintegrowanym z Twoim urządzeniem dzięki aktualizacjom w tle i usprawnionym instalacjom, a wszystko to bez poświęcania prywatności ani bezpieczeństwa, które zawsze oferował F-Droid. F-Droid jest już dobrze znany wśród tych, którzy instalują niestandardowe pamięci ROM z Androidem na swoich urządzeniach, a teraz jest o wiele lepiej obsługiwany przez F-Droid [Rozszerzenie Privileged](https://f-droid.org/packages/org.fdroid .fdroid.privileged.ota), które można przesłać na urządzenie, jak każde inne uaktualnienie ZIP OTA (Over-The-Air)."
 
 #. type: Plain text
 #: build/_posts/md/2017-10-10-fdroid-is-1.0.md
 msgid "We will work with any ROM project to help them integrate F-Droid as the default app store, built into the ROM.  See the [Privileged Extension instructions](https://gitlab.com/fdroid/privileged-extension/#how-do-i-build-it-into-my-rom)  for how to get started."
-msgstr "Będziemy pracować z każdym projektem ROM, aby pomóc zintegrować F-Droida jako domyślny sklep z aplikacjami, wbudowany w ROM. Aby rozpocząć, zobacz instrukcje [Rozszerzenie uprzywilejowanego użytkownika] (https://gitlab.com/fdroid/privileged-extension/how-do-i-build-it-my-rom-)."
+msgstr "Będziemy pracować z każdym projektem ROM, aby pomóc zintegrować F-Droida jako domyślny sklep z aplikacjami, wbudowany w ROM. Aby rozpocząć, zobacz instrukcje [Rozszerzenie uprzywilejowanego użytkownika](https://gitlab.com/fdroid/privileged-extension/how-do-i-build-it-my-rom-)."
 
 #. type: Title ###
 #: build/_posts/md/2017-10-10-fdroid-is-1.0.md
@@ -655,12 +655,12 @@ msgstr "_f-droid.org_ to tylko jedno repozytorium aplikacji (znane również jak
 #. type: Plain text
 #: build/_posts/md/2017-10-10-fdroid-is-1.0.md
 msgid "Anyone can make their own F-Droid repo using the _fdroidserver_ command line tools, the same as always.  That requires knowledge of the command line, manual editing of \"metadata\" files to edit your packages’ store details, copying screenshots to the right directory, etc.  Now with [Repomaker]({{ site.baseurl }}/repomaker), there is a simple web app to create repos, so special knowledge is no longer needed. More information on how to install Repomaker coming soon!"
-msgstr "Każdy może tworzyć własne repozytorium F-Droid za pomocą narzędzi wiersza poleceń _fdroidserver_, tak samo jak zawsze. To wymaga znajomości wiersza poleceń, ręcznej edycji plików \"metadanych\" w celu edycji szczegółów sklepu, kopiowania zrzutu ekranu do właściwego katalogu itp. Teraz z [Repomakerem] ({{ site.baseurl }}/repomaker), to prosta aplikacja internetowa do tworzenia repo, więc specjalna wiedza nie jest już potrzebna. Więcej informacji o tym, jak zainstalować Repomaker już wkrótce!"
+msgstr "Każdy może tworzyć własne repozytorium F-Droid za pomocą narzędzi wiersza poleceń _fdroidserver_, tak samo jak zawsze. To wymaga znajomości wiersza poleceń, ręcznej edycji plików \"metadanych\" w celu edycji szczegółów sklepu, kopiowania zrzutu ekranu do właściwego katalogu itp. Teraz z [Repomakerem]({{ site.baseurl }}/repomaker), to prosta aplikacja internetowa do tworzenia repo, więc specjalna wiedza nie jest już potrzebna. Więcej informacji o tym, jak zainstalować Repomaker już wkrótce!"
 
 #. type: Plain text
 #: build/_posts/md/2017-10-10-fdroid-is-1.0.md
 msgid "There are also new options for publishing custom, hosted repos.  Standard webservers and Amazon S3 have been supported for a while.  Now you can also publish repos directly to GitLab or GitHub.  On top of that, we have improved the _fdroidserver_ workflow when working with large collections of APKs, based on feedback from the developers of [Izzysoft](https://apt.izzysoft.de/fdroid/) and [Metro Tech & Solutions]({{ site.baseurl }}/2017/07/03/cuba.html)."
-msgstr "Dostępne są również nowe opcje publikowania niestandardowych, hostowanych repozytoriów. Standardowe serwery internetowe i Amazon S3 są od jakiegoś czasu obsługiwane. Teraz możesz również publikować repos bezpośrednio na GitLab lub GitHub. Ponadto poprawiliśmy _fdroidserver_ workflow podczas pracy z dużymi zbiorami pakietów APK, na podstawie opinii twórców aplikacji [Izzysoft] (https://apt.izzysoft.de/fdroid/) and [Metro Tech & Solutions]({{ site.baseurl }}/2017/07/03/cuba.html)."
+msgstr "Dostępne są również nowe opcje publikowania niestandardowych, hostowanych repozytoriów. Standardowe serwery internetowe i Amazon S3 są od jakiegoś czasu obsługiwane. Teraz możesz również publikować repos bezpośrednio na GitLab lub GitHub. Ponadto poprawiliśmy _fdroidserver_ workflow podczas pracy z dużymi zbiorami pakietów APK, na podstawie opinii twórców aplikacji [Izzysoft](https://apt.izzysoft.de/fdroid/) and [Metro Tech & Solutions]({{ site.baseurl }}/2017/07/03/cuba.html)."
 
 #. type: Title ###
 #: build/_posts/md/2017-10-10-fdroid-is-1.0.md
@@ -770,7 +770,7 @@ msgstr "F-Droid to również otwarty ekosystem, co oznacza, że wiele osób korz
 #. type: Plain text
 #: build/_posts/md/2017-12-13-fdroid-and-janus.md
 msgid "There is also some random good news: it turns out that none of the about 10 Janus examples we have can pass `fdroid update`.  Most of them failed to verify when `fdroid update` calls `aapt dump badging`.  The one file that passed those tests was the publicly released [Janus demo APK](https://www.androidpolice.com/wp-content/uploads/janus-poc/HelloWorld-Janus.apk).  But it had strange dates like `2042-14-03 00:62:15` in the ZIP entries, probably because of the tricks needed to assemble this DEX+ZIP file.  This triggered a crash in `fdroid update`, when parsing the date of _AndroidManifest.xml_.  Python complains that there is no 14th month.  This crash prevents the APK from being added to the repo. We have also added an [explicit block](https://gitlab.com/fdroid/fdroidserver/merge_requests/409)  for APKs trying to exploit Janus."
-msgstr "Jest też kilka przypadkowych dobrych wiadomości: okazuje się, że żaden z około 10 przykładów Janusa nie może przekazać 'aktualizacji fdroid'. Większość z nich nie potwierdziła, czy `aktualizacje fdroid` wywołuje `aapt dump badging`. Jedynym plikiem, który przeszedł te testy, był opublikowany [Demo APK Janusa] (https://www.androidpolice.com/wp-content/uploads/janus-poc/HelloWorld-Janus.apk). Ale miał dziwne daty takie jak `2042-14-03 00:62:15' w wpisach ZIP, prawdopodobnie ze względu na sztuczki potrzebne do złożenia tego pliku ZIP DEX. To spowodowało awarię w 'aktualizacji fdroid' podczas analizowania daty _AndroidManifest.xml_. Python narzeka, że nie ma 14 miesiąca. Ta awaria uniemożliwia dodanie pakietu APK do repozytorium. Dodaliśmy także [jawny blok] (https://gitlab.com/fdroid/fdroidserver/merge_requests/409) dla pakietów APK próbujących wykorzystać Janusa."
+msgstr "Jest też kilka przypadkowych dobrych wiadomości: okazuje się, że żaden z około 10 przykładów Janusa nie może przekazać 'aktualizacji fdroid'. Większość z nich nie potwierdziła, czy `aktualizacje fdroid` wywołuje `aapt dump badging`. Jedynym plikiem, który przeszedł te testy, był opublikowany [Demo APK Janusa](https://www.androidpolice.com/wp-content/uploads/janus-poc/HelloWorld-Janus.apk). Ale miał dziwne daty takie jak `2042-14-03 00:62:15' w wpisach ZIP, prawdopodobnie ze względu na sztuczki potrzebne do złożenia tego pliku ZIP DEX. To spowodowało awarię w 'aktualizacji fdroid' podczas analizowania daty _AndroidManifest.xml_. Python narzeka, że nie ma 14 miesiąca. Ta awaria uniemożliwia dodanie pakietu APK do repozytorium. Dodaliśmy także [jawny blok](https://gitlab.com/fdroid/fdroidserver/merge_requests/409) dla pakietów APK próbujących wykorzystać Janusa."
 
 #. type: Plain text
 #: build/_posts/md/2017-12-13-fdroid-and-janus.md
@@ -796,7 +796,7 @@ msgstr "Od 2010 r. Społeczność F-Droid pracuje nad udostępnianiem wyłączni
 #. type: Plain text
 #: build/_posts/md/2017-12-14-new-collaborations-on-exposing-tracking.md
 msgid "Researchers at [Exodus Privacy](https://exodus-privacy.eu.org) and [Yale Privacy Lab](https://privacylab.yale.edu) are working on taking the next big step, by creating tools for automating the process of finding all the [various forms of tracking](https://theintercept.com/2017/11/24/staggering-variety-of-clandestine-trackers-found-in-popular-android-apps)  that apps can include.  F-Droid will work with them to merge efforts, increasing the effectiveness of volunteers, and exposing the inner workings of software in daily use worldwide."
-msgstr "Naukowcy z [Exodus Privacy] (https://exodus-privacy.eu.org) i [Yale Privacy Lab] (https://privacylab.yale.edu) pracują nad kolejnym dużym krokiem, tworząc narzędzia do automatyzacji procesów znajdowania wszystkich [różnych form śledzenia] (https://theintercept.com/2017/11/24/staggering-variety-of-clandestine-trackers-found-in-popular-android-apps), które aplikacje mogą zawierać. F-Droid będzie z nimi współpracował, łącząc wysiłki, zwiększając efektywność wolontariuszy i eksponując wewnętrzne funkcjonowanie oprogramowania w codziennym użyciu na całym świecie."
+msgstr "Naukowcy z [Exodus Privacy](https://exodus-privacy.eu.org) i [Yale Privacy Lab](https://privacylab.yale.edu) pracują nad kolejnym dużym krokiem, tworząc narzędzia do automatyzacji procesów znajdowania wszystkich [różnych form śledzenia](https://theintercept.com/2017/11/24/staggering-variety-of-clandestine-trackers-found-in-popular-android-apps), które aplikacje mogą zawierać. F-Droid będzie z nimi współpracował, łącząc wysiłki, zwiększając efektywność wolontariuszy i eksponując wewnętrzne funkcjonowanie oprogramowania w codziennym użyciu na całym świecie."
 
 #. type: Plain text
 #: build/_posts/md/2017-12-14-new-collaborations-on-exposing-tracking.md
@@ -822,7 +822,7 @@ msgstr "\"Nadchodzący audyt bezpieczeństwa\""
 #. type: Plain text
 #: build/_posts/md/2018-01-20-upcoming-security-audit.md
 msgid "We have started the process of the second security audit of the F-Droid setup.  The audit will be conducted by [Radically Open Security](https://www.radicallyopensecurity.com), which is a natural partner for F-Droid since they share our focus on free software and open processes.  Once we receive the results and have addressed any issues found, we will publish the full, unedited audit report here.  Thanks to [Open Tech Fund](https://opentech.fund)  for covering the costs of hiring the auditor."
-msgstr "Rozpoczęliśmy proces drugiego audytu bezpieczeństwa konfiguracji F-Droid. Audyt przeprowadzi [Radically Open Security] (https://www.radicallyopensecurity.com), który jest naturalnym partnerem dla F-Droid, ponieważ koncentruje się on na wolnym oprogramowaniu i otwartych procesach. Po otrzymaniu wyników i rozwiązaniu wszelkich stwierdzonych problemów opublikujemy tutaj pełny, nieedytowany raport z audytu. Dzięki [Open Tech Fund] (https://opentech.fund) za pokrycie kosztów wynajmu audytora."
+msgstr "Rozpoczęliśmy proces drugiego audytu bezpieczeństwa konfiguracji F-Droid. Audyt przeprowadzi [Radically Open Security](https://www.radicallyopensecurity.com), który jest naturalnym partnerem dla F-Droid, ponieważ koncentruje się on na wolnym oprogramowaniu i otwartych procesach. Po otrzymaniu wyników i rozwiązaniu wszelkich stwierdzonych problemów opublikujemy tutaj pełny, nieedytowany raport z audytu. Dzięki [Open Tech Fund](https://opentech.fund) za pokrycie kosztów wynajmu audytora."
 
 #. type: Plain text
 #: build/_posts/md/2018-01-20-upcoming-security-audit.md
@@ -838,7 +838,7 @@ msgstr "Popatrz wstecz na pierwszy audyt bezpieczeństwa"
 #. type: Plain text
 #: build/_posts/md/2018-01-20-upcoming-security-audit.md
 msgid "We received an [external audit](https://cure53.de/pentest-report_fdroid.pdf) in 2015 from Cure53, provided by the [Open Tech Fund](https://opentech.fund). This was the first full security audit of the core security practices of F-Droid.  On top of the core, the focus on the audit was on the new, experimental features that opened up F-Droid as an ecosystem, moving away from the central server model."
-msgstr "W 2015 r. Otrzymaliśmy [audyt zewnętrzny] (https://cure53.de/pentest-report_fdroid.pdf) od Cure53, dostarczony przez [Open Tech Fund] (https://opentech.fund). Był to pierwszy pełny audyt bezpieczeństwa najważniejszych zasad bezpieczeństwa w F-Droid. Oprócz tego główny nacisk położono na nowe, eksperymentalne funkcje, które otworzyły F-Droida jako ekosystem, odchodząc od centralnego modelu serwera."
+msgstr "W 2015 r. Otrzymaliśmy [audyt zewnętrzny](https://cure53.de/pentest-report_fdroid.pdf) od Cure53, dostarczony przez [Open Tech Fund](https://opentech.fund). Był to pierwszy pełny audyt bezpieczeństwa najważniejszych zasad bezpieczeństwa w F-Droid. Oprócz tego główny nacisk położono na nowe, eksperymentalne funkcje, które otworzyły F-Droida jako ekosystem, odchodząc od centralnego modelu serwera."
 
 #. type: Plain text
 #: build/_posts/md/2018-01-20-upcoming-security-audit.md
@@ -939,12 +939,12 @@ msgstr "\"Fairphone Open ships F-Droid Rozszerzenie Uprzywilejowane!\""
 #. type: Plain text
 #: build/_posts/md/2018-01-24-fairphone-open-ships-F-Droid.md
 msgid "Fairphone has taken a [big step](https://www.fairphone.com/en/2018/01/23/f-droid-auto-updates/)  towards making a fully free Android phone! They already have [Fairphone Open](https://www.fairphone.com/en/2016/04/28/releasing-the-fairphone-2-open-operating-system-2/), an alternate version of Android that does not include any proprietary apps.  The built-in Fairphone Updater makes it really easy to switch a Fairphone away from the Google Android version to Fairphone Open.  And now, Fairphone Open includes F-Droid! That means it is a fully functional device, removing the requirement to flash extra packages to get an app store.  It also means that F-Droid works without enabling \"Unknown Sources\".  Then your Fairphone Open can automatically update apps and it'll have a smoother install experience where you just need to press install once, and the whole process will finish in the background (when you are ready for background updates, go to F-Droid's Settings to enable them)."
-msgstr "Fairphone podjął [duży krok] (https://www.fairphone.com/en/2018/01/23/f-droid-auto-updates/) w kierunku stworzenia w pełni darmowego telefonu z Androidem! Oni już mają [Fairphone Open] (https://www.fairphone.com/en/2016/04/28/releasing-the-fairphone-2-open-operating-system-2/), alternatywną wersję Androida, która nie obejmuje żadnych zastrzeżonych aplikacji. Wbudowany program Fairphone Updater sprawia, że bardzo łatwo można przełączyć Fairphone z wersji Google Android na Fairphone Open. A teraz Fairphone Open zawiera F-Droid! Oznacza to, że jest to w pełni funkcjonalne urządzenie, eliminujące konieczność dodawania dodatkowych pakietów do sklepu z aplikacjami. Oznacza to również, że F-Droid działa bez włączania \"Nieznanych Źródeł\". Wtedy Twój Fairphone Open może automatycznie aktualizować aplikacje i będzie miał płynniejszą instalację, w której wystarczy nacisnąć jeden raz instalację, a cały proces zakończy się w tle (gdy będziesz gotowy na aktualizacje w tle, przejdź do Ustawień F-Droida aby je włączyć)."
+msgstr "Fairphone podjął [duży krok](https://www.fairphone.com/en/2018/01/23/f-droid-auto-updates/) w kierunku stworzenia w pełni darmowego telefonu z Androidem! Oni już mają [Fairphone Open](https://www.fairphone.com/en/2016/04/28/releasing-the-fairphone-2-open-operating-system-2/), alternatywną wersję Androida, która nie obejmuje żadnych zastrzeżonych aplikacji. Wbudowany program Fairphone Updater sprawia, że bardzo łatwo można przełączyć Fairphone z wersji Google Android na Fairphone Open. A teraz Fairphone Open zawiera F-Droid! Oznacza to, że jest to w pełni funkcjonalne urządzenie, eliminujące konieczność dodawania dodatkowych pakietów do sklepu z aplikacjami. Oznacza to również, że F-Droid działa bez włączania \"Nieznanych Źródeł\". Wtedy Twój Fairphone Open może automatycznie aktualizować aplikacje i będzie miał płynniejszą instalację, w której wystarczy nacisnąć jeden raz instalację, a cały proces zakończy się w tle (gdy będziesz gotowy na aktualizacje w tle, przejdź do Ustawień F-Droida aby je włączyć)."
 
 #. type: Plain text
 #: build/_posts/md/2018-01-24-fairphone-open-ships-F-Droid.md
 msgid "F-Droid support in Fairphone Open is still beta, so for now, only [Privileged Extension](https://gitlab.com/fdroid/privileged-extension/#f-droid-privileged-extension)  is built into Fairphone Open. So you will still have to download F-Droid and install it as a regular app.  It will automatically find and use the Privileged Extension built into Fairphone Open.  We are working on an F-Droid installer as part of the Fairphone Updater to make that process really easy."
-msgstr "Obsługa F-Droid w Fairphone Open wciąż jest w fazie beta, więc na razie tylko Fair Privileg jest wbudowane w rozszerzenie [Privileged Extension] (https://gitlab.com/fdroid/privileged-extension/f-droid-privileged-extension). Więc nadal będziesz musiał pobrać F-Droid i zainstalować go jako zwykłą aplikację. Automatycznie odnajdzie i użyje rozszerzenia Privileged wbudowanego w Fairphone Open. Pracujemy nad instalatorem F-Droid jako częścią Fairphone Updater, aby ten proces był naprawdę łatwy."
+msgstr "Obsługa F-Droid w Fairphone Open wciąż jest w fazie beta, więc na razie tylko Fair Privileg jest wbudowane w rozszerzenie [Privileged Extension](https://gitlab.com/fdroid/privileged-extension/f-droid-privileged-extension). Więc nadal będziesz musiał pobrać F-Droid i zainstalować go jako zwykłą aplikację. Automatycznie odnajdzie i użyje rozszerzenia Privileged wbudowanego w Fairphone Open. Pracujemy nad instalatorem F-Droid jako częścią Fairphone Updater, aby ten proces był naprawdę łatwy."
 
 #. type: Plain text
 #: build/_posts/md/2018-01-24-fairphone-open-ships-F-Droid.md
@@ -990,7 +990,7 @@ msgstr "W Sydney w Nowej Południowej Walii od poniedziałku 22 stycznia do pią
 #. type: Plain text
 #: build/_posts/md/2018-02-02-linux-conf-au-fdroid-presentation.md
 msgid "F-Droid's [Peter Serwylo](https://gitlab.com/pserwylo) was there Thursday, 25 Jan, presenting his _\"F-Droid: The private, secure, free and open app store for Android\"_."
-msgstr "F-Droid [Peter Serwylo] (https://gitlab.com/pserwylo) był tam w czwartek, 25 stycznia, prezentując swój _\"F-Droid: prywatny, bezpieczny, bezpłatny i otwarty sklep z aplikacjami dla Android\"_."
+msgstr "F-Droid [Peter Serwylo](https://gitlab.com/pserwylo) był tam w czwartek, 25 stycznia, prezentując swój _\"F-Droid: prywatny, bezpieczny, bezpłatny i otwarty sklep z aplikacjami dla Android\"_."
 
 #. type: Plain text
 #: build/_posts/md/2018-02-02-linux-conf-au-fdroid-presentation.md
@@ -1023,12 +1023,12 @@ msgstr "\"Aktualizacje witryny\""
 #. type: Plain text
 #: build/_posts/md/2018-03-01-website-updates.md
 msgid "There have been a couple of important updates to this website.  First, a longstanding complaint about this website is that there is only prominent donation buttons for F-Droid itself, and not for the apps.  We want to support as many app developers as possible, so the app pages have been updated to highlight that app's donation options.  See [Mastalab]({{ site.baseurl }}/packages/fr.gouv.etalab.mastodon/), [Telegram]({{ site.baseurl }}/packages/org.telegram.messenger/), or [F-Droid itself]({{ site.baseurl }}/packages/org.fdroid.fdroid/)  to see what the new layout looks like."
-msgstr "Było kilka ważnych aktualizacji tej witryny. Po pierwsze, długoletnia skarga na tę stronę jest taka, że istnieją tylko znaczące przyciski darowizny dla samego F-Droida, a nie dla aplikacji. Chcemy wspierać tak wielu programistów aplikacji, jak to możliwe, więc strony aplikacji zostały zaktualizowane, aby podkreślić opcje darowizny tej aplikacji. Zobacz [Mastalab] ({{ site.baseurl }}/packages/fr.gouv.etalab.mastodon/), [Telegram]({{ site.baseurl }}/packages/org.telegram.messenger/), lub [F-Droid itself]({{ site.baseurl }}/packages/org.fdroid.fdroid/), aby zobaczyć, jak wygląda nowy układ."
+msgstr "Było kilka ważnych aktualizacji tej witryny. Po pierwsze, długoletnia skarga na tę stronę jest taka, że istnieją tylko znaczące przyciski darowizny dla samego F-Droida, a nie dla aplikacji. Chcemy wspierać tak wielu programistów aplikacji, jak to możliwe, więc strony aplikacji zostały zaktualizowane, aby podkreślić opcje darowizny tej aplikacji. Zobacz [Mastalab]({{ site.baseurl }}/packages/fr.gouv.etalab.mastodon/), [Telegram]({{ site.baseurl }}/packages/org.telegram.messenger/), lub [F-Droid itself]({{ site.baseurl }}/packages/org.fdroid.fdroid/), aby zobaczyć, jak wygląda nowy układ."
 
 #. type: Plain text
 #: build/_posts/md/2018-03-01-website-updates.md
 msgid "The search field has changed to now be run by our own custom [search service](https://gitlab.com/fdroid/fdroid-website-search).  This allows all aspects of the website to work with or without Javascript to support as wide a range of devices and browsers as possible, including Tor Browser and browsers on cheap mobile devices.  This new search service also includes a much more complete index, so it is now possible to search based on all of the metadata, for example by license:"
-msgstr "Pole wyszukiwania zostało zmienione i teraz jest uruchamiane przez naszą własną [usługę wyszukiwania] (https://gitlab.com/fdroid/fdroid-website-search). Dzięki temu wszystkie aspekty witryny mogą współpracować z Javascriptem lub bez niego, aby obsługiwać jak największą liczbę urządzeń i przeglądarek, w tym przeglądarkę Tor i przeglądarki na tanich urządzeniach mobilnych. Ta nowa usługa wyszukiwania zawiera także dużo pełniejszy indeks, więc teraz można wyszukiwać na podstawie wszystkich metadanych, na przykład według licencji:"
+msgstr "Pole wyszukiwania zostało zmienione i teraz jest uruchamiane przez naszą własną [usługę wyszukiwania](https://gitlab.com/fdroid/fdroid-website-search). Dzięki temu wszystkie aspekty witryny mogą współpracować z Javascriptem lub bez niego, aby obsługiwać jak największą liczbę urządzeń i przeglądarek, w tym przeglądarkę Tor i przeglądarki na tanich urządzeniach mobilnych. Ta nowa usługa wyszukiwania zawiera także dużo pełniejszy indeks, więc teraz można wyszukiwać na podstawie wszystkich metadanych, na przykład według licencji:"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-03-01-website-updates.md
@@ -1076,7 +1076,7 @@ msgstr ""
 #. type: Plain text
 #: build/_posts/md/2018-03-02-liberapay-support.md
 msgid "Recently F-Droid has gained support for [Liberapay](https://liberapay.com/), a fully free donation platform aimed at software projects.  Liberapay itself is fully free and [open source](https://github.com/liberapay/liberapay.com)  software focusing on recurrent donations to software projects. These recurrent donations are important for the long-term sustainability of projects.  Another interesting feature for software projects is the possibility to create [teams](https://liberapay.com/about/teams) which the members of the project can join and then split the donations in a way where everyone sets the share he or she wants to take."
-msgstr "Ostatnio F-Droid uzyskał wsparcie dla [Liberapay] (https://liberapay.com/), w pełni bezpłatnej platformy darowizny przeznaczonej na projekty oprogramowania. Liberapay sam w sobie jest w pełni darmowym i [open source] (https://github.com/liberapay/liberapay.com) oprogramowaniem skupiającym się na powtarzających się darowiznach na projekty software'owe. Te powtarzające się darowizny są ważne dla długoterminowej trwałości projektów. Kolejną interesującą cechą projektów programistycznych jest możliwość stworzenia [zespołów] (https://liberapay.com/about/teams), do których mogą dołączyć członkowie projektu, a następnie podzielenie darowizn w taki sposób, aby każdy ustalił udział, który on lub ona chce wziąć."
+msgstr "Ostatnio F-Droid uzyskał wsparcie dla [Liberapay](https://liberapay.com/), w pełni bezpłatnej platformy darowizny przeznaczonej na projekty oprogramowania. Liberapay sam w sobie jest w pełni darmowym i [open source](https://github.com/liberapay/liberapay.com) oprogramowaniem skupiającym się na powtarzających się darowiznach na projekty software'owe. Te powtarzające się darowizny są ważne dla długoterminowej trwałości projektów. Kolejną interesującą cechą projektów programistycznych jest możliwość stworzenia [zespołów](https://liberapay.com/about/teams), do których mogą dołączyć członkowie projektu, a następnie podzielenie darowizn w taki sposób, aby każdy ustalił udział, który on lub ona chce wziąć."
 
 #. type: Plain text
 #: build/_posts/md/2018-03-02-liberapay-support.md
@@ -1097,7 +1097,7 @@ msgstr "F-Droid ma teraz pełne wsparcie dla projektów oferujących darowizny z
 #. type: Bullet: '* '
 #: build/_posts/md/2018-03-02-liberapay-support.md
 msgid "The Liberapay ID of a person or team can be entered into a dedicated [metadata field](https://f-droid.org/en/docs/Build_Metadata_Reference/#LiberapayID).  10 apps in F-Droid already offer this as a donation option. Hopefully more will join soon."
-msgstr "Identyfikator Liberapay osoby lub zespołu można wprowadzić w dedykowanym [polu metadanych] (https://f-droid.org/en/docs/Build_Metadata_Reference/LiberapayID). 10 aplikacji w F-Droid już oferuje tę opcję jako darowiznę. Mam nadzieję, że więcej wkrótce dołączy."
+msgstr "Identyfikator Liberapay osoby lub zespołu można wprowadzić w dedykowanym [polu metadanych](https://f-droid.org/en/docs/Build_Metadata_Reference/LiberapayID). 10 aplikacji w F-Droid już oferuje tę opcję jako darowiznę. Mam nadzieję, że więcej wkrótce dołączy."
 
 #. type: Plain text
 #: build/_posts/md/2018-03-02-liberapay-support.md
@@ -1131,12 +1131,12 @@ msgstr "Kolejne kroki"
 #. type: Plain text
 #: build/_posts/md/2018-03-02-liberapay-support.md
 msgid "Liberapay is still a young and very small platform (remember, we became the third most funded team in two months ;-)) so it needs both more projects and more patrons. So spread the word and [ask your favourite](https://github.com/TeamNewPipe/NewPipe/issues/1153)  open source project if you can start giving them money through Liberapay."
-msgstr "Liberapay jest wciąż młodą i bardzo małą platformą (pamiętajcie, że w ciągu dwóch miesięcy staliśmy się trzecią najbardziej finansowaną drużyną ;-)), więc potrzebuje zarówno więcej projektów, jak i więcej patronów. Więc rozpowszechniaj słowo i [pytaj swojego ulubionego] (https://github.com/TeamNewPipe/NewPipe/issues/1153) projektu open source, jeśli możesz zacząć dawać im pieniądze za pośrednictwem Liberapay."
+msgstr "Liberapay jest wciąż młodą i bardzo małą platformą (pamiętajcie, że w ciągu dwóch miesięcy staliśmy się trzecią najbardziej finansowaną drużyną ;-)), więc potrzebuje zarówno więcej projektów, jak i więcej patronów. Więc rozpowszechniaj słowo i [pytaj swojego ulubionego](https://github.com/TeamNewPipe/NewPipe/issues/1153) projektu open source, jeśli możesz zacząć dawać im pieniądze za pośrednictwem Liberapay."
 
 #. type: Plain text
 #: build/_posts/md/2018-03-02-liberapay-support.md
 msgid "Do you know any app or developer with a Liberapay account that is not yet shown in F-Droid? Help us by adding it to the [apps metadata](https://gitlab.com/fdroid/fdroiddata)."
-msgstr "Czy znasz jakąś aplikację lub programistę z kontem Liberapay, które nie jest jeszcze widoczne w F-Droid? Pomóż nam, dodając go do [metadanych aplikacji] (https://gitlab.com/fdroid/fdroiddata)."
+msgstr "Czy znasz jakąś aplikację lub programistę z kontem Liberapay, które nie jest jeszcze widoczne w F-Droid? Pomóż nam, dodając go do [metadanych aplikacji](https://gitlab.com/fdroid/fdroiddata)."
 
 #. type: Plain text
 #: build/_posts/md/2018-03-02-liberapay-support.md
@@ -1157,7 +1157,7 @@ msgstr "\"W tym tygodniu w F-Droid\""
 #. type: Plain text
 #: build/_posts/md/2018-04-27-this-week-in-fdroid.md
 msgid "Hi everyone! This is a little experiment triggered by the [Matrix Project](https://matrix.org/) starting their own [TWIM](https://matrix.org/blog/2018/04/20/this-week-in-matrix-2018-04-20/) (This Week In Matrix), who in turn stole the idea off [TWIR](https://this-week-in-rust.org/) (This Week In Rust). Therefore, we now give you the first trial TWIF!"
-msgstr "Cześć wszystkim! To jest mały eksperyment zainicjowany przez [Projekt Matrix] (https://matrix.org/), który rozpoczyna własną [TWIM] (https://matrix.org/blog/2018/04/20/this-week-in -matrix-2018-04-20 /) (W tym tygodniu w Matrix), który z kolei ukradł ten pomysł [TWIR] (https://this-week-in-rust.org/) (This Week In Rust). Dlatego teraz dajemy ci pierwszy próbny TWIF!"
+msgstr "Cześć wszystkim! To jest mały eksperyment zainicjowany przez [Projekt Matrix](https://matrix.org/), który rozpoczyna własną [TWIM](https://matrix.org/blog/2018/04/20/this-week-in -matrix-2018-04-20 /) (W tym tygodniu w Matrix), który z kolei ukradł ten pomysł [TWIR](https://this-week-in-rust.org/) (This Week In Rust). Dlatego teraz dajemy ci pierwszy próbny TWIF!"
 
 #. type: Plain text
 #: build/_posts/md/2018-04-27-this-week-in-fdroid.md
@@ -1187,7 +1187,7 @@ msgstr "Mówiąc o, pojawiły się problemy z niektórymi tytułami aplikacji wy
 #. type: Bullet: '* '
 #: build/_posts/md/2018-04-27-this-week-in-fdroid.md
 msgid "The [F-Droid](https://f-droid.org/app/org.fdroid.fdroid) app saw two new updates this week. 1.2.2 fixes a critical bug on older android phones, where it was instantly crashing and restarting in a loop. It seems to be stable so far."
-msgstr "Aplikacja [F-Droid] (https://f-droid.org/app/org.fdroid.fdroid) zobaczyła w tym tygodniu dwie nowe aktualizacje. 1.2.2 naprawia krytyczny błąd na starszych telefonach z Androidem, gdzie natychmiast się zawiesza i uruchamia ponownie w pętli. Wydaje się stabilny do tej pory."
+msgstr "Aplikacja [F-Droid](https://f-droid.org/app/org.fdroid.fdroid) zobaczyła w tym tygodniu dwie nowe aktualizacje. 1.2.2 naprawia krytyczny błąd na starszych telefonach z Androidem, gdzie natychmiast się zawiesza i uruchamia ponownie w pętli. Wydaje się stabilny do tej pory."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-04-27-this-week-in-fdroid.md
@@ -1205,9 +1205,9 @@ msgid ""
 "* If you hadn't noticed yet, **Bubu** made F-Droid accounts on Mastodon ([@fdroidorg](https://mastodon.technology/@fdroidorg)) and Twitter ([@fdroidorg](https://twitter.com/fdroidorg)). We've been surprised and excited that our Mastodon has proven much more popular than our Twitter! The set-up automatically mirrors everything between the two accounts, and Bubu has been doing a good job of pushing regular updates and answering people's questions.\n"
 msgstr ""
 "  Prawdopodobnie będzie więcej niestabilnych alf, v3.3, ponieważ było wiele aktualizacji biblioteki, więc proszę przetestuj! I nie aktualizuj, chyba że naprawdę chcesz użyć alfy. \n"
-"* CiaranG umieścił androguard na serwerze kompilacji, co powinno ostatecznie naprawić [admin65] (https://gitlab.com/fdroid/admin/issues/65). Oznacza to, że użytkownicy rozszerzenia uprzywilejowanego będą mogli ostatecznie opuścić nieznane źródła. Powinien także naprawić arabskie nazwy i puste nazwy. \n"
+"* CiaranG umieścił androguard na serwerze kompilacji, co powinno ostatecznie naprawić [admin65](https://gitlab.com/fdroid/admin/issues/65). Oznacza to, że użytkownicy rozszerzenia uprzywilejowanego będą mogli ostatecznie opuścić nieznane źródła. Powinien także naprawić arabskie nazwy i puste nazwy. \n"
 "* Grant w wysokości 22 000 $ na przepływy pracy został oficjalnie potwierdzony. Obejmuje to trochę pracy z web dev. Oczekuje się, że stanie się to w czerwcu. \n"
-"* [Liberapay] (https://liberapay.com/): [Zespół ds. Danych F-Droid] (https://liberapay.com/F-Droid-Data) otrzymuje obecnie 61,05 € tygodniowo od 144 osób patronujących, co czyni go piątym co do wielkości zespołem w Liberapay. Pomóż nam odzyskać tę trzecią pozycję! \n"
+"* [Liberapay](https://liberapay.com/): [Zespół ds. Danych F-Droid](https://liberapay.com/F-Droid-Data) otrzymuje obecnie 61,05 € tygodniowo od 144 osób patronujących, co czyni go piątym co do wielkości zespołem w Liberapay. Pomóż nam odzyskać tę trzecią pozycję! \n"
 "* Jeśli jeszcze nie zauważyłeś, ** Bubu ** zrobił konta F-Droid na Mastodon ([@fdroidorg](https://mastodon.technology/@fdroidorg)) i na Twitterze ([@fdroidorg](https://twitter.com/fdroidorg)). Byliśmy zaskoczeni i podekscytowani, że nasz Mastodon okazał się dużo bardziej popularny niż nasz Twitter! Ustawienia automatycznie odzwierciedlają wszystko między dwoma kontami, a Bubu robi dobrą robotę, wysyłając regularne aktualizacje i odpowiadając na pytania ludzi.\n"
 
 #. type: Title ####
@@ -1224,7 +1224,7 @@ msgstr "Jeden z projektów GSOC z [Matrix](https://matrix.org/) buduje alternaty
 #. type: Bullet: '* '
 #: build/_posts/md/2018-04-27-this-week-in-fdroid.md
 msgid "**_hc**'s work under the [Guardian Project Viento](https://guardianproject.info/wind/) funding is coming to a close, with maybe one or two weeks left."
-msgstr "Prace **_hc** w ramach projektu [Guardian Project Viento] (https://guardianproject.info/wind/) dobiegają końca, a może pozostało jeszcze tylko tydzień lub dwa."
+msgstr "Prace **_hc** w ramach projektu [Guardian Project Viento](https://guardianproject.info/wind/) dobiegają końca, a może pozostało jeszcze tylko tydzień lub dwa."
 
 #. type: Title ####
 #: build/_posts/md/2018-04-27-this-week-in-fdroid.md
@@ -1268,7 +1268,7 @@ msgstr "Zaktualizowane aplikacje"
 #. type: Bullet: '* '
 #: build/_posts/md/2018-04-27-this-week-in-fdroid.md
 msgid "[Ring](https://f-droid.org/app/cx.ring) is finally up-to-date again on F-Droid! (And should hopefully not fall behind that much again.) We had to stop accepting updates because Ring introduced the proprietary [GCM](https://en.wikipedia.org/wiki/Google_Cloud_Messaging) push service. Although that was soon made optional, nobody had time to update the build recipe. (Until now.)"
-msgstr "[Ring] (https://f-droid.org/app/cx.ring) jest wreszcie na bieżąco na F-Droid! (I mam nadzieję, że nie spadnie to zbyt wiele.) Musieliśmy przestać akceptować aktualizacje, ponieważ Ring wprowadził zastrzeżoną usługę [GCM] (https://en.wikipedia.org/wiki/Google_Cloud_Messaging). Chociaż wkrótce stało się to opcjonalne, nikt nie miał czasu na aktualizację receptury budowy. (Do teraz.)"
+msgstr "[Ring](https://f-droid.org/app/cx.ring) jest wreszcie na bieżąco na F-Droid! (I mam nadzieję, że nie spadnie to zbyt wiele.) Musieliśmy przestać akceptować aktualizacje, ponieważ Ring wprowadził zastrzeżoną usługę [GCM](https://en.wikipedia.org/wiki/Google_Cloud_Messaging). Chociaż wkrótce stało się to opcjonalne, nikt nie miał czasu na aktualizację receptury budowy. (Do teraz.)"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-04-27-this-week-in-fdroid.md
@@ -1278,7 +1278,7 @@ msgstr "[Telegram](https://f-droid.org/app/org.telegram.messenger): Rosja nie lu
 #. type: Bullet: '* '
 #: build/_posts/md/2018-04-27-this-week-in-fdroid.md
 msgid "[Yalp Store](https://f-droid.org/app/com.github.yeriomin.yalpstore): There is an update for yalp store not being able to find any app updates."
-msgstr "[Yalp Store] (https://f-droid.org/app/com.github.yeriomin.yalpstore): Istnieje aktualizacja dla sklepu Yalp, który nie może znaleźć żadnych aktualizacji aplikacji."
+msgstr "[Yalp Store](https://f-droid.org/app/com.github.yeriomin.yalpstore): Istnieje aktualizacja dla sklepu Yalp, który nie może znaleźć żadnych aktualizacji aplikacji."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-04-27-this-week-in-fdroid.md
@@ -1296,7 +1296,7 @@ msgstr "archiwizowane aplikacje"
 #. type: Bullet: '* '
 #: build/_posts/md/2018-04-27-this-week-in-fdroid.md
 msgid "[Eleven](https://gitlab.com/ymber/Eleven) was moved to the archive because it is unmaintained and more or less broken according to the app's author."
-msgstr "[Eleven] (https://gitlab.com/ymber/Eleven) zostało przeniesione do archiwum, ponieważ jest nieobsadzone i mniej lub bardziej złamane, zgodnie z autorem aplikacji."
+msgstr "[Eleven](https://gitlab.com/ymber/Eleven) zostało przeniesione do archiwum, ponieważ jest nieobsadzone i mniej lub bardziej złamane, zgodnie z autorem aplikacji."
 
 #. type: Title ####
 #: build/_posts/md/2018-04-27-this-week-in-fdroid.md
@@ -1334,23 +1334,23 @@ msgstr "\"W tym tygodniu w F-Droid, 18 tydzień\""
 #. type: Plain text
 #: build/_posts/md/2018-05-04-this-week-in-fdroid-w18.md
 msgid "Hi everyone! You have been telling us you liked the first [#twif](https://mastodon.technology/tags/twif), so have another!"
-msgstr "Cześć wszystkim! Mówiłeś nam, że podoba Ci się pierwszy [twif] (https://mastodon.technology/tags/twif), więc miej inny!"
+msgstr "Cześć wszystkim! Mówiłeś nam, że podoba Ci się pierwszy [twif](https://mastodon.technology/tags/twif), więc miej inny!"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-04-this-week-in-fdroid-w18.md
 msgid "F-Droid client v1.3-alpha0 is available. It has the new wifi/data preferences, which was one of the priorities of the [Viento](https://guardianproject.info/wind/) funding: making F-Droid work better on cheap devices, low/expensive bandwidth, and small storage."
-msgstr "Klient F-Droid v1.3-alpha0 jest dostępny. Ma nowe preferencje Wi-Fi/data, co było jednym z priorytetów finansowania [Viento] (https://guardianproject.info/wind/): dzięki czemu F-Droid działa lepiej na tanich urządzeniach, niskiej/kosztownej przepustowości i małe miejsce do przechowywania."
+msgstr "Klient F-Droid v1.3-alpha0 jest dostępny. Ma nowe preferencje Wi-Fi/data, co było jednym z priorytetów finansowania [Viento](https://guardianproject.info/wind/): dzięki czemu F-Droid działa lepiej na tanich urządzeniach, niskiej/kosztownej przepustowości i małe miejsce do przechowywania."
 
 #. type: Plain text
 #: build/_posts/md/2018-05-04-this-week-in-fdroid-w18.md
 #, no-wrap
 msgid "  As mentioned in the [previous TWIF](https://f-droid.org/en/2018/04/27/this-week-in-fdroid.html), V1.3 no longer supports Android 2.3.3 or 3.x. Android 4.0 is the minimum. That freed us to update tons of things, and ditch our own custom forks.\n"
-msgstr "  Jak wspomniano w [poprzednim TWIF] (https://f-droid.org/en/2018/04/27/this-week-in-fdroid.html), V1.3 nie obsługuje już systemu Android 2.3.3 lub 3.x. Android 4.0 to minimum. To pozwoliło nam zaktualizować mnóstwo rzeczy i porzucić własne niestandardowe rozwidlenia.\n"
+msgstr "  Jak wspomniano w [poprzednim TWIF](https://f-droid.org/en/2018/04/27/this-week-in-fdroid.html), V1.3 nie obsługuje już systemu Android 2.3.3 lub 3.x. Android 4.0 to minimum. To pozwoliło nam zaktualizować mnóstwo rzeczy i porzucić własne niestandardowe rozwidlenia.\n"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-04-this-week-in-fdroid-w18.md
 msgid "[Bubu](https://forum.f-droid.org/u/Bubu) did some work on bringing the [Rocket.Chat](https://rocket.chat) [app](https://github.com/RocketChat/Rocket.Chat.Android) to F-Droid. The FOSS flavour is currently pending upstream review. It lacks push notifications, but otherwise works fine."
-msgstr "[Bubu] (https://forum.f-droid.org/u/Bubu) wykonał pewne prace związane ze sprowadzeniem [Rocket.Chat] (https://rocket.chat) [app](https://github.com/RocketChat/Rocket.Chat.Android) do F-Droid. Smak FOSS jest obecnie w fazie przeglądu. Brakuje powiadomień push, ale poza tym działa dobrze."
+msgstr "[Bubu](https://forum.f-droid.org/u/Bubu) wykonał pewne prace związane ze sprowadzeniem [Rocket.Chat](https://rocket.chat) [app](https://github.com/RocketChat/Rocket.Chat.Android) do F-Droid. Smak FOSS jest obecnie w fazie przeglądu. Brakuje powiadomień push, ale poza tym działa dobrze."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-04-this-week-in-fdroid-w18.md
@@ -1413,7 +1413,7 @@ msgstr "  Briar nie jest jeszcze w głównym repozytorium F-Droid, ponieważ utk
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-04-this-week-in-fdroid-w18.md
 msgid "We were mentioned in a BuzzFeed article on [how apps sell your data](https://www.buzzfeed.com/nicolenguyen/how-apps-take-your-data-and-sell-it-without-you-even). _\"[...] Kwet also suggests Android users try the F-Droid App Store, because it offers apps without tracking and has a strict auditing process.\"_"
-msgstr "Zostaliśmy wspominani w artykule BuzzFeed na temat [w jaki sposób aplikacje sprzedają twoje dane] (https://www.buzzfeed.com/nicolenguyen/how-apps-take-your-data-and-sell-it-withou-even) . _\" [...] Kwet sugeruje również użytkownikom systemu Android wypróbowanie aplikacji F-Droid App Store, ponieważ oferuje aplikacje bez śledzenia i ma ścisły proces audytu.\"_"
+msgstr "Zostaliśmy wspominani w artykule BuzzFeed na temat [w jaki sposób aplikacje sprzedają twoje dane](https://www.buzzfeed.com/nicolenguyen/how-apps-take-your-data-and-sell-it-withou-even) . _\" [...] Kwet sugeruje również użytkownikom systemu Android wypróbowanie aplikacji F-Droid App Store, ponieważ oferuje aplikacje bez śledzenia i ma ścisły proces audytu.\"_"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-04-this-week-in-fdroid-w18.md
@@ -1479,12 +1479,12 @@ msgstr "Nowa wersja [Mastalab](https://f-droid.org/app/fr.gouv.etalab.mastodon) 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-04-this-week-in-fdroid-w18.md
 msgid "[PySolFC](https://f-droid.org/app/org.lufebe16.pysolfc) was updated from 0.8 to 2.2.0. Development of the Python sources has recently resumed (after an 8-year hyatus) using a [GitHub project](https://github.com/shlomif/PySolFC) and other resources. This new release adds compatibility with Python version 3.x and some other improvements."
-msgstr "[PySolFC](https://f-droid.org/app/org.lufebe16.pysolfc) został zaktualizowany z 0.8 do 2.2.0. Rozwój źródeł Pythona został wznowiony (po ośmioletnim hyatus) za pomocą [projektu GitHub] (https://github.com/shlomif/PySolFC) i innych zasobów. Ta nowa wersja dodaje kompatybilność z wersją 3.x Pythona i kilka innych ulepszeń."
+msgstr "[PySolFC](https://f-droid.org/app/org.lufebe16.pysolfc) został zaktualizowany z 0.8 do 2.2.0. Rozwój źródeł Pythona został wznowiony (po ośmioletnim hyatus) za pomocą [projektu GitHub](https://github.com/shlomif/PySolFC) i innych zasobów. Ta nowa wersja dodaje kompatybilność z wersją 3.x Pythona i kilka innych ulepszeń."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-04-this-week-in-fdroid-w18.md
 msgid "[MTG Familiar](https://f-droid.org/app/com.gelakinetic.mtgfam) was updated from 3.4.6 to 3.5.0, now with [legality checks for decks](https://github.com/AEFeinstein/mtg-familiar/issues/206), [search by watermark](https://github.com/AEFeinstein/mtg-familiar/issues/306), [Pauper](https://github.com/AEFeinstein/mtg-familiar/issues/366), [Energy on the mana pool page](https://github.com/AEFeinstein/mtg-familiar/issues/367), several code rewrites under the hood, as well as the usual slew of bug fixes."
-msgstr "[MTG Familiar](https://f-droid.org/app/com.gelakinetic.mtgfam) został zaktualizowany z wersji 3.4.6 do 3.5.0, teraz z [kontrolą legalności dla decków] (https://github.com/AEFeinstein/mtg-familiar/issues/206), [wyszukiwanie według znaku wodnego](https://github.com/AEFeinstein/mtg-familiar/issues/306), [Pauper] (https://github.com/AEFeinstein/mtg-familiar/issues/366), [Energia na stronie puli many] (https://github.com/AEFeinstein/mtg-familiar/issues/367), kilka przeróbek kodu pod maską, jak również zwykłe mnóstwo poprawek."
+msgstr "[MTG Familiar](https://f-droid.org/app/com.gelakinetic.mtgfam) został zaktualizowany z wersji 3.4.6 do 3.5.0, teraz z [kontrolą legalności dla decków](https://github.com/AEFeinstein/mtg-familiar/issues/206), [wyszukiwanie według znaku wodnego](https://github.com/AEFeinstein/mtg-familiar/issues/306), [Pauper](https://github.com/AEFeinstein/mtg-familiar/issues/366), [Energia na stronie puli many](https://github.com/AEFeinstein/mtg-familiar/issues/367), kilka przeróbek kodu pod maską, jak również zwykłe mnóstwo poprawek."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-04-this-week-in-fdroid-w18.md
@@ -1574,12 +1574,12 @@ msgstr "**Rudloff** przedziera się przez [rfp backlog](https://gitlab.com/fdroi
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-11-this-week-in-fdroid-w19.md
 msgid "We've had several comments from people wondering where VLC is. The VLC developers don't want us to distribute outdated versions, so it's in the archive until we can reliably and automatically build it when it updates. For more information, see the [forum thread](https://forum.f-droid.org/t/where-is-the-vlc-app/108)."
-msgstr "Mieliśmy kilka komentarzy od ludzi zastanawiających się, gdzie jest VLC. Programiści VLC nie chcą, abyśmy rozpowszechniali nieaktualne wersje, więc są w archiwum, dopóki nie będziemy w stanie niezawodnie i automatycznie budować go podczas aktualizacji. Aby uzyskać więcej informacji, zobacz [wątek na forum] (https://forum.f-droid.org/t/where-is-the-vlc-app/108)."
+msgstr "Mieliśmy kilka komentarzy od ludzi zastanawiających się, gdzie jest VLC. Programiści VLC nie chcą, abyśmy rozpowszechniali nieaktualne wersje, więc są w archiwum, dopóki nie będziemy w stanie niezawodnie i automatycznie budować go podczas aktualizacji. Aby uzyskać więcej informacji, zobacz [wątek na forum](https://forum.f-droid.org/t/where-is-the-vlc-app/108)."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-11-this-week-in-fdroid-w19.md
 msgid "[Mastodon](https://joinmastodon.org/): We broke 2K followers on Mastodon this week! In part because [linuxrocks.online](https://linuxrocks.online) was restarted, restoring federation and resulting in an influx of followers from that instance, as well as some 10 day old mentions."
-msgstr "[Mastodon](https://joinmastodon.org/): W tym tygodniu złamaliśmy 2K obserwujących na Mastodon! Częściowo dlatego, że [linuxrocks.online] (https://linuxrocks.online) został zrestartowany, przywracając federację i powodując napływ obserwujących z tej instancji, a także niektóre 10-dniowe wzmianki."
+msgstr "[Mastodon](https://joinmastodon.org/): W tym tygodniu złamaliśmy 2K obserwujących na Mastodon! Częściowo dlatego, że [linuxrocks.online](https://linuxrocks.online) został zrestartowany, przywracając federację i powodując napływ obserwujących z tej instancji, a także niektóre 10-dniowe wzmianki."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-11-this-week-in-fdroid-w19.md

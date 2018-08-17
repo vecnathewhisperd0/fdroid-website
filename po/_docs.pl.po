@@ -98,7 +98,7 @@ msgstr "W metadanych kompilacji aplikacji w _fdroiddata_ collection"
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
 msgid "All the app store materials can also be added to any _fdroiddata_ repository of build metadata.  This follows a file layout modeled after [fastlane supply](https://github.com/fastlane/fastlane/blob/2.28.7/supply/README.md#images-and-screenshots), modified to fit into the _fdroiddata_ workflow.  Any files in this layout will be copied into the repo and added to the repo's index file by `fdroid update`."
-msgstr "Wszystkie materiały z magazynu aplikacji można również dodać do dowolnego repozytorium _fdroiddata_ metadanych kompilacji. Jest to zgodne z układem plików wzorowanym na [dostawa szybka] (https://github.com/fastlane/fastlane/blob/2.2.7.7/supply/README.mdimages-and-screenshots), zmodyfikowanym tak, aby pasował do przepływu pracy _fdroiddata_. Wszystkie pliki w tym układzie zostaną skopiowane do repozytorium i dodane do pliku indeksu transakcji repo za pomocą `fdroid update`."
+msgstr "Wszystkie materiały z magazynu aplikacji można również dodać do dowolnego repozytorium _fdroiddata_ metadanych kompilacji. Jest to zgodne z układem plików wzorowanym na [dostawa szybka](https://github.com/fastlane/fastlane/blob/2.2.7.7/supply/README.mdimages-and-screenshots), zmodyfikowanym tak, aby pasował do przepływu pracy _fdroiddata_. Wszystkie pliki w tym układzie zostaną skopiowane do repozytorium i dodane do pliku indeksu transakcji repo za pomocą `fdroid update`."
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -480,7 +480,7 @@ msgstr "Podpisanie Kompilacji Serwera"
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
 msgid "The Android APK signing model sets the expectation that the signing key will be the same for the entire lifetime of the app.  That can be seen in the recommended lifetype of an Android signing key: [20+ years](https://developer.android.com/studio/publish/app-signing.html#considerations).  On top of that, it is difficult to [migrate an app to a new key](https://guardianproject.info/2015/12/29/how-to-migrate-your-android-apps-signing-key/).  Since the signing key is an essential part to preventing APKs from impersonating another, Android signing keys must be kept safe for the entire life of the app."
-msgstr "Model podpisywania APK systemu Android powoduje oczekiwanie, że klucz podpisu będzie taki sam przez cały czas życia aplikacji. Widać to w zalecanym typie życia klucza podpisu Androida: [20 lat] (https://developer.android.com/studio/publish/app-signing.htmlpytania). Poza tym trudno [przenieść aplikację na nowy klucz] (https://guardianproject.info/2015/12/29/how-to-migrate-your-android-apps-signing-key/) . Ponieważ klucz podpisujący jest niezbędnym elementem zapobiegającym podszywaniu się plików APK pod inną osobę, klucze do podpisów Androida muszą być przechowywane przez cały okres użytkowania aplikacji."
+msgstr "Model podpisywania APK systemu Android powoduje oczekiwanie, że klucz podpisu będzie taki sam przez cały czas życia aplikacji. Widać to w zalecanym typie życia klucza podpisu Androida: [20 lat](https://developer.android.com/studio/publish/app-signing.htmlpytania). Poza tym trudno [przenieść aplikację na nowy klucz](https://guardianproject.info/2015/12/29/how-to-migrate-your-android-apps-signing-key/) . Ponieważ klucz podpisujący jest niezbędnym elementem zapobiegającym podszywaniu się plików APK pod inną osobę, klucze do podpisów Androida muszą być przechowywane przez cały okres użytkowania aplikacji."
 
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
@@ -490,7 +490,7 @@ msgstr "Klucze do podpisywania repo F-Droida działają według bardzo podobnego
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
 msgid "This means the security burden is shifted from the online, public webserver to a private signing machine.  Just keeping that machine out of the public eye goes a long way towards improving security.  There are a number of additional measures that can be taken to further improve the security of the signing process.  Here are some approaches, starting with the easiest and least security, and going on to more secure setups that require more work to setup and run.  Signing is not an resource intensive process, so any machine will work, even a 10 year old, basic laptop.  We recommend using a minimal [Debian](https://www.debian.org) install, and rebuilding the machine from scratch."
-msgstr "Oznacza to, że obciążenie związane z bezpieczeństwem zostaje przeniesione z internetowego, publicznego serwera WWW na prywatny komputer podpisujący. Wyłączenie tej maszyny z publicznego punktu widzenia stanowi długą drogę do poprawy bezpieczeństwa. Istnieje szereg dodatkowych środków, które można podjąć w celu dalszej poprawy bezpieczeństwa procesu podpisywania. Oto kilka podejść, poczynając od najłatwiejszego i najmniejszego bezpieczeństwa, a kończąc na bezpieczniejszych konfiguracjach, które wymagają więcej pracy do skonfigurowania i uruchomienia. Podpisywanie nie jest procesem wymagającym dużych zasobów, więc każda maszyna będzie działać, nawet 10-letni, podstawowy laptop. Zalecamy instalację minimalną [Debian] (https://www.debian.org) i przebudowanie maszyny od nowa."
+msgstr "Oznacza to, że obciążenie związane z bezpieczeństwem zostaje przeniesione z internetowego, publicznego serwera WWW na prywatny komputer podpisujący. Wyłączenie tej maszyny z publicznego punktu widzenia stanowi długą drogę do poprawy bezpieczeństwa. Istnieje szereg dodatkowych środków, które można podjąć w celu dalszej poprawy bezpieczeństwa procesu podpisywania. Oto kilka podejść, poczynając od najłatwiejszego i najmniejszego bezpieczeństwa, a kończąc na bezpieczniejszych konfiguracjach, które wymagają więcej pracy do skonfigurowania i uruchomienia. Podpisywanie nie jest procesem wymagającym dużych zasobów, więc każda maszyna będzie działać, nawet 10-letni, podstawowy laptop. Zalecamy instalację minimalną [Debian](https://www.debian.org) i przebudowanie maszyny od nowa."
 
 #. type: Title ###
 #: build/_docs/md/Building_a_Signing_Server.md
@@ -511,7 +511,7 @@ msgstr "Idealnie byłoby, gdyby ten komputer był dostępny tylko przez Tora. Uk
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
 msgid "For the HSM, we recommend using [Nitrokey](https://www.nitrokey.com/)  hardware, since they are free software/hardware, and provide a wide range of options.  Use a separate machine to put the signing keys on HSM.  A good HSM will keep an audit trail of how many signatures have been made, so that information could be used to create an automatic auditing process to raise alarms if too many signatures have been made.  That could mean that this server was breached and used to sign unauthorized packages."
-msgstr "W przypadku HSM zalecamy korzystanie ze sprzętu [Nitrokey] (https://www.nitrokey.com/), ponieważ są one wolnym oprogramowaniem/sprzętem i oferują szeroki zakres opcji. Użyj osobnego komputera, aby umieścić klucze podpisu w HSM. Dobry HSM będzie utrzymywał dziennik audytu liczby podpisów, tak aby można było wykorzystać informacje do stworzenia automatycznego procesu audytu w celu podniesienia alarmów, gdyby wykonano zbyt wiele podpisów. Może to oznaczać, że serwer został naruszony i używany do podpisywania nieautoryzowanych pakietów."
+msgstr "W przypadku HSM zalecamy korzystanie ze sprzętu [Nitrokey](https://www.nitrokey.com/), ponieważ są one wolnym oprogramowaniem/sprzętem i oferują szeroki zakres opcji. Użyj osobnego komputera, aby umieścić klucze podpisu w HSM. Dobry HSM będzie utrzymywał dziennik audytu liczby podpisów, tak aby można było wykorzystać informacje do stworzenia automatycznego procesu audytu w celu podniesienia alarmów, gdyby wykonano zbyt wiele podpisów. Może to oznaczać, że serwer został naruszony i używany do podpisywania nieautoryzowanych pakietów."
 
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
@@ -656,12 +656,12 @@ msgstr "pakiet \"metadanych\" pliki w podkatalogu the _metadata_ sub-directory"
 #. type: Bullet: '* '
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "[localizable texts and graphics](../All_About_Descriptions_Graphics_and_Screenshots#in-the-apps-build-metadata-in-an-fdroiddata-collection) in the _metadata_ subdirectory"
-msgstr "[zlokalizowalne teksty i grafika] (../All_About_Descriptions_Graphics_and_Screenshots#in-the-apps-build-metadata-in-an-fdroiddata-collection) w podkatalogu_metadata_ subdirectory"
+msgstr "[zlokalizowalne teksty i grafika](../All_About_Descriptions_Graphics_and_Screenshots#in-the-apps-build-metadata-in-an-fdroiddata-collection) w podkatalogu_metadata_ subdirectory"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "localizable texts and graphics [embedded in an app's source code](../All_About_Descriptions_Graphics_and_Screenshots#in-the-apps-source-repository)"
-msgstr "zlokalizowane teksty i grafika [osadzone w kodzie źródłowym aplikacji] (../All_About_Descriptions_Graphics_and_Screenshots#in-the-apps-source-repository)"
+msgstr "zlokalizowane teksty i grafika [osadzone w kodzie źródłowym aplikacji](../All_About_Descriptions_Graphics_and_Screenshots#in-the-apps-source-repository)"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -793,7 +793,7 @@ msgstr "7.4 Licencja<a name=\"License\"></a>"
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "The overall license for the application in terms of the binary that the user can install. Values should correspond to short identifiers of the [SPDX](https://spdx.org/licenses/) license list. There can only be one license listed here. If there are multiple licenses that apply to the source code, then this field should contain the least restrictive license that the whole app can be used under.  When multiple licenses are combined, that usually means the most restrictive wins."
-msgstr "Ogólna licencja dla aplikacji pod względem plików binarnych, które użytkownik może zainstalować. Wartości powinny odpowiadać krótkim identyfikacjom na liście licencji [SPDX] (https://spdx.org/licenses/). Tutaj może być tylko jedna licencja. Jeśli istnieje wiele licencji, które mają zastosowanie do kodu źródłowego, to pole powinno zawierać najmniej restrykcyjną licencję, na której można używać w całej aplikacji. Gdy połączonych jest wiele licencji, zwykle oznacza to najbardziej restrykcyjne wygrane."
+msgstr "Ogólna licencja dla aplikacji pod względem plików binarnych, które użytkownik może zainstalować. Wartości powinny odpowiadać krótkim identyfikacjom na liście licencji [SPDX](https://spdx.org/licenses/). Tutaj może być tylko jedna licencja. Jeśli istnieje wiele licencji, które mają zastosowanie do kodu źródłowego, to pole powinno zawierać najmniej restrykcyjną licencję, na której można używać w całej aplikacji. Gdy połączonych jest wiele licencji, zwykle oznacza to najbardziej restrykcyjne wygrane."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md

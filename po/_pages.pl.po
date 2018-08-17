@@ -596,7 +596,7 @@ msgstr "[Model zabezpieczeń](Security_Model) Krótkie wyjaśnienie o tym jak F-
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
 msgid "[Translation and Localization](Translation_and_Localization) How all the parts of F-Droid are localized."
-msgstr "[Tłumaczenie i lokalizacja] (Tłumaczenie_i_Lokalizacja) Jak zlokalizowane są wszystkie części F-Droida."
+msgstr "[Tłumaczenie i lokalizacja](Translation_and_Localization) Jak zlokalizowane są wszystkie części F-Droida."
 
 #. type: Title ###
 #: build/_pages/md/docs.md

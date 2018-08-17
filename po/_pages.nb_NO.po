@@ -76,7 +76,7 @@ msgstr "Kildekoden for dette nettstedet og innholdet som er produsert av F-Droid
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "The content of the news section and the F-Droid logo are also available under [Creative Commons Attribution-ShareAlike 3.0 License (CC-BY-SA-3.0)](http://creativecommons.org/licenses/by-sa/3.0/) or [GNU General Public License version 3 or later (GPLv3+)](https://www.gnu.org/licenses/gpl-3.0.html)."
-msgstr "Innholdet av nyhetsseksjonen og F-Droid-logoen er også tilgjengelig under [Creative Commons Attribution-ShareAlike 3.0-lisens (CC-BY-SA-3.0)] (http://creativecommons.org/licenses/by-sa/3.0/) eller [GNU General Public License versjon 3 eller nyere (GPLv3+)](https://www.gnu.org/licenses/gpl-3.0.html)."
+msgstr "Innholdet av nyhetsseksjonen og F-Droid-logoen er også tilgjengelig under [Creative Commons Attribution-ShareAlike 3.0-lisens (CC-BY-SA-3.0)](http://creativecommons.org/licenses/by-sa/3.0/) eller [GNU General Public License versjon 3 eller nyere (GPLv3+)](https://www.gnu.org/licenses/gpl-3.0.html)."
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
@@ -496,7 +496,7 @@ msgstr "Slik er det også for hjelp med bygging av nye versjoner av programmer."
 #. type: Plain text
 #: build/_pages/md/contribute.md
 msgid "Further information can be found in [the documentation](../docs), or by asking [on IRC](https://webchat.freenode.net/?channels=%23fdroid) (#fdroid on freenode)."
-msgstr "Ytterligere informasjon finnes i [dokumentasjonen](../dokumenter), eller ved å spørre [på IRC](https://webchat.freenode.net/?channels=%23fdroid) (#fdroid på freenode)."
+msgstr "Ytterligere informasjon finnes i [dokumentasjonen](../docs), eller ved å spørre [på IRC](https://webchat.freenode.net/?channels=%23fdroid) (#fdroid på freenode)."
 
 #. type: Title ###
 #: build/_pages/md/contribute.md

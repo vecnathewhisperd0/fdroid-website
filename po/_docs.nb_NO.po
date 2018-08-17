@@ -27,7 +27,7 @@ msgstr "Alt om beskrivelser, grafikk og skjermavbildninger"
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
 msgid "Each app can have complete app store content, including localized descriptions, feature graphics, and screenshots (as of v0.103 of the F-Droid client app and v0.8 of _fdroidserver_).  This is possible both when apps are added via [build metadata](../Build_Metadata_Reference) as well as when including pre-built files in a simple repository.  There are three paths to including app store content for apps (in order of preference):"
-msgstr "Hver app kan ha fullstendig appbutikkinnhold, inkludert lokaliserte beskrivelser, funksjonsgrafikk og skjermbilder (som av v0.103 av F-Droid klientapp og v0.8 av _fdroidserver_). Dette er mulig både når apper legges til via [bygge metadata] (../ Build_Metadata_Reference), så vel som når du inkluderer forhåndsbygde filer i et enkelt lager. Det er tre baner å inkludere appbutikkinnhold for apper (i preferanse rekkefølge):"
+msgstr "Hver app kan ha fullstendig appbutikkinnhold, inkludert lokaliserte beskrivelser, funksjonsgrafikk og skjermbilder (som av v0.103 av F-Droid klientapp og v0.8 av _fdroidserver_). Dette er mulig både når apper legges til via [bygge metadata](../Build_Metadata_Reference), så vel som når du inkluderer forhåndsbygde filer i et enkelt lager. Det er tre baner å inkludere appbutikkinnhold for apper (i preferanse rekkefølge):"
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
