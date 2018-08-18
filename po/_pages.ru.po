@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-06-30 12:21+0200\n"
-"PO-Revision-Date: 2018-08-18 13:42+0000\n"
-"Last-Translator: Maxim <Max-24@tutamail.com>\n"
+"PO-Revision-Date: 2018-08-18 13:56+0000\n"
+"Last-Translator: Andrey <andrey@mailbox.org>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/f-droid/website-pages/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
@@ -428,18 +428,18 @@ msgstr "Если ваше имя отсутствует, это ошибка, и
 #. type: Plain text
 #: build/_pages/md/about.md
 msgid "The original F-Droid client app was based on the Aptoide app developed by Roberto Jacinto."
-msgstr "Оригинальный клиент приложения F-Droid, основан на приложении Aptoide, разработанный Roberto Jacinto"
+msgstr "Оригинальный клиент приложения F-Droid, основан на приложении Aptoide, разработанном Roberto Jacinto"
 
 #. type: Title #
 #: build/_pages/md/contribute.md
 #, no-wrap
 msgid "Contribute"
-msgstr ""
+msgstr "Поддержать"
 
 #. type: Plain text
 #: build/_pages/md/contribute.md
 msgid "The project is entirely developed and maintained by volunteers. You can help:"
-msgstr "Проект разрабатывается и поддерживается добровольцами. Вы можете помочь:"
+msgstr "Проект полностью разработан и поддерживается волонтерами. Вы можете помочь:"
 
 #. type: Title ###
 #: build/_pages/md/contribute.md
@@ -491,7 +491,7 @@ msgstr ""
 #. type: Plain text
 #: build/_pages/md/contribute.md
 msgid "The same applies for helping to build newer versions of applications."
-msgstr "То же самое относится к помощи в создании новых версий приложений"
+msgstr "Это также относится к помощи в создании новых версий приложений."
 
 #. type: Plain text
 #: build/_pages/md/contribute.md
@@ -576,12 +576,12 @@ msgstr "Больше информации"
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
 msgid "[How to Help](How_to_Help) Different ways anyone can contribute to the F-Droid project."
-msgstr "[Как помочь](How_to_Help) Различные способы участия в проекте F-Droid."
+msgstr "[Как помочь] (How_to_Help) Различные способы сделать вклад в проект F-Droid."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
 msgid "[Known Repositories](https://forum.f-droid.org/t/721) A list that tries to keep track of known F-Droid compatible repositories."
-msgstr ""
+msgstr "[Известные репозитории](https://forum.f-droid.org/t/721) Список, который пытается отслеживать известные совместимые с F-Droid репозитории."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
@@ -596,7 +596,7 @@ msgstr ""
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
 msgid "[Translation and Localization](Translation_and_Localization) How all the parts of F-Droid are localized."
-msgstr "[Перевод и Локализация](Translation_and_Localization) Как локализировать F-droid"
+msgstr "[Перевод и локализация](Translation_and_Localization) Как локализировать F-droid"
 
 #. type: Title ###
 #: build/_pages/md/docs.md
@@ -622,7 +622,7 @@ msgstr ""
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
 msgid "[Update Processing](Update_Processing) How updates get detected and added."
-msgstr "[Процесс Обновления](Update_Processing) Как обновления обнаруживаются и добавляются."
+msgstr "[Процесс обновления](Update_Processing) Как обнаруживаются и добавляются обновления."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
