@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-08-17 13:55+0200\n"
-"PO-Revision-Date: 2018-07-17 18:57+0000\n"
+"PO-Revision-Date: 2018-08-19 20:37+0000\n"
 "Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\n"
 "Language: de\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.1-dev\n"
+"X-Generator: Weblate 3.2-dev\n"
 
 #. type: Title #
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md
@@ -2803,63 +2803,63 @@ msgstr "\"Diese Woche in F-Droid, Woche 20\""
 #. type: Bullet: '* '
 #: build/_posts/md/2018-07-12-this-week-in-fdroid-w28.md
 msgid "[Izzy](https://forum.f-droid.org/u/izzy) is currently in the process of adding tons of expanded app descriptions. Many apps should already have better descriptions, with even more to come."
-msgstr ""
+msgstr "[Izzy](https://forum.f-droid.org/u/izzy) ist gerade dabei, haufenweise erweiterte App-Beschreibungen hinzuzufügen. Viele Apps sollten bereits bessere Beschreibungen haben und es werden noch mehr folgen."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-07-12-this-week-in-fdroid-w28.md
 msgid "Meanwhile, [_hc](https://forum.f-droid.org/u/hans) has been working on polishing and finalizing the F-Droid client for the 1.3 release."
-msgstr ""
+msgstr "In der Zwischenzeit hat [_hc](https://forum.f-droid.org/u/hans) daran gearbeitet, den F-Droid-Client für die Version 1.3 aufzupolieren und fertigzustellen."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-07-12-this-week-in-fdroid-w28.md
 msgid "[Bubu](https://forum.f-droid.org/u/Bubu) chimed in saying there are only 28 of [Rudloff](https://forum.f-droid.org/u/rudloff)'s apps left to be reviewed and accepted. Less when you read this."
-msgstr ""
+msgstr "[Bubu](https://forum.f-droid.org/u/Bubu) läutete ein, dass nur noch 28 der Apps von [Rudloff](https://forum.f-droid.org/u/rudloff) geprüft und akzeptiert werden müssen. Wohl noch weniger, bis du dies liest."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-07-12-this-week-in-fdroid-w28.md
 msgid "We are still experiencing problems with publishing, only getting updates out every 3 days or so. We're working on it."
-msgstr ""
+msgstr "Wir haben immer noch Probleme mit der Veröffentlichung, bringen Aktualisierungen nur alle 3 Tage oder so heraus. Wir arbeiten daran."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-07-12-this-week-in-fdroid-w28.md
 msgid "[Liberapay is in trouble](https://medium.com/liberapay-blog/liberapay-is-in-trouble-b58b40714d82). This hits us as well as everyone else who uses Liberapay. Please act soon and make sure your group takes are up to date."
-msgstr ""
+msgstr "[Liberapay ist in Schwierigkeiten](https://medium.com/liberapay-blog/liberapay-is-in-trouble-b58b40714d82). Das trifft uns ebenso wie alle anderen, die Liberapay nutzen. Bitte handeln Sie schnell und stellen Sie sicher, dass Ihre Gruppeneinnahmen auf dem neuesten Stand sind."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-07-12-this-week-in-fdroid-w28.md
 msgid "The Guardian Project submitted their final prototype of [Project Wind](https://guardianproject.info/wind/) to Mozilla's [Wireless Challenge](https://wirelesschallenge.mozilla.org) and has already won some money with it. The F-Droid app is a key piece of Project Wind, and as such will benefit from some of the prize money. You can [see the prototype in action in this video](https://youtu.be/fGuiy3rlOVQ)."
-msgstr ""
+msgstr "The Guardian Project hat ihren finalen Prototyp von [Project Wind](https://guardianproject.info/wind/) bei Mozillas [Wireless Challenge](https://wirelesschallenge.mozilla.org) eingereicht und damit bereits etwas Geld gewonnen. Die F-Droid-App ist ein wichtiger Bestandteil von Project Wind und wird als solche von einem Teil des Preisgeldes profitieren. Sie können den [Prototyp in Aktion in diesem Video sehen](https://youtu.be/fGuiy3rlOVQ)."
 
 #. type: Plain text
 #: build/_posts/md/2018-07-12-this-week-in-fdroid-w28.md
 #, no-wrap
 msgid "  Additionally, the USB thumb drive and SD card swap you see in the demo will make it to the official F-Droid app at some point, so you will then be able to put a whole or partial mirror of any F-Droid compatible repository on a card or stick, plug that into a phone and install from the repository without any network connection whatsoever.\n"
-msgstr ""
+msgstr "  Zusätzlich werden der USB-Stick- und der SD-Karten-Tausch, den Sie in der Demo sehen, es irgendwann in die offizielle F-Droid-App schaffen, so dass Sie dann in der Lage sein werden, den ganzen oder einen Teil eines F-Droid-kompatiblen Repositorys auf eine Karte oder einen Stick zu legen, diesen in ein Telefon einzustecken und ohne jegliche Netzwerkverbindung aus dem Repository zu installieren.\n"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-07-12-this-week-in-fdroid-w28.md
 msgid "Mats Sjöberg writes about [simplifying his digital life](https://sjoberg.fi/blog/simplify.html), explaining how he makes do without Google and keeps internet distractions at bay. If you'd like to have less stress and more free time, you should definitely give it a read."
-msgstr ""
+msgstr "Mats Sjöberg schreibt über [die Vereinfachung seines digitalen Lebens](https://sjoberg.fi/blog/simplify.html) und erklärt, wie er ohne Google auskommt und die Ablenkung durch das Internet einschränkt. Wenn Sie weniger Stress und mehr Freizeit haben möchten, sollten Sie es unbedingt lesen."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-07-12-this-week-in-fdroid-w28.md
 msgid "A german public transportation app, Öffi, was removed from Google's Play Store, for unclear reasons. More information in [this article](https://heise.de/-4104626) (in German). The app is now offered on the author's web site as well as through a private F-Droid repository. Please be aware that this repository is not under F-Droid's control, and that Öffi is not open source. There's a push going to get the author to open source it, however. Meanwhile, [Transportr](https://f-droid.org/app/de.grobox.liberario) is a reasonable alternative which _is_ free software."
-msgstr ""
+msgstr "Die deutsche App für öffentlichen Personenverkehr Öffi wurde aus unklaren Gründen aus dem Googles Play Store entfernt. Mehr Informationen in [diesem Artikel](https://heise.de/-4104626). Die App wird nun sowohl auf der Website des Autors als auch über ein privates F-Droid-Repository angeboten. Bitte beachten Sie, dass dieses Repository nicht unter der Kontrolle von F-Droid steht und dass Öffi nicht Open Source ist. Es gibt jedoch einen Anstoß, den Autor dazu zu bringen, es zu öffnen. Inzwischen ist [Transportr](https://f-droid.org/app/de.grobox.liberario) eine vernünftige Alternative, die freie Software _ist_."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-07-12-this-week-in-fdroid-w28.md
 msgid "There may or may not be a source of F-Droid swag (shirts) soon. Stay tuned!"
-msgstr ""
+msgstr "Es kann sein, dass es bald eine Quelle für F-Droid Swag (Shirts) gibt. Bleiben Sie dran!"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-07-12-this-week-in-fdroid-w28.md
 msgid "[GPSTest](https://f-droid.org/app/com.android.gpstest.osmdroid): An app for testing GPS and GNSS capabilities of a device"
-msgstr ""
+msgstr "[GPSTest](https://f-droid.org/app/com.android.gpstest.osmdroid): Eine Anwendung zum Testen der GPS- und GNSS-Fähigkeiten eines Gerätes"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-07-12-this-week-in-fdroid-w28.md
 msgid "[HyperRogue](https://f-droid.org/app/com.roguetemple.hyperroid): Top-down rogue-like adventure"
-msgstr ""
+msgstr "[HyperRogue](https://f-droid.org/app/com.roguetemple.hyperroid): Top-down Schurken-Abenteuer"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-07-12-this-week-in-fdroid-w28.md
@@ -2870,7 +2870,7 @@ msgstr "[Werewolf](https://f-droid.org/app/org.secuso.privacyfriendlycardgameone
 #. type: Bullet: '* '
 #: build/_posts/md/2018-07-12-this-week-in-fdroid-w28.md
 msgid "[Poland can into Space](https://f-droid.org/app/pl.sanszo.pcis): Help Polandball to get into Space"
-msgstr ""
+msgstr "[Poland can into Space](https://f-droid.org/app/pl.sanszo.pcis): Hilf Polandball, ins All zu kommen"
 
 #. type: Plain text
 #: build/_posts/md/2018-07-12-this-week-in-fdroid-w28.md
@@ -2881,12 +2881,12 @@ msgstr "Insgesamt wurden diese Woche 54 Apps aktualisiert. Hier die Höhepunkte:
 #. type: Bullet: '* '
 #: build/_posts/md/2018-07-12-this-week-in-fdroid-w28.md
 msgid "[Tusky](https://f-droid.org/app/com.keylesspalace.tusky) 2.0 is out! Lots of changes, among others a redesign of the profile view including support for the account fields and bot badges introduced in Mastodon 2.4. On top of that, custom emoji can be used almost everywhere, there's a choice between three different emoji styles, and lots of other improvements."
-msgstr ""
+msgstr "[Tusky](https://f-droid.org/app/com.keylesspalace.tusky) 2.0 ist rausgekommen! Viele Änderungen, u.a. ein Redesign der Profilansicht mit Unterstützung für die in Mastodon 2.4 eingeführten Account-Felder und Bot-Badges. Hinzu kommt, dass benutzerdefinierte Emoji fast überall verwendet werden können, es gibt eine Auswahl aus drei verschiedenen Emoji-Stilen und vielen anderen Verbesserungen."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-07-12-this-week-in-fdroid-w28.md
 msgid "[Termux](https://f-droid.org/app/com.termux) combines powerful terminal emulation with an extensive Linux package collection. Version 0.64 introduces basic accessibility support, and fixes some layout problems with the extra keyboard."
-msgstr ""
+msgstr "Termux](https://f-droid.org/app/com.termux) kombiniert eine leistungsfähige Terminalemulation mit einer umfangreichen Linux-Paket-Sammlung. Version 0.64 bietet grundlegende Unterstützung für Barrierefreiheit und behebt einige Layoutprobleme mit der zusätzlichen Tastatur."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-07-12-this-week-in-fdroid-w28.md
@@ -2903,33 +2903,33 @@ msgstr "[Simple Search](https://f-droid.org/app/de.tobiasbielefeld.searchbar): E
 #. type: Bullet: '* '
 #: build/_posts/md/2018-07-12-this-week-in-fdroid-w28.md
 msgid "[StreetComplete](https://f-droid.org/app/de.westnordost.streetcomplete) also had a major release. 6.0 adds 3 new quests: building type, path surface and one-way roads. There are enhancements to 6 more quest types, an updated privacy statement, and several smaller enhancements and fixes."
-msgstr ""
+msgstr "[StreetComplete](https://f-droid.org/app/de.westnordost.streetcomplete) hatte auch ein Major-Release. 6.0 fügt 3 neue Quests hinzu: Gebäudetyp, Wegbeschaffenheit und Einbahnstraßen. Es gibt Verbesserungen für 6 weitere Questtypen, eine aktualisierte Datenschutzerklärung und einige kleinere Verbesserungen und Korrekturen."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-07-12-this-week-in-fdroid-w28.md
 msgid "[Riot.im](https://f-droid.org/app/im.vector.alpha) 0.8.12 brings important improvements, including a floating action menu, voice messages (in conjunction with any compatible external app - [Voice Recorder Plugin](https://f-droid.org/app/eu.siacs.conversations.voicerecorder) seems to be the most recommended), and the ability to manually re-request decryption keys from your other devices. Other small improvements and bug fixes include the ability to detect when the phone is in Do Not Disturb mode. Note that voice messages are experimental and need to be enabled in settings."
-msgstr ""
+msgstr "[Riot.im](https://f-droid.org/app/im.vector.alpha) 0.8.12 bringt wichtige Verbesserungen, einschließlich eines schwebenden Aktionsmenüs, Sprachnachrichten (in Verbindung mit jeder kompatiblen externen Anwendung - [Voice Recorder Plugin](https://f-droid.org/app/eu.siacs.conversations.voicerecorder) scheint die am meisten empfohlene zu sein) und die Möglichkeit, manuell Entschlüsselungsschlüssel von Ihren anderen Geräten erneut anzufordern. Weitere kleine Verbesserungen und Fehlerbehebungen beinhalten die Möglichkeit, zu erkennen, wenn sich das Telefon im Nicht stören-Modus befindet. Beachten Sie, dass Sprachnachrichten experimentell sind und in den Einstellungen aktiviert werden müssen."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-07-12-this-week-in-fdroid-w28.md
 msgid "[Fennec F-Droid](https://f-droid.org/app/org.mozilla.fennec_fdroid) 61.0 comes with some performance enhancements to rendering and scrolling, on-by-default support for the latest TLSv1.3 draft, and fixes a recurring crash with Galaxy S8 devices running Android 8.0 as well as various security issues."
-msgstr ""
+msgstr "[Fennec F-Droid](https://f-droid.org/app/org.mozilla.fennec_fdroid) 61.0 enthält einige Leistungsverbesserungen beim Rendern und Scrollen, standardmäßig eingeschaltete Unterstützung für den neuesten TLSv1.3-Entwurf und behebt einen wiederkehrenden Absturz mit Galaxy S8-Geräten unter Android 8.0 sowie verschiedene Sicherheitsprobleme."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-07-12-this-week-in-fdroid-w28.md
 msgid "[Tasks](https://f-droid.org/app/org.tasks) 6.1 brings customized launcher and shortcut widget icons, custom text selection action for Android 6+, updated translations and a slew of crash fixes."
-msgstr ""
+msgstr "[Tasks](https://f-droid.org/app/org.tasks) 6.1 bringt benutzerdefinierte Launcher- und Shortcut-Widget-Symbole, benutzerdefinierte Textauswahl-Aktionen für Android 6+, aktualisierte Übersetzungen und eine Reihe von Crash-Fixes."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-07-12-this-week-in-fdroid-w28.md
 msgid "[Easer](https://f-droid.org/app/ryey.easer) is that event-driven Android automation app. Version 0.6.7 adds _Dynamics_ and support for _Dynamics_ in `NotificationEventPlugin`. _Dynamics_ is the universal way of passing data from _Event_ to _Profile_, and replaces the previous formatting expressions."
-msgstr ""
+msgstr "[Easer](https://f-droid.org/app/ryey.easer) ist die ereignisgesteuerte Android-Automatisierungsanwendung. Version 0.6.7 fügt _Dynamics_ und Unterstützung für _Dynamics_ im `NotificationEventPlugin` hinzu. _Dynamics_ ist die universelle Möglichkeit, Daten von _Event_ an _Profile_ zu übergeben und ersetzt die bisherigen Formatierungsausdrücke."
 
 #. type: Title #
 #: build/_posts/md/2018-07-21-twif-13-public-transport-edition.md
 #, no-wrap
 msgid "\"TWIF 13: Public Transport Edition\""
-msgstr ""
+msgstr "\"TWIF 13: ÖPNV-Edition\""
 
 #. type: Plain text
 #: build/_posts/md/2018-07-21-twif-13-public-transport-edition.md
@@ -2940,12 +2940,12 @@ msgstr "\"Diese Woche in F-Droid, Woche 20\""
 #. type: Plain text
 #: build/_posts/md/2018-07-21-twif-13-public-transport-edition.md
 msgid "In this edition: Öffi released as open source, Transportr 2.0 released, better app descriptions and that annoying bug that causes updates to keep reappearing has been fixed in the latest alpha."
-msgstr ""
+msgstr "In dieser Ausgabe: Öffi als Open Source veröffentlicht, Transportr 2.0 veröffentlicht, bessere App-Beschreibungen und der lästige Fehler, der dazu führt, dass Updates immer wieder auftauchen, wurde in der neuesten Version behoben."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-07-21-twif-13-public-transport-edition.md
 msgid "[_hc](https://forum.f-droid.org/u/hans) is polishing up fdroidserver for Ubuntu/bionic, but for the most part he has been at work deep in the client, closing about 40 issues. 1.3 is drawing closer, and is looking to be a nice stable release. That said, more than 200 [issues](https://gitlab.com/fdroid/fdroidclient/issues) still remain, so if you're familiar with Android development, your help is more than welcome."
-msgstr ""
+msgstr "[_hc](https://forum.f-droid.org/u/hans) poliert fdroidserver für Ubuntu/bionic auf, aber zum größten Teil hat er in den Tiefen des Clients gearbeitet und etwa 40 Probleme erledigt. 1.3 rückt näher und sieht nach einer schönen stabilen Veröffentlichung aus. Allerdings bleiben noch mehr als 200 [Issues](https://gitlab.com/fdroid/fdroidclient/issues) übrig, wenn Sie also mit der Entwicklung von Android vertraut sind, ist Ihre Hilfe mehr als willkommen."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-07-21-twif-13-public-transport-edition.md
