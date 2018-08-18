@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-06-30 12:21+0200\n"
-"PO-Revision-Date: 2018-08-18 14:07+0000\n"
-"Last-Translator: Maxim <Max-24@tutamail.com>\n"
+"PO-Revision-Date: 2018-08-19 14:42+0000\n"
+"Last-Translator: Andrey <andrey@mailbox.org>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/f-droid/website-pages/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
@@ -102,7 +102,7 @@ msgstr "F-Droid — некоммерческий [volunteer]({{ \"/contribute/\"
 #. type: Plain text
 #: build/_pages/md/about.md
 msgid "F-Droid respects your privacy. We don’t track you, or your device. We don’t track what you install. You don’t need an account to use the client, and it sends no additional identifying data when talking to our web server other than its version number. We don’t even allow you to install other applications from the repository that track you, unless you first enable ‘Tracking’ in the AntiFeatures section of preferences. Any personal data you decide to give us (e.g. your email address when registering for an account to post on the forum) goes no further than us, and will not be used for anything other than allowing you to maintain your account."
-msgstr "F-Droid уважает вашу конфиденциальность. Мы не отслеживаем вас или ваше устройство. Мы не отслеживаем, что вы устанавливаете. Вам не нужна учетная запись для использования клиента, и она не отправляет никаких дополнительных идентифицирующих данных при разговоре с нашим веб-сервером, кроме номера версии. Мы даже не позволяем вам устанавливать другие приложения из репозитория, которые отслеживают вас, если только вы не включите «Отслеживание» в разделе «Настройки AntiFeatures». Любые персональные данные, которые вы решили нам предоставить (например, ваш адрес электронной почты при регистрации для учетной записи для публикации на форуме), не идут дальше нас и не будут использоваться ни для чего, кроме как для поддержки вашей учетной записи."
+msgstr "F-Droid уважает ваше личное пространство. Мы не отслеживаем вас или ваше устройство. Мы не отслеживаем, что вы устанавливаете. Для использования клиента не нужно создавать аккаунт, также он не отсылает никаких идентификационных данных во время общения с нашим веб-сервером, кроме номера версии. Мы позволяем устанавливать отслеживающие приложения из репозитория только в том случае, если вы включили 'Отслеживание' в разделе Анти-функции в настройках. Любые персональные данные, которые вы решили нам предоставить (например, адрес электронной почты при регистрации учетной записи для публикации на форуме), не идут дальше нас, и не будут использованы ни для чего другого, кроме поддержания вашей учетной записи."
 
 #. type: Title ###
 #: build/_pages/md/about.md
@@ -502,7 +502,7 @@ msgstr ""
 #: build/_pages/md/contribute.md
 #, no-wrap
 msgid "Translate"
-msgstr ""
+msgstr "Перевод"
 
 #. type: Plain text
 #: build/_pages/md/contribute.md
@@ -550,22 +550,22 @@ msgstr "Серверные инструменты F-Droid предоставля
 #: build/_pages/md/docs.md
 #, no-wrap
 msgid "Getting Started"
-msgstr ""
+msgstr "Начинаем"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
 msgid "[FAQ - General](FAQ_-_General) Frequently Asked Questions about F-Droid"
-msgstr ""
+msgstr "[FAQ - Общее](FAQ_-_General) Часто задаваемые вопросы о F-Droid"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
 msgid "[FAQ - Client](FAQ_-_Client) Frequently Asked Questions about how to use the F-Droid app in Android."
-msgstr ""
+msgstr "[FAQ - Клиент](FAQ_-_Client) Часто задаваемые вопросы по использованию приложения F-Droid на Android."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
 msgid "[Anti-Features](https://f-droid.org/wiki/page/Antifeatures) What they are, what they mean, and what apps have them."
-msgstr ""
+msgstr "[Анти-функции](https://f-droid.org/wiki/page/Antifeatures) Что это такое, что имеется в виду и какие приложения их содержат."
 
 #. type: Title ###
 #: build/_pages/md/docs.md
@@ -718,7 +718,7 @@ msgstr ""
 #: build/_pages/md/issues.md
 #, no-wrap
 msgid "Issues"
-msgstr ""
+msgstr "Проблемы"
 
 #. type: Plain text
 #: build/_pages/md/issues.md
@@ -765,7 +765,7 @@ msgstr ""
 #: build/_pages/md/repomaker.md
 #, no-wrap
 msgid "Repomaker"
-msgstr ""
+msgstr "Repomaker"
 
 #. type: Plain text
 #: build/_pages/md/repomaker.md
