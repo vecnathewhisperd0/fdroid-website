@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-06-30 12:21+0200\n"
 "PO-Revision-Date: 2018-08-18 14:06+0000\n"
-"Last-Translator: Maxim <Max-24@tutamail.com>\n"
+"Last-Translator: Andrey <andrey@mailbox.org>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/f-droid/website-pages/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
@@ -44,17 +44,7 @@ msgstr "О F-Droid"
 #. type: Plain text
 #: build/_pages/md/about.md
 msgid "F-Droid is a robot with a passion for Free and Open Source (FOSS) software on the Android platform. On this site you’ll find a repository of FOSS apps, along with an Android client to perform installations and updates, and news, reviews and other features covering all things Android and software-freedom related."
-msgstr ""
-"F-Droid - это робот, который с уважением \n"
-"относиться к бесплатному и открытому \n"
-"исходному коду (FOSS) на платформе \n"
-"Android. На этом сайте вы найдете \n"
-"репозиторий приложений FOSS, а также \n"
-"клиент Android для установки и \n"
-"обновления, а также новости, обзоры и \n"
-"другие функции, охватывающие все, что \n"
-"связано с Android и свободным \n"
-"программным обеспечением."
+msgstr "Робот-симпатяга F-droid всем сердцем любит программное обеспечение с открытым исходным кодом (Free Open Source Software, FOSS) на платформе Android. На этом сайте вы найдете репозиторий таких приложений и клиент для их установки и обновления, а также новости, обзоры и прочее, охватывающее все, что связано с разработкой под Android и свободным программным обеспечением."
 
 #. type: Plain text
 #: build/_pages/md/about.md
