@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-06-30 12:21+0200\n"
-"PO-Revision-Date: 2018-05-30 21:43+0000\n"
-"Last-Translator: Максим Якимчук <xpinovo@gmail.com>\n"
+"PO-Revision-Date: 2018-08-19 11:45+0000\n"
+"Last-Translator: AB <ao7nro+6ltrjuwxelfo4@sharklasers.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/f-droid/website-pages/uk/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 3.0-dev\n"
+"X-Generator: Weblate 3.2-dev\n"
 
 #. type: Title #
 #: build/_pages/md/403.md
@@ -529,9 +529,8 @@ msgstr "Допомога з розробкою"
 
 #. type: Plain text
 #: build/_pages/md/contribute.md
-#, fuzzy
 msgid "There are four git repositories hosted at GitLab – one for the [Android client application](https://gitlab.com/fdroid/fdroidclient), one for the [server tools](https://gitlab.com/fdroid/fdroidserver) for running a repository and building/installing applications locally, and one for the associated [metadata files for applications in the main F-Droid repository](https://gitlab.com/fdroid/fdroiddata).  The last repo is handling [website and documentation](https://gitlab.com/fdroid/fdroid-website).  The easiest way to contribute to development is to make clones of these projects and submit merge requests.  If you are making large changes, it would be good to discuss them on IRC or in the forum first, to ensure they fit with the direction of the project, and do not clash with or duplicate work already in development."
-msgstr "У Gitlab розміщено чотири репозиторія git – один для [клієнтської програми Android](https://gitlab.com/fdroid/fdroidclient), один для [інструментів сервера](https://gitlab.com/fdroid/fdroidserver) для запуску сховища і створення/встановлення застосунків локально, і один для пов'язаних [метаданих файлів для застосунків в основному сховищі F-Droid](https://gitlab.com/fdroid/fdroiddata). Останній репозиторій - обробка [веб-сайт та документація](https://gitlab.com/fdroid/fdroid-website). Найпростіший спосіб зробити свій внесок у розвиток полягає в тому, щоб скласти клони цих проектів та подавати запити на злиття. Якщо ви робите великі зміни, було б добре обговорити їх на IRC або на форумі, по-перше, щоб вони відповідали напрямку проекту, і не стикалися з дубльованою роботою, яка вже була зроблена."
+msgstr "У Gitlab розміщено чотири комори даних git – одна для [клієнтської програми Android](https://gitlab.com/fdroid/fdroidclient), одна для [інструментів сервера](https://gitlab.com/fdroid/fdroidserver) для запуску сховища і створення/встановлення застосунків локально, і один для пов'язаних [метаданих файлів для застосунків в основному сховищі F-Droid](https://gitlab.com/fdroid/fdroiddata). Остання комора даних - оброблення [веб-сайт та документація](https://gitlab.com/fdroid/fdroid-website). Найпростіший спосіб зробити свій внесок у розвиток полягає в тому, щоб скласти клони цих проектів та подавати запити на злиття. Якщо ви робите великі зміни, було б добре обговорити їх на IRC або на форумі, по-перше, щоб вони відповідали напрямку проекту, і не стикалися з дубльованою роботою, яка вже була зроблена."
 
 #. type: Plain text
 #: build/_pages/md/contribute.md
@@ -657,17 +656,17 @@ msgstr "[Все про описи, графіку та знімки екрана
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
 msgid "[Publishing Nightly Builds](Publishing_Nightly_Builds) Make an automated repo of nightly builds of your app."
-msgstr ""
+msgstr "[Оприлюднення нічних білдів](Publishing_Nightly_Builds) Зробіть автоматичне оновлення комори даних нічними білдами для вашого застосунку."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
 msgid "[Installing the Server and Repo Tools](Installing_the_Server_and_Repo_Tools) How to install fdroidserver, the tools for running repos and build servers."
-msgstr "[Встановлення сервера та інструментів репозиторію](Installing_the_Server_and_Repo_Tools) Як встановити fdroidserver, інструменти для запуску репозиторіїв та побудова серверів."
+msgstr "[Встановлення сервера та інструментів комори даних](Installing_the_Server_and_Repo_Tools) Як встановити fdroidserver, інструменти для запуску комір даних та побудова серверів."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
 msgid "[Setup an F-Droid App Repo](Setup_an_F-Droid_App_Repo) How to setup your own repository of apps that users can easily add to their F-Droid client to get your apps directly from the source."
-msgstr "[Налаштування репозиторію застосунку F-Droid] Як налаштувати власний репозиторій застосунків, які користувачі можуть легко додати до свого клієнта F-Droid, щоб отримати свої застосунки безпосередньо з джерела."
+msgstr "[Налаштування комори даних застосунку F-Droid] Як налаштувати власну застосункову комору даних, яку користувачі можуть легко додати до свого клієнта F-Droid, аби отримати свої застосунки безпосередньо з джерела."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
