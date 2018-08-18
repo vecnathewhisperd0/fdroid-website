@@ -188,6 +188,16 @@ $ echo export ANDROID_HOME=$ANDROID_HOME >> .bashrc
 $ echo 'export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools' >> .bashrc
 ```
 
+If you are using Android Studio, you can add this to your `.bashrc` file:
+
+```
+export ANDROID_HOME="$HOME/Android/Sdk"
+export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
+```
+
+After you are done editing, you can source the file again with
+`source ~/.bashrc`.
+
 ## Building all apps from f-droid.org
 
 In order to build all apps that are included in f-droid.org, then a
