@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-06-30 12:21+0200\n"
 "PO-Revision-Date: 2018-08-18 13:42+0000\n"
-"Last-Translator: Andrey <andrey@mailbox.org>\n"
+"Last-Translator: Maxim <Max-24@tutamail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/f-droid/website-pages/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
@@ -491,7 +491,7 @@ msgstr ""
 #. type: Plain text
 #: build/_pages/md/contribute.md
 msgid "The same applies for helping to build newer versions of applications."
-msgstr ""
+msgstr "То же самое относится к помощи в создании новых версий приложений"
 
 #. type: Plain text
 #: build/_pages/md/contribute.md
