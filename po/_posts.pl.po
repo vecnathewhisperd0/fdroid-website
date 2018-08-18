@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-08-17 13:55+0200\n"
-"PO-Revision-Date: 2018-08-16 15:38+0000\n"
+"PO-Revision-Date: 2018-08-19 12:41+0000\n"
 "Last-Translator: WaldiS <admin@sto.ugu.pl>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/f-droid/website-posts/pl/>\n"
 "Language: pl\n"
@@ -1614,115 +1614,115 @@ msgstr "[Martin Pitt](https://piware.de)napisał raczej miły [artykuł na temat
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-11-this-week-in-fdroid-w19.md
 msgid "[Secure photo viewer](https://f-droid.org/app/com.gtp.showapicturetoyourfriend): A media-viewer that functions ontop of your lockscreen. Prevents someone seeing what they are not supposed to or doing anything to your phone."
-msgstr ""
+msgstr "[Bezpieczna przeglądarka zdjęć] (https://f-droid.org/app/com.gtp.showapicturetoourfriend): przeglądarka multimediów, która działa w trybie online na ekranie blokady. Zapobiega wyświetlaniu tego, czego nie powinien, lub robieniu czegokolwiek na telefonie."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-11-this-week-in-fdroid-w19.md
 msgid "[Fairphone Launcher 3](https://f-droid.org/app/community.fairphone.fplauncher3): Fairphone Lancher 3 originally developed for Fairphone 2. We've had reports of it failing to install on some phones. See [here](https://gitlab.com/fdroid/fdroiddata/merge_requests/3119) and [here](https://github.com/WeAreFairphone/android_packages_apps_FairphoneLauncher3/issues/6)."
-msgstr ""
+msgstr "[Fairphone Launcher 3] (https://f-droid.org/app/community.fairphone.fplauncher3): Fairphone Lancher 3 pierwotnie opracowany dla Fairphone 2. Mieliśmy raporty o tym, że nie udało się zainstalować na niektórych telefonach. Zobacz [tutaj] (https://gitlab.com/fdroid/fdroiddata/merge_requests/3119) i [tutaj] (https://github.com/WeAreFairphone/android_packages_apps_FairphoneLauncher3/issues/6)."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-11-this-week-in-fdroid-w19.md
 msgid "[ADSdroid](https://f-droid.org/app/hu.vsza.adsdroid): Get technical datasheets"
-msgstr ""
+msgstr "[ADSdroid] (https://f-droid.org/app/hu.vsza.adsdroid): Uzyskaj dane techniczne"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-11-this-week-in-fdroid-w19.md
 msgid "[MaterialOS](https://f-droid.org/app/org.materialos.icons): Material Design icons for your homescreen"
-msgstr ""
+msgstr "[MaterialOS] (https://f-droid.org/app/org.materialos.icons): Ikony projektowania materiałów na ekranie głównym"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-11-this-week-in-fdroid-w19.md
 msgid "[OpenVegeMap](https://f-droid.org/app/pro.rudloff.openvegemap): Find vegetarian and vegan restaurants in your city"
-msgstr ""
+msgstr "[OpenVegeMap] (https://f-droid.org/app/pro.rudloff.openvegemap): Znajdź wegetariańskie i wegańskie restauracje w swoim mieście"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-11-this-week-in-fdroid-w19.md
 msgid "[Updater for Spotify](https://f-droid.org/app/ru.ra66it.updaterforspotify): Download the latest version of Spotify"
-msgstr ""
+msgstr "[Aktualizator dla Spotify] (https://f-droid.org/app/ru.ra66it.updaterforspotify): Pobierz najnowszą wersję Spotify"
 
 #. type: Plain text
 #: build/_posts/md/2018-05-11-this-week-in-fdroid-w19.md
 #: build/_posts/md/2018-07-05-this-week-in-fdroid-w27.md
 msgid "In total, 49 apps were updated this week. Here are the highlights:"
-msgstr ""
+msgstr "W sumie w tym tygodniu zaktualizowano 49 aplikacji. Oto najważniejsze cechy:"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-11-this-week-in-fdroid-w19.md
 msgid "[Fennec F-Droid](https://f-droid.org/app/org.mozilla.fennec_fdroid), which is F-Droid's unbranded Firefox build, updated to v60, [finally bringing all Firefox quantum improvements to android](https://www.androidpolice.com/2018/05/04/firefox-60-now-available-finally-brings-quantum-css-engine-android/)."
-msgstr ""
+msgstr "[Fennec F-Droid] (https://f-droid.org/app/org.mozilla.fennec_fdroid), który jest niemarkową wersją Firefoksa F-Droida, zaktualizowaną do wersji v60, [która ostatecznie wprowadza wszystkie ulepszenia kwantowe Firefoxa do Androida] ( https://www.androidpolice.com/2018/05/04/firefox-60-now-available-finally-brings-quantum-css-engine-android/)."
 
 #. type: Plain text
 #: build/_posts/md/2018-05-11-this-week-in-fdroid-w19.md
 #, no-wrap
 msgid "  By the way, several people told us they find the icon ugly. Think you can do better? Here's your chance! Send us a new design, and we might make it the official new Fennec F-Droid icon! Submission and discussion will happen in the [Forum](https://forum.f-droid.org/t/new-icon-for-fennec-f-droid/2810).\n"
-msgstr ""
+msgstr "  Przy okazji, kilka osób powiedziało nam, że ikona jest brzydka. Myślę że możesz zrobić to lepiej? Oto Twoja szansa! Wyślij nam nowy projekt, a my możemy uczynić go oficjalną nową ikoną Fennec F-Droid! Zgłoszenie i dyskusja będą miały miejsce na [forum] (https://forum.f-droid.org/t/new-icon-for-fennec-f-droid/2810).\n"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-11-this-week-in-fdroid-w19.md
 msgid "[Conversations](https://f-droid.org/app/eu.siacs.conversations) was updated to version 2.2.0 featuring integrated message search, voice recorder and location sharing. Users of the plugins \"[Voice Recorder Plugin](https://f-droid.org/app/eu.siacs.conversations.voicerecorder)\" from the F-Droid repo and \"Open Share Location Plugin\" from the F-Droid Archive repo can safely uninstall them after updating."
-msgstr ""
+msgstr "[Conversations] (https://f-droid.org/app/eu.siacs.conversations) został zaktualizowany do wersji 2.2.0 ze zintegrowanym wyszukiwaniem wiadomości, dyktafonem i udostępnianiem lokalizacji. Użytkownicy wtyczek \"[Voice Recorder Plugin] (https://f-droid.org/app/eu.siacs.conversations.voicerecorder)\" z repozytorium F-Droid i \"Open Share Plugin lokalizacji\" z F-Droid Archiwum repo mogą bezpiecznie odinstalować je po aktualizacji."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-11-this-week-in-fdroid-w19.md
 msgid "[Markor](https://f-droid.org/app/net.gsantner.markor) 0.3.7 is out on F-Droid, with option to disable red spell check underline, delete action, open link in browser, and more."
-msgstr ""
+msgstr "[Markor] (https://f-droid.org/app/net.gsantner.markor) 0.3.7 jest na F-Droidie, z opcją wyłączenia podkreślenia czerwoną kratką, usunięcia akcji, otwarcia łącza w przeglądarce i jeszcze."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-11-this-week-in-fdroid-w19.md
 msgid "[DAVdroid](https://f-droid.org/app/at.bitfire.davdroid) 1.11.2-ose enables [Collection Synchronization](https://forums.bitfire.at/post/467)."
-msgstr ""
+msgstr "[DAVdroid] (https://f-droid.org/app/at.bitfire.davdroid) 1.11.2-ose enables [Synchronizacja kolekcji] (https://forums.bitfire.at/post/467)."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-11-this-week-in-fdroid-w19.md
 msgid "[NewPipe](https://f-droid.org/app/org.schabi.newpipe) was updated to 0.13.3. You can now double-tap the middle of the player screen to pause the video. The history view and project layout was refactored, along with other improvements and fixes."
-msgstr ""
+msgstr "[NewPipe] (https://f-droid.org/app/org.schabi.newpipe) został zaktualizowany do wersji 0.13.3. Możesz teraz dwukrotnie dotknąć środkowej części ekranu odtwarzacza, aby wstrzymać wideo. Widok historii i układ projektu został refaktoryzowany wraz z innymi ulepszeniami i poprawkami."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-11-this-week-in-fdroid-w19.md
 msgid "[KISS launcher](https://f-droid.org/app/fr.neamar.kiss) 3.2.0 brings improved gestures, drag & drop for favourites, and the keyboard layout no longer changes when typing a phone number."
-msgstr ""
+msgstr "[KISS launcher] (https://f-droid.org/app/fr.neamar.kiss) 3.2.0 wprowadza ulepszone gesty, drag & drop dla ulubionych, a układ klawiatury nie zmienia się już po wpisaniu numeru telefonu."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-11-this-week-in-fdroid-w19.md
 msgid "[Street­Complete](https://f-droid.org/app/de.westnordost.streetcomplete) was updated from 5.0 to 5.2, fixing battery drain and performance problems, a crash on downloading construction quest, compass improvements and more."
-msgstr ""
+msgstr "[StreetComplete] (https://f-droid.org/app/de.westnordost.streetcomplete) został zaktualizowany z wersji 5.0 do 5.2, naprawiając problemy z rozładowaniem baterii i wydajnością, awarię podczas pobierania zadania konstrukcyjnego, ulepszenia kompasu i wiele więcej."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-11-this-week-in-fdroid-w19.md
 msgid "[Ring](https://f-droid.org/app/cx.ring) was updated from 20180421 to 20180501"
-msgstr ""
+msgstr "[Ring] (https://f-droid.org/app/cx.ring) został zaktualizowany z 20180421 na 20180501"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-11-this-week-in-fdroid-w19.md
 msgid "[Maps](https://f-droid.org/app/com.github.axet.maps) was updated from 8.1.0-4-Google to 8.2.3-1-Google"
-msgstr ""
+msgstr "[Maps] (https://f-droid.org/app/com.github.axet.maps) został zaktualizowany z wersji 8.1.0-4-Google do wersji 8.2.3-1-Google"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-11-this-week-in-fdroid-w19.md
 msgid "**Orweb** was archived because it has been superceded by **Orfox** from the Guardian Project repo a while ago, and is no longer maintained at all."
-msgstr ""
+msgstr "** Orweb ** został zarchiwizowany, ponieważ został ostatnio zastąpiony przez ** Orfox ** z repozytorium Guardian Project i nie jest już dłużej utrzymywany."
 
 #. type: Plain text
 #: build/_posts/md/2018-05-11-this-week-in-fdroid-w19.md
 msgid "We want to hear from you! Did your favourite app update? Tell us what's good and new! Did someone write an article involving F-Droid? Let us know! Anything that's of interest to F-Droid users is game."
-msgstr ""
+msgstr "Chcemy usłyszeć od ciebie! Czy pojawiła się aktualizacja Twojej ulubionej aplikacji? Powiedz nam, co jest dobre i nowe! Czy ktoś napisał artykuł dotyczący F-Droid? Daj nam znać! Wszystko, co interesuje użytkowników F-Droid, to gra."
 
 #. type: Plain text
 #: build/_posts/md/2018-05-11-this-week-in-fdroid-w19.md
 msgid "Please tell us in the [TWIF submission thread](https://forum.f-droid.org/t/twif-submission-thread) on the forum, or tag your update [#fdroid](https://mastodon.technology/tags/fdroid) on Mastodon. (And cc [@fdroidorg@mastodon.technology](https://mastodon.technology/@fdroidorg) to make sure it reaches our instance.)"
-msgstr ""
+msgstr "Powiedz nam w wątku [TWIF submission thread] (https://forum.f-droid.org/t/twif-submission-thread) na forum lub oznacz swoją aktualizację [#fdroid] (https://mastodon.technology/tags/fdroid) na Mastodon. (And cc [@fdroidorg@mastodon.technology](https://mastodon.technology/@fdroidorg), aby upewnić się, że dociera do naszej instancji.)"
 
 #. type: Title #
 #: build/_posts/md/2018-05-17-this-week-in-fdroid-w20.md
 #, no-wrap
 msgid "\"This Week in F-Droid, Week 20\""
-msgstr ""
+msgstr "\"W tym tygodniu w F-Droid, 20 tydzień\""
 
 #. type: Plain text
 #: build/_posts/md/2018-05-17-this-week-in-fdroid-w20.md
 msgid "[F-Droid](https://f-droid.org/) is a [repository](https://f-droid.org/en/packages/) of verified [free and open source](https://en.wikipedia.org/wiki/Free_and_open-source_software) Android apps, a [client](https://f-droid.org/app/org.fdroid.fdroid) to access it, as well as a whole \"app store kit\", providing all the tools needed to set up and run an app store. It is a community-run free software project developed by a wide range of contributors. This is their story this past week."
-msgstr ""
+msgstr "[F-Droid] (https://f-droid.org/) to [repozytorium] (https://f-droid.org/en/packages/) zweryfikowanego [wolnego i otwartego źródła] (https://en.wikipedia.org/wiki/Free_and_open-source_software) Aplikacje na Androida, [klient] (https://f-droid.org/app/org.fdroid.fdroid), aby uzyskać do niego dostęp, a także cały \"zestaw aplikacji sklepu\", zapewniając wszystkie narzędzia potrzebne do skonfigurowania i uruchomienia sklepu z aplikacjami. Jest to projekt wolnego oprogramowania tworzony przez społeczność, opracowany przez wielu różnych autorów. To jest ich historia w zeszłym tygodniu."
 
 #. type: Title ####
 #: build/_posts/md/2018-05-17-this-week-in-fdroid-w20.md
@@ -1741,144 +1741,144 @@ msgstr ""
 #: build/_posts/md/2018-08-16-twif-17-the-reproducible-builds-and-encrypted-e-mail-edition.md
 #, no-wrap
 msgid "F-Droid core"
-msgstr ""
+msgstr "Rdzeń F-Droid"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-17-this-week-in-fdroid-w20.md
 msgid "[Rudloff](https://social.rudloff.pro/profile/rudloff) has been very active again, and is responsible for most of the record-breaking 12 new apps!"
-msgstr ""
+msgstr "[Rudloff] (https://social.rudloff.pro/profile/rudloff) jest znowu bardzo aktywny i jest odpowiedzialny za większość rekordowych 12 nowych aplikacji!"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-17-this-week-in-fdroid-w20.md
 msgid "[_hc](https://forum.f-droid.org/u/hans) has tagged and released [fdroidserver](https://f-droid.org/en/docs/Installing_the_Server_and_Repo_Tools/) v1.0.4. This release finally fixes the problems mentioned [two weeks ago](https://f-droid.org/en/2018/05/04/this-week-in-fdroid-w18.html). So if users of your repository are complaining that they [can't update](https://forum.f-droid.org/t/unable-to-get-apps-and-update-f-droid), please update ASAP!"
-msgstr ""
+msgstr "[_hc] (https://forum.f-droid.org/u/hans) otagował i opublikował [fdroidserver] (https://f-droid.org/en/docs/Installing_the_Server_and_Repo_Tools/) v1.0.4. To wydanie ostatecznie naprawia wymienione problemy [dwa tygodnie temu] (https://f-droid.org/en/2018/05/04/this-week-in-fdroid-w18.html). Więc jeśli użytkownicy twojego repozytorium skarżą się, że nie mogą zaktualizować (https://forum.f-droid.org/t/unable-to-get-apps-and-update-f-droid), proszę zaktualizować JAK NAJSZYBCIEJ!"
 
 #. type: Plain text
 #: build/_posts/md/2018-05-17-this-week-in-fdroid-w20.md
 #, no-wrap
 msgid "  Under the hood, fdroidserver can now accomplish most tasks without the Android SDK, relying on [androguard](https://pypi.org/project/androguard/) instead.\n"
-msgstr ""
+msgstr "  Pod maską, fdroidserver może teraz wykonywać większość zadań bez SDK Androida, opierając się na [androguard] (https://pypi.org/project/androguard/).\n"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-17-this-week-in-fdroid-w20.md
 msgid "[_hc](https://forum.f-droid.org/u/hans) also added a security scanner for Python to the build process. It didn't catch anything, but for an extra 1.5 minutes of build time, it's nice to have."
-msgstr ""
+msgstr "[_hc] (https://forum.f-droid.org/u/hans) dodał także skaner bezpieczeństwa dla Pythona do procesu kompilacji. Nic się nie złapało, ale przez dodatkowe 1,5 minuty czasu budowy, miło jest mieć."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-17-this-week-in-fdroid-w20.md
 msgid "[hotlittlewhitedog](https://forum.f-droid.org/u/hotlittlewhitedog) has been putting in some work to make the F-Droid client work on Android TV."
-msgstr ""
+msgstr "[hotlittlewhitedog] (https://forum.f-droid.org/u/hotlittlewhitedog) pracuje nad tym, aby klient F-Droid działał na Android TV."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-17-this-week-in-fdroid-w20.md
 msgid "[hellcp](https://forum.f-droid.org/u/hellcp) submitted [an icon](https://forum.f-droid.org/t/new-icon-for-fennec-f-droid/2810/3) for our Fennec icon challenge and it's looking quite good! There's a lively discussion going on, so feel free to [join in](https://forum.f-droid.org/t/2810), or maybe even [submit another icon](https://forum.f-droid.org/t/2810)!"
-msgstr ""
+msgstr "[hellcp] (https://forum.f-droid.org/u/hellcp) przesłał [ikonę](https://forum.f-droid.org/t/new-icon-for-fennec-f-droid/2810/3) dla naszego wyzwania związanego z ikoną Fennec i wygląda całkiem nieźle! Prowadzimy ożywioną dyskusję, więc zachęcamy do przyłączenia się (https://forum.f-droid.org/t/2810), a może nawet [złożyć kolejną ikonę](https://forum.f-droid.org/t/2810)!"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-17-this-week-in-fdroid-w20.md
 msgid "[JustChess](https://f-droid.org/app/com.alaskalinuxuser.justchess): Chess for one or two players"
-msgstr ""
+msgstr "[JustChess] (https://f-droid.org/app/com.alaskalinuxuser.justchess): Szachy dla jednego lub dwóch graczy"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-17-this-week-in-fdroid-w20.md
 msgid "[Om](https://f-droid.org/app/com.enjoyingfoss.om): Meditate mindfully for increased emotional intelligence"
-msgstr ""
+msgstr "[Om] (https://f-droid.org/app/com.enjoyingfoss.om): Medytuj uważnie, aby zwiększyć inteligencję emocjonalną"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-17-this-week-in-fdroid-w20.md
 msgid "[Torchlight](https://f-droid.org/app/com.fake.android.torchlight): Use the flash of your camera as a light"
-msgstr ""
+msgstr "[Torchlight] (https://f-droid.org/app/com.fake.android.torchlight): Użyj lampy błyskowej aparatu jako światła"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-17-this-week-in-fdroid-w20.md
 msgid "[arXiv Papers](https://f-droid.org/app/com.rockbyte.arxiv): Search, download and save arXiv scientific papers"
-msgstr ""
+msgstr "[ArXiv Papers] (https://f-droid.org/app/com.rockbyte.arxiv): Wyszukiwanie, pobieranie i zapisywanie naukowych artykułów ArXiv"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-17-this-week-in-fdroid-w20.md
 msgid "[Password Hash](https://f-droid.org/app/com.uploadedlobster.PwdHash): Create passwords for each website"
-msgstr ""
+msgstr "[Password Hash] (https://f-droid.org/app/com.uploadedlobster.PwdHash): Utwórz hasła dla każdej witryny"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-17-this-week-in-fdroid-w20.md
 msgid "[FragDenStaat](https://f-droid.org/app/de.fragdenstaat.app): Navigate FragDenStaat"
-msgstr ""
+msgstr "[FragDenStaat] (https://f-droid.org/app/de.fragdenstaat.app): Nawiguj FragDenStaat"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-17-this-week-in-fdroid-w20.md
 msgid "[sesam](https://f-droid.org/app/de.larcado.sesam): Hash based password manager"
-msgstr ""
+msgstr "[sesam] (https://f-droid.org/app/en.larcado.sesam): Menedżer haseł oparty na haśle"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-17-this-week-in-fdroid-w20.md
 msgid "[Router Keygen YoloSec](https://f-droid.org/app/net.yolosec.routerkeygen2): Generate default WPA/WEP keys"
-msgstr ""
+msgstr "[Router Keygen YoloSec] (https://f-droid.org/app/net.yolosec.routerkeygen2): Generowanie domyślnych kluczy WPA/WEP"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-17-this-week-in-fdroid-w20.md
 msgid "[LeMonde.fr](https://f-droid.org/app/org.mbach.lemonde): Reads RSS feed from the website LeMonde.fr and fetch articles inside the App"
-msgstr ""
+msgstr "[LeMonde.fr] (https://f-droid.org/app/org.mbach.lemonde): Odczytuje kanał RSS ze strony LeMonde.fr i pobiera artykuły z aplikacji"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-17-this-week-in-fdroid-w20.md
 msgid "[SeaMapDroid](https://f-droid.org/app/org.seamapdroid): Browse OpenSeaMap on your phone"
-msgstr ""
+msgstr "[SeaMapDroid] (https://f-droid.org/app/org.seamapdroid): Przeglądaj OpenSeaMap na swoim telefonie"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-17-this-week-in-fdroid-w20.md
 msgid "[Pain Diary](https://f-droid.org/app/org.secuso.privacyfriendlypaindiary): Do you want to track and share your pain? Now you can, privately, using this program."
-msgstr ""
+msgstr "[Pain Diary] (https://f-droid.org/app/org.secuso.privacyfriendlypaindiary): Czy chcesz śledzić i dzielić ból? Teraz możesz, prywatnie, korzystać z tego programu."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-17-this-week-in-fdroid-w20.md
 msgid "[Episodie](https://f-droid.org/app/pl.hypeapp.episodie): Discover and track TV show time"
-msgstr ""
+msgstr "[Episodie] (https://f-droid.org/app/pl.hypeapp.episodie): Odkryj i śledź czas emisji programów telewizyjnych"
 
 #. type: Plain text
 #: build/_posts/md/2018-05-17-this-week-in-fdroid-w20.md
 msgid "In total, 68 apps were updated this week. Here are the highlights:"
-msgstr ""
+msgstr "W sumie w tym tygodniu zaktualizowano 68 aplikacji. Oto najważniejsze cechy:"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-17-this-week-in-fdroid-w20.md
 msgid "[Mastalab](https://f-droid.org/app/fr.gouv.etalab.mastodon) was updated from 1.8.8 to 1.9.0 and now actually _saves_ your profile changes :D, fixes home timeline freezes, and most importantly, now features both a dark theme _and_ a compact mode!"
-msgstr ""
+msgstr "[Mastalab] (https://f-droid.org/app/fr.gouv.etalab.mastodon) został zaktualizowany z wersji 1.8.8 na 1.9.0, a teraz faktycznie _skasuje_ zmiany w twoim profilu: D, naprawia zawieszanie się osi czasu i co najważniejsze, teraz ma zarówno ciemny motyw, jak i tryb kompaktowy!"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-17-this-week-in-fdroid-w20.md
 msgid "[Tusky](https://f-droid.org/app/com.keylesspalace.tusky) [1.8.0](https://github.com/tuskyapp/Tusky/releases/tag/v1.8.0) made it to F-Droid, bringing better notifications to Android 7+ (Nougat), links to statuses and profiles will now open internally, search now also finds statuses, and more."
-msgstr ""
+msgstr "[Tusky] (https://f-droid.org/app/com.keylesspalace.tusky) [1.8.0] (https://github.com/tuskyapp/Tusky/releases/tag/v1.8.0) przygotował do F-Droid, przynosząc lepsze powiadomienia do Androida 7 (Nougat), linki do statusów i profili będą teraz otwierane wewnętrznie, wyszukiwanie teraz także znajduje statusy i więcej."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-17-this-week-in-fdroid-w20.md
 msgid "[Vespucci](https://f-droid.org/app/de.blau.android) was updated from 10.1.2-fdroid to 10.2.4.0, and now optionally supports \"network\" location providers, handles http to https redirects and TLS 1.2 for older Android versions, and several smaller changes and bugfixes. Furthermore, Vespucci should be auto-updating in F-Droid from now on."
-msgstr ""
+msgstr "[Vespucci] (https://f-droid.org/app/de.blau.android) został zaktualizowany z 10.1.2-fdroid do 10.2.4.0, a teraz opcjonalnie obsługuje dostawców lokalizacji \"sieciowych\", obsługuje przekierowania http do https i TLS 1.2 dla starszych wersji Androida oraz kilka mniejszych zmian i poprawek. Co więcej, od teraz Vespucci powinien sam się odświeżać w F-Droid."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-17-this-week-in-fdroid-w20.md
 msgid "[Delta Chat](https://f-droid.org/app/com.b44t.messenger) had a major update from 0.16.0 to 0.17.2, with [a ton of changes](https://github.com/deltachat/deltachat-android/blob/HEAD/CHANGELOG.md#v0170)."
-msgstr ""
+msgstr "[Delta Chat] (https://f-droid.org/app/com.b44t.messenger) miał główną aktualizację od 0.16.0 do 0.17.2, z [toną zmian](https://github.com/deltachat/deltachat-android/blob/HEAD/CHANGELOG.md#v0170)."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-17-this-week-in-fdroid-w20.md
 msgid "[OctoDroid](https://f-droid.org/app/com.gh4a) is now at 4.3.2, moving starred repos to the bookmarks screen and fixing some annoying crash bugs."
-msgstr ""
+msgstr "[OctoDroid] (https://f-droid.org/app/com.gh4a) jest teraz w wersji 4.3.2, przenosząc repozytorium z gwiazdką na ekran zakładek i naprawiając irytujące błędy awarii."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-17-this-week-in-fdroid-w20.md
 msgid "The simple mobile tools ([Calculator](https://f-droid.org/app/com.simplemobiletools.calculator), [Calendar](https://f-droid.org/app/com.simplemobiletools.calendar), [Camera](https://f-droid.org/app/com.simplemobiletools.camera), [Contacts](https://f-droid.org/app/com.simplemobiletools.contacts), [Draw](https://f-droid.org/app/com.simplemobiletools.draw), [File Manager](https://f-droid.org/app/com.simplemobiletools.filemanager) and [Gallery](https://f-droid.org/app/com.simplemobiletools.gallery)) had a major version bump to 4.0.x across the board. The common change is that the app launcher icons have received a materialish shadow, and you can now customize the launcher color in `Settings -> Customize colors`."
-msgstr ""
+msgstr "Proste narzędzia mobilne ([Kalkulator] (https://f-droid.org/app/com.simplemobiletools.calculator), [Kalendarz] (https://f-droid.org/app/com.simplemobiletools.calendar) , [Kamera] (https://f-droid.org/app/com.simplemobiletools.camera), [Kontakty] (https://f-droid.org/app/com.simplemobiletools.contacts), [Rysowanie] (https://f-droid.org/app/com.simplemobiletools.draw), [Menedżer plików] (https://f-droid.org/app/com.simplemobiletools.filemanager) i [Galeria] (https: //f-droid.org/app/com.simplemobiletools.gallery)) miał główny błąd wersji 4.0.x na całej tablicy. Najczęstszą zmianą jest to, że ikony programów uruchamiających aplikacje otrzymały materialistyczny cień, a teraz możesz dostosować kolor programu uruchamiającego w 'Ustawienia -> Dostosuj kolory'."
 
 #. type: Title ####
 #: build/_posts/md/2018-05-17-this-week-in-fdroid-w20.md
 #, no-wrap
 msgid "Removed apps"
-msgstr ""
+msgstr "Usunięte aplikacje"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-17-this-week-in-fdroid-w20.md
 msgid "[RunnerUp](https://f-droid.org/app/org.runnerup) was completely removed because it depends on and includes the non-free ANT+ SDK."
-msgstr ""
+msgstr "[RunnerUp] (https://f-droid.org/app/org.runnerup) został całkowicie usunięty, ponieważ zależy od pakietu SDK ANT i obejmuje go."
 
 #. type: Plain text
 #: build/_posts/md/2018-05-17-this-week-in-fdroid-w20.md
@@ -1886,7 +1886,7 @@ msgstr ""
 #: build/_posts/md/2018-05-31-this-week-in-fdroid-w22.md
 #: build/_posts/md/2018-06-07-this-week-in-fdroid-w23.md
 msgid "What ends up in the next TWIF is all up to you! There are way too many app updates to keep track of them all, so we need your help to highlight the most interesting changes. And of course, we love to hear about all things involving F-Droid in some way."
-msgstr ""
+msgstr "Co kończy się w następnym TWIF to wszystko zależy od Ciebie! Jest zbyt wiele aktualizacji aplikacji, aby śledzić je wszystkie, potrzebujemy więc Twojej pomocy, aby podkreślić najciekawsze zmiany. I oczywiście uwielbiamy słuchać o wszystkim, co w jakiś sposób wiąże się z F-Droidem."
 
 #. type: Plain text
 #: build/_posts/md/2018-05-17-this-week-in-fdroid-w20.md
@@ -1894,13 +1894,13 @@ msgstr ""
 #: build/_posts/md/2018-05-31-this-week-in-fdroid-w22.md
 #: build/_posts/md/2018-06-07-this-week-in-fdroid-w23.md
 msgid "Please tell us in the [TWIF submission thread](https://forum.f-droid.org/t/twif-submission-thread) on the forum, or tag your update [#fdroid](https://mastodon.technology/tags/fdroid) on Mastodon. (And cc [@fdroidorg@mastodon.technology](https://mastodon.technology/@fdroidorg) to make sure it reaches our instance.) The deadline to the next TWIF is Thursday 12:00 UTC."
-msgstr ""
+msgstr "Powiedz nam w wątku TWIF submission thread] (https://forum.f-droid.org/t/twif-submission-thread) na forum lub oznacz swoją aktualizację [#fdroid] (https://mastodon.technology/tags/fdroid) na Mastodon. (And cc [@fdroidorg@mastodon.technology](https://mastodon.technology/@fdroidorg), aby upewnić się, że dotrze do naszej instancji.) Ostatnim terminem do następnego TWIF jest czwartek 12:00 czasu UTC."
 
 #. type: Title #
 #: build/_posts/md/2018-05-25-this-week-in-fdroid-w21.md
 #, no-wrap
 msgid "\"This Week in F-Droid, Week 21\""
-msgstr ""
+msgstr "\"W tym tygodniu w F-Droid, Tygodzień 21\""
 
 #. type: Plain text
 #: build/_posts/md/2018-05-25-this-week-in-fdroid-w21.md
@@ -1917,289 +1917,289 @@ msgstr ""
 #: build/_posts/md/2018-08-10-twif-16-the-note-taking-todo-text-editor-edition.md
 #: build/_posts/md/2018-08-16-twif-17-the-reproducible-builds-and-encrypted-e-mail-edition.md
 msgid "[F-Droid](https://f-droid.org/) is a [repository](https://f-droid.org/packages/) of verified [free and open source](https://en.wikipedia.org/wiki/Free_and_open-source_software) Android apps, a [client](https://f-droid.org/app/org.fdroid.fdroid) to access it, as well as a whole \"app store kit\", providing all the tools needed to set up and run an app store. It is a community-run free software project developed by a wide range of contributors. This is their story this past week."
-msgstr ""
+msgstr "[F-Droid] (https://f-droid.org/) to [repozytorium] (https://f-droid.org/packages/) zweryfikowanego [wolnego i otwartego źródła](https://en.wikipedia.org/wiki/Free_and_open-source_software) aplikacje na Androida, [klient] (https://f-droid.org/app/org.fdroid.fdroid), aby uzyskać do niego dostęp, a także cały \"zestaw aplikacji sklepu\", zapewniając wszystkie narzędzia potrzebne do skonfigurowania i uruchomienia sklepu z aplikacjami. Jest to projekt wolnego oprogramowania tworzony przez społeczność, opracowany przez wielu różnych autorów. To jest ich historia w zeszłym tygodniu."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-25-this-week-in-fdroid-w21.md
 msgid "We have new contributors and permissions in GitLab. [Rudloff](https://forum.f-droid.org/u/rudloff) now has **developer** access for [data](https://gitlab.com/fdroid/fdroiddata). [Poussinou](https://forum.f-droid.org/u/poussinou) has **reporter** (moderator) access to [rfp](https://gitlab.com/fdroid/rfp). [Izzy](https://forum.f-droid.org/u/izzy) has project-wide **reporter** access. We hope these changes will further speed up the process of adding new apps to F-Droid."
-msgstr ""
+msgstr "Mamy nowych współpracowników i uprawnienia w GitLab. [Rudloff] (https://forum.f-droid.org/u/rudloff) ma teraz dostęp ** programisty ** do [data] (https://gitlab.com/fdroid/fdroiddata). [Poussinou] (https://forum.f-droid.org/u/poussinou) ma ** reportera ** (moderatora) dostęp do [rfp] (https://gitlab.com/fdroid/rfp). [Izzy] (https://forum.f-droid.org/u/izzy) ma dostęp do całego raportu ** reporter **. Mamy nadzieję, że te zmiany przyspieszą proces dodawania nowych aplikacji do F-Droid."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-25-this-week-in-fdroid-w21.md
 msgid "[Rudloff](https://forum.f-droid.org/u/rudloff) is now a member of the [F-Droid Data team](https://liberapay.com/F-Droid-Data) over at [Liberapay](https://liberapay.com/), so he can get some reward for all his hard work."
-msgstr ""
+msgstr "[Rudloff] (https://forum.f-droid.org/u/rudloff) jest teraz członkiem zespołu [F-Droid Data] (https://liberapay.com/F-Droid-Data) na stronie [Liberapay] (https://liberapay.com/), dzięki czemu może uzyskać nagrodę za całą swoją ciężką pracę."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-25-this-week-in-fdroid-w21.md
 msgid "[_hc](https://forum.f-droid.org/u/hans) is getting the [Debian GSoC](https://wiki.debian.org/SummerOfCode2018) students started on the [Android SDK Tools in Debian](https://wiki.debian.org/SummerOfCode2018/Projects/AndroidSdkToolsInDebian). This work will directly benefit F-Droid as our build server runs Debian."
-msgstr ""
+msgstr "[_hc] (https://forum.f-droid.org/u/hans) zaczynają uczniowie [Debian GSoC] (https://wiki.debian.org/SummerOfCode2018) na [Narzędzia Android SDK w Debianie ] (https://wiki.debian.org/SummerOfCode2018/Projects/AndroidSdkToolsInDebian). Ta praca przyniesie bezpośrednie korzyści F-Droidowi, ponieważ nasz serwer kompilacji uruchamia Debian."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-25-this-week-in-fdroid-w21.md
 msgid "[Bubu](https://forum.f-droid.org/u/Bubu) and [mimi89999](https://forum.f-droid.org/u/mimi89999) have been updating the [SPDX license identifiers](https://spdx.org/licenses/), mostly working on explicit separation between `GPL-3.0-only` and `GPL-3.0-or-later`."
-msgstr ""
+msgstr "[Bubu] (https://forum.f-droid.org/u/Bubu) i [mimi89999] (https://forum.f-droid.org/u/mimi89999) aktualizują [identyfikatory licencji SPDX] (https://spdx.org/licenses/), głównie działający na zasadzie jawnej separacji między 'GPL-3.0-only' i 'GPL-3.0-or-later'."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-25-this-week-in-fdroid-w21.md
 msgid "[Bubu](https://forum.f-droid.org/u/Bubu) and [Tovok7](https://blog.grobox.de/) have been working on fixing [reproducible builds](https://reproducible-builds.org) for [Briar](https://briarproject.org/fdroid.html) among others. The latest news is that this is now working. Stay tuned."
-msgstr ""
+msgstr "[Bubu](https://forum.f-droid.org/u/Bubu) i [Tovok7] (https://blog.grobox.de/) pracują nad naprawieniem [odtwarzalnych wersji](https://reproducible-builds.org) między innymi dla [Briar](https://briarproject.org/fdroid.html). Najnowsze wiadomości są takie, że teraz to działa. Bądźcie czujni."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-25-this-week-in-fdroid-w21.md
 msgid "**uniq** finished up the [documentation for bootstrapping the buildserver basebox](https://staging.f-droid.org/docs/Build_Server_Setup/#creating-the-debian-base-box)."
-msgstr ""
+msgstr "**uniq** zakończył [dokumentację do bootstrapowania basebox buildserver](https://staging.f-droid.org/docs/Build_Server_Setup/creating-the-debian-base-box)."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-25-this-week-in-fdroid-w21.md
 msgid "**uniq** also laid the groundwork to upgrade our build server to Debian _Stretch_, and we'll be experimenting with that in the next weeks. Once this upgrade is in place, it'll be much easier to build some applications with lots of native dependencies, e.g. [VLC](https://f-droid.org/wiki/page/org.videolan.vlc), [Ring](https://f-droid.org/app/cx.ring), [OsmAnd~](https://f-droid.org/app/net.osmand.plus)."
-msgstr ""
+msgstr "**uniq** również położył podwaliny pod ulepszenie naszego serwera kompilacji do Debian _Stretch_, i będziemy eksperymentować z tym w ciągu najbliższych tygodni. Po wdrożeniu tej aktualizacji będzie dużo łatwiej budować aplikacje z wieloma natywnymi zależnościami, np. [VLC] (https://f-droid.org/wiki/page/org.videolan.vlc), [Ring] (https://f-droid.org/app/cx.ring), [OsmAnd ~] (https://f-droid.org/app/net.osmand.plus)."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-25-this-week-in-fdroid-w21.md
 msgid "You may have noticed the total absence of any [GDPR](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation) related work. [We take your privacy seriously](https://f-droid.org/about/) and always have."
-msgstr ""
+msgstr "Być może zauważyłeś całkowity brak jakiejkolwiek pracy związanej z [GDPR] (https://en.wikipedia.org/wiki/General_Data_Protection_Regulation). [Traktujemy twoją prywatność poważnie] (https://f-droid.org/about/) i zawsze ją mamy."
 
 #. type: Plain text
 #: build/_posts/md/2018-05-25-this-week-in-fdroid-w21.md
 msgid "No news from the wider community this week."
-msgstr ""
+msgstr "Brak wiadomości od szerszej społeczności w tym tygodniu."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-25-this-week-in-fdroid-w21.md
 msgid "[Notepad](https://f-droid.org/app/com.farmerbb.notepad): A simple, bare-bones, no-frills note taking app"
-msgstr ""
+msgstr "[Notatnik] (https://f-droid.org/app/com.farmerbb.notepad): Prosta aplikacja do robienia notatek i bez broszurek"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-25-this-week-in-fdroid-w21.md
 msgid "[Binaural Beats](https://f-droid.org/app/com.github.axet.binauralbeats): Meditation helper"
-msgstr ""
+msgstr "[Binaural Beats] (https://f-droid.org/app/com.github.axet.binauralbeats): Pomocnik medytacji"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-25-this-week-in-fdroid-w21.md
 msgid "[Batch Uninstaller](https://f-droid.org/app/com.saha.batchuninstaller): Uninstall multiple applications at once"
-msgstr ""
+msgstr "[Batch Uninstaller] (https://f-droid.org/app/com.saha.batchuninstaller): Odinstaluj wiele aplikacji jednocześnie"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-25-this-week-in-fdroid-w21.md
 msgid "[Waistline](https://f-droid.org/app/com.waist.line): Free calorie counter and weight tracker"
-msgstr ""
+msgstr "[Talia] (https://f-droid.org/app/com.waist.line): Darmowy licznik kalorii i rejestrator wagi"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-25-this-week-in-fdroid-w21.md
 msgid "The [Reader for Pepper&Carrot](https://f-droid.org/app/nightlock.peppercarrot) [dropped](https://peppercarrot.com/en/article441/android-e-reader-for-peppercarrot-by-imseaok) on F-Droid this week. It's a multi-language reader for the [CC-BY](https://creativecommons.org/licenses/by/4.0/) licensed [Pepper & Carrot Webcomic](https://peppercarrot.com). You should check it out because it's [cool](https://peppercarrot.com/en/static2/philosophy)."
-msgstr ""
+msgstr "[Reader for Pepper&Carrot](https://f-droid.org/app/nightlock.peppercarrot) [porzucone](https://peppercarrot.com/en/article441/android-e-reader-for-peppercarrot -by-imseaok) na F-Droid w tym tygodniu. Jest to czytnik wielojęzyczny dla licencjonowanego [CC-BY] (https://creativecommons.org/licenses/by/4.0/) [Pepper & Carrot Webcomic] (https://peppercarrot.com). Powinieneś to sprawdzić, ponieważ jest [spoko] (https://peppercarrot.com/en/static2/philosophy)."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-25-this-week-in-fdroid-w21.md
 msgid "[Werewolf](https://f-droid.org/app/org.secuso.privacyfriendlycardgameone): Play Werewolf with your friends"
-msgstr ""
+msgstr "[Werewolf] (https://f-droid.org/app/org.secuso.privacyfriendlycardgameone): Zagraj w Werewolf ze swoimi przyjaciółmi"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-25-this-week-in-fdroid-w21.md
 msgid "[TermBot](https://f-droid.org/app/org.sufficientlysecure.termbot): SSH client for use with smart cards"
-msgstr ""
+msgstr "[TermBot] (https://f-droid.org/app/org.sufficientlysecure.termbot): Klient SSH do użytku z kartami inteligentnymi"
 
 #. type: Plain text
 #: build/_posts/md/2018-05-25-this-week-in-fdroid-w21.md
 msgid "In total, 54 apps were updated this week. Here are the highlights:"
-msgstr ""
+msgstr "W sumie w tym tygodniu zaktualizowano 54 aplikacje. Oto najważniejsze cechy:"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-25-this-week-in-fdroid-w21.md
 msgid "**[MuPDF viewer](https://f-droid.org/app/com.artifex.mupdf.viewer.app) 1.13.0 [fixes several security holes](https://mupdf.com/news.html). You should update ASAP.**"
-msgstr ""
+msgstr "**[Przeglądarka MuPDF] (https://f-droid.org/app/com.artifex.mupdf.viewer.app) 1.13.0 [naprawia kilku luk bezpieczeństwa] (https://mupdf.com/news.html ). Powinieneś zaktualizować ASAP.**"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-25-this-week-in-fdroid-w21.md
 msgid "[NetGuard](https://f-droid.org/app/eu.faircode.netguard) is back! The developer _removed all ads and nonfree dependencies_ as the most hassle-free way to comply with the [GDPR](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation). Way to go! More info [here](http://forum.xda-developers.com/showpost.php?p=76586346&postcount=6915)."
-msgstr ""
+msgstr "[NetGuard] (https://f-droid.org/app/eu.faircode.netguard) powraca! Deweloper usuwał wszystkie reklamy i niewolne zależności jako najbardziej bezproblemowy sposób na zachowanie zgodności z [GDPR] (https://en.wikipedia.org/wiki/General_Data_Protection_Regulation). Dobra droga! Więcej informacji [tutaj] (http://forum.xda-developers.com/showpost.php?p=76586346*postcount=6915)."
 
 #. type: Plain text
 #: build/_posts/md/2018-05-25-this-week-in-fdroid-w21.md
 #, no-wrap
 msgid "  Version 2.197 is already in the main repository as of now. If you've used the GitHub release (so you can benefit from the hosts blocking feature) you can export your settings, uninstall that version, reinstall from F-Droid, import back the settings and reload your hosts file.\n"
-msgstr ""
+msgstr "  Wersja 2.197 jest już w głównym repozytorium. Jeśli korzystasz z wersji GitHub (możesz korzystać z funkcji blokowania hostów), możesz wyeksportować ustawienia, odinstalować tę wersję, ponownie zainstalować z F-Droid, zaimportować ustawienia i przeładować plik hosts.\n"
 
 #. type: Plain text
 #: build/_posts/md/2018-05-25-this-week-in-fdroid-w21.md
 #, no-wrap
 msgid "  **Important**: If you switch, you will lose any pro features you may have bought.\n"
-msgstr ""
+msgstr "  **Ważne**: Jeśli się przełączysz, stracisz wszystkie pro funkcje, które możesz kupić.\n"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-25-this-week-in-fdroid-w21.md
 msgid "[OsmAnd~](https://f-droid.org/app/net.osmand.plus) beta 3.0 is now in the repository, although it won't be installed by default. If you'd like to give it a try, expand the versions tab and install it manually. We haven't had any negative reports so far, but remember this is still beta!"
-msgstr ""
+msgstr "[OsmAnd ~] (https://f-droid.org/app/net.osmand.plus) wersja beta 3.0 znajduje się teraz w repozytorium, chociaż nie będzie domyślnie instalowana. Jeśli chcesz spróbować, rozwiń kartę wersji i zainstaluj ją ręcznie. Do tej pory nie mieliśmy żadnych negatywnych raportów, ale pamiętaj, że to wciąż jest wersja beta!"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-25-this-week-in-fdroid-w21.md
 msgid "[Yalp Store](https://f-droid.org/app/com.github.yeriomin.yalpstore) was [broken](https://forum.f-droid.org/t/yalp-store-not-able-to-get-apps-from-play-store/2906) by Google. 0.41 is now in the repository and should fix this."
-msgstr ""
+msgstr "[Yalp Store] (https://f-droid.org/app/com.github.yeriomin.yalpstore) był [zepsuty](https://forum.f-droid.org/t/yalp-store-not-able-to-get-apps-from-play-store/2906) przez Google. 0.41 jest teraz w repozytorium i powinno to naprawić."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-25-this-week-in-fdroid-w21.md
 msgid "[Easer](https://f-droid.org/app/ryey.easer) is a tool to automate many things like switching off WiFi when leaving home, or setting the volume when a headset is connected. The update from 0.6 to 0.6.2 brings some UI changes, a screen unlock event, and a bunch of crash fixes."
-msgstr ""
+msgstr "[Easer] (https://f-droid.org/app/ryey.easer) to narzędzie do automatyzacji wielu rzeczy, takich jak wyłączanie WiFi po opuszczeniu domu lub ustawianie głośności po podłączeniu zestawu słuchawkowego. Aktualizacja od 0.6 do 0.6.2 wprowadza pewne zmiany interfejsu użytkownika, zdarzenie odblokowania ekranu i kilka poprawek błędów."
 
 #. type: Title ####
 #: build/_posts/md/2018-05-25-this-week-in-fdroid-w21.md
 #: build/_posts/md/2018-05-31-this-week-in-fdroid-w22.md
 #, no-wrap
 msgid "Archived and Removed apps"
-msgstr ""
+msgstr "Zarchiwizowane i usunięte aplikacje"
 
 #. type: Plain text
 #: build/_posts/md/2018-05-25-this-week-in-fdroid-w21.md
 msgid "No apps were removed."
-msgstr ""
+msgstr "Żadne aplikacje nie zostały usunięte."
 
 #. type: Title #
 #: build/_posts/md/2018-05-31-this-week-in-fdroid-w22.md
 #, no-wrap
 msgid "\"This Week in F-Droid, Week 22\""
-msgstr ""
+msgstr "\"W tym tygodniu w F-Droid, 22 tydzień\""
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-31-this-week-in-fdroid-w22.md
 msgid "We haven't received any more submissions for our [Fennec icon challenge](https://forum.f-droid.org/t/new-icon-for-fennec-f-droid/2810) this week. We'll continue to take submissions until Sunday the 10th of June, 24:00 UTC, after which we'll start the vote. So if you are working on something and haven't sent it in yet, be sure to finish up and submit before then."
-msgstr ""
+msgstr "W tym tygodniu nie otrzymaliśmy więcej zgłoszeń do naszej [Fennec icon challenge] (https://forum.f-droid.org/t/new-icon-for-fennec-f-droid/2810). Nadal będziemy przyjmować zgłoszenia do niedzieli 10 czerwca, godz. 24.00 UTC, po czym rozpoczniemy głosowanie. Jeśli więc pracujesz nad czymś i nie wysłałeś go jeszcze, upewnij się, że skończyłeś i przesłałeś wcześniej."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-31-this-week-in-fdroid-w22.md
 msgid "[Rudloff](https://forum.f-droid.org/u/rudloff) has prepared even more new apps to be added to F-Droid. He has however indicated that the pool of \"easy\" apps is running out. It will become increasingly difficult to add further projects, as they need additional work to be buildable by our buildserver. We can always use more help with this. There are still 245 open issues in [Requests For Packaging](https://gitlab.com/fdroid/rfp/issues) for you to sink your teeth into."
-msgstr ""
+msgstr "[Rudloff] (https://forum.f-droid.org/u/rudloff) przygotował jeszcze więcej nowych aplikacji do dodania do F-Droid. Wskazał jednak, że pula \"łatwych\" aplikacji kończy się. Coraz trudniej będzie dodawać kolejne projekty, ponieważ wymagają one dodatkowej pracy, którą może wykonać nasz serwer budujący. Zawsze możemy skorzystać z większej pomocy. Pozostało 245 otwartych problemów w [Requests For Packaging] (https://gitlab.com/fdroid/rfp/issues), w których możesz zatopić zęby."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-31-this-week-in-fdroid-w22.md
 msgid "[_hc](https://forum.f-droid.org/u/hans) is working on adding a \"full\" and a \"basic\" build flavor to [fdroidclient](https://gitlab.com/fdroid/fdroidclient). The \"full\" flavor will be F-Droid as you know it, and \"basic\" will be a version that is as small as possible. This should make it easier to make [whitelabel versions](https://f-droid.org/wiki/page/Whitelabel_Builds) of F-Droid. This brings [F-Droid Light](https://gitlab.com/fdroid/fdroidclient/issues/48) within reach of any Android developer with a little time to implement a minimal list view screen for finding apps to install."
-msgstr ""
+msgstr "[_hc] (https://forum.f-droid.org/u/hans) pracuje nad dodaniem \"pełnego\" i \"podstawowego\" smaku kompilacji do [fdroidclient] (https://gitlab.com/fdroid/ fdroidclient). \"Pełny\" smak będzie F-Droidem, jaki znacie, a \"podstawowa\" będzie wersją, która jest tak mała, jak to tylko możliwe. Powinno to ułatwić tworzenie [wersji whitelabel] (https://f-droid.org/wiki/page/Whitelabel_Builds) F-Droid. Dzięki temu [F-Droid Light] (https://gitlab.com/fdroid/fdroidclient/issues/48) znajduje się w zasięgu dowolnego programisty aplikacji dla systemu Android, a niewiele czasu zajmuje zaimplementowanie ekranu minimalnej listy do znajdowania aplikacji do zainstalowania."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-31-this-week-in-fdroid-w22.md
 msgid "We are going into beta testing with mirrors of the official [F-Droid repository](https://f-droid.org/packages/). We have a server that receives the official F-Droid pushes. From there, it will be shared out via rsync. Once this is ready, anyone can run \"secondary\" mirrors as they see fit. If anyone wants to run a public mirror and participate in this beta, please get in touch with [_hc](https://forum.f-droid.org/u/hans)."
-msgstr ""
+msgstr "Przechodzimy do testów beta z mirrorami oficjalnego repozytorium F-Droid (https://f-droid.org/packages/). Mamy serwer, który otrzymuje oficjalne popchnięcia F-Droida. Stamtąd zostanie udostępniony za pośrednictwem rsync. Gdy wszystko będzie gotowe, każdy może uruchomić \"wtórne\" lustra według własnego uznania. Jeśli ktoś chce uruchomić publiczne lustro i wziąć udział w tej wersji beta, skontaktuj się z [_hc] (https://forum.f-droid.org/u/hans)."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-31-this-week-in-fdroid-w22.md
 msgid "Perhaps you don't know about this, but half of these points come from our [weekly online contributor meeting](https://gitlab.com/fdroid/fdroidclient#irc) on IRC. If you contribute to F-Droid, you are invited to hop onto #fdroid-dev on [Freenode](https://freenode.net/) and participate! The meetings start every [Thursday at 11:30 UTC](https://www.wolframalpha.com/input/?i=next+thursday+11:30+AM+UTC)."
-msgstr ""
+msgstr "Być może nie wiesz o tym, ale połowa z tych punktów pochodzi z naszego [cotygodniowego spotkania online z uczestnikami] (https://gitlab.com/fdroid/fdroidclientirc) na IRC. Jeśli przyczynisz się do F-Droid, jesteś zaproszony do wskoczenia na fdroid-dev na [Freenode] (https://freenode.net/) i wzięcia udziału! Spotkania rozpoczynają się co czwartek o godzinie 11:30 czasu UTC (https://www.wolframalpha.com/input/?i=next czwartek 11:30 czasu UTC)."
 
 #. type: Plain text
 #: build/_posts/md/2018-05-31-this-week-in-fdroid-w22.md
 #, no-wrap
 msgid "  Everyone else is invited to listen in, either via the their own favorite client or via the [archive](https://botbot.me/freenode/fdroid-dev/) which updates in real time. Please be respectful of the fact that this is a meeting for actual contributors. See the bottom of this post for general questions and feedback.\n"
-msgstr ""
+msgstr "  Wszyscy inni są zaproszeni do wysłuchania, za pośrednictwem swojego ulubionego klienta lub za pośrednictwem [archiwum] (https://botbot.me/freenode/fdroid-dev/), który aktualizuje się w czasie rzeczywistym. Prosimy o uszanowanie faktu, że jest to spotkanie dla rzeczywistych współpracowników. Zobacz u dołu tego posta ogólne pytania i opinie.\n"
 
 #. type: Plain text
 #: build/_posts/md/2018-05-31-this-week-in-fdroid-w22.md
 #, no-wrap
 msgid "  The room is also bridged to Matrix via [#freenode_#fdroid-dev:matrix.org](https://matrix.to/#/#freenode_#fdroid:matrix.org).\n"
-msgstr ""
+msgstr "  Pokój jest również połączony z Matrix za pośrednictwem [freenode_fdroid-dev: matrix.org] (https://matrix.to//freenode_fdroid:matrix.org).\n"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-31-this-week-in-fdroid-w22.md
 msgid "You may have heard about this already, but for those who have not: [Huawai has quietly stopped providing bootloader unlock codes](https://www.xda-developers.com/huawei-stop-providing-bootloader-unlock-codes/). That is to say, newly released devices won't be unlockable at all, and if you think you might ever want to unlock your older device, you should request an unlock code ASAP. You have 50 days or less by the time you read this. Thank you for your understanding, indeed."
-msgstr ""
+msgstr "Być może już o tym słyszałeś, ale dla tych, którzy tego nie zrobili: [Huawai po cichu przestał udostępniać kody odblokowujące bootloadera] (https://www.xda-developers.com/huawei-stop-providing-bootloader-unlock-codes/). Oznacza to, że nowo wydane urządzenia w ogóle się nie odblokują, a jeśli myślisz, że kiedykolwiek będziesz chciał odblokować starsze urządzenie, poproś o kod odblokowujący JAK NAJSZYBCIEJ. Masz 50 dni lub mniej, zanim to przeczytasz. Dziękuję za zrozumienie."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-31-this-week-in-fdroid-w22.md
 msgid "[BookList](https://f-droid.org/app/com.ames.books): Unofficial Google Books viewer"
-msgstr ""
+msgstr "[BookList] (https://f-droid.org/app/com.ames.books): nieoficjalna przeglądarka Książek Google"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-31-this-week-in-fdroid-w22.md
 msgid "[ShellMS](https://f-droid.org/app/com.android.shellms): Send SMS via Android SDK"
-msgstr ""
+msgstr "[ShellMS] (https://f-droid.org/app/com.android.shellms): Wyślij SMS za pomocą Androida SDK"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-31-this-week-in-fdroid-w22.md
 msgid "[TEdit](https://f-droid.org/app/com.atr.tedit): A simple text editor"
-msgstr ""
+msgstr "[TEdit] (https://f-droid.org/app/com.atr.tedit): Prosty edytor tekstu"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-31-this-week-in-fdroid-w22.md
 msgid "[SecondScreen](https://f-droid.org/app/com.farmerbb.secondscreen.free): Better screen mirroring"
-msgstr ""
+msgstr "[SecondScreen] (https://f-droid.org/app/com.farmerbb.secondscreen.free): Lepsze odzwierciedlanie ekranu"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-31-this-week-in-fdroid-w22.md
 msgid "[twitlatte](https://f-droid.org/app/com.github.moko256.twitlatte): Twitter, Mastodon and Pleroma client"
-msgstr ""
+msgstr "[twitlatte] (https://f-droid.org/app/com.github.moko256.twitlatte): Twitter, Mastodon i klient Pleroma"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-31-this-week-in-fdroid-w22.md
 msgid "[Hoplite Keyboard](https://f-droid.org/app/com.philolog.hoplitekeyboard): A keyboard extension which allows the user to type in Polytonic Greek"
-msgstr ""
+msgstr "[Hoplite Keyboard] (https://f-droid.org/app/com.philolog.hoplitekeyboard): Rozszerzenie klawiatury pozwalające użytkownikowi na wpisanie greckich akcentów"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-31-this-week-in-fdroid-w22.md
 msgid "[BatteryCalibration](https://f-droid.org/app/de.perflyst.batterycalibration): Calibrate your battery"
-msgstr ""
+msgstr "[BatteryCalibration] (https://f-droid.org/app/de.perflyst.batterycalibration): kalibracja baterii"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-31-this-week-in-fdroid-w22.md
 msgid "[Föhnix](https://f-droid.org/app/foehnix.widget): The Foehnix weather widget aims at helping pilots with weather conditions"
-msgstr ""
+msgstr "[Föhnix] (https://f-droid.org/app/foehnix.widget): Widget pogody Foehnix ma na celu pomoc pilotom w warunkach pogodowych"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-31-this-week-in-fdroid-w22.md
 msgid "[nitroxCalc](https://f-droid.org/app/fr.cap_rel.fr.sagc_plongee.fr.nitroxCalc): Nitrox Calculator for Diving"
-msgstr ""
+msgstr "[nitroxCalc](https://f-droid.org/app/fr.cap_rel.fr.sagc_plongee.fr.nitroxCalc): Kalkulator Nitrox do nurkowania"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-31-this-week-in-fdroid-w22.md
 msgid "[Taskkeeper](https://f-droid.org/app/io.gitlab.allenb1.todolist): Keep track of to-dos"
-msgstr ""
+msgstr "[Taskkeeper](https://f-droid.org/app/io.gitlab.allenb1.todolist): Śledzenie zadań"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-31-this-week-in-fdroid-w22.md
 msgid "[Apollo Trivia](https://f-droid.org/app/net.jakevossen.apollotrivia): Learn more about the Apollo Moon missions"
-msgstr ""
+msgstr "[Apollo Trivia](https://f-droid.org/app/net.jakevossen.apollotrivia): Dowiedz się więcej o misjach Apollo Moon"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-31-this-week-in-fdroid-w22.md
 msgid "[NC Bookmark Viewer](https://f-droid.org/app/org.lenchan139.ncbookmark): This is a lightweight viewer for Nextcloud bookmarks"
-msgstr ""
+msgstr "[NC Bookmark Viewer](https://f-droid.org/app/org.lenchan139.ncbookmark): To jest lekka przeglądarka zakładek NextCloud"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-31-this-week-in-fdroid-w22.md
 msgid "[Libreflix](https://f-droid.org/app/org.libreflix.app): Stream and watch independent films"
-msgstr ""
+msgstr "[Libreflix](https://f-droid.org/app/org.libreflix.app): Przesyłaj strumieniowo i oglądaj niezależne filmy"
 
 #. type: Plain text
 #: build/_posts/md/2018-05-31-this-week-in-fdroid-w22.md
 msgid "In total, 46 apps were updated this week. Here are the highlights:"
-msgstr ""
+msgstr "W sumie w tym tygodniu zaktualizowano 46 aplikacji. Oto najważniejsze cechy:"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-31-this-week-in-fdroid-w22.md
 msgid "[NewPipe](https://f-droid.org/app/org.schabi.newpipe) updated to 0.13.4 to comply with [GDPR](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation) for their crash reporting."
-msgstr ""
+msgstr "[NewPipe](https://f-droid.org/app/org.schabi.newpipe)  zaktualizowano do wersji 0.13.4, aby zachować zgodność z [GDPR](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation)  w celu zgłaszania awarii."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-31-this-week-in-fdroid-w22.md
 msgid "[Gallery](https://f-droid.org/app/com.simplemobiletools.gallery) 4.1.1 brings several UX and stability improvements and bugfixes."
-msgstr ""
+msgstr "[Gallery](https://f-droid.org/app/com.simplemobiletools.gallery) 4.1.1 wprowadza kilka ulepszeń UX i stabilności oraz poprawki błędów."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-31-this-week-in-fdroid-w22.md
 msgid "[Kore](https://f-droid.org/app/org.xbmc.kore) was updated from v2.3.3 to v2.4.0. Kore™ aims to be a simple, easy to use and beautiful remote that lets you control your Kodi® / XBMC™ media center from your Android™ device. This update enables playing movies locally on device, a new setting to use skip steps instead of seeking, and other improvements and bug fixes."
-msgstr ""
+msgstr "[Kore](https://f-droid.org/app/org.xbmc.kore) został zaktualizowany z wersji 2.3.3 do wersji 2.4.0. Kore™ ma na celu być prostym, łatwym w użyciu i pięknym pilotem, który pozwala kontrolować twoje Kodi® / XBMC™ centrum multimedialne z urządzenia z systemem Android™. Ta aktualizacja umożliwia odtwarzanie filmów lokalnie na urządzeniu, nowe ustawienie do użycia kroków pomijania zamiast wyszukiwania oraz inne ulepszenia i poprawki błędów."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-31-this-week-in-fdroid-w22.md
 msgid "[Calendar Trigger](https://f-droid.org/app/uk.co.yahoo.p1rpp.calendartrigger) was updated from 1.2.0 to 2.2 adding support for playing sounds with notifications, the Next Location feature and the ability to save and load settings. Also fixes crashes and several smaller nuisances."
-msgstr ""
+msgstr "[Calendar Trigger](https://f-droid.org/app/uk.co.yahoo.p1rpp.calendartrigger) został zaktualizowany z wersji 1.2.0 do 2.2, dodając obsługę dźwięków odtwarzania z powiadomieniami, funkcję Next Location oraz możliwość zapisywania i ładowania ustawień. Naprawia także awarie i kilka mniejszych uciążliwości."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-31-this-week-in-fdroid-w22.md
 msgid "[My Location](https://f-droid.org/app/net.mypapit.mobile.myposition) 1.3.1 has a new foreground service for trying to get location until it's found, and a more modern UI."
-msgstr ""
+msgstr "[My Location](https://f-droid.org/app/net.mypapit.mobile.myposition) 1.3.1 ma nową usługę pierwszego planu, próbującą uzyskać lokalizację, dopóki nie zostanie znaleziona, oraz bardziej nowoczesny interfejs użytkownika."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-31-this-week-in-fdroid-w22.md
 msgid "We already mentioned it being in beta last time, and now [OsmAnd~](https://f-droid.org/app/net.osmand.plus) 3.0.2 [has finally been released](http://osmand.net/blog?id=osmand-3-0-released). The 3.0 release brings a completely new 'Travel' menu integrating WikiVoyage data, updates to GPX import and a new way of starting subscriptions. [Check it out!](http://osmand.net/blog?id=osmand-3-0-released)"
-msgstr ""
+msgstr "Wspomnieliśmy już, że jest w wersji beta ostatnio i teraz [OsmAnd~](https://f-droid.org/app/net.osmand.plus) 3.0.2 [w końcu został zwolniony](http://osmand.net/blog?id=osmand-3-0-released). Wersja 3.0 wprowadza zupełnie nowe menu 'Podróże' integrujące dane WikiVoyage, aktualizacje do importu GPX i nowy sposób uruchamiania subskrypcji. [Sprawdź to!](http://osmand.net/blog?id=osmand-3-0-released)"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-31-this-week-in-fdroid-w22.md
@@ -2926,9 +2926,8 @@ msgstr ""
 
 #. type: Plain text
 #: build/_posts/md/2018-07-21-twif-13-public-transport-edition.md
-#, fuzzy
 msgid "This Week In F-Droid 13, Week 29, 2018"
-msgstr "\"W tym tygodniu w F-Droid, 18 tydzień\""
+msgstr "W tym tygodniu w F-Droid 13, Tydzień 29, 2018"
 
 #. type: Plain text
 #: build/_posts/md/2018-07-21-twif-13-public-transport-edition.md
@@ -3010,9 +3009,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-07-21-twif-13-public-transport-edition.md
-#, fuzzy
 msgid "[Taswast](https://f-droid.org/app/com.github.aba2l.taswast): Amazigh Calendar"
-msgstr "[Tasks](https://f-droid.org/app/org.tasks) został zaktualizowany z 5.3.6 na 6.0.5"
+msgstr "[Taswast] (https://f-droid.org/app/com.github.aba2l.taswast): Kalendarz Amazigh"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-07-21-twif-13-public-transport-edition.md
@@ -3051,9 +3049,8 @@ msgstr ""
 
 #. type: Plain text
 #: build/_posts/md/2018-07-21-twif-13-public-transport-edition.md
-#, fuzzy
 msgid "In total, 75 apps were updated this week. Here are the highlights:"
-msgstr "W sumie zaktualizowano aż 59 aplikacji! Oto najważniejsze cechy:"
+msgstr "W sumie w tym tygodniu zaktualizowano 75 aplikacji. Oto najważniejsze cechy:"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-07-21-twif-13-public-transport-edition.md
@@ -3174,9 +3171,8 @@ msgstr ""
 
 #. type: Plain text
 #: build/_posts/md/2018-07-27-twif-14-the-reproducibly-stuck-edition.md
-#, fuzzy
 msgid "This Week In F-Droid 14, Week 30, 2018"
-msgstr "\"W tym tygodniu w F-Droid, 18 tydzień\""
+msgstr "W tym tygodniu w F-Droid, Tydzień 30, 2018"
 
 #. type: Plain text
 #: build/_posts/md/2018-07-27-twif-14-the-reproducibly-stuck-edition.md
@@ -3220,9 +3216,8 @@ msgstr ""
 
 #. type: Plain text
 #: build/_posts/md/2018-07-27-twif-14-the-reproducibly-stuck-edition.md
-#, fuzzy
 msgid "In total, 40 apps were updated this week. Here are the highlights:"
-msgstr "W sumie zaktualizowano aż 59 aplikacji! Oto najważniejsze cechy:"
+msgstr "W sumie w tym tygodniu zaktualizowano 40 aplikacji. Oto najważniejsze cechy:"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-07-27-twif-14-the-reproducibly-stuck-edition.md
@@ -3277,9 +3272,8 @@ msgstr ""
 
 #. type: Plain text
 #: build/_posts/md/2018-08-03-twif-15-announcing-f-droid-1-3.md
-#, fuzzy
 msgid "This Week In F-Droid 15, Week 31, 2018"
-msgstr "\"W tym tygodniu w F-Droid, 18 tydzień\""
+msgstr "W tym tygodniu w F-Droid 15, 31. Tydzień 2018"
 
 #. type: Plain text
 #: build/_posts/md/2018-08-03-twif-15-announcing-f-droid-1-3.md
@@ -3339,9 +3333,8 @@ msgstr ""
 
 #. type: Plain text
 #: build/_posts/md/2018-08-03-twif-15-announcing-f-droid-1-3.md
-#, fuzzy
 msgid "In total, 42 apps were updated this week. Here are the highlights:"
-msgstr "W sumie zaktualizowano aż 59 aplikacji! Oto najważniejsze cechy:"
+msgstr "W sumie w tym tygodniu zaktualizowano 42 aplikacje. Oto najważniejsze cechy:"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-03-twif-15-announcing-f-droid-1-3.md
@@ -3409,9 +3402,8 @@ msgstr ""
 
 #. type: Plain text
 #: build/_posts/md/2018-08-10-twif-16-the-note-taking-todo-text-editor-edition.md
-#, fuzzy
 msgid "This Week In F-Droid 16, Week 32, 2018"
-msgstr "\"W tym tygodniu w F-Droid, 18 tydzień\""
+msgstr "W tym tygodniu w F-Droid 16, Tydzień 32, 2018"
 
 #. type: Plain text
 #: build/_posts/md/2018-08-10-twif-16-the-note-taking-todo-text-editor-edition.md
@@ -3548,9 +3540,8 @@ msgstr ""
 
 #. type: Plain text
 #: build/_posts/md/2018-08-10-twif-16-the-note-taking-todo-text-editor-edition.md
-#, fuzzy
 msgid "In total, 43 apps were updated this week. Here are the highlights:"
-msgstr "W sumie zaktualizowano aż 59 aplikacji! Oto najważniejsze cechy:"
+msgstr "W sumie w tym tygodniu zaktualizowano 43 aplikacje. Oto najważniejsze cechy:"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-10-twif-16-the-note-taking-todo-text-editor-edition.md
@@ -3637,9 +3628,8 @@ msgstr ""
 
 #. type: Plain text
 #: build/_posts/md/2018-08-16-twif-17-the-reproducible-builds-and-encrypted-e-mail-edition.md
-#, fuzzy
 msgid "This Week In F-Droid 17, Week 33, 2018"
-msgstr "\"W tym tygodniu w F-Droid, 18 tydzień\""
+msgstr "W tym tygodniu w F-Droid 17, Tydzień 33, 2018"
 
 #. type: Plain text
 #: build/_posts/md/2018-08-16-twif-17-the-reproducible-builds-and-encrypted-e-mail-edition.md
@@ -3753,9 +3743,8 @@ msgstr ""
 
 #. type: Plain text
 #: build/_posts/md/2018-08-16-twif-17-the-reproducible-builds-and-encrypted-e-mail-edition.md
-#, fuzzy
 msgid "In total, 72 apps were updated this week. Here are the highlights:"
-msgstr "W sumie zaktualizowano aż 59 aplikacji! Oto najważniejsze cechy:"
+msgstr "W sumie 72 aplikacje zostały zaktualizowane w tym tygodniu. Oto najważniejsze cechy:"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-16-twif-17-the-reproducible-builds-and-encrypted-e-mail-edition.md
