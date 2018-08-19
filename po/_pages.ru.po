@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-06-30 12:21+0200\n"
-"PO-Revision-Date: 2018-08-19 14:42+0000\n"
-"Last-Translator: Andrey <andrey@mailbox.org>\n"
+"PO-Revision-Date: 2018-08-20 10:20+0000\n"
+"Last-Translator: mesnevi <shams@airpost.net>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/f-droid/website-pages/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
@@ -486,7 +486,7 @@ msgstr "Если вы видите приложение, отсутствующ�
 #. type: Plain text
 #: build/_pages/md/contribute.md
 msgid "If you have the technical skills required, you can also put together the relevant metadata and [submit that via the F-Droid Data repository](https://gitlab.com/fdroid/fdroiddata/blob/master/CONTRIBUTING.md), which will drastically speed up the inclusion of the application."
-msgstr ""
+msgstr "Если вы обладаете необходимым техническим опытом, вы можете самостоятельно собрать нужные метаданные и [добавить их в репозиторий F-Droid Data](https://gitlab.com/fdroid/fdroiddata/blob/master/CONTRIBUTING.md). Это сильно ускорит публикацию вашего приложения (в разы!)."
 
 #. type: Plain text
 #: build/_pages/md/contribute.md
