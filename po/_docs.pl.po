@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-08-17 13:55+0200\n"
-"PO-Revision-Date: 2018-08-15 17:39+0000\n"
+"PO-Revision-Date: 2018-08-23 12:53+0000\n"
 "Last-Translator: WaldiS <admin@sto.ugu.pl>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/f-droid/website-docs/pl/>\n"
 "Language: pl\n"
@@ -716,7 +716,7 @@ msgstr "Poniższe sekcje opisują pola rozpoznane w pliku."
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "- [Categories](#Categories)  - [Author Name](#Author-Name)  - [Author Email](#Author-Email)  - [License](#License)  - [Auto Name](#Auto-Name)  - [Name](#Name)  - [Provides](#Provides)  - [Web Site](#Web-Site)  - [Source Code](#Source-Code)  - [Issue Tracker](#Issue-Tracker)  - [Changelog](#Changelog)  - [Donate](#Donate)  - [FlattrID](#FlattrID)  - [LiberapayID](#LiberapayID)  - [Bitcoin](#Bitcoin)  - [Litecoin](#Litecoin)  - [Summary](#Summary)  - [Description](#Description)  - [Maintainer Notes](#Maintainer-Notes)  - [Repo Type](#Repo-Type)  - [Repo](#Repo)  - [Binaries](#Binaries)  - [Build](#Build)  - [AntiFeatures](#AntiFeatures)  - [Disabled](#Disabled)  - [Requires Root](#Requires-Root)  - [Archive Policy](#Archive-Policy)  - [Update Check Mode](#Update-Check-Mode)  - [Update Check Ignore](#Update-Check-Ignore)  - [Vercode Operation](#Vercode-Operation)  - [Update Check Name](#Update-Check-Name)  - [Update Check Data](#Update-Check-Data)  - [Auto Update Mode](#Auto-Update-Mode)  - [Current Version](#Current-Version)  - [Current Version Code](#Current-Version-Code)  - [No Source Since](#No-Source-Since)"
-msgstr ""
+msgstr "- [Kategorie](#Categories) - [Nazwisko autora](#Author-Name) - [Adres e-mail autora](#Author-Email) - [Licencja](#License) - [Automatyczna Nazwa](#Auto-Name) - [Nazwa](#Name) - [Zapewnia] (#Provides) - [Witryna internetowa](#Web-Site) - [Kod źródłowy](#Source-Code) - [Moduł śledzenia problemów](#Issue-Tracker) - [Dziennik zmian](#Changelog) - [Darowizna](#Donate) - [FlattrID](#FlattrID) - [LiberapayID](#LiberapayID) - [Bitcoin](#Bitcoin) - [Litecoin](#Litecoin) - [Podsumowanie](#Summary) - [Opis](#Description) - [Uwagi do opiekuna](#Maintainer-Notes) - [Typ repo](#Repo-Type) - [Repo](#Repo) - [Binaria](#Binaries) - [Kompilacja](#Build) - [Anty cechy](#AntiFeatures) - [Wyłącz](#Disabled) - [Wymaga root](#Requires-Root) - [Zasady archiwizacji](#Archive-Policy) - [Tryb sprawdzania aktualizacji](#Update-Check-Mode) - [Aktualizuj Sprawdzaj Ignoruj] (#Update-Check-Ignore) - [Operacja kodu](#Vercode-Operation) - [Aktualizuj nazwę wyboru](#Update-Check-Name) - [Aktualizuj dane kontrolne](#Update-Check-Name) - [Tryb automatycznej aktualizacji](#Auto-Update-Mode) - [Aktualna wersja](#Current-Version) - [Aktualny kod wersji](#Current-Version-Code) - [Żadne Źródło](#No-Source-Since)"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -810,7 +810,7 @@ msgstr "To jest konwertowane na (`<license>`) w pliku XML (_index.xml_).\n"
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.5 Auto Name<a name=\"Auto-Name\"></a>"
-msgstr ""
+msgstr "7.5 Automatyczna Nazwa<a name=\"Auto-Name\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -820,409 +820,409 @@ msgstr "Nazwa aplikacji może być najlepiej pobrana z kodu źródłowego. Dziej
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "__Warning__: this overrides all Name entries [set in the app's source code](../All_About_Descriptions_Graphics_and_Screenshots)."
-msgstr ""
+msgstr "__Warning__: ten zastępuje wszystkie wpisy nazw [zestaw w kodzie źródłowym aplikacji](../All_About_Descriptions_Graphics_and_Screenshots)."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "This is converted to (`<name>`) in the XML file (_index.xml_).\n"
-msgstr ""
+msgstr "To jest konwertowany na (`<name>`) w pliku XML (_index.xml_).\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.6 Name<a name=\"Name\"></a>"
-msgstr ""
+msgstr "7.6 Nazwa<a name=\"Name\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "The name of the application. Normally, this field should not be present since the application’s correct name is retrieved from the APK file.  However, in a situation where an APK contains a bad or missing application name, it can be overridden using this. Note that this only overrides the name in the list of apps presented in the client; it doesn’t changed the name or application label in the source code."
-msgstr ""
+msgstr "Nazwa aplikacji. Zwykle to pole nie powinno być obecne, ponieważ poprawna nazwa aplikacji jest pobierana z pliku APK. Jednak w sytuacji, gdy plik APK zawiera złą lub brakującą nazwę aplikacji, można go zastąpić za pomocą tego. Zauważ, że to tylko zastępuje nazwę na liście aplikacji prezentowanych w kliencie; nie zmienia nazwy ani etykiety aplikacji w kodzie źródłowym."
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "7.7 Provides<a name=\"Provides\"></a>"
-msgstr ""
+msgstr "7.7 Umożliwienie (dostarczanie, wyposażenie) (ang.Provides) <a name=\"Provides\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "Comma-separated list of application IDs that this app provides. In other words, if the user has any of these apps installed, F-Droid will show this app as installed instead. It will also appear if the user clicks on urls linking to the other app IDs. Useful when an app switches package name, or when you want an app to act as multiple apps."
-msgstr ""
+msgstr "Lista oddzielonych przecinkami identyfikatorów aplikacji, które udostępnia ta aplikacja. Innymi słowy, jeśli użytkownik ma zainstalowaną jedną z tych aplikacji, F-Droid wyświetli tę aplikację jako zainstalowaną. Pojawi się także, gdy użytkownik kliknie adresy URL łączące się z innymi identyfikatorami aplikacji. Przydaje się, gdy aplikacja zmienia nazwę pakietu lub gdy aplikacja ma działać jako wiele aplikacji."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "Currently this functionality is a stub."
-msgstr ""
+msgstr "Obecnie ta funkcja jest skrótem."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "This is converted to (`<provides>`) in the XML file (_index.xml_).\n"
-msgstr ""
+msgstr "To jest konwertowane na (`<provides>`) plik XML (_index.xml_).\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.8 Web Site<a name=\"Web-Site\"></a>"
-msgstr ""
+msgstr "7.8 Witryna internetowa<a name=\"Web-Site\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "The URL for the application’s web site. If there is no relevant web site, this can be omitted (or left blank)."
-msgstr ""
+msgstr "Adres URL strony internetowej aplikacji. Jeśli nie ma odpowiedniej strony internetowej, można ją pominąć (lub pozostawić pustą)."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "This is converted to (`<web>`) in the XML file (_index.xml_).\n"
-msgstr ""
+msgstr "To jest konwertowane na (`<web>`) plik XML (_index.xml_).\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.9 Source Code<a name=\"Source-Code\"></a>"
-msgstr ""
+msgstr "7.9 Kod źródłowy<a name=\"Source-Code\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "The URL to view or obtain the application’s source code. This should be something human-friendly. Machine-readable source-code is covered in the ’Repo’ field."
-msgstr ""
+msgstr "Adres URL do wyświetlenia lub uzyskania kodu źródłowego aplikacji. Powinno to być coś przyjaznego dla ludzi. Czytelny maszynowo kod źródłowy jest uwzględniony w polu 'Repo'."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "This is converted to (`<source>`) in the XML file (_index.xml_).\n"
-msgstr ""
+msgstr "To jest konwertowane na (`<source>`) plik XML (_index.xml_).\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.10 Issue Tracker<a name=\"Issue-Tracker\"></a>"
-msgstr ""
+msgstr "7.10 Śledzenie problemów<a name=\"Issue-Tracker\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "The URL for the application’s issue tracker. Optional, since not all applications have one."
-msgstr ""
+msgstr "Adres URL śledzenia problemów z aplikacją. Opcjonalnie, ponieważ nie wszystkie aplikacje ją mają."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "This is converted to (`<tracker>`) in the XML file (_index.xml_).\n"
-msgstr ""
+msgstr "To jest konwertowane na (`<tracker>`) plik XML (_index.xml_).\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.11 Changelog<a name=\"Changelog\"></a>"
-msgstr ""
+msgstr "7.11 Dziennik zmian<a name=\"Changelog\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "The URL for the application’s changelog. Optional, since not all applications have one."
-msgstr ""
+msgstr "Adres URL dziennika zmian aplikacji. Opcjonalnie, ponieważ nie wszystkie aplikacje ją mają."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "This is converted to (`<changelog>`) in the XML file (_index.xml_).\n"
-msgstr ""
+msgstr "To jest konwertowane na (`<changelog>`) plik XML (_index.xml_).\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.12 Donate<a name=\"Donate\"></a>"
-msgstr ""
+msgstr "7.12 Darowizna<a name=\"Donate\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "The URL to donate to the project. This should be the project’s donate page if it has one."
-msgstr ""
+msgstr "Adres URL do darowizny projektu. Powinna to być strona darowizny projektu, jeśli taka istnieje."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "It is possible to use a direct PayPal link here, if that is all that is available. However, bear in mind that the developer may not be aware of that direct link, and if they later changed to a different PayPal account, or the PayPal link format changed, things could go wrong. It is always best to use a link that the developer explicitly makes public, rather than something that is auto-generated ’button code’."
-msgstr ""
+msgstr "Możliwe jest użycie bezpośredniego linku PayPal tutaj, jeśli to wszystko, co jest dostępne. Należy jednak pamiętać, że programista może nie być świadomy tego bezpośredniego linku, a jeśli później zmieniono go na inne konto PayPal lub zmieniono format linku PayPal, wszystko może pójść nie tak. Zawsze najlepiej jest użyć linku, który programista jawnie podaje do wiadomości publicznej, a nie coś, co jest automatycznie generowanym 'kodem przycisku'."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "This is converted to (`<donate>`) in the XML file (_index.xml_).\n"
-msgstr ""
+msgstr "To jest konwertowane na (`<donate>`) plik XML (_index.xml_).\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.13 FlattrID<a name=\"FlattrID\"></a>"
-msgstr ""
+msgstr "7.13 FlattrID<a name=\"FlattrID\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "The project’s Flattr (https://flattr.com) ID, if it has one. This should be a numeric ID, such that (for example) https://flattr.com/thing/xxxx leads directly to the page to donate to the project."
-msgstr ""
+msgstr "Identyfikator projektu Flattr (https://flattr.com), jeśli taki istnieje. Powinien to być numeryczny identyfikator, taki, że (na przykład) https://flattr.com/thing/xxxx prowadzi bezpośrednio do strony, aby przekazać darowiznę na projekt."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "This is converted to (`<flattr>`) in the XML file (_index.xml_).\n"
-msgstr ""
+msgstr "To jest konwertowane na (`<flattr>`) plik XML (_index.xml_).\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.14 LiberapayID<a name=\"LiberapayID\"></a>"
-msgstr ""
+msgstr "7.14 LiberapayID<a name=\"LiberapayID\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "The project’s Liberapay (https://liberapay.com) ID, if it has one. This should be a numeric ID, such that (for example) https://liberapay.com/~xxxxx which redirects to your account page. Currently the numeric ID is not displayed on Liberapay’s site, but you can add /public.json behind your team page and get the value of id field in the JSON response."
-msgstr ""
+msgstr "Identyfikator projektu Liberapay (https://liberapay.com), jeśli taki istnieje. Powinien to być numeryczny identyfikator, który (na przykład) https://liberapay.com/~xxxxx przekierowuje na stronę twojego konta. Obecnie numeryczny identyfikator nie jest wyświetlany na stronie Liberapay, ale możesz dodać /public.json na swojej stronie zespołu i uzyskać wartość pola id w odpowiedzi JSON."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "This is converted to (`<liberapay>`) in the XML file (_index.xml_).\n"
-msgstr ""
+msgstr "To jest konwertowane na (`<liberapay>`) plik XML (_index.xml_).\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.15 Bitcoin<a name=\"Bitcoin\"></a>"
-msgstr ""
+msgstr "7.15 Bitcoin<a name=\"Bitcoin\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "A bitcoin address for donating to the project."
-msgstr ""
+msgstr "Adres bitcoin do przekazania darowizny na projekt."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "This is converted to (`<bitcoin>`) in the XML file (_index.xml_).\n"
-msgstr ""
+msgstr "To jest konwertowane na (`<bitcoin>`) plik XML (_index.xml_).\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.16 Litecoin<a name=\"Litecoin\"></a>"
-msgstr ""
+msgstr "7.16 Litecoin<a name=\"Litecoin\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "A litecoin address for donating to the project."
-msgstr ""
+msgstr "Adres w języku litecoin, na którym można przekazać darowiznę na rzecz projektu."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "This is converted to (`<litecoin>`) in the XML file (_index.xml_).\n"
-msgstr ""
+msgstr "To jest konwertowane na (`<litecoin>`) plik XML (_index.xml_).\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.17 Summary<a name=\"Summary\"></a>"
-msgstr ""
+msgstr "7.17 Podsumowanie<a name=\"Summary\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "A brief summary of what the application is. Since the summary is only allowed one line on the list of the F-Droid client, keeping it to within 80 characters will ensure it fits most screens."
-msgstr ""
+msgstr "Krótkie podsumowanie tego, co jest aplikacją. Ponieważ podsumowanie jest dozwolone tylko w jednym wierszu na liście klienta F-Droid, zachowanie go w granicach 80 znaków zapewni, że pasuje do większości ekranów."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "__Warning__: this overrides all Summary entries [set in the app's source code](../All_About_Descriptions_Graphics_and_Screenshots)."
-msgstr ""
+msgstr "__Warning__: to zastępuje wszystkie pozycje Podsumowania [ustawione w kodzie źródłowym aplikacji] (../ All_About_Descriptions_Graphics_and_Screenshots)."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "This is converted to (`<summary>`) in the XML file (_index.xml_).\n"
-msgstr ""
+msgstr "To jest konwertowane na (`<summary>`) plik XML (_index.xml_).\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.18 Description<a name=\"Description\"></a>"
-msgstr ""
+msgstr "7.18 Opis<a name=\"Description\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "A full description of the application, relevant to the latest version.  This can span multiple lines (which should be kept to a maximum of 80 characters), and is terminated by a line containing a single ’.’."
-msgstr ""
+msgstr "Pełny opis aplikacji, odnoszący się do najnowszej wersji. Może to obejmować wiele linii (które powinny być przechowywane maksymalnie do 80 znaków) i jest zakończone wierszem zawierającym pojedynczy znak ’.’."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "Basic MediaWiki-style formatting can be used. Leaving a blank line starts a new paragraph. Surrounding text with `''` make it italic, and with `'''` makes it bold."
-msgstr ""
+msgstr "Można zastosować podstawowe formatowanie MediaWiki. Pozostawienie pustej linii rozpoczyna nowy akapit. Otaczający tekst za pomocą `''` czyni go pochylonym, a przy `'''` czyni go pogrubionym."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "You can link to another app in the repo by using `[[app.id]]`. The link will be made appropriately whether in the Android client, the web repo browser or the wiki. The link text will be the apps name."
-msgstr ""
+msgstr "Możesz połączyć się z inną aplikacją w repozytorium, używając `[[app.id]]`. Link będzie wykonany właściwie, niezależnie od tego, czy będzie to klient Android, przeglądarka internetowa repozytorium czy wiki. Tekst linku będzie nazwą aplikacji."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "Links to web addresses can be done using `[http://example.com Text]`."
-msgstr ""
+msgstr "Łącza do adresów internetowych można wykonać za pomocą `[http://example.com Text]`."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "Bulletted lists are done by simply starting each item with a `*` on a new line, and numbered lists are the same but using `#`. There is currently no support for nesting lists - you can have one level only."
-msgstr ""
+msgstr "Listy wypunktowane są tworzone po prostu przez uruchomienie każdej pozycji z `*` w nowej linii, a listy numerowane są takie same, ale za pomocą `#`. Obecnie nie ma obsługi list zagnieżdżania - możesz mieć tylko jeden poziom."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "It can be helpful to note information pertaining to updating from an earlier version; whether the app contains any prebuilts built by the upstream developers or whether non-free elements were removed; whether the app is in rapid development or whether the latest version lags behind the current version; whether the app supports multiple architectures or whether there is a maximum SDK specified (such info not being recorded in the index)."
-msgstr ""
+msgstr "Pomocne może być zanotowanie informacji dotyczących aktualizacji z wcześniejszej wersji; czy aplikacja zawiera jakiekolwiek prebuilty zbudowane przez deweloperów lub czy elementy inne niż wolne zostały usunięte; czy aplikacja jest w fazie szybkiego rozwoju, czy najnowsza wersja pozostaje w tyle za aktualną wersją; czy aplikacja obsługuje wiele architektur lub czy określono maksymalny pakiet SDK (takie informacje nie są rejestrowane w indeksie)."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "4000 char limit"
-msgstr ""
+msgstr "ograniczenie znaków do 4000"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "__Warning__: this overrides all Description entries [set in the app's source code](../All_About_Descriptions_Graphics_and_Screenshots)."
-msgstr ""
+msgstr "__Warning__: powoduje to pominięcie wszystkich pozycji opisu [ustawionych w kodzie źródłowym aplikacji] (../ All_About_Descriptions_Graphics_and_Screenshots)."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "This is converted to (`<desc>`) in the XML file (_index.xml_).\n"
-msgstr ""
+msgstr "To jest konwertowane na (`<desc>`) plik XML (_index.xml_).\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.19 Maintainer Notes<a name=\"Maintainer-Notes\"></a>"
-msgstr ""
+msgstr "7.19 Uwagi do opiekuna<a name=\"Maintainer-Notes\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "This is a multi-line field using the same rules and syntax as the description. It’s used to record notes for F-Droid maintainers to assist in maintaining and updating the application in the repository."
-msgstr ""
+msgstr "Jest to pole wieloliniowe z użyciem tych samych reguł i składni co opis. Służy do nagrywania notatek dla opiekunów F-Droid, aby pomóc w utrzymaniu i aktualizacji aplikacji w repozytorium."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "This information is also published to the wiki."
-msgstr ""
+msgstr "Informacje te są również publikowane na wiki."
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.20 Repo Type<a name=\"Repo-Type\"></a>"
-msgstr ""
+msgstr "7.20 Typ Repo<a name=\"Repo-Type\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "The type of repository - for automatic building from source. If this is not specified, automatic building is disabled for this application.  Possible values are:"
-msgstr ""
+msgstr "Typ repozytorium - do automatycznego budowania ze źródła. Jeśli nie zostanie to określone, automatyczne budowanie zostanie wyłączone dla tej aplikacji. Możliwe wartości to:"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "‘git’"
-msgstr ""
+msgstr "‘git’"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "‘svn’"
-msgstr ""
+msgstr "‘svn’"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "‘git-svn’"
-msgstr ""
+msgstr "‘git-svn’"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "‘hg’"
-msgstr ""
+msgstr "‘hg’"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "‘bzr’"
-msgstr ""
+msgstr "‘bzr’"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "‘srclib’"
-msgstr ""
+msgstr "‘srclib’"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.21 Repo<a name=\"Repo\"></a>"
-msgstr ""
+msgstr "7.21 Repozytorium<a name=\"Repo\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "The repository location. Usually a git: or svn: URL, for example."
-msgstr ""
+msgstr "Lokalizacja repozytorium. Zwykle na przykład git: lub svn: URL."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "The git-svn option connects to an SVN repository, and you specify the URL in exactly the same way, but git is used as a back-end. This is preferable for performance reasons, and also because a local copy of the entire history is available in case the upstream repository disappears.  (It happens!). In order to use Tags as update check mode for this VCS type, the URL must have the tags= special argument set. Likewise, if you intend to use the RepoManifest/branch scheme, you would want to specify branches= as well. Finally, trunk= can also be added. All these special arguments will be passed to \"git svn\" in order, and their values must be relative paths to the svn repo root dir. Here’s an example of a complex git-svn Repo URL: http://svn.code.sf.net/p/project/code/svn;trunk=trunk;tags=tags;branches=branches"
-msgstr ""
+msgstr "Opcja git-svn łączy się z repozytorium SVN, a adres URL jest dokładnie taki sam, ale git jest używany jako back-end. Jest to korzystne ze względu na wydajność, a także dlatego, że lokalna kopia całej historii jest dostępna na wypadek znikającego repozytorium. (Zdarza się!). Aby używać tagów jako trybu sprawdzania aktualizacji dla tego typu VCS, adres URL musi mieć ustawione tagi= specjalny argument. Podobnie, jeśli zamierzasz używać schematu RepoManifest/branch, powinieneś również podać branch= także. Wreszcie, można również dodać trunk=. Wszystkie te specjalne argumenty zostaną przekazane do \"git svn\" w kolejności, a ich wartości muszą być względnymi ścieżkami do katalogu root svn repo. Oto przykład złożonego adresu URL repliki git-svn: http://svn.code.sf.net/p/project/code/svn;trunk=trunk;tags=tags;branches=branches"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "If the Repo Type is `srclib`, then you must specify the name of the according srclib .txt file. For example if `scrlibs/FooBar.txt` exist and you want to use this srclib, then you have to set Repo to `FooBar`."
-msgstr ""
+msgstr "Jeśli typu Repo jest `srclib`, należy określić nazwę pliku .txt zgodnie z srclib. Na przykład, jeśli istnieje `scrlibs/FooBar.txt` potrzeba wobec używać ten srclib, a następnie należy ustawić Repo do `FooBar`."
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.22 Binaries<a name=\"Binaries\"></a>"
-msgstr ""
+msgstr "7.22 Pliki binarne<a name=\"Binaries\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "The location of binaries used in verification process."
-msgstr ""
+msgstr "Lokalizacja plików binarnych używanych w procesie weryfikacji."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "If specified, F-Droid will verify the output apk file of a build against the one specified. You can use %v and %c to point to the version name and version code of the current build. To verify the F-Droid client itself you could use: `Binaries:https://f-droid.org/repo/org.fdroid.fdroid_%c.apk`"
-msgstr ""
+msgstr "Jeśli zostanie określony, F-Droid zweryfikuje wyjściowy plik APK kompilacji względem podanego. Możesz użyć %v i %c, aby wskazać nazwę wersji i kod wersji bieżącej kompilacji. Aby zweryfikować klienta F-Droid, możesz użyć: `Binaries:https://f-droid.org/repo/org.fdroid.fdroid_%c.apk`"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "F-Droid will use upstream binaries if the verification succeeded."
-msgstr ""
+msgstr "F-Droid użyje plików binarnych, jeśli weryfikacja się powiedzie."
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.23 Build<a name=\"Build\"></a>"
-msgstr ""
+msgstr "7.23 Kompilacja<a name=\"Build\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "Any number of these fields can be present, each specifying a version to automatically build from source. The value is a comma-separated list.  For example:"
-msgstr ""
+msgstr "Może być dostępna dowolna liczba tych pól, z których każda określa wersję do automatycznego budowania ze źródła. Wartością jest lista rozdzielana przecinkami. Na przykład:"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "‘Build:1.2,12’"
-msgstr ""
+msgstr "‘Kompilacja:1.2,12’"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "The above specifies to build version 1.2, which has a version code of 12.  The `commit=` parameter specifies the tag, commit or revision number from which to build it in the source repository. It is the only mandatory flag, which in this case could for example be `commit=v1.2`."
-msgstr ""
+msgstr "Powyższe określa, aby zbudować wersję 1.2, która ma kod wersji 12. Parametr `commit=` określa tag, zatwierdzenie lub numer rewizji, z którego można go zbudować w źródłowym repozytorium. Jest to jedyna obowiązkowa flaga, która w tym przypadku może na przykład być `commit= v1.2`."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "In addition to the three, always required, parameters described above, further parameters can be added (in name=value format) to apply further configuration to the build. These are (roughly in order of application):"
-msgstr ""
+msgstr "Oprócz trzech, zawsze wymaganych parametrów opisanych powyżej, można dodać kolejne parametry (w formacie name=value), aby zastosować dalszą konfigurację do kompilacji. Są to (z grubsza według kolejności zastosowania):"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "`disable=<message>`\n"
-msgstr ""
+msgstr "`disable=<message>`\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1232,6 +1232,9 @@ msgid ""
 "    compatibility, this can also be achieved by starting the commit ID\n"
 "    with ’!’)\n"
 msgstr ""
+":   Wyłącza tę kompilację, podając przyczynę. (Do tyłu \n"
+"    kompatybilność, można to również osiągnąć uruchamiając identyfikator zatwierdzenia \n"
+"    z ’!’)\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1244,12 +1247,18 @@ msgid ""
 "    disabling causes it to be deleted once `fdroid update` is run; this\n"
 "    is the procedure if ever a version has to be replaced.\n"
 msgstr ""
+"    Celem tej funkcji jest umożliwienie wydań niepodlegających kompilacji (np. \n"
+"    źródło nie jest publikowane) do oznaczenia, więc skrypty nie \n"
+"    generują powtarzających się wiadomości na ich temat. (A także, aby nagrać \n"
+"    informacje do późniejszego przeglądu). Jeśli apk został już zbudowany, \n"
+"    dezaktywacja powoduje, że zostanie on usunięty po uruchomieniu `fdroid update`; to \n"
+"    jest procedurą, jeśli kiedykolwiek trzeba zastąpić wersję.\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "`subdir=<path>`\n"
-msgstr ""
+msgstr "`subdir=<path>`\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1258,11 +1267,13 @@ msgid ""
 ":   Specifies to build from a subdirectory of the checked out source\n"
 "    code. Normally this directory is changed to before building,\n"
 msgstr ""
+":   Określa kompilację z podkatalogu wypakowanego źródła\n"
+"    kod. Zwykle katalog ten zmienia się na przed budową,\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "`submodules=yes`"
-msgstr ""
+msgstr "`submodules=yes`"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1273,11 +1284,15 @@ msgid ""
 "    source is cloned. Submodules are reset and cleaned like the main app\n"
 "    repository itself before each build.\n"
 msgstr ""
+":   Użyj, jeśli projekt (tylko git) ma submoduły - przyczyny \n"
+"   `git submodule update --init --recursive` do wykonania po \n"
+"    źródło jest klonowane. Submodules są resetowane i czyszczone jak główna aplikacja \n"
+"    repozytorium przed każdą kompilacją.\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "`sudo=xxxx`"
-msgstr ""
+msgstr "`sudo=xxxx`"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1296,7 +1311,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "`timeout=<seconds>`\n"
-msgstr ""
+msgstr "`timeout=<seconds>`\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1318,7 +1333,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "`init=xxxx`"
-msgstr ""
+msgstr "`init=xxxx`"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1342,7 +1357,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "`oldsdkloc=yes`"
-msgstr ""
+msgstr "`oldsdkloc=yes`"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1359,7 +1374,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "`target=<target>`\n"
-msgstr ""
+msgstr "`target=<target>`\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1388,7 +1403,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "`update=<auto/dirs>`\n"
-msgstr ""
+msgstr "`update=<auto/dirs>`\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1419,7 +1434,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "`encoding=xxxx`"
-msgstr ""
+msgstr "`encoding=xxxx`"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1435,7 +1450,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "`forceversion=yes`"
-msgstr ""
+msgstr "`forceversion=yes`"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1459,7 +1474,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "`forcevercode=yes`"
-msgstr ""
+msgstr "`forcevercode=yes`"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1473,7 +1488,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "`rm=<path1>[,<path2>,...]`\n"
-msgstr ""
+msgstr "`rm=<path1>[,<path2>,...]`\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1498,7 +1513,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "`extlibs=<lib1>[,<lib2>,...]`\n"
-msgstr ""
+msgstr "`extlibs=<lib1>[,<lib2>,...]`\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1512,7 +1527,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "`srclibs=[n:]a@r,[n:]b@r1,...`"
-msgstr ""
+msgstr "`srclibs=[n:]a@r,[n:]b@r1,...`"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1567,42 +1582,42 @@ msgstr ""
 #. type: Bullet: '    -   '
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "‘mavenCentral’ - the original repo, hardcoded in Maven and Gradle."
-msgstr ""
+msgstr "‘mavenCentral’ - oryginalne repozytorium, zakodowane na stałe w Maven i Gradle."
 
 #. type: Bullet: '    -   '
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "‘jCenter’ - hardcoded in Gradle, this repo by Bintray tries to provide easier handling. It should sync with mavenCentral from time to time."
-msgstr ""
+msgstr "'JCenter' - zakodowane na stałe w Gradle, to repozytorium Bintray próbuje zapewnić łatwiejszą obsługę. Powinien od czasu do czasu synchronizować się z mavenCentral."
 
 #. type: Bullet: '    -   '
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "‘OSS Sonatype’ - maintained by the people behind mavenCentral, this repository focuses on hosting services for open source project binaries."
-msgstr ""
+msgstr "‘OSS Sonatype’  - utrzymywane przez ludzi stojących za mavenCentral, to repozytorium koncentruje się na usługach hostingowych dla binariów projektu open source."
 
 #. type: Bullet: '    -   '
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "‘OSS JFrog’ - maintained by the people behind jCenter, this repository focuses on hosting services for open source project binaries."
-msgstr ""
+msgstr "‘OSS JFrog’ - to repozytorium koncentruje się na usługach hostingowych dla plików binarnych open source."
 
 #. type: Bullet: '    -   '
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "‘JitPack.io’ - builds directly from Github repositories.  However, they do not provide any option to reproduce or verify the resulting binaries. Builds pre-release versions in some cases."
-msgstr ""
+msgstr "‘JitPack.io’ - kompiluje się bezpośrednio z repozytoriów Github. Jednak nie zapewniają one żadnej opcji reprodukowania ani weryfikowania wynikowych plików binarnych. W niektórych przypadkach tworzy wersje przedpremierowe."
 
 #. type: Bullet: '    -   '
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "‘Clojars’ - Clojure libraries repo."
-msgstr ""
+msgstr "‘Clojars’ - Clojure repozytorium bibliotek."
 
 #. type: Bullet: '    -   '
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "‘CommonsWare’ - repo holding a collection of open-source libs."
-msgstr ""
+msgstr "‘CommonsWare’ - repo z kolekcją bibliotek open-source."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "`patch=x`"
-msgstr ""
+msgstr "`patch=x`"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1617,7 +1632,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "`prebuild=xxxx`"
-msgstr ""
+msgstr "`prebuild=xxxx`"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1635,7 +1650,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "    The command runs using bash.\n"
-msgstr ""
+msgstr "    Polecenie działa z użyciem bash.\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1671,7 +1686,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "`scanignore=<path1>[,<path2>,...]`\n"
-msgstr ""
+msgstr "`scanignore=<path1>[,<path2>,...]`\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1690,12 +1705,14 @@ msgid ""
 "    When scanning the source tree for problems, matching files whose\n"
 "    relative paths start with any of the paths given here are ignored.\n"
 msgstr ""
+"    Podczas skanowania drzewa źródłowego w poszukiwaniu problemów, pasujące pliki, których \n"
+"    ścieżki względne zaczynają się od którejkolwiek z podanych tu ścieżek, są ignorowane.\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "`scandelete=<path1>[,<path2>,...]`\n"
-msgstr ""
+msgstr "`scandelete=<path1>[,<path2>,...]`\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1718,7 +1735,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "`build=xxxx`"
-msgstr ""
+msgstr "`build=xxxx`"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1754,7 +1771,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "`buildjni=[yes|no|<dir list>]`\n"
-msgstr ""
+msgstr "`buildjni=[yes|no|<dir list>]`\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1785,7 +1802,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "`ndk=<version>`\n"
-msgstr ""
+msgstr "`ndk=<version>`\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1811,7 +1828,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "`gradle=<flavour1>[,<flavour2>,...]`\n"
-msgstr ""
+msgstr "`gradle=<flavour1>[,<flavour2>,...]`\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1836,7 +1853,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "`maven=yes[@<dir>]`\n"
-msgstr ""
+msgstr "`maven=yes[@<dir>]`\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1851,7 +1868,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "`preassemble=<task1>[,<task2>,...]`\n"
-msgstr ""
+msgstr "`preassemble=<task1>[,<task2>,...]`\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1865,7 +1882,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "`gradleprops=<prop1>[,<prop2>,...]`\n"
-msgstr ""
+msgstr "`gradleprops=<prop1>[,<prop2>,...]`\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1887,7 +1904,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "`antcommands=<target1>[,<target2>,...]`\n"
-msgstr ""
+msgstr "`antcommands=<target1>[,<target2>,...]`\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1901,7 +1918,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "`output=glob/to/output.apk`"
-msgstr ""
+msgstr "`output=glob/to/output.apk`"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1917,7 +1934,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "`novcheck=yes`"
-msgstr ""
+msgstr "`novcheck=yes`"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1933,7 +1950,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "`antifeatures=<antifeature1>[,<antifeature2>,...]`\n"
-msgstr ""
+msgstr "`antifeatures=<antifeature1>[,<antifeature2>,...]`\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1957,12 +1974,12 @@ msgstr ""
 #. type: Bullet: '-   '
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "‘Ads’ - the application contains advertising."
-msgstr ""
+msgstr "‘Ads’ - aplikacja zawiera reklamy."
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "‘Tracking’ - the application tracks and reports your activity to somewhere without your consent. It’s commonly used for when developers obtain crash logs without the user’s consent, or when an app is useless without some kind of authentication."
-msgstr ""
+msgstr "‘Tracking’ - aplikacja śledzi i zgłasza Twoją aktywność gdzieś bez Twojej zgody. Jest powszechnie stosowany, gdy programiści uzyskują dzienniki awarii bez zgody użytkownika lub gdy aplikacja jest bezużyteczna bez uwierzytelniania."
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Build_Metadata_Reference.md
