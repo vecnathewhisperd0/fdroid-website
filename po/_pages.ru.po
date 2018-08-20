@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-06-30 12:21+0200\n"
 "PO-Revision-Date: 2018-08-20 10:20+0000\n"
-"Last-Translator: mesnevi <shams@airpost.net>\n"
+"Last-Translator: Maxim <Max-24@tutamail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/f-droid/website-pages/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
@@ -60,7 +60,7 @@ msgstr "Контакты"
 #. type: Plain text
 #: build/_pages/md/about.md
 msgid "You can discuss F-Droid or get help on the [forum](https://forum.f-droid.org) and IRC in the [#fdroid channel](https://webchat.freenode.net/?channels=%23fdroid) on freenode. The discussions on IRC are logged on [BotBot.me](https://botbot.me/freenode/fdroid).  You can send email at [team@f-droid.org](mailto:team@f-droid.org), but messages are much more likely to be answered on the forum or #fdroid channel. If you want to help, you can [join us]({{ \"/contribute/\" | prepend: site.baseurl }})."
-msgstr "Вы можете обсудить F-Droid или получить помощь на [форуме](https://forum.f-droid.org) и в IRC на [канале #fdroid](https://webchat.freenode.net/?channels=%23fdroid) на сервере freenode. Запись всех обсуждений можно почитать в [BotBot.me](https://botbot.me/freenode/fdroid).  Вы можете отправить письмо по адресу [team@f-droid.org](mailto:team@f-droid.org), но, получить ответ проще и быстрее на форуме или на канале #fdroid.Если вы хотите помочь, вы можете  [присоединяйться]({{ \"/contribute/\" | prepend: site.baseurl }})."
+msgstr "Вы можете обсудить F-Droid или получить помощь на [форуме](https://forum.f-droid.org) и в IRC на [канале #fdroid](https://webchat.freenode.net/?channels=%23fdroid) на сервере freenode. Запись всех обсуждений можно почитать в [BotBot.me](https://botbot.me/freenode/fdroid).  Вы можете отправить письмо по адресу [team@f-droid.org](mailto:team@f-droid.org), но, получить ответ проще и быстрее на форуме или на канале #fdroid.Если вы хотите помочь, вы можете  [присоединиться]({{ \"/contribute/\" | prepend: site.baseurl }})."
 
 #. type: Title ###
 #: build/_pages/md/about.md
@@ -496,7 +496,7 @@ msgstr "Это также относится к помощи в создании
 #. type: Plain text
 #: build/_pages/md/contribute.md
 msgid "Further information can be found in [the documentation](../docs), or by asking [on IRC](https://webchat.freenode.net/?channels=%23fdroid) (#fdroid on freenode)."
-msgstr ""
+msgstr "Дополнительную информацию можно найти в [документации] (../docs) или [на IRC] (https://webchat.freenode.net/?channels=%23fdroid) (#fdroid на freenode)."
 
 #. type: Title ###
 #: build/_pages/md/contribute.md
@@ -507,12 +507,12 @@ msgstr "Перевод"
 #. type: Plain text
 #: build/_pages/md/contribute.md
 msgid "The client application is available in many languages. Should yours not be among those, or be in need of updates or improvement, please create an account and use the [translation system](https://hosted.weblate.org/projects/f-droid/) to make your changes."
-msgstr ""
+msgstr "Клиентское приложение доступно на многих языках. Но если вы не находите своего среди тех, или если хотите помочь  в обновлении, создайте учетную запись и используйте [систему перевода] (https://hosted.weblate.org/projects/f-droid/), чтобы внести изменения."
 
 #. type: Plain text
 #: build/_pages/md/contribute.md
 msgid "Start with the overview of [Translation and Localization](../docs/Translation_and_Localization).  There’s also a [dedicated forum section](https://forum.f-droid.org/c/translation) for translation related discussions."
-msgstr ""
+msgstr "Начните с обзора [Перевод и локализация] (../docs / Translation_and_Localization). Также есть раздел посвященный этой теме на форуме (https://forum.f-droid.org/c/translation) для обсуждений, связанных с переводом."
 
 #. type: Title ###
 #: build/_pages/md/contribute.md
@@ -523,7 +523,7 @@ msgstr "Помочь в разработке"
 #. type: Plain text
 #: build/_pages/md/contribute.md
 msgid "There are four git repositories hosted at GitLab – one for the [Android client application](https://gitlab.com/fdroid/fdroidclient), one for the [server tools](https://gitlab.com/fdroid/fdroidserver) for running a repository and building/installing applications locally, and one for the associated [metadata files for applications in the main F-Droid repository](https://gitlab.com/fdroid/fdroiddata).  The last repo is handling [website and documentation](https://gitlab.com/fdroid/fdroid-website).  The easiest way to contribute to development is to make clones of these projects and submit merge requests.  If you are making large changes, it would be good to discuss them on IRC or in the forum first, to ensure they fit with the direction of the project, and do not clash with or duplicate work already in development."
-msgstr ""
+msgstr "В GitLab есть четыре репозитория: один для [клиентского приложения Android] (https://gitlab.com/fdroid/fdroidclient), один для [сервера] (https://gitlab.com/fdroid/fdroidserver ) для запуска репозитория и создания / установки приложений локально, а также для связанного репозитория F-Droid (https://gitlab.com/fdroid/fdroiddata). Последнее репо обрабатывает [сайт и документацию] (https://gitlab.com/fdroid/fdroid-website). Самый простой способ внести свой вклад в развитие - сделать клоны этих проектов и представить запросы на объединение. Если вы вносите большие изменения, было бы полезно сначала обсудить их в IRC или на форуме, чтобы убедиться, что они подходят для проекта, и не сталкиваются с дублирующимися работами, которые уже разрабатывались."
 
 #. type: Plain text
 #: build/_pages/md/contribute.md
