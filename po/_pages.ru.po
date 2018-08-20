@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-06-30 12:21+0200\n"
 "PO-Revision-Date: 2018-08-20 10:46+0000\n"
-"Last-Translator: mesnevi <shams@airpost.net>\n"
+"Last-Translator: Maxim <Max-24@tutamail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/f-droid/website-pages/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
@@ -528,7 +528,7 @@ msgstr "В GitLab есть четыре репозитория F-Droid: для [
 #. type: Plain text
 #: build/_pages/md/contribute.md
 msgid "For working with the server and data projects, it’s a good idea to read [the manual]({{ \"/docs/\" | prepend: site.baseurl }})."
-msgstr ""
+msgstr "Для работы с проектами сервера и данных неплохо будет прочитать [Помощь]({{ \"/docs/\" | prepend: site.baseurl }})."
 
 #. type: Title #
 #: build/_pages/md/docs.md
