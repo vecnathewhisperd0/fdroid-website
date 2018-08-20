@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-06-30 12:21+0200\n"
-"PO-Revision-Date: 2018-08-20 17:53+0000\n"
+"PO-Revision-Date: 2018-08-22 11:56+0000\n"
 "Last-Translator: Andrey <andrey@mailbox.org>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/f-droid/website-pages/ru/>\n"
 "Language: ru\n"
@@ -523,7 +523,7 @@ msgstr "Помочь в разработке"
 #. type: Plain text
 #: build/_pages/md/contribute.md
 msgid "There are four git repositories hosted at GitLab – one for the [Android client application](https://gitlab.com/fdroid/fdroidclient), one for the [server tools](https://gitlab.com/fdroid/fdroidserver) for running a repository and building/installing applications locally, and one for the associated [metadata files for applications in the main F-Droid repository](https://gitlab.com/fdroid/fdroiddata).  The last repo is handling [website and documentation](https://gitlab.com/fdroid/fdroid-website).  The easiest way to contribute to development is to make clones of these projects and submit merge requests.  If you are making large changes, it would be good to discuss them on IRC or in the forum first, to ensure they fit with the direction of the project, and do not clash with or duplicate work already in development."
-msgstr "В GitLab есть четыре репозитория F-Droid: для [клиентского приложения Android] (https://gitlab.com/fdroid/fdroidclient);  для [F-Droid сервера] (https://gitlab.com/fdroid/fdroidserver ), в котором находятся инструменты настройки локального репозитория для  сборки и установки приложений; для связанного с сервером F-droid репозитория с мета-данными (https://gitlab.com/fdroid/fdroiddata);  и ещё один репозиторий с инструментами для поддержки [сайта и документации] (https://gitlab.com/fdroid/fdroid-website). Внести свой вклад в развитие F-Droid проще всего, склонировав эти проекты и создавая пулл-реквесты. Если вы планируете большие изменения, было бы неплохо сначала обсудить их в IRC или на форуме и убедиться, что они соответствуют правилам и духу проекта и не дублируют работу других разработчиков."
+msgstr "На GitLab размещены четыре репозитория F-Droid: для [клиентского приложения Android](https://gitlab.com/fdroid/fdroidclient); для [F-Droid сервера](https://gitlab.com/fdroid/fdroidserver ), в котором находятся инструменты настройки локального репозитория для сборки и установки приложений; для связанного с сервером F-Droid  [репозитория с метаданными](https://gitlab.com/fdroid/fdroiddata);  и еще один репозиторий с инструментами для поддержки [сайта и документации](https://gitlab.com/fdroid/fdroid-website).  Внести свой вклад в развитие F-Droid проще всего, склонировав эти проекты и запросив слияние. Если вы планируете большие изменения, было бы неплохо сначала обсудить их в IRC или на форуме и убедиться, что они соответствуют правилам и духу проекта и не дублируют работу других разработчиков."
 
 #. type: Plain text
 #: build/_pages/md/contribute.md
@@ -586,12 +586,12 @@ msgstr "[Известные репозитории](https://forum.f-droid.org/t/
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
 msgid "[Release Channels and Signing Keys](Release_Channels_and_Signing_Keys) These are the various channels that F-Droid software are released on, with info to verify them based on signing keys."
-msgstr "[Способы публикации приложений и ключи для подписывания](Release_Channels_and_Signing_Keys) Это способы публикации приложений в F-Droid и их верификации, в основе которых лежат ключи для цифровой подписи."
+msgstr "[Каналы публикации и ключи для подписания](Release_Channels_and_Signing_Keys) Это способы публикации приложений в F-Droid и их верификации, в основе которых лежат ключи для цифровой подписи."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
 msgid "[Security Model](Security_Model) A brief explanation of how F-Droid delivers software to users securely."
-msgstr "[Модель безопасности](Security_Model) Краткое пояснение того, каким образом  F-Droid гарантирует безопасность пользователей при установке приложений."
+msgstr "[Модель безопасности](Security_Model) Краткое пояснение того, каким образом  F-Droid обеспечивает безопасность пользователей при установке приложений."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
