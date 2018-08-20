@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-06-30 12:21+0200\n"
-"PO-Revision-Date: 2018-08-20 10:46+0000\n"
-"Last-Translator: Maxim <Max-24@tutamail.com>\n"
+"PO-Revision-Date: 2018-08-20 17:53+0000\n"
+"Last-Translator: mesnevi <shams@airpost.net>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/f-droid/website-pages/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
@@ -528,7 +528,7 @@ msgstr "В GitLab есть четыре репозитория F-Droid: для [
 #. type: Plain text
 #: build/_pages/md/contribute.md
 msgid "For working with the server and data projects, it’s a good idea to read [the manual]({{ \"/docs/\" | prepend: site.baseurl }})."
-msgstr "Для работы с проектами сервера и данных неплохо будет прочитать [Помощь]({{ \"/docs/\" | prepend: site.baseurl }})."
+msgstr "Для эффективной работы с проектами сервера и мета-данных почитайте соответствующие статьи [руководства]({{ \"/docs/\" | prepend: site.baseurl }})."
 
 #. type: Title #
 #: build/_pages/md/docs.md
@@ -539,7 +539,7 @@ msgstr "Документация"
 #. type: Plain text
 #: build/_pages/md/docs.md
 msgid "F-Droid is both a repository of verified free software Android apps as well as a whole \"app store kit\", providing all the tools needed to setup and run an app store. It is a community-run free software project developed by a wide range of contributors. It also includes complete build and release tools for managing the process of turning app source code into published builds."
-msgstr ""
+msgstr "F-Droid — это одновременно и репозиторий проверенных свободных приложений для Android, и полный комплект инструментов для создания, настройки и поддержки магазина приложений. Это некоммерческий проект, существующий усилиями сообщества, всей разработкой для которого занимается множество людей. В него входит полный комплект всего необходимого для сборки и релизов приложений, другими словами, всё для того, чтобы из исходного кода получился готовый продукт."
 
 #. type: Plain text
 #: build/_pages/md/docs.md
@@ -586,12 +586,12 @@ msgstr "[Известные репозитории](https://forum.f-droid.org/t/
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
 msgid "[Release Channels and Signing Keys](Release_Channels_and_Signing_Keys) These are the various channels that F-Droid software are released on, with info to verify them based on signing keys."
-msgstr ""
+msgstr "[Способы публикации приложений и ключи для подписывания](Release_Channels_and_Signing_Keys) Это способы публикации приложений в F-Droid и их верификации, в основе которых лежат ключи для цифровой подписи."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
 msgid "[Security Model](Security_Model) A brief explanation of how F-Droid delivers software to users securely."
-msgstr ""
+msgstr "[Модель безопасности](Security_Model) Краткое пояснение того, каким образом  F-Droid гарантирует безопасность пользователей при установке приложений."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
