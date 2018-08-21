@@ -8,47 +8,47 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-08-17 13:55+0200\n"
-"PO-Revision-Date: 2018-03-19 21:47+0000\n"
-"Last-Translator: Lucas Couri Trevizan <lctrev@protonmail.ch>\n"
+"PO-Revision-Date: 2018-08-22 01:41+0000\n"
+"Last-Translator: Matheus Bastos <matheusmcy1@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/f-droid/website-posts/pt_BR/>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 2.20-dev\n"
+"X-Generator: Weblate 3.2-dev\n"
 
 #. type: Title #
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md
 #, no-wrap
 msgid "\"F-Droid supports APK Expansion Files aka OBB\""
-msgstr "F-Droid suporta arquivos de expanção apk também conhecidos como OBBs"
+msgstr "\"F-Droid suporta Arquivos de Expansão APK também conhecidos como OBB\""
 
 #. type: Plain text
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md
 msgid "Many games, mapping, and other apps require a large amount of data to work.  The APK file of an Android app is limited to 100MB in size, yet it is common for a single country map file to be well over 100MB.  Also, in order to get users running as quickly as possible, they should not have to wait for huge amounts of data to download in order to just start the app for the first time."
-msgstr "Muitos jogos, mapas, e outros aplicativos requerem uma grande quantidade de dados para o funcionarem. O arquivo APK de um aplicativo para Android está limitado a 100MB , mesmo assim é comum que um  mapa de um único país  ter mais de 100MB. Também, a fim de que os usuários de executem o app o mais rápido possível, eles não devem ter que esperar para downloads grandes, a fim de iniciar o aplicativo pela primeira vez."
+msgstr "Muitos jogos, mapas e outros aplicativos exigem muitos dados para sua operação. O tamanho de um arquivo APK para um aplicativo Android é limitado a 100 MB, embora um arquivo para um único mapa geralmente exija mais de 100 MB. Além disso, para que os usuários instalem aplicativos o mais rápido possível, eles não precisam esperar pelo download de grandes quantidades de dados para iniciar o aplicativo pela primeira vez."
 
 #. type: Plain text
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md
 msgid "Google created OBB aka \"[APK Expansion](https://developer.android.com/google/play/expansion-files.html)\" files to provide a flexible means of delivering large amounts of data.  This arrangement also saves lots of bandwidth since the APK file and the OBB file can be updated separately.  For example, a game's assets do not need to change often, so they can be shipped as an OBB. Then when the app itself is updated (i.e. the APK), it does not need to include all those assets that are in the OBB file."
-msgstr "Google criou arquivos OBB tambem ,conhecido como\"[expansão de APK](https://developer.android.com/google/play/expansion-files.html)\", para fornecer um meio flexível de entregrar grandes quantidades de dados.  Este arranjo também economiza muita largura de banda, desde que o arquivo APK e o arquivo OBB podem ser atualizadas separadamente.  Por exemplo, texturas de um jogo não precisam mudar muitas vezes, logo eles podem ser enviados como uma OBB. Então, quando o próprio aplicativo é atualizado (ou seja, o APK), ele não precisa incluir todos as texturas que estão no arquivo OBB."
+msgstr "Google criou os arquivos OBB, também conhecidos como\"[expansão de APK](https://developer.android.com/google/play/expansion-files.html)\", para fornecer um meio flexível de entregar grandes quantidades de dados.  Este arranjo também economiza muita largura de banda, desde que o arquivo APK e o arquivo OBB podem ser atualizadas separadamente.  Por exemplo, texturas de um jogo não precisam mudar muitas vezes, logo eles podem ser enviados como uma OBB. Então, quando o próprio aplicativo é atualizado (ou seja, o APK), ele não precisa incluir todos as texturas que estão no arquivo OBB."
 
 #. type: Plain text
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md
 msgid "OBB files are used by lots of apps like games and MAPS.ME.  F-Droid supports OBB by downloading and installing the OBB before the APK, so that once the APK is installed, the OBB files are already in place and ready to use.  F-Droid also provides an `Intent` method for apps to fetch the OBB download URLs in case the app itself needs to handle the OBB download/update.  That is similar to how it works in Google Play."
-msgstr ""
+msgstr "Os arquivos OBB são usados por muitos aplicativos, como jogos e MAPS.ME. O F-Droid suporta o OBB baixando e instalando o OBB antes do APK, para que, uma vez instalado o APK, os arquivos OBB já estejam presentes e prontos para uso. O F-Droid também fornece um método `Intent` para que os aplicativos busquem as URLs de download do OBB, caso o próprio aplicativo precise manipular o download/atualização do OBB. Isso é semelhante a como funciona no Google Play."
 
 #. type: Plain text
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md
 msgid "In order to use the OBB support, users need at least F-Droid v0.102, and the repo must use _fdroidserver_ v0.7.0 or newer.  Adding OBB files to a repo is very easy: just copy them to the same folder where the APKs go, i.e. _/path/to/fdroid/repo/_."
-msgstr ""
+msgstr "Para usar o suporte OBB, os usuários precisam de pelo menos F-Droid v0.102, e o repositório deve usar _fdroidserver_ v0.7.0 ou mais recente. Adicionar arquivos OBB a um repositório é muito fácil: basta copiá-los para a mesma pasta onde os APKs vão, por exemplo:  _/path/to/fdroid/repo/_."
 
 #. type: Title ##
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md
 #, no-wrap
 msgid "Developer Usage"
-msgstr ""
+msgstr "Uso do Desenvolvedor"
 
 #. type: Plain text
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md
