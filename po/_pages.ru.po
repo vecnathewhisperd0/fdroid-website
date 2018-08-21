@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-06-30 12:21+0200\n"
 "PO-Revision-Date: 2018-08-22 11:56+0000\n"
-"Last-Translator: mesnevi <shams@airpost.net>\n"
+"Last-Translator: Maxim <Max-24@tutamail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/f-droid/website-pages/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
@@ -465,7 +465,7 @@ msgstr "[Приложение клиента F-Droid](https://gitlab.com/fdroid/
 #. type: Bullet: '* '
 #: build/_pages/md/contribute.md
 msgid "[Server and build tools](https://gitlab.com/fdroid/fdroidserver/issues)"
-msgstr "[Сервер и инструменты для создания] (https://gitlab.com/fdroid/fdroidserver/issues)"
+msgstr "[Сервер и инструменты для создания](https://gitlab.com/fdroid/fdroidserver/issues)"
 
 #. type: Bullet: '* '
 #: build/_pages/md/contribute.md
@@ -481,7 +481,7 @@ msgstr "Отправить приложения"
 #. type: Plain text
 #: build/_pages/md/contribute.md
 msgid "If you see an application missing from the repository (after reading the [inclusion policy](../docs/Inclusion_Policy)), please feel free to submit it via the dedicated [Requests For Packaging](https://gitlab.com/fdroid/rfp/issues) issue tracker."
-msgstr "Если вы видите приложение, отсутствующее в репозитории (после ознакомления с [политикой включения] (../docs / Inclusion_Policy)), пожалуйста, отправьте его через выделенный для этого трекер проблем [запросы на отправку] (https://gitlab.com/) fdroid/rfp/issues)."
+msgstr "Если вы видите приложение, отсутствующее в репозитории (после ознакомления с [политикой включения](../docs / Inclusion_Policy)), пожалуйста, отправьте его через выделенный для этого трекер проблем [запросы на отправку] (https://gitlab.com/) fdroid/rfp/issues)."
 
 #. type: Plain text
 #: build/_pages/md/contribute.md
@@ -751,7 +751,7 @@ msgstr "[Список задач по изменению данных](https://g
 msgid ""
 "* [Server](https://gitlab.com/fdroid/fdroidserver/issues) issue tracker: For the server tools (used for building apps yourself,\n"
 "or running your own repo), please use this issue tracker.\n"
-msgstr ""
+msgstr "* [Сервер](https://gitlab.com/fdroid/fdroidserver/issues) Отслеживание ошибок: для серверных инструментов (используемых для создания приложений или запуска собственного репо), используйте этот трекер.\n"
 
 #. type: Plain text
 #: build/_pages/md/issues.md
