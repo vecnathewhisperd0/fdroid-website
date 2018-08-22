@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-06-30 12:21+0200\n"
-"PO-Revision-Date: 2018-08-22 19:58+0000\n"
+"PO-Revision-Date: 2018-08-23 12:53+0000\n"
 "Last-Translator: mesnevi <shams@airpost.net>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/f-droid/website-pages/ru/>\n"
 "Language: ru\n"
@@ -657,7 +657,7 @@ msgstr "[Установка утилит для сервера и репозит
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
 msgid "[Setup an F-Droid App Repo](Setup_an_F-Droid_App_Repo) How to setup your own repository of apps that users can easily add to their F-Droid client to get your apps directly from the source."
-msgstr "[Приложение в F-Droid: настройка репозитория](Setup_an_F-Droid_App_Repo) Как настроить ддя вашего приложения репозиторий, который можно будет легко и удобно добавить в  пользовательские клиенты F-Droid (чтобы собирать приложение прямо из исходников)."
+msgstr "[Приложение в F-Droid: настройка репозитория](Setup_an_F-Droid_App_Repo) Как настроить репозиторий, который будет легко и удобно добавить в  пользовательские клиенты F-Droid (чтобы собирать ваше приложение прямо из исходников)."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
