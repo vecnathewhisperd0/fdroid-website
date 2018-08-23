@@ -209,6 +209,9 @@ body {
      }
 
      .package-version {
+        .hidden {
+           display: none; 
+        }
         margin-bottom: 20px;
      }
 
