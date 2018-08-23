@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-08-17 13:55+0200\n"
-"PO-Revision-Date: 2018-08-23 12:53+0000\n"
+"PO-Revision-Date: 2018-08-24 18:41+0000\n"
 "Last-Translator: WaldiS <admin@sto.ugu.pl>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/f-droid/website-docs/pl/>\n"
 "Language: pl\n"
@@ -1964,12 +1964,12 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.24 AntiFeatures<a name=\"AntiFeatures\"></a>"
-msgstr ""
+msgstr "7.24 Niechciane Funkcje (ang. AntiFeatures)<a name=\"AntiFeatures\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "This is optional - if present, it contains a comma-separated list of any of the following values, describing an anti-feature the application has.  It is a good idea to mention the reasons for the anti-feature(s) in the description:"
-msgstr ""
+msgstr "Jest to opcjonalne - jeśli jest obecne, zawiera listę oddzielonych przecinkami dowolnych z poniższych wartości, opisujących anti-feature aplikacji. Dobrze jest podać powody anty-funkcji w opisie:"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1989,54 +1989,54 @@ msgstr ""
 #. type: Bullet: '-   '
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "‘NonFreeAdd’ - the application promotes non-free add-ons, such that the app is effectively an advert for other non-free software."
-msgstr ""
+msgstr "‘NonFreeAdd’ - aplikacja promuje niewolne dodatki, tak, że aplikacja jest faktycznie reklamą innego niewolnego oprogramowania."
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "‘NonFreeDep’ - the application depends on a non-free application (e.g. Google Maps) - i.e. it requires it to be installed on the device, but does not include it."
-msgstr ""
+msgstr "‘NonFreeDep’ - aplikacja zależy od niewolnej aplikacji (np. Google Maps) - tj. wymaga zainstalowania jej na urządzeniu, ale jej nie uwzględnia."
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "‘UpstreamNonFree’ - the application is or depends on non-free software. This does not mean that non-free software is included with the app: Most likely, it has been patched in some way to remove the non-free code. However, functionality may be missing."
-msgstr ""
+msgstr "‘UpstreamNonFree’ - aplikacja jest lub zależy od niewolnego oprogramowania. Nie oznacza to, że niewolne oprogramowanie jest dołączone do aplikacji: Najprawdopodobniej zostało to naprawione w jakiś sposób, aby usunąć niewolny kod. Jednak może brakować funkcjonalności."
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "‘NonFreeAssets’ - the application contains and makes use of non-free assets. The most common case is apps using artwork - images, sounds, music, etc - under a non-commercial license."
-msgstr ""
+msgstr "‘NonFreeAssets’ - aplikacja zawiera i wykorzystuje niewolne zasoby. Najczęstszym przypadkiem są aplikacje wykorzystujące dzieła sztuki - obrazy, dźwięki, muzykę itp. - na podstawie niekomercyjnej licencji."
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "‘KnownVuln’ - the application has known security vulnerabilities."
-msgstr ""
+msgstr "‘KnownVuln’ - aplikacja ma znane luki w zabezpieczeniach."
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "‘ApplicationDebuggable‘ - APK file is compiled for debugging (`application-debuggable`), which normally makes it unsuitable for regular users and use cases."
-msgstr ""
+msgstr "‘ApplicationDebuggable‘ - Plik APK jest kompilowany do debugowania (`application-debuggable`), co zwykle czyni go nieodpowiednim dla zwykłych użytkowników i przypadków użycia."
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "‘NoSourceSince‘ - Upstream source for this app is no longer available. Either the app went commercial, the repo was dropped, or it has moved to a location currently unknown to us. This usual means there won't be further updates unless the source reappears."
-msgstr ""
+msgstr "‘NoSourceSince‘ - Źródło upstream dla tej aplikacji nie jest już dostępne. Albo aplikacja stała się komercyjna, repo usunięto, albo przeniesiono do nieznanej nam lokalizacji. Zwykle oznacza to, że nie będzie dalszych aktualizacji, dopóki źródło nie pojawi się ponownie."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "This is converted to (`<antifeatures>`) in the XML file (_index.xml_).\n"
-msgstr ""
+msgstr "To jest konwertowane na (`<antifeatures>`) na plik XML (_index.xml_).\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.25 Disabled<a name=\"Disabled\"></a>"
-msgstr ""
+msgstr "7.25 Wyłączony<a name=\"Disabled\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "If this field is present, the application does not get put into the public index. This allows metadata to be retained while an application is temporarily disabled from being published. The value should be a description of why the application is disabled. No apks or source code archives are deleted: to purge an apk see the Build Version section or delete manually for developer builds. The field is therefore used when an app has outlived it’s usefulness, because the source tarball is retained."
-msgstr ""
+msgstr "Jeśli to pole jest obecne, aplikacja nie zostanie umieszczona w publicznym indeksie. Pozwala to zachować metadane podczas tymczasowego wyłączenia aplikacji. Wartość powinna być opisem przyczyny wyłączenia aplikacji. Żadne apki ani archiwa kodu źródłowego nie są usuwane: aby wyczyścić plik APK, zobacz sekcję Wersja kompilacji lub usuń ręcznie dla kompilacji programistów. Pole jest więc używane, gdy aplikacja przestała być użyteczna, ponieważ archiwum źródłowe zostało zachowane."
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
