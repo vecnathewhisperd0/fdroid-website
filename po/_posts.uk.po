@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-08-17 13:55+0200\n"
-"PO-Revision-Date: 2018-08-19 11:45+0000\n"
+"PO-Revision-Date: 2018-08-26 10:44+0000\n"
 "Last-Translator: AB <ao7nro+6ltrjuwxelfo4@sharklasers.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/f-droid/website-posts/uk/>\n"
 "Language: uk\n"
@@ -42,7 +42,7 @@ msgstr "OBB-файли використовуються безліччю зас�
 #. type: Plain text
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md
 msgid "In order to use the OBB support, users need at least F-Droid v0.102, and the repo must use _fdroidserver_ v0.7.0 or newer.  Adding OBB files to a repo is very easy: just copy them to the same folder where the APKs go, i.e. _/path/to/fdroid/repo/_."
-msgstr "Для того, аби використовувати підтримку OBB, користувачам потрібно щонайменше F-Droid v0.102, а комора даних має використовувати _fdroidserver_ v0.7.0 або новіший. Додати файли OBB до комори даних дуже просто: скопіюйте їх до тієї теки, куди йдуть APK, тобто _ /path/to/fdroid/repo/_."
+msgstr "Для того, аби використовувати підтримку OBB, користувачам потрібно щонайменше мати F-Droid v0.102, а сховище має використовувати _fdroidserver_ v0.7.0 або новіший. Додати файли OBB до комори даних дуже просто: скопіюйте їх до тієї теки, куди йдуть APK, тобто _ /path/to/fdroid/repo/_."
 
 #. type: Title ##
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md
