@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-08-17 13:55+0200\n"
-"PO-Revision-Date: 2018-02-10 13:34+0000\n"
-"Last-Translator: Yunyang Liu <ensigma96@gmail.com>\n"
+"PO-Revision-Date: 2018-08-25 07:07+0000\n"
+"Last-Translator: Yangjun Wang <yangjunw50@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/f-droid/website-docs/zh_Hans/>\n"
 "Language: zh_Hans\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2.19-dev\n"
+"X-Generator: Weblate 3.2-dev\n"
 
 #. type: Title #
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -62,7 +62,7 @@ msgstr "PNG 或 JPEG 格式的图片和屏幕截图文件"
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
 msgid "One important detail: dangerous and unneeded metadata is stripped from image files before they are included in the repo.  For example, JPEG EXIF data has [security issues](https://threatpost.com/google-shuts-down-potentially-massive-android-bug/120393/), and it is not needed to display images.  This can also mean that the images are recompressed."
-msgstr ""
+msgstr "一个重要的细节：危险的和无用的Metadata会在纳入软件源之前被移除。比如，JPEG EXIF数据具有[安全风险](https://threatpost.com/google-shuts-down-potentially-massive-android-bug/120393/)，而且它并不是用于显示图片的信息。这也意味着图片将被重新压缩。"
 
 #. type: Title ##
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
