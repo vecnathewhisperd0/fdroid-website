@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-08-17 13:55+0200\n"
-"PO-Revision-Date: 2018-08-24 18:41+0000\n"
+"PO-Revision-Date: 2018-08-26 15:41+0000\n"
 "Last-Translator: WaldiS <admin@sto.ugu.pl>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/f-droid/website-docs/pl/>\n"
 "Language: pl\n"
@@ -1306,6 +1306,13 @@ msgid ""
 "    need very specific things that are not appropriate to install for\n"
 "    all builds, or for things that would conflict with other builds.\n"
 msgstr ""
+":   Określa skrypt uruchamiany za pomocą `sudo bash -x -c \"xxxx\"` w \n"
+"    buildserver VM guest. Ten skrypt działa z pełnymi uprawnieniami roota, \n"
+"    ale stan zostanie zresetowany po każdej kompilacji. Większość \n"
+"    aplikacji budują przy użyciu standardowego, bazowego środowiska Debian/stable. To \n"
+"    jest użyteczny przy konfigurowaniu buildserver dla złożonych buildów \n"
+"    Potrzebują bardzo konkretnych rzeczy, które nie są odpowiednie do zainstalowania \n"
+"    wszystkie kompilacje lub rzeczy, które kolidują z innymi kompilacjami.\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1321,6 +1328,9 @@ msgid ""
 "    buildserver VM is forcefully terminated.  The default is 7200\n"
 "    (2 hours); 0 means no limit.\n"
 msgstr ""
+":   Limit czasu dla tej kompilacji (w sekundach). Po upływie czasu, \n"
+"    buildserver VM jest wymuszona. Wartość domyślna to 7200 \n"
+"    (2 godziny); 0 oznacza brak limitu.\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1329,6 +1339,8 @@ msgid ""
 "    Limitation is applied only in server mode, i.e. when `fdroid build`\n"
 "    is invoked with the `--server` option.\n"
 msgstr ""
+"    Ograniczenie jest stosowane tylko w trybie serwera, tzn. Gdy `fdroid build` \n"
+"    wywoływana jest opcją `--server`.\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1342,6 +1354,8 @@ msgid ""
 ":   Like ’prebuild’, but runs on the source code BEFORE any other\n"
 "    processing takes place.\n"
 msgstr ""
+":   Podobnie jak 'prebuild', ale działa na kodzie źródłowym PRZED każdym innym \n"
+"    przetwarzanie odbywa się.\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1422,6 +1436,8 @@ msgid ""
 "    Default value is ’`auto`’, which recursively uses the paths in\n"
 "    project.properties to find all the subprojects to update.\n"
 msgstr ""
+"    Wartością domyślną jest '`auto`, która rekursywnie używa ścieżek w \n"
+"    project.properties, aby znaleźć wszystkie podprojekty do aktualizacji.\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1430,6 +1446,8 @@ msgid ""
 "    Otherwise, the value can be a comma-separated list of directories in\n"
 "    which to run ’android update’ relative to the application directory.\n"
 msgstr ""
+"    W przeciwnym razie wartością może być lista katalogów oddzielonych przecinkami \n"
+"    który uruchamia 'aktualizację androida' względem katalogu aplikacji.\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1459,6 +1477,8 @@ msgid ""
 ":   If specified, the package version in AndroidManifest.xml is replaced\n"
 "    with the version name for the build as specified in the metadata.\n"
 msgstr ""
+":   Jeśli określona, wersja pakietu w AndroidManifest.xml zostanie zastąpiona \n"
+"    z nazwą wersji kompilacji określoną w metadanych.\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1483,6 +1503,8 @@ msgid ""
 ":   If specified, the package version code in the AndroidManifest.xml is\n"
 "    replaced with the version code for the build. See also forceversion.\n"
 msgstr ""
+":   Jeśli określono, kod wersji pakietu w AndroidManifest.xml jest \n"
+"    zastąpiony kodem wersji dla kompilacji. Zobacz także forceversion.\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
