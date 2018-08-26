@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-08-17 13:55+0200\n"
 "PO-Revision-Date: 2018-08-27 08:49+0000\n"
-"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
+"Last-Translator: BO41 <lukasw41@gmail.com>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -2796,9 +2796,9 @@ msgstr "[Tremotesf](https://f-droid.org/app/org.equeim.tremotesf) ist eine abget
 
 #. type: Title #
 #: build/_posts/md/2018-07-12-this-week-in-fdroid-w28.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "\"This Week in F-Droid, Week 28\""
-msgstr "\"Diese Woche in F-Droid, Woche 20\""
+msgstr "\"Diese Woche in F-Droid, Woche 28\""
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-07-12-this-week-in-fdroid-w28.md
@@ -2863,9 +2863,8 @@ msgstr "[HyperRogue](https://f-droid.org/app/com.roguetemple.hyperroid): Top-dow
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-07-12-this-week-in-fdroid-w28.md
-#, fuzzy
 msgid "[SuperTuxKart](https://f-droid.org/app/org.supertuxkart.stk): Play a kart racing games with Tux and friends"
-msgstr "[Werewolf](https://f-droid.org/app/org.secuso.privacyfriendlycardgameone): Spiele Werwolf mit deinen Freunden"
+msgstr "[SuperTuxKart](https://f-droid.org/app/org.supertuxkart.stk): Fahre Kart-Rennen mit Tux und Freunden"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-07-12-this-week-in-fdroid-w28.md
@@ -2874,9 +2873,8 @@ msgstr "[Poland can into Space](https://f-droid.org/app/pl.sanszo.pcis): Hilf Po
 
 #. type: Plain text
 #: build/_posts/md/2018-07-12-this-week-in-fdroid-w28.md
-#, fuzzy
 msgid "In total, 51 apps were updated this week. Here are the highlights:"
-msgstr "Insgesamt wurden diese Woche 54 Apps aktualisiert. Hier die Höhepunkte:"
+msgstr "Insgesamt wurden diese Woche 51 Apps aktualisiert. Hier die Höhepunkte:"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-07-12-this-week-in-fdroid-w28.md
@@ -2890,15 +2888,13 @@ msgstr "Termux](https://f-droid.org/app/com.termux) kombiniert eine leistungsfä
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-07-12-this-week-in-fdroid-w28.md
-#, fuzzy
 msgid "[Vespucci](https://f-droid.org/app/de.blau.android) had a major release, updating from 10.2.6.0 to 11.0.0.0. See the [changelog](https://github.com/MarcusWolschon/osmeditor4android/blob/HEAD/CHANGELOG.txt) for details."
-msgstr "[Delta Chat](https://f-droid.org/app/com.b44t.messenger) hatte ein großes Update von 0.16.0 auf 0.17.2 mit [einer Menge Änderungen](https://github.com/deltachat/deltachat-android/blob/HEAD/CHANGELOG.md#v0170)."
+msgstr "[Vespucci](https://f-droid.org/app/de.blau.android) hatte ein großes Update von 10.2.6.0 auf 11.0.0.0. Einzelheiten dazu im [Änderungsprotokoll](https://github.com/MarcusWolschon/osmeditor4android/blob/HEAD/CHANGELOG.txt)."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-07-12-this-week-in-fdroid-w28.md
-#, fuzzy
 msgid "[Simple Search](https://f-droid.org/app/de.tobiasbielefeld.searchbar) 1.2 brings a new dark theme! Metager has been added as a search engine, and 3 different customized search engines can now be set up."
-msgstr "[Simple Search](https://f-droid.org/app/de.tobiasbielefeld.searchbar): Einfache und anpassbare Suchleiste"
+msgstr "[Simple Search](https://f-droid.org/app/de.tobiasbielefeld.searchbar): 1.2 bringt ein neues, dunkles Design mit! Als Suchmaschine wurde Metager ergänzt, und es können nun 3 verschiedene benutzerdefinierte Suchmaschinen festgelegt werden."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-07-12-this-week-in-fdroid-w28.md
@@ -2933,9 +2929,8 @@ msgstr "\"TWIF 13: ÖPNV-Edition\""
 
 #. type: Plain text
 #: build/_posts/md/2018-07-21-twif-13-public-transport-edition.md
-#, fuzzy
 msgid "This Week In F-Droid 13, Week 29, 2018"
-msgstr "\"Diese Woche in F-Droid, Woche 20\""
+msgstr "Diese Woche in F-Droid 13, Woche 29, 2018"
 
 #. type: Plain text
 #: build/_posts/md/2018-07-21-twif-13-public-transport-edition.md
@@ -3017,15 +3012,13 @@ msgstr "[Weather Radar](https://f-droid.org/app/com.danhasting.radar): Eine Anwe
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-07-21-twif-13-public-transport-edition.md
-#, fuzzy
 msgid "[Taswast](https://f-droid.org/app/com.github.aba2l.taswast): Amazigh Calendar"
-msgstr "[Binaural Beats](https://f-droid.org/app/com.github.axet.binauralbeats): Meditationshelfer"
+msgstr "[Taswast](https://f-droid.org/app/com.github.aba2l.taswast): Großartiger Kalender"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-07-21-twif-13-public-transport-edition.md
-#, fuzzy
 msgid "[Text Fiction](https://f-droid.org/app/de.onyxbits.textfiction): Interactive fiction interpreter"
-msgstr "[BatteryCalibration](https://f-droid.org/app/de.perflyst.batterycalibration): Kalibrieren Sie Ihre Batterie"
+msgstr "[Text Fiction](https://f-droid.org/app/de.onyxbits.textfiction): interaktiver Fiktion Interpreter"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-07-21-twif-13-public-transport-edition.md
@@ -3059,9 +3052,8 @@ msgstr "[Gloomy Dungeons](https://f-droid.org/app/zame.GloomyDungeons.opensource
 
 #. type: Plain text
 #: build/_posts/md/2018-07-21-twif-13-public-transport-edition.md
-#, fuzzy
 msgid "In total, 75 apps were updated this week. Here are the highlights:"
-msgstr "Insgesamt wurden diese Woche 54 Apps aktualisiert. Hier die Höhepunkte:"
+msgstr "Insgesamt wurden diese Woche 75 Apps aktualisiert. Hier die Höhepunkte:"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-07-21-twif-13-public-transport-edition.md
@@ -3101,7 +3093,7 @@ msgstr "[LaunchTime](https://f-droid.org/app/com.quaap.launchtime), von 0.7.6 au
 #. type: Bullet: '* '
 #: build/_posts/md/2018-07-21-twif-13-public-transport-edition.md
 msgid "[Periodical](https://f-droid.org/app/de.arnowelzel.android.periodical) is a menstrual/period calendar which calculates the days of fertility according to Knaus-Ogino. Version 1.11 brings a redesign with navigation drawer and adds back the simple list view with cycle lengths."
-msgstr ""
+msgstr "[Periodical](https://f-droid.org/app/de.arnowelzel.android.periodical) ist ein Menstruations-/Periodenkalender, der die fruchtbaren Tage anhand der Knaus-Ogino-Methode berechnet. Version 1.11 erhielt ein neues Design mit Navigationsauszug und bringt die einfache Listenansicht mit Zykluslängen zurück."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-07-21-twif-13-public-transport-edition.md
@@ -3122,7 +3114,7 @@ msgstr "[Easer](https://f-droid.org/app/ryey.easer) wurde von 0.6.7 auf 0.6.7.2 
 #: build/_posts/md/2018-07-21-twif-13-public-transport-edition.md
 #: build/_posts/md/2018-07-27-twif-14-the-reproducibly-stuck-edition.md
 #: build/_posts/md/2018-08-03-twif-15-announcing-f-droid-1-3.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Removed Apps"
 msgstr "Entfernte Apps"
 
@@ -3145,9 +3137,8 @@ msgstr "Der CyanogenMod [Changelog](https://f-droid.org/wiki/page/org.polaric.cy
 #: build/_posts/md/2018-07-21-twif-13-public-transport-edition.md
 #: build/_posts/md/2018-07-27-twif-14-the-reproducibly-stuck-edition.md
 #: build/_posts/md/2018-08-03-twif-15-announcing-f-droid-1-3.md
-#, fuzzy
 msgid "There are way too many app updates to keep track of them all, so we need your help to highlight the important ones. And of course, if you're doing anything involving F-Droid in some way, we love to hear about it!"
-msgstr "Wenn Sie gerade ein bedeutendes Update veröffentlicht haben und möchten, dass es hier Erwähnung findet, melden Sie sich. Es gibt viel zu viele App-Updates, um sie alle im Auge zu behalten, deshalb brauchen wir Ihre Hilfe, um auf die interessantesten hinzuweisen. Und natürlich freuen wir uns über alles, was mit F-Droid zu tun hat!"
+msgstr "Es gibt viel zu viele App-Updates, um sie alle im Auge zu behalten, deshalb brauchen wir Ihre Hilfe, um auf die wichtigsten hinzuweisen. Und sollten Sie sich mit irgendetwas, was F-Droid betrifft, beschäftigen, hören wir selbstverständlich gerne davon!"
 
 #. type: Plain text
 #: build/_posts/md/2018-07-21-twif-13-public-transport-edition.md
@@ -3155,9 +3146,8 @@ msgstr "Wenn Sie gerade ein bedeutendes Update veröffentlicht haben und möchte
 #: build/_posts/md/2018-08-03-twif-15-announcing-f-droid-1-3.md
 #: build/_posts/md/2018-08-10-twif-16-the-note-taking-todo-text-editor-edition.md
 #: build/_posts/md/2018-08-16-twif-17-the-reproducible-builds-and-encrypted-e-mail-edition.md
-#, fuzzy
 msgid "Send tips to [@fdroidorg@mastodon.technology](https://mastodon.technology/@fdroidorg) and remember to tag with [#TWIF](https://mastodon.technology/tags/twif). Or use the [TWIF submission thread](https://forum.f-droid.org/t/twif-submission-thread) on the forum. The deadline to the next TWIF is Thursday 12:00 UTC."
-msgstr "Erzählen Sie davon im [TWIF Submission Thread](https://forum.f-droid.org/t/twif-submission-thread) im Forum oder erwähnen Sie es [@fdroidorg@mastodon.technology](https://mastodon.technology/@fdroidorg) mit dem Tag [#TWIF](https://mastodon.technology/tags/twif). Einsendeschluss für den nächsten TWIF ist Donnerstag 12:00 Uhr UTC."
+msgstr "Senden Sie Tipps an [@fdroidorg@mastodon.technology](https://mastodon.technology/@fdroidorg) und denken Sie an einen [#TWIF](https://mastodon.technology/tags/twif)-Tag. Oder nutzen Sie den [TWIF Submission Thread](https://forum.f-droid.org/t/twif-submission-thread) im Forum. Einsendeschluss für das nächste TWIF ist Donnerstag 12:00 UTC."
 
 #. type: Plain text
 #: build/_posts/md/2018-07-21-twif-13-public-transport-edition.md
@@ -3184,9 +3174,8 @@ msgstr "\"TWIF 14: Ausgabe zur Reproduzierbarkeitsfalle\""
 
 #. type: Plain text
 #: build/_posts/md/2018-07-27-twif-14-the-reproducibly-stuck-edition.md
-#, fuzzy
 msgid "This Week In F-Droid 14, Week 30, 2018"
-msgstr "\"Diese Woche in F-Droid, Woche 18\""
+msgstr "Diese Woche in F-Droid 14, Woche 30, 2018"
 
 #. type: Plain text
 #: build/_posts/md/2018-07-27-twif-14-the-reproducibly-stuck-edition.md
@@ -3225,15 +3214,13 @@ msgstr "[Pix-Art Messenger](https://f-droid.org/app/de.pixart.messenger): ein Ja
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-07-27-twif-14-the-reproducibly-stuck-edition.md
-#, fuzzy
 msgid "[Trireme for Deluge](https://f-droid.org/app/org.deluge.trireme): Thin client for the Deluge torrent daemon"
-msgstr "[TermBot](https://f-droid.org/app/org.sufficientlysecure.termbot): SSH-Client zur Verwendung mit Smartcards"
+msgstr "[Trireme for Deluge](https://f-droid.org/app/org.deluge.trireme): Client für den Deluge Torrent Dämon"
 
 #. type: Plain text
 #: build/_posts/md/2018-07-27-twif-14-the-reproducibly-stuck-edition.md
-#, fuzzy
 msgid "In total, 40 apps were updated this week. Here are the highlights:"
-msgstr "Insgesamt wurden diese Woche 49 Apps aktualisiert. Hier die Höhepunkte:"
+msgstr "Insgesamt wurden diese Woche 40 Apps aktualisiert. Hier die Höhepunkte:"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-07-27-twif-14-the-reproducibly-stuck-edition.md
@@ -3272,9 +3259,8 @@ msgstr "[CrossWords](https://f-droid.org/app/org.eehouse.android.xw4) ist ein pl
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-07-27-twif-14-the-reproducibly-stuck-edition.md
-#, fuzzy
 msgid "[NewPipe](https://f-droid.org/app/org.schabi.newpipe), the lightweight YouTube frontent, was updated from 0.13.5 to 0.13.7 and can now undo delete of downloads, and has several UI improvements and bug fixes."
-msgstr "[NewPipe](https://f-droid.org/app/org.schabi.newpipe) wurde auf 0.13.3 aktualisiert. Sie können nun auf die Mitte des Playerbildschirms doppeltippen, um das Video anzuhalten. Die Ansicht des Verlaufs und das Projektlayout wurden überarbeitet, zusammen mit weiteren Verbesserungen und Korrekturen."
+msgstr "[NewPipe](https://f-droid.org/app/org.schabi.newpipe) das leichtgewichtige YouTube Front-End wurde von 0.13.5 auf 0.13.7 geupdated und du kannst entfernungen von Downloads rückgängig machen. Außerdem gab es mehrere UI verbesserungen und Bug fixes."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-07-27-twif-14-the-reproducibly-stuck-edition.md
@@ -3289,9 +3275,8 @@ msgstr "\"TWIF 15: Ankündigung von F-Droid 1.3\""
 
 #. type: Plain text
 #: build/_posts/md/2018-08-03-twif-15-announcing-f-droid-1-3.md
-#, fuzzy
 msgid "This Week In F-Droid 15, Week 31, 2018"
-msgstr "\"Diese Woche in F-Droid, Woche 18\""
+msgstr "\"Diese Woche in F-Droid, Woche 15, Woche 31, 2018\""
 
 #. type: Plain text
 #: build/_posts/md/2018-08-03-twif-15-announcing-f-droid-1-3.md
@@ -3326,9 +3311,8 @@ msgstr "[@Grote](https://blog.grobox.de) [schreibt](https://blog.grobox.de/2018/
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-03-twif-15-announcing-f-droid-1-3.md
-#, fuzzy
 msgid "[Fake Traveler](https://f-droid.org/app/cl.coders.faketraveler): Fake your location"
-msgstr "[Funktrainer](https://f-droid.org/app/de.hosenhasser.funktrainer): Kurs für die deutsche Funkamateurprüfung"
+msgstr "[Fake Traveler](https://f-droid.org/app/cl.coders.faketraveler): täusche deine Position"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-03-twif-15-announcing-f-droid-1-3.md
@@ -3338,9 +3322,8 @@ msgstr "[AnySoftKeyboard](https://f-droid.org/app/com.menny.android.anysoftkeybo
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-03-twif-15-announcing-f-droid-1-3.md
-#, fuzzy
 msgid "[EDS Lite](https://f-droid.org/app/com.sovworks.edslite): Virtual disk encryption"
-msgstr "[TEdit](https://f-droid.org/app/com.atr.tedit): Ein einfacher Texteditor"
+msgstr "[EDS Lite](https://f-droid.org/app/com.sovworks.edslite): Virtuelle Festplatten verschlüsselung"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-03-twif-15-announcing-f-droid-1-3.md
@@ -3354,9 +3337,8 @@ msgstr "[Web2PDF](https://f-droid.org/app/org.dyndns.warenix.web2pdf): \"_Keine 
 
 #. type: Plain text
 #: build/_posts/md/2018-08-03-twif-15-announcing-f-droid-1-3.md
-#, fuzzy
 msgid "In total, 42 apps were updated this week. Here are the highlights:"
-msgstr "Insgesamt wurden diese Woche 49 Apps aktualisiert. Hier die Höhepunkte:"
+msgstr "Insgesamt wurden diese Woche 42 Apps aktualisiert. Hier die Höhepunkte:"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-03-twif-15-announcing-f-droid-1-3.md
@@ -3413,7 +3395,6 @@ msgstr "Hey! Weißt du, was gut wäre? Die [Führung eines Changelogs](https://k
 #: build/_posts/md/2018-08-03-twif-15-announcing-f-droid-1-3.md
 #: build/_posts/md/2018-08-10-twif-16-the-note-taking-todo-text-editor-edition.md
 #: build/_posts/md/2018-08-16-twif-17-the-reproducible-builds-and-encrypted-e-mail-edition.md
-#, fuzzy
 msgid "Got Feedback? We are very tootable at [@fdroidorg@mastodon.technology](https://mastodon.technology/@fdroidorg) on Mastodon. If you'd like to have a chat, you can find us in #fdroid on [Freenode](https://freenode.net), on Matrix via [#freenode_#fdroid:matrix.org](https://matrix.to/#/#freenode_#fdroid:matrix.org) or on [Telegram](https://t.me/joinchat/AlRQekvjWDTuQrCgMYSNVA). All of these spaces are bridged together, so the choice is yours. You can also join us on the [forum](https://forum.f-droid.org/)."
 msgstr "Feedback geben? Toots erreichen uns über [@fdroidorg@mastodon.technology](https://mastodon.technology/@fdroidorg) auf Mastodon. Wenn Sie Chats mögen, finden Sie uns unter #froid auf [Freenode](https://freenode.net/), auf Matrix via [#freenode_#fdroid:matrix.org](https://matrix.to/#/#freenode_#fdroid:matrix.org) oder auf [Telegram](https://t.me/joinchat/AlRQekvjWDTuQrCgMYSNVA). Alle diese Plätze werden zusammengeführt, Sie haben also die Wahl. Sie können auch dem [Forum](https://forum.f-droid.org/) beitreten."
 
@@ -3425,9 +3406,8 @@ msgstr "\"TWIF 16: Die Notizen machende Todo Texteditor-Ausgabe\""
 
 #. type: Plain text
 #: build/_posts/md/2018-08-10-twif-16-the-note-taking-todo-text-editor-edition.md
-#, fuzzy
 msgid "This Week In F-Droid 16, Week 32, 2018"
-msgstr "\"Diese Woche in F-Droid, Woche 18\""
+msgstr "\"Diese Woche in F-Droid, Woche 16, Woche 32, 2018\""
 
 #. type: Plain text
 #: build/_posts/md/2018-08-10-twif-16-the-note-taking-todo-text-editor-edition.md
@@ -3571,9 +3551,8 @@ msgstr "(Danke an [@licaon-kter](https://forum.f-droid.org/u/Licaon_Kter) für d
 
 #. type: Plain text
 #: build/_posts/md/2018-08-10-twif-16-the-note-taking-todo-text-editor-edition.md
-#, fuzzy
 msgid "In total, 43 apps were updated this week. Here are the highlights:"
-msgstr "Insgesamt wurden diese Woche 49 Apps aktualisiert. Hier die Höhepunkte:"
+msgstr "Insgesamt wurden diese Woche 43 Apps aktualisiert. Hier die Höhepunkte:"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-10-twif-16-the-note-taking-todo-text-editor-edition.md
@@ -3661,9 +3640,8 @@ msgstr ""
 
 #. type: Plain text
 #: build/_posts/md/2018-08-16-twif-17-the-reproducible-builds-and-encrypted-e-mail-edition.md
-#, fuzzy
 msgid "This Week In F-Droid 17, Week 33, 2018"
-msgstr "\"Diese Woche in F-Droid, Woche 18\""
+msgstr "\"Diese Woche in F-Droid, Woche 17, Woche 33, 2018\""
 
 #. type: Plain text
 #: build/_posts/md/2018-08-16-twif-17-the-reproducible-builds-and-encrypted-e-mail-edition.md
@@ -3777,9 +3755,8 @@ msgstr ""
 
 #. type: Plain text
 #: build/_posts/md/2018-08-16-twif-17-the-reproducible-builds-and-encrypted-e-mail-edition.md
-#, fuzzy
 msgid "In total, 72 apps were updated this week. Here are the highlights:"
-msgstr "Insgesamt wurden diese Woche 49 Apps aktualisiert. Hier die Höhepunkte:"
+msgstr "Insgesamt wurden diese Woche 72 Apps aktualisiert. Hier die Höhepunkte:"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-16-twif-17-the-reproducible-builds-and-encrypted-e-mail-edition.md
