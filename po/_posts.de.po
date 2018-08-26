@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-08-17 13:55+0200\n"
-"PO-Revision-Date: 2018-08-26 09:28+0000\n"
+"PO-Revision-Date: 2018-08-27 08:49+0000\n"
 "Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\n"
 "Language: de\n"
@@ -3366,7 +3366,7 @@ msgstr "[Tusky](https://f-droid.org/app/com.keylesspalace.tusky), der Mastodon-C
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-03-twif-15-announcing-f-droid-1-3.md
 msgid "[Transportr](https://f-droid.org/app/de.grobox.liberario) 2.0.2 adds data sources for Hungary and Poland, fixes Finland, improves location auto-completion and fixes several crashes."
-msgstr ""
+msgstr "[Transportr](https://f-droid.org/app/de.grobox.liberario) 2.0.2 fügt Datenquellen für Ungarn und Polen hinzu, behebt die von Finnland, verbessert die automatische Vervollständigung von Orten und behebt mehrere Abstürze."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-03-twif-15-announcing-f-droid-1-3.md
@@ -3377,37 +3377,37 @@ msgstr "[DuckDuckGo Privacy Browser](https://f-droid.org/app/com.duckduckgo.mobi
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-03-twif-15-announcing-f-droid-1-3.md
 msgid "[μMath+](https://f-droid.org/app/com.mkulesh.micromath.plus) is the world's first scientific graphing calculator and function plotter on Android oriented around a worksheet. Version 2.17.2 implements SI units of information, logarithmic scale for function plots, expanded image settings, and now has an [adaptive icon](https://developer.android.com/guide/practices/ui_guidelines/icon_design_adaptive) for Android 8+."
-msgstr ""
+msgstr "[μMath+](https://f-droid.org/app/com.mkulesh.micromath.plus) ist der weltweit erste wissenschaftliche Grafikrechner und Funktionsplotter auf Android, der sich an einem Arbeitsblatt orientiert. Version 2.17.2 implementiert SI-Einheiten von Informationen, logarithmische Skalen für Funktionsdiagramme, erweiterte Bildeinstellungen und hat jetzt ein [adaptives Icon](https://developer.android.com/guide/practices/ui_guidelines/icon_design_adaptive) für Android >=8."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-03-twif-15-announcing-f-droid-1-3.md
 msgid "[Gallery](https://f-droid.org/app/com.simplemobiletools.gallery), a photo and video viewer, was updated from 4.3.5 to 4.4.1. This update brings a reworked editor, allows hiding the recycling bin, hides both Play and Pause video buttons after 2 secs, improves Immersive mode fullscreen behaviour, and comes with several other UX and stability improvements."
-msgstr ""
+msgstr "[Gallery](https://f-droid.org/app/com.simplemobiletools.gallery), ein Foto- und Videobetrachter, wurde von 4.3.5 auf 4.4.1 aktualisiert. Dieses Update bringt einen überarbeiteten Editor, erlaubt das Ausblenden des Papierkorbs, verbirgt sowohl Play als auch Pause Video-Buttons nach 2 Sekunden, verbessert das Vollbild-Verhalten im Immersive-Modus und kommt mit einigen anderen Benutzerschnittstellen- und Stabilitätsverbesserungen."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-03-twif-15-announcing-f-droid-1-3.md
 msgid "[Ring](https://f-droid.org/app/cx.ring) is a peer-to-peer messenger capable of voice and video calling. In this update from 20180501 to 20180712 push notifications, handling of failed messages, connectivity, IPv6 support, Android TV support, contact management, and performance were improved. You can now send GIFs and images using your keyboard. Support for HD 720p for Android TV was added, as was the possibility to share text and media from other apps. It also has plenty of bug fixes."
-msgstr ""
+msgstr "[Ring](https://f-droid.org/app/cx.ring) ist ein Peer-to-Peer-Messenger, der Sprach- und Videogespräche führen kann. In dieser Aktualisierung von 20180501 auf 20180712 wurden Push-Benachrichtigungen, die Behandlung von fehlgeschlagenen Nachrichten, Konnektivität, IPv6-Unterstützung, Android-TV-Unterstützung, Kontaktverwaltung und Leistung verbessert. Sie können nun GIFs und Bilder über die Tastatur senden. Unterstützung für HD 720p für Android TV wurde hinzugefügt, ebenso wie die Möglichkeit, Text und Medien aus anderen Anwendungen zu teilen. Es hat auch viele Fehlerbehebungen."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-03-twif-15-announcing-f-droid-1-3.md
 msgid "[Xearth](https://f-droid.org/app/de.drhoffmannsoftware.xearth), a live wallpaper of the Earth, is updating again after a hiatus of nearly 3 years. Unfortunately, the author performed the ill-advised action of setting the version code back, from 2015100901 to 22 to be precise. To update, you may have to uninstall the app first, or install the update via adb. If you have beta updates enabled in the F-Droid app, you'll need to pick version 1.2-22 from the version list manually."
-msgstr ""
+msgstr "[Xearth](https://f-droid.org/app/de.drhoffmannsoftware.xearth), ein Live Wallpaper der Erde, wird nach fast 3 Jahren Pause wieder aktualisiert. Leider hat der Autor die unüberlegte Aktion durchgeführt, den Versionscode von 2015100901 auf 22 zurückzusetzen, um genau zu sein. Um ein Update durchzuführen, müssen Sie möglicherweise zuerst die App deinstallieren oder das Update über adb installieren. Wenn Sie Beta-Updates in der F-Droid-App aktiviert haben, müssen Sie die Version 1.2-22 manuell aus der Versionsliste auswählen."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-03-twif-15-announcing-f-droid-1-3.md
 msgid "[DAVDroid](https://f-droid.org/app/at.bitfire.davdroid) version 2.0 got released. DAVDroid is the main way users sync Nextcloud calendar and contacts to their Android phone. Version 2.0 comes with a huge performance increase, multi-threaded/parallel processing of resources, better scalability (less memory, battery and network time consumption) and UI improvements! Full release notes can be found [here](https://forums.bitfire.at/post/10071)."
-msgstr ""
+msgstr "[DAVDroid](https://f-droid.org/app/at.bitfire.davdroid) Version 2.0 wurde veröffentlicht. DAVDroid ist die wichtigste Methode, mit der Benutzer Nextcloud-Kalender und Kontakte mit ihrem Android-Handy synchronisieren. Version 2.0 bietet eine enorme Leistungssteigerung, Multi-Thread-/Parallelverarbeitung von Ressourcen, bessere Skalierbarkeit (weniger Speicher-, Batterie- und Netzwerkzeitverbrauch) und Benutzerschnittstellenverbesserungen! Vollständige Versionshinweise finden Sie [hier](https://forums.bitfire.at/post/10071)."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-03-twif-15-announcing-f-droid-1-3.md
 msgid "[Acastus](https://f-droid.org/wiki/page/me.dbarnett.acastus) was moved to the archive because [the service it relies on has shut down](https://gitlab.com/fdroid/fdroiddata/issues/1274)."
-msgstr ""
+msgstr "[Acastus](https://f-droid.org/wiki/page/me.dbarnett.acastus) wurde in das Archiv verschoben, weil der [Dienst, auf den er sich stützt, abgeschaltet wurde]https://gitlab.com/fdroid/fdroiddata/issues/1274)."
 
 #. type: Plain text
 #: build/_posts/md/2018-08-03-twif-15-announcing-f-droid-1-3.md
 msgid "Hey! You know what would be a good idea? [Keeping a changelog](https://keepachangelog.com)! If there's anything interesting in there, you might even see it featured in the next edition!"
-msgstr ""
+msgstr "Hey! Weißt du, was gut wäre? Die [Führung eines Changelogs](https://keepachangelog.com)! Wenn da etwas Interessantes drin ist, könntest du es sogar in der nächsten Ausgabe sehen!"
 
 #. type: Plain text
 #: build/_posts/md/2018-08-03-twif-15-announcing-f-droid-1-3.md
@@ -3421,7 +3421,7 @@ msgstr "Feedback geben? Toots erreichen uns über [@fdroidorg@mastodon.technolog
 #: build/_posts/md/2018-08-10-twif-16-the-note-taking-todo-text-editor-edition.md
 #, no-wrap
 msgid "\"TWIF 16: The note-taking todo text editor edition\""
-msgstr ""
+msgstr "\"TWIF 16: Die Notizen machende Todo Texteditor-Ausgabe\""
 
 #. type: Plain text
 #: build/_posts/md/2018-08-10-twif-16-the-note-taking-todo-text-editor-edition.md
@@ -3436,61 +3436,63 @@ msgid ""
 "In this edition: Fixing nearby swap, download link broken and fixed again, a flaky build cycle, 3000 [Mastodon](https://mastodon.technology/@fdroidorg) followers, and Tutanota and Rocket Chat coming soon.\n"
 "<!--more-->\n"
 msgstr ""
+"In dieser Ausgabe: Nachbarschafts-Swap fixen, Download-Link kaputt und wieder behoben, ein flockiger Build-Zyklus, 3000 [Mastodon](https://mastodon.technology/@fdroidorg) Anhänger, Tutanota und Rocket Chat kommen bald.\n"
+"<!--Mehr-->\n"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-10-twif-16-the-note-taking-todo-text-editor-edition.md
 msgid "If you hadn't noticed yet, version 1.3 broke the \"nearby swap\" feature. [@\\_hc](https://forum.f-droid.org/u/hans) did a big overhaul of the HTTP plumbing of \"nearby swap\" this week, and queued up a **1.3.1 release** with this fix. The release also adds support for TLSv1.3. It has already been built, and _should_ be out with the next index update. (**Edit:** It's out now!)"
-msgstr ""
+msgstr "Wenn Sie es noch nicht bemerkt haben: bei der Version 1.3 ist die Funktion \"Nachbarschaftstausch\" kaputt. [@\\_hc](https://forum.f-droid.org/u/hans) hat diese Woche eine große Überarbeitung der HTTP-Installation von \"Nachbarschaftstausch\" durchgeführt und eine **1.3.1 Version** mit diesem Fix in die Warteschlange gestellt. Das Release unterstützt auch TLSv1.3. Es wurde bereits gebaut und _sollte_ beim nächsten Index-Update herauskommen. (**Edit:** Es ist schon draussen!)"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-10-twif-16-the-note-taking-todo-text-editor-edition.md
 msgid "Right now work is ongoing to put [USB OTG](https://en.wikipedia.org/wiki/USB_On-The-Go) and [SD card](https://en.wikipedia.org/wiki/Secure_Digital) support into F-Droid, hopefully in time for the [Mozilla WINS competition](https://wirelesschallenge.mozilla.org) presentation, which will be on the 14th of August."
-msgstr ""
+msgstr "Momentan wird daran gearbeitet, die Unterstützung von [USB OTG](https://en.wikipedia.org/wiki/USB_On-The-Go) und [SD-Karte](https://en.wikipedia.org/wiki/Secure_Digital) in F-Droid zu integrieren, hoffentlich rechtzeitig zur Präsentation von [Mozilla WINS](https://wirelesschallenge.mozilla.org), die am 14. August stattfinden wird."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-10-twif-16-the-note-taking-todo-text-editor-edition.md
 msgid "You have all been _very_ good at reporting that the F-Droid app download link was broken this week. ;) Due an archive policy mistake, the build that the website linked to was accidentally moved to the archive. This has been fixed. Thanks to everyone who reported it."
-msgstr ""
+msgstr "Ihr wart alle _sehr_ gut darin zu berichten, dass der F-Droid-App-Download-Link diese Woche kaputt war. ;) Aufgrund eines Fehlers in der Archivrichtlinie wurde der Build, auf den die Website verlinkt wurde, versehentlich in das Archiv verschoben. Dies wurde behoben. Danke an alle, die es gemeldet haben."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-10-twif-16-the-note-taking-todo-text-editor-edition.md
 msgid "[@Izzy](https://forum.f-droid.org/u/izzy) and [@licaon-kter](https://forum.f-droid.org/u/Licaon_Kter) have done a ton of work in triaging, testing and merging new apps, with over 500 Gitlab notifications just from them."
-msgstr ""
+msgstr "[@Izzy](https://forum.f-droid.org/u/izzy) und [@licaon-kter](https://forum.f-droid.org/u/Licaon_Kter) haben eine Menge Arbeit beim Testen, Testen und Zusammenführen neuer Anwendungen geleistet, mit über 500 Gitlab-Benachrichtigungen allein von ihnen."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-10-twif-16-the-note-taking-todo-text-editor-edition.md
 msgid "Although we had two index updates this week to fix the broken F-Droid link, they contained no new builds. An update just now did, though. Cause, as of yet, unknown. All in all, the build cycle has not been running as well as we'd like."
-msgstr ""
+msgstr "Obwohl wir diese Woche zwei Indexaktualisierungen hatten, um den defekten F-Droid-Link zu reparieren, enthielten sie keine neuen Builds. Ein Update gerade eben schon. Ursache, bis jetzt, unbekannt. Alles in allem, läuft der Build-Zyklus nicht so, wie wir uns das wünschen würden."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-10-twif-16-the-note-taking-todo-text-editor-edition.md
 msgid "The website build process also appears to be broken, meaning the website cannot be updated right now. If you are reading this, this has obviously been fixed."
-msgstr ""
+msgstr "Der Webseitenaufbau scheint ebenfalls nicht mehr zu funktionieren, das heißt, die Webseite kann derzeit nicht aktualisiert werden. Wenn Sie das hier gerade lesen, wurde es offensichtlich repariert."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-10-twif-16-the-note-taking-todo-text-editor-edition.md
 msgid "We passed 3000 followers on [Mastodon](https://mastodon.technology/@fdroidorg) last Tuesday! Although we don't officially track anything, the number seems to be growing steadily and organically. Hard to tell if this is more due to new people joining Mastodon, or existing users finding out about us. I hope it's a healthy mix of both."
-msgstr ""
+msgstr "Wir haben am vergangenen Dienstag 3000 Follower auf [Mastodon](https://mastodon.technology/@fdroidorg) überholt! Obwohl wir offiziell nichts verfolgen, scheint die Zahl stetig und organisch zu wachsen. Schwer zu sagen, ob das mehr daran liegt, dass neue Leute bei Mastodon einsteigen oder bestehende Nutzer von uns erfahren. Ich hoffe, es ist eine gesunde Mischung aus beidem."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-10-twif-16-the-note-taking-todo-text-editor-edition.md
 msgid "**[Tutanota](https://tutanota.com)**, an encrypted e-mail service, worked with us to [get their Android app included in F-Droid](https://tutanota.com/blog/posts/release-notes-3-35). It has already been merged, and we hope to be able to announce its actual arrival soon."
-msgstr ""
+msgstr "**[Tutanota](https://tutanota.com)**, ein verschlüsselter E-Mail-Dienst, hat mit uns zusammengearbeitet, um [ihre Android-App in F-Droid einzubinden]https://tutanota.com/blog/posts/release-notes-3-35). Sie wurde bereits zusammengeführt und wir hoffen, dass wir ihre tatsächliche Ankunft bald bekannt geben können."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-10-twif-16-the-note-taking-todo-text-editor-edition.md
 msgid "[@Bubu](https://chaos.social/@Bubu) reports that **[Rocket.Chat](https://github.com/RocketChat/Rocket.Chat.Android)** has merged his FOSS build flavour, meaning there's a good chance the next version will be in F-Droid. He also said that working with them has been a very positive experience, with them even taking it over the finish line themselves."
-msgstr ""
+msgstr "[@Bubu](https://chaos.social/@Bubu) berichtet, dass **[Rocket.Chat](https://github.com/RocketChat/Rocket.Chat.Android)** seine FOSS-Build-Variante zusammengeführt hat, was bedeutet, dass es gute Chancen gibt, dass die nächste Version in F-Droid sein wird. Er sagte auch, dass die Zusammenarbeit mit ihnen eine sehr positive Erfahrung gewesen sei, da sie es sogar selbst über die Ziellinie gebracht hätten."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-10-twif-16-the-note-taking-todo-text-editor-edition.md
 msgid "[open-event-android](https://f-droid.org/app/com.eventyay.attendee): Events app to checkout nearby events"
-msgstr ""
+msgstr "[open-event-android](https://f-droid.org/app/com.eventyay.attendee): Events App zum Finden von Veranstaltungen in der Nähe"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-10-twif-16-the-note-taking-todo-text-editor-edition.md
 msgid "[eventyay organizer](https://f-droid.org/app/com.eventyay.organizer): Event management app for Organizers using eventyay platform"
-msgstr ""
+msgstr "[eventyay Veranstalter](https://f-droid.org/app/com.eventyay.organizer): Event-Management-App für Veranstalter mit eventyay-Plattform"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-10-twif-16-the-note-taking-todo-text-editor-edition.md
@@ -3513,7 +3515,7 @@ msgstr "[Waistline](https://f-droid.org/app/com.waist.line): Kostenloser Kalorie
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-10-twif-16-the-note-taking-todo-text-editor-edition.md
 msgid "[BwareArea](https://f-droid.org/app/fr.byped.bwarearea): An offline GPS based POI alerter with overlay"
-msgstr ""
+msgstr "[BwareArea](https://f-droid.org/app/fr.byped.bwarearea): Ein Offline-GPS-basierter POI-Warner mit Overlay"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-10-twif-16-the-note-taking-todo-text-editor-edition.md
@@ -3524,22 +3526,22 @@ msgstr "[TEdit](https://f-droid.org/app/com.atr.tedit): Ein einfacher Texteditor
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-10-twif-16-the-note-taking-todo-text-editor-edition.md
 msgid "[DNS Hero](https://f-droid.org/packages/com.gianlu.dnshero): Inspect DNS zones like a superhero"
-msgstr ""
+msgstr "[DNS Hero](https://f-droid.org/packages/com.gianlu.dnshero): DNS-Zonen wie ein Superheld inspizieren"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-10-twif-16-the-note-taking-todo-text-editor-edition.md
 msgid "[MetalabDoorWidget](https://f-droid.org/packages/com.zoffcc.applications.metalab_open_widget/): Show the Door status of Metalab Vienna"
-msgstr ""
+msgstr "[MetalabDoorWidget](https://f-droid.org/packages/com.zoffcc.applications.metalab_open_widget/): Anzeige des Türstatus von Metalab Vienna"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-10-twif-16-the-note-taking-todo-text-editor-edition.md
 msgid "[Music](https://f-droid.org/packages/com.maxfour.music/): Lightweight and Material Music Player based on Phonograph"
-msgstr ""
+msgstr "[Music](https://f-droid.org/packages/com.maxfour.music/): Leichtgewichtiger Material-Musikplayer basierend auf Phonograph"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-10-twif-16-the-note-taking-todo-text-editor-edition.md
 msgid "[MyMusicQoE](https://f-droid.org/packages/pt.ipleiria.mymusicqoe/): A fork of ultrasonic with QoE evaluation features purposes"
-msgstr ""
+msgstr "[MyMusicQoE](https://f-droid.org/packages/pt.ipleiria.mymusicqoe/): Eine Ultraschallgabel für QoE-Auswertungszwecke"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-10-twif-16-the-note-taking-todo-text-editor-edition.md
@@ -3550,22 +3552,22 @@ msgstr "[OpenL](https://f-droid.org/app/com.anthony.deepl.openl): Inoffizielle A
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-10-twif-16-the-note-taking-todo-text-editor-edition.md
 msgid "[Rosary](https://f-droid.org/packages/org.example.rosary/): A very simple app helping Christian users to pray the Rosary."
-msgstr ""
+msgstr "[Rosary](https://f-droid.org/packages/org.example.rosary/): Eine sehr einfache Anwendung, die christlichen Benutzern hilft, den Rosenkranz zu beten."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-10-twif-16-the-note-taking-todo-text-editor-edition.md
 msgid "[Sun Time](https://f-droid.org/packages/com.gitlab.kreikenbaum.suntime.fdroid/): Align your biorhythm with the sun"
-msgstr ""
+msgstr "[Sun Time](https://f-droid.org/packages/com.gitlab.kreikenbaum.suntime.fdroid/): Richten Sie Ihren Biorhythmus an der Sonne aus"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-10-twif-16-the-note-taking-todo-text-editor-edition.md
 msgid "[Weather Widget](https://f-droid.org/packages/nl.implode.weer/): Add widget to home screen with weather 5 to 7 day weather forecast"
-msgstr ""
+msgstr "[Wetter Widget](https://f-droid.org/packages/nl.implode.weer/): Wettervorhersage-Wigdet für 5 bis 7 Tage, zum Startbildschirm hinzuzufügen"
 
 #. type: Plain text
 #: build/_posts/md/2018-08-10-twif-16-the-note-taking-todo-text-editor-edition.md
 msgid "(Thanks to [@licaon-kter](https://forum.f-droid.org/u/Licaon_Kter) for incorporating things from the last minute index update here!)"
-msgstr ""
+msgstr "(Danke an [@licaon-kter](https://forum.f-droid.org/u/Licaon_Kter) für das Einbinden hier von Dingen aus dem letzten Index-Update!)"
 
 #. type: Plain text
 #: build/_posts/md/2018-08-10-twif-16-the-note-taking-todo-text-editor-edition.md
@@ -3576,17 +3578,17 @@ msgstr "Insgesamt wurden diese Woche 49 Apps aktualisiert. Hier die Höhepunkte:
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-10-twif-16-the-note-taking-todo-text-editor-edition.md
 msgid "[uNote](https://f-droid.org/app/app.varlorg.unote) is a lightweight minimalistic note taking app. 1.5.0 fixes the search and other annoying bugs."
-msgstr ""
+msgstr "[uNote](https://f-droid.org/app/app.varlorg.unote) ist ein leichtgewichtiges, minimalistisches Notizbuch. 1.5.0 behebt die Suche und andere lästige Fehler."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-10-twif-16-the-note-taking-todo-text-editor-edition.md
 msgid "[TEdit](https://f-droid.org/app/com.atr.tedit) is a simple text editor complete with graphical file browser and multiple file support. 2.1.3 fixes an issue opening files in TEdit from an external application."
-msgstr ""
+msgstr "[TEdit](https://f-droid.org/app/com.atr.tedit) ist ein einfacher Texteditor mit grafischem Dateibrowser und Unterstützung mehrerer Dateien. 2.1.3 behebt ein Problem beim Öffnen von Dateien in TEdit aus einer externen Anwendung."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-10-twif-16-the-note-taking-todo-text-editor-edition.md
 msgid "[Lyrically](https://f-droid.org/app/com.shkmishra.lyrically) can show lyrics overlaid on any app. Version 0.54 adds a color picker for various UI elements, force re-fetch of lyrics, and an option to disable checking for updates."
-msgstr ""
+msgstr "[Lyrically](https://f-droid.org/app/com.shkmishra.lyrically) kann Liedtexte in jeder App anzeigen. Version 0.54 fügt einen Farbwähler für verschiedene UI-Elemente hinzu, erzwingt das Neuladen von Texten und deaktiviert die Suche nach Updates."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-10-twif-16-the-note-taking-todo-text-editor-edition.md
