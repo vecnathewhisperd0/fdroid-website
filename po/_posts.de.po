@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-08-17 13:55+0200\n"
 "PO-Revision-Date: 2018-08-27 08:49+0000\n"
-"Last-Translator: ssantos <ssantos@web.de>\n"
+"Last-Translator: Claus Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -3253,12 +3253,12 @@ msgstr "[TV KILL](https://f-droid.org/app/com.redirectapps.tvkill) schaltet unte
 #. type: Bullet: '* '
 #: build/_posts/md/2018-07-27-twif-14-the-reproducibly-stuck-edition.md
 msgid "[Mysplash](https://f-droid.org/app/com.wangdaye.mysplash) is a lightweight client for the image website [Unsplash](https://unsplash.com). Version 3.3.7 was withdrawn because the author removed the API keys from the source, and the Unsplash service doesn't work without them. Auto update mode was disabled, so it looks like version 3.3.3 will be the latest version in F-Droid for a while."
-msgstr "[Mysplash](https://f-droid.org/app/com.wangdaye.mysplash) ist ein leichtgewichtiger Client für die Bilder-Webseite [Unsplash](https://unsplash.com). Version 3.3.7 wurde zurückgezogen, weil der Autor die API Keys aus der Quelle entfernt hat und der Unsplash-Dienst ohne sie nicht funktioniert. Die Methode zur automatischen Aktualisierung wurde deaktiviert, es sieht also aus, dass die Version 3.3.3 für eine Weile die letzte Version in F-Droid sein wird."
+msgstr "[Mysplash](https://f-droid.org/app/com.wangdaye.mysplash) ist ein leichtgewichtiger Client für die Bilder-Webseite [Unsplash](https://unsplash.com). Version 3.3.7 wurde zurückgezogen, weil der Autor die API Keys aus der Quelle entfernt hat und der Unsplash-Dienst ohne sie nicht funktioniert. Die Methode zur automatischen Aktualisierung wurde deaktiviert, es sieht also so aus, dass Version 3.3.3 für eine Weile die letzte Version in F-Droid sein wird."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-07-27-twif-14-the-reproducibly-stuck-edition.md
 msgid "[Transportr](https://f-droid.org/app/de.grobox.liberario) has a 2.0.1 patch release out, using VVT instead of the IVB network and fixing the KVV network and several crashes."
-msgstr "[Transportr](https://f-droid.org/app/de.grobox.liberario) kam mit einem Patch als Version 2.0.1 heraus, verwendet das VVT- statt des IVB-Netzes, das KVV-Netz repariert sowie einige Absturzursachen beseitigt werden."
+msgstr "[Transportr](https://f-droid.org/app/de.grobox.liberario) kam mit einem Patch als Version 2.0.1 heraus, verwendet das VVT- statt des IVB-Netzes, repariert das KVV-Netz und beseitigt einige Absturzursachen."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-07-27-twif-14-the-reproducibly-stuck-edition.md
@@ -3312,7 +3312,7 @@ msgstr "  Der Fokus verlagert sich nun auf eine verbesserte Offline-Unterstützu
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-03-twif-15-announcing-f-droid-1-3.md
 msgid "A large-scale spam attack against [Freenode](https://freenode.net) has been in progress for several days now. The upshot of this is that we've had to tighten up security. If you want to participate in our rooms, you will either need to [register your nickname with Freenode](https://freenode.net/kb/answer/registration), or join via Matrix. The room is #fdroid on [Freenode](https://freenode.net) or [#freenode_#fdroid:matrix.org](https://matrix.to/#/#freenode_#fdroid:matrix.org) on [Matrix](https://matrix.org). If you're a Telegram user, the room can also be reached via [this link](https://t.me/joinchat/AlRQekvjWDTuQrCgMYSNVA)."
-msgstr "Eine groß angelegte Spam-Attacke gegen [Freenode] (https://freenode.net) ist seit einigen Tagen im Gange. Das hat zur Folge, dass wir die Sicherheitsmaßnahmen verschärfen mussten. Wenn du an unseren Räumen teilnehmen möchtest, musst du entweder [deinen Nicknamen bei Freenode registrieren](https://freenode.net/kb/answer/registration), oder dich über Matrix anmelden. Der Raum ist #fdroid auf [Freenode](https://freenode.net) oder [#freenode_#fdroid:matrix.org](https://matrix.to/#/#freenode_#fdroid:matrix.org) auf [Matrix](https://matrix.org). Wenn Du ein Telegrammbenutzer bist, kann der Raum auch über [diesen Link](https://t.me/joinchat/AlRQekvjWDTuQrCgMYSNVA) erreicht werden."
+msgstr "Eine groß angelegte Spam-Attacke gegen [Freenode] (https://freenode.net) ist seit einigen Tagen im Gange. Das hat zur Folge, dass wir die Sicherheitsmaßnahmen verschärfen mussten. Wenn Sie an unseren Räumen teilnehmen möchten, müssen Sie entweder [Ihren Nicknamen bei Freenode registrieren](https://freenode.net/kb/answer/registration), oder sich über Matrix anmelden. Der Raum ist #fdroid auf [Freenode](https://freenode.net) oder [#freenode_#fdroid:matrix.org](https://matrix.to/#/#freenode_#fdroid:matrix.org) auf [Matrix](https://matrix.org). Wenn Sie Telegram-Nutzer sind, kann der Raum auch über [diesen Link](https://t.me/joinchat/AlRQekvjWDTuQrCgMYSNVA) erreicht werden."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-03-twif-15-announcing-f-droid-1-3.md
