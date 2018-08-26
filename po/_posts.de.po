@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-08-17 13:55+0200\n"
-"PO-Revision-Date: 2018-08-23 12:53+0000\n"
+"PO-Revision-Date: 2018-08-26 09:28+0000\n"
 "Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\n"
 "Language: de\n"
@@ -3066,37 +3066,37 @@ msgstr "Insgesamt wurden diese Woche 54 Apps aktualisiert. Hier die Höhepunkte:
 #. type: Bullet: '* '
 #: build/_posts/md/2018-07-21-twif-13-public-transport-edition.md
 msgid "[Transportr](https://f-droid.org/app/de.grobox.liberario) released its new major version 2.0.0, featuring a completely overhauled user interface with more focus on the map. The shiny new map has a more prominent place, current location is used by default, trip overview shows a warning icon if there's a problem and many more features and enhancements. It also needs less permissions than before -- no more external storage."
-msgstr ""
+msgstr "[Transportr](https://f-droid.org/app/de.grobox.liberario) brachte seine neue Hauptversion 2.0.0 heraus, die sich durch eine komplett überholte Benutzeroberfläche mit größerem Fokus auf die Karte auszeichnet. Die herausragende, neue Karte erhielt einen prominenteren Platz, der aktuelle Standort wird als Standard verwendet, die Reiseübersicht zeigt ein Warnsymbol, falls es auf der Strecke Probleme gibt, neben vielen weiteren Besonderheiten und Verbesserungen. Sie benötigt auch weniger Berechtigungen als zuvor -- keine mehr für den externen Speicher."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-07-21-twif-13-public-transport-edition.md
 msgid "[Delta Chat](https://f-droid.org/app/com.b44t.messenger) is an instant messenger using e-mail as its medium. 0.19.0 has a performance speedup by making database locks unnecessary, lots of translation updates, and drafts no longer appear twice."
-msgstr ""
+msgstr "[Delta Chat](https://f-droid.org/app/com.b44t.messenger) ist ein Instant Messenger, der E-Mail als Medium nutzt. 0.19.0 erhielt eine Leistungsbeschleunigung, indem Datenbanksperren unnötig wurden, jede Menge aktualisierte Übersetzungen und Entwürfe tauchen nicht mehr doppelt auf."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-07-21-twif-13-public-transport-edition.md
 msgid "[twitlatte](https://f-droid.org/app/com.github.moko256.twitlatte) was updated from 1.3.0 to 1.4.1. It is now possible to rotate the screen while watching video. Privacy settings and content warnings were added for Mastodon."
-msgstr ""
+msgstr "[twitlatte](https://f-droid.org/app/com.github.moko256.twitlatte) wurde von 1.3.0 nach 1.4.1 aktualisiert. Es ist nun möglich, den Bildschirm während einer Videowiedergabe zu drehen. Datenschutzeinstellungen und Warnungen zu Inhalten wurden für Mastodon hinzugefügt."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-07-21-twif-13-public-transport-edition.md
 msgid "[Tusky](https://f-droid.org/app/com.keylesspalace.tusky) 2.2 fixes some annoying bugs and crashes, and improves the Dutch translations."
-msgstr ""
+msgstr "[Tusky](https://f-droid.org/app/com.keylesspalace.tusky) 2.2 behebt einige lästige Fehler und Abstürze und verbessert die holländische Übersetzung."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-07-21-twif-13-public-transport-edition.md
 msgid "[Nextcloud Talk](https://f-droid.org/app/com.nextcloud.talk2) 2.1.2 is out with user experience improvements, configurable ringtones, emoji support, improved proximity sensor handling, and more."
-msgstr ""
+msgstr "[Nextcloud Talk](https://f-droid.org/app/com.nextcloud.talk2) 2.1.2 kam heraus mit Verbesserungen basierend auf Nutzererfahrungen, einstellbaren Klingeltönen, Emoji-Unterstützung, verbesserter Näherungssensorverarbeitung und mehr."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-07-21-twif-13-public-transport-edition.md
 msgid "[Doda The Exploda](https://f-droid.org/app/com.quaap.dodatheexploda) released 0.3. Doda is a simple \"hidden objects\" or \"I spy\" game. It has levels appropriate for babies, children, and adults. This release includes a major rewrite to make it faster, especially on Android 8.0+ (Oreo)."
-msgstr ""
+msgstr "[Doda The Exploda](https://f-droid.org/app/com.quaap.dodatheexploda) 0.3. Doda ist ein einfaches \"Versteckte Objekte\" oder \"Späher\"-Spiel. Es enthält für Babys, Kinder und Erwachsene geeignete Spielniveaus. Diese Version enthält eine größere Neuprogrammierung, um es schneller zu machen, insbesondere auf Android >=8.0 (Oreo)."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-07-21-twif-13-public-transport-edition.md
 msgid "[LaunchTime](https://f-droid.org/app/com.quaap.launchtime) updated from 0.7.6 to 0.8.1 and brings lots of changes. Menu now autohides, improved menu appearance, animated transitions, and much more including bug fixes."
-msgstr ""
+msgstr "[LaunchTime](https://f-droid.org/app/com.quaap.launchtime), von 0.7.6 auf 0.8.1 aktualisiert, bringt eine Menge Veränderungen mit. Nun mit automatischer Menüausblendung, verbessertem Aussehen des Menüs, animierten Übergängen und vielem mehr, einschließlich Fehlerkorrekturen."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-07-21-twif-13-public-transport-edition.md
@@ -3106,17 +3106,17 @@ msgstr ""
 #. type: Bullet: '* '
 #: build/_posts/md/2018-07-21-twif-13-public-transport-edition.md
 msgid "[Micropinner](https://f-droid.org/app/de.dotwee.micropinner) (appears as **New Pin** in the repository due to bugs) was updated to v2.2.0. Many changes, among others using the internal DayNight-Theme changer, support for Notification Channels, code cleanup and refactoring and fixes for Android 8 (Oreo)."
-msgstr ""
+msgstr "[Micropinner](https://f-droid.org/app/de.dotwee.micropinner) (erscheint aufgrund von Fehlern im Repository als **New Pin**) wurde auf v2.2.0 aktualisiert. Es gibt viele Änderungen, darunter die Nutzung des internen Tag-/Nachtmoduswechsels, Unterstützung von Benachrichtigungskanälen, Bereinigung und Neustrukturierung des Codes sowie Korrekturen für Android 8 (Oreo)."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-07-21-twif-13-public-transport-edition.md
 msgid "[M.A.L.P.](https://f-droid.org/app/org.gateshipone.malp) is a remote music player for [MPD](http://www.musicpd.org), and was updated from 1.1.17 to 1.2.0. This change adds _highly experimental_ support for inline artwork, and fixes a bug downloading covers."
-msgstr ""
+msgstr "[M.A.L.P.](https://f-droid.org/app/org.gateshipone.malp) ist eine Music-Player-Fernsteuerung für [MPD](http://www.musicpd.org) und wurde von 1.1.17 auf 1.2.0 aktualisiert. Mit dem Wechsel wird eine _ausgesprochen experimentelle_ Unterstützung für Inline-Grafiken hinzugefügt und ein Fehler beim Herunterladen von Coverbildern behoben."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-07-21-twif-13-public-transport-edition.md
 msgid "[Easer](https://f-droid.org/app/ryey.easer) was updated from 0.6.7 to 0.6.7.2, adding localized names for Dynamics, making events \"repeatable\" by default, a function to manually trigger any Profile, and many bug fixes."
-msgstr ""
+msgstr "[Easer](https://f-droid.org/app/ryey.easer) wurde von 0.6.7 auf 0.6.7.2 aktualisiert, fügt lokalisierte Namen für Dynamics hinzu, macht Ereignisse standardmäßig \"wiederholbar\", enthält eine Funktion, jedes Profil manuell zu triggern, und viele Fehlerkorrekturen."
 
 #. type: Title ####
 #: build/_posts/md/2018-07-21-twif-13-public-transport-edition.md
@@ -3129,17 +3129,17 @@ msgstr "Entfernte Apps"
 #. type: Bullet: '* '
 #: build/_posts/md/2018-07-21-twif-13-public-transport-edition.md
 msgid "**TSCH_BYL** (com.drhoffmannsoftware) was completely [removed](https://gitlab.com/fdroid/fdroiddata/merge_requests/3429) from the repository, as it was a [duplicate](https://gitlab.com/fdroid/fdroiddata/issues/1264) of [TSCH_BYL](https://f-droid.org/app/de.drhoffmannsoftware) (de.drhoffmannsoftware). If you happen to have this installed and think you might need future updates (there aren't any as of yet), you should check which one is installed, and switch if necessary."
-msgstr ""
+msgstr "**TSCH_BYL** (com.drhoffmannsoftware) wurde komplett aus dem Repository [entfernt](https://gitlab.com/fdroid/fdroiddata/merge_requests/3429), da es sich um ein [Duplikat](https://gitlab.com/fdroid/fdroiddata/issues/1264) von [TSCH_BYL](https://f-droid.org/app/de.drhoffmannsoftware) (de.drhoffmannsoftware) handelte. Sollten Sie sie installiert haben und auf zukünftige Updates hoffen (derzeit gibt es keine), sollten Sie prüfen, welche installiert ist und gegebenenfalls zu letzterer wechseln."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-07-21-twif-13-public-transport-edition.md
 msgid "[Asura](https://f-droid.org/wiki/page/de.nico.asura) and [HW-Manager](https://f-droid.org/wiki/page/de.nico.ha_manager) were moved to the archive because these apps are [no longer maintained](https://gitlab.com/fdroid/fdroiddata/merge_requests/3452)."
-msgstr ""
+msgstr "[Asura](https://f-droid.org/wiki/page/de.nico.asura) und [HW-Manager](https://f-droid.org/wiki/page/de.nico.ha_manager) wurden ins Archiv verschoben, weil diese Apps [nicht mehr gepflegt](https://gitlab.com/fdroid/fdroiddata/merge_requests/3452) werden."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-07-21-twif-13-public-transport-edition.md
 msgid "The CyanogenMod [Changelog](https://f-droid.org/wiki/page/org.polaric.cyanogenmodchangelog) viewer was moved to the archive, as its source code has disappeared, and CyanogenMod is long history."
-msgstr ""
+msgstr "Der CyanogenMod [Changelog](https://f-droid.org/wiki/page/org.polaric.cyanogenmodchangelog)-Viewer wurde ins Archiv verschoben, da sein Quellcode verschwunden und CyanogenMod schon lange Geschichte ist."
 
 #. type: Plain text
 #: build/_posts/md/2018-07-21-twif-13-public-transport-edition.md
@@ -3164,7 +3164,7 @@ msgstr "Erzählen Sie davon im [TWIF Submission Thread](https://forum.f-droid.or
 #: build/_posts/md/2018-07-27-twif-14-the-reproducibly-stuck-edition.md
 #, no-wrap
 msgid "**Oh, and if you want to increase the chances that your app is featured in TWIF, you should [keep a changelog](https://keepachangelog.com)!**\n"
-msgstr ""
+msgstr "**Oh, und wenn Sie die Chancen erhöhen wollen, dass Ihre App im TWIF vorgestellt wird, sollten Sie [ein Änderungsprotokoll führen](https://keepachangelog.com)!**\n"
 
 #. type: Title ####
 #: build/_posts/md/2018-07-21-twif-13-public-transport-edition.md
@@ -3174,13 +3174,13 @@ msgstr ""
 #: build/_posts/md/2018-08-16-twif-17-the-reproducible-builds-and-encrypted-e-mail-edition.md
 #, no-wrap
 msgid "Feedback"
-msgstr ""
+msgstr "Rückmeldung"
 
 #. type: Title #
 #: build/_posts/md/2018-07-27-twif-14-the-reproducibly-stuck-edition.md
 #, no-wrap
 msgid "\"TWIF 14: The Reproducibly Stuck Edition\""
-msgstr ""
+msgstr "\"TWIF 14: Ausgabe zur Reproduzierbarkeitsfalle\""
 
 #. type: Plain text
 #: build/_posts/md/2018-07-27-twif-14-the-reproducibly-stuck-edition.md
@@ -3191,37 +3191,37 @@ msgstr "\"Diese Woche in F-Droid, Woche 18\""
 #. type: Plain text
 #: build/_posts/md/2018-07-27-twif-14-the-reproducibly-stuck-edition.md
 msgid "In this edition: Improved app descriptions in the repository, testers for beta 5 welcome, and reproducible builds still stuck."
-msgstr ""
+msgstr "In dieser Ausgabe: verbesserte App-Beschreibungen im Repository, Tester für Beta 5 gesucht und reproduzierbare Builds stecken weiterhin fest."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-07-27-twif-14-the-reproducibly-stuck-edition.md
 msgid "[Izzy](https://forum.f-droid.org/u/izzy)'s updated app descriptions have been fully merged. You'll get to enjoy more details, and have better chances of telling what an app is about."
-msgstr ""
+msgstr "[Izzy](https://forum.f-droid.org/u/izzy)'s aktualisierte App-Beschreibungen wurden vollständig eingefügt. Sie können sich nun an mehr Einzelheiten erfreuen und haben größere Chancen zu erfahren, worum es in einer App geht."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-07-27-twif-14-the-reproducibly-stuck-edition.md
 msgid "Alpha 5 of the [F-Droid](https://f-droid.org/app/org.fdroid.fdroid) app is out and should have lots of fixes and no regressions. If you're okay with running alpha software, please help test, and report any issues at the [bug tracker](https://gitlab.com/fdroid/fdroidclient/issues)!"
-msgstr ""
+msgstr "Alpha 5 der [F-Droid](https://f-droid.org/app/org.fdroid.fdroid)-App ist draußen und sollte eine Menge Korrekturen und keine Regressionen mitbringen. Wenn es für Sie in Ordnung ist, Alpha-Software zu verwenden, helfen Sie bitte mit beim Testen und melden Sie alle Probleme im [Bug Tracker](https://gitlab.com/fdroid/fdroidclient/issues)!"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-07-27-twif-14-the-reproducibly-stuck-edition.md
 msgid "Although the bug that broke the publishing stage for all apps was fixed, Öffi and Briar frustratingly still didn't get published. And this while they got built _and_ verified. There seems to be some problem with the buildserver, to which only [CiaranG](https://ciarang.com) has full access, and this issue is blocked pending feedback from [CiaranG](https://ciarang.com)."
-msgstr ""
+msgstr "Trotz der Behebung des Fehlers, der die Veröffentlichungsphase aller Apps kaputt machte, wurden Öffi und Briar frustrierenderweise noch immer nicht veröffentlicht. Und das obwohl sie gebaut _und_ verifiziert sind. Es scheint hier ein gewisses Problem mit dem Buildserver zu geben, auf den nur [CiaranG](https://ciarang.com) vollen Zugriff hat. Somit wird diese Angelegenheit bis zu einer Rückmeldung von [CiaranG](https://ciarang.com) blockiert bleiben."
 
 #. type: Plain text
 #: build/_posts/md/2018-07-27-twif-14-the-reproducibly-stuck-edition.md
 msgid "No news this week. Please send your tips tagged with [#TWIF](https://mastodon.technology/tags/twif) to [@fdroidorg@mastodon.technology](https://mastodon.technology/@fdroidorg)."
-msgstr ""
+msgstr "Nichts Neues diese Woche. Bitte senden Sie Ihre Tipps mit [#TWIF](https://mastodon.technology/tags/twif) getagged an [@fdroidorg@mastodon.technology](https://mastodon.technology/@fdroidorg)."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-07-27-twif-14-the-reproducibly-stuck-edition.md
 msgid "[ToxCon 2018 Schedule](https://f-droid.org/app/com.zoffcc.fahrplan.toxcon): List of talks at ToxCon 2018"
-msgstr ""
+msgstr "[Zeitplan der ToxCon 2018](https://f-droid.org/app/com.zoffcc.fahrplan.toxcon): Liste der Vorträge auf der ToxCon 2018"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-07-27-twif-14-the-reproducibly-stuck-edition.md
 msgid "[Pix-Art Messenger](https://f-droid.org/app/de.pixart.messenger): A Jabber/XMPP chat client and a fork of [Conversations](https://f-droid.org/app/eu.siacs.conversations)"
-msgstr ""
+msgstr "[Pix-Art Messenger](https://f-droid.org/app/de.pixart.messenger): ein Jabber/XMPP-Chat-Client und ein Fork von [Conversations](https://f-droid.org/app/eu.siacs.conversations)"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-07-27-twif-14-the-reproducibly-stuck-edition.md
@@ -3238,37 +3238,37 @@ msgstr "Insgesamt wurden diese Woche 49 Apps aktualisiert. Hier die Höhepunkte:
 #. type: Bullet: '* '
 #: build/_posts/md/2018-07-27-twif-14-the-reproducibly-stuck-edition.md
 msgid "[KeePass DX](https://f-droid.org/app/com.kunzisoft.keepass.libre), a secure multi-format password manager and a fork of [KeePassDroid](https://f-droid.org/app/com.android.keepass), updated from 2.5.0.0beta11-libre to 2.5.0.0beta15-libre. Fixes fingerprint recognition and includes many UX improvements, new icons, bug fixes, and memory optimization."
-msgstr ""
+msgstr "[KeePass DX](https://f-droid.org/app/com.kunzisoft.keepass.libre), ein sicherer Multi-Format-Passwortmanager und ein Fork von [KeePassDroid](https://f-droid.org/app/com.android.keepass), aktualisiert von 2.5.0.0beta11-libre auf 2.5.0.0beta15-libre. Repariert die Fingerabdruckerkennung und enthält viele Verbesserungen bei der Benutzerfreundlichkeit, neue Symbole, Fehlerkorrekturen und Speicheroptimierungen."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-07-27-twif-14-the-reproducibly-stuck-edition.md
 msgid "[Anuto TD](https://f-droid.org/app/ch.logixisland.anuto) is yet Another Ugly Tower defense game for Android, featuring astonishing hand-drawn graphics and a smooth gameplay. Version 0.4 has balancing improvements, getting started instructions, and saves game state if Android terminates the application."
-msgstr ""
+msgstr "[Anuto TD](https://f-droid.org/app/ch.logixisland.anuto) - ANother Ugly TOwer Defense - ist ein weiteres hässliches Turmverteidigungsspiel für Android, das sich durch eine überraschende, handgezeichnete Grafik und einen flüssigen Spielablauf auszeichnet. Version 0.4 besitzt Ausgleichsverbesserungen, Einstiegsanleitung und speichert den Spielstand, wenn Android die Anwendung beendet."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-07-27-twif-14-the-reproducibly-stuck-edition.md
 msgid "[TV KILL](https://f-droid.org/app/com.redirectapps.tvkill) turns off supported TVs using your device's built-in IR-blaster. Version 1.3.1 has a new backend and widget fixes, improved progress dialog, more structured settings screen, and fixes a bug that causes the notification to appear for no reason."
-msgstr ""
+msgstr "[TV KILL](https://f-droid.org/app/com.redirectapps.tvkill) schaltet unterstützte Fernsehgeräte ab, indem der geräteeigene Infrarotsender verwendet wird. Version 1.3.1 besitzt ein neues Backend und Widget-Reparaturen, einen verbesserten Fortschrittsdialog, einen strukturierteren Einstellungsbildschirm und behebt einen Fehler, der das grundlose Erscheinen einer Benachrichtigung auslöste."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-07-27-twif-14-the-reproducibly-stuck-edition.md
 msgid "[Mysplash](https://f-droid.org/app/com.wangdaye.mysplash) is a lightweight client for the image website [Unsplash](https://unsplash.com). Version 3.3.7 was withdrawn because the author removed the API keys from the source, and the Unsplash service doesn't work without them. Auto update mode was disabled, so it looks like version 3.3.3 will be the latest version in F-Droid for a while."
-msgstr ""
+msgstr "[Mysplash](https://f-droid.org/app/com.wangdaye.mysplash) ist ein leichtgewichtiger Client für die Bilder-Webseite [Unsplash](https://unsplash.com). Version 3.3.7 wurde zurückgezogen, weil der Autor die API Keys aus der Quelle entfernt hat und der Unsplash-Dienst ohne sie nicht funktioniert. Die Methode zur automatischen Aktualisierung wurde deaktiviert, es sieht also aus, dass die Version 3.3.3 für eine Weile die letzte Version in F-Droid sein wird."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-07-27-twif-14-the-reproducibly-stuck-edition.md
 msgid "[Transportr](https://f-droid.org/app/de.grobox.liberario) has a 2.0.1 patch release out, using VVT instead of the IVB network and fixing the KVV network and several crashes."
-msgstr ""
+msgstr "[Transportr](https://f-droid.org/app/de.grobox.liberario) kam mit einem Patch als Version 2.0.1 heraus, verwendet das VVT- statt des IVB-Netzes, das KVV-Netz repariert sowie einige Absturzursachen beseitigt werden."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-07-27-twif-14-the-reproducibly-stuck-edition.md
 msgid "[VoIP.ms SMS](https://f-droid.org/app/net.kourlas.voipms_sms) allows you to send and receive SMS messages using your VoIP.ms account. Version 0.6.1-fdroid adds support for Android O notification features, uses transactions to prevent database corruption, and other improvements and bug fixes. Additionally, it now requires Android 5.0 or newer to run."
-msgstr ""
+msgstr "[VoIP.ms SMS](https://f-droid.org/app/net.kourlas.voipms_sms) ermöglicht Ihnen das Senden und Empfangen von SMS-Nachrichten über Ihr VoIP.ms-Konto. Version 0.6.1-fdroid bietet Unterstützung für die Benachrichtigungsfunktionen von Android O, verwendet Transaktionen zum Verhindern von Datenbankbeschädigungen und andere Verbesserungen und Bugfixes. Außerdem benötigt es nun Android 5.0 oder neuer."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-07-27-twif-14-the-reproducibly-stuck-edition.md
 msgid "[CrossWords](https://f-droid.org/app/org.eehouse.android.xw4) is a cross-platform game with the same rules as Scrabble, and was updated from 4.4.131 to 4.4.138. This update has a bunch of UX improvements, translation updates, and crash and bug fixes."
-msgstr ""
+msgstr "[CrossWords](https://f-droid.org/app/org.eehouse.android.xw4) ist ein plattformübergreifendes Spiel mit den gleichen Regeln wie Scrabble und wurde von 4.4.131 auf 4.4.138 aktualisiert. Dieses Update enthält eine Reihe von Verbesserungen der Benutzerschnittstelle, Aktualisierungen von Übersetzungen sowie Absturz- und Fehlerbehebungen."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-07-27-twif-14-the-reproducibly-stuck-edition.md
@@ -3279,13 +3279,13 @@ msgstr "[NewPipe](https://f-droid.org/app/org.schabi.newpipe) wurde auf 0.13.3 a
 #. type: Bullet: '* '
 #: build/_posts/md/2018-07-27-twif-14-the-reproducibly-stuck-edition.md
 msgid "[Timber](https://f-droid.org/wiki/page/naman14.timber), a material design music player, was moved to the archive because the developer seems to have lost interest in F-Droid builds and no longer provides a FOSS build flavor. [Vanilla Music](https://f-droid.org/app/ch.blinkenlights.android.vanilla) may be an alternative."
-msgstr ""
+msgstr "[Timber](https://f-droid.org/wiki/page/naman14.timber), ein Materialdesign-Musikplayer, wurde ins Archiv verschoben, weil der Entwickler das Interesse an F-Droid-Builds verloren zu haben scheint und keine FOSS-Build-Variante mehr bietet. [Vanilla Music](https://f-droid.org/app/ch.blinkenlights.android.vanilla) könnte eine Alternative sein."
 
 #. type: Title #
 #: build/_posts/md/2018-08-03-twif-15-announcing-f-droid-1-3.md
 #, no-wrap
 msgid "\"TWIF 15: Announcing F-Droid 1.3\""
-msgstr ""
+msgstr "\"TWIF 15: Ankündigung von F-Droid 1.3\""
 
 #. type: Plain text
 #: build/_posts/md/2018-08-03-twif-15-announcing-f-droid-1-3.md
@@ -3296,33 +3296,33 @@ msgstr "\"Diese Woche in F-Droid, Woche 18\""
 #. type: Plain text
 #: build/_posts/md/2018-08-03-twif-15-announcing-f-droid-1-3.md
 msgid "In this edition: Releasing F-Droid 1.3, building Briar reproducibly and F-Droid shirts now available."
-msgstr ""
+msgstr "In dieser Ausgabe: Veröffentlichung von F-Droid 1.3, reproduzierbare Erstellung von Briar und F-Droid Shirts jetzt verfügbar."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-03-twif-15-announcing-f-droid-1-3.md
 msgid "Version 1.3 of the **F-Droid** app has been released! [@_hc](https://forum.f-droid.org/u/hans) has done a large code overhaul to make status updates more reliable. This release also fixes many bugs around the wrong button showing. More details [here](https://gitlab.com/fdroid/fdroidclient/blob/master/metadata/en-US/changelogs/1003050.txt)."
-msgstr ""
+msgstr "Die Version 1.3 der **F-Droid** App ist erschienen! [@_hc](https://forum.f-droid.org/u/hans) hat eine umfangreiche Code-Überarbeitung durchgeführt, um Status-Aktualisierungen zuverlässiger zu machen. Diese Version behebt auch viele Fehler die mit der Anzeige des falschen Buttons zu tun haben. Mehr Details [hier]https://gitlab.com/fdroid/fdroidclient/blob/master/metadata/en-US/changelogs/1003050.txt)."
 
 #. type: Plain text
 #: build/_posts/md/2018-08-03-twif-15-announcing-f-droid-1-3.md
 #, no-wrap
 msgid "  Focus is now shifting towards improved offline support, including swapping with SD cards and USB-OTG devices.\n"
-msgstr ""
+msgstr "  Der Fokus verlagert sich nun auf eine verbesserte Offline-Unterstützung, einschließlich des Austausches mittels SD-Karten und USB-OTG-Geräten.\n"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-03-twif-15-announcing-f-droid-1-3.md
 msgid "A large-scale spam attack against [Freenode](https://freenode.net) has been in progress for several days now. The upshot of this is that we've had to tighten up security. If you want to participate in our rooms, you will either need to [register your nickname with Freenode](https://freenode.net/kb/answer/registration), or join via Matrix. The room is #fdroid on [Freenode](https://freenode.net) or [#freenode_#fdroid:matrix.org](https://matrix.to/#/#freenode_#fdroid:matrix.org) on [Matrix](https://matrix.org). If you're a Telegram user, the room can also be reached via [this link](https://t.me/joinchat/AlRQekvjWDTuQrCgMYSNVA)."
-msgstr ""
+msgstr "Eine groß angelegte Spam-Attacke gegen [Freenode] (https://freenode.net) ist seit einigen Tagen im Gange. Das hat zur Folge, dass wir die Sicherheitsmaßnahmen verschärfen mussten. Wenn du an unseren Räumen teilnehmen möchtest, musst du entweder [deinen Nicknamen bei Freenode registrieren](https://freenode.net/kb/answer/registration), oder dich über Matrix anmelden. Der Raum ist #fdroid auf [Freenode](https://freenode.net) oder [#freenode_#fdroid:matrix.org](https://matrix.to/#/#freenode_#fdroid:matrix.org) auf [Matrix](https://matrix.org). Wenn Du ein Telegrammbenutzer bist, kann der Raum auch über [diesen Link](https://t.me/joinchat/AlRQekvjWDTuQrCgMYSNVA) erreicht werden."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-03-twif-15-announcing-f-droid-1-3.md
 msgid "Do you remember how in [TWIF Week 28](https://f-droid.org/2018/07/12/this-week-in-fdroid-w28.html) we vaguely hinted at the possibility of F-Droid **T-shirts**? As it happens, the designs are finished, and we can now announce that [HELLOTUX](https://www.hellotux.com/) is shipping some [nice F-Droid wear](https://www.hellotux.com/f-droid). Of every item sold, €3 will be donated to F-Droid."
-msgstr ""
+msgstr "Erinnerst du dich, wie wir in [TWIF Woche 28](https://f-droid.org/2018/07/12/this-week-in-fdroid-w28.html) vage auf die Möglichkeit von F-Droid **T-Shirts** hingewiesen haben? Wie es aussieht, sind die Designs fertig, und wir können nun bekannt geben, dass [HELLOTUX](https://www.hellotux.com/) [nette F-Droid Kleidung](https://www.hellotux.com/f-droid) liefert. Von jedem verkauften Artikel werden 3 € an F-Droid gespendet."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-03-twif-15-announcing-f-droid-1-3.md
 msgid "[@Grote](https://blog.grobox.de) [writes](https://blog.grobox.de/2018/building-briar-reproducible-and-why-it-matters/) about the process of building [Briar](https://briarproject.org) reproducibly, and why that is important."
-msgstr ""
+msgstr "[@Grote](https://blog.grobox.de) [schreibt](https://blog.grobox.de/2018/building-briar-reproducible-and-why-it-matters/) über den reproduzierbaren Bauprozess von [Briar](https://briarproject.org) und warum das wichtig ist."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-03-twif-15-announcing-f-droid-1-3.md
@@ -3345,12 +3345,12 @@ msgstr "[TEdit](https://f-droid.org/app/com.atr.tedit): Ein einfacher Texteditor
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-03-twif-15-announcing-f-droid-1-3.md
 msgid "[dandelior\\*](https://f-droid.org/app/net.gsantner.dandelior) is a rebranded version of [dandelion\\*](https://f-droid.org/app/com.github.dfa.diaspora_android), a client for the community-run, distributed social network diaspora\\*. dandelior\\* is based 100% on the same code and resources as dandelion\\*, but has a different look. By installing both dandelion\\* and dandelior\\*, you can use two accounts at the same time on one device. More information in the project's [release announcement](https://gsantner.net/blog/project/2018/07/30/dandelior-released.html)."
-msgstr ""
+msgstr "[dandelior\\*](https://f-droid.org/app/net.gsantner.dandelior) ist eine umbenannte Version von [dandelion\\*](https://f-droid.org/app/com.github.dfa.diaspora_android), einem Client für das von der Gemeinde betriebene, verteilte soziale Netzwerk diaspora\\*. dandelior\\* basiert zu 100% auf demselben Code und denselben Ressourcen wie dandelion\\*, hat aber ein anderes Aussehen. Durch die gleichzeitige Installation von dandelion\\* und dandelior\\* können Sie zwei Konten gleichzeitig auf einem Gerät verwenden. Weitere Informationen finden Sie in der [Release-Ankündigung](https://gsantner.net/blog/project/2018/07/30/dandelior-released.html)."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-03-twif-15-announcing-f-droid-1-3.md
 msgid "[Web2PDF](https://f-droid.org/app/org.dyndns.warenix.web2pdf): \"_No description, website, or topics provided._\" --GitHub"
-msgstr ""
+msgstr "[Web2PDF](https://f-droid.org/app/org.dyndns.warenix.web2pdf): \"_Keine Beschreibung, Website oder Themen angegeben._\" --GitHub"
 
 #. type: Plain text
 #: build/_posts/md/2018-08-03-twif-15-announcing-f-droid-1-3.md
@@ -3361,7 +3361,7 @@ msgstr "Insgesamt wurden diese Woche 49 Apps aktualisiert. Hier die Höhepunkte:
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-03-twif-15-announcing-f-droid-1-3.md
 msgid "[Tusky](https://f-droid.org/app/com.keylesspalace.tusky), the Mastodon client, released version 2.3 adding an Italian translation and other translation updates, improved memory usage when uploading images, and other small improvements and fixes."
-msgstr ""
+msgstr "[Tusky](https://f-droid.org/app/com.keylesspalace.tusky), der Mastodon-Client, hat Version 2.3 veröffentlicht, die eine italienische Übersetzung und andere Übersetzungsaktualisierungen, eine verbesserte Speichernutzung beim Hochladen von Bildern und andere kleine Verbesserungen und Korrekturen enthält."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-03-twif-15-announcing-f-droid-1-3.md
