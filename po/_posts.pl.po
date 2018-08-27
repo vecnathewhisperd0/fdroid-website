@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-08-17 13:55+0200\n"
-"PO-Revision-Date: 2018-08-27 14:42+0000\n"
+"PO-Revision-Date: 2018-08-28 18:18+0000\n"
 "Last-Translator: WaldiS <admin@sto.ugu.pl>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/f-droid/website-posts/pl/>\n"
 "Language: pl\n"
@@ -3212,7 +3212,7 @@ msgstr "[Pix-Art Messenger](https://f-droid.org/app/de.pixart.messenger): Klient
 #. type: Bullet: '* '
 #: build/_posts/md/2018-07-27-twif-14-the-reproducibly-stuck-edition.md
 msgid "[Trireme for Deluge](https://f-droid.org/app/org.deluge.trireme): Thin client for the Deluge torrent daemon"
-msgstr "[Trireme for Deluge](https://f-droid.org/app/org.deluge.trireme): Lekki klient dla torrent daemon"
+msgstr "[Trireme for Deluge](https://f-droid.org/app/org.deluge.trireme): Lekki klient dla demona torrentów Deluge"
 
 #. type: Plain text
 #: build/_posts/md/2018-07-27-twif-14-the-reproducibly-stuck-edition.md
@@ -3390,9 +3390,8 @@ msgstr "Hej! Wiesz, jaki byłby dobry pomysł? [Prowadzenie dziennika zmian](htt
 #: build/_posts/md/2018-08-03-twif-15-announcing-f-droid-1-3.md
 #: build/_posts/md/2018-08-10-twif-16-the-note-taking-todo-text-editor-edition.md
 #: build/_posts/md/2018-08-16-twif-17-the-reproducible-builds-and-encrypted-e-mail-edition.md
-#, fuzzy
 msgid "Got Feedback? We are very tootable at [@fdroidorg@mastodon.technology](https://mastodon.technology/@fdroidorg) on Mastodon. If you'd like to have a chat, you can find us in #fdroid on [Freenode](https://freenode.net), on Matrix via [#freenode_#fdroid:matrix.org](https://matrix.to/#/#freenode_#fdroid:matrix.org) or on [Telegram](https://t.me/joinchat/AlRQekvjWDTuQrCgMYSNVA). All of these spaces are bridged together, so the choice is yours. You can also join us on the [forum](https://forum.f-droid.org/)."
-msgstr "Opinie? Przyjdź, skontaktuj się z nami w fdroid na [Freenode](https://freenode.net/), na Matrix via [#freenode_#fdroid:matrix.org](https://matrix.to/#/#freenode_#fdroid:matrix.org) lub na [Telegram](https://t.me/joinchat/AlRQekvjWDTuQrCgMYSNVA). Wszystkie te przestrzenie są ze sobą połączone. Możesz także dołączyć do nas na stronie [forum](https://forum.f-droid.org/), [toot on Mastodon](https://mastodon.technology/@fdroidorg), lub, jeśli absolutnie musisz, [tweet us](https://twitter.com/fdroidorg)."
+msgstr "Masz swoją opinię? Jesteśmy bardzo aktywni na [@fdroidorg@mastodon.technology](https://mastodon.technology/@fdroidorg) na Mastodon. Jeśli chcesz z nami porozmawiać, znajdziesz nas w #fdroid na [Freenode](https://freenode.net), na Matrix przez [#freenode_#fdroid:matrix.org](https://matrix.to/#/#freenode_#fdroid:matrix.org) albo na [Telegram](https://t.me/joinchat/AlRQekvjWDTuQrCgMYSNVA). Wszystkie te obszary są ze sobą złączone, zatem wybór należy do ciebie. Możesz również dołączyć do nas na [forum](https://forum.f-droid.org/)."
 
 #. type: Title #
 #: build/_posts/md/2018-08-10-twif-16-the-note-taking-todo-text-editor-edition.md
@@ -3423,7 +3422,7 @@ msgstr "Jeśli jeszcze nie zauważyłeś, wersja 1.3 złamała funkcję \"poblis
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-10-twif-16-the-note-taking-todo-text-editor-edition.md
 msgid "Right now work is ongoing to put [USB OTG](https://en.wikipedia.org/wiki/USB_On-The-Go) and [SD card](https://en.wikipedia.org/wiki/Secure_Digital) support into F-Droid, hopefully in time for the [Mozilla WINS competition](https://wirelesschallenge.mozilla.org) presentation, which will be on the 14th of August."
-msgstr ""
+msgstr "Teraz wysiłek jest wkładany we wspieranie [USB OTG](https://en.wikipedia.org/wiki/USB_On-The-Go) i [SD card](https://en.wikipedia.org/wiki/Secure_Digital) przez F-Droid, z nadzieją na czas przed [Mozilla WINS competition](https://wirelesschallenge.mozilla.org) prezentacją, która odbędzie się 14 sierpnia."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-10-twif-16-the-note-taking-todo-text-editor-edition.md
@@ -3583,12 +3582,12 @@ msgstr "[Pix-Art Messenger](https://f-droid.org/app/de.pixart.messenger), [inny]
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-10-twif-16-the-note-taking-todo-text-editor-edition.md
 msgid "[Simpletask](https://f-droid.org/app/nl.mpcjanssen.simpletask), a comprehensive todo list manager based on [GTD](https://en.wikipedia.org/wiki/Getting_Things_Done) and the [todo.txt](http://todotxt.com) format, had a sizeable update in 10.2.0. Highlighting the most important ones, UI updates and events were refactored to improve performance, and saved filters are now stored in preferences, which should fix most issues with them. Some other improvements are related to Nextcloud, and don't apply to this Cloudless version in F-Droid."
-msgstr ""
+msgstr "[Simpletask](https://f-droid.org/app/nl.mpcjanssen.simpletask), kompleksowy menadżer zadań do zrobienia bazujący na formacie [GTD](https://en.wikipedia.org/wiki/Getting_Things_Done) i [todo.txt](http://todotxt.com), miał pokaźną aktualizację w 10.2.0. Najważniejsze aktualizacje dotyczą interfejsu użytkownika, refaktoryzacji zdarzeń do polepszenia wydajności i zapisu filtrów, które znajdują się teraz w preferencjach aplikacji, co powinno naprawić większość błędów z nimi. Część innych poprawek są w odniesieniu do Nextcloud i nie dotyczą do aplikacji Cloudless na F-Droid."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-10-twif-16-the-note-taking-todo-text-editor-edition.md
 msgid "[Trireme for Deluge](https://f-droid.org/app/org.deluge.trireme), a frontend for the Deluge torrent daemon, released 0.9, allowing torrents to be added by torrent file, adding support for magnet links and torrent urls from browser, showing seeding and completed time, and more."
-msgstr "[Trireme for Deluge](https://f-droid.org/app/org.deluge.trireme), nakładka dla demona torrenta Potopu, wydana 0.9, umożliwiająca dodawanie torrentów przez torrent, dodawanie obsługi linków magnetycznych i adresów torrentowych z przeglądarki, pokazywanie czasu rozpoczęcia i zakończenia oraz wiele innych."
+msgstr "[Trireme for Deluge](https://f-droid.org/app/org.deluge.trireme), nakładka dla demona torrenta Deluge, wydana 0.9, umożliwiająca dodawanie torrentów przez plik torrent, dodawanie obsługi linków magnet i adresów torrentowych z przeglądarki, pokazywanie czasu seedowania i zakończenia oraz wiele innych."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-10-twif-16-the-note-taking-todo-text-editor-edition.md
@@ -3598,12 +3597,12 @@ msgstr "[Movie DB](https://f-droid.org/app/org.notabug.lifeuser.moviedb), baza d
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-10-twif-16-the-note-taking-todo-text-editor-edition.md
 msgid "[Loyalty Card Keychain](https://f-droid.org/app/protect.card_locker), a manager for barcode-based store/loyalty cards, released 0.24, adding a setting to control screen brightness when displaying a barcode, and new Greek and Slovenian translations."
-msgstr "[Loyalty Card Keychain](https://f-droid.org/app/protect.card_locker), menedżer kart sklepowych/lojalnościowych z kodem kreskowym, wydanie 0.24, dodanie ustawienia kontrolującego jasność ekranu podczas wyświetlania kodu kreskowego oraz nowe tłumaczenia greckie i słoweńskie."
+msgstr "[Loyalty Card Keychain](https://f-droid.org/app/protect.card_locker), menedżer kart sklepowych/lojalnościowych z kodem kreskowym, wydanie 0.24, dodanie ustawienia kontrolującego jasność ekranu podczas wyświetlania kodu kreskowego oraz nowe tłumaczenia na grecki i słoweński."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-10-twif-16-the-note-taking-todo-text-editor-edition.md
 msgid "[Meditation Assistant](https://f-droid.org/app/sh.ftp.rocketninelabs.meditationassistant.opensource) was updated from 1.4.7 to 1.5.0, splitting full screen preference into three options, obeying volume preference, and removing the \"turn screen off\" feature as it requires administrator privileges. **Important**: Several people have reported an instant crash on opening with 1.5.0. This is fixed in 1.5.1, which should be in F-Droid soon if not already by the time you read this."
-msgstr "[Meditation Assistant](https://f-droid.org/app/sh.ftp.rocketninelabs.meditationassistant.opensource) został zaktualizowany z wersji 1.4.7 na 1.5.0, dzieląc pełnoekranowe preferencje na trzy opcje, przestrzegając preferencji woluminu i usuwając funkcję \"wyłącz ekran\", ponieważ wymaga uprawnień administratora. **Ważne**: Kilka osób zgłosiło natychmiastową awarię podczas otwierania z 1.5.0. Zostało to naprawione w wersji 1.5.1, która powinna wkrótce pojawić się w F-Droidie, jeśli jeszcze nie do czasu, kiedy to przeczytasz."
+msgstr "[Meditation Assistant](https://f-droid.org/app/sh.ftp.rocketninelabs.meditationassistant.opensource) został zaktualizowany z wersji 1.4.7 na 1.5.0, dzieląc pełnoekranowe preferencje na trzy opcje, przestrzegając preferencji głośności i usuwając funkcję \"wyłącz ekran\", ponieważ wymaga uprawnień administratora. **Ważne**: Kilka osób zgłosiło natychmiastową awarię przy włączaniu aplikacji z 1.5.0. Zostało to naprawione w wersji 1.5.1, która powinna wkrótce pojawić się w F-Droid, jeśli jeszcze nie do czasu, kiedy to przeczytasz."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-10-twif-16-the-note-taking-todo-text-editor-edition.md
@@ -3614,7 +3613,7 @@ msgstr "[Telegram](https://f-droid.org/packages/org.telegram.messenger/) został
 #: build/_posts/md/2018-08-10-twif-16-the-note-taking-todo-text-editor-edition.md
 #: build/_posts/md/2018-08-16-twif-17-the-reproducible-builds-and-encrypted-e-mail-edition.md
 msgid "Hey there, developers! Do you know what would be a good thing to do for your project? [Keep a changelog](https://keepachangelog.com)! It lets humans quickly understand what's changed in your software. If there's anything of note in there, you might even see it featured in the next TWIF!"
-msgstr ""
+msgstr "Cześć, programiści! Czy wiesz, co jest dobre dla twojego projektu? [Zachowaj dziennik zmian](https://keepachangelog.com)! Pozwala to ludziom szybko zrozumieć, co zmieniło się w twoim oprogramowaniu. Jeśli jest tam coś z notatki, możesz nawet zobaczyć ją w kolejnym TWIF!"
 
 #. type: Plain text
 #: build/_posts/md/2018-08-10-twif-16-the-note-taking-todo-text-editor-edition.md
@@ -3640,31 +3639,33 @@ msgid ""
 "In this edition: Voting on Fennec icon, Mattermost advocacy, USB/SD card swap demonstrated, fixing OsmAnd~, Featured badge, using custom ROMs, and integrating F-Droid with the fediverse. In apps, Tutanota is in and the reproducible builds Öffi and Briar finally dropped.\n"
 "<!--more-->\n"
 msgstr ""
+"W tej edycji: Głosowanie na ikonę Fennec, Prawdziwie rzecznictwo, wymiana kart USB/SD, demonstracja OsmAnd ~, Polecane logo, używanie niestandardowych ROM i integracja F-Droida z fediverse. W aplikacjach jest Tutanota, a odtwarzalne kompilacje Öffi i Briar w końcu odpadły.\n"
+"<!--more-->\n"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-16-twif-17-the-reproducible-builds-and-encrypted-e-mail-edition.md
 msgid "Voting on the **Fennec icon** has started at last! After stalling out due to lack of manpower, [Nuntius](https://forum.f-droid.org/u/Nuntius) has graciously offered to run the vote. Please [cast your vote on one of these great icons](https://forum.f-droid.org/t/poll-vote-on-new-icon-for-fennec/3513)!"
-msgstr ""
+msgstr "Głosowanie na ikonę **Fennec** w końcu zaczęło się! Po zwolnieniu z powodu braku siły roboczej [Nuntius](https://forum.f-droid.org/u/Nuntius) z wdzięcznością zaproponował przeprowadzenie głosowania. Proszę [oddaj swój głos na jedną z tych wspaniałych ikon](https://forum.f-droid.org/t/poll-vote-on-new-icon-for-fennec/3513)!"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-16-twif-17-the-reproducible-builds-and-encrypted-e-mail-edition.md
 msgid "In the [previous TWIF]({{ site.baseurl }}{% post_url 2018-08-10-twif-16-the-note-taking-todo-text-editor-edition %}), we mentioned how **[Rocket.Chat](https://rocket.chat)** merged **[@Bubu](https://forum.f-droid.org/u/Bubu)**'s FOSS build flavor. If you would like the same to happen for **Mattermost** so it can be included in F-Droid, please add your voice [here](https://github.com/mattermost/mattermost-mobile/issues/566) or [here](https://mattermost.uservoice.com/forums/306457-general/suggestions/14836608-build-android-app-without-google-play-services)."
-msgstr ""
+msgstr "W [poprzednim TWIF]({{ site.baseurl }}{% post_url 2018-08-10-twif-16-the-note-taking-todo-text-editor-edition %}), wspomnieliśmy o tym, jak **[Rocket.Chat](https://rocket.chat)** połączył **[@Bubu](https://forum.f-droid.org/u/Bubu)** wersję kompilacji FOSS. Jeśli chcesz, aby to samo stało się z **Mattermost**, więc może być zawarte w F-Droid, dodaj swój głos [tutaj](https://github.com/mattermost/mattermost-mobile/issues/566) lub [tutaj](https://mattermost.uservoice.com/forums/306457-general/suggestions/14836608-build-android-app-without-google-play-services)."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-16-twif-17-the-reproducible-builds-and-encrypted-e-mail-edition.md
 msgid "**[@\\_hc](https://forum.f-droid.org/u/hans)** presented his [USB OTG](https://en.wikipedia.org/wiki/USB_On-The-Go) and [SD card](https://en.wikipedia.org/wiki/Secure_Digital) swap demo at the [Mozilla WINS competition](https://wirelesschallenge.mozilla.org). You can see the video [here](https://youtu.be/FOWrappjLsY?t=2h2m12s). (The [Guardian Project](https://guardianproject.info) chunk lasts about 8 minutes.)"
-msgstr ""
+msgstr "**[@\\_hc](https://forum.f-droid.org/u/hans)** przedstawił swoją [USB OTG](https://en.wikipedia.org/wiki/USB_On-The-Go) i [karta SD](https://en.wikipedia.org/wiki/Secure_Digital) zamieniają demo w [konkursie Mozilla WINS](https://wirelesschallenge.mozilla.org). Możesz obejrzeć film [tutaj](https://youtu.be/FOWrappjLsY?t=2h2m12s). (Fragment [Guardian Project](https://guardianproject.info) trwa około 8 minut.)"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-16-twif-17-the-reproducible-builds-and-encrypted-e-mail-edition.md
 msgid "Since there are few active contributors to the **F-Droid client** right now, **[@\\_hc](https://forum.f-droid.org/u/hans)** has been trying to polish things up so that it'll be stable for a while without regular work. We would definitely prefer to have more people contributing, though!"
-msgstr ""
+msgstr "Ponieważ obecnie niewielu aktywnych współpracowników **klienta F-Droid**, **[@\\_hc](https://forum.f-droid.org/u/hans)** próbuje polepszyć rzeczy, które będą stabilne przez jakiś czas bez regularnej pracy. Zdecydowanie wolelibyśmy, aby więcej osób wnosiło swój wkład!"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-16-twif-17-the-reproducible-builds-and-encrypted-e-mail-edition.md
 msgid "**[OsmAnd~](https://f-droid.org/app/net.osmand.plus)** had two build failures this week. **[@hague](https://gitlab.com/Hague)** has hopefully fixed this for 3.1, with assistance from **[@Bubu](https://forum.f-droid.org/u/Bubu)**."
-msgstr ""
+msgstr "**[OsmAnd~](https://f-droid.org/app/net.osmand.plus)** miał dwie awarie kompilacji w tym tygodniu. **[@hague](https://gitlab.com/Hague)** mam nadzieję, że poprawiono to na 3.1, z pomocą **[@Bubu](https://forum.f-droid.org/u/Bubu)**."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-16-twif-17-the-reproducible-builds-and-encrypted-e-mail-edition.md
@@ -3674,27 +3675,27 @@ msgstr "W tej wersji TWIF przed niektórymi aplikacjami znajduje się eksperymen
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-16-twif-17-the-reproducible-builds-and-encrypted-e-mail-edition.md
 msgid "**[@chinmayamahesh](https://mastodon.xyz/@chinmayamahesh)** wrote a [quick guide](https://chin123.gitlab.io/fossandroid.html) on how to free your phone with the help of custom ROMs and F-Droid."
-msgstr ""
+msgstr "**[@chinmayamahesh](https://mastodon.xyz/@chinmayamahesh)** napisał [quick guide](https://chin123.gitlab.io/fossandroid.html) o tym, jak uwolnić telefon za pomocą niestandardowych ROM i F-Droid."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-16-twif-17-the-reproducible-builds-and-encrypted-e-mail-edition.md
 msgid "**[@codingquark](https://mathstodon.xyz/@codingquark)** also [wrote his thoughts](https://codingquark.com/floss/2018/07/04/android-floss-life.html) on custom ROMs, exploring how far one can go about being FLOSS-only on Android. If you have questions or improvements, they would very much appreciate your feedback."
-msgstr ""
+msgstr "**[@codingquark](https://mathstodon.xyz/@codingquark)** również [napisał swoje przemyślenia](https://codingquark.com/floss/2018/07/04/android-floss-life.html) o niestandardowych ROM-ach, badając, jak daleko można przejść na FLOSS-tylko na Androida. Jeśli masz pytania lub ulepszenia, będę bardzo wdzięczny za Twoją opinię."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-16-twif-17-the-reproducible-builds-and-encrypted-e-mail-edition.md
 msgid "**[@nicoalt](https://forum.f-droid.org/u/nicoalt)** wrote down [an idea for integrating F-Droid repositories](https://gitlab.com/NicoAlt/fdroidpub/blob/master/README.md#fdroidpub) with the [fediverse](https://en.wikipedia.org/wiki/Fediverse). This could finally offer a way for people to comment on apps, as well as produce opt-in statistics about an app's popularity, creating something that is truly more than the sum of its parts. You are invited to [the discussion](https://forum.f-droid.org/t/fdroidpub-let-apps-in-f-droid-toot-to-the-fediverse/3553)!"
-msgstr ""
+msgstr "**[@nicoalt](https://forum.f-droid.org/u/nicoalt)** zapisał [pomysł na integrację repozytoriów F-Droid](https://gitlab.com/NicoAlt/fdroidpub/blob/master/README.md#fdroidpub) z [fediverse](https://en.wikipedia.org/wiki/Fediverse). Może to wreszcie umożliwić ludziom komentowanie aplikacji, a także tworzenie statystyk dotyczących popularności aplikacji, tworząc coś, co jest naprawdę czymś więcej niż sumą jej części. Jesteś zaproszony na [dyskusję](https://forum.f-droid.org/t/fdroidpub-let-apps-in-f-droid-toot-to-the-fediverse/3553)!"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-16-twif-17-the-reproducible-builds-and-encrypted-e-mail-edition.md
 msgid "**[Simple ToDo](https://f-droid.org/app/apps.jizzu.simpletodo)**: To-Do / Task list with beautiful minimalistic design and reminders"
-msgstr ""
+msgstr "**[Simple ToDo](https://f-droid.org/app/apps.jizzu.simpletodo)**: Lista zadań do wykonania/zadań z pięknym minimalistycznym wzornictwem i przypomnieniami"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-16-twif-17-the-reproducible-builds-and-encrypted-e-mail-edition.md
 msgid "**[Device Locator](https://f-droid.org/app/at.bitfire.devicelocator)**: Android lost/stolen device locator which does not require Internet access"
-msgstr ""
+msgstr "**[Device Locator](https://f-droid.org/app/at.bitfire.devicelocator)**: Zgubiony/skradziony lokalizator urządzenia Android, który nie wymaga dostępu do Internetu"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-16-twif-17-the-reproducible-builds-and-encrypted-e-mail-edition.md
@@ -3709,12 +3710,12 @@ msgstr "**[Event Sync for Facebook](https://f-droid.org/app/cz.dvratil.fbeventsy
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-16-twif-17-the-reproducible-builds-and-encrypted-e-mail-edition.md
 msgid "{{ page.featured }} **[Öffi](https://f-droid.org/app/de.schildbach.oeffi)** made it in [at last]({{ site.baseurl }}{% post_url 2018-07-21-twif-13-public-transport-edition %})! For those who haven't been keeping up, Öffi is an all-in-one app for public transit. Like **[Transportr](https://f-droid.org/app/de.grobox.liberario)**, but completely different. Built [reproducibly](https://reproducible-builds.org) so you can switch seamlessly from Öffi's private repository to F-Droid main without uninstalling!"
-msgstr ""
+msgstr "{{ page.featured }} **[Öffi](https://f-droid.org/app/de.schildbach.oeffi)** zrobił to w [w końcu]({{ site.baseurl }}{% post_url 2018-07-21-twif-13-public-transport-edition %})! Dla tych, którzy nie nadążają, Öffi to wszechstronna aplikacja do transportu publicznego. Jak **[Transportr](https://f-droid.org/app/de.grobox.liberario)**, ale zupełnie inaczej. Zbudowany [odtwarzalnie](https://reproducible-builds.org), dzięki czemu możesz płynnie przełączać się z prywatnego repozytorium Öffi do głównego F-Droida bez odinstalowywania!"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-16-twif-17-the-reproducible-builds-and-encrypted-e-mail-edition.md
 msgid "{{ page.featured }} **[Tutanota](https://f-droid.org/app/de.tutao.tutanota)** has [dropped on F-Droid](https://tutanota.com/blog/posts/open-source-email)! We are happy to see how enthusiastic Tutao, the company behind Tutanova, is about F-Droid and free software, having [rewritten their app from scratch](https://tutanota.com/blog/posts/secure-mail-open-source) so it could be included in our main repository. Furthermore, they take special measures to avoid tracking you, and end-to-end encryption and two-factor authentication are core features."
-msgstr ""
+msgstr "{{ page.featured }} **[Tutanota](https://f-droid.org/app/de.tutao.tutanota)** [spadła na F-Droida](https://tutanota.com/blog/posts/open-source-email)! Cieszymy się, widząc, jak entuzjastyczne Tutao, firma stojąca za Tutanova, opowiada o F-Droid i wolnym oprogramowaniu, po [przepisaniu swojej aplikacji od zera](https://tutanota.com/blog/posts/secure-mail-open-source), aby mógł zostać włączony do naszego głównego repozytorium. Ponadto podejmują specjalne środki w celu uniknięcia śledzenia użytkownika, a najważniejsze funkcje to szyfrowanie typu end-to-end i uwierzytelnianie dwuskładnikowe."
 
 #. type: Plain text
 #: build/_posts/md/2018-08-16-twif-17-the-reproducible-builds-and-encrypted-e-mail-edition.md
@@ -3736,12 +3737,12 @@ msgstr "**[GPSd Client](https://f-droid.org/app/io.github.tiagoshibata.gpsdclien
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-16-twif-17-the-reproducible-builds-and-encrypted-e-mail-edition.md
 msgid "**[OSMTracker](https://f-droid.org/app/net.osmtracker)**: GPS Track Recorder"
-msgstr ""
+msgstr "**[OSMTracker](https://f-droid.org/app/net.osmtracker)**: Rejestrator ścieżki GPS"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-16-twif-17-the-reproducible-builds-and-encrypted-e-mail-edition.md
 msgid "**[Briar](https://f-droid.org/wiki/page/org.briarproject.briar.android)** also finally made it! Unfortunately it was published straight to the archive as we can only build the older version 1.0.1 of this app for now. The solution lies in upgrading the build server to Debian Stretch. If you want to play with it, you'll need to enable the F-Droid archive in your repository settings. Or you can add the [Briar repository](https://briarproject.org/fdroid.html) and get access to the latest version. Oh yeah, Briar is built reproducibly, and [here's the how and why](https://blog.grobox.de/2018/building-briar-reproducible-and-why-it-matters/)."
-msgstr ""
+msgstr "**[Briar](https://f-droid.org/wiki/page/org.briarproject.briar.android)** również w końcu udało się! Niestety został opublikowany bezpośrednio w archiwum, ponieważ na razie możemy tylko zbudować starszą wersję 1.0.1 tej aplikacji. Rozwiązanie polega na uaktualnieniu serwera kompilacji do dystrybucji Debian. Jeśli chcesz się z nim bawić, musisz włączyć archiwum F-Droid w swoich ustawieniach repozytorium. Możesz też dodać [repozytorium Briara](https://briarproject.org/fdroid.html) i uzyskać dostęp do najnowszej wersji. O tak, Briar jest zbudowany w sposób powtarzalny i [tutaj znajdziesz dlaczego](https://blog.grobox.de/2018/building-briar-reproducible-and-why-it-matters/)."
 
 #. type: Plain text
 #: build/_posts/md/2018-08-16-twif-17-the-reproducible-builds-and-encrypted-e-mail-edition.md
@@ -3766,12 +3767,12 @@ msgstr "Big update from 5.6.0 to 5.8.8 for **[Persian Calendar](https://f-droid.
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-16-twif-17-the-reproducible-builds-and-encrypted-e-mail-edition.md
 msgid "**[Taskbar](https://f-droid.org/app/com.farmerbb.taskbar)** has a major release out at 4.0. This app puts a start menu and recent apps tray on top of your screen. Freeform now works on Android Pie (9)! There is improved tasker support to show/hide the Taskbar, toggle the start menu and toggle the dashboard. Also includes better handling of options such as default window sizes, faster app switching, a letter popup to fast scrollbar on start menu, and many other small visual tweaks and improvements."
-msgstr ""
+msgstr "**[Pasek zadań](https://f-droid.org/app/com.farmerbb.taskbar)** ma główne wydanie na 4.0. Ta aplikacja umieszcza menu startowe i ostatnią tacę aplikacji na górze ekranu. Freeform działa teraz na Androidzie (9)! Udoskonalono obsługę zadań, aby pokazać/ukryć pasek zadań, przełączać menu początkowe i przełączać pulpit. Obejmuje to również lepszą obsługę opcji, takich jak domyślne rozmiary okien, szybsze przełączanie aplikacji, wyskakujące okienka do szybkiego przewijania w menu startowym i wiele innych drobnych usprawnień i ulepszeń wizualnych."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-16-twif-17-the-reproducible-builds-and-encrypted-e-mail-edition.md
 msgid "**[Suntimes](https://f-droid.org/app/com.forrestguice.suntimeswidget)** had a big update to 0.9.0. This update switches to a different data source (by default) which supports altitude-based refinements. Enhancements to the data source selector, data sources (plugins), add elevation to all default locations and an elevation UI, custom action for long-press, tons of new permissions, _world map displaying day/night and moonlight_, and many other improvements, fixes, and translation updates."
-msgstr ""
+msgstr "**[Suntimes](https://f-droid.org/app/com.forrestguice.suntimeswidget)** miał dużą aktualizację do 0.9.0. Ta aktualizacja przełącza się na inne źródło danych (domyślnie), które obsługuje udoskonalenia oparte na wysokości. Udoskonalenia selektora źródła danych, źródeł danych (wtyczek), dodawania elewacji do wszystkich domyślnych lokalizacji i interfejsu elewacji, niestandardowej akcji dla długiego naciśnięcia, ton nowych uprawnień, mapy świata wyświetlającej dzień/noc i księżyca_ oraz wielu innych ulepszeń, poprawki i aktualizacje tłumaczeń."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-16-twif-17-the-reproducible-builds-and-encrypted-e-mail-edition.md
@@ -3791,12 +3792,12 @@ msgstr "**[QKSMS](https://f-droid.org/app/com.moez.QKSMS)** jest najpiękniejszy
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-16-twif-17-the-reproducible-builds-and-encrypted-e-mail-edition.md
 msgid "**[Vespucci](https://f-droid.org/app/de.blau.android)** is an [OpenStreetMap](https://www.openstreetmap.org) editor. Version 11.0.2.0 updates imagery and translations, adds maxspeeds to geocontext for PT and CZ, updates OH Fragment, protects against crash when layouting empty preset views, fixes regression restoring state in PropertyEditor, tries to avoid crash with null Context in PresetSearch, and adds conveying and priority to direction dependent keys."
-msgstr ""
+msgstr "**[Vespucci](https://f-droid.org/app/de.blau.android)** jest edytorem [OpenStreetMap](https://www.openstreetmap.org). Wersja 11.0.2.0 aktualizuje obrazy i tłumaczenia, dodaje maxspeedy do geokontekstu dla PT i CZ, aktualizuje OH Fragment, chroni przed zawieszeniem podczas układania pustych widoków, naprawia regresję przywracania stanu w PropertyEditor, próbuje uniknąć awarii z pustym kontekstem w PresetSearch i dodaje przekazywanie i priorytet dla kluczy zależnych od kierunku."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-16-twif-17-the-reproducible-builds-and-encrypted-e-mail-edition.md
 msgid "Everybody's favorite app, **[Easy xkcd](https://f-droid.org/app/de.tap.easy_xkcd)**, joins the list of apps sporting an [adaptive icon](https://developer.android.com/guide/practices/ui_guidelines/icon_design_adaptive). Other additions are a simplified Chinese translation, fixed What-if thumbnails, and Chrome Custom Tabs can now be disabled in the settings."
-msgstr ""
+msgstr "Everybody's favorite app, **[Easy xkcd](https://f-droid.org/app/de.tap.easy_xkcd)**, dołącza do listy aplikacji sportowych [ikona adaptacyjna](https://developer.android.com/guide/practices/ui_guidelines/icon_design_adaptive). Inne dodatki to uproszczone chińskie tłumaczenie, poprawione miniatury 'co się stanie' i niestandardowe zakładki Chrome mogą być teraz wyłączone w ustawieniach."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-16-twif-17-the-reproducible-builds-and-encrypted-e-mail-edition.md
@@ -3806,22 +3807,22 @@ msgstr "**[Commons](https://f-droid.org/app/fr.free.nrw.commons)** to aplikacja 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-16-twif-17-the-reproducible-builds-and-encrypted-e-mail-edition.md
 msgid "Version 0.8.13 of the group messenger **[Riot.im](https://f-droid.org/app/im.vector.alpha)** is out, adding a previewer to preview media before sending it into a room, _replies_, autocompletion for slash commands, improved external keyboard support for newer Androids, and [many other changes, fixes and improvements](https://github.com/vector-im/riot-android/blob/HEAD/CHANGES.rst#changes-in-riot-0813-2018-08-09)."
-msgstr ""
+msgstr "Wersja 0.8.13 grupowego komunikatora **[Riot.im](https://f-droid.org/app/im.vector.alpha)** jest wyłączona, dodaje podgląd do podglądu multimediów przed wysłaniem go do room, _replies_, autouzupełnianie poleceń slasha, ulepszona obsługa klawiatury zewnętrznej dla nowszych Androidów i [wiele innych zmian, poprawek i usprawnień](https://github.com/vector-im/riot-android/blob/HEAD/CHANGES.rst#changes-in-riot-0813-2018-08-09)."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-16-twif-17-the-reproducible-builds-and-encrypted-e-mail-edition.md
 msgid "{{ page.featured }} **[Markor](https://f-droid.org/app/net.gsantner.markor)**, a [markdown](https://commonmark.org) based text editor, released version 1.0.0, with all new description and screenshots in F-Droid! Markor now supports an additional export for calendar appointments, has improved widget and [SD card](https://en.wikipedia.org/wiki/Secure_Digital) handling, and better separator placement in ShareInto, among other things. A blog post detailing the 1.0.0 release should appear on the app's [website](https://gsantner.net/project/markor.html) soon."
-msgstr ""
+msgstr "{{ page.featured }} **[Markor](https://f-droid.org/app/net.gsantner.markor)**, edytor tekstu oparty na [markdown](https://commonmark.org), wydany w wersji 1.0.0, ze wszystkimi nowymi opisami i zrzutami ekranu w F-Droid! Markor obsługuje teraz dodatkowy eksport terminów kalendarza, ulepszony widget i obsługę [karty SD](https://en.wikipedia.org/wiki/Secure_Digital) i lepsze rozmieszczenie separatorów w ShareInto, między innymi. Post na blogu z wydaniem 1.0.0 powinien pojawić się na stronie [aplikacji](https://gsantner.net/project/markor.html) wkrótce."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-16-twif-17-the-reproducible-builds-and-encrypted-e-mail-edition.md
 msgid "**[Gadgetbridge](https://f-droid.org/app/nodomain.freeyourgadget.gadgetbridge)** lets you use your Pebble/Mi Band/Amazfit Bip/Hplus device without the vendor's closed source application and without the need to create an account and transmit any of your data to the vendor's servers. Version 0.29.0 adds initial support for the ID115 and Lenovo Watch9, now shows a splash screen on startup, vertically aligns device icon in main activity, untested support for the google clock application, and improvements for Amazfit Cor and Bip."
-msgstr ""
+msgstr "**[Gadgetbridge](https://f-droid.org/app/nodomain.freeyourgadget.gadgetbridge)** pozwala używać urządzenia Pebble/Mi Band/Amazfit Bip/Hplus bez zamkniętej aplikacji źródłowej dostawcy i bez potrzeby utworzenia konta i przekazania dowolnych danych na serwery dostawcy. Wersja 0.29.0 dodaje początkowe wsparcie dla ID115 i Lenovo Watch9, teraz wyświetla ekran powitalny przy starcie, pionowo wyrównuje ikonę urządzenia w głównej aktywności, nieprzetestowane wsparcie dla aplikacji zegara Google i ulepszenia Amazfit Cor i Bip."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-16-twif-17-the-reproducible-builds-and-encrypted-e-mail-edition.md
 msgid "**[Tremotesf](https://f-droid.org/app/org.equeim.tremotesf)** is a remote control app for the [Transmission](https://transmissionbt.com) BitTorrent client. 1.8.0 adds support for Android 9 (Pie) and the ability to reannounce torrents. Also improved support for self-signed certificates, better behavior when disconnecting from server, and prevents crashing on saving servers."
-msgstr ""
+msgstr "**[Tremotesf](https://f-droid.org/app/org.equeim.tremotesf)** to aplikacja do zdalnego sterowania dla klienta BitTorrent [Transmission](https://transmissionbt.com). 1.8.0 dodaje wsparcie dla Androida 9 (Pie) i możliwość ponownego rozprowadzania torrentów. Ulepszono również obsługę certyfikatów z podpisem własnym, lepsze zachowanie podczas odłączania się od serwera i zapobieganie awariom podczas zapisywania serwerów."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-16-twif-17-the-reproducible-builds-and-encrypted-e-mail-edition.md
