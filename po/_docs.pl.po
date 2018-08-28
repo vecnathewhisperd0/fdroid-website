@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-08-17 13:55+0200\n"
-"PO-Revision-Date: 2018-08-26 15:41+0000\n"
+"PO-Revision-Date: 2018-08-29 19:19+0000\n"
 "Last-Translator: WaldiS <admin@sto.ugu.pl>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/f-droid/website-docs/pl/>\n"
 "Language: pl\n"
@@ -1367,6 +1367,11 @@ msgid ""
 "    per-build variables are available likewise: \\$\\$VERSION\\$\\$,\n"
 "    \\$\\$VERCODE\\$\\$ and \\$\\$COMMIT\\$\\$.\n"
 msgstr ""
+"    Możesz użyć \\$\\$SDK\\$\\$, \\$\\$NDK\\$\\$, \\$\\$MVN3\\$\\$ and \\$\\$QT\\$\\$ to\n"
+"    zamień ścieżki do androidowych katalogów SDK i NDK, maven 3\n"
+"    plik wykonywalny i katalog Qt SDK. Następujące\n"
+"    zmienne związane z kompilacją są dostępne również: \\$\\$VERSION\\$\\$,\n"
+"    \\$\\$VERCODE\\$\\$ i \\$\\$COMMIT\\$\\$.\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1383,6 +1388,11 @@ msgid ""
 "    lines of: \"com.android.ant.SetupTask cannot be found\" when trying to\n"
 "    build, then try enabling this option.\n"
 msgstr ""
+":   Lokalizacja sdk w repo jest w starym formacie lub build.xml\n"
+"    spodziewa się takich. 'Nowy' format to sdk.dir, a BARDZO STARY\n"
+"    format to sdk-location. Zazwyczaj, jeśli otrzymasz wiadomość wzdłuż\n"
+"    linii z: \"com.android.ant.SetupTask nie można znaleźć\" podczas próby\n"
+"    kompilacji, a następnie spróbuj włączyć tę opcję.\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
