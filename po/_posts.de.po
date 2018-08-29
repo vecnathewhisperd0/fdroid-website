@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-08-17 13:55+0200\n"
 "PO-Revision-Date: 2018-08-30 08:41+0000\n"
-"Last-Translator: BO41 <lukasw41@gmail.com>\n"
+"Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -3593,27 +3593,27 @@ msgstr "[Simpletask](https://f-droid.org/app/nl.mpcjanssen.simpletask), ein umfa
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-10-twif-16-the-note-taking-todo-text-editor-edition.md
 msgid "[Trireme for Deluge](https://f-droid.org/app/org.deluge.trireme), a frontend for the Deluge torrent daemon, released 0.9, allowing torrents to be added by torrent file, adding support for magnet links and torrent urls from browser, showing seeding and completed time, and more."
-msgstr ""
+msgstr "[Trireme for Deluge](https://f-droid.org/app/org.deluge.trireme), ein Frontend für den Deluge-Torrent-Daemon, veröffentlicht 0.9, wodurch Torrents per Torrent-Datei hinzugefügt werden können, Unterstützung für Magnet-Links und Torrent-URLs aus dem Browser, Anzeige von Seeding und beendetem Zeitpunkt und vieles mehr."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-10-twif-16-the-note-taking-todo-text-editor-edition.md
 msgid "[Movie DB](https://f-droid.org/app/org.notabug.lifeuser.moviedb), an online/offline movie database, saw its 2.1.0 release, containing mostly bug fixes and UI improvements. New features are persistent filtering, showing the release date, recommended instead of similar movies, and the ability to fetch online movie data in a different langage than the default."
-msgstr ""
+msgstr "[Movie DB](https://f-droid.org/app/org.notabug.lifeuser.moviedb), eine Online-/Offline-Filmdatenbank, wurde in der Version 2.1.0 veröffentlicht, die hauptsächlich Bugfixes und UI-Verbesserungen enthält. Neue Funktionen sind persistente Filterung, die das Veröffentlichungsdatum anzeigt, empfohlene statt ähnlicher Filme und die Möglichkeit, Online-Filmdaten in einer anderen Sprache als der Standardeinstellung abzurufen."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-10-twif-16-the-note-taking-todo-text-editor-edition.md
 msgid "[Loyalty Card Keychain](https://f-droid.org/app/protect.card_locker), a manager for barcode-based store/loyalty cards, released 0.24, adding a setting to control screen brightness when displaying a barcode, and new Greek and Slovenian translations."
-msgstr ""
+msgstr "[Loyalty Card Keychain](https://f-droid.org/app/protect.card_locker), ein Manager für Barcode-basierte Store-/Loyalty-Karten, veröffentlicht 0.24, der eine Einstellung zur Steuerung der Bildschirmhelligkeit bei der Anzeige eines Barcodes sowie neue griechische und slowenische Übersetzungen enthält."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-10-twif-16-the-note-taking-todo-text-editor-edition.md
 msgid "[Meditation Assistant](https://f-droid.org/app/sh.ftp.rocketninelabs.meditationassistant.opensource) was updated from 1.4.7 to 1.5.0, splitting full screen preference into three options, obeying volume preference, and removing the \"turn screen off\" feature as it requires administrator privileges. **Important**: Several people have reported an instant crash on opening with 1.5.0. This is fixed in 1.5.1, which should be in F-Droid soon if not already by the time you read this."
-msgstr ""
+msgstr "[Meditation Assistant](https://f-droid.org/app/sh.ftp.rocketninelabs.meditationassistant.opensource) wurde von 1.4.7 auf 1.5.0 aktualisiert, wobei die Vollbild-Einstellung in drei Optionen aufgeteilt wurde, die Lautstärke-Voreinstellung beachtet und die Funktion \"Bildschirm ausschalten\" entfernt wurde, da sie Administratorrechte erfordert. **Wichtig**: Mehrere Leute haben einen sofortigen Absturz beim Öffnen mit 1.5.0 gemeldet. Dies ist in 1.5.1 behoben, die in Kürze in F-Droid verfügbar sein sollte, wenn nicht schon jetzt."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-10-twif-16-the-note-taking-todo-text-editor-edition.md
 msgid "[Telegram](https://f-droid.org/packages/org.telegram.messenger/) was updated from 4.6.0 to 4.9.0 as a new source code drop came. It includes Telegram Passport, (open source versions for) suggested locations and search, location sharing fixes, https for map tiles and of course everything from Telegram 4.7 and 4.8."
-msgstr ""
+msgstr "[Telegram](https://f-droid.org/packages/org.telegram.messenger/) wurde von 4.6.0 auf 4.9.0 aktualisiert, da ein neuer Quelltext-Drop kam. Es beinhaltet Telegram Passport, (Open Source Versionen für) vorgeschlagene Orte und Suche, Location Sharing Fixes, https für Kartenkacheln und natürlich alles von Telegram 4.7 und 4.8."
 
 #. type: Plain text
 #: build/_posts/md/2018-08-10-twif-16-the-note-taking-todo-text-editor-edition.md
