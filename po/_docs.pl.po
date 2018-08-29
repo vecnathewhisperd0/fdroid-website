@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-08-17 13:55+0200\n"
-"PO-Revision-Date: 2018-08-29 19:19+0000\n"
+"PO-Revision-Date: 2018-08-30 08:40+0000\n"
 "Last-Translator: WaldiS <admin@sto.ugu.pl>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/f-droid/website-docs/pl/>\n"
 "Language: pl\n"
@@ -1411,6 +1411,12 @@ msgid ""
 "    the target SDK in the AndroidManifest.xml, which determines the\n"
 "    level of features that can be included in the build.\n"
 msgstr ""
+":   Określa miejsce docelowe określonego zestawu SDK dla kompilacji, zastepując\n"
+"    wartość zdefiniowaną w kodzie przez poprzednią. Ma to różne skutki\n"
+"    w zależności od używanego systemu kompilacji - ta flaga ma obecnie wpływ\n"
+"    tylko na projekty Ant, Maven i Gradle. Pamiętaj, że to się nie zmienia\n"
+"    w docelowym pakiecie SDK w AndroidManifest.xml, który określa\n"
+"    poziom funkcji, które mogą być zawarte w kompilacji.\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1422,6 +1428,11 @@ msgid ""
 "    android file or doesn’t already exist, but not a good idea if it’s\n"
 "    heavily customised.\n"
 msgstr ""
+"    W przypadku projektu Ant modyfikuje on właściwość project.properties\n"
+"    aplikacja i ewentualnie podprojekty. Prawdopodobnie spowoduje to całość\n"
+"    plik build.xml zostanie przepisany, co jest w porządku, jeśli jest to 'standard'\n"
+"    plik android lub jeszcze nie istnieje, ale nie jest to dobry pomysł, jeśli tak jest\n"
+"    mocno dostosowany.\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1540,6 +1551,8 @@ msgid ""
 "    Multiple files/directories can be specified by separating them with\n"
 "    ’,’. Directories will be recursively deleted.\n"
 msgstr ""
+"    Wiele plików/katalogów można określić, oddzielając je za pomocą\n"
+"    ’,’. Katalogi zostaną rekursywnie usunięte.\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1555,6 +1568,9 @@ msgid ""
 "    `build/extlib` library, which will be placed in the `libs` directory\n"
 "    of the project.\n"
 msgstr ""
+":   Lista oddzielonych przecinkami bibliotek zewnętrznych (pliki jar) od\n"
+"    biblioteki `build/extlib`, która zostanie umieszczona w katalogu 'libs'\n"
+"    z projektu.\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1693,6 +1709,10 @@ msgid ""
 "    example, take place after this. For custom actions that actually\n"
 "    build things or produce binaries, use ’build’ instead.\n"
 msgstr ""
+"    Zauważ, że nic nie powinno być budowane podczas tej fazy budowania -\n"
+"    skanowanie kodu i budowanie archiwum źródłowego, dla\n"
+"    przykład, po tym nastąpić. W przypadku działań niestandardowych, które faktycznie\n"
+"    tworzyć rzeczy lub tworzyć pliki binarne, zamiast tego użyj 'kompilacji'.\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1701,6 +1721,8 @@ msgid ""
 "    You can use \\$\\$name\\$\\$ to substitute the path to a referenced\n"
 "    srclib - see the `srclib` directory for details of this.\n"
 msgstr ""
+"    Możesz użyć \\$\\$name\\$\\$ aby zastąpić ścieżkę do odniesienia\n"
+"    srclib - zobacz szczegóły w katalogu `srclib`.\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
