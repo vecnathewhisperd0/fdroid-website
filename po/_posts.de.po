@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-08-17 13:55+0200\n"
 "PO-Revision-Date: 2018-08-31 10:14+0000\n"
-"Last-Translator: ssantos <ssantos@web.de>\n"
+"Last-Translator: BO41 <lukasw41@gmail.com>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -3485,7 +3485,7 @@ msgstr "[Ellaism](https://f-droid.org/app/com.outdoordevs.ellaism.wallet): Ellai
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-10-twif-16-the-note-taking-todo-text-editor-edition.md
 msgid "[Carnet](https://f-droid.org/app/com.spisoft.quicknote): Powerful note taking app with sync capabilities"
-msgstr "[Carnet](https://f-droid.org/app/com.spisoft.quicknote): Leistungsstarke Notiz-App mit Synchronisationsfähigkeiten"
+msgstr "[Carnet](https://f-droid.org/app/com.spisoft.quicknote): Starke Notiz App mit sync kapazität"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-10-twif-16-the-note-taking-todo-text-editor-edition.md
