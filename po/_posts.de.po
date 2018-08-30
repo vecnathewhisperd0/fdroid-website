@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-08-17 13:55+0200\n"
-"PO-Revision-Date: 2018-08-30 19:47+0000\n"
+"PO-Revision-Date: 2018-08-31 10:14+0000\n"
 "Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\n"
 "Language: de\n"
@@ -3724,23 +3724,23 @@ msgstr "{{ page.featured }} **[Tutanota](https://f-droid.org/app/de.tutao.tutano
 #: build/_posts/md/2018-08-16-twif-17-the-reproducible-builds-and-encrypted-e-mail-edition.md
 #, no-wrap
 msgid "  In all fairness, many features work best between Tutanota users, and interoperability with regular e-mail is more limited, as you might expect. If you are looking for a privacy-respecting alternative to gmail with built-in encryption support, this is definitely worth checking out though.\n"
-msgstr "  Ehrlicherweise funktionieren die meisten Funktionen am besten zwischen Tutanota-Anwendern und die Zusammenarbeit mit regulären E-Mail-Diensten ist eingeschränkter, als Sie das erwarten würden. Wenn Sie auf der Suche nach einer Privatsphäre respektierenden Alternative zu GMail mit integrierter Verschlüsselung sind, ist sie trotzdem definitiv einen Test wert.\n"
+msgstr "  Ehrlicherweise funktionieren viele Funktionen am besten zwischen Tutanota-Benutzern und die Interoperabilität mit regulären E-Mails ist, wie zu erwarten, eher eingeschränkt. Wenn Sie auf der Suche nach einer Alternative zu Google Mail mit integrierter Verschlüsselung sind, lohnt es sich auf jeden Fall, dies auszuprobieren.\n"
 
 #. type: Plain text
 #: build/_posts/md/2018-08-16-twif-17-the-reproducible-builds-and-encrypted-e-mail-edition.md
 #, no-wrap
 msgid "  **Important**: Those who want to switch from the Play Store version to the F-Droid version need to uninstall Tutanota before installing it from F-Droid.\n"
-msgstr "  **Wichtig**: Diejenigen, die von der Play-Store-Version zur F-Droid-Version wechseln wollen, müssen Tutanota vor einer Installation aus F-Droid deinstallieren.\n"
+msgstr "  **Wichtig**: Diejenigen, die von der Play-Store-Version zur F-Droid-Version wechseln wollen, müssen Tutanota deinstallieren vor einer erneuten Installation über F-Droid.\n"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-16-twif-17-the-reproducible-builds-and-encrypted-e-mail-edition.md
 msgid "**[GPSd Client](https://f-droid.org/app/io.github.tiagoshibata.gpsdclient)**: Service to forward NMEA messages to a GPSd server"
-msgstr "**[GPSd Client](https://f-droid.org/app/io.github.tiagoshibata.gpsdclient)**: Dienst, um NMEA-Nachrichten an einen GPSd-Server weiterzuleiten"
+msgstr "**[GPSd Client](https://f-droid.org/app/io.github.tiagoshibata.gpsdclient)**: Dienst zur Weiterleitung von NMEA-Nachrichten an einen GPSd-Server"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-16-twif-17-the-reproducible-builds-and-encrypted-e-mail-edition.md
 msgid "**[OSMTracker](https://f-droid.org/app/net.osmtracker)**: GPS Track Recorder"
-msgstr "**[OSMTracker](https://f-droid.org/app/net.osmtracker)**: GPS-Track-Rekorder"
+msgstr "**[OSMTracker](https://f-droid.org/app/net.osmtracker)**: GPS-Track-Recorder"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-16-twif-17-the-reproducible-builds-and-encrypted-e-mail-edition.md
@@ -3755,32 +3755,32 @@ msgstr "Insgesamt wurden diese Woche 72 Apps aktualisiert. Hier die Höhepunkte:
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-16-twif-17-the-reproducible-builds-and-encrypted-e-mail-edition.md
 msgid "**[Vanilla Music](https://f-droid.org/app/ch.blinkenlights.android.vanilla)** is a music player with a simple interface similar to the stock music player. Version 1.0.70 has an option to synchronize m3u playlists, can read artwork from embedded tags, and now has an option to scroll to the current song in the queue view."
-msgstr ""
+msgstr "**[Vanilla Music](https://f-droid.org/app/ch.blinkenlights.android.vanilla)** ist ein Musik-Player mit einer einfachen Benutzeroberfläche ähnlich dem Standard Music Player. Version 1.0.70 hat eine Option zum Synchronisieren von m3u-Playlisten, kann Coverbilder von eingebetteten Tags lesen und hat jetzt eine Option zum Scrollen zum aktuellen Song in der Warteschlangenansicht."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-16-twif-17-the-reproducible-builds-and-encrypted-e-mail-edition.md
 msgid "**[Delta Chat](https://f-droid.org/app/com.b44t.messenger)** is an instant messenger using e-mail as its transport. Version 0.20.0 improves reliability with size checks before sending videos, files and other attachments, retries an appropriate number of times on sending problems, detects size-related problems and does not retry, shows message errors in the message info, and more."
-msgstr ""
+msgstr "**[Delta Chat](https://f-droid.org/app/com.b44t.messenger)** ist ein Instant Messenger, der E-Mail als Transportmittel verwendet. Version 0.20.0 verbessert die Zuverlässigkeit bei der Größenprüfung vor dem Senden von Videos, Dateien und anderen Anhängen, hat jetzt eine angemessene Anzahl von Sendeversuchen, erkennt größenbedingte Probleme und lässt es in dem Fall, zeigt Nachrichtenfehler in den Nachrichteninformationen an und vieles mehr."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-16-twif-17-the-reproducible-builds-and-encrypted-e-mail-edition.md
 msgid "Big update from 5.6.0 to 5.8.8 for **[Persian Calendar](https://f-droid.org/app/com.byagowi.persiancalendar)**. The Persian calendar is not supported by Android natively, and that is where this app comes in. It can now show device calendar events and birthdays with search capability, adds an \"add an event\" button, and will not play Athan when on a phone call, doesn't always need to restart on coming back from preferences, and lots of other improvements and fixes."
-msgstr ""
+msgstr "Großes Update von 5.6.0 auf 5.8.8 bei **[Persian Calendar](https://f-droid.org/app/com.byagowi.persiancalendar)**. Der persische Kalender wird von Android nativ nicht unterstützt und hier kommt diese App ins Spiel. Es kann nun Gerätekalender-Ereignisse und Geburtstage mit Suchfunktion anzeigen, fügt eine Schaltfläche \"Ereignis hinzufügen\" hinzu und spielt Athan nicht mehr ab, wenn ein Anruf getätigt wird, muss nicht immer neu gestartet werden, wenn er von den Einstellungen zurückkommt und hat viele andere Verbesserungen und Korrekturen erhalten."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-16-twif-17-the-reproducible-builds-and-encrypted-e-mail-edition.md
 msgid "**[Taskbar](https://f-droid.org/app/com.farmerbb.taskbar)** has a major release out at 4.0. This app puts a start menu and recent apps tray on top of your screen. Freeform now works on Android Pie (9)! There is improved tasker support to show/hide the Taskbar, toggle the start menu and toggle the dashboard. Also includes better handling of options such as default window sizes, faster app switching, a letter popup to fast scrollbar on start menu, and many other small visual tweaks and improvements."
-msgstr ""
+msgstr "**[Taskleiste](https://f-droid.org/app/com.farmerbb.taskbar)** hat eine Hauptrelease von 4.0. Diese App legt ein Startmenü und eine Schublade für die kürzlich verwendete Apps auf dem Bildschirm ab. Freeform funktioniert jetzt auch auf Android Pie (9)! Es gibt eine verbesserte Tasker-Unterstützung, um die Taskleiste ein- und auszublenden, das Startmenü umzuschalten und das Dashboard umzuschalten. Enthält auch eine bessere Handhabung von Optionen wie Standardfenstergrößen, schnelleres Umschalten der Anwendung, ein Buchstaben-Popup zur schnellen Bildlaufleiste im Startmenü und viele andere kleine visuelle Optimierungen und Verbesserungen."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-16-twif-17-the-reproducible-builds-and-encrypted-e-mail-edition.md
 msgid "**[Suntimes](https://f-droid.org/app/com.forrestguice.suntimeswidget)** had a big update to 0.9.0. This update switches to a different data source (by default) which supports altitude-based refinements. Enhancements to the data source selector, data sources (plugins), add elevation to all default locations and an elevation UI, custom action for long-press, tons of new permissions, _world map displaying day/night and moonlight_, and many other improvements, fixes, and translation updates."
-msgstr ""
+msgstr "**[Suntimes](https://f-droid.org/app/com.forrestguice.suntimeswidget)** hatte ein großes Update auf 0.9.0. Dieses Update wechselt (standardmäßig) zu einer anderen Datenquelle, die höhenabhängige Verfeinerungen unterstützt. Verbesserungen am Datenquellen-Selektor, Datenquellen (Plugins), Hinzufügen von Höhenangabe zu allen Standardstandorten und einer Höhenangaben-Oberfläche, benutzerdefinierte Aktionen für langes Drücken, Mengen an neuen Berechtigungen, _Weltkarte mit Tag/Nacht und Mondlicht_ und viele andere Verbesserungen, Korrekturen und Übersetzungs-Aktualisierungen."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-16-twif-17-the-reproducible-builds-and-encrypted-e-mail-edition.md
 msgid "**[Cythara](https://f-droid.org/app/com.github.cythara)** is a musical instrument tuner. This update to 2.8 enables installation on external storage. Other recent updates include a new German translation and a new logo."
-msgstr ""
+msgstr "**[Cythara](https://f-droid.org/app/com.github.cythara)** ist ein Stimmgerät für Musikinstrumente. Dieses Update auf 2.8 ermöglicht die Installation auf einem externen Speicher. Weitere Neuerungen sind eine neue deutsche Übersetzung und ein neues Logo."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-16-twif-17-the-reproducible-builds-and-encrypted-e-mail-edition.md
