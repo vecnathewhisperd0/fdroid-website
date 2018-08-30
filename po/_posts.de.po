@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-08-17 13:55+0200\n"
 "PO-Revision-Date: 2018-08-30 19:47+0000\n"
-"Last-Translator: C. Rüdinger <Mail-an-CR@web.de>\n"
+"Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -3616,7 +3616,7 @@ msgstr "[Telegram](https://f-droid.org/packages/org.telegram.messenger/) wurde v
 #: build/_posts/md/2018-08-10-twif-16-the-note-taking-todo-text-editor-edition.md
 #: build/_posts/md/2018-08-16-twif-17-the-reproducible-builds-and-encrypted-e-mail-edition.md
 msgid "Hey there, developers! Do you know what would be a good thing to do for your project? [Keep a changelog](https://keepachangelog.com)! It lets humans quickly understand what's changed in your software. If there's anything of note in there, you might even see it featured in the next TWIF!"
-msgstr ""
+msgstr "Hallo, Entwickler! Wisst ihr, was eurem Projekt zu Gute kommen würde? [Ein Changelog](https://keepachangelog.com)! Es lässt Menschen schnell erkennen, was sich in eurer Software geändert hat. Wenn es irgendetwas Bemerkenswertes darin gibt, könntet ihr sie sogar im nächsten TWIF vorgestellt sehen!"
 
 #. type: Plain text
 #: build/_posts/md/2018-08-10-twif-16-the-note-taking-todo-text-editor-edition.md
@@ -3628,7 +3628,7 @@ msgstr "So großartig Changelogs auch sind, nicht vergessen, Tipps einsenden! Es
 #: build/_posts/md/2018-08-16-twif-17-the-reproducible-builds-and-encrypted-e-mail-edition.md
 #, no-wrap
 msgid "\"TWIF 17: The reproducible builds and encrypted e-mail edition\""
-msgstr ""
+msgstr "\"TWIF 17: Ausgabe zu reproduzierbaren Builds und verschlüsselten E-Mails\""
 
 #. type: Plain text
 #: build/_posts/md/2018-08-16-twif-17-the-reproducible-builds-and-encrypted-e-mail-edition.md
@@ -3642,36 +3642,38 @@ msgid ""
 "In this edition: Voting on Fennec icon, Mattermost advocacy, USB/SD card swap demonstrated, fixing OsmAnd~, Featured badge, using custom ROMs, and integrating F-Droid with the fediverse. In apps, Tutanota is in and the reproducible builds Öffi and Briar finally dropped.\n"
 "<!--more-->\n"
 msgstr ""
+"In dieser Ausgabe: Abstimmung über das Fennec-Icon, Mattermost-Befürworter, Demonstration des USB/SD-Karten-Tauschs, Reparatur von OsmAnd~, \"Featured\"-Marke, Verwendung von Custom-ROMs und Integration von F-Droid in Fediverse. Bei den Apps, Tutanota ist da und die reproduzierbaren Builds Öffi und Briar sind endlich gelandet.\n"
+"<!--more-->\n"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-16-twif-17-the-reproducible-builds-and-encrypted-e-mail-edition.md
 msgid "Voting on the **Fennec icon** has started at last! After stalling out due to lack of manpower, [Nuntius](https://forum.f-droid.org/u/Nuntius) has graciously offered to run the vote. Please [cast your vote on one of these great icons](https://forum.f-droid.org/t/poll-vote-on-new-icon-for-fennec/3513)!"
-msgstr ""
+msgstr "Die Abstimmung über das **Fennec Icon** hat endlich begonnen! Nachdem sie mangels Personal feststeckte, hat [Nuntius](https://forum.f-droid.org/u/Nuntius) freundlicherweise angeboten, sie durchzuführen. Bitte [geben Sie einem dieser großartigen Icons Ihre Stimme](https://forum.f-droid.org/t/poll-vote-on-new-icon-for-fennec/3513)!"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-16-twif-17-the-reproducible-builds-and-encrypted-e-mail-edition.md
 msgid "In the [previous TWIF]({{ site.baseurl }}{% post_url 2018-08-10-twif-16-the-note-taking-todo-text-editor-edition %}), we mentioned how **[Rocket.Chat](https://rocket.chat)** merged **[@Bubu](https://forum.f-droid.org/u/Bubu)**'s FOSS build flavor. If you would like the same to happen for **Mattermost** so it can be included in F-Droid, please add your voice [here](https://github.com/mattermost/mattermost-mobile/issues/566) or [here](https://mattermost.uservoice.com/forums/306457-general/suggestions/14836608-build-android-app-without-google-play-services)."
-msgstr ""
+msgstr "Im [letzten TWIF]({{ site.baseurl }}{% post_url 2018-08-10-twif-16-the-note-taking-todo-text-editor-edition %}) erwähnten wir, wie **[Rocket.Chat](https://rocket.chat)** **[@Bubu](https://forum.f-droid.org/u/Bubu)**'s FOSS-Build-Variante einführte. Wenn Sie möchten, dass dasselbe mit **Mattermost** geschieht, um in F-Droid aufgenommen zu werden, erheben Sie bitte [hier](https://github.com/mattermost/mattermost-mobile/issues/566) oder [hier](https://mattermost.uservoice.com/forums/306457-general/suggestions/14836608-build-android-app-without-google-play-services) Ihre Stimme."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-16-twif-17-the-reproducible-builds-and-encrypted-e-mail-edition.md
 msgid "**[@\\_hc](https://forum.f-droid.org/u/hans)** presented his [USB OTG](https://en.wikipedia.org/wiki/USB_On-The-Go) and [SD card](https://en.wikipedia.org/wiki/Secure_Digital) swap demo at the [Mozilla WINS competition](https://wirelesschallenge.mozilla.org). You can see the video [here](https://youtu.be/FOWrappjLsY?t=2h2m12s). (The [Guardian Project](https://guardianproject.info) chunk lasts about 8 minutes.)"
-msgstr ""
+msgstr "**[@\\_hc](https://forum.f-droid.org/u/hans)** präsentierte eine Demo seines [USB OTG](https://en.wikipedia.org/wiki/USB_On-The-Go) und [SD-Karten](https://en.wikipedia.org/wiki/Secure_Digital) Austauschs beim [Mozilla-WINS-Wettbewerb](https://wirelesschallenge.mozilla.org). Das Video finden Sie [hier](https://youtu.be/FOWrappjLsY?t=2h2m12s). (Der [Guardian Project](https://guardianproject.info)-Beitrag dauert ungefähr 8 Minuten.)"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-16-twif-17-the-reproducible-builds-and-encrypted-e-mail-edition.md
 msgid "Since there are few active contributors to the **F-Droid client** right now, **[@\\_hc](https://forum.f-droid.org/u/hans)** has been trying to polish things up so that it'll be stable for a while without regular work. We would definitely prefer to have more people contributing, though!"
-msgstr ""
+msgstr "Da es im Moment nur wenige aktive Mitwirkende für den **F-Droid-Client** gibt, hat **[@\\_hc](https://forum.f-droid.org/u/hans)** versucht, ihn so zu verbessern, dass er für eine Weile ohne regelmäßige Arbeit stabil bleibt. Wir würden es aber definitiv vorziehen, wenn mehr Leute mitmachen würden!"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-16-twif-17-the-reproducible-builds-and-encrypted-e-mail-edition.md
 msgid "**[OsmAnd~](https://f-droid.org/app/net.osmand.plus)** had two build failures this week. **[@hague](https://gitlab.com/Hague)** has hopefully fixed this for 3.1, with assistance from **[@Bubu](https://forum.f-droid.org/u/Bubu)**."
-msgstr ""
+msgstr "**[OsmAnd~](https://f-droid.org/app/net.osmand.plus)** hatte diese Woche zwei Builds, die fehlschlugen. **[@hague](https://gitlab.com/Hague)** hat das mit Unterstützung von **[@Bubu](https://forum.f-droid.org/u/Bubu)** hoffentlich für 3.1 geregelt."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-16-twif-17-the-reproducible-builds-and-encrypted-e-mail-edition.md
 msgid "This edition of TWIF has an experimental \"Featured\" badge in front of some apps. Let us know how you like it, and if there's anything we can do to improve/tweak its appearance."
-msgstr ""
+msgstr "Diese Ausgabe des TWIF enthält eine experimentelle \"Featured\"-Marke vor manchen Apps. Teilen Sie uns mit, wie Sie sie finden und ob wir ihr Aussehen irgendwie verbessern/anpassen sollen."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-16-twif-17-the-reproducible-builds-and-encrypted-e-mail-edition.md
