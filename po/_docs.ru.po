@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-08-17 13:55+0200\n"
-"PO-Revision-Date: 2018-08-30 08:41+0000\n"
+"PO-Revision-Date: 2018-08-31 10:14+0000\n"
 "Last-Translator: mesnevi <shams@airpost.net>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/f-droid/website-docs/ru/>\n"
 "Language: ru\n"
@@ -22,12 +22,12 @@ msgstr ""
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
 #, no-wrap
 msgid "All About Descriptions, Graphics, and Screenshots"
-msgstr ""
+msgstr "Всё, что нужно знать об описаниях, иллюстрациях и скриншотах"
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
 msgid "Each app can have complete app store content, including localized descriptions, feature graphics, and screenshots (as of v0.103 of the F-Droid client app and v0.8 of _fdroidserver_).  This is possible both when apps are added via [build metadata](../Build_Metadata_Reference) as well as when including pre-built files in a simple repository.  There are three paths to including app store content for apps (in order of preference):"
-msgstr ""
+msgstr "У каждого приложения есть уникальное содержимое, включающее переведённое на разные языки описание, изобрадения, иллюстрирующее его возможности, и скриншоты (по крайней мере, так дела обстоят в клиентском приложении F-Droid верии 0.103 и сервере _fdroidserver_ версии 0.8).  Это справедливо как для приложений, добавленных с помощью [мета-данных сборки](../Build_Metadata_Reference), так и для предварительно собранных файлов, размещённых в обычном репозитории. Опубликовать файлы приложения можно несколькими способами (они перечислены в порядке предпочтения):"
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -40,6 +40,8 @@ msgid ""
 "* Do not remove this line (it will not be displayed)\n"
 "{:toc}\n"
 msgstr ""
+"* Не удаляйте эту строчку (её не будет видно)\n"
+"{:toc}\n"
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
