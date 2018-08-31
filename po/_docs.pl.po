@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-08-17 13:55+0200\n"
-"PO-Revision-Date: 2018-08-30 08:40+0000\n"
+"PO-Revision-Date: 2018-09-02 12:20+0000\n"
 "Last-Translator: WaldiS <admin@sto.ugu.pl>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/f-droid/website-docs/pl/>\n"
 "Language: pl\n"
@@ -1449,6 +1449,10 @@ msgid ""
 "    update=no bypasses that. Note that this is useless in builds that\n"
 "    don’t use Ant.\n"
 msgstr ""
+":   Domyślnie 'aktualizacja Android' jest używana w kompilacjach Ant do generowania lub\n"
+"    aktualizacji projektu i wszystkie powiązane projekty. Określanie\n"
+"    update=no pomija to. Zauważ, że jest to bezużyteczne w takich kompilacjach\n"
+"    nie używaj Ant.\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1485,6 +1489,11 @@ msgid ""
 "    source files with this encoding. If you receive warnings during the\n"
 "    compile about character encodings, you probably need this.\n"
 msgstr ""
+":   Dodaje właściwość java.encoding do właściwości local.properties z\n"
+"    podaną wartością. Zwykle wartością będzie 'utf-8'. To jest odebrane\n"
+"    przez reguły mrówki SDK i zmusza kompilator Java do interpretacji\n"
+"    pliku źródłowego z tym kodowaniem. Jeśli otrzymasz ostrzeżenia w trakcie\n"
+"    kompilowania kodowania znaków, prawdopodobnie tego potrzebujesz.\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1511,6 +1520,10 @@ msgid ""
 "    apparent which architecture or platform the apk is designed to\n"
 "    run on.\n"
 msgstr ""
+"    Jest to przydatne w przypadkach, gdy repozytorium upstream nie zaktualizowało go\n"
+"    dla określonego tagu; zbudować arbitralną wersję; aby było oczywiste,\n"
+"    że wersja znacznie różni się od wersji poprzedzającej; lub aby pokazać,\n"
+"    która architektura lub platforma jest przeznaczona do uruchamiania.\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1543,6 +1556,11 @@ msgid ""
 "    out from the source respository - not necessarily the directory that\n"
 "    contains AndroidManifest.xml.\n"
 msgstr ""
+":   Określa względne ścieżki plików lub katalogów do usunięcia\n"
+"    przed ukończeniem kompilacji. Ścieżki odnoszą się\n"
+"    do podstawy katalogu budowania - tzn. katalogu głównego\n"
+"    struktury katalogów wyeksportowanej ze źródła - niekoniecznie\n"
+"    do katalogu zawierającego plik AndroidManifest.xml.\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1586,6 +1604,10 @@ msgid ""
 "    library name and rev is the revision or tag to use in the respective\n"
 "    source control.\n"
 msgstr ""
+":   Lista oddzielonych przecinkami bibliotek źródłowych lub projektów Androida.\n"
+"    Każda pozycja ma postać name@rev, gdzie nazwa jest predefiniowaną nazwą\n"
+"    biblioteki źródłowej, a rev jest wersją lub znacznikiem do użycia\n"
+"    w odpowiednim kontrolerze źródłowym.\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1598,6 +1620,11 @@ msgid ""
 "    do the equivalent of the legacy practice\n"
 "    `prebuild=echo \"android.library.reference.1=$$somelib$$\" >> project.properties`.\n"
 msgstr ""
+"    W przypadku projektów Ant można opcjonalnie dołączyć liczbę z dwukropkiem\n"
+"    na początku elementu srclib, aby automatycznie umieścić ją w pliku project.properties\n"
+"    jako bibliotekę pod określonym numerem. Na przykład, jeśli podasz `1:somelib@1.0`,\n"
+"    F-Droid automatycznie wykona ekwiwalent starej praktyki\n"
+"    `prebuild=echo \"android.library.reference.1=$$somelib$$\" >> project.properties`.\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1615,6 +1642,16 @@ msgid ""
 "    library directory, but it could need tweaking if you’ve changed into\n"
 "    another directory.\n"
 msgstr ""
+"    Każdy plik srclib ma plik metadanych w katalogu srclibs/ w katalogu\n"
+"    repozytorium, a kod źródłowy jest przechowywany w katalogu build/srclib/.\n"
+"    Typ repo: i Repo: są określone w taki sam sposób, jak w przypadku aplikacji;\n"
+"    Subdir: może być listą rozdzielaną przecinkami, gdy katalogi są zmieniane\n"
+"    przez upstream; Aktualizacja projektu: aktualizuje projekty w katalogu roboczym\n"
+"    i o jeden poziom niżej; Przygotuj: może być stosowany do każdego rodzaju\n"
+"    przygotowania: w szczególności, jeśli musisz zaktualizować projekt do określonego\n"
+"    celu. Możesz także użyć polecenia \\$\\$name\\$\\$ w poleceniu init/prebuild/build,\n"
+"    aby zastąpić względną ścieżkę do katalogu biblioteki, ale może wymagać zmiany,\n"
+"    jeśli zmienisz katalog na inny.\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1626,6 +1663,11 @@ msgid ""
 "    source code, F-Droid allows the following known repositories until a\n"
 "    source-built alternative is available:\n"
 msgstr ""
+"    Obecnie srclibs są niezbędne, gdy strona źródłowa używa plików jar\n"
+"    lub pobiera zależności z niezaufanych repozytoriów. Chociaż nie ma\n"
+"    gwarancji, że pliki binarne są bezpłatne i odpowiadają kodowi źródłowemu,\n"
+"    F-Droid zezwala na używanie następujących znanych repozytoriów,\n"
+"    dopóki nie zostanie udostępniona alternatywa źródłowa:\n"
 
 #. type: Bullet: '    -   '
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1676,6 +1718,9 @@ msgid ""
 "    metadata file but without the extension. Each of these patches is\n"
 "    applied to the code in turn.\n"
 msgstr ""
+":   Zastosuj poprawki. ’x’ oznacza jeden (lub więcej - oddzielone przecinkami)\n"
+"    pliki w katalogu pod metadanymi, o takiej samej nazwie jak plik metadanych,\n"
+"    ale bez rozszerzenia. Każda z tych poprawek jest stosowana do kodu po kolei.\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1693,6 +1738,12 @@ msgid ""
 "    other contexts; in particular, literal backslashes should not\n"
 "    be escaped.\n"
 msgstr ""
+":   Określa polecenie powłoki (lub polecenia - łańcuch z &&) do uruchomienia\n"
+"    przed wykonaniem kompilacji. Ukośnik odwrotny może być użyty jako\n"
+"    znak ewakuacyjny do wstawiania przecinków literowych lub jako ostatni znak\n"
+"    na linii, aby dołączyć ten wiersz do następnego. Nie ma specjalnego znaczenia\n"
+"    w innych kontekstach; w szczególności nie należy uciekać od literalnych\n"
+"    odwrotnych ukośników.\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1751,6 +1802,10 @@ msgid ""
 "    and probably accompanied by a comment explaining why it\n"
 "    is necessary.\n"
 msgstr ""
+":   Umożliwia wykluczenie jednego lub więcej plików/ścieżek z procesu\n"
+"    skanowania. Powinno to być stosowane tylko w uzasadnionych przypadkach\n"
+"    i prawdopodobnie wraz z komentarzem wyjaśniającym,\n"
+"    dlaczego jest to konieczne.\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1776,6 +1831,9 @@ msgid ""
 "    binaries - will be removed. It acts just like scanignore=, but\n"
 "    instead of ignoring the files, it removes them.\n"
 msgstr ""
+":   Podczas uruchamiania procesu skanowania, wszelkie pliki, które powodują błędy - jak\n"
+"    pliki binarne - zostaną usunięte. Działa podobnie jak scanignore=, ale\n"
+"    zamiast ignorować pliki, usuwa je.\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1785,6 +1843,9 @@ msgid ""
 "    unwanted files which are not needed for the build. Instead of\n"
 "    removing them manually via rm=, using scandelete= is easier.\n"
 msgstr ""
+"    Przydatne, gdy repozytorium kodu źródłowego zawiera pliki binarne lub inne\n"
+"    niechciane pliki, które nie są potrzebne do kompilacji. Zamiast\n"
+"    usuwać je ręcznie za pomocą rm=, użyj scandelete= jest łatwiejsze.\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1800,6 +1861,10 @@ msgid ""
 "    actual building. Any prepartion of the source code should be done\n"
 "    using ’init’ or ’prebuild’.\n"
 msgstr ""
+":   Jeśli chodzi o 'prebuild', ale działa podczas rzeczywistej fazy budowania\n"
+"    (ale przed główną kompilacją Ant/Maven). Użyj tego tylko dla działań,\n"
+"    które wykonują rzeczywisty obiekt. Każde przygotowanie\n"
+"    kodu źródłowego powinno odbyć się za pomocą 'init' lub 'prebuild'.\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
