@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-08-17 13:55+0200\n"
-"PO-Revision-Date: 2018-08-31 10:14+0000\n"
+"PO-Revision-Date: 2018-09-01 11:23+0000\n"
 "Last-Translator: mesnevi <shams@airpost.net>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/f-droid/website-docs/ru/>\n"
 "Language: ru\n"
@@ -46,17 +46,17 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
 msgid "There are two data formats:"
-msgstr ""
+msgstr "Данные бывают в двух форматах:"
 
 #. type: Bullet: '* '
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
 msgid "descriptive materials in plain text or HTML"
-msgstr ""
+msgstr "инструкции и описания в виде текста или HTML"
 
 #. type: Bullet: '* '
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
 msgid "graphics and screenshots as PNG or JPEG files"
-msgstr ""
+msgstr "изображения и скриншоты в виде файлов с расширением PNG или JPG"
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
