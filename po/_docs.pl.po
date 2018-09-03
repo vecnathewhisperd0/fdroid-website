@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-08-17 13:55+0200\n"
-"PO-Revision-Date: 2018-09-02 12:20+0000\n"
+"PO-Revision-Date: 2018-09-03 12:30+0000\n"
 "Last-Translator: WaldiS <admin@sto.ugu.pl>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/f-droid/website-docs/pl/>\n"
 "Language: pl\n"
@@ -1786,6 +1786,12 @@ msgid ""
 "    variables are available likewise: \\$\\$VERSION\\$\\$, \\$\\$VERCODE\\$\\$\n"
 "    and \\$\\$COMMIT\\$\\$.\n"
 msgstr ""
+"    Możesz użyć \\$\\$SDK\\$\\$, \\$\\$NDK\\$\\$ i \\$\\$MVN3\\$\\$ aby zastąpić \n"
+"    ścieżki do androidowych katalogów SDK i NDK oraz Maven 3\n"
+"    plik wykonywalny, np. kiedy trzeba uruchomić\n"
+"   `projekt aktualizacji androida` jawnie. Następujące zmienne\n"
+"   dla poszczególnych wersji są dostępne również: \\$\\$VERSION\\$\\$, \\$\\$VERCODE\\$\\$\n"
+"   i \\$\\$COMMIT\\$\\$.\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1874,6 +1880,9 @@ msgid ""
 "    either Ant, mvn or gradle will be executed to clean the build\n"
 "    environment right before build= (or the final build) is run.\n"
 msgstr ""
+"    Każdy obiekt, który ma miejsce przed build= zostanie zignorowany,\n"
+"    ponieważ albo Ant, mvn lub gradle zostanie wykonane, aby wyczyścić środowisko\n"
+"    kompilacji tuż przed uruchomieniem kompilacji build= (lub ostateczną kompilacją).\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1932,6 +1941,10 @@ msgid ""
 "    that require toolchains no longer included in current versions of\n"
 "    the NDK.\n"
 msgstr ""
+":   Wersja NDK do użycia w tej kompilacji. Domyślnie jest to najnowsza\n"
+"    wersja NDK, która zawierała starsze narzędzia, aby nie łamać kompilacji,\n"
+"    które wymagają narzędzi, które nie są już zawarte w aktualnych\n"
+"    wersjach NDK.\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1957,6 +1970,9 @@ msgid ""
 "    Flavours are case sensitive since the path to the output apk is\n"
 "    as well.\n"
 msgstr ""
+":   Twórz z Gradle zamiast Ant, określając, jakie smaki (ang. flavours) użyć.\n"
+"    Smaki (ang. Flavours) rozróżniają wielkość liter, ponieważ ścieżka dostępu\n"
+"    do pliku wyjściowego jest również.\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1967,6 +1983,11 @@ msgid ""
 "    least one valid flavour since ’yes’ will build all of\n"
 "    them separately.\n"
 msgstr ""
+"    Jeśli podany jest tylko jeden smak (ang. flavour) i jest \"tak\",\n"
+"    nie będzie używany smak (ang. flavour). Zwróć uwagę,\n"
+"    że w przypadku projektów ze smakami (ang. flavour) musisz\n"
+"    podać przynajmniej jeden prawidłowy smak, ponieważ \"tak\"\n"
+"    będzie je wszystkie budować osobno.\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1996,6 +2017,8 @@ msgid ""
 ":   List of Gradle tasks to be run before the assemble task in a Gradle\n"
 "    project build.\n"
 msgstr ""
+":   Lista zadań Gradle uruchamianych przed zadaniem złożenia\n"
+"    w kompilacji projektu Gradle.\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2010,6 +2033,8 @@ msgid ""
 ":   List of Gradle properties to pass via the command line to Gradle. A\n"
 "    property can be of the form `foo` or of the form `key=value`.\n"
 msgstr ""
+":   Lista właściwości Gradle do przejścia przez linię poleceń do Gradle.\n"
+"    Właściwość może mieć postać `foo` lub postać `key=value`.\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2018,6 +2043,8 @@ msgid ""
 "    For example: `gradleprops=enableFoo,someSetting=bar` will result in\n"
 "    `gradle -PenableFoo -PsomeSetting=bar`.\n"
 msgstr ""
+"    Na przykład: `gradleprops=enableFoo,someSetting=bar` spowoduje\n"
+"   `gradle -PenableFoo -PsomeSetting=bar`.\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2033,6 +2060,9 @@ msgid ""
 "    default ’release’. It can’t be given any flags, such as the path to\n"
 "    a build.xml.\n"
 msgstr ""
+":   Podaj alternatywny zestaw komend Ant (target) zamiast\n"
+"    domyślnego 'wydania'. Nie można podać żadnych flag,\n"
+"    takich jak ścieżka do pliku build.xml.\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
