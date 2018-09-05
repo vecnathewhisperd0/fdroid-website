@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-08-17 13:55+0200\n"
-"PO-Revision-Date: 2018-09-03 12:30+0000\n"
+"PO-Revision-Date: 2018-09-05 11:24+0000\n"
 "Last-Translator: WaldiS <admin@sto.ugu.pl>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/f-droid/website-docs/pl/>\n"
 "Language: pl\n"
@@ -1894,6 +1894,11 @@ msgid ""
 "    available likewise: \\$\\$VERSION\\$\\$, \\$\\$VERCODE\\$\\$\n"
 "    and \\$\\$COMMIT\\$\\$.\n"
 msgstr ""
+"    Możesz użyć \\$\\$SDK\\$\\$, \\$\\$NDK\\$\\$ and \\$\\$MVN3\\$\\$ aby zastąpić\n"
+"    ścieżki do androidowych katalogów SDK i NDK oraz odpowiednio\n"
+"    do pliku maven 3. Poniższe zmienne dotyczące kompilacji są\n"
+"    dostępne również: \\$\\$VERSION\\$\\$, \\$\\$VERCODE\\$\\$\n"
+"    i \\$\\$COMMIT\\$\\$.\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1911,6 +1916,11 @@ msgid ""
 "    ndk-build, or ’yes’ which corresponds to ’.’ . Using explicit list\n"
 "    may be useful to build multi-component projects.\n"
 msgstr ""
+":   Umożliwia budowanie natywnego kodu za pomocą skryptu ndk-build\n"
+"    przed wykonaniem głównej kompilacji Ant. Wartością może być lista\n"
+"    katalogów odnoszących się do głównego katalogu aplikacji, w którym\n"
+"    ma działać ndk-build, lub 'tak', który odpowiada ’.’ . Używanie jawnej listy\n"
+"    może być przydatne do tworzenia projektów wieloskładnikowych.\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1955,6 +1965,10 @@ msgid ""
 "    add support for more versions by adding them to ’ndk\\_paths’ in your\n"
 "    config file.\n"
 msgstr ""
+"    Buildserver obsługuje r9b ze starymi toolchains, r10e, r11c\n"
+"    r12b i najnowszą wersją od momentu napisania tego dokumentu, r13b.\n"
+"    Możesz dodać obsługę większej liczby wersji, dodając je do ’ndk\\_paths’\n"
+"    w swoim pliku konfiguracyjnym.\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2094,6 +2108,10 @@ msgid ""
 "    is correct. This takes away a useful level of sanity checking, and\n"
 "    should only be used if the values can’t be extracted.\n"
 msgstr ""
+":   Nie sprawdzaj, czy nazwa wersji i kod w wynikowym pliku APK są poprawne,\n"
+"    patrząc na wynik kompilacji - załóżmy, że metadane są poprawne.\n"
+"    Odejmuje to użyteczny poziom sprawdzania poprawności i powinien być\n"
+"    stosowany tylko wtedy, gdy wartości nie można uzyskać.\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2108,6 +2126,8 @@ msgid ""
 ":   List of Anti-Features for this specific build. They are described\n"
 "    in [AntiFeatures](#AntiFeatures).\n"
 msgstr ""
+":   Lista funkcji anty-funkcjonalnych dla tej konkretnej kompilacji.\n"
+"    Są opisane w [AntiFeatures] (#AntiFeatures).\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2133,7 +2153,7 @@ msgstr "‘Tracking’ - aplikacja śledzi i zgłasza Twoją aktywność gdzieś
 #. type: Bullet: '-   '
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "‘NonFreeNet’ - the application relies on computational services that are impossible to replace or that the replacement cannot be connected to without major changes to the app."
-msgstr ""
+msgstr "'NonFreeNet' - aplikacja opiera się na usługach obliczeniowych, których nie można zastąpić lub których wymiana nie może być połączona bez większych zmian w aplikacji."
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2191,65 +2211,65 @@ msgstr "Jeśli to pole jest obecne, aplikacja nie zostanie umieszczona w publicz
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.26 Requires Root<a name=\"Requires-Root\"></a>"
-msgstr ""
+msgstr "7.26 Wymaga root<a name=\"Requires-Root\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "Set this optional field to \"Yes\" if the application requires root privileges to be usable. This lets the client filter it out if the user so desires. Whether root is required or not, it is good to give a paragraph in the description to the conditions on which root may be asked for and the reason for it."
-msgstr ""
+msgstr "Ustaw to opcjonalne pole na \"Tak\", jeśli aplikacja wymaga przywilejów roota, aby była użyteczna. To pozwala klientowi odfiltrować go, jeśli użytkownik tego wymaga. Niezależnie od tego, czy root jest wymagany, czy nie, dobrze jest podać akapit w opisie do warunków, na których root może zostać poproszony i dlaczego."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "This is converted to (`<requirements>`) in the XML file (_index.xml_).\n"
-msgstr ""
+msgstr "To jest konwertowane na (`<requirements>`) in the XML file (_index.xml_).\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.27 Archive Policy<a name=\"Archive-Policy\"></a>"
-msgstr ""
+msgstr "7.27 Zasady archiwizacji<a name=\"Archive-Policy\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "This determines the policy for moving old versions of an app to the archive repo, if one is configured. The configuration sets a default maximum number of versions kept in the main repo, after which older ones are moved to the archive. This app-specific policy setting can override that."
-msgstr ""
+msgstr "Określa zasady przenoszenia starych wersji aplikacji do repozytorium archiwizacji, jeśli jest skonfigurowane. Konfiguracja ustawia domyślną maksymalną liczbę wersji przechowywanych w głównym repozytorium, po czym starsze są przenoszone do archiwum. To ustawienie polityki dotyczące konkretnej aplikacji może je zastąpić."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "Currently the only supported format is \"n versions\", where n is the number of versions to keep. Defaults to \"3 versions\"."
-msgstr ""
+msgstr "Obecnie jedynym obsługiwanym formatem jest \"n versions\", gdzie n to liczba wersji do zachowania. Domyślne dla \"3 versions\"."
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.28 Update Check Mode<a name=\"Update-Check-Mode\"></a>"
-msgstr ""
+msgstr "7.28 Aktualizacja trybu sprawdzania<a name=\"Update-Check-Mode\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "This determines the method using for determining when new releases are available - in other words, the updating of the Current Version and Current Version Code fields in the metadata by the `fdroid checkupdates` process."
-msgstr ""
+msgstr "Określa metodę wykorzystywaną do określenia, kiedy dostępne są nowe wersje - innymi słowy, aktualizację pól Current Version i Current Version Code w metadanych w procesie `fdroid checkupdates`."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "Valid modes are:"
-msgstr ""
+msgstr "Prawidłowe tryby to:"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "`None` - No checking is done because there’s no appropriate automated way of doing so. Updates should be checked for manually.  Use this, for example, when deploying unstable or patched versions; when builds are done in a directory different to where the AndroidManifest.xml is; if the developers use the Gradle build system and store version info in a separate file; if the developers make a new branch for each release and don’t make tags; or if you’ve changed the package name or version code logic."
-msgstr ""
+msgstr "`None` - Żadne sprawdzanie nie jest wykonywane, ponieważ nie ma odpowiedniego automatycznego sposobu, aby to zrobić. Aktualizacje należy sprawdzać ręcznie. Użyj tego na przykład podczas wdrażania wersji niestabilnej lub poprawionej; gdy kompilacje są wykonywane w katalogu innym niż miejsce w AndroidManifest.xml; jeśli programiści korzystają z systemu kompilacji Gradle i przechowują informacje o wersji w osobnym pliku; jeśli programiści tworzą nową gałąź dla każdego wydania i nie tworzą znaczników; lub jeśli zmieniłeś nazwę pakietu lub logikę kodu wersji."
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "`Static` - No checking is done - either development has ceased or new versions are not desired. This method is also used when there is no other checking method available and the upstream developer keeps us posted on new versions."
-msgstr ""
+msgstr "`Static` - Żadne sprawdzanie nie jest zakończone - albo programowanie zostało przerwane, albo nowe wersje nie są pożądane. Ta metoda jest również używana, gdy nie ma innej dostępnej metody sprawdzania, a deweloper odsyła nas do nowych wersji."
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "`RepoManifest` - At the most recent commit, the `AndroidManifest.xml` and `build.gradle` files are looked for in the directory where they were found in the the most recent build. The appropriateness of this method depends on the development process used by the application’s developers. You should not specify this method unless you’re sure it’s appropriate. For example, some developers bump the version when commencing development instead of when publishing. It will return an error if the AndroidManifest.xml has moved to a different directory or if the package name has changed. The current version that it gives may not be accurate, since not all versions are fit to be published.  Therefore, before building, it is often necessary to check if the current version has been published somewhere by the upstream developers, either by checking for apks that they distribute or for tags in the source code repository."
-msgstr ""
+msgstr "`RepoManifest` - W najnowszym zatwierdzeniu pliki `AndroidManifest.xml` i `build.gradle` są wyszukiwane w katalogu, w którym zostały znalezione w najnowszej wersji. Właściwość tej metody zależy od procesu programowania używanego przez twórców aplikacji. Nie powinieneś określać tej metody, chyba że masz pewność, że jest to właściwe. Na przykład niektórzy programiści natrafiają na wersję podczas rozpoczynania rozwoju, a nie podczas publikowania. Zwróci błąd, jeśli plik AndroidManifest.xml został przeniesiony do innego katalogu lub nazwa pakietu uległa zmianie. Obecna wersja, którą podaje, może nie być dokładna, ponieważ nie wszystkie wersje nadają się do opublikowania. Dlatego przed kompilowaniem często konieczne jest sprawdzenie, czy obecna wersja została opublikowana przez deweloperów, albo poprzez sprawdzenie dystrybuowanych apeków, albo dla znaczników w repozytorium kodu źródłowego."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2264,16 +2284,23 @@ msgid ""
 "    been implemented yet in bzr and svn, but RepoManifest may still be\n"
 "    used without it.\n"
 msgstr ""
+"    Obecnie działa dla każdego typu repozytorium w różnym zakresie,\n"
+"    z wyjątkiem typu repo srclib. W przypadku repozytoriów git, git-svn i hg,\n"
+"    możesz użyć \"RepoManifest/yourbranch\" jako UCM, aby \"twoja gałąź\"\n"
+"    była gałęzią używaną zamiast domyślnej. Domyślne wartości to \"master\" dla git,\n"
+"    \"default\" dla hg i none dla git-svn (pozostaje w tej samej gałęzi).\n"
+"    Z drugiej strony obsługa gałęzi nie została jeszcze zaimplementowana\n"
+"    w bzr i svn, ale RepoManifest może nadal być używany bez niego.\n"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "`RepoTrunk` - For svn and git-svn repositories, especially those who don’t have a bundled AndroidManifest.xml file, the Tags and RepoManifest checks will not work, since there is no version information to obtain. But, for those apps who automate their build process with the commit ref that HEAD points to, RepoTrunk will set the Current Version and Current Version Code to that number."
-msgstr ""
+msgstr "`RepoTrunk` - W przypadku repozytoriów svn i git-svn, szczególnie tych, które nie mają dołączonego pliku AndroidManifest.xml, sprawdzenia tagów i repoManifest nie będą działać, ponieważ nie ma informacji o wersji do uzyskania. Ale dla tych aplikacji, które automatyzują proces kompilowania z zatwierdzeniem, którego HEAD wskazuje, RepoTrunk ustawi bieżącą wersję i aktualną wersję kodu na ten numer."
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "`Tags` - The `AndroidManifest.xml` and `build.gradle` files in all tagged revisions in the source repository are checked, looking for the highest version code.  The appropriateness of this method depends on the development process used by the application’s developers. You should not specify this method unless you’re sure it’s appropriate. It shouldn’t be used if the developers like to tag unstable versions or are known to forget to tag releases. Like RepoManifest, it will not return the correct value if the directory containing the AndroidManifest.xml has moved. Despite these caveats, it is the often the favourite update check mode."
-msgstr ""
+msgstr "`Tagi` - Sprawdzane są pliki `AndroidManifest.xml` i `build.gradle` we wszystkich oznaczonych wersjach w repozytorium źródłowym, szukając kodu najwyższej wersji. Właściwość tej metody zależy od procesu programowania używanego przez twórców aplikacji. Nie powinieneś określać tej metody, chyba że masz pewność, że jest to właściwe. Nie należy go używać, jeśli deweloperzy lubią oznaczać wersje niestabilne lub wiadomo, że zapominają o wydaniach tagów. Podobnie jak w przypadku RepoManifest, nie zwróci poprawnej wartości, jeśli katalog zawierający plik AndroidManifest.xml został przeniesiony. Pomimo tych zastrzeżeń, jest to często ulubiony tryb sprawdzania aktualizacji."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2283,6 +2310,9 @@ msgid ""
 "    In the case of the latter, the repo URL must contain the path to the\n"
 "    trunk and tags or else no tags will be found.\n"
 msgstr ""
+"    Obecnie działa tylko dla repozytoriów git, hg, bzr i git-svn.\n"
+"    W przypadku tego ostatniego adres URL repo musi zawierać ścieżkę\n"
+"    do pnia i znaczników, w przeciwnym razie nie zostaną znalezione żadne znaczniki.\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
