@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-08-17 13:55+0200\n"
-"PO-Revision-Date: 2018-09-05 11:24+0000\n"
+"PO-Revision-Date: 2018-09-05 13:34+0200\n"
 "Last-Translator: WaldiS <admin@sto.ugu.pl>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/f-droid/website-docs/pl/>\n"
 "Language: pl\n"
@@ -716,7 +716,7 @@ msgstr "Poniższe sekcje opisują pola rozpoznane w pliku."
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "- [Categories](#Categories)  - [Author Name](#Author-Name)  - [Author Email](#Author-Email)  - [License](#License)  - [Auto Name](#Auto-Name)  - [Name](#Name)  - [Provides](#Provides)  - [Web Site](#Web-Site)  - [Source Code](#Source-Code)  - [Issue Tracker](#Issue-Tracker)  - [Changelog](#Changelog)  - [Donate](#Donate)  - [FlattrID](#FlattrID)  - [LiberapayID](#LiberapayID)  - [Bitcoin](#Bitcoin)  - [Litecoin](#Litecoin)  - [Summary](#Summary)  - [Description](#Description)  - [Maintainer Notes](#Maintainer-Notes)  - [Repo Type](#Repo-Type)  - [Repo](#Repo)  - [Binaries](#Binaries)  - [Build](#Build)  - [AntiFeatures](#AntiFeatures)  - [Disabled](#Disabled)  - [Requires Root](#Requires-Root)  - [Archive Policy](#Archive-Policy)  - [Update Check Mode](#Update-Check-Mode)  - [Update Check Ignore](#Update-Check-Ignore)  - [Vercode Operation](#Vercode-Operation)  - [Update Check Name](#Update-Check-Name)  - [Update Check Data](#Update-Check-Data)  - [Auto Update Mode](#Auto-Update-Mode)  - [Current Version](#Current-Version)  - [Current Version Code](#Current-Version-Code)  - [No Source Since](#No-Source-Since)"
-msgstr "- [Kategorie](#Categories) - [Nazwisko autora](#Author-Name) - [Adres e-mail autora](#Author-Email) - [Licencja](#License) - [Automatyczna Nazwa](#Auto-Name) - [Nazwa](#Name) - [Zapewnia] (#Provides) - [Witryna internetowa](#Web-Site) - [Kod źródłowy](#Source-Code) - [Moduł śledzenia problemów](#Issue-Tracker) - [Dziennik zmian](#Changelog) - [Darowizna](#Donate) - [FlattrID](#FlattrID) - [LiberapayID](#LiberapayID) - [Bitcoin](#Bitcoin) - [Litecoin](#Litecoin) - [Podsumowanie](#Summary) - [Opis](#Description) - [Uwagi do opiekuna](#Maintainer-Notes) - [Typ repo](#Repo-Type) - [Repo](#Repo) - [Binaria](#Binaries) - [Kompilacja](#Build) - [Anty cechy](#AntiFeatures) - [Wyłącz](#Disabled) - [Wymaga root](#Requires-Root) - [Zasady archiwizacji](#Archive-Policy) - [Tryb sprawdzania aktualizacji](#Update-Check-Mode) - [Aktualizuj Sprawdzaj Ignoruj] (#Update-Check-Ignore) - [Operacja kodu](#Vercode-Operation) - [Aktualizuj nazwę wyboru](#Update-Check-Name) - [Aktualizuj dane kontrolne](#Update-Check-Name) - [Tryb automatycznej aktualizacji](#Auto-Update-Mode) - [Aktualna wersja](#Current-Version) - [Aktualny kod wersji](#Current-Version-Code) - [Żadne Źródło](#No-Source-Since)"
+msgstr "- [Kategorie](#Categories) - [Nazwisko autora](#Author-Name) - [Adres e-mail autora](#Author-Email) - [Licencja](#License) - [Automatyczna Nazwa](#Auto-Name) - [Nazwa](#Name) - [Zapewnia](#Provides) - [Witryna internetowa](#Web-Site) - [Kod źródłowy](#Source-Code) - [Moduł śledzenia problemów](#Issue-Tracker) - [Dziennik zmian](#Changelog) - [Darowizna](#Donate) - [FlattrID](#FlattrID) - [LiberapayID](#LiberapayID) - [Bitcoin](#Bitcoin) - [Litecoin](#Litecoin) - [Podsumowanie](#Summary) - [Opis](#Description) - [Uwagi do opiekuna](#Maintainer-Notes) - [Typ repo](#Repo-Type) - [Repo](#Repo) - [Binaria](#Binaries) - [Kompilacja](#Build) - [Anty cechy](#AntiFeatures) - [Wyłącz](#Disabled) - [Wymaga root](#Requires-Root) - [Zasady archiwizacji](#Archive-Policy) - [Tryb sprawdzania aktualizacji](#Update-Check-Mode) - [Aktualizuj Sprawdzaj Ignoruj](#Update-Check-Ignore) - [Operacja kodu](#Vercode-Operation) - [Aktualizuj nazwę wyboru](#Update-Check-Name) - [Aktualizuj dane kontrolne](#Update-Check-Data) - [Tryb automatycznej aktualizacji](#Auto-Update-Mode) - [Aktualna wersja](#Current-Version) - [Aktualny kod wersji](#Current-Version-Code) - [Żadne Źródło](#No-Source-Since)"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1033,7 +1033,7 @@ msgstr "Krótkie podsumowanie tego, co jest aplikacją. Ponieważ podsumowanie j
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "__Warning__: this overrides all Summary entries [set in the app's source code](../All_About_Descriptions_Graphics_and_Screenshots)."
-msgstr "__Warning__: to zastępuje wszystkie pozycje Podsumowania [ustawione w kodzie źródłowym aplikacji] (../ All_About_Descriptions_Graphics_and_Screenshots)."
+msgstr "__Warning__: to zastępuje wszystkie pozycje Podsumowania [ustawione w kodzie źródłowym aplikacji](../All_About_Descriptions_Graphics_and_Screenshots)."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1085,7 +1085,7 @@ msgstr "ograniczenie znaków do 4000"
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "__Warning__: this overrides all Description entries [set in the app's source code](../All_About_Descriptions_Graphics_and_Screenshots)."
-msgstr "__Warning__: powoduje to pominięcie wszystkich pozycji opisu [ustawionych w kodzie źródłowym aplikacji] (../ All_About_Descriptions_Graphics_and_Screenshots)."
+msgstr "__Warning__: powoduje to pominięcie wszystkich pozycji opisu [ustawionych w kodzie źródłowym aplikacji](../All_About_Descriptions_Graphics_and_Screenshots)."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2127,7 +2127,7 @@ msgid ""
 "    in [AntiFeatures](#AntiFeatures).\n"
 msgstr ""
 ":   Lista funkcji anty-funkcjonalnych dla tej konkretnej kompilacji.\n"
-"    Są opisane w [AntiFeatures] (#AntiFeatures).\n"
+"    Są opisane w [AntiFeatures](#AntiFeatures).\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md

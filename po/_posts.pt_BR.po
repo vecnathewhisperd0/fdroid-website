@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-08-17 13:55+0200\n"
-"PO-Revision-Date: 2018-08-23 12:53+0000\n"
+"PO-Revision-Date: 2018-09-05 13:27+0200\n"
 "Last-Translator: Luis Fernando <supernando08@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/f-droid/website-posts/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -53,7 +53,7 @@ msgstr "Uso do Desenvolvedor"
 #. type: Plain text
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md
 msgid "One of the details about using OBB files in apps is that OBB files are not guaranteed to be installed by the app store.  That means the app could start, and the expected OBB files will not be there.  In that case, the app must download and install the OBB file itself.  Google Play recommends using their proprietary [Application Licensing](https://developer.android.com/google/play/licensing/index.html)  service for this, F-Droid provides a simple method that is all free software."
-msgstr "Um dos detalhes sobre o uso de arquivos OBB em aplicativos é que não é garantido que os arquivos OBB sejam instalados pela loja de aplicativos. Isso significa que o aplicativo pode ser iniciado e os arquivos OBB esperados não estarão lá. Nesse caso, o aplicativo deve baixar e instalar o próprio arquivo OBB. O Google Play recomenda o uso do serviço proprietário [Application Licensing] (https://developer.android.com/google/play/licensing/index.html) para isso, o F-Droid fornece um método simples, que é todo o software gratuito."
+msgstr "Um dos detalhes sobre o uso de arquivos OBB em aplicativos é que não é garantido que os arquivos OBB sejam instalados pela loja de aplicativos. Isso significa que o aplicativo pode ser iniciado e os arquivos OBB esperados não estarão lá. Nesse caso, o aplicativo deve baixar e instalar o próprio arquivo OBB. O Google Play recomenda o uso do serviço proprietário [Application Licensing](https://developer.android.com/google/play/licensing/index.html) para isso, o F-Droid fornece um método simples, que é todo o software gratuito."
 
 #. type: Plain text
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md
@@ -91,12 +91,12 @@ msgstr "\"Navegando para uma nova década de discussões\""
 #. type: Plain text
 #: build/_posts/md/2017-02-20-new-forum.md
 msgid "We are excited to announce the release of the new official F-Droid forum: [forum.f-droid.org](https://forum.f-droid.org)."
-msgstr "Temos o prazer de anunciar o lançamento do novo fórum oficial do F-Droid: [forum.f-droid.org] (https://forum.f-droid.org)."
+msgstr "Temos o prazer de anunciar o lançamento do novo fórum oficial do F-Droid: [forum.f-droid.org](https://forum.f-droid.org)."
 
 #. type: Plain text
 #: build/_posts/md/2017-02-20-new-forum.md
 msgid "We have been working hard to [revise the website](https://gitlab.com/groups/fdroid/milestones/launch?title=Launch)  in order to make it easier to modernize, accept contributions, and internationalise.  The main part of this is switching the underlying technology from WordPress to [Jekyll](https://jekyllrb.com/).  However, this caused us to think about the forum as it was powered by a WordPress plugin.  Quickly [we decided to drop the old forum](https://gitlab.com/fdroid/fdroid-website/issues/6) in favor of an indepentently hosted one and chose some modern software called [Discourse](https://www.discourse.org)."
-msgstr "Temos trabalhado duro para [revisar o site] (https://gitlab.com/groups/fdroid/milestones/launch?title=Launch) para facilitar a modernização, a aceitação de contribuições e a internacionalização. A principal parte disso é mudar a tecnologia subjacente do WordPress para o [Jekyll] (https://jekyllrb.com/). No entanto, isso nos levou a pensar no fórum como ele foi alimentado por um plugin WordPress. Rapidamente [decidimos abandonar o fórum antigo] (https://gitlab.com/fdroid/fdroid-website/issues/6) em favor de um hospedado indepententemente e escolhemos alguns softwares modernos chamados [Discourse] (https: // www.discourse.org)."
+msgstr "Temos trabalhado duro para [revisar o site](https://gitlab.com/groups/fdroid/milestones/launch?title=Launch) para facilitar a modernização, a aceitação de contribuições e a internacionalização. A principal parte disso é mudar a tecnologia subjacente do WordPress para o [Jekyll](https://jekyllrb.com/). No entanto, isso nos levou a pensar no fórum como ele foi alimentado por um plugin WordPress. Rapidamente [decidimos abandonar o fórum antigo](https://gitlab.com/fdroid/fdroid-website/issues/6) em favor de um hospedado indepententemente e escolhemos alguns softwares modernos chamados [Discourse](https: // www.discourse.org)."
 
 #. type: Plain text
 #: build/_posts/md/2017-02-20-new-forum.md
@@ -106,7 +106,7 @@ msgstr "O fórum antigo tinha muitas desvantagens: em primeiro lugar, você não
 #. type: Plain text
 #: build/_posts/md/2017-02-20-new-forum.md
 msgid "With Discourse, we hope to breathe life back into the F-Droid community.  While app submissions recently [moved to GitLab](https://gitlab.com/fdroid/rfp), and bug reports/feature requests still live in GitLab, the new forum is the new centre for all discussions related to F-Droid.  All users of F-Droid, whether discussing the client or the server tools, can help each other there."
-msgstr "Com Discurso, esperamos devolver a vida à comunidade F-Droid. Embora os envios de aplicativos recentemente [tenham sido transferidos para o GitLab] (https://gitlab.com/fdroid/rfp) e os relatórios de bugs / solicitações de recursos ainda existam no GitLab, o novo fórum é o novo centro para todas as discussões relacionadas ao F-Droid. Todos os usuários do F-Droid, seja discutindo o cliente ou as ferramentas do servidor, podem ajudar uns aos outros."
+msgstr "Com Discurso, esperamos devolver a vida à comunidade F-Droid. Embora os envios de aplicativos recentemente [tenham sido transferidos para o GitLab](https://gitlab.com/fdroid/rfp) e os relatórios de bugs / solicitações de recursos ainda existam no GitLab, o novo fórum é o novo centro para todas as discussões relacionadas ao F-Droid. Todos os usuários do F-Droid, seja discutindo o cliente ou as ferramentas do servidor, podem ajudar uns aos outros."
 
 #. type: Plain text
 #: build/_posts/md/2017-02-20-new-forum.md
@@ -116,17 +116,17 @@ msgstr "Devido a limitações temporárias de todos os voluntários do F-Droid, 
 #. type: Plain text
 #: build/_posts/md/2017-02-20-new-forum.md
 msgid "One interesting new feature is [local communities](https://forum.f-droid.org/c/other-languages).  In these communities you can discuss in your mother tongue about all topics related to F-Droid and free software on Android.  At the moment there is already a [German group](https://forum.f-droid.org/c/other-languages/german)."
-msgstr "Um novo recurso interessante é [comunidades locais] (https://forum.f-droid.org/c/other-languages). Nestas comunidades você pode discutir em sua língua materna sobre todos os tópicos relacionados ao F-Droid e software livre no Android. No momento já existe um [grupo alemão] (https://forum.f-droid.org/c/other-languages/german)."
+msgstr "Um novo recurso interessante é [comunidades locais](https://forum.f-droid.org/c/other-languages). Nestas comunidades você pode discutir em sua língua materna sobre todos os tópicos relacionados ao F-Droid e software livre no Android. No momento já existe um [grupo alemão](https://forum.f-droid.org/c/other-languages/german)."
 
 #. type: Plain text
 #: build/_posts/md/2017-02-20-new-forum.md
 msgid "If you want to create your own local community, please open a topic in the [\"Other languages\" category](https://forum.f-droid.org/c/other-languages) and we will discuss everything else there."
-msgstr "Se você quiser criar sua própria comunidade local, por favor, abra um tópico na categoria [\"Outros Idiomas\"] (https://forum.f-droid.org/c/other-languages) e discutiremos todo o resto."
+msgstr "Se você quiser criar sua própria comunidade local, por favor, abra um tópico na categoria [\"Outros Idiomas\"](https://forum.f-droid.org/c/other-languages) e discutiremos todo o resto."
 
 #. type: Plain text
 #: build/_posts/md/2017-02-20-new-forum.md
 msgid "Finally, there is one last insight into the current development of F-Droid: we plan to use Discourse for [comments on the website](https://gitlab.com/fdroid/fdroid-website/issues/36)  which gets us closer to [comments on single applications](https://gitlab.com/fdroid/fdroidclient/issues/646)."
-msgstr "Finalmente, há um último insight sobre o desenvolvimento atual do F-Droid: planejamos usar o Discourse para [comentários no site] (https://gitlab.com/fdroid/fdroid-website/issues/36) que nos permite mais perto de [comentários em aplicativos únicos] (https://gitlab.com/fdroid/fdroidclient/issues/646)."
+msgstr "Finalmente, há um último insight sobre o desenvolvimento atual do F-Droid: planejamos usar o Discourse para [comentários no site](https://gitlab.com/fdroid/fdroid-website/issues/36) que nos permite mais perto de [comentários em aplicativos únicos](https://gitlab.com/fdroid/fdroidclient/issues/646)."
 
 #. type: Plain text
 #: build/_posts/md/2017-02-20-new-forum.md
@@ -142,12 +142,12 @@ msgstr "\"Um novo UX 6 anos na tomada\""
 #. type: Plain text
 #: build/_posts/md/2017-04-04-new-ux.md
 msgid "F-Droid has been a part of the Android ecosystem for over 6 years now.  Since then, over 2000 apps have been built for the main repository, many [great features have been added](https://gitlab.com/fdroid/fdroidclient/blob/master/CHANGELOG.md), the client has been translated into over 40 different languages, and much more."
-msgstr "O F-Droid faz parte do ecossistema Android há mais de 6 anos. Desde então, mais de 2000 aplicativos foram criados para o repositório principal, muitos [ótimos recursos foram adicionados] (https://gitlab.com/fdroid/fdroidclient/blob/master/CHANGELOG.md), o cliente foi traduzido para mais de 40 idiomas diferentes e muito mais."
+msgstr "O F-Droid faz parte do ecossistema Android há mais de 6 anos. Desde então, mais de 2000 aplicativos foram criados para o repositório principal, muitos [ótimos recursos foram adicionados](https://gitlab.com/fdroid/fdroidclient/blob/master/CHANGELOG.md), o cliente foi traduzido para mais de 40 idiomas diferentes e muito mais."
 
 #. type: Plain text
 #: build/_posts/md/2017-04-04-new-ux.md
 msgid "However, the F-Droid UX has never changed much from [the original three tab layout](https://f-droid.org/posts/f-droid-repository-alpha/):"
-msgstr "No entanto, o F-Droid UX nunca mudou muito de [o layout original de três abas] (https://f-droid.org/posts/f-droid-repository-alpha/):"
+msgstr "No entanto, o F-Droid UX nunca mudou muito de [o layout original de três abas](https://f-droid.org/posts/f-droid-repository-alpha/):"
 
 #. type: Plain text
 #: build/_posts/md/2017-04-04-new-ux.md
@@ -158,8 +158,8 @@ msgid ""
 " * ![Version 0.102]({{ site.baseurl }}/assets/posts/2017-04-04-new-ux/0.102.png)\n"
 msgstr ""
 "{: .gallery}\n"
-" *! [Versão 0.11] ({{site.baseurl}} / assets / posts / 2017-04-04-new-ux / 0.11.png)\n"
-" *! [Versão 0.102] ({{site.baseurl}} / assets / posts / 2017-04-04-new-ux / 0.102.png)\n"
+" *! [Versão 0.11]({{ site.baseurl }}/assets/posts/2017-04-04-new-ux/0.11.png)\n"
+" *! [Versão 0.102]({{ site.baseurl }}/assets/posts/2017-04-04-new-ux/0.102.png)\n"
 
 #. type: Plain text
 #: build/_posts/md/2017-04-04-new-ux.md
@@ -241,7 +241,7 @@ msgstr "\"Anunciando novas bibliotecas: os canais de atualização do F-Droid\""
 #: build/_posts/md/2017-06-01-announcing-new-libraries-f-droid-update-channels.md
 msgid "In order to complete the F-Droid distribution ecosystem, we are introducing [__F-Droid Update Channels__](https://gitlab.com/fdroid/update-channels).  It is a suite of libraries for apps to find updates, no matter from where it was originally downloaded.  In many parts of the world, it is very common to get Android APKs outside of the app stores where the developers upload them."
 msgstr ""
-"Para completar o ecossistema de distribuição do F-Droid, estamos introduzindo [__F-Droid Update Channels__] (https://gitlab.com/fdroid/update-channels). É um conjunto de bibliotecas para aplicativos para encontrar atualizações, independentemente de onde foi originalmente baixado. Em muitas partes do mundo, é muito comum encontrar APKs Android fora das lojas de aplicativos em que os desenvolvedores os enviam.\n"
+"Para completar o ecossistema de distribuição do F-Droid, estamos introduzindo [__F-Droid Update Channels__](https://gitlab.com/fdroid/update-channels). É um conjunto de bibliotecas para aplicativos para encontrar atualizações, independentemente de onde foi originalmente baixado. Em muitas partes do mundo, é muito comum encontrar APKs Android fora das lojas de aplicativos em que os desenvolvedores os enviam.\n"
 "Tradução Português (Brasil)"
 
 #. type: Bullet: '* '
