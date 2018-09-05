@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
-"POT-Creation-Date: 2018-09-05 14:12+0200\n"
-"PO-Revision-Date: 2018-09-01 11:23+0000\n"
+"POT-Creation-Date: 2018-08-17 13:55+0200\n"
+"PO-Revision-Date: 2018-09-05 12:27+0000\n"
 "Last-Translator: mesnevi <shams@airpost.net>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/f-droid/website-docs/ru/>\n"
 "Language: ru\n"
@@ -87,7 +87,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
 msgid "The last important detail is that the texts in the app's metadata file will override all other descriptive texts from _Fastlane_/_Triple-T_. That is specifically [Name](../Build_Metadata_Reference/#Name)/[AutoName](../Build_Metadata_Reference/#AutoName), [Summary](../Build_Metadata_Reference/#Summary), and [Description](../Build_Metadata_Reference/#Description).  Once an app's descriptive texts have been moved into the source repo, then file a [merge request](https://gitlab.com/fdroid/fdroiddata/merge_requests)  or [issue](https://gitlab.com/fdroid/fdroiddata/issues) to remove _Summary_ and _Description_ from the app's metadata file."
-msgstr ""
+msgstr "Напоследок: обратите внимание, что содержимое файла мета-данных переписывает любые другие тексты описаний из _Fastlane_/_Triple-T_. Это касается [имени](../Build_Metadata_Reference/#Name)/[имени приложения из исходного кода](../Build_Metadata_Reference/#AutoName), [обзора приложения](../Build_Metadata_Reference/#Summary) и [его описания](../Build_Metadata_Reference/#Description).  Как только текст описания появляется в репозитории с исходным кодом, можно [создавать запрос на включение](https://gitlab.com/fdroid/fdroiddata/merge_requests)  или [задачу](https://gitlab.com/fdroid/fdroiddata/issues), чтобы удалить секцию _Summary_ and _Description_ из файла мета-данных приложения."
 
 #. type: Title ##
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
