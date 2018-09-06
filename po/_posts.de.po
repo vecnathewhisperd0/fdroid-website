@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-09-05 14:12+0200\n"
-"PO-Revision-Date: 2018-09-06 20:03+0000\n"
+"PO-Revision-Date: 2018-09-07 09:49+0000\n"
 "Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\n"
 "Language: de\n"
@@ -3849,7 +3849,7 @@ msgstr "\"TWIF 18: Aktualisierung der Navigations-Apps\" "
 #. type: Plain text
 #: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
 msgid "This Week in F-Droid 18, Week 34, 2018."
-msgstr "Diese Woche in F-Droid 18, Woche 34, 2018"
+msgstr "Diese Woche in F-Droid 18, Woche 34, 2018."
 
 #. type: Plain text
 #: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
@@ -3863,7 +3863,7 @@ msgstr ""
 #: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
 #, no-wrap
 msgid "**[F-Droid](https://f-droid.org/)** is a **[repository](https://f-droid.org/packages/)** of verified **[free and open source](https://en.wikipedia.org/wiki/Free_and_open-source_software)** Android apps, a **[client](https://f-droid.org/app/org.fdroid.fdroid)** to access it, as well as a whole \"app store kit\", providing all the tools needed to set up and run an app store. It is a community-run free software project developed by a wide range of contributors. This is their story this past week.\n"
-msgstr "**[F-Droid](https://f-droid.org/)** ist ein **[Repository](https://f-droid.org/de/packages/)** verifizierter **[Free & Open Source](https://de.wikipedia.org/wiki/Free/Libre_Open_Source_Software)** Android Apps, ein **[Client](https://f-droid.org/app/org.fdroid.fdroid)**, um darauf zuzugreifen, sowie ein ganzes \"App Store Set\", das alle notwendigen Werkzeuge zum Einrichten und Betreiben eines App Stores bietet. Es ist ein gemeinschaftlich geführtes freies Softwareprojekt, das von einer Vielzahl von Mitwirkenden entwickelt wurde. Das ist ihre Geschichte der letzten Woche."
+msgstr "**[F-Droid](https://f-droid.org/)** ist ein **[Repository](https://f-droid.org/de/packages/)** verifizierter **[Free & Open Source](https://de.wikipedia.org/wiki/Free/Libre_Open_Source_Software)** Android Apps, ein **[Client](https://f-droid.org/app/org.fdroid.fdroid)**, um darauf zuzugreifen, sowie ein ganzes \"App Store Set\", das alle notwendigen Werkzeuge zum Einrichten und Betreiben eines App Stores bietet. Es ist ein gemeinschaftlich geführtes freies Softwareprojekt, das von einer Vielzahl von Mitwirkenden entwickelt wurde. Das ist ihre Geschichte der letzten Woche.\n"
 
 #. type: Title ####
 #: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
@@ -3966,7 +3966,7 @@ msgstr "Aktualisierte Apps"
 #. type: Plain text
 #: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
 msgid "In total, 62 apps were updated this week. Here are the highlights."
-msgstr "Insgesamt wurden diese Woche 62 Apps aktualisiert. Hier die Höhepunkte:"
+msgstr "Insgesamt wurden diese Woche 62 Apps aktualisiert. Hier die Höhepunkte."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
@@ -4736,7 +4736,7 @@ msgstr ""
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 #, no-wrap
 msgid "Repomaker"
-msgstr ""
+msgstr "Repomaker"
 
 #. type: Plain text
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
