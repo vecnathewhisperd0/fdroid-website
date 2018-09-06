@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-09-05 14:12+0200\n"
 "PO-Revision-Date: 2018-09-07 09:49+0000\n"
-"Last-Translator: ssantos <ssantos@web.de>\n"
+"Last-Translator: C. Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -4383,23 +4383,23 @@ msgstr "Zunächst dachten wir, wir können das lösen, indem wir eine dauerhafte
 #. type: Plain text
 #: build/_posts/md/2018-09-03-replacing-gcm-in-tutanota.md
 msgid "We initially planned to explain users how they can hide these persistent notifications but that wasn’t a great user experience so we had to find a better solution. We leveraged Android Job mechanism to launch our service periodically (at least every 15 minutes), and we also try to keep it alive afterwards. We don’t hold WakeLocks manually – the system does this for us. We were able to ditch persistent notifications altogether. Even if notifications sometimes have a small delay, it will always be received and emails are there instantly."
-msgstr ""
+msgstr "Wir planten ursprünglich, den Nutzern zu erklären, wie sie diese dauerhaften Benachrichtigungen ausblenden können, aber das war kein tolles Anwendererlebnis, so mussten wir eine bessere Lösung finden. Wir nutzten den Android Job-Mechanismus aus, um unseren Dienst regelmäßig (wenigstens alle 15 Minuten) zu starten, und wir versuchen auch, ihn danach am Leben zu halten. Wir führen manuell keine WakeLocks durch – das System macht das für uns. Wir konnten die Dauerbenachrichtigungen ganz und gar verwerfen. Selbst wenn die Benachrichtigungen manchmal eine kleine Verspätung haben, werden sie immer ankommen und die E-Mails sind sofort da."
 
 #. type: Plain text
 #: build/_posts/md/2018-09-03-replacing-gcm-in-tutanota.md
 msgid "In the end, we had to do some work but it was totally worth it. Our new app is still in beta but thanks to non-blocking IO, we’ve been able to maintain thousands of simultaneous connections without problems. We freed our users from Google Play Services requirement. Finally, everyone is able to [get the Tutanota app on F-Droid](https://f-droid.org/en/packages/de.tutao.tutanota/). The system now combines both: good power efficiency and speed."
-msgstr ""
+msgstr "Am Ende hatten wir einiges an Arbeit zu leisten, aber die war es absolut wert. Unsere neue App ist noch eine Beta-Version aber dank der IO-Entsperrung, sind wir in der Lage tausende simultaner Verbindungen ohne Probleme zu unterhalten. Wir haben unsere Anwender von der “Google Play Services“-Pflicht erlöst. Schlussendlich kann jeder [die Tutanota-App auf F-Droid erhalten](https://f-droid.org/en/packages/de.tutao.tutanota/). Das System kombiniert nun beides: gute Energieeffizienz und Geschwindigkeit."
 
 #. type: Title ####
 #: build/_posts/md/2018-09-03-replacing-gcm-in-tutanota.md
 #, no-wrap
 msgid "Final thought: Every user should be able to choose a \"Notification Provider\" for every app"
-msgstr ""
+msgstr "Schlussgedanke: Jeder Nutzer sollte die Möglichkeit haben, für jede App einen \"Benachrichtigungsanbieter\" auszuwählen"
 
 #. type: Plain text
 #: build/_posts/md/2018-09-03-replacing-gcm-in-tutanota.md
 msgid "Wouldn’t it be great if the user could just pick a “push notifications provider” in the phone settings and OS managed all these hard details by itself? So every app, which doesn’t want to be policed by the platform owner, didn’t have to invent the system anew? It could be end-to-end encrypted between the app and the app server. There’s no real technical difficulty in that, but as long as our systems are controlled by big players who do not allow this, we have to solve it by ourselves."
-msgstr ""
+msgstr "Wäre es nicht wunderbar, wenn der Anwender einfach einen “Push-Benachrichtigungsanbieter” in den Telefoneinstellungen wählen könnte und das OS regelt all diese schwierigen Details von selbst? So müsste nicht jede App, die nicht durch den Plattformeigentümer kontrolliert werden möchte, das System neu erfinden? Es könnte zwischen der App und dem App-Server End-zu-End-verschlüsselt sein. Es gibt keine wirklichen technischen Schwierigkeiten damit, aber so lange unsere Systeme von Großkonzernen kontrolliert werden, die das nicht zulassen, müssen wir es selbst regeln."
 
 #. type: Title #
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
