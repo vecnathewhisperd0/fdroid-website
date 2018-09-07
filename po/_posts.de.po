@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-09-07 12:52+0200\n"
-"PO-Revision-Date: 2018-09-07 09:49+0000\n"
+"PO-Revision-Date: 2018-09-08 15:18+0000\n"
 "Last-Translator: C. Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\n"
 "Language: de\n"
@@ -4284,7 +4284,7 @@ msgstr "Die Herausforderung Google’s FCM zu ersetzen"
 #. type: Plain text
 #: build/_posts/md/2018-09-03-replacing-gcm-in-tutanota.md
 msgid "The Tutanota apps are Libre software, and we wanted to [publish our Android app on F-Droid](https://tutanota.com/blog/posts/open-source-email). We wanted our users to be able to use Tutanota on every ROM and every device, without the control of a third-party like Google. We decided to take on the challenge and to build our own push notification service."
-msgstr "Tutanota-Apps sind Libre Software, und wir wollten [unsere Android-App auf F-Droid veröffentlichen](https://tutanota.com/blog/posts/open-source-email). Wir wollten, dass unsere Anwender in der Lage sind, Tutanota mit jedem ROM und auf jedem Gerät verwenden können, ohne Überwachung durch einen Drittanbieter wie Google. Wir entschieden, die Herausforderung anzunehmen und unseren eigenen Push-Benachrichtungsdienst zu programmieren."
+msgstr "Tutanota-Apps sind Libre Software, und wir wollten [unsere Android-App auf F-Droid veröffentlichen](https://tutanota.com/blog/posts/open-source-email). Wir wollten, dass unsere Anwender in der Lage sind, Tutanota mit jedem ROM und auf jedem Gerät zu verwenden, ohne Überwachung durch einen Drittanbieter wie Google. Wir entschieden, die Herausforderung anzunehmen und unseren eigenen Push-Benachrichtungsdienst zu programmieren."
 
 #. type: Plain text
 #: build/_posts/md/2018-09-03-replacing-gcm-in-tutanota.md
@@ -4367,7 +4367,7 @@ msgstr "Benutzer können einen Benachrichtigungs-Token aus ihren Einstellungen l
 #. type: Plain text
 #: build/_posts/md/2018-09-03-replacing-gcm-in-tutanota.md
 msgid "To receive notifications, we leverage Android capabilities. We run a background service which keeps the connection to the server open, similar to what the FCM process does. Another difficulty was caused by the Doze mode, introduced in Android M. The Doze, which is turned on after a period of inactivity, among other things prevents background processes to access the network. As you can imagine, this prevents our app from receiving notifications."
-msgstr "Um Benachrichtigungen zu erhalte, nutzen wir die Android-Fähigkeiten zu unserem Vorteil. Wir betreiben einen Hintergrunddienst, der die Verbindung zum Server offen hält, ähnlich dem, was der FCM-Prozess macht. Eine weitere Schwierigkeit wurde durch den Doze-Modus verursacht, der in Android M eingeführt wurde. Doze, das sich nach einer Zeitspanne der Inaktivität einschaltet, hindert, unter anderen Dingen, Hintergrundprozesse ins Netz zu gelangen. Wie Sie sich vorstellen können, hindert es unsere App am Empfangen von Benachrichtigungen."
+msgstr "Um Benachrichtigungen zu erhalten, nutzen wir die Android-Fähigkeiten zu unserem Vorteil. Wir betreiben einen Hintergrunddienst, der die Verbindung zum Server offen hält, ähnlich dem, was der FCM-Prozess macht. Eine weitere Schwierigkeit wurde durch den Doze-Modus verursacht, der in Android M eingeführt wurde. Doze, das sich nach einer Zeitspanne der Inaktivität einschaltet, hindert, unter anderen Dingen, Hintergrundprozesse ins Netz zu gelangen. Wie Sie sich vorstellen können, hindert es unsere App am Empfangen von Benachrichtigungen."
 
 #. type: Plain text
 #: build/_posts/md/2018-09-03-replacing-gcm-in-tutanota.md
@@ -4407,24 +4407,22 @@ msgstr "Wäre es nicht wunderbar, wenn der Anwender einfach einen “Push-Benach
 
 #. type: Title #
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "\"Second Security Audit Results\""
-msgstr "\"Bevorstehendes Sicherheitsaudit\""
+msgstr "\"Ergebnisse des zweiten Sicherheitsaudits\""
 
 #. type: Plain text
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "The second full security audit of F-Droid is complete.  We are satisfied with the results, which confirmed again that the core security model and standard operations are solid.  The audit pointed out issues in the core build process where we currently rely on manual review by trusted contributors to protect us.  This audit also did show that we still have work to do to achieve our goal of keeping the Android client secure even when connected to a malicious server, for example, if an untrusted repository is manually added that was created by its operator to exploit.  The full audit report is available: [report_otf_fdroid.pdf](https://www.radicallyopensecurity.com/report_otf_fdroid.pdf)  [_(cached copy)_]({{ site.baseurl }}/assets/posts/2018-09-04-second-security-audit-results/report_otf_fdroid.pdf)."
-msgstr ""
+msgstr "Das zweite komplette Sicherheitsaudit von F-Droid ist abgeschlossen.  Wir sind zufrieden mit den Ergebnissen, die erneut bestätigten, dass das Kernsicherheitsmodell und die Standardoperationen solide sind.  Das Audit wies auf Probleme im Core-Build-Prozess hin, wo wir momentan auf manuelle Überprüfung durch vertrauenswürdige Mitwirkende vertrauen, um uns zu schützen.  Dieses Audit zeigte auch, dass wir noch daran arbeiten müssen, um unser Ziel zu erreichen, dass der Android-Client selbst dann sicher bleibt, wenn er sich mit einem bösartigen Server verbindet, z. B. wenn ein nicht vertrauenswürdiges Repository manuell eingefügt wird, das von seinem Betreiber zu Exploit-Zwecken erstellt wurde. Der vollständige Auditbericht ist hier abrufbar: [report_otf_fdroid.pdf](https://www.radicallyopensecurity.com/report_otf_fdroid.pdf)  [_(cached copy)_]({{ site.baseurl }}/assets/posts/2018-09-04-second-security-audit-results/report_otf_fdroid.pdf)."
 
 #. type: Plain text
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
-#, fuzzy
 msgid "The audit was conducted by [Radically Open Security](https://www.radicallyopensecurity.com), which is a natural partner for F-Droid since they share a focus on free software and open processes.  Thanks to [Open Tech Fund](https://opentech.fund) for finding the auditor and covering the costs of hiring them."
-msgstr "Wir haben mit der Durchführung des zweiten Sicherheitsaudits des F-Droid-Aufbaus begonnen. Das Audit wird von [Radically Open Security](https://www.radicallyopensecurity.com) geleitet werden, die naturgemäß Partner von F-Droid sind, da sie unseren Schwerpunkt auf freie Software und offene Abläufe teilen. Sobald wir die Ergebnisse erhalten und uns mit irgendwelchen gefundenen Problemen befasst haben, werden wir den vollständigen, ungeänderten Auditbericht hier veröffentlichen.  Dank gebührt [Open Tech Fund](https://opentech.fund)  für die Übernahme der Kosten für den Auditorlohn."
+msgstr "Das Audit wurde von [Radically Open Security](https://www.radicallyopensecurity.com) geleitet, die naturgemäß Partner von F-Droid sind, da sie den Schwerpunkt auf freie Software und offene Prozesse mit uns teilen.  Dank gebührt [Open Tech Fund](https://opentech.fund)  für die Auditorensuche und die Übernahme deren Kosten."
 
 #. type: Plain text
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
-#, fuzzy
 msgid "For more information about F-Droid's security practices, see the documentation about the [Security Model]({{ site.baseurl }}/docs/Security_Model/)."
 msgstr "Weitere Informationen über F-Droid's Schutzvorkehrungen, finden Sie in der Dokumentation unter [Sicherheitsmodell]({{ site.baseurl }}/docs/Security_Model/)."
 
