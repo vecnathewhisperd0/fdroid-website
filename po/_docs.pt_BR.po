@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-09-12 15:38+0200\n"
 "PO-Revision-Date: 2018-09-14 15:08+0000\n"
-"Last-Translator: Jackson S de Jesus <jackson@bsd.com.br>\n"
+"Last-Translator: RD WebDesign <weblate@rdwebdesign.com.br>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/f-droid/website-docs/pt_BR/>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
@@ -4368,7 +4368,7 @@ msgstr ""
 #: build/_docs/md/How_to_Help.md
 #, no-wrap
 msgid "Translate"
-msgstr "Traduza"
+msgstr "Traduzir"
 
 #. type: Plain text
 #: build/_docs/md/How_to_Help.md
