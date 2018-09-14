@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-09-14 17:11+0200\n"
-"PO-Revision-Date: 2018-09-10 12:21+0000\n"
+"PO-Revision-Date: 2018-09-15 08:33+0000\n"
 "Last-Translator: WaldiS <admin@sto.ugu.pl>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/f-droid/website-posts/pl/>\n"
 "Language: pl\n"
@@ -3726,9 +3726,8 @@ msgstr "{{ page.featured }} **[Öffi](https://f-droid.org/app/de.schildbach.oeff
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-16-twif-17-the-reproducible-builds-and-encrypted-e-mail-edition.md
-#, fuzzy
 msgid "{{ page.featured }} **[Tutanota](https://f-droid.org/app/de.tutao.tutanota)** has [dropped on F-Droid](https://tutanota.com/blog/posts/open-source-email)! We are happy to see how enthusiastic Tutao, the company behind Tutanota, is about F-Droid and free software, having [rewritten their app from scratch](https://tutanota.com/blog/posts/secure-mail-open-source) so it could be included in our main repository. Furthermore, they take special measures to avoid tracking you, and end-to-end encryption and two-factor authentication are core features."
-msgstr "{{ page.featured }} **[Tutanota](https://f-droid.org/app/de.tutao.tutanota)** [spadła na F-Droida](https://tutanota.com/blog/posts/open-source-email)! Cieszymy się, widząc, jak entuzjastyczne Tutao, firma stojąca za Tutanova, opowiada o F-Droid i wolnym oprogramowaniu, po [przepisaniu swojej aplikacji od zera](https://tutanota.com/blog/posts/secure-mail-open-source), aby mógł zostać włączony do naszego głównego repozytorium. Ponadto podejmują specjalne środki w celu uniknięcia śledzenia użytkownika, a najważniejsze funkcje to szyfrowanie typu end-to-end i uwierzytelnianie dwuskładnikowe."
+msgstr "{{ page.featured }} **[Tutanota](https://f-droid.org/app/de.tutao.tutanota)** [spadł na F-Droida](https://tutanota.com/blog/posts/open-source-email)! Cieszymy się, widząc, jak entuzjastyczne Tutao, firma stojąca za Tutanotą, opowiada o F-Droid i wolnym oprogramowaniu, po [przepisaniu swojej aplikacji od zera](https://tutanota.com/blog/posts/secure-mail-open-source), aby mógł zostać włączony do naszego głównego repozytorium. Ponadto podejmują specjalne środki w celu uniknięcia śledzenia użytkownika, a najważniejsze funkcje to szyfrowanie typu end-to-end i uwierzytelnianie dwuskładnikowe."
 
 #. type: Plain text
 #: build/_posts/md/2018-08-16-twif-17-the-reproducible-builds-and-encrypted-e-mail-edition.md
@@ -3846,13 +3845,12 @@ msgstr "**[Video Transcoder](https://f-droid.org/app/protect.videoeditor)** zost
 #: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
 #, no-wrap
 msgid "\"TWIF 18: Navigation Apps Updated\" "
-msgstr ""
+msgstr "\"TWIF 18: Zaktualizowano aplikacje nawigacyjne\" "
 
 #. type: Plain text
 #: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
-#, fuzzy
 msgid "This Week in F-Droid 18, Week 34, 2018."
-msgstr "W tym tygodniu w F-Droid, Tydzień 30, 2018"
+msgstr "W tym tygodniu w F-Droid 18, Tydzień 34, 2018."
 
 #. type: Plain text
 #: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
@@ -3861,6 +3859,8 @@ msgid ""
 "Highlights: 11 newly released apps, OsmAnd and Maps receive major updates, upcoming talks at F/LOSS conferences, and preliminary discussion on efforts to decentralise F-droid index creation.\n"
 "<!--more-->\n"
 msgstr ""
+"Najważniejsze informacje: 11 nowo wydanych aplikacji, OsmAnd i Mapy otrzymują ważne aktualizacje, nadchodzące wykłady na konferencjach F/LOSS oraz wstępną dyskusję na temat prób decentralizacji tworzenia indeksu F-droid.\n"
+"<!--more-->\n"
 
 #. type: Plain text
 #: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
@@ -3872,7 +3872,7 @@ msgstr "[F-Droid](https://f-droid.org/) to [repozytorium](https://f-droid.org/pa
 #: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
 #, no-wrap
 msgid "Upcoming Conferences"
-msgstr ""
+msgstr "Nadchodzące konferencje"
 
 #. type: Plain text
 #: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
@@ -3883,7 +3883,7 @@ msgstr ""
 #: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
 #, no-wrap
 msgid "Decentralized Index Generation"
-msgstr ""
+msgstr "Zdecentralizowane generowanie indeksu"
 
 #. type: Plain text
 #: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
@@ -3893,9 +3893,9 @@ msgstr ""
 
 #. type: Title ####
 #: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Added Apps"
-msgstr "Usunięte aplikacje"
+msgstr "Dodano aplikacje"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
@@ -3904,79 +3904,74 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
-#, fuzzy
 msgid "**[IPCam Demo](https://f-droid.org/app/com.github.niqdev.ipcam)**: MJPEG video streaming on Android"
-msgstr "[Binaural Beats](https://f-droid.org/app/com.github.axet.binauralbeats): Pomocnik medytacji"
+msgstr "**[IPCam Demo](https://f-droid.org/app/com.github.niqdev.ipcam)**: Strumieniowanie wideo MJPEG w systemie Android"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
 msgid "**[FIND3 Scanner](https://f-droid.org/app/com.internalpositioning.find3.find3app)**: Scan Bluetooth and WiFi for FIND3"
-msgstr ""
+msgstr "**[FIND3 Scanner](https://f-droid.org/app/com.internalpositioning.find3.find3app)**: Zeskanuj Bluetooth i Wi-Fi dla FIND3"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
 msgid "**[Wanicchou](https://f-droid.org/app/com.waifusims.wanicchou)**: Online Japanese-Japanese Dictionary with Anki support"
-msgstr ""
+msgstr "**[Wanicchou](https://f-droid.org/app/com.waifusims.wanicchou)**: Internetowy słownik japońsko-japoński z obsługą Anki"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
-#, fuzzy
 msgid "**[wownerujo](https://f-droid.org/app/com.wownero.wownerujo)**: Wownero wallet"
-msgstr "[Open Sudoku](https://f-droid.org/app/org.moire.opensudoku): Gra Sudoku"
+msgstr "**[wownerujo](https://f-droid.org/app/com.wownero.wownerujo)**: Portfel Wownero"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
-#, fuzzy
 msgid "**[Meshenger](https://f-droid.org/app/d.d.meshenger)**: An Open-Source P2P Messenger"
-msgstr "**[OSMTracker](https://f-droid.org/app/net.osmtracker)**: Rejestrator ścieżki GPS"
+msgstr "**[Meshenger](https://f-droid.org/app/d.d.meshenger)**: Messenger Open Source P2P"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
 msgid "**[OpenUntis](https://f-droid.org/app/de.perflyst.untis)**: An alternative FLOSS client for the Untis timetable system"
-msgstr ""
+msgstr "**[OpenUntis](https://f-droid.org/app/de.perflyst.untis)**: Alternatywny klient FLOSS dla systemu rozkładów Untis"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
 msgid "**[AnExplorer Pro](https://f-droid.org/app/dev.dworks.apps.anexplorer.pro)**: All-in-one file management tools"
-msgstr ""
+msgstr "**[AnExplorer Pro](https://f-droid.org/app/dev.dworks.apps.anexplorer.pro)**: Uniwersalne narzędzia do zarządzania plikami"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
 msgid "**[Mundraub](https://f-droid.org/app/eu.quelltext.mundraub)**: Unofficial App for Mundraub.org"
-msgstr ""
+msgstr "**[Mundraub](https://f-droid.org/app/eu.quelltext.mundraub)**: Nieoficjalna aplikacja dla Mundraub.org"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
 msgid "**[Techahashi](https://f-droid.org/app/negativedensity.techahashi)**: Minimal presentation tool, Takahashi method with technical upgrades"
-msgstr ""
+msgstr "**[Techahashi](https://f-droid.org/app/negativedensity.techahashi)**: Minimalne narzędzie do prezentacji, metoda Takahashi z ulepszeniami technicznymi"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
 msgid "**[OpenFool](https://f-droid.org/app/ru.hyst329.openfool)** OpenFool is a free and open source Fool (Durak)** card game for desktop and Android."
-msgstr ""
+msgstr "**[OpenFool](https://f-droid.org/app/ru.hyst329.openfool)** OpenFool to bezpłatna gra typu Open Fool (Durak)** na komputery i urządzenia z systemem Android."
 
 #. type: Plain text
 #: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
-#, fuzzy
 msgid "11 apps were added"
-msgstr "Żadne aplikacje nie zostały usunięte."
+msgstr "Dodano 11 aplikacji"
 
 #. type: Title ####
 #: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Updated Apps"
 msgstr "Zaktualizowane aplikacje"
 
 #. type: Plain text
 #: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
-#, fuzzy
 msgid "In total, 62 apps were updated this week. Here are the highlights."
-msgstr "W sumie w tym tygodniu zaktualizowano 68 aplikacji. Oto najważniejsze cechy:"
+msgstr "W sumie w tym tygodniu zaktualizowano 62 aplikacje. Oto najważniejsze informacje."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
 msgid "{{ page.featured }} **[Maps](https://f-droid.org/app/com.github.axet.maps)** is an offline openstreetmap app. Version 8.3.5-3 finally brings a fix that allows users to log in to OpenStreetMap.org so they can edit the map."
-msgstr ""
+msgstr "{{ page.featured }} **[Maps](https://f-droid.org/app/com.github.axet.maps)** jest aplikacją openstreetmap w trybie offline. Wersja 8.3.5-3 w końcu przynosi poprawkę, która pozwala użytkownikom zalogować się na OpenStreetMap.org, aby mogli edytować mapę."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
@@ -4748,7 +4743,7 @@ msgstr ""
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 #, no-wrap
 msgid "Repomaker"
-msgstr ""
+msgstr "Kreator repozytoriów"
 
 #. type: Plain text
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
