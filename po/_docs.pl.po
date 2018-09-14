@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-09-12 15:38+0200\n"
-"PO-Revision-Date: 2018-09-10 14:21+0000\n"
+"PO-Revision-Date: 2018-09-15 08:33+0000\n"
 "Last-Translator: WaldiS <admin@sto.ugu.pl>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/f-droid/website-docs/pl/>\n"
 "Language: pl\n"
@@ -2722,15 +2722,13 @@ msgstr "Oto, jak szybko możesz zacząć budować nasze basebox:"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
-#, fuzzy
 msgid "```bash fdroid:~$ git clone https://gitlab.com/fdroid/basebox.git fdroid:~$ cd basebox fdroid:~/basebox$ sudo ./fdroid_basebox.py --provider virtualbox fdroid:~/basebox$ vagrant box add --force jessie64 fdroid-jessie64-virtualbox.box fdroid:~/basebox$ rm fdroid-jessie64-virtualbox.box ```"
-msgstr "```bash fdroid:~$ git clone https://gitlab.com/fdroid/basebox.git fdroid:~$ cd basebox fdroid:~/basebox$ sudo ./makebuildserver_basebox.py --provider virtualbox fdroid:~/basebox$ vagrant box add --force jessie64 fdroid-jessie64-virtualbox.box fdroid:~/basebox$ rm fdroid-jessie64-virtualbox.box ```"
+msgstr "```bash fdroid:~$ git clone https://gitlab.com/fdroid/basebox.git fdroid:~$ cd basebox fdroid:~/basebox$ sudo ./fdroid_basebox.py --provider virtualbox fdroid:~/basebox$ vagrant box add --force jessie64 fdroid-jessie64-virtualbox.box fdroid:~/basebox$ rm fdroid-jessie64-virtualbox.box ```"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
-#, fuzzy
 msgid "Additional documentation is available in the projects [README file](https://gitlab.com/fdroid/basebox#fdroid_basebox)."
-msgstr "Dodatkowa dokumentacja jest dostępna w projektach [plik README](https://gitlab.com/fdroid/basebox#makebuildserver_baseboxpy)."
+msgstr "Dodatkowa dokumentacja jest dostępna w projektach [plik README](https://gitlab.com/fdroid/basebox#fdroid_basebox)."
 
 #. type: Title ###
 #: build/_docs/md/Build_Server_Setup.md
@@ -2806,7 +2804,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
 msgid "Now you are ready to run builds. Test by building the latest fdroid version:"
-msgstr ""
+msgstr "Teraz jesteś gotowy do uruchamiania kompilacji. Przetestuj, budując najnowszą wersję programu fdroid:"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
@@ -2817,7 +2815,7 @@ msgstr ""
 #: build/_docs/md/Build_Server_Setup.md
 #, no-wrap
 msgid "Optionally using QEMU/KVM/libvirt instead of VirtualBox"
-msgstr ""
+msgstr "Opcjonalnie za pomocą QEMU/KVM/libvirt zamiast VirtualBox"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
@@ -2843,18 +2841,18 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
 msgid "Then create a _makebuildserver.config.py_ next to _makebuildserver_ and add:"
-msgstr ""
+msgstr "Następnie utwórz _makebuildserver.config.py_ obok _makebuildserver_ i dodaj:"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
 msgid "```python vm_provider = 'libvirt' ```"
-msgstr ""
+msgstr "```python vm_provider = 'libvirt' ```"
 
 #. type: Title #####
 #: build/_docs/md/Build_Server_Setup.md
 #, no-wrap
 msgid "Debian/stretch and Ubuntu/xenial"
-msgstr ""
+msgstr "Debian/stretch i Ubuntu/xenial"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
@@ -2865,7 +2863,7 @@ msgstr ""
 #: build/_docs/md/Build_Server_Setup.md
 #, no-wrap
 msgid "older Debian and Ubuntu"
-msgstr ""
+msgstr "starsze wersje Debiana i Ubuntu"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
@@ -2876,17 +2874,17 @@ msgstr ""
 #: build/_docs/md/Build_Server_Setup.md
 #, no-wrap
 msgid "Advanced nested KVM Setup:"
-msgstr ""
+msgstr "Zaawansowana zagnieżdżona konfiguracja KVM:"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
 msgid "This section is not relevant for using F-Droid in a normal setup. If you want to run `fdroid build --server` flag inside a KVM, this chaper will help you getting started."
-msgstr ""
+msgstr "Ta sekcja nie dotyczy korzystania z F-Droida w normalnej konfiguracji. Jeśli chcesz uruchomić flagę `fdroid build --server` w KVM, ten pomocnik pomoże ci zacząć."
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
 msgid "Consider following basic nesting setup:"
-msgstr ""
+msgstr "Rozważ następujące podstawowe ustawienia zagnieżdżania:"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
@@ -2902,12 +2900,12 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
 msgid "The steps above describe how to setup (l1) and _makebuildserver_ sets up (l2)."
-msgstr ""
+msgstr "Powyższe kroki opisują sposób konfigurowania (l1) i _makebuildserver_ konfiguracji (l2)."
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
 msgid "First of all you'll have to check if you cpu support the _vmx_ (or _svm_ on amd) instruction set. You can use this command to list details about your cpu:"
-msgstr ""
+msgstr "Przede wszystkim musisz sprawdzić, czy cpu obsługuje zestaw instrukcji _vmx_ (lub _svm_ na amd). Możesz użyć tego polecenia, aby wyświetlić szczegóły dotyczące procesora:"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
@@ -2917,17 +2915,17 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
 msgid "On (l0) you have to check that nesting is enabled:"
-msgstr ""
+msgstr "Włącz (l0) musisz sprawdzić, czy włączone jest zagnieżdżanie:"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
 msgid "```bash root:~# cat /sys/module/kvm_intel/parameters/nested ```"
-msgstr ""
+msgstr "```bash root:~# cat /sys/module/kvm_intel/parameters/nested ```"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
 msgid "If it's not enabled you can turn it on by running:"
-msgstr ""
+msgstr "Jeśli nie jest włączona, możesz ją włączyć, uruchamiając:"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
@@ -2937,11 +2935,14 @@ msgid ""
 "echo \"options kvm-intel nested=Y\" > /etc/modprobe.d/kvm-intel.conf\n"
 "```\n"
 msgstr ""
+"```bash\n"
+"echo \"options kvm-intel nested=Y\" > /etc/modprobe.d/kvm-intel.conf\n"
+"```\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
 msgid "You'll need to reboot to for this to take effect."
-msgstr ""
+msgstr "Aby to zadziałało, musisz ponownie uruchomić komputer."
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
@@ -2974,44 +2975,44 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
 msgid "- <https://jenkins.debian.net/job/reproducible_setup_fdroid_build_environment_profitbricks7/>"
-msgstr ""
+msgstr "- <https://jenkins.debian.net/job/reproducible_setup_fdroid_build_environment_profitbricks7/>"
 
 #. type: Title #
 #: build/_docs/md/Client_Bug_Reports.md
 #, no-wrap
 msgid "Client Bug Reports"
-msgstr ""
+msgstr "Raporty o błędach klienta"
 
 #. type: Title ###
 #: build/_docs/md/Client_Bug_Reports.md
 #, no-wrap
 msgid "What to include in a bug report"
-msgstr ""
+msgstr "Co uwzględnić w raporcie o błędzie"
 
 #. type: Plain text
 #: build/_docs/md/Client_Bug_Reports.md
 msgid "In order to ensure that the F-Droid developers have the best chance of reproducing your issue and thus fixing it, please include as much of the following information as possible in your bug reports:"
-msgstr ""
+msgstr "Aby upewnić się, że twórcy F-Droid mają największą szansę na odtworzenie problemu, a tym samym jego naprawienie, prosimy o umieszczenie jak największej liczby następujących informacji w swoich raportach o błędach:"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Client_Bug_Reports.md
 msgid "F-Droid version (e.g. \"0.88\" or \"0.89-test\")"
-msgstr ""
+msgstr "F-Droid wersja (np. \"0.88\" or \"0.89-test\")"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Client_Bug_Reports.md
 msgid "Android version (e.g. \"Lollipop\" or \"Android 5.0\")"
-msgstr ""
+msgstr "Androida wersja (np. \"Lollipop\" lub \"Android 5.0\")"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Client_Bug_Reports.md
 msgid "Device (e.g. \"Nexus 4\")"
-msgstr ""
+msgstr "Urządzenie (np. \"Nexus 4\")"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Client_Bug_Reports.md
 msgid "Steps to reproduce the bug"
-msgstr ""
+msgstr "Kroki prowadzące do odtworzenia błędu"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Client_Bug_Reports.md
