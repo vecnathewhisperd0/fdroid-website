@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-09-12 15:38+0200\n"
-"PO-Revision-Date: 2018-09-15 08:33+0000\n"
+"PO-Revision-Date: 2018-09-16 18:28+0000\n"
 "Last-Translator: WaldiS <admin@sto.ugu.pl>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/f-droid/website-docs/pl/>\n"
 "Language: pl\n"
@@ -2644,7 +2644,7 @@ msgstr "Sklonuj kod źródłowy i skonfiguruj ustawienia buildserver, działają
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
 msgid "```bash fdroid:~$ cd ~ fdroid:~$ git clone https://gitlab.com/fdroid/fdroidserver.git fdroid:~$ cp fdroidserver/examples/makebuildserver.config.py fdroidserver/ fdroid:~$ sed -i \"s@^baseboxurl.*@baseboxurl = \\\"https://f-droid.org/jessie64.box\\\"@\" fdroidserver/makebuildserver.config.py ```"
-msgstr ""
+msgstr "```bash fdroid:~$ cd ~ fdroid:~$ git clone https://gitlab.com/fdroid/fdroidserver.git fdroid:~$ cp fdroidserver/examples/makebuildserver.config.py fdroidserver/ fdroid:~$ sed -i \"s@^baseboxurl.*@baseboxurl = \\\"https://f-droid.org/jessie64.box\\\"@\" fdroidserver/makebuildserver.config.py ```"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
@@ -2739,7 +2739,7 @@ msgstr "Tworzenie skrzynki bazowej F-Droid"
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
 msgid "The next step in the process is to create `makebuildserver.config.py`, using `./examples/makebuildserver.config.py` as a reference - look at the settings and documentation there to decide if any need changing to suit your environment. There is a path for retrieving the base box if it doesn’t exist, and an apt proxy definition, both of which may need customising for your environment. You can then go to the `fdroidserver` directory and run this:"
-msgstr ""
+msgstr "Kolejnym krokiem w procesie jest utworzenie `makebuildserver.config.py`, używając jako przykładu odniesienia do `./examples/makebuildserver.config.py` - spójrz na ustawienia i dokumentację, aby zdecydować, czy jakiekolwiek zmiany wymagają dostosowania do twojego środowiska . Istnieje ścieżka do pobrania skrzynki bazowej, jeśli nie istnieje, oraz definicji apt proxy, z których oba mogą wymagać dostosowania do twojego środowiska. Następnie możesz przejść do katalogu `fdroidserver` i uruchomić to:"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
@@ -2754,12 +2754,12 @@ msgstr "To zajmie dużo czasu i będzie wymagać dużej przepustowości - więks
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
 msgid "The main sdk/ndk downloads will automatically be cached to speed things up the next time, but there’s no easy way of doing this for the longer sections which use the SDK’s `android` tool to install platforms, add-ons and tools. However, instead of allowing automatic caching, you can supply a pre-populated cache directory which includes not only these downloads, but also .tar.gz files for all the relevant additions. If the provisioning scripts detect these, they will be used in preference to running the android tools. For example, if you have `buildserver/addons/cache/platforms/android-19.tar.gz` that will be used when installing the android-19 platform, instead of re-downloading it using `android update sdk --no-ui -t android-19`. It is possible to create the cache files of this additions from a local installation of the SDK including these:"
-msgstr ""
+msgstr "Główne pliki do pobrania sdk/ndk będą automatycznie zapisywane w pamięci podręcznej, aby przyspieszyć działanie po raz kolejny, ale nie ma prostego sposobu na wykonanie tego w przypadku dłuższych sekcji, które korzystają z 'androidowego' narzędzia SDK do instalowania platform, dodatków i narzędzi. Jednak zamiast zezwalać na automatyczne buforowanie, możesz podać wstępnie wypełniony katalog pamięci podręcznej, który zawiera nie tylko te pliki do pobrania, ale także pliki .tar.gz dla wszystkich istotnych dodatków. Jeśli skrypty zabezpieczające je wykryją, będą używane zamiast używania narzędzi Android. Na przykład, jeśli posiadasz `buildserver/addons/cache/platforms/android-19.tar.gz`, który będzie użyty podczas instalacji platformy android-19, zamiast ponownego pobierania z użyciem `android update sdk --no-ui -t android-19`. Możliwe jest tworzenie plików pamięci podręcznej dla tych dodatków z lokalnej instalacji pakietu SDK, w tym:"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
 msgid "```bash cd /path/to/android-sdk/platforms tar czf android-19.tar.gz android-19 mv android-19.tar.gz /path/to/buildserver/addons/cache/platforms/ ```"
-msgstr ""
+msgstr "```bash cd /path/to/android-sdk/platforms tar czf android-19.tar.gz android-19 mv android-19.tar.gz /path/to/buildserver/addons/cache/platforms/ ```"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
@@ -2783,12 +2783,12 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
 msgid "Once it’s complete you’ll have a new base box called ’buildserver’ which is what’s used for the actual builds. You can then build packages as normal, but with the addition of the `--server` flag to `fdroid build` to instruct it to do all the hard work within the virtual machine."
-msgstr ""
+msgstr "Po zakończeniu otrzymasz nowe pole podstawowe o nazwie 'buildserver', które jest używane w rzeczywistych kompilacjach. Następnie możesz budować pakiety w normalny sposób, ale dodając flagę `--server` do `fdroid build`, aby polecić jej wykonanie całej ciężkiej pracy w maszynie wirtualnej."
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
 msgid "The first time a build is done, a new virtual machine is created using the ’buildserver’ box as a base. A snapshot of this clean machine state is saved for use in future builds, to improve performance. You can force discarding of this snapshot and rebuilding from scratch using the `--resetserver` switch with `fdroid build`."
-msgstr ""
+msgstr "Przy pierwszym wykonaniu kompilacji tworzona jest nowa maszyna wirtualna z wykorzystaniem pola 'buildserver' jako bazy. Migawka stanu tego czystego komputera jest zapisywana do użytku w przyszłych kompilacjach w celu zwiększenia wydajności. Możesz wymusić odrzucenie tej migawki i przebudowanie od zera przy użyciu przełącznika `--resetserver` z `fdroid build`."
 
 #. type: Title ##
 #: build/_docs/md/Build_Server_Setup.md
@@ -2799,7 +2799,7 @@ msgstr "ruchamianie kompilacji"
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
 msgid "When using the buildserver, running `fdroid` directly from a git checkout of _fdroidserver_ will be the easiest.  If you don't already have the _fdroidserver_ tools installed and setup, you will need to do that next: [Installing the Server and Repo Tools](../Installing_the_Server_and_Repo_Tools).  That provides all of the dependencies needed to run _fdroidserver_ from git."
-msgstr ""
+msgstr "Podczas korzystania z buildserver, najłatwiej będzie uruchomić `fdroid` bezpośrednio z git checkout _fdroidserver_. Jeśli nie masz jeszcze zainstalowanych i skonfigurowanych narzędzi _fdroidserwer_, musisz to zrobić w następnej kolejności: [Instalowanie narzędzia Serwer i Repo](../Installing_the_Server_and_Repo_Tools). Zapewnia to wszystkie zależności potrzebne do uruchomienia _fdroidserver_ z git."
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
@@ -2809,7 +2809,7 @@ msgstr "Teraz jesteś gotowy do uruchamiania kompilacji. Przetestuj, budując na
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
 msgid "```bash fdroid:~/fdroidserver$ cd ~/fdroiddata fdroid:~/fdroiddata$ ~/fdroidserver/fdroid build org.fdroid.fdroid -l --server ```"
-msgstr ""
+msgstr "```bash fdroid:~/fdroidserver$ cd ~/fdroiddata fdroid:~/fdroiddata$ ~/fdroidserver/fdroid build org.fdroid.fdroid -l --server ```"
 
 #. type: Title ##
 #: build/_docs/md/Build_Server_Setup.md
@@ -2820,7 +2820,7 @@ msgstr "Opcjonalnie za pomocą QEMU/KVM/libvirt zamiast VirtualBox"
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
 msgid "It is also possible to QEMU/KVM guest VMs via libvirt instead of the default VirtualBox.  VirtualBox is still the recommended setup since that is what is used by f-droid.org, but there are cases where it is not possible to run VirtualBox, like on a machine that is already running QEMU/KVM guests.  In order to make the libvirt image files directly readable by `vagrant package`, _libvirt_'s QEMU needs to be configured to always set the ownership to `libvirt.libvirt`."
-msgstr ""
+msgstr "Możliwe jest również użycie maszyn VM QEMU/KVM przez libvirt zamiast domyślnego VirtualBox. VirtualBox jest nadal zalecanym ustawieniem, ponieważ jest to używane przez f-droid.org, ale zdarzają się przypadki, w których nie można uruchomić VirtualBox, jak na komputerze, na którym już działają goście QEMU/KVM. Aby pliki obrazów libvirt można było odczytywać bezpośrednio za pomocą `pakietu vagrant`, należy skonfigurować użytkownika QEMU _libvirt_ tak, aby zawsze ustawiało prawo własności do `libvirt.libvirt`."
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
@@ -2837,6 +2837,16 @@ msgid ""
 "root:~# service libvirtd restart\n"
 "```\n"
 msgstr ""
+"```konsola\n"
+"root:~# apt-get install vagrant vagrant-mutate vagrant-libvirt ebtables dnsmasq-base \\\n"
+"        python3-libvirt libvirt-clients libvirt-daemon-system qemu-kvm qemu-utils git\n"
+"root:~# cat << EOF >> /etc/libvirt/qemu.conf\n"
+"user = \"libvirt\"\n"
+"group = \"libvirt\"\n"
+"dynamic_ownership = 1\n"
+"EOF\n"
+"root:~# service libvirtd restart\n"
+"```\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
@@ -2857,7 +2867,7 @@ msgstr "Debian/stretch i Ubuntu/xenial"
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
 msgid "```console root:~# adduser fdroid libvirt root:~# adduser fdroid libvirt-qemu ```"
-msgstr ""
+msgstr "```console root:~# adduser fdroid libvirt root:~# adduser fdroid libvirt-qemu ```"
 
 #. type: Title #####
 #: build/_docs/md/Build_Server_Setup.md
@@ -2868,7 +2878,7 @@ msgstr "starsze wersje Debiana i Ubuntu"
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
 msgid "```console root:~# adduser fdroid libvirtd root:~# adduser fdroid kvm ```"
-msgstr ""
+msgstr "```console root:~# adduser fdroid libvirtd root:~# adduser fdroid kvm ```"
 
 #. type: Title ###
 #: build/_docs/md/Build_Server_Setup.md
@@ -2896,6 +2906,11 @@ msgid ""
 "   \\- F-Droid builder VM (l2)\n"
 "```\n"
 msgstr ""
+"```\n"
+"bare metal host (l0)\n"
+"\\- F-Droid VM (l1)\n"
+"   \\- F-Droid builder VM (l2)\n"
+"```\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
@@ -2910,7 +2925,7 @@ msgstr "Przede wszystkim musisz sprawdzić, czy cpu obsługuje zestaw instrukcji
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
 msgid "```bash root:~# cat /proc/cpuinfo ```"
-msgstr ""
+msgstr "```bash root:~# cat /proc/cpuinfo ```"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
@@ -2947,7 +2962,7 @@ msgstr "Aby to zadziałało, musisz ponownie uruchomić komputer."
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
 msgid "Next you'll need to make sure that your (l1) vm configuration forwards cpu features required for nesting. So open up your configuration for the VM _/etc/libvirt/qemu/my-vm.xml_ and insert a cpu block inside your domain-tag. (_virt-manager_ also provides a user-interface for this operation.)"
-msgstr ""
+msgstr "Następnie musisz upewnić się, że twoja konfiguracja (l1) vm przekazuje funkcje procesora wymagane do zagnieżdżenia. Tak więc otwórz konfigurację VM _/etc/libvirt/qemu/my-vm.xml_ i wstaw blok kontrolera do twojego tagu domeny. (_virt-manager_ udostępnia również interfejs użytkownika dla tej operacji.)"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
@@ -2961,16 +2976,23 @@ msgid ""
 "</cpu>\n"
 "```\n"
 msgstr ""
+"```xml\n"
+"<cpu mode='custom' match='exact'>\n"
+"    <model fallback='allow'>SandyBridge</model>\n"
+"    <vendor>Intel</vendor>\n"
+"    <feature policy='require' name='vmx'/>\n"
+"</cpu>\n"
+"```\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
 msgid "The actually required configuration here depends on your cpu. You can find details in [libvirts manual](https://libvirt.org/formatdomain.html#elementsCPU).  The important part is that you forward _vmx_ (or _svm_ on amd) to the guest system."
-msgstr ""
+msgstr "Rzeczywista wymagana konfiguracja zależy od twojego procesora. Szczegółowe informacje można znaleźć w [podręczniku libvirts](https://libvirt.org/formatdomain.htmlelementsCPU). Ważną częścią jest przekazywanie _vmx_ (lub _svm_ na amd) do systemu gościa."
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
 msgid "This is the setup that is used in the Continuous Integration builds as part of the [reproducible builds](https://reproducible-builds.org) effort.  You can see this in action on the Debian Project's jenkins setup:"
-msgstr ""
+msgstr "Jest to konfiguracja używana w kompilacjach Continuous Integration jako część wysiłków [odtwarzalnych buildów](https://reproducible-builds.org). Możesz to zobaczyć w akcji na Debianie w konfiguracji projektu jenkins:"
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
@@ -3017,55 +3039,55 @@ msgstr "Kroki prowadzące do odtworzenia błędu"
 #. type: Bullet: '* '
 #: build/_docs/md/Client_Bug_Reports.md
 msgid "A logcat from when the crash occured ([Getting logcat messages after crash](../Getting_logcat_messages_after_crash))"
-msgstr ""
+msgstr "Logcat od momentu wystąpienia awarii ([Pobieranie komunikatów logcat po awarii](../Getting_logcat_messages_after_crash))"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Client_Bug_Reports.md
 msgid "Whether the bug happens on the previous stable version of F-Droid"
-msgstr ""
+msgstr "Czy błąd występuje w poprzedniej stabilnej wersji F-Droid"
 
 #. type: Title ###
 #: build/_docs/md/Client_Bug_Reports.md
 #, no-wrap
 msgid "Why does an issue say \"waiting on response\" next to it?"
-msgstr ""
+msgstr "Dlaczego problem oznacza \"czekanie na odpowiedź\" obok tego?"
 
 #. type: Plain text
 #: build/_docs/md/Client_Bug_Reports.md
 msgid "The development team of F-Droid will do their best to reproduce and fix any bugs that are reported. Also, if feature requests are posted, then we will try to engage with the person who requested the feature to see if it is in the best interests of F-Droid as a whole."
-msgstr ""
+msgstr "Zespół programistów F-Droid zrobi wszystko, aby odtworzyć i naprawić zgłoszone błędy. Ponadto, jeśli opublikowane zostaną prośby o dodanie funkcji, spróbujemy nawiązać kontakt z osobą, która poprosiła o tę funkcję, aby sprawdzić, czy jest w najlepszym interesie F-Droida jako całości."
 
 #. type: Plain text
 #: build/_docs/md/Client_Bug_Reports.md
 msgid "Sometimes, we are unable to reproduce a particular bug, and so require more feedback from the original bug reporter (or someone else who is also experiencing the problem). Other times, feature requests do not provide enough detail for us to respond appropriately. In these situations, we will apply the \"waiting-on-response\" label to the issue."
-msgstr ""
+msgstr "Czasami nie jesteśmy w stanie odtworzyć konkretnego błędu, dlatego potrzebujemy więcej informacji zwrotnych od pierwotnego zgłaszającego błąd (lub osoby, która również doświadcza problemu). Innym razem żądania funkcji nie zapewniają wystarczającej ilości szczegółów, abyśmy mogli odpowiednio zareagować. W takich sytuacjach zastosujemy etykietę \"oczekiwanie na reakcję\"."
 
 #. type: Plain text
 #: build/_docs/md/Client_Bug_Reports.md
 msgid "If, after a significant amount of time, there is no response, the issue will be closed, and probably labelled with a \"cant-reproduce\" label. If this happens to an issue of yours, feel free to re-open it if you come back and have more information which may help resolve the issue properly."
-msgstr ""
+msgstr "Jeśli po upływie znacznego czasu nie będzie odpowiedzi, problem zostanie zamknięty i prawdopodobnie oznaczony etykietą \"nie można reprodukować\". Jeśli tak się stanie z Twoim problemem, możesz go ponownie otworzyć, jeśli wrócisz i będziesz mieć więcej informacji, które mogą pomóc rozwiązać problem."
 
 #. type: Plain text
 #: build/_docs/md/Client_Bug_Reports.md
 msgid "Currently, there is not a set timeframe for which these issues will be closed (i.e. no response within 4 weeks), but in the future, we may decide to do this. The reason is that as the bug list grows, it becomes harder for us to manage, and harder for new contributors to decide what they could work on."
-msgstr ""
+msgstr "Obecnie nie ma ustalonego harmonogramu, w którym te problemy zostaną zamknięte (tj. Brak odpowiedzi w ciągu 4 tygodni), ale w przyszłości możemy podjąć decyzję o tym. Powodem jest to, że wraz z rosnącą listą błędów, trudniej nam będzie zarządzać, a trudniejszym dla nowych współtwórców jest decydowanie, nad czym mogą pracować."
 
 #. type: Title ###
 #: build/_docs/md/Client_Bug_Reports.md
 #, no-wrap
 msgid "Where to file bug report"
-msgstr ""
+msgstr "Gdzie złożyć raport o błędzie"
 
 #. type: Plain text
 #: build/_docs/md/Client_Bug_Reports.md
 msgid "[F-droid issue tracker](https://f-droid.org/issues/) specifically [F-droid client section](https://gitlab.com/fdroid/fdroidclient/issues)"
-msgstr ""
+msgstr "[Narzędzie do śledzenia błędów F-droida](https://f-droid.org/issues/) w szczególności [sekcja kliencka F-droida] (https://gitlab.com/fdroid/fdroidclient/issues)"
 
 #. type: Title #
 #: build/_docs/md/Deploying_the_Website.md
 #, no-wrap
 msgid "Deploying the Website"
-msgstr ""
+msgstr "Wdrażanie witryny"
 
 #. type: Plain text
 #: build/_docs/md/Deploying_the_Website.md
@@ -3076,7 +3098,7 @@ msgstr ""
 #: build/_docs/md/Deploying_the_Website.md
 #, no-wrap
 msgid "Staging on development forks"
-msgstr ""
+msgstr "Etapowe odgałęzienie rozwojowe"
 
 #. type: Plain text
 #: build/_docs/md/Deploying_the_Website.md
@@ -3087,37 +3109,37 @@ msgstr ""
 #: build/_docs/md/Deploying_the_Website.md
 #, no-wrap
 msgid "Deploying merge request branches"
-msgstr ""
+msgstr "Wdrażanie oddziałów żądań scalania"
 
 #. type: Plain text
 #: build/_docs/md/Deploying_the_Website.md
 msgid "The current _gitlab-ci_ setup is optionally capable of pushing the resulting HTML to a live webserver and linking to it automatically from the GitLab merge request, deploying to [surge.sh](https://surge.sh)."
-msgstr ""
+msgstr "Obecna konfiguracja _gitlab-ci_ może opcjonalnie przesłać wynikowy kod HTML do aktywnego serwera sieciowego i połączyć się z nim automatycznie z żądania scalenia GitLab, wdrażając do [surge.sh](https://surge.sh)."
 
 #. type: Plain text
 #: build/_docs/md/Deploying_the_Website.md
 msgid "Doing so will allow for easier review of your merge requests, but is not required.  If you don't follow the steps below, your merge requests will still run through the _gitlab-ci_ continuous integration checks, but the resulting HTML will not be accessible online."
-msgstr ""
+msgstr "Pozwoli to na łatwiejsze przeglądanie żądań scalania, ale nie jest wymagane. Jeśli nie wykonasz poniższych kroków, żądania scalenia będą nadal przeprowadzane przez ciągłe kontrole integracyjne _gitlab-ci_, ale wynikowy kod HTML nie będzie dostępny online."
 
 #. type: Plain text
 #: build/_docs/md/Deploying_the_Website.md
 msgid "To configure this:"
-msgstr ""
+msgstr "Aby to skonfigurować:"
 
 #. type: Bullet: ' * '
 #: build/_docs/md/Deploying_the_Website.md
 msgid "Install the [surge.sh](https://surge.sh) CLI: `npm install surge`"
-msgstr ""
+msgstr "Zainstaluj interfejs CLI [surge.sh](https://surge.sh) CLI: `npm install surge`"
 
 #. type: Bullet: ' * '
 #: build/_docs/md/Deploying_the_Website.md
 msgid "Signup for [surge.sh](https://surge.sh): `surge login`"
-msgstr ""
+msgstr "Zapisz się do [surge.sh](https://surge.sh): `surge login`"
 
 #. type: Bullet: ' * '
 #: build/_docs/md/Deploying_the_Website.md
 msgid "Get a \"token\" to allow CI to deploy on your behalf: `surge token`"
-msgstr ""
+msgstr "Uzyskaj \"token\", aby umożliwić CI wdrożenie w twoim imieniu: `surge token`"
 
 #. type: Plain text
 #: build/_docs/md/Deploying_the_Website.md
@@ -3133,29 +3155,29 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Deploying_the_Website.md
 msgid "Now your CI jobs should be authorized to deploy to surge.sh, and the GitLab merge requests screen will automatically link to this deployment."
-msgstr ""
+msgstr "Teraz zadania CI powinny być autoryzowane do wdrożenia do usługi surge.sh, a ekran żądań scalania GitLab automatycznie połączy się z tym wdrożeniem."
 
 #. type: Title ###
 #: build/_docs/md/Deploying_the_Website.md
 #, no-wrap
 msgid "Staging of the official website"
-msgstr ""
+msgstr "Inscenizacja oficjalnej strony internetowej"
 
 #. type: Plain text
 #: build/_docs/md/Deploying_the_Website.md
 msgid "Like with forks, the _master_ branch of the main git repo for the website, <https://gitlab.com/fdroid/fdroid-website>, is automatically deployed to <https://fdroid.gitlab.io/fdroid-website>.  That is the place to review the current state of the website before tagging a release."
-msgstr ""
+msgstr "Podobnie jak w przypadku rozgałęzień, gałąź _master_ głównego repozytorium git dla witryny <https://gitlab.com/fdroid/fdroid-website> jest automatycznie wdrażana na <https://fdroid.gitlab.io/fdroid-website>. Jest to miejsce, w którym należy przejrzeć aktualny stan witryny przed oznaczeniem wydania."
 
 #. type: Title ###
 #: build/_docs/md/Deploying_the_Website.md
 #, no-wrap
 msgid "Deploying to https://f-droid.org"
-msgstr ""
+msgstr "Wdrażanie do https://f-droid.org"
 
 #. type: Plain text
 #: build/_docs/md/Deploying_the_Website.md
 msgid "When an update to the website is tested and ready to go, a release manager creates a PGP-signed release tag in the main git repo.  The deploy server monitors the main git repo for new tags.  When it sees a new tag, it first checks the PGP signature on the git tag using a manually configured GnuPG keyring that contains only the public keys of the PGP keys that are allowed to tag website releases."
-msgstr ""
+msgstr "Kiedy aktualizacja witryny jest testowana i gotowa do użycia, menedżer ds. wersji tworzy tag zwolnienia podpisany przez  PGP-signed w głównym repozytorium git. Serwer wdrażania monitoruje główne repozytorium git dla nowych znaczników. Kiedy widzi nowy znacznik, najpierw sprawdza podpis PGP na tagu git za pomocą ręcznie skonfigurowanego klucza GnuPG, który zawiera tylko klucze publiczne kluczy PGP, które mogą oznaczać wydania strony."
 
 #. type: Plain text
 #: build/_docs/md/Deploying_the_Website.md
