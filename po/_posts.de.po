@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-09-14 17:11+0200\n"
 "PO-Revision-Date: 2018-09-16 19:24+0000\n"
-"Last-Translator: BO41 <lukasw41@gmail.com>\n"
+"Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -3984,17 +3984,17 @@ msgstr "Jeder liebt die SimpleMobileTools von Tibor Kaputa. **[Gallery](https://
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
 msgid "{{ page.featured }} **[A Photo Manager](https://f-droid.org/app/de.k3b.android.androFotoFinder)** the gallery app with tag support and powerfull Openstreetmap integration has received a major update to 0.7.0 with new icons. Major improvements include a new search bar for finding photos along with a date-picker to choose \"virtual-albums' from folder-picker or any file manager. An upcoming bugfix release to 0.7.1 next week will fix the broken “show in new gallery/map”."
-msgstr ""
+msgstr "{{ page.featured }} **[A Photo Manager](https://f-droid.org/app/de.k3b.android.androFotoFinder)**, die Galerie-App mit Tag-Unterstützung und leistungsstarker Openstreetmap-Einbindung hat ein großes Update auf 0.7.0 mit neuen Icons erhalten. Die hauptsächlichen Verbesserungen beinhalten eine neue Suchleiste, um Fotos zu finden, zusammen mit einer Datumsauswahl, um \"virtuelle Alben\" aus der Ordnerauswahl oder jedem Dateimanager auszuwählen. Eine bevorstehende Bugfix-Version 0.7.1 in der nächsten Woche wird das defekte “in neuer Galerie/Karte anzeigen” reparieren."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
 msgid "The testing only **[Bitcoin Wallet [testnet3]](https://f-droid.org/app/de.schildbach.wallet_test)** was updated from 6.29 to 6.30 and now builds reproducibly."
-msgstr ""
+msgstr "**[Bitcoin Wallet [testnet3]](https://f-droid.org/app/de.schildbach.wallet_test)**, nur zum Testen, wurde von 6.29 auf 6.30 aktualisiert und ist nun ein reproduzierbarer Build."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
 msgid "**[Tutanota](https://f-droid.org/app/de.tutao.tutanota)**, an encrypted email client, just came to F-Droid last week and has already received a minor bug fix release. It was updated from 3.35.13 to 3.36.1 fixing a bug with the 2FA dialog and a few other minor stability and performance bugs."
-msgstr ""
+msgstr "**[Tutanota](https://f-droid.org/app/de.tutao.tutanota)**, ein verschlüsselter E-Mail-Client, kam gerade erst letzte Woche zu F-Droid und hat schon ein kleineres Release mit Fehlerkorrekturen erhalten. Er wurde von 3.35.13 nach 3.36.1 aktualisiert, das einen Fehler beim 2FA-Dialog und einige weitere, kleinere Stabilitäts- und Leistungsprobleme behebt."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
