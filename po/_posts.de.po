@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-09-14 17:11+0200\n"
-"PO-Revision-Date: 2018-09-16 19:24+0000\n"
-"Last-Translator: ssantos <ssantos@web.de>\n"
+"PO-Revision-Date: 2018-09-18 23:25+0000\n"
+"Last-Translator: C. Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -4859,9 +4859,9 @@ msgstr ""
 
 #. type: Title ####
 #: build/_posts/md/2018-09-06-twif-20-security-audit-completed-buildserver-setup-with-ansible.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Second security audit completed"
-msgstr "\"Bevorstehendes Sicherheitsaudit\""
+msgstr "Zweites Sicherheitsaudit abgeschlossen"
 
 #. type: Plain text
 #: build/_posts/md/2018-09-06-twif-20-security-audit-completed-buildserver-setup-with-ansible.md
@@ -4913,9 +4913,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-06-twif-20-security-audit-completed-buildserver-setup-with-ansible.md
-#, fuzzy
 msgid "**[Just Notes](https://f-droid.org/app/com.alaskalinuxuser.justnotes)** released version 2.0, now with scrolling notes!"
-msgstr "[JustChess](https://f-droid.org/app/com.alaskalinuxuser.justchess): Schach für einen oder zwei Spieler"
+msgstr "**[Just Notes](https://f-droid.org/app/com.alaskalinuxuser.justnotes)** veröffentlichte Version 2.0, jetzt mit Notizen zum Durchblättern!"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-06-twif-20-security-audit-completed-buildserver-setup-with-ansible.md
@@ -4945,9 +4944,9 @@ msgstr ""
 #. type: Title ####
 #: build/_posts/md/2018-09-06-twif-20-security-audit-completed-buildserver-setup-with-ansible.md
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Tips and Feedback"
-msgstr "Rückmeldung"
+msgstr "Anregungen und Rückmeldung"
 
 #. type: Plain text
 #: build/_posts/md/2018-09-06-twif-20-security-audit-completed-buildserver-setup-with-ansible.md
@@ -4962,9 +4961,8 @@ msgstr "Senden Sie Tipps an [@fdroidorg@mastodon.technology](https://mastodon.te
 #. type: Plain text
 #: build/_posts/md/2018-09-06-twif-20-security-audit-completed-buildserver-setup-with-ansible.md
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
-#, fuzzy
 msgid "General feedback can also be sent via Mastodon, or, if you'd like to have a live chat, you can find us in **#fdroid** on [Freenode](https://freenode.net), on Matrix via [#freenode_#fdroid:matrix.org](https://matrix.to/#/#freenode_#fdroid:matrix.org) or on [Telegram](https://t.me/joinchat/AlRQekvjWDTuQrCgMYSNVA). All of these spaces are bridged together, so the choice is yours. You can also join us on the **[forum](https://forum.f-droid.org/)**."
-msgstr "Feedback geben? Toots erreichen uns über [@fdroidorg@mastodon.technology](https://mastodon.technology/@fdroidorg) auf Mastodon. Wenn Sie Chats mögen, finden Sie uns unter #froid auf [Freenode](https://freenode.net/), auf Matrix via [#freenode_#fdroid:matrix.org](https://matrix.to/#/#freenode_#fdroid:matrix.org) oder auf [Telegram](https://t.me/joinchat/AlRQekvjWDTuQrCgMYSNVA). Alle diese Plätze werden zusammengeführt, Sie haben also die Wahl. Sie können auch dem [Forum](https://forum.f-droid.org/) beitreten."
+msgstr "Ein allgemeines Feedback kann ebenfalls über Mastodon abgegeben werden oder, wenn Sie gerne an einem Live-Chat teilnehmen möchten, dann finden Sie uns in **#fdroid** auf [Freenode](https://freenode.net), auf Matrix über [#freenode_#fdroid:matrix.org](https://matrix.to/#/#freenode_#fdroid:matrix.org) oder auf [Telegram](https://t.me/joinchat/AlRQekvjWDTuQrCgMYSNVA). Alle diese Orte werden miteinander verbunden, Sie haben also die Wahl. Sie können sich uns auch im **[Forum](https://forum.f-droid.org/)** anschließen."
 
 #. type: Title #
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
@@ -5019,9 +5017,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
-#, fuzzy
 msgid "**[Ril Control](https://f-droid.org/app/com.alaskalinuxuser.rilcontrol)**: Control the RIL-daemon process"
-msgstr "[JustChess](https://f-droid.org/app/com.alaskalinuxuser.justchess): Schach für einen oder zwei Spieler"
+msgstr "**[Ril Control](https://f-droid.org/app/com.alaskalinuxuser.rilcontrol)**: Steuerung des RIL-daemon-Prozess"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
@@ -5078,9 +5075,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
-#, fuzzy
 msgid "**[NotificationLog](https://f-droid.org/app/de.jl.notificationlog)**: Log system notifications locally"
-msgstr "[Text Fiction](https://f-droid.org/app/de.onyxbits.textfiction): interaktiver Fiktion Interpreter"
+msgstr "**[NotificationLog](https://f-droid.org/app/de.jl.notificationlog)**: Systembenachrichtigungen lokal protokollieren"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
@@ -5100,9 +5096,8 @@ msgstr "**[OSMTracker](https://f-droid.org/app/net.osmtracker)**: GPS-Track-Reco
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
-#, fuzzy
 msgid "**[Sam Remote](https://f-droid.org/app/mkg20001.net.samremote)**: Simple WiFi remote for Samsung TVs"
-msgstr "**[VlcFreemote](https://f-droid.org/app/com.nicolasbrailo.vlcfreemote)**: Fernsteuerung für einen VLC-Server"
+msgstr "**[Sam Remote](https://f-droid.org/app/mkg20001.net.samremote)**: Einfache WLAN-Fernsteuerung für Samsung-Fernseher"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
@@ -5121,15 +5116,13 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
-#, fuzzy
 msgid "**[Privacy Helper](https://f-droid.org/app/org.privacyhelper)**: An app privacy guide"
-msgstr "**[OSMTracker](https://f-droid.org/app/net.osmtracker)**: GPS-Track-Recorder"
+msgstr "**[Privacy Helper](https://f-droid.org/app/org.privacyhelper)**: Ein App-Datenschutzhandbuch"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
-#, fuzzy
 msgid "**[Pausing Healthily](https://f-droid.org/app/org.secuso.privacyfriendlypausinghealthily)**: Break reminder with helpful exercises"
-msgstr "[Werewolf](https://f-droid.org/app/org.secuso.privacyfriendlycardgameone): Spiele Werwolf mit deinen Freunden"
+msgstr "**[Pausing Healthily](https://f-droid.org/app/org.secuso.privacyfriendlypausinghealthily)**: Erholungspausenerinnerung mit nützlichen Übungen"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
@@ -5138,9 +5131,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
-#, fuzzy
 msgid "**[9P](https://f-droid.org/app/se.tube42.p9.android)**: Word puzzle game"
-msgstr "[Open Sudoku](https://f-droid.org/app/org.moire.opensudoku): Sudoku-Spiel"
+msgstr "**[9P](https://f-droid.org/app/se.tube42.p9.android)**: Wort-Puzzle"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
@@ -5150,13 +5142,12 @@ msgstr ""
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
 msgid "**[LTE Cleaner (FOSS)](https://f-droid.org/app/theredspy15.ltecleanerfoss)**: System cleaner"
-msgstr ""
+msgstr "**[LTE Cleaner (FOSS)](https://f-droid.org/app/theredspy15.ltecleanerfoss)**: Systembereinigung"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
-#, fuzzy
 msgid "**[WateryDroid](https://f-droid.org/app/tmendes.com.waterydroid)**: Simple reminder app to drink water"
-msgstr "[TEdit](https://f-droid.org/app/com.atr.tedit): Ein einfacher Texteditor"
+msgstr "**[WateryDroid](https://f-droid.org/app/tmendes.com.waterydroid)**: Einfache App, um daran zu erinnern, Wasser zu trinken"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
@@ -5166,7 +5157,7 @@ msgstr ""
 #. type: Plain text
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
 msgid "In total, **61** apps were updated this week. Here are the highlights:"
-msgstr "Insgesamt wurden diese Woche 61 Apps aktualisiert. Hier die Höhepunkte:"
+msgstr "Insgesamt wurden diese Woche **61** Apps aktualisiert. Hier die Höhepunkte:"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
@@ -5181,7 +5172,7 @@ msgstr ""
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
 msgid "**[GPSTest](https://f-droid.org/app/com.android.gpstest.osmdroid)** is an app for testing GPS and GNSS capabilities of a device, with real-time information for satellites in view of your device. Version 3.2.0 adds D/M/S support for latitude and longitude, share in multiple location formats, run-time instead of install-time permissions, Greek and Dutch translations, and allows free map movement during location updates."
-msgstr ""
+msgstr "**[GPSTest](https://f-droid.org/app/com.android.gpstest.osmdroid)** ist eine App, um die GPS- und GNSS-Fähigkeiten eines Geräts zu testen, mit Echtzeitinformationen über Satelliten in Reichweite Ihres Geräts. Version 3.2.0 ergänzt die ‘D/M/S‘-Unterstützung für Breiten- und Längengrade, das Teilen in mehreren Standortformaten, die Berechtigungsabfragen in der Laufzeit anstatt bei Installation, Übersetzungen in Griechisch und Holländisch und erlaubt das freie Verschieben der Karte während Standortaktualisierungen."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
