@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-09-12 15:38+0200\n"
-"PO-Revision-Date: 2018-09-16 18:28+0000\n"
+"PO-Revision-Date: 2018-09-19 14:22+0000\n"
 "Last-Translator: WaldiS <admin@sto.ugu.pl>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/f-droid/website-docs/pl/>\n"
 "Language: pl\n"
@@ -3092,7 +3092,7 @@ msgstr "Wdrażanie witryny"
 #. type: Plain text
 #: build/_docs/md/Deploying_the_Website.md
 msgid "The F-Droid website is built using [Jekyll](https://jekyllrb.com/) and [gitlab-ci](https://about.gitlab.com/features/gitlab-ci-cd/).  The whole website now works using a standard git [\"fork\" workflow](https://docs.gitlab.com/ce/workflow/forking_workflow.html)  that is well supported by gitlab, and well known from services like GitHub.  For all of the pages and information about apps and packages distributed by _f-droid.org_, those pages are generated using our [jekyll-fdroid](https://gitlab.com/fdroid/jekyll-fdroid) plugin, which takes the content from the [_f-droid.org_ index file](https://f-droid.org/repo/index-v1.jar)."
-msgstr ""
+msgstr "Witryna F-Droid została zbudowana przy użyciu [Jekyll](https://jekyllrb.com/) i [gitlab-ci](https://about.gitlab.com/features/gitlab-ci-cd/). Cała witryna działa teraz przy użyciu standardowego przepływu pracy git [\"fork\" workflow](https://docs.gitlab.com/ce/workflow/forking_workflow.html), który jest dobrze obsługiwany przez gitlab i dobrze znany z usług takich jak GitHub. Dla wszystkich stron i informacji o aplikacjach i pakietach rozpowszechnianych przez _f-droid.org_, te strony są generowane przy użyciu naszej wtyczki [jekyll-fdroid](https://gitlab.com/fdroid/jekyll-fdroid), która przyjmuje zawartość z indeksu [_f-droid.org_ index file](https://f-droid.org/repo/index-v1.jar)."
 
 #. type: Title ###
 #: build/_docs/md/Deploying_the_Website.md
@@ -3103,7 +3103,7 @@ msgstr "Etapowe odgałęzienie rozwojowe"
 #. type: Plain text
 #: build/_docs/md/Deploying_the_Website.md
 msgid "All development forks of [fdroid-website](https://gitlab.com/fdroid/fdroid-website)  automatically have a staging server setup and maintained by the _gitlab-ci_ configuration.  This automatically deploys the content of the fork's _master_ branch to [GitLab Pages](https://pages.gitlab.io/).  For example, _nicoalt_'s git fork is at <https://gitlab.com/nicoalt/fdroid-website>, and the _master_ branch from that is automatically deployed to <https://nicoalt.gitlab.io/fdroid-website>."
-msgstr ""
+msgstr "Wszystkie gałęzie rozwojowe witryny [fdroid-site](https://gitlab.com/fdroid/fdroid-website) automatycznie mają konfigurację serwera pośredniczącego i są utrzymywane przez konfigurację _gitlab-ci_ . Spowoduje to automatyczne rozmieszczenie zawartości gałęzi _master_ na stronie [GitLab Pages](https://pages.gitlab.io/). Na przykład, widżet git _nicoalt_ znajduje się na <https://gitlab.com/nicoalt/fdroid-website>, a gałąź _master_ jest automatycznie umieszczana na <https://nicoalt.gitlab.io/fdroid-website>."
 
 #. type: Title #####
 #: build/_docs/md/Deploying_the_Website.md
@@ -3151,6 +3151,11 @@ msgid ""
 "     * `SURGE_LOGIN`: The email you used to signup with `surge login`.\n"
 "     * `SURGE_TOKEN`: The value given when you ran `surge token`.\n"
 msgstr ""
+" * [Dodaj dwie \"Tajne Zmienne\"]](https://docs.gitlab.com/ce/ci/variables/README.html#secret-variables) do twojego gałęzi tego projektu:\n"
+"   * Przejdź do ustawień swoich projektów -> Strumień (ang. Pipelines) -> Tajne Zmienne.\n"
+"   * Dodaj następujące dwie zmienne:\n"
+"     * `SURGE_LOGIN`: E-mail, którego użyłeś do rejestracji `surge login`.\n"
+"     * `SURGE_TOKEN`: Wartość podana podczas uruchamiania `surge token`.\n"
 
 #. type: Plain text
 #: build/_docs/md/Deploying_the_Website.md
@@ -3182,48 +3187,48 @@ msgstr "Kiedy aktualizacja witryny jest testowana i gotowa do użycia, menedżer
 #. type: Plain text
 #: build/_docs/md/Deploying_the_Website.md
 msgid "After the git tag is verified, the `f-droid.org` target in [.gitlab-ci.yml](https://gitlab.com/fdroid/fdroid-website/blob/master/.gitlab-ci.yml)  is run to generate the actual files for the site.  Those files are then copied into place on the _f-droid.org_ servers."
-msgstr ""
+msgstr "Po zweryfikowaniu tagu git, `f-droid.org` w [.gitlab-ci.yml](https://gitlab.com/fdroid/fdroid-website/blob/master/.gitlab-ci.yml)  jest uruchamiany w celu wygenerowania rzeczywistych plików dla witryny. Pliki te są następnie kopiowane na miejsce na serwerach _f-droid.org_ ."
 
 #. type: Plain text
 #: build/_docs/md/Deploying_the_Website.md
 msgid "The deploy tags use a \"semantic versioning\" naming scheme:"
-msgstr ""
+msgstr "Tagi wdrażania używają schematu nazewnictwa \"semantycznego wersjonowania\":"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Deploying_the_Website.md
 msgid "_\\<major>.\\<minor>_"
-msgstr ""
+msgstr "_\\<major>.\\<minor>_"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Deploying_the_Website.md
 msgid "_\\<minor>_ is incremented on each deployment"
-msgstr ""
+msgstr "_\\<minor>_ jest zwiększany przy każdym wdrożeniu"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Deploying_the_Website.md
 msgid "_\\<major>_ is only incremented when there are major changes"
-msgstr ""
+msgstr "_\\<major>_ jest zwiększany tylko w przypadku większych zmian"
 
 #. type: Title ###
 #: build/_docs/md/Deploying_the_Website.md
 #, no-wrap
 msgid "Setting up and running the deploy procedure"
-msgstr ""
+msgstr "Konfigurowanie i uruchamianie procedury wdrażania"
 
 #. type: Plain text
 #: build/_docs/md/Deploying_the_Website.md
 msgid "The deploy procedure was tested on a machine running Debian/stretch.  It should be triggered whenever the repo index is published, so it can rebuild with the latest app information.  This whole procedure can be run as root, or just `gitlab-runner`.  This final procedure is not part of a script committed into the website git repo so that the commands that run outside of docker cannot be modified via git."
-msgstr ""
+msgstr "Procedura wdrażania została przetestowana na komputerze z systemem Debian/stretch. Powinien być uruchamiany za każdym razem, gdy publikowany jest indekx repo, więc można odbudować z najnowsze informacje dotyczące aplikacji. Cała ta procedura może być uruchomiona jako root lub po prostu `gitlab-runner`. Ta ostatnia procedura nie jest częścią skryptu zatwierdzonego w repozytorium git witryny, więc polecenia uruchamiane poza dokowaniem nie mogą być modyfikowane przez git."
 
 #. type: Bullet: '1. '
 #: build/_docs/md/Deploying_the_Website.md
 msgid "[setup docker](https://docs.docker.com/engine/installation/linux/debian/)"
-msgstr ""
+msgstr "[okno dokowania instalacji](https://docs.docker.com/engine/installation/linux/debian/)"
 
 #. type: Bullet: '2. '
 #: build/_docs/md/Deploying_the_Website.md
 msgid "[setup gitlab-ci-multi-runner](https://docs.gitlab.com/runner/install/linux-repository.html)"
-msgstr ""
+msgstr "[instalacja gitlab-ci-multi-runner](https://docs.gitlab.com/runner/install/linux-repository.html)"
 
 #. type: Plain text
 #: build/_docs/md/Deploying_the_Website.md
@@ -3261,111 +3266,111 @@ msgstr ""
 #: build/_docs/md/Deploying_the_Website.md
 #, no-wrap
 msgid "Base Debian/Apache setup"
-msgstr ""
+msgstr "Instalacja Base Debian/Apache"
 
 #. type: Plain text
 #: build/_docs/md/Deploying_the_Website.md
 msgid "These instructions are based on Debian/stretch, but they should be very similar on both older and newer versions of Debian, as well as any Debian derivatives like Ubuntu, Mint, Elementary, etc."
-msgstr ""
+msgstr "Instrukcje te są oparte na Debianie/stretch, ale powinny być bardzo podobne zarówno dla starszej, jak i nowszej wersji Debiana, jak również dla pochodnych Debiana takich jak Ubuntu, Mint, Elementary itp."
 
 #. type: Plain text
 #: build/_docs/md/Deploying_the_Website.md
 msgid "```console $ sudo su -"
-msgstr ""
+msgstr "```konsola $ sudo su -"
 
 #. type: Title #
 #: build/_docs/md/Deploying_the_Website.md
 #, no-wrap
 msgid "apt install apache2 certbot tor ca-certificates geoip-bin libapache2-mod-geoip \\"
-msgstr ""
+msgstr "apt install apache2 certbot tor ca-certificates geoip-bin libapache2-mod-geoip \\"
 
 #. type: Plain text
 #: build/_docs/md/Deploying_the_Website.md
 #, no-wrap
 msgid "  python-certbot-apache rsync unattended-upgrades locales\n"
-msgstr ""
+msgstr "  python-certbot-apache rsync nienadzorowane-uaktualnia ustawienia regionalne\n"
 
 #. type: Title #
 #: build/_docs/md/Deploying_the_Website.md
 #, no-wrap
 msgid "dpkg-reconfigure unattended-upgrades  # turn them on!"
-msgstr ""
+msgstr "dpkg-reconfigure unattended-upgrades  # włącz je!"
 
 #. type: Title #
 #: build/_docs/md/Deploying_the_Website.md
 #, no-wrap
 msgid "sed -i 's,^# \\(.* UTF-8\\)$,\\1,' /etc/locale.gen  # enable all UTF-8 locales"
-msgstr ""
+msgstr "sed -i 's,^# \\(.* UTF-8\\)$,\\1,' /etc/locale.gen  # włącz wszystkie regionalne UTF-8"
 
 #. type: Title #
 #: build/_docs/md/Deploying_the_Website.md
 #, no-wrap
 msgid "locale-gen"
-msgstr ""
+msgstr "lokalny-gen"
 
 #. type: Title #
 #: build/_docs/md/Deploying_the_Website.md
 #, no-wrap
 msgid "a2dismod status"
-msgstr ""
+msgstr "status a2dismod"
 
 #. type: Title #
 #: build/_docs/md/Deploying_the_Website.md
 #, no-wrap
 msgid "a2enmod headers"
-msgstr ""
+msgstr "nagłówki a2enmod"
 
 #. type: Title #
 #: build/_docs/md/Deploying_the_Website.md
 #, no-wrap
 msgid "a2enmod rewrite"
-msgstr ""
+msgstr "napisz a2enmod"
 
 #. type: Title #
 #: build/_docs/md/Deploying_the_Website.md
 #, no-wrap
 msgid "a2enmod ssl"
-msgstr ""
+msgstr "ssl a2enmod"
 
 #. type: Title #
 #: build/_docs/md/Deploying_the_Website.md
 #, no-wrap
 msgid "a2enconf security"
-msgstr ""
+msgstr "zabezpieczenia a2enconf"
 
 #. type: Title #
 #: build/_docs/md/Deploying_the_Website.md
 #, no-wrap
 msgid "apachectl configtest && apachectl restart"
-msgstr ""
+msgstr "apachectl configtest && apachectl restart"
 
 #. type: Title #
 #: build/_docs/md/Deploying_the_Website.md
 #, no-wrap
 msgid "certbot --apache"
-msgstr ""
+msgstr "certbot --apache"
 
 #. type: Plain text
 #: build/_docs/md/Deploying_the_Website.md
 #: build/_docs/md/Setup_an_F-Droid_App_Repo.md
 msgid "```"
-msgstr ""
+msgstr "```"
 
 #. type: Title ###
 #: build/_docs/md/Deploying_the_Website.md
 #, no-wrap
 msgid "Apache2 config"
-msgstr ""
+msgstr "Apache2 config"
 
 #. type: Plain text
 #: build/_docs/md/Deploying_the_Website.md
 msgid "The F-Droid website is translated into several languages.  There are a few things required to ensure this works."
-msgstr ""
+msgstr "Strona F-Droid jest tłumaczona na kilka języków. Aby to zadziałało, musisz wykonać kilka czynności."
 
 #. type: Plain text
 #: build/_docs/md/Deploying_the_Website.md
 msgid "The first is taken care of by `.gitlab-ci.yml`, which is to run the `./tools/prepare-multi-langs.sh` script _without_ the `--no-type-maps` argument.  This ensures that each `.html` file is replaced with an Apache2 [TypeMap](https://httpd.apache.org/docs/current/mod/mod_negotiation.html#typemaps)."
-msgstr ""
+msgstr "Pierwszy jest obsługiwany przez `.gitlab-ci.yml`, który uruchamia `./tools/prepare-multi-langs.sh` skrypt _without_ the `--no-type-maps` bez argumentu. Dzięki temu każdy plik `.html` zostanie zastąpiony przez Apache2 [TypeMap](https://httpd.apache.org/docs/current/mod/mod_negotiation.html#typemaps)."
 
 #. type: Plain text
 #: build/_docs/md/Deploying_the_Website.md
