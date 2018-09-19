@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-09-14 17:11+0200\n"
-"PO-Revision-Date: 2018-09-19 14:22+0000\n"
+"PO-Revision-Date: 2018-09-22 07:44+0000\n"
 "Last-Translator: WaldiS <admin@sto.ugu.pl>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/f-droid/website-posts/pl/>\n"
 "Language: pl\n"
@@ -3983,7 +3983,7 @@ msgstr "Wszyscy kochają SimpleMobileTools od Tibor Kaputa. **[Galeria](https://
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
 msgid "{{ page.featured }} **[A Photo Manager](https://f-droid.org/app/de.k3b.android.androFotoFinder)** the gallery app with tag support and powerfull Openstreetmap integration has received a major update to 0.7.0 with new icons. Major improvements include a new search bar for finding photos along with a date-picker to choose \"virtual-albums' from folder-picker or any file manager. An upcoming bugfix release to 0.7.1 next week will fix the broken “show in new gallery/map”."
-msgstr ""
+msgstr "{{ page.featured }} **[Menedżer zdjęć](https://f-droid.org/app/de.k3b.android.androFotoFinder)** aplikacja galerii z obsługą tagów i potężną integracją Openstreetmap otrzymała ważną aktualizację do wersji 0.7.0 z nowymi ikonami. Główne ulepszenia obejmują nowy pasek wyszukiwania do znajdowania zdjęć wraz z selektorem dat, aby wybrać \"wirtualne albumy\" z folderu-zbieracza lub dowolnego menedżera plików. Najbliższe wydanie poprawki do wersji 0.7.1 w przyszłym tygodniu naprawi zepsute \"pokaż w nowej galerii/map\"."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
@@ -3998,7 +3998,7 @@ msgstr "**[Tutanota](https://f-droid.org/app/de.tutao.tutanota)**, zaszyfrowany 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
 msgid "While some users may shy away from YouTube, F-Droid still provides several high quality open-source apps to help you binge on YouTube videos. **[SkyTube](https://f-droid.org/app/free.rm.skytube.oss)** receieved a major update to version 2.9.0 bringing a slough of new features including video blocking, volume and brightness gestures, search history, a new video player, better video and playlist support and a new icon."
-msgstr ""
+msgstr "Podczas, gdy niektórzy użytkownicy mogą wystrzegać się YouTube'a, F-Droid nadal oferuje kilka wysokiej jakości aplikacji open-source, które pomagają Ci rozkoszować się filmami z YouTube. ** [SkyTube](https://f-droid.org/app/free.rm.skytube.oss)** dostarczył ważną aktualizację do wersji 2.9.0, wprowadzając szereg nowych funkcji, w tym blokowanie wideo, głośność i jasność gesty, historia wyszukiwania, nowy odtwarzacz wideo, lepsza obsługa filmów i list odtwarzania oraz nowa ikona."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
@@ -4008,12 +4008,12 @@ msgstr "{{ page.featured }} **[OsmAnd~](https://f-droid.org/app/net.osmand.plus)
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
 msgid "**[Gadgetbridge](https://f-droid.org/app/nodomain.freeyourgadget.gadgetbridge)** allows you to communicate with many types of devices including Pebble, Mi Band, Amazon Bip, and Hplus.  Version 0.29.1 brings better language and notifcation support to the Mi Band 3 and began implementation of start and end of sleep statistics."
-msgstr ""
+msgstr "**[Gadgetbridge](https://f-droid.org/app/nodomain.freeyourgadget.gadgetbridge)** pozwala komunikować się z wieloma rodzajami urządzeń, w tym Pebble, Mi Band, Amazon Bip i Hplus. Wersja 0.29.1 zapewnia lepszą obsługę języka i powiadamiania w zespole Mi Band 3 i rozpoczęła wdrażanie statystyk dotyczących początku i końca snu."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
 msgid "**[OpenFoodFacts](https://f-droid.org/app/openfoodfacts.github.scrachx.openfood)** provides a public database of food ingredients, allergens, and nutrition facts. Version 2.9.0 allows users to edit any product on Open Pet Food Facts. It also brings new translations in Slovak, Hebrew, Spanish, Arabic, Dutch, Hungarian, Vietnamese, and more. OpenBeautyFacts and OpenPetFoodFacts received similar updates."
-msgstr ""
+msgstr "**[OpenFoodFacts](https://f-droid.org/app/openfoodfacts.github.scrachx.openfood)** zapewnia publiczną bazę danych składników żywności, alergenów i faktów żywieniowych. Wersja 2.9.0 pozwala użytkownikom na edycję dowolnego produktu na temat otwartych informacji na temat karmy dla zwierząt. Zawiera również nowe tłumaczenia w języku słowackim, hebrajskim, hiszpańskim, arabskim, holenderskim, węgierskim, wietnamskim i wielu innych. OpenBeautyFacts i OpenPetFoodFacts otrzymały podobne aktualizacje."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
@@ -4023,7 +4023,7 @@ msgstr "**[Tremotesf](https://f-droid.org/app/org.equeim.tremotesf)**, pilot zda
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
 msgid "The Android inventory agent, **[Inventory](https://f-droid.org/app/org.flyve.inventory.agent)**, got its 1.0 release. This is major update brings new anonymous voluntary data sharing, a new main app layout, an overhauled interface, and modern Android permission dialogs."
-msgstr ""
+msgstr "Agent zasobów reklamowych na Androida **[Inventory](https://f-droid.org/app/org.flyve.inventory.agent)** uzyskał wersję 1.0. To ważna aktualizacja przynosi nowe anonimowe dobrowolne udostępnianie danych, nowy główny układ aplikacji, odnowiony interfejs i nowoczesne okna dialogowe uprawnień Androida."
 
 #. type: Plain text
 #: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
@@ -4045,18 +4045,18 @@ msgstr "Masz opinię? Jesteśmy bardzo podatni na ataki w **[@fdroidorg@mastodon
 #: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
 #, no-wrap
 msgid "Postscript"
-msgstr ""
+msgstr "Postscriptum"
 
 #. type: Plain text
 #: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
 msgid "Please everybody give **[Coffee](https://open.source.coffee)** a round of applause and a thank you for writing the last 17 TWIFs."
-msgstr ""
+msgstr "Proszę, dajcie wszyscy **[Coffee](https://open.source.coffee)** serię oklasków i podziękowań za napisanie ostatnich 17 TWIF-ów."
 
 #. type: Title #
 #: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
 #, no-wrap
 msgid "\"TWIF 19: Untis, Tusky and Rabbit Escape updated\""
-msgstr ""
+msgstr "\"TWIF 19: Untis, Tusky i Rabbit Escape zaktualizowane\""
 
 #. type: Plain text
 #: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
@@ -4070,25 +4070,27 @@ msgid ""
 "In this edition: 9 new apps, and 57 updates featuring Untis, Tusky, Rabbit Escape, and also Libretorrent, Orgzly, StreetComplete, Mastalab, Revolution IRC and more.\n"
 "<!--more-->\n"
 msgstr ""
+"W tej edycji: 9 nowych aplikacji i 57 aktualizacji zawierających Untis, Tusky, Rabbit Escape, a także Libretorrent, Orgzly, StreetComplete, Mastalab, Revolution IRC i inne.\n"
+"<!--more-->\n"
 
 #. type: Plain text
 #: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
 #: build/_posts/md/2018-09-06-twif-20-security-audit-completed-buildserver-setup-with-ansible.md
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "**[F-Droid](https://f-droid.org/)** is a [repository](https://f-droid.org/packages/) of verified [free and open source](https://en.wikipedia.org/wiki/Free_and_open-source_software) Android apps, a **[client](https://f-droid.org/app/org.fdroid.fdroid)** to access it, as well as a whole \"app store kit\", providing all the tools needed to set up and run an app store. It is a community-run free software project developed by a wide range of contributors. This is their story this past week.\n"
-msgstr "[F-Droid](https://f-droid.org/) to [repozytorium](https://f-droid.org/packages/) zweryfikowanego [wolnego i otwartego źródła](https://en.wikipedia.org/wiki/Free_and_open-source_software) aplikacje na Androida, [klient](https://f-droid.org/app/org.fdroid.fdroid), aby uzyskać do niego dostęp, a także cały \"zestaw aplikacji sklepu\", zapewniając wszystkie narzędzia potrzebne do skonfigurowania i uruchomienia sklepu z aplikacjami. Jest to projekt wolnego oprogramowania tworzony przez społeczność, opracowany przez wielu różnych autorów. To jest ich historia w zeszłym tygodniu."
+msgstr "**[F-Droid](https://f-droid.org/)** jest [repozytorium](https://f-droid.org/packages/) zweryfikowanego [bezpłatne i otwarte źródło](https://en.wikipedia.org/wiki/Free_and_open-source_software) Aplikacje na Androida **[klient](https://f-droid.org/app/org.fdroid.fdroid)** aby uzyskać do niego dostęp, a także cały \"zestaw aplikacji sklepu\", zapewniając wszystkie narzędzia potrzebne do skonfigurowania i uruchomienia sklepu z aplikacjami. Jest to projekt wolnego oprogramowania tworzony przez społeczność, opracowany przez wielu różnych autorów. To jest ich historia w zeszłym tygodniu.\n"
 
 #. type: Plain text
 #: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
 #, no-wrap
 msgid "**9** new apps have been added to the repository, bringing the total up to **1589**.\n"
-msgstr ""
+msgstr "**9** nowe aplikacje zostały dodane do repozytorium, łącząc je do **1589**.\n"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
 msgid "**[Temp. monitor](https://f-droid.org/app/com.gmail.jiwopene.temperature)**: Shows and logs HW temperature"
-msgstr ""
+msgstr "**[Temp. monitor](https://f-droid.org/app/com.gmail.jiwopene.temperature)**: Pokazuje i rejestruje temperaturę HW"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
@@ -4098,27 +4100,27 @@ msgstr "**[XMouse](https://f-droid.org/app/com.stripe1.xmouse)**: Zdalne sterowa
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
 msgid "**[Freifunk-Karte](https://f-droid.org/app/de.freifunk_karte.freifunk_karte)**: Map for viewing the Freifunk Nodes on a OpenStreetMap"
-msgstr ""
+msgstr "**[Freifunk-Karte](https://f-droid.org/app/de.freifunk_karte.freifunk_karte)**: Mapa do przeglądania węzłów Freifunk na OpenStreetMap"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
 msgid "**[Run Userinit](https://f-droid.org/app/de.lisas.alex.runuserinit)**: Run user init scripts after boot"
-msgstr ""
+msgstr "**[Run Userinit](https://f-droid.org/app/de.lisas.alex.runuserinit)**: Uruchamiaj skrypty startowe użytkownika po starcie"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
 msgid "**[FairEmail](https://f-droid.org/app/eu.faircode.email)**: Privacy friendly email app from the developer of **[NetGuard](https://f-droid.org/app/eu.faircode.netguard)**"
-msgstr ""
+msgstr "**[FairEmail](https://f-droid.org/app/eu.faircode.email)**: Przyjazna dla środowiska aplikacja e-mail od programisty **[NetGuard](https://f-droid.org/app/eu.faircode.netguard)**"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
 msgid "**[Shelter](https://f-droid.org/app/net.typeblog.shelter)**: Isolate your Big Brother Apps / Multiple Accounts"
-msgstr ""
+msgstr "**[Shelter](https://f-droid.org/app/net.typeblog.shelter)**: Wyizoluj swoje aplikacje Big Brother / Multiple Accounts"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
 msgid "**[Cow's Revenge](https://f-droid.org/app/org.pipoypipagames.cowsrevenge)**: Indie platform game in pixel art where you are a cow abducted and genetically improved by aliens"
-msgstr ""
+msgstr "**[Cow's Revenge](https://f-droid.org/app/org.pipoypipagames.cowsrevenge)**: Gra platformowa niezależna w sztuce pikselowej, w której jesteś uprowadzoną krową i genetycznie ulepszoną przez kosmitów"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
@@ -4128,7 +4130,7 @@ msgstr "**[Patolli](https://f-droid.org/app/ru.henridellal.patolli)**: Gra plans
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
 msgid "**[APKMirror](https://f-droid.org/app/taco.apkmirror)**: An unofficial APKMirror client/web app"
-msgstr ""
+msgstr "**[APKMirror](https://f-droid.org/app/taco.apkmirror)**: Nieoficjalny klient APKMirror/aplikacja internetowa"
 
 #. type: Plain text
 #: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
@@ -4150,7 +4152,7 @@ msgstr ""
 #: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
 #, no-wrap
 msgid "  Version 2.0.4 adds support for landscape mode, Android 4.2 compatibility, translation updates and several other changes.\n"
-msgstr ""
+msgstr "  Wersja 2.0.4 dodaje obsługę trybu krajobrazu, zgodności z Androidem 4.2, aktualizacjami tłumaczeń i kilkoma innymi zmianami.\n"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
@@ -4189,7 +4191,7 @@ msgstr ""
 #: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
 #, no-wrap
 msgid "  New quests are: Playground access (public/private), max height (of tunnel/parking entrance/height restrictor), and cycleway segregation.\n"
-msgstr ""
+msgstr "  Nowe zadania to: Dostęp do placu zabaw (publiczny/prywatny), maksymalna wysokość (wejście/wejście do tunelu/ogranicznik wysokości) oraz segregacja na drodze.\n"
 
 #. type: Plain text
 #: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
@@ -4219,9 +4221,8 @@ msgstr ""
 
 #. type: Plain text
 #: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
-#, fuzzy
 msgid "Send tips to **[@fdroidorg@mastodon.technology](https://mastodon.technology/@fdroidorg)** and remember to tag with **[#TWIF](https://mastodon.technology/tags/twif)**. Or use the [TWIF submission thread](https://forum.f-droid.org/t/twif-submission-thread) on the forum. The deadline to the next TWIF is **Thursday** 12:00 UTC."
-msgstr "Wyślij wskazówki do [@fdroidorg@mastodon.technology](https://mastodon.technology/@fdroidorg) i pamiętaj o oznaczeniu tagiem [TWIF](https://mastodon.technology/tags/twif). Lub użyj [wątku składania TWIF](https://forum.f-droid.org/t/twif-submission-thread) na forum. Termin do następnego TWIF to czwartek 12:00 czasu UTC."
+msgstr "Wyślij wskazówki do **[@fdroidorg@mastodon.technology](https://mastodon.technology/@fdroidorg)** i pamiętaj o oznaczeniu tagami **[#TWIF](https://mastodon.technology/tags/twif)**. Lub użyj [wątku dostarczania TWIF](https://forum.f-droid.org/t/twif-submission-thread) na forum. Termin do następnego TWIF to **Czwartek** 12:00 UTC."
 
 #. type: Title ####
 #: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
@@ -5033,9 +5034,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
-#, fuzzy
 msgid "**[Resume Builder](https://f-droid.org/app/com.ibrahimyousre.resumebuilder)**: An app to help you create your resume"
-msgstr "**[OSMTracker](https://f-droid.org/app/net.osmtracker)**: Rejestrator ścieżki GPS"
+msgstr "**[Resume Builder](https://f-droid.org/app/com.ibrahimyousre.resumebuilder)**: Aplikacja ułatwiająca tworzenie CV"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
@@ -5049,15 +5049,13 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
-#, fuzzy
 msgid "**[PianOli](https://f-droid.org/app/com.nicobrailo.pianoli)**: Baby game to keep your device safe from random baby-taps"
-msgstr "[Ludo](https://f-droid.org/app/org.secuso.privacyfriendlyludo): Gra planszowa dla 1 do 6 graczy"
+msgstr "**[PianOli](https://f-droid.org/app/com.nicobrailo.pianoli)**: Gra dla dzieci, aby zabezpieczyć urządzenie przed przypadkowymi dotknięciami"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
-#, fuzzy
 msgid "**[Yoke](https://f-droid.org/app/com.simonramstedt.yoke)**: Hackable gamepad for Linux"
-msgstr "[BookList](https://f-droid.org/app/com.ames.books): nieoficjalna przeglądarka Książek Google"
+msgstr "**[Yoke](https://f-droid.org/app/com.simonramstedt.yoke)**: Hackowany gamepad dla systemu Linux"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
@@ -5076,9 +5074,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
-#, fuzzy
 msgid "**[NotificationLog](https://f-droid.org/app/de.jl.notificationlog)**: Log system notifications locally"
-msgstr "[Text Fiction](https://f-droid.org/app/de.onyxbits.textfiction): Interaktywny tłumacz fikcji"
+msgstr "**[NotificationLog](https://f-droid.org/app/de.jl.notificationlog)**: Powiadomienia systemu lokalnie"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
@@ -5087,21 +5084,18 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
-#, fuzzy
 msgid "**[PSLab](https://f-droid.org/app/io.pslab)**: Pocket Science Lab Android interface for PSLab hardware"
-msgstr "[PSLab](https://f-droid.org/en/packages/org.fossasia.pslab/): Pocket Science Lab Interfejs Android dla sprzętu PSLab"
+msgstr "**[PSLab](https://f-droid.org/app/io.pslab)**: Pocket Science Lab Interfejs Android dla sprzętu PSLab"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
-#, fuzzy
 msgid "**[Knock on Ports](https://f-droid.org/app/me.impa.knockonports)**: A port knocking client"
-msgstr "**[OSMTracker](https://f-droid.org/app/net.osmtracker)**: Rejestrator ścieżki GPS"
+msgstr "**[Knock on Ports](https://f-droid.org/app/me.impa.knockonports)**: Klient puka do portu"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
-#, fuzzy
 msgid "**[Sam Remote](https://f-droid.org/app/mkg20001.net.samremote)**: Simple WiFi remote for Samsung TVs"
-msgstr "**[VlcFreemote](https://f-droid.org/app/com.nicolasbrailo.vlcfreemote)**: Zdalnie steruj serwerem VLC"
+msgstr "**[Sam Remote](https://f-droid.org/app/mkg20001.net.samremote)**: Prosty pilot WiFi do telewizorów Samsung"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
@@ -5120,15 +5114,13 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
-#, fuzzy
 msgid "**[Privacy Helper](https://f-droid.org/app/org.privacyhelper)**: An app privacy guide"
-msgstr "**[OSMTracker](https://f-droid.org/app/net.osmtracker)**: Rejestrator ścieżki GPS"
+msgstr "**[Privacy Helper](https://f-droid.org/app/org.privacyhelper)**: Przewodnik po prywatności aplikacji"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
-#, fuzzy
 msgid "**[Pausing Healthily](https://f-droid.org/app/org.secuso.privacyfriendlypausinghealthily)**: Break reminder with helpful exercises"
-msgstr "[Werewolf](https://f-droid.org/app/org.secuso.privacyfriendlycardgameone): Zagraj w Werewolf ze swoimi przyjaciółmi"
+msgstr "**[Pausing Healthily](https://f-droid.org/app/org.secuso.privacyfriendlypausinghealthily)**: Przerwij przypomnienie przy pomocy pomocnych ćwiczeń"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
@@ -5137,9 +5129,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
-#, fuzzy
 msgid "**[9P](https://f-droid.org/app/se.tube42.p9.android)**: Word puzzle game"
-msgstr "[Open Sudoku](https://f-droid.org/app/org.moire.opensudoku): Gra Sudoku"
+msgstr "**[9P](https://f-droid.org/app/se.tube42.p9.android)**: Słowo gra logiczna"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
@@ -5153,9 +5144,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
-#, fuzzy
 msgid "**[WateryDroid](https://f-droid.org/app/tmendes.com.waterydroid)**: Simple reminder app to drink water"
-msgstr "[TEdit](https://f-droid.org/app/com.atr.tedit): Prosty edytor tekstu"
+msgstr "**[WateryDroid](https://f-droid.org/app/tmendes.com.waterydroid)**: Prosta aplikacja do przypominania o piciu wody"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
@@ -5164,9 +5154,8 @@ msgstr ""
 
 #. type: Plain text
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
-#, fuzzy
 msgid "In total, **61** apps were updated this week. Here are the highlights:"
-msgstr "W sumie w tym tygodniu zaktualizowano 68 aplikacji. Oto najważniejsze cechy:"
+msgstr "W sumie w tym tygodniu zaktualizowano **61** aplikacji. Oto najważniejsze cechy:"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
@@ -5195,9 +5184,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
-#, fuzzy
 msgid "**[Tusky](https://f-droid.org/app/com.keylesspalace.tusky)** is a lightweight material design Mastodon client. Version 3.1 fixes image orientation when uploading them, fixes bugs with loading bottom items, allows account switching while offline, and other bug fixes and improvements."
-msgstr "[Tusky](https://f-droid.org/app/com.keylesspalace.tusky), klient Mastodon, wydana wersja 2.3, dodająca włoskie tłumaczenie i inne tłumaczenia, ulepszone użycie pamięci podczas wgrywania zdjęć oraz inne drobne ulepszenia i poprawki."
+msgstr "**[Tusky](https://f-droid.org/app/com.keylesspalace.tusky)** jest lekkim materiałem konstrukcyjnym klienta Mastodon. Wersja 3.1 poprawia orientację obrazu podczas przesyłania, naprawia błędy z ładowaniem dolnych elementów, umożliwia przełączanie kont w trybie offline oraz inne poprawki i ulepszenia."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
@@ -5255,6 +5243,5 @@ msgstr ""
 
 #. type: Plain text
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
-#, fuzzy
 msgid "Do you have important app updates we should write about? Send in your tips via [Mastodon](https://joinmastodon.org)! Send them to **[@fdroidorg@mastodon.technology](https://mastodon.technology/@fdroidorg)** and remember to tag with **[#TWIF](https://mastodon.technology/tags/twif)**. Or use the [TWIF submission thread](https://forum.f-droid.org/t/twif-submission-thread) on the forum. The deadline to the next TWIF is **Thursday** 12:00 UTC."
-msgstr "Wyślij wskazówki do [@fdroidorg@mastodon.technology](https://mastodon.technology/@fdroidorg) i pamiętaj o oznaczeniu tagiem [TWIF](https://mastodon.technology/tags/twif). Lub użyj [wątku składania TWIF](https://forum.f-droid.org/t/twif-submission-thread) na forum. Termin do następnego TWIF to czwartek 12:00 czasu UTC."
+msgstr "Czy masz ważne informacje o aktualizacjach aplikacji, o których powinniśmy pisać? Wyślij swoje porady przez [Mastodon](https://joinmastodon.org)! Wyślij je do **[@fdroidorg@mastodon.technology](https://mastodon.technology/@fdroidorg)** i pamiętaj, by oznaczyć je tagiem **[#TWIF](https://mastodon.technology/tags/twif)**. Lub użyj [wątku składania TWIF](https://forum.f-droid.org/t/twif-submission-thread) na forum. Termin do następnego TWIF to * Czwartek** 12:00 UTC."
