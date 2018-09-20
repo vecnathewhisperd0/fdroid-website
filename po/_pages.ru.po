@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-06-30 12:21+0200\n"
-"PO-Revision-Date: 2018-09-10 20:22+0000\n"
-"Last-Translator: Andrey <andrey@mailbox.org>\n"
+"PO-Revision-Date: 2018-09-22 02:34+0000\n"
+"Last-Translator: mesnevi <shams@airpost.net>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/f-droid/website-pages/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
@@ -44,12 +44,12 @@ msgstr "О F-Droid"
 #. type: Plain text
 #: build/_pages/md/about.md
 msgid "F-Droid is a robot with a passion for Free and Open Source (FOSS) software on the Android platform. On this site you’ll find a repository of FOSS apps, along with an Android client to perform installations and updates, and news, reviews and other features covering all things Android and software-freedom related."
-msgstr "Робот-симпатяга F-droid всем сердцем любит программное обеспечение с открытым исходным кодом (Free Open Source Software, FOSS) на платформе Android. На этом сайте вы найдете репозиторий таких приложений и клиент для их установки и обновления, а также новости, обзоры и прочее, охватывающее все, что связано с разработкой под Android и свободным программным обеспечением."
+msgstr "Робот-симпатяга F-droid всем сердцем любит программное обеспечение с открытым исходным кодом (Free Open Source Software, FOSS) на платформе Android. На этом сайте находятся репозиторий таких приложений и клиент для их установки и обновления, а также новости, обзоры и прочее, охватывающее все, что связано с разработкой под Android и свободным программным обеспечением."
 
 #. type: Plain text
 #: build/_pages/md/about.md
 msgid "F-Droid is operated by F-Droid Limited, a non-profit organisation registered in England (no. 8420676)."
-msgstr "F-Droid управляется некоммерческой организацией F-Droid Limited, зарегистрированной в Англии (№ 8420676)."
+msgstr "F-Droid управляет некоммерческая организация F-Droid Limited, зарегистрированная в Англии (№ 8420676)."
 
 #. type: Title ####
 #: build/_pages/md/about.md
@@ -60,7 +60,7 @@ msgstr "Контакты"
 #. type: Plain text
 #: build/_pages/md/about.md
 msgid "You can discuss F-Droid or get help on the [forum](https://forum.f-droid.org) and IRC in the [#fdroid channel](https://webchat.freenode.net/?channels=%23fdroid) on freenode. The discussions on IRC are logged on [BotBot.me](https://botbot.me/freenode/fdroid).  You can send email at [team@f-droid.org](mailto:team@f-droid.org), but messages are much more likely to be answered on the forum or #fdroid channel. If you want to help, you can [join us]({{ \"/contribute/\" | prepend: site.baseurl }})."
-msgstr "Вы можете обсудить F-Droid или получить помощь на [форуме](https://forum.f-droid.org) и в IRC на [канале #fdroid](https://webchat.freenode.net/?channels=%23fdroid) на сервере freenode. Запись всех обсуждений можно почитать в [BotBot.me](https://botbot.me/freenode/fdroid).  Вы можете отправить письмо по адресу [team@f-droid.org](mailto:team@f-droid.org), но, получить ответ проще и быстрее на форуме или на канале #fdroid.Если вы хотите помочь, то можете  [присоединиться]({{ \"/contribute/\" | prepend: site.baseurl }})."
+msgstr "Вы можете обсудить F-Droid или получить помощь на [форуме](https://forum.f-droid.org) и в IRC на [канале #fdroid](https://webchat.freenode.net/?channels=%23fdroid) на сервере freenode. Запись всех обсуждений можно почитать в [BotBot.me](https://botbot.me/freenode/fdroid).  Вы можете отправить письмо по адресу [team@f-droid.org](mailto:team@f-droid.org), но, получить ответ проще и быстрее на форуме или на канале #fdroid. Если вы хотите помочь, то можете  [присоединиться]({{ \"/contribute/\" | prepend: site.baseurl }})."
 
 #. type: Title ###
 #: build/_pages/md/about.md
@@ -81,12 +81,12 @@ msgstr "Содержимое раздела новостей и логотип F
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "The descriptive text and graphics for each app have a specific license from that project.  Free software should also have free descriptions and graphics."
-msgstr "Описательные тексты и изображения для каждого приложения имеют свою специфичную лицензию.  Обычно у свободного ПО они есть и в публичном доступе."
+msgstr "У описательных текстов и изображений для каждого приложения — свои лицензии.  Обычно у свободного ПО они есть в публичном доступе."
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "The F-Droid logo was created by William Theaker. Updates to that, and additional artwork, are by Robert Martinez."
-msgstr "Логотип F-Droid был создан William Theaker. Инновации и художественные изменения - Robert Martinez."
+msgstr "Создатель логотипа F-droid — William Theaker. Все обновления и любые дополнительные задачи по логотипу выполняет Robert Martinez."
 
 #. type: Title ###
 #: build/_pages/md/about.md
@@ -97,7 +97,7 @@ msgstr "Условия и прочее."
 #. type: Plain text
 #: build/_pages/md/about.md
 msgid "F-Droid is a non-profit [volunteer]({{ \"/contribute/\" | prepend: site.baseurl }}) project. Although every effort is made to ensure that everything in the repository is safe to install, you use it AT YOUR OWN RISK. Wherever possible, applications in the repository are built from source, and that source code is checked for potential security or privacy issues. This checking is far from exhaustive though, and there are no guarantees."
-msgstr "F-Droid — некоммерческий [volunteer]({{ \"/contribute/\" | prepend: site.baseurl }}) проект. Несмотря на все усилия, направленные на обеспечение безопасности всех установок из репозитория, вы действуете  НА СВОЙ СТРАХ И РИСК. По возможности, приложения в репозитории создаются из исходного кода, и этот код проверяется на потенциальные проблемы безопасности и конфиденциальности. Однако эта проверка далеко не исчерпывающая, и никаких гарантий нет."
+msgstr "F-Droid — некоммерческий [volunteer]({{ \"/contribute/\" | prepend: site.baseurl }}) проект. Мы прикладываем все силы, чтобы сделать все здешние приложения и их установку безопасными, тем не менее, устанавливая их, ВЫ ДЕЙСТВУЕТЕ НА СВОЙ СТРАХ И РИСК. Все приложения собирают из исходного кода, который предварительно проверяют на потенциальные нарушения безопасности или личного пространства. Впрочем, мы не особо надрываемся, проверяя, поэтому никаких гарантий не даём."
 
 #. type: Plain text
 #: build/_pages/md/about.md
@@ -113,7 +113,7 @@ msgstr "Участники"
 #. type: Plain text
 #: build/_pages/md/about.md
 msgid "The F-Droid project was founded in 2010 by Ciaran Gultnieks, and is brought to you by at least the following people:"
-msgstr "Проект F-Droid основан в 2010 году Ciaran Gultnieks и вы имеете удовольствие использовать его благодаря неполному списку следующих участников:"
+msgstr "Проект F-Droid основан в 2010 году Ciaran Gultnieks и вы пользуетесь им благодаря вот этим людям (список неполный):"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
@@ -423,23 +423,23 @@ msgstr "Philipp Wollshlegеl"
 #. type: Plain text
 #: build/_pages/md/about.md
 msgid "If your name is missing, it’s a mistake and you should [add yourself to the list](https://gitlab.com/fdroid/fdroid-website/blob/master/_pages/about.md)! Keep it sorted by surname, please."
-msgstr "Если ваше имя отсутствует, это ошибка, и вы должны [добавить себя в список](https://gitlab.com/fdroid/fdroid-website/blob/master/_pages/about.md)! Пожалуйста, сохраните его отсортированным по фамилиям."
+msgstr "Если вашего имени нет в списке — это ошибка, [добавьте себя](https://gitlab.com/fdroid/fdroid-website/blob/master/_pages/about.md)! Пожалуйста, сохраняйте в нём сортировку по фамилии."
 
 #. type: Plain text
 #: build/_pages/md/about.md
 msgid "The original F-Droid client app was based on the Aptoide app developed by Roberto Jacinto."
-msgstr "Оригинальный клиент приложения F-Droid, основан на приложении Aptoide, разработанном Roberto Jacinto."
+msgstr "Оригинальный клиент приложения F-Droid основан на приложении Aptoide, разработанном Roberto Jacinto."
 
 #. type: Title #
 #: build/_pages/md/contribute.md
 #, no-wrap
 msgid "Contribute"
-msgstr "Поддержать"
+msgstr "Помочь"
 
 #. type: Plain text
 #: build/_pages/md/contribute.md
 msgid "The project is entirely developed and maintained by volunteers. You can help:"
-msgstr "Проект полностью разработан и поддерживается волонтерами. Вы можете помочь:"
+msgstr "Всю работу по разработке и поддержке проекта выполняют добровольцы. Вы можете помочь:"
 
 #. type: Title ###
 #: build/_pages/md/contribute.md
@@ -450,12 +450,12 @@ msgstr "Сообщить о проблеме"
 #. type: Plain text
 #: build/_pages/md/contribute.md
 msgid "If you experience problems with the site or client software, you can report them in the issue tracker (see below), or discuss them in the [Forum](https://forum.f-droid.org/) or on IRC (#fdroid on freenode)."
-msgstr "Если у вас возникли проблемы с сайтом или клиентским программным обеспечением, вы можете сообщить о них в трекере проблем (см. ниже) или обсудить их на [Форуме](https://forum.f-droid.org/) или в IRC ( #fdroid на freenode)."
+msgstr "Если у вас возникли сбои в работе сайта или клиентского приложения, сообщите о них в трекере задач (см. ниже) или приходите обсудить их на [Форум](https://forum.f-droid.org/) или в IRC ( #fdroid на freenode)."
 
 #. type: Plain text
 #: build/_pages/md/contribute.md
 msgid "For reporting issues, choose an appropriate tracker from the following:"
-msgstr "Чтобы сообщить о проблемах, выберите соответствующий трекер из перечисленных:"
+msgstr "Чтобы сообщить об ошибках, выберите соответствующий трекер из перечисленных:"
 
 #. type: Bullet: '* '
 #: build/_pages/md/contribute.md
@@ -465,7 +465,7 @@ msgstr "[Приложение клиента F-Droid](https://gitlab.com/fdroid/
 #. type: Bullet: '* '
 #: build/_pages/md/contribute.md
 msgid "[Server and build tools](https://gitlab.com/fdroid/fdroidserver/issues)"
-msgstr "[Сервер и инструменты для создания](https://gitlab.com/fdroid/fdroidserver/issues)"
+msgstr "[Сервер и инструменты cборки](https://gitlab.com/fdroid/fdroidserver/issues)"
 
 #. type: Bullet: '* '
 #: build/_pages/md/contribute.md
@@ -476,27 +476,27 @@ msgstr "[Официальный репозиторий метаданных F-Dr
 #: build/_pages/md/contribute.md
 #, no-wrap
 msgid "Submit Applications"
-msgstr "Отправить приложения"
+msgstr "Добавить приложение в репозиторий"
 
 #. type: Plain text
 #: build/_pages/md/contribute.md
 msgid "If you see an application missing from the repository (after reading the [inclusion policy](../docs/Inclusion_Policy)), please feel free to submit it via the dedicated [Requests For Packaging](https://gitlab.com/fdroid/rfp/issues) issue tracker."
-msgstr "Если вы видите приложение, отсутствующее в репозитории (после ознакомления с [политикой включения](../docs/Inclusion_Policy)), пожалуйста, отправьте его через выделенный для этого трекер проблем [запросы на отправку](https://gitlab.com/) fdroid/rfp/issues)."
+msgstr "Если приложения нет в репозитории (сначала прочтите [политику включения](../docs/Inclusion_Policy)), пожалуйста, предоставьте его на рассмотрение  в специально выделенный для этого трекер [запросов на включение](https://gitlab.com/) fdroid/rfp/issues)."
 
 #. type: Plain text
 #: build/_pages/md/contribute.md
 msgid "If you have the technical skills required, you can also put together the relevant metadata and [submit that via the F-Droid Data repository](https://gitlab.com/fdroid/fdroiddata/blob/master/CONTRIBUTING.md), which will drastically speed up the inclusion of the application."
-msgstr "Если вы обладаете необходимыми техническими навыками, вы можете самостоятельно скомпилировать нужные метаданные и [добавить их в репозиторий F-Droid Data](https://gitlab.com/fdroid/fdroiddata/blob/master/CONTRIBUTING.md). Это значительно ускорит публикацию вашего приложения."
+msgstr "Если у вас есть необходимые технические навыки, можете самостоятельно собрать нужные метаданные и [добавить их в репозиторий F-Droid Data](https://gitlab.com/fdroid/fdroiddata/blob/master/CONTRIBUTING.md). Это значительно ускорит публикацию вашего приложения."
 
 #. type: Plain text
 #: build/_pages/md/contribute.md
 msgid "The same applies for helping to build newer versions of applications."
-msgstr "Это также относится к помощи в создании новых версий приложений."
+msgstr "Это также относится к помощи по сборке новых версий приложений."
 
 #. type: Plain text
 #: build/_pages/md/contribute.md
 msgid "Further information can be found in [the documentation](../docs), or by asking [on IRC](https://webchat.freenode.net/?channels=%23fdroid) (#fdroid on freenode)."
-msgstr "Дополнительную информацию вы можете найти в [документации](../docs) или запросить [в IRC-чате](https://webchat.freenode.net/?channels=%23fdroid) (#fdroid на freenode)."
+msgstr "Всё остальное можно найти в [документации](../docs) или запросить [в IRC-чате](https://webchat.freenode.net/?channels=%23fdroid) (#fdroid на freenode)."
 
 #. type: Title ###
 #: build/_pages/md/contribute.md
@@ -507,23 +507,23 @@ msgstr "Перевод"
 #. type: Plain text
 #: build/_pages/md/contribute.md
 msgid "The client application is available in many languages. Should yours not be among those, or be in need of updates or improvement, please create an account and use the [translation system](https://hosted.weblate.org/projects/f-droid/) to make your changes."
-msgstr "Клиентское приложение переведено на многие языки. Если перевода на ваш родной не существует, или он нуждается в обновлении либо улучшении, создайте учетную запись в [системе перевода](https://hosted.weblate.org/projects/f-droid/) и используйте ее для внесения изменений."
+msgstr "Клиентское приложение перевели на многие языки. Если перевода на ваш родной нет, или если его нужно обновить и улучшить, создайте учетную запись в [системе перевода](https://hosted.weblate.org/projects/f-droid/) и используйте её, чтобы вносить изменения."
 
 #. type: Plain text
 #: build/_pages/md/contribute.md
 msgid "Start with the overview of [Translation and Localization](../docs/Translation_and_Localization).  There’s also a [dedicated forum section](https://forum.f-droid.org/c/translation) for translation related discussions."
-msgstr "Для начала познакомьтесь с обзором [перевод и локализация](../docs/Translation_and_Localization).  На форуме есть [специальная тема](https://forum.f-droid.org/c/translation) для обсуждений, связанных с переводом."
+msgstr "Для начала ознакомьтесь с обзором [перевод и локализация](../docs/Translation_and_Localization).  На форуме есть [специальная тема](https://forum.f-droid.org/c/translation) для обсуждений, связанных с переводом."
 
 #. type: Title ###
 #: build/_pages/md/contribute.md
 #, no-wrap
 msgid "Help with Development"
-msgstr "Помочь в разработке"
+msgstr "Помочь с разработкой"
 
 #. type: Plain text
 #: build/_pages/md/contribute.md
 msgid "There are four git repositories hosted at GitLab – one for the [Android client application](https://gitlab.com/fdroid/fdroidclient), one for the [server tools](https://gitlab.com/fdroid/fdroidserver) for running a repository and building/installing applications locally, and one for the associated [metadata files for applications in the main F-Droid repository](https://gitlab.com/fdroid/fdroiddata).  The last repo is handling [website and documentation](https://gitlab.com/fdroid/fdroid-website).  The easiest way to contribute to development is to make clones of these projects and submit merge requests.  If you are making large changes, it would be good to discuss them on IRC or in the forum first, to ensure they fit with the direction of the project, and do not clash with or duplicate work already in development."
-msgstr "На GitLab размещены четыре репозитория F-Droid: для [клиентского приложения Android](https://gitlab.com/fdroid/fdroidclient); для [F-Droid сервера](https://gitlab.com/fdroid/fdroidserver ), в котором находятся инструменты настройки локального репозитория для сборки и установки приложений; для связанного с сервером F-Droid  [репозитория с метаданными](https://gitlab.com/fdroid/fdroiddata);  и еще один репозиторий с инструментами для поддержки [сайта и документации](https://gitlab.com/fdroid/fdroid-website).  Внести свой вклад в развитие F-Droid проще всего, склонировав эти проекты и запросив слияние. Если вы планируете большие изменения, было бы неплохо сначала обсудить их в IRC или на форуме и убедиться, что они соответствуют правилам и духу проекта и не дублируют работу других разработчиков."
+msgstr "На GitLab размещены четыре репозитория F-Droid: для [клиентского приложения Android](https://gitlab.com/fdroid/fdroidclient); для [F-Droid сервера](https://gitlab.com/fdroid/fdroidserver ), в котором находятся инструменты настройки локального репозитория для сборки и установки приложений; для связанного с сервером F-Droid  [репозитория с метаданными](https://gitlab.com/fdroid/fdroiddata);  и еще один репозиторий с инструментами для поддержки [сайта и документации](https://gitlab.com/fdroid/fdroid-website).  Внести свой вклад в развитие F-Droid проще всего, склонировав эти проекты и создавая пулл-реквесты. Если вы планируете большие изменения, было бы неплохо сначала обсудить их в IRC или на форуме и убедиться, что они соответствуют правилам и духу проекта и не дублируют работу других разработчиков."
 
 #. type: Plain text
 #: build/_pages/md/contribute.md
@@ -544,49 +544,49 @@ msgstr "F-Droid — это одновременно и репозиторий п
 #. type: Plain text
 #: build/_pages/md/docs.md
 msgid "The F-Droid server tools provide various scripts and tools that are used to maintain the main F-Droid application repository. You can use these same tools to create your own additional or alternative repository for publishing, or to assist in creating, testing and submitting metadata to the main repository."
-msgstr "Серверные инструменты F-Droid предоставляют различные сценарии и инструменты, которые используются для поддержки основного хранилища приложений F-Droid. Вы можете использовать эти же инструменты для создания собственного дополнительного или альтернативного хранилища для публикации или оказания помощи в создании, тестировании и отправке метаданных в основной репозиторий."
+msgstr "Серверные инструменты F-Droid содержат различные сценарии и инструменты для поддержки основного репозитория приложений F-Droid. Эти же инструменты можно использовать для создания собственного дополнительного или альтернативного репозитория для публикации приложения или помощи в сборке, тестировании и размещения метаданных в основном репозитории."
 
 #. type: Title ###
 #: build/_pages/md/docs.md
 #, no-wrap
 msgid "Getting Started"
-msgstr "Начинаем"
+msgstr "Для начала"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
 msgid "[FAQ - General](FAQ_-_General) Frequently Asked Questions about F-Droid"
-msgstr "[FAQ - Общее](FAQ_-_General) Часто задаваемые вопросы о F-Droid"
+msgstr "[FAQ - Общее](FAQ_-_General) Часто задаваемые вопросы об F-Droid"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
 msgid "[FAQ - Client](FAQ_-_Client) Frequently Asked Questions about how to use the F-Droid app in Android."
-msgstr "[FAQ - Клиент](FAQ_-_Client) Часто задаваемые вопросы по использованию приложения F-Droid на Android."
+msgstr "[FAQ - Клиент](FAQ_-_Client) Часто задаваемые вопросы по использованию клиентского приложения F-Droid для Android."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
 msgid "[Anti-Features](https://f-droid.org/wiki/page/Antifeatures) What they are, what they mean, and what apps have them."
-msgstr "[Анти-функции](https://f-droid.org/wiki/page/Antifeatures) Что это такое, что имеется в виду и какие приложения их содержат."
+msgstr "[Анти-функции](https://f-droid.org/wiki/page/Antifeatures) Что это такое, зачем нужны, и какие приложения их содержат."
 
 #. type: Title ###
 #: build/_pages/md/docs.md
 #, no-wrap
 msgid "More Information"
-msgstr "Больше информации"
+msgstr "Дальше — больше"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
 msgid "[How to Help](How_to_Help) Different ways anyone can contribute to the F-Droid project."
-msgstr "[Как помочь](How_to_Help) Различные способы сделать вклад в проект F-Droid."
+msgstr "[Как помочь](How_to_Help) Как можно поучаствовать в проекте F-Droid."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
 msgid "[Known Repositories](https://forum.f-droid.org/t/721) A list that tries to keep track of known F-Droid compatible repositories."
-msgstr "[Известные репозитории](https://forum.f-droid.org/t/721) Список, который пытается отслеживать известные совместимые с F-Droid репозитории."
+msgstr "[Совместимые репозитории](https://forum.f-droid.org/t/721) Список известных совместимых с F-Droid репозиториев."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
 msgid "[Release Channels and Signing Keys](Release_Channels_and_Signing_Keys) These are the various channels that F-Droid software are released on, with info to verify them based on signing keys."
-msgstr "[Каналы публикации и ключи для подписания](Release_Channels_and_Signing_Keys) Это способы публикации приложений в F-Droid и их верификации, в основе которых лежат ключи для цифровой подписи."
+msgstr "[Каналы публикации и ключи для подписывания](Release_Channels_and_Signing_Keys) Это способы публикации приложений в F-Droid и их верификации, в основе которых лежат ключи для цифровой подписи."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
@@ -596,18 +596,18 @@ msgstr "[Модель безопасности](Security_Model) Краткое �
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
 msgid "[Translation and Localization](Translation_and_Localization) How all the parts of F-Droid are localized."
-msgstr "[Перевод и локализация](Translation_and_Localization) Как локализировать F-droid."
+msgstr "[Перевод и локализация](Translation_and_Localization) Как переводить компоненты F-droid."
 
 #. type: Title ###
 #: build/_pages/md/docs.md
 #, no-wrap
 msgid "Developers"
-msgstr "Разработчики"
+msgstr "Разработчикам"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
 msgid "[FAQ - App Developers](FAQ_-_App_Developers) Frequently Asked Questions about F-Droid"
-msgstr "[Вопросы-Ответы: разработчикам приложений](FAQ_-_App_Developers) Вопросы и ответы про F-Droid"
+msgstr "[FAQ для разработчиков приложений](FAQ_-_App_Developers) Часто задаваемые вопросы про F-Droid"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
@@ -622,7 +622,7 @@ msgstr "[Участие в проекте F-Droid: руководство для
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
 msgid "[Update Processing](Update_Processing) How updates get detected and added."
-msgstr "[Процесс обновления](Update_Processing) Как обнаруживаются и добавляются обновления."
+msgstr "[Работа с обновлениями](Update_Processing) Как обнаруживают и добавляют обновления."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
@@ -657,7 +657,7 @@ msgstr "[Установка утилит для сервера и репозит
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
 msgid "[Setup an F-Droid App Repo](Setup_an_F-Droid_App_Repo) How to setup your own repository of apps that users can easily add to their F-Droid client to get your apps directly from the source."
-msgstr "[Приложение в F-Droid: настройка репозитория](Setup_an_F-Droid_App_Repo) Как настроить репозиторий, который будет легко и удобно добавить в  пользовательские клиенты F-Droid (чтобы собирать ваше приложение прямо из исходников)."
+msgstr "[Приложение в F-Droid: настройка репозитория](Setup_an_F-Droid_App_Repo) Как настроить репозиторий, который будет легко и удобно добавить в пользовательские клиенты F-Droid (чтобы собирать ваше приложение прямо из исходников)."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
@@ -718,7 +718,7 @@ msgstr "[Активные задачи](https://f-droid.org/wiki/page/Work_in_Pr
 #: build/_pages/md/issues.md
 #, no-wrap
 msgid "Issues"
-msgstr "Проблемы"
+msgstr "Ошибки"
 
 #. type: Plain text
 #: build/_pages/md/issues.md
@@ -743,7 +743,7 @@ msgid ""
 "* [Data](https://gitlab.com/fdroid/fdroiddata/issues) issue tracker: For problems relating to the contents of the repository,\n"
 "such as missing or outdated applications,\n"
 "please use this issue tracker.\n"
-msgstr "[Список задач по изменению данных](https://gitlab.com/fdroid/fdroiddata/issues): если что-то разлаживается в самом репозитории, например, устаревают или теряются приложения, не стесняйтесь добавить задачу в этот список.\n"
+msgstr "* [Список задач по изменению данных](https://gitlab.com/fdroid/fdroiddata/issues): если что-то разлаживается в самом репозитории, например, устаревают или теряются приложения, не стесняйтесь добавить задачу в этот список.\n"
 
 #. type: Plain text
 #: build/_pages/md/issues.md
@@ -770,7 +770,7 @@ msgstr "Repomaker"
 #. type: Plain text
 #: build/_pages/md/repomaker.md
 msgid "F-Droid.org is just a repo out of hundreds of repos created by individuals all around the globe. With the tools of F-Droid, everyone can create their own repo. So whether you are a musician who wants to publish their music or a developer who wants to serve nightly builds of their app, you are free to create your own repo and share it with other people independently of F-Droid.org."
-msgstr "F-Droid.org — один из множества репозиториев (а по всему миру их создают немало).  С помощью инструментов F-Droid кто угодно может запустить свой собственнный репозиторий. Так что неважно, музыкант ли вы (и хотите услаждать слух почтенной публики), или разработчик (и хотите, чтобы пользователи получали ежедневные сборки вашего приложения). Эти инструменты помогут создать и поддерживать ваш собственный репозиторий совершенно независимо от F-Droid.org."
+msgstr "F-Droid.org — один из множества репозиториев (а по всему миру их создают немало). С помощью инструментов F-Droid кто угодно может запустить свой собственнный репозиторий. Так что неважно, музыкант ли вы (и хотите услаждать слух почтенной публики), или разработчик (и хотите, чтобы пользователи получали ежедневные сборки вашего приложения). Эти инструменты помогут создать и поддерживать ваш собственный репозиторий совершенно независимо от F-Droid.org."
 
 #. type: Plain text
 #: build/_pages/md/repomaker.md
