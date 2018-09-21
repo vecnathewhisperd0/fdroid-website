@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-09-14 17:11+0200\n"
-"PO-Revision-Date: 2018-07-16 10:46+0000\n"
-"Last-Translator: Markel <wakutiteo@protonmail.com>\n"
+"PO-Revision-Date: 2018-09-22 07:44+0000\n"
+"Last-Translator: Tatiana Canales <tcanales@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/f-droid/website-posts/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.1-dev\n"
+"X-Generator: Weblate 3.2-dev\n"
 
 #. type: Title #
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md
@@ -1358,18 +1358,18 @@ msgstr "\"Esta semana en F-Droid, Semana 18\""
 #. type: Plain text
 #: build/_posts/md/2018-05-04-this-week-in-fdroid-w18.md
 msgid "Hi everyone! You have been telling us you liked the first [#twif](https://mastodon.technology/tags/twif), so have another!"
-msgstr ""
+msgstr "¡Hola a todos! Nos han dicho que les gustó el primer [#twif](https://mastodon.technology/tags/twif), así que ¡Acá va otro!"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-04-this-week-in-fdroid-w18.md
 msgid "F-Droid client v1.3-alpha0 is available. It has the new wifi/data preferences, which was one of the priorities of the [Viento](https://guardianproject.info/wind/) funding: making F-Droid work better on cheap devices, low/expensive bandwidth, and small storage."
-msgstr ""
+msgstr "El cliente F-Droid v1.3-alpha0 está disponible. Tiene las nuevas preferencias de wifi/datos, que fue una de las prioridades del financiamiento [Viento](https://guardianproject.info/wind/) : hacer que F-Droid funcionara mejor en dispositivos baratos, con menor/más caro acceso a ancho de banda, y almacenamiento pequeño."
 
 #. type: Plain text
 #: build/_posts/md/2018-05-04-this-week-in-fdroid-w18.md
 #, no-wrap
 msgid "  As mentioned in the [previous TWIF](https://f-droid.org/en/2018/04/27/this-week-in-fdroid.html), V1.3 no longer supports Android 2.3.3 or 3.x. Android 4.0 is the minimum. That freed us to update tons of things, and ditch our own custom forks.\n"
-msgstr ""
+msgstr "  Como se mencionó en el  TWIF anterior](https://f-droid.org/en/2018/04/27/this-week-in-fdroid.html), la V1.3 ya no funciona con Android 2.3.3 o 3.x. Android 4.0 es el mínimo. Eso nos liberó de tener que actualizar muchas cosas y abandonar nuestras derivaciones propias.\n"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-04-this-week-in-fdroid-w18.md
@@ -1379,7 +1379,7 @@ msgstr ""
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-04-this-week-in-fdroid-w18.md
 msgid "Search page styling broke last Wednesday and got fixed again on Thursday."
-msgstr ""
+msgstr "El formato de la página de búsqueda se perdió el miércoles pasado y se recuperó el jueves."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-04-this-week-in-fdroid-w18.md
@@ -1389,13 +1389,13 @@ msgstr ""
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-04-this-week-in-fdroid-w18.md
 msgid "Well, kind of. As it turns out, switching between old and new index formats uncovered another bug, in which one index was generated in the wrong time zone. That, combined with the index downgrade protection, means F-Droid will refuse to update and give an \"index.jar older than current index\" error."
-msgstr ""
+msgstr "Bueno, es asi de cierto modo. Resulta que cambiar entre los formatos de índices antiguos y nuevos revelaron otro error, en el que un índice se generaba en el huso horario incorrecto. Eso, combinado con la protección disminuida del índice, significa que F-Droid se rehúsa a actualizarse por un \"index.jar\" más antiguo que el actual."
 
 #. type: Plain text
 #: build/_posts/md/2018-05-04-this-week-in-fdroid-w18.md
 #, no-wrap
 msgid "  This was fixed last week for f-droid.org, but it affects all 3rd-party repositories as well. We'll try to get an fdroidserver bugfix release out soon, but meanwhile fdroidserver@master is fixed and will fix your repository index.\n"
-msgstr ""
+msgstr "  Esto se corrigió la semana pasada para f-droid.org, pero afecta repositorios externos también. Trataremos de generar un parche fdroidserver pronto, pero en el intertanto, fdroidserver@master está arreglado y corregirá el índice de tu repositorio.\n"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-04-this-week-in-fdroid-w18.md
