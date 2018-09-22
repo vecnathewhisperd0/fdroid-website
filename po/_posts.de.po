@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-09-14 17:11+0200\n"
-"PO-Revision-Date: 2018-09-22 07:54+0000\n"
+"PO-Revision-Date: 2018-09-22 16:18+0000\n"
 "Last-Translator: C. Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\n"
 "Language: de\n"
@@ -2443,7 +2443,7 @@ msgstr "[_hc](https://forum.f-droid.org/u/hans) arbeitet diese Woche hauptberufl
 #. type: Bullet: '* '
 #: build/_posts/md/2018-06-14-this-week-in-fdroid-w24.md
 msgid "[mvdan](https://forum.f-droid.org/u/mvdan) [released](https://github.com/mvdan/fdroidcl/releases/tag/v0.4.0) fdroidcl 0.4.0. [Fdroidcl](https://github.com/mvdan/fdroidcl) is an F-Droid desktop client which talks to connected devices via [ADB](https://en.wikipedia.org/wiki/Android_Debug_Bridge). If you have any input or suggestions, please open new issues on the [tracker](https://github.com/mvdan/fdroidcl/issues). Pull requests are always welcome."
-msgstr "[mvdan](https://forum.f-droid.org/u/mvdan) [veröffentlichte](https://github.com/mvdan/fdroidcl/releases/tag/v0.4.0) fdroidcl 0.4.0. [Fdroidcl](https://github.com/mvdan/fdroidcl) ist ein F-Droid-Desktop-Client, der über [ADB](https://en.wikipedia.org/wiki/Android_Debug_Bridge) mit angeschlossenen Geräten kommuniziert. Wenn Sie Anregungen oder Vorschläge haben, öffnen Sie bitte neue Probleme auf dem [tracker](https://github.com/mvdan/fdroidcl/issues). Pull-Anfragen sind immer willkommen."
+msgstr "[mvdan](https://forum.f-droid.org/u/mvdan) [veröffentlichte](https://github.com/mvdan/fdroidcl/releases/tag/v0.4.0) fdroidcl 0.4.0. [Fdroidcl](https://github.com/mvdan/fdroidcl) ist ein F-Droid-Desktop-Client, der über [ADB](https://en.wikipedia.org/wiki/Android_Debug_Bridge) mit angeschlossenen Geräten kommuniziert. Wenn Sie Anregungen oder Vorschläge haben, eröffnen Sie bitte neue Themen im [Issue Tracker](https://github.com/mvdan/fdroidcl/issues). Pull-Anfragen sind immer willkommen."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-06-14-this-week-in-fdroid-w24.md
@@ -3495,7 +3495,7 @@ msgstr "[Ellaism](https://f-droid.org/app/com.outdoordevs.ellaism.wallet): Ellai
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-10-twif-16-the-note-taking-todo-text-editor-edition.md
 msgid "[Carnet](https://f-droid.org/app/com.spisoft.quicknote): Powerful note taking app with sync capabilities"
-msgstr "[Carnet](https://f-droid.org/app/com.spisoft.quicknote): Starke Notiz App mit sync kapazität"
+msgstr "[Carnet](https://f-droid.org/app/com.spisoft.quicknote): Leistungsstarke Notiz-App mit Synchronisationsfähigkeiten"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-10-twif-16-the-note-taking-todo-text-editor-edition.md
@@ -3999,22 +3999,22 @@ msgstr "**[Tutanota](https://f-droid.org/app/de.tutao.tutanota)**, ein verschlü
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
 msgid "While some users may shy away from YouTube, F-Droid still provides several high quality open-source apps to help you binge on YouTube videos. **[SkyTube](https://f-droid.org/app/free.rm.skytube.oss)** receieved a major update to version 2.9.0 bringing a slough of new features including video blocking, volume and brightness gestures, search history, a new video player, better video and playlist support and a new icon."
-msgstr ""
+msgstr "Während einige Anwender vor YouTube zurückschrecken mögen, bietet F-Droid noch immer einige qualitativ hochwertige, quellcodeoffene Apps für die YouTube-Video-Orgie. **[SkyTube](https://f-droid.org/app/free.rm.skytube.oss)** erhielt ein großes Update auf Version 2.9.0, die ein Bündel neuer Features mitbringt, einschließlich Video-Blockierung, Lautstärke- und Helligkeits-Gesten, Suchverlauf, einen neuen Video-Player, eine bessere Video- und Wiedergabelistenunterstützung und ein neues Icon."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
 msgid "{{ page.featured }} **[OsmAnd~](https://f-droid.org/app/net.osmand.plus)** was updated from 3.0.4 to 3.1.6. The most exciting change with this update is improved OSM editing. Users can now modify tags on multinode objects in OSM such as building or roads. Previously only point objects could modified. Other changes include a fix for OSM notes and refactored and improved wikivoyage and wikipedia articles in French and Italian."
-msgstr ""
+msgstr "{{ page.featured }} **[OsmAnd~](https://f-droid.org/app/net.osmand.plus)** wurde von 3.0.4 auf 3.1.6 aktualisiert. Die spannendste Änderung bei diesem Update ist die verbesserte OSM-Bearbeitung. Nutzer können nun in OSM Attribute von Polygon-Objekten, wie Gebäuden und Straßen bearbeiten. Bisher konnten nur Punktobjekte verändert werden. Weitere Änderungen sind ein Fix für OSM-Notizen und überarbeitete und verbesserte Wikivoyage- und Wikipedia-Artikel in Französisch und Italienisch."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
 msgid "**[Gadgetbridge](https://f-droid.org/app/nodomain.freeyourgadget.gadgetbridge)** allows you to communicate with many types of devices including Pebble, Mi Band, Amazon Bip, and Hplus.  Version 0.29.1 brings better language and notifcation support to the Mi Band 3 and began implementation of start and end of sleep statistics."
-msgstr ""
+msgstr "**[Gadgetbridge](https://f-droid.org/app/nodomain.freeyourgadget.gadgetbridge)** ermöglicht die Kommunikation mit vielen Gerätetypen, Pebble, Mi Band, Amazon Bip, und Hplus eingeschlossen.  Version 0.29.1 bringt eine verbesserte Unterstützung von Sprachen und Benachrichtigungen für das Mi Band 3 und begann mit der Umsetzung einer Start-Stopp-Schlummer-Statistik."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
 msgid "**[OpenFoodFacts](https://f-droid.org/app/openfoodfacts.github.scrachx.openfood)** provides a public database of food ingredients, allergens, and nutrition facts. Version 2.9.0 allows users to edit any product on Open Pet Food Facts. It also brings new translations in Slovak, Hebrew, Spanish, Arabic, Dutch, Hungarian, Vietnamese, and more. OpenBeautyFacts and OpenPetFoodFacts received similar updates."
-msgstr ""
+msgstr "**[OpenFoodFacts](https://f-droid.org/app/openfoodfacts.github.scrachx.openfood)** liefert eine öffentliche Datenbank zu Nahrungsbestandteilen, Allergenen und Ernährungsfakten. Version 2.9.0 ermöglicht den Nutzern die Bearbeitung jedes Produkts auf Open Pet Food Facts. Sie bringt auch neue Übersetzungen in Slowakisch, Hebräisch, Spanisch, Arabisch, Holländisch, Ungarisch, Vietnamesisch und weitere mit. OpenBeautyFacts und OpenPetFoodFacts erhielten ähnliche Aktualisierungen."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
@@ -4024,7 +4024,7 @@ msgstr "**[Tremotesf](https://f-droid.org/app/org.equeim.tremotesf)**, die Ferns
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
 msgid "The Android inventory agent, **[Inventory](https://f-droid.org/app/org.flyve.inventory.agent)**, got its 1.0 release. This is major update brings new anonymous voluntary data sharing, a new main app layout, an overhauled interface, and modern Android permission dialogs."
-msgstr ""
+msgstr "Der Android-Bestandsagent, **[Inventory](https://f-droid.org/app/org.flyve.inventory.agent)**, erhielt sein 1.0 Release. Das ist eine wichtige Aktualisierung, die neue anonyme, freiwillige Datenfreigaben, ein neues, bedeutendes App-Design, eine überarbeitete Oberfläche und moderne Android-Berechtigungsdialoge mitbringt."
 
 #. type: Plain text
 #: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
@@ -4046,18 +4046,18 @@ msgstr "Feedback geben? Toots erreichen uns über **[@fdroidorg@mastodon.technol
 #: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
 #, no-wrap
 msgid "Postscript"
-msgstr ""
+msgstr "Postskript"
 
 #. type: Plain text
 #: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
 msgid "Please everybody give **[Coffee](https://open.source.coffee)** a round of applause and a thank you for writing the last 17 TWIFs."
-msgstr ""
+msgstr "Schenkt bitte alle **[Coffee](https://open.source.coffee)** einen warmen Applaus und ein Dankeschön für das Verfassen der letzten 17 TWIFs."
 
 #. type: Title #
 #: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
 #, no-wrap
 msgid "\"TWIF 19: Untis, Tusky and Rabbit Escape updated\""
-msgstr ""
+msgstr "\"TWIF 19: Untis, Tusky und Rabbit Escape aktualisiert\""
 
 #. type: Plain text
 #: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
@@ -4071,6 +4071,8 @@ msgid ""
 "In this edition: 9 new apps, and 57 updates featuring Untis, Tusky, Rabbit Escape, and also Libretorrent, Orgzly, StreetComplete, Mastalab, Revolution IRC and more.\n"
 "<!--more-->\n"
 msgstr ""
+"In dieser Ausgabe: 9 neue Apps und 57 Aktualisierungen, in den Hauptrollen Untis, Tusky, Rabbit Escape, aber auch Libretorrent, Orgzly, StreetComplete, Mastalab, Revolution IRC und weitere.\n"
+"<!--more-->\n"
 
 #. type: Plain text
 #: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
@@ -4084,12 +4086,12 @@ msgstr "[F-Droid](https://f-droid.org/) ist ein [Repository](https://f-droid.org
 #: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
 #, no-wrap
 msgid "**9** new apps have been added to the repository, bringing the total up to **1589**.\n"
-msgstr ""
+msgstr "**9** neue Apps wurden ins Repository eingefügt, somit sind es insgesamt nun **1589**.\n"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
 msgid "**[Temp. monitor](https://f-droid.org/app/com.gmail.jiwopene.temperature)**: Shows and logs HW temperature"
-msgstr ""
+msgstr "**[Temp. monitor](https://f-droid.org/app/com.gmail.jiwopene.temperature)**: Zeigt und protokolliert die Hardware-Temperatur"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
@@ -4099,27 +4101,27 @@ msgstr "**[XMouse](https://f-droid.org/app/com.stripe1.xmouse)**: X11_Fernsteuer
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
 msgid "**[Freifunk-Karte](https://f-droid.org/app/de.freifunk_karte.freifunk_karte)**: Map for viewing the Freifunk Nodes on a OpenStreetMap"
-msgstr ""
+msgstr "**[Freifunk-Karte](https://f-droid.org/app/de.freifunk_karte.freifunk_karte)**: Karte zur Ansicht von Freifunk-Knoten auf einer OpenStreetMap"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
 msgid "**[Run Userinit](https://f-droid.org/app/de.lisas.alex.runuserinit)**: Run user init scripts after boot"
-msgstr ""
+msgstr "**[Run Userinit](https://f-droid.org/app/de.lisas.alex.runuserinit)**: User-init-Scripts nach dem Boot ausführen"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
 msgid "**[FairEmail](https://f-droid.org/app/eu.faircode.email)**: Privacy friendly email app from the developer of **[NetGuard](https://f-droid.org/app/eu.faircode.netguard)**"
-msgstr ""
+msgstr "**[FairEmail](https://f-droid.org/app/eu.faircode.email)**: Datenschutzfreundliche E-Mail-App vom Entwickler von **[NetGuard](https://f-droid.org/app/eu.faircode.netguard)**"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
 msgid "**[Shelter](https://f-droid.org/app/net.typeblog.shelter)**: Isolate your Big Brother Apps / Multiple Accounts"
-msgstr ""
+msgstr "**[Shelter](https://f-droid.org/app/net.typeblog.shelter)**: Isolieren Sie Ihre Big Brother Apps / Mehrere Konten"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
 msgid "**[Cow's Revenge](https://f-droid.org/app/org.pipoypipagames.cowsrevenge)**: Indie platform game in pixel art where you are a cow abducted and genetically improved by aliens"
-msgstr ""
+msgstr "**[Cow's Revenge](https://f-droid.org/app/org.pipoypipagames.cowsrevenge)**: Plattformunabhängiges Spiel in Pixel Art, in dem du eine durch Aliens entführte und genetisch verbesserte Kuh spielst"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
@@ -4129,7 +4131,7 @@ msgstr "**[Patolli](https://f-droid.org/app/ru.henridellal.patolli)**: Brettspie
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
 msgid "**[APKMirror](https://f-droid.org/app/taco.apkmirror)**: An unofficial APKMirror client/web app"
-msgstr ""
+msgstr "**[APKMirror](https://f-droid.org/app/taco.apkmirror)**: Eine inoffizielle APKMirror-Client/Web-App"
 
 #. type: Plain text
 #: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
@@ -4146,17 +4148,22 @@ msgid ""
 "  * Fully open source\n"
 "  * No tracking\n"
 msgstr ""
+"* {{ page.featured }} Sie müssen **Untis** für Ihren Stundenplan verwenden, weil nichts anderes von Ihrer Schule angeboten wird? Sie sorgen sich um Ihre Privatsphäre und wollen den offiziellen, proprietären, mobilen Client nicht nutzen? Dann können Sie nun **[OpenUntis](https://f-droid.org/app/de.perflyst.untis)** von F-Droid beziehen.\n"
+"  * Dieselben Funktionen wie in der offiziellen App\n"
+"  * Zusätzliche Anpassungsmöglichkeiten\n"
+"  * Komplett Open Source\n"
+"  * Kein Tracking\n"
 
 #. type: Plain text
 #: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
 #, no-wrap
 msgid "  Version 2.0.4 adds support for landscape mode, Android 4.2 compatibility, translation updates and several other changes.\n"
-msgstr ""
+msgstr "  Version 2.0.4 fügt die Unterstützung des Querformats, die Kompatibilität mit Android 4.2, Aktualisierungen der Übersetzung und einige weitere Änderungen hinzu.\n"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
 msgid "**[LibreTorrent](https://f-droid.org/app/org.proninyaroslav.libretorrent)**, a standalone torrent client for Android, released 1.8, now with RSS manager, Ability to create torrents, scheduling, Android TV support, Android P support, and more."
-msgstr ""
+msgstr "**[LibreTorrent](https://f-droid.org/app/org.proninyaroslav.libretorrent)**, ein unabhängiger Torrent-Client für Android, veröffentlichte 1.8, nun mit RSS-Verwaltung, der Möglichkeit, Torrents zu erzeugen, Zeitplanung, Android-TV-Unterstützung, Unterstützung von Android P, und mehr."
 
 #. type: Plain text
 #: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
@@ -4170,44 +4177,50 @@ msgid ""
 "  * View avatars fullscreen\n"
 "  * Several other new features, improvements, and bugfixes\n"
 msgstr ""
+"* {{ page.featured }} **[Tusky](https://f-droid.org/app/com.keylesspalace.tusky)** 3.0 hat es endlich auf F-Droid geschafft! Der Lieblingsclient für das soziale Netzwerk Mastodon besitzt nun:\n"
+"  * Neue Elefantenkunst\n"
+"  * Neues schwarzes/AMOLED-Thema\n"
+"  * Ansehen, welche Bilder auf der Verfasserseite eine Beschreibung haben\n"
+"  * Bearbeitbare Kontenfelder\n"
+"  * Avatare in der Vollbildansicht\n"
+"  * Einige weitere Besonderheiten, Verbesserungen und Fehlerkorrekturen\n"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
 msgid "**[Orgzly](https://f-droid.org/app/com.orgzly)** is a hierarchical note-taking app and task manager in **[org-mode](http://orgmode.org/) format**. Version 1.6.9 can be installed on external storage, lets you add quick notes from an ongoing notification, supports checkboxes in the notebook's preface, and more, for which you can see the [nice color-coded changelog](http://www.orgzly.com/changelog#v1.6.9)."
-msgstr ""
+msgstr "**[Orgzly](https://f-droid.org/app/com.orgzly)** ist eine hierarchisch aufgebaute App zur Notizenerfassung und Aufgabenverwaltung im **[org-mode](http://orgmode.org/)-Format**. Version 1.6.9 kann auf dem externen Speicher installiert werden, ermöglicht Kurznotizen zu einer eingehenden Benachrichtigung, bietet Ankreuzfelder in der Notizbuchvorschau, und noch mehr, was Sie in dem [hübsch farbkodierten Änderungsprotokoll](http://www.orgzly.com/changelog#v1.6.9) finden können."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
-#, fuzzy
 msgid "**[Contacts](https://f-droid.org/app/com.simplemobiletools.contacts)** is a simple app to manage your contacts. In version 4.3.0, contact exporting/importing was completely reworked from scratch. This release also has some stability and translation improvements."
-msgstr "[Contacts](https://f-droid.org/app/com.simplemobiletools.contacts) ist eine einfache App, um Kontakte jeder Herkunft zu erstellen und zu verwalten. Diese Aktualisierung von 4.1.0 nach 4.2.1 fügt eine Registerkarte für zuletzt getätigte Anrufe hinzu, die Anpassung, welche Registerkarten angezeigt werden, einen optionalen Anrufbestätigungsdialog und einige weitere Verbesserungen an der Benutzeroberfläche, Stabilität und Leistung."
+msgstr "[Contacts](https://f-droid.org/app/com.simplemobiletools.contacts) ist eine einfache App zur Kontakteverwaltung. In Version 4.3.0 wurde der Kontaktexport/-import grundlegend überarbeitet. Diese Version besitzt daneben einige Stabilitäts- und Übersetzungsverbesserungen."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
 msgid "**[StreetComplete](https://f-droid.org/app/de.westnordost.streetcomplete)** allows people with zero mapping experience to improve [OpenStreetMap](https://www.openstreetmap.org) on the go, by asking them simple questions. This major update from 6.1 to 7.1 actually removes some features, disabling support for putting photos into notes as the `framapic.org` service has discontinued until further notice. You should also expect hiccups and/or old maps being displayed in the coming week as the tileserver goes into maintenance and tiles from nextzen are displayed instead."
-msgstr ""
+msgstr "**[StreetComplete](https://f-droid.org/app/de.westnordost.streetcomplete)** macht es Leuten mit Null-Kartenerstellungserfahrung möglich, ganz nebenbei [OpenStreetMap](https://www.openstreetmap.org) zu verbessern, indem ihnen einfache Fragen gestellt werden. Dieses wichtige Update von 6.1 auf 7.1 entfernt eigentlich einige Funktionen, indem die Unterstützung, Notizen mit Fotos zu versehen, deaktiviert wird, da der Dienst `framapic.org` bis auf weiteres eingestellt wurde. Sie sollten in der kommenden Woche auch mit einigen Verzögerungen und/oder alten Karten rechnen, da der Kachelserver gewartet wird und stattdessen Kacheln von ‘nextzen‘ angezeigt werden."
 
 #. type: Plain text
 #: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
 #, no-wrap
 msgid "  New quests are: Playground access (public/private), max height (of tunnel/parking entrance/height restrictor), and cycleway segregation.\n"
-msgstr ""
+msgstr "  Neue Fragen sind: Spielplatzzutritt (öffentlich/privat), Maximalhöhe (von Tunnel/Parkplatzeinfahrt/Höhenbegrenzer) und abgetrennter Radweg.\n"
 
 #. type: Plain text
 #: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
 #, no-wrap
 msgid "  It contains many more enhanced quests, other enhancements, and bug fixes. See the [changelog](https://github.com/westnordost/StreetComplete/releases/tag/v7.0) for details as this update is huge.\n"
-msgstr ""
+msgstr "  Sie enthält viele weitere, verbesserte Fragen, andere Verbesserungen und Fehlerkorrekturen. Sehen Sie im [Changelog](https://github.com/westnordost/StreetComplete/releases/tag/v7.0) nach Einzelheiten, da diese Aktualisierung riesig ist.\n"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
 msgid "{{ page.featured }} **[Rabbit Escape](https://f-droid.org/app/net.artificialworlds.rabbitescape)** is a puzzle/action game inspired by Lemmings. Version 0.11 adds a whole 20 new levels in a new level set called Rabbots! Also contains lots of bug fixes and a few little extras."
-msgstr ""
+msgstr "{{ page.featured }} **[Rabbit Escape](https://f-droid.org/app/net.artificialworlds.rabbitescape)** ist ein Rätsel-/Action-Spiel inspiriert durch Lemmings. Version 0.11 fügt ganze 20 neue Levels in einem neuen, Rabbots genannten Satz von Spielstufen hinzu! Enthält auch viele Korrekturen und einige kleine Extras."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
 msgid "**[BwareArea](https://f-droid.org/app/fr.byped.bwarearea)** is designed to warn you when you approach some point of interest or dangerous area. In 0.6.5, all known reported bugs should have been fixed. This version also adds support for importing GPX files."
-msgstr ""
+msgstr "**[BwareArea](https://f-droid.org/app/fr.byped.bwarearea)**, entworfen, um Sie bei Annäherung an bestimmte POIs oder Gefahrengebiete zu warnen. In 0.6.5, sollten alle bekannten, berichteten Fehler behoben sein. Diese Version ergänzt außerdem die Unterstützung des GPX-Dateiimports."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
@@ -4228,12 +4241,12 @@ msgstr "Senden Sie Tipps an [@fdroidorg@mastodon.technology](https://mastodon.te
 #: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
 #, no-wrap
 msgid "Dedication"
-msgstr ""
+msgstr "Danksagung"
 
 #. type: Plain text
 #: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
 msgid "Thanks to **[@blendergeek](https://forum.f-droid.org/u/blendergeek)** for doing a great job in my absence! You might see more of him in the future, so stay tuned!"
-msgstr ""
+msgstr "Ein Dank geht an **[@blendergeek](https://forum.f-droid.org/u/blendergeek)**, der während meiner Abwesenheit eine großartige Arbeit geleistet hat! Sie könnten in Zukunft mehr von ihm sehen, also bleiben Sie dran!"
 
 #. type: Title #
 #: build/_posts/md/2018-09-03-replacing-gcm-in-tutanota.md
@@ -4427,17 +4440,19 @@ msgstr "Weitere Informationen über F-Droid's Schutzvorkehrungen, finden Sie in 
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 #, no-wrap
 msgid "Reducing trust requirements"
-msgstr ""
+msgstr "Abbau von Vertrauensanforderungen"
 
 #. type: Plain text
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
+#, fuzzy
 msgid "One key part of this audit was to push us further into reducing the level of trust required of the various pieces and participants in all the processes in F-Droid.  Client/server systems are usually built around the assumption that the server operator is fully trusted.  There are many trusted contributors working on F-Droid, and the people working on the core parts have a long and good track record.  Nevertheless, it is very valuable to have a system that does not require trusting people and their computers.  We aim to push all pieces of the F-Droid ecosystem to work according to the [principle of least privilege](https://en.wikipedia.org/wiki/Principle_of_least_privilege)."
-msgstr ""
+msgstr "Ein entscheidender Bestandteil dieses Audits war, uns neuerlich dazu zu drängen, das notwendige Maß an Vertrauen in die verschiedenen Teile und Teilnehmer bei allen Vorgängen in F-Droid zu reduzieren.  Client-/Serversysteme sind für gewöhnlich auf der Annahme aufgebaut, dass der Serverbetreiber absolut vertrauenswürdig ist.  Es gibt viele vertrauenswürdige Mitwirkende, die an F-Droid arbeiten, und die Leute, die an den Kernbestandteilen arbeiten, bringen eine lange und gute Erfolgs- und Erfahrungsgeschichte mit.  Nichtsdestotrotz ist es von hohem Wert, eine System zu haben, das nicht auf vertrauenswürdige Menschen und ihre Computer angewiesen ist.  Unser Ziel ist es, alle Teile des F-Droid-Ökosystems so voranzubringen, dass sie nach dem [Principle of Least Privilege](https://en.wikipedia.org/wiki/Principle_of_least_privilege) arbeiten."
 
 #. type: Plain text
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
+#, fuzzy
 msgid "New apps and updates are submitted to [fdroiddata](https://gitlab.com/fdroid/fdroiddata) via merge request and _git_ commits.  Those changes are then stored forever in the _git_ history.  In the past, the code trusted everything in _fdroiddata_, since the commits are reviewed by humans for any malicious bits.  This model has a very good track record in F-Droid as well as many other projects developed in the open by many people.  Debian is a great example of this, since almost a thousand Debian Developers have commit privileges which could give them root on every machine running Debian."
-msgstr ""
+msgstr "Neue Apps und Updates werden über Merge-Requests und _git_-Commits an [fdroiddata](https://gitlab.com/fdroid/fdroiddata) übermittelt.  Diese Änderungen werden dann für immer im _git_-Verlauf gespeichert.  In der Vergangenheit verließ sich der Code auf alles in _fdroiddata_, da die Commits von Menschen nach jedem bösartigen Bit durchsucht werden.  Dieses Modell hat eine sehr gute Erfolgsgeschichte in F-Droid wie auch in vielen anderen, von vielen Leuten in der Open-Szene entwickelten Projekten.  Debian ist ein wunderbares Beispiel dafür, da fast ein tausend Debian-Entwickler Commit-Privilegien besitzen, die ihnen Root auf jedem Rechner, auf dem Debian läuft, geben konnte."
 
 #. type: Plain text
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
@@ -4458,7 +4473,7 @@ msgstr "Rechteerweiterung"
 #. type: Plain text
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "There were no issues found in the Privileged Extension code or the interaction between F-Droid client and Privileged Extension."
-msgstr ""
+msgstr "Im Code der Rechteerweiterung oder bei der Zusammenarbeit von F-Droid-Client und Rechteerweiterung wurden keine Probleme festgestellt."
 
 #. type: Title ##
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
@@ -4469,12 +4484,12 @@ msgstr "F-Droid Kern"
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "[4.1.19 OTF-019 — Potential SQL Injection]({{ site.baseurl }}/docs/Second_Audit_Report/#f35-potential-sql-injection)"
-msgstr ""
+msgstr "[4.1.19 OTF-019 — Potentielle SQL-Einschleußung]({{ site.baseurl }}/docs/Second_Audit_Report/#f35-potential-sql-injection)"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "[4.1.24 OTF-024 — (fdroidclient) Raw SQL Query Executions]({{ site.baseurl }}/docs/Second_Audit_Report/#f47--fdroidclient-raw-sql-query-executions)"
-msgstr ""
+msgstr "[4.1.24 OTF-024 — (fdroidclient) Ausführung unformatierter SQL-Abfragen]({{ site.baseurl }}/docs/Second_Audit_Report/#f47--fdroidclient-raw-sql-query-executions)"
 
 #. type: Plain text
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
@@ -4582,9 +4597,9 @@ msgstr ""
 
 #. type: Title ##
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "_fdroidserver_"
-msgstr "_fdroidserver_-Tools"
+msgstr "_fdroidserver_"
 
 #. type: Title ###
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
@@ -5032,9 +5047,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
-#, fuzzy
 msgid "**[Resume Builder](https://f-droid.org/app/com.ibrahimyousre.resumebuilder)**: An app to help you create your resume"
-msgstr "**[OSMTracker](https://f-droid.org/app/net.osmtracker)**: GPS-Track-Recorder"
+msgstr "**[Resume Builder](https://f-droid.org/app/com.ibrahimyousre.resumebuilder)**: Eine App, die Ihnen dabei hilft, Ihren Lebenslauf zu erstellen"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
@@ -5177,28 +5191,28 @@ msgstr "**[GPSTest](https://f-droid.org/app/com.android.gpstest.osmdroid)** ist 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
 msgid "**[MHGUDB](https://f-droid.org/app/com.ghstudios.android.mhgendatabase)** is an extensive, all in one, _Monster Hunter Generations_ reference. It had a major update to 2.0.1, adding _Monster Hunter Generations Ultimate_ data, and many usability improvements."
-msgstr ""
+msgstr "**[MHGUDB](https://f-droid.org/app/com.ghstudios.android.mhgendatabase)** ist eine ausführliche, alles umfassende _Monster Hunter Generations_-Referenz. Sie bekam ein wichtiges Update auf 2.0.1, in dem _Monster Hunter Generations Ultimate_-Daten und viele Verbesserungen der Bedienerfreundlichkeit hinzugefügt sind."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
 msgid "**[DNS Hero](https://f-droid.org/app/com.gianlu.dnshero)** lets you inspect DNS zones like a superhero. Version 1.1.3 is in, adding a brand new preferences screen and different diagnostics cards colors for improved readability. Behind the scenes, some problems with non-free dependencies were addressed, thanks to **[@Rudloff](https://forum.f-droid.org/u/rudloff)**)."
-msgstr ""
+msgstr "**[DNS Hero](https://f-droid.org/app/com.gianlu.dnshero)** lässt Sie DNS-Zonen wie ein Superheld kontrollieren. Version 1.1.3 ist da, bringt einen brandneuen Einstellungsbildschirm und verschiedene Diagnose-Kartenfarben zur besseren Lesbarkeit mit. Hinter der Bühne befasste man sich dank **[@Rudloff](https://forum.f-droid.org/u/rudloff)** mit einigen Problemen mit unfreien Abhängigkeiten."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
-#, fuzzy
 msgid "**[Tusky](https://f-droid.org/app/com.keylesspalace.tusky)** is a lightweight material design Mastodon client. Version 3.1 fixes image orientation when uploading them, fixes bugs with loading bottom items, allows account switching while offline, and other bug fixes and improvements."
-msgstr "[Tusky](https://f-droid.org/app/com.keylesspalace.tusky), der Mastodon-Client, hat Version 2.3 veröffentlicht, die eine italienische Übersetzung und andere Übersetzungsaktualisierungen, eine verbesserte Speichernutzung beim Hochladen von Bildern und andere kleine Verbesserungen und Korrekturen enthält."
+msgstr "**[Tusky](https://f-droid.org/app/com.keylesspalace.tusky)** ist ein schlanker Mastodon-Client im Material Design. Version 3.1 korrigiert die Bildausrichtung, wenn sie hochgeladen werden, behebt Fehler beim Laden von Objekten am unteren Rand, ermöglicht den Offline-Kontenwechsel und enthält weitere Bugfixes und Verbesserungen."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
 msgid "**[QKSMS](https://f-droid.org/app/com.moez.QKSMS)**, a material design replacement for the stock AOSP messaging app, was updated from 3.4.5 to 3.5.3, with initial SMS backup and restore, direct share support, smoother scrolling for MMS messages, and _many_ bug fixes."
-msgstr ""
+msgstr "**[QKSMS](https://f-droid.org/app/com.moez.QKSMS)**, ein Material-Design-Ersatz für die AOSP-Standardnachrichtenapp, wurde von 3.4.5 auf 3.5.3 aktualisiert, mit ersten SMS-Sicherungen und -Wiederherstellungen, Unterstützung des direkten Teilens, flüssigerem Durchblättern von MMS-Nachrichten und _vielen_ Fehlerkorrekturen."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
+#, fuzzy
 msgid "**[Nextcloud Talk](https://f-droid.org/app/com.nextcloud.talk2)** 3.0.0 is out. (Or 4.0. Who even knows anymore?) Now with video verification, ability to share files in a chat, easier chat handling and logging, and just generally a better experience. Read the [official blog post](https://nextcloud.com/blog/nextcloud-talk-4.0-is-out/) for the juicy details."
-msgstr ""
+msgstr "**[Nextcloud Talk](https://f-droid.org/app/com.nextcloud.talk2)** 3.0.0 ist draußen. (Oder 4.0. Wer weiß sogar noch mehr?) Nun mit Video-Verifikation, der Möglichkeit, Dateien in einem Chat zu teilen, einfacherer Chat-Bedienung und -Anmeldung, und überhaupt besserem Erlebniswert. Lesen Sie den [offiziellen Blog-Post](https://nextcloud.com/blog/nextcloud-talk-4.0-is-out/), um die reizvollen Einzelheiten zu erfahren."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
@@ -5246,9 +5260,8 @@ msgstr ""
 
 #. type: Plain text
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
-#, fuzzy
 msgid "Do you have important app updates we should write about? Send in your tips via [Mastodon](https://joinmastodon.org)! Send them to **[@fdroidorg@mastodon.technology](https://mastodon.technology/@fdroidorg)** and remember to tag with **[#TWIF](https://mastodon.technology/tags/twif)**. Or use the [TWIF submission thread](https://forum.f-droid.org/t/twif-submission-thread) on the forum. The deadline to the next TWIF is **Thursday** 12:00 UTC."
-msgstr "Senden Sie Tipps an [@fdroidorg@mastodon.technology](https://mastodon.technology/@fdroidorg) und denken Sie an einen [#TWIF](https://mastodon.technology/tags/twif)-Tag. Oder nutzen Sie den [TWIF Submission Thread](https://forum.f-droid.org/t/twif-submission-thread) im Forum. Einsendeschluss für das nächste TWIF ist Donnerstag 12:00 UTC."
+msgstr "Haben Sie wichtige Updates einer App, über die wir schreiben sollten? Senden Sie Ihre Tipps über [Mastodon](https://joinmastodon.org) ein! Senden Sie sie an **[@fdroidorg@mastodon.technology](https://mastodon.technology/@fdroidorg)** und denken Sie an einen **[#TWIF](https://mastodon.technology/tags/twif)**-Tag. Oder nutzen Sie den [TWIF Submission Thread](https://forum.f-droid.org/t/twif-submission-thread) im Forum. Einsendeschluss für das nächste TWIF ist **Donnerstag** 12:00 UTC."
 
 #~ msgid "We broke 2500 followers on Mastodon!"
 #~ msgstr "Wir haben 2500 Anhänger auf Mastodon erreicht!"
