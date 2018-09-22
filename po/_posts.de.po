@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-09-14 17:11+0200\n"
-"PO-Revision-Date: 2018-09-18 23:25+0000\n"
+"PO-Revision-Date: 2018-09-22 07:44+0000\n"
 "Last-Translator: C. Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\n"
 "Language: de\n"
@@ -5112,7 +5112,7 @@ msgstr ""
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
 msgid "**[Mars Live Wallpaper](https://f-droid.org/app/org.covolunablu.marswallpaper)**: Rotating red planet"
-msgstr ""
+msgstr "**[Mars Live Wallpaper](https://f-droid.org/app/org.covolunablu.marswallpaper)**: Rotierender roter Planet"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
@@ -5127,7 +5127,7 @@ msgstr "**[Pausing Healthily](https://f-droid.org/app/org.secuso.privacyfriendly
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
 msgid "**[Riksdagskollen](https://f-droid.org/app/se.oandell.riksdagen)**: Allow users to keep track of the Swedish parliament"
-msgstr ""
+msgstr "**[Riksdagskollen](https://f-droid.org/app/se.oandell.riksdagen)**: Ermöglicht Nutzern, das Schwedische Parlament zu verfolgen"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
@@ -5137,7 +5137,7 @@ msgstr "**[9P](https://f-droid.org/app/se.tube42.p9.android)**: Wort-Puzzle"
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
 msgid "**[SyncTool](https://f-droid.org/app/theakki.synctool)**: Synchronize data between a smartphone and a server"
-msgstr ""
+msgstr "**[SyncTool](https://f-droid.org/app/theakki.synctool)**: Datensynchronisation zwischen einem Smartphone und einem Server"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
@@ -5152,7 +5152,7 @@ msgstr "**[WateryDroid](https://f-droid.org/app/tmendes.com.waterydroid)**: Einf
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
 msgid "**[Custom Search](https://f-droid.org/app/tyagi.shubham.customsearch)**: A Simple Query Search on Google using Dorking"
-msgstr ""
+msgstr "**[Custom Search](https://f-droid.org/app/tyagi.shubham.customsearch)**: Eine einfache Suchanfrage bei Google, die Dorking verwendet"
 
 #. type: Plain text
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
@@ -5162,7 +5162,7 @@ msgstr "Insgesamt wurden diese Woche **61** Apps aktualisiert. Hier die Höhepun
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
 msgid "**[Mi Manga Nu](https://f-droid.org/app/ar.rulosoft.mimanganu)** lets you read and organize mangas. This update from 1.86 to 1.89 now comes as a dedicated F-Droid build flavor, adding new mangas and various fixes."
-msgstr ""
+msgstr "**[Mi Manga Nu](https://f-droid.org/app/ar.rulosoft.mimanganu)** lässt Sie Mangas lesen und organisieren. Diese Aktualisierung von 1.86 auf 1.89 kommt nun als F-Droid gewidmete Build-Variante heraus, die neue Mangas und verschiedene Korrekturen hinzufügt."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
