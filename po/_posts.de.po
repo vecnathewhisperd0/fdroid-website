@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-09-14 17:11+0200\n"
-"PO-Revision-Date: 2018-09-22 07:44+0000\n"
+"PO-Revision-Date: 2018-09-22 07:54+0000\n"
 "Last-Translator: C. Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\n"
 "Language: de\n"
@@ -5167,7 +5167,7 @@ msgstr "**[Mi Manga Nu](https://f-droid.org/app/ar.rulosoft.mimanganu)** lässt 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
 msgid "**[AdGuard Content Blocker](https://f-droid.org/app/com.adguard.android.contentblocker)** is an ad blocker for browsers that support content blocking technology. So far, these are Yandex Browser and Samsung Internet browser. Version 2.2.1 adds a whitelist setting, clean filters cache, new locales, and the order of entries will be respected when importing user filter lists."
-msgstr ""
+msgstr "**[AdGuard Content Blocker](https://f-droid.org/app/com.adguard.android.contentblocker)** ist ein Werbeblocker für Browsers, die die Technik Inhalte zu blockieren unterstützt Bislang sind das der Yandex Browser und der Samsung Internet Browser. Version 2.2.1 ergänzt eine Whitelist-Einstellung, die Bereinigung des Filterzwischenspeichers, neue Sprachen, und beachtet die Reihenfolge von Einträgen beim Import nutzereigener Filterlisten."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
