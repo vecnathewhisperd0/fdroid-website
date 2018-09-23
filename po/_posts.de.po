@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-09-14 17:11+0200\n"
-"PO-Revision-Date: 2018-09-22 16:18+0000\n"
+"PO-Revision-Date: 2018-09-24 15:27+0000\n"
 "Last-Translator: C. Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\n"
 "Language: de\n"
@@ -4499,22 +4499,22 @@ msgstr ""
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "[4.1.26 OTF-026 — (fdroid Client) Insecure Implementation of SSL]({{ site.baseurl }}/docs/Second_Audit_Report/#f52--fdroid-client-insecure-implementation-of-ssl)"
-msgstr ""
+msgstr "[4.1.26 OTF-026 — (fdroid Client) Unsichere Umsetzung von SSL]({{ site.baseurl }}/docs/Second_Audit_Report/#f52--fdroid-client-insecure-implementation-of-ssl)"
 
 #. type: Plain text
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "This finding is labeling a standard practice in Android as insecure: \"It is possible to install an SSL certificate on a device and run the application to capture its traffic on the proxy.\" Android does not make it easy to accidentally include a certificate on the device, and it also puts up a constant notification when one is in place.  We believe that following this recommendation would not noticeably improve real world security.  It would eliminate legitimate use cases of installing a certificate on the device to inspect the traffic.  For example: company firewalls that must inspect traffic to comply with regulations; or, auditing real world traffic of F-Droid during normal operation."
-msgstr ""
+msgstr "Diese Erkenntnis weist eine Standardpraxis in Android als unsicher aus: \"Es ist möglich, auf einem Gerät ein SSL-Zertifikat zu installieren und die Anwendung auszuführen, um deren Datenverkehr auf dem Proxy zu erfassen.\" Android macht es nicht einfach, versehentlich ein Zertifikat auf dem Gerät zu integrieren, und es stellt auch eine dauerhafte Benachrichtigung auf, wenn eines vorhanden ist.  Wir glauben, dass das Befolgen dieser Empfehlung die Sicherheit im wirklichen Leben nicht nennenswert verbessern würde. Es würde legitime Anwendungsfälle der Zertifikatinstallation zur Beobachtung des Datenverkehrs auf einem Gerät ausschließen.  Zum Beispiel: Firmen-Firewalls, die den Datenverkehr beobachten müssen, um den Vorschriften nachzukommen; oder Prüfung des realen Verkehrs von F-Droid im normalen Betrieb."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "[4.1.20 OTF-020 — Unverified URI redirect]({{ site.baseurl }}/docs/Second_Audit_Report/#f41-app-uses-data-from-clipboard)"
-msgstr ""
+msgstr "[4.1.20 OTF-020 — Nicht verifizierte URI-Umleitung]({{ site.baseurl }}/docs/Second_Audit_Report/#f41-app-uses-data-from-clipboard)"
 
 #. type: Plain text
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "This could only be exploited to change the URL that is shown in the TOFU prompt to the user.  The user is responsible for confirming what is listed in that prompt.  It should be fixed, but does not seem urgent.  It will be included when we overhaul the whole \"App Repo\" process."
-msgstr ""
+msgstr "Das kann nur dazu ausgenutzt werden, um die URL zu ändern, die dem Anwender in der TOFU-Abfrage angezeigt wird.  Der Anwender trägt bei Bestätigung die Verantwortung dafür, was in dieser Abfrage gelistet ist.  Es sollte behoben werden, erscheint aber nicht als dringend.  Es wird engeschlossen werden, wenn wir den ganzen \"App Repo\"-Prozess überarbeiten."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
@@ -4524,7 +4524,7 @@ msgstr ""
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "[4.1.27 OTF-027 — (Privilege Extension) Mobile application package signed with weak algorithm _SHA1withRSA_]({{ site.baseurl }}/docs/Second_Audit_Report/#f53--privilege-extension-app-is-signed-with-sha1withrsa-known-to-have-collision-issues)"
-msgstr ""
+msgstr "[4.1.27 OTF-027 — (Privilege Extension) Mobiles Anwendungspaket mit schwachem Algorithmus _SHA1withRSA_ signiert]({{ site.baseurl }}/docs/Second_Audit_Report/#f53--privilege-extension-app-is-signed-with-sha1withrsa-known-to-have-collision-issues)"
 
 #. type: Plain text
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
@@ -4538,6 +4538,13 @@ msgid ""
 "signatures on APKs as well as the whole secure F-Droid distribution\n"
 "mechanism.\n"
 msgstr ""
+"Das ist ein Android-immanentes Problem. Wenn eine APK with SHA256 signiert ist,\n"
+"wird diese APK auf Android vor 4.3 nicht funktionieren.  Die Verwendung eines \n"
+"größeren RSA-Signierschlüssels wäre ebenfalls ideal.  Da aber das Migrieren von \n"
+"Signierschlüsseln in Android nicht unterstützt wird, wäre das ein sehr schwieriges\n"
+"Projekt.  F-Droid enthält weitere Schutzvorkehrungen zur Validierung von APKs, \n"
+"einschließlich GPG-Signaturen für APKs, neben dem insgesamt sicheren \n"
+"F-Droid-Verteilungsmechanismus.\n"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
