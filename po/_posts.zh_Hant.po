@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-09-14 17:11+0200\n"
-"PO-Revision-Date: 2018-09-19 14:22+0000\n"
+"PO-Revision-Date: 2018-09-25 07:16+0000\n"
 "Last-Translator: zelos-h <b.blank.0001@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/f-droid/website-posts/zh_Hant/>\n"
 "Language: zh_Hant\n"
@@ -4706,7 +4706,7 @@ msgstr ""
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 #, no-wrap
 msgid "Repomaker"
-msgstr ""
+msgstr "軟體製作"
 
 #. type: Plain text
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
