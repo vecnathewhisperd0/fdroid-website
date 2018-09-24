@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-09-12 15:38+0200\n"
-"PO-Revision-Date: 2018-09-22 07:35+0000\n"
+"PO-Revision-Date: 2018-09-25 07:16+0000\n"
 "Last-Translator: mesnevi <shams@airpost.net>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/f-droid/website-docs/ru/>\n"
 "Language: ru\n"
@@ -211,7 +211,7 @@ msgstr "Напрямую в репозиторий F-Droid"
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
 msgid "The ultimate destination for files from the app's source repo and _fdroiddata_ metadata sub-directories is in the F-Droid repo.  The text all gets included into the index file (aka _index-v1.json_).  All of the graphics files can be directly included in the repo.  If graphics files are also in the app's source or _fdroiddata_, then the files directly in the repo will be overwritten.  The text files from the _fastlane_ layout are ignored if they are in the repo."
-msgstr "Желаемый итог всех манипуляций с файлами из репозитория с исходным кодом и папок с метаданными из _fdroiddata_ — переместиться в основной репозиторий F-Droid.  Все тексты попадают в специальный индекс-файл (называемый _index-v1.json_).  Все изображения можно добавлять сразу в репозиторий F-Droid.  Если в исходном коде приложения или в репозитории _fdroiddata_ тоже есть изображения, они перепишут файлы, добавленные напрямую.  В то же время если в основном репозитории уже есть текстовые файлы, то файлы, получившиеся с помощью _fastlane_, не принимаются."
+msgstr "Желаемый итог всех манипуляций с файлами из репозитория с исходным кодом и папок с метаданными из _fdroiddata_ — переместить их в основной репозиторий F-Droid.  Все тексты попадают в специальный индекс-файл (называемый _index-v1.json_).  Все изображения можно добавлять сразу в репозиторий F-Droid.  Если в исходном коде приложения или в репозитории _fdroiddata_ тоже есть изображения, они перепишут файлы, добавленные напрямую.  В то же время если в основном репозитории уже есть текстовые файлы, то файлы, получившиеся с помощью _fastlane_, не принимаются."
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
