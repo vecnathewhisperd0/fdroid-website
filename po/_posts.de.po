@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-09-14 17:11+0200\n"
-"PO-Revision-Date: 2018-09-24 15:27+0000\n"
+"PO-Revision-Date: 2018-09-25 07:16+0000\n"
 "Last-Translator: C. Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\n"
 "Language: de\n"
@@ -101,12 +101,12 @@ msgstr "Wir haben hart an der [Überarbeitung der Webseite](https://gitlab.com/g
 #. type: Plain text
 #: build/_posts/md/2017-02-20-new-forum.md
 msgid "The old forum had a lot of disadvantages: Firstly, you cannot reply by mail.  Secondly, the F-Droid volunteers had to waste time deleting massive amounts of spam (the old forum had 25% spam).  Finally, the overall user experience was bad, and not only because of increasing number of bugs found in the forum software."
-msgstr "Das alte Forum hatte viele Nachteile: Zum Einen waren keine Antworten per Mail möglich. Zum Anderen hatten F-Droid-Freiwillige viel Zeit damit zu verschwenden, immense Mengen an Spam zu löschen (das alte Forum lieferte 25% Spam). Schließlich war der Gesamteindruck für den Nutzer schlecht, und dies nicht nur wegen der zunehmenden Zahl der in der Forum-Software gefundenen Fehler."
+msgstr "Das alte Forum hatte viele Nachteile: Zum Einen waren keine Antworten per Mail möglich. Zum Anderen hatten F-Droid-Freiwillige viel Zeit damit zu verschwenden, immense Mengen an Spam zu löschen (das alte Forum lieferte 25% Spam). Schließlich war der Gesamteindruck für den Nutzer schlecht und dies nicht nur wegen der zunehmenden Zahl der in der Forum-Software gefundenen Fehler."
 
 #. type: Plain text
 #: build/_posts/md/2017-02-20-new-forum.md
 msgid "With Discourse, we hope to breathe life back into the F-Droid community.  While app submissions recently [moved to GitLab](https://gitlab.com/fdroid/rfp), and bug reports/feature requests still live in GitLab, the new forum is the new centre for all discussions related to F-Droid.  All users of F-Droid, whether discussing the client or the server tools, can help each other there."
-msgstr "Mit Discourse hoffen wir, die F-Droid-Community wiederzubeleben.  Nachdem die App-Vorlagen kürzlich [auf GitLab umzogen](https://gitlab.com/fdroid/rfp), und Fehlerberichte/Funktionswünsche immer noch in GitLab zuhause sind, soll das neue Forum das neue Zentrum für alle Diskussionen rund um F-Droid sein.  Alle Nutzer von F-Droid, ob sie nun den Client oder die Server-Werkzeuge erörtern, können einander hier helfen."
+msgstr "Mit Discourse hoffen wir, die F-Droid-Community wiederzubeleben.  Nachdem die App-Vorlagen kürzlich [auf GitLab umzogen](https://gitlab.com/fdroid/rfp) und Fehlerberichte/Funktionswünsche immer noch in GitLab zuhause sind, soll das neue Forum das neue Zentrum für alle Diskussionen rund um F-Droid sein.  Alle Nutzer von F-Droid, ob sie nun den Client oder die Server-Werkzeuge erörtern, können einander hier helfen."
 
 #. type: Plain text
 #: build/_posts/md/2017-02-20-new-forum.md
@@ -473,7 +473,7 @@ msgstr "Heute, 10. Oktober, 10.10., ein perfekter Tag, um F-Droid 1.0 anzukündi
 #: build/_posts/md/2017-10-10-fdroid-is-1.0.md
 msgid "With 60+ languages, 100+ contributors, 2500+ apps, and many millions of downloads, F-Droid is already widely used.  It is even the default, built-in app store for two important Android ROM projects: [Replicant](https://www.replicant.us/) and [CopperheadOS](https://copperhead.co/android/)."
 msgstr ""
-"Mit über 60 Sprachen, hunderten Mitarbeitern, mehr als 2500 Apps, und vielen Millionen Downloads, ist F-Droid bereits weit verbreitet. In zwei wichtigen Android-ROM-Projekten -\n"
+"Mit über 60 Sprachen, hunderten Mitarbeitern, mehr als 2500 Apps und vielen Millionen Downloads, ist F-Droid bereits weit verbreitet. In zwei wichtigen Android-ROM-Projekten -\n"
 " [Replicant](https://www.replicant.us/) und [CopperheadOS](https://copperhead.co/android/)) - ist es sogar der mitgelieferte Standard-App-Store."
 
 #. type: Plain text
@@ -745,7 +745,7 @@ msgstr "\"F-Droid und Janusangriffe\""
 #. type: Plain text
 #: build/_posts/md/2017-12-13-fdroid-and-janus.md
 msgid "The [Janus vulnerability](https://www.guardsquare.com/en/blog/new-android-vulnerability-allows-attackers-modify-apps-without-affecting-their-signatures)  has sprung forth unto the Android world, and we have sprung into action to keep it far away."
-msgstr "[Janusangriffe](https://www.guardsquare.com/en/blog/new-android-vulnerability-allows-attackers-modify-apps-without-affecting-their-signatures) sind auf die Android-Welt übergesprungen, und wir sind in Aktion getreten, um sie uns vom Leib zu halten."
+msgstr "[Janusangriffe](https://www.guardsquare.com/en/blog/new-android-vulnerability-allows-attackers-modify-apps-without-affecting-their-signatures) sind auf die Android-Welt übergesprungen und wir sind in Aktion getreten, um sie uns vom Leib zu halten."
 
 #. type: Plain text
 #: build/_posts/md/2017-12-13-fdroid-and-janus.md
@@ -762,7 +762,7 @@ msgstr ""
 #. type: Plain text
 #: build/_posts/md/2017-12-13-fdroid-and-janus.md
 msgid "First off, _f-droid.org_, _guardianproject.info/fdroid_ and _apt.izzysoft.de/fdroid_ were scanned for possible Janus exploits and none were found.  _f-droid.org_'s greatest protection against malware is the requirement that everything must be built from source, humans review all apps that are added, and a source tarball for each build is stored forever.  Exploit writers do not want to give away the source code to their malware nor have their activities permanently logged in _git_, so this process keeps them away.  No malware has been found in _f-droid.org_ in its 7 years of operation."
-msgstr "Zunächst einmal, _f-droid.org_, _guardianproject.info/fdroid_ und _apt.izzysoft.de/fdroid_ wurden auf mögliche Janus-Exploits durchsucht, und es wurden keine gefunden.  Der größte Schutz von _f-droid.org_ gegen Schadsoftware ist die Notwendigkeit, dass alles aus der Quelle hergestellt werden muss, Menschen alle Apps, die hinzugefügt werden, überprüfen, und für immer ein Source-Tarball für jede Version gespeichert wird.  Exploit-Schreiber möchten den Quelltext für ihre Schadsoftware nicht aus den Händen geben, noch ihre Aktivitäten permanent in _git_ protokolliert haben, somit hält dieses Vorgehen sie fern.  In seiner 7-jährigen Tätigkeit wurden bei _f-droid.org_ noch keine Schadprogramme gefunden."
+msgstr "Zunächst einmal, _f-droid.org_, _guardianproject.info/fdroid_ und _apt.izzysoft.de/fdroid_ wurden auf mögliche Janus-Exploits durchsucht, und es wurden keine gefunden.  Der größte Schutz von _f-droid.org_ gegen Schadsoftware ist die Notwendigkeit, dass alles aus der Quelle hergestellt werden muss, Menschen alle Apps, die hinzugefügt werden, überprüfen und für immer ein Source-Tarball für jede Version gespeichert wird.  Exploit-Schreiber möchten den Quelltext für ihre Schadsoftware nicht aus den Händen geben, noch ihre Aktivitäten permanent in _git_ protokolliert haben, somit hält dieses Vorgehen sie fern.  In seiner 7-jährigen Tätigkeit wurden bei _f-droid.org_ noch keine Schadprogramme gefunden."
 
 #. type: Plain text
 #: build/_posts/md/2017-12-13-fdroid-and-janus.md
@@ -777,7 +777,7 @@ msgstr "Ferner gibt es zufällig einige gute Nachrichten: Es stellt sich heraus,
 #. type: Plain text
 #: build/_posts/md/2017-12-13-fdroid-and-janus.md
 msgid "Also, _apksigner_ is better at verifying APK signatures, and many Janus examples failed.  If _apksigner_ is installed, then `fdroid build` uses it.  If an APK is signed with a v2 APK Signature, then things like Janus exploits are not possible.  So if you are working with APKs that you have not built from source, be sure to install _apksigner_."
-msgstr "Außerdem, _apksigner_ ist besser bei der Überprüfung von APK-Signaturen, und viele Janusangriffe schlugen fehl.  Wenn _apksigner_ installiert ist, dann wird es von `fdroid build` verwendet. Wenn eine APK mit einer v2-APK-Signatur signiert ist, sind Dinge wie Janus-Exploite nicht möglich. So sollten Sie bei Arbeiten mit APKs, die nicht aus der Quelle erstellt wurden, sicherheitshalber _apksigner_ installieren."
+msgstr "Außerdem ist _apksigner_ besser bei der Überprüfung von APK-Signaturen und viele Janusangriffe schlugen fehl.  Wenn _apksigner_ installiert ist, dann wird es von `fdroid build` verwendet. Wenn eine APK mit einer v2-APK-Signatur signiert ist, sind Dinge wie Janus-Exploite nicht möglich. So sollten Sie bei Arbeiten mit APKs, die nicht aus der Quelle erstellt wurden, sicherheitshalber _apksigner_ installieren."
 
 #. type: Plain text
 #: build/_posts/md/2017-12-13-fdroid-and-janus.md
@@ -793,7 +793,7 @@ msgstr "\"Neue Zusammenarbeit, um Überwachung aufzudecken\""
 #. type: Plain text
 #: build/_posts/md/2017-12-14-new-collaborations-on-exposing-tracking.md
 msgid "Since 2010, the F-Droid community has been working to provide only 100% verified Free Software, and to make apparent all forms of tracking, advertising, and \"[anti-features](https://f-droid.org/wiki/page/AntiFeatures)\" commonly found in apps.  F-Droid provides a complete app ecosystem where users are actively notified of tracking and advertising in the apps, and can make informed choices.  We have achieved this through the work of many dedicated volunteers reviewing apps as they are submitted, and marking the things that they find."
-msgstr "Seit 2010 arbeitet die F-Droid-Community daran, ausschließlich 100% überprüfte Freie Software anzubieten und alle Formen der Überwachung, Werbung und \"[unerwünschte Merkmale](https://f-droid.org/wiki/page/AntiFeatures)\", die für gewöhnlich in Apps gefunden werden, kenntlich zu machen. F-Droid bietet ein komplettes App-Ökosystem, in dem Anwender aktiv auf Überwachung und Werbung in den Apps hingewiesen werden, und sich informiert entscheiden können. Wir haben das durch die Arbeit vieler engagierter Freiwilliger erreicht, die Apps, so wie sie vorlagen, überprüften und die darin gefundenen Dinge kennzeichneten."
+msgstr "Seit 2010 arbeitet die F-Droid-Community daran, ausschließlich 100% überprüfte Freie Software anzubieten und alle Formen der Überwachung, Werbung und \"[unerwünschte Merkmale](https://f-droid.org/wiki/page/AntiFeatures)\", die für gewöhnlich in Apps gefunden werden, kenntlich zu machen. F-Droid bietet ein komplettes App-Ökosystem, in dem Anwender aktiv auf Überwachung und Werbung in den Apps hingewiesen werden und sich informiert entscheiden können. Wir haben das durch die Arbeit vieler engagierter Freiwilliger erreicht, die Apps, so wie sie vorlagen, überprüften und die darin gefundenen Dinge kennzeichneten."
 
 #. type: Plain text
 #: build/_posts/md/2017-12-14-new-collaborations-on-exposing-tracking.md
@@ -1537,7 +1537,7 @@ msgstr "  Oh, wenn Riot nicht im Hintergrund sterben soll, muss die Akku-Optimie
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-04-this-week-in-fdroid-w18.md
 msgid "[Tusky](https://f-droid.org/app/com.keylesspalace.tusky) was updated from 1.6.1 to 1.7.0, with support for custom toot size limit of some instances, new translations and updates, and bug fixes. To copy the content of a toot to the clipboard you now need to long press it."
-msgstr "[Tusky](https://f-droid.org/app/com.keylesspalace.tusky) wurde von 1.6.1 nach 1.7.0 aktualisiert, mit Unterstützung einer benutzerdefinierten Begrenzung der Toot-Größe für bestimmte Instanzen, neuen Übersetzungen und Überarbeitungen, und Bugfixes. Um die Inhalte eines Toot in die Zwischenablage zu kopieren, muss er lange gedrückt werden."
+msgstr "[Tusky](https://f-droid.org/app/com.keylesspalace.tusky) wurde von 1.6.1 nach 1.7.0 aktualisiert, mit Unterstützung einer benutzerdefinierten Begrenzung der Toot-Größe für bestimmte Instanzen, neuen Übersetzungen und Überarbeitungen sowie Bugfixes. Um die Inhalte eines Toot in die Zwischenablage zu kopieren, muss er lange gedrückt werden."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-04-this-week-in-fdroid-w18.md
@@ -2622,7 +2622,7 @@ msgstr "Wenn Sie die Alpha2 des F-Droid-Clients installiert haben _und_ die [Rec
 #. type: Bullet: '* '
 #: build/_posts/md/2018-06-29-this-week-in-fdroid-w26.md
 msgid "Work on the whitelabel client continues, and [issue 1311](https://gitlab.com/fdroid/fdroidclient/issues/1311), in which F-Droid wants to update/reinstall uninstalled apps, is being fixed as part of this work."
-msgstr "Die Arbeit am Whitelabel Client geht voran, und [Issue 1311](https://gitlab.com/fdroid/fdroidclient/issues/1311), bei dem F-Droid nicht installierte Apps aktualisieren/wieder installieren will, wurde im Rahmen dieser Arbeiten behoben."
+msgstr "Die Arbeit am Whitelabel Client geht voran und [Issue 1311](https://gitlab.com/fdroid/fdroidclient/issues/1311), bei dem F-Droid nicht installierte Apps aktualisieren/wieder installieren will, wurde im Rahmen dieser Arbeiten behoben."
 
 #. type: Plain text
 #: build/_posts/md/2018-06-29-this-week-in-fdroid-w26.md
@@ -2801,7 +2801,7 @@ msgstr "[Gallery](https://f-droid.org/app/com.simplemobiletools.gallery) 4.3.1 b
 #. type: Bullet: '* '
 #: build/_posts/md/2018-07-05-this-week-in-fdroid-w27.md
 msgid "[Tremotesf](https://f-droid.org/app/org.equeim.tremotesf) is a remote GUI for the [Transmission BitTorrent client](https://transmissionbt.com). Version 1.7.0 can show available free space when adding torrents, disable finished torrent notifications, notify about added torrents, and shows the donation dialog once two days after install."
-msgstr "[Tremotesf](https://f-droid.org/app/org.equeim.tremotesf) ist eine abgetrennte GUI für den [Transmission BitTorrent Client](https://transmissionbt.com). Version 1.7.0 kann beim Hinzufügen von Torrents den verfügbaren, freien Platz anzeigen, Benachrichtigungen zu abgeschlossenen Torrents abschalten, über hinzugefügte Torrents unterrichten, und zeigt zwei Tage nach der Installation einmal den Spendendialog an."
+msgstr "[Tremotesf](https://f-droid.org/app/org.equeim.tremotesf) ist eine abgetrennte GUI für den [Transmission BitTorrent Client](https://transmissionbt.com). Version 1.7.0 kann beim Hinzufügen von Torrents den verfügbaren, freien Platz anzeigen, Benachrichtigungen zu abgeschlossenen Torrents abschalten, über hinzugefügte Torrents unterrichten und zeigt zwei Tage nach der Installation einmal den Spendendialog an."
 
 #. type: Title #
 #: build/_posts/md/2018-07-12-this-week-in-fdroid-w28.md
@@ -2903,7 +2903,7 @@ msgstr "[Vespucci](https://f-droid.org/app/de.blau.android) hatte ein großes Up
 #. type: Bullet: '* '
 #: build/_posts/md/2018-07-12-this-week-in-fdroid-w28.md
 msgid "[Simple Search](https://f-droid.org/app/de.tobiasbielefeld.searchbar) 1.2 brings a new dark theme! Metager has been added as a search engine, and 3 different customized search engines can now be set up."
-msgstr "[Simple Search](https://f-droid.org/app/de.tobiasbielefeld.searchbar): 1.2 bringt ein neues, dunkles Design mit! Als Suchmaschine wurde Metager ergänzt, und es können nun 3 verschiedene benutzerdefinierte Suchmaschinen festgelegt werden."
+msgstr "[Simple Search](https://f-droid.org/app/de.tobiasbielefeld.searchbar): 1.2 bringt ein neues, dunkles Design mit! Als Suchmaschine wurde Metager ergänzt und es können nun 3 verschiedene benutzerdefinierte Suchmaschinen festgelegt werden."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-07-12-this-week-in-fdroid-w28.md
@@ -3757,7 +3757,7 @@ msgstr "**[OSMTracker](https://f-droid.org/app/net.osmtracker)**: GPS-Track-Reco
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-16-twif-17-the-reproducible-builds-and-encrypted-e-mail-edition.md
 msgid "**[Briar](https://f-droid.org/wiki/page/org.briarproject.briar.android)** also finally made it! Unfortunately it was published straight to the archive as we can only build the older version 1.0.1 of this app for now. The solution lies in upgrading the build server to Debian Stretch. If you want to play with it, you'll need to enable the F-Droid archive in your repository settings. Or you can add the [Briar repository](https://briarproject.org/fdroid.html) and get access to the latest version. Oh yeah, Briar is built reproducibly, and [here's the how and why](https://blog.grobox.de/2018/building-briar-reproducible-and-why-it-matters/)."
-msgstr "**[Briar](https://f-droid.org/wiki/page/org.briarproject.briar.android)** hat es auch endlich geschafft! Unglücklicherweise wurde sie geradewegs ins Archiv eingestellt, da uns bis jetzt nur ein Build der älteren Version 1.0.1 dieser App gelang. Die Lösung liegt im Upgrade des Build-Servers auf Debian Stretch. Wenn Sie damit spielen möchten, müssen Sie das F-Droid-Archiv in Ihren Paketquelleneinstellungen aktivieren. Oder Sie können das [Briar-Repository](https://briarproject.org/fdroid.html) hinzufügen und erhalten so Zugang zur neusten Version. Ach ja, Briar's Build ist reproduzierbar, und [hier steht wie und warum](https://blog.grobox.de/2018/building-briar-reproducible-and-why-it-matters/)."
+msgstr "**[Briar](https://f-droid.org/wiki/page/org.briarproject.briar.android)** hat es auch endlich geschafft! Unglücklicherweise wurde sie geradewegs ins Archiv eingestellt, da uns bis jetzt nur ein Build der älteren Version 1.0.1 dieser App gelang. Die Lösung liegt im Upgrade des Build-Servers auf Debian Stretch. Wenn Sie damit spielen möchten, müssen Sie das F-Droid-Archiv in Ihren Paketquelleneinstellungen aktivieren. Oder Sie können das [Briar-Repository](https://briarproject.org/fdroid.html) hinzufügen und erhalten so Zugang zur neusten Version. Ach ja, Briar's Build ist reproduzierbar und [hier steht wie und warum](https://blog.grobox.de/2018/building-briar-reproducible-and-why-it-matters/)."
 
 #. type: Plain text
 #: build/_posts/md/2018-08-16-twif-17-the-reproducible-builds-and-encrypted-e-mail-edition.md
@@ -4009,7 +4009,7 @@ msgstr "{{ page.featured }} **[OsmAnd~](https://f-droid.org/app/net.osmand.plus)
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
 msgid "**[Gadgetbridge](https://f-droid.org/app/nodomain.freeyourgadget.gadgetbridge)** allows you to communicate with many types of devices including Pebble, Mi Band, Amazon Bip, and Hplus.  Version 0.29.1 brings better language and notifcation support to the Mi Band 3 and began implementation of start and end of sleep statistics."
-msgstr "**[Gadgetbridge](https://f-droid.org/app/nodomain.freeyourgadget.gadgetbridge)** ermöglicht die Kommunikation mit vielen Gerätetypen, Pebble, Mi Band, Amazon Bip, und Hplus eingeschlossen.  Version 0.29.1 bringt eine verbesserte Unterstützung von Sprachen und Benachrichtigungen für das Mi Band 3 und begann mit der Umsetzung einer Start-Stopp-Schlummer-Statistik."
+msgstr "**[Gadgetbridge](https://f-droid.org/app/nodomain.freeyourgadget.gadgetbridge)** ermöglicht die Kommunikation mit vielen Gerätetypen, Pebble, Mi Band, Amazon Bip und Hplus eingeschlossen.  Version 0.29.1 bringt eine verbesserte Unterstützung von Sprachen und Benachrichtigungen für das Mi Band 3 und begann mit der Umsetzung einer Start-Stopp-Schlummer-Statistik."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
@@ -4096,7 +4096,7 @@ msgstr "**[Temp. monitor](https://f-droid.org/app/com.gmail.jiwopene.temperature
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
 msgid "**[XMouse](https://f-droid.org/app/com.stripe1.xmouse)**: Remotely control X11 via SSH commands generated by your phone or tablet"
-msgstr "**[XMouse](https://f-droid.org/app/com.stripe1.xmouse)**: X11_Fernsteuerung via SSH-Befehle, die durch das Telefon oder Tablet generiert werden"
+msgstr "**[XMouse](https://f-droid.org/app/com.stripe1.xmouse)**: X11-Fernsteuerung via SSH-Befehle, die durch das Telefon oder Tablet generiert werden"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
@@ -4163,7 +4163,7 @@ msgstr "  Version 2.0.4 fügt die Unterstützung des Querformats, die Kompatibil
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
 msgid "**[LibreTorrent](https://f-droid.org/app/org.proninyaroslav.libretorrent)**, a standalone torrent client for Android, released 1.8, now with RSS manager, Ability to create torrents, scheduling, Android TV support, Android P support, and more."
-msgstr "**[LibreTorrent](https://f-droid.org/app/org.proninyaroslav.libretorrent)**, ein unabhängiger Torrent-Client für Android, veröffentlichte 1.8, nun mit RSS-Verwaltung, der Möglichkeit, Torrents zu erzeugen, Zeitplanung, Android-TV-Unterstützung, Unterstützung von Android P, und mehr."
+msgstr "**[LibreTorrent](https://f-droid.org/app/org.proninyaroslav.libretorrent)**, ein unabhängiger Torrent-Client für Android, veröffentlichte 1.8, nun mit RSS-Verwaltung, der Möglichkeit, Torrents zu erzeugen, Zeitplanung, Android-TV-Unterstützung, Unterstützung von Android P und mehr."
 
 #. type: Plain text
 #: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
@@ -4188,7 +4188,7 @@ msgstr ""
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
 msgid "**[Orgzly](https://f-droid.org/app/com.orgzly)** is a hierarchical note-taking app and task manager in **[org-mode](http://orgmode.org/) format**. Version 1.6.9 can be installed on external storage, lets you add quick notes from an ongoing notification, supports checkboxes in the notebook's preface, and more, for which you can see the [nice color-coded changelog](http://www.orgzly.com/changelog#v1.6.9)."
-msgstr "**[Orgzly](https://f-droid.org/app/com.orgzly)** ist eine hierarchisch aufgebaute App zur Notizenerfassung und Aufgabenverwaltung im **[org-mode](http://orgmode.org/)-Format**. Version 1.6.9 kann auf dem externen Speicher installiert werden, ermöglicht Kurznotizen zu einer eingehenden Benachrichtigung, bietet Ankreuzfelder in der Notizbuchvorschau, und noch mehr, was Sie in dem [hübsch farbkodierten Änderungsprotokoll](http://www.orgzly.com/changelog#v1.6.9) finden können."
+msgstr "**[Orgzly](https://f-droid.org/app/com.orgzly)** ist eine hierarchisch aufgebaute App zur Notizenerfassung und Aufgabenverwaltung im **[org-mode](http://orgmode.org/)-Format**. Version 1.6.9 kann auf dem externen Speicher installiert werden, ermöglicht Kurznotizen zu einer eingehenden Benachrichtigung, bietet Ankreuzfelder in der Notizbuchvorschau und noch mehr, was Sie in dem [hübsch farbkodierten Änderungsprotokoll](http://www.orgzly.com/changelog#v1.6.9) finden können."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
@@ -4294,7 +4294,7 @@ msgstr "Die Herausforderung Google’s FCM zu ersetzen"
 #. type: Plain text
 #: build/_posts/md/2018-09-03-replacing-gcm-in-tutanota.md
 msgid "The Tutanota apps are Libre software, and we wanted to [publish our Android app on F-Droid](https://tutanota.com/blog/posts/open-source-email). We wanted our users to be able to use Tutanota on every ROM and every device, without the control of a third-party like Google. We decided to take on the challenge and to build our own push notification service."
-msgstr "Tutanota-Apps sind Libre Software, und wir wollten [unsere Android-App auf F-Droid veröffentlichen](https://tutanota.com/blog/posts/open-source-email). Wir wollten, dass unsere Anwender in der Lage sind, Tutanota mit jedem ROM und auf jedem Gerät zu verwenden, ohne Überwachung durch einen Drittanbieter wie Google. Wir entschieden, die Herausforderung anzunehmen und unseren eigenen Push-Benachrichtungsdienst zu programmieren."
+msgstr "Tutanota-Apps sind Libre Software und wir wollten [unsere Android-App auf F-Droid veröffentlichen](https://tutanota.com/blog/posts/open-source-email). Wir wollten, dass unsere Anwender in der Lage sind, Tutanota mit jedem ROM und auf jedem Gerät zu verwenden, ohne Überwachung durch einen Drittanbieter wie Google. Wir entschieden, die Herausforderung anzunehmen und unseren eigenen Push-Benachrichtungsdienst zu programmieren."
 
 #. type: Plain text
 #: build/_posts/md/2018-09-03-replacing-gcm-in-tutanota.md
@@ -4341,7 +4341,7 @@ msgstr "Also, was ist SSE?"
 #. type: Plain text
 #: build/_posts/md/2018-09-03-replacing-gcm-in-tutanota.md
 msgid "SSE is a web API which allows a server to send events to the connected clients. It is a relatively old API which is, in my opinion, underused. I’ve never heard about SSE before looking at the [federated network Mastodon](https://joinmastodon.org/): They use SSE for real-time timeline updates, and it is working great."
-msgstr "SSE ist eine Internetschnittstelle, die es einem Server ermöglicht, Ereignisse an verbundene Clients zu senden. Es ist eine relativ alte API, die meiner Meinung nach brachliegt. Ich hatte von SSE noch nie gehört, bis ich mir das [föderale Netzwerk Mastodon](https://joinmastodon.org/) ansah: Sie nutzen SSE zur Aktualisierung der Zeitleiste in Echtzeit, und das funktioniert großartig."
+msgstr "SSE ist eine Internetschnittstelle, die es einem Server ermöglicht, Ereignisse an verbundene Clients zu senden. Es ist eine relativ alte API, die meiner Meinung nach brachliegt. Ich hatte von SSE noch nie gehört, bis ich mir das [föderale Netzwerk Mastodon](https://joinmastodon.org/) ansah: Sie nutzen SSE zur Aktualisierung der Zeitleiste in Echtzeit und das funktioniert wunderbar."
 
 #. type: Plain text
 #: build/_posts/md/2018-09-03-replacing-gcm-in-tutanota.md
@@ -5188,7 +5188,7 @@ msgstr "**[Mi Manga Nu](https://f-droid.org/app/ar.rulosoft.mimanganu)** lässt 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
 msgid "**[AdGuard Content Blocker](https://f-droid.org/app/com.adguard.android.contentblocker)** is an ad blocker for browsers that support content blocking technology. So far, these are Yandex Browser and Samsung Internet browser. Version 2.2.1 adds a whitelist setting, clean filters cache, new locales, and the order of entries will be respected when importing user filter lists."
-msgstr "**[AdGuard Content Blocker](https://f-droid.org/app/com.adguard.android.contentblocker)** ist ein Werbeblocker für Browsers, die die Technik Inhalte zu blockieren unterstützt Bislang sind das der Yandex Browser und der Samsung Internet Browser. Version 2.2.1 ergänzt eine Whitelist-Einstellung, die Bereinigung des Filterzwischenspeichers, neue Sprachen, und beachtet die Reihenfolge von Einträgen beim Import nutzereigener Filterlisten."
+msgstr "**[AdGuard Content Blocker](https://f-droid.org/app/com.adguard.android.contentblocker)** ist ein Werbeblocker für Browsers, die die Technik Inhalte zu blockieren unterstützt Bislang sind das der Yandex Browser und der Samsung Internet Browser. Version 2.2.1 ergänzt eine Whitelist-Einstellung, die Bereinigung des Filterzwischenspeichers, neue Sprachen und beachtet die Reihenfolge von Einträgen beim Import nutzereigener Filterlisten."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
@@ -5217,9 +5217,8 @@ msgstr "**[QKSMS](https://f-droid.org/app/com.moez.QKSMS)**, ein Material-Design
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
-#, fuzzy
 msgid "**[Nextcloud Talk](https://f-droid.org/app/com.nextcloud.talk2)** 3.0.0 is out. (Or 4.0. Who even knows anymore?) Now with video verification, ability to share files in a chat, easier chat handling and logging, and just generally a better experience. Read the [official blog post](https://nextcloud.com/blog/nextcloud-talk-4.0-is-out/) for the juicy details."
-msgstr "**[Nextcloud Talk](https://f-droid.org/app/com.nextcloud.talk2)** 3.0.0 ist draußen. (Oder 4.0. Wer weiß sogar noch mehr?) Nun mit Video-Verifikation, der Möglichkeit, Dateien in einem Chat zu teilen, einfacherer Chat-Bedienung und -Anmeldung, und überhaupt besserem Erlebniswert. Lesen Sie den [offiziellen Blog-Post](https://nextcloud.com/blog/nextcloud-talk-4.0-is-out/), um die reizvollen Einzelheiten zu erfahren."
+msgstr "**[Nextcloud Talk](https://f-droid.org/app/com.nextcloud.talk2)** 3.0.0 ist draußen. (Oder 4.0. Wer weiß sogar noch mehr?) Nun mit Video-Verifikation, der Möglichkeit, Dateien in einem Chat zu teilen, einfacherer Chat-Bedienung und -Anmeldung und überhaupt besserem Erlebniswert. Lesen Sie den [offiziellen Blog-Post](https://nextcloud.com/blog/nextcloud-talk-4.0-is-out/), um die reizvollen Einzelheiten zu erfahren."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
