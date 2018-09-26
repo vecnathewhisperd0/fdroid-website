@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-09-14 17:11+0200\n"
-"PO-Revision-Date: 2018-09-25 07:17+0000\n"
+"PO-Revision-Date: 2018-09-27 04:38+0000\n"
 "Last-Translator: mesnevi <shams@airpost.net>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/f-droid/website-posts/ru/>\n"
 "Language: ru\n"
@@ -27,7 +27,7 @@ msgstr "\"F-Droid поддерживает файлы расширения APK �
 #. type: Plain text
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md
 msgid "Many games, mapping, and other apps require a large amount of data to work.  The APK file of an Android app is limited to 100MB in size, yet it is common for a single country map file to be well over 100MB.  Also, in order to get users running as quickly as possible, they should not have to wait for huge amounts of data to download in order to just start the app for the first time."
-msgstr ""
+msgstr "Для работы многих приложений, например, игр или карт, требуются большие объемы данных.  Размер файла APK не должен превышать 100 Мб, в то же время обычный файл с региональной картой запросто может быть гораздо больше.  К тому же хочется сократить время первого запуска приложения на пользовательских устройствах: не годится, чтобы он растягивался на полчаса, во время которых приложение подгружает добрый гигабайт."
 
 #. type: Plain text
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md
