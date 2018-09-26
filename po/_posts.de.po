@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-09-14 17:11+0200\n"
-"PO-Revision-Date: 2018-09-25 07:16+0000\n"
+"PO-Revision-Date: 2018-09-27 16:27+0000\n"
 "Last-Translator: C. Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\n"
 "Language: de\n"
@@ -4457,12 +4457,12 @@ msgstr "Neue Apps und Updates werden über Merge-Requests und _git_-Commits an [
 #. type: Plain text
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "This audit helped us ask the question: what kind privileges can be restricted or removed without changing the way contributors work? It also caught a number of issues where the code trusted the inputs from _fdroiddata_, where it had been committed and reviewed by humans, but that could then point to other code which could contain the exploits."
-msgstr ""
+msgstr "Dieses Audit half uns bei der Fragestellung: Welche Art Privilegien können beschränkt oder entfernt werden, ohne dabei die Arbeitsweise der Mitwirkenden zu verändern? Es erfasste auch eine Anzahl von Problemen, inwiefern der Code sich auf die Einträge in _fdroiddata_ verließ, inwiefern er von Menschenhand committed und überprüft worden war, dann aber doch auf anderen Code verweisen konnte, der Exploits enthalten könnte."
 
 #. type: Plain text
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "Reducing the trust given to various pieces reduces the stresses of contributing, and allows us as a community to open more things up to all sorts of contributors.  If a contributor feels that their review is the last line of defence against exploiting F-Droid, that adds a lot of stress to the review."
-msgstr ""
+msgstr "Eine Reduktion des Vertrauens, das diversen Teilen geschenkt wird, reduziert den Druck bei der Mitarbeit, und erlaubt uns als Gemeinschaft, allen Arten von Mitarbeitern weitere Sachen zu öffnen.  Wenn ein Mitwirkender fühlt, dass seine Prüfung die letzte Verteidigungslinie gegen die Ausnutzung von F-Froid darstellt, bringt das eine große Belastung bei der Prüfung mit sich."
 
 #. type: Title ##
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
@@ -4494,7 +4494,7 @@ msgstr "[4.1.24 OTF-024 — (fdroidclient) Ausführung unformatierter SQL-Abfrag
 #. type: Plain text
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "- right now, repos are trusted inputs verified by signatures.  This kind of finding helps us make it so less trust is required when using third party repos"
-msgstr ""
+msgstr "- Im Augenblick sind Repos vertrauenswürdige Beiträge, die durch Signaturen verifiziert sind.  Diese Erkenntnis hilft uns dabei, erfolgreich zu sein, somit wird weniger Vertrauen vonnöten sein, wenn Drittanbieter-Repos verwendet werden."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
@@ -4519,7 +4519,7 @@ msgstr "Das kann nur dazu ausgenutzt werden, um die URL zu ändern, die dem Anwe
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "[4.1.23 OTF-023 — (fdroidclient) App Is Signed With _SHA1withRSA_, Known to Have Collision Issues]({{ site.baseurl }}/docs/Second_Audit_Report/#f46--fdroidclient-app-is-signed-with-sha1withrsa-known-to-have-collision-issues)"
-msgstr ""
+msgstr "[4.1.23 OTF-023 — (fdroidclient) App ist mit _SHA1withRSA_ signiert, was für Kollisionsprobleme bekannt ist]({{ site.baseurl }}/docs/Second_Audit_Report/#f46--fdroidclient-app-is-signed-with-sha1withrsa-known-to-have-collision-issues)"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
@@ -4549,48 +4549,48 @@ msgstr ""
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "[4.1.35 OTF-035 — Hardcoded root CA keys]({{ site.baseurl }}/docs/Second_Audit_Report/#f36-no-mechanism-to-remove-root-ca-keys)"
-msgstr ""
+msgstr "[4.1.35 OTF-035 — Fest programmierte Root-CA-Keys]({{ site.baseurl }}/docs/Second_Audit_Report/#f36-no-mechanism-to-remove-root-ca-keys)"
 
 #. type: Plain text
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "The HTTPS pinning mechanism could definitely be improved.  Since HTTPS pinning is not essential to secure operation, it has never been a high priority.  The integrity of the files server remains protected by the signature on the index files.  For _f-droid.org_ and the Guardian Project repo, the keys to check those signatures are built into the client."
-msgstr ""
+msgstr "Die HTTPS-Pinning-Einrichtung könnte definitiv verbessert werden.  Da HTTPS-Pinning nicht essentiell ist, um den Vorgang abzusichern, erlangte es nie eine hohe Priorität.  Die Integrität des Dateiservers bleibt durch die Signatur in der Indexdatei geschützt.  In _f-droid.org_ und dem Guardian Project Repo, sind die Schlüssel zum Abgleich dieser Signaturen im Client eingebaut."
 
 #. type: Title ###
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 #, no-wrap
 msgid "Nearby/Swap"
-msgstr ""
+msgstr "Nah/Tausch"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "[4.1.9 OTF-009 — Applicatioin uses TrustOnFirstUse (TOFU) Usage unverified signing certificate]({{ site.baseurl }}/docs/Second_Audit_Report/#f39-trustonfirstuse-tofu-usage)"
-msgstr ""
+msgstr "[4.1.9 OTF-009 — Anwendung verwendet ein unverifiziertes Signaturzertifikat beim Gebrauch von TrustOnFirstUse (TOFU)]({{ site.baseurl }}/docs/Second_Audit_Report/#f39-trustonfirstuse-tofu-usage)"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "[4.1.10 OTF-010 — (fdroid Client) Exploiting \"Nearby Swap\" Feature to Show Malicious Prompt to Users or Redirect to Malicious Sites]({{ site.baseurl }}/docs/Second_Audit_Report/#f49--fdroid-client-exploiting-nearby-swap-feature-to-show-malicious-prompt-to-users-or-redirect-to-malicious-sites)"
-msgstr ""
+msgstr "[4.1.10 OTF-010 — (fdroid Client) Ausnutzung der \"Nahtausch\"-Funktion, um Anwendern heimtückische Eingabaufforderungen anzuzeigen oder auf böswillige Seiten umzuleiten]({{ site.baseurl }}/docs/Second_Audit_Report/#f49--fdroid-client-exploiting-nearby-swap-feature-to-show-malicious-prompt-to-users-or-redirect-to-malicious-sites)"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "[4.1.17 OTF-017 — Use of Insecure Communication Mechanism - BluetoothClient.java]({{ site.baseurl }}/docs/Second_Audit_Report/#f31-bluetoothclient-java-insecure-rfcomm-socket-is-used-for-bluetooth-connection)"
-msgstr ""
+msgstr "[4.1.17 OTF-017 — Nutzung unsicherer Kommunikationsvorgänge - BluetoothClient.java]({{ site.baseurl }}/docs/Second_Audit_Report/#f31-bluetoothclient-java-insecure-rfcomm-socket-is-used-for-bluetooth-connection)"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "[4.1.18 OTF-018 — Use of Insecure Communication Mechanism - BluetoothServer.java]({{ site.baseurl }}/docs/Second_Audit_Report/#f32-bluetoothserver-java-insecure-rfcomm-socket-used-for-bluetooth-connection)"
-msgstr ""
+msgstr "[4.1.18 OTF-018 — Nutzung unsicherer Kommunikationsvorgänge - BluetoothServer.java]({{ site.baseurl }}/docs/Second_Audit_Report/#f32-bluetoothserver-java-insecure-rfcomm-socket-used-for-bluetooth-connection)"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "[4.1.25 OTF-025 — (fdroid Client) Snooping in Between Clients in \"Nearby Swap\"]({{ site.baseurl }}/docs/Second_Audit_Report/#f48--fdroid-client-snooping-in-between-clients-in-nearby-swap-)"
-msgstr ""
+msgstr "[4.1.25 OTF-025 — (fdroid Client) Ausschnüffeln der Clients im \"Nahtausch\"]({{ site.baseurl }}/docs/Second_Audit_Report/#f48--fdroid-client-snooping-in-between-clients-in-nearby-swap-)"
 
 #. type: Plain text
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "[4.1.10 OTF-010]({{ site.baseurl }}/docs/Second_Audit_Report/#f49--fdroid-client-exploiting-nearby-swap-feature-to-show-malicious-prompt-to-users-or-redirect-to-malicious-sites)  was a serious issue that was fixed as soon as it was found, thanks to Radically Open Security's open audit process.  It made it possible to put up phishing prompts via the swap process, but could only be exploited from the same network that the target device is on."
-msgstr ""
+msgstr "[4.1.10 OTF-010]({{ site.baseurl }}/docs/Second_Audit_Report/#f49--fdroid-client-exploiting-nearby-swap-feature-to-show-malicious-prompt-to-users-or-redirect-to-malicious-sites)  stellte ein ernsthaftes Problem dar, das dank Radically Open Security's offenen Auditverfahrens, sobald es bekannt wurde, behoben wurde.  Es machte es möglich, Phishing-Anzeigen über den Tauschvorgang unterzubringen, konnte aber nur im selben Netz ausgenutzt werden, in dem sich das Zielgerät befindet."
 
 #. type: Plain text
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
@@ -4878,6 +4878,8 @@ msgid ""
 "In this edition: Second security audit completed, automating the buildserver setup with ansible, a light week with updates for Just Notes, Cow's Revenge, Feeel, and others.\n"
 "<!--more-->\n"
 msgstr ""
+"In dieser Ausgabe: Zweites Sicherheitsaudit abgeschlossen, Automatisierung der Buildserver-Konfiguration mit Ansible, eine schwache Woche mit Updates für Just Notes, Cow's Revenge, Feeel und andere.\n"
+"<!--more-->\n"
 
 #. type: Title ####
 #: build/_posts/md/2018-09-06-twif-20-security-audit-completed-buildserver-setup-with-ansible.md
@@ -4888,50 +4890,50 @@ msgstr "Zweites Sicherheitsaudit abgeschlossen"
 #. type: Plain text
 #: build/_posts/md/2018-09-06-twif-20-security-audit-completed-buildserver-setup-with-ansible.md
 msgid "In case you missed it, [our second security audit has been completed]({{ site.baseurl }}{% post_url 2018-09-04-second-security-audit-results %}). All important issues have been fixed, and work on the remaining issues is ongoing. **[@Tovok7](https://blog.grobox.de)** has been working on [repomaker](https://gitlab.com/fdroid/repomaker) issues found in the audit, uploaded a pre-release to [pypi](https://pypi.org) and started to write [installation instructions](https://gitlab.com/fdroid/repomaker#installation). If you are a developer or a power user, we could use your help with testing these."
-msgstr ""
+msgstr "Für den Fall, dass Sie es verpasst haben, [unser zweites Sicherheitsaudit wurde abgeschlossen]({{ site.baseurl }}{% post_url 2018-09-04-second-security-audit-results %}). Alle wichtigen Probleme wurden behoben und die Arbeit an den verbleibenden schreitet voran. **[@Tovok7](https://blog.grobox.de)** hat an [repomaker](https://gitlab.com/fdroid/repomaker)-Problemen gearbeitet, die im Audit zu Tage traten, eine Vorabversion zu [pypi](https://pypi.org) hochgeladen und damit begonnen [Installationsanweisungen](https://gitlab.com/fdroid/repomaker#installation) zu schreiben. Sollten Sie Entwickler oder Profinutzer sein, könnten wir Ihre Mithilfe bei deren Testung gebrauchen."
 
 #. type: Plain text
 #: build/_posts/md/2018-09-06-twif-20-security-audit-completed-buildserver-setup-with-ansible.md
 #, no-wrap
 msgid "**[@\\_hc](https://forum.f-droid.org/u/hans)** writes: <q>We are satisfied with the results, which confirmed again that the core security model and standard operations are solid.</q> [_Read more_]({{ site.baseurl }}{% post_url 2018-09-04-second-security-audit-results %}).\n"
-msgstr ""
+msgstr "**[@\\_hc](https://forum.f-droid.org/u/hans)** schreibt: <q>Wir sind mit den Ergebnissen zufrieden, die wiederum bestätigt haben, dass das Kernsicherheitsmodell und die Standardabläufe solide sind.</q> [_Read more_]({{ site.baseurl }}{% post_url 2018-09-04-second-security-audit-results %}).\n"
 
 #. type: Plain text
 #: build/_posts/md/2018-09-06-twif-20-security-audit-completed-buildserver-setup-with-ansible.md
 msgid "For those who are curious about the _first_ security audit, which happened in 2015, [this post]({{ site.baseurl }}{% post_url 2018-01-20-upcoming-security-audit %}) looks back on it."
-msgstr ""
+msgstr "Diejenigen, die neugierig auf das _erste_ Sicherheitsaudit sind, das im Jahr 2015 stattfand, [dieser Beitrag]({{ site.baseurl }}{% post_url 2018-01-20-upcoming-security-audit %}) blickt darauf zurück."
 
 #. type: Title ####
 #: build/_posts/md/2018-09-06-twif-20-security-audit-completed-buildserver-setup-with-ansible.md
 #, no-wrap
 msgid "Automating buildserver setup with ansible"
-msgstr ""
+msgstr "Automatisierung der Buildserver-Konfiguration mit Ansible"
 
 #. type: Plain text
 #: build/_posts/md/2018-09-06-twif-20-security-audit-completed-buildserver-setup-with-ansible.md
 #, no-wrap
 msgid "**@uniq** is currently working on automating the [buildserver](https://gitlab.com/fdroid/fdroidserver) setup with [ansible](https://en.wikipedia.org/wiki/Ansible_%28software%29). Although we already have `makebuildserver`, this completely automates it, and all you have to do is run `vagrant up` and you'll get a VM with [fdroidserver](https://gitlab.com/fdroid/fdroidserver) set up for doing builds with a nested buildserver inside. This is different from `makebuildserver` in that it also builds the host.\n"
-msgstr ""
+msgstr "**@uniq** arbeitet momentan daran, die [Buildserver](https://gitlab.com/fdroid/fdroidserver)-Einrichtung mit [Ansible](https://en.wikipedia.org/wiki/Ansible_%28software%29) zu automatisieren. Obwohl wir bereits `makebuildserver` besitzen, automatisiert sie dies vollständig, und alles, was Sie tun müssen, ist die Ausführung von `vagrant up`, und Sie werden eine mit [fdroidserver](https://gitlab.com/fdroid/fdroidserver) eingerichtete VM erhalten, um Builds mit einem eingebauten Buildserver zu machen. Das unterscheidet sich von `makebuildserver` dadurch, dass auch der Host aufgebaut wird.\n"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-06-twif-20-security-audit-completed-buildserver-setup-with-ansible.md
 msgid "Öffi returns to the Google Play Store ([article in German](https://www.heise.de/newsticker/meldung/Nahverkehrs-App-Oeffi-ist-zurueck-im-Play-Store-4153880.html)), after being [kicked out]({{ site.baseurl }}{% post_url 2018-07-12-this-week-in-fdroid-w28 %}) and [open sourced in response]({{ site.baseurl }}{% post_url 2018-07-21-twif-13-public-transport-edition %}) earlier."
-msgstr ""
+msgstr "Öffi kehrt in den Google Play Store zurück ([Artikel in Deutsch](https://www.heise.de/newsticker/meldung/Nahverkehrs-App-Oeffi-ist-zurueck-im-Play-Store-4153880.html)), nachdem sie zuvor [herausgeworfen]({{ site.baseurl }}{% post_url 2018-07-12-this-week-in-fdroid-w28 %}) und [als Reaktion darauf Open Source]({{ site.baseurl }}{% post_url 2018-07-21-twif-13-public-transport-edition %}) wurde."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-06-twif-20-security-audit-completed-buildserver-setup-with-ansible.md
 msgid "**[Fit Notifications](https://f-droid.org/app/com.abhijitvalluri.android.fitnotifications)**: Enable all notifications for compatible Fitbit devices"
-msgstr ""
+msgstr "**[Fit Notifications](https://f-droid.org/app/com.abhijitvalluri.android.fitnotifications)**: Alle Benachrichtigungen für kompatible Fitbit-Geräte aktivieren"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-06-twif-20-security-audit-completed-buildserver-setup-with-ansible.md
 msgid "**[ADBKeyBoard](https://f-droid.org/app/com.android.adbkeyboard)**: Android Virtual Keyboard Input via ADB"
-msgstr ""
+msgstr "**[ADBKeyBoard](https://f-droid.org/app/com.android.adbkeyboard)**: Virtuelle Android-Tastatureingabe über ADB"
 
 #. type: Plain text
 #: build/_posts/md/2018-09-06-twif-20-security-audit-completed-buildserver-setup-with-ansible.md
 msgid "This week, **24** apps were updated, which is by far the lightest week we've had since the start of TWIF. We are not aware of any technical problems, and the index has been updating regularly. This slowdown appears to be entirely natural."
-msgstr ""
+msgstr "Diese Woche wurden **24** Apps aktualisiert, was bei weitem die schwächste Woche seit Einführung des TWIF ist. Wir sind uns keiner technischen Probleme bewusst und der Index wurde regelmäßig aktualisiert. Dieser Rückgang scheint ganz natürlich zu sein."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-06-twif-20-security-audit-completed-buildserver-setup-with-ansible.md
@@ -4941,27 +4943,27 @@ msgstr "**[Just Notes](https://f-droid.org/app/com.alaskalinuxuser.justnotes)** 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-06-twif-20-security-audit-completed-buildserver-setup-with-ansible.md
 msgid "{{ page.featured }} **[Cow's Revenge](https://f-droid.org/app/org.pipoypipagames.cowsrevenge)** is an awesome game in which you play a cow that was abducted and genetically enhanced by aliens. Seriously, who doesn't want to be THE COWEST? In version 1.0.5 you can toggle the sound on and off in the settings, enjoy Gamepad improvements, change weapons with shoulder buttons, and more."
-msgstr ""
+msgstr "{{ page.featured }} **[Cow's Revenge](https://f-droid.org/app/org.pipoypipagames.cowsrevenge)** ist ein fantastisches Spiel, in dem du eine Kuh spielst, die von Aliens entführt und genetisch verbessert wurde. Ganz im Ernst, wer möchte nicht THE COWEST sein? In Version 1.0.5 kannst du den Sound in den Einstellungen an- und abschalten, Gamepad-Verbesserungen genießen, Waffen mit den Harware-Tasten wechseln und noch mehr."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-06-twif-20-security-audit-completed-buildserver-setup-with-ansible.md
 msgid "**[Feeel](https://f-droid.org/app/com.enjoyingfoss.feeel)** is an app for doing simple at-home exercises. The update from 1.1 to 1.91 adds multiple workouts and fixes a bug that makes it actually work on Android 4.x, as well as SailfishOS."
-msgstr ""
+msgstr "**[Feeel](https://f-droid.org/app/com.enjoyingfoss.feeel)** ist eine App, um leichten Ausgleichssport zuhause zu machen. Die Aktualisierung von 1.1 auf 1.91 fügt eine Vielzahl an Workouts hinzu und behebt einen Fehler, damit sie sogar auf Android 4.x, wie auch SailfishOS läuft."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-06-twif-20-security-audit-completed-buildserver-setup-with-ansible.md
 msgid "**[Draw](https://f-droid.org/app/com.simplemobiletools.draw)** is a dead simple drawing app. Version 4.3.0 adds an initial Zoom implementation, which is disabled by default."
-msgstr ""
+msgstr "**[Draw](https://f-droid.org/app/com.simplemobiletools.draw)** ist eine kinderleichte Zeichen-App. Version 4.3.0 ergänzt eine erste Zoom-Realisierung, die standardmäßig deaktiviert ist."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-06-twif-20-security-audit-completed-buildserver-setup-with-ansible.md
 msgid "**[Mastalab](https://f-droid.org/app/fr.gouv.etalab.mastodon)** 1.11.0 is out! Links to toots now open the conversation inside the app, detailed bug reports can be sent by email, GIFs can be imported from the Android keyboard, instances can be followed from profiles, markdown is accepted for links in toots, and more. There's also a slew of bug fixes and better Pleroma support."
-msgstr ""
+msgstr "**[Mastalab](https://f-droid.org/app/fr.gouv.etalab.mastodon)** 1.11.0 ist draußen! Verknüpfungen mit Toots öffnen nun die Konversation innerhalb der App, detaillierte Fehlerberichte können als E-Mail versandt werden, GIFs können über die Android-Tastatur importiert werden, Instanzen können aus Profilen verfolgt werden, Markdown für Links in Toots wird akzeptiert und mehr. Es gibt auch eine Menge Korrekturen und besseren Pleroma-Support."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-06-twif-20-security-audit-completed-buildserver-setup-with-ansible.md
 msgid "**[Riot.im](https://f-droid.org/app/im.vector.alpha)** is an instant messenger and team collaboration tool based on the [Matrix](https://matrix.org) protocol/network. It skipped a version on F-Droid, updating straight to 0.8.15. This update has a lot of quality improvements under the hood, an updated settings icon and notification logo, the ability to send messages starting with a slash (`/`) and automatically escapes nickname mentions starting with a slash."
-msgstr ""
+msgstr "**[Riot.im](https://f-droid.org/app/im.vector.alpha)** ist ein Instant Messenger und Teamarbeits-Tool, basierend auf dem [Matrix](https://matrix.org)-Protokoll/Netzwerk. Sie übersprang eine Version auf F-Droid und wurde geradewegs auf 0.8.15 aktualisiert. Dieses Update hat unter der Haube eine Reihe von Qualitätsverbesserungen, ein aktualisiertes Einstellungssymbol und Benachrichtigungslogo, die Möglichkeit Nachrichten, die mit einem Schrägstrich (`/`) beginnen, zu versenden und maskiert automatisch Nickname-Erwähnungen, die mit einem Schrägstrich beginnen."
 
 #. type: Title ####
 #: build/_posts/md/2018-09-06-twif-20-security-audit-completed-buildserver-setup-with-ansible.md
@@ -4973,7 +4975,7 @@ msgstr "Anregungen und Rückmeldung"
 #. type: Plain text
 #: build/_posts/md/2018-09-06-twif-20-security-audit-completed-buildserver-setup-with-ansible.md
 msgid "Don't forget to send in your tips! There are way too many app updates to keep track of them all, and we'd love your help to find the important ones. And of course, if you're doing anything involving F-Droid in any way, tell us about it!"
-msgstr "So großartig Changelogs auch sind, nicht vergessen, Tipps einsenden! Es gibt viel zu viele App-Updates, um sie alle im Auge zu behalten, und wir freuen uns sehr über Hilfe, die auf die wichtigsten hinweist. Und natürlich freuen wir uns über alles, was mit F-Droid zu tun hat!"
+msgstr "Vergesst nicht eure Tipps einzusenden! Es gibt viel zu viele App-Updates, um sie alle im Auge zu behalten, und wir freuen uns sehr über Hilfe, um die wichtigsten herauszufinden. Und natürlich freuen wir uns über alles, was mit F-Droid zu tun hat!"
 
 #. type: Plain text
 #: build/_posts/md/2018-09-06-twif-20-security-audit-completed-buildserver-setup-with-ansible.md
@@ -4990,7 +4992,7 @@ msgstr "Ein allgemeines Feedback kann ebenfalls über Mastodon abgegeben werden 
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
 #, no-wrap
 msgid "\"TWIF 21: VMs Donated and Tor Browser goes Android\""
-msgstr ""
+msgstr "\"TWIF 21: VMs spendeten und Tor Browser geht zu Android\""
 
 #. type: Plain text
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
@@ -5004,6 +5006,8 @@ msgid ""
 "In this edition: F-Droid project receives a donation of two VMs, Tor Browser coming to Android, 28 new apps including Emerald Dialer and MiniVector, and 61 app updates including NewPipe and Kwik EFIS & DMAP.\n"
 "<!--more-->\n"
 msgstr ""
+"In dieser Ausgabe: F-Droid-Projekt erhält eine Spende von zwei VMs, Tor Browser kommt auf Android, 28 neue Apps, darin enthalten Emerald Dialer and MiniVector, und 61 App-Updates, inbegriffen NewPipe und Kwik EFIS & DMAP.\n"
+"<!--more-->\n"
 
 #. type: Title ####
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
