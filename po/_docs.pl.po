@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-09-12 15:38+0200\n"
-"PO-Revision-Date: 2018-09-22 07:44+0000\n"
+"PO-Revision-Date: 2018-09-28 21:33+0000\n"
 "Last-Translator: WaldiS <admin@sto.ugu.pl>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/f-droid/website-docs/pl/>\n"
 "Language: pl\n"
@@ -4270,7 +4270,7 @@ msgstr "Czekamy na wszystkie pytania i mamy kilka miejsc, aby dotrzeć do społe
 #. type: Bullet: '-   '
 #: build/_docs/md/FAQ_-_General.md
 msgid "the IRC chat room: [\\#fdroid](irc://irc.freenode.net/fdroid) IRC chatroom on Freenode ([click here to join the webchat](https://webchat.freenode.net/?randomnick=1&channels=%23fdroid&uio=MT1mYWxzZSYyPXRydWUmND10cnVlJjk9dHJ1ZSYxMD10cnVlJjEyPXRydWU84))"
-msgstr ""
+msgstr "czat IRC: [\\#fdroid](irc://irc.freenode.net/fdroid) Czat IRC na Freenode ([kliknij tutaj, aby dołączyć do webchatu](https://webchat.freenode.net/?randomnick=1&channels=%23fdroid&uio=MT1mYWxzZSYyPXRydWUmND10cnVlJjk9dHJ1ZSYxMD10cnVlJjEyPXRydWU84))"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/FAQ_-_General.md
@@ -4280,22 +4280,22 @@ msgstr "[forum internetowe](https://forum.f-droid.org/)"
 #. type: Bullet: '-   '
 #: build/_docs/md/FAQ_-_General.md
 msgid "[issue tracker](https://gitlab.com/fdroid/fdroidclient/issues) for the Android app itself (aka client)"
-msgstr ""
+msgstr "[lista problemów](https://gitlab.com/fdroid/fdroidclient/issues) dla aplikacji na Androida (jako klienta)"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/FAQ_-_General.md
 msgid "[issue tracker](https://gitlab.com/fdroid/fdroidserver/issues) for the developer tools (aka server)"
-msgstr ""
+msgstr "[lista problemow](https://gitlab.com/fdroid/fdroidserver/issues) dla narzędzi programistycznych (jako serwer)"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/FAQ_-_General.md
 msgid "[issue tracker](https://gitlab.com/fdroid/rfp/issues) for packaging new apps"
-msgstr ""
+msgstr "[lista problemów](https://gitlab.com/fdroid/rfp/issues) do pakowania nowych aplikacji"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/FAQ_-_General.md
 msgid "[issue tracker](https://gitlab.com/fdroid/fdroiddata/issues) for issues with published apps"
-msgstr ""
+msgstr "[lista problemów](https://gitlab.com/fdroid/fdroiddata/issues) w przypadku problemów z opublikowanymi aplikacjami"
 
 #. type: Title ###
 #: build/_docs/md/FAQ_-_General.md
@@ -4352,86 +4352,86 @@ msgstr "Na pasku bocznym strony wyświetlane jest 10 najnowszych aplikacji"
 #. type: Bullet: '-   '
 #: build/_docs/md/FAQ_-_General.md
 msgid "In the client, the \"What's New\" category shows all apps added in the last 14 days (the number can be changed in settings)"
-msgstr ""
+msgstr "W kliencie kategoria \"Co nowego\" pokazuje wszystkie aplikacje dodane w ciągu ostatnich 14 dni (numer można zmienić w ustawieniach)"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/FAQ_-_General.md
 msgid "If you don't mind a detailed and potentially noisy stream of information that also includes updates and other changes, you could subscribe to [this feed](https://gitlab.com/fdroid/fdroiddata/commits/master.atom)"
-msgstr ""
+msgstr "Jeśli nie masz nic przeciwko szczegółowemu i potencjalnie hałaśliwemu strumieniowi informacji, który obejmuje również aktualizacje i inne zmiany, możesz zasubskrybować [ten plik danych](https://gitlab.com/fdroid/fdroiddata/commits/master.atom)"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_General.md
 msgid "We don't yet have a dedicated and user-friendly feed you can subscribe to for new additions, but we welcome contributions to make this work better."
-msgstr ""
+msgstr "Nie mamy jeszcze dedykowanego i przyjaznego dla użytkownika kanału, który możesz subskrybować dla nowych dodatków, ale z przyjemnością przyjmiemy uwagi, które sprawią, że będzie działać lepiej."
 
 #. type: Title ###
 #: build/_docs/md/FAQ_-_General.md
 #, no-wrap
 msgid "What's the difference between source and binary builds?"
-msgstr ""
+msgstr "Jaka jest różnica między wersjami źródłowymi a binarnymi?"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_General.md
 msgid "In the client, each package for an app is labelled either 'source' or 'bin'. These correspond to two different messages you'll see for the same package when browsing the repository on the web site, either \"This version is built and signed by F-Droid, and guaranteed to correspond to the source tarball below\" or \"This version is built and signed by the original developer.\""
-msgstr ""
+msgstr "W kliencie każdy pakiet aplikacji ma etykietę 'źródło' lub 'bin'. Odpowiadają one dwóm różnym wiadomościom, które zobaczysz podczas przeglądania repozytorium na stronie internetowej: \"Ta wersja jest zbudowana i podpisana przez F-Droida i gwarantuje zgodność z archiwum źródłowym poniżej\" lub \"Ta wersja jest zbudowana i podpisana przez pierwotnego programistę.\""
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_General.md
 msgid "Most packages are source builds. Those that are binaries are usually that way for technical or historical reasons. Ideally everything in the F-Droid repo would be a source build."
-msgstr ""
+msgstr "Większość pakietów to kompilacje źródłowe. Te, które są plikami binarnymi, są zwykle takie ze względów technicznych lub historycznych. Idealnie byłoby, gdyby wszystko w repozytorium F-Droid było kompilacją źródłową."
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_General.md
 msgid "Source builds are built and signed securely by F-Droid, and are accompanied on the web site by a complete and corresponding copy of the exact source code we built it with. It may include some prebuilt libraries and you may need to download some external libraries, but as long as those libraries are still on the internet, you should be able to build an exact copy."
-msgstr ""
+msgstr "Źródłowe kompilacje są budowane i podpisywane bezpiecznie przez F-Droid, a towarzyszy im strona internetowa z kompletną i odpowiadającą kopią dokładnego kodu źródłowego, z którego ją zbudowaliśmy. Może zawierać niektóre wstępnie zbudowane biblioteki i może być konieczne pobranie niektórych bibliotek zewnętrznych, ale dopóki te biblioteki są nadal w Internecie, powinieneś być w stanie zbudować dokładną kopię."
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_General.md
 msgid "Binary packages are built and signed by the developer. We get them from public sources that the developer makes available directly, and never from third party sources."
-msgstr ""
+msgstr "Pakiety binarne są budowane i podpisywane przez programistę. Dostajemy je ze źródeł publicznych, które programista udostępnia bezpośrednio, nigdy ze źródeł zewnętrznych."
 
 #. type: Title ###
 #: build/_docs/md/FAQ_-_General.md
 #, no-wrap
 msgid "Is your building and signing process secure?"
-msgstr ""
+msgstr "Czy proces budowania i podpisywania jest bezpieczny?"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_General.md
 msgid "The building and signing is done in an secure **offline** (i.e.  inaccessible from the internet) environment. Every package is built in a completely fresh isolated virtual machine environment which is discarded once the build is complete. Additionally, that build environment is completely separated from the signing environment."
-msgstr ""
+msgstr "Budynek i podpisywanie odbywa się w bezpiecznym środowisku **offline** (tj. niedostępnym w Internecie). Każdy pakiet jest zbudowany w całkowicie świeżym izolowanym środowisku maszyny wirtualnej, które jest odrzucane po ukończeniu kompilacji. Dodatkowo to środowisko kompilacji jest całkowicie oddzielone od środowiska podpisywania."
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_General.md
 msgid "So yes, as far as we know, it's secure. However, as with everything else on the site, bear in mind this is a small community project which you are warned to use at your own risk. As with apps you get from elsewhere, including Google Play, you should exercise caution regarding the permissions they request when you install them. If in doubt, don't install."
-msgstr ""
+msgstr "Więc tak, o ile nam wiadomo, jest bezpieczny. Jednakże, tak jak w przypadku wszystkich innych elementów na stronie, należy pamiętać, że jest to mały projekt społecznościowy, do którego przestrzegania użytkownik jest ostrzeżony, na własne ryzyko. Podobnie jak w przypadku aplikacji otrzymywanych z innych źródeł, w tym Google Play, należy zachować ostrożność w odniesieniu do uprawnień, które żądają podczas ich instalowania. W razie wątpliwości nie instaluj."
 
 #. type: Title ###
 #: build/_docs/md/FAQ_-_General.md
 #, no-wrap
 msgid "Why isn't F-Droid on Google Play?"
-msgstr ""
+msgstr "Dlaczego F-Droid nie jest w Google Play?"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_General.md
 msgid "Pick your favourite reason (both are true and valid):"
-msgstr ""
+msgstr "Wybierz swój ulubiony argument (oba są prawdziwe i prawidłowe):"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/FAQ_-_General.md
 msgid "We don't use proprietary software: Google Play is proprietary software;"
-msgstr ""
+msgstr "Nie korzystamy z oprogramowania własnościowego: Google Play jest oprogramowaniem zastrzeżonym;"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/FAQ_-_General.md
 msgid "F-Droid, as an app that \"competes\" with Google Play, is against their [Terms of Service](http://play.google.com/about/developer-distribution-agreement.html#non-compete)."
-msgstr ""
+msgstr "F-Droid, jako aplikacja, która \"konkuruje\" z Google Play, jest niezgodna z ich [Warunki korzystania z usługi](http://play.google.com/about/developer-distribution-agreement.html#non-compete)."
 
 #. type: Title ###
 #: build/_docs/md/FAQ_-_General.md
 #, no-wrap
 msgid "How can I report bugs or request features?"
-msgstr ""
+msgstr "Jak zgłosić błędy lub prośby o funkcje?"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_General.md
@@ -4441,24 +4441,24 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/FAQ_-_General.md
 msgid "If you do not already have an account, or do not want to create one, you can use our reusable account.  The issue tracker works better if reporters use an account that will receive notifications.  Issue reports are usually a conversation, not just a single report."
-msgstr ""
+msgstr "Jeśli nie masz jeszcze konta lub nie chcesz go utworzyć, możesz użyć naszego konta wielokrotnego użytku. Narzędzie do śledzenia problemów działa lepiej, jeśli reporterzy używają konta, które będzie otrzymywać powiadomienia. Raporty dotyczące problemów to zazwyczaj rozmowa, a nie tylko pojedynczy raport."
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_General.md
 msgid "That said, the account username is _fdroid-bug-reporter_ and the password is _repository-collection_."
-msgstr ""
+msgstr "Mimo to nazwa użytkownika konta to _fdroid-bug-reporter_, a hasło to _repository-collection_."
 
 #. type: Title #
 #: build/_docs/md/Feeds.md
 #, no-wrap
 msgid "Feeds"
-msgstr ""
+msgstr "Źródła danych"
 
 #. type: Title ###
 #: build/_docs/md/Feeds.md
 #, no-wrap
 msgid "News & Reviews"
-msgstr ""
+msgstr "Wiadomości i recenzje"
 
 #. type: Plain text
 #: build/_docs/md/Feeds.md
@@ -4469,7 +4469,7 @@ msgstr ""
 #: build/_docs/md/Feeds.md
 #, no-wrap
 msgid "Builds"
-msgstr ""
+msgstr "Kompilacje"
 
 #. type: Plain text
 #: build/_docs/md/Feeds.md
@@ -4480,77 +4480,77 @@ msgstr ""
 #: build/_docs/md/Feeds.md build/_docs/md/Repository_Style_Guide.md
 #, no-wrap
 msgid "Source Code"
-msgstr ""
+msgstr "Kod źródłowy"
 
 #. type: Plain text
 #: build/_docs/md/Feeds.md
 msgid "If you have an account on Gitlab you can watch the F-Droid repos, or subscribe to atom feeds for them. A feed including actions from all fdroid repositories is available at <https://gitlab.com/fdroid.atom>."
-msgstr ""
+msgstr "Jeśli posiadasz konto na Gitlabie, możesz oglądać repozytorium F-Droid lub subskrybować kanały atom dla nich. Kanał zawierający akcje ze wszystkich repozytoriów fdroid jest dostępny pod adresem <https://gitlab.com/fdroid.atom>."
 
 #. type: Title ###
 #: build/_docs/md/Feeds.md
 #, no-wrap
 msgid "Forums"
-msgstr ""
+msgstr "Forum"
 
 #. type: Plain text
 #: build/_docs/md/Feeds.md
 msgid "You can subscribe to new [forum](https://forum.f-droid.org/) posts and threads via the following URLs:"
-msgstr ""
+msgstr "Możesz zasubskrybować nowe [forum](https://forum.f-droid.org/) posty i wątki za pośrednictwem następujących adresów URL:"
 
 #. type: Plain text
 #: build/_docs/md/Feeds.md
 msgid "- <https://forum.f-droid.org/posts.rss> - <https://forum.f-droid.org/latest.rss>"
-msgstr ""
+msgstr "- <https://forum.f-droid.org/posts.rss> - <https://forum.f-droid.org/latest.rss>"
 
 #. type: Title ###
 #: build/_docs/md/Feeds.md
 #, no-wrap
 msgid "Wiki"
-msgstr ""
+msgstr "Wiki"
 
 #. type: Plain text
 #: build/_docs/md/Feeds.md
 msgid "The human changes to the wiki: <https://f-droid.org/wiki/index.php?title=Special:RecentChanges>"
-msgstr ""
+msgstr "Człowiek zmienia się na wiki: <https://f-droid.org/wiki/index.php?title=Special:RecentChanges>"
 
 #. type: Title ###
 #: build/_docs/md/Feeds.md
 #, no-wrap
 msgid "Bugs and Suggestions"
-msgstr ""
+msgstr "Błędy i sugestie"
 
 #. type: Plain text
 #: build/_docs/md/Feeds.md
 msgid "<https://gitlab.com/fdroid/fdroidclient/issues>, <https://gitlab.com/fdroid/fdroidserver/issues>, <https://gitlab.com/fdroid/fdroiddata/issues>: All expose RSS feeds, and also email notifications if desired."
-msgstr ""
+msgstr "<https://gitlab.com/fdroid/fdroidclient/issues>, <https://gitlab.com/fdroid/fdroidserver/issues>, <https://gitlab.com/fdroid/fdroiddata/issues>: Wszystkie eksponują kanały RSS, a także, w razie potrzeby, powiadomienia e-mail."
 
 #. type: Title ###
 #: build/_docs/md/Feeds.md
 #, no-wrap
 msgid "IRC"
-msgstr ""
+msgstr "IRC"
 
 #. type: Plain text
 #: build/_docs/md/Feeds.md
 msgid "chat.freenode.net #fdroid or #fdroid-dev. The channels are logged at <https://botbot.me/freenode/fdroid/> and <https://botbot.me/freenode/fdroid-dev/>."
-msgstr ""
+msgstr "chat.freenode.net #fdroid lub #fdroid-dev. Kanały są rejestrowane na <https://botbot.me/freenode/fdroid/> i <https://botbot.me/freenode/fdroid-dev/>."
 
 #. type: Title ##
 #: build/_docs/md/Feeds.md
 #, no-wrap
 msgid "OPML import to a feed reader"
-msgstr ""
+msgstr "OPML import do czytnika kanałów"
 
 #. type: Plain text
 #: build/_docs/md/Feeds.md
 msgid "For importing into your favourite news reader, save the following text as feeds.opml and add/remove feeds your are interested in."
-msgstr ""
+msgstr "Aby zaimportować do ulubionego czytnika wiadomości, zapisz następujący tekst jako plik feeds.opml i dodaj/usuń kanały, które Cię interesują."
 
 #. type: Plain text
 #: build/_docs/md/Feeds.md
 msgid "On Android we have [de.shandschuh.sparserss](https://f-droid.org/repository/browse/?fdfilter=de.shandschuh.sparserss&fdid=de.shandschuh.sparserss), [net.fred.feedex](https://f-droid.org/repository/browse/?fdfilter=net.fred.feedex&fdid=net.fred.feedex), [de.danoeh.antennapod](https://f-droid.org/repository/browse/?fdfilter=de.danoeh.antennapod&fdid=de.danoeh.antennapod), [org.ttrssreader](https://f-droid.org/repository/browse/?fdfilter=org.ttrssreader&fdid=org.ttrssreader) (requires a tt-rss server to connect to) and [com.newsblur](https://f-droid.org/repository/browse/?fdfilter=com.newsblur&fdid=com.newsblur) (via newsblur.com). On the desktop you could use the Akregator for KDE, Liferea for Gnome or [http://newsbeuter.org newsbeuter] which is nice if you like working in a terminal."
-msgstr ""
+msgstr "Na Androidzie mamy [de.shandschuh.sparserss](https://f-droid.org/repository/browse/?fdfilter=de.shandschuh.sparserss&fdid=de.shandschuh.sparserss), [net.fred.feedex](https://f-droid.org/repository/browse/?fdfilter=net.fred.feedex&fdid=net.fred.feedex), [de.danoeh.antennapod](https://f-droid.org/repository/browse/?fdfilter=de.danoeh.antennapod&fdid=de.danoeh.antennapod), [org.ttrssreader](https://f-droid.org/repository/browse/?fdfilter=org.ttrssreader&fdid=org.ttrssreader) (requires a tt-rss server to connect to) and [com.newsblur](https://f-droid.org/repository/browse/?fdfilter=com.newsblur&fdid=com.newsblur) (via newsblur.com). Na pulpicie możesz użyć Akregatora dla KDE, Liferea dla Gnome lub [http://newsbeuter.org newsbeuter] co jest miłe, jeśli chcesz pracować w terminalu."
 
 #. type: Plain text
 #: build/_docs/md/Feeds.md
@@ -4577,18 +4577,18 @@ msgstr ""
 #: build/_docs/md/Getting_logcat_messages_after_crash.md
 #, no-wrap
 msgid "Getting logcat messages after crash"
-msgstr ""
+msgstr "Uzyskiwanie komunikatów logcat po awarii"
 
 #. type: Title ###
 #: build/_docs/md/Getting_logcat_messages_after_crash.md
 #, no-wrap
 msgid "What is logcat?"
-msgstr ""
+msgstr "Co to jest logcat?"
 
 #. type: Plain text
 #: build/_docs/md/Getting_logcat_messages_after_crash.md
 msgid "As an app runs, and particularly when it crashes, it sends some information to the Android system to help diagnose what caused the problem. If the F-Droid developers have access to this information, it provides lots of really good information to help find out what went wrong. This is in comparison to a generic error message such as \"F-Droid crashed\"."
-msgstr ""
+msgstr "Ponieważ aplikacja działa, a szczególnie, gdy się zawiesza, wysyła pewne informacje do systemu Android, aby pomóc zdiagnozować przyczynę problemu. Jeśli programiści F-Droid mają dostęp do tych informacji, dostarcza on wiele naprawdę dobrych informacji, aby pomóc ustalić, co poszło nie tak. Jest to w porównaniu z ogólnym komunikatem o błędzie, takim jak \"F-Droid rozbił się\"."
 
 #. type: Plain text
 #: build/_docs/md/Getting_logcat_messages_after_crash.md
