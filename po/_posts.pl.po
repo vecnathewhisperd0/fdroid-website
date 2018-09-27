@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-09-14 17:11+0200\n"
-"PO-Revision-Date: 2018-09-22 07:44+0000\n"
+"PO-Revision-Date: 2018-09-28 21:33+0000\n"
 "Last-Translator: WaldiS <admin@sto.ugu.pl>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/f-droid/website-posts/pl/>\n"
 "Language: pl\n"
@@ -4157,7 +4157,7 @@ msgstr "  Wersja 2.0.4 dodaje obsługę trybu krajobrazu, zgodności z Androidem
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
 msgid "**[LibreTorrent](https://f-droid.org/app/org.proninyaroslav.libretorrent)**, a standalone torrent client for Android, released 1.8, now with RSS manager, Ability to create torrents, scheduling, Android TV support, Android P support, and more."
-msgstr ""
+msgstr "**[LibreTorrent](https://f-droid.org/app/org.proninyaroslav.libretorrent)**, samodzielny klient torrent dla Androida, wydany 1.8, teraz z Menedżerem RSS, Zdolność do tworzenia torrentów, planowanie, obsługa Android TV, Wsparcie Android P i więcej."
 
 #. type: Plain text
 #: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
@@ -4197,7 +4197,7 @@ msgstr "  Nowe zadania to: Dostęp do placu zabaw (publiczny/prywatny), maksymal
 #: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
 #, no-wrap
 msgid "  It contains many more enhanced quests, other enhancements, and bug fixes. See the [changelog](https://github.com/westnordost/StreetComplete/releases/tag/v7.0) for details as this update is huge.\n"
-msgstr ""
+msgstr "  Zawiera wiele ulepszonych zadań, inne ulepszenia i poprawki błędów. Zobacz [dziennik zmian](https://github.com/westnordost/StreetComplete/releases/tag/v7.0) szczegóły, ponieważ ta aktualizacja jest ogromna.\n"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
@@ -4228,7 +4228,7 @@ msgstr "Wyślij wskazówki do **[@fdroidorg@mastodon.technology](https://mastodo
 #: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
 #, no-wrap
 msgid "Dedication"
-msgstr ""
+msgstr "Dedykacja"
 
 #. type: Plain text
 #: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
@@ -4239,7 +4239,7 @@ msgstr ""
 #: build/_posts/md/2018-09-03-replacing-gcm-in-tutanota.md
 #, no-wrap
 msgid "\"How Tutanota replaced Google’s FCM with their own notification system\""
-msgstr ""
+msgstr "\"Jak Tutanota zastępuje Google FCM z ich własny system powiadamiania\""
 
 #. type: Plain text
 #: build/_posts/md/2018-09-03-replacing-gcm-in-tutanota.md
@@ -4249,12 +4249,12 @@ msgstr ""
 #. type: Plain text
 #: build/_posts/md/2018-09-03-replacing-gcm-in-tutanota.md
 msgid "In this special post [Ivan](https://tutanota.com/blog/posts/welcome-ivan) from Tutanota, tells us the story."
-msgstr ""
+msgstr "W tym specjalnym poście [Ivan](https://tutanota.com/blog/posts/welcome-ivan) od Tutanota opowiada nam historię."
 
 #. type: Plain text
 #: build/_posts/md/2018-09-03-replacing-gcm-in-tutanota.md
 msgid "Hi, I'm Ivan and I am developing Tutanota to help build the web of the future where our right to privacy is being respected. I believe that privacy should not be a luxury for the rich and tech-savvy, it should be a basic human right."
-msgstr ""
+msgstr "Cześć, jestem Ivan i pracuję nad Tutanotą, aby pomóc zbudować sieć przyszłości, w której szanowane jest nasze prawo do prywatności. Uważam, że prywatność nie powinna być luksusem dla bogatych i znających się na technologii, powinna być podstawowym prawem człowieka."
 
 #. type: Plain text
 #: build/_posts/md/2018-09-03-replacing-gcm-in-tutanota.md
@@ -4265,18 +4265,18 @@ msgstr ""
 #: build/_posts/md/2018-09-03-replacing-gcm-in-tutanota.md
 #, no-wrap
 msgid "<!--more-->\n"
-msgstr ""
+msgstr "<!--more-->\n"
 
 #. type: Plain text
 #: build/_posts/md/2018-09-03-replacing-gcm-in-tutanota.md
 msgid "FCM is quite convenient to use, over the years Google made changes to Android which made it harder not to use their service for notifications. On the other hand, giving up Google's notification service would free us from requiring our users to have Google Play Services on their phones."
-msgstr ""
+msgstr "FCM jest dość wygodny w użyciu, przez lata Google wprowadzał zmiany w systemie Android, co utrudniło korzystanie z ich usług dla powiadomień. Z drugiej strony rezygnacja z usługi powiadamiania Google uwolniłaby nas od wymogu, aby nasi użytkownicy mieli Usługi Google Play na swoich telefonach."
 
 #. type: Title ####
 #: build/_posts/md/2018-09-03-replacing-gcm-in-tutanota.md
 #, no-wrap
 msgid "The challenge to replace Google’s FCM"
-msgstr ""
+msgstr "Wyzwanie zastąpienia FCM Google"
 
 #. type: Plain text
 #: build/_posts/md/2018-09-03-replacing-gcm-in-tutanota.md
@@ -4286,33 +4286,33 @@ msgstr ""
 #. type: Plain text
 #: build/_posts/md/2018-09-03-replacing-gcm-in-tutanota.md
 msgid "When we started designing our push system, we had several goals in mind:"
-msgstr ""
+msgstr "Kiedy zaczęliśmy projektować nasz system push, mieliśmy na uwadze kilka celów:"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-03-replacing-gcm-in-tutanota.md
 msgid "it must be secure"
-msgstr ""
+msgstr "musi być bezpieczny"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-03-replacing-gcm-in-tutanota.md
 msgid "it must be fast"
-msgstr ""
+msgstr "musi być szybki"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-03-replacing-gcm-in-tutanota.md
 msgid "it must be power-efficient"
-msgstr ""
+msgstr "musi być energooszczędny"
 
 #. type: Plain text
 #: build/_posts/md/2018-09-03-replacing-gcm-in-tutanota.md
 msgid "We’ve made a research on how others (Signal, Wire, Conversations, Riot, Facebook, Mastodon) have been solving similar problems. We had several options in mind, including WebSockets, MQTT, Server Sent Events and HTTP/2 Server Push."
-msgstr ""
+msgstr "Zbadaliśmy, jak inni (Signal, Wire, Conversations, Riot, Facebook, Mastodon) rozwiązują podobne problemy. Mieliśmy na myśli kilka opcji, w tym WebSockets, MQTT, Server Sent Events i HTTP/2 Server Push."
 
 #. type: Title ####
 #: build/_posts/md/2018-09-03-replacing-gcm-in-tutanota.md
 #, no-wrap
 msgid "Replaced FCM with SSE"
-msgstr ""
+msgstr "Zastąpiono FCM SSE"
 
 #. type: Plain text
 #: build/_posts/md/2018-09-03-replacing-gcm-in-tutanota.md
