@@ -101,7 +101,8 @@ and is brought to you by at least the following people:
 * Ivo Ugrina
 * Matthias Weiler
 * Nutchanon Wetchasit
-* Philipp Wollschlegel
+* Philipp Wollschlegel 
+* Noômen Ben Hassin
 
 If your name is missing, it’s a mistake and you should
 [add yourself to the list](https://gitlab.com/fdroid/fdroid-website/blob/master/_pages/about.md)!
