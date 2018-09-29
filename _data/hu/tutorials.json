@@ -11,7 +11,8 @@
     },
     "add_repo": {
         "overview": {
-            "title": "Szerezzen be több tartalmat."
+            "title": "Szerezzen be több tartalmat.",
+            "summary": "Több minden beszerzéséhez adjon egy tárolót az F-Droidhoz. Egy tároló válogatott tartalmak gyűjteménye. Az emberek tárolóit közvetlenül a készítőktől ismerheti meg. A fejlesztők gyakran hivatkozzák a saját F-Droid tárolójukat a weboldalukon. Az oktatók gyakran megosztják a hivatkozásaikat e-mailben, Facebookon vagy Twitteren."
         }
     }
 }
