@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-09-12 15:38+0200\n"
-"PO-Revision-Date: 2018-09-28 21:33+0000\n"
+"PO-Revision-Date: 2018-09-30 03:31+0000\n"
 "Last-Translator: WaldiS <admin@sto.ugu.pl>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/f-droid/website-docs/pl/>\n"
 "Language: pl\n"
@@ -4436,7 +4436,7 @@ msgstr "Jak zgłosić błędy lub prośby o funkcje?"
 #. type: Plain text
 #: build/_docs/md/FAQ_-_General.md
 msgid "Use the [issue tracker](https://gitlab.com/fdroid/fdroidclient/issues)  or email <team@f-droid.org>. You can also discuss them in the [\\#fdroid](irc://irc.freenode.net/fdroid) IRC chatroom on Freenode ([click here to join the webchat](https://webchat.freenode.net/?randomnick=1&channels=%23fdroid&uio=MT1mYWxzZSYyPXRydWUmND10cnVlJjk9dHJ1ZSYxMD10cnVlJjEyPXRydWU84))."
-msgstr ""
+msgstr "Użyj [trackera problemów](https://gitlab.com/fdroid/fdroidclient/issues)  lub email <team@f-droid.org>. Możesz także omówić je na [\\#fdroid](irc://irc.freenode.net/fdroid) Czat IRC na Freenode ([kliknij tutaj, aby dołączyć do webchatu](https://webchat.freenode.net/?randomnick=1&channels=%23fdroid&uio=MT1mYWxzZSYyPXRydWUmND10cnVlJjk9dHJ1ZSYxMD10cnVlJjEyPXRydWU84))."
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_General.md
@@ -4463,7 +4463,7 @@ msgstr "Wiadomości i recenzje"
 #. type: Plain text
 #: build/_docs/md/Feeds.md
 msgid "Sometimes there is a newsworthy item (submissions welcome!) or client release and details get posted on the blog: <https://f-droid.org/news-and-reviews>. In the past we had reviews of apps with screenshots and it would be great to have more; and who knows they might make their way into the client some day!"
-msgstr ""
+msgstr "Czasami pojawia się artykuł warty opublikowania (zgłoszenia mile widziane!) lub informacja o kliencie i szczegóły są publikowane na blogu: <https://f-droid.org/news-and-reviews>. W przeszłości mieliśmy recenzje aplikacji z zrzutami ekranu i byłoby wspaniale mieć więcej; i kto wie, że pewnego dnia dotrą do klienta!"
 
 #. type: Title ###
 #: build/_docs/md/Feeds.md
@@ -4474,7 +4474,7 @@ msgstr "Kompilacje"
 #. type: Plain text
 #: build/_docs/md/Feeds.md
 msgid "Find out exactly when apks are available or when descriptions change: <https://f-droid.org/wiki/api.php?action=feedcontributions&user=Robot>. The status of the most recent build for an app can be obtained by appending /lastbuild to the wiki url of the package. Builds happen a couple of times a day ; a new repo index is only published once all outstanding builds are finished."
-msgstr ""
+msgstr "Dowiedz się dokładnie, kiedy dostępne są apki lub kiedy zmieniają się opisy: <https://f-droid.org/wiki/api.php?action=feedcontributions&user=Robot>. Status najnowszej kompilacji aplikacji można uzyskać, dołączając / lastbuild do url wiki pakietu. Budowy zdarzają się kilka razy dziennie; nowy indeks repozytorium jest publikowany tylko wtedy, gdy wszystkie zaległe kompilacje zostaną ukończone."
 
 #. type: Title ###
 #: build/_docs/md/Feeds.md build/_docs/md/Repository_Style_Guide.md
@@ -4572,6 +4572,21 @@ msgid ""
 "</opml>\n"
 "```\n"
 msgstr ""
+"```xml\n"
+"<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n"
+"<opml version=\"1.0\">\n"
+"  <head>\n"
+"    <title>Kanały związane z F-Droid</title>\n"
+"  </head>\n"
+"  <body>\n"
+"    <outline title=\"F-Droid\">\n"
+"      <outline type=\"rss\" title=\"Wiadomości i recenzje\" xmlUrl=\"https://f-droid.org/feed\" htmlUrl=\"https://f-droid.org/news-and-reviews/\"/>\n"
+"      <outline type=\"rss\" title=\"Zmiany Wiki przez ludzi\" xmlUrl=\"https://f-droid.org/wiki/index.php?title=Special:RecentChanges&amp;feed=atom\" htmlUrl=\"https://f-droid.org/wiki/page/Special:RecentChanges\"/>\n"
+"      <outline type=\"rss\" title=\"Najnowsze kompilacje\" xmlUrl=\"https://f-droid.org/wiki/api.php?action=feedcontributions&amp;user=Robot&amp;feedformat=atom\" htmlUrl=\"https://f-droid.org/wiki/page/Special:Contributions/Robot\"/>\n"
+"    </outline>\n"
+"  </body>\n"
+"</opml>\n"
+"```\n"
 
 #. type: Title #
 #: build/_docs/md/Getting_logcat_messages_after_crash.md
@@ -4593,157 +4608,157 @@ msgstr "Ponieważ aplikacja działa, a szczególnie, gdy się zawiesza, wysyła 
 #. type: Plain text
 #: build/_docs/md/Getting_logcat_messages_after_crash.md
 msgid "Many apps will automatically send crash report to the developer, but F-Droid does not. This is not a technical limitation, but rather a philosophical one. We try to connect to the internet only when necessary to perform what you asked us to: download and install apps. The downside of this is that we require a little bit of help from our users when they tell us about crashes. This article explains how to obtain logcat files, which are the most important pieces of information you can provide to help us investigate and fix any bugs."
-msgstr ""
+msgstr "Wiele aplikacji automatycznie wysyła raport o awariach do programisty, ale F-Droid tego nie robi. Nie jest to ograniczenie techniczne, ale raczej filozoficzne. Staramy łączyć się z Internetem tylko wtedy, gdy jest to konieczne, aby wykonać to, o co prosiłeś: pobieranie i instalowanie aplikacji. Wadą tego jest to, że potrzebujemy odrobiny pomocy od naszych użytkowników, gdy mówią nam o awariach. W tym artykule wyjaśniono, jak uzyskać pliki logcat, które są najważniejszymi informacjami, które możesz podać, aby pomóc nam w badaniu i naprawianiu wszelkich błędów."
 
 #. type: Title ###
 #: build/_docs/md/Getting_logcat_messages_after_crash.md
 #, no-wrap
 msgid "How to find logcat messages"
-msgstr ""
+msgstr "Jak znaleźć komunikaty logcat"
 
 #. type: Plain text
 #: build/_docs/md/Getting_logcat_messages_after_crash.md
 msgid "There are two ways to get a logcat message. The usual way will be to install an app on your device which knows how to access the logcat information. Another way is to install the Android SDK on your computer and get the logcata messages over USB or WiFi."
-msgstr ""
+msgstr "Istnieją dwa sposoby uzyskania komunikatu logcat. Najczęstszym sposobem będzie zainstalowanie aplikacji na urządzeniu, która wie, jak uzyskać dostęp do informacji logcat. Innym sposobem jest zainstalowanie zestawu SDK systemu Android na komputerze i pobranie komunikatów logcata przez USB lub Wi-Fi."
 
 #. type: Title ####
 #: build/_docs/md/Getting_logcat_messages_after_crash.md
 #, no-wrap
 msgid "Using an app on your device"
-msgstr ""
+msgstr "Korzystanie z aplikacji na swoim urządzeniu"
 
 #. type: Plain text
 #: build/_docs/md/Getting_logcat_messages_after_crash.md
 msgid "For those who don't want to install software on their computers in order to get the logcat messages, you can download an app such as:"
-msgstr ""
+msgstr "Dla tych, którzy nie chcą instalować oprogramowania na swoich komputerach w celu uzyskania komunikatów logcat, możesz pobrać aplikację, taką jak:"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Getting_logcat_messages_after_crash.md
 msgid "[aLogCat](https://f-droid.org/packages/org.jtb.alogcat/)"
-msgstr ""
+msgstr "[aLogCat](https://f-droid.org/packages/org.jtb.alogcat/)"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Getting_logcat_messages_after_crash.md
 msgid "[Logcat Reader](https://f-droid.org/packages/com.dp.logcatapp/)"
-msgstr ""
+msgstr "[Czytnik Logcat](https://f-droid.org/packages/com.dp.logcatapp/)"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Getting_logcat_messages_after_crash.md
 msgid "[Logs](https://f-droid.org/packages/com.tananaev.logcat/)"
-msgstr ""
+msgstr "[Logi](https://f-droid.org/packages/com.tananaev.logcat/)"
 
 #. type: Plain text
 #: build/_docs/md/Getting_logcat_messages_after_crash.md
 msgid "The general idea is to open the app, ask it to start recording logcat messages, and then try and cause F-Droid to crash. Once it crashes, the logcat app will save the error messages. These messages can then be copied and pasted in the [F-Droid issue tracker](https://gitlab.com/fdroid/fdroidclient/issues)."
-msgstr ""
+msgstr "Generalnie chodzi o to, aby otworzyć aplikację, poprosić o rozpoczęcie nagrywania komunikatów logcat, a następnie spróbować spowodować awarię F-Droida. Po awarii, aplikacja logcat zapisze komunikaty o błędach. Wiadomości te można następnie kopiować i wklejać w [narzędziu do śledzenia problemów F-Droid](https://gitlab.com/fdroid/fdroidclient/issues)."
 
 #. type: Title ####
 #: build/_docs/md/Getting_logcat_messages_after_crash.md
 #, no-wrap
 msgid "Using the Android SDK"
-msgstr ""
+msgstr "Korzystanie z zestawu Android SDK"
 
 #. type: Plain text
 #: build/_docs/md/Getting_logcat_messages_after_crash.md
 msgid "If you have the [Android SDK](https://developer.android.com/sdk/index.html) installed on your computer, then you will be able to use the [adb](https://developer.android.com/tools/help/adb.html) (command line) or [DDMS](https://developer.android.com/tools/debugging/ddms.html) (graphical app) tools when your phone is plugged in via USB and has “Debugging” enabled from the Android settings."
-msgstr ""
+msgstr "Jeśli masz na swoim komputerze [Android SDK](https://developer.android.com/sdk/index.html), będziesz mógł korzystać z [adb](https://developer.android.com/tools/help/adb.html) (wiersz poleceń) lub [DDMS] (https://developer.android.com/tools/debugging/ddms.html) (aplikacja graficzna) narzędzi, gdy telefon jest podłączony przez USB i włączono \"Debugowanie\" w ustawieniach Androida."
 
 #. type: Plain text
 #: build/_docs/md/Getting_logcat_messages_after_crash.md
 msgid "Once you have the SDK installed, and are able to use the adb tool, then run the following command:"
-msgstr ""
+msgstr "Po zainstalowaniu zestawu SDK i użyciu narzędzia adb uruchom następującą komendę:"
 
 #. type: Plain text
 #: build/_docs/md/Getting_logcat_messages_after_crash.md
 #, no-wrap
 msgid "    adb logcat\n"
-msgstr ""
+msgstr "    adb logcat\n"
 
 #. type: Plain text
 #: build/_docs/md/Getting_logcat_messages_after_crash.md
 msgid "Depending on how many apps you have installed/running, it might be a little bit noisy. If you don't want to post all of that noise online (there is a slight chance that it contains information you don't want on the internet - if apps are logging private information to the log), then you can filter to only error messages with:"
-msgstr ""
+msgstr "W zależności od tego, ile zainstalowanych/uruchomionych aplikacji może być trochę głośno. Jeśli nie chcesz publikować całego tego hałasu online (istnieje niewielka szansa, że zawiera on informacje, których nie chcesz w Internecie - jeśli aplikacje logują prywatne informacje do dziennika), możesz filtrować tylko do błędu wiadomości z:"
 
 #. type: Plain text
 #: build/_docs/md/Getting_logcat_messages_after_crash.md
 #, no-wrap
 msgid "    adb logcat *:E\n"
-msgstr ""
+msgstr "    adb logcat *:E\n"
 
 #. type: Plain text
 #: build/_docs/md/Getting_logcat_messages_after_crash.md
 msgid "This information can then be posted to a GitLab issue to help developers diagnose the issue. When posting to GitLab, surround the log in three backticks (```) before, and three backticks after to format it correctly."
-msgstr ""
+msgstr "Informacje te można następnie opublikować w wydaniu GitLab, aby ułatwić programistom zdiagnozowanie problemu. Kiedy publikujesz na GitLab, okrąż dziennik trzema backtickami (```) przed i trzema backtickami po, aby sformatować poprawnie."
 
 #. type: Title #
 #: build/_docs/md/How_to_Help.md
 #, no-wrap
 msgid "How to Help"
-msgstr ""
+msgstr "Jak pomóc"
 
 #. type: Plain text
 #: build/_docs/md/How_to_Help.md
 msgid "The project is entirely developed and maintained by volunteers. You can help in the following ways:"
-msgstr ""
+msgstr "Projekt jest całkowicie opracowany i utrzymywany przez wolontariuszy. Możesz pomóc na następujące sposoby:"
 
 #. type: Title ###
 #: build/_docs/md/How_to_Help.md
 #, no-wrap
 msgid "Follow our work"
-msgstr ""
+msgstr "Obserwuj naszą pracę"
 
 #. type: Plain text
 #: build/_docs/md/How_to_Help.md
 msgid "The [Feeds](../Feeds) page lists the various sites that we work on."
-msgstr ""
+msgstr "Strona [Kanały](../Feeds) zawiera listę różnych stron, nad którymi pracujemy."
 
 #. type: Title ###
 #: build/_docs/md/How_to_Help.md
 #, no-wrap
 msgid "Report problems"
-msgstr ""
+msgstr "Zgłoś problemy"
 
 #. type: Plain text
 #: build/_docs/md/How_to_Help.md
 msgid "If you experience problems with the site or client software, you can report them in the [issue tracker](https://gitlab.com/u/fdroid), discuss them in the [Forum](https://forum.f-droid.org/) or on IRC ([#fdroid on freenode](https://webchat.freenode.net/?randomnick=1&channels=%23fdroid&uio=MT1mYWxzZSYyPXRydWUmND10cnVlJjk9dHJ1ZSYxMD10cnVlJjEyPXRydWU84)).  Take a look at the [Repository Maintenance](https://f-droid.org/wiki/page/Repository_Maintenance)  page to see how you can help keeping apps and their metadata up to date."
-msgstr ""
+msgstr "W przypadku problemów z oprogramowaniem witryny lub klienta możesz zgłosić je w [trackerze problemów](https://gitlab.com/u/fdroid), omówić je na [Forum](https://forum.f-droid.org/) lub na czacie IRC ([#fdroid on freenode](https://webchat.freenode.net/?randomnick=1&channels=%23fdroid&uio=MT1mYWxzZSYyPXRydWUmND10cnVlJjk9dHJ1ZSYxMD10cnVlJjEyPXRydWU84)).  Spójrz na [Utrzymanie Repozytorium](https://f-droid.org/wiki/page/Repository_Maintenance)  stronę, aby zobaczyć, jak możesz pomóc w aktualizowaniu aplikacji i ich metadanych."
 
 #. type: Plain text
 #: build/_docs/md/How_to_Help.md
 msgid "If you are reporting an issue with the client, [check out these pointers](../Client_Bug_Reports) to make sure we have the best chance of reproducing and fixing your issue."
-msgstr ""
+msgstr "Jeśli zgłaszasz problem z klientem, [sprawdź te wskaźniki](../Client_Bug_Reports), upewnij się, że mamy największą szansę na odtworzenie i naprawienie Twojego problemu."
 
 #. type: Title ###
 #: build/_docs/md/How_to_Help.md
 #, no-wrap
 msgid "Submit applications"
-msgstr ""
+msgstr "Prześlij aplikacje"
 
 #. type: Plain text
 #: build/_docs/md/How_to_Help.md
 msgid "If you see an application missing from the repository that fits with the [Inclusion Policy](../Inclusion_Policy)), then [you can add that application](../Submitting_to_F-Droid_Quick_Start_Guide)  via a merge request.  Otherwise, to make a simple request, go to the dedicated [Requests for Packaging](https://gitlab.com/fdroid/rfp/issues)  tracker."
-msgstr ""
+msgstr "Jeśli w repozytorium brakuje aplikacji, która pasuje do [Zasady włączenia](../Inclusion_Policy)), następnie [możesz dodać tę aplikację](../Submitting_to_F-Droid_Quick_Start_Guide)  za pośrednictwem żądania scalenia. W przeciwnym razie, aby złożyć prostą prośbę, przejdź do dedykowanego trackera [Wnioski o opakowanie](https://gitlab.com/fdroid/rfp/issues)."
 
 #. type: Plain text
 #: build/_docs/md/How_to_Help.md
 msgid "Metadata may already be found there but it can always be improved. Often developers don't mark their releases well: you can ask them to use tags via an issue on their tracker, which will allow us to use an automatic check for new versions (and you can suggest a donation method while you're about it!). Another common task is the comparison of included libraries with official versions."
-msgstr ""
+msgstr "Metadane mogą już tam być, ale zawsze można je poprawić. Często programiści nie zaznaczają swoich wydań zbyt dobrze: możesz poprosić ich o korzystanie z tagów za pośrednictwem problemu na ich trackerze, co pozwoli nam na automatyczne sprawdzenie nowych wersji (możesz zaproponować metodę darowizny, gdy będziesz o tym mówić!). Innym częstym zadaniem jest porównywanie dołączonych bibliotek z oficjalnymi wersjami."
 
 #. type: Plain text
 #: build/_docs/md/How_to_Help.md
 msgid "If you have the technical skills required, you can also put together the relevant metadata and submit a merge request to the git repository, which should speed up the inclusion of the application. See the [sticky thread](https://f-droid.org/forums/topic/adding-apps-with-git/)  at the top of that forum for more information."
-msgstr ""
+msgstr "Jeśli posiadasz wymagane umiejętności techniczne, możesz także połączyć odpowiednie metadane i przesłać prośbę o scalenie do repozytorium git, co powinno przyspieszyć włączenie aplikacji. Aby uzyskać więcej informacji, zobacz [lepki wątek](https://f-droid.org/forums/topic/adding-apps-with-git/)   na górze tego forum."
 
 #. type: Title ###
 #: build/_docs/md/How_to_Help.md
 #, no-wrap
 msgid "Update apps"
-msgstr ""
+msgstr "Aktualizacja aplikacji"
 
 #. type: Plain text
 #: build/_docs/md/How_to_Help.md
 msgid "The procedure for updating apps is similar to adding new apps: changes are applied to the metadata in the fdroiddata git repository. You'll need to already be familiar with adding new apps. Even though it should take much less time to update an app one should still be cautious.  Follow the steps in the [update guide](../How_to_update_an_app)  to minimize the risk of messing up and don't be afraid to ask for help!"
-msgstr ""
+msgstr "Procedura aktualizacji aplikacji jest podobna do dodawania nowych aplikacji: zmiany są stosowane do metadanych w repozytorium git fdroiddata. Musisz już zaznajomić się z dodawaniem nowych aplikacji. Mimo że zaktualizowanie aplikacji powinno zająć znacznie mniej czasu, nadal należy zachować ostrożność. Postępuj zgodnie z instrukcjami w [przewodnik aktualizacji](../How_to_update_an_app), aby zminimalizować ryzyko zepsucia i nie bój się poprosić o pomoc!"
 
 #. type: Title ###
 #: build/_docs/md/How_to_Help.md
@@ -4754,48 +4769,48 @@ msgstr "Przetłumacz"
 #. type: Plain text
 #: build/_docs/md/How_to_Help.md
 msgid "The client application is available in many languages, but if yours is not included, or if it needs updating or improving, follow [these instructions](https://hosted.weblate.org/engage/f-droid/)."
-msgstr ""
+msgstr "Aplikacja kliencka jest dostępna w wielu językach, ale jeśli twoja nie jest dołączona lub wymaga aktualizacji lub ulepszenia, postępuj zgodnie z [tymi instrukcjami](https://hosted.weblate.org/engage/f-droid/)."
 
 #. type: Plain text
 #: build/_docs/md/How_to_Help.md
 msgid "The web site, this wiki , and app descriptions are not covered yet, but will be included in the same system at a later date."
-msgstr ""
+msgstr "Strona internetowa, to wiki i opisy aplikacji nie są jeszcze objęte, ale zostaną włączone do tego samego systemu w późniejszym terminie."
 
 #. type: Plain text
 #: build/_docs/md/How_to_Help.md
 msgid "There's a [dedicated forum section](https://forum.f-droid.org/c/translation)  for discussions about translation."
-msgstr ""
+msgstr "Istnieje [dedykowana sekcja forum](https://forum.f-droid.org/c/translation) do dyskusji na temat tłumaczenia."
 
 #. type: Title ###
 #: build/_docs/md/How_to_Help.md
 #, no-wrap
 msgid "Help with development"
-msgstr ""
+msgstr "Pomoc w rozwoju"
 
 #. type: Plain text
 #: build/_docs/md/How_to_Help.md
 msgid "There are three git repositories hosted at Gitlab, as follows:"
-msgstr ""
+msgstr "Istnieją trzy repozytoria git hostowane na Gitlab, w następujący sposób:"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/How_to_Help.md
 msgid "Android client application - <https://gitlab.com/fdroid/fdroidclient> Issues suitable for new contributors are tagged [help-wanted](https://gitlab.com/fdroid/fdroidclient/issues?label_name=help-wanted)"
-msgstr ""
+msgstr "Aplikacja kliencka na Androida - <https://gitlab.com/fdroid/fdroidclient> Zagadnienia odpowiednie dla nowych współpracowników są oznaczane tagami [potrzebna pomoc](https://gitlab.com/fdroid/fdroidclient/issues?label_name=help-wanted)"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/How_to_Help.md
 msgid "Server tools, for the tools for running a repository and building/installing applications locally - <https://gitlab.com/fdroid/fdroidserver>"
-msgstr ""
+msgstr "Narzędzia serwera, dla narzędzi do uruchomienia repozytorium i budowania/instalowania aplikacji lokalnie - <https://gitlab.com/fdroid/fdroidserver>"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/How_to_Help.md
 msgid "Metadata files for applications in the main F-Droid repository - <https://gitlab.com/fdroid/fdroiddata>"
-msgstr ""
+msgstr "Pliki metadanych dla aplikacji w głównym repozytorium F-Droid - <https://gitlab.com/fdroid/fdroiddata>"
 
 #. type: Plain text
 #: build/_docs/md/How_to_Help.md
 msgid "The easiest way to contribute to development is to make clones of these projects and submit merge requests. If you are making large changes, it would be good to discuss them on IRC or in the forum first, to ensure they fit with the direction of the project, and do not clash with or duplicate work already in development."
-msgstr ""
+msgstr "Najłatwiejszym sposobem przyczynienia się do rozwoju jest tworzenie klonów tych projektów i przesyłanie żądań scalenia. Jeśli robisz duże zmiany, dobrze byłoby przedyskutować je na czacie IRC lub na forum, aby upewnić się, że pasują one do kierunku projektu i nie kolidują z duplikatem pracy już opracowanej."
 
 #. type: Plain text
 #: build/_docs/md/How_to_Help.md
