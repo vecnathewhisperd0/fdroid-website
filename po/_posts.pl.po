@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-09-14 17:11+0200\n"
-"PO-Revision-Date: 2018-09-28 21:33+0000\n"
+"PO-Revision-Date: 2018-09-30 03:31+0000\n"
 "Last-Translator: WaldiS <admin@sto.ugu.pl>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/f-droid/website-posts/pl/>\n"
 "Language: pl\n"
@@ -4147,6 +4147,11 @@ msgid ""
 "  * Fully open source\n"
 "  * No tracking\n"
 msgstr ""
+"* {{ page.featured }} Musisz użyć **Untis** do swojego rozkładu jazdy, ponieważ szkoła nie oferuje niczego innego? Dbasz o prywatność i nie chcesz korzystać z oficjalnego zastrzeżonego klienta mobilnego? Teraz możesz uzyskać **[OpenUntis](https://f-droid.org/app/de.perflyst.untis)** z F-Droid.\n"
+"  * Te same funkcje, co oficjalna aplikacja\n"
+"  * Dodatkowe opcje dostosowywania\n"
+"  * Całkowicie otwarte źródło\n"
+"  * Bez śledzenia\n"
 
 #. type: Plain text
 #: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
@@ -4171,11 +4176,18 @@ msgid ""
 "  * View avatars fullscreen\n"
 "  * Several other new features, improvements, and bugfixes\n"
 msgstr ""
+"* {{ page.featured }} **[Tusky](https://f-droid.org/app/com.keylesspalace.tusky)** 3.0 w końcu dotarł do F-Droida! Twój ulubiony klient sieci społecznościowej Mastodon oferuje teraz:\n"
+"  * Nowa sztuka słonia\n"
+"  * Nowy czarny motyw/AMOLED\n"
+"  * Widok obrazów, które mają opis na stronie tworzenia wiadomości\n"
+"  * Edytowalne pola kont\n"
+"  * Widok awatarów w trybie pełnoekranowym\n"
+"  * Kilka innych nowych funkcji, ulepszeń i poprawek błędów\n"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
 msgid "**[Orgzly](https://f-droid.org/app/com.orgzly)** is a hierarchical note-taking app and task manager in **[org-mode](http://orgmode.org/) format**. Version 1.6.9 can be installed on external storage, lets you add quick notes from an ongoing notification, supports checkboxes in the notebook's preface, and more, for which you can see the [nice color-coded changelog](http://www.orgzly.com/changelog#v1.6.9)."
-msgstr ""
+msgstr "**[Orgzly](https://f-droid.org/app/com.orgzly)** to hierarchiczna aplikacja do robienia notatek i menedżer zadań w formacie **[tryb org](http://orgmode.org/)**. Wersja 1.6.9 może być zainstalowana w pamięci zewnętrznej, umożliwia dodawanie szybkich notatek z bieżącego powiadomienia, obsługuje pola wyboru w przedmowie notebooka i wiele więcej, dla których można zobaczyć [ładny kolorowy dziennik zmian](http://www.orgzly.com/changelog#v1.6.9)."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
@@ -4185,7 +4197,7 @@ msgstr "**[Contacts](https://f-droid.org/app/com.simplemobiletools.contacts)** t
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
 msgid "**[StreetComplete](https://f-droid.org/app/de.westnordost.streetcomplete)** allows people with zero mapping experience to improve [OpenStreetMap](https://www.openstreetmap.org) on the go, by asking them simple questions. This major update from 6.1 to 7.1 actually removes some features, disabling support for putting photos into notes as the `framapic.org` service has discontinued until further notice. You should also expect hiccups and/or old maps being displayed in the coming week as the tileserver goes into maintenance and tiles from nextzen are displayed instead."
-msgstr ""
+msgstr "**[StreetComplete](https://f-droid.org/app/de.westnordost.streetcomplete)** pozwala osobom z zerowym doświadczeniem mapowym ulepszyć [OpenStreetMap](https://www.openstreetmap.org) w drodze, zadając im proste pytania. Ta ważna aktualizacja z wersji 6.1 do 7.1 w rzeczywistości usuwa niektóre funkcje, wyłączając obsługę umieszczania zdjęć w notatkach, ponieważ usługa 'framapic.org' została przerwana do odwołania. Powinieneś również oczekiwać czkawki, że i/lub stare mapy będą wyświetlane w nadchodzącym tygodniu, gdy serwer tileserver przejdzie w tryb konserwacji, a zamiast tego pojawią się kafelki z nextzen."
 
 #. type: Plain text
 #: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
@@ -4202,22 +4214,22 @@ msgstr "  Zawiera wiele ulepszonych zadań, inne ulepszenia i poprawki błędów
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
 msgid "{{ page.featured }} **[Rabbit Escape](https://f-droid.org/app/net.artificialworlds.rabbitescape)** is a puzzle/action game inspired by Lemmings. Version 0.11 adds a whole 20 new levels in a new level set called Rabbots! Also contains lots of bug fixes and a few little extras."
-msgstr ""
+msgstr "{{ page.featured }} **[Rabbit Escape](https://f-droid.org/app/net.artificialworlds.rabbitescape)** to łamigłówka/gra akcji inspirowana Lemmings. Wersja 0.11 dodaje całe 20 nowych poziomów w nowym zestawie poziomów o nazwie Rabbots! Zawiera również wiele poprawek i kilka małych dodatków."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
 msgid "**[BwareArea](https://f-droid.org/app/fr.byped.bwarearea)** is designed to warn you when you approach some point of interest or dangerous area. In 0.6.5, all known reported bugs should have been fixed. This version also adds support for importing GPX files."
-msgstr ""
+msgstr "**[BwareArea](https://f-droid.org/app/fr.byped.bwarearea)** ma na celu ostrzec cię, gdy zbliżasz się do jakiegoś punktu zainteresowania lub niebezpiecznego obszaru. W wersji 0.6.5 wszystkie znane zgłoszone błędy powinny zostać naprawione. Ta wersja dodaje również obsługę importowania plików GPX."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
 msgid "**[Mastalab](https://f-droid.org/app/fr.gouv.etalab.mastodon)** 1.10.5 adds basic support for viewing other instances' local timelines, allows to delete tags with a long-press on the tab, allows to translate your messages before sending them, and some bug fixes."
-msgstr ""
+msgstr "**[Mastalab](https://f-droid.org/app/fr.gouv.etalab.mastodon)** 1.10.5 dodaje podstawowe wsparcie dla przeglądania lokalnych linii czasu innych instancji, pozwala usuwać znaczniki za pomocą długiego naciśnięcia na karcie, umożliwia tłumaczenie twoich wiadomości przed ich wysłaniem oraz kilka poprawek."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
 msgid "**[Revolution IRC](https://f-droid.org/app/io.mrarm.irc)** is the next-generation IRC client for Android. This update to 0.4.1 adds a per-server encoding setting, a new word selection mode, automatic message splitting, `irc://` link handling, and many more improvements and fixes. Also of note are DCC download/upload support (with UPnP), and the channel topic is now saved and deduplicated."
-msgstr ""
+msgstr "**[Revolution IRC](https://f-droid.org/app/io.mrarm.irc)** to klient IRC następnej generacji dla systemu Android. Ta aktualizacja do wersji 0.4.1 dodaje ustawienie kodowania na serwerze, tryb nowego wyboru słów, automatyczne dzielenie wiadomości, obsługę połączeń `irc://` oraz wiele innych ulepszeń i poprawek. Na uwagę zasługuje również obsługa pobierania/wysyłania DCC (z UPnP), a temat kanału jest teraz zapisywany i deduplikowany."
 
 #. type: Plain text
 #: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
@@ -4233,7 +4245,7 @@ msgstr "Dedykacja"
 #. type: Plain text
 #: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
 msgid "Thanks to **[@blendergeek](https://forum.f-droid.org/u/blendergeek)** for doing a great job in my absence! You might see more of him in the future, so stay tuned!"
-msgstr ""
+msgstr "Podziękowania dla **[@blendergeek](https://forum.f-droid.org/u/blendergeek)** za świetną robotę podczas mojej nieobecności! Możesz go zobaczyć więcej w przyszłości, więc bądź czujny!"
 
 #. type: Title #
 #: build/_posts/md/2018-09-03-replacing-gcm-in-tutanota.md
@@ -4244,7 +4256,7 @@ msgstr "\"Jak Tutanota zastępuje Google FCM z ich własny system powiadamiania\
 #. type: Plain text
 #: build/_posts/md/2018-09-03-replacing-gcm-in-tutanota.md
 msgid "As mentioned in [This Week In F-Droid 17](https://f-droid.org/en/2018/08/16/twif-17-the-reproducible-builds-and-encrypted-e-mail-edition.html), Tutanota is now on F-Droid."
-msgstr ""
+msgstr "Jak wspomniano w [W tym tygodniu w F-Droid 17](https://f-droid.org/en/2018/08/16/twif-17-the-reproducible-builds-and-encrypted-e-mail-edition.html), Tutanota jest teraz na F-Droid."
 
 #. type: Plain text
 #: build/_posts/md/2018-09-03-replacing-gcm-in-tutanota.md
@@ -4259,7 +4271,7 @@ msgstr "Cześć, jestem Ivan i pracuję nad Tutanotą, aby pomóc zbudować sie�
 #. type: Plain text
 #: build/_posts/md/2018-09-03-replacing-gcm-in-tutanota.md
 msgid "GCM (or, how it’s called now, FCM, Firebase Cloud Messaging) is a service owned by Google. We at [Tutanota](https://tutanota.com/) used FCM for our old Android app. Unfortunately, FCM includes Google's tracking code for analytics purposes, which we didn’t want to use. And, even more important: For being able to use FCM, you have to send all your notification data to Google. You also have to use their proprietary libraries. Because of the privacy and security concerns that naturally go along with this, we did not send any info in the notification messages with the old app (which, understandably, led to complaints by our users). Therefore, the push notification in the old app only mentioned that you received a new message without any reference to the email itself or to the mailbox the message has been placed in."
-msgstr ""
+msgstr "GCM (lub, jak to się nazywa teraz, FCM, Firebase Cloud Messaging) to usługa należąca do Google. W [Tutanota](https://tutanota.com/) używaliśmy FCM dla naszej starej aplikacji na Androida. Niestety FCM zawiera kod śledzenia Google do celów analitycznych, którego nie chcieliśmy używać. I jeszcze ważniejsze: aby móc korzystać z FCM, musisz wysłać wszystkie swoje dane z powiadomień do Google. Musisz także korzystać z ich własnych bibliotek. Ze względu na kwestie związane z prywatnością i bezpieczeństwem, które w naturalny sposób zgadzają się z tym, nie wysyłaliśmy żadnych informacji w powiadomieniach ze starą aplikacją (co zrozumiałe, doprowadziło do skarg naszych użytkowników). Dlatego powiadomienie push w starej aplikacji wspomniało tylko, że otrzymałeś nową wiadomość bez żadnego odniesienia do samej wiadomości e-mail lub do skrzynki pocztowej, w której wiadomość została umieszczona."
 
 #. type: Plain text
 #: build/_posts/md/2018-09-03-replacing-gcm-in-tutanota.md
@@ -4281,7 +4293,7 @@ msgstr "Wyzwanie zastąpienia FCM Google"
 #. type: Plain text
 #: build/_posts/md/2018-09-03-replacing-gcm-in-tutanota.md
 msgid "The Tutanota apps are Libre software, and we wanted to [publish our Android app on F-Droid](https://tutanota.com/blog/posts/open-source-email). We wanted our users to be able to use Tutanota on every ROM and every device, without the control of a third-party like Google. We decided to take on the challenge and to build our own push notification service."
-msgstr ""
+msgstr "Aplikacje Tutanota są oprogramowaniem Libre i chcieliśmy [opublikować naszą aplikację na Androida na F-Droid](https://tutanota.com/blog/posts/open-source-email). Chcieliśmy, aby nasi użytkownicy mogli korzystać z Tutanoty na każdym ROMie i każdym urządzeniu, bez kontroli jakiejkolwiek strony trzeciej, takiej jak Google. Postanowiliśmy podjąć wyzwanie i zbudować własną usługę powiadamiania push."
 
 #. type: Plain text
 #: build/_posts/md/2018-09-03-replacing-gcm-in-tutanota.md
@@ -4317,74 +4329,74 @@ msgstr "Zastąpiono FCM SSE"
 #. type: Plain text
 #: build/_posts/md/2018-09-03-replacing-gcm-in-tutanota.md
 msgid "We settled on the SSE (Server Sent Events) because it seemed like a simple solution. By that I mean “easy to implement, easy to debug”. Debugging these types of things can be a major headache so one should not underestimate this factor. Another argument in favour of SSE was relative power efficiency: We didn’t need upstream messages and a constant connection was not our goal."
-msgstr ""
+msgstr "Opieraliśmy się na SSE (Server Sent Events), ponieważ wydawało się to prostym rozwiązaniem. Mam przez to na myśli \"łatwe do wdrożenia, łatwe do debugowania\". Debugowanie tego typu rzeczy może być dużym bólem głowy, więc nie należy lekceważyć tego czynnika. Kolejnym argumentem przemawiającym na korzyść SSE była względna wydajność energetyczna: nie potrzebowaliśmy komunikatów typu upstream, a stały kontakt nie był naszym celem."
 
 #. type: Title ####
 #: build/_posts/md/2018-09-03-replacing-gcm-in-tutanota.md
 #, no-wrap
 msgid "So, what is SSE?"
-msgstr ""
+msgstr "Czym więc jest SSE?"
 
 #. type: Plain text
 #: build/_posts/md/2018-09-03-replacing-gcm-in-tutanota.md
 msgid "SSE is a web API which allows a server to send events to the connected clients. It is a relatively old API which is, in my opinion, underused. I’ve never heard about SSE before looking at the [federated network Mastodon](https://joinmastodon.org/): They use SSE for real-time timeline updates, and it is working great."
-msgstr ""
+msgstr "SSE to webowy interfejs API, który pozwala serwerowi wysyłać zdarzenia do podłączonych klientów. Jest to stosunkowo stare API, które, moim zdaniem, jest niedostatecznie wykorzystywane. Nigdy nie słyszałem o SSE przed obejrzeniem [federacyjnej sieci Mastodon](https://joinmastodon.org/): Używają SSE do aktualizowania osi czasu w czasie rzeczywistym i działa świetnie."
 
 #. type: Plain text
 #: build/_posts/md/2018-09-03-replacing-gcm-in-tutanota.md
 msgid "The protocol itself is very simple and resembles good old polling: The client opens a connection, and the server keeps it open. The difference from classical polling is that we keep this connection open for multiple events. The server can send events and data messages; they are just separated by new lines. So the only thing the client needs to do is to open a connection with big timeout and read the stream in a loop."
-msgstr ""
+msgstr "Sam protokół jest bardzo prosty i przypomina stare, dobre sondowanie: klient otwiera połączenie, a serwer je otwiera. Różnica w stosunku do klasycznego odpytywania polega na tym, że utrzymujemy to połączenie otwarte dla wielu zdarzeń. Serwer może wysyłać zdarzenia i wiadomości danych; są one po prostu oddzielone nowymi liniami. Tak więc jedyne, co klient musi zrobić, to otworzyć połączenie z dużym limitem czasu i odczytać strumień w pętli."
 
 #. type: Plain text
 #: build/_posts/md/2018-09-03-replacing-gcm-in-tutanota.md
 msgid "SSE fits our needs better than WebSocket would (it is cheaper and converges faster, because it’s not duplex). We’ve seen multiple chat apps trying using WebSocket for push notifications and it didn’t seem power efficient."
-msgstr ""
+msgstr "SSE lepiej pasuje do naszych potrzeb niż WebSocket (jest tańszy i zbiegają się szybciej, ponieważ nie jest duplex). Widzieliśmy wiele aplikacji do czatów próbujących używać WebSocket do powiadomień push i nie wydawało się to wydajne energetycznie."
 
 #. type: Plain text
 #: build/_posts/md/2018-09-03-replacing-gcm-in-tutanota.md
 msgid "We had some experience with WebSocket already, and we knew that firewalls don’t like keepalive connections. To solve this, we used the same workaround for SSE as we did for WebSocket: We send “heartbeat” empty messages every few minutes. We made this interval adjustable from the server side and randomised to not overwhelm the server."
-msgstr ""
+msgstr "Mieliśmy już pewne doświadczenie z WebSocket i wiedzieliśmy, że firewalle nie lubią połączeń keepalive. Aby rozwiązać ten problem, użyliśmy tego samego rozwiązania dla SSE, tak jak to zrobiliśmy dla WebSocket: co kilka minut wysyłamy puste wiadomości “heartbeat”. Zmieniliśmy ten interwał po stronie serwera i losowo, aby nie przytłoczyć serwera."
 
 #. type: Title ####
 #: build/_posts/md/2018-09-03-replacing-gcm-in-tutanota.md
 #, no-wrap
 msgid "Multi-account support poses extra challenges"
-msgstr ""
+msgstr "Obsługa wielu kont stanowi dodatkowe wyzwania"
 
 #. type: Plain text
 #: build/_posts/md/2018-09-03-replacing-gcm-in-tutanota.md
 msgid "It should be noted that the Tutanota app has multi-account support, and this posed a challenge for us: We wanted to keep only one connection open per device. After a few iterations, we’ve found the design that satisfied us. Each device has only one identifier. When opening the connection, the client sends the list of users for which it wants to receive notifications. The server validates this list against user records and filters out invalid ones."
-msgstr ""
+msgstr "Należy zauważyć, że aplikacja Tutanota obsługuje wiele kont, co stanowiło dla nas wyzwanie: Chcieliśmy utrzymać tylko jedno połączenie otwarte na urządzenie. Po kilku iteracjach znaleźliśmy projekt, który nas usatysfakcjonował. Każde urządzenie ma tylko jeden identyfikator. Podczas otwierania połączenia klient wysyła listę użytkowników, dla których chce otrzymywać powiadomienia. Serwer sprawdza poprawność tej listy względem rekordów użytkownika i odfiltrowuje nieprawidłowe."
 
 #. type: Plain text
 #: build/_posts/md/2018-09-03-replacing-gcm-in-tutanota.md
 msgid "Users may delete a notification token from their Settings but it would not affect other logins on this device. In addition to that, we had to build a delivery tracking mechanism when a notification is received. Unfortunately, we discovered that our server is unable to detect when a connection is broken so we had to send confirmations from the client side."
-msgstr ""
+msgstr "Użytkownicy mogą usunąć token powiadomienia ze swoich ustawień, ale nie wpłynie to na inne logowania na tym urządzeniu. Oprócz tego musieliśmy zbudować mechanizm śledzenia dostawy po otrzymaniu powiadomienia. Niestety, odkryliśmy, że nasz serwer nie jest w stanie wykryć, kiedy połączenie jest zerwane, więc musieliśmy wysłać potwierdzenia od klienta."
 
 #. type: Plain text
 #: build/_posts/md/2018-09-03-replacing-gcm-in-tutanota.md
 msgid "To receive notifications, we leverage Android capabilities. We run a background service which keeps the connection to the server open, similar to what the FCM process does. Another difficulty was caused by the Doze mode, introduced in Android M. The Doze, which is turned on after a period of inactivity, among other things prevents background processes to access the network. As you can imagine, this prevents our app from receiving notifications."
-msgstr ""
+msgstr "Aby otrzymywać powiadomienia, wykorzystujemy możliwości Androida. Uruchamiamy usługę w tle, która utrzymuje połączenie z serwerem otwartym, podobnie do procesu FCM. Kolejną trudność spowodował tryb Doze wprowadzony w Androidzie M. Drzemka, która jest włączona po okresie bezczynności, między innymi uniemożliwia procesom w tle dostęp do sieci. Jak możesz sobie wyobrazić, uniemożliwia to naszej aplikacji otrzymywanie powiadomień."
 
 #. type: Plain text
 #: build/_posts/md/2018-09-03-replacing-gcm-in-tutanota.md
 msgid "We mitigate this problem by asking users to make an exemption from battery optimisations for our app. It worked fairly well. The similar problem, but unrelated to Doze is vendor-specific battery optimisations. In order to prolong the battery life of their devices phone manufacturers, like Xiaomi, enable strict battery optimisations by default. Luckily users can disable them, but we must communicate this better."
-msgstr ""
+msgstr "Ograniczamy ten problem, prosząc użytkowników o zwolnienie z optymalizacji baterii dla naszej aplikacji. Działało całkiem dobrze. Podobny problem, ale niezwiązany z Doze, polega na optymalizacji baterii stosowanej przez producenta. Aby przedłużyć żywotność baterii swoich urządzeń, producenci telefonów, tacy jak Xiaomi, domyślnie umożliwiają ścisłą optymalizację baterii. Na szczęście użytkownicy mogą je wyłączyć, ale musimy to lepiej przekazać."
 
 #. type: Plain text
 #: build/_posts/md/2018-09-03-replacing-gcm-in-tutanota.md
 msgid "Another problem was caused by the Android O changes. One of them is background process restrictions: Unless your app is visible to the user, your background processes are going to be stopped and you’re unable to launch new ones."
-msgstr ""
+msgstr "Kolejny problem spowodowały zmiany w Androidzie O. Jednym z nich są ograniczenia procesu w tle: jeśli Twoja aplikacja nie jest widoczna dla użytkownika, procesy w tle zostaną zatrzymane i nie będzie można uruchomić nowych."
 
 #. type: Plain text
 #: build/_posts/md/2018-09-03-replacing-gcm-in-tutanota.md
 msgid "Initially we thought that we can solve this by showing a persistent notification with minimal priority, which is visible in the notification gutter, but not in the status bar. This didn’t work for Oreo: If you try to launch a background service and use priority minimum for its notification, the notification priority is upgraded to a higher priority (visible all the time) and, in addition to that, the system shows another persistent notification: “App X is using battery”."
-msgstr ""
+msgstr "Początkowo sądziliśmy, że możemy rozwiązać ten problem, wyświetlając trwałe powiadomienie o minimalnym priorytecie, które jest widoczne w okienku powiadomień, ale nie na pasku stanu. To nie działało dla Oreo: jeśli spróbujesz uruchomić usługę działającą w tle i wykorzystasz priorytet powiadomienia o priorytecie, priorytet powiadomienia zostanie zaktualizowany do wyższego priorytetu (widoczny cały czas), a dodatkowo system wyświetli kolejne trwałe powiadomienie: \"Aplikacja X używa baterii\"."
 
 #. type: Plain text
 #: build/_posts/md/2018-09-03-replacing-gcm-in-tutanota.md
 msgid "We initially planned to explain users how they can hide these persistent notifications but that wasn’t a great user experience so we had to find a better solution. We leveraged Android Job mechanism to launch our service periodically (at least every 15 minutes), and we also try to keep it alive afterwards. We don’t hold WakeLocks manually – the system does this for us. We were able to ditch persistent notifications altogether. Even if notifications sometimes have a small delay, it will always be received and emails are there instantly."
-msgstr ""
+msgstr "Początkowo planowaliśmy wyjaśnić użytkownikom, w jaki sposób mogą ukryć te trwałe powiadomienia, ale nie było to wspaniałe doświadczenie dla użytkowników, więc musieliśmy znaleźć lepsze rozwiązanie. Zastosowaliśmy mechanizm Android Job, aby okresowo uruchamiać naszą usługę (przynajmniej co 15 minut), a także staramy się ją utrzymać przy życiu. Nie posiadamy ręcznie funkcji WakeLocks - system robi to za nas. Udało nam się całkowicie zrezygnować ze stałych powiadomień. Nawet jeśli powiadomienia mają czasami niewielkie opóźnienie, zawsze będą odbierane, a e-maile będą dostępne natychmiast."
 
 #. type: Plain text
 #: build/_posts/md/2018-09-03-replacing-gcm-in-tutanota.md
@@ -4395,12 +4407,12 @@ msgstr ""
 #: build/_posts/md/2018-09-03-replacing-gcm-in-tutanota.md
 #, no-wrap
 msgid "Final thought: Every user should be able to choose a \"Notification Provider\" for every app"
-msgstr ""
+msgstr "Ostateczna myśl: każdy użytkownik powinien mieć możliwość wyboru \"Dostawcy powiadomień\" dla każdej aplikacji"
 
 #. type: Plain text
 #: build/_posts/md/2018-09-03-replacing-gcm-in-tutanota.md
 msgid "Wouldn’t it be great if the user could just pick a “push notifications provider” in the phone settings and OS managed all these hard details by itself? So every app, which doesn’t want to be policed by the platform owner, didn’t have to invent the system anew? It could be end-to-end encrypted between the app and the app server. There’s no real technical difficulty in that, but as long as our systems are controlled by big players who do not allow this, we have to solve it by ourselves."
-msgstr ""
+msgstr "Czy nie byłoby wspaniale, gdyby użytkownik mógł wybrać \"dostawcę powiadomień push\" w ustawieniach telefonu, a system operacyjny samodzielnie zarządzał wszystkimi tymi trudnymi informacjami? Więc każda aplikacja, która nie chce być kontrolowana przez właściciela platformy, nie musiała wymyślać systemu od nowa? Może być zaszyfrowany między aplikacją a serwerem aplikacji. Nie ma w tym żadnej technicznej trudności, ale dopóki nasze systemy są kontrolowane przez dużych graczy, którzy na to nie zezwalają, musimy sami rozwiązać ten problem."
 
 #. type: Title #
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
@@ -4427,7 +4439,7 @@ msgstr "Więcej informacji na temat praktyk bezpieczeństwa F-Droid znajduje si�
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 #, no-wrap
 msgid "Reducing trust requirements"
-msgstr ""
+msgstr "Zmniejszenie wymagań dotyczących zaufania"
 
 #. type: Plain text
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
@@ -4442,12 +4454,12 @@ msgstr ""
 #. type: Plain text
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "This audit helped us ask the question: what kind privileges can be restricted or removed without changing the way contributors work? It also caught a number of issues where the code trusted the inputs from _fdroiddata_, where it had been committed and reviewed by humans, but that could then point to other code which could contain the exploits."
-msgstr ""
+msgstr "Ta kontrola pomogła nam zadać pytanie: jakie przywileje mogą być ograniczone lub usunięte bez zmiany sposobu działania współpracowników? Przywołał także wiele problemów, w których kod zaufał wejściom z _fdroiddata_, gdzie został popełniony i sprawdzony przez ludzi, ale może to wskazywać na inny kod, który mógłby zawierać exploity."
 
 #. type: Plain text
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "Reducing the trust given to various pieces reduces the stresses of contributing, and allows us as a community to open more things up to all sorts of contributors.  If a contributor feels that their review is the last line of defence against exploiting F-Droid, that adds a lot of stress to the review."
-msgstr ""
+msgstr "Zmniejszenie zaufania do różnych elementów zmniejsza stresy wnoszące wkład i pozwala nam, jako społeczności, otworzyć więcej rzeczy dla wszystkich rodzajów współtwórców. Jeśli uczestnik uważa, że ich przegląd jest ostatnią linią obrony przed wykorzystaniem F-Droid, to dodaje wiele stresu do recenzji."
 
 #. type: Title ##
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
@@ -4458,7 +4470,7 @@ msgstr "Uprzywilejowany dodatek"
 #. type: Plain text
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "There were no issues found in the Privileged Extension code or the interaction between F-Droid client and Privileged Extension."
-msgstr ""
+msgstr "Nie znaleziono problemów w kodzie uprzywilejowanego rozszerzenia ani interakcji między klientem F-Droid a rozszerzeniem uprzywilejowanym."
 
 #. type: Title ##
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
@@ -4469,47 +4481,47 @@ msgstr "Klient F-Droid"
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "[4.1.19 OTF-019 — Potential SQL Injection]({{ site.baseurl }}/docs/Second_Audit_Report/#f35-potential-sql-injection)"
-msgstr ""
+msgstr "[4.1.19 OTF-019 — Potencjalna iniekcja SQL]({{ site.baseurl }}/docs/Second_Audit_Report/#f35-potential-sql-injection)"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "[4.1.24 OTF-024 — (fdroidclient) Raw SQL Query Executions]({{ site.baseurl }}/docs/Second_Audit_Report/#f47--fdroidclient-raw-sql-query-executions)"
-msgstr ""
+msgstr "[4.1.24 OTF-024 — (fdroidclient) Raw SQL Query Executions]({{ site.baseurl }}/docs/Second_Audit_Report/#f47--fdroidclient-raw-sql-query-executions)"
 
 #. type: Plain text
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "- right now, repos are trusted inputs verified by signatures.  This kind of finding helps us make it so less trust is required when using third party repos"
-msgstr ""
+msgstr "- teraz repozytoria są zaufanymi danymi wejściowymi weryfikowanymi przez podpisy. Tego rodzaju odkrycie pomaga nam to zrobić, więc mniej zaufania jest wymagane przy korzystaniu z repozytoriów firm trzecich"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "[4.1.26 OTF-026 — (fdroid Client) Insecure Implementation of SSL]({{ site.baseurl }}/docs/Second_Audit_Report/#f52--fdroid-client-insecure-implementation-of-ssl)"
-msgstr ""
+msgstr "[4.1.26 OTF-026 — (fdroid Client) Niezabezpieczona implementacja protokołu SSL]({{ site.baseurl }}/docs/Second_Audit_Report/#f52--fdroid-client-insecure-implementation-of-ssl)"
 
 #. type: Plain text
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "This finding is labeling a standard practice in Android as insecure: \"It is possible to install an SSL certificate on a device and run the application to capture its traffic on the proxy.\" Android does not make it easy to accidentally include a certificate on the device, and it also puts up a constant notification when one is in place.  We believe that following this recommendation would not noticeably improve real world security.  It would eliminate legitimate use cases of installing a certificate on the device to inspect the traffic.  For example: company firewalls that must inspect traffic to comply with regulations; or, auditing real world traffic of F-Droid during normal operation."
-msgstr ""
+msgstr "To stwierdzenie określa standardową praktykę w systemie Android jako niepewną: \"Możliwe jest zainstalowanie certyfikatu SSL na urządzeniu i uruchomienie aplikacji w celu przechwycenia jej ruchu na serwerze proxy.\" Android nie ułatwia przypadkowego umieszczenia certyfikatu na urządzeniu, a także umieszcza stałe powiadomienie, gdy jest na miejscu. Uważamy, że zastosowanie się do tej rekomendacji nie poprawi znacząco realnego bezpieczeństwa na świecie. Wyeliminowałoby to uzasadnione przypadki użycia instalacji certyfikatu na urządzeniu do inspekcji ruchu. Na przykład: firewall firmy, który musi kontrolować ruch w celu zapewnienia zgodności z przepisami; lub, kontrolując rzeczywisty ruch F-Droid podczas normalnej pracy."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "[4.1.20 OTF-020 — Unverified URI redirect]({{ site.baseurl }}/docs/Second_Audit_Report/#f41-app-uses-data-from-clipboard)"
-msgstr ""
+msgstr "[4.1.20 OTF-020 — Przekierowanie URI niezweryfikowane]({{ site.baseurl }}/docs/Second_Audit_Report/#f41-app-uses-data-from-clipboard)"
 
 #. type: Plain text
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "This could only be exploited to change the URL that is shown in the TOFU prompt to the user.  The user is responsible for confirming what is listed in that prompt.  It should be fixed, but does not seem urgent.  It will be included when we overhaul the whole \"App Repo\" process."
-msgstr ""
+msgstr "Można to wykorzystać tylko do zmiany adresu URL wyświetlanego użytkownikowi w monicie TOFU. Użytkownik jest odpowiedzialny za potwierdzenie tego, co jest wymienione w tym monicie. Powinien zostać naprawiony, ale nie wydaje się pilny. Zostanie uwzględnione, gdy dokonamy przeglądu całego procesu \"App Repo\"."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "[4.1.23 OTF-023 — (fdroidclient) App Is Signed With _SHA1withRSA_, Known to Have Collision Issues]({{ site.baseurl }}/docs/Second_Audit_Report/#f46--fdroidclient-app-is-signed-with-sha1withrsa-known-to-have-collision-issues)"
-msgstr ""
+msgstr "[4.1.23 OTF-023 — (fdroidclient) Aplikacja jest podpisana _SHA1withRSA_, Znana z problemów z kolizją]({{ site.baseurl }}/docs/Second_Audit_Report/#f46--fdroidclient-app-is-signed-with-sha1withrsa-known-to-have-collision-issues)"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "[4.1.27 OTF-027 — (Privilege Extension) Mobile application package signed with weak algorithm _SHA1withRSA_]({{ site.baseurl }}/docs/Second_Audit_Report/#f53--privilege-extension-app-is-signed-with-sha1withrsa-known-to-have-collision-issues)"
-msgstr ""
+msgstr "[4.1.27 OTF-027 — (Privilege Extension) Pakiet aplikacji mobilnych podpisany słabym algorytmem _SHA1withRSA_]({{ site.baseurl }}/docs/Second_Audit_Report/#f53--privilege-extension-app-is-signed-with-sha1withrsa-known-to-have-collision-issues)"
 
 #. type: Plain text
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
@@ -4527,7 +4539,7 @@ msgstr ""
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "[4.1.35 OTF-035 — Hardcoded root CA keys]({{ site.baseurl }}/docs/Second_Audit_Report/#f36-no-mechanism-to-remove-root-ca-keys)"
-msgstr ""
+msgstr "[4.1.35 OTF-035 — Zakodowane główne klucze CA]({{ site.baseurl }}/docs/Second_Audit_Report/#f36-no-mechanism-to-remove-root-ca-keys)"
 
 #. type: Plain text
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
@@ -4538,7 +4550,7 @@ msgstr ""
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 #, no-wrap
 msgid "Nearby/Swap"
-msgstr ""
+msgstr "W pobliżu/Zamień"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
@@ -4955,16 +4967,14 @@ msgstr "Nie zapomnij wysłać swoich wskazówek! Jest o wiele za dużo aktualiza
 
 #. type: Plain text
 #: build/_posts/md/2018-09-06-twif-20-security-audit-completed-buildserver-setup-with-ansible.md
-#, fuzzy
 msgid "Send tips via [Mastodon](https://joinmastodon.org) to **[@fdroidorg@mastodon.technology](https://mastodon.technology/@fdroidorg)** on and remember to tag with **[#TWIF](https://mastodon.technology/tags/twif)**. Or use the [TWIF submission thread](https://forum.f-droid.org/t/twif-submission-thread) on the forum. The deadline to the next TWIF is **Thursday** 12:00 UTC."
-msgstr "Wyślij wskazówki do [@fdroidorg@mastodon.technology](https://mastodon.technology/@fdroidorg) i pamiętaj o oznaczeniu tagiem [TWIF](https://mastodon.technology/tags/twif). Lub użyj [wątku składania TWIF](https://forum.f-droid.org/t/twif-submission-thread) na forum. Termin do następnego TWIF to czwartek 12:00 czasu UTC."
+msgstr "Wyślij wskazówki przez [Mastodon](https://joinmastodon.org) do **[@fdroidorg@mastodon.technology](https://mastodon.technology/@fdroidorg)**  i pamiętaj, aby oznaczyć tagami **[#TWIF](https://mastodon.technology/tags/twif)**. Lub użyj [wątku składania TWIF](https://forum.f-droid.org/t/twif-submission-thread) na forum. Termin do następnego TWIF to **Czwartek** 12:00 UTC."
 
 #. type: Plain text
 #: build/_posts/md/2018-09-06-twif-20-security-audit-completed-buildserver-setup-with-ansible.md
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
-#, fuzzy
 msgid "General feedback can also be sent via Mastodon, or, if you'd like to have a live chat, you can find us in **#fdroid** on [Freenode](https://freenode.net), on Matrix via [#freenode_#fdroid:matrix.org](https://matrix.to/#/#freenode_#fdroid:matrix.org) or on [Telegram](https://t.me/joinchat/AlRQekvjWDTuQrCgMYSNVA). All of these spaces are bridged together, so the choice is yours. You can also join us on the **[forum](https://forum.f-droid.org/)**."
-msgstr "Masz swoją opinię? Jesteśmy bardzo aktywni na [@fdroidorg@mastodon.technology](https://mastodon.technology/@fdroidorg) na Mastodon. Jeśli chcesz z nami porozmawiać, znajdziesz nas w #fdroid na [Freenode](https://freenode.net), na Matrix przez [#freenode_#fdroid:matrix.org](https://matrix.to/#/#freenode_#fdroid:matrix.org) albo na [Telegram](https://t.me/joinchat/AlRQekvjWDTuQrCgMYSNVA). Wszystkie te obszary są ze sobą złączone, zatem wybór należy do ciebie. Możesz również dołączyć do nas na [forum](https://forum.f-droid.org/)."
+msgstr "Ogólne informacje zwrotne można również przesyłać przez Mastodon, lub, jeśli chcesz mieć czat na żywo, możesz nas znaleźć w **#fdroid** na [Freenode](https://freenode.net), na Matrix przez [#freenode_#fdroid:matrix.org](https://matrix.to/#/#freenode_#fdroid:matrix.org) lub w [Telegram](https://t.me/joinchat/AlRQekvjWDTuQrCgMYSNVA). Wszystkie te przestrzenie są ze sobą połączone, więc wybór należy do ciebie. Możesz również dołączyć do nas na **[forum](https://forum.f-droid.org/)**."
 
 #. type: Title #
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
