@@ -27,7 +27,7 @@
         "issue_tracker": "Seguimiento de inconvenientes",
         "liberapay": "Liberapay",
         "license": "Licencia",
-        "minimum_android_version": "Esta versión requiere Android [versión_de_android] o más reciente.",
+        "minimum_android_version": "Esta versión requiere Android [android_version] o más reciente.",
         "new_in_version": "Nuevo en la versión [latest_version]",
         "packages": "Paquetes",
         "permissions": "Permisos",
