@@ -78,7 +78,7 @@ msgstr ""
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "The content of the news section and the F-Droid logo are also available under [Creative Commons Attribution-ShareAlike 3.0 License (CC-BY-SA-3.0)](http://creativecommons.org/licenses/by-sa/3.0/) or [GNU General Public License version 3 or later (GPLv3+)](https://www.gnu.org/licenses/gpl-3.0.html)."
-msgstr "O conteúdo da seção de notícias e o logotipo da F-Droid também estão disponíveis sob a licença [Creative Commons Attribution-ShareAlike 3.0 License (CC-BY-SA-3.0)] (http://creativecommons.org/licenses/by-sa/3.0 /) ou [GNU General Public License versão 3 ou posterior (GPLv3 +)] (https://www.gnu.org/licenses/gpl-3.0.html)."
+msgstr "O conteúdo da seção de notícias e o logotipo da F-Droid também estão disponíveis sob a licença [Creative Commons Attribution-ShareAlike 3.0 License (CC-BY-SA-3.0)](http://creativecommons.org/licenses/by-sa/3.0 /) ou [GNU General Public License versão 3 ou posterior (GPLv3 +)](https://www.gnu.org/licenses/gpl-3.0.html)."
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md

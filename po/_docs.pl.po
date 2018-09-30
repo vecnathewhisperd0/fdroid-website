@@ -3081,7 +3081,7 @@ msgstr "Gdzie złożyć raport o błędzie"
 #. type: Plain text
 #: build/_docs/md/Client_Bug_Reports.md
 msgid "[F-droid issue tracker](https://f-droid.org/issues/) specifically [F-droid client section](https://gitlab.com/fdroid/fdroidclient/issues)"
-msgstr "[Narzędzie do śledzenia błędów F-droida](https://f-droid.org/issues/) w szczególności [sekcja kliencka F-droida] (https://gitlab.com/fdroid/fdroidclient/issues)"
+msgstr "[Narzędzie do śledzenia błędów F-droida](https://f-droid.org/issues/) w szczególności [sekcja kliencka F-droida](https://gitlab.com/fdroid/fdroidclient/issues)"
 
 #. type: Title #
 #: build/_docs/md/Deploying_the_Website.md
@@ -3511,7 +3511,7 @@ msgstr "Jak mogę włączyć moją aplikację?"
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md
 msgid "Please check the [inclusion policy](../Inclusion_Policy) to make sure your app is suitable for inclusion in the official F-Droid repo.  The quickest way to get an app included is to make a merge request to _fdroiddata_, following [these instructions](https://gitlab.com/fdroid/fdroiddata/blob/master/CONTRIBUTING.md#merge-requests).  There's also a [Submitting to F-Droid Quick Start Guide](../Submitting_to_F-Droid_Quick_Start_Guide).  Requests for packaging can be posted in the [Requests for Packaging](https://gitlab.com/fdroid/rfp/issues)  tracker."
-msgstr "Sprawdź [politykę włączenia](../ Inclusion_Policy), aby upewnić się, że twoja aplikacja nadaje się do włączenia do oficjalnego repozytorium F-Droid. Najszybszym sposobem na dołączenie aplikacji jest wysłanie żądania scalenia do _fdroiddata_, zgodnie z [tymi instrukcjami](https://gitlab.com/fdroid/fdroiddata/blob/master/CONTRIBUTING.md#merge-requests). Dostępny jest także [Przewodnik szybkiego składania do F-Droid](../Submitting_to_F-Droid_Quick_Start_Guide). Żądania dotyczące opakowania można opublikować w narzędziu do śledzenia [Wnioski o opakowanie](https://gitlab.com/fdroid/rfp/issues)."
+msgstr "Sprawdź [politykę włączenia](../Inclusion_Policy), aby upewnić się, że twoja aplikacja nadaje się do włączenia do oficjalnego repozytorium F-Droid. Najszybszym sposobem na dołączenie aplikacji jest wysłanie żądania scalenia do _fdroiddata_, zgodnie z [tymi instrukcjami](https://gitlab.com/fdroid/fdroiddata/blob/master/CONTRIBUTING.md#merge-requests). Dostępny jest także [Przewodnik szybkiego składania do F-Droid](../Submitting_to_F-Droid_Quick_Start_Guide). Żądania dotyczące opakowania można opublikować w narzędziu do śledzenia [Wnioski o opakowanie](https://gitlab.com/fdroid/rfp/issues)."
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md
@@ -3532,7 +3532,7 @@ msgstr "Istnieją trzy lokalizacje, z których pobieramy metadane:"
 #. type: Bullet: '* '
 #: build/_docs/md/FAQ_-_App_Developers.md
 msgid "upstream app repo, following the [fastlane](https://github.com/fastlane/fastlane) or [Triple-T play plugin](https://github.com/Triple-T/gradle-play-publisher) structure"
-msgstr "repozytorium aplikacji na wyższym poziomie, zgodnie ze strukturą [fastlane] (https://github.com/fastlane/fastlane) lub [Wtyczka gry Triple-T](https://github.com/Triple-T/gradle-play-publisher)"
+msgstr "repozytorium aplikacji na wyższym poziomie, zgodnie ze strukturą [fastlane](https://github.com/fastlane/fastlane) lub [Wtyczka gry Triple-T](https://github.com/Triple-T/gradle-play-publisher)"
 
 #. type: Bullet: '* '
 #: build/_docs/md/FAQ_-_App_Developers.md
@@ -3568,7 +3568,7 @@ msgstr "Istnieją ogólnie dwie kategorie: copyleft i permissive, przy czym GPLv
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md
 msgid "The overall licence must be compatible with the licence of the components. However we will grant some flexibility when it comes to assets and resources; so if you have, for example, some music under a Creative Commons non-commercial licence (i.e. a non-free licence), then we will accept it. The important thing is to include copyright info for assets as well as source code, in the file headers and/or the readme. A copy of the licences in the root of the repo is helpful (LICENSE or COPYING files). Also make a note of the copyright and licenses pertaining to external resources or programs and if it does connect to a free service, consider using the Affero GPL. See the [Inclusion Policy](../Inclusion_Policy) for more."
-msgstr "Całkowita licencja musi być zgodna z licencją komponentów. Przyznamy jednak pewną elastyczność, jeśli chodzi o zasoby i zasoby; więc jeśli masz na przykład muzykę z licencją niekomercyjną Creative Commons (tj. niewolną licencję), zaakceptujemy ją. Ważną rzeczą jest umieszczanie informacji o prawach autorskich na temat zasobów, a także kodu źródłowego, w nagłówkach plików i/lub w pliku readme. Pomocna jest kopia licencji w katalogu głównym repozytorium (pliki LICENSE lub COPYING). Zapamiętaj także prawa autorskie i licencje dotyczące zewnętrznych zasobów lub programów, a jeśli łączy się z darmową usługą, rozważ skorzystanie z Affero GPL. Więcej informacji można znaleźć w [Polityce włączenia](../ Inclusion_Policy)."
+msgstr "Całkowita licencja musi być zgodna z licencją komponentów. Przyznamy jednak pewną elastyczność, jeśli chodzi o zasoby i zasoby; więc jeśli masz na przykład muzykę z licencją niekomercyjną Creative Commons (tj. niewolną licencję), zaakceptujemy ją. Ważną rzeczą jest umieszczanie informacji o prawach autorskich na temat zasobów, a także kodu źródłowego, w nagłówkach plików i/lub w pliku readme. Pomocna jest kopia licencji w katalogu głównym repozytorium (pliki LICENSE lub COPYING). Zapamiętaj także prawa autorskie i licencje dotyczące zewnętrznych zasobów lub programów, a jeśli łączy się z darmową usługą, rozważ skorzystanie z Affero GPL. Więcej informacji można znaleźć w [Polityce włączenia](../Inclusion_Policy)."
 
 #. type: Title ###
 #: build/_docs/md/FAQ_-_App_Developers.md
@@ -3632,7 +3632,7 @@ msgstr "Czy muszę powiedzieć, kiedy aktualizuję?"
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md
 msgid "We will [detect](../Build_Metadata_Reference#Update-Check-Mode) new releases of your app and update our metadata accordingly, which will then cause us to check the code and add new builds to our system. Tags help greatly for adding new versions, but do remember to push the tags to the origin repo each time. Of course, if you move source code to a different website, you should tell us. There are currently some issues around detecting new versions when the _AndroidManifest.xml_ is moved so if there is some urgency, you can let us know if that happens."
-msgstr "Będziemy [wykrywać](../ Build_Metadata_ReferenceUpdate-Check-Mode) nowe wersje Twojej aplikacji i odpowiednio aktualizować nasze metadane, co spowoduje, że sprawdzimy kod i dodamy nowe kompilacje do naszego systemu. Znaczniki znacznie ułatwiają dodawanie nowych wersji, ale pamiętaj o każdorazowym przesuwaniu tagów do repozytorium początkowego. Oczywiście, jeśli przeniesiesz kod źródłowy do innej witryny, powinieneś nam powiedzieć. Obecnie istnieją pewne problemy związane z wykrywaniem nowych wersji podczas przenoszenia pliku _AndroidManifest.xml_, więc jeśli jest jakaś potrzeba, możesz nas o tym powiadomić."
+msgstr "Będziemy [wykrywać](../Build_Metadata_Reference#Update-Check-Mode) nowe wersje Twojej aplikacji i odpowiednio aktualizować nasze metadane, co spowoduje, że sprawdzimy kod i dodamy nowe kompilacje do naszego systemu. Znaczniki znacznie ułatwiają dodawanie nowych wersji, ale pamiętaj o każdorazowym przesuwaniu tagów do repozytorium początkowego. Oczywiście, jeśli przeniesiesz kod źródłowy do innej witryny, powinieneś nam powiedzieć. Obecnie istnieją pewne problemy związane z wykrywaniem nowych wersji podczas przenoszenia pliku _AndroidManifest.xml_, więc jeśli jest jakaś potrzeba, możesz nas o tym powiadomić."
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md
@@ -3653,7 +3653,7 @@ msgstr "Opublikowalem nowe wydanie. Dlaczego nie znajduje się w repozytorium?"
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md
 msgid "When we detect a new release, it may take a few days to make it into the repository as the build process runs only once a day. Before the build has completed, the wiki page for your app will list it in [:Category:Apps to Update](https://f-droid.org/wiki/page/:Category:Apps_to_Update). As long as the text under *Versions* stating \"The current (recommended) version is *xxx* (version code *yyy*)\" shows the version numbers corresponding to your latest release, we detected it and the APK should be available soon. Just give it some time."
-msgstr "Kiedy wykryjemy nową wersję, może minąć kilka dni, zanim trafi ona do repozytorium, ponieważ proces budowania działa tylko raz dziennie. Zanim zakończy się kompilacja, strona wiki Twojej aplikacji wyświetli ją w [:Kategoria:Aplikacje do aktualizacji] (https://f-droid.org/wiki/page/:Category:Apps_to_Update). Dopóki tekst w *Wersjach* stwierdzający \"Obecna (zalecana) wersja to *xxx* (kod wersji *yyy*)\" pokazuje numery wersji odpowiadające najnowszej wersji, wykryliśmy ją i plik APK powinien być dostępny wkrótce. Daj mu trochę czasu."
+msgstr "Kiedy wykryjemy nową wersję, może minąć kilka dni, zanim trafi ona do repozytorium, ponieważ proces budowania działa tylko raz dziennie. Zanim zakończy się kompilacja, strona wiki Twojej aplikacji wyświetli ją w [:Kategoria:Aplikacje do aktualizacji](https://f-droid.org/wiki/page/:Category:Apps_to_Update). Dopóki tekst w *Wersjach* stwierdzający \"Obecna (zalecana) wersja to *xxx* (kod wersji *yyy*)\" pokazuje numery wersji odpowiadające najnowszej wersji, wykryliśmy ją i plik APK powinien być dostępny wkrótce. Daj mu trochę czasu."
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md
@@ -3700,7 +3700,7 @@ msgstr "Czy można dołączyć pliki APK podpisane przez mój klucz?"
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md
 msgid "Only APKs built by F-Droid are included in the official F-Droid repo. We can try to reproduce your APK, as mentioned above, but if this fails (or e.g. when you want to distribute an app with closed-source components or API keys etc.), you can put any APK in your own \"[F-Droid binary repo](../Setup_an_F-Droid_App_Repo)\", and people can add your repo to their F-Droid client in order to get your APKs."
-msgstr "Tylko pliki APK zbudowane przez F-Droid są zawarte w oficjalnym repozytorium F-Droid. Możemy próbować odtworzyć plik APK, jak wspomniano powyżej, ale jeśli to się nie powiedzie (lub np. gdy chcesz rozpowszechniać aplikację z komponentami o zamkniętym kodzie źródłowym lub kluczami API itp.), możesz umieścić dowolny plik APK w swoim własnym \"[F-Droid binary repo](../ Setup_an_F-Droid_App_Repo)\", a ludzie mogą dodać swoje repo do swojego klienta F-Droid, aby otrzymać pliki APK."
+msgstr "Tylko pliki APK zbudowane przez F-Droid są zawarte w oficjalnym repozytorium F-Droid. Możemy próbować odtworzyć plik APK, jak wspomniano powyżej, ale jeśli to się nie powiedzie (lub np. gdy chcesz rozpowszechniać aplikację z komponentami o zamkniętym kodzie źródłowym lub kluczami API itp.), możesz umieścić dowolny plik APK w swoim własnym \"[F-Droid binary repo](../Setup_an_F-Droid_App_Repo)\", a ludzie mogą dodać swoje repo do swojego klienta F-Droid, aby otrzymać pliki APK."
 
 #. type: Title ###
 #: build/_docs/md/FAQ_-_App_Developers.md
@@ -4661,7 +4661,7 @@ msgstr "Korzystanie z zestawu Android SDK"
 #. type: Plain text
 #: build/_docs/md/Getting_logcat_messages_after_crash.md
 msgid "If you have the [Android SDK](https://developer.android.com/sdk/index.html) installed on your computer, then you will be able to use the [adb](https://developer.android.com/tools/help/adb.html) (command line) or [DDMS](https://developer.android.com/tools/debugging/ddms.html) (graphical app) tools when your phone is plugged in via USB and has “Debugging” enabled from the Android settings."
-msgstr "Jeśli masz na swoim komputerze [Android SDK](https://developer.android.com/sdk/index.html), będziesz mógł korzystać z [adb](https://developer.android.com/tools/help/adb.html) (wiersz poleceń) lub [DDMS] (https://developer.android.com/tools/debugging/ddms.html) (aplikacja graficzna) narzędzi, gdy telefon jest podłączony przez USB i włączono \"Debugowanie\" w ustawieniach Androida."
+msgstr "Jeśli masz na swoim komputerze [Android SDK](https://developer.android.com/sdk/index.html), będziesz mógł korzystać z [adb](https://developer.android.com/tools/help/adb.html) (wiersz poleceń) lub [DDMS](https://developer.android.com/tools/debugging/ddms.html) (aplikacja graficzna) narzędzi, gdy telefon jest podłączony przez USB i włączono \"Debugowanie\" w ustawieniach Androida."
 
 #. type: Plain text
 #: build/_docs/md/Getting_logcat_messages_after_crash.md
