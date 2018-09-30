@@ -101,7 +101,7 @@ and is brought to you by at least the following people:
 * Ivo Ugrina
 * Matthias Weiler
 * Nutchanon Wetchasit
-* Philipp Wollschlege
+* Philipp Wollschlegel 
 * Noômen Ben Hassin
 
 If your name is missing, it’s a mistake and you should
