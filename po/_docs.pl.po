@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-09-12 15:38+0200\n"
-"PO-Revision-Date: 2018-09-30 03:31+0000\n"
+"PO-Revision-Date: 2018-10-02 14:34+0000\n"
 "Last-Translator: WaldiS <admin@sto.ugu.pl>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/f-droid/website-docs/pl/>\n"
 "Language: pl\n"
@@ -4815,54 +4815,54 @@ msgstr "Najłatwiejszym sposobem przyczynienia się do rozwoju jest tworzenie kl
 #. type: Plain text
 #: build/_docs/md/How_to_Help.md
 msgid "For working with the server project, it's a good idea to read [the docs](http://f-droid.org/docs/) and learn our [git workflow](https://f-droid.org/wiki/page/git_workflow)."
-msgstr ""
+msgstr "Aby pracować z projektem serwera, dobrze jest przeczytać [dokumentację](http://f-droid.org/docs/) i poznać nasz [przepływ pracy git](https://f-droid.org/wiki/page/git_workflow)."
 
 #. type: Title ###
 #: build/_docs/md/How_to_Help.md
 #, no-wrap
 msgid "Design"
-msgstr ""
+msgstr "Konstrukcja"
 
 #. type: Plain text
 #: build/_docs/md/How_to_Help.md
 msgid "We'd love any contributions to make the project prettier and easier to use. If you are good at writing we are working on improving the [Home page](https://f-droid.org/wiki/page/Home_page). If you can design mockups the client developers could use your help. Post them to the issue tracker for [client](https://gitlab.com/fdroid/fdroidclient/issues) or the [website](https://gitlab.com/fdroid/fdroid-website/issues)."
-msgstr ""
+msgstr "Będziemy wdzięczni za wszelkie uwagi, które sprawią, że projekt będzie ładniejszy i łatwiejszy w użyciu. Jeśli jesteś dobry w pisaniu, pracujemy nad ulepszeniem [Strona główna](https://f-droid.org/wiki/page/Home_page). Jeśli możesz projektować makiety, programiści klienta mogą skorzystać z Twojej pomocy. Prześlij je do modułu do śledzenia problemów do [klienta](https://gitlab.com/fdroid/fdroidclient/issues) lub [strony internetowej](https://gitlab.com/fdroid/fdroid-website/issues)."
 
 #. type: Title #
 #: build/_docs/md/How_to_update_an_app.md
 #, no-wrap
 msgid "How to update an app"
-msgstr ""
+msgstr "Jak zaktualizować aplikację"
 
 #. type: Plain text
 #: build/_docs/md/How_to_update_an_app.md
 msgid "What I would like to read here would be:"
-msgstr ""
+msgstr "To, co chciałbym przeczytać tutaj, to:"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/How_to_update_an_app.md
 msgid "\"What is where, and why?\" - a brief guide through the infrastructure and workflow / scripts."
-msgstr ""
+msgstr "\"Co jest gdzie i dlaczego?\" - krótki przewodnik po infrastrukturze i przepływie pracy / skryptach."
 
 #. type: Bullet: '-   '
 #: build/_docs/md/How_to_update_an_app.md
 msgid "Howto \"update the metadata on gitlab.com/fdroid/fdroiddata\"."
-msgstr ""
+msgstr "Jak \"zaktualizować metadane na gitlab.com/fdroid/fdroiddata\"."
 
 #. type: Plain text
 #: build/_docs/md/How_to_update_an_app.md
 msgid "Target group would be developer/release-manager of the apps **and** for the \"external interested user\" who just notices that there is a new version of an app - but not yet in F-Droid system available. \"What would I do to trigger the update?\""
-msgstr ""
+msgstr "Grupa docelowa będzie deweloperem/menedżerem wydań aplikacji **i** dla \"zewnętrznego zainteresowanego użytkownika\", który właśnie zauważy, że istnieje nowa wersja aplikacji - ale jeszcze nie w systemie F-Droid. \"Co zrobić, aby wywołać aktualizację?\""
 
 #. type: Plain text
 #: build/_docs/md/How_to_update_an_app.md
 msgid "@Tverrbjelke: (If s.o. briefs me, I would spend some of my time writing that down. love F-Droid, and hate to see such simple and needed issue is not yet ready. :-) )"
-msgstr ""
+msgstr "@Tverrbjelke: (Jeśli mnie poinformuje, poświęciłbym trochę czasu na pisanie tego, miłość F-Droid, a nienawiść do tak prostego i potrzebnego problemu nie jest jeszcze gotowa. :-) )"
 
 #. type: Plain text
 #: build/_docs/md/How_to_update_an_app.md
 msgid "@daithib8: Assuming everything is setup and the user is familiar with building via fdroid … (these instructions take a terminal-based approach. You can manage with a web browser, but it takes quite a while to learn the layout of the common source code websites. For complicated apps that rebase code and use many branches, I'll often visit the source code site too)."
-msgstr ""
+msgstr "@daithib8: Zakładając, że wszystko jest skonfigurowane i użytkownik jest zaznajomiony z budowaniem poprzez fdroid ... (te instrukcje przyjmują podejście oparte na terminalach, możesz zarządzać za pomocą przeglądarki internetowej, ale zajmuje trochę czasu, aby poznać układ popularnych stron internetowych z kodem źródłowym. W przypadku skomplikowanych aplikacji, które zmieniają kod i używają wielu gałęzi, często odwiedzam też stronę z kodem źródłowym)."
 
 #. type: Bullet: '-   '
 #: build/_docs/md/How_to_update_an_app.md
@@ -4872,37 +4872,37 @@ msgstr ""
 #. type: Bullet: '-   '
 #: build/_docs/md/How_to_update_an_app.md
 msgid "If the Current Version in the metadata (especially in the case of the update check mode RepoManifest) is greater than on Google Play or the download page, you may not need to update and can just add a dummy build version e.g `Build Version:1.2,34,!not published by the developer,subdir=main`"
-msgstr ""
+msgstr "Jeśli obecna wersja w metadanych (szczególnie w przypadku trybu sprawdzania aktualizacji RepoManifest) jest większa niż na Google Play lub stronie pobierania, może nie być konieczna aktualizacja i może po prostu dodać fałszywą wersję kompilacji, np. `Wersja kompilacji: 1.2,34,! nie opublikowane przez programistę, subdir=main`"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/How_to_update_an_app.md
 msgid "Clone the source code repository if you don't have it already by building an already existing version (which you can quit once the build is under way)"
-msgstr ""
+msgstr "Sklonuj repozytorium kodu źródłowego, jeśli już go nie masz, budując już istniejącą wersję (którą możesz zamknąć po rozpoczęciu kompilacji)"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/How_to_update_an_app.md
 msgid "Change in to the repo: `pushd build/package-name`"
-msgstr ""
+msgstr "Zmień na repozytorium: `pushd build/nazwa-pakietu`"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/How_to_update_an_app.md
 msgid "`la` to remind onesself of the VCS type.  Let's assume it's Mercurial (with which I am barely familiar)"
-msgstr ""
+msgstr "`la` aby przypomnieć sobie o typie VCS. Załóżmy, że to Mercurial (z którym jestem mało znany)"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/How_to_update_an_app.md
 msgid "`hg revert -a; hg pull; hg up` to get the latest code from the repo. Take a note of the new tags"
-msgstr ""
+msgstr "`hg revert -a; hg pull; hg up` aby uzyskać najnowszy kod z repozytorium. Zanotuj nowe tagi"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/How_to_update_an_app.md
 msgid "`hg log |less` and read the single line descriptions back to the previous version to get a quick idea of the latest changes and find the revision or tag corresponding to the current version noted earlier"
-msgstr ""
+msgstr "`hg log |less` i przeczytać opisy pojedynczej linii z powrotem do poprzedniej wersji, aby szybko zorientować się w najnowszych zmianach i znaleźć wersję lub znacznik odpowiadający aktualnej wersji wcześniejszej"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/How_to_update_an_app.md
 msgid "` hg up \"tag\"` to switch to the tag or revision (to make sure you are auditing exactly what will be built)"
-msgstr ""
+msgstr "` hg up \"tag\"` aby przejść do tagu lub wersji (aby upewnić się, że dokładnie kontrolujesz to, co zostanie zbudowane)"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/How_to_update_an_app.md
@@ -4912,12 +4912,12 @@ msgstr ""
 #. type: Bullet: '-   '
 #: build/_docs/md/How_to_update_an_app.md
 msgid "If you find proprietary files add a dummy build version to the metadata with a few words about the reason, add No Source Since to the bottom and a line to the descripion beginning with Status: to the description explaining the reason that the app can't be updated"
-msgstr ""
+msgstr "Jeśli znajdziesz zastrzeżone pliki, dodaj do ich metadanych fałszywą wersję kompilacji z kilkoma słowami o przyczynie, dodaj No Source Since na dole i linię do opisu zaczynającego się od Status: do opisu wyjaśniającego przyczynę, dla której aplikacja nie może być na bieżąco"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/How_to_update_an_app.md
 msgid "`find . -type f -executable` to locate any scripts and things. Note that ant will also execute anything it finds in build.xml and custom_rules.xml!"
-msgstr ""
+msgstr "`find . -type f -executable` lokalizuje dowolne skrypty i rzeczy. Zauważ, że ant wykona również wszystko, co znajdzie build.xml i custom_rules.xml!"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/How_to_update_an_app.md
@@ -4937,7 +4937,7 @@ msgstr ""
 #. type: Bullet: '-   '
 #: build/_docs/md/How_to_update_an_app.md
 msgid "`popd; vi metadata/package-name.txt` to add a new Build Version"
-msgstr ""
+msgstr "`popd; vi metadata/package-name.txt` aby dodać nową wersję Build"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/How_to_update_an_app.md
@@ -4957,12 +4957,12 @@ msgstr ""
 #. type: Bullet: '-   '
 #: build/_docs/md/How_to_update_an_app.md
 msgid "Add any info for the next time above Auto Update Mode, and see if the update check mode needs any tweaking."
-msgstr ""
+msgstr "Dodaj dowolne informacje następnym razem powyżej trybu automatycznej aktualizacji i sprawdź, czy tryb sprawdzania aktualizacji wymaga jakichkolwiek zmian."
 
 #. type: Bullet: '-   '
 #: build/_docs/md/How_to_update_an_app.md
 msgid "Have a quick look at the description and urls to see if anything needs updating"
-msgstr ""
+msgstr "Przejrzyj krótki opis i adresy URL, aby sprawdzić, czy coś wymaga aktualizacji"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/How_to_update_an_app.md
@@ -4972,18 +4972,18 @@ msgstr ""
 #. type: Bullet: '-   '
 #: build/_docs/md/How_to_update_an_app.md
 msgid "If there is nothing special, commit directly with the commitupdates script. If not, include as much info as you can in the body of the git commit"
-msgstr ""
+msgstr "Jeśli nie ma nic specjalnego, zatwierdzaj bezpośrednio za pomocą skryptu commitupdates. Jeśli nie, umieść jak najwięcej informacji w treści polecenia git"
 
 #. type: Plain text
 #: build/_docs/md/How_to_update_an_app.md
 msgid "That's a lot of things to do, but experience shows that it's a good idea to be vigilant and of course the process gets faster with time... Good luck!"
-msgstr ""
+msgstr "To wiele rzeczy do zrobienia, ale doświadczenie pokazuje, że warto być czujnym i oczywiście proces z czasem staje się szybszy ... Powodzenia!"
 
 #. type: Title #
 #: build/_docs/md/Importing_Applications.md
 #, no-wrap
 msgid "Importing Applications"
-msgstr ""
+msgstr "Importowanie aplikacji"
 
 #. type: Plain text
 #: build/_docs/md/Importing_Applications.md
@@ -4993,17 +4993,17 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Importing_Applications.md
 msgid "```bash git clone https://gitlab.com/fdroid/fdroidclient cd fdroidclient fdroid import ```"
-msgstr ""
+msgstr "```bash git clone https://gitlab.com/fdroid/fdroidclient cd fdroidclient fdroid import ```"
 
 #. type: Plain text
 #: build/_docs/md/Importing_Applications.md
 msgid "Or starting with a URL to a project page:"
-msgstr ""
+msgstr "Lub zaczynając od adresu URL strony projektu:"
 
 #. type: Plain text
 #: build/_docs/md/Importing_Applications.md
 msgid "```bash fdroid import --url=http://address.of.project ```"
-msgstr ""
+msgstr "```bash fdroid import --url=http://address.of.project ```"
 
 #. type: Plain text
 #: build/_docs/md/Importing_Applications.md
@@ -5013,27 +5013,27 @@ msgstr ""
 #. type: Bullet: '1.  '
 #: build/_docs/md/Importing_Applications.md
 msgid "GitLab - `https://gitlab.com/<PROJECTNAME>/<REPONAME>`"
-msgstr ""
+msgstr "GitLab - `https://gitlab.com/<PROJECTNAME>/<REPONAME>`"
 
 #. type: Bullet: '3.  '
 #: build/_docs/md/Importing_Applications.md
 msgid "Github - `https://github.com/<USER>/<PROJECT>`"
-msgstr ""
+msgstr "Github - `https://github.com/<USER>/<PROJECT>`"
 
 #. type: Bullet: '4.  '
 #: build/_docs/md/Importing_Applications.md
 msgid "Bitbucket - `https://bitbucket.org/<USER>/<PROJECT>/`"
-msgstr ""
+msgstr "Bitbucket - `https://bitbucket.org/<USER>/<PROJECT>/`"
 
 #. type: Bullet: '5.  '
 #: build/_docs/md/Importing_Applications.md
 msgid "NotABug - `https://notabug.org/<USER>/<PROJECT>`"
-msgstr ""
+msgstr "NotABug - `https://notabug.org/<USER>/<PROJECT>`"
 
 #. type: Bullet: '6.  '
 #: build/_docs/md/Importing_Applications.md
 msgid "Git - `git://<REPO>` or `https://<REPO>`"
-msgstr ""
+msgstr "Git - `git://<REPO>` or `https://<REPO>`"
 
 #. type: Plain text
 #: build/_docs/md/Importing_Applications.md
@@ -5043,12 +5043,12 @@ msgstr ""
 #. type: Bullet: '* '
 #: build/_docs/md/Importing_Applications.md
 msgid "`-u <URL>`, `--url=<URL>`: Project URL to import from."
-msgstr ""
+msgstr "`-u <URL>`, `--url=<URL>`: Adres URL projektu do zaimportowania z."
 
 #. type: Bullet: '* '
 #: build/_docs/md/Importing_Applications.md
 msgid "`-s <DIR>`, `--subdir=<DIR>`: Path to main android project subdirectory, if not in root."
-msgstr ""
+msgstr "`-s <DIR>`, `--subdir=<DIR>`: Ścieżka do głównego podkatalogu projektu Android, jeśli nie w katalogu głównym."
 
 #. type: Bullet: '* '
 #: build/_docs/md/Importing_Applications.md
