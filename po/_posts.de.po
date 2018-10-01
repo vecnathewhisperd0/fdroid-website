@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-09-29 23:05-0500\n"
-"PO-Revision-Date: 2018-09-27 16:27+0000\n"
+"PO-Revision-Date: 2018-10-03 19:28+0000\n"
 "Last-Translator: C. Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\n"
 "Language: de\n"
@@ -4502,7 +4502,7 @@ msgstr "[4.1.24 OTF-024 — (fdroidclient) Ausführung unformatierter SQL-Abfrag
 #. type: Plain text
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "- right now, repos are trusted inputs verified by signatures.  This kind of finding helps us make it so less trust is required when using third party repos"
-msgstr "- Im Augenblick sind Repos vertrauenswürdige Beiträge, die durch Signaturen verifiziert sind.  Diese Erkenntnis hilft uns dabei, erfolgreich zu sein, somit wird weniger Vertrauen vonnöten sein, wenn Drittanbieter-Repos verwendet werden."
+msgstr "- Im Augenblick sind Repos vertrauenswürdige, durch Signaturen verifizierte Beiträge.  Diese Art der Beurteilung hilft uns dabei, erfolgreich zu sein, somit wird weniger Vertrauen vonnöten sein, wenn Drittanbieter-Repos verwendet werden."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
@@ -4603,12 +4603,12 @@ msgstr "[4.1.10 OTF-010]({{ site.baseurl }}/docs/Second_Audit_Report/#f49--fdroi
 #. type: Plain text
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "The security of the nearby swap is built largely on the limited scope of attacks, since it works only via Bluetooth or via local Wi-Fi restricted to the current subnet.  It is also only active for a very limited time, while the user is directly using it.  Then, for file integrity, the index signing key is trusted on the first use, then all files are verified against the verified index.  While the security of the process can definitely be improved, it was designed to replace other much less secure methods that are widespread."
-msgstr ""
+msgstr "Die Sicherheit des Nahtauschs baut größtenteils auf dem begrenzten Angriffsspielraum auf, da er nur über Bluetooth oder ein örtliches, auf das aktuelle Subnetz beschränktes WLAN funktioniert.  Er ist zudem nur für eine sehr begrenzte Zeit aktiv, während der Benutzer ihn unmittelbar durchführt.  Dann wird, der Dateiintegrität wegen, dem Index-Signierschlüssel bei der ersten Nutzung vertraut, danach werden alle Dateien gegen den verifizierten Index abgeglichen.  Auch wenn die Sicherheit dieses Vorgangs noch verbessert werden kann, wurde er entwickelt, um viel unsicherere, weit verbreitete Methoden zu ersetzen."
 
 #. type: Plain text
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "Ideally, all Bluetooth connections would use the native Bluetooth encryption and all IP connections would use HTTPS.  The usability issues related to adding support for those would probably make the nearby/swap feature almost useless without a very substantial chunk of work."
-msgstr ""
+msgstr "Idealerweise würden alle Bluetooth-Verbindungen die native Bluetooth-Verschlüsselung und alle IP-Verbindungen HTTPS verwenden.  Die Bedienungsprobleme, die mit einer Ergänzung, die dies unterstützt, verbunden wären, würden wahrscheinlich die Nahtausch-Funktion, ohne einen beträchtlichen Brocken Arbeit, nahezu unbrauchbar machen."
 
 #. type: Title ##
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
@@ -4770,12 +4770,12 @@ msgstr "Repomaker"
 #. type: Plain text
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "Repomaker is a web tool to make it really easy to set up your own F-Droid repositories.  It is a new project that should still be considered beta.  There was one issue with high severity ([CVE-2018-7753](https://nvd.nist.gov/vuln/detail/CVE-2018-7753))  found in an upstream library, Mozilla's [_bleach_](https://github.com/mozilla/bleach).  It was reported to Mozilla and promptly fixed.  There were three other low impact findings which have been fixed."
-msgstr ""
+msgstr "Repomaker ist ein Web-Tool, das es wirklich leicht macht, eigene F-Droid-Repositories einzurichten.  Es ist ein neues Projekt, das immer noch als eine Beta-Version angesehen werden sollte.  Es gab ein Problem mit hohem Gewicht, ([CVE-2018-7753](https://nvd.nist.gov/vuln/detail/CVE-2018-7753)) wurde in einer Upstream-Bibliothek gefunden, Mozilla's [_bleach_](https://github.com/mozilla/bleach).  Es wurde Mozilla mitgeteilt und umgehend korrigiert.  Es gab drei weitere mit geringen Auswirkungen, die behoben sind."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "[4.1.1 OTF-001 — Evasion of Bleach Sanitizer in Repomaker]({{ site.baseurl }}/docs/Second_Audit_Report/#f8-evasion-of-bleach-sanitizer-in-repomaker)"
-msgstr ""
+msgstr "[4.1.1 OTF-001 — Umgehung des Bleach Sanitizer in Repomaker]({{ site.baseurl }}/docs/Second_Audit_Report/#f8-evasion-of-bleach-sanitizer-in-repomaker)"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
@@ -4785,23 +4785,23 @@ msgstr ""
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "[4.1.30 OTF-030 — Repomaker:apk:_def_get_type Allows for Mime Type Mismatches]({{ site.baseurl }}/docs/Second_Audit_Report/#f9-repomaker-apk-_def_get_type-allows-for-mime-type-mismatches)"
-msgstr ""
+msgstr "[4.1.30 OTF-030 — Repomaker:apk:_def_get_type lässt Fehlzuordnungen des MIME-Type zu]({{ site.baseurl }}/docs/Second_Audit_Report/#f9-repomaker-apk-_def_get_type-allows-for-mime-type-mismatches)"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "[4.1.31 OTF-031 — Unsafe HTML Rendering of Arbitrary Input]({{ site.baseurl }}/docs/Second_Audit_Report/#f10-unsafe-html-rendering-of-arbitrary-input)"
-msgstr ""
+msgstr "[4.1.31 OTF-031 — Unsicheres HTML-Rendering willkürlicher Einträge]({{ site.baseurl }}/docs/Second_Audit_Report/#f10-unsafe-html-rendering-of-arbitrary-input)"
 
 #. type: Title ##
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 #, no-wrap
 msgid "Findings that are not relevant or too pedantic"
-msgstr ""
+msgstr "Befunde, die nicht relevant oder zu kleinlich sind"
 
 #. type: Plain text
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "These are issues which are not technically wrong, but are not relevant in the context of how F-Droid is using the code."
-msgstr ""
+msgstr "Dies sind Probleme, die zwar technisch gesehen zutreffend sind, die aber im Kontext, wie F-Droid den Code verwendet, irrelevant sind."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
@@ -4816,22 +4816,22 @@ msgstr ""
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "[4.1.16 OTF-016 — Missing file type and size validation]({{ site.baseurl }}/docs/Second_Audit_Report/#f34-bluetootheserver-java-file-in-response-without-size-of-type-check)"
-msgstr ""
+msgstr "[4.1.16 OTF-016 — Fehlende Validierung von Dateitypen und -größen]({{ site.baseurl }}/docs/Second_Audit_Report/#f34-bluetootheserver-java-file-in-response-without-size-of-type-check)"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "[4.1.34 OTF-034 — Missing file type and size validation]({{ site.baseurl }}/docs/Second_Audit_Report/#f30-downloader-download-file-type-and-size-are-not-verified)"
-msgstr ""
+msgstr "[4.1.34 OTF-034 — Fehlende Validierung von Dateitypen und -größen]({{ site.baseurl }}/docs/Second_Audit_Report/#f30-downloader-download-file-type-and-size-are-not-verified)"
 
 #. type: Plain text
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "The download process only downloads files to a private directory.  The file validation happens during the install process for all files.  After download, the install process validates the SHA-256 against what is in the signed file index."
-msgstr ""
+msgstr "Der Download-Vorgang lädt nur Dateien in ein privates Verzeichnis herunter.  Die Dateivalidierung geschieht während des Installationsvorgangs für alle Dateien.  Nach dem Download gleicht der Installationsprozess den SHA-256 gegenüber dem im signierten Dateiindex ab."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "[4.1.21 OTF-021 — File Deleted Unconditionally]({{ site.baseurl }}/docs/Second_Audit_Report/#f43-file-deleted-unconditionally)"
-msgstr ""
+msgstr "[4.1.21 OTF-021 — Vorbehaltslose Dateilöschung]({{ site.baseurl }}/docs/Second_Audit_Report/#f43-file-deleted-unconditionally)"
 
 #. type: Plain text
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
@@ -4851,7 +4851,7 @@ msgstr ""
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "[4.1.36 OTF-036 — Use of weak methods for data protection]({{ site.baseurl }}/docs/Second_Audit_Report/#f37-use-of-rot13-and-base64-encoding)"
-msgstr ""
+msgstr "[4.1.36 OTF-036 — Verwendung schwacher Methoden zum Schutz von Daten]({{ site.baseurl }}/docs/Second_Audit_Report/#f37-use-of-rot13-and-base64-encoding)"
 
 #. type: Plain text
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
@@ -5107,7 +5107,7 @@ msgstr "**[Mars Live Wallpaper](https://f-droid.org/app/org.covolunablu.marswall
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
 msgid "{{ page.featured }} **[miniVector](https://f-droid.org/app/com.lavadip.miniVector)**: is a minified version of **[Riot.im](https://f-droid.org/app/im.vector.alpha)**, which results in a smaller and lighter app which requires less scary permissions. It achieves this by removing Jitsi conferencing support and some smaller things. **Edit:** Note that voice and video calls are not supported in this version. Support _may_ be added back in a future version."
-msgstr ""
+msgstr "{{ page.featured }} **[miniVector](https://f-droid.org/app/com.lavadip.miniVector)**: ist eine abgespeckte Version von **[Riot.im](https://f-droid.org/app/im.vector.alpha)**, was eine kleinere und leichtere App ergibt, die weniger erschreckende Berechtigungen benötigt. Sie erreicht das durch Entfernung der Jitsi-Konferenzunterstützung und einiger kleinerer Sachen. **Nachtrag:** Zu beachten ist, dass Sprach- und Videoanrufe in dieser Version nicht unterstützt werden. Die Unterstützung wird _möglicherweise_ in einer zukünftigen Version wieder hinzugefügt."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
@@ -5158,7 +5158,7 @@ msgstr "**[Sam Remote](https://f-droid.org/app/mkg20001.net.samremote)**: Einfac
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
 msgid "**[SleepyWifi](https://f-droid.org/app/nl.devluuk.sleepywifi)**: Disables the Wi-Fi when the phone is in sleep mode"
-msgstr ""
+msgstr "**[SleepyWifi](https://f-droid.org/app/nl.devluuk.sleepywifi)**: WLAN-Abschaltung, wenn sich das Telefon im Ruhemodus befindet"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
@@ -5168,7 +5168,7 @@ msgstr "**[SyncTool](https://f-droid.org/app/theakki.synctool)**: Datensynchroni
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
 msgid "**[Tron Wallet](https://f-droid.org/app/com.eletac.tronwallet)**: Multifunctional wallet for the TRON network"
-msgstr ""
+msgstr "**[Tron Wallet](https://f-droid.org/app/com.eletac.tronwallet)**: Multifunktions-Wallet für das TRON-Netzwerk"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
@@ -5178,18 +5178,17 @@ msgstr "**[WateryDroid](https://f-droid.org/app/tmendes.com.waterydroid)**: Einf
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
 msgid "**[Web Media Share](https://f-droid.org/app/com.tobykurien.webmediashare)**: Browser for viewing, sharing, or casting media from websites"
-msgstr ""
+msgstr "**[Web Media Share](https://f-droid.org/app/com.tobykurien.webmediashare)**: Browser zum Betrachten, Teilen oder Verbreiten von Website-Medien"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
 msgid "**[Xia Express](https://f-droid.org/app/fr.ac_versailles.dane.xiaexpress)**: Create interactive images by croping zoomable details"
-msgstr ""
+msgstr "**[Xia Express](https://f-droid.org/app/fr.ac_versailles.dane.xiaexpress)**: Erzeugung interaktiver Bilder durch Zuschneiden von Details, deren Größe veränderbar ist"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
-#, fuzzy
 msgid "**[Yoke](https://f-droid.org/app/com.simonramstedt.yoke)**: Hackable gamepad for Linux"
-msgstr "[BookList](https://f-droid.org/app/com.ames.books): Inoffizieller Google Books Viewer"
+msgstr "**[Yoke](https://f-droid.org/app/com.simonramstedt.yoke)**: Gamepad für Linux, das sich hacken lässt"
 
 #. type: Plain text
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
@@ -5214,7 +5213,7 @@ msgstr "**[GPSTest](https://f-droid.org/app/com.android.gpstest.osmdroid)** ist 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
 msgid "[@ninelima](https://forum.f-droid.org/u/ninelima) reports: I am very pleased to announce release 22 of **[Kwik EFIS](https://f-droid.org/app/player.efis.pfd)** (Electronic Flight Information System) and **[DMAP](https://f-droid.org/app/player.efis.mfd)** (Digital Mapping). The product suite now has support for the [Stratux ](http://stratux.me/) devices. This allows for a very inexpensive solution to simple flight instrumentation for use in experimental aircraft. [Short article on the Stratux/Kwik integration](http://members.iinet.net.au/~ninelima/stratux/)."
-msgstr ""
+msgstr "[@ninelima](https://forum.f-droid.org/u/ninelima) berichtet: Ich freue mich, Release 22 von **[Kwik EFIS](https://f-droid.org/app/player.efis.pfd)** (Elektronisches Fluginsformationssystem) und **[DMAP](https://f-droid.org/app/player.efis.mfd)** (Digitale Kartierung) ankündigen zu können. Die Produktreihe unterstützt nun die [Stratux ](http://stratux.me/)-Geräte. Dies ermöglicht eine sehr kostengünstige Lösung für einfache Fluginstrumente zur Nutzung in experimentellen Flugzeugen. [Kurzer Artikel zur Stratux/Kwik-Integration](http://members.iinet.net.au/~ninelima/stratux/)."
 
 #. type: Plain text
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
@@ -5224,6 +5223,9 @@ msgid ""
 "  * [Kwik EFIS / Stratux - Test Flight](https://www.youtube.com/watch?v=t6Vnk_rdSzI)\n"
 "  * [Kwik EFIS / Stratux - Dual monitor test](https://www.youtube.com/watch?v=PzmiZzQZ1EE)\n"
 msgstr ""
+"  Einige Videos:\n"
+"  * [Kwik EFIS / Stratux - Test Flight](https://www.youtube.com/watch?v=t6Vnk_rdSzI)\n"
+"  * [Kwik EFIS / Stratux - Dual monitor test](https://www.youtube.com/watch?v=PzmiZzQZ1EE)\n"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
@@ -5233,12 +5235,12 @@ msgstr "**[MHGUDB](https://f-droid.org/app/com.ghstudios.android.mhgendatabase)*
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
 msgid "**[Markor](https://f-droid.org/app/net.gsantner.markor)** 1.1.0 is out. Markor is a powerful text editor for [Markdown](https://commonmark.org) and [todo.txt](http://todotxt.com) files. This release adds several new features for working with images, a list of popular files, and a virtual folder for popular & recent files. You can read about even more improvements and bug fixes in the accompanying [blog post](https://gsantner.net/blog/android/2018/09/09/markor-release-v1.1.html)."
-msgstr ""
+msgstr "**[Markor](https://f-droid.org/app/net.gsantner.markor)** 1.1.0 ist raus. Markor ist ein leistungsstarker Texteditor für [Markdown](https://commonmark.org) und [todo.txt](http://todotxt.com)-Dateien. Diese Version ergänzt einige neue Funktionen für die Arbeit mit Bildern, eine Liste beliebter Dateien und einen virtuellen Ordner für beliebte und kürzlich verwendete Dateien. Weitere Verbesserungen und Fehlerlösungen finden Sie im begleitenden [Blog-Eintrag](https://gsantner.net/blog/android/2018/09/09/markor-release-v1.1.html)."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
 msgid "**[Mastalab](https://f-droid.org/app/fr.gouv.etalab.mastodon)** was updated from 1.11.0 to 1.12.2, adding several Mastodon 2.5 features such as managing filters, hiding boosts from a specific account, and featuring other accounts on your profile. It can also now DM from profile, open toots in a browser, has improved layout for profiles with a new \"pinned\" tab, and more."
-msgstr ""
+msgstr "**[Mastalab](https://f-droid.org/app/fr.gouv.etalab.mastodon)** wurde von 1.11.0 auf 1.12.2 aktualisiert, wobei einige Besonderheiten von Mastodon 2.5 hinzugefügt wurden, wie die Filterverwaltung, das Ausblenden von Boosts von einem speziellen Account und das Herausstellen weiterer Accounts auf Ihrem Profil. Sie kann nun auch DM aus dem Profil, Toots in einem Browser öffnen, hat ein verbessertes Layout für Profile mit einem neuen, \"angehefteten\" Tab und mehr."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
@@ -5248,18 +5250,18 @@ msgstr "**[Mi Manga Nu](https://f-droid.org/app/ar.rulosoft.mimanganu)** lässt 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
 msgid "**[NewPipe](https://f-droid.org/app/org.schabi.newpipe)** had two updates during this period. First off, 0.14.0 was released featuring a more customizable main page and different UI and UX tweaks including a reworked navigation drawer, drag and drop to close the popup / pip mode and much more. For more info you can [check the blog post](https://newpipe.schabi.org/blog/release/pinned/newpipe-0.14.0-released/)."
-msgstr ""
+msgstr "**[NewPipe](https://f-droid.org/app/org.schabi.newpipe)** hatte in diesem Zeitraum zwei Updates. Zunächst wurde 0.14.0 veröffentlicht, herauszustellen sind dabei eine besser zu personalisierende Hauptseite und verschiedene Anpassungen der Benutzeroberfläche und Bedienung, einschließlich einem überarbeiteten Navigationsauszug, das Drag-and-Drop, um den Popup-/ Pip-Modus zu schließen und noch viel mehr. Weitere Informationen dazu finden Sie im [Blog-Post](https://newpipe.schabi.org/blog/release/pinned/newpipe-0.14.0-released/)."
 
 #. type: Plain text
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
 #, no-wrap
 msgid "  On the heels of that comes the 0.14.1 hotfix, which fixes NewPipe after a change on YouTube's side basically [broke everything](https://forum.f-droid.org/t/help-fail-newspipe-why/3800). Also includes a fix for long links in video descriptions.\n"
-msgstr ""
+msgstr "  Direkt auf dessen Fersen folgte der Hotfix 0.14.1, der NewPipe reparierte, nachdem eine Änderung auf der YouTube-Seite im Grunde [alles zerstörte](https://forum.f-droid.org/t/help-fail-newspipe-why/3800). Er enthält auch einen Fix für lange Links in Videobeschreibungen.\n"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
 msgid "We now have **[OsmAnd~](https://f-droid.org/app/net.osmand.plus)** 3.2 beta in the repo which is supposed to fix Android 8 rendering performance issues, and fixes a crash on startup that occurred with non-latin maps. This update won't be automatically suggested to you unless you have \"Unstable updates\" enabled in the F-Droid app, but you can expand the \"Versions\" tab and install it manually. Note that this is a beta version: proceed at your own risk."
-msgstr ""
+msgstr "Wir haben jetzt **[OsmAnd~](https://f-droid.org/app/net.osmand.plus)** 3.2 beta im Repo, das beabsichtigt, die Rendering-Leistungsprobleme auf Android 8 zu beheben und einen Absturz nach dem Start beseitigt, der bei Karten in nicht-lateinischer Schrift auftrat. Es werden Ihnen keine automatischen Updates angeboten, außer Sie haben in der F-Droid-App die \"Instabilen Aktualisierungen\" aktiviert, Sie können aber die \"Versionen\" ausklappen und sie manuell installieren. Beachten Sie, dass dies eine Beta-Version ist: fahren Sie auf eigenes Risiko fort."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
@@ -5280,15 +5282,15 @@ msgstr "Haben Sie wichtige Updates einer App, über die wir schreiben sollten? S
 
 #. type: Title #
 #: build/_posts/md/2018-09-21-twif-22-servers-edition.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "\"TWIF 22: Servers Edition\""
-msgstr "\"TWIF 13: ÖPNV-Edition\""
+msgstr "\"TWIF 22: Server-Ausgabe\""
 
 #. type: Plain text
 #: build/_posts/md/2018-09-21-twif-22-servers-edition.md
 #, no-wrap
 msgid "This Week In F-Droid 22, Week 38, 2018 <a href=\"{{ site.baseurl }}/feed.xml\"><img src=\"{{ site.baseurl }}/assets/Feed-icon-16x16.png\" alt=\"Feed\"></a>\n"
-msgstr ""
+msgstr "Diese Woche in F-Droid 22, Woche 38, 2018 <a href=\"{{ site.baseurl }}/feed.xml\"><img src=\"{{ site.baseurl }}/assets/Feed-icon-16x16.png\" alt=\"Feed\"></a>\n"
 
 #. type: Plain text
 #: build/_posts/md/2018-09-21-twif-22-servers-edition.md
@@ -5297,18 +5299,20 @@ msgid ""
 "In this edition: Buildserver ready to upgrade to Stretch, SET Anti-Feature bug, hosted basebox images, pretty fdroiddata graphs, Rocket.Chat finally lands, and 68 updated apps including Mastalab.\n"
 "<!--more-->\n"
 msgstr ""
+"In dieser Ausgabe: Buildserver bereit für ein Upgrade auf Stretch, der SET-Fehler für Anti-Features, gehostete Basebox Images, hübsche fdroiddata-Grafiken, Rocket.Chat landet endlich und 68 aktualisierte Apps, einschließlich Mastalab.\n"
+"<!--more-->\n"
 
 #. type: Title ####
 #: build/_posts/md/2018-09-21-twif-22-servers-edition.md
 #, no-wrap
 msgid "Buildserver upgrade to _Debian Stretch_ nearing completion"
-msgstr ""
+msgstr "Buildserver-Upgrade auf _Debian Stretch_ nähert sich dem Abschluss"
 
 #. type: Plain text
 #: build/_posts/md/2018-09-21-twif-22-servers-edition.md
 #, no-wrap
 msgid "**[@uniqx](https://forum.f-droid.org/u/uniqx)**'s big buildserver update to Stretch has been merged, and has been successfully validated on [jenkins.debian.net](https://jenkins.debian.net/job/reproducible_fdroid_build_apps/). **[@CiaranG](https://ciarang.com)** has indicated that he is ready to update, so this will go live on our production buildserver very soon! This is a _huge_ upgrade that we've been working towards for a long time. Once it's in, it should be easier for us to add apps (less complicated recipes), and allow us to include more apps that we were previously unable to build.\n"
-msgstr ""
+msgstr "**[@uniqx](https://forum.f-droid.org/u/uniqx)**'s großes Buildserver-Update auf Stretch wurde eingespielt und auf [jenkins.debian.net](https://jenkins.debian.net/job/reproducible_fdroid_build_apps/) erfolgreich validiert. **[@CiaranG](https://ciarang.com)** hat angedeutet, dass er bereit ist zu aktualisieren, somit wird es sehr bald auf unserem Produktions-Buildserver in Betrieb gehen! Dies ist ein _riesiges_ Upgrade, auf das wir seit langer Zeit hingearbeitet haben. Sobald es steht, sollte es für uns leichter sein, Apps hinzuzufügen (weniger komplizierte Rezepte), und es sollte uns ermöglichen, weitere Apps, die wir zuvor nicht herstellen konnten, aufzunehmen.\n"
 
 #. type: Title ####
 #: build/_posts/md/2018-09-21-twif-22-servers-edition.md
@@ -5503,46 +5507,43 @@ msgstr ""
 #: build/_posts/md/2018-09-27-twif-23-successful-update-to-stretch.md
 #, no-wrap
 msgid "New F-Droid sweatshirts coming"
-msgstr ""
+msgstr "Die neuen F-Droid-Sweatshirts kommen"
 
 #. type: Plain text
 #: build/_posts/md/2018-09-27-twif-23-successful-update-to-stretch.md
 #, no-wrap
 msgid "<span style=\"font-variant: small-caps; text-transform: lowercase;\">Hellotux</span>, whom you may remember from [TWIF 15]({{ site.baseurl }}{% post_url 2018-08-03-twif-15-announcing-f-droid-1-3 %}), is bringing new [F-Droid sweatshirts](https://www.hellotux.com/f-droid) on-line. These should be available soon, in addition to the T-shirts and polo shirts already for sale. Remember that F-Droid gets €3 for every shirt sold!\n"
-msgstr ""
+msgstr "<span style=\"font-variant: small-caps; text-transform: lowercase;\">Hellotux</span>, an den Sie sich vielleicht aus dem [TWIF 15]({{ site.baseurl }}{% post_url 2018-08-03-twif-15-announcing-f-droid-1-3 %}) erinnern, bringt neue [F-Droid-Sweatshirts](https://www.hellotux.com/f-droid) heraus. Sie sollten bald zur Verfügung stehen, zusätzlich zu den T-Shirts und Polos, die bereits zum Verkauf angeboten werden. Denken Sie daran, dass F-Droid für jedes verkaufte Shirt €3 erhält!\n"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-27-twif-23-successful-update-to-stretch.md
-#, fuzzy
 msgid "**[MatLog Libre](https://f-droid.org/app/com.pluscubed.matloglibre)**: Material Design logcat reader based on CatLog"
-msgstr "[MaterialOS](https://f-droid.org/app/org.materialos.icons): Material-Design-Symbole für Ihre Startseite"
+msgstr "**[MatLog Libre](https://f-droid.org/app/com.pluscubed.matloglibre)**: Auf CatLog basierender Logcat-Reader im Material Design"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-27-twif-23-successful-update-to-stretch.md
-#, fuzzy
 msgid "**[BatteryFu](https://f-droid.org/app/com.tobykurien.batteryfu)**: Battery saving"
-msgstr "**[wownerujo](https://f-droid.org/app/com.wownero.wownerujo)**: Wownero-Börse"
+msgstr "**[BatteryFu](https://f-droid.org/app/com.tobykurien.batteryfu)**: Energieeinsparung"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-27-twif-23-successful-update-to-stretch.md
 msgid "**[EtchDroid](https://f-droid.org/app/eu.depau.etchdroid)**: An application that helps you write images to USB drives, no root required"
-msgstr ""
+msgstr "**[EtchDroid](https://f-droid.org/app/eu.depau.etchdroid)**: Eine Anwendung, die dabei hilft, Images auf USB-Laufwerke zu schreiben. Root-Rechte sind nicht erforderlich."
 
 #. type: Plain text
 #: build/_posts/md/2018-09-27-twif-23-successful-update-to-stretch.md
-#, fuzzy
 msgid "In total, **{{ page.number_of_updated_apps }}** apps were updated this week. Here are the highlights:"
-msgstr "Insgesamt wurden diese Woche **61** Apps aktualisiert. Hier die Höhepunkte:"
+msgstr "Insgesamt wurden diese Woche **{{ page.number_of_updated_apps }}** Apps aktualisiert. Hier die Höhepunkte:"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-27-twif-23-successful-update-to-stretch.md
 msgid "**[ICSdroid](https://f-droid.org/app/at.bitfire.icsdroid)** fetches remote iCalendar files (like your school/university time tables, or events of your favorite sports team) and synchronizes them into local, read-only Android calendars. No other data is transferred; there are no accounts and no logins. This update to 1.6 brings better support for large calendars, and various minor improvements."
-msgstr ""
+msgstr "**[ICSdroid](https://f-droid.org/app/at.bitfire.icsdroid)** bezieht iCalendar-Dateien (wie Schul-/Universitätsstundenpläne oder Termine des Lieblingssportklubs) aus dem Netz und synchronisiert sie schreibgeschützt mit den lokalen Android-Kalendern. Es werden keine weiteren Daten übertragen; es gibt keine Konten oder Logins. Diese Aktualisierung auf 1.6 enthält eine bessere Unterstützung großer Kalender und einige kleinere Verbesserungen."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-27-twif-23-successful-update-to-stretch.md
 msgid "{{ page.major }} **[Music Player GO](https://f-droid.org/app/com.iven.musicplayergo)** had a major update to 3.0.0 and then some, bringing it up to 3.1.1. [Changes](https://github.com/enricocid/Music-Player-GO/releases) are unclear."
-msgstr ""
+msgstr "{{ page.major }} **[Music Player GO](https://f-droid.org/app/com.iven.musicplayergo)** bekam ein wichtiges Update auf 3.0.0 und dann eines auf 3.1.1. [Die Änderungen](https://github.com/enricocid/Music-Player-GO/releases) sind unklar."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-27-twif-23-successful-update-to-stretch.md
