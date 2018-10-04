@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-09-29 23:05-0500\n"
-"PO-Revision-Date: 2018-10-03 19:28+0000\n"
+"PO-Revision-Date: 2018-10-07 19:27+0000\n"
 "Last-Translator: C. Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\n"
 "Language: de\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.2-dev\n"
+"X-Generator: Weblate 3.2\n"
 
 #. type: Title #
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md
@@ -4625,17 +4625,17 @@ msgstr ""
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "[4.1.4 OTF-004 — Infoleak in Fdroidserver Checkupdates.py]({{ site.baseurl }}/docs/Second_Audit_Report/#f25-infoleak-in-fdroidserver-checkupdates-py)"
-msgstr ""
+msgstr "[4.1.4 OTF-004 — Datenleck in Fdroidserver Checkupdates.py]({{ site.baseurl }}/docs/Second_Audit_Report/#f25-infoleak-in-fdroidserver-checkupdates-py)"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "[4.1.5 OTF-005 — Code Injection in Fdroidserver Checkupdates Through Eval'ed User Supplied Data]({{ site.baseurl }}/docs/Second_Audit_Report/#f26-code-injection-in-fdroidserver-checkupdates-py-through-eval--ed-user-supplied-data)"
-msgstr ""
+msgstr "[4.1.5 OTF-005 — Codeeinschleußung in Fdroidserver Checkupdates durch Auswertung der vom Benutzer gelieferten Daten]({{ site.baseurl }}/docs/Second_Audit_Report/#f26-code-injection-in-fdroidserver-checkupdates-py-through-eval--ed-user-supplied-data)"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "[4.1.6 OTF-006 — Code Injection Via Malicious Appid in Fdroidserver Build.py]({{ site.baseurl }}/docs/Second_Audit_Report/#f27-code-injection-via-malicious-appid-in-fdroidserver-build-py)"
-msgstr ""
+msgstr "[4.1.6 OTF-006 — Codeeinschleußung über böswillige App-ID in Fdroidserver Build.py]({{ site.baseurl }}/docs/Second_Audit_Report/#f27-code-injection-via-malicious-appid-in-fdroidserver-build-py)"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
@@ -4698,68 +4698,69 @@ msgstr ""
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 #, no-wrap
 msgid "Experimental drozer integration"
-msgstr ""
+msgstr "Experimentelle Drozer-Integration"
 
 #. type: Plain text
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "As part of the Bazaar2 funding, an experimental feature for integrating Drozer into the fdroid release project was built.  This feature is still alpha and is not deployed on any production setup.  These issues are real issues, but there are no plans to fix them currently since there are no plans to move forward with the Drozer integration.  We welcome contributions by those who want to see that happen."
-msgstr ""
+msgstr "Als Teil der Bazaar2-Förderung, wurde ein experimentelles Feature zur Integration von Drozer in das F-Droid-Projekt programmiert.  Dieses Feature befindet sich immer noch im Alpha-Stadium und kommt in keiner Produktionseinrichtung zur Anwendung.  Diese Angelegenheiten sind echte Probleme, aber es gibt derzeit keine Pläne, sie zu lösen, da es keine Pläne gibt, die Drozer-Integration weiter voranzutreiben. Wir begrüßen Beiträge von denjenigen, die gerne sähen, dass das geschieht."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "[4.1.2 OTF-002 — Shell Code Injection Via Malicious Appids Into Fdroidserver]({{ site.baseurl }}/docs/Second_Audit_Report/#f14-shell-code-injection-via-malicious-appids-into-fdroidserver)"
-msgstr ""
+msgstr "[4.1.2 OTF-002 — Shell-Codeeinschleußung über heimtückische App-IDs in Fdroidserver]({{ site.baseurl }}/docs/Second_Audit_Report/#f14-shell-code-injection-via-malicious-appids-into-fdroidserver)"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "[4.1.14 OTF-014 — Insecure Usage of Temporary File/Directory in Fdroidserver Docker/drozer.py]({{ site.baseurl }}/docs/Second_Audit_Report/#f17-insecure-usage-of-temporary-file-directory-in-fdroidserver-docker-drozer-py)"
-msgstr ""
+msgstr "[4.1.14 OTF-014 — Unsicherer Gebrauch temporärer Dateien/Verzeichnisse in Fdroidserver Docker/drozer.py]({{ site.baseurl }}/docs/Second_Audit_Report/#f17-insecure-usage-of-temporary-file-directory-in-fdroidserver-docker-drozer-py)"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "[4.1.32 OTF-032 — Starting a Process With a Partial Executable Path]({{ site.baseurl }}/docs/Second_Audit_Report/#f19-starting-a-process-with-a-partial-executable-path)"
-msgstr ""
+msgstr "[4.1.32 OTF-032 — Prozessstart mit einem partiell ausführbaren Pfad]({{ site.baseurl }}/docs/Second_Audit_Report/#f19-starting-a-process-with-a-partial-executable-path)"
 
 #. type: Title ##
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 #, no-wrap
 msgid "_f-droid.org_ website"
-msgstr ""
+msgstr "_f-droid.org_-Internetseite"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "[4.1.7 OTF-007 — Javascript Injection Into HTMLified Descriptions in Fdroidserver Metadata]({{ site.baseurl }}/docs/Second_Audit_Report/#f29-javascript-injection-into-htmlified-package-descriptions-in-fdroidserver-metadata-py)"
-msgstr ""
+msgstr "[4.1.7 OTF-007 — JavaScript-Einschleußung in in HTML umgewandelte Beschreibungen in Fdroidserver Metadata]({{ site.baseurl }}/docs/Second_Audit_Report/#f29-javascript-injection-into-htmlified-package-descriptions-in-fdroidserver-metadata-py)"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
+#, fuzzy
 msgid "[4.1.11 OTF-011 — Weak Regexps Filtering XSS and Unwanted HTML Tags in Fdroidserver/lint.py]({{ site.baseurl }}/docs/Second_Audit_Report/#f12-weak-regexps-filtering-xss-and-unwanted-html-tags-in-fdroidserver-lint-py)"
-msgstr ""
+msgstr "[4.1.11 OTF-011 — Schwache Filterung regulärer Ausdrücke hinsichtlich XSS und unerwünschte HTML-Tags in Fdroidserver/lint.py]({{ site.baseurl }}/docs/Second_Audit_Report/#f12-weak-regexps-filtering-xss-and-unwanted-html-tags-in-fdroidserver-lint-py)"
 
 #. type: Plain text
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "Moving the whole website from Wordpress to a statically generated site paid large security dividends, there were no actionable issues found with the website.  While both findings are correct in that malicious Javascript could be injected into descriptions, both the _f-droid.org_ website and Android client do not let Javascript run from the descriptions.  The _f-droid.org_ website protects against malicious Javascript injection with a [strict HTTP Content Security Policy](https://observatory.mozilla.org/analyze.html?host=f-droid.org).  F-Droid client never runs CSS, Javascript, or dangerous HTML tags since it displays the HTML via [`Html.fromHtml()`](https://gitlab.com/fdroid/fdroidclient/blob/1.3.1/app/src/main/java/org/fdroid/fdroid/views/AppDetailsRecyclerViewAdapter.java#L441)  with image loading disabled."
-msgstr ""
+msgstr "Die Verschiebung der gesamten Internetseite von Wordpress auf eine statisch generierte Site zahlte sich durch eine hohe Sicherheitsdividende aus, es wurden keine bearbeitungsbedürftigen Probleme auf der Internetseite gefunden. Auch wenn beide Befunde dahingehend richtig sind, dass böswilliges JavaScript in die Beschreibungen einfließen könnte, lassen weder die _f-droid.org_-Internetseite noch der Android-Client eine Ausführung von JavaScript aus den Beschreibungen heraus zu. Die _f-droid.org_-Website schützt sich gegen eine heimtückische JavaScript-Einschleußung durch eine [strenge Sicherheitsrichtlinie für HTTP-Inhalte](https://observatory.mozilla.org/analyze.html?host=f-droid.org).  Der F-Droid-Client führt niemals CSS, JavaScript, oder gefährliche HTML-Tags aus, da er das HTML über [`Html.fromHtml()`](https://gitlab.com/fdroid/fdroidclient/blob/1.3.1/app/src/main/java/org/fdroid/fdroid/views/AppDetailsRecyclerViewAdapter.java#L441) anzeigt, bei der das Laden von Bildern deaktiviert ist."
 
 #. type: Plain text
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "Ideally, the index generation process in `fdroid update` would have robust CSS/HTML/Javascript checks so malicious injection is prevented by both the index providers and consumers.  This would increase the \"herd immunity\" of everyone working with data generated using any of the F-Droid tools."
-msgstr ""
+msgstr "Im Idealfall enthielte der Index-Erzeugungsprozess in `fdroid update` robuste CSS/HTML/Javascript-Prüfungen, damit eine böswillige Einschleußung sowohl durch die Index-Lieferanten wie auch die Konsumenten verhindert wird.  Dies würde zu einer Stärkung der \"Herdenimmunität\" führen, für jeden, der mit Daten arbeitet, die durch Verwendung irgendeines F-Droid-Tools erzeugt wurden."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "[4.1.37 OTF-037 — Untrusted External Links]({{ site.baseurl }}/docs/Second_Audit_Report/#f38-untrusted-external-links)"
-msgstr ""
+msgstr "[4.1.37 OTF-037 — Nicht vertrauenswürdige externe Links]({{ site.baseurl }}/docs/Second_Audit_Report/#f38-untrusted-external-links)"
 
 #. type: Plain text
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "The links are only displayed in the \"Links\" section.  Since there is a human review of those URLs, and those URLs are committed to git, we have left those to be open without validation. There are also other URLs like home page, issue tracker, etc.  I suppose we should show the full URL in the UI if they don't match a well known pattern.  Google Play also includes a link to a website that the app author provides."
-msgstr ""
+msgstr "Die Verknüpfungen werden nur im \"Links\"-Abschnitt angezeigt.  Nachdem eine Überprüfung jener URLs von Menschenhand stattfindet und diese URLs Commits in git sind, ließen wir sie ohne Absicherung geöffnet. Es gibt darüberhinaus weitere URLs, wie die Homepage, Issue Tracker usw.  Ich glaube, wir sollten die komplette URL auf der Benutzeroberfläche einblenden, wenn sie nicht geläufigen Mustern folgt.  Auch Google Play enthält einen Link zu einer Internetseite, die der Autor einer App anbietet."
 
 #. type: Plain text
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "One idea for improvement here would be to scan these URLs with the Google Safe Browsing API."
-msgstr ""
+msgstr "Ein Verbesserungsvorschlag dazu wäre ein Scan dieser URLs mittels der Google Safe Browsing API."
 
 #. type: Title ##
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
@@ -4806,12 +4807,12 @@ msgstr "Dies sind Probleme, die zwar technisch gesehen zutreffend sind, die aber
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "[4.1.8 OTF-008 — Unvalidated User Input Included in Response]({{ site.baseurl }}/docs/Second_Audit_Report/#f33-bluetoothserver-java-request-uri-included-in-response)"
-msgstr ""
+msgstr "[4.1.8 OTF-008 — In die Antwort eingebundene, unvalidierte Benutzereingaben]({{ site.baseurl }}/docs/Second_Audit_Report/#f33-bluetoothserver-java-request-uri-included-in-response)"
 
 #. type: Plain text
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "The _BluetoothServer_ is only ever used to serve files to F-Droid client's Bluetooth handling, which is nothing like a browser and definitely does not execute HTML/CSS/Javascript or display websites.  It would not be possible to ever display this information in a browser without custom code in to receive it."
-msgstr ""
+msgstr "Der _BluetoothServer_ wird einzig und allein dazu genutzt, Dateien an die Bluetooth-Verarbeitung des F-Droid-Clients zu liefern, was mit einem Browser nichts zu tun hat. Er führt definitiv kein HTML/CSS/Javascript aus und zeigt keine Webseiten an.  Ohne eigens in ihm erstellten Code, der diese Informationen empfängt, wäre es niemals möglich, sie in einem Browser anzuzeigen."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
@@ -4872,7 +4873,7 @@ msgstr ""
 #: build/_posts/md/2018-09-06-twif-20-security-audit-completed-buildserver-setup-with-ansible.md
 #, no-wrap
 msgid "\"TWIF 20: Security audit completed, buildserver setup with ansible\""
-msgstr ""
+msgstr "\"TWIF 20: Sicherheitsaudit abgeschlossen, Buildserver-Einrichtung mit Ansible\""
 
 #. type: Plain text
 #: build/_posts/md/2018-09-06-twif-20-security-audit-completed-buildserver-setup-with-ansible.md
@@ -5004,7 +5005,7 @@ msgstr "Ein allgemeines Feedback kann ebenfalls über Mastodon abgegeben werden 
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
 #, no-wrap
 msgid "\"TWIF 21: VMs Donated and Tor Browser goes Android\""
-msgstr "\"TWIF 21: VMs spendeten und Tor Browser geht zu Android\""
+msgstr "\"TWIF 21: Gespendete VMs und Tor Browser geht zu Android\""
 
 #. type: Plain text
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
@@ -5025,28 +5026,28 @@ msgstr ""
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
 #, no-wrap
 msgid "Tor Browser moving to officially support Android"
-msgstr ""
+msgstr "Tor Browser schiebt die offizielle Android-Unterstützung an"
 
 #. type: Plain text
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
 msgid "The Tor Project [has released an alpha of Tor Browser for Android](https://blog.torproject.org/new-alpha-release-tor-browser-android) for the first time ever. It's available on [Tor Project's downloads page](https://www.torproject.org/projects/torbrowser.html.en#downloads-alpha) and Google Play for now, but the possibilities of bringing it to F-Droid [are being explored](https://trac.torproject.org/projects/tor/ticket/27539). This is especially relevant as Orfox (from the builtin but not-enabled-by-default Guardian repository) will be sunsetted."
-msgstr ""
+msgstr "Erstmalig hat das Tor Project [eine Alpha des Tor Browser für Android veröffentlicht](https://blog.torproject.org/new-alpha-release-tor-browser-android). Bis jetzt ist sie auf der [Download-Seite des Tor Project](https://www.torproject.org/projects/torbrowser.html.en#downloads-alpha) und Google Play erhältlich, aber die Möglichkeiten, sie auf F-Droid zu bringen, [werden gerade untersucht](https://trac.torproject.org/projects/tor/ticket/27539). Das ist insbesondere relevant, da Orfox (aus dem integrierten, aber nicht standardmäßig aktivierten Guardian Repository) in den Ruhestand geschickt wird."
 
 #. type: Title ####
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
 #, no-wrap
 msgid "F-Droid receives a donation of two big VMs"
-msgstr ""
+msgstr "F-Droid erhält eine Spende über zwei große VMs"
 
 #. type: Plain text
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
 msgid "We had two big VMs donated to us by [Pretty Easy Privacy](https://www.pep.security). They have been delivered, and **[@\\_hc](https://forum.f-droid.org/u/hans)** and **@uniq** have been trying them out. More later."
-msgstr ""
+msgstr "Es wurden uns von [Pretty Easy Privacy](https://www.pep.security) zwei große VMs gespendet. Sie wurden ausgeliefert und **[@\\_hc](https://forum.f-droid.org/u/hans)** sowie **@uniq** haben sie ausprobiert. Später mehr."
 
 #. type: Plain text
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
 msgid "We have a whopping 28 new apps for you to try this week!"
-msgstr ""
+msgstr "Diese Woche gibt es kolossale 28 neue Apps zum Ausprobieren für Sie!"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
@@ -5056,7 +5057,7 @@ msgstr "**[9P](https://f-droid.org/app/se.tube42.p9.android)**: Wort-Puzzle"
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
 msgid "**[Aalener Optik-Formelrechner](https://f-droid.org/app/de.HS_Aalen.don)**: German-only app for doing optical calculations"
-msgstr ""
+msgstr "**[Aalener Optik-Formelrechner](https://f-droid.org/app/de.HS_Aalen.don)**: Ausschließlich deutschsprachige App, um optische Berechnungen zu erledigen"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
@@ -5066,7 +5067,7 @@ msgstr ""
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
 msgid "**[Character Recognition](https://f-droid.org/app/org.atai.TessUI)**: Extract text from images"
-msgstr ""
+msgstr "**[Character Recognition](https://f-droid.org/app/org.atai.TessUI)**: Text aus Bildern extrahieren"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
@@ -5076,12 +5077,12 @@ msgstr "**[Custom Search](https://f-droid.org/app/tyagi.shubham.customsearch)**:
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
 msgid "**[Emerald Dialer](https://f-droid.org/app/ru.henridellal.dialer)** is a lightweight dialer which has T9 search and two themes. This application was made because **[Dialer2](https://f-droid.org/app/org.dnaq.dialer2)** is a bit outdated."
-msgstr ""
+msgstr "**[Emerald Dialer](https://f-droid.org/app/ru.henridellal.dialer)** ist ein schlankes Wählprogramm mit T9-Suche und zwei Designs. Diese Anwendung wurde geschaffen, weil **[Dialer2](https://f-droid.org/app/org.dnaq.dialer2)** ein bisschen altmodisch ist."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
 msgid "**[Get Off Your Phone](https://f-droid.org/app/com.nephi.getoffyourphone)**: Control procrastination with an app locker"
-msgstr ""
+msgstr "**[Get Off Your Phone](https://f-droid.org/app/com.nephi.getoffyourphone)**: Prokrastination mit einer App-Sperre beherrschen"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
@@ -5097,7 +5098,7 @@ msgstr "**[LTE Cleaner (FOSS)](https://f-droid.org/app/theredspy15.ltecleanerfos
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
 msgid "**[Light Android Launcher](https://f-droid.org/app/com.github.postapczuk.lalauncher)**: Lightweight app launcher"
-msgstr ""
+msgstr "**[Light Android Launcher](https://f-droid.org/app/com.github.postapczuk.lalauncher)**: Leichtgewichtige Start-App"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
@@ -5318,110 +5319,106 @@ msgstr "**[@uniqx](https://forum.f-droid.org/u/uniqx)**'s großes Buildserver-Up
 #: build/_posts/md/2018-09-21-twif-22-servers-edition.md
 #, no-wrap
 msgid "SET Anti-Feature bug"
-msgstr ""
+msgstr "Unerwünschtes Merkmal \"SET\""
 
 #. type: Plain text
 #: build/_posts/md/2018-09-21-twif-22-servers-edition.md
 msgid "We've had many reports that random apps started sprouting a mysterious \"SET\" Anti-Feature, sometimes even more than one! It is a mistake and should not be there.  We are well aware of this bug now, so thank you for your all reports. ;) The fix is tested and just waiting to be deployed. You can read about the gory details in [issue 565](https://gitlab.com/fdroid/fdroidserver/issues/565)."
-msgstr ""
+msgstr "Wir haben viele Berichte darüber erhalten, dass bei x-beliebigen Apps das Wachstum eines mysteriösen Anti-Features \"SET\" einsetzte, in manchen Fällen sogar mehr als einmal! Es ist ein Fehler und sollte da nicht stehen.  Wir sind uns dieses Fehlers inzwischen sehr wohl bewusst, besten Dank also für alle Meldungen. ;) Die Korrektur ist getestet und wartet gerade auf ihre Umsetzung. Die schmutzigen Details dazu erfahren Sie in [Issue 565](https://gitlab.com/fdroid/fdroidserver/issues/565)."
 
 #. type: Title ####
 #: build/_posts/md/2018-09-21-twif-22-servers-edition.md
 #, no-wrap
 msgid "Basebox images hosted by Vagrant"
-msgstr ""
+msgstr "Von Vagrant gehostete Basebox-Images"
 
 #. type: Plain text
 #: build/_posts/md/2018-09-21-twif-22-servers-edition.md
 msgid "We now have some [pre-built basebox images](https://app.vagrantup.com/fdroid/) up for you to play with! These are graciously hosted by Vagrant, and should make setting up your own buildserver a lot easier."
-msgstr ""
+msgstr "Wir haben jetzt einige [vorkonfigurierte Basebox-Images](https://app.vagrantup.com/fdroid/) für Sie herausgebracht, um damit zu spielen! Diese werden großzügigerweise von Vagrant gehostet und sollten die Einrichtung eines eigenen Buildservers erheblich vereinfachen."
 
 #. type: Title ####
 #: build/_posts/md/2018-09-21-twif-22-servers-edition.md
 #, no-wrap
 msgid "Fdroiddata statistics"
-msgstr ""
+msgstr "Fdroiddata-Statistiken"
 
 #. type: Plain text
 #: build/_posts/md/2018-09-21-twif-22-servers-edition.md
 #, no-wrap
 msgid "**[@\\_hc](https://forum.f-droid.org/u/hans)** has made some [pretty graphs](https://fdroid.gitlab.io/fdroiddata/) for you to look at! This is is a visualisation of our [fdroiddata](https://gitlab.com/fdroid/fdroiddata) repository, which contains all our app metadata. It is interesting to see that the number of new files has been steadily rising, even though the total commits per year has actually gone down. This could well mean that we have gotten more efficient, according to **[@\\_hc](https://forum.f-droid.org/u/hans)**.\n"
-msgstr ""
+msgstr "**[@\\_hc](https://forum.f-droid.org/u/hans)** hat einige [hübsche Grafiken](https://fdroid.gitlab.io/fdroiddata/) für Sie erstellt, die Sie sich ansehen können! Sie sind eine Visualisierung unseres [fdroiddata](https://gitlab.com/fdroid/fdroiddata)-Repository, das alle unsere App-Metadaten enthält. Es ist interessant zu sehen, dass die Zahl neuer Dateien kontinuierlich anwächst, obwohl die Gesamtzahl der Commits pro Jahr eigentlich zurückgeht. Laut **[@\\_hc](https://forum.f-droid.org/u/hans)** könnte das sehr wohl bedeuten, dass wir effizienter geworden sind.\n"
 
 #. type: Plain text
 #: build/_posts/md/2018-09-21-twif-22-servers-edition.md
 msgid "It is scheduled to update once a week."
-msgstr ""
+msgstr "Es ist geplant, sie einmal in der Woche zu aktualisieren."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-21-twif-22-servers-edition.md
 msgid "**[Rocket.Chat](https://f-droid.org/app/chat.rocket.android)** is in! We've mentioned this briefly in [TWIF 16]({{ site.baseurl }}{% post_url 2018-08-10-twif-16-the-note-taking-todo-text-editor-edition %}#community-news), and now **[@Bubu](https://forum.f-droid.org/u/Bubu)**'s work is paying off even as he is on vacation."
-msgstr ""
+msgstr "**[Rocket.Chat](https://f-droid.org/app/chat.rocket.android)** ist drin! Wir hatten das kurz im [TWIF 16]({{ site.baseurl }}{% post_url 2018-08-10-twif-16-the-note-taking-todo-text-editor-edition %}#community-news) erwähnt und nun zahlt sich **[@Bubu](https://forum.f-droid.org/u/Bubu)**s Arbeit aus, obwohl er gerade in Urlaub ist."
 
 #. type: Plain text
 #: build/_posts/md/2018-09-21-twif-22-servers-edition.md
 #, no-wrap
 msgid "  Note that the app is without push notifications right now, so you'll have to enter the app to see if there's anything new. The developers seem to be interested in exploring non-[FCM](https://en.wikipedia.org/wiki/Firebase_Cloud_Messaging) push though. Maybe they can take inspiration from [Tutanota's solution]({{ site.baseurl }}{% post_url 2018-09-03-replacing-gcm-in-tutanota %}).\n"
-msgstr ""
+msgstr "  Zu beachten ist, dass die App im Augenblick keine Push-Benachrichtigungen enthält, somit müssen Sie die App öffnen, um zu sehen, ob es etwas Neues gibt. Die Entwickler scheinen aber daran interessiert zu sein, Push ohne [FCM](https://en.wikipedia.org/wiki/Firebase_Cloud_Messaging) zu realisieren. Möglicherweise kann [Tutanota's Lösung]({{ site.baseurl }}{% post_url 2018-09-03-replacing-gcm-in-tutanota %}) eine Inspiration für sie sein.\n"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-21-twif-22-servers-edition.md
 msgid "**[Neural Network Simulator](https://f-droid.org/app/com.EthanHeming.NeuralNetworkSimulator)**: Educational tool to learn about computational neuroscience and electrophysology"
-msgstr ""
+msgstr "**[Neural Network Simulator](https://f-droid.org/app/com.EthanHeming.NeuralNetworkSimulator)**: Lehrmittel zum Lernen von computergestützer Neurowissenschaft und Elektrophysiologie"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-21-twif-22-servers-edition.md
 msgid "**[Aria2Android](https://f-droid.org/app/com.gianlu.aria2android)**: With Aria2Android you can run a real aria2, an open source download manager, executable on your device."
-msgstr ""
+msgstr "**[Aria2Android](https://f-droid.org/app/com.gianlu.aria2android)**: Mit Aria2Android können Sie mit einem echten Aria2 arbeiten, einem auf Ihrem Gerät ausführbaren Open-Source-Download-Manager."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-21-twif-22-servers-edition.md
 msgid "**[Syncthing-Fork](https://f-droid.org/app/com.github.catfriend1.syncthingandroid)**: File synchronization"
-msgstr ""
+msgstr "**[Syncthing-Fork](https://f-droid.org/app/com.github.catfriend1.syncthingandroid)**: Dateisynchronisation"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-21-twif-22-servers-edition.md
-#, fuzzy
 msgid "**[BMI Calculator](https://f-droid.org/app/com.github.characterdog.bmicalculator)**: Simple BMI calculator"
-msgstr "[Binaural Beats](https://f-droid.org/app/com.github.axet.binauralbeats): Meditationshelfer"
+msgstr "**[BMI Calculator](https://f-droid.org/app/com.github.characterdog.bmicalculator)**: Einfacher BMI-Rechner"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-21-twif-22-servers-edition.md
-#, fuzzy
 msgid "**[Lobsters App](https://f-droid.org/app/com.nikhiljha.lobstersapp)**: An app for lobste.rs"
-msgstr "**[Resume Builder](https://f-droid.org/app/com.ibrahimyousre.resumebuilder)**: Eine App, die Ihnen dabei hilft, Ihren Lebenslauf zu erstellen"
+msgstr "**[Lobsters App](https://f-droid.org/app/com.nikhiljha.lobstersapp)**: Eine App für lobste.rs"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-21-twif-22-servers-edition.md
 msgid "**[Checkup](https://f-droid.org/app/community.fairphone.checkup)**: A fork of the Fairphone 2 checkup app that has been modified in order to work on other devices as well. It allows you to test various components of your phone."
-msgstr ""
+msgstr "**[Checkup](https://f-droid.org/app/community.fairphone.checkup)**: Ein Fork der Checkup-App des Fairphone 2, die modifiziert wurde, damit sie auch auf anderen Geräten funktioniert. Sie ermöglicht, verschiedene Komponenten Ihres Telefons zu testen."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-21-twif-22-servers-edition.md
-#, fuzzy
 msgid "**[DroidTR keyboard](https://f-droid.org/app/org.droidtr.keyboard)**: DroidTR IME (Turkish F/Q keyboard)"
-msgstr "**[ADBKeyBoard](https://f-droid.org/app/com.android.adbkeyboard)**: Virtuelle Android-Tastatureingabe über ADB"
+msgstr "**[DroidTR keyboard](https://f-droid.org/app/org.droidtr.keyboard)**: DroidTR IME (Türkische F/Q-Tastatur)"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-21-twif-22-servers-edition.md
 msgid "**[Soft Sound](https://f-droid.org/app/org.mcxa.softsound)**: Play relaxing sounds to help you sleep, concentrate or stay calm."
-msgstr ""
+msgstr "**[Soft Sound](https://f-droid.org/app/org.mcxa.softsound)**: Entspannende Klänge zum Einschlafen, zur Konzentration oder Beruhigung abspielen."
 
 #. type: Plain text
 #: build/_posts/md/2018-09-21-twif-22-servers-edition.md
-#, fuzzy
 msgid "In total, **68** apps were updated this week. Here are the highlights:"
-msgstr "Insgesamt wurden diese Woche **61** Apps aktualisiert. Hier die Höhepunkte:"
+msgstr "Insgesamt wurden diese Woche **68** Apps aktualisiert. Hier die Höhepunkte:"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-21-twif-22-servers-edition.md
 msgid "**[Activity Diary](https://f-droid.org/app/de.rampro.activitydiary)** lets you log and plan your recurring activities. In version 1.3.1 tracking of position was added (needs activation in settings and is not yet used for proposing next activities). Also added was a pie chart for statistics, simplified pausing: last finished activities get a higher priority, improved searching, and several bugfixes."
-msgstr ""
+msgstr "**[Activity Diary](https://f-droid.org/app/de.rampro.activitydiary)** lässt Sie wiederkehrende Aktivitäten protokollieren und planen. In Version 1.3.1 wurde eine Standortverfolgung hinzugefügt (benötigt eine Aktivierung in den Einstellungen und wird noch nicht genutzt, um zukünftige Aktivitäten vorzuschlagen). Außerdem wurden ein Tortendiagramm für Statistiken, ein vereinfachtes Pausieren: zuletzt beendete Aktivität erhält ein höheres Gewicht, eine verbesserte Suche und einige Fehlerbehebungen ergänzt."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-21-twif-22-servers-edition.md
 msgid "**[Tutanota](https://f-droid.org/app/de.tutao.tutanota)** enables you to send end-to-end encrypted emails to anybody with a tip of your finger. Version 3.37.1 will remember your language choice for external recipients, supports \"cancel\" and \"confirm\" hotkeys in dialogs, and has lots of bug fixes."
-msgstr ""
+msgstr "**[Tutanota](https://f-droid.org/app/de.tutao.tutanota)** ermöglicht den Versand von End-zu-End verschlüsselten E-Mails an jeden mit einem Knopfdruck. Version 3.37.1 wird sich an die Sprachauswahl für externe Empfänger erinnern, unterstützt die Hotkeys \"Abbrechen\" und \"Bestätigen\" in Dialogen und besitzt viele Fehlerkorrekturen."
 
 #. type: Plain text
 #: build/_posts/md/2018-09-21-twif-22-servers-edition.md
@@ -5436,6 +5433,14 @@ msgid ""
 "  * Follow instance button can be hidden\n"
 "  * Improved UX with more text\n"
 msgstr ""
+"* {{ page.featured }} **[Mastalab](https://f-droid.org/app/fr.gouv.etalab.mastodon)** brennt diese Woche mit gleich 4 Veröffentlichungen! Version 1.13.3 unterstützt das [Trunk](https://communitywiki.org/trunk)-API, das Sie nach Kategorie, gesammelte Benutzer folgen lässt, mit gerade einmal einigen einfachen Klicks. Ideal für Anfänger. Weitere neue Features:\n"
+"  * Anpassung des Benachrichtigungstons\n"
+"  * Emoji-Anpassung im Hauptmenü\n"
+"  * Automatische Erweiterung versteckter Medien (Standard: nein)\n"
+"  * Langes Drücken des Compose-Button, um einen weiteren Account aufzunehmen\n"
+"  * Kompaktmodus ist nun Standard\n"
+"  * Instanz-folgen-Button kann ausgeblendet werden\n"
+"  * Verbesserte Menüführung mit mehr Text\n"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-21-twif-22-servers-edition.md
