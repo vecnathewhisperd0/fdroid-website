@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-09-29 23:05-0500\n"
 "PO-Revision-Date: 2018-10-07 19:27+0000\n"
-"Last-Translator: C. Rüdinger <Mail-an-CR@web.de>\n"
+"Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -4232,12 +4232,12 @@ msgstr "**[BwareArea](https://f-droid.org/app/fr.byped.bwarearea)**, entworfen, 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
 msgid "**[Mastalab](https://f-droid.org/app/fr.gouv.etalab.mastodon)** 1.10.5 adds basic support for viewing other instances' local timelines, allows to delete tags with a long-press on the tab, allows to translate your messages before sending them, and some bug fixes."
-msgstr ""
+msgstr "**[Mastalab](https://f-droid.org/app/fr.gouv.etalab.mastodon)** 1.10.5 fügt grundlegende Unterstützung für die Anzeige der lokalen Timelines anderer Instanzen hinzu, ermöglicht das Löschen von Tags mit einem langen Druck auf der Registerkarte, ermöglicht die Übersetzung Ihrer Nachrichten vor dem Senden und einige Fehlerbehebungen."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
 msgid "**[Revolution IRC](https://f-droid.org/app/io.mrarm.irc)** is the next-generation IRC client for Android. This update to 0.4.1 adds a per-server encoding setting, a new word selection mode, automatic message splitting, `irc://` link handling, and many more improvements and fixes. Also of note are DCC download/upload support (with UPnP), and the channel topic is now saved and deduplicated."
-msgstr ""
+msgstr "**[Revolution IRC](https://f-droid.org/app/io.mrarm.irc)** ist der IRC-Client der nächsten Generation für Android. Dieses Update auf 0.4.1 fügt eine Codierungseinstellung pro Server, einen neuen Wortauswahlmodus, automatische Nachrichtenaufteilung, `irc://`-Linkbehandlung und viele weitere Verbesserungen und Korrekturen hinzu. Ebenfalls hervorzuheben ist die DCC-Download/Upload-Unterstützung (mit UPnP), und das Kanalthema wird nun gespeichert und dedupliziert."
 
 #. type: Plain text
 #: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
@@ -4286,7 +4286,7 @@ msgstr "GCM (oder, wie es jetzt heißt, FCM, Firebase Cloud Messaging) ist ein g
 #: build/_posts/md/2018-09-27-twif-23-successful-update-to-stretch.md
 #, no-wrap
 msgid "<!--more-->\n"
-msgstr ""
+msgstr "<!--mehr-->\n"
 
 #. type: Plain text
 #: build/_posts/md/2018-09-03-replacing-gcm-in-tutanota.md
@@ -4502,7 +4502,7 @@ msgstr "[4.1.24 OTF-024 — (fdroidclient) Ausführung unformatierter SQL-Abfrag
 #. type: Plain text
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "- right now, repos are trusted inputs verified by signatures.  This kind of finding helps us make it so less trust is required when using third party repos"
-msgstr "- Im Augenblick sind Repos vertrauenswürdige, durch Signaturen verifizierte Beiträge.  Diese Art der Beurteilung hilft uns dabei, erfolgreich zu sein, somit wird weniger Vertrauen vonnöten sein, wenn Drittanbieter-Repos verwendet werden."
+msgstr "- Im Augenblick sind Repos vertrauenswürdige, durch Signaturen verifizierte Beiträge.  Diese Art der Beurteilung hilft uns dabei, erfolgreich zu sein, somit wird weniger Vertrauen vonnöten sein, wenn Drittanbieter-Repos verwendet werden"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
@@ -4620,7 +4620,7 @@ msgstr "_fdroidserver_"
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 #, no-wrap
 msgid "Moving towards least privilege"
-msgstr ""
+msgstr "Auf dem Weg zu den niedrigsten Berechtigungen"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
@@ -4640,59 +4640,59 @@ msgstr "[4.1.6 OTF-006 — Codeeinschleußung über böswillige App-ID in Fdroid
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "[4.1.34 OTF-034 — Maliciously Crafted Appid Code Injection in Fdroidserver Build.py]({{ site.baseurl }}/docs/Second_Audit_Report/#f24-maliciously-crafted-appid-code-injection-in-fdroidserver-build-py)"
-msgstr ""
+msgstr "[4.1.34 OTF-034 — Bösartig angepasste Appid Code Injection in Fdroidserver Build.py]({{ site.baseurl }}/docs/Second_Audit_Report/#f24-maliciously-crafted-appid-code-injection-in-fdroidserver-build-py)"
 
 #. type: Plain text
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "The build metadata files are used to describe an app and it's build process.  They are usually created by trusted parties (e.g. the person running the repo) or reviewed via merge requests.  These findings would only have caused problems for repos that included metadata files from untrusted sources without reviewing them.  For _f-droid.org_, the metadata files can only be downloaded to the production servers via git commits in [fdroiddata](https://gitlab.com/fdroid/fdroiddata).  No attempts to exploit these have been seen in the git history nor merge requests.  Most of these issues only affect the app building process, e.g. `fdroid build`.  Repos made from binary APKs and `fdroid update` would only be affected by [4.1.3 OTF-003]({{ site.baseurl }}/docs/Second_Audit_Report/#f23-code-injection-in-fdroidserver-metadata-yaml-parsing)."
-msgstr ""
+msgstr "Die Build-Metadatendateien werden verwendet, um eine App und ihren Build-Prozess zu beschreiben.  Sie werden in der Regel von vertrauenswürdigen Parteien (z.B. der Person, die den Repo laufen lässt) erstellt oder durch Merge-Anfragen überprüft.  Diese Ergebnisse hätten nur bei Repos Probleme verursacht, die Metadatendateien aus nicht vertrauenswürdigen Quellen enthalten, ohne sie zu überprüfen.  Für _f-droid.org_ können die Metadatendateien nur über Git-Commits in [fdroiddata](https://gitlab.com/fdroid/fdroiddata) auf die Produktionsserver heruntergeladen werden.  In der Git-Historie wurden keine Versuche unternommen, diese auszunutzen und es wurden keine Merge-Requests gestellt.  Die meisten dieser Probleme betreffen nur den Erstellungsprozess der App, z.B. `fdroid build`.  Repos aus binären APKs und `fdroid update` wären nur von [4.1.3 OTF-003]({{ site.baseurl }}}/docs/Second_Audit_Report/#f23-code-injection-in-fdroidserver-metadata-yaml-parsing) betroffen."
 
 #. type: Title ###
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 #, no-wrap
 msgid "Removing weaknesses that could be chained into exploits"
-msgstr ""
+msgstr "Beseitigung von Schwachstellen, die zu Exploits verkettet werden könnten"
 
 #. type: Plain text
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "The data formats that were used allow for code execution from serialized code.  The build metadata files are now loaded with with code serialization disabled, the _apkcache_ file was switched from _pickle_ to JSON, and we will switch the _config.py_ file to YAML with safe loading."
-msgstr ""
+msgstr "Die verwendeten Datenformate ermöglichen die Codeausführung aus serialisiertem Code.  Die Build-Metadatendateien werden nun mit deaktivierter Codeserialisierung geladen, die _apkcache_-Datei wurde von _pickle_ auf JSON umgestellt und wir werden die _config.py_-Datei auf YAML mit sicherem Laden umstellen."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "[4.1.3 OTF-003 — Code Injection in Fdroidserver Metadata Yaml Parsing]({{ site.baseurl }}/docs/Second_Audit_Report/#f23-code-injection-in-fdroidserver-metadata-yaml-parsing)"
-msgstr ""
+msgstr "[4.1.3 OTF-003 - Code-Injection in Fdroidserver Metadaten Yaml Parsing]({{ site.baseurl }}}/docs/Second_Audit_Report/#f23-code-injection-in-fdroidserver-metadata-yaml-parsing)"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "[4.1.31 OTF-031 — Dangerous Deserialization Using Python Pickle in Fdroidserver:update.py]({{ site.baseurl }}/docs/Second_Audit_Report/#f16-dangerous-deserialization-using-python-pickle-in-fdroidserver-update-py)"
-msgstr ""
+msgstr "[4.1.31 OTF-031 - Gefährliche Deserialisierung mit Python Pickle in Fdroidserver:update.py]({{ site.baseurl }}}/docs/Second_Audit_Report/#f16-dangerous-deserialization-using-python-pickle-in-fdroidserver-update-py)"
 
 #. type: Title ###
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 #, no-wrap
 msgid "Denial of Service"
-msgstr ""
+msgstr "Denial-of-Service"
 
 #. type: Plain text
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "A few issues were found that allow contributors with trusted access to stop parts of the system from working."
-msgstr ""
+msgstr "Es wurden einige Probleme gefunden, die es Mitwirkenden mit vertrauenswürdigem Zugriff ermöglichen, Teile des Systems vom Arbeiten auszuschließen."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "[4.1.12 OTF-012 — Key Alias Collisions Can Lead to DoS of Publishing in Fdroidserver]({{ site.baseurl }}/docs/Second_Audit_Report/#f13-key-alias-collisions-can-lead-to-dos-of-publishing-in-fdroidserver) ([issue #553](https://gitlab.com/fdroid/fdroidserver/issues/553))"
-msgstr ""
+msgstr "[4.1.12 OTF-012 - Wichtige Alias-Kollisionen können zu DoS der Veröffentlichung in Fdroidserver führen]({{ site.baseurl }}}/docs/Second_Audit_Report/#f13-key-alias-collisions-can-lead-to-dos-of-publishing-in-fdroidserver) ([issue #553](https://gitlab.com/fdroid/fdroidserver/issues/553))"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "[4.1.13 OTF-013 — Image Bomb Can Lead to DoS in Fdroidserver:update.py]({{ site.baseurl }}/docs/Second_Audit_Report/#f15-image-bomb-can-lead-to-dos-in-fdroidserver-update-py)"
-msgstr ""
+msgstr "[4.1.13 OTF-013 - Image Bomb kann zu DoS in Fdroidserver:update.py führen]({{ site.baseurl }}}/docs/Second_Audit_Report/#f15-image-bomb-can lead-to-dos-in-fdroidserver-update-py)"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "[4.1.15 OTF-015 — Parsing Untrusted XML Data in Fdroidserver]({{ site.baseurl }}/docs/Second_Audit_Report/#f20-parsing-untrusted-xml-data-in-fdroidserver)"
-msgstr ""
+msgstr "[4.1.15 OTF-015 - Parsen nicht vertrauenswürdiger XML-Daten in Fdroidserver]({{ site.baseurl }}}/docs/Second_Audit_Report/#f20-parsing-untrustedd-xml-data-in-fdroidserver)"
 
 #. type: Title ###
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
@@ -4781,7 +4781,7 @@ msgstr "[4.1.1 OTF-001 — Umgehung des Bleach Sanitizer in Repomaker]({{ site.b
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "[4.1.29 OTF-029 — Tabnabbing in Repomaker]({{ site.baseurl }}/docs/Second_Audit_Report/#f1-tabnabbing-in-repomaker)"
-msgstr ""
+msgstr "[4.1.29 OTF-029 — Tabnabbing im Repomaker]({{ site.baseurl }}/docs/Second_Audit_Report/#f1-tabnabbing-in-repomaker)"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
@@ -4837,17 +4837,17 @@ msgstr "[4.1.21 OTF-021 — Vorbehaltslose Dateilöschung]({{ site.baseurl }}/do
 #. type: Plain text
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "This code is only used to make JAR signatures on the _index.jar_ for the nearby/swap process.  Android protects critical files from deletion with file permissions.  Only the _index.jar_ file is ever handled by the zipsigner code."
-msgstr ""
+msgstr "Dieser Code wird nur verwendet, um JAR-Signaturen auf der _index.jar_ für den Nearby/Swap-Prozess zu erstellen.  Android schützt kritische Dateien durch Dateiberechtigungen vor dem Löschen.  Nur die Datei _index.jar_ wird überhaupt vom Zipsigner-Code behandelt."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "[4.1.22 OTF-022 — Secure Temp File Usage Recommended]({{ site.baseurl }}/docs/Second_Audit_Report/#f44-secure-temp-file-usage-recommended)"
-msgstr ""
+msgstr "[4.1.22 OTF-022 — Sichere Verwendung von Temp-Dateien empfohlen]({{ site.baseurl }}/docs/Second_Audit_Report/#f44-secure-temp-file-usage-recommended)"
 
 #. type: Plain text
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "The NanoHTTPD built-in webserver is only ever used to serve public information.  Also, the parts of the code in the NanoHTTPD library that creates temp files is likely never used in F-Droid."
-msgstr ""
+msgstr "Der eingebaute Webserver von NanoHTTPD wird immer nur für öffentliche Informationen verwendet.  Außerdem werden die Teile des Codes in der NanoHTTPD-Bibliothek, die temporäre Dateien erstellen, wahrscheinlich nie in F-Droid verwendet."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
@@ -4857,17 +4857,17 @@ msgstr "[4.1.36 OTF-036 — Verwendung schwacher Methoden zum Schutz von Daten](
 #. type: Plain text
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "Obfuscation here is used not as a security mechanism, but rather as a lightweight anti-piracy mechanism.  The obscured information ultimately need to be available to the app to use it, so there would always be a way to extract the obscured information, as we have seen in the decades of software copy protection arms races."
-msgstr ""
+msgstr "Verschleierung wird hier nicht als Sicherheitsmechanismus, sondern als leichtgewichtiger Anti-Piraterie-Mechanismus eingesetzt.  Die verschleierten Informationen müssen letztendlich der App zur Verfügung stehen, um sie zu nutzen. So würde es immer einen Weg geben, die verdeckten Informationen zu extrahieren, wie wir es in den Jahrzehnten des Softwarekopierschutz-Wettrüstens gesehen haben."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "[4.1.38 OTF-038 — Weak pattern matching filter]({{ site.baseurl }}/docs/Second_Audit_Report/#f42-stronger-regular-expression-recommended)"
-msgstr ""
+msgstr "[4.1.38 OTF-038 - Schwacher Mustervergleichsfilter]({{ site.baseurl }}}/docs/Second_Audit_Report/#f42-stronger-regular-expression-recommended)"
 
 #. type: Plain text
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "Filenames in Java are not executed by a shell.  Only the `/` character is problematic with filesystems and file handling code.  Ideally, all files produced by F-Droid software would end up safe no matter where or how they are used, but it seems that the only manageable way to sanitize files is on the endpoints that are consuming the files (e.g. _fdroidclient_ or _f-droid.org_)."
-msgstr ""
+msgstr "Dateinamen in Java werden nicht von einer Shell ausgeführt.  Nur das Zeichen `/` ist bei Dateisystemen und Dateibearbeitungscode problematisch.  Im Idealfall würden alle von der F-Droid-Software erzeugten Dateien unabhängig davon, wo und wie sie verwendet werden, sicher sein, aber es scheint, dass der einzig mögliche Weg zur Desinfektion von Dateien auf den Endpunkten liegt, die die Dateien nutzen (z.B. _fdroidclient_ oder _f-droid.org_)."
 
 #. type: Title #
 #: build/_posts/md/2018-09-06-twif-20-security-audit-completed-buildserver-setup-with-ansible.md
@@ -5062,7 +5062,7 @@ msgstr "**[Aalener Optik-Formelrechner](https://f-droid.org/app/de.HS_Aalen.don)
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
 msgid "**[BK Doorlock](https://f-droid.org/app/de.binary_kitchen.doorlock_app)**: Binary Kitchen's Open Sesame"
-msgstr ""
+msgstr "**[BK Doorlock](https://f-droid.org/app/de.binary_kitchen.doorlock_app)**: Binary Kitchen Türöffner"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
@@ -5445,17 +5445,17 @@ msgstr ""
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-21-twif-22-servers-edition.md
 msgid "**[Markor](https://f-droid.org/app/net.gsantner.markor)**, 1.2.0 is out. Your favorite [markdown](https://commonmark.org) editor and TODO app now has launchers to directly open LinkBox/ToDo/QuickNote, context aware search for projects, preview for ToC and KaTex math, and improved markdown conversion, notably GFM-like table parsing and underlined h1. Read about even more improvements in the [blog post](https://gsantner.net/blog/android/2018/09/18/markor-release-v1.2.html)."
-msgstr ""
+msgstr "**[Markor](https://f-droid.org/app/net.gsantner.markor)**, 1.2.0 ist erschienen. Ihr bevorzugter [Markdown](https://commonmark.org)-Editor und Ihre TODO-App haben jetzt Launcher, um LinkBox/ToDo/QuickNote direkt zu öffnen, kontextabhängige Suche nach Projekten, Vorschau für ToC und KaTex Mathematik und verbesserte Abschriftenkonvertierung, insbesondere GFM-ähnliches Tabellenparsing und unterstrichenes h1. Weiteres über noch mehr Verbesserungen erfahren Sie im [Blogbeitrag](https://gsantner.net/blog/android/2018/09/18/markor-release-v1.2.html)."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-21-twif-22-servers-edition.md
 msgid "**[LTE Cleaner (FOSS)](https://f-droid.org/app/theredspy15.ltecleanerfoss)** had major updates this week, going from 2.3 to 3.1.0 in 5 releases! New features include a \"one click clean\" option, simplified filter options, an \"aggressive filter\", Chinese (traditional) language support, and many smaller changes and bug fixes."
-msgstr ""
+msgstr "**[LTE Cleaner (FOSS)](https://f-droid.org/app/theredspy15.ltecleanerfoss)** hatte diese Woche wichtige Updates, die in 5 Versionen von 2.3 auf 3.1.0 gingen! Zu den neuen Funktionen gehören eine \"One-Click-Clean\"-Option, vereinfachte Filteroptionen, ein \"aggressiver Filter\", Sprachunterstützung für Chinesisch (traditionell) sowie viele kleinere Änderungen und Bugfixes."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-21-twif-22-servers-edition.md
 msgid "**[WaveUp](https://f-droid.org/app/com.jarsilio.android.waveup)**: \"Just wave your hand over the proximity sensor of your phone to turn the screen on.\" Version 2.2.0 contains under-the-hood changes, converting the code base to Kotlin, and updating some dependencies."
-msgstr ""
+msgstr "**[WaveUp](https://f-droid.org/app/com.jarsilio.android.waveup)**: \"Bewegen Sie einfach die Hand über den Näherungssensor Ihres Telefons, um den Bildschirm einzuschalten.\" Version 2.2.0 enthält Änderungen unter der Haube, die Umstellung der Codebasis auf Kotlin und die Aktualisierung einiger Abhängigkeiten."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-21-twif-22-servers-edition.md
@@ -5473,40 +5473,40 @@ msgstr "[Acastus](https://f-droid.org/wiki/page/me.dbarnett.acastus) wurde in da
 #: build/_posts/md/2018-09-27-twif-23-successful-update-to-stretch.md
 #, no-wrap
 msgid "\"TWIF 23: Successful update to Stretch\""
-msgstr ""
+msgstr "\"TWIF 23: Erfolgreiches Update auf Stretch\""
 
 #. type: Plain text
 #: build/_posts/md/2018-09-27-twif-23-successful-update-to-stretch.md
 #, no-wrap
 msgid "This Week In F-Droid {{ page.edition }}, Week {{ page.date | date: \"%V, %G\" }} <a href=\"{{ site.baseurl }}/feed.xml\"><img src=\"{{ site.baseurl }}/assets/Feed-icon-16x16.png\" alt=\"Feed\"></a>\n"
-msgstr ""
+msgstr "Diese Woche In F-Droid {{ page.edition }}, Week {{ page.date | date: \"%V, %G\" }} <a href=\"{{ site.baseurl }}/feed.xml\"><img src=\"{{ site.baseurl }}/assets/Feed-icon-16x16.png\" alt=\"Feed\"></a>\n"
 
 #. type: Plain text
 #: build/_posts/md/2018-09-27-twif-23-successful-update-to-stretch.md
 msgid "In this edition: Buildserver successfully upgraded to Stretch, SET Anti-Feature fixed, new F-Droid sweatshirts, and F-Droid 1.4 marked stable. There are 3 new apps and {{ page.number_of_updated_apps }} updates, including Music Player GO, FOSS Browser, StreetComplete, and Bimba."
-msgstr ""
+msgstr "In dieser Ausgabe: Buildserver erfolgreich aktualisiert auf Stretch, SET Anti-Feature gefixed, neue F-Droid Sweatshirts und F-Droid 1.4 als stabil markiert. Es gibt 3 neue Apps und {{ page.number_of_updated_apps }} Updates, einschließlich Music Player GO, FOSS Browser, StreetComplete und Bimba."
 
 #. type: Title ####
 #: build/_posts/md/2018-09-27-twif-23-successful-update-to-stretch.md
 #, no-wrap
 msgid "Stretch upgrade successful"
-msgstr ""
+msgstr "Stretch-Upgrade erfolgreich"
 
 #. type: Plain text
 #: build/_posts/md/2018-09-27-twif-23-successful-update-to-stretch.md
 msgid "The buildserver guest was upgraded to Debian Stretch, and has published its first index update!"
-msgstr ""
+msgstr "Der Buildserver-Gast wurde auf Debian Stretch aktualisiert und hat sein erstes Index-Update veröffentlicht!"
 
 #. type: Title ####
 #: build/_posts/md/2018-09-27-twif-23-successful-update-to-stretch.md
 #, no-wrap
 msgid "SET Anti-Feature fixed"
-msgstr ""
+msgstr "SET Anti-Feature korrigiert"
 
 #. type: Plain text
 #: build/_posts/md/2018-09-27-twif-23-successful-update-to-stretch.md
 msgid "As of the latest index update, the [SET Anti-Feature](https://f-droid.org/wiki/page/Antifeature:SET) has been cleared from all apps. In case you were still wondering what the SET Anti-Feature is... it isn't! That's the bug. [See the bug](https://gitlab.com/fdroid/fdroidserver/issues/565)."
-msgstr ""
+msgstr "Mit dem letzten Index-Update wurde das [SET Anti-Feature](https://f-droid.org/wiki/page/Antifeature:SET) von allen Apps gelöscht. Falls Sie sich immer noch fragen, was das SET Anti-Feature ist... es ist keines! Das ist der Fehler. [Siehe Bug](https://gitlab.com/fdroid/fdroidserver/issues/565)."
 
 #. type: Title ####
 #: build/_posts/md/2018-09-27-twif-23-successful-update-to-stretch.md
@@ -5553,32 +5553,32 @@ msgstr "{{ page.major }} **[Music Player GO](https://f-droid.org/app/com.iven.mu
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-27-twif-23-successful-update-to-stretch.md
 msgid "**[Nextcloud](https://f-droid.org/app/com.nextcloud.client)** 3.3.0 adds support for Trashbin, device credentials, media streaming, and has new media detection for AutoUpload, improved TalkBack screenreader support, offline/maintenance info, and many more improvements and bug fixes."
-msgstr ""
+msgstr "**[Nextcloud](https://f-droid.org/app/com.nextcloud.client)** 3.3.0 bietet Unterstützung für den Mülleimer, Geräte-Anmeldeinformationen, Medien-Streaming und verfügt über eine neue Medienerkennung für AutoUpload, verbesserte TalkBack-Screenreader-Unterstützung, Offline-/Wartungsinformationen und viele weitere Verbesserungen und Bugfixes."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-27-twif-23-successful-update-to-stretch.md
 msgid "**[Waistline](https://f-droid.org/app/com.waist.line)**, the calorie counter and weight tracker, was updated from 2.2.3 to 2.3.3, adding the ability to enter your own [Open Food Facts](https://world.openfoodfacts.org) credentials, a setting to change the app's home screen, support for the fibre nutriment, saturated fat and fibre goals, under-the-hood changes to improve performance and ease maintenance, and several bug fixes centering around date problems."
-msgstr ""
+msgstr "**[Waistline](https://f-droid.org/app/com.waist.line)**, der Kalorienzähler und Gewichts-Tracker, wurde von 2.2.3 auf 2.3.3 aktualisiert und bietet die Möglichkeit, Ihre eigenen [Open Food Facts](https://de.openfoodfacts.org) Anmeldedaten einzugeben, eine Einstellung zur Änderung des Startbildschirms der App, Unterstützung für Ballaststoffe, Ziele für gesättigte Fettsäuren und Ballaststoffe, Änderungen unter der Haube zur Verbesserung der Leistung und Vereinfachung der Wartung sowie mehrere Bugfixes rund um Datumsprobleme."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-27-twif-23-successful-update-to-stretch.md
 msgid "{{ page.major }} **[FOSS Browser](https://f-droid.org/app/de.baumann.browser)** released 6.0. FOSS Browser is a simple browser based on Android's builtin WebView. This release has new translations for Taiwan Traditional Chinese, Italian, Portugese, and the Polish translation was updated. Besides that there are many more fixes and improvements."
-msgstr ""
+msgstr "{{ page.major }} **[FOSS Browser](https://f-droid.org/app/de.baumann.browser)** hat 6.0 freigegeben. FOSS Browser ist ein einfacher Browser, der auf dem in Android integrierten WebView basiert. Diese Version enthält neue Übersetzungen für Taiwan Traditionelles Chinesisch, Italienisch, Portugiesisch und die polnische Übersetzung wurde aktualisiert. Außerdem gibt es noch viele weitere Korrekturen und Verbesserungen."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-27-twif-23-successful-update-to-stretch.md
 msgid "**[RasPi Check](https://f-droid.org/app/de.eidottermihi.raspicheck)** was updated from 1.8.0 to 1.8.11, after 2 years of not updating in F-Droid. RasPi Check shows you the current system status of a running Raspberry Pi computer. The minimum version of Android needed to run this is now 5.0 (up from 2.3). Given that this update spans two years, there are numerous changes which are hard to summarize. You can check the [changelog](https://github.com/eidottermihi/rpicheck/releases) for details."
-msgstr ""
+msgstr "**[RasPi Check](https://f-droid.org/app/de.eidottermihi.raspicheck)** wurde von 1.8.0 auf 1.8.11 aktualisiert, nach 2 Jahren ohne Aktualisierung in F-Droid. RasPi Check zeigt Ihnen den aktuellen Systemstatus eines laufenden Raspberry Pi-Computers. Die minimale Version von Android, die benötigt wird, um dies auszuführen, ist jetzt 5.0 (statt vorher 2.3). Da sich dieses Update über zwei Jahre erstreckt, gibt es zahlreiche Änderungen, die schwer zusammenzufassen sind. Weitere Informationen findest du im [Changelog](https://github.com/eidottermihi/rpicheck/releases)."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-27-twif-23-successful-update-to-stretch.md
 msgid "{{ page.featured }} {{ page.major }} **[StreetComplete](https://f-droid.org/app/de.westnordost.streetcomplete)** had a major update to 8.0! It comes with a huge redesign to the quest forms and the dialogs, bringing it more in line with Google's \"material design 2.0\". Downloading quests has been made more seamless, allowing for easier editing. Other improvements include a new \"Railway crossing\" quest, and several improvements to existing quests. Performance problems when downloading quests were addressed (especially when downloading house numbers and building types), and you'll find several other UX enhancements, as well as the usual bug fixes."
-msgstr ""
+msgstr "{{ page.featured }} {{ page.major }} **[StreetComplete](https://f-droid.org/app/de.westnordost.streetcomplete)** hatte ein größeres Update auf 8.0! Es kommt mit einem umfangreichen Redesign der Questformulare und der Dialoge, das es noch besser an Googles \"Material Design 2.0\" anpasst. Das Herunterladen von Quests wurde nahtloser gestaltet, was eine einfachere Bearbeitung ermöglicht. Weitere Verbesserungen umfassen eine neue Quest \"Bahnübergang\" und mehrere Verbesserungen an bestehenden Quests. Performance-Probleme beim Herunterladen von Quests wurden behoben (insbesondere beim Herunterladen von Hausnummern und Gebäudetypen) und Sie finden mehrere andere UX-Verbesserungen sowie die üblichen Bugfixes."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-27-twif-23-successful-update-to-stretch.md
 msgid "**[FairEmail](https://f-droid.org/app/eu.faircode.email)** had a lot of small releases, encompassing many changes. We have 0.69 in the repository now, with more in the pipeline. See the [changelog](https://github.com/M66B/open-source-email/releases?after=0.70) for details."
-msgstr ""
+msgstr "**[FairEmail](https://f-droid.org/app/eu.faircode.email)** hatte viele kleine Releases, die viele Änderungen umfassten. Wir haben jetzt 0.69 im Repository, mit weiteren in der Pipeline. Für Details siehe das [Changelog](https://github.com/M66B/open-source-email/releases?after=0.70)."
 
 #. type: Plain text
 #: build/_posts/md/2018-09-27-twif-23-successful-update-to-stretch.md
@@ -5594,11 +5594,20 @@ msgid ""
 "  - new colours—grey and green—fitting new Poznań style\n"
 "  - multiple bug fixes\n"
 msgstr ""
+"* {{ page.major }}}} **[Bimba](https://f-droid.org/app/ml.adamsprogs.bimba)** kommt aus dem Beta-Test mit der Version 2.0. Bimba ist die erste Poznań Wanderführer Freie Software (ÖPNV-App). Neu in der Version 2.0:\n"
+"  - offizieller Fahrplan der ZTM\n"
+"  - VM kann ohne Offline-Zeitplan verwendet werden\n"
+"  - Offline-Fahrplan verwendet genaue Daten\n"
+"  - VM ist schneller und zuverlässiger\n"
+"  - Favoriten von Grund auf neu geschrieben\n"
+"  - App ist auf externen Speicher übertragbar\n"
+"  - neue Farben - grau und grün - neuer Poznań Stil\n"
+"  - mehrere Bugfixes\n"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-27-twif-23-successful-update-to-stretch.md
 msgid "**[Shelter](https://f-droid.org/app/net.typeblog.shelter)** runs \"Big Brother\" apps inside an isolated profile. Version 1.2 brings optimizations and fixes to the initialization process, so more devices should be able to use Shelter. In-app sharing is now allowed to cross the profile boundary, security of cross-profile interactions has been improved, and the new feature \"File Shuttle\" was added as well."
-msgstr ""
+msgstr "**[Shelter](https://f-droid.org/app/net.typeblog.shelter)** führt \"Big Brother\"-Anwendungen in einem isolierten Profil aus. Version 1.2 bringt Optimierungen und Korrekturen für den Initialisierungsprozess mit sich, so dass mehr Geräte Shelter nutzen können. Die In-App-Sharing-Funktion darf nun die Profilgrenze überschreiten, die Sicherheit von profilübergreifenden Interaktionen wurde verbessert und die neue Funktion \"File Shuttle\" wurde hinzugefügt."
 
 #. type: Plain text
 #: build/_posts/md/2018-09-27-twif-23-successful-update-to-stretch.md
@@ -5613,22 +5622,30 @@ msgid ""
 "  - retry index downloads from mirrors\n"
 "  - fix \"Send F-Droid via Bluetooth\" on recent Android versions\n"
 msgstr ""
+"* {{ page.fdroid }} **[F-Droid](https://f-droid.org/app/org.fdroid.fdroid)** 1.4 ist seit etwa zwei Wochen verfügbar, aber wir haben es jetzt als aktuelle stabile Version markiert, d.h. es erscheint auf der Upgrade-Liste, oder wenn Sie die [privilegierte Erweiterung](https://gitlab.com/fdroid/privileged-extension/blob/HEAD/README.md) installiert haben, führen Sie das Upgrade vollautomatisch durch. Neu in 1.4:\n"
+"  - umfangreiche Überarbeitung der \"Versionen\"-Liste im Bildschirm \"App Details\" und viele weitere Verbesserungen der Benutzeroberfläche dank des neuen Mitwirkenden [@wsdfhjxc](https://gitlab.com/wsdfhjxc)\n"
+"  - dank des neuen Mitwirkenden [@doeffinger](https://gitlab.com/doeffinger) an vielen Stellen die Navigation über Tastatur/D-Pad verbessert\n"
+"  - die Schaltfläche \"Öffnen\" anzeigen, wenn das Medium eingelegt und sichtbar ist\n"
+"  - Teilen Schaltfläche zu \"Installed Apps\" hinzugefügt, um die CSV-Liste zu exportieren\n"
+"  - klickbare Liste von APKs zur HTML-Indexseite hinzugefügt\n"
+"  - Index-Downloads von Spiegeln erneut versuchen\n"
+"  - behebt \"F-Droid über Bluetooth senden\" bei aktuellen Android-Versionen\n"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-27-twif-23-successful-update-to-stretch.md
 msgid "**[Kiwix](https://f-droid.org/app/org.kiwix.kiwixmobile)** is an _offline_ [Wikipedia](https://www.wikipedia.or) reader. Version 2.4 adds download time estimation, manual update of storage location, sort bookmarks, and fixes some bugs, among others with external [SD card](https://en.wikipedia.org/wiki/Secure_Digital)s."
-msgstr ""
+msgstr "**[Kiwix](https://f-droid.org/app/org.kiwix.kiwixmobile)** ist ein _offline_ [Wikipedia](https://www.wikipedia.or) Leser. Version 2.4 fügt eine Downloadzeitschätzung hinzu, manuelle Aktualisierungen des Speicherort, sortiert Lesezeichen und behebt einige Fehler, unter anderem mit externen [SD-Karten](https://en.wikipedia.org/wiki/Secure_Digital)."
 
 #. type: Title ####
 #: build/_posts/md/2018-09-27-twif-23-successful-update-to-stretch.md
 #, no-wrap
 msgid "And finally"
-msgstr ""
+msgstr "Und schließlich"
 
 #. type: Plain text
 #: build/_posts/md/2018-09-27-twif-23-successful-update-to-stretch.md
 msgid "You may have noticed that the design of the \"Featured\" label has changed, and that TWIF sprouted new \"Major\" and \"F-Droid\" labels. We'd like to hear what you think of the idea itself, as well as how it looks. Please share your thoughts!"
-msgstr ""
+msgstr "Sie haben vielleicht bemerkt, dass sich das Design des Labels \"Featured\" geändert hat und dass TWIF neue \"Major\" und \"F-Droid\" Labels hervorgebracht hat. Wir würden uns freuen zu hören, was Sie von der Idee selbst halten und wie sie für Sie aussieht. Bitte teilen Sie uns Ihre Gedanken mit!"
 
 #~ msgid "**[Nextcloud Talk](https://f-droid.org/app/com.nextcloud.talk2)** 3.0.0 is out. (Or 4.0. Who even knows anymore?) Now with video verification, ability to share files in a chat, easier chat handling and logging, and just generally a better experience. Read the [official blog post](https://nextcloud.com/blog/nextcloud-talk-4.0-is-out/) for the juicy details."
 #~ msgstr "**[Nextcloud Talk](https://f-droid.org/app/com.nextcloud.talk2)** 3.0.0 ist draußen. (Oder 4.0. Wer weiß sogar noch mehr?) Nun mit Video-Verifikation, der Möglichkeit, Dateien in einem Chat zu teilen, einfacherer Chat-Bedienung und -Anmeldung und überhaupt besserem Erlebniswert. Lesen Sie den [offiziellen Blog-Post](https://nextcloud.com/blog/nextcloud-talk-4.0-is-out/), um die reizvollen Einzelheiten zu erfahren."
