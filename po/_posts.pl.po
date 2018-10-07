@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-09-29 23:05-0500\n"
-"PO-Revision-Date: 2018-10-06 17:33+0000\n"
+"PO-Revision-Date: 2018-10-08 11:06+0000\n"
 "Last-Translator: WaldiS <admin@sto.ugu.pl>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/f-droid/website-posts/pl/>\n"
 "Language: pl\n"
@@ -4642,7 +4642,7 @@ msgstr "[4.1.34 OTF-034 — Złośliwie spreparowany wtrzyknięty kod Appid w Fd
 #. type: Plain text
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "The build metadata files are used to describe an app and it's build process.  They are usually created by trusted parties (e.g. the person running the repo) or reviewed via merge requests.  These findings would only have caused problems for repos that included metadata files from untrusted sources without reviewing them.  For _f-droid.org_, the metadata files can only be downloaded to the production servers via git commits in [fdroiddata](https://gitlab.com/fdroid/fdroiddata).  No attempts to exploit these have been seen in the git history nor merge requests.  Most of these issues only affect the app building process, e.g. `fdroid build`.  Repos made from binary APKs and `fdroid update` would only be affected by [4.1.3 OTF-003]({{ site.baseurl }}/docs/Second_Audit_Report/#f23-code-injection-in-fdroidserver-metadata-yaml-parsing)."
-msgstr ""
+msgstr "Pliki metadanych kompilacji są używane do opisania aplikacji i jej procesu kompilacji. Zazwyczaj są tworzone przez zaufane strony (np. przez osobę prowadzącą repozytorium) lub sprawdzane przez żądanie scalenia. Ustalenia te spowodowałyby tylko problemy dla repozytoriów, które obejmowały pliki metadanych z niezaufanych źródeł bez ich przeglądania. W przypadku _f-droid.org_ pliki metadanych można pobierać tylko na serwery produkcyjne za pomocą poleceń git w [fdroiddata](https://gitlab.com/fdroid/fdroiddata). Nie próbowano ich wykorzystać w historii git ani w połączeniach. Większość tych problemów dotyczy tylko procesu tworzenia aplikacji, np. `fdroid build`. Na repozytorium wykonane z binarnych pakietów APK i 'aktualizacji fdroid' miałyby wpływ tylko [4.1.3 OTF-003]({{ site.baseurl }}/docs/Second_Audit_Report/#f23-code-injection-in-fdroidserver-metadata-yaml-parsing)."
 
 #. type: Title ###
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
@@ -4679,7 +4679,7 @@ msgstr "Znaleziono kilka problemów, które pozwalają współpracownikom z zauf
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "[4.1.12 OTF-012 — Key Alias Collisions Can Lead to DoS of Publishing in Fdroidserver]({{ site.baseurl }}/docs/Second_Audit_Report/#f13-key-alias-collisions-can-lead-to-dos-of-publishing-in-fdroidserver) ([issue #553](https://gitlab.com/fdroid/fdroidserver/issues/553))"
-msgstr ""
+msgstr "[4.1.12 OTF-012 — Alias klucza kolizji może prowadzić do DoS publikacji na Fdroidserver]({{ site.baseurl }}/docs/Second_Audit_Report/#f13-key-alias-collisions-can-lead-to-dos-of-publishing-in-fdroidserver) ([issue #553](https://gitlab.com/fdroid/fdroidserver/issues/553))"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
@@ -4710,7 +4710,7 @@ msgstr "[4.1.2 OTF-002 — Wstawianie kodu Shell za pomocą złośliwych aplikac
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "[4.1.14 OTF-014 — Insecure Usage of Temporary File/Directory in Fdroidserver Docker/drozer.py]({{ site.baseurl }}/docs/Second_Audit_Report/#f17-insecure-usage-of-temporary-file-directory-in-fdroidserver-docker-drozer-py)"
-msgstr ""
+msgstr "[4.1.14 OTF-014 — Niebezpieczne użycie tymczasowego pliku/katalogu w Fdroidserver Docker/drozer.py]({{ site.baseurl }}/docs/Second_Audit_Report/#f17-insecure-usage-of-temporary-file-directory-in-fdroidserver-docker-drozer-py)"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
@@ -4726,22 +4726,22 @@ msgstr "_f-droid.org_ website"
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "[4.1.7 OTF-007 — Javascript Injection Into HTMLified Descriptions in Fdroidserver Metadata]({{ site.baseurl }}/docs/Second_Audit_Report/#f29-javascript-injection-into-htmlified-package-descriptions-in-fdroidserver-metadata-py)"
-msgstr ""
+msgstr "[4.1.7 OTF-007 — Wstawianie JavaScriptu do HTMLified Descriptions w metadanych Fdroidserver]({{ site.baseurl }}/docs/Second_Audit_Report/#f29-javascript-injection-into-htmlified-package-descriptions-in-fdroidserver-metadata-py)"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "[4.1.11 OTF-011 — Weak Regexps Filtering XSS and Unwanted HTML Tags in Fdroidserver/lint.py]({{ site.baseurl }}/docs/Second_Audit_Report/#f12-weak-regexps-filtering-xss-and-unwanted-html-tags-in-fdroidserver-lint-py)"
-msgstr ""
+msgstr "[4.1.11 OTF-011 — Słabe Regeksy Filtrowanie XSS i niechcianych znaczników HTML w Fdroidserver/lint.py]({{ site.baseurl }}/docs/Second_Audit_Report/#f12-weak-regexps-filtering-xss-and-unwanted-html-tags-in-fdroidserver-lint-py)"
 
 #. type: Plain text
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "Moving the whole website from Wordpress to a statically generated site paid large security dividends, there were no actionable issues found with the website.  While both findings are correct in that malicious Javascript could be injected into descriptions, both the _f-droid.org_ website and Android client do not let Javascript run from the descriptions.  The _f-droid.org_ website protects against malicious Javascript injection with a [strict HTTP Content Security Policy](https://observatory.mozilla.org/analyze.html?host=f-droid.org).  F-Droid client never runs CSS, Javascript, or dangerous HTML tags since it displays the HTML via [`Html.fromHtml()`](https://gitlab.com/fdroid/fdroidclient/blob/1.3.1/app/src/main/java/org/fdroid/fdroid/views/AppDetailsRecyclerViewAdapter.java#L441)  with image loading disabled."
-msgstr ""
+msgstr "Przeniesienie całej witryny z Wordpress do statycznie wygenerowanej strony wypłaciło duże dywidendy za bezpieczeństwo, nie znaleziono żadnych możliwych do naprawienia problemów ze stroną. Chociaż oba stwierdzenia są poprawne, ponieważ złośliwy kod JavaScript może zostać wprowadzony do opisu, zarówno strona internetowa _f-droid.org_, jak i klient systemu Android nie pozwalają na uruchamianie kodu Javascript z opisów. Witryna internetowa _f-droid.org_ chroni przed złośliwą iniekcją JavaScript za pomocą [surowej Polityki bezpieczeństwa treści HTTP](https://observatory.mozilla.org/analyze.html?host=f-droid.org). Klient F-Droid nigdy nie uruchamia CSS, JavaScript ani niebezpiecznych znaczników HTML, ponieważ wyświetla HTML przez  [`Html.fromHtml()`](https://gitlab.com/fdroid/fdroidclient/blob/1.3.1/app/src/main/java/org/fdroid/fdroid/views/AppDetailsRecyclerViewAdapter.java#L441) z wyłączonym ładowaniem obrazu."
 
 #. type: Plain text
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "Ideally, the index generation process in `fdroid update` would have robust CSS/HTML/Javascript checks so malicious injection is prevented by both the index providers and consumers.  This would increase the \"herd immunity\" of everyone working with data generated using any of the F-Droid tools."
-msgstr ""
+msgstr "Najlepiej byłoby, gdyby proces generowania indeksu w 'aktualizacji fdroid' miał solidne kontrole CSS/HTML/Javascript, tak więc zarówno dostawcy indeksowi, jak i konsumenci zapobiegali złośliwemu wstrzyknięciu. Zwiększyłoby to \"odporność stada\" wszystkich pracujących z danymi generowanymi przy użyciu dowolnego narzędzia F-Droid."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
@@ -4751,7 +4751,7 @@ msgstr "[4.1.37 OTF-037 — Niezaufane linki zewnętrzne]({{ site.baseurl }}/doc
 #. type: Plain text
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "The links are only displayed in the \"Links\" section.  Since there is a human review of those URLs, and those URLs are committed to git, we have left those to be open without validation. There are also other URLs like home page, issue tracker, etc.  I suppose we should show the full URL in the UI if they don't match a well known pattern.  Google Play also includes a link to a website that the app author provides."
-msgstr ""
+msgstr "Linki są wyświetlane tylko w sekcji \"Linki\". Ponieważ istnieje ludzka recenzja tych adresów URL, a te adresy URL są zatwierdzone do git, pozostawiliśmy je otwarte bez sprawdzania poprawności. Istnieją również inne adresy URL, takie jak strona główna, narzędzie do śledzenia problemów itp. Przypuszczam, że powinniśmy pokazać pełny adres URL w interfejsie użytkownika, jeśli nie pasują one do dobrze znanego wzorca. Google Play zawiera również link do strony internetowej, którą udostępnia autor aplikacji."
 
 #. type: Plain text
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
@@ -4767,43 +4767,43 @@ msgstr "Kreator repozytoriów"
 #. type: Plain text
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "Repomaker is a web tool to make it really easy to set up your own F-Droid repositories.  It is a new project that should still be considered beta.  There was one issue with high severity ([CVE-2018-7753](https://nvd.nist.gov/vuln/detail/CVE-2018-7753))  found in an upstream library, Mozilla's [_bleach_](https://github.com/mozilla/bleach).  It was reported to Mozilla and promptly fixed.  There were three other low impact findings which have been fixed."
-msgstr ""
+msgstr "Repomaker to narzędzie internetowe, dzięki któremu bardzo łatwo można tworzyć własne repozytoria F-Droid. Jest to nowy projekt, który nadal powinien być uważany za wersję beta. Wystąpił jeden problem o dużym natężeniu ([CVE-2018-7753] (https://nvd.nist.gov/vuln/detail/CVE-2018-7753) znaleziony w bibliotece upstream, Mozilla  [_bleach_](https://github.com/mozilla/bleach). Został zgłoszony do Mozilli i natychmiast naprawiony. Usunięto jeszcze trzy inne ustalenia o niewielkim wpływie."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "[4.1.1 OTF-001 — Evasion of Bleach Sanitizer in Repomaker]({{ site.baseurl }}/docs/Second_Audit_Report/#f8-evasion-of-bleach-sanitizer-in-repomaker)"
-msgstr ""
+msgstr "[4.1.1 OTF-001 — Uchylanie się od Bleach Sanitizer w Repomaker]({{ site.baseurl }}/docs/Second_Audit_Report/#f8-evasion-of-bleach-sanitizer-in-repomaker)"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "[4.1.29 OTF-029 — Tabnabbing in Repomaker]({{ site.baseurl }}/docs/Second_Audit_Report/#f1-tabnabbing-in-repomaker)"
-msgstr ""
+msgstr "[4.1.29 OTF-029 — Tabnabbing (podmiana zawartości strony ) w Repomaker]({{ site.baseurl }}/docs/Second_Audit_Report/#f1-tabnabbing-in-repomaker)"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "[4.1.30 OTF-030 — Repomaker:apk:_def_get_type Allows for Mime Type Mismatches]({{ site.baseurl }}/docs/Second_Audit_Report/#f9-repomaker-apk-_def_get_type-allows-for-mime-type-mismatches)"
-msgstr ""
+msgstr "[4.1.30 OTF-030 — Repomaker: apk: _def_get_type Zezwala na niedopasowanie typu Mime]({{ site.baseurl }}/docs/Second_Audit_Report/#f9-repomaker-apk-_def_get_type-allows-for-mime-type-mismatches)"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "[4.1.31 OTF-031 — Unsafe HTML Rendering of Arbitrary Input]({{ site.baseurl }}/docs/Second_Audit_Report/#f10-unsafe-html-rendering-of-arbitrary-input)"
-msgstr ""
+msgstr "[4.1.31 OTF-031 — Niebezpieczne renderowanie HTML arbitralnych danych wejściowych]({{ site.baseurl }}/docs/Second_Audit_Report/#f10-unsafe-html-rendering-of-arbitrary-input)"
 
 #. type: Title ##
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 #, no-wrap
 msgid "Findings that are not relevant or too pedantic"
-msgstr ""
+msgstr "Ustalenia, które nie są istotne lub zbyt pedantyczne"
 
 #. type: Plain text
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "These are issues which are not technically wrong, but are not relevant in the context of how F-Droid is using the code."
-msgstr ""
+msgstr "Są to kwestie, które nie są technicznie błędne, ale nie są istotne w kontekście tego, w jaki sposób F-Droid używa kodu."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "[4.1.8 OTF-008 — Unvalidated User Input Included in Response]({{ site.baseurl }}/docs/Second_Audit_Report/#f33-bluetoothserver-java-request-uri-included-in-response)"
-msgstr ""
+msgstr "[4.1.8 OTF-008 — Niewłaściwe dane wejściowe użytkownika zawarte w odpowiedzi]({{ site.baseurl }}/docs/Second_Audit_Report/#f33-bluetoothserver-java-request-uri-included-in-response)"
 
 #. type: Plain text
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
@@ -4813,17 +4813,17 @@ msgstr ""
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "[4.1.16 OTF-016 — Missing file type and size validation]({{ site.baseurl }}/docs/Second_Audit_Report/#f34-bluetootheserver-java-file-in-response-without-size-of-type-check)"
-msgstr ""
+msgstr "[4.1.16 OTF-016 — Brak sprawdzania poprawności typu i rozmiaru pliku]({{ site.baseurl }}/docs/Second_Audit_Report/#f34-bluetootheserver-java-file-in-response-without-size-of-type-check)"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "[4.1.34 OTF-034 — Missing file type and size validation]({{ site.baseurl }}/docs/Second_Audit_Report/#f30-downloader-download-file-type-and-size-are-not-verified)"
-msgstr ""
+msgstr "[4.1.34 OTF-034 — Brak sprawdzania poprawności typu i rozmiaru pliku]({{ site.baseurl }}/docs/Second_Audit_Report/#f30-downloader-download-file-type-and-size-are-not-verified)"
 
 #. type: Plain text
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "The download process only downloads files to a private directory.  The file validation happens during the install process for all files.  After download, the install process validates the SHA-256 against what is in the signed file index."
-msgstr ""
+msgstr "Proces pobierania pobiera tylko pliki do prywatnego katalogu. Sprawdzanie poprawności plików odbywa się podczas procesu instalacji wszystkich plików. Po pobraniu proces instalacji sprawdza poprawność SHA-256 względem zawartości podpisanego pliku."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
