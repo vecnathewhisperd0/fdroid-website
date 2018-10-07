@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-09-12 15:38+0200\n"
-"PO-Revision-Date: 2018-10-07 13:28+0000\n"
+"PO-Revision-Date: 2018-10-08 11:06+0000\n"
 "Last-Translator: WaldiS <admin@sto.ugu.pl>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/f-droid/website-docs/pl/>\n"
 "Language: pl\n"
@@ -6458,15 +6458,13 @@ msgstr "A oto cały certyfikat:"
 
 #. type: Plain text
 #: build/_docs/md/Release_Channels_and_Signing_Keys.md
-#, fuzzy
 msgid "``` -----BEGIN PUBLIC KEY----- MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAltB15HwBTngiyJ/Wf3ld IyA+KohD9Tuk5rG/Xy/Q4iWTgmfPyuf79P5ZY0avuvQHD9uR9m+83yNIo9kkMFAo JPgFF7FW+rAICb3I5jG/qa/ULZBFq1/W0o2eFAr8EwCRexm3xsTfSklM8ffLSmPI DXNCZdc1r55PCUVfQnqmWlNWP4ezNsosGdJE/LumF7oLGeVu00r+CyU6uR4v2xJx 8bnjwyMgJ+2IYqES8HBuI0zyNpFLk5vPlZgh7LKmwYBX4HDeNCgEbZSxdeHYm9eV 5TVJmgkfW8ZaedU5qNQ4kexQQFissowIOTtXGLV2AKIR6AP0pjTlxX8lubjEQixv 2QIDAQAB -----END PUBLIC KEY-----"
-msgstr "``` -----BEGIN PUBLIC KEY----- MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAltB15HwBTngiyJ/Wf3ld IyA+KohD9Tuk5rG/Xy/Q4iWTgmfPyuf79P5ZY0avuvQHD9uR9m+83yNIo9kkMFAo JPgFF7FW+rAICb3I5jG/qa/ULZBFq1/W0o2eFAr8EwCRexm3xsTfSklM8ffLSmPI DXNCZdc1r55PCUVfQnqmWlNWP4ezNsosGdJE/LumF7oLGeVu00r+CyU6uR4v2xJx 8bnjwyMgJ+2IYqES8HBuI0zyNpFLk5vPlZgh7LKmwYBX4HDeNCgEbZSxdeHYm9eV 5TVJmgkfW8ZaedU5qNQ4kexQQFissowIOTtXGLV2AKIR6AP0pjTlxX8lubjEQixv 2QIDAQAB -----END PUBLIC KEY-----"
+msgstr "``` -----POCZĄTEK KLUCZA PUBLICZNEGO----- MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAltB15HwBTngiyJ/Wf3ld IyA+KohD9Tuk5rG/Xy/Q4iWTgmfPyuf79P5ZY0avuvQHD9uR9m+83yNIo9kkMFAo JPgFF7FW+rAICb3I5jG/qa/ULZBFq1/W0o2eFAr8EwCRexm3xsTfSklM8ffLSmPI DXNCZdc1r55PCUVfQnqmWlNWP4ezNsosGdJE/LumF7oLGeVu00r+CyU6uR4v2xJx 8bnjwyMgJ+2IYqES8HBuI0zyNpFLk5vPlZgh7LKmwYBX4HDeNCgEbZSxdeHYm9eV 5TVJmgkfW8ZaedU5qNQ4kexQQFissowIOTtXGLV2AKIR6AP0pjTlxX8lubjEQixv 2QIDAQAB -----KONIEC KLUCZA PUBLICZNEGO-----"
 
 #. type: Plain text
 #: build/_docs/md/Release_Channels_and_Signing_Keys.md
-#, fuzzy
 msgid "-----BEGIN CERTIFICATE----- MIIDXjCCAkagAwIBAgIETEnNADANBgkqhkiG9w0BAQUFADBxMQswCQYDVQQGEwJV SzEQMA4GA1UECBMHVW5rbm93bjERMA8GA1UEBxMIV2V0aGVyYnkxEDAOBgNVBAoT B1Vua25vd24xEDAOBgNVBAsTB1Vua25vd24xGTAXBgNVBAMTEENpYXJhbiBHdWx0 bmlla3MwHhcNMTAwNzIzMTcxMDI0WhcNMzcxMjA4MTcxMDI0WjBxMQswCQYDVQQG EwJVSzEQMA4GA1UECBMHVW5rbm93bjERMA8GA1UEBxMIV2V0aGVyYnkxEDAOBgNV BAoTB1Vua25vd24xEDAOBgNVBAsTB1Vua25vd24xGTAXBgNVBAMTEENpYXJhbiBH dWx0bmlla3MwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCW0HXkfAFO eCLIn9Z/eV0jID4qiEP1O6Tmsb9fL9DiJZOCZ8/K5/v0/lljRq+69AcP25H2b7zf I0ij2SQwUCgk+AUXsVb6sAgJvcjmMb+pr9QtkEWrX9bSjZ4UCvwTAJF7GbfGxN9K SUzx98tKY8gNc0Jl1zWvnk8JRV9CeqZaU1Y/h7M2yiwZ0kT8u6YXugsZ5W7TSv4L JTq5Hi/bEnHxuePDIyAn7YhioRLwcG4jTPI2kUuTm8+VmCHssqbBgFfgcN40KARt lLF14dib15XlNUmaCR9bxlp51Tmo1DiR7FBAWKyyjAg5O1cYtXYAohHoA/SmNOXF fyW5uMRCLG/ZAgMBAAEwDQYJKoZIhvcNAQEFBQADggEBAAjk72memAdnf/VnU9pz 77I5DVriwX5NtpHV33p7YPwHGuUJxUFL59XadN8oEeg9NmjEoLGryEufp9lrTN8w u6aFF60qk+IzsEKXKsBVOkgByevge/V+vpo7PW1mOWUmDlDzuPRtsFMXYeYDQKK9 3DQmCYOX/aVARKF+UkRUn5hptGDKXm4ha29qLbBYC0gMoq/m7GtG7trPpKpFA4gJ 7ODFl4ZT1shfZ45/WiFW0b7dgRd1HmSksNzRQPMECwIYIajZOu2NAbo222yCNyIR /tcU2aMmBwOM39VlvVKf/GNyEqqiwiTvIrYD7M77W/HghcGR1LJP50KxerP1XU5v Be8= -----END CERTIFICATE----- ```"
-msgstr "-----BEGIN CERTIFICATE----- MIIDXjCCAkagAwIBAgIETEnNADANBgkqhkiG9w0BAQUFADBxMQswCQYDVQQGEwJV SzEQMA4GA1UECBMHVW5rbm93bjERMA8GA1UEBxMIV2V0aGVyYnkxEDAOBgNVBAoT B1Vua25vd24xEDAOBgNVBAsTB1Vua25vd24xGTAXBgNVBAMTEENpYXJhbiBHdWx0 bmlla3MwHhcNMTAwNzIzMTcxMDI0WhcNMzcxMjA4MTcxMDI0WjBxMQswCQYDVQQG EwJVSzEQMA4GA1UECBMHVW5rbm93bjERMA8GA1UEBxMIV2V0aGVyYnkxEDAOBgNV BAoTB1Vua25vd24xEDAOBgNVBAsTB1Vua25vd24xGTAXBgNVBAMTEENpYXJhbiBH dWx0bmlla3MwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCW0HXkfAFO eCLIn9Z/eV0jID4qiEP1O6Tmsb9fL9DiJZOCZ8/K5/v0/lljRq+69AcP25H2b7zf I0ij2SQwUCgk+AUXsVb6sAgJvcjmMb+pr9QtkEWrX9bSjZ4UCvwTAJF7GbfGxN9K SUzx98tKY8gNc0Jl1zWvnk8JRV9CeqZaU1Y/h7M2yiwZ0kT8u6YXugsZ5W7TSv4L JTq5Hi/bEnHxuePDIyAn7YhioRLwcG4jTPI2kUuTm8+VmCHssqbBgFfgcN40KARt lLF14dib15XlNUmaCR9bxlp51Tmo1DiR7FBAWKyyjAg5O1cYtXYAohHoA/SmNOXF fyW5uMRCLG/ZAgMBAAEwDQYJKoZIhvcNAQEFBQADggEBAAjk72memAdnf/VnU9pz 77I5DVriwX5NtpHV33p7YPwHGuUJxUFL59XadN8oEeg9NmjEoLGryEufp9lrTN8w u6aFF60qk+IzsEKXKsBVOkgByevge/V+vpo7PW1mOWUmDlDzuPRtsFMXYeYDQKK9 3DQmCYOX/aVARKF+UkRUn5hptGDKXm4ha29qLbBYC0gMoq/m7GtG7trPpKpFA4gJ 7ODFl4ZT1shfZ45/WiFW0b7dgRd1HmSksNzRQPMECwIYIajZOu2NAbo222yCNyIR /tcU2aMmBwOM39VlvVKf/GNyEqqiwiTvIrYD7M77W/HghcGR1LJP50KxerP1XU5v Be8= -----END CERTIFICATE----- ```"
+msgstr "-----POCZĄTEK CERTYFIKATU----- MIIDXjCCAkagAwIBAgIETEnNADANBgkqhkiG9w0BAQUFADBxMQswCQYDVQQGEwJV SzEQMA4GA1UECBMHVW5rbm93bjERMA8GA1UEBxMIV2V0aGVyYnkxEDAOBgNVBAoT B1Vua25vd24xEDAOBgNVBAsTB1Vua25vd24xGTAXBgNVBAMTEENpYXJhbiBHdWx0 bmlla3MwHhcNMTAwNzIzMTcxMDI0WhcNMzcxMjA4MTcxMDI0WjBxMQswCQYDVQQG EwJVSzEQMA4GA1UECBMHVW5rbm93bjERMA8GA1UEBxMIV2V0aGVyYnkxEDAOBgNV BAoTB1Vua25vd24xEDAOBgNVBAsTB1Vua25vd24xGTAXBgNVBAMTEENpYXJhbiBH dWx0bmlla3MwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCW0HXkfAFO eCLIn9Z/eV0jID4qiEP1O6Tmsb9fL9DiJZOCZ8/K5/v0/lljRq+69AcP25H2b7zf I0ij2SQwUCgk+AUXsVb6sAgJvcjmMb+pr9QtkEWrX9bSjZ4UCvwTAJF7GbfGxN9K SUzx98tKY8gNc0Jl1zWvnk8JRV9CeqZaU1Y/h7M2yiwZ0kT8u6YXugsZ5W7TSv4L JTq5Hi/bEnHxuePDIyAn7YhioRLwcG4jTPI2kUuTm8+VmCHssqbBgFfgcN40KARt lLF14dib15XlNUmaCR9bxlp51Tmo1DiR7FBAWKyyjAg5O1cYtXYAohHoA/SmNOXF fyW5uMRCLG/ZAgMBAAEwDQYJKoZIhvcNAQEFBQADggEBAAjk72memAdnf/VnU9pz 77I5DVriwX5NtpHV33p7YPwHGuUJxUFL59XadN8oEeg9NmjEoLGryEufp9lrTN8w u6aFF60qk+IzsEKXKsBVOkgByevge/V+vpo7PW1mOWUmDlDzuPRtsFMXYeYDQKK9 3DQmCYOX/aVARKF+UkRUn5hptGDKXm4ha29qLbBYC0gMoq/m7GtG7trPpKpFA4gJ 7ODFl4ZT1shfZ45/WiFW0b7dgRd1HmSksNzRQPMECwIYIajZOu2NAbo222yCNyIR /tcU2aMmBwOM39VlvVKf/GNyEqqiwiTvIrYD7M77W/HghcGR1LJP50KxerP1XU5v Be8= -----KONIEC CERTYFIKATU----- ```"
 
 #. type: Title ##
 #: build/_docs/md/Release_Channels_and_Signing_Keys.md
@@ -6489,6 +6487,15 @@ msgid ""
 "        \"Daniel Martí \\<mvdan@fsfe.org>\" with fingerprint: <br\n"
 "        />`A9DA 13CD F7A1 4ACD D3DE E530 F4CA FFDB 4348 041C`\n"
 msgstr ""
+"-   repozytorium git: <https://gitlab.com/fdroid/fdroidserver>\n"
+"    -   tagi git podpisane przez \"Hans-Christoph Steiner\n"
+"        \\<hans@guardianproject.info>\" także jako \"Hans-Christoph Steiner\n"
+"        \\<hans@eds.org>\" także jako \"Hans-Christoph Steiner\n"
+"        \\<hans@at.or.at>\" z odciskiem palca: <br />\n"
+"        `EE66 20C7 136B 0D2C 456C 0A4D E9E2 8DEA 00AA 5556`\n"
+"    -   lub wcześniej \"Daniel Martí \\<mvdan@mvdan.cc>\" także jako\n"
+"        \"Daniel Martí \\<mvdan@fsfe.org>\" z odciskiem palca: <br\n"
+"        />`A9DA 13CD F7A1 4ACD D3DE E530 F4CA FFDB 4348 041C`\n"
 
 #. type: Plain text
 #: build/_docs/md/Release_Channels_and_Signing_Keys.md
@@ -6503,6 +6510,14 @@ msgid ""
 "        or previously <br />`5E61 C878 0F86 295C E17D 8677 9F0F E587 374B BE81`\n"
 "    -   release command: `python3 setup.py sdist upload --sign`\n"
 msgstr ""
+"-   pakiet źródłowy: <https://pypi.python.org/pypi/fdroidserver>\n"
+"    -   tagi pakietów podpisane przez \"Hans-Christoph Steiner\n"
+"        \\<hans@guardianproject.info>\" także jako \"Hans-Christoph Steiner\n"
+"        \\<hans@eds.org>\" także jako \"Hans-Christoph Steiner\n"
+"        \\<hans@at.or.at>\" z odciskiem palca: <br />\n"
+"        `EE66 20C7 136B 0D2C 456C 0A4D E9E2 8DEA 00AA 5556`\n"
+"        lub wcześniej <br />`5E61 C878 0F86 295C E17D 8677 9F0F E587 374B BE81`\n"
+"    -   polecenie release: `python3 setup.py sdist upload --sign`\n"
 
 #. type: Plain text
 #: build/_docs/md/Release_Channels_and_Signing_Keys.md
@@ -6519,6 +6534,16 @@ msgid ""
 "        5556` or previously <br />\n"
 "        `5E61 C878 0F86 295C E17D 8677 9F0F E587 374B BE81`\n"
 msgstr ""
+"-   oficjalny pakiet Debian: <https://packages.debian.org/fdroidserver>\n"
+"    -   źródło pakietu:\n"
+"        <https://anonscm.debian.org/git/collab-maint/fdroidserver.git>\n"
+"    -   tagi pakietów podpisane przez \"Hans-Christoph Steiner\n"
+"        \\<hans@guardianproject.info>\" także jako \"Hans-Christoph Steiner\n"
+"        \\<hans@eds.org>\" także jako \"Hans-Christoph Steiner\n"
+"        \\<hans@at.or.at>\" z odciskiem palców: <br/>\n"
+"        `EE66 20C7 136B 0D2C 456C 0A4D E9E2 8DEA 00AA\n"
+"        5556` lub wcześniej <br />\n"
+"        `5E61 C878 0F86 295C E17D 8677 9F0F E587 374B BE81`\n"
 
 #. type: Plain text
 #: build/_docs/md/Release_Channels_and_Signing_Keys.md
@@ -6533,6 +6558,14 @@ msgid ""
 "    sudo apt-get install fdroidserver\n"
 "    ```\n"
 msgstr ""
+"-   oficjalna wersja Ubuntu PPA: <https://launchpad.net/~fdroid/+archive/ubuntu/fdroidserver>\n"
+"    - odcisk palca: `9AAC 2531 93B6 5D4D F1D0 A13E EC46 32C7 9C5E 0151`\n"
+"    - jak zainstalować:\n"
+"    ```bash\n"
+"    sudo add-apt-repository ppa:fdroid/fdroidserver\n"
+"    sudo apt-get update\n"
+"    sudo apt-get install fdroidserver\n"
+"    ```\n"
 
 #. type: Title ##
 #: build/_docs/md/Release_Channels_and_Signing_Keys.md
@@ -6550,6 +6583,11 @@ msgid ""
 "        \\<hans@eds.org>\" aka \"Hans-Christoph Steiner\n"
 "        \\<hans@at.or.at>\" with fingerprint: <br/>`EE66 20C7 136B 0D2C 456C 0A4D E9E2 8DEA 00AA 5556`\n"
 msgstr ""
+"-   repozytorium git: <https://gitlab.com/fdroid/privileged-extension>\n"
+"    -   tagi git podpisane przez \"Hans-Christoph Steiner\n"
+"        \\<hans@guardianproject.info>\" także jako \"Hans-Christoph Steiner\n"
+"        \\<hans@eds.org>\" także jako \"Hans-Christoph Steiner\n"
+"        \\<hans@at.or.at>\" z odciskiem palca: <br/>`EE66 20C7 136B 0D2C 456C 0A4D E9E2 8DEA 00AA 5556`\n"
 
 #. type: Title #
 #: build/_docs/md/Release_Process.md
@@ -6564,54 +6602,54 @@ msgstr "Dla każdego elementu ekosystemu F-Droid istnieje określony proces wyda
 
 #. type: Title ##
 #: build/_docs/md/Release_Process.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "fdroidclient"
-msgstr "fdroidclient"
+msgstr "klient fdroid"
 
 #. type: Bullet: '1. '
 #: build/_docs/md/Release_Process.md
 msgid "pull in latest commits from Weblate into a local branch called _weblate_"
-msgstr ""
+msgstr "ściągnij ostatnie poprawki z Weblate do lokalnego oddziału o nazwie _weblate_"
 
 #. type: Bullet: '2. '
 #: build/_docs/md/Release_Process.md
 msgid "run `./tools/check-format-strings.py` and `./tools/remove-unused-and-blank-translations.py` and commit changes"
-msgstr ""
+msgstr "uruchom `./tools/check-format-strings.py` and `./tools/remove-unused-and-blank-translations.py` i zatwierdź zmiany"
 
 #. type: Bullet: '3. '
 #: build/_docs/md/Release_Process.md
 msgid "rebase the _weblate_ branch on the latest commits in _master_ of <https://gitlab.com/fdroid/fdroidclient> and fix any conflicts"
-msgstr ""
+msgstr "zmień gałąź _weblate_ na ostatnie zmiany w _master_ w <https://gitlab.com/fdroid/fdroidclient> i napraw wszelkie konflikty"
 
 #. type: Bullet: '4. '
 #: build/_docs/md/Release_Process.md
 msgid "push local _weblate_ branch to your fork create a merge request, and tag it with the _localization_ label"
-msgstr ""
+msgstr "wypchnij lokalną gałąź _weblate_ do rozgałęzienia, aby utworzyć żądanie scalenia i oznaczyć ją etykietą _localization_"
 
 #. type: Bullet: '5. '
 #: build/_docs/md/Release_Process.md
 msgid "make sure all tests pass before merging, including all _android-10_ emulator tests"
-msgstr ""
+msgstr "upewnij się, że wszystkie testy kończą się przed połączeniem, w tym wszystkie testy emulatora _android-10_"
 
 #. type: Bullet: '6. '
 #: build/_docs/md/Release_Process.md
 msgid "once the _weblate_ branch is merged, reset the git repo in <https://hosted.weblate.org/projects/f-droid/f-droid/#repository>"
-msgstr ""
+msgstr "gdy gałąź _weblate_ zostanie scalona, zresetuj repozytorium git <https://hosted.weblate.org/projects/f-droid/f-droid/#repository>"
 
 #. type: Bullet: '7. '
 #: build/_docs/md/Release_Process.md
 msgid "set _versionCode_ in _app/build.gradle_"
-msgstr ""
+msgstr "set _versionCode_ w _app/build.gradle_"
 
 #. type: Bullet: '8. '
 #: build/_docs/md/Release_Process.md
 msgid "add new entry in _metadata/en-US/changelogs/_"
-msgstr ""
+msgstr "dodaj nowy wpis w _metadata/en-US/changelogs/_"
 
 #. type: Bullet: '9. '
 #: build/_docs/md/Release_Process.md
 msgid "copy that new entry to _CHANGELOG.md_"
-msgstr ""
+msgstr "skopiuj ten nowy wpis do _CHANGELOG.md_"
 
 #. type: Plain text
 #: build/_docs/md/Release_Process.md
