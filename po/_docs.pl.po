@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-09-12 15:38+0200\n"
-"PO-Revision-Date: 2018-10-08 11:06+0000\n"
+"PO-Revision-Date: 2018-10-09 15:33+0000\n"
 "Last-Translator: WaldiS <admin@sto.ugu.pl>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/f-droid/website-docs/pl/>\n"
 "Language: pl\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 3.2\n"
+"X-Generator: Weblate 3.2.1\n"
 
 #. type: Title #
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -6436,6 +6436,28 @@ msgid ""
 "        Valid from: Fri Jul 23 13:10:24 EDT 2010 until: Tue Dec 08 12:10:24 EST 2037\n"
 "        Certificate fingerprints:\n"
 msgstr ""
+"-   repozytorium git: <https://gitlab.com/fdroid/fdroidclient>\n"
+"    -   tagi git podpisane przez \"Hans-Christoph Steiner\n"
+"        \\<hans@guardianproject.info>\" także jako \"Hans-Christoph Steiner\n"
+"        \\<hans@eds.org>\" także jako \"Hans-Christoph Steiner\n"
+"        \\<hans@at.or.at>\" z odciskiem palca: <br />\n"
+"        `EE66 20C7 136B 0D2C 456C 0A4D E9E2 8DEA 00AA 5556`\n"
+"    -   lub poprzednio podpisane przez \"Daniel Martí \\<mvdan@mvdan.cc>\" także jako\n"
+"        \"Daniel Martí \\<mvdan@fsfe.org>\" z odciskiem palca: <br\n"
+"        />`A9DA 13CD F7A1 4ACD D3DE E530 F4CA FFDB 4348\n"
+"        041C`\n"
+"-   oficjalne wydania binarne:\n"
+"    <https://f-droid.org/repository/browse/?fdfilter=f-droid&fdid=org.fdroid.fdroid>\n"
+"    -   Klucz podpisu GPG: \"F-Droid \\<admin@f-droid.org>\"\n"
+"    -   Główny odcisk palca: `37D2 C987 89D8 3119 4839 4E3E 41E7 044E 1DBA 2E89`\n"
+"    -   Odcisk palca podtypu: `802A 9799 0161 1234 6E1F EFF4 7A02 9E54 DD5D CE7A`\n"
+"    -   Klucz podpisywania APK:\n"
+"        ```\n"
+"        Właściciel: CN=Ciaran Gultnieks, OU=Unknown, O=Unknown, L=Wetherby, ST=Unknown, C=UK\n"
+"        Wystawca: CN=Ciaran Gultnieks, OU=Unknown, O=Unknown, L=Wetherby, ST=Unknown, C=UK\n"
+"        Numer seryjny: 4c49cd00\n"
+"        Ważny od: Fri Jul 23 13:10:24 EDT 2010 until: Tue Dec 08 12:10:24 EST 2037\n"
+"        Odcisk palca Certyfikatu:\n"
 
 #. type: Plain text
 #: build/_docs/md/Release_Channels_and_Signing_Keys.md
@@ -6660,27 +6682,31 @@ msgid ""
 "11. add new `Build:` entry to\n"
 "    [metadata file](https://gitlab.com/fdroid/fdroiddata/blob/master/metadata/org.fdroid.fdroid.txt)\n"
 msgstr ""
+"10. dodaj tag podpisany git nazwany od dokładnej nazwy wersji (bez\n"
+"   poprzedzających __v__)\n"
+"11. dodaj nowy wpis do `Build:` entry to\n"
+"    [plik metadanych](https://gitlab.com/fdroid/fdroiddata/blob/master/metadata/org.fdroid.fdroid.txt)\n"
 
 #. type: Title ###
 #: build/_docs/md/Release_Process.md
 #, no-wrap
 msgid "major release"
-msgstr ""
+msgstr "główne wydanie"
 
 #. type: Plain text
 #: build/_docs/md/Release_Process.md
 msgid "If it is a major release, there are a few more steps."
-msgstr ""
+msgstr "Jeśli jest to główne wydanie, jest jeszcze kilka kroków."
 
 #. type: Bullet: '1. '
 #: build/_docs/md/Release_Process.md
 msgid "temporarily remove the _iw/in_ links: `find app/src/main/res/ -type l -delete`"
-msgstr ""
+msgstr "tymczasowo usuń linki _iw/in_ links: `find app/src/main/res/ -type l -delete`"
 
 #. type: Bullet: '2. '
 #: build/_docs/md/Release_Process.md
 msgid "In Android Studio, go to _Analyze_ -> _Inspect Code_"
-msgstr ""
+msgstr "W Android Studio przejdź do _Analyze_ -> _Inspect Code_"
 
 #. type: Bullet: '3. '
 #: build/_docs/md/Release_Process.md
