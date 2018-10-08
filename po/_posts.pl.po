@@ -4767,7 +4767,7 @@ msgstr "Kreator repozytoriów"
 #. type: Plain text
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "Repomaker is a web tool to make it really easy to set up your own F-Droid repositories.  It is a new project that should still be considered beta.  There was one issue with high severity ([CVE-2018-7753](https://nvd.nist.gov/vuln/detail/CVE-2018-7753))  found in an upstream library, Mozilla's [_bleach_](https://github.com/mozilla/bleach).  It was reported to Mozilla and promptly fixed.  There were three other low impact findings which have been fixed."
-msgstr "Repomaker to narzędzie internetowe, dzięki któremu bardzo łatwo można tworzyć własne repozytoria F-Droid. Jest to nowy projekt, który nadal powinien być uważany za wersję beta. Wystąpił jeden problem o dużym natężeniu ([CVE-2018-7753] (https://nvd.nist.gov/vuln/detail/CVE-2018-7753) znaleziony w bibliotece upstream, Mozilla  [_bleach_](https://github.com/mozilla/bleach). Został zgłoszony do Mozilli i natychmiast naprawiony. Usunięto jeszcze trzy inne ustalenia o niewielkim wpływie."
+msgstr "Repomaker to narzędzie internetowe, dzięki któremu bardzo łatwo można tworzyć własne repozytoria F-Droid. Jest to nowy projekt, który nadal powinien być uważany za wersję beta. Wystąpił jeden problem o dużym natężeniu ([CVE-2018-7753](https://nvd.nist.gov/vuln/detail/CVE-2018-7753) znaleziony w bibliotece upstream, Mozilla  [_bleach_](https://github.com/mozilla/bleach). Został zgłoszony do Mozilli i natychmiast naprawiony. Usunięto jeszcze trzy inne ustalenia o niewielkim wpływie."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-04-second-security-audit-results.md

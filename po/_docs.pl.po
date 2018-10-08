@@ -5886,7 +5886,7 @@ msgstr "Utrzymanie forum"
 #. type: Plain text
 #: build/_docs/md/Maintaining_the_Forum.md
 msgid "[F-Droid's forum](https://forum.f-droid.org) is powered by [Discourse](https://www.discourse.org/) and [maintained by volunteers](https://forum.f-droid.org/about)."
-msgstr "[Forum F-Droid] (https://forum.f-droid.org) jest obsługiwane przez [Dyskurs](https://www.discourse.org/) i [prowadzone przez wolontariuszy](https://forum.f-droid.org/about)."
+msgstr "[Forum F-Droid](https://forum.f-droid.org) jest obsługiwane przez [Dyskurs](https://www.discourse.org/) i [prowadzone przez wolontariuszy](https://forum.f-droid.org/about)."
 
 #. type: Plain text
 #: build/_docs/md/Maintaining_the_Forum.md

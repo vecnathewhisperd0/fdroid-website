@@ -4643,7 +4643,7 @@ msgstr "[4.1.34 OTF-034 — Bösartig angepasste Appid Code Injection in Fdroids
 #. type: Plain text
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "The build metadata files are used to describe an app and it's build process.  They are usually created by trusted parties (e.g. the person running the repo) or reviewed via merge requests.  These findings would only have caused problems for repos that included metadata files from untrusted sources without reviewing them.  For _f-droid.org_, the metadata files can only be downloaded to the production servers via git commits in [fdroiddata](https://gitlab.com/fdroid/fdroiddata).  No attempts to exploit these have been seen in the git history nor merge requests.  Most of these issues only affect the app building process, e.g. `fdroid build`.  Repos made from binary APKs and `fdroid update` would only be affected by [4.1.3 OTF-003]({{ site.baseurl }}/docs/Second_Audit_Report/#f23-code-injection-in-fdroidserver-metadata-yaml-parsing)."
-msgstr "Die Build-Metadatendateien werden verwendet, um eine App und ihren Build-Prozess zu beschreiben.  Sie werden in der Regel von vertrauenswürdigen Parteien (z.B. der Person, die den Repo laufen lässt) erstellt oder durch Merge-Anfragen überprüft.  Diese Ergebnisse hätten nur bei Repos Probleme verursacht, die Metadatendateien aus nicht vertrauenswürdigen Quellen enthalten, ohne sie zu überprüfen.  Für _f-droid.org_ können die Metadatendateien nur über Git-Commits in [fdroiddata](https://gitlab.com/fdroid/fdroiddata) auf die Produktionsserver heruntergeladen werden.  In der Git-Historie wurden keine Versuche unternommen, diese auszunutzen und es wurden keine Merge-Requests gestellt.  Die meisten dieser Probleme betreffen nur den Erstellungsprozess der App, z.B. `fdroid build`.  Repos aus binären APKs und `fdroid update` wären nur von [4.1.3 OTF-003]({{ site.baseurl }}}/docs/Second_Audit_Report/#f23-code-injection-in-fdroidserver-metadata-yaml-parsing) betroffen."
+msgstr "Die Build-Metadatendateien werden verwendet, um eine App und ihren Build-Prozess zu beschreiben.  Sie werden in der Regel von vertrauenswürdigen Parteien (z.B. der Person, die den Repo laufen lässt) erstellt oder durch Merge-Anfragen überprüft.  Diese Ergebnisse hätten nur bei Repos Probleme verursacht, die Metadatendateien aus nicht vertrauenswürdigen Quellen enthalten, ohne sie zu überprüfen.  Für _f-droid.org_ können die Metadatendateien nur über Git-Commits in [fdroiddata](https://gitlab.com/fdroid/fdroiddata) auf die Produktionsserver heruntergeladen werden.  In der Git-Historie wurden keine Versuche unternommen, diese auszunutzen und es wurden keine Merge-Requests gestellt.  Die meisten dieser Probleme betreffen nur den Erstellungsprozess der App, z.B. `fdroid build`.  Repos aus binären APKs und `fdroid update` wären nur von [4.1.3 OTF-003]({{ site.baseurl }}/docs/Second_Audit_Report/#f23-code-injection-in-fdroidserver-metadata-yaml-parsing) betroffen."
 
 #. type: Title ###
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
@@ -4659,12 +4659,12 @@ msgstr "Die verwendeten Datenformate ermöglichen die Codeausführung aus serial
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "[4.1.3 OTF-003 — Code Injection in Fdroidserver Metadata Yaml Parsing]({{ site.baseurl }}/docs/Second_Audit_Report/#f23-code-injection-in-fdroidserver-metadata-yaml-parsing)"
-msgstr "[4.1.3 OTF-003 - Code-Injection in Fdroidserver Metadaten Yaml Parsing]({{ site.baseurl }}}/docs/Second_Audit_Report/#f23-code-injection-in-fdroidserver-metadata-yaml-parsing)"
+msgstr "[4.1.3 OTF-003 - Code-Injection in Fdroidserver Metadaten Yaml Parsing]({{ site.baseurl }}/docs/Second_Audit_Report/#f23-code-injection-in-fdroidserver-metadata-yaml-parsing)"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "[4.1.31 OTF-031 — Dangerous Deserialization Using Python Pickle in Fdroidserver:update.py]({{ site.baseurl }}/docs/Second_Audit_Report/#f16-dangerous-deserialization-using-python-pickle-in-fdroidserver-update-py)"
-msgstr "[4.1.31 OTF-031 - Gefährliche Deserialisierung mit Python Pickle in Fdroidserver:update.py]({{ site.baseurl }}}/docs/Second_Audit_Report/#f16-dangerous-deserialization-using-python-pickle-in-fdroidserver-update-py)"
+msgstr "[4.1.31 OTF-031 - Gefährliche Deserialisierung mit Python Pickle in Fdroidserver:update.py]({{ site.baseurl }}/docs/Second_Audit_Report/#f16-dangerous-deserialization-using-python-pickle-in-fdroidserver-update-py)"
 
 #. type: Title ###
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
@@ -4680,17 +4680,17 @@ msgstr "Es wurden einige Probleme gefunden, die es Mitwirkenden mit vertrauensw�
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "[4.1.12 OTF-012 — Key Alias Collisions Can Lead to DoS of Publishing in Fdroidserver]({{ site.baseurl }}/docs/Second_Audit_Report/#f13-key-alias-collisions-can-lead-to-dos-of-publishing-in-fdroidserver) ([issue #553](https://gitlab.com/fdroid/fdroidserver/issues/553))"
-msgstr "[4.1.12 OTF-012 - Wichtige Alias-Kollisionen können zu DoS der Veröffentlichung in Fdroidserver führen]({{ site.baseurl }}}/docs/Second_Audit_Report/#f13-key-alias-collisions-can-lead-to-dos-of-publishing-in-fdroidserver) ([issue #553](https://gitlab.com/fdroid/fdroidserver/issues/553))"
+msgstr "[4.1.12 OTF-012 - Wichtige Alias-Kollisionen können zu DoS der Veröffentlichung in Fdroidserver führen]({{ site.baseurl }}/docs/Second_Audit_Report/#f13-key-alias-collisions-can-lead-to-dos-of-publishing-in-fdroidserver) ([issue #553](https://gitlab.com/fdroid/fdroidserver/issues/553))"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "[4.1.13 OTF-013 — Image Bomb Can Lead to DoS in Fdroidserver:update.py]({{ site.baseurl }}/docs/Second_Audit_Report/#f15-image-bomb-can-lead-to-dos-in-fdroidserver-update-py)"
-msgstr "[4.1.13 OTF-013 - Image Bomb kann zu DoS in Fdroidserver:update.py führen]({{ site.baseurl }}}/docs/Second_Audit_Report/#f15-image-bomb-can lead-to-dos-in-fdroidserver-update-py)"
+msgstr "[4.1.13 OTF-013 - Image Bomb kann zu DoS in Fdroidserver:update.py führen]({{ site.baseurl }}/docs/Second_Audit_Report/#f15-image-bomb-can-lead-to-dos-in-fdroidserver-update-py)"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "[4.1.15 OTF-015 — Parsing Untrusted XML Data in Fdroidserver]({{ site.baseurl }}/docs/Second_Audit_Report/#f20-parsing-untrusted-xml-data-in-fdroidserver)"
-msgstr "[4.1.15 OTF-015 - Parsen nicht vertrauenswürdiger XML-Daten in Fdroidserver]({{ site.baseurl }}}/docs/Second_Audit_Report/#f20-parsing-untrustedd-xml-data-in-fdroidserver)"
+msgstr "[4.1.15 OTF-015 - Parsen nicht vertrauenswürdiger XML-Daten in Fdroidserver]({{ site.baseurl }}/docs/Second_Audit_Report/#f20-parsing-untrusted-xml-data-in-fdroidserver)"
 
 #. type: Title ###
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
@@ -4860,7 +4860,7 @@ msgstr "Verschleierung wird hier nicht als Sicherheitsmechanismus, sondern als l
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "[4.1.38 OTF-038 — Weak pattern matching filter]({{ site.baseurl }}/docs/Second_Audit_Report/#f42-stronger-regular-expression-recommended)"
-msgstr "[4.1.38 OTF-038 - Schwacher Mustervergleichsfilter]({{ site.baseurl }}}/docs/Second_Audit_Report/#f42-stronger-regular-expression-recommended)"
+msgstr "[4.1.38 OTF-038 - Schwacher Mustervergleichsfilter]({{ site.baseurl }}/docs/Second_Audit_Report/#f42-stronger-regular-expression-recommended)"
 
 #. type: Plain text
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
@@ -5588,7 +5588,7 @@ msgid ""
 "  - new colours—grey and green—fitting new Poznań style\n"
 "  - multiple bug fixes\n"
 msgstr ""
-"* {{ page.major }}}} **[Bimba](https://f-droid.org/app/ml.adamsprogs.bimba)** kommt aus dem Beta-Test mit der Version 2.0. Bimba ist die erste Poznań Wanderführer Freie Software (ÖPNV-App). Neu in der Version 2.0:\n"
+"* {{ page.major }} **[Bimba](https://f-droid.org/app/ml.adamsprogs.bimba)** kommt aus dem Beta-Test mit der Version 2.0. Bimba ist die erste Poznań Wanderführer Freie Software (ÖPNV-App). Neu in der Version 2.0:\n"
 "  - offizieller Fahrplan der ZTM\n"
 "  - VM kann ohne Offline-Zeitplan verwendet werden\n"
 "  - Offline-Fahrplan verwendet genaue Daten\n"
