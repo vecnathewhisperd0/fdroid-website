@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-09-29 23:05-0500\n"
-"PO-Revision-Date: 2018-10-07 19:27+0000\n"
-"Last-Translator: ssantos <ssantos@web.de>\n"
+"PO-Revision-Date: 2018-10-08 11:06+0000\n"
+"Last-Translator: C. Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -4452,15 +4452,13 @@ msgstr "Abbau von Vertrauensanforderungen"
 
 #. type: Plain text
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
-#, fuzzy
 msgid "One key part of this audit was to push us further into reducing the level of trust required of the various pieces and participants in all the processes in F-Droid.  Client/server systems are usually built around the assumption that the server operator is fully trusted.  There are many trusted contributors working on F-Droid, and the people working on the core parts have a long and good track record.  Nevertheless, it is very valuable to have a system that does not require trusting people and their computers.  We aim to push all pieces of the F-Droid ecosystem to work according to the [principle of least privilege](https://en.wikipedia.org/wiki/Principle_of_least_privilege)."
-msgstr "Ein entscheidender Bestandteil dieses Audits war, uns neuerlich dazu zu drängen, das notwendige Maß an Vertrauen in die verschiedenen Teile und Teilnehmer bei allen Vorgängen in F-Droid zu reduzieren.  Client-/Serversysteme sind für gewöhnlich auf der Annahme aufgebaut, dass der Serverbetreiber absolut vertrauenswürdig ist.  Es gibt viele vertrauenswürdige Mitwirkende, die an F-Droid arbeiten, und die Leute, die an den Kernbestandteilen arbeiten, bringen eine lange und gute Erfolgs- und Erfahrungsgeschichte mit.  Nichtsdestotrotz ist es von hohem Wert, eine System zu haben, das nicht auf vertrauenswürdige Menschen und ihre Computer angewiesen ist.  Unser Ziel ist es, alle Teile des F-Droid-Ökosystems so voranzubringen, dass sie nach dem [Principle of Least Privilege](https://en.wikipedia.org/wiki/Principle_of_least_privilege) arbeiten."
+msgstr "Ein entscheidender Bestandteil dieses Audits war, uns neuerlich dazu zu drängen, das notwendige Maß an Vertrauen in die verschiedenen Teile und Teilnehmer bei allen Vorgängen in F-Droid zu reduzieren.  Client-/Serversysteme sind für gewöhnlich auf der Annahme aufgebaut, dass der Serverbetreiber absolut vertrauenswürdig ist.  Es gibt viele vertrauenswürdige Mitwirkende, die an F-Droid arbeiten, und die Leute, die an den Kernbestandteilen arbeiten, bringen eine lange und gute Erfolgs- und Erfahrungsgeschichte mit.  Nichtsdestotrotz ist es von hohem Wert, ein System zu haben, das nicht auf vertrauenswürdige Menschen und ihre Computer angewiesen ist.  Unser Ziel ist es, alle Teile des F-Droid-Ökosystems so voranzubringen, dass sie nach dem [Principle of Least Privilege](https://en.wikipedia.org/wiki/Principle_of_least_privilege) arbeiten."
 
 #. type: Plain text
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
-#, fuzzy
 msgid "New apps and updates are submitted to [fdroiddata](https://gitlab.com/fdroid/fdroiddata) via merge request and _git_ commits.  Those changes are then stored forever in the _git_ history.  In the past, the code trusted everything in _fdroiddata_, since the commits are reviewed by humans for any malicious bits.  This model has a very good track record in F-Droid as well as many other projects developed in the open by many people.  Debian is a great example of this, since almost a thousand Debian Developers have commit privileges which could give them root on every machine running Debian."
-msgstr "Neue Apps und Updates werden über Merge-Requests und _git_-Commits an [fdroiddata](https://gitlab.com/fdroid/fdroiddata) übermittelt.  Diese Änderungen werden dann für immer im _git_-Verlauf gespeichert.  In der Vergangenheit verließ sich der Code auf alles in _fdroiddata_, da die Commits von Menschen nach jedem bösartigen Bit durchsucht werden.  Dieses Modell hat eine sehr gute Erfolgsgeschichte in F-Droid wie auch in vielen anderen, von vielen Leuten in der Open-Szene entwickelten Projekten.  Debian ist ein wunderbares Beispiel dafür, da fast ein tausend Debian-Entwickler Commit-Privilegien besitzen, die ihnen Root auf jedem Rechner, auf dem Debian läuft, geben konnte."
+msgstr "Neue Apps und Updates werden über Merge-Requests und _git_-Commits an [fdroiddata](https://gitlab.com/fdroid/fdroiddata) übermittelt.  Diese Änderungen werden dann für immer im _git_-Verlauf gespeichert.  In der Vergangenheit verließ sich der Code auf alles in _fdroiddata_, da die Commits von Menschen nach jedem bösartigen Bit durchsucht werden.  Dieses Modell hat eine sehr gute Erfolgsgeschichte in F-Droid wie auch in vielen anderen, von vielen Leuten in der Open-Szene entwickelten Projekten.  Debian ist ein wunderbares Beispiel dafür, da fast ein tausend Debian-Entwickler Commit-Privilegien besitzen, die ihnen Root auf jedem Rechner, auf dem Debian läuft, geben konnten."
 
 #. type: Plain text
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
@@ -4802,7 +4800,7 @@ msgstr "Befunde, die nicht relevant oder zu kleinlich sind"
 #. type: Plain text
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 msgid "These are issues which are not technically wrong, but are not relevant in the context of how F-Droid is using the code."
-msgstr "Dies sind Probleme, die zwar technisch gesehen zutreffend sind, die aber im Kontext, wie F-Droid den Code verwendet, irrelevant sind."
+msgstr "Dies sind Probleme, die zwar technisch gesehen zutreffend aber im Kontext, wie F-Droid den Code verwendet, irrelevant sind."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
@@ -5086,9 +5084,8 @@ msgstr "**[Get Off Your Phone](https://f-droid.org/app/com.nephi.getoffyourphone
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
-#, fuzzy
 msgid "**[Knock on Ports](https://f-droid.org/app/me.impa.knockonports)**: A port knocking client"
-msgstr "**[OSMTracker](https://f-droid.org/app/net.osmtracker)**: GPS-Track-Recorder"
+msgstr "**[Knock on Ports](https://f-droid.org/app/me.impa.knockonports)**: Client zum Anklopfen an Ports"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
@@ -5127,9 +5124,8 @@ msgstr "**[Pausing Healthily](https://f-droid.org/app/org.secuso.privacyfriendly
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
-#, fuzzy
 msgid "**[PianOli](https://f-droid.org/app/com.nicobrailo.pianoli)**: Baby game to keep your device safe from random baby-taps"
-msgstr "[Ludo](https://f-droid.org/app/org.secuso.privacyfriendlyludo): Brettspiel für 1 bis 6 Spieler"
+msgstr "**[PianOli](https://f-droid.org/app/com.nicobrailo.pianoli)**: Spiel für Babys, damit Ihr Gerät vor deren Patschhändchen geschützt bleibt"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
@@ -5199,7 +5195,7 @@ msgstr "Insgesamt wurden diese Woche **61** Apps aktualisiert. Hier die Höhepun
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
 msgid "**[AdGuard Content Blocker](https://f-droid.org/app/com.adguard.android.contentblocker)** is an ad blocker for browsers that support content blocking technology. So far, these are Yandex Browser and Samsung Internet browser. Version 2.2.1 adds a whitelist setting, clean filters cache, new locales, and the order of entries will be respected when importing user filter lists."
-msgstr "**[AdGuard Content Blocker](https://f-droid.org/app/com.adguard.android.contentblocker)** ist ein Werbeblocker für Browsers, die die Technik Inhalte zu blockieren unterstützt Bislang sind das der Yandex Browser und der Samsung Internet Browser. Version 2.2.1 ergänzt eine Whitelist-Einstellung, die Bereinigung des Filterzwischenspeichers, neue Sprachen und beachtet die Reihenfolge von Einträgen beim Import nutzereigener Filterlisten."
+msgstr "**[AdGuard Content Blocker](https://f-droid.org/app/com.adguard.android.contentblocker)** ist ein Werbeblocker für Browser, die die Technik unterstützen, Inhalte zu blockieren. Bislang sind das der Yandex Browser und der Samsung Internet Browser. Version 2.2.1 ergänzt eine Whitelist-Einstellung, die Bereinigung des Filterzwischenspeichers, neue Sprachen und beachtet die Reihenfolge von Einträgen beim Import nutzereigener Filterlisten."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
@@ -5459,15 +5455,13 @@ msgstr "**[WaveUp](https://f-droid.org/app/com.jarsilio.android.waveup)**: \"Bew
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-21-twif-22-servers-edition.md
-#, fuzzy
 msgid "**[Dental Sounds](https://f-droid.org/wiki/page/de.naturalnet.zahnarztgeraeusche)** was moved to the archive [at the request of its author](https://gitlab.com/fdroid/fdroiddata/merge_requests/3668), as the app is unmaintained."
-msgstr "[Acastus](https://f-droid.org/wiki/page/me.dbarnett.acastus) wurde in das Archiv verschoben, weil der [Dienst, auf den er sich stützt, abgeschaltet wurde]https://gitlab.com/fdroid/fdroiddata/issues/1274)."
+msgstr "**[Dental Sounds](https://f-droid.org/wiki/page/de.naturalnet.zahnarztgeraeusche)** wurde [auf Wunsch ihres Autors](https://gitlab.com/fdroid/fdroiddata/merge_requests/3668) ins Archiv verschoben, da die App nicht mehr gepflegt wird."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-21-twif-22-servers-edition.md
-#, fuzzy
 msgid "**[PSLab](https://f-droid.org/wiki/page/org.fossasia.pslab)** was moved to the archive because it has been replaced with **[PSLab](https://f-droid.org/app/io.pslab)**."
-msgstr "[Acastus](https://f-droid.org/wiki/page/me.dbarnett.acastus) wurde in das Archiv verschoben, weil der [Dienst, auf den er sich stützt, abgeschaltet wurde]https://gitlab.com/fdroid/fdroiddata/issues/1274)."
+msgstr "**[PSLab](https://f-droid.org/wiki/page/org.fossasia.pslab)** wurde ins Archiv verschoben, weil sie durch **[PSLab](https://f-droid.org/app/io.pslab)** ersetzt wurde."
 
 #. type: Title #
 #: build/_posts/md/2018-09-27-twif-23-successful-update-to-stretch.md
