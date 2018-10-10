@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-09-12 15:38+0200\n"
-"PO-Revision-Date: 2018-10-09 15:33+0000\n"
+"PO-Revision-Date: 2018-10-11 21:22+0000\n"
 "Last-Translator: WaldiS <admin@sto.ugu.pl>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/f-droid/website-docs/pl/>\n"
 "Language: pl\n"
@@ -6312,6 +6312,33 @@ msgid ""
 "fdroid nightly --keystore im.zom.messenger-debug.keystore --show-secret-var\n"
 "```\n"
 msgstr ""
+"1. Wygeneruj nowy _debug.keystore_ dla każdej aplikacji, ponieważ GitHub pozwala\n"
+"   tylko na użycie klucza wdrożenia na pojedynczym repozytorium. Zachowaj ten plik\n"
+"   w bezpiecznym miejscu, ponieważ jest on kluczem do podpisania Twojej nocnej wersji.\n"
+"```\n"
+"keytool -genkey -v -keystore im.zom.messenger-debug.keystore \\\n"
+"  -keyalg RSA -keysize 2048 -validity 10000 \\\n"
+"  -alias androiddebugkey -storepass android -keypass android \\\n"
+"  -dname \"CN=Android Debug,O=Android,C=US\"\n"
+"```\n"
+"2. Ustaw klucz wdrażania GitHub dla\n"
+"  `https://github.com/zom/zom-android-nightly` idź do\n"
+"  `https://github.com/zom/zom-android-nightly/settings/keys`.\n"
+"  Publiczny klucz SSH jest drukowany przez uruchomienie:\n"
+"```\n"
+"fdroid nightly --keystore im.zom.messenger-debug.keystore\n"
+"```\n"
+"3. sprawdź _Allow write access_ w ustawieniach Klucza wdrażania GitHub\n"
+"4. Aby wydrukować zawartość zmiennej tajnej, użyj `--show-secret-var`.\n"
+"   Ostrożnie! Ten tekst to cały _debug.keystore_, więc chroń go\n"
+"   odpowiednio! Spowoduje to wypisanie tekstu base64, który zostanie wklejony do formatu\n"
+"   Travis CI \"Environment Variable\" w\n"
+"   `https://travis-ci.org/zom/Zom-Android/settings`. Wywołaj zmienną\n"
+"   `DEBUG_KEYSTORE` i upewnij się, że \"Wyświetl wartość w dzienniku kompilacji\" jest\n"
+"   ustawione na __OFF__.\n"
+"```\n"
+"fdroid nightly --keystore im.zom.messenger-debug.keystore --show-secret-var\n"
+"```\n"
 
 #. type: Plain text
 #: build/_docs/md/Publishing_Nightly_Builds.md
@@ -6711,78 +6738,78 @@ msgstr "W Android Studio przejdź do _Analyze_ -> _Inspect Code_"
 #. type: Bullet: '3. '
 #: build/_docs/md/Release_Process.md
 msgid "After running on the whole project, go to _Android Lint: Performance_, and click on _Unused Resources_, then click the _Remove All Unused Resources_ button.  Only commit changes to _strings.xml_, **not** _styles.xml_ or other files."
-msgstr ""
+msgstr "Po uruchomieniu całego projektu przejdź do _Android Lint: Performance_ i kliknij _Unused Resources_, a następnie kliknij przycisk _Usuń wszystkie nieużywane zasoby_. Wprowadź zmiany tylko w _strings.xml_, **nie** _styles.xml_ lub innych plikach."
 
 #. type: Bullet: '4. '
 #: build/_docs/md/Release_Process.md
 msgid "Then it is time to create a new stable branch (e.g. _stable-v1.0_ or _stable-v1.1_) should be created first.  The incomplete translations should be removed using `./tools/trim-incomplete-translations-for-release.py`.  This has to happen in the stable branch only, since it will remove the incomplete translations.  If the incomplete translations are removed from _master_, then Weblate will sync with that, and remove them there as well."
-msgstr ""
+msgstr "Następnie należy utworzyć nową stabilną gałąź (na przykład _stable-v1.0_ lub _stable-v1.1_). Niekompletne tłumaczenia należy usunąć za pomocą `./tools/trim-incomplete-translations-for-release.py`. To musi się zdarzyć tylko w gałęzi stabilnej, ponieważ usunie niekompletne tłumaczenia. Jeśli niekompletne tłumaczenia zostaną usunięte z _master_, wtedy Weblate zsynchronizuje się z tym i usunie je również tam."
 
 #. type: Bullet: '1. '
 #: build/_docs/md/Release_Process.md
 msgid "Make sure its passing the [tests on Ubuntu/trusty and OSX](https://travis-ci.org/f-droid/fdroidserver)"
-msgstr ""
+msgstr "Upewnij się, że przechodzi on [testy na Ubuntu/trusty i OSX](https://travis-ci.org/f-droid/fdroidserver)"
 
 #. type: Bullet: '3. '
 #: build/_docs/md/Release_Process.md
 msgid "rebase the _weblate_ branch on the latest commits in _master_ of <https://gitlab.com/fdroid/fdroidserver> and fix any conflicts"
-msgstr ""
+msgstr "zmień gałąź _weblate_ na ostatnie zmiany w _master_ z <https://gitlab.com/fdroid/fdroidserver> i napraw wszelkie konflikty"
 
 #. type: Bullet: '5. '
 #: build/_docs/md/Release_Process.md
 msgid "make sure all tests pass before merging"
-msgstr ""
+msgstr "upewnij się, że wszystkie testy zostały zakończone pomyślnie przed scaleniem"
 
 #. type: Bullet: '6. '
 #: build/_docs/md/Release_Process.md
 msgid "once the _weblate_ branch is merged, reset the git repo in <https://hosted.weblate.org/projects/f-droid/fdroidserver/#repository>"
-msgstr ""
+msgstr "gdy gałąź _weblate_ zostanie scalona, zresetuj repozytorium git w <https://hosted.weblate.org/projects/f-droid/fdroidserver/#repository>"
 
 #. type: Bullet: '7. '
 #: build/_docs/md/Release_Process.md
 msgid "set `version=''` in _setup.py_"
-msgstr ""
+msgstr "zestaw `version=''` w _setup.py_"
 
 #. type: Bullet: '7. '
 #: build/_docs/md/Release_Process.md
 msgid "add git signed tag named after the exact version name (no preceeding __v__), using the exact same string as `version=''`"
-msgstr ""
+msgstr "dodaj podpisany znacznik git nazwany od dokładnej nazwy wersji (bez poprzedzających __v__), używając dokładnie tego samego ciągu, co `version=''`"
 
 #. type: Bullet: '9. '
 #: build/_docs/md/Release_Process.md
 msgid "upload to pypi.python.org using `python3 setup.py release`"
-msgstr ""
+msgstr "prześlij na pypi.python.org using `python3 setup.py release`"
 
 #. type: Bullet: '10. '
 #: build/_docs/md/Release_Process.md
 msgid "update [Debian package](https://anonscm.debian.org/git/collab-maint/fdroidserver.git)"
-msgstr ""
+msgstr "aktualizuj [pakiet Debian](https://anonscm.debian.org/git/collab-maint/fdroidserver.git)"
 
 #. type: Bullet: '11. '
 #: build/_docs/md/Release_Process.md
 msgid "upload to [F-Droid PPA](https://launchpad.net/~fdroid/+archive/ubuntu/fdroidserver)"
-msgstr ""
+msgstr "prześlij do [F-Droid PPA](https://launchpad.net/~fdroid/+archive/ubuntu/fdroidserver)"
 
 #. type: Title ##
 #: build/_docs/md/Release_Process.md
 #, no-wrap
 msgid "privileged-extension"
-msgstr ""
+msgstr "uprzywilejowane rozszerzenie"
 
 #. type: Bullet: '3. '
 #: build/_docs/md/Release_Process.md
 msgid "rebase the _weblate_ branch on the latest commits in _master_ of <https://gitlab.com/fdroid/privileged-extension> and fix any conflicts"
-msgstr ""
+msgstr "zmień gałąź _weblate_ na ostatnie zmiany w _master_ na <https://gitlab.com/fdroid/privileged-extension> i napraw wszelkie konflikty"
 
 #. type: Bullet: '6. '
 #: build/_docs/md/Release_Process.md
 msgid "once the _weblate_ branch is merged, reset the git repo in <https://hosted.weblate.org/projects/f-droid/privileged-extension/#repository>"
-msgstr ""
+msgstr "gdy gałąź _weblate_ zostanie scalona, zresetuj repozytorium git <https://hosted.weblate.org/projects/f-droid/privileged-extension/#repository>"
 
 #. type: Bullet: '7. '
 #: build/_docs/md/Release_Process.md
 msgid "set _versionCode_ in _app/src/main/AndroidManifest.xml_"
-msgstr ""
+msgstr "set _versionCode_ w _app/src/main/AndroidManifest.xml_"
 
 #. type: Plain text
 #: build/_docs/md/Release_Process.md
@@ -6796,89 +6823,96 @@ msgid ""
 "    that in that\n"
 "    [metadata file](https://gitlab.com/fdroid/fdroiddata/blob/master/metadata/org.fdroid.fdroid.privileged.txt)\n"
 msgstr ""
+"10. dodaj tag podpisany git nazwany od dokładnej nazwy wersji (bez\n"
+"   poprzedzających __v__)\n"
+"11. Jeśli uaktualnienie ZIP OTA powinno zostać zaktualizowane, dodaj nowy wpis `Build:` do\n"
+"    [plik metadanych](https://gitlab.com/fdroid/fdroiddata/blob/master/metadata/org.fdroid.fdroid.privileged.ota.txt)\n"
+"12. Plik APK powinien automatycznie aktualizować się na podstawie tagu podpisu.\n"
+"    Dokładnie to sprawdź\n"
+"    [plik metadanych](https://gitlab.com/fdroid/fdroiddata/blob/master/metadata/org.fdroid.fdroid.privileged.txt)\n"
 
 #. type: Title ##
 #: build/_docs/md/Release_Process.md
 #, no-wrap
 msgid "fdroid-website"
-msgstr ""
+msgstr "strona internetowa fdroid"
 
 #. type: Bullet: '2. '
 #: build/_docs/md/Release_Process.md
 msgid "run `./tools/check-format-strings.py`, `./tools/check-page-links.py`, and `./tools/remove-unused-strings.py` and commit changes"
-msgstr ""
+msgstr "uruchom `./tools/check-format-strings.py`, `./tools/check-page-links.py`, i `./tools/remove-unused-strings.py` i zatwierdz zmiany"
 
 #. type: Bullet: '3. '
 #: build/_docs/md/Release_Process.md
 msgid "rebase the _weblate_ branch on the latest commits in _master_ of <https://gitlab.com/fdroid/fdroid-website> and fix any conflicts"
-msgstr ""
+msgstr "zmień gałąź _weblate_ na ostatnie zmiany w _master_ na <https://gitlab.com/fdroid/fdroid-website> i napraw wszelkie konflikty"
 
 #. type: Bullet: '6. '
 #: build/_docs/md/Release_Process.md
 msgid "once the _weblate_ branch is merged, reset the git repo in <https://hosted.weblate.org/projects/f-droid/website/#repository>"
-msgstr ""
+msgstr "gdy gałąź _weblate_ zostanie scalona, zresetuj repozytorium git w <https://hosted.weblate.org/projects/f-droid/website/#repository>"
 
 #. type: Title ##
 #: build/_docs/md/Release_Process.md
 #, no-wrap
 msgid "jekyll-fdroid"
-msgstr ""
+msgstr "jekyll-fdroid (Wtyczka Jekyll do pracy z metadanymi indeksu paczki F-Droid podczas budowania stron internetowych.)"
 
 #. type: Bullet: '1. '
 #: build/_docs/md/Release_Process.md
 msgid "Make sure all the tests are passing"
-msgstr ""
+msgstr "Upewnij się, że wszystkie testy są przekazywanie"
 
 #. type: Bullet: '2. '
 #: build/_docs/md/Release_Process.md
 msgid "set `s.version` and `s.date` in _jekyll-fdroid.gemspec_"
-msgstr ""
+msgstr "ustaw `s.version` i `s.date`w _jekyll-fdroid.gemspec_"
 
 #. type: Bullet: '3. '
 #: build/_docs/md/Release_Process.md
 msgid "Make signed tag matching version number (no preceeding __v__)"
-msgstr ""
+msgstr "Utwórz podpis zgodny z numerem tagu (bez poprzedzających __v__)"
 
 #. type: Bullet: '4. '
 #: build/_docs/md/Release_Process.md
 msgid "Update _fdroid-website_ to use this release by setting both `revision:` and the version number in `specs: jekyll-fdroid (1.0.1)` in _Gemfile.lock_"
-msgstr ""
+msgstr "Zaktualizuj _fdroid-website_, aby użyć tego wydania, ustawiając zarówno `revision:` i numer wersji w `specs: jekyll-fdroid (1.0.1)` w pliku _Gemfile.lock_"
 
 #. type: Title #
 #: build/_docs/md/Repository_Style_Guide.md
 #, no-wrap
 msgid "Repository Style Guide"
-msgstr ""
+msgstr "Przewodnik po stylu repozytorium"
 
 #. type: Plain text
 #: build/_docs/md/Repository_Style_Guide.md
 msgid "This page is a __work in progress__, and needs attention from experts on the subject, especially on fact checking."
-msgstr ""
+msgstr "Ta strona jest __pracą w toku__ i wymaga uwagi ekspertów w tej dziedzinie, szczególnie w zakresie sprawdzania faktów."
 
 #. type: Plain text
 #: build/_docs/md/Repository_Style_Guide.md
 msgid "This guide gives some more detailed information on what to store in metadata fields. Most items are outdated and will be merge with the manual over time."
-msgstr ""
+msgstr "Ten przewodnik zawiera bardziej szczegółowe informacje na temat tego, co należy przechowywać w polach metadanych. Większość pozycji jest nieaktualna i z czasem zostanie scalona z instrukcją."
 
 #. type: Bullet: '* '
 #: build/_docs/md/Repository_Style_Guide.md
 msgid "*E.g* <https://gitlab.com/fdroid/fdroidclient/tree/master>"
-msgstr ""
+msgstr "*Np* <https://gitlab.com/fdroid/fdroidclient/tree/master>"
 
 #. type: Plain text
 #: build/_docs/md/Repository_Style_Guide.md
 msgid "The F-Droid server does not directly publish an APK online, instead the F-Droid server needs a buildable source to build an APK from. This way the server guarantees that the resulting APK accurately represents the source code without any hidden anti-features."
-msgstr ""
+msgstr "Serwer F-Droid nie publikuje bezpośrednio pliku APK online, zamiast tego serwer F-Droid potrzebuje budowanego źródła do zbudowania pliku APK. W ten sposób serwer gwarantuje, że wynikowy plik APK dokładnie reprezentuje kod źródłowy bez żadnych ukrytych anty-funkcji."
 
 #. type: Plain text
 #: build/_docs/md/Repository_Style_Guide.md
 msgid "Because F-Droid builds every app from its source code (via the Android SDK with ant, gradle or maven, sometimes with help from the Android NDK, standard GNU/Linux programs and a little pre-processing in the BASH shell), probably if you can see a file called `AndroidManifest.xml` or `build.gradle` in your sources then there are many possibilities that F-Droid will be able to build it."
-msgstr ""
+msgstr "Ponieważ F-Droid buduje każdą aplikację z kodu źródłowego (za pomocą zestawu SDK Android z ant, gradle lub maven, czasami przy pomocy Android NDK, standardowych programów GNU/Linux i trochę wstępnego przetwarzania w powłoce BASH), prawdopodobnie jeśli możesz zobaczyć plik o nazwie `AndroidManifest.xml` lub `build.gradle` w swoich źródłach, istnieje wiele możliwości, że F-Droid będzie w stanie go zbudować."
 
 #. type: Plain text
 #: build/_docs/md/Repository_Style_Guide.md
 msgid "Note that most projects call upon pre-built libraries. The source code for these is found elsewhere. For ant, these will be found in the `libs/` folder and external ones are mentioned in the `project.properties` files; for gradle, these will be mentioned in `build.gradle` and are usually pulled from <http://mvnrepository.com>; for maven there will be `pom.xml` files which describe the dependencies.  If native code pre-built libraries are used, these will often be found in `res/raw/` or `assets/`: there should be something said about these in the `README`. The example above has one jar file dependency with a text reference and doesn't use any external libraries, so no extra references are needed."
-msgstr ""
+msgstr "Zwróć uwagę, że większość projektów odwołuje się do gotowych bibliotek. Kod źródłowy tych kodów znajduje się w innym miejscu. Dla ant będą one znalezione w folderze `libs/`, a zewnętrzne są wymienione w plikach `project.properties`; dla gradle będą one wymienione w `build.gradle` i zwykle są pobierane z <http://mvnrepository.com>; dla maven będą pliki `pom.xml`, które opisują zależności. Jeśli używane są wbudowane biblioteki natywnego kodu, często można je znaleźć w `res/raw/` lub `assets/`: powinno być coś o nich powiedziane w `README`. Powyższy przykład ma jedną zależność pliku jar z odwołaniem tekstowym i nie korzysta z żadnych zewnętrznych bibliotek, więc nie są potrzebne żadne dodatkowe odwołania."
 
 #. type: Title ###
 #: build/_docs/md/Repository_Style_Guide.md
@@ -6889,17 +6923,17 @@ msgstr "Licencja"
 #. type: Plain text
 #: build/_docs/md/Repository_Style_Guide.md
 msgid "- *E.g.* Overall: <https://gitlab.com/fdroid/fdroidclient/blob/master/LICENSE> (overall of a source code under a *GPLv3+* license); - *E.g.* Source code header: <https://gitlab.com/fdroid/fdroidclient/blob/master/app/src/main/java/org/fdroid/fdroid/AppDetails.java> (header of a file under a *GPLv3+* license); - *E.g.* Libraries: <https://gitlab.com/fdroid/fdroidclient/tree/master/libs> (see the `LICENSE` file with the *Apache License, Version 2.0* license for that library); - *E.g.* Artwork: <https://f-droid.org/about> (see the *CC BY-SA 3.0* license for artworks)"
-msgstr ""
+msgstr "- *Np.* Ogólnie: <https://gitlab.com/fdroid/fdroidclient/blob/master/LICENSE> (całość kodu źródłowego w ramach licencji *GPLv3+*); - *Np.* Nagłówek kodu źródłowego: <https://gitlab.com/fdroid/fdroidclient/blob/master/app/src/main/java/org/fdroid/fdroid/AppDetails.java> (nagłówek pliku w ramach licencji *GPLv3+*); - *Np.* Biblioteka: <https://gitlab.com/fdroid/fdroidclient/tree/master/libs> (zobacz plik `LICENSE` z licencją *Apache, wersja 2.0* dla tej biblioteki); - *Np.* Grafika: <https://f-droid.org/about> (zobacz licencję *CC BY-SA 3.0* na dzieła sztuki)"
 
 #. type: Plain text
 #: build/_docs/md/Repository_Style_Guide.md
 msgid "All apps in the F-Droid repository *must* be FOSS (Free and Open Source software). If the software doesn't clearly state a license that is listed as a Free Software License in the [GNU license list](http://www.gnu.org/licenses/license-list.html#SoftwareLicenses)  then it probably isn't."
-msgstr ""
+msgstr "Wszystkie aplikacje w repozytorium F-Droid *muszą* być FOSS (darmowe i otwarte oprogramowanie). Jeśli oprogramowanie nie wskazuje wyraźnie licencji wymienionej jako Licencja Wolnego Oprogramowania na [liście licencji GNU](http://www.gnu.org/licenses/license-list.htmlSoftwareLicenses), to prawdopodobnie nie jest to."
 
 #. type: Plain text
 #: build/_docs/md/Repository_Style_Guide.md
 msgid "If there aren't any `README` or `LICENSE` in the source code of the app it's very difficult for the F-Droid community verify that the entire source code, libraries and artwork each are released under a suitable Free and Open Source license. So, it's a good pratice to verify that the app has headers in every file of the source code, a text file in the library folder and a statement in the source code or on the official website of the app that clearly explain the license about all the stuff that can be find related the app."
-msgstr ""
+msgstr "Jeśli w kodzie źródłowym aplikacji nie ma żadnych `README` lub `LICENSE`, bardzo trudno jest społeczności F-Droid zweryfikować, czy cały kod źródłowy, biblioteki i grafika są wydane na podstawie odpowiedniej licencji Free i Open Source. Dlatego warto sprawdzić, czy aplikacja zawiera nagłówki w każdym pliku kodu źródłowego, plik tekstowy w folderze biblioteki oraz oświadczenie w kodzie źródłowym lub na oficjalnej stronie aplikacji, które jasno wyjaśniają licencję na wszystkie rzeczy, które można znaleźć, związane z aplikacją."
 
 #. type: Plain text
 #: build/_docs/md/Repository_Style_Guide.md
@@ -6921,174 +6955,174 @@ msgstr ""
 #: build/_docs/md/Repository_Style_Guide.md
 #, no-wrap
 msgid "Summaries"
-msgstr ""
+msgstr "Streszczenie"
 
 #. type: Plain text
 #: build/_docs/md/Repository_Style_Guide.md
 msgid "The summary should be the shortest possible thing that describes what the app does or enables the user to do, e.g. instead of \"E-mail client\" use \"Receive and send e-mails\"."
-msgstr ""
+msgstr "Podsumowanie powinno być najkrótszą możliwą rzeczą opisującą, co aplikacja robi lub umożliwia użytkownikowi, np. zamiast \"klienta e-mail\" użyj \"Odbieranie i wysyłanie wiadomości e-mail\"."
 
 #. type: Title ###
 #: build/_docs/md/Repository_Style_Guide.md
 #, no-wrap
 msgid "Descriptions"
-msgstr ""
+msgstr "Opisy"
 
 #. type: Plain text
 #: build/_docs/md/Repository_Style_Guide.md
 msgid "Descriptions should be written in an objective, neutral style, with at least the first paragraph devoted to describing what the application is and what features it has. This can be followed with concise help for specific features/problems, and links to external resources for more information. Additional information such as links to related/compatible/required (but not alternative) applications should also be included where appropriate."
-msgstr ""
+msgstr "Opisy powinny być napisane w sposób obiektywny, neutralny, z co najmniej pierwszym paragrafem poświęconym opisywaniu aplikacji i jej cechom. Następnie można uzyskać zwięzłą pomoc dotyczącą konkretnych funkcji/problemów oraz łącza do zasobów zewnętrznych, aby uzyskać więcej informacji. Dodatkowe informacje, takie jak linki do powiązanych/kompatybilnych/wymaganych (ale nie alternatywnych) aplikacji, powinny również zostać uwzględnione w stosownych przypadkach."
 
 #. type: Plain text
 #: build/_docs/md/Repository_Style_Guide.md
 msgid "Some other notes:"
-msgstr ""
+msgstr "Kilka innych uwag:"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Repository_Style_Guide.md
 msgid "Phrases like \"a note-taking app for Android\" should never appear.  Obviously it's for Android. Obviously it's an app."
-msgstr ""
+msgstr "Zwroty typu 'aplikacja do robienia notatek dla Androida' nigdy nie powinny się pojawiać. Oczywiście jest to dla Androida. Oczywiście jest to aplikacja."
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Repository_Style_Guide.md
 msgid "Similary, don't say \"it's free software\" or \"it's open source\" because obviously it is."
-msgstr ""
+msgstr "Similary, nie mów 'to darmowe oprogramowanie' lub 'to open source', bo oczywiście tak jest."
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Repository_Style_Guide.md
 msgid "There shouldn't be any compatiblity-related things in there (e.g.  \"for Android 2.3+\") because this is handled automatically. Only include compatibility notes when the client app doesn't automatically detect them."
-msgstr ""
+msgstr "Nie powinno tam być żadnych elementów związanych z kompatybilnością (np. \"Dla Androida 2.3+\"), ponieważ jest to obsługiwane automatycznie. Uwzględnij tylko uwagi dotyczące zgodności, gdy aplikacja kliencka nie wykrywa ich automatycznie."
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Repository_Style_Guide.md
 msgid "The summary will always be shown with the description, so avoid repeating it."
-msgstr ""
+msgstr "Podsumowanie będzie zawsze wyświetlane wraz z opisem, więc unikaj jego powtarzania."
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Repository_Style_Guide.md
 msgid "If there is anything different about the F-Droid build compared to a standard one, it should be described."
-msgstr ""
+msgstr "Jeśli jest coś innego na temat budowy F-Droida w porównaniu ze standardową, powinno się to opisać."
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Repository_Style_Guide.md
 msgid "There should never be anything written from the developer's point of view, e.g. \"I wrote this cat gallery app because I like cats\"."
-msgstr ""
+msgstr "Nigdy nie należy pisać z punktu widzenia autora, np. \"Napisałem tę aplikację galerii kotów, ponieważ lubię koty\"."
 
 #. type: Plain text
 #: build/_docs/md/Repository_Style_Guide.md
 msgid "Other information worth mentioning are:"
-msgstr ""
+msgstr "Inne warte wspomnienia informacje to:"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Repository_Style_Guide.md
 msgid "Does the app require root permissions?"
-msgstr ""
+msgstr "Czy aplikacja wymaga uprawnień root'a?"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Repository_Style_Guide.md
 msgid "Can it interact with other apps?"
-msgstr ""
+msgstr "Czy może współdziałać z innymi aplikacjami?"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Repository_Style_Guide.md
 msgid "How easy is it to use?"
-msgstr ""
+msgstr "Jak łatwo jest z niej korzystać?"
 
 #. type: Title ###
 #: build/_docs/md/Repository_Style_Guide.md
 #, no-wrap
 msgid "Donations"
-msgstr ""
+msgstr "Darowizny"
 
 #. type: Plain text
 #: build/_docs/md/Repository_Style_Guide.md
 msgid "Where a project accepts donations, the ideal donation link would be to a specific page that the project maintains for that purpose. If one doesn't exist, it's acceptable to just link to their page that has a donation icon or similar somewhere on it, but this doesn't create a good user experience when, for example, someone selects 'Donate' in the F-Droid client and then has to search a page for the details. Try to encourage the developers to create a dedicate page if possible."
-msgstr ""
+msgstr "Jeśli projekt akceptuje darowizny, idealnym łączeniem do darowizny byłaby strona, którą projekt utrzymuje w tym celu. Jeśli nie istnieje, dopuszczalne jest po prostu umieszczenie linku do strony, na której znajduje się ikona darowizny lub coś podobnego, ale nie zapewnia to dobrej satysfakcji użytkownika, gdy na przykład ktoś wybierze opcję 'Podaruj' w Droid client, a następnie musi przeszukać stronę, by zobaczyć szczegóły. Spróbuj zachęcić programistów do stworzenia dedykowanej strony, jeśli to możliwe."
 
 #. type: Title ###
 #: build/_docs/md/Repository_Style_Guide.md
 #, no-wrap
 msgid "AntiFeatures"
-msgstr ""
+msgstr "Anty Funkcje"
 
 #. type: Plain text
 #: build/_docs/md/Repository_Style_Guide.md
 msgid "In addition some software, even being Free and Open Source software, may do practices which can be considered undesirable and that we consider [AntiFeatures](https://f-droid.org/wiki/page/Antifeatures)\". Where possible the F-Droid community still include these applications in the repository but flagging and cataloging these antifeatures in order to warn users (on the F-Droid client and on the web repository browser) by any antifeatures present on the app. Even though software can be included in the F-Droid even with antifeatures, it is frequently the case that software with these antifeatures is actually not entirely FOSS (for example advertising and tracking user activity is often enabled via non-free binary libraries) compromising in this way the inclusion of the app in the F-Droid repository."
-msgstr ""
+msgstr "Ponadto niektóre programy, nawet będące oprogramowaniem wolnym i otwartym, mogą wykonywać praktyki, które można uznać za niepożądane i które rozważamy jako [AntyFunkcje](https://f-droid.org/wiki/page/Antifeatures). Społeczność F-Droid nadal zawiera te aplikacje w repozytorium, ale zaznacza je i kataloguje, aby ostrzec użytkowników (na kliencie F-Droid i przeglądarce repozytorium sieci) przed wszelkimi antypatiami obecnymi w aplikacji. Nawet jeśli oprogramowanie może być włączone do F-Droida nawet z antypowstałością, to często oprogramowanie z tymi antypowstałami nie jest w rzeczywistości FOSS (na przykład reklama i śledzenie aktywności użytkownika jest często włączane za pomocą niewolnych bibliotek binarnych) zagrażając w ten sposób włączeniu aplikacji do repozytorium F-Droid."
 
 #. type: Title ###
 #: build/_docs/md/Repository_Style_Guide.md
 #, no-wrap
 msgid "Updating"
-msgstr ""
+msgstr "Aktualizacja"
 
 #. type: Plain text
 #: build/_docs/md/Repository_Style_Guide.md
 msgid "- *E.g.* <https://gitlab.com/fdroid/fdroidclient/graphs/master> & <https://gitlab.com/fdroid/fdroidclient/network/master> & <http://f-droid.org/news-and-reviews>"
-msgstr ""
+msgstr "- *Np.* <https://gitlab.com/fdroid/fdroidclient/graphs/master> i <https://gitlab.com/fdroid/fdroidclient/network/master> i <http://f-droid.org/news-and-reviews>"
 
 #. type: Plain text
 #: build/_docs/md/Repository_Style_Guide.md
 msgid "Getting the app in the repository isn't the end of the story: we have to keep the versions, descriptions and URLs up-to-date."
-msgstr ""
+msgstr "Zdobycie aplikacji w repozytorium nie jest końcem historii: musimy zachować wersje, opisy i aktualne adresy URL."
 
 #. type: Plain text
 #: build/_docs/md/Repository_Style_Guide.md
 msgid "The most important is to know when new versions are published. We have three automatic methods and one manual: from tags; checking the `AndroidManifest.xml` at the most recent revision in the repository; and checking Google Play. If these won't do, we must look at the version of the package published by the upstream developers, either by loading the Google Play web page or downloading an APK and checking its version.  Repository tags are the natural way of labelling new versions (look for them under \"releases\" on an example in [github.com](https://github.com/dschuermann/document-viewer/releases) or under the \"tags\" directory in the case of SVN repos). If you can't find tags it would be a helpful to make an issue about it on the issue tracker. In the example, we point to a changelog page as a backup check; other possiblities are a Google Code download page or a Google Play link."
-msgstr ""
+msgstr "Najważniejsze jest wiedzieć, kiedy zostaną opublikowane nowe wersje. Mamy trzy automatyczne metody i jeden podręcznik: od tagów; sprawdzanie 'AndroidManifest.xml' przy najnowszej wersji w repozytorium; i sprawdzanie Google Play. Jeśli tego nie zrobimy, musimy przyjrzeć się wersji pakietu opublikowanej przez deweloperów, poprzez załadowanie strony internetowej Google Play lub pobranie pliku APK i sprawdzenie jego wersji. Znaczniki repozytoriów są naturalnym sposobem etykietowania nowych wersji (szukaj ich w \"wydaniach\" na przykład w [github.com](https://github.com/dschuermann/document-viewer/releases) lub w \"tagach\" katalog w przypadku repozytoriów SVN). Jeśli nie możesz znaleźć tagów, byłoby pomocne w rozwiązaniu problemu w narzędziu do śledzenia problemów. W przykładzie wskazujemy stronę z changelogiem jako kontrolę zapasową; inne możliwości to strona pobierania Google Code lub link Google Play."
 
 #. type: Title ###
 #: build/_docs/md/Reproducible_Builds.md
 #, no-wrap
 msgid "Reproducible Builds"
-msgstr ""
+msgstr "Powtarzalne kompilacje"
 
 #. type: Plain text
 #: build/_docs/md/Reproducible_Builds.md
 msgid "F-Droid supports [reproducible builds](https://reproducible-builds.org)  of apps, so that anyone can run the build process again and reproduce the same APK as the original release.  This means that F-Droid can verify that an app is 100% free software while still using the original developer's APK signatures.  Ideally, all of the built APKs will have the exact same hash, but that is a more difficult standard with less payoff. Right now, F-Droid verifies reproducible builds using the APK signature."
-msgstr ""
+msgstr "F-Droid obsługuje [odtwarzalne kompilacje](https://reproducible-builds.org) aplikacji, dzięki czemu każdy może ponownie uruchomić proces kompilacji i odtworzyć ten sam plik APK co oryginalna wersja. Oznacza to, że F-Droid może sprawdzić, czy aplikacja jest w 100% wolnym oprogramowaniem, a jednocześnie używa oryginalnych podpisów APK programisty. Najlepiej, gdyby wszystkie zbudowane pakiety APK miały dokładnie taki sam skrót, ale jest to trudniejszy standard z mniejszą wypłatą. Obecnie F-Droid weryfikuje odtwarzalne kompilacje za pomocą podpisu APK."
 
 #. type: Plain text
 #: build/_docs/md/Reproducible_Builds.md
 msgid "This concept is occasionally called \"deterministic builds\".  That is a much stricter standard: that means that the whole process runs with the same ordering each time.  The most important thing is that anyone can run the process and end up with the exact same result."
-msgstr ""
+msgstr "Pojęcie to jest czasami określane jako \"deterministyczne kompilacje\". Jest to znacznie bardziej rygorystyczny standard: oznacza to, że cały proces przebiega za każdym razem z tą samą kolejnością. Najważniejszą rzeczą jest to, że każdy może uruchomić proces i kończy z dokładnie takim samym wynikiem."
 
 #. type: Title ###
 #: build/_docs/md/Reproducible_Builds.md
 #, no-wrap
 msgid "How it is implemented as of now"
-msgstr ""
+msgstr "Jak to jest teraz wdrażane"
 
 #. type: Plain text
 #: build/_docs/md/Reproducible_Builds.md
 msgid "Publishing signed binaries from elsewhere (e.g. the upstream developer)  is now possible after verifying that they match ones built using a recipe. Publishing only takes place if there is a proper match. (Which seems very unlikely to be the case unless the exact same tool-chain is used, so I would imagine that unless the person building and signing the incoming binaries uses fdroidserver to build them, probably the exact same buildserver id, they will not match. But at least we have the functionality to support that.)"
-msgstr ""
+msgstr "Publikowanie binarnych sygnatur z innych źródeł (np. Deweloperów) jest teraz możliwe po sprawdzeniu, czy odpowiadają one zbudowaniu przy użyciu przepisu. Publikowanie ma miejsce tylko w przypadku odpowiedniego dopasowania. (Co wydaje się bardzo mało prawdopodobne, chyba że używany jest ten sam łańcuch narzędzi, więc wyobrażam sobie, że jeśli osoba budująca i podpisująca przychodzące pliki binarne nie użyje serwera fdroid do ich zbudowania, prawdopodobnie o tym samym identyfikatorze buildserver, nie będą one pasować. Ale przynajmniej mamy taką możliwość obsługi.)"
 
 #. type: Plain text
 #: build/_docs/md/Reproducible_Builds.md
 msgid "This procedures are implemented as part of `fdroid publish`. At the publish step, the reproducibility check will follow this logic:"
-msgstr ""
+msgstr "Te procedury są implementowane jako część `fdroid publish`. Na etapie publikowania kontrola odtwarzalności będzie następować zgodnie z tą logiką:"
 
 #. type: Plain text
 #: build/_docs/md/Reproducible_Builds.md
 msgid "![Flow-chart for reproducibility check]({{ site.baseurl }}/assets/docs/reproducible-builds/publish.png)"
-msgstr ""
+msgstr "![Tabela przepływów dla sprawdzenia odtwarzalności]({{ site.baseurl }}/assets/docs/reproducible-builds/publish.png)"
 
 #. type: Title ####
 #: build/_docs/md/Reproducible_Builds.md
 #, no-wrap
 msgid "Publish both (upstream-)developer singed and F-Droid signed APKs"
-msgstr ""
+msgstr "Opublikuj pliki APK podpisane zarówno przez programistę (upstream-), jak i F-Droid"
 
 #. type: Plain text
 #: build/_docs/md/Reproducible_Builds.md
 msgid "Use this approach for shipping a version of an app, with both (upstream-)developer signed and F-Droid signed APKs. This enables us to ship updates for users who installed apps from other sources than F-Droid (eg. Play Store) which are therefore singed by the app-developers, while also shipping updates for apps which were built and singed by F-Droid."
-msgstr ""
+msgstr "Zastosuj to podejście do wysyłania wersji aplikacji z podpisanymi zarówno programistami (na starcie), jak i plikami APK podpisanymi przez F-Droid. Dzięki temu możemy wysyłać aktualizacje dla użytkowników, którzy zainstalowali aplikacje z innych źródeł niż F-Droid (np. Sklep Play), które są w ten sposób emitowane przez twórców aplikacji, a także wysyłane są aktualizacje aplikacji, które zostały zbudowane i zaaplikowane przez F-Droid."
 
 #. type: Plain text
 #: build/_docs/md/Reproducible_Builds.md
 msgid "This requires to put (upstream-)developer signatures into fdroiddata.  We provide a command for easily extracting signatures from APKs:"
-msgstr ""
+msgstr "Wymaga to umieszczenia (upstream-) podpisów programistów na fdroiddata. Zapewniamy polecenie do łatwego wyodrębniania podpisów z plików APK:"
 
 #. type: Plain text
 #: build/_docs/md/Reproducible_Builds.md
