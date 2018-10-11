@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-10-08 13:59+0200\n"
-"PO-Revision-Date: 2018-10-09 15:33+0000\n"
+"PO-Revision-Date: 2018-10-11 21:22+0000\n"
 "Last-Translator: WaldiS <admin@sto.ugu.pl>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/f-droid/website-posts/pl/>\n"
 "Language: pl\n"
@@ -4966,12 +4966,12 @@ msgstr "**[Draw](https://f-droid.org/app/com.simplemobiletools.draw)** to prosta
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-06-twif-20-security-audit-completed-buildserver-setup-with-ansible.md
 msgid "**[Mastalab](https://f-droid.org/app/fr.gouv.etalab.mastodon)** 1.11.0 is out! Links to toots now open the conversation inside the app, detailed bug reports can be sent by email, GIFs can be imported from the Android keyboard, instances can be followed from profiles, markdown is accepted for links in toots, and more. There's also a slew of bug fixes and better Pleroma support."
-msgstr ""
+msgstr "**[Mastalab](https://f-droid.org/app/fr.gouv.etalab.mastodon)** 1.11.0 jest już dostępny! Łącza do toots otwierają teraz rozmowę wewnątrz aplikacji, szczegółowe raporty o błędach można wysyłać e-mailem, GIF-y można importować z klawiatury Android, instancje można śledzić z profili, przecenę akceptuje się dla linków w toots i wiele więcej. Istnieje również mnóstwo poprawek i lepsza obsługa Pleroma."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-06-twif-20-security-audit-completed-buildserver-setup-with-ansible.md
 msgid "**[Riot.im](https://f-droid.org/app/im.vector.alpha)** is an instant messenger and team collaboration tool based on the [Matrix](https://matrix.org) protocol/network. It skipped a version on F-Droid, updating straight to 0.8.15. This update has a lot of quality improvements under the hood, an updated settings icon and notification logo, the ability to send messages starting with a slash (`/`) and automatically escapes nickname mentions starting with a slash."
-msgstr ""
+msgstr "**[Riot.im](https://f-droid.org/app/im.vector.alpha)** to narzędzie do komunikacji błyskawicznej i współpracy zespołowej oparte na protokole/sieci [Matrix](https://matrix.org). Pominięto wersję na F-Droidie, aktualizując ją prosto do 0.8.15. Ta aktualizacja ma wiele ulepszeń jakości pod maską, zaktualizowaną ikonę ustawień i logo powiadomień, możliwość wysyłania wiadomości rozpoczynających się od ukośnika (`/`) i automatycznie unika wzmiankom o pseudonimie zaczynającym się od ukośnika."
 
 #. type: Title ####
 #: build/_posts/md/2018-09-06-twif-20-security-audit-completed-buildserver-setup-with-ansible.md
@@ -5006,7 +5006,7 @@ msgstr "Ogólne informacje zwrotne można również przesyłać przez Mastodon, 
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
 #, no-wrap
 msgid "\"TWIF 21: VMs Donated and Tor Browser goes Android\""
-msgstr ""
+msgstr "\"TWIF 21: VMs Donated i Tor Browser idzie naAndroid\""
 
 #. type: Plain text
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
@@ -5020,33 +5020,35 @@ msgid ""
 "In this edition: F-Droid project receives a donation of two VMs, Tor Browser coming to Android, 28 new apps including Emerald Dialer and MiniVector, and 61 app updates including NewPipe and Kwik EFIS & DMAP.\n"
 "<!--more-->\n"
 msgstr ""
+"W tej edycji: projekt F-Droid otrzymuje darowiznę dwóch maszyn wirtualnych, przeglądarki Tor Browser na Androida, 28 nowych aplikacji, w tym Emerald Dialer i MiniVector, oraz 61 aktualizacji aplikacji, w tym NewPipe i Kwik EFIS & DMAP.\n"
+"<!--more-->\n"
 
 #. type: Title ####
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
 #, no-wrap
 msgid "Tor Browser moving to officially support Android"
-msgstr ""
+msgstr "Przeglądarka Tor przenosi się do oficjalnej obsługi Androida"
 
 #. type: Plain text
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
 msgid "The Tor Project [has released an alpha of Tor Browser for Android](https://blog.torproject.org/new-alpha-release-tor-browser-android) for the first time ever. It's available on [Tor Project's downloads page](https://www.torproject.org/projects/torbrowser.html.en#downloads-alpha) and Google Play for now, but the possibilities of bringing it to F-Droid [are being explored](https://trac.torproject.org/projects/tor/ticket/27539). This is especially relevant as Orfox (from the builtin but not-enabled-by-default Guardian repository) will be sunsetted."
-msgstr ""
+msgstr "Projekt Tor [po raz pierwszy wydał wersję alfa przeglądarki Tor dla Androida](https://blog.torproject.org/new-alpha-release-tor-browser-android). Jest on dostępny na stronie [Strona pobierania programu Tor Project's](https://www.torproject.org/projects/torbrowser.html.endownloads-alpha) i Google Play na teraz, ale możliwości jego przeniesienia do F-Droida [są obecnie badane ](https://trac.torproject.org/projects/tor/ticket/27539). Jest to szczególnie istotne, ponieważ Orfox (z wbudowanego repozytorium Guardian, ale nie w domyślnym repozytorium) zostanie wygaszony."
 
 #. type: Title ####
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
 #, no-wrap
 msgid "F-Droid receives a donation of two big VMs"
-msgstr ""
+msgstr "F-Droid otrzymuje darowiznę z dwóch dużych maszyn wirtualnych"
 
 #. type: Plain text
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
 msgid "We had two big VMs donated to us by [Pretty Easy Privacy](https://www.pep.security). They have been delivered, and **[@\\_hc](https://forum.f-droid.org/u/hans)** and **@uniq** have been trying them out. More later."
-msgstr ""
+msgstr "Otrzymaliśmy dwie duże maszyny wirtualne przekazane nam przez [Dość łatwa prywatność](https://www.pep.security). Zostały dostarczone, i **[@\\_hc](https://forum.f-droid.org/u/hans)** i **@uniq** próbowałem ich. Więcej później."
 
 #. type: Plain text
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
 msgid "We have a whopping 28 new apps for you to try this week!"
-msgstr ""
+msgstr "Mamy 28 nowych aplikacji, które możesz wypróbować w tym tygodniu!"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
@@ -5056,32 +5058,32 @@ msgstr "**[9P](https://f-droid.org/app/se.tube42.p9.android)**: Słowo gra logic
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
 msgid "**[Aalener Optik-Formelrechner](https://f-droid.org/app/de.HS_Aalen.don)**: German-only app for doing optical calculations"
-msgstr ""
+msgstr "**[Aalener Optik-Formelrechner](https://f-droid.org/app/de.HS_Aalen.don)**: Niemiecka aplikacja do wykonywania obliczeń optycznych"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
 msgid "**[BK Doorlock](https://f-droid.org/app/de.binary_kitchen.doorlock_app)**: Binary Kitchen's Open Sesame"
-msgstr ""
+msgstr "**[BK Doorlock](https://f-droid.org/app/de.binary_kitchen.doorlock_app)**: Otwarty Binarny Sezam Kuchni"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
 msgid "**[Character Recognition](https://f-droid.org/app/org.atai.TessUI)**: Extract text from images"
-msgstr ""
+msgstr "**[Character Recognition](https://f-droid.org/app/org.atai.TessUI)**: Wyodrębnij tekst ze zdjęć"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
 msgid "**[Custom Search](https://f-droid.org/app/tyagi.shubham.customsearch)**: A Simple Query Search on Google using Dorking"
-msgstr ""
+msgstr "**[Custom Search](https://f-droid.org/app/tyagi.shubham.customsearch)**: Proste wyszukiwanie zapytań w Google przy użyciu Dorking"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
 msgid "**[Emerald Dialer](https://f-droid.org/app/ru.henridellal.dialer)** is a lightweight dialer which has T9 search and two themes. This application was made because **[Dialer2](https://f-droid.org/app/org.dnaq.dialer2)** is a bit outdated."
-msgstr ""
+msgstr "**[Emerald Dialer](https://f-droid.org/app/ru.henridellal.dialer)** to lekki dialer z przeszukiwaniem T9 i dwoma tematami. Ta aplikacja została wykonana, ponieważ **[Dialer2](https://f-droid.org/app/org.dnaq.dialer2)** jest nieco przestarzały."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
 msgid "**[Get Off Your Phone](https://f-droid.org/app/com.nephi.getoffyourphone)**: Control procrastination with an app locker"
-msgstr ""
+msgstr "**[Get Off Your Phone](https://f-droid.org/app/com.nephi.getoffyourphone)**: Kontroluj zwlekanie za pomocą schowka aplikacji"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
@@ -5091,22 +5093,22 @@ msgstr "**[Knock on Ports](https://f-droid.org/app/me.impa.knockonports)**: Klie
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
 msgid "**[LTE Cleaner (FOSS)](https://f-droid.org/app/theredspy15.ltecleanerfoss)**: System cleaner"
-msgstr ""
+msgstr "**[LTE Cleaner (FOSS)](https://f-droid.org/app/theredspy15.ltecleanerfoss)**: System czyszczący"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
 msgid "**[Light Android Launcher](https://f-droid.org/app/com.github.postapczuk.lalauncher)**: Lightweight app launcher"
-msgstr ""
+msgstr "**[Lekki Launcher Android](https://f-droid.org/app/com.github.postapczuk.lalauncher)**: Lekki launcher aplikacji"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
 msgid "**[Mars Live Wallpaper](https://f-droid.org/app/org.covolunablu.marswallpaper)**: Rotating red planet"
-msgstr ""
+msgstr "**[Tapety Mars na żywo](https://f-droid.org/app/org.covolunablu.marswallpaper)**: Obracanie czerwonej planety"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
 msgid "{{ page.featured }} **[miniVector](https://f-droid.org/app/com.lavadip.miniVector)**: is a minified version of **[Riot.im](https://f-droid.org/app/im.vector.alpha)**, which results in a smaller and lighter app which requires less scary permissions. It achieves this by removing Jitsi conferencing support and some smaller things. **Edit:** Note that voice and video calls are not supported in this version. Support _may_ be added back in a future version."
-msgstr ""
+msgstr "{{ page.featured }} **[miniVector](https://f-droid.org/app/com.lavadip.miniVector)**: minified wersji jest **[Riot.im](https://f-droid.org/app/im.vector.alpha)**, co skutkuje mniejszą i lżejszą aplikacją, która wymaga mniej przerażających uprawnień. Osiąga się to poprzez usunięcie obsługi konferencji Jitsi i kilka mniejszych rzeczy. **Edytuj:** Pamiętaj, że połączenia głosowe i wideo nie są obsługiwane w tej wersji. Wsparcie _may_ zostanie dodane w przyszłej wersji."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
@@ -5141,7 +5143,7 @@ msgstr "**[Resume Builder](https://f-droid.org/app/com.ibrahimyousre.resumebuild
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
 msgid "**[Riksdagskollen](https://f-droid.org/app/se.oandell.riksdagen)**: Allow users to keep track of the Swedish parliament"
-msgstr ""
+msgstr "**[Riksdagskollen](https://f-droid.org/app/se.oandell.riksdagen)**: Pozwólala użytkownikom śledzić szwedzki parlament"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
@@ -5156,17 +5158,17 @@ msgstr "**[Sam Remote](https://f-droid.org/app/mkg20001.net.samremote)**: Prosty
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
 msgid "**[SleepyWifi](https://f-droid.org/app/nl.devluuk.sleepywifi)**: Disables the Wi-Fi when the phone is in sleep mode"
-msgstr ""
+msgstr "**[SleepyWifi](https://f-droid.org/app/nl.devluuk.sleepywifi)**: Wyłącza Wi-Fi, gdy telefon jest w trybie uśpienia"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
 msgid "**[SyncTool](https://f-droid.org/app/theakki.synctool)**: Synchronize data between a smartphone and a server"
-msgstr ""
+msgstr "**[SyncTool](https://f-droid.org/app/theakki.synctool)**: Synchronizuj dane między smartfonem a serwerem"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
 msgid "**[Tron Wallet](https://f-droid.org/app/com.eletac.tronwallet)**: Multifunctional wallet for the TRON network"
-msgstr ""
+msgstr "**[Tron Wallet](https://f-droid.org/app/com.eletac.tronwallet)**: Wielofunkcyjny portfel do sieci TRON"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
@@ -5176,12 +5178,12 @@ msgstr "**[WateryDroid](https://f-droid.org/app/tmendes.com.waterydroid)**: Pros
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
 msgid "**[Web Media Share](https://f-droid.org/app/com.tobykurien.webmediashare)**: Browser for viewing, sharing, or casting media from websites"
-msgstr ""
+msgstr "**[Web Media Share](https://f-droid.org/app/com.tobykurien.webmediashare)**: Przeglądarka do przeglądania, udostępniania lub przesyłania mediów ze stron internetowych"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
 msgid "**[Xia Express](https://f-droid.org/app/fr.ac_versailles.dane.xiaexpress)**: Create interactive images by croping zoomable details"
-msgstr ""
+msgstr "**[Xia Express](https://f-droid.org/app/fr.ac_versailles.dane.xiaexpress)**: Twórz interaktywne obrazy, przycinając powiększalne szczegóły"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
@@ -5196,17 +5198,17 @@ msgstr "W sumie w tym tygodniu zaktualizowano **61** aplikacji. Oto najważniejs
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
 msgid "**[AdGuard Content Blocker](https://f-droid.org/app/com.adguard.android.contentblocker)** is an ad blocker for browsers that support content blocking technology. So far, these are Yandex Browser and Samsung Internet browser. Version 2.2.1 adds a whitelist setting, clean filters cache, new locales, and the order of entries will be respected when importing user filter lists."
-msgstr ""
+msgstr "**[AdGuard Content Blocker](https://f-droid.org/app/com.adguard.android.contentblocker)** to blokowanie reklam w przeglądarkach obsługujących technologię blokowania treści. Do tej pory są to Yandex Browser i przeglądarka internetowa Samsung. Wersja 2.2.1 dodaje ustawienia białej listy, wyczyści pamięć podręczną filtrów, nowe ustawienia narodowe, a kolejność wpisów będzie respektowana podczas importowania list filtrów użytkownika."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
 msgid "**[DNS Hero](https://f-droid.org/app/com.gianlu.dnshero)** lets you inspect DNS zones like a superhero. Version 1.1.3 is in, adding a brand new preferences screen and different diagnostics cards colors for improved readability. Behind the scenes, some problems with non-free dependencies were addressed, thanks to **[@Rudloff](https://forum.f-droid.org/u/rudloff)**)."
-msgstr ""
+msgstr "**[DNS Hero](https://f-droid.org/app/com.gianlu.dnshero)** pozwala kontrolować strefy DNS, takie jak superbohater. Dostępna jest wersja 1.1.3, dodając zupełnie nowy ekran preferencji i różne kolory kart diagnostycznych dla lepszej czytelności. Za kulisami rozwiązano niektóre problemy z niewolnymi zależnościami **[@Rudloff](https://forum.f-droid.org/u/rudloff)**)."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
 msgid "**[GPSTest](https://f-droid.org/app/com.android.gpstest.osmdroid)** is an app for testing GPS and GNSS capabilities of a device, with real-time information for satellites in view of your device. Version 3.2.0 adds D/M/S support for latitude and longitude, share in multiple location formats, run-time instead of install-time permissions, Greek and Dutch translations, and allows free map movement during location updates."
-msgstr ""
+msgstr "**[GPSTest](https://f-droid.org/app/com.android.gpstest.osmdroid)** to aplikacja do testowania urządzeń GPS i GNSS urządzenia, z informacjami w czasie rzeczywistym dla satelitów w związku z urządzeniem. Wersja 3.2.0 dodaje obsługę D/M/S dla szerokości i długości geograficznej, udziału w wielu formatach lokalizacji, czasu pracy zamiast uprawnień do instalacji, tłumaczenia greckie i holenderskie, i pozwala na swobodny ruch map podczas aktualizacji lokalizacji."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
@@ -5221,11 +5223,14 @@ msgid ""
 "  * [Kwik EFIS / Stratux - Test Flight](https://www.youtube.com/watch?v=t6Vnk_rdSzI)\n"
 "  * [Kwik EFIS / Stratux - Dual monitor test](https://www.youtube.com/watch?v=PzmiZzQZ1EE)\n"
 msgstr ""
+"  Niektóre filmy:\n"
+"  * [Kwik EFIS / Stratux - Lot testowy](https://www.youtube.com/watch?v=t6Vnk_rdSzI)\n"
+"  * [Kwik EFIS / Stratux - Test podwójnego monitora](https://www.youtube.com/watch?v=PzmiZzQZ1EE)\n"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
 msgid "**[MHGUDB](https://f-droid.org/app/com.ghstudios.android.mhgendatabase)** is an extensive, all in one, _Monster Hunter Generations_ reference. It had a major update to 2.0.1, adding _Monster Hunter Generations Ultimate_ data, and many usability improvements."
-msgstr ""
+msgstr "**[MHGUDB](https://f-droid.org/app/com.ghstudios.android.mhgendatabase)** jest obszernym, całkowicie w jednym, odnośniku _Monster Hunter Generations_. Miała poważną aktualizację do wersji 2.0.1, dodając dane generatora _Monster Hunter Ultimate_ i wiele ulepszeń użyteczności."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
