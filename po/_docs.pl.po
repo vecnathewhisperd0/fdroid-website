@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-09-12 15:38+0200\n"
-"PO-Revision-Date: 2018-10-11 21:22+0000\n"
+"PO-Revision-Date: 2018-10-13 08:35+0000\n"
 "Last-Translator: WaldiS <admin@sto.ugu.pl>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/f-droid/website-docs/pl/>\n"
 "Language: pl\n"
@@ -6950,6 +6950,15 @@ msgid ""
 "legally compatible with the Android support library and the others\n"
 "libraries).\n"
 msgstr ""
+"*Uwaga:* Jest trochę do zrobienia w kwestii korzystania z * GNU\n"
+"Powszechnej Licencji Publicznej **v2***. Biblioteka pomocy Androida\n"
+"i większość innych bibliotek Androida jest licencjonowana na podstawie *licencji Apache*.\n"
+"Ze względów technicznych nie można ich łączyć z *GNU General\n"
+"Licencja publiczna **v2***. W przypadku aplikacji wydanej w ramach\n"
+"*GPL**v2***,jest ona prawnie akceptowana tylko wtedy, gdy nagłówki kodu źródłowego\n"
+"aplikacji mówią «GPLv2 **lub później**», wtedy możemy wybrać ogólną licencję\n"
+"*GPL**v3*** (ponieważ, przeciwnie *GPL**v3*** jest w pełni zgodny\n"
+"z prawem z biblioteką wsparcia Androida i innymi bibliotekami).\n"
 
 #. type: Title ###
 #: build/_docs/md/Repository_Style_Guide.md
@@ -7127,64 +7136,64 @@ msgstr "Wymaga to umieszczenia (upstream-) podpisów programistów na fdroiddata
 #. type: Plain text
 #: build/_docs/md/Reproducible_Builds.md
 msgid "```console $ cd /path/to/fdroiddata $ fdroid signatures F-Droid.apk ```"
-msgstr ""
+msgstr "```console $ cd /path/to/fdroiddata $ fdroid signatures F-Droid.apk ```"
 
 #. type: Plain text
 #: build/_docs/md/Reproducible_Builds.md
 msgid "You may also supply HTTPS-URLs directly to `fdroid signatures` instead of local files. The signature files are extracted to the according metadata directory ready to be used with `fdroid publish`. A signature consists of 3 files and the result of extracting one will resemble this file listing:"
-msgstr ""
+msgstr "Możesz także podać adresy URL HTTPS bezpośrednio do 'sygnatur fdroid' zamiast plików lokalnych. Pliki sygnatur są wyodrębniane do odpowiedniego katalogu metadanych, gotowego do użycia z `fdroid publish`. Podpis składa się z 3 plików, a wynik wypakowania jednego będzie podobny do tego pliku:"
 
 #. type: Plain text
 #: build/_docs/md/Reproducible_Builds.md
 msgid "```console $ ls metadata/org.fdroid.fdroid/signatures/1000012/ CIARANG.RSA CIARANG.SF MANIFEST.MF ```"
-msgstr ""
+msgstr "```console $ ls metadata/org.fdroid.fdroid/signatures/1000012/ CIARANG.RSA CIARANG.SF MANIFEST.MF ```"
 
 #. type: Title ####
 #: build/_docs/md/Reproducible_Builds.md
 #, no-wrap
 msgid "Exclusively publishing (upstream-)developer signed APKs"
-msgstr ""
+msgstr "Publikacje APK tylko podpisane przez programistę (upstream-)"
 
 #. type: Plain text
 #: build/_docs/md/Reproducible_Builds.md
 msgid "For using this older approach, everything in the metadata should be the same as normal, with the addition of the `Binaries:` directive to specify where to get the binaries from. In this case F-Droid will never attempt to ship APKs signed by F-Droid. Should `fdroid publish` manage to verify that a downloaded APK can be built reproducibly, the downloaded APK will be published. Otherwise F-Droid will skip publishing this version of the app."
-msgstr ""
+msgstr "W przypadku korzystania z tego starszego podejścia, wszystko w metadanych powinno być takie samo jak normalne, z dodaniem dyrektywy `Binaries:`, aby określić skąd pobrać pliki binarne. W takim przypadku F-Droid nigdy nie będzie próbował wysłać APK-ów podpisanych przez F-Droida. Jeśli `fdroid publish` udaje się zweryfikować, czy pobrany plik APK może zostać odtworzony w sposób odtwarzalny, pobrany plik APK zostanie opublikowany. W przeciwnym razie F-Droid pominie publikację tej wersji aplikacji."
 
 #. type: Plain text
 #: build/_docs/md/Reproducible_Builds.md
 msgid "Here is an example for a `Binaries` directive:"
-msgstr ""
+msgstr "Oto przykład dyrektywy `Binaries`:"
 
 #. type: Plain text
 #: build/_docs/md/Reproducible_Builds.md
 msgid "```yaml Binaries: https://foo.com/path/to/myapp-%v.apk ```"
-msgstr ""
+msgstr "```yaml Binaries: https://foo.com/path/to/myapp-%v.apk ```"
 
 #. type: Plain text
 #: build/_docs/md/Reproducible_Builds.md
 msgid "Also see: [Build Metadata Reference - Binaries](../Build_Metadata_Reference/#Binaries)"
-msgstr ""
+msgstr "Zobacz także: [Utwórz odniesienie do metadanych - Pliki binarne](../Build_Metadata_Reference/#Binaries)"
 
 #. type: Title ###
 #: build/_docs/md/Reproducible_Builds.md
 #, no-wrap
 msgid "Verification builds"
-msgstr ""
+msgstr "Weryfikacja kompilacji"
 
 #. type: Plain text
 #: build/_docs/md/Reproducible_Builds.md
 msgid "Many people or organizations will only be interested in reproducing builds to make sure that the f-droid.org builds match the original source and nothing has been inserted in.  In that case, the resulting APKs are not published for installation.  The [Verification Server](../Verification_Server) automates this process."
-msgstr ""
+msgstr "Wiele osób lub organizacji będzie zainteresowanych odtwarzaniem kompilacji, aby upewnić się, że kompilacje f-droid.org pasują do oryginalnego źródła i nic nie zostało wstawione. W takim przypadku wynikowe pakiety APK nie są publikowane do instalacji. [Serwer weryfikacyjny](../Verification_Server) automatyzuje ten proces."
 
 #. type: Plain text
 #: build/_docs/md/Reproducible_Builds.md
 msgid "An awful lot of builds already verify with no extra effort since Java code is often compiled into the same bytecode by a wide range of Java versions.  The Android SDK's _build-tools_ will create differences in the resulting XML, PNG, etc. files, but this is usually not a problem since the _build.gradle_ includes the exact version of _build-tools_ to use."
-msgstr ""
+msgstr "Ogromna liczba kompilacji jest już sprawdzana bez dodatkowego wysiłku, ponieważ kod Java jest często kompilowany do tego samego kodu bajtowego przez wiele różnych wersji Java. Narzędzia _build-tools_ systemu Android SD tworzą różnice w wynikowych plikach XML, PNG itd., Ale zazwyczaj nie stanowi to problemu, ponieważ _build.gradle_ zawiera dokładną wersję _build-tools_ do użycia."
 
 #. type: Plain text
 #: build/_docs/md/Reproducible_Builds.md
 msgid "Anything built with the NDK will be much more sensitive.  For example, even for builds that use the exact same version of the NDK (e.g. _r13b_) but on different platforms (.e.g OSX version Ubuntu), the resulting binaries will have differences."
-msgstr ""
+msgstr "Wszystko zbudowane za pomocą NDK będzie znacznie bardziej czułe. Na przykład nawet w przypadku wersji, które używają dokładnie tej samej wersji NDK (np. _r13b_), ale na różnych platformach (np. Wersja OSX Ubuntu), powstałe pliki binarne będą się różnić."
 
 #. type: Plain text
 #: build/_docs/md/Reproducible_Builds.md
