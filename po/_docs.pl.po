@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-09-12 15:38+0200\n"
-"PO-Revision-Date: 2018-10-13 08:35+0000\n"
+"PO-Revision-Date: 2018-10-15 11:35+0000\n"
 "Last-Translator: WaldiS <admin@sto.ugu.pl>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/f-droid/website-docs/pl/>\n"
 "Language: pl\n"
@@ -7198,54 +7198,54 @@ msgstr "Wszystko zbudowane za pomocą NDK będzie znacznie bardziej czułe. Na p
 #. type: Plain text
 #: build/_docs/md/Reproducible_Builds.md
 msgid "Additionally, we'll have to look out for anything that includes timestamping information, is sensitive to sort order, etc."
-msgstr ""
+msgstr "Dodatkowo będziemy musieli zwracać uwagę na wszystko, co zawiera informacje o sygnaturach czasowych, jest wrażliwe na kolejność sortowania itp."
 
 #. type: Plain text
 #: build/_docs/md/Reproducible_Builds.md
 msgid "Google is also working towards reproducible builds of Android apps, so using recent versions of the Android SDK helps.  One specific case is starting with Gradle Android Plugin v2.2.2, timestamps in the APK file's ZIP header are automatically zeroed out."
-msgstr ""
+msgstr "Google pracuje również nad odtwarzalnymi wersjami aplikacji na Androida, więc pomaga korzystać z najnowszych wersji Androida SDK. Jeden konkretny przypadek zaczyna się od wtyczki Gradle Android v2.2.2, znaczniki czasu w nagłówku ZIP pliku APK są automatycznie wyzerowane."
 
 #. type: Title ##
 #: build/_docs/md/Reproducible_Builds.md
 #, no-wrap
 msgid "_platform_ Revisions"
-msgstr ""
+msgstr "_platform_ Rewizje"
 
 #. type: Plain text
 #: build/_docs/md/Reproducible_Builds.md
 msgid "The Android SDK tools [were changed](https://issuetracker.google.com/issues/37132313) in 2014 to [stick two](https://android.googlesource.com/platform/frameworks/base/+/ad2d07d%5E!/)  [data elements](https://android.googlesource.com/platform/frameworks/base/+/5283fab%5E!/)  in _AndroidManifest.xml_ as part of the build process: `platformBuildVersionName` and `platformBuildVersionCode`.  `platformBuildVersionName` includes the \"revision\" of the _platforms_ package built against (e.g. _android-23_), however different \"revisions\" of the same _platforms_ package cannot be installed in parallel.  Plus the SDK tools do not support specifying the required revision as part of the build process.  This often results in an otherwise reproducible build where the only difference is the `platformBuildVersionName` attribute."
-msgstr ""
+msgstr "Narzędzia Androida SDK [zostały zmienione](https://issuetracker.google.com/issues/37132313) w 2014 r. Na [przyklejają dwa](https://android.googlesource.com/platform/frameworks/base/+/ad2d07d%5E!/) [Elementy danych](https://android.googlesource.com/platform/frameworks/base/+/5283fab%5E!/) w _AndroidManifest.xml_ jako część procesu kompilacji: `platformBuildVersionName` i `platformBuildVersionCode`. `platformBuildVersionName` zawiera \"rewizję\" pakietu _platforms_ zbudowanego na (np. _android-23_), jednak różne \"wersje\" tego samego pakietu _platforms_ nie mogą być instalowane równolegle. Ponadto narzędzia SDK nie obsługują określania wymaganej wersji jako części procesu kompilacji. Powoduje to często kompilację odtwarzaną w inny sposób, w której jedyną różnicą jest atrybut `platformBuildVersionName`."
 
 #. type: Plain text
 #: build/_docs/md/Reproducible_Builds.md
 msgid "The \"_platform_\" is part of the Android SDK that represents the standard library that is installed on the phone. They have two parts to their version: \"version code\", which is an integer that represents the SDK release, and the \"revision\", which represents bugfix versions to each platform. These versions can be seen in the included _build.prop_ file. Each revision has a different number in _ro.build.version.incremental_.  Gradle has no way to specify the revision in _compileSdkVersion_ or _targetSdkVersion_. Only one \"_platform-23_\" can be installed at a time, unlike _build-tools_, where every release can be installed in parallel."
-msgstr ""
+msgstr "Platforma \"_platform_\" jest częścią zestawu SDK systemu Android, który reprezentuje standardową bibliotekę zainstalowaną w telefonie. Mają one dwie części do swojej wersji: \"kod wersji\", który jest liczbą całkowitą reprezentującą wydanie SDK, oraz \"wersję\", która reprezentuje wersje poprawek dla każdej platformy. Wersje te można zobaczyć w dołączonym pliku _build.prop_. Każda wersja ma inny numer w pliku _ro.build.version.incremental_. Gradle nie ma możliwości określenia wersji w _compileSdkVersion_ lub _targetSdkVersion_. Tylko jedna \"_platform-23_\" może być zainstalowana na raz, w przeciwieństwie do _build-tools_, gdzie każde wydanie może być zainstalowane równolegle."
 
 #. type: Plain text
 #: build/_docs/md/Reproducible_Builds.md
 msgid "Here are two examples where I think all the differences came from just different revisions of the platform:"
-msgstr ""
+msgstr "Oto dwa przykłady, według których wszystkie różnice wynikają z różnych wersji platformy:"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Reproducible_Builds.md
 msgid "https://verification.f-droid.org/de.nico.asura_12.apk.diffoscope.html"
-msgstr ""
+msgstr "https://verification.f-droid.org/de.nico.asura_12.apk.diffoscope.html"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Reproducible_Builds.md
 msgid "https://verification.f-droid.org/de.nico.ha_manager_25.apk.diffoscope.html"
-msgstr ""
+msgstr "https://verification.f-droid.org/de.nico.ha_manager_25.apk.diffoscope.html"
 
 #. type: Title ###
 #: build/_docs/md/Reproducible_Builds.md
 #, no-wrap
 msgid "PNG Crush/Crunch"
-msgstr ""
+msgstr "Narzędzia do optymalizacji PNG Crush/Crunch"
 
 #. type: Plain text
 #: build/_docs/md/Reproducible_Builds.md
 msgid "A standard part of the Android build process is to run some kind of PNG optimization tool, like `aapt singleCrunch` or `pngcrush`.  These do not provide deterministic output, it is still an open question as to why.  Since PNGs are normally committed to the source repo, a workaround to this problem is to run the tool of your choice on the PNG files, then commit those changes to the source repo (e.g. `git`).  Then, disable the default PNG optimization process by adding this to _build.gradle_:"
-msgstr ""
+msgstr "Standardową częścią procesu budowania systemu Android jest uruchomienie jakiegoś narzędzia do optymalizacji PNG, takiego jak `aapt singleCrunch` lub` pngcrush`. Nie zapewniają one deterministycznego wyniku, wciąż pozostaje otwarte pytanie, dlaczego. Ponieważ pliki PNG są zwykle zatwierdzane do repozytorium źródłowego, obejście tego problemu polega na uruchomieniu wybranego narzędzia na plikach PNG, a następnie zatwierdzeniu tych zmian w repozytorium źródłowym (np. `Git`). Następnie wyłącz domyślny proces optymalizacji PNG, dodając go do _build.gradle_:"
 
 #. type: Plain text
 #: build/_docs/md/Reproducible_Builds.md
@@ -7259,22 +7259,30 @@ msgid ""
 "}\n"
 "```\n"
 msgstr ""
+"```\n"
+"android {\n"
+"    aaptOptions {\n"
+"        cruncherEnabled = false\n"
+"    }\n"
+"}\n"
+"```\n"
 
 #. type: Title ###
 #: build/_docs/md/Reproducible_Builds.md
 #, no-wrap
 msgid "Build Server IDs"
-msgstr ""
+msgstr "Tworzenie IDs serwera"
 
 #. type: Plain text
 #: build/_docs/md/Reproducible_Builds.md
 msgid "To describe the build environment used by F-Droid builds, APKs have two files inserted into them:"
-msgstr ""
+msgstr "Aby opisać środowisko kompilacji używane przez kompilacje F-Droid, pliki APK mają w sobie dwa pliki:"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Reproducible_Builds.md
+#, fuzzy
 msgid "_META-INF/fdroidserverid_ - git commit hash of [_fdroidserver_](https://gitlab.com/fdroid/fdroidserver) used for the build"
-msgstr ""
+msgstr "_META-INF/fdroidserverid_ - git commit wartość mieszania [_fdroidserver_](https://gitlab.com/fdroid/fdroidserver) użyty do kompilacji"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Reproducible_Builds.md
@@ -7284,18 +7292,18 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Reproducible_Builds.md
 msgid "To ensure reproducibility, use the exact same revision of the `./makebuildserver` and `fdroid build`. You can find the commit hash of _fdroidserver_ by going to your git clone and running `git log -n1`.  The build server instance is stamped with the git commit hash on creation, and that ID is included in builds."
-msgstr ""
+msgstr "Aby zapewnić odtwarzalność, użyj dokładnie tej samej wersji `./makebuildserver` i `fdroid build`. Możesz znaleźć wartość skrótu zatwierdzenia _fdroidserver_, przechodząc do swojego klonu git i uruchamiając `git log -n1`. Instancja serwera kompilacji jest oznaczona hasłem commit git podczas tworzenia, a identyfikator jest zawarty w kompilacjach."
 
 #. type: Title ###
 #: build/_docs/md/Reproducible_Builds.md
 #, no-wrap
 msgid "ZIP entry info"
-msgstr ""
+msgstr "informacje o wpisie ZIP"
 
 #. type: Plain text
 #: build/_docs/md/Reproducible_Builds.md
 msgid "The ZIP format was originally designed around the MSDOS FAT filesystem.  UNIX file permissions were added as an extension.  APKs only need the most basic ZIP format, without any of the extensions.  These extensions are often stripped out in the final release signing process.  But the APK build process can add them.  For example:"
-msgstr ""
+msgstr "Format ZIP został pierwotnie zaprojektowany wokół systemu plików MSDOS FAT. Uprawnienia do plików UNIX zostały dodane jako rozszerzenie. Pliki APK wymagają tylko najbardziej podstawowego formatu ZIP, bez żadnego rozszerzenia. Te rozszerzenia są często usuwane w procesie podpisywania ostatecznej wersji. Ale proces budowania APK może je dodać. Na przykład:"
 
 #. type: Plain text
 #: build/_docs/md/Reproducible_Builds.md
@@ -7318,24 +7326,24 @@ msgstr ""
 #: build/_docs/md/Reproducible_Builds.md
 #, no-wrap
 msgid "Migration to reproducible builds"
-msgstr ""
+msgstr "Migracja do odtwarzalnych wersji"
 
 #. type: Title ####
 #: build/_docs/md/Reproducible_Builds.md
 #, no-wrap
 msgid "TODO"
-msgstr ""
+msgstr "TODO"
 
 #. type: Plain text
 #: build/_docs/md/Reproducible_Builds.md
 msgid "- NDK inserts changing _build-id_, probably via `ld` - jar sort order for APKs - `aapt` versions produce different results (XML and res/ subfolder names)"
-msgstr ""
+msgstr "- NDK wstawia zmianę _build-id_, prawdopodobnie przez `ld` - kolejność sortowania jar dla plików APK - wersje` aapt` dają różne wyniki (nazwy plików XML i res/ subfolder)"
 
 #. type: Title ####
 #: build/_docs/md/Reproducible_Builds.md
 #, no-wrap
 msgid "Sources"
-msgstr ""
+msgstr "Źródła"
 
 #. type: Plain text
 #: build/_docs/md/Reproducible_Builds.md
@@ -7346,42 +7354,42 @@ msgstr ""
 #: build/_docs/md/Security_Model.md
 #, no-wrap
 msgid "Security Model"
-msgstr ""
+msgstr "Model bezpieczeństwa"
 
 #. type: Plain text
 #: build/_docs/md/Security_Model.md
 msgid "The security architecture is based on models proven by [Debian](https://wiki.debian.org/SecureApt), [The Update Framework](https://github.com/theupdateframework/tuf/blob/develop/docs/tuf-spec.txt)  , and others:"
-msgstr ""
+msgstr "Architektura bezpieczeństwa opiera się na modelach sprawdzonych przez [Debian](https://wiki.debian.org/SecureApt), [W ramach aktualizacji](https://github.com/theupdateframework/tuf/blob/develop/docs/tuf-spec.txt) i inne:"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Security_Model.md
 msgid "[HTTPS connections by default](https://gitlab.com/fdroid/fdroidclient/blob/v0.100.1/app/src/main/res/values/default_repo.xml#L11)"
-msgstr ""
+msgstr "[Domyślnie połączenia HTTPS](https://gitlab.com/fdroid/fdroidclient/blob/v0.100.1/app/src/main/res/values/default_repo.xml#L11)"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Security_Model.md
 msgid "server only works over HTTPS, [HTTP](http://f-droid.org) is a redirect"
-msgstr ""
+msgstr "serwer działa tylko przez HTTPS, [HTTP](http://f-droid.org) jest przekierowaniem"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Security_Model.md
 msgid "[Android enforces](https://developer.android.com/studio/publish/app-signing.html#considerations) that all apps have a valid signature over the entire contents of the APK file"
-msgstr ""
+msgstr "[Android wymusza](https://developer.android.com/studio/publish/app-signing.html#considerations), że wszystkie aplikacje mają prawidłowy podpis na całej zawartości pliku APK"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Security_Model.md
 msgid "[Android verifies updates](https://developer.android.com/studio/publish/app-signing.html#considerations) based on the signature of the installed app"
-msgstr ""
+msgstr "[Android weryfikuje aktualizacje](https://developer.android.com/studio/publish/app-signing.html#considerations) na podstawie podpisu zainstalowanej aplikacji"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Security_Model.md
 msgid "[file integrity](https://gitlab.com/fdroid/fdroidclient/blob/v0.101-alpha2/app/src/main/java/org/fdroid/fdroid/installer/ApkCache.java#L57) protected by [signed metadata](https://gitlab.com/fdroid/fdroidclient/blob/v0.101-alpha2/app/src/main/java/org/fdroid/fdroid/RepoUpdater.java#L212)"
-msgstr ""
+msgstr "[integralność pliku](https://gitlab.com/fdroid/fdroidclient/blob/v0.101-alpha2/app/src/main/java/org/fdroid/fdroid/installer/ApkCache.java#L57) chroniony przez [podpisane metadane ](https://gitlab.com/fdroid/fdroidclient/blob/v0.101-alpha2/app/src/main/java/org/fdroid/fdroid/RepoUpdater.java#L212)"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Security_Model.md
 msgid "signed metadata includes hashes of [the app](https://gitlab.com/fdroid/fdroidserver/blob/0.6.0/fdroidserver/update.py#L460) and its [signing key](https://gitlab.com/fdroid/fdroidserver/blob/0.6.0/fdroidserver/update.py#L558)"
-msgstr ""
+msgstr "podpisane metadane zawierają skróty [aplikacji](https://gitlab.com/fdroid/fdroidserver/blob/0.6.0/fdroidserver/update.py#L460) i jego [klucz podpisujący](https://gitlab.com/fdroid/fdroidserver/blob/0.6.0/fdroidserver/update.py#L558)"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Security_Model.md
