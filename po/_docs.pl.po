@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-09-12 15:38+0200\n"
-"PO-Revision-Date: 2018-10-15 11:35+0000\n"
+"PO-Revision-Date: 2018-10-16 17:09+0000\n"
 "Last-Translator: WaldiS <admin@sto.ugu.pl>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/f-droid/website-docs/pl/>\n"
 "Language: pl\n"
@@ -7321,6 +7321,17 @@ msgid ""
 "+-rw-rw-rw-  2.3 unx    78984 b- stor 80-000-00 00:00 resources.arsc\n"
 "```\n"
 msgstr ""
+"```diff\n"
+"--- a2dp.Vol_137.apk\n"
+"+++ sigcp_a2dp.Vol_137.apk\n"
+"@@ -1,50 +1,50 @@\n"
+"--rw----     2.0 fat     8976 bX defN 79-lis-30 00:00 AndroidManifest.xml\n"
+"--rw----     2.0 fat  1958312 bX defN 79-lis-30 00:00 classes.dex\n"
+"--rw----     1.0 fat    78984 bx duży 79-lis-30 00:00 resources.arsc\n"
+"+-rw-rw-rw-  2.3 unx     8976 b-defN 80-000-00 00:00 AndroidManifest.xml\n"
+"+-rw----     2.4 fat  1958312 b- defN 80-000-00 00:00 classes.dex\n"
+"+-rw-rw-rw-  2.3 unx    78984 b- duży 80-000-00 00:00 resources.arsc\n"
+"```\n"
 
 #. type: Title ###
 #: build/_docs/md/Reproducible_Builds.md
@@ -7394,68 +7405,68 @@ msgstr "podpisane metadane zawierają skróty [aplikacji](https://gitlab.com/fdr
 #. type: Bullet: '-   '
 #: build/_docs/md/Security_Model.md
 msgid "[signed metadata generated on a separate machine](https://gitlab.com/fdroid/fdroidserver/blob/0.6.0/fdroidserver/update.py#L989) (which is fully offline for f-droid.org and guardianproject.info)"
-msgstr ""
+msgstr "[podpisane metadane wygenerowane na oddzielnej maszynie](https://gitlab.com/fdroid/fdroidserver/blob/0.6.0/fdroidserver/update.py#L989) (która jest w pełni offline dla f-droid.org i guardianproject.info)"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Security_Model.md
 msgid "[public key for verifying metadata signatures built into F-Droid client app](https://gitlab.com/fdroid/fdroidclient/blob/v0.100.1/app/src/main/res/values/default_repo.xml#L13)"
-msgstr ""
+msgstr "[klucz publiczny do weryfikacji podpisów metadanych wbudowanych w aplikację kliencką F-Droid](https://gitlab.com/fdroid/fdroidclient/blob/v0.100.1/app/src/main/res/values/default_repo.xml#L13)"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Security_Model.md
 msgid "signed metadata includes [timestamp](https://gitlab.com/fdroid/fdroidclient/commit/02b2090e530ab5d22b522d978728f34bb332b390)  and [expiry](https://gitlab.com/fdroid/fdroidserver/blob/0.6.0/fdroidserver/update.py#L775)"
-msgstr ""
+msgstr "podpisane metadane obejmują [znacznik czasu](https://gitlab.com/fdroid/fdroidclient/commit/02b2090e530ab5d22b522d978728f34bb332b390) i [wygaśnięcie](https://gitlab.com/fdroid/fdroidserver/blob/0.6.0/fdroidserver/update.py#L775)"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Security_Model.md
 msgid "easy Tor support via Settings"
-msgstr ""
+msgstr "łatwa obsługa Tor przez Ustawienia"
 
 #. type: Plain text
 #: build/_docs/md/Security_Model.md
 msgid "While the current setup is already a solid platform, we are implementing a number of improvements:"
-msgstr ""
+msgstr "Chociaż obecna konfiguracja jest już solidną platformą, wprowadzamy szereg ulepszeń:"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Security_Model.md
 msgid "The signed metadata will include list of official mirrors, then the client [chooses mirrors](https://gitlab.com/fdroid/fdroidclient/issues/35) based on availability and freshness based on local criteria like whether Tor is in use, closest on the internet, etc."
-msgstr ""
+msgstr "Podpisane metadane będą zawierać listę oficjalnych serwerów lustrzanych, następnie klient [wybiera serwery lustrzane](https://gitlab.com/fdroid/fdroidclient/issues/35) w zależności od dostępności i świeżości w oparciu o lokalne kryteria, takie jak używanie Tora, najbliżej w Internecie itp."
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Security_Model.md
 msgid "We are also moving the standard HTTP “etag” cache check from the server [to the client](https://gitlab.com/fdroid/fdroidclient/issues/562) so it cannot be abused to track users"
-msgstr ""
+msgstr "Przenosimy również standardowe sprawdzanie pamięci podręcznej HTTP “etag” z serwera [do klienta](https://gitlab.com/fdroid/fdroidclient/issues/562), więc nie można nadużywać do śledzenia użytkowników"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Security_Model.md
 msgid "[pinned TLS certificate built into the client app](https://gitlab.com/fdroid/fdroidclient/commit/0429b3f7dd4a6037fa11df64bfdd176ea378e6bf)"
-msgstr ""
+msgstr "[przypięty certyfikat TLS wbudowany w aplikację kliencką](https://gitlab.com/fdroid/fdroidclient/commit/0429b3f7dd4a6037fa11df64bfdd176ea378e6bf)"
 
 #. type: Plain text
 #: build/_docs/md/Security_Model.md
 msgid "In order to defend against an attacker that holds the signing keys for the app repository, there must be a trustworthy source of information to compare against. Reproducible builds means that anyone with the same source code will produce the exact same binary. When paired with an auditing system, it is easy to catch malware inserted in the build process, rather than the source code, like XCodeGhost. Reproducible builds also makes it possible to have all builds of a release binary have the exact same hash. Then any app repository can build apps only from source code, and have a source of verification data from any other app repository building the same app. Building software from source has become cheap enough that many companies like gitlab.com and Travis CI are offering free, automated build services in the cloud. Since the whole F-Droid toolset is free software and designed to be easy to setup, the barriers to setting up automatic auditing are quite low. People in separate areas of the world with different risk profiles can run [verification servers](../Verification_Server) to provide more trustworthy information."
-msgstr ""
+msgstr "W celu obrony przed intruzem, który przechowuje klucze do podpisywania repozytorium aplikacji, musi istnieć wiarygodne źródło informacji, z którymi można się porównywać. Powtarzalne kompilacje oznaczają, że każdy z tym samym kodem źródłowym będzie wytwarzał dokładnie ten sam plik binarny. W połączeniu z systemem kontroli łatwo jest przechwycić złośliwe oprogramowanie wstawione do procesu budowania, a nie kod źródłowy, taki jak XCodeGhost. Powtarzalne kompilacje umożliwiają również, aby wszystkie kompilacje pliku binarnego wersji miały dokładnie taki sam skrót. Wtedy każde repozytorium aplikacji może tworzyć aplikacje tylko z kodu źródłowego i mieć źródło danych weryfikacyjnych z dowolnego innego repozytorium aplikacji budującego tę samą aplikację. Budowanie oprogramowania ze źródeł stało się na tyle tanie, że wiele firm, takich jak gitlab.com i Travis CI, oferuje darmowe, zautomatyzowane usługi kompilacji w chmurze. Ponieważ cały zestaw narzędzi F-Droid jest wolnym oprogramowaniem i ma być łatwy w konfiguracji, bariery w ustanawianiu automatycznego audytu są dość niskie. Osoby w oddzielnych obszarach świata o różnych profilach ryzyka mogą uruchamiać [serwery weryfikacyjne](../Verification_Server), aby zapewnić bardziej wiarygodne informacje."
 
 #. type: Plain text
 #: build/_docs/md/Security_Model.md
 msgid "The security model of the [Build Server Setup](../Build_Server_Setup)  and the [Signing Process](../Signing_Process) are documented separately."
-msgstr ""
+msgstr "Model bezpieczeństwa [Build Server Setup](../Build_Server_Setup)  oraz [Signing Process](../Signing_Process) są dokumentowane osobno."
 
 #. type: Title ##
 #: build/_docs/md/Security_Model.md
 #, no-wrap
 msgid "Initial Installs"
-msgstr ""
+msgstr "Początkowe instalacje"
 
 #. type: Plain text
 #: build/_docs/md/Security_Model.md
 msgid "Most users of F-Droid download the APK from _f-droid.org_ and install it.  This is a potential vector of attack that built-in app stores do not have.  Therefore, many additional security precautions are taken to make it as hard as possible to exploit this vector."
-msgstr ""
+msgstr "Większość użytkowników F-Droid pobiera plik APK z _f-droid.org_ i instaluje go. Jest to potencjalny wektor ataku, którego nie mają wbudowane sklepy z aplikacjami. W związku z tym podejmuje się wiele dodatkowych środków bezpieczeństwa, aby maksymalnie wykorzystać ten wektor."
 
 #. type: Bullet: '* '
 #: build/_docs/md/Security_Model.md
 msgid "included on the [HSTS preload list](https://hstspreload.org/?domain=f-droid.org), so major browsers will only ever use HTTPS for all connections to _f-droid.org_"
-msgstr ""
+msgstr "zawarte w [liście wstępnego ładowania HSTS](https://hstspreload.org/?domain=f-droid.org), więc główne przeglądarki będą używać tylko HTTPS dla wszystkich połączeń z _f-droid.org_"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Security_Model.md
