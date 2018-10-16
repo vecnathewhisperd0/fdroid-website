@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-09-12 15:38+0200\n"
-"PO-Revision-Date: 2018-09-16 10:30+0000\n"
-"Last-Translator: zelos-h <b.blank.0001@gmail.com>\n"
+"PO-Revision-Date: 2018-10-16 17:09+0000\n"
+"Last-Translator: geant44 <geant4.root@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/f-droid/website-docs/zh_Hant/>\n"
 "Language: zh_Hant\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.2-dev\n"
+"X-Generator: Weblate 3.2.1\n"
 
 #. type: Title #
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -4460,12 +4460,12 @@ msgstr "協助開發"
 #. type: Plain text
 #: build/_docs/md/How_to_Help.md
 msgid "There are three git repositories hosted at Gitlab, as follows:"
-msgstr ""
+msgstr "這裡有3個存放在Gitlab的git 軟體庫，如下："
 
 #. type: Bullet: '-   '
 #: build/_docs/md/How_to_Help.md
 msgid "Android client application - <https://gitlab.com/fdroid/fdroidclient> Issues suitable for new contributors are tagged [help-wanted](https://gitlab.com/fdroid/fdroidclient/issues?label_name=help-wanted)"
-msgstr ""
+msgstr "Android用戶端應用程式 - <https://gitlab.com/fdroid/fdroidclient> Issues suitable for new contributors are tagged [help-wanted](https://gitlab.com/fdroid/fdroidclient/issues?label_name=help-wanted)"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/How_to_Help.md
@@ -4475,7 +4475,7 @@ msgstr ""
 #. type: Bullet: '-   '
 #: build/_docs/md/How_to_Help.md
 msgid "Metadata files for applications in the main F-Droid repository - <https://gitlab.com/fdroid/fdroiddata>"
-msgstr ""
+msgstr "在主F-Droid 存儲庫中的中繼資料檔案 - <https://gitlab.com/fdroid/fdroiddata>"
 
 #. type: Plain text
 #: build/_docs/md/How_to_Help.md
