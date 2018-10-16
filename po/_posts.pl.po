@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-10-08 13:59+0200\n"
-"PO-Revision-Date: 2018-10-15 11:30+0000\n"
+"PO-Revision-Date: 2018-10-16 17:09+0000\n"
 "Last-Translator: WaldiS <admin@sto.ugu.pl>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/f-droid/website-posts/pl/>\n"
 "Language: pl\n"
@@ -5313,7 +5313,7 @@ msgstr "Aktualizacja Buildserver do _Debian Stretch_ bliska ukończenia"
 #: build/_posts/md/2018-09-21-twif-22-servers-edition.md
 #, no-wrap
 msgid "**[@uniqx](https://forum.f-droid.org/u/uniqx)**'s big buildserver update to Stretch has been merged, and has been successfully validated on [jenkins.debian.net](https://jenkins.debian.net/job/reproducible_fdroid_build_apps/). **[@CiaranG](https://ciarang.com)** has indicated that he is ready to update, so this will go live on our production buildserver very soon! This is a _huge_ upgrade that we've been working towards for a long time. Once it's in, it should be easier for us to add apps (less complicated recipes), and allow us to include more apps that we were previously unable to build.\n"
-msgstr ""
+msgstr "**[@uniqx](https://forum.f-droid.org/u/uniqx)** aktualizacja dużego buildserver do Stretch została scalona i została pomyślnie sprawdzona na [jenkins.debian.net](https://jenkins.debian.net/job/reproducible_fdroid_build_apps/). **[@CiaranG](https://ciarang.com)** oznajmił, że jest gotowy do aktualizacji, więc wkrótce pojawią się na naszym serwerze budującym produkcje! To jest wielkie ulepszenie, nad którym pracujemy od dłuższego czasu. Po wejściu na rynek powinno nam być łatwiej dodawać aplikacje (mniej skomplikowane przepisy) i umożliwić nam dodanie większej liczby aplikacji, których wcześniej nie byliśmy w stanie zbudować.\n"
 
 #. type: Title ####
 #: build/_posts/md/2018-09-21-twif-22-servers-edition.md
@@ -5347,7 +5347,7 @@ msgstr "Statystyki Fdroiddata"
 #: build/_posts/md/2018-09-21-twif-22-servers-edition.md
 #, no-wrap
 msgid "**[@\\_hc](https://forum.f-droid.org/u/hans)** has made some [pretty graphs](https://fdroid.gitlab.io/fdroiddata/) for you to look at! This is is a visualisation of our [fdroiddata](https://gitlab.com/fdroid/fdroiddata) repository, which contains all our app metadata. It is interesting to see that the number of new files has been steadily rising, even though the total commits per year has actually gone down. This could well mean that we have gotten more efficient, according to **[@\\_hc](https://forum.f-droid.org/u/hans)**.\n"
-msgstr ""
+msgstr "**[@\\_hc](https://forum.f-droid.org/u/hans)** wykonał kilka [ładnych wykresów](https://fdroid.gitlab.io/fdroiddata/), na które możesz zwrócić uwagę! Jest to wizualizacja naszego repozytorium [fdroiddata](https://gitlab.com/fdroid/fdroiddata), która zawiera wszystkie nasze metadane aplikacji. Interesujące jest to, że liczba nowych plików stale rośnie, mimo że całkowita liczba zatwierdzeń w ciągu roku faktycznie spadła. Może to oznaczać, że uzyskaliśmy większą wydajność, zgodnie z **[@\\_hc](https://forum.f-droid.org/u/hans)**.\n"
 
 #. type: Plain text
 #: build/_posts/md/2018-09-21-twif-22-servers-edition.md
@@ -5357,13 +5357,13 @@ msgstr "Aktualizacja ma się odbywać raz w tygodniu."
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-21-twif-22-servers-edition.md
 msgid "**[Rocket.Chat](https://f-droid.org/app/chat.rocket.android)** is in! We've mentioned this briefly in [TWIF 16]({{ site.baseurl }}{% post_url 2018-08-10-twif-16-the-note-taking-todo-text-editor-edition %}#community-news), and now **[@Bubu](https://forum.f-droid.org/u/Bubu)**'s work is paying off even as he is on vacation."
-msgstr ""
+msgstr "**[Rocket.Chat](https://f-droid.org/app/chat.rocket.android)** jest w! Wspomnieliśmy o tym krótko w [TWIF 16]({{ site.baseurl }}{% post_url 2018-08-10-twif-16-the-note-taking-todo-text-editor-edition %}#community-news), i teraz **[@Bubu](https://forum.f-droid.org/u/Bubu)** praca opłaca się nawet tak, jak jest na wakacjach."
 
 #. type: Plain text
 #: build/_posts/md/2018-09-21-twif-22-servers-edition.md
 #, no-wrap
 msgid "  Note that the app is without push notifications right now, so you'll have to enter the app to see if there's anything new. The developers seem to be interested in exploring non-[FCM](https://en.wikipedia.org/wiki/Firebase_Cloud_Messaging) push though. Maybe they can take inspiration from [Tutanota's solution]({{ site.baseurl }}{% post_url 2018-09-03-replacing-gcm-in-tutanota %}).\n"
-msgstr ""
+msgstr "  Pamiętaj, że aplikacja jest teraz bez powiadomień push, więc musisz wejść do aplikacji, aby zobaczyć, czy jest coś nowego. Wydaje się, że programiści są zainteresowani badaniem non-[FCM](https://en.wikipedia.org/wiki/Firebase_Cloud_Messaging). Może mogą czerpać inspirację z [rozwiązania Tutanoty]({{ site.baseurl }}{% post_url 2018-09-03-replacing-gcm-in-tutanota %}).\n"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-21-twif-22-servers-edition.md
@@ -5403,7 +5403,7 @@ msgstr "**[Klawiatura DroidTR](https://f-droid.org/app/org.droidtr.keyboard)**: 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-21-twif-22-servers-edition.md
 msgid "**[Soft Sound](https://f-droid.org/app/org.mcxa.softsound)**: Play relaxing sounds to help you sleep, concentrate or stay calm."
-msgstr ""
+msgstr "**[Soft Sound](https://f-droid.org/app/org.mcxa.softsound)**: Odtwarzaj relaksujące dźwięki, które pomogą Ci zasnąć, skoncentrować się lub zachować spokój."
 
 #. type: Plain text
 #: build/_posts/md/2018-09-21-twif-22-servers-edition.md
@@ -5413,12 +5413,12 @@ msgstr "W sumie w tym tygodniu zaktualizowano **68** aplikacji. Oto najważniejs
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-21-twif-22-servers-edition.md
 msgid "**[Activity Diary](https://f-droid.org/app/de.rampro.activitydiary)** lets you log and plan your recurring activities. In version 1.3.1 tracking of position was added (needs activation in settings and is not yet used for proposing next activities). Also added was a pie chart for statistics, simplified pausing: last finished activities get a higher priority, improved searching, and several bugfixes."
-msgstr ""
+msgstr "**[Activity Diary](https://f-droid.org/app/de.rampro.activitydiary)** pozwala rejestrować i planować powtarzające się czynności. W wersji 1.3.1 dodano śledzenie pozycji (wymaga aktywacji w ustawieniach i nie jest jeszcze wykorzystywane do proponowania kolejnych działań). Dodano także wykres kołowy dla statystyk, uproszczone wstrzymywanie: ostatnie ukończone działania mają wyższy priorytet, ulepszone wyszukiwanie i kilka poprawek błędów."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-21-twif-22-servers-edition.md
 msgid "**[Tutanota](https://f-droid.org/app/de.tutao.tutanota)** enables you to send end-to-end encrypted emails to anybody with a tip of your finger. Version 3.37.1 will remember your language choice for external recipients, supports \"cancel\" and \"confirm\" hotkeys in dialogs, and has lots of bug fixes."
-msgstr ""
+msgstr "**[Tutanota](https://f-droid.org/app/de.tutao.tutanota)** umożliwia wysyłanie zaszyfrowanych wiadomości e-mail od końca do końca każdemu czubkiem palca. Wersja 3.37.1 zapamięta Twój wybór języka dla zewnętrznych odbiorców, obsługuje \"anuluj\" i \"potwierdź\" skróty w oknach dialogowych i ma wiele poprawek."
 
 #. type: Plain text
 #: build/_posts/md/2018-09-21-twif-22-servers-edition.md
@@ -5437,17 +5437,17 @@ msgstr ""
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-21-twif-22-servers-edition.md
 msgid "**[Markor](https://f-droid.org/app/net.gsantner.markor)**, 1.2.0 is out. Your favorite [markdown](https://commonmark.org) editor and TODO app now has launchers to directly open LinkBox/ToDo/QuickNote, context aware search for projects, preview for ToC and KaTex math, and improved markdown conversion, notably GFM-like table parsing and underlined h1. Read about even more improvements in the [blog post](https://gsantner.net/blog/android/2018/09/18/markor-release-v1.2.html)."
-msgstr ""
+msgstr "**[Markor](https://f-droid.org/app/net.gsantner.markor)**, 1.2.0 jest na zewnątrz. Twój ulubiony edytor [markdown](https://commonmark.org) i aplikacja TODO mają teraz wyrzutnie do bezpośredniego otwierania LinkBox/ToDo/QuickNote, kontekstowe wyszukiwanie projektów, podgląd dla ToC i KaTex matematyki oraz ulepszonej konwersji marży, zwłaszcza podczas analizowania tabeli GFM, jak i podkreślony h1. Przeczytaj o jeszcze większej poprawie [post na blogu](https://gsantner.net/blog/android/2018/09/18/markor-release-v1.2.html)."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-21-twif-22-servers-edition.md
 msgid "**[LTE Cleaner (FOSS)](https://f-droid.org/app/theredspy15.ltecleanerfoss)** had major updates this week, going from 2.3 to 3.1.0 in 5 releases! New features include a \"one click clean\" option, simplified filter options, an \"aggressive filter\", Chinese (traditional) language support, and many smaller changes and bug fixes."
-msgstr ""
+msgstr "**[LTE Cleaner (FOSS)](https://f-droid.org/app/theredspy15.ltecleanerfoss)** miał poważne aktualizacje w tym tygodniu, przechodząc od 2.3 do 3.1.0 w 5 wydaniach! Nowe funkcje obejmują opcję \"jedno kliknięcie\", uproszczone opcje filtrowania, \"filtr agresywny\", obsługę języka chińskiego (tradycyjnego) oraz wiele mniejszych zmian i poprawek."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-21-twif-22-servers-edition.md
 msgid "**[WaveUp](https://f-droid.org/app/com.jarsilio.android.waveup)**: \"Just wave your hand over the proximity sensor of your phone to turn the screen on.\" Version 2.2.0 contains under-the-hood changes, converting the code base to Kotlin, and updating some dependencies."
-msgstr ""
+msgstr "**[WaveUp](https://f-droid.org/app/com.jarsilio.android.waveup)**: \"po prostu machnij ręką nad czujnikiem zbliżenia telefonu, aby włączyć ekran.\" Wersja 2.2.0 zawiera zmiany pod maską, przekształcenie bazy kodów w Kotlin i aktualizację niektórych zależności."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-21-twif-22-servers-edition.md
@@ -5463,7 +5463,7 @@ msgstr "**[PSLab](https://f-droid.org/wiki/page/org.fossasia.pslab)** jako przen
 #: build/_posts/md/2018-09-27-twif-23-successful-update-to-stretch.md
 #, no-wrap
 msgid "\"TWIF 23: Successful update to Stretch\""
-msgstr ""
+msgstr "\"TWIF 23: Pomyślna aktualizacja Stretch\""
 
 #. type: Plain text
 #: build/_posts/md/2018-09-27-twif-23-successful-update-to-stretch.md
@@ -5475,7 +5475,7 @@ msgstr ""
 #. type: Plain text
 #: build/_posts/md/2018-09-27-twif-23-successful-update-to-stretch.md
 msgid "In this edition: Buildserver successfully upgraded to Stretch, SET Anti-Feature fixed, new F-Droid sweatshirts, and F-Droid 1.4 marked stable. There are 3 new apps and {{ page.number_of_updated_apps }} updates, including Music Player GO, FOSS Browser, StreetComplete, and Bimba."
-msgstr ""
+msgstr "W tej edycji: Buildserver został zaktualizowany do wersji Stretch, SET Anti-Feature fixed, nowych bluz F-Droid i F-Droid 1.4 oznaczonych jako stabilne. Dostępne są 3 nowe aplikacje i aktualizacje {{page.number_of_updated_apps}}, w tym Music Player GO, FOSS Browser, StreetComplete i Bimba."
 
 #. type: Title ####
 #: build/_posts/md/2018-09-27-twif-23-successful-update-to-stretch.md
