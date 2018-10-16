@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-10-08 13:59+0200\n"
-"PO-Revision-Date: 2018-10-16 17:09+0000\n"
+"PO-Revision-Date: 2018-10-17 14:09+0000\n"
 "Last-Translator: WaldiS <admin@sto.ugu.pl>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/f-droid/website-posts/pl/>\n"
 "Language: pl\n"
@@ -5433,6 +5433,14 @@ msgid ""
 "  * Follow instance button can be hidden\n"
 "  * Improved UX with more text\n"
 msgstr ""
+"* {{ page.featured }} **[Mastalab](https://f-droid.org/app/fr.gouv.etalab.mastodon)** w tym tygodniu jest w ogniu z 4 wydaniami! Wersja 1.13.3 obsługuje interfejs API [Trunk](https://communitywiki.org/trunk), który umożliwia masową obserwację użytkowników według kategorii za pomocą kilku prostych kliknięć. Idealny dla początkujących. Inne nowe funkcje:\n"
+"  * Dostosuj dźwięk powiadomień\n"
+"  * Niestandardowe ikony emocji w menu głównym\n"
+"  * Automatycznie rozwijaj ukryte multimedia (domyślnie nie)\n"
+"  * Długie kliknięcie przycisku utwórz, aby odebrać z innego konta\n"
+"  * Tryb kompaktowy jest teraz domyślny\n"
+"  * Śledź przycisk instancji można ukryć\n"
+"  * Ulepszony UX z większą ilością tekstu\n"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-21-twif-22-servers-edition.md
@@ -5470,7 +5478,7 @@ msgstr "\"TWIF 23: Pomyślna aktualizacja Stretch\""
 #: build/_posts/md/2018-10-04-twif-24-the-end-of-logging-as-we-know-it.md
 #, no-wrap
 msgid "This Week In F-Droid {{ page.edition }}, Week {{ page.date | date: \"%V, %G\" }} <a href=\"{{ site.baseurl }}/feed.xml\"><img src=\"{{ site.baseurl }}/assets/Feed-icon-16x16.png\" alt=\"Feed\"></a>\n"
-msgstr ""
+msgstr "W tym tygodniu w F-Droid {{ page.edition }}, Tydzień {{ page.date | date: \"%V, %G\" }} <a href=\"{{ site.baseurl }}/feed.xml\"><img src=\"{{ site.baseurl }}/assets/Feed-icon-16x16.png\" alt=\"Feed\"></a>\n"
 
 #. type: Plain text
 #: build/_posts/md/2018-09-27-twif-23-successful-update-to-stretch.md
@@ -5481,29 +5489,29 @@ msgstr "W tej edycji: Buildserver został zaktualizowany do wersji Stretch, SET 
 #: build/_posts/md/2018-09-27-twif-23-successful-update-to-stretch.md
 #, no-wrap
 msgid "Stretch upgrade successful"
-msgstr ""
+msgstr "Powodzenie uaktualnienia Stretch"
 
 #. type: Plain text
 #: build/_posts/md/2018-09-27-twif-23-successful-update-to-stretch.md
 msgid "The buildserver guest was upgraded to Debian Stretch, and has published its first index update!"
-msgstr ""
+msgstr "Klient buildserver został uaktualniony do wersji Debian Stretch i opublikował swoją pierwszą aktualizację indeksu!"
 
 #. type: Title ####
 #: build/_posts/md/2018-09-27-twif-23-successful-update-to-stretch.md
 #, no-wrap
 msgid "SET Anti-Feature fixed"
-msgstr ""
+msgstr "Naprawiono SET Anti-Feature"
 
 #. type: Plain text
 #: build/_posts/md/2018-09-27-twif-23-successful-update-to-stretch.md
 msgid "As of the latest index update, the [SET Anti-Feature](https://f-droid.org/wiki/page/Antifeature:SET) has been cleared from all apps. In case you were still wondering what the SET Anti-Feature is... it isn't! That's the bug. [See the bug](https://gitlab.com/fdroid/fdroidserver/issues/565)."
-msgstr ""
+msgstr "Po ostatniej aktualizacji indeksu, [SET Anti-Feature](https://f-droid.org/wiki/page/Antifeature:SET) została usunięta ze wszystkich aplikacji. Jeśli nadal zastanawiałeś się, co to jest SET Anti-Feature ... to nie jest! To błąd. [Zobacz błąd](https://gitlab.com/fdroid/fdroidserver/issues/565)."
 
 #. type: Title ####
 #: build/_posts/md/2018-09-27-twif-23-successful-update-to-stretch.md
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "New F-Droid sweatshirts coming"
-msgstr ""
+msgstr "Nadchodzą nowe bluzy F-Droid"
 
 #. type: Plain text
 #: build/_posts/md/2018-09-27-twif-23-successful-update-to-stretch.md
@@ -5524,7 +5532,7 @@ msgstr "**[BatteryFu](https://f-droid.org/app/com.tobykurien.batteryfu)**: Oszcz
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-27-twif-23-successful-update-to-stretch.md
 msgid "**[EtchDroid](https://f-droid.org/app/eu.depau.etchdroid)**: An application that helps you write images to USB drives, no root required"
-msgstr ""
+msgstr "**[EtchDroid](https://f-droid.org/app/eu.depau.etchdroid)**: Aplikacja, która pomaga zapisywać obrazy na dyskach USB, nie wymaga root"
 
 #. type: Plain text
 #: build/_posts/md/2018-09-27-twif-23-successful-update-to-stretch.md
@@ -5535,27 +5543,27 @@ msgstr "W sumie, **{{ page.number_of_updated_apps }}** zostały zaktualizowane w
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-27-twif-23-successful-update-to-stretch.md
 msgid "**[ICSdroid](https://f-droid.org/app/at.bitfire.icsdroid)** fetches remote iCalendar files (like your school/university time tables, or events of your favorite sports team) and synchronizes them into local, read-only Android calendars. No other data is transferred; there are no accounts and no logins. This update to 1.6 brings better support for large calendars, and various minor improvements."
-msgstr ""
+msgstr "**[ICSdroid](https://f-droid.org/app/at.bitfire.icsdroid)** pobiera zdalne pliki iCalendar (np. tablice czasu w szkole lub na uczelni lub wydarzenia z ulubionej drużyny sportowej) i synchronizuje je z lokalnymi kalendarzami systemu Android przeznaczonymi tylko do odczytu. Żadne inne dane nie są przekazywane; nie ma kont ani loginów. Ta aktualizacja do wersji 1.6 zapewnia lepszą obsługę dużych kalendarzy i różnych drobnych usprawnień."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-27-twif-23-successful-update-to-stretch.md
 msgid "{{ page.major }} **[Music Player GO](https://f-droid.org/app/com.iven.musicplayergo)** had a major update to 3.0.0 and then some, bringing it up to 3.1.1. [Changes](https://github.com/enricocid/Music-Player-GO/releases) are unclear."
-msgstr ""
+msgstr "{{ page.major }} **[Music Player GO](https://f-droid.org/app/com.iven.musicplayergo)** miał poważną aktualizację do wersji 3.0.0, a następnie do aktualizacji do wersji 3.1.1. [Zmiany](https://github.com/enricocid/Music-Player-GO/releases) są niejasne."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-27-twif-23-successful-update-to-stretch.md
 msgid "**[Nextcloud](https://f-droid.org/app/com.nextcloud.client)** 3.3.0 adds support for Trashbin, device credentials, media streaming, and has new media detection for AutoUpload, improved TalkBack screenreader support, offline/maintenance info, and many more improvements and bug fixes."
-msgstr ""
+msgstr "**[Nextcloud](https://f-droid.org/app/com.nextcloud.client)** 3.3.0 dodaje obsługę Trashbina, dane uwierzytelniające urządzenia, strumieniowanie multimediów i nowe wykrywanie multimediów dla funkcji AutoUpload, ulepszoną obsługę czytnika ekranu TalkBack, informacje o trybie offline/konserwacja oraz wiele innych ulepszeń i poprawek."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-27-twif-23-successful-update-to-stretch.md
 msgid "**[Waistline](https://f-droid.org/app/com.waist.line)**, the calorie counter and weight tracker, was updated from 2.2.3 to 2.3.3, adding the ability to enter your own [Open Food Facts](https://world.openfoodfacts.org) credentials, a setting to change the app's home screen, support for the fibre nutriment, saturated fat and fibre goals, under-the-hood changes to improve performance and ease maintenance, and several bug fixes centering around date problems."
-msgstr ""
+msgstr "**[Waistline](https://f-droid.org/app/com.waist.line)**, licznik kalorii i rejestrator masy został zaktualizowany z wersji 2.2.3 do 2.3.3, dodając możliwość wpisania własnych Open Food Facts](https://world.openfoodfacts.org) poświadczeń, ustawienie umożliwiające zmianę domu aplikacji ekran, wsparcie dla celów żywienia włókien, celów związanych z tłuszczami nasyconymi i włóknami, zmiany pod maską w celu poprawy wydajności i łatwej konserwacji, a także kilka poprawek, które koncentrują się wokół problemów z datami."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-27-twif-23-successful-update-to-stretch.md
 msgid "{{ page.major }} **[FOSS Browser](https://f-droid.org/app/de.baumann.browser)** released 6.0. FOSS Browser is a simple browser based on Android's builtin WebView. This release has new translations for Taiwan Traditional Chinese, Italian, Portugese, and the Polish translation was updated. Besides that there are many more fixes and improvements."
-msgstr ""
+msgstr "{{ page.major }} **[FOSS Browser](https://f-droid.org/app/de.baumann.browser)** wydana 6.0. Przeglądarka FOSS to prosta przeglądarka oparta na wbudowanym WebView systemu Android. To wydanie ma nowe tłumaczenia na Tajwan tradycyjny chiński, włoski, portugalski, a polskie tłumaczenie zostało zaktualizowane. Poza tym jest o wiele więcej poprawek i ulepszeń."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-27-twif-23-successful-update-to-stretch.md
