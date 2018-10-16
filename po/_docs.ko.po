@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-09-12 15:38+0200\n"
-"PO-Revision-Date: 2018-08-31 10:14+0000\n"
+"PO-Revision-Date: 2018-10-16 17:25+0000\n"
 "Last-Translator: Myeongjin Lee <aranet100@gmail.com>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/f-droid/website-docs/ko/>\n"
 "Language: ko\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.2-dev\n"
+"X-Generator: Weblate 3.2.1\n"
 
 #. type: Title #
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -5011,7 +5011,7 @@ msgstr ""
 #. type: Bullet: '-   '
 #: build/_docs/md/Inclusion_How-To.md
 msgid "[fdroiddata revision history](https://gitlab.com/fdroid/fdroiddata/commits/master)"
-msgstr ""
+msgstr "[fdroiddata 개정판 내역](https://gitlab.com/fdroid/fdroiddata/commits/master)"
 
 #. type: Title #
 #: build/_docs/md/Inclusion_Policy.md
