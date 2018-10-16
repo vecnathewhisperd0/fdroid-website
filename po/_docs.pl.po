@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-09-12 15:38+0200\n"
-"PO-Revision-Date: 2018-10-16 17:09+0000\n"
+"PO-Revision-Date: 2018-10-17 14:09+0000\n"
 "Last-Translator: WaldiS <admin@sto.ugu.pl>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/f-droid/website-docs/pl/>\n"
 "Language: pl\n"
@@ -7280,14 +7280,13 @@ msgstr "Aby opisać środowisko kompilacji używane przez kompilacje F-Droid, pl
 
 #. type: Bullet: '* '
 #: build/_docs/md/Reproducible_Builds.md
-#, fuzzy
 msgid "_META-INF/fdroidserverid_ - git commit hash of [_fdroidserver_](https://gitlab.com/fdroid/fdroidserver) used for the build"
-msgstr "_META-INF/fdroidserverid_ - git commit wartość mieszania [_fdroidserver_](https://gitlab.com/fdroid/fdroidserver) użyty do kompilacji"
+msgstr "_META-INF/fdroidserverid_ - zatwierdź hash git z [_fdroidserver_](https://gitlab.com/fdroid/fdroidserver) użyte do kompilacji"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Reproducible_Builds.md
 msgid "_META-INF/buildserverid_ - git commit hash of [_makebuildserver_](https://gitlab.com/fdroid/fdroidserver/blob/master/makebuildserver) used for the build"
-msgstr ""
+msgstr "_META-INF/buildserverid_ - zatwierdź hash git z [_makebuildserver_](https://gitlab.com/fdroid/fdroidserver/blob/master/makebuildserver) użyte do kompilacji"
 
 #. type: Plain text
 #: build/_docs/md/Reproducible_Builds.md
@@ -7359,7 +7358,7 @@ msgstr "Źródła"
 #. type: Plain text
 #: build/_docs/md/Reproducible_Builds.md
 msgid "- <https://gitlab.com/fdroid/fdroidserver/commit/8568805866dadbdcc6c07449ca6b84b80d0ab03c> - [Verification Server](../Verification_Server)  - <https://verification.f-droid.org> - <https://reproducible-builds.org> - <https://wiki.debian.org/ReproducibleBuilds> - <https://gitian.org/> - [Google Issue #70292819 platform-27\\_r01.zip was overwritten with a new update](https://issuetracker.google.com/issues/70292819) (_Google login and Javascript required_)  - [Google Issue #37132313 platformBuildVersionName makes builds difficult to reproduce, creates unneeded diffs](https://issuetracker.google.com/issues/37132313) (_Google login and Javascript required_)  - [Google Issue #110237303 resources.arsc built with non-determism, prevents reproducible APK builds](https://issuetracker.google.com/issues/110237303) (_Google login and Javascript required_)"
-msgstr ""
+msgstr "- <https://gitlab.com/fdroid/fdroidserver/commit/8568805866dadbdcc6c07449ca6b84b80d0ab03c> - [Weryfikacja Serwera](../Verification_Server)  - <https://verification.f-droid.org> - <https://reproducible-builds.org> - <https://wiki.debian.org/ReproducibleBuilds> - <https://gitian.org/> - [Google Issue #70292819 platform-27\\_r01.zip została zastąpiona nową aktualizacją](https://issuetracker.google.com/issues/70292819) (_Google login i Javascript required_)  - [Google Issue #37132313 platformBuildVersionName sprawia, że kompilacja jest trudna do odtworzenia, tworzy niepotrzebne różnice](https://issuetracker.google.com/issues/37132313) (_Google login and Javascript required_)  - [Google Issue #110237303 resources.arsc zbudowany z nie-determinizmem, zapobiega powtarzalnym kompilacjom APK](https://issuetracker.google.com/issues/110237303) (_Google login i Javascript required_)"
 
 #. type: Title #
 #: build/_docs/md/Security_Model.md
@@ -7471,43 +7470,43 @@ msgstr "zawarte w [liście wstępnego ładowania HSTS](https://hstspreload.org/?
 #. type: Bullet: '* '
 #: build/_docs/md/Security_Model.md
 msgid "a [strong](https://observatory.mozilla.org/analyze.html?host=f-droid.org#third) TLS/HTTPS configuration"
-msgstr ""
+msgstr "konfiguracja TLS/HTTPS [mocny](https://observatory.mozilla.org/analyze.html?host=f-droid.org#third)"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Security_Model.md
 msgid "a [strong](https://observatory.mozilla.org/analyze.html?host=f-droid.org) HTTP Content Security Policy"
-msgstr ""
+msgstr "[mocny](https://observatory.mozilla.org/analyze.html?host=f-droid.org) Polityka bezpieczeństwa treści HTTP"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Security_Model.md
 msgid "[PGP-signature](/F-Droid.apk.asc) on the initial install [download link](/F-Droid.apk)"
-msgstr ""
+msgstr "[Podpis PGP](/F-Droid.apk.asc) przy pierwszej instalacji [link do pobrania](/F-Droid.apk)"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Security_Model.md
 msgid "automated [regular](https://gitlab.com/fdroid/fdroid-website/-/jobs/47503948)  and [random](https://verification.f-droid.org/check-fdroid-apk)  [auditing](https://gitlab.com/fdroid/fdroidserver/blob/dfbe114af3c4cef15ce3aa5e979d9f4684f2acbc/tests/check-fdroid-apk)  that [F-Droid.apk](/F-Droid.apk) has not been tampered with"
-msgstr ""
+msgstr "automatyczne [regularne](https://gitlab.com/fdroid/fdroid-website/-/jobs/47503948) i [losowe](https://verification.f-droid.org/check-fdroid-apk)  [inspekcja ](https://gitlab.com/fdroid/fdroidserver/blob/dfbe114af3c4cef15ce3aa5e979d9f4684f2acbc/tests/check-fdroid-apk), że [F-Droid.apk](/F-Droid.apk) nie został zmodyfikowany"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Security_Model.md
 msgid "F-Droid Limited controls many potential phishing domains like [fdroid.org](https://whois.icann.org/lookup?name=fdroid.org), [f-droid.com](https://whois.icann.org/lookup?name=f-droid.com), and [f-dro1d.org](https://whois.icann.org/lookup?name=f-dro1d.org). (donations of more are welcome!)"
-msgstr ""
+msgstr "F-Droid Limited kontroluje wiele potencjalnych domen phishingowych, takich jak [fdroid.org](https://whois.icann.org/lookup?name=fdroid.org), [f-droid.com](https://whois.icann.org/lookup?name=f-droid.com) i [f-dro1d.org](https://whois.icann.org/lookup?name=f-dro1d.org). (darowizny są mile widziane!)"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Security_Model.md
 msgid "website is [statically generated](https://gitlab.com/fdroid/fdroid-website) to greatly reduce the attack surface"
-msgstr ""
+msgstr "witryna jest [generowana statycznie](https://gitlab.com/fdroid/fdroid-website), aby znacznie zmniejszyć powierzchnię ataku"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Security_Model.md
 msgid "website is fully functional when Javascript is disabled in the browser, eliminating all possibility of XSS attacks"
-msgstr ""
+msgstr "strona jest w pełni funkcjonalna, gdy Javascript jest wyłączony w przeglądarce, eliminując wszelkie możliwości ataków XSS"
 
 #. type: Title ###
 #: build/_docs/md/Security_Model.md
 #, no-wrap
 msgid "F-Droid as built in app store"
-msgstr ""
+msgstr "F-Droid jako wbudowany sklep z aplikacjami"
 
 #. type: Plain text
 #: build/_docs/md/Security_Model.md
@@ -7523,12 +7522,12 @@ msgstr ""
 #: build/_docs/md/Security_Model.md
 #, no-wrap
 msgid "Protecting against malicious contributor-generated data"
-msgstr ""
+msgstr "Ochrona przed szkodliwymi danymi generowanymi przez autorów"
 
 #. type: Plain text
 #: build/_docs/md/Security_Model.md
 msgid "The app descriptions are submitted by all sorts of people, and they can also be taken from the app's source repository.  This data is ultimately delivered to the Android client or the user's browser via _f-droid.org_."
-msgstr ""
+msgstr "Opisy aplikacji są przekazywane przez różne osoby i można je pobrać z repozytorium źródłowego aplikacji. Te dane są ostatecznie dostarczane do klienta Android lub przeglądarki użytkownika za pośrednictwem _f-droid.org_."
 
 #. type: Plain text
 #: build/_docs/md/Security_Model.md
@@ -7550,7 +7549,7 @@ msgstr ""
 #: build/_docs/md/Security_Model.md
 #, no-wrap
 msgid "Security Audits"
-msgstr ""
+msgstr "Audyty Bezpieczeństwa"
 
 #. type: Bullet: '1. '
 #: build/_docs/md/Security_Model.md
@@ -7560,7 +7559,7 @@ msgstr ""
 #. type: Bullet: '2. '
 #: build/_docs/md/Security_Model.md
 msgid "The first \"Bazaar\" project funded by [Open Tech Fund](https://opentech.fund) included an [external public audit]({{ site.baseurl }}/2018/01/20/upcoming-security-audit.html)  from [Cure53](https://cure53.de)"
-msgstr ""
+msgstr "Pierwszy projekt \"Bazaar\" finansowany przez [Open Tech Fund](https://opentech.fund) obejmował [zewnętrzny audyt publiczny]({{ site.baseurl }}/2018/01/20/upcoming-security-audit.html) z [Cure53](https://cure53.de)"
 
 #. type: Bullet: '3. '
 #: build/_docs/md/Security_Model.md
