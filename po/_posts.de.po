@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-10-08 13:59+0200\n"
-"PO-Revision-Date: 2018-10-11 21:22+0000\n"
-"Last-Translator: C. Rüdinger <Mail-an-CR@web.de>\n"
+"PO-Revision-Date: 2018-10-21 15:27+0000\n"
+"Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.2.1\n"
+"X-Generator: Weblate 3.3-dev\n"
 
 #. type: Title #
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md
@@ -4734,9 +4734,8 @@ msgstr "[4.1.7 OTF-007 — JavaScript-Einschleußung in in HTML umgewandelte Bes
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
-#, fuzzy
 msgid "[4.1.11 OTF-011 — Weak Regexps Filtering XSS and Unwanted HTML Tags in Fdroidserver/lint.py]({{ site.baseurl }}/docs/Second_Audit_Report/#f12-weak-regexps-filtering-xss-and-unwanted-html-tags-in-fdroidserver-lint-py)"
-msgstr "[4.1.11 OTF-011 — Schwache Filterung regulärer Ausdrücke hinsichtlich XSS und unerwünschte HTML-Tags in Fdroidserver/lint.py]({{ site.baseurl }}/docs/Second_Audit_Report/#f12-weak-regexps-filtering-xss-and-unwanted-html-tags-in-fdroidserver-lint-py)"
+msgstr "[4.1.11 OTF-011 — Schwache Filterung regulärer Ausdrücke von XSS und unerwünschten HTML-Tags in Fdroidserver/lint.py]({{ site.baseurl }}/docs/Second_Audit_Report/#f12-weak-regexps-filtering-xss-and-unwanted-html-tags-in-fdroidserver-lint-py)"
 
 #. type: Plain text
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
@@ -5698,9 +5697,8 @@ msgstr "**[AFReplacer](https://f-droid.org/app/ru.ifproject.android.afr)**: Amaz
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-10-04-twif-24-the-end-of-logging-as-we-know-it.md
-#, fuzzy
 msgid "**[Apple Flinger](https://f-droid.org/app/com.gitlab.ardash.appleflinger.android)** is a game inspired by Angry Birds. Version 1.5.0 adds achievements, and fixes a scoring bug."
-msgstr "**[Apple Flinger](https://f-droid.org/app/com.gitlab.ardash.appleflinger.android)** ist ein durch Angry Birds inspiriertes Spiel. Version 1.5.0 fügt Leistungsstufen hinzu und behebt einen Fehler bei den Spielergebnissen."
+msgstr "**[Apple Flinger](https://f-droid.org/app/com.gitlab.ardash.appleflinger.android)** ist ein durch Angry Birds inspiriertes Spiel. Version 1.5.0 fügt Erfolge hinzu und behebt einen Fehler bei den Spielergebnissen."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-10-04-twif-24-the-end-of-logging-as-we-know-it.md
