@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-09-12 15:38+0200\n"
-"PO-Revision-Date: 2018-10-20 08:35+0000\n"
+"PO-Revision-Date: 2018-10-21 19:35+0000\n"
 "Last-Translator: WaldiS <admin@sto.ugu.pl>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/f-droid/website-docs/pl/>\n"
 "Language: pl\n"
@@ -4662,17 +4662,7 @@ msgid ""
 "pages are generated using our [jekyll-fdroid](https://gitlab.com/fdroid/"
 "jekyll-fdroid) plugin, which takes the content from the [_f-droid.org_ index "
 "file](https://f-droid.org/repo/index-v1.jar)."
-msgstr ""
-"Witryna F-Droid została zbudowana przy użyciu [Jekyll](https://jekyllrb."
-"com/) i [gitlab-ci](https://about.gitlab.com/features/gitlab-ci-cd/). Cała "
-"witryna działa teraz przy użyciu standardowego przepływu pracy git [\"fork\" "
-"workflow](https://docs.gitlab.com/ce/workflow/forking_workflow.html), który "
-"jest dobrze obsługiwany przez gitlab i dobrze znany z usług takich jak "
-"GitHub. Dla wszystkich stron i informacji o aplikacjach i pakietach "
-"rozpowszechnianych przez _f-droid.org_, te strony są generowane przy użyciu "
-"naszej wtyczki [jekyll-fdroid](https://gitlab.com/fdroid/jekyll-fdroid), "
-"która przyjmuje zawartość z indeksu [_f-droid.org_ index file](https://f-"
-"droid.org/repo/index-v1.jar)."
+msgstr "Witryna F-Droid została utworzona przy użyciu [Jekyll](https://jekyllrb.com/) i [gitlab-ci](https://about.gitlab.com/features/gitlab-ci-cd/). Cała witryna działa teraz przy użyciu standardowego przepływu pracy git [\"fork\" workflow](https://docs.gitlab.com/ce/workflow/forking_workflow.html), który jest dobrze obsługiwany przez gitlab i dobrze znany z usług takich jak GitHub. Dla wszystkich stron i informacji o aplikacjach i pakietach rozpowszechnianych przez _f-droid.org_, te strony są generowane przy użyciu naszej wtyczki [jekyll-fdroid](https://gitlab.com/fdroid/jekyll-fdroid), która przyjmuje zawartość z indeksu [_f-droid.org_ index file](https://f-droid.org/repo/index-v1.jar)."
 
 #. type: Title ###
 #: build/_docs/md/Deploying_the_Website.md
@@ -5518,7 +5508,7 @@ msgstr ""
 #: build/_docs/md/FAQ_-_App_Developers.md
 #, no-wrap
 msgid "What about versioning?"
-msgstr "A co z wersją?"
+msgstr "A co z wersjami?"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md
@@ -6860,7 +6850,7 @@ msgstr ""
 #: build/_docs/md/FAQ_-_General.md
 msgid ""
 "We don't know about it. See the [Inclusion Policy](../Inclusion_Policy)."
-msgstr "Nie wiemy o tym. Zobacz [Polityka włączenia](../Inclusion_Policy)."
+msgstr "Nie wiem o tym. Zobacz [Polityka włączenia](../Inclusion_Policy)."
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_General.md
@@ -12648,7 +12638,7 @@ msgid ""
 "whatever you want (by default its `fdroid-icon.png`). If you change the name "
 "from the default, be sure to update `repo_icon` and `archive_icon` in `/usr/"
 "share/nginx/www/fdroid/config.py`."
-msgstr ""
+msgstr "Aby umieścić ikonę w repozytorium, wybierz obraz PNG, aby umieścić go w repozytorium. PNG umieszczany jest w `/usr/share/nginx/www/fdroid/`, plik może być nazwany tak, jak chcesz (domyślnie jest to `fdroid-icon.png`). Jeśli zmienisz nazwę z domyślnej, pamiętaj, aby zaktualizować `repo_icon` i `archive_icon` w `/usr/share/nginx/www/fdroid/config.py`."
 
 #. type: Plain text
 #: build/_docs/md/Setup_an_F-Droid_App_Repo.md
@@ -12659,7 +12649,7 @@ msgid ""
 "not accessible via the web, since it contains passwords. If the file "
 "permissions are correct (e.g.  `chmod 0600 config.py`), then _config.py_ "
 "will not be readable by the webserver."
-msgstr ""
+msgstr "Ostatnia uwaga na temat bezpieczeństwa: ta konfiguracja nie jest dobrym ustawieniem dla prawdziwego publicznego repozytorium, zamiast tego jest to szybki i łatwy sposób na przetestowanie F-Droid. Przynajmniej podczas generowania repo na miejscu upewnij się, że _config.py_ nie jest dostępny przez Internet, ponieważ zawiera hasła. Jeśli uprawnienia do pliku są poprawne (np. `chmod 0600 config.py`), _config.py_ nie będzie możliwe do odczytania przez serwer WWW."
 
 #. type: Title ###
 #: build/_docs/md/Setup_an_F-Droid_App_Repo.md
@@ -12676,7 +12666,7 @@ msgid ""
 "edit those files to add a description, donation links, bug tracker, license, "
 "home page, etc. See the [Build Metadata Reference](../"
 "Build_Metadata_Reference) for more info on what all the options are."
-msgstr ""
+msgstr "Możesz kontrolować wiele aspektów reprezentacji aplikacji w repo poprzez edycję metadanych aplikacji. Uruchamianie `fdroid update --create-metadata` tworzy dla ciebie pliki pośredniczące, aby mieć działające repozytorium. Następnie możesz edytować te pliki, aby dodać opis, linki do darowizn, narzędzie do śledzenia błędów, licencję, stronę główną itp. Więcej informacji na temat wszystkich opcji znajdziesz w [Tworzenie odwołania do metadanych](../Build_Metadata_Reference)."
 
 #. type: Plain text
 #: build/_docs/md/Setup_an_F-Droid_App_Repo.md
@@ -12688,7 +12678,7 @@ msgid ""
 "app in your repo that have a newer version code will not be automatically "
 "installed. Instead, the user can see them in the app detail view in the "
 "client, and can manually install them."
-msgstr ""
+msgstr "`Aktualny Kod Wersji` zapewnia wygodny sposób wdrażania wersji beta w tym samym strumieniu, co pełne wersje. Możesz ustawić 'Aktualny Kod Wersji' na bieżące wydanie stabilne, a następnie dodać pliki APK do repozytorium. Użytkownicy będą automatycznie aktualizowani tylko do podanego kodu wersji. Wszelkie pliki APK dla danej aplikacji w repozytorium, które mają nowszy kod wersji, nie zostaną automatycznie zainstalowane. Zamiast tego użytkownik może je zobaczyć w widoku szczegółów aplikacji w kliencie i może ręcznie je zainstalować."
 
 #. type: Title ##
 #: build/_docs/md/Setup_an_F-Droid_App_Repo.md
@@ -12714,7 +12704,7 @@ msgid ""
 "(remember to make backups!). Then use `fdroid server update` to publish the "
 "changes to your repo on a separate server via ssh. So start a new repo from "
 "scratch on your non-public machine:"
-msgstr ""
+msgstr "Aby poprawić tę sytuację, wygeneruj repozytorium na niepublicznej maszynie, takiej jak laptop, przechowując _config.py_ i magazyn kluczy tylko na tym komputerze (pamiętaj, aby tworzyć kopie zapasowe!). Następnie użyj 'aktualizacji serwera fdroid', aby opublikować zmiany w repo na oddzielnym serwerze przez ssh. Zacznij więc nowe odtworzenie od zera na swoim niepublicznym komputerze:"
 
 #. type: Plain text
 #: build/_docs/md/Setup_an_F-Droid_App_Repo.md
@@ -12722,7 +12712,7 @@ msgid ""
 "```bash mkdir ~/fdroid cd ~/fdroid fdroid init cp /path/to/\\*.apk ~/fdroid/"
 "repo/ fdroid update --create-metadata emacs config.py # add the "
 "serverwebroot, etc.  fdroid server update -v ```"
-msgstr ""
+msgstr "```bash mkdir ~/fdroid cd ~/fdroid fdroid init cp /path/to/\\*.apk ~/fdroid/repo/ fdroid update --create-metadata emacs config.py # dodaj serwerwebroot, itp. aktualizacja serwera update -v ```"
 
 #. type: Plain text
 #: build/_docs/md/Setup_an_F-Droid_App_Repo.md
@@ -12733,7 +12723,7 @@ msgid ""
 "and setup. You can also use your own existing signing key rather than the "
 "one generated by `fdroid init`, just edit `repo_keyalias`, `keystore`, "
 "`keystorepass`, `keypass`, and `keydname` in _~/fdroid/config.py_."
-msgstr ""
+msgstr "Teraz edytuj _config.py_, aby ustawić `serverwebroot`, ma on postać docelowego pliku SCP. Następnie `fdroid server update` zrobi publikację za pośrednictwem rsync przez ssh. Tak więc oba komputery będą musiały mieć zainstalowane i skonfigurowane ssh i rsync. Możesz także użyć własnego istniejącego klucza podpisu zamiast wygenerowanego przez `fdroid init`, po prostu edytuj `repo_keyalias`, `keystore`, `keystorepass`, `keypass`, i `keydname` w _~/fdroid/config.py_."
 
 #. type: Title #
 #: build/_docs/md/Signing_Process.md
@@ -12754,7 +12744,7 @@ msgid ""
 "Also, take note that Google's directions for [securing these private keys]"
 "(https://developer.android.com/studio/publish/app-signing.html#secure-key)  "
 "provides only the minimal steps to take to safeguard the keys."
-msgstr ""
+msgstr "Podpisy kryptograficzne używające części klucza publicznego/prywatnego są kluczowe dla sposobu [jak F-Droid]](../Security_Model) zapewnia bezpieczną dystrybucję aplikacji. Klucze podpisu są wymagane do tworzenia własnych wydań za pomocą narzędzi F-Droid. Rozważ ostrożnie lokalizację, bezpieczeństwo i stan kopii zapasowych swoich kluczy. Klucze muszą pozostać bezpieczne przez cały okres trwania repozytorium F-Droid lub aplikacji na Androida. Klucz do podpisu jest kluczową tożsamością aplikacji na Androida i repozytorium F-Droid, więc klucze muszą być bezpieczne i mieć dobrą kopię zapasową! Pamiętaj też, że wskazówki Google dotyczące [zabezpieczania tych kluczy prywatnych](https://developer.android.com/studio/publish/app-signing.html#secure-key) zawierają tylko minimalne kroki, które należy podjąć, aby zabezpieczyć klucze."
 
 #. type: Plain text
 #: build/_docs/md/Signing_Process.md
@@ -12789,7 +12779,7 @@ msgid ""
 "repo.  It is possible to manually create keys just like creating [Android "
 "signing keys](https://developer.android.com/studio/publish/app-signing."
 "html#signing-manually), with a command like:"
-msgstr ""
+msgstr "`fdroid init` automatycznie utworzy nowy klucz podpisujący dla repozytorium F-Droid. Możliwe jest ręczne tworzenie kluczy, tak jak tworzenie [kluczy podpisujących Android](https://developer.android.com/studio/publish/app-signing.html#signing-manually), z poleceniem:"
 
 #. type: Plain text
 #. DO NOT TRANSLATE
@@ -12814,7 +12804,7 @@ msgid ""
 "You’ll be asked for a password for the keystore, AND a password for the key. "
 "They shouldn’t be the same. In between, you’ll be asked for some identifying "
 "details which will go in the certificate."
-msgstr ""
+msgstr "W powyższym przykładzie należy zastąpić _my.keystore_ nazwą pliku kluczy, który ma zostać utworzony, oraz 'repokey' z nazwą identyfikującą klucz indeksu repo według. Zostaniesz zapytany o hasło do magazynu kluczy ORAZ hasło do klucza. Nie powinny być takie same. W międzyczasie zostaniesz poproszony o podanie danych identyfikujących, które znajdą się w certyfikacie."
 
 #. type: Plain text
 #: build/_docs/md/Signing_Process.md
@@ -12842,7 +12832,7 @@ msgid ""
 "application that is built. If a specific key is required for a particular "
 "application, this system can be overridden using the _keyaliases_ config "
 "settings."
-msgstr ""
+msgstr "Narzędzia F-Droid mogą automatycznie generować klucze do podpisywania APK i zarządzać nimi dla każdej aplikacji, którą utrzymuje. Po skonfigurowaniu podpisu indeksu repo, wszystko, co pozostało do zrobienia, aby podpisywanie pakietów działało, to ustawienie pola _keydname_ field w _config.py_ tak, aby zawierało te same dane identyfikujące, które wprowadziłeś wcześniej. Nowy klucz zostanie wygenerowany przy użyciu tych szczegółów dla każdej zbudowanej aplikacji. Jeśli określony klucz jest wymagany dla określonej aplikacji, ten system może zostać nadpisany przy użyciu ustawień _keyaliases_ config."
 
 #. type: Plain text
 #: build/_docs/md/Signing_Process.md
@@ -12850,7 +12840,7 @@ msgid ""
 "To set up `fdroid publish`, do these steps on the same machine where you "
 "copy APKs to and run `fdroid update`.  First, set _keydname_ in _config.py_, "
 "it should be something like this:"
-msgstr ""
+msgstr "Aby skonfigurować 'fdroid publish', wykonaj te czynności na tym samym komputerze, na którym kopiujesz pliki APK i uruchamiasz `fdroid update`. Najpierw ustaw _keydname_ w _config.py_, powinno to być coś takiego:"
 
 #. type: Plain text
 #. DO NOT TRANSLATE
@@ -12864,7 +12854,7 @@ msgid ""
 "Create a dir called _unsigned/_ next to the _metadata/_ and _repo/_ dirs, "
 "and run these commands to move the APK into place with a new name based on "
 "_Application ID_ and _Version Code_:"
-msgstr ""
+msgstr "Utwórz katalog nazwany _unsigned/_ obok katalogów _metadata/_ and _repo/_ i uruchom te polecenia, aby przenieść pakiet APK na miejsce z nową nazwą opartą na _Application ID_ i _Version Code_:"
 
 #. type: Plain text
 #. DO NOT TRANSLATE
@@ -12890,7 +12880,7 @@ msgid ""
 "will be signed.  This process is run with `fdroid gpgsign`.  Add `gpghome` "
 "and `gpgkey` to your _config.py_ to configure it, there is more information "
 "in [examples/config.py][examples/config.py]."
-msgstr ""
+msgstr "Wszystkie pakiety zbudowane i/lub rozprowadzane przy użyciu narzędzi F-Droid mogą być również podpisane przez PGP za pomocą [GnuPG](https://gnupg.org), wszystko od plików APK do plików multimedialnych zostanie podpisane. Ten proces jest uruchamiany za pomocą `fdroid gpgsign`. Dodaj `gpghome` i `gpgkey` do twojego _config.py_, aby go skonfigurować, więcej informacji znajdziesz w [examples/config.py][examples/config.py]."
 
 #. type: Title ###
 #: build/_docs/md/Signing_Process.md
@@ -12905,7 +12895,7 @@ msgid ""
 "for securely storing and using cryptographic keys.  They provide write-only "
 "storage, so that a private key can only be written to the HSM and never read "
 "off of it.  _fdroidserver_ has support for using HSMs for repo signing keys."
-msgstr ""
+msgstr "Hardware Security Modules (HSM) to specjalnie zaprojektowane elementy sprzętu do bezpiecznego przechowywania i używania kluczy kryptograficznych. Zapewniają pamięć typu 'tylko do zapisu', więc klucz prywatny może być zapisywany tylko na HSM i nigdy go nie czytać. _fdroidserver_ ma wsparcie dla używania HSM dla kluczy podpisujących repo."
 
 #. type: Plain text
 #: build/_docs/md/Signing_Process.md
@@ -12915,7 +12905,7 @@ msgid ""
 "specifically `keystore` and `smartcardoptions`.  Most likely, [OpenSC]"
 "(https://github.com/OpenSC/OpenSC) will need to be set up as a PKCS11 "
 "provider for Java."
-msgstr ""
+msgstr "Aby uzyskać informacje na temat konfigurowania repozytorium F-Droid do używania HSM, zobacz sekcje 'smartcard' w [examples/config.py][examples/config.py], w szczególności `keystore` i `smartcardoptions`. Najprawdopodobniej [OpenSC](https://github.com/OpenSC/OpenSC) będzie musiał zostać skonfigurowany jako dostawca PKCS11 dla Javy."
 
 #. type: Plain text
 #: build/_docs/md/Signing_Process.md
@@ -12924,7 +12914,7 @@ msgid ""
 "and pain of hardware security modules, take one!](https://guardianproject."
 "info/2014/03/28/security-in-a-thumb-drive-the-promise-and-pain-of-hardware-"
 "security-modules-take-one/)"
-msgstr ""
+msgstr "Aby uzyskać więcej szczegółowych informacji, zobacz [Bezpieczeństwo napędu pendrive: obietnica i ból modułów bezpieczeństwa sprzętu, weź jeden!](https://guardianproject.info/2014/03/28/security-in-a-thumb-drive-the-promise-and-pain-of-hardware-security-modules-take-one/)"
 
 #. type: Plain text
 #: build/_docs/md/Signing_Process.md
@@ -12959,7 +12949,7 @@ msgid ""
 "org/) up and running on Ubuntu 16.10, using F-Droid server version 0.7.0 "
 "(commit id 8147f9235), so that I could submit a package for inclusion in the "
 "F-Droid repository."
-msgstr ""
+msgstr "Oto, czego potrzebowałem, aby uzyskać środowisko deweloperskie dla [F-Droid](https://f-droid.org/) i uruchomione na Ubuntu 16.10, używając serwera F-Droid w wersji 0.7.0 (commit id 8147f9235), mogę więc przesłać pakiet do włączenia do repozytorium F-Droid."
 
 #. type: Plain text
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
@@ -12979,7 +12969,7 @@ msgstr "[Dokumentacja F-Droid](https://f-droid.org/docs)"
 msgid ""
 "[F-Droid's CONTRIBUTING.md](https://gitlab.com/fdroid/fdroiddata/blob/master/"
 "CONTRIBUTING.md)"
-msgstr ""
+msgstr "[F-Droid CONTRIBUTING.md](https://gitlab.com/fdroid/fdroiddata/blob/master/CONTRIBUTING.md)"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
@@ -12991,7 +12981,7 @@ msgstr "[ F-Droid — Szybki Start](https://gitlab.com/fdroid/fdroiddata/blob/ma
 #. type: Bullet: '* '
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
 msgid "[Contribute to F-Droid](https://f-droid.org/contribute/)"
-msgstr "[Przyczyń się do F-Droid](https://f-droid.org/contribute/)"
+msgstr "[Przyczyń się do rozwoju F-Droid](https://f-droid.org/contribute/)"
 
 #. type: Title ####
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
@@ -13006,7 +12996,7 @@ msgid ""
 "[Download Android Studio](https://developer.android.com/studio/index."
 "html#downloads).  I installed version 23.0.2, but you will probably have a "
 "later one and may need to adjust the version number below."
-msgstr ""
+msgstr "Zanim zaczniesz, zainstaluj ręcznie zestaw SDK Android w katalogu ~/Android/Sdk/ - patrz [Pobierz Studio Android](https://developer.android.com/studio/index.html#downloads). Zainstalowałem wersję 23.0.2, ale prawdopodobnie będziesz mieć późniejszą wersję i może być konieczne dostosowanie numeru wersji poniżej."
 
 #. type: Plain text
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
@@ -13028,7 +13018,7 @@ msgid ""
 "gitlab.com/fdroid/fdroiddata), which holds the information about the "
 "packages in F-Droid.  It's the data project where you will want to make "
 "changes if you are submitting a package."
-msgstr ""
+msgstr "Zanim zaczniesz, jeśli chcesz przyczynić się do projektu serwera, powinieneś rozwikłać projekt serwera F-Droid, przechodząc na stronę [gitlab.com/fdroid/fdroidserver](https://gitlab.com/fdroid/fdroidserver) i klikając Rozwidlenie. Kiedy to zrobisz, polecenie git clone poniżej będzie musiało się zmienić, aby sklonować własne rozgałęzienie za pośrednictwem SSH, zamiast klonu HTTPS, klonującego główne repo pokazane poniżej. Zrób to samo dla projektu danych F-Droid (https://gitlab.com/fdroid/fdroiddata), który przechowuje informacje o pakietach w F-Droid. Jest to projekt danych, w którym będziesz chciał wprowadzić zmiany, jeśli przesyłasz pakiet."
 
 #. type: Plain text
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
@@ -13051,6 +13041,11 @@ msgid ""
 "vagrant plugin install vagrant-cachier\n"
 "ln -s ~/Android/Sdk/build-tools/23.0.2/aapt ~/Android/Sdk/platform-tools/\n"
 msgstr ""
+"sudo apt-get install openjdk-8-jdk subversion git git-svn \\\n"
+"    mercurial bzr virtualbox ruby ruby-dev vagrant python3 python3-paramiko \\\n"
+"    python3-pil python3-pyasn1-modules python3-clint\n"
+"vagrant plugin install vagrant-cachier\n"
+"ln -s ~/Android/Sdk/build-tools/23.0.2/aapt ~/Android/Sdk/platform-tools/\n"
 
 #. type: Title #
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
@@ -13068,12 +13063,17 @@ msgid ""
 "echo 'export PATH=\"~/code/fdroidserver:$PATH\"' >> ~/.profile\n"
 "source ~/.profile\n"
 msgstr ""
+"cd ~/code\n"
+"git clone https://gitlab.com/fdroid/fdroidserver.git\n"
+"git clone https://gitlab.com/fdroid/fdroiddata.git\n"
+"echo 'export PATH=\"~/code/fdroidserver:$PATH\"' >> ~/.profile\n"
+"source ~/.profile\n"
 
 #. type: Title #
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
 #, no-wrap
 msgid "Config"
-msgstr ""
+msgstr "Ustawienia"
 
 #. type: Plain text
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
@@ -13084,6 +13084,10 @@ msgid ""
 "chmod 0600 config.py\n"
 "echo 'sdk_path = \"$HOME/Android/Sdk\"' >> config.py\n"
 msgstr ""
+"cd fdroiddata\n"
+"cp ../fdroidserver/examples/config.py ./\n"
+"chmod 0600 config.py\n"
+"echo 'sdk_path = \"$HOME/Android/Sdk\"' >> config.py\n"
 
 #. type: Title #
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
@@ -13116,7 +13120,7 @@ msgid ""
 "cd ../fdroiddata mkdir repo fdroid update --create-key fdroid readmeta # "
 "Should give no output if it worked fdroid build --server org.fdroid.fdroid "
 "```"
-msgstr ""
+msgstr "cd ../fdroiddata mkdir repo fdroid update --create-key fdroid readmeta # Nie powinien dawać żadnych wyników, jeśli działa fdroid kompilacja --server org.fdroid.fdroid ```"
 
 #. type: Title ####
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
@@ -13130,14 +13134,14 @@ msgid ""
 "Below I'm using my own package, Rabbit Escape, as an example.  Its Android "
 "code is inside rabbit-escape-ui-android/app, whereas many programs will just "
 "have it directly in a directory called \"app\"."
-msgstr ""
+msgstr "Poniżej używam mojego własnego pakietu, Rabbit Escape, jako przykładu. Jego kod Android znajduje się wewnątrz rabbit-escape-ui-android/app, podczas gdy wiele programów po prostu ma go bezpośrednio w katalogu zwanym \"app\"."
 
 #. type: Plain text
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
 msgid ""
 "Rabbit Escape also builds non-Android-specific Java and other things during "
 "its build, so your package may be simpler."
-msgstr ""
+msgstr "Rabbit Escape także buduje Javę nie wymagającą Androida i inne rzeczy podczas jej kompilacji, więc twój pakiet może być prostszy."
 
 #. type: Plain text
 #. DO NOT TRANSLATE
@@ -13252,7 +13256,7 @@ msgid ""
 "```bash cd ../fdroiddata fdroid lint net.artificialworlds.rabbitescape "
 "fdroid readmeta fdroid checkupdates net.artificialworlds.rabbitescape fdroid "
 "rewritemeta net.artificialworlds.rabbitescape ```"
-msgstr ""
+msgstr "```bash cd ../fdroiddata fdroid lint net.artificialworlds.rabbitescape fdroid readmeta fdroid checkupdates net.artificialworlds.rabbitescape fdroid rewritemeta net.artificialworlds.rabbitescape ```"
 
 #. type: Plain text
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
@@ -13264,7 +13268,7 @@ msgstr "Kiedy poprawiono wersję, komenda checkupdates została wydrukowana:"
 msgid ""
 "``` INFO: Processing net.artificialworlds.rabbitescape...  INFO: ...updating "
 "to version 0.10.1 (101)  INFO: Finished.  ```"
-msgstr ""
+msgstr "``` INFO: Przetwarzanie net.artificialworlds.rabbitescape...  INFO: ...aktualizacja do wersji 0.10.1 (101)  INFO: Zakończone.  ```"
 
 #. type: Plain text
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
@@ -13288,7 +13292,7 @@ msgid ""
 "Actually though, after [discussion with the F-Droid devs](https://botbot.me/"
 "freenode/fdroid-dev/2017-01-17/?msg=79512863&page=1) we agreed I'd be better "
 "off not using sox during the build, so I didn't need this."
-msgstr ""
+msgstr "Właściwie to nie zadziałało i zdecydowałem, że muszę poprosić o zainstalowanie nowego pakietu (sox) w środowisku kompilacji maszyny (w projekcie fdroidserver). Odpowiednie zatwierdzenie jest tutaj: [19e372026](https://gitlab.com/andybalaam/fdroidserver/commit/19e372026aaca62349e6f5fd541dc3ba29d94836). Właściwie, po [dyskusji z twórcami F-Droid](https://botbot.me/freenode/fdroid-dev/2017-01-17/?msg=79512863&page=1) uzgodniliśmy, że lepiej będzie, jeśli nie będziemy używać sox podczas kompilacji, więc nie potrzebowałem tego."
 
 #. type: Plain text
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
@@ -13308,13 +13312,13 @@ msgid ""
 "my forked repo, and clicking the Merge Request button in the gitlab UI.  My "
 "merge request is here: [gitlab.com/fdroid/fdroiddata/merge_requests/1965]"
 "(https://gitlab.com/fdroid/fdroiddata/merge_requests/1965)"
-msgstr ""
+msgstr "A teraz byłem gotowy, aby poprosić o dołączenie mojej paczki do F-Droid poprzez zatwierdzenie i przesunięcie zmian, które wprowadziłem do projektu fdroiddata, do mojego rozwidlonego repo, i kliknięcie przycisku Żądanie scalenia w interfejsie gitlab. Moja prośba o scalenie jest tutaj: [gitlab.com/fdroid/fdroiddata/merge_requests/1965](https://gitlab.com/fdroid/fdroiddata/merge_requests/1965)"
 
 #. type: Title #
 #: build/_docs/md/Translation_and_Localization.md
 #, no-wrap
 msgid "Translation and Localization"
-msgstr "Tłumaczenie i lokalizacja"
+msgstr "Tłumaczenie i Lokalizacja"
 
 #. type: Plain text
 #: build/_docs/md/Translation_and_Localization.md
@@ -13346,14 +13350,14 @@ msgstr "Istnieje kilka oddzielnych sekcji, z których każda jest zarządzana os
 msgid ""
 "[F-Droid Android app strings](https://hosted.weblate.org/projects/f-droid/f-"
 "droid)"
-msgstr "[Ciągi aplikacji F-Droid na Android](https://hosted.weblate.org/projects/f-droid/f-droid)"
+msgstr "[F-Droid Android ciągi aplikacji ](https://hosted.weblate.org/projects/f-droid/f-droid)"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Translation_and_Localization.md
 msgid ""
 "[_fdroidserver_ command line tool](https://hosted.weblate.org/projects/f-"
 "droid/fdroidserver)"
-msgstr "[_fdroidserver_ command line tool](https://hosted.weblate.org/projects/f-droid/fdroidserver)"
+msgstr "[_fdroidserver_ narzędzie wiersza poleceń](https://hosted.weblate.org/projects/f-droid/fdroidserver)"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Translation_and_Localization.md
@@ -13373,21 +13377,21 @@ msgstr "[wybrane opisy aplikacji](https://hosted.weblate.org/projects/f-droid/fd
 msgid ""
 "[f-droid.org website \"chrome\" strings](https://hosted.weblate.org/projects/"
 "f-droid/website)"
-msgstr ""
+msgstr "[f-droid.org ciągi \"odnośniki\" na stronie internetowej](https://hosted.weblate.org/projects/f-droid/website)"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Translation_and_Localization.md
 msgid ""
 "[f-droid.org website blog posts](https://hosted.weblate.org/projects/f-droid/"
 "website-posts)"
-msgstr ""
+msgstr "[f-droid.org posty na blogu](https://hosted.weblate.org/projects/f-droid/website-posts)"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Translation_and_Localization.md
 msgid ""
 "[f-droid.org website docs and pages](https://hosted.weblate.org/projects/f-"
 "droid/website-docs)"
-msgstr ""
+msgstr "[f-droid.org dokumentacja i strona internetowa](https://hosted.weblate.org/projects/f-droid/website-docs)"
 
 #. type: Plain text
 #: build/_docs/md/Translation_and_Localization.md
@@ -13397,13 +13401,13 @@ msgid ""
 "(../All_About_Descriptions_Graphics_and_Screenshots).  If there are any "
 "issues with missing translations or broken localized formats, please [file "
 "an issue](https://gitlab.com/groups/fdroid/issues) so it can be fixed."
-msgstr ""
+msgstr "Jeśli repozytorium źródłowe projektu źródłowego zawiera opisy aplikacji, będą one automatycznie uwzględniane, o ile będą używać [obsługiwanych układów](../All_About_Descriptions_Graphics_and_Screenshots). Jeśli występują problemy z brakującymi tłumaczeniami lub uszkodzonymi zlokalizowanymi formatami, proszę [zgłoś problem](https://gitlab.com/groups/fdroid/issues), aby można go było naprawić."
 
 #. type: Title ##
 #: build/_docs/md/Translation_and_Localization.md
 #, no-wrap
 msgid "The \"Languages\" preference"
-msgstr ""
+msgstr "Preferencje \"Językowe\""
 
 #. type: Plain text
 #: build/_docs/md/Translation_and_Localization.md
@@ -13416,13 +13420,13 @@ msgid ""
 "localized format properly, just the language. Android 7.0 fixed this by "
 "allowing users to specify a list of language+country \"locales\", ordered by "
 "importance to the user."
-msgstr ""
+msgstr "Zdarzają się przypadki, w których znajomość angielskiego jako języka zastępczego nie jest pomocna. Na przykład duża część świata wolałaby wrócić do chińskiego, hiszpańskiego lub rosyjskiego zamiast angielskiego. W systemie Android 6.0 i starszym F-Droid zapewnia ustawienie \"Języki\" w aplikacji, dzięki czemu użytkownicy mogą przełączyć F-Droid na inny język. Zwróć uwagę, że może to nie obsługiwać zlokalizowanego formatu poprawnie, tylko w języku. Android 7.0 naprawił to, umożliwiając użytkownikom określenie listy języków + krajów \"lokalizacje\", uporządkowanych według ważności dla użytkownika."
 
 #. type: Title ##
 #: build/_docs/md/Translation_and_Localization.md
 #, no-wrap
 msgid "Contributing"
-msgstr ""
+msgstr "Rozwój"
 
 #. type: Plain text
 #: build/_docs/md/Translation_and_Localization.md
@@ -13432,13 +13436,13 @@ msgid ""
 "(https://hosted.weblate.org/projects/f-droid/).  You can also find other "
 "translators on the [F-Droid forum](https://forum.f-droid.org/t/about-the-"
 "translation-category/)."
-msgstr ""
+msgstr "Czy F-Droid nie jest w Twoim języku, czy tłumaczenie jest nieprawidłowe lub niekompletne? Zaangażuj się w tłumaczenia rejestrując się do [naszego Weblate](https://hosted.weblate.org/projects/f-droid/). Możesz również znaleźć innych tłumaczy na forum [forum F-Droid](https://forum.f-droid.org/t/about-the-translation-category/)."
 
 #. type: Title ###
 #: build/_docs/md/Translation_and_Localization.md
 #, no-wrap
 msgid "Adding a new language"
-msgstr ""
+msgstr "Dodawanie nowego języka"
 
 #. type: Plain text
 #: build/_docs/md/Translation_and_Localization.md
@@ -13450,7 +13454,7 @@ msgid ""
 "first make sure that the main language is well maintained (e.g. _de_). Your "
 "contribution might be useful to more people if you contribute to the main "
 "language rather than the country-specific variant."
-msgstr ""
+msgstr "Przede wszystkim Android musi już obsługiwać określony język i ustawienia regionalne, które chcesz dodać. Nie możemy pracować z językami, których nie obsługuje Android i SDK, narzędzia po prostu się psują. Następnie, jeśli rozważasz dodanie wariantu językowego dla danego kraju (np. _de-AT_), najpierw upewnij się, że główny język jest dobrze utrzymany (na przykład _de_). Twój wkład może być przydatny dla większej liczby osób, jeśli przyczynisz się do głównego języka, a nie do wariantu specyficznego dla danego kraju."
 
 #. type: Plain text
 #: build/_docs/md/Translation_and_Localization.md
@@ -13461,13 +13465,13 @@ msgid ""
 "anyone can create a new language via Weblate.  For the rest of the "
 "translation \"components\" on Weblate, please [file an admin issue](https://"
 "gitlab.com/fdroid/admin/issues) to request a new language."
-msgstr ""
+msgstr "Dla [_fdroidclient_](https://hosted.weblate.org/projects/f-droid/f-droid/), [_fdroidserver_](https://hosted.weblate.org/projects/f-droid/fdroidserver/)  i [_Repomaker_](https://hosted.weblate.org/projects/f-droid/repomaker), każdy może stworzyć nowy język przez Weblate. W dalszej części tłumaczenia \"komponentów\" na Weblate, proszę [zgłoś problem administratorowi](https://gitlab.com/fdroid/admin/issues), aby poprosić o nowy język."
 
 #. type: Title ###
 #: build/_docs/md/Translation_and_Localization.md
 #, no-wrap
 msgid "When translations are included"
-msgstr ""
+msgstr "Kiedy tłumaczenia będą uwzględnione"
 
 #. type: Plain text
 #: build/_docs/md/Translation_and_Localization.md
@@ -13476,7 +13480,7 @@ msgid ""
 "general rule, a translation must be at least 70% complete for it to be "
 "included in a final release.  For alpha releases, we try to include all "
 "translations, no matter how incomplete."
-msgstr ""
+msgstr "Pliki tłumaczeń są zawarte w Weblate przed każdym wydaniem. Zasadniczo tłumaczenie musi być ukończone w co najmniej 70%, aby mogło zostać włączone do ostatecznego wydania. W przypadku wersji alfa staramy się uwzględnić wszystkie tłumaczenia, niezależnie od tego, na ile są niekompletne."
 
 #. type: Plain text
 #: build/_docs/md/Translation_and_Localization.md
@@ -13485,28 +13489,28 @@ msgid ""
 "cannot (yet?) support lots of languages, we have to put stricter "
 "requirements on it.  In order for a new language to be added to f-droid.org, "
 "it must have:"
-msgstr ""
+msgstr "Dla strony f-droid.org jest to o wiele bardziej skomplikowany system. Ponieważ nie może (jeszcze?) Obsługiwać wielu języków, musimy nałożyć na to ostrzejsze wymagania. Aby nowy język został dodany do f-droid.org, musi mieć:"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Translation_and_Localization.md
 msgid ""
 "[Website](https://hosted.weblate.org/projects/f-droid/website) component: "
 "100% translated"
-msgstr ""
+msgstr "[Witryna internetowa](https://hosted.weblate.org/projects/f-droid/website) i jej składniki: 100% przetłumaczone"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Translation_and_Localization.md
 msgid ""
 "[Website Pages](https://hosted.weblate.org/projects/f-droid/website-pages/) "
 "component: At least \"About\" and \"Contribute\" pages fully translated"
-msgstr ""
+msgstr "[Strony internetowe](https://hosted.weblate.org/projects/f-droid/website-pages/) i jej składniki: Co najmniej \"O projekcie\" i \"Rozwój\" są w pełni przetłumaczone"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Translation_and_Localization.md
 msgid ""
 "[Data](https://hosted.weblate.org/projects/f-droid/fdroiddata) component: at "
 "least 10 app descriptions fully translated"
-msgstr ""
+msgstr "[Data](https://hosted.weblate.org/projects/f-droid/fdroiddata) składniki:  co najmniej 10 opisów aplikacji w pełni przetłumaczonych"
 
 #. type: Plain text
 #: build/_docs/md/Translation_and_Localization.md
@@ -13515,26 +13519,26 @@ msgid ""
 "includes all translations on Weblate, no matter how complete they are. This "
 "lets everyone see the progress, and means we can get new languages working "
 "well before launching them."
-msgstr ""
+msgstr "Istnieje [wieczorna wersja strony](https://staging.f-droid.org), która obejmuje wszystkie tłumaczenia na Weblate, bez względu na to, jak są kompletne. Dzięki temu każdy może zobaczyć postępy i oznacza, że możemy sprawić, by nowe języki działały dobrze przed ich uruchomieniem."
 
 #. type: Title #
 #: build/_docs/md/Update_Processing.md
 #, no-wrap
 msgid "Update Processing"
-msgstr ""
+msgstr "Aktualizacja Przetwarzania"
 
 #. type: Plain text
 #: build/_docs/md/Update_Processing.md
 msgid ""
 "The F-Droid tools can automatically detect and build updates to apps and "
 "packages."
-msgstr ""
+msgstr "Narzędzia F-Droid mogą automatycznie wykrywać i budować aktualizacje aplikacji i pakietów."
 
 #. type: Title ###
 #: build/_docs/md/Update_Processing.md
 #, no-wrap
 msgid "Detecting<a name=\"Detecting\"></a>"
-msgstr ""
+msgstr "Wykrywanie<a name=\"Detecting\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Update_Processing.md
@@ -13543,7 +13547,7 @@ msgid ""
 "updates are available for applications, with the `Update Check Mode` field "
 "in the metadata determining which method is used for a particular "
 "application."
-msgstr ""
+msgstr "Istnieją różne mechanizmy automatycznego wykrywania, że aktualizacje są dostępne dla aplikacji, z polem `Update Check Mode` w metadanych określających, która metoda jest używana dla konkretnej aplikacji."
 
 #. type: Plain text
 #: build/_docs/md/Update_Processing.md
@@ -13551,14 +13555,14 @@ msgid ""
 "Running the `fdroid checkupdates` command will apply this method to each "
 "application in the repository and update the `Current Version` and `Current "
 "Version Code` fields in the metadata accordingly."
-msgstr ""
+msgstr "Uruchomienie polecenia `fdroid checkupdates` zastosuje tę metodę do każdej aplikacji w repozytorium i odpowiednio zaktualizuje pola `Current Version` i `Current Version Code` w metadanych."
 
 #. type: Plain text
 #: build/_docs/md/Update_Processing.md
 msgid ""
 "As usual, the `-p` option can be used with this, to restrict processing to a "
 "particular application."
-msgstr ""
+msgstr "Jak zwykle można użyć opcji `-p`, aby ograniczyć przetwarzanie do konkretnej aplikacji."
 
 #. type: Plain text
 #: build/_docs/md/Update_Processing.md
@@ -13566,13 +13570,13 @@ msgid ""
 "Note that this only updates the metadata such that we know what the current "
 "published/recommended version is. It doesn’t make that version available in "
 "the repository - for that, see the next section."
-msgstr ""
+msgstr "Zwróć uwagę, że to aktualizuje tylko metadane, dzięki czemu wiemy, jaka jest bieżąca opublikowana/zalecana wersja. Nie udostępnia tej wersji w repozytorium - w tym celu zapoznaj się z następną sekcją."
 
 #. type: Title ###
 #: build/_docs/md/Update_Processing.md
 #, no-wrap
 msgid "Adding<a name=\"Adding\"></a>"
-msgstr ""
+msgstr "Dodawanie<a name=\"Adding\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Update_Processing.md
@@ -13582,7 +13586,7 @@ msgid ""
 "APK files are binaries, retrieved from a developer’s published build. In "
 "this case, all that’s required is to place the new binary in the `Repo` "
 "directory, and the next run of `fdroid update` will pick it up."
-msgstr ""
+msgstr "Dodawanie aktualizacji (czyli nowych wersji aplikacji już zawartych w repozytorium) odbywa się na dwa sposoby. Prostym przypadkiem są aplikacje, w których pliki APK są plikami binarnymi, pobranymi z opublikowanej wersji dewelopera. W tym przypadku wszystko, co jest wymagane, to umieszczenie nowego pliku binarnego w katalogu `Repo`, a następne uruchomienie `fdroid update` spowoduje jego pobranie."
 
 #. type: Plain text
 #: build/_docs/md/Update_Processing.md
@@ -13591,7 +13595,7 @@ msgid ""
 "Version` line to the metadata file. At the very least, the version name, "
 "version code and commit will be different. It is also possible that the "
 "additional build flags will change between versions."
-msgstr ""
+msgstr "W przypadku aplikacji zbudowanych ze źródeł konieczne jest dodanie do pliku metadanych nowej linii `Build Version`. Co najmniej nazwa wersji, kod wersji i zatwierdzenie będą różne. Możliwe jest również, że dodatkowe flagi kompilacji będą się zmieniać między wersjami."
 
 #. type: Plain text
 #: build/_docs/md/Update_Processing.md
@@ -13600,13 +13604,13 @@ msgid ""
 "run `fdroid update --interactive`. This will check all the applications in "
 "the repository, and where updates are required you will be prompted to \\[E"
 "\\]dit the metadata, \\[I\\]gnore the update, or \\[Q\\]uit altogether."
-msgstr ""
+msgstr "W celu jednoczesnego przetwarzania wielu aktualizacji w metadanych, może być przydatne uruchomienie `fdroid update --interactive`. Spowoduje to sprawdzenie wszystkich aplikacji w repozytorium, a tam, gdzie wymagane są aktualizacje, zostaniesz poproszony o  \\[E\\]dit the metadata, \\[I\\]gnore lub \\[Q\\]uit altogether."
 
 #. type: Title #
 #: build/_docs/md/Verification_Server.md
 #, no-wrap
 msgid "Verification Server"
-msgstr ""
+msgstr "Weryfikacja serwera"
 
 #. type: Plain text
 #: build/_docs/md/Verification_Server.md
@@ -13617,7 +13621,7 @@ msgid ""
 "the source code, and nothing was inserted or included during the build "
 "process.  This is also useful for verifying that the build process is not "
 "including proprietary libraries."
-msgstr ""
+msgstr "Idea [serwera weryfikacji](https://verification.f-droid.org) polega na automatycznym odtwarzaniu oficjalnych wydań publikowanych przez f-droid.org (lub dowolny inny serwer). Gwarantuje to, że wszystko w pliku APK wydania pochodzi z kodu źródłowego i nic nie zostało wstawione ani dołączone podczas procesu kompilacji. Jest to również przydatne do sprawdzenia, czy proces kompilacji nie zawiera zastrzeżonych bibliotek."
 
 #. type: Plain text
 #: build/_docs/md/Verification_Server.md
@@ -13627,7 +13631,7 @@ msgid ""
 "builds, and confirm that the binaries match exactly. There are many issues "
 "to resolve to get to this final destination, but the basic concept is "
 "already tested and working. (see the 'fdroid verify' command)."
-msgstr ""
+msgstr "Ostatecznym celem jest prosta instalacja, którą może wykonać każda strona trzecia, która będzie stale sprawdzać nowe opublikowane pakiety, tworzyć własne kompilacje i potwierdzać, że pliki binarne są dokładnie takie same. Aby dotrzeć do tego miejsca docelowego, trzeba rozwiązać wiele problemów, ale podstawowa koncepcja jest już przetestowana i działa. (patrz polecenie 'fdroid verify')."
 
 #. type: Plain text
 #: build/_docs/md/Verification_Server.md
@@ -13636,13 +13640,13 @@ msgid ""
 "Droid client. The idea would be to configure the client such that it does "
 "not trust a binary until multiple verification servers are in agreement that "
 "it correct."
-msgstr ""
+msgstr "Dane wyjściowe z wielu serwerów weryfikacji byłyby wówczas dostępne dla klienta F-Droid. Ideą byłoby skonfigurowanie klienta tak, aby nie ufał binarnie, dopóki wiele serwerów weryfikacji nie zgodzi się na jego poprawność."
 
 #. type: Title ##
 #: build/_docs/md/Verification_Server.md
 #, no-wrap
 msgid "Verification based on APK signature"
-msgstr ""
+msgstr "Weryfikacja oparta na sygnaturze APK"
 
 #. type: Plain text
 #: build/_docs/md/Verification_Server.md
@@ -13654,13 +13658,13 @@ msgid ""
 "diffoscope.org) log is generated to show what the differences are between "
 "the two builds. The verification server needs no signing capability, just "
 "building."
-msgstr ""
+msgstr "Proces weryfikacji działa obecnie poprzez utworzenie nowego niepodpisanego pliku APK, a następnie skopiowanie podpisu APK z istniejącego pliku APK do nowo utworzonego niepodpisanego pliku APK. Jeśli podpis APK weryfikuje, plik APK został odtworzony i jest oznaczony jako zweryfikowany. Jeśli nie, generowany jest dziennik [diffoscope](https://diffoscope.org), aby pokazać, jakie są różnice między tymi dwoma kompilacjami. Serwer weryfikacji nie potrzebuje możliwości podpisywania, tylko buduje."
 
 #. type: Title ##
 #: build/_docs/md/Verification_Server.md
 #, no-wrap
 msgid "Setting one up"
-msgstr ""
+msgstr "Ustawianie o jeden w górę"
 
 #. type: Plain text
 #: build/_docs/md/Verification_Server.md
@@ -13676,7 +13680,7 @@ msgid ""
 "Ubuntu or derivative distro, you can get any packages missing from your "
 "version, like _vagrant-cachier_, from this PPA: <https://launchpad.net/"
 "~fdroid/+archive/ubuntu/buildserver/>"
-msgstr ""
+msgstr "To wciąż jest dość surowe, więc spodziewaj się trochę majsterkowania. Prawdopodobnie będzie działać tylko na Debianie, Ubuntu i innych pochodnych Debiana. Pierwszym krokiem jest uzyskanie ustawień narzędzia [_fdroidserver_ tools setup](../Installing_the_Server_and_Repo_Tools) i działanie. Uruchom narzędzia _fdroidserver_ bezpośrednio z git (np. `~/code/fdroidserver/fdroid build org.adaway`), co na razie będzie najłatwiejsze, ponieważ serwer weryfikacyjny to ruchomy cel. Podstawowy serwer musi być w minimalnym systemie Debian/jessie, lub będzie musiał zostać wprowadzony jakiś poważny krok. Jeśli używasz Ubuntu lub pochodnej dystrybucji, możesz uzyskać brakujące pakiety z twojej wersji, takie jak _vagrant-cachier_, z tego PPA: <https://launchpad.net/~fdroid/+archive/ubuntu/buildserver/>"
 
 #. type: Plain text
 #: build/_docs/md/Verification_Server.md
@@ -13684,7 +13688,7 @@ msgid ""
 "Then you can find more on the process by reading [Build Server Setup](../"
 "Build_Server_Setup). You can also see the Continuous Integration scripts for "
 "this process to see how the whole thing can work:"
-msgstr ""
+msgstr "Następnie możesz znaleźć więcej informacji na temat procesu, czytając [Build Server Setup](../Build_Server_Setup). Możesz również zobaczyć skrypty ciągłej integracji dla tego procesu, aby zobaczyć, jak wszystko może działać:"
 
 #. type: Plain text
 #: build/_docs/md/Verification_Server.md
@@ -13692,13 +13696,13 @@ msgid ""
 "- <https://gitlab.com/fdroid/fdroidserver/blob/master/jenkins-build-"
 "makebuildserver> - <https://jenkins.debian.net/job/"
 "reproducible_setup_fdroid_build_environment_profitbricks7/>"
-msgstr ""
+msgstr "- <https://gitlab.com/fdroid/fdroidserver/blob/master/jenkins-build-makebuildserver> - <https://jenkins.debian.net/job/reproducible_setup_fdroid_build_environment_profitbricks7/>"
 
 #. type: Title #
 #: build/_docs/md/Vulnerability_Scanning_with_Drozer.md
 #, no-wrap
 msgid "Vulnerability Scanning with Drozer"
-msgstr ""
+msgstr "Skanowanie luk w oprogramowaniu Drozer"
 
 #. type: Plain text
 #: build/_docs/md/Vulnerability_Scanning_with_Drozer.md
@@ -13708,7 +13712,7 @@ msgid ""
 "starting a docker container, with the Android SDK and Emulator prepared "
 "already, installing drozer into the emulator and scripting the knobs to scan "
 "any fully built and signed APKs."
-msgstr ""
+msgstr "F-Droid zawiera teraz narzędzie do automatycznego skanowania luk w zabezpieczeniach za pomocą [Drozer](https://github.com/mwrlabs/drozer). Osiąga się to, uruchamiając kontener dokera, z przygotowanym już zestawem SDK i emulatorem systemu Android, instalując drozer w emulatorze i skryptując gałki, aby skanować wszystkie w pełni skompilowane i podpisane pliki APK."
 
 #. type: Plain text
 #: build/_docs/md/Vulnerability_Scanning_with_Drozer.md
@@ -13717,23 +13721,23 @@ msgid ""
 "please do not continue with these instructions. At this time, the _dscanner_ "
 "feature is fully dependent upon your application running properly in an "
 "emulated environment."
-msgstr ""
+msgstr "Uwaga: jeśli twoja aplikacja nie jest przeznaczona do działania w emulatorze Androida, nie kontynuuj tych instrukcji. W tej chwili funkcja _dscanner_ jest w pełni zależna od tego, czy aplikacja działa poprawnie w emulowanym środowisku."
 
 #. type: Title ###
 #: build/_docs/md/Vulnerability_Scanning_with_Drozer.md
 #, no-wrap
 msgid "Quick Start"
-msgstr ""
+msgstr "Szybki Start"
 
 #. type: Bullet: '1. '
 #: build/_docs/md/Vulnerability_Scanning_with_Drozer.md
 msgid "Ensure that your application is a signed release build"
-msgstr ""
+msgstr "Upewnij się, że twoja wersja aplikacji jest podpisana"
 
 #. type: Bullet: '1. '
 #: build/_docs/md/Vulnerability_Scanning_with_Drozer.md
 msgid "`fdroid dscanner --init-only` from within the repo"
-msgstr ""
+msgstr "`fdroid dscanner --init-only` z repozytorium"
 
 #. type: Plain text
 #: build/_docs/md/Vulnerability_Scanning_with_Drozer.md
@@ -13749,6 +13753,15 @@ msgid ""
 "1. When you're all done scanning packages, you can cleanup the docker\n"
 "container with: `fdroid dscanner --clean-only`\n"
 msgstr ""
+"1. Idź na kawę, zajmuje to dużo czasu i wymaga\n"
+"około 6 GB miejsca na dysku. Gdy to się zakończy,\n"
+"pozostaniesz z uruchomionym kontenerem docker gotowym do pracy.\n"
+"1. `fdroid dscanner --latest app.pkg.name` z poziomu repo,\n"
+"aby uruchomić drozer na najnowszej wersji z _app.pkg.name_\n"
+"1. Jeśli wszystko poszło dobrze, w repozytorium powinien znajdować się plik\n"
+"_app.pkg.name_CODE.apk.dscanner_ (obok oryginalnego pliku APK)\n"
+"1. Gdy skończysz skanowanie paczek, możesz wyczyścić kontener docker\n"
+"za pomocą: `fdroid dscanner --clean-only`\n"
 
 #. type: Plain text
 #: build/_docs/md/Vulnerability_Scanning_with_Drozer.md
@@ -13756,19 +13769,19 @@ msgid ""
 "You can also run the drozer scan as an optional part of the overall `fdroid "
 "build` operation. This option will trigger a drozer scan of all signed APKs "
 "found in the repo. See `fdroid build --help` for more information."
-msgstr ""
+msgstr "Możesz także uruchomić skanowanie drozer jako opcjonalną część ogólnej operacji `fdroid build`. Ta opcja uruchomi skanowanie wszystkich podpisanych plików APK znalezionych w repozytorium. Zobacz `fdroid build --help`, aby uzyskać więcej informacji."
 
 #. type: Title ###
 #: build/_docs/md/Vulnerability_Scanning_with_Drozer.md
 #, no-wrap
 msgid "Command Line Help"
-msgstr ""
+msgstr "Pomoc Wiersz Poleceń"
 
 #. type: Plain text
 #: build/_docs/md/Vulnerability_Scanning_with_Drozer.md
 msgid ""
 "``` usage: fdroid dscanner [options] [APPID[:VERCODE] [APPID[:VERCODE] ...]]"
-msgstr ""
+msgstr "``` użyj: fdroid dscanner [opcje] [APPID[:VERCODE] [APPID[:VERCODE] ...]]"
 
 #. type: Plain text
 #: build/_docs/md/Vulnerability_Scanning_with_Drozer.md
@@ -13778,6 +13791,9 @@ msgid ""
 "  app_id                app-id with optional versioncode in the form\n"
 "                        APPID[:VERCODE]\n"
 msgstr ""
+"argumenty pozycyjne:\n"
+"  app_id                app-id z opcjonalnym versioncode w formularzu\n"
+"                        APPID[:VERCODE]\n"
 
 #. type: Plain text
 #: build/_docs/md/Vulnerability_Scanning_with_Drozer.md
@@ -13797,12 +13813,25 @@ msgid ""
 "                        Override repo path for built APK files.\n"
 "```\n"
 msgstr ""
+"opcjonalne argumenty:\n"
+"  -h, --help            pokaż ten komunikat pomocy i zakończ\n"
+"  -v, --verbose         Wypluwaj jeszcze więcej informacji niż zwykle\n"
+"  -q, --quiet           Ogranicz wyjście do ostrzeżeń i błędów\n"
+"  -l, --latest          Skanuj tylko najnowszą wersję każdego pakietu\n"
+"  --clean-after         Wyczyść po zakończeniu wszystkich skanów.\n"
+"  --clean-before        Wyczyść przed rozpoczęciem skanowania i odbuduj\n"
+"                        kontener.\n"
+"  --clean-only          Oczyść wszystkie kontenery, a następnie wyjdź.\n"
+"  --init-only           Przygotuj drozer do uruchomienia skanowania\n"
+"  --repo-path REPO_PATH\n"
+"                        Zastąp ścieżkę repo dla zbudowanych plików APK.\n"
+"```\n"
 
 #. type: Title ###
 #: build/_docs/md/Vulnerability_Scanning_with_Drozer.md
 #, no-wrap
 msgid "From Scratch"
-msgstr ""
+msgstr "Od podstaw"
 
 #. type: Plain text
 #: build/_docs/md/Vulnerability_Scanning_with_Drozer.md
@@ -13812,14 +13841,14 @@ msgid ""
 "dockerhub.com for general use. However, the astute researcher will be weary "
 "of any black boxes and want to build their own black box. This section "
 "elaborates how to build the docker image yourself."
-msgstr ""
+msgstr "Ponieważ obraz doka używany do zrobienia Emulatora Androida i wszystko to zajmuje dużo czasu na przygotowanie, jeden został przesłany do dockerhub.com do ogólnego użytku. Jednak bystry badacz będzie znudzony czarnymi skrzynkami i chce zbudować własną czarną skrzynkę. W tej sekcji omówiono sposób samodzielnego tworzenia obrazu dokowanego."
 
 #. type: Plain text
 #: build/_docs/md/Vulnerability_Scanning_with_Drozer.md
 msgid ""
 "From within the F-Droid Server source code directory, `cd ./docker/` in "
 "order to begin."
-msgstr ""
+msgstr "Z poziomu katalogu kodu źródłowego serwera F-Droid, `cd ./docker/`, aby rozpocząć."
 
 #. type: Plain text
 #: build/_docs/md/Vulnerability_Scanning_with_Drozer.md
@@ -13827,18 +13856,18 @@ msgid ""
 "Within this directory are the custom scripting used within the docker image "
 "creation. For conveience, there is a simple Makefile that wraps the process "
 "of creating images into convenient pieces."
-msgstr ""
+msgstr "W tym katalogu znajdują się niestandardowe skrypty używane podczas tworzenia obrazu dokowanego. Dla wygody istnieje prosty plik Makefile, który owija proces tworzenia obrazów w wygodne elementy."
 
 #. type: Title ####
 #: build/_docs/md/Vulnerability_Scanning_with_Drozer.md
 #, no-wrap
 msgid "`make help`"
-msgstr ""
+msgstr "`udzielanie pomocy`"
 
 #. type: Plain text
 #: build/_docs/md/Vulnerability_Scanning_with_Drozer.md
 msgid "``` usage: make help|build|clean|kill|info"
-msgstr ""
+msgstr "``` użyj: make help|build|clean|kill|info"
 
 #. type: Plain text
 #: build/_docs/md/Vulnerability_Scanning_with_Drozer.md
@@ -13851,30 +13880,36 @@ msgid ""
 "  info    details of running container\n"
 "```\n"
 msgstr ""
+"  pomoc    ekran pomocy\n"
+"  build   tworzenie obrazu dokowanego\n"
+"  clean   usuwanie obrazów i kontenerów\n"
+"  kill    zatrzymanie uruchomionych kontenerów\n"
+"  info    szczegóły dotyczące uruchamiania kontenera\n"
+"```\n"
 
 #. type: Title ####
 #: build/_docs/md/Vulnerability_Scanning_with_Drozer.md
 #, no-wrap
 msgid "`make clean`"
-msgstr ""
+msgstr "`oczyść`"
 
 #. type: Plain text
 #: build/_docs/md/Vulnerability_Scanning_with_Drozer.md
 msgid ""
 "Stops any running containers (`make kill`) and then forcully removes them "
 "from docker. After that, all images associated are also explicitly removed."
-msgstr ""
+msgstr "Zatrzymuje wszystkie uruchomione kontenery (`make kill`), a następnie całkowicie je usuwa z dockera. Następnie wszystkie skojarzone obrazy są również usuwane."
 
 #. type: Plain text
 #: build/_docs/md/Vulnerability_Scanning_with_Drozer.md
 msgid "Note: this will destroy docker images!"
-msgstr ""
+msgstr "Uwaga: spowoduje to zniszczenie obrazów doków!"
 
 #. type: Title ####
 #: build/_docs/md/Vulnerability_Scanning_with_Drozer.md
 #, no-wrap
 msgid "`make build`"
-msgstr ""
+msgstr "`buduj`"
 
 #. type: Plain text
 #: build/_docs/md/Vulnerability_Scanning_with_Drozer.md
@@ -13882,24 +13917,24 @@ msgid ""
 "Builds the actual docker container, tagged _dscanner/fdroidserver:latest_ "
 "from the local directory. Obviously this is operating with the `Dockerfile` "
 "to build and tie everything together nicely."
-msgstr ""
+msgstr "Tworzy rzeczywisty kontener dokowania, otaguje _dscanner/fdroidserver:latest_ z lokalnego katalogu. Oczywiście działa to z `Dockerfile`, aby zbudować i wszystko ładnie połączyć."
 
 #. type: Title ####
 #: build/_docs/md/Vulnerability_Scanning_with_Drozer.md
 #, no-wrap
 msgid "`make kill`"
-msgstr ""
+msgstr "`make kill`"
 
 #. type: Plain text
 #: build/_docs/md/Vulnerability_Scanning_with_Drozer.md
 msgid "`docker kill` the container tagged _dscanner_."
-msgstr ""
+msgstr "`docker kill` kontener oznaczony _dscanner_."
 
 #. type: Title ####
 #: build/_docs/md/Vulnerability_Scanning_with_Drozer.md
 #, no-wrap
 msgid "`make info`"
-msgstr ""
+msgstr "`zrób informacje`"
 
 #. type: Plain text
 #: build/_docs/md/Vulnerability_Scanning_with_Drozer.md
@@ -13907,7 +13942,7 @@ msgid ""
 "Prints some useful information about the currently running dscanner "
 "container (if it is even running). The output of this command is confusing "
 "and raw but useful none-the-less. See example output below:"
-msgstr ""
+msgstr "Drukuje użyteczne informacje o aktualnie uruchomionym kontenerze dscanner (jeśli jest uruchomiony). Dane wyjściowe tego polecenia są mylące i surowe, ale nie mniej użyteczne. Zobacz przykładowy wynik poniżej:"
 
 #. type: Plain text
 #: build/_docs/md/Vulnerability_Scanning_with_Drozer.md
@@ -13927,6 +13962,19 @@ msgid ""
 " adb connect 172.17.0.2:32776\n"
 "```\n"
 msgstr ""
+"```\n"
+"CONTAINER ID        IMAGE                   COMMAND\n"
+"CREATED             STATUS              PORTS\n"
+"NAMES\n"
+"b90a60afe477        dscanner/fdroidserver   \"/home/drozer/entrypo\"   20\n"
+"minutes ago      Up 20 minutes       0.0.0.0:32779->22/tcp,\n"
+"0.0.0.0:32778->5037/tcp, 0.0.0.0:32777->5554/tcp,\n"
+"0.0.0.0:32776->5555/tcp, 0.0.0.0:32775->5900/tcp,\n"
+"0.0.0.0:32774->5901/tcp   dscanner\n"
+"Use:\n"
+" adb kill-server\n"
+" adb connect 172.17.0.2:32776\n"
+"```\n"
 
 #. type: Plain text
 #: build/_docs/md/Vulnerability_Scanning_with_Drozer.md
@@ -13935,12 +13983,14 @@ msgid ""
 "Typical usage is for finding the _adb connect_ line or the _ssh_\n"
 "port (32779 from the `0.0.0.0:32779->22/tcp` note).\n"
 msgstr ""
+"Typowym zastosowaniem jest znalezienie linii _adb connect_ lub _ssh_\n"
+"port (32779 from the `0.0.0.0:32779->22/tcp` note).\n"
 
 #. type: Title #
 #: build/_docs/md/Whitelabel_Builds.md
 #, no-wrap
 msgid "Whitelabel Builds"
-msgstr ""
+msgstr "Biała Etykieta Kompilacji"
 
 #. type: Plain text
 #: build/_docs/md/Whitelabel_Builds.md
@@ -13950,14 +14000,14 @@ msgid ""
 "that. For this, [\"_gradle_ flavors\"](https://developer.android.com/studio/"
 "build/build-variants.html)  are used for building rebranded, configured "
 "versions of F-Droid."
-msgstr ""
+msgstr "F-Droid może być przemianowany i osadzony w ROMach systemu Android, bazując na F-Droid jako wersji \"białej etykiety\". Jest to podstawowe wprowadzenie do tego, jak to zrobić. W tym celu [\"_gradle_ flavors\"](https://developer.android.com/studio/build/build-variants.html) są używane do budowania rebrandowych, skonfigurowanych wersji F-Droid."
 
 #. type: Plain text
 #: build/_docs/md/Whitelabel_Builds.md
 msgid ""
 "Starting in *app/build.gradle*, set the package names and create a "
 "_flavorDimension_ and _productFlavors_:"
-msgstr ""
+msgstr "Zaczynając od *app/build.gradle*, ustaw nazwy pakietów i utwórz _flavorDimension_ oraz _productFlavors_:"
 
 #. type: Plain text
 #: build/_docs/md/Whitelabel_Builds.md
@@ -13966,12 +14016,12 @@ msgid ""
 "basicApplicationId = \"com.mycompany.basic\" // yes, this actually needs "
 "both quotes https://stackoverflow.com/a/41391841 def "
 "privilegedExtensionApplicationId = '\"com.mycompany.privileged\"'"
-msgstr ""
+msgstr "```gradle def fullApplicationId = \"com.mycompany.full\" def basicApplicationId = \"com.mycompany.basic\" // tak, to faktycznie potrzebuje obu cytatów https://stackoverflow.com/a/41391841 def privilegedExtensionApplicationId = '\"com.mycompany.privileged\"'"
 
 #. type: Plain text
 #: build/_docs/md/Whitelabel_Builds.md
 msgid "[snip]"
-msgstr ""
+msgstr "[cięcie (ang. snip)]"
 
 #. type: Plain text
 #: build/_docs/md/Whitelabel_Builds.md
@@ -13987,13 +14037,22 @@ msgid ""
 "}\n"
 "```\n"
 msgstr ""
+"android {\n"
+"    flavorDimensions \"base\", \"mycompany\"\n"
+"    productFlavors {\n"
+"       mycompany {\n"
+"           dimension \"mycompany\"\n"
+"       }\n"
+"    }\n"
+"}\n"
+"```\n"
 
 #. type: Plain text
 #: build/_docs/md/Whitelabel_Builds.md
 msgid ""
 "Then *gradle* will automatically look at whole set of folders for custom "
 "versions of files:"
-msgstr ""
+msgstr "Następnie *gradle* automatycznie wyświetli cały zestaw folderów dla niestandardowych wersji plików:"
 
 #. type: Plain text
 #: build/_docs/md/Whitelabel_Builds.md
@@ -14001,7 +14060,7 @@ msgid ""
 "- Java sources: _app/src/mycompany/java_ - Manifest file: _app/src/mycompany/"
 "AndroidManifest.xml_ - Android resources: _app/src/mycompany/res_ - Assets: "
 "_app/src/mycompany/assets_"
-msgstr ""
+msgstr "- Źródło Java: _app/src/mycompany/java_ - Plik manifestu: _app/src/mycompany/AndroidManifest.xml_ - Zasoby Android: _app/src/mycompany/res_ - Zasoby: _app/src/mycompany/assets_"
 
 #. type: Plain text
 #: build/_docs/md/Whitelabel_Builds.md
@@ -14011,7 +14070,7 @@ msgid ""
 "files in _app/src/mycompany/res_ will take precedence over the default F-"
 "Droid ones. For example, override the app icon by providing _app/src/"
 "mycompany/res/drawable/ic\\_launcher.xml_."
-msgstr ""
+msgstr "Nie można kopiować klas Java, ale można zarządzać wszystkimi rozszerzeniami. Dla wszystkiego w _res/_, tj. _strings.xml_ lub zasoby do pobrania, pliki w _app/src/mycompany/res_ będą miały pierwszeństwo przed domyślnym F-Droid. Na przykład zastąp ikonę aplikacji, udostępniając _app/src/mycompany/res/drawable/ic\\_launcher.xml_."
 
 #. type: Plain text
 #: build/_docs/md/Whitelabel_Builds.md
@@ -14020,7 +14079,7 @@ msgid ""
 "values/default\\_repos.xml_. The format of that file is a String array, with "
 "sets of 8 elements per repo. For example, here's the Guardian Project repo "
 "config enabled by default with push request always accepted by the client:"
-msgstr ""
+msgstr "Aby określić niestandardowy zestaw repozytoriów aplikacji, należy podać _app/src/mycompany/res/values/default\\_repos.xml_. Format tego pliku jest tablicą ciągów, z zestawami po 8 elementów na repozytorium. Oto przykład konfiguracji repozytorium projektu Guardian włączonej domyślnie z żądaniem wypychania zawsze akceptowanym przez klienta:"
 
 #. type: Plain text
 #: build/_docs/md/Whitelabel_Builds.md
@@ -14053,12 +14112,38 @@ msgid ""
 " </item>\n"
 "```\n"
 msgstr ""
+"```xml\n"
+" <!-- name -->\n"
+" <item>Projekt Guardian</item>\n"
+" <!-- address -->\n"
+" <item>https://guardianproject.info/fdroid/repo</item>\n"
+" <!-- description -->\n"
+" <item>\n"
+"   Oficjalne repozytorium aplikacji The Guardian\n"
+"   Project. Aplikacje w tym repozytorium to oficjalne\n"
+"   pliki binarne opracowane przez oryginalnych twórców aplikacji\n"
+"   i podpisane tym samym kluczem, co pliki APK wydane\n"
+"   w sklepie Google Play.\n"
+" </item>\n"
+" <!-- version -->\n"
+" <item>13</item>\n"
+" <!-- enabled -->\n"
+" <item>1</item>\n"
+" <!-- priority -->\n"
+" <item>10</item>\n"
+" <!-- push requests: ignore, prompt, always -->\n"
+" <item>zawsze</item>\n"
+" <!-- pubkey -->\n"
+" <item>\n"
+"   308205d8308203c0020900a397b4da7ecda034300d06092a864886f70d01010505003081ad310b30090603550406130255533111300f06035504080c084e657720596f726b3111300f06035504070c084e657720596f726b31143012060355040b0c0b4644726f6964205265706f31193017060355040a0c10477561726469616e2050726f6a656374311d301b06035504030c14677561726469616e70726f6a6563742e696e666f3128302606092a864886f70d0109011619726f6f7440677561726469616e70726f6a6563742e696e666f301e170d3134303632363139333931385a170d3431313131303139333931385a3081ad310b30090603550406130255533111300f06035504080c084e657720596f726b3111300f06035504070c084e657720596f726b31143012060355040b0c0b4644726f6964205265706f31193017060355040a0c10477561726469616e2050726f6a656374311d301b06035504030c14677561726469616e70726f6a6563742e696e666f3128302606092a864886f70d0109011619726f6f7440677561726469616e70726f6a6563742e696e666f30820222300d06092a864886f70d01010105000382020f003082020a0282020100b3cd79121b9b883843be3c4482e320809106b0a23755f1dd3c7f46f7d315d7bb2e943486d61fc7c811b9294dcc6b5baac4340f8db2b0d5e14749e7f35e1fc211fdbc1071b38b4753db201c314811bef885bd8921ad86facd6cc3b8f74d30a0b6e2e6e576f906e9581ef23d9c03e926e06d1f033f28bd1e21cfa6a0e3ff5c9d8246cf108d82b488b9fdd55d7de7ebb6a7f64b19e0d6b2ab1380a6f9d42361770d1956701a7f80e2de568acd0bb4527324b1e0973e89595d91c8cc102d9248525ae092e2c9b69f7414f724195b81427f28b1d3d09a51acfe354387915fd9521e8c890c125fc41a12bf34d2a1b304067ab7251e0e9ef41833ce109e76963b0b256395b16b886bca21b831f1408f836146019e7908829e716e72b81006610a2af08301de5d067c9e114a1e5759db8a6be6a3cc2806bcfe6fafd41b5bc9ddddb3dc33d6f605b1ca7d8a9e0ecdd6390d38906649e68a90a717bea80fa220170eea0c86fc78a7e10dac7b74b8e62045a3ecca54e035281fdc9fe5920a855fde3c0be522e3aef0c087524f13d973dff3768158b01a5800a060c06b451ec98d627dd052eda804d0556f60dbc490d94e6e9dea62ffcafb5beffbd9fc38fb2f0d7050004fe56b4dda0a27bc47554e1e0a7d764e17622e71f83a475db286bc7862deee1327e2028955d978272ea76bf0b88e70a18621aba59ff0c5993ef5f0e5d6b6b98e68b70203010001300d06092a864886f70d0101050500038202010079c79c8ef408a20d243d8bd8249fb9a48350dc19663b5e0fce67a8dbcb7de296c5ae7bbf72e98a2020fb78f2db29b54b0e24b181aa1c1d333cc0303685d6120b03216a913f96b96eb838f9bff125306ae3120af838c9fc07ebb5100125436bd24ec6d994d0bff5d065221871f8410daf536766757239bf594e61c5432c9817281b985263bada8381292e543a49814061ae11c92a316e7dc100327b59e3da90302c5ada68c6a50201bda1fcce800b53f381059665dbabeeb0b50eb22b2d7d2d9b0aa7488ca70e67ac6c518adb8e78454a466501e89d81a45bf1ebc350896f2c3ae4b6679ecfbf9d32960d4f5b493125c7876ef36158562371193f600bc511000a67bdb7c664d018f99d9e589868d103d7e0994f166b2ba18ff7e67d8c4da749e44dfae1d930ae5397083a51675c409049dfb626a96246c0015ca696e94ebb767a20147834bf78b07fece3f0872b057c1c519ff882501995237d8206b0b3832f78753ebd8dcbd1d3d9f5ba733538113af6b407d960ec4353c50eb38ab29888238da843cd404ed8f4952f59e4bbc0035fc77a54846a9d419179c46af1b4a3b7fc98e4d312aaa29b9b7d79e739703dc0fa41c7280d5587709277ffa11c3620f5fba985b82c238ba19b17ebd027af9424be0941719919f620dd3bb3c3f11638363708aa11f858e153cf3a69bce69978b90e4a273836100aa1e617ba455cd00426847f\n"
+" </item>\n"
+"```\n"
 
 #. type: Title ###
 #: build/_docs/md/Whitelabel_Builds.md
 #, no-wrap
 msgid "Basic vs Full Product Flavors"
-msgstr ""
+msgstr "Podstawowe vs Pełne aromaty produktu"
 
 #. type: Plain text
 #: build/_docs/md/Whitelabel_Builds.md
@@ -14070,13 +14155,13 @@ msgid ""
 "will apply to both.  Choosing which one to build is done by specifying the "
 "\"Build Variant\" in Android Studio, and the _gradle_ target, .e.g `./"
 "gradlew assembleMycompanyFullDebug`."
-msgstr ""
+msgstr "F-Droid ma już wbudowane dwa smaki: _basic_ i _full_. _full_ to aplikacja znana jako _F-Droid_, a _basic_ to najbardziej minimalistyczna wersja aplikacji, która nadal zapewnia podstawową funkcjonalność sklepu z aplikacjami. Ponieważ są one w oddzielnym _flavorDimension_, dodane dostosowania będą miały zastosowanie do obu. Wybór, który z nich zbudować, polega na określeniu \"Wariantu kompilacji\" w Android Studio i _gradle_ target, np. `./gradlew assembleMycompanyFullDebug`."
 
 #. type: Title ###
 #: build/_docs/md/Whitelabel_Builds.md
 #, no-wrap
 msgid "Customizations"
-msgstr ""
+msgstr "Modyfikacje"
 
 #. type: Plain text
 #: build/_docs/md/Whitelabel_Builds.md
@@ -14085,13 +14170,13 @@ msgid ""
 "files. So this is the recommended way to start with customizing your build "
 "of F-Droid. Any XML file in _app/src/main/res_ can be overridden by placing "
 "an XML with the same name in _app/src/mycompany/res_."
-msgstr ""
+msgstr "Korzystając ze stopniowych kompilacji, bardzo łatwo jest dostosować dowolny z plików XML. Jest to więc zalecany sposób, aby rozpocząć dostosowywanie swojej wersji F-Droid. Każdy plik XML w _app/src/main/res_ może zostać nadpisany przez umieszczenie XML o tej samej nazwie w _app/src/mycompany/res_."
 
 #. type: Title ####
 #: build/_docs/md/Whitelabel_Builds.md
 #, no-wrap
 msgid "Removing ActionBar/Menu Items"
-msgstr ""
+msgstr "Usuwanie Pasek działań/Elementy menu"
 
 #. type: Plain text
 #: build/_docs/md/Whitelabel_Builds.md
@@ -14099,13 +14184,13 @@ msgid ""
 "To hide things like \"Swap Apps\" or \"Repositories\", override _app/src/"
 "main/res/menu/main.xml_ by copying it into _app/src/mycompany/res/menu/main."
 "xml_, and removing and/or customizing the items there."
-msgstr ""
+msgstr "Aby ukryć takie rzeczy jak \"Aplikacje Swap\" lub \"Repozytoria\", zastąp je _app/src/main/res/menu/main.xml_, kopiując je do _app/src/mycompany/res/menu/main.xml_, i usuwając i/lub dostosowując elementy."
 
 #. type: Title ####
 #: build/_docs/md/Whitelabel_Builds.md
 #, no-wrap
 msgid "Preferences"
-msgstr ""
+msgstr "Preferencje"
 
 #. type: Plain text
 #: build/_docs/md/Whitelabel_Builds.md
@@ -14116,7 +14201,7 @@ msgid ""
 "fully automatic update requires [Privileged Extension](https://gitlab.com/"
 "fdroid/privileged-extension). With regular access, the updates will only "
 "automatically download. The user still needs to click install on each one."
-msgstr ""
+msgstr "W przypadku niestandardowej kompilacji, która domyślnie włącza aktualizacje automatyczne, należy zastąpić _app/src/main/res/xml/preferences.xml_. Możesz dostosować preferencje i ich domyślne wartości w _app/src/mycompany/res/xml/preferences.xml_. W pełni automatyczna aktualizacja wymaga rozszerzenia [Privileged Extension](https://gitlab.com/fdroid/privileged-extension). Przy regularnym dostępie aktualizacje będą pobierane automatycznie. Użytkownik musi kliknąć instalację na każdym z nich."
 
 #~ msgid ""
 #~ "    You can use \\$\\$SDK\\$\\$, \\$\\$NDK\\$\\$, \\$\\$MVN3\\$\\$ and \\$"
