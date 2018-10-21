@@ -8,16 +8,15 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-09-12 15:38+0200\n"
-"PO-Revision-Date: 2018-09-11 19:15+0000\n"
-"Last-Translator: Liao junchao <liaojunchao@outlook.com>\n"
-"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/f-"
-"droid/website-docs/zh_Hans/>\n"
+"PO-Revision-Date: 2018-10-22 05:24+0000\n"
+"Last-Translator: kak mi <wavelake@outlook.com>\n"
+"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/f-droid/website-docs/zh_Hans/>\n"
 "Language: zh_Hans\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.2-dev\n"
+"X-Generator: Weblate 3.3-dev\n"
 
 #. type: Title #
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -27,7 +26,6 @@ msgstr "说明、图片和屏幕截图"
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
-#, fuzzy
 msgid ""
 "Each app can have complete app store content, including localized "
 "descriptions, feature graphics, and screenshots (as of v0.103 of the F-Droid "
@@ -35,11 +33,7 @@ msgid ""
 "added via [build metadata](../Build_Metadata_Reference) as well as when "
 "including pre-built files in a simple repository.  There are three paths to "
 "including app store content for apps (in order of preference):"
-msgstr ""
-"每个应用可拥有完整的应用商店内容，包括本地化的说明、功能图片和屏幕截图（适用"
-"于 F-Droid 客户端应用 v0.103 版本与 _fdroidserver_  v0.8 版本）。可通过两种方"
-"式实现：通过[编译元数据](../Build_Metadata_Reference) 添加应用，或简单资源库"
-"包含预编译文件。为应用添加应用商店内容的三种路径："
+msgstr "每个应用可拥有完整的应用商店内容，包括本地化的说明、功能图片和屏幕截图（适用于 F-Droid 客户端应用 v0.103 版本与 _fdroidserver_  v0.8 版本）。可通过两种方式实现：通过[编译元数据](../Build_Metadata_Reference) 添加应用，或在简单资源库中包含预编译文件。为应用添加应用商店内容的三种路径（按优先顺序）："
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -127,7 +121,7 @@ msgid ""
 "that the repo builds.  For example, if these files are included in a _git_ "
 "repo's _master_ branch but not yet in a tagged release, they will not be "
 "included."
-msgstr ""
+msgstr "所有本地化的描述和图片将自动显示在 F-Droid repo 中，一旦它们在 repo 构建的发行版的源 repo 中可用。例如，如果这些文件包含在一个 _git_repo 的 _master_ 分支中，但是还没有包含在一个标记的版本中，那么它们就不会被包含。"
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
