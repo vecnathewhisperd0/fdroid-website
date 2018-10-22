@@ -530,7 +530,7 @@ msgstr "这同样适用于帮助构建新版本的应用程序。"
 #. type: Plain text
 #: build/_pages/md/contribute.md
 msgid "Further information can be found in [the documentation](../docs), or by asking [on IRC](https://webchat.freenode.net/?channels=%23fdroid) (#fdroid on freenode)."
-msgstr "进一步的信息可以在[文档](./DOCS)中找到，或者[在 IRC 上](https://webchat.freenode.net/?channels=%23fdroid) (#fdroid on freenode) 提问。"
+msgstr "进一步的信息可以在[文档](../docs)中找到，或者[在 IRC 上](https://webchat.freenode.net/?channels=%23fdroid) (#fdroid on freenode) 提问。"
 
 #. type: Title ###
 #: build/_pages/md/contribute.md

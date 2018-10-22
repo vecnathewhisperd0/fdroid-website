@@ -557,7 +557,7 @@ msgstr "Başlangıç"
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
 msgid "[FAQ - General](FAQ_-_General) Frequently Asked Questions about F-Droid"
-msgstr "[SSS - Genel](SSS_-_Genel) F-Droid hakkında Sık Sorulan Sorular"
+msgstr "[SSS - Genel](FAQ_-_General) F-Droid hakkında Sık Sorulan Sorular"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
