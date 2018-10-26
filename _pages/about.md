@@ -41,6 +41,7 @@ F-Droid respects your privacy. We don’t track you, or your device. We don’t 
 The F-Droid project was founded in 2010 by Ciaran Gultnieks,
 and is brought to you by at least the following people:
 
+* Milkysoft Developers
 * Nico Alt
 * Laura Arjona
 * Ben Arnold
