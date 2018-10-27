@@ -8,16 +8,15 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-09-12 15:38+0200\n"
-"PO-Revision-Date: 2018-09-24 08:36+0000\n"
+"PO-Revision-Date: 2018-10-28 08:23+0000\n"
 "Last-Translator: riveravaldez <riveravaldezmail@gmail.com>\n"
-"Language-Team: Spanish <https://hosted.weblate.org/projects/f-droid/website-"
-"docs/es/>\n"
+"Language-Team: Spanish <https://hosted.weblate.org/projects/f-droid/website-docs/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.2-dev\n"
+"X-Generator: Weblate 3.3-dev\n"
 
 #. type: Title #
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -1095,7 +1094,7 @@ msgstr ""
 #: build/_docs/md/Building_a_Signing_Server.md
 msgid ""
 "For high risk signing keys, using multiple layers of defense is important:"
-msgstr ""
+msgstr "Para claves de firma de alto riesgo es importante usar múltiples capas de defensa:"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Building_a_Signing_Server.md
@@ -1211,7 +1210,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "There are three supported file types for metadata files:"
-msgstr ""
+msgstr "Hay tres tipos de archivo soportados para archivos de metadata:"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1223,7 +1222,7 @@ msgstr ""
 #. type: Bullet: '* '
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "_.txt_ files in the old, custom, F-Droid text-based format"
-msgstr ""
+msgstr "archivos _.txt_ en el viejo y habitual formato basado en texto de F-Droid"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Build_Metadata_Reference.md
