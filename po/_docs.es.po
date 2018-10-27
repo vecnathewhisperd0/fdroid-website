@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-09-12 15:38+0200\n"
 "PO-Revision-Date: 2018-10-28 08:23+0000\n"
-"Last-Translator: riveravaldez <riveravaldezmail@gmail.com>\n"
+"Last-Translator: Markel <wakutiteo@protonmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/f-droid/website-docs/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -1158,7 +1158,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "Build Metadata Reference"
-msgstr ""
+msgstr "Construir Referencia de Metadatos"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -5438,7 +5438,7 @@ msgid ""
 "on Freenode ([click here to join the webchat](https://webchat.freenode.net/?"
 "randomnick=1&channels="
 "%23fdroid&uio=MT1mYWxzZSYyPXRydWUmND10cnVlJjk9dHJ1ZSYxMD10cnVlJjEyPXRydWU84))"
-msgstr ""
+msgstr "El canal IRC: [\\#fdroid](irc://irc.freenode.net/fdroid) sala IRC en Freenode ([Haga clic para unirse a la cibercharla](https://webchat.freenode.net/?randomnick=1&channels=%23fdroid&uio=MT1mYWxzZSYyPXRydWUmND10cnVlJjk9dHJ1ZSYxMD10cnVlJjEyPXRydWU84))"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/FAQ_-_General.md
