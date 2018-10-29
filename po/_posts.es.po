@@ -1449,7 +1449,7 @@ msgstr "  Briar aún no está en el repositorio principal de F-Droid porque esta
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-04-this-week-in-fdroid-w18.md
 msgid "We were mentioned in a BuzzFeed article on [how apps sell your data](https://www.buzzfeed.com/nicolenguyen/how-apps-take-your-data-and-sell-it-without-you-even). _\"[...] Kwet also suggests Android users try the F-Droid App Store, because it offers apps without tracking and has a strict auditing process.\"_"
-msgstr "Nos mencionaron en un artículo de BuzzFeed sobre[cómo las aplicaciones venden sus datos] (https://www.buzzfeed.com/nicolenguyen/how-apps-take-your-data-and-sell-it-without-you-even). \"Kwet también sugiere a los usuarios de Android que prueben el F-Droid App Store, ya que ofrece aplicaciones que no te espían y tiene un estricto proceso de auditoría\"._"
+msgstr "Nos mencionaron en un artículo de BuzzFeed sobre[cómo las aplicaciones venden sus datos](https://www.buzzfeed.com/nicolenguyen/how-apps-take-your-data-and-sell-it-without-you-even). \"Kwet también sugiere a los usuarios de Android que prueben el F-Droid App Store, ya que ofrece aplicaciones que no te espían y tiene un estricto proceso de auditoría\"._"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-05-04-this-week-in-fdroid-w18.md

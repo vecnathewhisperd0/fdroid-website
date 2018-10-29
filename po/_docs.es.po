@@ -1178,7 +1178,7 @@ msgid ""
 "[localizable texts and graphics](../"
 "All_About_Descriptions_Graphics_and_Screenshots#in-the-apps-build-metadata-"
 "in-an-fdroiddata-collection) in the _metadata_ subdirectory"
-msgstr "[textos y gráficos localizables](.../All_About_Descriptions_Graphics_and_Screenshots#in-the-apps-build-metadata-in-an-fdroiddata-collection) en el subdirectorio _metadata_"
+msgstr "[textos y gráficos localizables](../All_About_Descriptions_Graphics_and_Screenshots#in-the-apps-build-metadata-in-an-fdroiddata-collection) en el subdirectorio _metadata_"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1186,7 +1186,7 @@ msgid ""
 "localizable texts and graphics [embedded in an app's source code](../"
 "All_About_Descriptions_Graphics_and_Screenshots#in-the-apps-source-"
 "repository)"
-msgstr "textos y gráficos localizables[incrustados en el código fuente de una aplicación](.../All_About_Descriptions_Graphics_and_Screenshots#in-the-apps-source-repository)"
+msgstr "textos y gráficos localizables[incrustados en el código fuente de una aplicación](../All_About_Descriptions_Graphics_and_Screenshots#in-the-apps-source-repository)"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1326,7 +1326,7 @@ msgstr "El nombre del autor, ya sea completo, abreviado o seudónimo. Si está p
 msgid ""
 "__Warning__: this overrides all Author Name entries [set in the app's source "
 "code](../All_About_Descriptions_Graphics_and_Screenshots)."
-msgstr "__Advertencia__: esto anula todas las entradas del Nombre del Autor[establecido en el código fuente de la aplicación](.../All_About_Descriptions_Graphics_and_Screenshots)."
+msgstr "__Advertencia__: esto anula todas las entradas del Nombre del Autor[establecido en el código fuente de la aplicación](../All_About_Descriptions_Graphics_and_Screenshots)."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1351,7 +1351,7 @@ msgstr "La dirección de correo electrónico del autor/a. Esto puede omitirse (o
 msgid ""
 "__Warning__: this overrides all Author Email entries [set in the app's "
 "source code](../All_About_Descriptions_Graphics_and_Screenshots)."
-msgstr "Advertencia__: esto anula todas las entradas del Nombre del Autor[establecido en el código fuente de la aplicación](.../All_About_Descriptions_Graphics_and_Screenshots)."
+msgstr "Advertencia__: esto anula todas las entradas del Nombre del Autor[establecido en el código fuente de la aplicación](../All_About_Descriptions_Graphics_and_Screenshots)."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
