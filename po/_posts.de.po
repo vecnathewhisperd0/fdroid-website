@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-10-29 11:18+0100\n"
-"PO-Revision-Date: 2018-10-21 15:27+0000\n"
-"Last-Translator: ssantos <ssantos@web.de>\n"
+"PO-Revision-Date: 2018-10-31 18:23+0000\n"
+"Last-Translator: C. Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -5747,7 +5747,7 @@ msgstr "**[Authorizer](https://f-droid.org/app/net.tjado.passwdsafe)** veröffen
 #: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
 #, no-wrap
 msgid "\"TWIF 25: Tor Browser, Matrix room enhancements and mirror beta testing\""
-msgstr ""
+msgstr "\"TWIF 25: Tor Browser, Matrix-Raum-Verbesserungen und Spiegelserver-Beta-Test\""
 
 #. type: Plain text
 #: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
@@ -5756,128 +5756,129 @@ msgid ""
 "In this edition: Tor Browser in Guardian Project, Matrix room improved, F-Droid bottom bar improvement, beta mirror up for testing, and 11 new apps and a record-breaking **{{ page.number_of_updated_apps }}** updates.\n"
 "<!--more-->\n"
 msgstr ""
+"In dieser Ausgabe: Tor Browser im Guardian Project, Matrix-Raum verbessert, F-Droid-Werkzeugleistenverbesserung, Beta-Spiegelserver bereit zum Test sowie 11 neue Apps und alle Rekorde brechende **{{ page.number_of_updated_apps }}** Aktualisierungen.\n"
+"<!--more-->\n"
 
 #. type: Title ####
 #: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
 #, no-wrap
 msgid "Tor Browser available in Guardian Project repository"
-msgstr ""
+msgstr "Tor Browser im Guardian Project Repository abrufbar"
 
 #. type: Plain text
 #: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
 msgid "An alpha version of the new Tor Browser is now available via the Guardian Project repository. It is the same APK as from the Tor Project website. The Guardian Project is working on getting it built [reproducibly](https://reproducible-builds.org), and once that is done we will work to add the reproducibly building Tor Browser to F-Droid."
-msgstr ""
+msgstr "Eine Alpha-Version des neuen Tor Browser steht jetzt im Guardian Project Repository zur Verfügung. Es ist dieselbe APK wie die von der Tor Project-Internetseite. Das Guardian Project arbeitet daran, sie [reproduzierbar](https://reproducible-builds.org) erstellt zu bekommen, und sobald es soweit ist, werden wir uns bemühen, den reproduzierbaren Tor Browser-Build auf F-Droid hinzuzufügen."
 
 #. type: Plain text
 #: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
 msgid "Meanwhile, we are looking for a volunteer who want to add a not-reproducibly-building version to F-Droid. It would be great if someone who has experience with building Fennec could try building Tor Browser."
-msgstr ""
+msgstr "In der Zwischenzeit suchen wir nach einem Freiwilligen, der eine nicht reproduzierbar erstellte Version zu F-Droid hinzufügen möchte. Es wäre großartig, wenn jemand mit Erfahrung in Fennec-Builds versuchen könnte, Tor Browser zu bauen."
 
 #. type: Title ####
 #: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
 #, no-wrap
 msgid "Growing our presence on Matrix"
-msgstr ""
+msgstr "Wachsende Präsenz auf Matrix"
 
 #. type: Plain text
 #: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
 msgid "We have had an IRC room on Freenode since at least 2014, and that room has been bridged to Matrix since Matrix started bridging Freenode. Over the last year, we have been customizing the Matrix half of the room, adding a nice room avatar among other things, but the amount of customization we're allowed that way is limited."
-msgstr ""
+msgstr "Wir hatten einen IRC-Raum auf Freenode seit mindestens 2014 und dieser Raum wurde zu Matrix übergeleitet, als Matrix mit der Überbrückung von Freenode begann. Während des letzten Jahres haben wir die Matrixhälfte des Raums angepasst, indem wir einen hübschen Raum-Avatar neben anderen Dingen hinzugefügt haben. aber das Ausmaß der Anpassungen auf diese Weise ist limitiert."
 
 #. type: Plain text
 #: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
 msgid "So this week we went and made a Matrix room, and bridged it to IRC manually. The upshot of this is that we now have a Matrix room which is fully under our control. This has allowed us to set history visibility to public, so anyone can now read back the logs at [https://view.matrix.org/alias/#fdroid:matrix.org](https://view.matrix.org/alias/%23fdroid:matrix.org). We have also listed the room in matrix.org's room directory, so people who search for F-Droid can actually find us."
-msgstr ""
+msgstr "So machten wir uns diese Woche daran, einen Matrix-Raum zu schaffen und manuell eine Brücke zwischen ihm und IRC zu schlagen. Das Ergebnis davon ist, dass wir nun einen Matrix-Raum besitzen, der vollständig von uns kontrolliert wird. Das ermöglichte uns, den Verlauf öffentlich sichtbar zu machen, so kann nun jeder die Protokolle auf [https://view.matrix.org/alias/#fdroid:matrix.org](https://view.matrix.org/alias/%23fdroid:matrix.org) zurückverfolgen. Wir haben auch den Raum im Raumverzeichnis von Matrix.org gelistet, damit Leute, die nach F-Droid suchen, uns auch tatsächlich finden."
 
 #. type: Plain text
 #: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
 msgid "Finally, the room can now be reached at [#fdroid:matrix.org](https://matrix.to/#/#fdroid:matrix.org). This alias previously belonged to a third-party F-Droid room which has been running on Matrix since January 2017. They have graciously allowed us to use the alias for our room, for which our sincere thanks."
-msgstr ""
+msgstr "Schließlich wird der Raum jetzt auf [#fdroid:matrix.org](https://matrix.to/#/#fdroid:matrix.org) erreicht. Dieser Alias gehörte früher einem fremden F-Droid-Raum, der auf Matrix seit Januar 2017 geöffnet war. Die Betreiber haben uns dankenswerterweise gestattet, den Alias für unseren Raum zu nutzen, wofür wir ihnen herzlich danken."
 
 #. type: Title ####
 #: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
 #, no-wrap
 msgid "Compact bottom bar in F-Droid client"
-msgstr ""
+msgstr "Kompakte Werkzeugleiste im F-Droid-Client"
 
 #. type: Plain text
 #: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
 #, no-wrap
 msgid "**[@Licaon_Kter](https://forum.f-droid.org/u/Licaon_Kter)** is working on a modified bottom bar in the F-Droid client, which has more room for text by collapsing the inactive items. This should fix problems with text getting cut off in languages other than English. You can see it in action [here](https://gitlab.com/fdroid/fdroidclient/merge_requests/756).\n"
-msgstr ""
+msgstr "**[@Licaon_Kter](https://forum.f-droid.org/u/Licaon_Kter)** arbeitet an einer modifizierten Werkzeugleiste im F-Droid-Client, die mehr Platz für Text bietet, indem die inaktiven Elemente verkleinert werden. Dies sollte die Probleme lösen, dass Texte in anderen Sprachen als Englisch beschnitten werden. Sie können sie [hier](https://gitlab.com/fdroid/fdroidclient/merge_requests/756) in Aktion sehen.\n"
 
 #. type: Title ####
 #: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
 #, no-wrap
 msgid "Tutanota on F-Droid spotlighted at Linux Journal"
-msgstr ""
+msgstr "Tutanota auf F-Droid im Blickpunkt des Linux Journal"
 
 #. type: Plain text
 #: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
 msgid "Tutanota, and the story of how they made their app suitable for F-Droid, have been [spotlighted](https://www.linuxjournal.com/content/foss-project-spotlight-tutanota-first-encrypted-email-service-app-f-droid) at Linux Journal. Of course, if you've been [following our blog]({{ site.baseurl }}{% post_url 2018-09-03-replacing-gcm-in-tutanota %}), this will sound very familiar."
-msgstr ""
+msgstr "Tutanota und die Geschichte, wie sie ihre App passend für F-Droid gestalteten, wurde im Linux Journal [beleuchtet](https://www.linuxjournal.com/content/foss-project-spotlight-tutanota-first-encrypted-email-service-app-f-droid). Natürlich wird Ihnen das, wenn Sie [unseren Blog verfolgen]({{ site.baseurl }}{% post_url 2018-09-03-replacing-gcm-in-tutanota %}), sehr bekannt vorkommen."
 
 #. type: Title ####
 #: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
 #, no-wrap
 msgid "Beta mirror up for testing"
-msgstr ""
+msgstr "Beta-Spiegelserver bereit zum Test"
 
 #. type: Plain text
 #: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
 msgid "Tetaneutral is a non-profit ISP based in Toulouse, France. They have offered to host a mirror of our main F-Droid repository, as well as the archive. We are currently beta testing the setup, and if you'd like to give it a try, [tap here](https://fdroid.tetaneutral.net/fdroid/repo?fingerprint=43238D512C1E5EB2D6569F4A3AFBF5523418B82E0A3ED1552770ABB9A9C9CCAB) on your mobile device to add it as a \"user mirror\" for f-droid.org. (Link will not work on a PC or if you don't have the F-Droid app installed.)"
-msgstr ""
+msgstr "Tetaneutral ist ein nicht kommerzieller ISP mit Sitz in Toulouse, Frankreich. Sie haben uns das Hosting eines Spiegelservers sowohl unseres F-Droid-Hauptrepository als auch des Archivs angeboten. Wir testen momentan dessen Einrichtung und, falls Sie ihn selbst ausprobieren möchten, [tippen Sie hier](https://fdroid.tetaneutral.net/fdroid/repo?fingerprint=43238D512C1E5EB2D6569F4A3AFBF5523418B82E0A3ED1552770ABB9A9C9CCAB) auf Ihrem mobilen Gerät, um ihn als \"Benutzer-Spiegel\" für f-droid.org hinzuzufügen. (Die Verknüpfung wird nicht auf einem PC, oder wenn keine F-Droid-App installiert ist, funktionieren.)"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
 msgid "**[Cool Mic](https://f-droid.org/app/cc.echonet.coolmicapp)** is an open source Icecast source client. It livestreams audio captured by your Android device’s microphone or mic in / line in jack to any Icecast server."
-msgstr ""
+msgstr "**[Cool Mic](https://f-droid.org/app/cc.echonet.coolmicapp)** ist eine Open Source Icecast-Quelle. Sie liefert Live-Streams von Audiodaten, die über Ihr Android-Gerätemikrofon oder angeschlossene Mikrofone erfasst werden, an jeden Icecast-Server."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
 msgid "Ever wanted to create a fictional setting — for your next novel, comic, screenplay, or what-have-you — but find it difficult to keep everything organized? **[World Scribe](https://f-droid.org/app/com.averi.worldscribe)** eases the creation process by letting you keep track of every important element in your world, including the ways in which they're connected."
-msgstr ""
+msgstr "Wollten Sie jemals ein fiktives Setting — für Ihre nächste Erzählung, einen Comic, Film oder was auch immer — erschaffen, fanden es aber schwierig, alles organisiert zu bekommen? **[World Scribe](https://f-droid.org/app/com.averi.worldscribe)** vereinfacht den Schaffungsprozess, indem es den Überblick über jedes wichtige Element in Ihrer Welt behält, inklusive der Art und Weise, auf die sie miteinander verknüpft sind."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
 msgid "**[Cryptolitycs](https://f-droid.org/app/com.fproject.cryptolitycs)** gives quick and easy access to cryptocurrency related information and allows the user to follow the cryptocurrency market."
-msgstr ""
+msgstr "**[Cryptolitycs](https://f-droid.org/app/com.fproject.cryptolitycs)** liefert einen schnellen und einfachen Zugriff auf krypto-währungsbezogene Informationen und ermöglicht dem Nutzer, den Krypto-Währungsmarkt zu verfolgen."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
 msgid "**[Identify Dog Breeds](https://f-droid.org/app/com.jstappdev.dbclf)**: Identify over one hundred different dog breeds with your smartphone."
-msgstr ""
+msgstr "**[Identify Dog Breeds](https://f-droid.org/app/com.jstappdev.dbclf)**: Identifizieren Sie über einhundert verschiedene Hunderassen mit Ihrem Smartphone."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
-#, fuzzy
 msgid "**[CPU Info](https://f-droid.org/app/com.kgurgul.cpuinfo)**: Information about device hardware and software."
-msgstr "**[PianOli](https://f-droid.org/app/com.nicobrailo.pianoli)**: Spiel für Babys, damit Ihr Gerät vor deren Patschhändchen geschützt bleibt"
+msgstr "**[CPU Info](https://f-droid.org/app/com.kgurgul.cpuinfo)**: Informationen zur Hard- und Software des Geräts."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
 msgid "**[XOverrideHeadphoneJackDetection](https://f-droid.org/app/de.antonarnold.android.xoverrideheadphonejackdetection)** is an XPosed module that allows you to manually override the headphone jack detection of an Android device."
-msgstr ""
+msgstr "**[XOverrideHeadphoneJackDetection](https://f-droid.org/app/de.antonarnold.android.xoverrideheadphonejackdetection)** ist ein XPosed-Modul, dass es möglich macht, manuell die Kopfhöreranschlusserkennung eines Android-Geräts auszuschalten."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
 msgid "**[Calcvac](https://f-droid.org/app/de.drhoffmannsoftware.calcvac)**: Calculate logitudinal one-dimensional pressure profiles in vacuum pipes."
-msgstr ""
+msgstr "**[Calcvac](https://f-droid.org/app/de.drhoffmannsoftware.calcvac)**: Longitudinale, eindimensionale Druckprofile in Vakuumröhren berechnen."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
 msgid "**[SQRL - Main](https://f-droid.org/app/org.ea.sqrl)**: An implementation for SQRL (Secure Quick Reliable Login)."
-msgstr ""
+msgstr "**[SQRL - Main](https://f-droid.org/app/org.ea.sqrl)**: Eine Implementierung für SQRL (Secure Quick Reliable Login)."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
 msgid "**[Flyve MDM Agent](https://f-droid.org/app/org.flyve.mdm.agent)**: Manage and secure effectively your mobile devices and applications."
-msgstr ""
+msgstr "**[Flyve MDM Agent](https://f-droid.org/app/org.flyve.mdm.agent)**: Mobile Geräte und Anwendungen effektiv verwalten und sichern."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
 msgid "**[Quickly quit](https://f-droid.org/app/quickly.quit)**: Quickly quit what you were doing."
-msgstr ""
+msgstr "**[Quickly quit](https://f-droid.org/app/quickly.quit)**: Schnell beenden, womit Sie sich beschäftigten."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
@@ -5951,7 +5952,7 @@ msgstr ""
 #. type: Bullet: '* '
 #: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
 msgid "**[Tricky Tripper](https://f-droid.org/app/de.koelle.christian.trickytripper)** is an offline-compatible utility for managing travel expenses. 1.6.0 fixes online retrieval of currencies, but without support for El Salvador Colon and Sambian Kwacha."
-msgstr ""
+msgstr "**[Tricky Tripper](https://f-droid.org/app/de.koelle.christian.trickytripper)** ist ein offline-kompatibles Hilfsmittel zur Verwaltung von Reisekosten. 1.6.0 repariert den Online-Abruf von Wechselkursen, allerdings ohne Unterstützung für den salvdorianischen Colon und sambischen Kwacha."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
@@ -5962,7 +5963,7 @@ msgstr "[Tasks](https://f-droid.org/app/org.tasks) erhielt ein Update von 5.3.6 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
 msgid "**[EtchDroid](https://f-droid.org/app/eu.depau.etchdroid)** helps you write images to USB drives. You can use it to make a bootable GNU/Linux USB drive when your laptop is dead and you're in the middle of nowhere. It requires no root. Version 1.3 brings a dark theme, ability to open images from a file manager, and adds a workaround for an Android 9 (Pie) issue."
-msgstr ""
+msgstr "**[EtchDroid](https://f-droid.org/app/eu.depau.etchdroid)** hilft dabei, Images auf USB-Laufwerke zu schreiben. Sie können sie verwenden, um bootfähige GNU/Linux-USB-Laufwerke zu erstellen, wenn Ihr Laptop tot ist und Sie im Nirgendwo sind. Root ist nicht notwendig. Version 1.3 bringt ein dunkles Design, die Möglichkeit, Images aus einem Dateimanager zu öffnen, und ergänzt eine Notlösung für ein Problem in Android 9 (Pie)."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
@@ -5973,7 +5974,7 @@ msgstr "**[FairEmail](https://f-droid.org/app/eu.faircode.email)** wurde von 0.6
 #. type: Bullet: '* '
 #: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
 msgid "**[Tachiyomi](https://f-droid.org/app/eu.kanade.tachiyomi)** is a manga reader. Version 0.8.0 brings quite a few changes, adding a new reader with many fixes, GIF support, showing all entries in the library even if their extensions are not installed, and several bug fixes."
-msgstr ""
+msgstr "**[Tachiyomi](https://f-droid.org/app/eu.kanade.tachiyomi)** ist ein Manga-Reader. Version 0.8.0 bringt eine ganze Reihe Änderungen, fügt einen neuen Reader mit vielen Korrekturen hinzu, bietet GIF-Unterstützung, zeigt alle Einträge in der Bibliothek, selbst wenn ihre Erweiterungen nicht installiert sind, und enthält verschiedene Fehlerlösungen."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
@@ -6034,7 +6035,7 @@ msgstr ""
 #. type: Bullet: '* '
 #: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
 msgid "{{ page.major }} Apparently we haven't been able to update **[PDF Converter](https://f-droid.org/app/swati4star.createpdf)** for 2 years. We now have 8.3.3 in the repository (previously 1.0) with too many changes to list. Of note is that we also picked up some older versions, and version 2.5 is the latest one that will install on Android 4.4. All versions after that require at least Android 5.0."
-msgstr ""
+msgstr "{{ page.major }} Anscheinend waren wir seit 2 Jahren nicht in der Lage **[PDF Converter](https://f-droid.org/app/swati4star.createpdf)** zu aktualisieren. Jetzt haben wir 8.3.3 im Repository (zuvor 1.0) mit zu vielen Änderungen, um sie aufzuzählen. Von Bedeutung ist, dass wir auch einige ältere Versionen aufgelesen haben und dass Version 2.5 die letzte ist, die auf Android 4.4 installiert werden kann. Alle Versionen danach benötigen mindestens Android 5.0."
 
 #. type: Plain text
 #: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
@@ -6056,7 +6057,7 @@ msgstr "Ein allgemeines Feedback kann ebenfalls über Mastodon abgegeben werden 
 #: build/_posts/md/2018-10-20-twif-26-tagesschau-f-droid-repo-and-translation-workflow-improvement.md
 #, no-wrap
 msgid "\"TWIF 26: Tagesschau F-Droid repo and translation workflow improvement\""
-msgstr ""
+msgstr "\"TWIF 26: F-Droid-Repo der Tagesschau und Verbesserung des Übersetzungsworkflow\""
 
 #. type: Plain text
 #: build/_posts/md/2018-10-20-twif-26-tagesschau-f-droid-repo-and-translation-workflow-improvement.md
@@ -6065,22 +6066,24 @@ msgid ""
 "In this edition: Tagesschau running an F-Droid repo, starting up translation improvements, finalizing buildserver automation, and 2 new and {{ page.number_of_updated_apps }} updated apps.\n"
 "<!--more-->\n"
 msgstr ""
+"In dieser Ausgabe: Die Tagesschau betreibt ein F-Droid-Repo, Beginn der Übersetzungsoptimierung, Abschluss der Buildserver-Automation, sowie 2 neue und {{ page.number_of_updated_apps }} aktualisierte Apps.\n"
+"<!--more-->\n"
 
 #. type: Title ####
 #: build/_posts/md/2018-10-20-twif-26-tagesschau-f-droid-repo-and-translation-workflow-improvement.md
 #, no-wrap
 msgid "Tagesschau running their own F-Droid repository"
-msgstr ""
+msgstr "Die Tagesschau betreibt ihr eigenes F-Droid-Repository"
 
 #. type: Plain text
 #: build/_posts/md/2018-10-20-twif-26-tagesschau-f-droid-repo-and-translation-workflow-improvement.md
 msgid "We recently learned that [Tagesschau](https://en.wikipedia.org/wiki/Tagesschau_(German_TV_series)) distributes their official app through their own F-Droid repository at `https://service.tagesschau.de/app/repo`."
-msgstr ""
+msgstr "Wir haben kürzlich erfahren, dass die [Tagesschau](https://en.wikipedia.org/wiki/Tagesschau_(German_TV_series)) ihre offizielle App über ihr eigenes F-Droid-Repository auf `https://service.tagesschau.de/app/repo` vertreibt."
 
 #. type: Plain text
 #: build/_posts/md/2018-10-20-twif-26-tagesschau-f-droid-repo-and-translation-workflow-improvement.md
 msgid "We see this move as a great step towards user rights and freedom. Sadly the app isn't [free and open source software](https://en.wikipedia.org/wiki/Free_and_open-source_software), although it is financed with public money. If it is public money, it should be [public code](https://publiccode.eu) as well."
-msgstr ""
+msgstr "Wir betrachten diesen Zug als großen Schritt in Richtung Anwenderrechte und -freiheiten. Bedauerlicherweise ist die App keine [Free and Open Source Software](https://en.wikipedia.org/wiki/Free_and_open-source_software), obwohl sie mit öffentlichen Geldern finanziert ist. Wenn es öffentliche Gelder sind, sollte es auch [öffentlicher Programmcode](https://publiccode.eu) sein."
 
 #. type: Plain text
 #: build/_posts/md/2018-10-20-twif-26-tagesschau-f-droid-repo-and-translation-workflow-improvement.md
@@ -6091,52 +6094,52 @@ msgstr ""
 #: build/_posts/md/2018-10-20-twif-26-tagesschau-f-droid-repo-and-translation-workflow-improvement.md
 #, no-wrap
 msgid "Starting up translation improvements around Weblate"
-msgstr ""
+msgstr "Übersetzungsverbesserungen rund um Weblate laufen an"
 
 #. type: Plain text
 #: build/_posts/md/2018-10-20-twif-26-tagesschau-f-droid-repo-and-translation-workflow-improvement.md
 #, no-wrap
 msgid "**[@\\_hc](https://forum.f-droid.org/u/hans)** and **[@uniq](https://chaos.social/@uniq)** will be working together to improve the Weblate workflow as part of a funded effort. The work is specifically targeted at Markdown, like we use on this website. Effort will also be going towards app store translations like [Fastlane](https://fastlane.tools) and [Triple-T](https://github.com/Triple-T). In addition, there is a little bit of time to work on stabilizing [Jekyll](https://jekyllrb.com), so that it can support more than 9 languages on our site. If you are a Ruby developer who likes to help with the latter, please [get in touch](https://f-droid.org/en/about/#contact).\n"
-msgstr ""
+msgstr "**[@\\_hc](https://forum.f-droid.org/u/hans)** und **[@uniq](https://chaos.social/@uniq)** werden zusammenarbeiten, um im Rahmen eines geförderten Projekts den Weblate-Workflow zu verbessern. Die Arbeiten sind speziell auf Markdown ausgerichtet, wie wir es auf dieser Internetseite verwenden. Es werden auch Anstrengungen in Richtung App-Store-Übersetzungen wie [Fastlane](https://fastlane.tools) und [Triple-T](https://github.com/Triple-T) gehen. Zusätzlich bleibt ein wenig Zeit, um an der Stabilisierung von [Jekyll](https://jekyllrb.com) zu arbeiten, damit mehr als 9 Sprachen auf unserer Website unterstützt werden können. Sollten Sie Ruby-Entwickler sein, der bei Letzterem helfen möchte, nehmen Sie bitte [Kontakt](https://f-droid.org/en/about/#contact) mit uns auf.\n"
 
 #. type: Title ####
 #: build/_posts/md/2018-10-20-twif-26-tagesschau-f-droid-repo-and-translation-workflow-improvement.md
 #, no-wrap
 msgid "Buildserver automation"
-msgstr ""
+msgstr "Buildserver-Automatisierung"
 
 #. type: Plain text
 #: build/_posts/md/2018-10-20-twif-26-tagesschau-f-droid-repo-and-translation-workflow-improvement.md
 #, no-wrap
 msgid "**[@uniq](https://chaos.social/@uniq)** has been finalizing his awesome buildserver automation, with some help from **[@\\_hc](https://forum.f-droid.org/u/hans)**. This same [ansible](https://en.wikipedia.org/wiki/Ansible_%28software%29) setup can also be used for [verification server](https://reproducible-builds.org)s.\n"
-msgstr ""
+msgstr "**[@uniq](https://chaos.social/@uniq)** hat seine grandiose Buildserver-Automatisierung mit einiger Hilfe von **[@\\_hc](https://forum.f-droid.org/u/hans)** abgeschlossen. Dasselbe [Ansible](https://en.wikipedia.org/wiki/Ansible_%28software%29)-Setup kann auch für [Verifikationsserver](https://reproducible-builds.org) verwendet werden.\n"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-10-20-twif-26-tagesschau-f-droid-repo-and-translation-workflow-improvement.md
 msgid "**[Adaptive Brightness Tile](https://f-droid.org/app/com.rascarlo.adaptive.brightness.tile)**: Quick settings tile for adaptive brightness."
-msgstr ""
+msgstr "**[Adaptive Brightness Tile](https://f-droid.org/app/com.rascarlo.adaptive.brightness.tile)**: Schnelleinstellungskachel für adaptive Helligkeit."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-10-20-twif-26-tagesschau-f-droid-repo-and-translation-workflow-improvement.md
 msgid "**[BookmarkOS](https://f-droid.org/app/com.weskenyon.bookmarkos)**: This application will allow you to share urls directly from your Android browsers right into BookmarkOS."
-msgstr ""
+msgstr "**[BookmarkOS](https://f-droid.org/app/com.weskenyon.bookmarkos)**: Diese Anwendung ermöglicht Ihnen die direkte URL-Freigabe aus dem Android-Browser geradewegs in BookmarkOS."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-10-20-twif-26-tagesschau-f-droid-repo-and-translation-workflow-improvement.md
 msgid "{{ page.featured }} Did you know that nowadays apps can track where you are and what you're looking at using inaudible (to humans) high-frequency sounds? Listening via your phone's microphone, apps containing certain trackerware pick up tones from TV, radio and web page ads, but also billboards, retail outlets and sports stadiums. See [this SC magazine article](https://www.scmagazineuk.com/invasive-apps-track-ultrasonic-sounds-via-mobile-microphone/article/1474717), for example."
-msgstr ""
+msgstr "{{ page.featured }} Wussten Sie, dass Apps heutzutage verfolgen können, wo Sie sind und was Sie sich ansehen, indem sie (für Menschen) nicht hörbare, hochfrequente Geräusche nutzen? Durch Abhören Ihres Telefonmikrofons, filtern Apps, die bestimmte Tracker-Software enthalten, Töne von Fernsehern, Radios und Webseiten-Werbungen aber auch von Werbetafeln, Outlets und Sportarenen heraus. Sehen Sie sich als Beispiel [diesen SC-Magazinartikel](https://www.scmagazineuk.com/invasive-apps-track-ultrasonic-sounds-via-mobile-microphone/article/1474717) an."
 
 #. type: Plain text
 #: build/_posts/md/2018-10-20-twif-26-tagesschau-f-droid-repo-and-translation-workflow-improvement.md
 #, no-wrap
 msgid "  Enter **[PilferShush Jammer](https://f-droid.org/app/cityfreqs.com.pilfershushjammer)**, both a passive and an active microphone jammer. Its primary mode of operation is to hold an exclusive lock on the microphone, blocking other apps from even opening it. If that doesn't work, or if you suspect system apps are in play, it also has an active jamming mode, emitting its own tones from the phone's speaker, which hopefully interfere with these tracking sounds. Obviously this is less reliable, and of course, it's even better to not install hostile closed-source apps in the first place.\n"
-msgstr ""
+msgstr "  Kommen Sie zu **[PilferShush Jammer](https://f-droid.org/app/cityfreqs.com.pilfershushjammer)**, sowohl ein passiver als auch ein aktiver Mikrofonstörsender. Seine primäre Arbeitsweise ist, das Mikrofon ausschließlich geschlossen zu lassen, andere Apps davon abzuhalten es überhaupt zu öffnen. Wenn das nicht funktioniert, oder wenn Sie den Verdacht haben, System-Apps seien im Spiel, hat er auch einen aktiven Störsendermodus, der seine eigenen Töne über den Telefonlautsprecher aussendet, was hoffentlich die Geräusche für das Tracking überlagert. Augenscheinlich ist das weniger zuverlässig und natürlich ist es allemal besser, feindliche Closed Source Apps erst gar nicht zu installieren.\n"
 
 #. type: Plain text
 #: build/_posts/md/2018-10-20-twif-26-tagesschau-f-droid-repo-and-translation-workflow-improvement.md
 #, no-wrap
 msgid "  So this week PilferShush Jammer updated from 2.0.13 to 2.2.2, and it can now scan other apps, list their capabilities, and show which ones contain the NUHF beacon SDK. It can also scan a single app and show if it's accessing the microphone, among other things. Finally there are a new notifications channel, and other small improvements and bug fixes.\n"
-msgstr ""
+msgstr "  So wurde diese Woche PilferShush Jammer von 2.0.13 auf 2.2.2 aktualisiert, und er kann jetzt andere Apps durchsuchen, ihre Fähikeiten auflisten und anzeigen, welche davon das NUHF Beacon SDK enthalten. Er kann auch eine einzelne App scannen und anzeigen, ob sie auf das Mikrofon zugreift, neben weiteren Dingen. Schließlich gibt es einen neuen Benachrichtigungskanal sowie weitere kleine Verbesserungen und Fehlerkorrekturen.\n"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-10-20-twif-26-tagesschau-f-droid-repo-and-translation-workflow-improvement.md
@@ -6147,7 +6150,7 @@ msgstr "[Yalp Store](https://f-droid.org/app/com.github.yeriomin.yalpstore): Es 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-10-20-twif-26-tagesschau-f-droid-repo-and-translation-workflow-improvement.md
 msgid "**[PocketMaps](https://f-droid.org/app/com.junjunguo.pocketmaps)** is a map viewer with navigation system. It was updated from 2.3 to 2.6, now showing the unzipping process on the status bar, and with a new select-option to enter map on each startup, a help entry in the main menu linking to online documentation, and several crash fixes."
-msgstr ""
+msgstr "**[PocketMaps](https://f-droid.org/app/com.junjunguo.pocketmaps)** ist ein Kartenbetrachter mit Navigationssystem. Er wurde von 2.3 auf 2.6 aktualisiert, zeigt nun den Entpackvorgang in der Statusleiste an und besitzt eine neue Auswahloption zur Angabe der Karte bei jedem Start, einen Hilfeeintrag im Hauptmenü, der auf die Online-Dokumentation weiterleitet, und verschiedene Lösungen für Absturzursachen."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-10-20-twif-26-tagesschau-f-droid-repo-and-translation-workflow-improvement.md
@@ -6157,7 +6160,7 @@ msgstr ""
 #. type: Bullet: '* '
 #: build/_posts/md/2018-10-20-twif-26-tagesschau-f-droid-repo-and-translation-workflow-improvement.md
 msgid "{{ page.major }} The \"simple mobile tools\" **[File Manager](https://f-droid.org/app/com.simplemobiletools.filemanager)** and **[Flashlight](https://f-droid.org/app/com.simplemobiletools.flashlight)** were updated to 5.0.1 and 5.0.0 respectively, bumping the minimum required Android version to 5.0 (from 4.1), and replacing the G+ button with Reddit, among some small fixes."
-msgstr ""
+msgstr "{{ page.major }} Die \"Simple Mobile Tools\" **[File Manager](https://f-droid.org/app/com.simplemobiletools.filemanager)** und **[Flashlight](https://f-droid.org/app/com.simplemobiletools.flashlight)** erhielten Updates auf 5.0.1 bzw. 5.0.0, bei der die Minimalanforderung an die Android-Version auf 5.0 (von 4.1) angehoben und der G+ Button durch Reddit ersetzt wird, neben einigen kleinen Reparaturen."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-10-20-twif-26-tagesschau-f-droid-repo-and-translation-workflow-improvement.md
