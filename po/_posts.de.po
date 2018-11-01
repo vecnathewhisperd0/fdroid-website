@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-10-29 11:18+0100\n"
-"PO-Revision-Date: 2018-10-31 18:23+0000\n"
+"PO-Revision-Date: 2018-11-02 15:23+0000\n"
 "Last-Translator: C. Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\n"
 "Language: de\n"
@@ -5883,71 +5883,69 @@ msgstr "**[Quickly quit](https://f-droid.org/app/quickly.quit)**: Schnell beende
 #. type: Bullet: '* '
 #: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
 msgid "{{ page.featured }} **[Manyverse](https://f-droid.org/app/se.manyver)**: At last a mobile client for the _[Secure Scuttlebutt](https://ssbc.github.io/secure-scuttlebutt/)_ protocol lands in F-Droid! SSB is a peer-to-peer protocol and social network optimized for off-line and off-grid use. You can share messages locally using bluetooth or local WiFi, directly with your friends over the internet, or optionally tap into more centralized nodes called \"pubs\"."
-msgstr ""
+msgstr "{{ page.featured }} **[Manyverse](https://f-droid.org/app/se.manyver)**: Endlich ist ein mobiler Client für das _[Secure Scuttlebutt](https://ssbc.github.io/secure-scuttlebutt/)_-Protokoll auf F-Droid gelandet! SSB ist ein Peer-to-Peer-Protokoll und soziales Netzwerk, das für die Nutzung offline und ohne Versorgungsnetz optimiert ist. Sie können Nachrichten lokal über Bluetooth oder ein lokales WLAN teilen, über das Internet direkt mit Ihren Freunden austauschen oder wahlweise zentralisiertere Knoten, sogenannte \"Pubs\", anzapfen."
 
 #. type: Plain text
 #: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
 #, no-wrap
 msgid "    For in-depth details about the developer, André Staltz, and his motivations you can watch the [It's time to build our own Internet](https://www.youtube.com/watch?v=UjfWAbGfPh0) TEDxGeneva talk and the recent [Reinvent the social web](https://www.youtube.com/watch?v=8GE5C9-RUpg). If you're more inclined to read you can see his viral blog posts called [The Web began dying in 2014, here's how](https://staltz.com/the-web-began-dying-in-2014-heres-how.html) and the follow up [A plan to rescue the Web from the Internet](https://staltz.com/a-plan-to-rescue-the-web-from-the-internet.html).\n"
-msgstr ""
+msgstr "    Für tiefergehende Informationen über den Entwickler, André Staltz, und seine Motivation können Sie den TEDxGeneva-Talk [Es wird Zeit, unser eigenes Internet zu bauen](https://www.youtube.com/watch?v=UjfWAbGfPh0) und das jüngste [Das soziale Web neu erfinden](https://www.youtube.com/watch?v=8GE5C9-RUpg) anschauen. Wenn Sie mehr dazu neigen zu lesen, können Sie sich seine ansteckenden Blog-Beiträge unter dem Titel [Das Sterben des Web begann 2014, wie es dazu kam](https://staltz.com/the-web-began-dying-in-2014-heres-how.html) und den Nachfolger [Ein Plan das Web vor dem Internet zu retten](https://staltz.com/a-plan-to-rescue-the-web-from-the-internet.html) ansehen.\n"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
 msgid "{{ page.major }} Lots of changes for **[VPN Hotspot](https://f-droid.org/app/be.mygod.vpnhotspot)**, which updates we haven't been picking up since early June. Updating straight from 1.3.2 to 2.0.3, it has refined masquerading rules, starting on boot, dark theme and Android TV support, identifying and blocking unwanted clients, recording per-client bandwidth, and a ton of UI improvements and fixes. Note that the functionality of this app is limited without root access."
-msgstr ""
+msgstr "{{ page.major }} Viele Änderungen in **[VPN Hotspot](https://f-droid.org/app/be.mygod.vpnhotspot)**, deren Updates wir seit Anfang Juni nicht mehr übernommen haben. Geradewegs von 1.3.2 auf 2.0.3 aktualisiert, besitzt sie verfeinerte Masquerading-Regeln, den Start beim Boot, ein dunkles Design und die Android-TV-Unterstützung, Identifizierung und Blockierung unerwünschter Clients, Aufzeichnung der Bandbreite pro Client, und eine Masse an Verbesserungen der Benutzeroberfläche und Fehlerlösungen. Beachten Sie, dass die Funktionalität dieser App ohne Root-Zugriff eingeschränkt ist."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
 msgid "**[PasteBin](https://f-droid.org/app/com.anoopknr.pastebin)** is a client for Ubuntu pastebin. It was updated from 1.0 to 1.5, now with a stable and responsive UI, new recent post and about options, new custom toolbars and menu bars, and the usual bug fixes."
-msgstr ""
+msgstr "**[PasteBin](https://f-droid.org/app/com.anoopknr.pastebin)** ist ein Client für Ubuntu Pastebin. Er wurde von 1.0 auf 1.5 aktualisiert, nun mit einer stabilen und reaktionsfähigen Benutzeroberfläche, neuen \"letzter Post\"- und \"Über\"-Optionen, neu angepassten Werkzeug- und Menüleisten und den üblichen Fehlerkorrekturen."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
-#, fuzzy
 msgid "**[DuckDuckGo Privacy Browser](https://f-droid.org/app/com.duckduckgo.mobile.android)** updated from 5.10.3 to 5.10.4, adding optimizations to its HTTPS upgrading solution."
-msgstr "[DuckDuckGo Privacy Browser](https://f-droid.org/app/com.duckduckgo.mobile.android) wurde von 5.7.2 auf 5.7.5 aktualisiert, mit UI-Optimierungen und gefixten Crashes."
+msgstr "**[DuckDuckGo Privacy Browser](https://f-droid.org/app/com.duckduckgo.mobile.android)**, von 5.10.3 auf 5.10.4 aktualisiert, ergänzt Optimierungen in seiner Umsetzung der HTTPS-Höhereinstufung."
 
 #. type: Bullet: '*   '
 #: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
 msgid "**[TrebleShot](https://f-droid.org/app/com.genonbeta.TrebleShot)** allows you to send and receive files over available connections, and pause and resume transfer process even when an error is given. This update from 1.2.7.2 to 1.2.7.5 brings improved support for Android 9 (Pie), a theme update & dark theme, and an improved look for the app and the QR scanner, as well as new and updated translations and bug fixes."
-msgstr ""
+msgstr "**[TrebleShot](https://f-droid.org/app/com.genonbeta.TrebleShot)** ermöglicht den Versand und Empfang von Dateien über die zur Verfügung stehenden Verbindungen und das Pausieren und Fortsetzen des Übertragungsvorgangs selbst bei Auftreten eines Fehlers. Dieses Update von 1.2.7.2 auf 1.2.7.5 bringt die verbesserte Unterstützung von Android 9 (Pie) mit, ein aktualisertes & ein dunkles Design sowie ein verbessertes Aussehen der App und des QR-Scanners, wie auch neue und aktualisierte Übersetzungen und Fehlerlösungen."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
 msgid "**[PocketMaps](https://f-droid.org/app/com.junjunguo.pocketmaps)** is a map viewer with navigation system and support for offline use. This update from 2.0 to 2.3 allows to load GPX files to show an analysis and route, mute voice guidance when in a phone call, make downloads visible in the notification bar, now accepts geo: links from other apps, and several UI improvements."
-msgstr ""
+msgstr "**[PocketMaps](https://f-droid.org/app/com.junjunguo.pocketmaps)** ist ein Kartenbetrachter mit Navigationssystem und Unterstützung für den Offline-Gebrauch. Diese Aktualisierung von 2.0 auf 2.3 ermöglicht das Laden von GPX-Dateien, um eine Analyse und Route anzuzeigen, die Stummschaltung der Sprachführung bei Telefonanrufen, das Sichtbarmachen von Downloads in der Benachrichtigungsleiste, akzeptiert jetzt geo: Links aus anderen Apps, und enthält diverse UI-Verbesserungen."
 
 #. type: Bullet: '*   '
 #: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
-#, fuzzy
 msgid "**[Calculator](https://f-droid.org/app/com.simplemobiletools.calculator)** 4.2.0 has some updated libraries + translation updates."
-msgstr "[Gallery](https://f-droid.org/app/com.simplemobiletools.gallery) 4.1.1 bringt einige UX- und Stabilitätsverbesserungen und Bugfixes."
+msgstr "**[Calculator](https://f-droid.org/app/com.simplemobiletools.calculator)** 4.2.0 hat einige aktualisierte Bibliotheken + Übersetzungen."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
-#, fuzzy
 msgid "**[File Manager](https://f-droid.org/app/com.simplemobiletools.filemanager)** 4.3.1 has some bugfixes and translation improvements."
-msgstr "[Gallery](https://f-droid.org/app/com.simplemobiletools.gallery) 4.1.1 bringt einige UX- und Stabilitätsverbesserungen und Bugfixes."
+msgstr "**[File Manager](https://f-droid.org/app/com.simplemobiletools.filemanager)** 4.3.1 hat einige Korrekturen und Verbesserungen der Übersetzungen."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
 msgid "**[Gallery](https://f-droid.org/app/com.simplemobiletools.gallery)** 4.6.5 adds notch support for Android 9 (Pie), faster video seeking by dragging a finger at the bottom seekbar, a different way of displaying fullscreen GIFs, a new toggle for trying to show the best possible image quality, keep Favorite items marked after moving, and many smaller improvements and fixes."
-msgstr ""
+msgstr "**[Gallery](https://f-droid.org/app/com.simplemobiletools.gallery)** 4.6.5 fügt die Notch-Unerstützung für Android 9 (Pie) hinzu, ein schnelleres Video-Spulen, mittels Fingerzug an der unteren SeekBar, eine andere Art der Anzeige von GIFs im Vollbildmodus, einen neuen Umschalter, um die Anzeige der bestmöglichen Bildqualität auszuprobieren, lässt Favoriteneinträge nach Verschieben markiert und hat viele kleinere Verbesserungen und Korrekturen."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
 msgid "**[Elementary](https://f-droid.org/app/com.ultramegatech.ey)** is a simple Periodic Table and element reference application. Version 0.9.0 now requires at least Android 4.0 (up from 2.3), and has updated videos for Argon, Tin and Dubnium."
-msgstr ""
+msgstr "**[Elementary](https://f-droid.org/app/com.ultramegatech.ey)** ist eine einfache Periodentafel und ein Elementeverzeichnis. Version 0.9.0 braucht jetzt mindestens Android 4.0 (zuvor 2.3) und besitzt aktualisierte Videos für Argon, Zinn und Dubnium."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
+#, fuzzy
 msgid "{{ page.major }} **[Qz](https://f-droid.org/app/com.vonglasow.michael.qz)** (pronounced \"queues\") connects to an RDS/TMC receiver to receive live traffic messages, helping you avoid congestions. Version 2.0.0 is out, with the ability to send new messages as TraFF feeds to applications supporting it, updates to location tables, and fixing a bug causing the message list UI to miss some updates."
-msgstr ""
+msgstr "{{ page.major }} **[Qz](https://f-droid.org/app/com.vonglasow.michael.qz)** (ausgesprochen \"kju:s\") verbindet sich mit einem RDS/TMC-Empfänger, um Live-Verkehrsnachrichten zu erhalten, die Ihnen helfen Staus zu vermeiden. Version 2.0.0 kam heraus mit der Möglichkeit, neue Meldungen als TraFF-Feeds an Anwendugen zu senden, die das unterstützen, Aktualisierungen der Standorttabellen und Behebung eines Fehlers, der dazu führte, dass die Nachrichtenliste manche Aktualisierungen verpasste."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
 msgid "{{ page.major }} **[Wownerujo](https://f-droid.org/app/com.wownero.wownerujo)** is a fork of the cryptocurrency Monero with primary alterations. Updating from 1.6.4.0 to 2.3.0.1, the app is now based on Wownero v0.3.0.0 Cool Cage."
-msgstr ""
+msgstr "{{ page.major }} **[Wownerujo](https://f-droid.org/app/com.wownero.wownerujo)** ist ein Fork der Kryptowährung Monero mit grundlegenden Veränderungen. Nach Aktualisierung von 1.6.4.0 auf 2.3.0.1 basiert die App nun auf Wownero v0.3.0.0 Cool Cage."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
@@ -5956,9 +5954,8 @@ msgstr "**[Tricky Tripper](https://f-droid.org/app/de.koelle.christian.trickytri
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
-#, fuzzy
 msgid "**[Tutanota](https://f-droid.org/app/de.tutao.tutanota)** 3.37.2 contains updated Terms & Conditions."
-msgstr "[Tasks](https://f-droid.org/app/org.tasks) erhielt ein Update von 5.3.6 nach 6.0.5"
+msgstr "**[Tutanota](https://f-droid.org/app/de.tutao.tutanota)** 3.37.2 enthält aktualisierte allgemeine Geschäftdbedingungen."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
@@ -5967,9 +5964,8 @@ msgstr "**[EtchDroid](https://f-droid.org/app/eu.depau.etchdroid)** hilft dabei,
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
-#, fuzzy
 msgid "**[NetGuard](https://f-droid.org/app/eu.faircode.netguard)** was updated from 2.207 to 2.212, now checking for always-on VPN, updated translations, and some fixes."
-msgstr "**[FairEmail](https://f-droid.org/app/eu.faircode.email)** wurde von 0.69 auf 0.71 aktualisiert, die als Alternative jetzt Plain Text versendet, hat aktualisierte Tools und Bibliotheken, auf den neusten Stand gebrachte Übersetzungen und verschiedene kleine Verbesserungen und Korrekturen."
+msgstr "**[NetGuard](https://f-droid.org/app/eu.faircode.netguard)** wurde von 2.207 auf 2.212 aktualisiert, nun mit Prüfung auf ständig mitlaufendes VPN, aktualisierten Übersetzungen und einigen Korrekturen."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
@@ -5979,7 +5975,7 @@ msgstr "**[Tachiyomi](https://f-droid.org/app/eu.kanade.tachiyomi)** ist ein Man
 #. type: Bullet: '* '
 #: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
 msgid "**[Conversations](https://f-droid.org/app/eu.siacs.conversations)** is an instant messenger with support for group chat, based on the XMPP protocol. Starting with version 2.3.0+fcr it brings support for TLSv1.3 and can now disable screen & switch to ear piece in audio player, enable foreground service by default for Android 8 (Oreo), view per-contact media files in contact and conference details screen, preview and ask for confirmation before sending media files, use consistent color generation, fix Quiet Hours on Android 8+, and addition of a video quality selector."
-msgstr ""
+msgstr "**[Conversations](https://f-droid.org/app/eu.siacs.conversations)** ist ein Instant Messenger mit Unterstützung von Gruppen-Chats, die auf dem XMPP-Protokoll beruhen. Ab Version 2.3.0+fcr bringt er die TLSv1.3-Unterstützung mit und kann jetzt im Audio-Player den Bildschirm abschalten & zum Kopfhörer umschalten, den Vordergrunddienst standardmäßig in Android 8 (Oreo) aktivieren, in den Kontakt- und Konferenz-Detailansichten die Mediendateien nach Kontakt anzeigen, vor dem Versand von Mediendateien eine Vorschau anzeigen und eine Bestätigung abfragen, verwendet nun eine einheitliche Farbwahl, repariert \"Nicht stören\" auf Android 8+ und ergänzt eine Wahl der Videoqualität."
 
 #. type: Plain text
 #: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
