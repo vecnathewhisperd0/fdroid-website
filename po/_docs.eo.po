@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-10-29 11:18+0100\n"
-"PO-Revision-Date: 2018-10-31 18:23+0000\n"
+"PO-Revision-Date: 2018-11-02 15:23+0000\n"
 "Last-Translator: Verdulo <tomek@disroot.org>\n"
 "Language-Team: Esperanto <https://hosted.weblate.org/projects/f-droid/website-docs/eo/>\n"
 "Language: eo\n"
@@ -9429,7 +9429,7 @@ msgstr ""
 #: build/_docs/md/Security_Model.md
 #, no-wrap
 msgid "Security Model"
-msgstr ""
+msgstr "Sekur-modelo"
 
 #. type: Plain text
 #: build/_docs/md/Security_Model.md
@@ -9437,19 +9437,19 @@ msgid ""
 "The security architecture is based on models proven by [Debian](https://wiki."
 "debian.org/SecureApt), [The Update Framework](https://github.com/"
 "theupdateframework/tuf/blob/develop/docs/tuf-spec.txt)  , and others:"
-msgstr ""
+msgstr "Sekureca arĥitekturo baziĝas sur modeloj provitaj de [Debian](https://wiki.debian.org/SecureApt), [TUF](https://github.com/theupdateframework/tuf/blob/develop/docs/tuf-spec.txt) kaj aliaj:"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Security_Model.md
 msgid ""
 "[HTTPS connections by default](https://gitlab.com/fdroid/fdroidclient/blob/"
 "v0.100.1/app/src/main/res/values/default_repo.xml#L11)"
-msgstr ""
+msgstr "[implicite konekti per HTTPS](https://gitlab.com/fdroid/fdroidclient/blob/v0.100.1/app/src/main/res/values/default_repo.xml#L11)"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Security_Model.md
 msgid "server only works over HTTPS, [HTTP](http://f-droid.org) is a redirect"
-msgstr ""
+msgstr "servilo nur funkcias per HTTPS, [HTTP](http://f-droid.org) estas aldirektita"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Security_Model.md
@@ -9457,14 +9457,14 @@ msgid ""
 "[Android enforces](https://developer.android.com/studio/publish/app-signing."
 "html#considerations) that all apps have a valid signature over the entire "
 "contents of the APK file"
-msgstr ""
+msgstr "[Android devigas](https://developer.android.com/studio/publish/app-signing.html#considerations), por ke ĉiuj aplikaĵoj havu ĝustan subskribon por ĉiu enhavo de la APK-dosiero"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Security_Model.md
 msgid ""
 "[Android verifies updates](https://developer.android.com/studio/publish/app-"
 "signing.html#considerations) based on the signature of the installed app"
-msgstr ""
+msgstr "[Android verigas ĝisdatigojn](https://developer.android.com/studio/publish/app-signing.html#considerations) surbaze de subskribo de jam instalita aplikaĵo"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Security_Model.md
@@ -9473,7 +9473,7 @@ msgid ""
 "app/src/main/java/org/fdroid/fdroid/installer/ApkCache.java#L57) protected "
 "by [signed metadata](https://gitlab.com/fdroid/fdroidclient/blob/v0.101-"
 "alpha2/app/src/main/java/org/fdroid/fdroid/RepoUpdater.java#L212)"
-msgstr ""
+msgstr "[kohero de dosieroj](https://gitlab.com/fdroid/fdroidclient/blob/v0.101-alpha2/app/src/main/java/org/fdroid/fdroid/installer/ApkCache.java#L57) estas protektata per [subskribitaj metadatumoj](https://gitlab.com/fdroid/fdroidclient/blob/v0.101-alpha2/app/src/main/java/org/fdroid/fdroid/RepoUpdater.java#L212)"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Security_Model.md
@@ -9482,7 +9482,7 @@ msgid ""
 "fdroidserver/blob/0.6.0/fdroidserver/update.py#L460) and its [signing key]"
 "(https://gitlab.com/fdroid/fdroidserver/blob/0.6.0/fdroidserver/update."
 "py#L558)"
-msgstr ""
+msgstr "subskribitaj metadatumoj enhavas haketaĵon (ang. hash) de la [aplikaĵo](https://gitlab.com/fdroid/fdroidserver/blob/0.6.0/fdroidserver/update.py#L460) kaj ĝian [subskriban ŝlosilon](https://gitlab.com/fdroid/fdroidserver/blob/0.6.0/fdroidserver/update.py#L558)"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Security_Model.md
@@ -9490,7 +9490,7 @@ msgid ""
 "[signed metadata generated on a separate machine](https://gitlab.com/fdroid/"
 "fdroidserver/blob/0.6.0/fdroidserver/update.py#L989) (which is fully offline "
 "for f-droid.org and guardianproject.info)"
-msgstr ""
+msgstr "[subskribitaj metadatumoj kreitaj en la aparta maŝino](https://gitlab.com/fdroid/fdroidserver/blob/0.6.0/fdroidserver/update.py#L989) (kiu estas tute eksterreta por f-droid.org kaj guardianproject.info)"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Security_Model.md
@@ -9498,7 +9498,7 @@ msgid ""
 "[public key for verifying metadata signatures built into F-Droid client app]"
 "(https://gitlab.com/fdroid/fdroidclient/blob/v0.100.1/app/src/main/res/"
 "values/default_repo.xml#L13)"
-msgstr ""
+msgstr "[publika ŝlosilo por verigi subskribojn de metadatumojn inkluzivita en la aplikaĵa kliento F-Droid](https://gitlab.com/fdroid/fdroidclient/blob/v0.100.1/app/src/main/res/values/default_repo.xml#L13)"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Security_Model.md
@@ -9506,19 +9506,19 @@ msgid ""
 "signed metadata includes [timestamp](https://gitlab.com/fdroid/fdroidclient/"
 "commit/02b2090e530ab5d22b522d978728f34bb332b390)  and [expiry](https://"
 "gitlab.com/fdroid/fdroidserver/blob/0.6.0/fdroidserver/update.py#L775)"
-msgstr ""
+msgstr "subskribitaj metadatumoj enhavas [tempindikon](https://gitlab.com/fdroid/fdroidclient/commit/02b2090e530ab5d22b522d978728f34bb332b390), kiu [senvalidiĝas](https://gitlab.com/fdroid/fdroidserver/blob/0.6.0/fdroidserver/update.py#L775)"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Security_Model.md
 msgid "easy Tor support via Settings"
-msgstr ""
+msgstr "facile agordebla subteno por la Tor-reto"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Security_Model.md
 msgid ""
 "[client-side HTTP “etag” cache check](https://gitlab.com/fdroid/fdroidclient/"
 "issues/562)  so the ETag cannot be abused to track users"
-msgstr ""
+msgstr "[klient-kontrolata HTTP-mesaĝkapo “ETag”](https://gitlab.com/fdroid/fdroidclient/issues/562) por ke ne estu eble spuri uzantojn per ĝi"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Security_Model.md
@@ -9527,7 +9527,7 @@ msgid ""
 "[chooses mirrors](https://gitlab.com/fdroid/fdroidclient/issues/35)  based "
 "on availability and freshness based on local criteria like whether Tor is in "
 "use"
-msgstr ""
+msgstr "listo de oficialaj spegul-serviloj inkluzivita en subskribitaj metadatumoj, por ke la kliento povu [elekti servilon](https://gitlab.com/fdroid/fdroidclient/issues/35) konsiderante disponeblon kaj lokajn kriteriojn (ekz. ĉu la Tor-reto estas uzata)"
 
 #. type: Plain text
 #: build/_docs/md/Security_Model.md
