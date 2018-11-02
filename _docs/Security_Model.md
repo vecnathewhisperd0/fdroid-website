@@ -24,19 +24,18 @@ Framework](https://github.com/theupdateframework/tuf/blob/develop/docs/tuf-spec.
     and
     [expiry](https://gitlab.com/fdroid/fdroidserver/blob/0.6.0/fdroidserver/update.py#L775)
 -   easy Tor support via Settings
+-   [client-side HTTP “etag” cache check](https://gitlab.com/fdroid/fdroidclient/issues/562)
+    so the ETag cannot be abused to track users
+-   list of official mirrors included in signed metadata, then the
+    client
+    [chooses mirrors](https://gitlab.com/fdroid/fdroidclient/issues/35)
+    based on availability and freshness based on local criteria like
+    whether Tor is in use
 
-While the current setup is already a solid platform, we are implementing
-a number of improvements:
+While the current setup is already a solid platform, there are a
+number of improvements that make sense to implement:
 
--   The signed metadata will include list of official mirrors, then the
-    client [chooses
-    mirrors](https://gitlab.com/fdroid/fdroidclient/issues/35) based on
-    availability and freshness based on local criteria like whether Tor
-    is in use, closest on the internet, etc.
--   We are also moving the standard HTTP “etag” cache check from the
-    server [to the
-    client](https://gitlab.com/fdroid/fdroidclient/issues/562) so it
-    cannot be abused to track users
+-   better handling of index expiry aka "max age"
 -   [pinned TLS certificate built into the client
     app](https://gitlab.com/fdroid/fdroidclient/commit/0429b3f7dd4a6037fa11df64bfdd176ea378e6bf)
 
@@ -95,7 +94,7 @@ to make it as hard as possible to exploit this vector.
   browser, eliminating all possibility of XSS attacks
 
 
-### F-Droid as built in app store
+### F-Droid as built-in app store
 
 When F-Droid is built into Android, either as part of the ROM or by
 flashing an
@@ -118,11 +117,36 @@ ROM projects.  It is already included in
 [Fairphone Open](https://code.fairphone.com/projects/fp-osos/).
 
 
+### Protecting against malicious contributor-generated data
+
+The app descriptions are submitted by all sorts of people, and they
+can also be taken from the app's source repository.  This data is
+ultimately delivered to the Android client or the user's browser via
+_f-droid.org_.
+
+* the Android client never runs CSS, Javascript, or dangerous HTML
+tags since it displays HTML via
+[`android.text.Html.fromHtml()`](https://gitlab.com/fdroid/fdroidclient/blob/1.3.1/app/src/main/java/org/fdroid/fdroid/views/AppDetailsRecyclerViewAdapter.java#L441)
+with image loading disabled
+* the _f-droid.org_ website protects against malicious and
+CSS/HTML/Javascript injection with a
+[strict HTTP Content Security Policy](https://observatory.mozilla.org/analyze.html?host=f-droid.org).
+* Repomaker filters the texts through Mozilla's
+[_bleach_](https://github.com/mozilla/bleach) and has a good
+[HTTP Content Security Policy](https://observatory.mozilla.org/analyze.html?host=repomaker.grobox.de).
+
+
 ## Security Audits
 
 1. There was a quick, informal
    [security audit](https://dev.guardianproject.info/projects/bazaar/wiki/Initial_FDroid_Audit_by_pd0x)
+   ([_archived_](https://web.archive.org/web/20170317154208/https://dev.guardianproject.info/projects/bazaar/wiki/Initial_FDroid_Audit_by_pd0x))
    done in 2013 by then graduate student Daniel McCarney aka _pd0x_.
 
-2. The first "Bazaar" project funded by Open Tech Fund included an
+2. The first "Bazaar" project funded by [Open Tech Fund](https://opentech.fund) included an
    [external public audit]({{ site.baseurl }}/2018/01/20/upcoming-security-audit.html)
+   from [Cure53](https://cure53.de)
+
+3. The second "Bazaar2" project funded by Open Tech Fund included an
+   [external public audit]({{ site.baseurl }}/2018/09/04/second-security-audit-results.html)
+   from [Radically Open Security](https://radicallyopensecurity.com/)

@@ -7,44 +7,42 @@
         "title": "Czym jest F-Droid?"
     },
     "navigation": {
-        "about": "O aplikacji F-Droid",
-        "contribute": "Przyczyń się do rozwoju F-Droid",
+        "about": "O projekcie",
+        "documentation": "Dokumentacja",
         "forum": "Forum",
         "browse": "Przeglądaj",
-        "documentation": "Dokumentacja",
+        "contribute": "Przyczyń się do rozwoju F-Droid",
         "repomaker": "Kreator repozytoriów",
         "tutorials": "Poradniki",
         "news": "Aktualności",
         "issues": "Kwestie problemowe"
     },
     "package": {
+        "website": "Witryna internetowa",
+        "permissions": "Uprawnienia",
+        "donate": "Złóż darowiznę",
         "liberapay": "Liberapay",
         "technical_info": "Informacje techniczne",
-        "download": "Pobierz [file_extension]",
-        "minimum_android_version": "Ta wersja F-Droid wymaga Android [android_version] lub nowszej wersji tego systemu.",
-        "suggest_downloading_via_fdroid": "Chociaż poniżej masz możliwość pobrania plików APK, powinieneś być jednak świadomy tego, że instalując F-Droid w ten sposób — nie będziesz informowany o aktualizacjach. Jest to mniej bezpieczny sposób pobierania tej aplikacji. Zamiast tego, zalecamy pobranie klienta F-Droid, a następnie instalację F-Droid\nza jego pomocą.",
-        "anti_features_warning": "Ta aplikacja ma funkcje, które mogą Ci się nie spodobać",
         "build_metadata": "Metadane kompilacji",
         "author": "Autor",
-        "signed_by_developer": "Podpisana i skompilowana przez twórcę oprogramowania.",
-        "signed_by_fdroid": "Podpisana i skompilowana przez F-Droid; gwarantuje zgodność z <a href=\"[source_code_url]\">tą paczką kodu źródłowego</a>.",
-        "donate": "Złóż darowiznę",
-        "website": "Witryna internetowa",
-        "flattr": "Flattr",
-        "version_info": "<b>Wersja [package_version]</b> ([package_version_code]) - Dodana do [package_added_date]",
-        "anti_features": "Anty-Funkcje",
-        "source_code": "Kod źródłowy",
-        "packages": "Pakiety",
-        "issue_tracker": "System śledzenia błędów",
-        "permissions": "Uprawnienia",
-        "license": "Licencja",
-        "changelog": "Dziennik zmian",
         "new_in_version": "Nowości w wersji [latest_version]",
-        "gpg_signature": "Podpis PGP"
+        "version_info": "<b>Wersja [package_version]</b> ([package_version_code]) - Dodana do [package_added_date]",
+        "changelog": "Dziennik zmian",
+        "issue_tracker": "System śledzenia błędów",
+        "signed_by_developer": "Podpisana i skompilowana przez twórcę oprogramowania.",
+        "gpg_signature": "Podpis PGP",
+        "signed_by_fdroid": "Podpisana i skompilowana przez F-Droid; gwarantuje zgodność z <a href=\"[source_code_url]\">tą paczką kodu źródłowego</a>.",
+        "packages": "Pakiety",
+        "download": "Pobierz [file_extension]",
+        "license": "Licencja",
+        "minimum_android_version": "Ta wersja F-Droid wymaga Android [android_version] lub nowszej wersji tego systemu.",
+        "suggest_downloading_via_fdroid": "Chociaż poniżej masz możliwość pobrania plików APK, powinieneś być jednak świadomy tego, że instalując F-Droid w ten sposób — nie będziesz informowany o aktualizacjach. Jest to mniej bezpieczny sposób pobierania tej aplikacji. Zamiast tego, zalecamy pobranie klienta F-Droid, a następnie instalację F-Droid za jego pomocą.",
+        "source_code": "Kod źródłowy",
+        "flattr": "Flattr"
     },
     "sidebars": {
         "latest_packages": {
-            "heading": "Najnowsze apps"
+            "heading": "Najnowsze aplikacje"
         },
         "news": {
             "heading": "Aktualności"
@@ -52,7 +50,7 @@
         "search": {
             "noscript": "Niezbędne jest włączenie JavaScript",
             "search": "Szukaj",
-            "heading": "Szukaj apps"
+            "heading": "Szukaj aplikacji"
         },
         "donate": {
             "bank_transfer_name": "Nazwa",
@@ -63,7 +61,10 @@
             "flattr_alt": "Złóż darowiznę za pomocą Flattr",
             "paypal_alt": "Złóż darowiznę za pomocą PayPal",
             "liberapay_alt": "Złóż darowiznę za pomocą Liberapay",
-            "heading": "Złóż darowiznę"
+            "heading": "Złóż darowiznę",
+            "hellotux": "👕 Koszulki z 👕",
+            "hellotux_alt": "HELLOTUX",
+            "hellotux_donation": "F-Droid otrzyma 3 € za sprzedaną koszulkę."
         },
         "last_updated": {
             "heading": "Ostatnia aktualizacja"

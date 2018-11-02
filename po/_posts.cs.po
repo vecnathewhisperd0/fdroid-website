@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-08-17 13:55+0200\n"
+"POT-Creation-Date: 2018-10-29 11:18+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -969,12 +969,12 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-03-01-website-updates.md
-msgid "<https://staging.f-droid.org/search?q=gpl-3.0>"
+msgid "<https://search.f-droid.org/?q=gpl-3.0>"
 msgstr ""
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-03-01-website-updates.md
-msgid "<https://staging.f-droid.org/search?q=apache-2.0>"
+msgid "<https://search.f-droid.org/?q=apache-2.0>"
 msgstr ""
 
 #. type: Plain text
@@ -1163,6 +1163,15 @@ msgstr ""
 #: build/_posts/md/2018-08-03-twif-15-announcing-f-droid-1-3.md
 #: build/_posts/md/2018-08-10-twif-16-the-note-taking-todo-text-editor-edition.md
 #: build/_posts/md/2018-08-16-twif-17-the-reproducible-builds-and-encrypted-e-mail-edition.md
+#: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
+#: build/_posts/md/2018-09-06-twif-20-security-audit-completed-buildserver-setup-with-ansible.md
+#: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
+#: build/_posts/md/2018-09-21-twif-22-servers-edition.md
+#: build/_posts/md/2018-09-27-twif-23-successful-update-to-stretch.md
+#: build/_posts/md/2018-10-04-twif-24-the-end-of-logging-as-we-know-it.md
+#: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
+#: build/_posts/md/2018-10-20-twif-26-tagesschau-f-droid-repo-and-translation-workflow-improvement.md
+#: build/_posts/md/2018-10-25-twif-27-new-servers-and-first-alpha-release-of-f-droid-1-5.md
 #, no-wrap
 msgid "New apps"
 msgstr ""
@@ -1190,6 +1199,15 @@ msgstr ""
 #: build/_posts/md/2018-08-03-twif-15-announcing-f-droid-1-3.md
 #: build/_posts/md/2018-08-10-twif-16-the-note-taking-todo-text-editor-edition.md
 #: build/_posts/md/2018-08-16-twif-17-the-reproducible-builds-and-encrypted-e-mail-edition.md
+#: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
+#: build/_posts/md/2018-09-06-twif-20-security-audit-completed-buildserver-setup-with-ansible.md
+#: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
+#: build/_posts/md/2018-09-21-twif-22-servers-edition.md
+#: build/_posts/md/2018-09-27-twif-23-successful-update-to-stretch.md
+#: build/_posts/md/2018-10-04-twif-24-the-end-of-logging-as-we-know-it.md
+#: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
+#: build/_posts/md/2018-10-20-twif-26-tagesschau-f-droid-repo-and-translation-workflow-improvement.md
+#: build/_posts/md/2018-10-25-twif-27-new-servers-and-first-alpha-release-of-f-droid-1-5.md
 #, no-wrap
 msgid "Updated apps"
 msgstr ""
@@ -1245,6 +1263,8 @@ msgstr ""
 #: build/_posts/md/2018-08-03-twif-15-announcing-f-droid-1-3.md
 #: build/_posts/md/2018-08-10-twif-16-the-note-taking-todo-text-editor-edition.md
 #: build/_posts/md/2018-08-16-twif-17-the-reproducible-builds-and-encrypted-e-mail-edition.md
+#: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
+#: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
 #, no-wrap
 msgid "In the next TWIF"
 msgstr ""
@@ -1334,6 +1354,7 @@ msgstr ""
 #: build/_posts/md/2018-08-03-twif-15-announcing-f-droid-1-3.md
 #: build/_posts/md/2018-08-10-twif-16-the-note-taking-todo-text-editor-edition.md
 #: build/_posts/md/2018-08-16-twif-17-the-reproducible-builds-and-encrypted-e-mail-edition.md
+#: build/_posts/md/2018-09-06-twif-20-security-audit-completed-buildserver-setup-with-ansible.md
 #, no-wrap
 msgid "Community News"
 msgstr ""
@@ -3030,6 +3051,7 @@ msgstr ""
 #: build/_posts/md/2018-07-21-twif-13-public-transport-edition.md
 #: build/_posts/md/2018-07-27-twif-14-the-reproducibly-stuck-edition.md
 #: build/_posts/md/2018-08-03-twif-15-announcing-f-droid-1-3.md
+#: build/_posts/md/2018-09-21-twif-22-servers-edition.md
 #, no-wrap
 msgid "Removed Apps"
 msgstr ""
@@ -3078,6 +3100,7 @@ msgstr ""
 #: build/_posts/md/2018-08-03-twif-15-announcing-f-droid-1-3.md
 #: build/_posts/md/2018-08-10-twif-16-the-note-taking-todo-text-editor-edition.md
 #: build/_posts/md/2018-08-16-twif-17-the-reproducible-builds-and-encrypted-e-mail-edition.md
+#: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
 #, no-wrap
 msgid "Feedback"
 msgstr ""
@@ -3535,6 +3558,8 @@ msgstr ""
 #. type: Plain text
 #: build/_posts/md/2018-08-10-twif-16-the-note-taking-todo-text-editor-edition.md
 #: build/_posts/md/2018-08-16-twif-17-the-reproducible-builds-and-encrypted-e-mail-edition.md
+#: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
+#: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
 msgid "As great as changelogs are, don't forget to send in your tips! There are way too many app updates to keep track of them all, and we'd love your help in highlighting the important ones. And of course, if you're doing anything involving F-Droid in any way, tell us about it!"
 msgstr ""
 
@@ -3629,7 +3654,7 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-16-twif-17-the-reproducible-builds-and-encrypted-e-mail-edition.md
-msgid "{{ page.featured }} **[Tutanota](https://f-droid.org/app/de.tutao.tutanota)** has [dropped on F-Droid](https://tutanota.com/blog/posts/open-source-email)! We are happy to see how enthusiastic Tutao, the company behind Tutanova, is about F-Droid and free software, having [rewritten their app from scratch](https://tutanota.com/blog/posts/secure-mail-open-source) so it could be included in our main repository. Furthermore, they take special measures to avoid tracking you, and end-to-end encryption and two-factor authentication are core features."
+msgid "{{ page.featured }} **[Tutanota](https://f-droid.org/app/de.tutao.tutanota)** has [dropped on F-Droid](https://tutanota.com/blog/posts/open-source-email)! We are happy to see how enthusiastic Tutao, the company behind Tutanota, is about F-Droid and free software, having [rewritten their app from scratch](https://tutanota.com/blog/posts/secure-mail-open-source) so it could be included in our main repository. Furthermore, they take special measures to avoid tracking you, and end-to-end encryption and two-factor authentication are core features."
 msgstr ""
 
 #. type: Plain text
@@ -3742,4 +3767,2486 @@ msgstr ""
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-16-twif-17-the-reproducible-builds-and-encrypted-e-mail-edition.md
 msgid "**[Video Transcoder](https://f-droid.org/app/protect.videoeditor)** was updated from 0.11 to 0.12, extending support to Android 4.4! (Previously 5.0+) Video Transcoder lets you encode videos into different formats, trim videos, and extract audio, right on your own phone without connecting to the internet. This update also adds support for custom video resolutions, removes hard-coded video resolutions and only displays the original resolution with 1/2 and 1/4 resolutions."
+msgstr ""
+
+#. type: Title #
+#: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
+#, no-wrap
+msgid "\"TWIF 18: Navigation Apps Updated\" "
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
+msgid "This Week in F-Droid 18, Week 34, 2018."
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
+#, no-wrap
+msgid ""
+"Highlights: 11 newly released apps, OsmAnd and Maps receive major updates, upcoming talks at F/LOSS conferences, and preliminary discussion on efforts to decentralise F-droid index creation.\n"
+"<!--more-->\n"
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
+#, no-wrap
+msgid "**[F-Droid](https://f-droid.org/)** is a **[repository](https://f-droid.org/packages/)** of verified **[free and open source](https://en.wikipedia.org/wiki/Free_and_open-source_software)** Android apps, a **[client](https://f-droid.org/app/org.fdroid.fdroid)** to access it, as well as a whole \"app store kit\", providing all the tools needed to set up and run an app store. It is a community-run free software project developed by a wide range of contributors. This is their story this past week.\n"
+msgstr ""
+
+#. type: Title ####
+#: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
+#, no-wrap
+msgid "Upcoming Conferences"
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
+msgid "Members of the F-Droid community love to get out and spread the word about F-Droid. The Nextcloud Conference in Berlin began today and **[@Bubu](https://chaos.social/@Bubu)** will be giving a talk on Nextcloud on Saturday. After the talk, the slides will be available at this **[link](https://bubu1.eu/fdroid_lightning_talk_nextcloudconf.pdf)**. Before the talk that link will lead you to a 404 so be patient. Two years ago, **[@_hc](https://forum.f-droid.org/u/hans)** gave a talk at FOSDEM 2016 showcasing how F-droid can protect users privacy and help users to evade censorship. @Bubu hopes that F-droid can return to FOSDEM in 2019; he is hoping to present a talk and possibly have a dedicated F-Droid stand. @Bubu has started a **[thread](https://forum.f-droid.org/t/fosdem-2019/3652)** on the forum to discuss plans for FOSDEM 2019."
+msgstr ""
+
+#. type: Title ####
+#: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
+#, no-wrap
+msgid "Decentralized Index Generation"
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
+#, no-wrap
+msgid "**[@Tovok](https://blog.grobox.de/)** from the #fdroid-dev IRC channel has begun brainstorming ways to decentralize the index creation for the F-Droid main repository. As this seems to be a new problem, a new protocol will be needed. The goal of this new protocol will be to reproducibly build the repository index in a decenralized manner without relying on any trusted parties. Given sufficient interest, @Tovok may write up the ideas for decentralised index creation in a blog post. \n"
+msgstr ""
+
+#. type: Title ####
+#: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
+#, no-wrap
+msgid "Added Apps"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
+msgid "**[LaaNo](https://f-droid.org/app/com.bytesforge.linkasanote)**: Bind notes to links and sync them with Nextcloud"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
+msgid "**[IPCam Demo](https://f-droid.org/app/com.github.niqdev.ipcam)**: MJPEG video streaming on Android"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
+msgid "**[FIND3 Scanner](https://f-droid.org/app/com.internalpositioning.find3.find3app)**: Scan Bluetooth and WiFi for FIND3"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
+msgid "**[Wanicchou](https://f-droid.org/app/com.waifusims.wanicchou)**: Online Japanese-Japanese Dictionary with Anki support"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
+msgid "**[wownerujo](https://f-droid.org/app/com.wownero.wownerujo)**: Wownero wallet"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
+msgid "**[Meshenger](https://f-droid.org/app/d.d.meshenger)**: An Open-Source P2P Messenger"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
+msgid "**[OpenUntis](https://f-droid.org/app/de.perflyst.untis)**: An alternative FLOSS client for the Untis timetable system"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
+msgid "**[AnExplorer Pro](https://f-droid.org/app/dev.dworks.apps.anexplorer.pro)**: All-in-one file management tools"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
+msgid "**[Mundraub](https://f-droid.org/app/eu.quelltext.mundraub)**: Unofficial App for Mundraub.org"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
+msgid "**[Techahashi](https://f-droid.org/app/negativedensity.techahashi)**: Minimal presentation tool, Takahashi method with technical upgrades"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
+msgid "**[OpenFool](https://f-droid.org/app/ru.hyst329.openfool)** OpenFool is a free and open source Fool (Durak)** card game for desktop and Android."
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
+msgid "11 apps were added"
+msgstr ""
+
+#. type: Title ####
+#: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
+#, no-wrap
+msgid "Updated Apps"
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
+msgid "In total, 62 apps were updated this week. Here are the highlights."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
+msgid "{{ page.featured }} **[Maps](https://f-droid.org/app/com.github.axet.maps)** is an offline openstreetmap app. Version 8.3.5-3 finally brings a fix that allows users to log in to OpenStreetMap.org so they can edit the map."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
+msgid "Everybody loves the SimpleMobileTools from Tibor Kaputa. **[Gallery](https://f-droid.org/app/com.simplemobiletools.gallery)** version 4.6.1 now supports SVG images making it one of the few Android apps to do so. Further, the fullscreen image support has been improved along with other smaller parts of the UX."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
+msgid "{{ page.featured }} **[A Photo Manager](https://f-droid.org/app/de.k3b.android.androFotoFinder)** the gallery app with tag support and powerfull Openstreetmap integration has received a major update to 0.7.0 with new icons. Major improvements include a new search bar for finding photos along with a date-picker to choose \"virtual-albums' from folder-picker or any file manager. An upcoming bugfix release to 0.7.1 next week will fix the broken “show in new gallery/map”."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
+msgid "The testing only **[Bitcoin Wallet [testnet3]](https://f-droid.org/app/de.schildbach.wallet_test)** was updated from 6.29 to 6.30 and now builds reproducibly."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
+msgid "**[Tutanota](https://f-droid.org/app/de.tutao.tutanota)**, an encrypted email client, just came to F-Droid last week and has already received a minor bug fix release. It was updated from 3.35.13 to 3.36.1 fixing a bug with the 2FA dialog and a few other minor stability and performance bugs."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
+msgid "While some users may shy away from YouTube, F-Droid still provides several high quality open-source apps to help you binge on YouTube videos. **[SkyTube](https://f-droid.org/app/free.rm.skytube.oss)** receieved a major update to version 2.9.0 bringing a slough of new features including video blocking, volume and brightness gestures, search history, a new video player, better video and playlist support and a new icon."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
+msgid "{{ page.featured }} **[OsmAnd~](https://f-droid.org/app/net.osmand.plus)** was updated from 3.0.4 to 3.1.6. The most exciting change with this update is improved OSM editing. Users can now modify tags on multinode objects in OSM such as building or roads. Previously only point objects could modified. Other changes include a fix for OSM notes and refactored and improved wikivoyage and wikipedia articles in French and Italian."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
+msgid "**[Gadgetbridge](https://f-droid.org/app/nodomain.freeyourgadget.gadgetbridge)** allows you to communicate with many types of devices including Pebble, Mi Band, Amazon Bip, and Hplus.  Version 0.29.1 brings better language and notifcation support to the Mi Band 3 and began implementation of start and end of sleep statistics."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
+msgid "**[OpenFoodFacts](https://f-droid.org/app/openfoodfacts.github.scrachx.openfood)** provides a public database of food ingredients, allergens, and nutrition facts. Version 2.9.0 allows users to edit any product on Open Pet Food Facts. It also brings new translations in Slovak, Hebrew, Spanish, Arabic, Dutch, Hungarian, Vietnamese, and more. OpenBeautyFacts and OpenPetFoodFacts received similar updates."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
+msgid "**[Tremotesf](https://f-droid.org/app/org.equeim.tremotesf)**, the remote control for the Transmission BitTorrent client was updated to version 1.8.1. This fixes a crash when disconnecting from a server."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
+msgid "The Android inventory agent, **[Inventory](https://f-droid.org/app/org.flyve.inventory.agent)**, got its 1.0 release. This is major update brings new anonymous voluntary data sharing, a new main app layout, an overhauled interface, and modern Android permission dialogs."
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
+#: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
+msgid "Hey there, developers! Do you know what would be a good thing to do for your project? **[Keep a changelog](https://keepachangelog.com)**! It lets humans quickly understand what's changed in your software. If there's anything of note in there, you might even see it featured in the next TWIF!"
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
+msgid "Send tips to **[@fdroidorg@mastodon.technology](https://mastodon.technology/@fdroidorg)** and remember to tag with **[#TWIF](https://mastodon.technology/tags/twif)**. Or use the **[TWIF submission thread](https://forum.f-droid.org/t/twif-submission-thread)** on the forum. The deadline to the next TWIF is Thursday 12:00 UTC."
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
+msgid "Got Feedback? We are very tootable at **[@fdroidorg@mastodon.technology](https://mastodon.technology/@fdroidorg)** on Mastodon. If you'd like to have a chat, you can find us in #fdroid on **[Freenode](https://freenode.net)**, on Matrix via **[#freenode_#fdroid:matrix.org](https://matrix.to/#/#freenode_#fdroid:matrix.org)** or on **[Telegram](https://t.me/joinchat/AlRQekvjWDTuQrCgMYSNVA)**. All of these spaces are bridged together, so the choice is yours. You can also join us on the **[forum](https://forum.f-droid.org/)**."
+msgstr ""
+
+#. type: Title ####
+#: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
+#, no-wrap
+msgid "Postscript"
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-08-23-twif-18-navigation-apps-updated.md
+msgid "Please everybody give **[Coffee](https://open.source.coffee)** a round of applause and a thank you for writing the last 17 TWIFs."
+msgstr ""
+
+#. type: Title #
+#: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
+#, no-wrap
+msgid "\"TWIF 19: Untis, Tusky and Rabbit Escape updated\""
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
+msgid "This Week In F-Droid 19, Week 35, 2018"
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
+#, no-wrap
+msgid ""
+"In this edition: 9 new apps, and 57 updates featuring Untis, Tusky, Rabbit Escape, and also Libretorrent, Orgzly, StreetComplete, Mastalab, Revolution IRC and more.\n"
+"<!--more-->\n"
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
+#: build/_posts/md/2018-09-06-twif-20-security-audit-completed-buildserver-setup-with-ansible.md
+#: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
+#: build/_posts/md/2018-09-21-twif-22-servers-edition.md
+#: build/_posts/md/2018-09-27-twif-23-successful-update-to-stretch.md
+#: build/_posts/md/2018-10-04-twif-24-the-end-of-logging-as-we-know-it.md
+#: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
+#: build/_posts/md/2018-10-20-twif-26-tagesschau-f-droid-repo-and-translation-workflow-improvement.md
+#: build/_posts/md/2018-10-25-twif-27-new-servers-and-first-alpha-release-of-f-droid-1-5.md
+#, no-wrap
+msgid "**[F-Droid](https://f-droid.org/)** is a [repository](https://f-droid.org/packages/) of verified [free and open source](https://en.wikipedia.org/wiki/Free_and_open-source_software) Android apps, a **[client](https://f-droid.org/app/org.fdroid.fdroid)** to access it, as well as a whole \"app store kit\", providing all the tools needed to set up and run an app store. It is a community-run free software project developed by a wide range of contributors. This is their story this past week.\n"
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
+#, no-wrap
+msgid "**9** new apps have been added to the repository, bringing the total up to **1589**.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
+msgid "**[Temp. monitor](https://f-droid.org/app/com.gmail.jiwopene.temperature)**: Shows and logs HW temperature"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
+msgid "**[XMouse](https://f-droid.org/app/com.stripe1.xmouse)**: Remotely control X11 via SSH commands generated by your phone or tablet"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
+msgid "**[Freifunk-Karte](https://f-droid.org/app/de.freifunk_karte.freifunk_karte)**: Map for viewing the Freifunk Nodes on a OpenStreetMap"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
+msgid "**[Run Userinit](https://f-droid.org/app/de.lisas.alex.runuserinit)**: Run user init scripts after boot"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
+msgid "**[FairEmail](https://f-droid.org/app/eu.faircode.email)**: Privacy friendly email app from the developer of **[NetGuard](https://f-droid.org/app/eu.faircode.netguard)**"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
+msgid "**[Shelter](https://f-droid.org/app/net.typeblog.shelter)**: Isolate your Big Brother Apps / Multiple Accounts"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
+msgid "**[Cow's Revenge](https://f-droid.org/app/org.pipoypipagames.cowsrevenge)**: Indie platform game in pixel art where you are a cow abducted and genetically improved by aliens"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
+msgid "**[Patolli](https://f-droid.org/app/ru.henridellal.patolli)**: Board game for 1 or 2 players"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
+msgid "**[APKMirror](https://f-droid.org/app/taco.apkmirror)**: An unofficial APKMirror client/web app"
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
+msgid "In total, 57 apps were updated this week. Here are the highlights:"
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
+#, no-wrap
+msgid ""
+"* {{ page.featured }} You must use **Untis** for your timetable because nothing else is offered by your school? You care about privacy and don't wanna use the official proprietary mobile client? Then you can now get **[OpenUntis](https://f-droid.org/app/de.perflyst.untis)** from F-Droid.\n"
+"  * Same features as official app\n"
+"  * Extra customization options\n"
+"  * Fully open source\n"
+"  * No tracking\n"
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
+#, no-wrap
+msgid "  Version 2.0.4 adds support for landscape mode, Android 4.2 compatibility, translation updates and several other changes.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
+msgid "**[LibreTorrent](https://f-droid.org/app/org.proninyaroslav.libretorrent)**, a standalone torrent client for Android, released 1.8, now with RSS manager, Ability to create torrents, scheduling, Android TV support, Android P support, and more."
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
+#, no-wrap
+msgid ""
+"* {{ page.featured }} **[Tusky](https://f-droid.org/app/com.keylesspalace.tusky)** 3.0 made it to F-Droid at last! Your favorite Mastodon social network client now features:\n"
+"  * New elephant art\n"
+"  * New black/AMOLED theme\n"
+"  * See which images have a description on the compose page\n"
+"  * Editable account fields\n"
+"  * View avatars fullscreen\n"
+"  * Several other new features, improvements, and bugfixes\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
+msgid "**[Orgzly](https://f-droid.org/app/com.orgzly)** is a hierarchical note-taking app and task manager in **[org-mode](http://orgmode.org/) format**. Version 1.6.9 can be installed on external storage, lets you add quick notes from an ongoing notification, supports checkboxes in the notebook's preface, and more, for which you can see the [nice color-coded changelog](http://www.orgzly.com/changelog#v1.6.9)."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
+msgid "**[Contacts](https://f-droid.org/app/com.simplemobiletools.contacts)** is a simple app to manage your contacts. In version 4.3.0, contact exporting/importing was completely reworked from scratch. This release also has some stability and translation improvements."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
+msgid "**[StreetComplete](https://f-droid.org/app/de.westnordost.streetcomplete)** allows people with zero mapping experience to improve [OpenStreetMap](https://www.openstreetmap.org) on the go, by asking them simple questions. This major update from 6.1 to 7.1 actually removes some features, disabling support for putting photos into notes as the `framapic.org` service has discontinued until further notice. You should also expect hiccups and/or old maps being displayed in the coming week as the tileserver goes into maintenance and tiles from nextzen are displayed instead."
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
+#, no-wrap
+msgid "  New quests are: Playground access (public/private), max height (of tunnel/parking entrance/height restrictor), and cycleway segregation.\n"
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
+#, no-wrap
+msgid "  It contains many more enhanced quests, other enhancements, and bug fixes. See the [changelog](https://github.com/westnordost/StreetComplete/releases/tag/v7.0) for details as this update is huge.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
+msgid "{{ page.featured }} **[Rabbit Escape](https://f-droid.org/app/net.artificialworlds.rabbitescape)** is a puzzle/action game inspired by Lemmings. Version 0.11 adds a whole 20 new levels in a new level set called Rabbots! Also contains lots of bug fixes and a few little extras."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
+msgid "**[BwareArea](https://f-droid.org/app/fr.byped.bwarearea)** is designed to warn you when you approach some point of interest or dangerous area. In 0.6.5, all known reported bugs should have been fixed. This version also adds support for importing GPX files."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
+msgid "**[Mastalab](https://f-droid.org/app/fr.gouv.etalab.mastodon)** 1.10.5 adds basic support for viewing other instances' local timelines, allows to delete tags with a long-press on the tab, allows to translate your messages before sending them, and some bug fixes."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
+msgid "**[Revolution IRC](https://f-droid.org/app/io.mrarm.irc)** is the next-generation IRC client for Android. This update to 0.4.1 adds a per-server encoding setting, a new word selection mode, automatic message splitting, `irc://` link handling, and many more improvements and fixes. Also of note are DCC download/upload support (with UPnP), and the channel topic is now saved and deduplicated."
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
+msgid "Send tips to **[@fdroidorg@mastodon.technology](https://mastodon.technology/@fdroidorg)** and remember to tag with **[#TWIF](https://mastodon.technology/tags/twif)**. Or use the [TWIF submission thread](https://forum.f-droid.org/t/twif-submission-thread) on the forum. The deadline to the next TWIF is **Thursday** 12:00 UTC."
+msgstr ""
+
+#. type: Title ####
+#: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
+#, no-wrap
+msgid "Dedication"
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
+msgid "Thanks to **[@blendergeek](https://forum.f-droid.org/u/blendergeek)** for doing a great job in my absence! You might see more of him in the future, so stay tuned!"
+msgstr ""
+
+#. type: Title #
+#: build/_posts/md/2018-09-03-replacing-gcm-in-tutanota.md
+#, no-wrap
+msgid "\"How Tutanota replaced Google’s FCM with their own notification system\""
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-03-replacing-gcm-in-tutanota.md
+msgid "As mentioned in [This Week In F-Droid 17](https://f-droid.org/en/2018/08/16/twif-17-the-reproducible-builds-and-encrypted-e-mail-edition.html), Tutanota is now on F-Droid."
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-03-replacing-gcm-in-tutanota.md
+msgid "In this special post [Ivan](https://tutanota.com/blog/posts/welcome-ivan) from Tutanota, tells us the story."
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-03-replacing-gcm-in-tutanota.md
+msgid "Hi, I'm Ivan and I am developing Tutanota to help build the web of the future where our right to privacy is being respected. I believe that privacy should not be a luxury for the rich and tech-savvy, it should be a basic human right."
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-03-replacing-gcm-in-tutanota.md
+msgid "GCM (or, how it’s called now, FCM, Firebase Cloud Messaging) is a service owned by Google. We at [Tutanota](https://tutanota.com/) used FCM for our old Android app. Unfortunately, FCM includes Google's tracking code for analytics purposes, which we didn’t want to use. And, even more important: For being able to use FCM, you have to send all your notification data to Google. You also have to use their proprietary libraries. Because of the privacy and security concerns that naturally go along with this, we did not send any info in the notification messages with the old app (which, understandably, led to complaints by our users). Therefore, the push notification in the old app only mentioned that you received a new message without any reference to the email itself or to the mailbox the message has been placed in."
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-03-replacing-gcm-in-tutanota.md
+#: build/_posts/md/2018-09-27-twif-23-successful-update-to-stretch.md
+#, no-wrap
+msgid "<!--more-->\n"
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-03-replacing-gcm-in-tutanota.md
+msgid "FCM is quite convenient to use, over the years Google made changes to Android which made it harder not to use their service for notifications. On the other hand, giving up Google's notification service would free us from requiring our users to have Google Play Services on their phones."
+msgstr ""
+
+#. type: Title ####
+#: build/_posts/md/2018-09-03-replacing-gcm-in-tutanota.md
+#, no-wrap
+msgid "The challenge to replace Google’s FCM"
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-03-replacing-gcm-in-tutanota.md
+msgid "The Tutanota apps are Libre software, and we wanted to [publish our Android app on F-Droid](https://tutanota.com/blog/posts/open-source-email). We wanted our users to be able to use Tutanota on every ROM and every device, without the control of a third-party like Google. We decided to take on the challenge and to build our own push notification service."
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-03-replacing-gcm-in-tutanota.md
+msgid "When we started designing our push system, we had several goals in mind:"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-03-replacing-gcm-in-tutanota.md
+msgid "it must be secure"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-03-replacing-gcm-in-tutanota.md
+msgid "it must be fast"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-03-replacing-gcm-in-tutanota.md
+msgid "it must be power-efficient"
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-03-replacing-gcm-in-tutanota.md
+msgid "We’ve made a research on how others (Signal, Wire, Conversations, Riot, Facebook, Mastodon) have been solving similar problems. We had several options in mind, including WebSockets, MQTT, Server Sent Events and HTTP/2 Server Push."
+msgstr ""
+
+#. type: Title ####
+#: build/_posts/md/2018-09-03-replacing-gcm-in-tutanota.md
+#, no-wrap
+msgid "Replaced FCM with SSE"
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-03-replacing-gcm-in-tutanota.md
+msgid "We settled on the SSE (Server Sent Events) because it seemed like a simple solution. By that I mean “easy to implement, easy to debug”. Debugging these types of things can be a major headache so one should not underestimate this factor. Another argument in favour of SSE was relative power efficiency: We didn’t need upstream messages and a constant connection was not our goal."
+msgstr ""
+
+#. type: Title ####
+#: build/_posts/md/2018-09-03-replacing-gcm-in-tutanota.md
+#, no-wrap
+msgid "So, what is SSE?"
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-03-replacing-gcm-in-tutanota.md
+msgid "SSE is a web API which allows a server to send events to the connected clients. It is a relatively old API which is, in my opinion, underused. I’ve never heard about SSE before looking at the [federated network Mastodon](https://joinmastodon.org/): They use SSE for real-time timeline updates, and it is working great."
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-03-replacing-gcm-in-tutanota.md
+msgid "The protocol itself is very simple and resembles good old polling: The client opens a connection, and the server keeps it open. The difference from classical polling is that we keep this connection open for multiple events. The server can send events and data messages; they are just separated by new lines. So the only thing the client needs to do is to open a connection with big timeout and read the stream in a loop."
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-03-replacing-gcm-in-tutanota.md
+msgid "SSE fits our needs better than WebSocket would (it is cheaper and converges faster, because it’s not duplex). We’ve seen multiple chat apps trying using WebSocket for push notifications and it didn’t seem power efficient."
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-03-replacing-gcm-in-tutanota.md
+msgid "We had some experience with WebSocket already, and we knew that firewalls don’t like keepalive connections. To solve this, we used the same workaround for SSE as we did for WebSocket: We send “heartbeat” empty messages every few minutes. We made this interval adjustable from the server side and randomised to not overwhelm the server."
+msgstr ""
+
+#. type: Title ####
+#: build/_posts/md/2018-09-03-replacing-gcm-in-tutanota.md
+#, no-wrap
+msgid "Multi-account support poses extra challenges"
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-03-replacing-gcm-in-tutanota.md
+msgid "It should be noted that the Tutanota app has multi-account support, and this posed a challenge for us: We wanted to keep only one connection open per device. After a few iterations, we’ve found the design that satisfied us. Each device has only one identifier. When opening the connection, the client sends the list of users for which it wants to receive notifications. The server validates this list against user records and filters out invalid ones."
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-03-replacing-gcm-in-tutanota.md
+msgid "Users may delete a notification token from their Settings but it would not affect other logins on this device. In addition to that, we had to build a delivery tracking mechanism when a notification is received. Unfortunately, we discovered that our server is unable to detect when a connection is broken so we had to send confirmations from the client side."
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-03-replacing-gcm-in-tutanota.md
+msgid "To receive notifications, we leverage Android capabilities. We run a background service which keeps the connection to the server open, similar to what the FCM process does. Another difficulty was caused by the Doze mode, introduced in Android M. The Doze, which is turned on after a period of inactivity, among other things prevents background processes to access the network. As you can imagine, this prevents our app from receiving notifications."
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-03-replacing-gcm-in-tutanota.md
+msgid "We mitigate this problem by asking users to make an exemption from battery optimisations for our app. It worked fairly well. The similar problem, but unrelated to Doze is vendor-specific battery optimisations. In order to prolong the battery life of their devices phone manufacturers, like Xiaomi, enable strict battery optimisations by default. Luckily users can disable them, but we must communicate this better."
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-03-replacing-gcm-in-tutanota.md
+msgid "Another problem was caused by the Android O changes. One of them is background process restrictions: Unless your app is visible to the user, your background processes are going to be stopped and you’re unable to launch new ones."
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-03-replacing-gcm-in-tutanota.md
+msgid "Initially we thought that we can solve this by showing a persistent notification with minimal priority, which is visible in the notification gutter, but not in the status bar. This didn’t work for Oreo: If you try to launch a background service and use priority minimum for its notification, the notification priority is upgraded to a higher priority (visible all the time) and, in addition to that, the system shows another persistent notification: “App X is using battery”."
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-03-replacing-gcm-in-tutanota.md
+msgid "We initially planned to explain users how they can hide these persistent notifications but that wasn’t a great user experience so we had to find a better solution. We leveraged Android Job mechanism to launch our service periodically (at least every 15 minutes), and we also try to keep it alive afterwards. We don’t hold WakeLocks manually – the system does this for us. We were able to ditch persistent notifications altogether. Even if notifications sometimes have a small delay, it will always be received and emails are there instantly."
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-03-replacing-gcm-in-tutanota.md
+msgid "In the end, we had to do some work but it was totally worth it. Our new app is still in beta but thanks to non-blocking IO, we’ve been able to maintain thousands of simultaneous connections without problems. We freed our users from Google Play Services requirement. Finally, everyone is able to [get the Tutanota app on F-Droid](https://f-droid.org/en/packages/de.tutao.tutanota/). The system now combines both: good power efficiency and speed."
+msgstr ""
+
+#. type: Title ####
+#: build/_posts/md/2018-09-03-replacing-gcm-in-tutanota.md
+#, no-wrap
+msgid "Final thought: Every user should be able to choose a \"Notification Provider\" for every app"
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-03-replacing-gcm-in-tutanota.md
+msgid "Wouldn’t it be great if the user could just pick a “push notifications provider” in the phone settings and OS managed all these hard details by itself? So every app, which doesn’t want to be policed by the platform owner, didn’t have to invent the system anew? It could be end-to-end encrypted between the app and the app server. There’s no real technical difficulty in that, but as long as our systems are controlled by big players who do not allow this, we have to solve it by ourselves."
+msgstr ""
+
+#. type: Title #
+#: build/_posts/md/2018-09-04-second-security-audit-results.md
+#, no-wrap
+msgid "\"Second Security Audit Results\""
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-04-second-security-audit-results.md
+msgid "The second full security audit of F-Droid is complete.  We are satisfied with the results, which confirmed again that the core security model and standard operations are solid.  The audit pointed out issues in the core build process where we currently rely on manual review by trusted contributors to protect us.  This audit also did show that we still have work to do to achieve our goal of keeping the Android client secure even when connected to a malicious server, for example, if an untrusted repository is manually added that was created by its operator to exploit.  The full audit report is available: [report_otf_fdroid.pdf](https://www.radicallyopensecurity.com/report_otf_fdroid.pdf)  [_(cached copy)_]({{ site.baseurl }}/assets/posts/2018-09-04-second-security-audit-results/report_otf_fdroid.pdf)."
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-04-second-security-audit-results.md
+msgid "The audit was conducted by [Radically Open Security](https://www.radicallyopensecurity.com), which is a natural partner for F-Droid since they share a focus on free software and open processes.  Thanks to [Open Tech Fund](https://opentech.fund) for finding the auditor and covering the costs of hiring them."
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-04-second-security-audit-results.md
+msgid "For more information about F-Droid's security practices, see the documentation about the [Security Model]({{ site.baseurl }}/docs/Security_Model/)."
+msgstr ""
+
+#. type: Title ##
+#: build/_posts/md/2018-09-04-second-security-audit-results.md
+#, no-wrap
+msgid "Reducing trust requirements"
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-04-second-security-audit-results.md
+msgid "One key part of this audit was to push us further into reducing the level of trust required of the various pieces and participants in all the processes in F-Droid.  Client/server systems are usually built around the assumption that the server operator is fully trusted.  There are many trusted contributors working on F-Droid, and the people working on the core parts have a long and good track record.  Nevertheless, it is very valuable to have a system that does not require trusting people and their computers.  We aim to push all pieces of the F-Droid ecosystem to work according to the [principle of least privilege](https://en.wikipedia.org/wiki/Principle_of_least_privilege)."
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-04-second-security-audit-results.md
+msgid "New apps and updates are submitted to [fdroiddata](https://gitlab.com/fdroid/fdroiddata) via merge request and _git_ commits.  Those changes are then stored forever in the _git_ history.  In the past, the code trusted everything in _fdroiddata_, since the commits are reviewed by humans for any malicious bits.  This model has a very good track record in F-Droid as well as many other projects developed in the open by many people.  Debian is a great example of this, since almost a thousand Debian Developers have commit privileges which could give them root on every machine running Debian."
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-04-second-security-audit-results.md
+msgid "This audit helped us ask the question: what kind privileges can be restricted or removed without changing the way contributors work? It also caught a number of issues where the code trusted the inputs from _fdroiddata_, where it had been committed and reviewed by humans, but that could then point to other code which could contain the exploits."
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-04-second-security-audit-results.md
+msgid "Reducing the trust given to various pieces reduces the stresses of contributing, and allows us as a community to open more things up to all sorts of contributors.  If a contributor feels that their review is the last line of defence against exploiting F-Droid, that adds a lot of stress to the review."
+msgstr ""
+
+#. type: Title ##
+#: build/_posts/md/2018-09-04-second-security-audit-results.md
+#, no-wrap
+msgid "Privileged Extension"
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-04-second-security-audit-results.md
+msgid "There were no issues found in the Privileged Extension code or the interaction between F-Droid client and Privileged Extension."
+msgstr ""
+
+#. type: Title ##
+#: build/_posts/md/2018-09-04-second-security-audit-results.md
+#, no-wrap
+msgid "F-Droid client"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-04-second-security-audit-results.md
+msgid "[4.1.19 OTF-019 — Potential SQL Injection]({{ site.baseurl }}/docs/Second_Audit_Report/#f35-potential-sql-injection)"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-04-second-security-audit-results.md
+msgid "[4.1.24 OTF-024 — (fdroidclient) Raw SQL Query Executions]({{ site.baseurl }}/docs/Second_Audit_Report/#f47--fdroidclient-raw-sql-query-executions)"
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-04-second-security-audit-results.md
+msgid "- right now, repos are trusted inputs verified by signatures.  This kind of finding helps us make it so less trust is required when using third party repos"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-04-second-security-audit-results.md
+msgid "[4.1.26 OTF-026 — (fdroid Client) Insecure Implementation of SSL]({{ site.baseurl }}/docs/Second_Audit_Report/#f52--fdroid-client-insecure-implementation-of-ssl)"
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-04-second-security-audit-results.md
+msgid "This finding is labeling a standard practice in Android as insecure: \"It is possible to install an SSL certificate on a device and run the application to capture its traffic on the proxy.\" Android does not make it easy to accidentally include a certificate on the device, and it also puts up a constant notification when one is in place.  We believe that following this recommendation would not noticeably improve real world security.  It would eliminate legitimate use cases of installing a certificate on the device to inspect the traffic.  For example: company firewalls that must inspect traffic to comply with regulations; or, auditing real world traffic of F-Droid during normal operation."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-04-second-security-audit-results.md
+msgid "[4.1.20 OTF-020 — Unverified URI redirect]({{ site.baseurl }}/docs/Second_Audit_Report/#f41-app-uses-data-from-clipboard)"
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-04-second-security-audit-results.md
+msgid "This could only be exploited to change the URL that is shown in the TOFU prompt to the user.  The user is responsible for confirming what is listed in that prompt.  It should be fixed, but does not seem urgent.  It will be included when we overhaul the whole \"App Repo\" process."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-04-second-security-audit-results.md
+msgid "[4.1.23 OTF-023 — (fdroidclient) App Is Signed With _SHA1withRSA_, Known to Have Collision Issues]({{ site.baseurl }}/docs/Second_Audit_Report/#f46--fdroidclient-app-is-signed-with-sha1withrsa-known-to-have-collision-issues)"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-04-second-security-audit-results.md
+msgid "[4.1.27 OTF-027 — (Privilege Extension) Mobile application package signed with weak algorithm _SHA1withRSA_]({{ site.baseurl }}/docs/Second_Audit_Report/#f53--privilege-extension-app-is-signed-with-sha1withrsa-known-to-have-collision-issues)"
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-04-second-security-audit-results.md
+#, no-wrap
+msgid ""
+"This is an issue in Android itself. If an APK is signed with SHA256,\n"
+"that APK will not work on Android < 4.3.  Using a larger RSA signing\n"
+"key would also be ideal.  But since migrating signing keys is not\n"
+"supported in Android, it would be a very difficult project.  F-Droid\n"
+"includes other layers of protection for validating APKs, including GPG\n"
+"signatures on APKs as well as the whole secure F-Droid distribution\n"
+"mechanism.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-04-second-security-audit-results.md
+msgid "[4.1.35 OTF-035 — Hardcoded root CA keys]({{ site.baseurl }}/docs/Second_Audit_Report/#f36-no-mechanism-to-remove-root-ca-keys)"
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-04-second-security-audit-results.md
+msgid "The HTTPS pinning mechanism could definitely be improved.  Since HTTPS pinning is not essential to secure operation, it has never been a high priority.  The integrity of the files server remains protected by the signature on the index files.  For _f-droid.org_ and the Guardian Project repo, the keys to check those signatures are built into the client."
+msgstr ""
+
+#. type: Title ###
+#: build/_posts/md/2018-09-04-second-security-audit-results.md
+#, no-wrap
+msgid "Nearby/Swap"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-04-second-security-audit-results.md
+msgid "[4.1.9 OTF-009 — Applicatioin uses TrustOnFirstUse (TOFU) Usage unverified signing certificate]({{ site.baseurl }}/docs/Second_Audit_Report/#f39-trustonfirstuse-tofu-usage)"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-04-second-security-audit-results.md
+msgid "[4.1.10 OTF-010 — (fdroid Client) Exploiting \"Nearby Swap\" Feature to Show Malicious Prompt to Users or Redirect to Malicious Sites]({{ site.baseurl }}/docs/Second_Audit_Report/#f49--fdroid-client-exploiting-nearby-swap-feature-to-show-malicious-prompt-to-users-or-redirect-to-malicious-sites)"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-04-second-security-audit-results.md
+msgid "[4.1.17 OTF-017 — Use of Insecure Communication Mechanism - BluetoothClient.java]({{ site.baseurl }}/docs/Second_Audit_Report/#f31-bluetoothclient-java-insecure-rfcomm-socket-is-used-for-bluetooth-connection)"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-04-second-security-audit-results.md
+msgid "[4.1.18 OTF-018 — Use of Insecure Communication Mechanism - BluetoothServer.java]({{ site.baseurl }}/docs/Second_Audit_Report/#f32-bluetoothserver-java-insecure-rfcomm-socket-used-for-bluetooth-connection)"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-04-second-security-audit-results.md
+msgid "[4.1.25 OTF-025 — (fdroid Client) Snooping in Between Clients in \"Nearby Swap\"]({{ site.baseurl }}/docs/Second_Audit_Report/#f48--fdroid-client-snooping-in-between-clients-in-nearby-swap-)"
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-04-second-security-audit-results.md
+msgid "[4.1.10 OTF-010]({{ site.baseurl }}/docs/Second_Audit_Report/#f49--fdroid-client-exploiting-nearby-swap-feature-to-show-malicious-prompt-to-users-or-redirect-to-malicious-sites)  was a serious issue that was fixed as soon as it was found, thanks to Radically Open Security's open audit process.  It made it possible to put up phishing prompts via the swap process, but could only be exploited from the same network that the target device is on."
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-04-second-security-audit-results.md
+msgid "The security of the nearby swap is built largely on the limited scope of attacks, since it works only via Bluetooth or via local Wi-Fi restricted to the current subnet.  It is also only active for a very limited time, while the user is directly using it.  Then, for file integrity, the index signing key is trusted on the first use, then all files are verified against the verified index.  While the security of the process can definitely be improved, it was designed to replace other much less secure methods that are widespread."
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-04-second-security-audit-results.md
+msgid "Ideally, all Bluetooth connections would use the native Bluetooth encryption and all IP connections would use HTTPS.  The usability issues related to adding support for those would probably make the nearby/swap feature almost useless without a very substantial chunk of work."
+msgstr ""
+
+#. type: Title ##
+#: build/_posts/md/2018-09-04-second-security-audit-results.md
+#, no-wrap
+msgid "_fdroidserver_"
+msgstr ""
+
+#. type: Title ###
+#: build/_posts/md/2018-09-04-second-security-audit-results.md
+#, no-wrap
+msgid "Moving towards least privilege"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-04-second-security-audit-results.md
+msgid "[4.1.4 OTF-004 — Infoleak in Fdroidserver Checkupdates.py]({{ site.baseurl }}/docs/Second_Audit_Report/#f25-infoleak-in-fdroidserver-checkupdates-py)"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-04-second-security-audit-results.md
+msgid "[4.1.5 OTF-005 — Code Injection in Fdroidserver Checkupdates Through Eval'ed User Supplied Data]({{ site.baseurl }}/docs/Second_Audit_Report/#f26-code-injection-in-fdroidserver-checkupdates-py-through-eval--ed-user-supplied-data)"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-04-second-security-audit-results.md
+msgid "[4.1.6 OTF-006 — Code Injection Via Malicious Appid in Fdroidserver Build.py]({{ site.baseurl }}/docs/Second_Audit_Report/#f27-code-injection-via-malicious-appid-in-fdroidserver-build-py)"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-04-second-security-audit-results.md
+msgid "[4.1.34 OTF-034 — Maliciously Crafted Appid Code Injection in Fdroidserver Build.py]({{ site.baseurl }}/docs/Second_Audit_Report/#f24-maliciously-crafted-appid-code-injection-in-fdroidserver-build-py)"
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-04-second-security-audit-results.md
+msgid "The build metadata files are used to describe an app and it's build process.  They are usually created by trusted parties (e.g. the person running the repo) or reviewed via merge requests.  These findings would only have caused problems for repos that included metadata files from untrusted sources without reviewing them.  For _f-droid.org_, the metadata files can only be downloaded to the production servers via git commits in [fdroiddata](https://gitlab.com/fdroid/fdroiddata).  No attempts to exploit these have been seen in the git history nor merge requests.  Most of these issues only affect the app building process, e.g. `fdroid build`.  Repos made from binary APKs and `fdroid update` would only be affected by [4.1.3 OTF-003]({{ site.baseurl }}/docs/Second_Audit_Report/#f23-code-injection-in-fdroidserver-metadata-yaml-parsing)."
+msgstr ""
+
+#. type: Title ###
+#: build/_posts/md/2018-09-04-second-security-audit-results.md
+#, no-wrap
+msgid "Removing weaknesses that could be chained into exploits"
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-04-second-security-audit-results.md
+msgid "The data formats that were used allow for code execution from serialized code.  The build metadata files are now loaded with with code serialization disabled, the _apkcache_ file was switched from _pickle_ to JSON, and we will switch the _config.py_ file to YAML with safe loading."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-04-second-security-audit-results.md
+msgid "[4.1.3 OTF-003 — Code Injection in Fdroidserver Metadata Yaml Parsing]({{ site.baseurl }}/docs/Second_Audit_Report/#f23-code-injection-in-fdroidserver-metadata-yaml-parsing)"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-04-second-security-audit-results.md
+msgid "[4.1.31 OTF-031 — Dangerous Deserialization Using Python Pickle in Fdroidserver:update.py]({{ site.baseurl }}/docs/Second_Audit_Report/#f16-dangerous-deserialization-using-python-pickle-in-fdroidserver-update-py)"
+msgstr ""
+
+#. type: Title ###
+#: build/_posts/md/2018-09-04-second-security-audit-results.md
+#, no-wrap
+msgid "Denial of Service"
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-04-second-security-audit-results.md
+msgid "A few issues were found that allow contributors with trusted access to stop parts of the system from working."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-04-second-security-audit-results.md
+msgid "[4.1.12 OTF-012 — Key Alias Collisions Can Lead to DoS of Publishing in Fdroidserver]({{ site.baseurl }}/docs/Second_Audit_Report/#f13-key-alias-collisions-can-lead-to-dos-of-publishing-in-fdroidserver) ([issue #553](https://gitlab.com/fdroid/fdroidserver/issues/553))"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-04-second-security-audit-results.md
+msgid "[4.1.13 OTF-013 — Image Bomb Can Lead to DoS in Fdroidserver:update.py]({{ site.baseurl }}/docs/Second_Audit_Report/#f15-image-bomb-can-lead-to-dos-in-fdroidserver-update-py)"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-04-second-security-audit-results.md
+msgid "[4.1.15 OTF-015 — Parsing Untrusted XML Data in Fdroidserver]({{ site.baseurl }}/docs/Second_Audit_Report/#f20-parsing-untrusted-xml-data-in-fdroidserver)"
+msgstr ""
+
+#. type: Title ###
+#: build/_posts/md/2018-09-04-second-security-audit-results.md
+#, no-wrap
+msgid "Experimental drozer integration"
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-04-second-security-audit-results.md
+msgid "As part of the Bazaar2 funding, an experimental feature for integrating Drozer into the fdroid release project was built.  This feature is still alpha and is not deployed on any production setup.  These issues are real issues, but there are no plans to fix them currently since there are no plans to move forward with the Drozer integration.  We welcome contributions by those who want to see that happen."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-04-second-security-audit-results.md
+msgid "[4.1.2 OTF-002 — Shell Code Injection Via Malicious Appids Into Fdroidserver]({{ site.baseurl }}/docs/Second_Audit_Report/#f14-shell-code-injection-via-malicious-appids-into-fdroidserver)"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-04-second-security-audit-results.md
+msgid "[4.1.14 OTF-014 — Insecure Usage of Temporary File/Directory in Fdroidserver Docker/drozer.py]({{ site.baseurl }}/docs/Second_Audit_Report/#f17-insecure-usage-of-temporary-file-directory-in-fdroidserver-docker-drozer-py)"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-04-second-security-audit-results.md
+msgid "[4.1.32 OTF-032 — Starting a Process With a Partial Executable Path]({{ site.baseurl }}/docs/Second_Audit_Report/#f19-starting-a-process-with-a-partial-executable-path)"
+msgstr ""
+
+#. type: Title ##
+#: build/_posts/md/2018-09-04-second-security-audit-results.md
+#, no-wrap
+msgid "_f-droid.org_ website"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-04-second-security-audit-results.md
+msgid "[4.1.7 OTF-007 — Javascript Injection Into HTMLified Descriptions in Fdroidserver Metadata]({{ site.baseurl }}/docs/Second_Audit_Report/#f29-javascript-injection-into-htmlified-package-descriptions-in-fdroidserver-metadata-py)"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-04-second-security-audit-results.md
+msgid "[4.1.11 OTF-011 — Weak Regexps Filtering XSS and Unwanted HTML Tags in Fdroidserver/lint.py]({{ site.baseurl }}/docs/Second_Audit_Report/#f12-weak-regexps-filtering-xss-and-unwanted-html-tags-in-fdroidserver-lint-py)"
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-04-second-security-audit-results.md
+msgid "Moving the whole website from Wordpress to a statically generated site paid large security dividends, there were no actionable issues found with the website.  While both findings are correct in that malicious Javascript could be injected into descriptions, both the _f-droid.org_ website and Android client do not let Javascript run from the descriptions.  The _f-droid.org_ website protects against malicious Javascript injection with a [strict HTTP Content Security Policy](https://observatory.mozilla.org/analyze.html?host=f-droid.org).  F-Droid client never runs CSS, Javascript, or dangerous HTML tags since it displays the HTML via [`Html.fromHtml()`](https://gitlab.com/fdroid/fdroidclient/blob/1.3.1/app/src/main/java/org/fdroid/fdroid/views/AppDetailsRecyclerViewAdapter.java#L441)  with image loading disabled."
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-04-second-security-audit-results.md
+msgid "Ideally, the index generation process in `fdroid update` would have robust CSS/HTML/Javascript checks so malicious injection is prevented by both the index providers and consumers.  This would increase the \"herd immunity\" of everyone working with data generated using any of the F-Droid tools."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-04-second-security-audit-results.md
+msgid "[4.1.37 OTF-037 — Untrusted External Links]({{ site.baseurl }}/docs/Second_Audit_Report/#f38-untrusted-external-links)"
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-04-second-security-audit-results.md
+msgid "The links are only displayed in the \"Links\" section.  Since there is a human review of those URLs, and those URLs are committed to git, we have left those to be open without validation. There are also other URLs like home page, issue tracker, etc.  I suppose we should show the full URL in the UI if they don't match a well known pattern.  Google Play also includes a link to a website that the app author provides."
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-04-second-security-audit-results.md
+msgid "One idea for improvement here would be to scan these URLs with the Google Safe Browsing API."
+msgstr ""
+
+#. type: Title ##
+#: build/_posts/md/2018-09-04-second-security-audit-results.md
+#, no-wrap
+msgid "Repomaker"
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-04-second-security-audit-results.md
+msgid "Repomaker is a web tool to make it really easy to set up your own F-Droid repositories.  It is a new project that should still be considered beta.  There was one issue with high severity ([CVE-2018-7753](https://nvd.nist.gov/vuln/detail/CVE-2018-7753))  found in an upstream library, Mozilla's [_bleach_](https://github.com/mozilla/bleach).  It was reported to Mozilla and promptly fixed.  There were three other low impact findings which have been fixed."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-04-second-security-audit-results.md
+msgid "[4.1.1 OTF-001 — Evasion of Bleach Sanitizer in Repomaker]({{ site.baseurl }}/docs/Second_Audit_Report/#f8-evasion-of-bleach-sanitizer-in-repomaker)"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-04-second-security-audit-results.md
+msgid "[4.1.29 OTF-029 — Tabnabbing in Repomaker]({{ site.baseurl }}/docs/Second_Audit_Report/#f1-tabnabbing-in-repomaker)"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-04-second-security-audit-results.md
+msgid "[4.1.30 OTF-030 — Repomaker:apk:_def_get_type Allows for Mime Type Mismatches]({{ site.baseurl }}/docs/Second_Audit_Report/#f9-repomaker-apk-_def_get_type-allows-for-mime-type-mismatches)"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-04-second-security-audit-results.md
+msgid "[4.1.31 OTF-031 — Unsafe HTML Rendering of Arbitrary Input]({{ site.baseurl }}/docs/Second_Audit_Report/#f10-unsafe-html-rendering-of-arbitrary-input)"
+msgstr ""
+
+#. type: Title ##
+#: build/_posts/md/2018-09-04-second-security-audit-results.md
+#, no-wrap
+msgid "Findings that are not relevant or too pedantic"
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-04-second-security-audit-results.md
+msgid "These are issues which are not technically wrong, but are not relevant in the context of how F-Droid is using the code."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-04-second-security-audit-results.md
+msgid "[4.1.8 OTF-008 — Unvalidated User Input Included in Response]({{ site.baseurl }}/docs/Second_Audit_Report/#f33-bluetoothserver-java-request-uri-included-in-response)"
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-04-second-security-audit-results.md
+msgid "The _BluetoothServer_ is only ever used to serve files to F-Droid client's Bluetooth handling, which is nothing like a browser and definitely does not execute HTML/CSS/Javascript or display websites.  It would not be possible to ever display this information in a browser without custom code in to receive it."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-04-second-security-audit-results.md
+msgid "[4.1.16 OTF-016 — Missing file type and size validation]({{ site.baseurl }}/docs/Second_Audit_Report/#f34-bluetootheserver-java-file-in-response-without-size-of-type-check)"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-04-second-security-audit-results.md
+msgid "[4.1.34 OTF-034 — Missing file type and size validation]({{ site.baseurl }}/docs/Second_Audit_Report/#f30-downloader-download-file-type-and-size-are-not-verified)"
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-04-second-security-audit-results.md
+msgid "The download process only downloads files to a private directory.  The file validation happens during the install process for all files.  After download, the install process validates the SHA-256 against what is in the signed file index."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-04-second-security-audit-results.md
+msgid "[4.1.21 OTF-021 — File Deleted Unconditionally]({{ site.baseurl }}/docs/Second_Audit_Report/#f43-file-deleted-unconditionally)"
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-04-second-security-audit-results.md
+msgid "This code is only used to make JAR signatures on the _index.jar_ for the nearby/swap process.  Android protects critical files from deletion with file permissions.  Only the _index.jar_ file is ever handled by the zipsigner code."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-04-second-security-audit-results.md
+msgid "[4.1.22 OTF-022 — Secure Temp File Usage Recommended]({{ site.baseurl }}/docs/Second_Audit_Report/#f44-secure-temp-file-usage-recommended)"
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-04-second-security-audit-results.md
+msgid "The NanoHTTPD built-in webserver is only ever used to serve public information.  Also, the parts of the code in the NanoHTTPD library that creates temp files is likely never used in F-Droid."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-04-second-security-audit-results.md
+msgid "[4.1.36 OTF-036 — Use of weak methods for data protection]({{ site.baseurl }}/docs/Second_Audit_Report/#f37-use-of-rot13-and-base64-encoding)"
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-04-second-security-audit-results.md
+msgid "Obfuscation here is used not as a security mechanism, but rather as a lightweight anti-piracy mechanism.  The obscured information ultimately need to be available to the app to use it, so there would always be a way to extract the obscured information, as we have seen in the decades of software copy protection arms races."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-04-second-security-audit-results.md
+msgid "[4.1.38 OTF-038 — Weak pattern matching filter]({{ site.baseurl }}/docs/Second_Audit_Report/#f42-stronger-regular-expression-recommended)"
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-04-second-security-audit-results.md
+msgid "Filenames in Java are not executed by a shell.  Only the `/` character is problematic with filesystems and file handling code.  Ideally, all files produced by F-Droid software would end up safe no matter where or how they are used, but it seems that the only manageable way to sanitize files is on the endpoints that are consuming the files (e.g. _fdroidclient_ or _f-droid.org_)."
+msgstr ""
+
+#. type: Title #
+#: build/_posts/md/2018-09-06-twif-20-security-audit-completed-buildserver-setup-with-ansible.md
+#, no-wrap
+msgid "\"TWIF 20: Security audit completed, buildserver setup with ansible\""
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-06-twif-20-security-audit-completed-buildserver-setup-with-ansible.md
+msgid "This Week In F-Droid 20, Week 36, 2018"
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-06-twif-20-security-audit-completed-buildserver-setup-with-ansible.md
+#, no-wrap
+msgid ""
+"In this edition: Second security audit completed, automating the buildserver setup with ansible, a light week with updates for Just Notes, Cow's Revenge, Feeel, and others.\n"
+"<!--more-->\n"
+msgstr ""
+
+#. type: Title ####
+#: build/_posts/md/2018-09-06-twif-20-security-audit-completed-buildserver-setup-with-ansible.md
+#, no-wrap
+msgid "Second security audit completed"
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-06-twif-20-security-audit-completed-buildserver-setup-with-ansible.md
+msgid "In case you missed it, [our second security audit has been completed]({{ site.baseurl }}{% post_url 2018-09-04-second-security-audit-results %}). All important issues have been fixed, and work on the remaining issues is ongoing. **[@Tovok7](https://blog.grobox.de)** has been working on [repomaker](https://gitlab.com/fdroid/repomaker) issues found in the audit, uploaded a pre-release to [pypi](https://pypi.org) and started to write [installation instructions](https://gitlab.com/fdroid/repomaker#installation). If you are a developer or a power user, we could use your help with testing these."
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-06-twif-20-security-audit-completed-buildserver-setup-with-ansible.md
+#, no-wrap
+msgid "**[@\\_hc](https://forum.f-droid.org/u/hans)** writes: <q>We are satisfied with the results, which confirmed again that the core security model and standard operations are solid.</q> [_Read more_]({{ site.baseurl }}{% post_url 2018-09-04-second-security-audit-results %}).\n"
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-06-twif-20-security-audit-completed-buildserver-setup-with-ansible.md
+msgid "For those who are curious about the _first_ security audit, which happened in 2015, [this post]({{ site.baseurl }}{% post_url 2018-01-20-upcoming-security-audit %}) looks back on it."
+msgstr ""
+
+#. type: Title ####
+#: build/_posts/md/2018-09-06-twif-20-security-audit-completed-buildserver-setup-with-ansible.md
+#, no-wrap
+msgid "Automating buildserver setup with ansible"
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-06-twif-20-security-audit-completed-buildserver-setup-with-ansible.md
+#, no-wrap
+msgid "**@uniq** is currently working on automating the [buildserver](https://gitlab.com/fdroid/fdroidserver) setup with [ansible](https://en.wikipedia.org/wiki/Ansible_%28software%29). Although we already have `makebuildserver`, this completely automates it, and all you have to do is run `vagrant up` and you'll get a VM with [fdroidserver](https://gitlab.com/fdroid/fdroidserver) set up for doing builds with a nested buildserver inside. This is different from `makebuildserver` in that it also builds the host.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-06-twif-20-security-audit-completed-buildserver-setup-with-ansible.md
+msgid "Öffi returns to the Google Play Store ([article in German](https://www.heise.de/newsticker/meldung/Nahverkehrs-App-Oeffi-ist-zurueck-im-Play-Store-4153880.html)), after being [kicked out]({{ site.baseurl }}{% post_url 2018-07-12-this-week-in-fdroid-w28 %}) and [open sourced in response]({{ site.baseurl }}{% post_url 2018-07-21-twif-13-public-transport-edition %}) earlier."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-06-twif-20-security-audit-completed-buildserver-setup-with-ansible.md
+msgid "**[Fit Notifications](https://f-droid.org/app/com.abhijitvalluri.android.fitnotifications)**: Enable all notifications for compatible Fitbit devices"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-06-twif-20-security-audit-completed-buildserver-setup-with-ansible.md
+msgid "**[ADBKeyBoard](https://f-droid.org/app/com.android.adbkeyboard)**: Android Virtual Keyboard Input via ADB"
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-06-twif-20-security-audit-completed-buildserver-setup-with-ansible.md
+msgid "This week, **24** apps were updated, which is by far the lightest week we've had since the start of TWIF. We are not aware of any technical problems, and the index has been updating regularly. This slowdown appears to be entirely natural."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-06-twif-20-security-audit-completed-buildserver-setup-with-ansible.md
+msgid "**[Just Notes](https://f-droid.org/app/com.alaskalinuxuser.justnotes)** released version 2.0, now with scrolling notes!"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-06-twif-20-security-audit-completed-buildserver-setup-with-ansible.md
+msgid "{{ page.featured }} **[Cow's Revenge](https://f-droid.org/app/org.pipoypipagames.cowsrevenge)** is an awesome game in which you play a cow that was abducted and genetically enhanced by aliens. Seriously, who doesn't want to be THE COWEST? In version 1.0.5 you can toggle the sound on and off in the settings, enjoy Gamepad improvements, change weapons with shoulder buttons, and more."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-06-twif-20-security-audit-completed-buildserver-setup-with-ansible.md
+msgid "**[Feeel](https://f-droid.org/app/com.enjoyingfoss.feeel)** is an app for doing simple at-home exercises. The update from 1.1 to 1.91 adds multiple workouts and fixes a bug that makes it actually work on Android 4.x, as well as SailfishOS."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-06-twif-20-security-audit-completed-buildserver-setup-with-ansible.md
+msgid "**[Draw](https://f-droid.org/app/com.simplemobiletools.draw)** is a dead simple drawing app. Version 4.3.0 adds an initial Zoom implementation, which is disabled by default."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-06-twif-20-security-audit-completed-buildserver-setup-with-ansible.md
+msgid "**[Mastalab](https://f-droid.org/app/fr.gouv.etalab.mastodon)** 1.11.0 is out! Links to toots now open the conversation inside the app, detailed bug reports can be sent by email, GIFs can be imported from the Android keyboard, instances can be followed from profiles, markdown is accepted for links in toots, and more. There's also a slew of bug fixes and better Pleroma support."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-06-twif-20-security-audit-completed-buildserver-setup-with-ansible.md
+msgid "**[Riot.im](https://f-droid.org/app/im.vector.alpha)** is an instant messenger and team collaboration tool based on the [Matrix](https://matrix.org) protocol/network. It skipped a version on F-Droid, updating straight to 0.8.15. This update has a lot of quality improvements under the hood, an updated settings icon and notification logo, the ability to send messages starting with a slash (`/`) and automatically escapes nickname mentions starting with a slash."
+msgstr ""
+
+#. type: Title ####
+#: build/_posts/md/2018-09-06-twif-20-security-audit-completed-buildserver-setup-with-ansible.md
+#: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
+#: build/_posts/md/2018-09-21-twif-22-servers-edition.md
+#: build/_posts/md/2018-09-27-twif-23-successful-update-to-stretch.md
+#: build/_posts/md/2018-10-04-twif-24-the-end-of-logging-as-we-know-it.md
+#: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
+#: build/_posts/md/2018-10-20-twif-26-tagesschau-f-droid-repo-and-translation-workflow-improvement.md
+#: build/_posts/md/2018-10-25-twif-27-new-servers-and-first-alpha-release-of-f-droid-1-5.md
+#, no-wrap
+msgid "Tips and Feedback"
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-06-twif-20-security-audit-completed-buildserver-setup-with-ansible.md
+msgid "Don't forget to send in your tips! There are way too many app updates to keep track of them all, and we'd love your help to find the important ones. And of course, if you're doing anything involving F-Droid in any way, tell us about it!"
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-06-twif-20-security-audit-completed-buildserver-setup-with-ansible.md
+msgid "Send tips via [Mastodon](https://joinmastodon.org) to **[@fdroidorg@mastodon.technology](https://mastodon.technology/@fdroidorg)** on and remember to tag with **[#TWIF](https://mastodon.technology/tags/twif)**. Or use the [TWIF submission thread](https://forum.f-droid.org/t/twif-submission-thread) on the forum. The deadline to the next TWIF is **Thursday** 12:00 UTC."
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-06-twif-20-security-audit-completed-buildserver-setup-with-ansible.md
+#: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
+#: build/_posts/md/2018-09-21-twif-22-servers-edition.md
+#: build/_posts/md/2018-09-27-twif-23-successful-update-to-stretch.md
+#: build/_posts/md/2018-10-04-twif-24-the-end-of-logging-as-we-know-it.md
+msgid "General feedback can also be sent via Mastodon, or, if you'd like to have a live chat, you can find us in **#fdroid** on [Freenode](https://freenode.net), on Matrix via [#freenode_#fdroid:matrix.org](https://matrix.to/#/#freenode_#fdroid:matrix.org) or on [Telegram](https://t.me/joinchat/AlRQekvjWDTuQrCgMYSNVA). All of these spaces are bridged together, so the choice is yours. You can also join us on the **[forum](https://forum.f-droid.org/)**."
+msgstr ""
+
+#. type: Title #
+#: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
+#, no-wrap
+msgid "\"TWIF 21: VMs Donated and Tor Browser goes Android\""
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
+msgid "This Week In F-Droid 21, Week 37, 2018"
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
+#, no-wrap
+msgid ""
+"In this edition: F-Droid project receives a donation of two VMs, Tor Browser coming to Android, 28 new apps including Emerald Dialer and MiniVector, and 61 app updates including NewPipe and Kwik EFIS & DMAP.\n"
+"<!--more-->\n"
+msgstr ""
+
+#. type: Title ####
+#: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
+#, no-wrap
+msgid "Tor Browser moving to officially support Android"
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
+msgid "The Tor Project [has released an alpha of Tor Browser for Android](https://blog.torproject.org/new-alpha-release-tor-browser-android) for the first time ever. It's available on [Tor Project's downloads page](https://www.torproject.org/projects/torbrowser.html.en#downloads-alpha) and Google Play for now, but the possibilities of bringing it to F-Droid [are being explored](https://trac.torproject.org/projects/tor/ticket/27539). This is especially relevant as Orfox (from the builtin but not-enabled-by-default Guardian repository) will be sunsetted."
+msgstr ""
+
+#. type: Title ####
+#: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
+#, no-wrap
+msgid "F-Droid receives a donation of two big VMs"
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
+msgid "We had two big VMs donated to us by [Pretty Easy Privacy](https://www.pep.security). They have been delivered, and **[@\\_hc](https://forum.f-droid.org/u/hans)** and **@uniq** have been trying them out. More later."
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
+msgid "We have a whopping 28 new apps for you to try this week!"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
+msgid "**[9P](https://f-droid.org/app/se.tube42.p9.android)**: Word puzzle game"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
+msgid "**[Aalener Optik-Formelrechner](https://f-droid.org/app/de.HS_Aalen.don)**: German-only app for doing optical calculations"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
+msgid "**[BK Doorlock](https://f-droid.org/app/de.binary_kitchen.doorlock_app)**: Binary Kitchen's Open Sesame"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
+msgid "**[Character Recognition](https://f-droid.org/app/org.atai.TessUI)**: Extract text from images"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
+msgid "**[Custom Search](https://f-droid.org/app/tyagi.shubham.customsearch)**: A Simple Query Search on Google using Dorking"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
+msgid "**[Emerald Dialer](https://f-droid.org/app/ru.henridellal.dialer)** is a lightweight dialer which has T9 search and two themes. This application was made because **[Dialer2](https://f-droid.org/app/org.dnaq.dialer2)** is a bit outdated."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
+msgid "**[Get Off Your Phone](https://f-droid.org/app/com.nephi.getoffyourphone)**: Control procrastination with an app locker"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
+msgid "**[Knock on Ports](https://f-droid.org/app/me.impa.knockonports)**: A port knocking client"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
+msgid "**[LTE Cleaner (FOSS)](https://f-droid.org/app/theredspy15.ltecleanerfoss)**: System cleaner"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
+msgid "**[Light Android Launcher](https://f-droid.org/app/com.github.postapczuk.lalauncher)**: Lightweight app launcher"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
+msgid "**[Mars Live Wallpaper](https://f-droid.org/app/org.covolunablu.marswallpaper)**: Rotating red planet"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
+msgid "{{ page.featured }} **[miniVector](https://f-droid.org/app/com.lavadip.miniVector)**: is a minified version of **[Riot.im](https://f-droid.org/app/im.vector.alpha)**, which results in a smaller and lighter app which requires less scary permissions. It achieves this by removing Jitsi conferencing support and some smaller things. **Edit:** Note that voice and video calls are not supported in this version. Support _may_ be added back in a future version."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
+msgid "**[NotificationLog](https://f-droid.org/app/de.jl.notificationlog)**: Log system notifications locally"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
+msgid "**[PSLab](https://f-droid.org/app/io.pslab)**: Pocket Science Lab Android interface for PSLab hardware"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
+msgid "**[Pausing Healthily](https://f-droid.org/app/org.secuso.privacyfriendlypausinghealthily)**: Break reminder with helpful exercises"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
+msgid "**[PianOli](https://f-droid.org/app/com.nicobrailo.pianoli)**: Baby game to keep your device safe from random baby-taps"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
+msgid "**[Privacy Helper](https://f-droid.org/app/org.privacyhelper)**: An app privacy guide"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
+msgid "**[Resume Builder](https://f-droid.org/app/com.ibrahimyousre.resumebuilder)**: An app to help you create your resume"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
+msgid "**[Riksdagskollen](https://f-droid.org/app/se.oandell.riksdagen)**: Allow users to keep track of the Swedish parliament"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
+msgid "**[Ril Control](https://f-droid.org/app/com.alaskalinuxuser.rilcontrol)**: Control the RIL-daemon process"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
+msgid "**[Sam Remote](https://f-droid.org/app/mkg20001.net.samremote)**: Simple WiFi remote for Samsung TVs"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
+msgid "**[SleepyWifi](https://f-droid.org/app/nl.devluuk.sleepywifi)**: Disables the Wi-Fi when the phone is in sleep mode"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
+msgid "**[SyncTool](https://f-droid.org/app/theakki.synctool)**: Synchronize data between a smartphone and a server"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
+msgid "**[Tron Wallet](https://f-droid.org/app/com.eletac.tronwallet)**: Multifunctional wallet for the TRON network"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
+msgid "**[WateryDroid](https://f-droid.org/app/tmendes.com.waterydroid)**: Simple reminder app to drink water"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
+msgid "**[Web Media Share](https://f-droid.org/app/com.tobykurien.webmediashare)**: Browser for viewing, sharing, or casting media from websites"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
+msgid "**[Xia Express](https://f-droid.org/app/fr.ac_versailles.dane.xiaexpress)**: Create interactive images by croping zoomable details"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
+msgid "**[Yoke](https://f-droid.org/app/com.simonramstedt.yoke)**: Hackable gamepad for Linux"
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
+msgid "In total, **61** apps were updated this week. Here are the highlights:"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
+msgid "**[AdGuard Content Blocker](https://f-droid.org/app/com.adguard.android.contentblocker)** is an ad blocker for browsers that support content blocking technology. So far, these are Yandex Browser and Samsung Internet browser. Version 2.2.1 adds a whitelist setting, clean filters cache, new locales, and the order of entries will be respected when importing user filter lists."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
+msgid "**[DNS Hero](https://f-droid.org/app/com.gianlu.dnshero)** lets you inspect DNS zones like a superhero. Version 1.1.3 is in, adding a brand new preferences screen and different diagnostics cards colors for improved readability. Behind the scenes, some problems with non-free dependencies were addressed, thanks to **[@Rudloff](https://forum.f-droid.org/u/rudloff)**)."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
+msgid "**[GPSTest](https://f-droid.org/app/com.android.gpstest.osmdroid)** is an app for testing GPS and GNSS capabilities of a device, with real-time information for satellites in view of your device. Version 3.2.0 adds D/M/S support for latitude and longitude, share in multiple location formats, run-time instead of install-time permissions, Greek and Dutch translations, and allows free map movement during location updates."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
+msgid "[@ninelima](https://forum.f-droid.org/u/ninelima) reports: I am very pleased to announce release 22 of **[Kwik EFIS](https://f-droid.org/app/player.efis.pfd)** (Electronic Flight Information System) and **[DMAP](https://f-droid.org/app/player.efis.mfd)** (Digital Mapping). The product suite now has support for the [Stratux ](http://stratux.me/) devices. This allows for a very inexpensive solution to simple flight instrumentation for use in experimental aircraft. [Short article on the Stratux/Kwik integration](http://members.iinet.net.au/~ninelima/stratux/)."
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
+#, no-wrap
+msgid ""
+"  Some videos:\n"
+"  * [Kwik EFIS / Stratux - Test Flight](https://www.youtube.com/watch?v=t6Vnk_rdSzI)\n"
+"  * [Kwik EFIS / Stratux - Dual monitor test](https://www.youtube.com/watch?v=PzmiZzQZ1EE)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
+msgid "**[MHGUDB](https://f-droid.org/app/com.ghstudios.android.mhgendatabase)** is an extensive, all in one, _Monster Hunter Generations_ reference. It had a major update to 2.0.1, adding _Monster Hunter Generations Ultimate_ data, and many usability improvements."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
+msgid "**[Markor](https://f-droid.org/app/net.gsantner.markor)** 1.1.0 is out. Markor is a powerful text editor for [Markdown](https://commonmark.org) and [todo.txt](http://todotxt.com) files. This release adds several new features for working with images, a list of popular files, and a virtual folder for popular & recent files. You can read about even more improvements and bug fixes in the accompanying [blog post](https://gsantner.net/blog/android/2018/09/09/markor-release-v1.1.html)."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
+msgid "**[Mastalab](https://f-droid.org/app/fr.gouv.etalab.mastodon)** was updated from 1.11.0 to 1.12.2, adding several Mastodon 2.5 features such as managing filters, hiding boosts from a specific account, and featuring other accounts on your profile. It can also now DM from profile, open toots in a browser, has improved layout for profiles with a new \"pinned\" tab, and more."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
+msgid "**[Mi Manga Nu](https://f-droid.org/app/ar.rulosoft.mimanganu)** lets you read and organize mangas. This update from 1.86 to 1.89 now comes as a dedicated F-Droid build flavor, adding new mangas and various fixes."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
+msgid "**[NewPipe](https://f-droid.org/app/org.schabi.newpipe)** had two updates during this period. First off, 0.14.0 was released featuring a more customizable main page and different UI and UX tweaks including a reworked navigation drawer, drag and drop to close the popup / pip mode and much more. For more info you can [check the blog post](https://newpipe.schabi.org/blog/release/pinned/newpipe-0.14.0-released/)."
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
+#, no-wrap
+msgid "  On the heels of that comes the 0.14.1 hotfix, which fixes NewPipe after a change on YouTube's side basically [broke everything](https://forum.f-droid.org/t/help-fail-newspipe-why/3800). Also includes a fix for long links in video descriptions.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
+msgid "We now have **[OsmAnd~](https://f-droid.org/app/net.osmand.plus)** 3.2 beta in the repo which is supposed to fix Android 8 rendering performance issues, and fixes a crash on startup that occurred with non-latin maps. This update won't be automatically suggested to you unless you have \"Unstable updates\" enabled in the F-Droid app, but you can expand the \"Versions\" tab and install it manually. Note that this is a beta version: proceed at your own risk."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
+msgid "**[QKSMS](https://f-droid.org/app/com.moez.QKSMS)**, a material design replacement for the stock AOSP messaging app, was updated from 3.4.5 to 3.5.3, with initial SMS backup and restore, direct share support, smoother scrolling for MMS messages, and _many_ bug fixes."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
+msgid "**[Tusky](https://f-droid.org/app/com.keylesspalace.tusky)** is a lightweight material design Mastodon client. Version 3.1 fixes image orientation when uploading them, fixes bugs with loading bottom items, allows account switching while offline, and other bug fixes and improvements."
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
+#: build/_posts/md/2018-09-21-twif-22-servers-edition.md
+#: build/_posts/md/2018-09-27-twif-23-successful-update-to-stretch.md
+#: build/_posts/md/2018-10-04-twif-24-the-end-of-logging-as-we-know-it.md
+msgid "Do you have important app updates we should write about? Send in your tips via [Mastodon](https://joinmastodon.org)! Send them to **[@fdroidorg@mastodon.technology](https://mastodon.technology/@fdroidorg)** and remember to tag with **[#TWIF](https://mastodon.technology/tags/twif)**. Or use the [TWIF submission thread](https://forum.f-droid.org/t/twif-submission-thread) on the forum. The deadline to the next TWIF is **Thursday** 12:00 UTC."
+msgstr ""
+
+#. type: Title #
+#: build/_posts/md/2018-09-21-twif-22-servers-edition.md
+#, no-wrap
+msgid "\"TWIF 22: Servers Edition\""
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-21-twif-22-servers-edition.md
+#, no-wrap
+msgid "This Week In F-Droid 22, Week 38, 2018 <a href=\"{{ site.baseurl }}/feed.xml\"><img src=\"{{ site.baseurl }}/assets/Feed-icon-16x16.png\" alt=\"Feed\"></a>\n"
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-21-twif-22-servers-edition.md
+#, no-wrap
+msgid ""
+"In this edition: Buildserver ready to upgrade to Stretch, SET Anti-Feature bug, hosted basebox images, pretty fdroiddata graphs, Rocket.Chat finally lands, and 68 updated apps including Mastalab.\n"
+"<!--more-->\n"
+msgstr ""
+
+#. type: Title ####
+#: build/_posts/md/2018-09-21-twif-22-servers-edition.md
+#, no-wrap
+msgid "Buildserver upgrade to _Debian Stretch_ nearing completion"
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-21-twif-22-servers-edition.md
+#, no-wrap
+msgid "**[@uniqx](https://forum.f-droid.org/u/uniqx)**'s big buildserver update to Stretch has been merged, and has been successfully validated on [jenkins.debian.net](https://jenkins.debian.net/job/reproducible_fdroid_build_apps/). **[@CiaranG](https://ciarang.com)** has indicated that he is ready to update, so this will go live on our production buildserver very soon! This is a _huge_ upgrade that we've been working towards for a long time. Once it's in, it should be easier for us to add apps (less complicated recipes), and allow us to include more apps that we were previously unable to build.\n"
+msgstr ""
+
+#. type: Title ####
+#: build/_posts/md/2018-09-21-twif-22-servers-edition.md
+#, no-wrap
+msgid "SET Anti-Feature bug"
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-21-twif-22-servers-edition.md
+msgid "We've had many reports that random apps started sprouting a mysterious \"SET\" Anti-Feature, sometimes even more than one! It is a mistake and should not be there.  We are well aware of this bug now, so thank you for your all reports. ;) The fix is tested and just waiting to be deployed. You can read about the gory details in [issue 565](https://gitlab.com/fdroid/fdroidserver/issues/565)."
+msgstr ""
+
+#. type: Title ####
+#: build/_posts/md/2018-09-21-twif-22-servers-edition.md
+#, no-wrap
+msgid "Basebox images hosted by Vagrant"
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-21-twif-22-servers-edition.md
+msgid "We now have some [pre-built basebox images](https://app.vagrantup.com/fdroid/) up for you to play with! These are graciously hosted by Vagrant, and should make setting up your own buildserver a lot easier."
+msgstr ""
+
+#. type: Title ####
+#: build/_posts/md/2018-09-21-twif-22-servers-edition.md
+#, no-wrap
+msgid "Fdroiddata statistics"
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-21-twif-22-servers-edition.md
+#, no-wrap
+msgid "**[@\\_hc](https://forum.f-droid.org/u/hans)** has made some [pretty graphs](https://fdroid.gitlab.io/fdroiddata/) for you to look at! This is is a visualisation of our [fdroiddata](https://gitlab.com/fdroid/fdroiddata) repository, which contains all our app metadata. It is interesting to see that the number of new files has been steadily rising, even though the total commits per year has actually gone down. This could well mean that we have gotten more efficient, according to **[@\\_hc](https://forum.f-droid.org/u/hans)**.\n"
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-21-twif-22-servers-edition.md
+msgid "It is scheduled to update once a week."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-21-twif-22-servers-edition.md
+msgid "**[Rocket.Chat](https://f-droid.org/app/chat.rocket.android)** is in! We've mentioned this briefly in [TWIF 16]({{ site.baseurl }}{% post_url 2018-08-10-twif-16-the-note-taking-todo-text-editor-edition %}#community-news), and now **[@Bubu](https://forum.f-droid.org/u/Bubu)**'s work is paying off even as he is on vacation."
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-21-twif-22-servers-edition.md
+#, no-wrap
+msgid "  Note that the app is without push notifications right now, so you'll have to enter the app to see if there's anything new. The developers seem to be interested in exploring non-[FCM](https://en.wikipedia.org/wiki/Firebase_Cloud_Messaging) push though. Maybe they can take inspiration from [Tutanota's solution]({{ site.baseurl }}{% post_url 2018-09-03-replacing-gcm-in-tutanota %}).\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-21-twif-22-servers-edition.md
+msgid "**[Neural Network Simulator](https://f-droid.org/app/com.EthanHeming.NeuralNetworkSimulator)**: Educational tool to learn about computational neuroscience and electrophysology"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-21-twif-22-servers-edition.md
+msgid "**[Aria2Android](https://f-droid.org/app/com.gianlu.aria2android)**: With Aria2Android you can run a real aria2, an open source download manager, executable on your device."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-21-twif-22-servers-edition.md
+msgid "**[Syncthing-Fork](https://f-droid.org/app/com.github.catfriend1.syncthingandroid)**: File synchronization"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-21-twif-22-servers-edition.md
+msgid "**[BMI Calculator](https://f-droid.org/app/com.github.characterdog.bmicalculator)**: Simple BMI calculator"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-21-twif-22-servers-edition.md
+msgid "**[Lobsters App](https://f-droid.org/app/com.nikhiljha.lobstersapp)**: An app for lobste.rs"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-21-twif-22-servers-edition.md
+msgid "**[Checkup](https://f-droid.org/app/community.fairphone.checkup)**: A fork of the Fairphone 2 checkup app that has been modified in order to work on other devices as well. It allows you to test various components of your phone."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-21-twif-22-servers-edition.md
+msgid "**[DroidTR keyboard](https://f-droid.org/app/org.droidtr.keyboard)**: DroidTR IME (Turkish F/Q keyboard)"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-21-twif-22-servers-edition.md
+msgid "**[Soft Sound](https://f-droid.org/app/org.mcxa.softsound)**: Play relaxing sounds to help you sleep, concentrate or stay calm."
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-21-twif-22-servers-edition.md
+msgid "In total, **68** apps were updated this week. Here are the highlights:"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-21-twif-22-servers-edition.md
+msgid "**[Activity Diary](https://f-droid.org/app/de.rampro.activitydiary)** lets you log and plan your recurring activities. In version 1.3.1 tracking of position was added (needs activation in settings and is not yet used for proposing next activities). Also added was a pie chart for statistics, simplified pausing: last finished activities get a higher priority, improved searching, and several bugfixes."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-21-twif-22-servers-edition.md
+msgid "**[Tutanota](https://f-droid.org/app/de.tutao.tutanota)** enables you to send end-to-end encrypted emails to anybody with a tip of your finger. Version 3.37.1 will remember your language choice for external recipients, supports \"cancel\" and \"confirm\" hotkeys in dialogs, and has lots of bug fixes."
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-21-twif-22-servers-edition.md
+#, no-wrap
+msgid ""
+"* {{ page.featured }} **[Mastalab](https://f-droid.org/app/fr.gouv.etalab.mastodon)** is on fire this week with 4 releases! Version 1.13.3 supports the [Trunk](https://communitywiki.org/trunk) API, which lets you mass-follow users by category, with just a few simple taps. Ideal for newcomers. Other new features:\n"
+"  * Customize notification sound\n"
+"  * Custom emoji in the main menu\n"
+"  * Automatically expand hidden media (default no)\n"
+"  * Long click on the compose button to pick up another account\n"
+"  * Compact mode is now the default\n"
+"  * Follow instance button can be hidden\n"
+"  * Improved UX with more text\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-21-twif-22-servers-edition.md
+msgid "**[Markor](https://f-droid.org/app/net.gsantner.markor)**, 1.2.0 is out. Your favorite [markdown](https://commonmark.org) editor and TODO app now has launchers to directly open LinkBox/ToDo/QuickNote, context aware search for projects, preview for ToC and KaTex math, and improved markdown conversion, notably GFM-like table parsing and underlined h1. Read about even more improvements in the [blog post](https://gsantner.net/blog/android/2018/09/18/markor-release-v1.2.html)."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-21-twif-22-servers-edition.md
+msgid "**[LTE Cleaner (FOSS)](https://f-droid.org/app/theredspy15.ltecleanerfoss)** had major updates this week, going from 2.3 to 3.1.0 in 5 releases! New features include a \"one click clean\" option, simplified filter options, an \"aggressive filter\", Chinese (traditional) language support, and many smaller changes and bug fixes."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-21-twif-22-servers-edition.md
+msgid "**[WaveUp](https://f-droid.org/app/com.jarsilio.android.waveup)**: \"Just wave your hand over the proximity sensor of your phone to turn the screen on.\" Version 2.2.0 contains under-the-hood changes, converting the code base to Kotlin, and updating some dependencies."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-21-twif-22-servers-edition.md
+msgid "**[Dental Sounds](https://f-droid.org/wiki/page/de.naturalnet.zahnarztgeraeusche)** was moved to the archive [at the request of its author](https://gitlab.com/fdroid/fdroiddata/merge_requests/3668), as the app is unmaintained."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-21-twif-22-servers-edition.md
+msgid "**[PSLab](https://f-droid.org/wiki/page/org.fossasia.pslab)** was moved to the archive because it has been replaced with **[PSLab](https://f-droid.org/app/io.pslab)**."
+msgstr ""
+
+#. type: Title #
+#: build/_posts/md/2018-09-27-twif-23-successful-update-to-stretch.md
+#, no-wrap
+msgid "\"TWIF 23: Successful update to Stretch\""
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-27-twif-23-successful-update-to-stretch.md
+#: build/_posts/md/2018-10-04-twif-24-the-end-of-logging-as-we-know-it.md
+#: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
+#: build/_posts/md/2018-10-20-twif-26-tagesschau-f-droid-repo-and-translation-workflow-improvement.md
+#: build/_posts/md/2018-10-25-twif-27-new-servers-and-first-alpha-release-of-f-droid-1-5.md
+#, no-wrap
+msgid "This Week In F-Droid {{ page.edition }}, Week {{ page.date | date: \"%V, %G\" }} <a href=\"{{ site.baseurl }}/feed.xml\"><img src=\"{{ site.baseurl }}/assets/Feed-icon-16x16.png\" alt=\"Feed\"></a>\n"
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-27-twif-23-successful-update-to-stretch.md
+msgid "In this edition: Buildserver successfully upgraded to Stretch, SET Anti-Feature fixed, new F-Droid sweatshirts, and F-Droid 1.4 marked stable. There are 3 new apps and {{ page.number_of_updated_apps }} updates, including Music Player GO, FOSS Browser, StreetComplete, and Bimba."
+msgstr ""
+
+#. type: Title ####
+#: build/_posts/md/2018-09-27-twif-23-successful-update-to-stretch.md
+#, no-wrap
+msgid "Stretch upgrade successful"
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-27-twif-23-successful-update-to-stretch.md
+msgid "The buildserver guest was upgraded to Debian Stretch, and has published its first index update!"
+msgstr ""
+
+#. type: Title ####
+#: build/_posts/md/2018-09-27-twif-23-successful-update-to-stretch.md
+#, no-wrap
+msgid "SET Anti-Feature fixed"
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-27-twif-23-successful-update-to-stretch.md
+msgid "As of the latest index update, the [SET Anti-Feature](https://f-droid.org/wiki/page/Antifeature:SET) has been cleared from all apps. In case you were still wondering what the SET Anti-Feature is... it isn't! That's the bug. [See the bug](https://gitlab.com/fdroid/fdroidserver/issues/565)."
+msgstr ""
+
+#. type: Title ####
+#: build/_posts/md/2018-09-27-twif-23-successful-update-to-stretch.md
+#, no-wrap
+msgid "New F-Droid sweatshirts coming"
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-27-twif-23-successful-update-to-stretch.md
+#, no-wrap
+msgid "<span style=\"font-variant: small-caps; text-transform: lowercase;\">Hellotux</span>, whom you may remember from [TWIF 15]({{ site.baseurl }}{% post_url 2018-08-03-twif-15-announcing-f-droid-1-3 %}), is bringing new [F-Droid sweatshirts](https://www.hellotux.com/f-droid) on-line. These should be available soon, in addition to the T-shirts and polo shirts already for sale. Remember that F-Droid gets €3 for every shirt sold!\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-27-twif-23-successful-update-to-stretch.md
+msgid "**[MatLog Libre](https://f-droid.org/app/com.pluscubed.matloglibre)**: Material Design logcat reader based on CatLog"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-27-twif-23-successful-update-to-stretch.md
+msgid "**[BatteryFu](https://f-droid.org/app/com.tobykurien.batteryfu)**: Battery saving"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-27-twif-23-successful-update-to-stretch.md
+msgid "**[EtchDroid](https://f-droid.org/app/eu.depau.etchdroid)**: An application that helps you write images to USB drives, no root required"
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-27-twif-23-successful-update-to-stretch.md
+#: build/_posts/md/2018-10-04-twif-24-the-end-of-logging-as-we-know-it.md
+#: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
+#: build/_posts/md/2018-10-20-twif-26-tagesschau-f-droid-repo-and-translation-workflow-improvement.md
+#: build/_posts/md/2018-10-25-twif-27-new-servers-and-first-alpha-release-of-f-droid-1-5.md
+msgid "In total, **{{ page.number_of_updated_apps }}** apps were updated this week. Here are the highlights:"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-27-twif-23-successful-update-to-stretch.md
+msgid "**[ICSdroid](https://f-droid.org/app/at.bitfire.icsdroid)** fetches remote iCalendar files (like your school/university time tables, or events of your favorite sports team) and synchronizes them into local, read-only Android calendars. No other data is transferred; there are no accounts and no logins. This update to 1.6 brings better support for large calendars, and various minor improvements."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-27-twif-23-successful-update-to-stretch.md
+msgid "{{ page.major }} **[Music Player GO](https://f-droid.org/app/com.iven.musicplayergo)** had a major update to 3.0.0 and then some, bringing it up to 3.1.1. [Changes](https://github.com/enricocid/Music-Player-GO/releases) are unclear."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-27-twif-23-successful-update-to-stretch.md
+msgid "**[Nextcloud](https://f-droid.org/app/com.nextcloud.client)** 3.3.0 adds support for Trashbin, device credentials, media streaming, and has new media detection for AutoUpload, improved TalkBack screenreader support, offline/maintenance info, and many more improvements and bug fixes."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-27-twif-23-successful-update-to-stretch.md
+msgid "**[Waistline](https://f-droid.org/app/com.waist.line)**, the calorie counter and weight tracker, was updated from 2.2.3 to 2.3.3, adding the ability to enter your own [Open Food Facts](https://world.openfoodfacts.org) credentials, a setting to change the app's home screen, support for the fibre nutriment, saturated fat and fibre goals, under-the-hood changes to improve performance and ease maintenance, and several bug fixes centering around date problems."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-27-twif-23-successful-update-to-stretch.md
+msgid "{{ page.major }} **[FOSS Browser](https://f-droid.org/app/de.baumann.browser)** released 6.0. FOSS Browser is a simple browser based on Android's builtin WebView. This release has new translations for Taiwan Traditional Chinese, Italian, Portugese, and the Polish translation was updated. Besides that there are many more fixes and improvements."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-27-twif-23-successful-update-to-stretch.md
+msgid "**[RasPi Check](https://f-droid.org/app/de.eidottermihi.raspicheck)** was updated from 1.8.0 to 1.8.11, after 2 years of not updating in F-Droid. RasPi Check shows you the current system status of a running Raspberry Pi computer. The minimum version of Android needed to run this is now 5.0 (up from 2.3). Given that this update spans two years, there are numerous changes which are hard to summarize. You can check the [changelog](https://github.com/eidottermihi/rpicheck/releases) for details."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-27-twif-23-successful-update-to-stretch.md
+msgid "{{ page.featured }} {{ page.major }} **[StreetComplete](https://f-droid.org/app/de.westnordost.streetcomplete)** had a major update to 8.0! It comes with a huge redesign to the quest forms and the dialogs, bringing it more in line with Google's \"material design 2.0\". Downloading quests has been made more seamless, allowing for easier editing. Other improvements include a new \"Railway crossing\" quest, and several improvements to existing quests. Performance problems when downloading quests were addressed (especially when downloading house numbers and building types), and you'll find several other UX enhancements, as well as the usual bug fixes."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-27-twif-23-successful-update-to-stretch.md
+msgid "**[FairEmail](https://f-droid.org/app/eu.faircode.email)** had a lot of small releases, encompassing many changes. We have 0.69 in the repository now, with more in the pipeline. See the [changelog](https://github.com/M66B/open-source-email/releases?after=0.70) for details."
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-27-twif-23-successful-update-to-stretch.md
+#, no-wrap
+msgid ""
+"* {{ page.major }} **[Bimba](https://f-droid.org/app/ml.adamsprogs.bimba)** comes out of beta testing with its 2.0 release. Bimba is the first Free Software Poznań Wandering Guide (public transport app). New in version 2.0:\n"
+"  - official timetable from ZTM\n"
+"  - VM can be used without offline timetable\n"
+"  - offline timetable uses exact dates\n"
+"  - VM is quicker and is more reliable\n"
+"  - favourites rewritten from scratch\n"
+"  - app is movable to external storage\n"
+"  - new colours—grey and green—fitting new Poznań style\n"
+"  - multiple bug fixes\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-27-twif-23-successful-update-to-stretch.md
+msgid "**[Shelter](https://f-droid.org/app/net.typeblog.shelter)** runs \"Big Brother\" apps inside an isolated profile. Version 1.2 brings optimizations and fixes to the initialization process, so more devices should be able to use Shelter. In-app sharing is now allowed to cross the profile boundary, security of cross-profile interactions has been improved, and the new feature \"File Shuttle\" was added as well."
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-27-twif-23-successful-update-to-stretch.md
+#, no-wrap
+msgid ""
+"* {{ page.fdroid }} **[F-Droid](https://f-droid.org/app/org.fdroid.fdroid)** 1.4 has been out for about two weeks, but we've now marked it as the current stable version, meaning it will appear on the upgrade list, or if you have the [privileged extension](https://gitlab.com/fdroid/privileged-extension/blob/HEAD/README.md) installed, do the upgrade fully automatic. New in 1.4:\n"
+"  - huge overhaul of the \"Versions\" list in the App Details screen, and many other UI improvements, thanks to new contributor [@wsdfhjxc](https://gitlab.com/wsdfhjxc)\n"
+"  - fix keyboard/d-pad navigation in many places, thanks to new contributor [@doeffinger](https://gitlab.com/doeffinger)\n"
+"  - show \"Open\" button when media is installed and viewable\n"
+"  - add Share button to \"Installed Apps\" to export CSV list\n"
+"  - add clickable list of APKs to the swap HTML index page\n"
+"  - retry index downloads from mirrors\n"
+"  - fix \"Send F-Droid via Bluetooth\" on recent Android versions\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-09-27-twif-23-successful-update-to-stretch.md
+msgid "**[Kiwix](https://f-droid.org/app/org.kiwix.kiwixmobile)** is an _offline_ [Wikipedia](https://www.wikipedia.or) reader. Version 2.4 adds download time estimation, manual update of storage location, sort bookmarks, and fixes some bugs, among others with external [SD card](https://en.wikipedia.org/wiki/Secure_Digital)s."
+msgstr ""
+
+#. type: Title ####
+#: build/_posts/md/2018-09-27-twif-23-successful-update-to-stretch.md
+#, no-wrap
+msgid "And finally"
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-09-27-twif-23-successful-update-to-stretch.md
+msgid "You may have noticed that the design of the \"Featured\" label has changed, and that TWIF sprouted new \"Major\" and \"F-Droid\" labels. We'd like to hear what you think of the idea itself, as well as how it looks. Please share your thoughts!"
+msgstr ""
+
+#. type: Title #
+#: build/_posts/md/2018-10-04-twif-24-the-end-of-logging-as-we-know-it.md
+#, no-wrap
+msgid "\"TWIF 24: The End of Logging As We Know It\""
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-10-04-twif-24-the-end-of-logging-as-we-know-it.md
+#, no-wrap
+msgid ""
+"A light edition this week, due to the update process being stuck since Monday. This week we learn of BotBot.me shutting down, 4 new apps and {{ page.number_of_updated_apps }} updates, with a major update for SnoopSnitch.\n"
+"<!--more-->\n"
+msgstr ""
+
+#. type: Title ####
+#: build/_posts/md/2018-10-04-twif-24-the-end-of-logging-as-we-know-it.md
+#, no-wrap
+msgid "BotBot.me closing its doors"
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-10-04-twif-24-the-end-of-logging-as-we-know-it.md
+msgid "Citing the new [GDPR](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation) laws, and lack of development since 2015, the IRC logging service [BotBot.me](https://botbot.me) will be [shutting down on November 5th, 2018](https://lincolnloop.com/blog/saying-goodbye-botbotme/), after 6 years of service. BotBot.me is what logs our public IRC rooms, [#fdroid](https://botbot.me/freenode/fdroid/) and [#fdroid-dev](https://botbot.me/freenode/fdroid-dev/). We are currently thinking about what to do about the old logs, and what we should replace it with, if anything at all."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-10-04-twif-24-the-end-of-logging-as-we-know-it.md
+msgid "**[Nomad](https://f-droid.org/app/com.dfa.hubzilla_android)**: This is an unofficial client for the distributed social network Hubzilla"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-10-04-twif-24-the-end-of-logging-as-we-know-it.md
+msgid "**[X11-Basic](https://f-droid.org/app/net.sourceforge.x11basic)**: X11-Basic is a dialect of the BASIC programming language with graphics capability. It has a very rich command set, though it is still easy to learn."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-10-04-twif-24-the-end-of-logging-as-we-know-it.md
+msgid "**[Disroot App](https://f-droid.org/app/org.disroot.disrootapp)**: Disroot app is like your Swiss Army knife to the Disroot platform"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-10-04-twif-24-the-end-of-logging-as-we-know-it.md
+msgid "**[AFReplacer](https://f-droid.org/app/ru.ifproject.android.afr)**: Replace Amazfit Bip watchfaces in Mi Fit"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-10-04-twif-24-the-end-of-logging-as-we-know-it.md
+msgid "**[Apple Flinger](https://f-droid.org/app/com.gitlab.ardash.appleflinger.android)** is a game inspired by Angry Birds. Version 1.5.0 adds achievements, and fixes a scoring bug."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-10-04-twif-24-the-end-of-logging-as-we-know-it.md
+msgid "**[WaveUp](https://f-droid.org/app/com.jarsilio.android.waveup)**: Wake up your phone - switch the screen on - when you wave over the proximity sensor. Version 2.3.0 has a new \"excluded apps\" list."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-10-04-twif-24-the-end-of-logging-as-we-know-it.md
+msgid "{{ page.major }} **[SnoopSnitch](https://f-droid.org/app/de.srlabs.snoopsnitch)** was updated from 1.0.3 to 2.0.7. SnoopSnitch is a tool to check mobile network security on compatible phones with Root access. This update introduces the Android patch analysis feature, and reduces battery consumption. Also includes various UI/UX improvements, bugfixes and stability improvements."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-10-04-twif-24-the-end-of-logging-as-we-know-it.md
+msgid "**[FairEmail](https://f-droid.org/app/eu.faircode.email)** was updated from 0.69 to 0.71, now sending plain text as alternative, and with updated tools and libraries, updated translations, and miscellaneous small improvements and bug fixes."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-10-04-twif-24-the-end-of-logging-as-we-know-it.md
+msgid "**[Mastalab](https://f-droid.org/app/fr.gouv.etalab.mastodon)**, the Mastodon client, clocks in with 1.13.6 at F-Droid. Conversations can now be opened from remote instances, and fit preview media are displayed in a 2x2 grid. Issues with URLs, filters and notifications were addressed and some crashes were fixed."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-10-04-twif-24-the-end-of-logging-as-we-know-it.md
+msgid "**[Authorizer](https://f-droid.org/app/net.tjado.passwdsafe)** releases its first stable version, 0.3.0, after more than a year of inactivity. Authorizer turns an old smartphone into a hardware password manager, emulating an USB keyboard. This release now requires Android 5.0 to run (up from 4.0) and adds an OTP feature, placeholder feature, asymmetric encrypted backup, privacy policy, and several bug fixes and smaller changes."
+msgstr ""
+
+#. type: Title #
+#: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
+#, no-wrap
+msgid "\"TWIF 25: Tor Browser, Matrix room enhancements and mirror beta testing\""
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
+#, no-wrap
+msgid ""
+"In this edition: Tor Browser in Guardian Project, Matrix room improved, F-Droid bottom bar improvement, beta mirror up for testing, and 11 new apps and a record-breaking **{{ page.number_of_updated_apps }}** updates.\n"
+"<!--more-->\n"
+msgstr ""
+
+#. type: Title ####
+#: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
+#, no-wrap
+msgid "Tor Browser available in Guardian Project repository"
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
+msgid "An alpha version of the new Tor Browser is now available via the Guardian Project repository. It is the same APK as from the Tor Project website. The Guardian Project is working on getting it built [reproducibly](https://reproducible-builds.org), and once that is done we will work to add the reproducibly building Tor Browser to F-Droid."
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
+msgid "Meanwhile, we are looking for a volunteer who want to add a not-reproducibly-building version to F-Droid. It would be great if someone who has experience with building Fennec could try building Tor Browser."
+msgstr ""
+
+#. type: Title ####
+#: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
+#, no-wrap
+msgid "Growing our presence on Matrix"
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
+msgid "We have had an IRC room on Freenode since at least 2014, and that room has been bridged to Matrix since Matrix started bridging Freenode. Over the last year, we have been customizing the Matrix half of the room, adding a nice room avatar among other things, but the amount of customization we're allowed that way is limited."
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
+msgid "So this week we went and made a Matrix room, and bridged it to IRC manually. The upshot of this is that we now have a Matrix room which is fully under our control. This has allowed us to set history visibility to public, so anyone can now read back the logs at [https://view.matrix.org/alias/#fdroid:matrix.org](https://view.matrix.org/alias/%23fdroid:matrix.org). We have also listed the room in matrix.org's room directory, so people who search for F-Droid can actually find us."
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
+msgid "Finally, the room can now be reached at [#fdroid:matrix.org](https://matrix.to/#/#fdroid:matrix.org). This alias previously belonged to a third-party F-Droid room which has been running on Matrix since January 2017. They have graciously allowed us to use the alias for our room, for which our sincere thanks."
+msgstr ""
+
+#. type: Title ####
+#: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
+#, no-wrap
+msgid "Compact bottom bar in F-Droid client"
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
+#, no-wrap
+msgid "**[@Licaon_Kter](https://forum.f-droid.org/u/Licaon_Kter)** is working on a modified bottom bar in the F-Droid client, which has more room for text by collapsing the inactive items. This should fix problems with text getting cut off in languages other than English. You can see it in action [here](https://gitlab.com/fdroid/fdroidclient/merge_requests/756).\n"
+msgstr ""
+
+#. type: Title ####
+#: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
+#, no-wrap
+msgid "Tutanota on F-Droid spotlighted at Linux Journal"
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
+msgid "Tutanota, and the story of how they made their app suitable for F-Droid, have been [spotlighted](https://www.linuxjournal.com/content/foss-project-spotlight-tutanota-first-encrypted-email-service-app-f-droid) at Linux Journal. Of course, if you've been [following our blog]({{ site.baseurl }}{% post_url 2018-09-03-replacing-gcm-in-tutanota %}), this will sound very familiar."
+msgstr ""
+
+#. type: Title ####
+#: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
+#, no-wrap
+msgid "Beta mirror up for testing"
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
+msgid "Tetaneutral is a non-profit ISP based in Toulouse, France. They have offered to host a mirror of our main F-Droid repository, as well as the archive. We are currently beta testing the setup, and if you'd like to give it a try, [tap here](https://fdroid.tetaneutral.net/fdroid/repo?fingerprint=43238D512C1E5EB2D6569F4A3AFBF5523418B82E0A3ED1552770ABB9A9C9CCAB) on your mobile device to add it as a \"user mirror\" for f-droid.org. (Link will not work on a PC or if you don't have the F-Droid app installed.)"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
+msgid "**[Cool Mic](https://f-droid.org/app/cc.echonet.coolmicapp)** is an open source Icecast source client. It livestreams audio captured by your Android device’s microphone or mic in / line in jack to any Icecast server."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
+msgid "Ever wanted to create a fictional setting — for your next novel, comic, screenplay, or what-have-you — but find it difficult to keep everything organized? **[World Scribe](https://f-droid.org/app/com.averi.worldscribe)** eases the creation process by letting you keep track of every important element in your world, including the ways in which they're connected."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
+msgid "**[Cryptolitycs](https://f-droid.org/app/com.fproject.cryptolitycs)** gives quick and easy access to cryptocurrency related information and allows the user to follow the cryptocurrency market."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
+msgid "**[Identify Dog Breeds](https://f-droid.org/app/com.jstappdev.dbclf)**: Identify over one hundred different dog breeds with your smartphone."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
+msgid "**[CPU Info](https://f-droid.org/app/com.kgurgul.cpuinfo)**: Information about device hardware and software."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
+msgid "**[XOverrideHeadphoneJackDetection](https://f-droid.org/app/de.antonarnold.android.xoverrideheadphonejackdetection)** is an XPosed module that allows you to manually override the headphone jack detection of an Android device."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
+msgid "**[Calcvac](https://f-droid.org/app/de.drhoffmannsoftware.calcvac)**: Calculate logitudinal one-dimensional pressure profiles in vacuum pipes."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
+msgid "**[SQRL - Main](https://f-droid.org/app/org.ea.sqrl)**: An implementation for SQRL (Secure Quick Reliable Login)."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
+msgid "**[Flyve MDM Agent](https://f-droid.org/app/org.flyve.mdm.agent)**: Manage and secure effectively your mobile devices and applications."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
+msgid "**[Quickly quit](https://f-droid.org/app/quickly.quit)**: Quickly quit what you were doing."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
+msgid "{{ page.featured }} **[Manyverse](https://f-droid.org/app/se.manyver)**: At last a mobile client for the _[Secure Scuttlebutt](https://ssbc.github.io/secure-scuttlebutt/)_ protocol lands in F-Droid! SSB is a peer-to-peer protocol and social network optimized for off-line and off-grid use. You can share messages locally using bluetooth or local WiFi, directly with your friends over the internet, or optionally tap into more centralized nodes called \"pubs\"."
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
+#, no-wrap
+msgid "    For in-depth details about the developer, André Staltz, and his motivations you can watch the [It's time to build our own Internet](https://www.youtube.com/watch?v=UjfWAbGfPh0) TEDxGeneva talk and the recent [Reinvent the social web](https://www.youtube.com/watch?v=8GE5C9-RUpg). If you're more inclined to read you can see his viral blog posts called [The Web began dying in 2014, here's how](https://staltz.com/the-web-began-dying-in-2014-heres-how.html) and the follow up [A plan to rescue the Web from the Internet](https://staltz.com/a-plan-to-rescue-the-web-from-the-internet.html).\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
+msgid "{{ page.major }} Lots of changes for **[VPN Hotspot](https://f-droid.org/app/be.mygod.vpnhotspot)**, which updates we haven't been picking up since early June. Updating straight from 1.3.2 to 2.0.3, it has refined masquerading rules, starting on boot, dark theme and Android TV support, identifying and blocking unwanted clients, recording per-client bandwidth, and a ton of UI improvements and fixes. Note that the functionality of this app is limited without root access."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
+msgid "**[PasteBin](https://f-droid.org/app/com.anoopknr.pastebin)** is a client for Ubuntu pastebin. It was updated from 1.0 to 1.5, now with a stable and responsive UI, new recent post and about options, new custom toolbars and menu bars, and the usual bug fixes."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
+msgid "**[DuckDuckGo Privacy Browser](https://f-droid.org/app/com.duckduckgo.mobile.android)** updated from 5.10.3 to 5.10.4, adding optimizations to its HTTPS upgrading solution."
+msgstr ""
+
+#. type: Bullet: '*   '
+#: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
+msgid "**[TrebleShot](https://f-droid.org/app/com.genonbeta.TrebleShot)** allows you to send and receive files over available connections, and pause and resume transfer process even when an error is given. This update from 1.2.7.2 to 1.2.7.5 brings improved support for Android 9 (Pie), a theme update & dark theme, and an improved look for the app and the QR scanner, as well as new and updated translations and bug fixes."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
+msgid "**[PocketMaps](https://f-droid.org/app/com.junjunguo.pocketmaps)** is a map viewer with navigation system and support for offline use. This update from 2.0 to 2.3 allows to load GPX files to show an analysis and route, mute voice guidance when in a phone call, make downloads visible in the notification bar, now accepts geo: links from other apps, and several UI improvements."
+msgstr ""
+
+#. type: Bullet: '*   '
+#: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
+msgid "**[Calculator](https://f-droid.org/app/com.simplemobiletools.calculator)** 4.2.0 has some updated libraries + translation updates."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
+msgid "**[File Manager](https://f-droid.org/app/com.simplemobiletools.filemanager)** 4.3.1 has some bugfixes and translation improvements."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
+msgid "**[Gallery](https://f-droid.org/app/com.simplemobiletools.gallery)** 4.6.5 adds notch support for Android 9 (Pie), faster video seeking by dragging a finger at the bottom seekbar, a different way of displaying fullscreen GIFs, a new toggle for trying to show the best possible image quality, keep Favorite items marked after moving, and many smaller improvements and fixes."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
+msgid "**[Elementary](https://f-droid.org/app/com.ultramegatech.ey)** is a simple Periodic Table and element reference application. Version 0.9.0 now requires at least Android 4.0 (up from 2.3), and has updated videos for Argon, Tin and Dubnium."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
+msgid "{{ page.major }} **[Qz](https://f-droid.org/app/com.vonglasow.michael.qz)** (pronounced \"queues\") connects to an RDS/TMC receiver to receive live traffic messages, helping you avoid congestions. Version 2.0.0 is out, with the ability to send new messages as TraFF feeds to applications supporting it, updates to location tables, and fixing a bug causing the message list UI to miss some updates."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
+msgid "{{ page.major }} **[Wownerujo](https://f-droid.org/app/com.wownero.wownerujo)** is a fork of the cryptocurrency Monero with primary alterations. Updating from 1.6.4.0 to 2.3.0.1, the app is now based on Wownero v0.3.0.0 Cool Cage."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
+msgid "**[Tricky Tripper](https://f-droid.org/app/de.koelle.christian.trickytripper)** is an offline-compatible utility for managing travel expenses. 1.6.0 fixes online retrieval of currencies, but without support for El Salvador Colon and Sambian Kwacha."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
+msgid "**[Tutanota](https://f-droid.org/app/de.tutao.tutanota)** 3.37.2 contains updated Terms & Conditions."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
+msgid "**[EtchDroid](https://f-droid.org/app/eu.depau.etchdroid)** helps you write images to USB drives. You can use it to make a bootable GNU/Linux USB drive when your laptop is dead and you're in the middle of nowhere. It requires no root. Version 1.3 brings a dark theme, ability to open images from a file manager, and adds a workaround for an Android 9 (Pie) issue."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
+msgid "**[NetGuard](https://f-droid.org/app/eu.faircode.netguard)** was updated from 2.207 to 2.212, now checking for always-on VPN, updated translations, and some fixes."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
+msgid "**[Tachiyomi](https://f-droid.org/app/eu.kanade.tachiyomi)** is a manga reader. Version 0.8.0 brings quite a few changes, adding a new reader with many fixes, GIF support, showing all entries in the library even if their extensions are not installed, and several bug fixes."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
+msgid "**[Conversations](https://f-droid.org/app/eu.siacs.conversations)** is an instant messenger with support for group chat, based on the XMPP protocol. Starting with version 2.3.0+fcr it brings support for TLSv1.3 and can now disable screen & switch to ear piece in audio player, enable foreground service by default for Android 8 (Oreo), view per-contact media files in contact and conference details screen, preview and ask for confirmation before sending media files, use consistent color generation, fix Quiet Hours on Android 8+, and addition of a video quality selector."
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
+#, no-wrap
+msgid ""
+"* {{ page.featured }} **[Mastalab](https://f-droid.org/app/fr.gouv.etalab.mastodon)** is a featureful multi-account client for [Mastodon](https://joinmastodon.org). Lots of new features in this jump from 1.13.6 to 1.15.2, now with video and Peertube support:\n"
+"  * Long-press on bookmark button to bookmark toots with another account\n"
+"  * Verified URL on profiles (currently only available on mastodon.social)\n"
+"  * Support for blocking whole instances\n"
+"  * Allow to share videos\n"
+"  * Howto videos in menu\n"
+"  * Manage Peertube videos (fullscreen + comments)\n"
+"  * Screen name not displayed in non-compact mode\n"
+"  * Filter issue with local timeline\n"
+"  * Follow Peertube instances with the ability to comment on videos with Mastodon accounts\n"
+"  * Direct messages in a column (can be hidden in settings)\n"
+"  * Many other changes, improvements and bug fixes\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
+msgid "**[Markor](https://f-droid.org/app/net.gsantner.markor)** 1.3.0 is out with an \"Auto\" theme, automatically switching between dark and light theme based on time of day. It also supports Chrome Custom tabs, will now start editing documents at last known cursor position, and enables link highlighting in plaintext format. Long-pressing an image now adds img-src with max-height, long-pressing the \"Special key\" jumps to top/bottom and long-pressing \"Open external\" opens context search. On top of that you'll find improvements to TextActions and Representation, and bug fixes."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
+msgid "**[OsmAnd~](https://f-droid.org/app/net.osmand.plus)** 3.2.2 fixes a crash on startup that occurred with non-latin maps, improves rendering speed on Android 8.0 devices, adds support for the polygon (non-amenity) objects editings, and adds a \"Measure\" button to Actions in the context menu for the distance measuring plugin."
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
+#, no-wrap
+msgid ""
+"* **[Open Camera](https://f-droid.org/app/net.sourceforge.opencamera)** 1.44.1 adds a lot of new capabilities:\n"
+"  * New photo mode \"NR\" Noise Reduction, takes a burst of photos and aligns and merges to reduce noise (Camera2 API only, only supported on high end devices)\n"
+"  * New photo mode \"Focus {}\" to enable Focus Bracketing (Camera2 API only)\n"
+"  * New option Settings/\"Ghost image\", to overlay either last photo taken, or a selected image on your device\n"
+"  * New option Settings/On screen GUI/\"Show audio level meter\", to display on-screen audio level when recording video\n"
+"  * New option Settings/Video settings/\"Video flat (log) profile\" to record video with a flat profile (Camera2 API only)\n"
+"  * New options under Settings/\"Processing settings...\" for setting Edge Mode and Noise Reduction Mode filtering options (Camera2 API only)\n"
+"  * New option Settings/Photo settings/\"Distance unit\" to allow using feet instead of metres for GPS altitude on photo stamp and video subtitles\n"
+"  * On-screen flash icon (to show whether flash will fire or not) now supported for front screen flash\n"
+"  * New Camera2 API debug option under Settings/\"Photo settings\" to disable taking photos whilst recording video feature (if your device has problems recording videos with Camera2 API enabled, try disabling this)\n"
+"  * Camera2 support for high resolution photo resolutions (required for supporting highest resolutions on some devices, e.g., Nokia 6, Samsung Galaxy S6)\n"
+"  * Launching from intent now recognises request for front or back camera\n"
+"  * Video bitrate options for 150Mbps and 200Mbps (may not work on all devices)\n"
+"  * New video audio source options: UNPROCESSED (requires Android 7) and `VOICE_RECOGNITION`\n"
+"  * Partial Greek translation (thanks to Wasilis Mandratzis-Walz)\n"
+"  * New option to disable ever showing the \"What's New\" dialog (under Settings/On screen GUI/ \"Show What's New dialog\")\n"
+"  * _Many_ other updates and bug fixes\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
+msgid "{{ page.major }} Apparently we haven't been able to update **[PDF Converter](https://f-droid.org/app/swati4star.createpdf)** for 2 years. We now have 8.3.3 in the repository (previously 1.0) with too many changes to list. Of note is that we also picked up some older versions, and version 2.5 is the latest one that will install on Android 4.4. All versions after that require at least Android 5.0."
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
+#: build/_posts/md/2018-10-20-twif-26-tagesschau-f-droid-repo-and-translation-workflow-improvement.md
+#: build/_posts/md/2018-10-25-twif-27-new-servers-and-first-alpha-release-of-f-droid-1-5.md
+msgid "Do you have important app updates we should write about? Send in your tips via [Mastodon](https://joinmastodon.org)! Send them to {{ page.mastodonAccount }} and remember to tag with {{ page.twifTag }}. Or use the {{ page.twifThread }} on the forum. The deadline to the next TWIF is **Thursday** 12:00 UTC."
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
+#: build/_posts/md/2018-10-20-twif-26-tagesschau-f-droid-repo-and-translation-workflow-improvement.md
+#: build/_posts/md/2018-10-25-twif-27-new-servers-and-first-alpha-release-of-f-droid-1-5.md
+msgid "General feedback can also be sent via Mastodon, or, if you'd like to have a live chat, you can find us in **#fdroid** on [Freenode](https://freenode.net), on Matrix via {{ page.matrixRoom }} or on [Telegram]({{ page.telegramRoom }}). All of these spaces are bridged together, so the choice is yours. You can also join us on the **[forum]({{ page.forum }})**."
+msgstr ""
+
+#. type: Title #
+#: build/_posts/md/2018-10-20-twif-26-tagesschau-f-droid-repo-and-translation-workflow-improvement.md
+#, no-wrap
+msgid "\"TWIF 26: Tagesschau F-Droid repo and translation workflow improvement\""
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-10-20-twif-26-tagesschau-f-droid-repo-and-translation-workflow-improvement.md
+#, no-wrap
+msgid ""
+"In this edition: Tagesschau running an F-Droid repo, starting up translation improvements, finalizing buildserver automation, and 2 new and {{ page.number_of_updated_apps }} updated apps.\n"
+"<!--more-->\n"
+msgstr ""
+
+#. type: Title ####
+#: build/_posts/md/2018-10-20-twif-26-tagesschau-f-droid-repo-and-translation-workflow-improvement.md
+#, no-wrap
+msgid "Tagesschau running their own F-Droid repository"
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-10-20-twif-26-tagesschau-f-droid-repo-and-translation-workflow-improvement.md
+msgid "We recently learned that [Tagesschau](https://en.wikipedia.org/wiki/Tagesschau_(German_TV_series)) distributes their official app through their own F-Droid repository at `https://service.tagesschau.de/app/repo`."
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-10-20-twif-26-tagesschau-f-droid-repo-and-translation-workflow-improvement.md
+msgid "We see this move as a great step towards user rights and freedom. Sadly the app isn't [free and open source software](https://en.wikipedia.org/wiki/Free_and_open-source_software), although it is financed with public money. If it is public money, it should be [public code](https://publiccode.eu) as well."
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-10-20-twif-26-tagesschau-f-droid-repo-and-translation-workflow-improvement.md
+msgid "Background for non-German readers: Tagesschau is essentially the German national TV news, airing every day at 20:00. For a longer and more nuanced description, please [refer to Wikipedia](https://en.wikipedia.org/wiki/Tagesschau_(German_TV_series))."
+msgstr ""
+
+#. type: Title ####
+#: build/_posts/md/2018-10-20-twif-26-tagesschau-f-droid-repo-and-translation-workflow-improvement.md
+#, no-wrap
+msgid "Starting up translation improvements around Weblate"
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-10-20-twif-26-tagesschau-f-droid-repo-and-translation-workflow-improvement.md
+#, no-wrap
+msgid "**[@\\_hc](https://forum.f-droid.org/u/hans)** and **[@uniq](https://chaos.social/@uniq)** will be working together to improve the Weblate workflow as part of a funded effort. The work is specifically targeted at Markdown, like we use on this website. Effort will also be going towards app store translations like [Fastlane](https://fastlane.tools) and [Triple-T](https://github.com/Triple-T). In addition, there is a little bit of time to work on stabilizing [Jekyll](https://jekyllrb.com), so that it can support more than 9 languages on our site. If you are a Ruby developer who likes to help with the latter, please [get in touch](https://f-droid.org/en/about/#contact).\n"
+msgstr ""
+
+#. type: Title ####
+#: build/_posts/md/2018-10-20-twif-26-tagesschau-f-droid-repo-and-translation-workflow-improvement.md
+#, no-wrap
+msgid "Buildserver automation"
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-10-20-twif-26-tagesschau-f-droid-repo-and-translation-workflow-improvement.md
+#, no-wrap
+msgid "**[@uniq](https://chaos.social/@uniq)** has been finalizing his awesome buildserver automation, with some help from **[@\\_hc](https://forum.f-droid.org/u/hans)**. This same [ansible](https://en.wikipedia.org/wiki/Ansible_%28software%29) setup can also be used for [verification server](https://reproducible-builds.org)s.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-10-20-twif-26-tagesschau-f-droid-repo-and-translation-workflow-improvement.md
+msgid "**[Adaptive Brightness Tile](https://f-droid.org/app/com.rascarlo.adaptive.brightness.tile)**: Quick settings tile for adaptive brightness."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-10-20-twif-26-tagesschau-f-droid-repo-and-translation-workflow-improvement.md
+msgid "**[BookmarkOS](https://f-droid.org/app/com.weskenyon.bookmarkos)**: This application will allow you to share urls directly from your Android browsers right into BookmarkOS."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-10-20-twif-26-tagesschau-f-droid-repo-and-translation-workflow-improvement.md
+msgid "{{ page.featured }} Did you know that nowadays apps can track where you are and what you're looking at using inaudible (to humans) high-frequency sounds? Listening via your phone's microphone, apps containing certain trackerware pick up tones from TV, radio and web page ads, but also billboards, retail outlets and sports stadiums. See [this SC magazine article](https://www.scmagazineuk.com/invasive-apps-track-ultrasonic-sounds-via-mobile-microphone/article/1474717), for example."
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-10-20-twif-26-tagesschau-f-droid-repo-and-translation-workflow-improvement.md
+#, no-wrap
+msgid "  Enter **[PilferShush Jammer](https://f-droid.org/app/cityfreqs.com.pilfershushjammer)**, both a passive and an active microphone jammer. Its primary mode of operation is to hold an exclusive lock on the microphone, blocking other apps from even opening it. If that doesn't work, or if you suspect system apps are in play, it also has an active jamming mode, emitting its own tones from the phone's speaker, which hopefully interfere with these tracking sounds. Obviously this is less reliable, and of course, it's even better to not install hostile closed-source apps in the first place.\n"
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-10-20-twif-26-tagesschau-f-droid-repo-and-translation-workflow-improvement.md
+#, no-wrap
+msgid "  So this week PilferShush Jammer updated from 2.0.13 to 2.2.2, and it can now scan other apps, list their capabilities, and show which ones contain the NUHF beacon SDK. It can also scan a single app and show if it's accessing the microphone, among other things. Finally there are a new notifications channel, and other small improvements and bug fixes.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-10-20-twif-26-tagesschau-f-droid-repo-and-translation-workflow-improvement.md
+msgid "**[Yalp Store](https://f-droid.org/app/com.github.yeriomin.yalpstore)** was updated from 0.43 to 0.45-legacy, adding multiple accounts support and properly handling APK splits, and a slew of other bug fixes and improvements."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-10-20-twif-26-tagesschau-f-droid-repo-and-translation-workflow-improvement.md
+msgid "**[PocketMaps](https://f-droid.org/app/com.junjunguo.pocketmaps)** is a map viewer with navigation system. It was updated from 2.3 to 2.6, now showing the unzipping process on the status bar, and with a new select-option to enter map on each startup, a help entry in the main menu linking to online documentation, and several crash fixes."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-10-20-twif-26-tagesschau-f-droid-repo-and-translation-workflow-improvement.md
+msgid "**[MatLog Libre](https://f-droid.org/app/com.pluscubed.matloglibre)** shows a scrolling (tailed) view of the Android \"logcat\" system log, hence the goofy name. In version 1.2.0 the widget was fixed for Android 8+, and a filtered tags setting, progress bar loading from file and kernel log in shared zip were added. Among other small improvements, several crashes were also fixed."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-10-20-twif-26-tagesschau-f-droid-repo-and-translation-workflow-improvement.md
+msgid "{{ page.major }} The \"simple mobile tools\" **[File Manager](https://f-droid.org/app/com.simplemobiletools.filemanager)** and **[Flashlight](https://f-droid.org/app/com.simplemobiletools.flashlight)** were updated to 5.0.1 and 5.0.0 respectively, bumping the minimum required Android version to 5.0 (from 4.1), and replacing the G+ button with Reddit, among some small fixes."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-10-20-twif-26-tagesschau-f-droid-repo-and-translation-workflow-improvement.md
+msgid "{{ page.major }} **[Open Link With](https://f-droid.org/app/com.tasomaniac.openwith.floss)** was updated from 1.9-floss to 2.3-floss. This app lets you open a link in another native app when you're stuck in the browser. It now supports browser selection, letting you choose between all browsers (previous behavior), one single browser, or to never suggest any browsers at all. Frequently-requested advanced settings were also added, and you can now set OLW itself as a browser, making all link clicks go through OLW automatically instead of having to use \"share link\"."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-10-20-twif-26-tagesschau-f-droid-repo-and-translation-workflow-improvement.md
+msgid "**[Password Store](https://f-droid.org/app/com.zeapo.pwdstore)** stores passwords in simple text files which are encrypted with OpenPGP. This update to 1.3.1 covers a new adaptive icon, ability to install to external [SD card](https://en.wikipedia.org/wiki/Secure_Digital), different password sort order, display of HOTP code if present, secure password entry, and other bug fixes and smaller improvements."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-10-20-twif-26-tagesschau-f-droid-repo-and-translation-workflow-improvement.md
+msgid "**[Conversations](https://f-droid.org/app/eu.siacs.conversations)** was updated from 2.3.2+fcr to 2.3.4+fcr, updating translations, fixing connection issues with user@ip type JIDs and fixing sending OMEMO encrypted files to ChatSecure iOS users."
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-10-20-twif-26-tagesschau-f-droid-repo-and-translation-workflow-improvement.md
+#, no-wrap
+msgid ""
+"* {{ page.featured }} Huge updates for **[Mastalab](https://f-droid.org/app/fr.gouv.etalab.mastodon)** yet again! This week it updated from 1.15.2 to 1.17.1, covering:\n"
+"  - **Full [PeerTube](https://en.wikipedia.org/wiki/PeerTube) support**: Comment/Follow/Boost/Reply/Fav from your own Mastodon account!\n"
+"  - New layout for PeerTube instances\n"
+"  - New video player to make PeerTube compatible with all devices\n"
+"  - Complete internal overhaul of live updates, now using websockets with the wss protocol on streaming URL\n"
+"  - Ability to allow live updates only when the app is running\n"
+"  - Added a red border to media that don't have a description when composing\n"
+"  - Several smaller enhancements and bug fixes\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-10-20-twif-26-tagesschau-f-droid-repo-and-translation-workflow-improvement.md
+msgid "**[Riot.im](https://f-droid.org/app/im.vector.alpha)** and **[miniVector](https://f-droid.org/app/com.lavadip.miniVector)** both updated from 0.8.15 to 0.8.18. Riot is a [Matrix](https://matrix.org) client for (group) chat and VoiP/video, with optional end-to-end encryption. miniVector is a lightweight fork of Riot, dropping some heavy dependencies and needing less permissions, at the cost of lacking VoiP/video support. Changes include improvements to dialogs, video messages, and the previewer activity; a new Status.im theme; and support for \"lazy loading\", a huge under-the-hood change which reduces startup time, memory, and data consumption. This last feature is still considered unstable, and needs to be enabled via a \"labs\" setting."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-10-20-twif-26-tagesschau-f-droid-repo-and-translation-workflow-improvement.md
+msgid "**[Syncopoli](https://f-droid.org/app/org.amoradi.syncopoli)** is an rsync client for your phone (currently only in the direction from phone to remote). Version v0.5 adds the ability to add multiple source directories, ability to verify ssh host fingerprint, proper space and string handling in rsync options, global configuration to exported config file, and various typo and crash fixes."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-10-20-twif-26-tagesschau-f-droid-repo-and-translation-workflow-improvement.md
+msgid "**[Blokada v3 (ad blocker)](https://f-droid.org/app/org.blokada.alarm)** was updated from 3.4.100500 to 3.6.101401, with improved general tunnel stability, decreased data usage, new advanced settings screen, a setting to prevent the system from stopping Blokada when power saving, a setting to only update lists on WiFi, other small enhancements, and numerous bug fixes."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-10-20-twif-26-tagesschau-f-droid-repo-and-translation-workflow-improvement.md
+msgid "**[The Light](https://f-droid.org/app/org.hlwd.bible)** has the bible in multiple languages. Version 3.4 is a small maintenance release adding 13 articles and 7 Youtubers."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-10-20-twif-26-tagesschau-f-droid-repo-and-translation-workflow-improvement.md
+msgid "**[Emerald Launcher](https://f-droid.org/app/ru.henridellal.emerald)** is a lightweight customizable launcher which supports icon packs and has a good number of settings for its size. This week it updated from 0.5.6.2 to 0.6.0.2, now with shortcuts, fullscreen mode, \"show keyboard on start\" option, switch categories with volume buttons, improved tutorial theme, pick custom icon from memory, and several fixes."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-10-20-twif-26-tagesschau-f-droid-repo-and-translation-workflow-improvement.md
+msgid "**[Manyverse](https://f-droid.org/app/se.manyver)** was updated from 0.18.10-02.beta to 0.1810.16-beta, and now lets you edit your profile picture, and does the initial sync 5x faster or better."
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-10-20-twif-26-tagesschau-f-droid-repo-and-translation-workflow-improvement.md
+#, no-wrap
+msgid ""
+"* **[AnySoftKeyboard](https://f-droid.org/app/com.menny.android.anysoftkeyboard)** was updated from 1.9.2055 to 1.9.2445 bringing:\n"
+"  - Power-Saving mode improvements - you can pick which features to include in Power-Saving.\n"
+"  - Also, we allow switching to dark, simple theme in Power-Saving mode. But this is optional.\n"
+"  - New Workman layout, Terminal generic-top-row and long-press fixes. Done by Alex Griffin.\n"
+"  - Updated localization: AR, BE, EU, FR, HU, IT, KA, KN, KU, LT, NB, NL, PT, RO, RU, SC, UK.\n"
+"  - Fix for small suggestions text on some devices\n"
+msgstr ""
+
+#. type: Title ####
+#: build/_posts/md/2018-10-20-twif-26-tagesschau-f-droid-repo-and-translation-workflow-improvement.md
+#, no-wrap
+msgid "Beta Updates"
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-10-20-twif-26-tagesschau-f-droid-repo-and-translation-workflow-improvement.md
+msgid "The following app was also updated, but will not be shown as upgradeable unless you enable \"Unstable updates\" in F-Droid settings:"
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-10-20-twif-26-tagesschau-f-droid-repo-and-translation-workflow-improvement.md
+msgid "**[ownCloud](https://f-droid.org/app/com.owncloud.android)** was updated from 2.9.0-beta.1 to 2.9.0-beta.2"
+msgstr ""
+
+#. type: Title #
+#: build/_posts/md/2018-10-25-twif-27-new-servers-and-first-alpha-release-of-f-droid-1-5.md
+#, no-wrap
+msgid "\"TWIF 27: New Servers and First Alpha Release of F-Droid 1.5\""
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-10-25-twif-27-new-servers-and-first-alpha-release-of-f-droid-1-5.md
+#, no-wrap
+msgid ""
+"In this edition: Two new heavy duty servers, first alpha release of F-Droid 1.5, metadata cleanup, automatic buildserver setup, Portugese Courts rule against Google, and F-Droid confirmed malware-free. There are 4 new and {{ page.number_of_updated_apps }} updated apps.\n"
+"<!--more-->\n"
+msgstr ""
+
+#. type: Title ####
+#: build/_posts/md/2018-10-25-twif-27-new-servers-and-first-alpha-release-of-f-droid-1-5.md
+#, no-wrap
+msgid "Two new servers from the GCC Compile Farm Project"
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-10-25-twif-27-new-servers-and-first-alpha-release-of-f-droid-1-5.md
+msgid "Many thanks to the [GCC Compile Farm Project](https://cfarm.tetaneutral.net), who have arranged two bare-metal servers for F-Droid, each with 16 cores, 145 GB RAM, and 2.6 TB disk. These are actually old Facebook machines, but the specs are still pretty impressive! And this is _in addition to_ the [F-Droid mirror from Tetaneutral]({{ site.baseurl }}{% post_url 2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing %}#beta-mirror-up-for-testing)."
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-10-25-twif-27-new-servers-and-first-alpha-release-of-f-droid-1-5.md
+msgid "The _GCC Compile Farm Project_ is a facilitator for free software developers to get access to resources. The management system for this project is hosted by [Tetaneutral](https://tetaneutral.net), and the machines themselves are hosted by various organizations around the world. These two machines will actually be hosted by the [Oregon State University Open Source Lab](https://osuosl.org) (OSUOSL)."
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-10-25-twif-27-new-servers-and-first-alpha-release-of-f-droid-1-5.md
+msgid "For people who will be working with them: Remember that these machines have real hard disks, not running in RAID configuration. They should only hold disposable content, as the hard disks could fail."
+msgstr ""
+
+#. type: Title ####
+#: build/_posts/md/2018-10-25-twif-27-new-servers-and-first-alpha-release-of-f-droid-1-5.md
+#, no-wrap
+msgid "First alpha of F-Droid client 1.5 released"
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-10-25-twif-27-new-servers-and-first-alpha-release-of-f-droid-1-5.md
+msgid "F-Droid client 1.5-alpha0 is out with a new ROM feature. There is now [a way to preinstall F-Droid with additional repositories](https://gitlab.com/fdroid/fdroidclient/merge_requests/705). These repositories can only be added, and can't override the main f-droid.org repositories. Also, the user is free to disable and delete, so this is only for the initial setup."
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-10-25-twif-27-new-servers-and-first-alpha-release-of-f-droid-1-5.md
+msgid "So for example, Lineage could supply an image with a standard F-Droid APK preinstalled, and have it preconfigured with a specific repository. Or this could be Replicant, Fairphone, etc. This feature was designed in cooperation with Emteria, who largely implemented it, with substantial contributions from F-Droid people."
+msgstr ""
+
+#. type: Title ####
+#: build/_posts/md/2018-10-25-twif-27-new-servers-and-first-alpha-release-of-f-droid-1-5.md
+#, no-wrap
+msgid "F-Droid metadata cleanup"
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-10-25-twif-27-new-servers-and-first-alpha-release-of-f-droid-1-5.md
+#, no-wrap
+msgid "**[@Izzy](https://forum.f-droid.org/u/izzy)** has been working hard behind the scenes, doing the dirty grunt work that nobody else wants to do. In [this round](https://gitlab.com/fdroid/fdroiddata/issues/1414), he is removing all the website links which merely point at the source code.\n"
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-10-25-twif-27-new-servers-and-first-alpha-release-of-f-droid-1-5.md
+msgid "If you follow the \"Website\" link from an app's description page, it should lead to a real website. Otherwise, it should be absent. Our metadata is full of cases where the website links to the source code, either directly duplicating the \"Source code\" link, or pointing somewhere very similar, for example to the README file. This work is fixing that, and unifying the way in which we link to things, which makes for a smoother experience."
+msgstr ""
+
+#. type: Title ####
+#: build/_posts/md/2018-10-25-twif-27-new-servers-and-first-alpha-release-of-f-droid-1-5.md
+#, no-wrap
+msgid "Progress with automatic buildserver setup"
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-10-25-twif-27-new-servers-and-first-alpha-release-of-f-droid-1-5.md
+msgid "This week we created the new [fdroid-bootstrap-buildserver](https://gitlab.com/fdroid/fdroid-bootstrap-buildserver) project in Gitlab. This project holds the [ansible](https://en.wikipedia.org/wiki/Ansible_%28software%29) script responsible for setting up and configuring a buildserver fully automatically. It has already successfully set up two buildservers. Once the script can do everything, which is quite close, the whole buildserver setup, including host and guest, will be recreatable and thus disposable. This is huge for us, especially in combination with the news above."
+msgstr ""
+
+#. type: Title ####
+#: build/_posts/md/2018-10-25-twif-27-new-servers-and-first-alpha-release-of-f-droid-1-5.md
+#, no-wrap
+msgid "Portugese Courts rule against Google on behalf of Aptoide"
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-10-25-twif-27-new-servers-and-first-alpha-release-of-f-droid-1-5.md
+msgid "Aptoide is an alternative app store. Incidentally, the one the F-Droid app was originally forked from. Apparently Google have been remotely removing/hiding the Aptoide app store on over 2.2 million devices in the last 60 days."
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-10-25-twif-27-new-servers-and-first-alpha-release-of-f-droid-1-5.md
+msgid "Fortunately, the Portugese Courts ruled that Google has to stop doing that. This isn't the end of it, as Aptoide will also be filing for damages caused by this. Read the full story [here](https://www.prnewswire.com/news-releases/aptoide-eu-national-court-rules-against-google-in-anti-trust-process-821883497.html)."
+msgstr ""
+
+#. type: Title ####
+#: build/_posts/md/2018-10-25-twif-27-new-servers-and-first-alpha-release-of-f-droid-1-5.md
+#, no-wrap
+msgid "Independent academic confirmation that F-Droid is free of malware"
+msgstr ""
+
+#. type: Plain text
+#: build/_posts/md/2018-10-25-twif-27-new-servers-and-first-alpha-release-of-f-droid-1-5.md
+msgid "We only just learned of this, although the study was actually conducted in 2017. We now have another independent, academic confirmation of 0 malware in F-Droid. Download the results of the study [here (PDF)](https://nsl.cs.waseda.ac.jp/wp-content/uploads/2018/04/submitted_wama2017.pdf)."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-10-25-twif-27-new-servers-and-first-alpha-release-of-f-droid-1-5.md
+msgid "**[Hide \"running in the background\" Notification](https://f-droid.org/app/com.iboalali.sysnotifsnooze)**: Hide the annoying \"running in the background\" notification."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-10-25-twif-27-new-servers-and-first-alpha-release-of-f-droid-1-5.md
+msgid "**[lWS](https://f-droid.org/app/net.basov.lws.fdroid)**: Lightweight web server (lws)."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-10-25-twif-27-new-servers-and-first-alpha-release-of-f-droid-1-5.md
+msgid "**[lWS QR](https://f-droid.org/app/net.basov.lws.qr.fdroid)**: Lightweight web server qr code generator plugin (lws qr)."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-10-25-twif-27-new-servers-and-first-alpha-release-of-f-droid-1-5.md
+msgid "**[Weather Forecast](https://f-droid.org/app/uk.org.boddie.android.weatherforecast)**: View weather forecasts from yr.no."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-10-25-twif-27-new-servers-and-first-alpha-release-of-f-droid-1-5.md
+msgid "{{ page.major }} More updates for the simple mobile tools. This time **[Calculator](https://f-droid.org/app/com.simplemobiletools.calculator)**, **[Music Player](https://f-droid.org/app/com.simplemobiletools.musicplayer)** and **[Notes](https://f-droid.org/app/com.simplemobiletools.notes)** updated to major version 5, again bumping up the minimum required Android from 4.1 to 5.0 and replacing the G+ button with Reddit."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-10-25-twif-27-new-servers-and-first-alpha-release-of-f-droid-1-5.md
+msgid "**[Periodical](https://f-droid.org/app/de.arnowelzel.android.periodical)** was updated from 1.16 to 1.18, bringing updated translations from Crowdin, and reverting language codes back to their generic form to avoid missing translations when a regional language setting is used."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-10-25-twif-27-new-servers-and-first-alpha-release-of-f-droid-1-5.md
+msgid "{{ page.major }} **[Zapp](https://f-droid.org/app/de.christinecoenen.code.zapp)** released version 2.0.0, with background playback of \"Mediathek\" videos, automatic pausing when a different app plays sound or during a phone call, a lockscreen widget, progress bar only showing when the video really stalls, and minimum Android version increased from 4.4 to 5.0."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-10-25-twif-27-new-servers-and-first-alpha-release-of-f-droid-1-5.md
+msgid "**[AntennaPod](https://f-droid.org/app/de.danoeh.antennapod)** was updated from 1.6.5 to 1.7.0, with the new ExoPlayer, a fix for Bluetooth Forward, preferences + search redesign, notification improvements, different screens for feed info and settings, sort queue with Random or Smart Shuffle, true black AMOLED theme, improvements to feed parsing, and a fix for being killed by Android Oreo."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-10-25-twif-27-new-servers-and-first-alpha-release-of-f-droid-1-5.md
+msgid "{{ page.major }} **[AFWall+](https://f-droid.org/app/dev.ukanth.ufirewall)** released version 3.0.0 with better support for Android Nougat, Oreo and Pie; a firewall toggle tile; adaptive icons; notifications channel; compatibility with magisk 17.x; better handling of background processes; and updated libraries, translations, and bug fixes. The minimum required Android was bumped from 4.0.3 to 5.0."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-10-25-twif-27-new-servers-and-first-alpha-release-of-f-droid-1-5.md
+msgid "**[SQRL - Main](https://f-droid.org/app/org.ea.sqrl)** updated to version 0.11.0, now handling screen rotations, offering manual language choice, and implementing x=n functionality. It has three new languages: French, Japanese and Spanish."
+msgstr ""
+
+#. type: Bullet: '* '
+#: build/_posts/md/2018-10-25-twif-27-new-servers-and-first-alpha-release-of-f-droid-1-5.md
+msgid "**[Your local weather](https://f-droid.org/app/org.thosp.yourlocalweather)** updated from 4.2.6 to 4.3.1, with rewritten background services for faster and smoother updates, indication of wind direction in the current weather and forecast, and an option for time format."
 msgstr ""

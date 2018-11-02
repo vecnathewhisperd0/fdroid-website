@@ -7,16 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
-"POT-Creation-Date: 2018-08-17 13:55+0200\n"
-"PO-Revision-Date: 2018-06-28 10:18+0000\n"
-"Last-Translator: pandipanda41 <petitpanda140@gmail.com>\n"
+"POT-Creation-Date: 2018-10-29 11:18+0100\n"
+"PO-Revision-Date: 2018-10-24 21:07+0000\n"
+"Last-Translator: ButterflyOfFire <ButterflyOfFire@protonmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/f-droid/website-docs/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.1-dev\n"
+"X-Generator: Weblate 3.3-dev\n"
 
 #. type: Title #
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -274,9 +274,8 @@ msgstr "Au lieu (ou en plus) d'inclure des APK binaires provenant de sources ext
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md
-#, fuzzy
 msgid "Using this method, it is is possible to verify that the application builds correctly, corresponds to the source code, and contains only free software. Unfortunately, in the Android world, it seems to be very common for an application supplied as a binary APK to present itself as Free Software when in fact some if not all of the following is true:"
-msgstr "En utilisant cette méthode, il est possible de vérifier que l’application est construite correctement, correspond au code source, et ne contient que du logiciel libre. Malheureusement, dans le monde Android, il semble être assez fréquent pour une application fournie sous forme d’APK binaire de s’afficher comme étant un Logiciel Libre alors qu’en réalité, toutes ou plusieurs des affirmations suivantes sont vérifiées :"
+msgstr "En utilisant cette méthode, il est possible de vérifier que l’application est construite correctement, correspond au code source, et ne contient que du logiciel libre. Malheureusement, dans le monde Android, il semble être assez fréquent pour une application fournie sous forme de fichier APK binaire de s’afficher comme étant un Logiciel Libre alors qu’en réalité, plusieurs voire toutes les affirmations suivantes sont vérifiées :"
 
 #. type: Bullet: '1.  '
 #: build/_docs/md/Building_Applications.md
@@ -418,40 +417,38 @@ msgstr "Le tarball source va déplacer le dossier ‘repo’ (qui est le dossier
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md
 msgid "If you’re building purely for the purposes of testing, and not intending to push the results to a repository, at least yet, the `--test` option can be used to direct output to the `tmp` directory instead of `unsigned`. A similar effect could by achieved by simply deleting the output files from `unsigned` after the build, but with the risk of forgetting to do so!"
-msgstr ""
+msgstr "Si vous construisez uniquement à des fins de test et que vous n'avez pas l'intention de pousser les résultats vers un dépôt, au moins pour le moment, l'option \"--test\" peut ête utilisée pour diriger la sortie vers le répertoire \"tmp\" au lieu de \"unsigned\". Un effet similaire peut être obtenu en supprimant simplement les fichiers de sortie de \"unsigned\" après la compilation, mais avec le risque d'oublier de le faire !"
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md
 msgid "Along similar lines (and only in conjunction with `--test`, you can use `--force` to force a build of a Disabled application, where normally it would be completely ignored. Similarly a version that was found to contain ELFs or known non-free libraries can be forced to build. See also — `scanignore=` and `scandelete=` in the `Build:` section."
-msgstr ""
+msgstr "Dans le même ordre d'idées (et seulement en conjonction avec '--test'), vous pouvez utiliser '--force' pour forcer la construction d'une application désactivée, alors que normalement elle serait complètement ignorée. De même, une version qui contient des ELFs ou des bibliothèques non libres connues peut être construite. Voir aussi - 'scanignore=' et `scandelete=` dans la section `Build:``."
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md
-#, fuzzy
 msgid "If the build was unsuccessful, you can find out why by looking at the output in the logs/ directory. If that isn’t illuminating, try building the app the regular way, step by step: android update project, ndk-build, ant debug."
-msgstr "Si la construction est en échec, vous pouvez chercher pourquoi en regardant la sortie dans le répertoire logs/. Si cela ne vous éclaire pas assez, essayez de construire l’application en suivant la méthode habituelle, étape par étape : android update project, ndk-build, ant debug."
+msgstr "Si la construction est en échec, vous pouvez chercher pourquoi en regardant la sortie dans le répertoire logs/. Si cela ne vous semle pas assezclair, essayez de construire l’application en suivant la méthode habituelle, étape par étape : android update project, ndk-build, ant debug."
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md
 msgid "Note that source code repositories often contain prebuilt libraries. If the app is being considered for the main F-Droid repository, it is important that all such prebuilts are built either via the metadata or by a reputable third party."
-msgstr ""
+msgstr "Notez que les dépôts de code source contiennent souvent des bibliothèques pré-intégrées. Si l'application est envisagée pour le dépôt principal de F-Droid, il est important que tous ces pré-constructions soient construites soit via les métadonnées, soit par un tiers réputé."
 
 #. type: Title ###
 #: build/_docs/md/Building_Applications.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Running `fdroid build` in your app’s source"
 msgstr "Exécution de `fdroid build` dans les sources de votre application"
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md
 msgid "Another option for using `fdroid build` is to use a metadata file that is included in the app’s source itself, rather than in a `metadata/` folder with lots of other apps. This metadata file should be in the root of your source repo, and be called `.fdroid.json`, `.fdroid.xml`, `.fdroid.yaml`, or `.fdroid.txt`, depending on your preferred data format: JSON, XML, YAML, or F-Droid’s `.txt` format."
-msgstr ""
+msgstr "Une autre option pour utiliser `fdroid build` est d'utiliser un fichier de métadonnées qui est inclus dans la source de l'application elle-même, plutôt que dans un dossier `metadata/` avec beaucoup d'autres applications. Ce fichier de métadonnées devrait se trouver à la racine de votre dépôt source et s'appeler `.fdroid.json`, `.fdroid.xml`, `.fdroid.yaml`, ou `.fdroid.txt`, selon le format de données que vous préférez : JSON, XML, YAML, ou le format `.txt' de F-Droid."
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md
-#, fuzzy
 msgid "Once you have that setup, you can build the most recent version of the app using the whole F-Droid stack by running:"
-msgstr "Une fois que vous avez cette configuration, vous pouvez construire la version la plus récente de l'application en utilisant l'ensemble de l'environnement de F-Droid en exécutant :"
+msgstr "Une fois que vous avez cette configuration, vous pouvez construire la version la plus récente de l'application avec l'environnement complet de F-Droid en exécutant :"
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md
@@ -461,7 +458,7 @@ msgstr "```bash fdroid build ```"
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md
 msgid "If you want to build every single version, then specify `--all`."
-msgstr ""
+msgstr "Si vous voulez construire toutes les versions, veuillez spécifier `--all`."
 
 #. type: Title ###
 #: build/_docs/md/Building_Applications.md
@@ -472,50 +469,49 @@ msgstr "Installation Directe"
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md
 msgid "You can also build and install directly to a connected device or emulator using the `fdroid install` command. If you do this without passing packages as arguments then all the latest built and signed version available of each package will be installed . In most cases, this will not be what you want to do, so execution will stop straight away. However, you can override this if you’re sure that’s what you want, by using `--all`. Note that currently, no sanity checks are performed with this mode, so if the files in the signed output directory were modified, you won’t be notified."
-msgstr ""
+msgstr "Vous pouvez également construire et installer directement sur un périphérique ou émulateur connecté en utilisant la commande `fdroid install`. Si vous faites cela sans passer les paquets comme arguments, alors toutes les dernières versions construites et signées disponibles de chaque paquet seront installées. Dans la plupart des cas, ce ne sera pas ce que vous voulez faire, donc l'exécution s'arrêtera immédiatement. Cependant, vous pouvez l'écraser si vous êtes sûr que c'est ce que vous voulez, en utilisant `--all'. Notez qu'actuellement, aucune vérification n'est effectuée avec ce mode, donc si les fichiers du répertoire de sortie signé ont été modifiés, vous ne serez pas notifié."
 
 #. type: Title #
 #: build/_docs/md/Building_a_Signing_Server.md
 #, no-wrap
 msgid "Building a Signing Server"
-msgstr ""
+msgstr "Construction d'un serveur de signature"
 
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
 msgid "The Android APK signing model sets the expectation that the signing key will be the same for the entire lifetime of the app.  That can be seen in the recommended lifetype of an Android signing key: [20+ years](https://developer.android.com/studio/publish/app-signing.html#considerations).  On top of that, it is difficult to [migrate an app to a new key](https://guardianproject.info/2015/12/29/how-to-migrate-your-android-apps-signing-key/).  Since the signing key is an essential part to preventing APKs from impersonating another, Android signing keys must be kept safe for the entire life of the app."
-msgstr ""
+msgstr "Le modèle de signature Android APK prévoit que la clé de signature sera la même pendant toute la durée de vie de l'application.  Cela peut être vu dans la durée de vie recommandée d'une clé de signature Android : [20+ ans](https://developer.android.com/studio/publish/app-signing.html#considerations).  De plus, il est difficile de [migrer une application vers une nouvelle clé](https://guardianproject.info/2015/12/29/how-to-migrate-your-android-apps-signing-key/).  Puisque la clé de signature est un élément essentiel pour empêcher les APK de se faire passer pour un autre, les clés de signature Android doivent être conservées en sécurité pendant toute la durée de vie de l'application."
 
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
 msgid "The F-Droid repo signing keys follow a very similar model: the signing key is the essential way to safely identify an F-Droid repo. So the same considerations apply to F-Droid repo signing keys as to APK signing keys.  This also provides some really useful benefits.  Since the integrity of the repo index file and the APKs are guaranteed by the repo signature, the files can be delivered via whatever method is most convenient, and their integrity will be automatically verified by the F-Droid client app, the _f-droid.org_ deploy process, and Repomaker."
-msgstr ""
+msgstr "Les clés de signature du dépôt F-Droid suivent un modèle très similaire : la clé de signature est le moyen essentiel pour identifier en toute sécurité un dépôt F-Droid. Ainsi, les mêmes considérations s'appliquent aux clés de signature du dépôt F-Droid pour les clés de signature APK.  Cela offre aussi des avantages vraiment utiles.  Puisque l'intégrité du fichier index repo et des APKs est garantie par la signature repo, les fichiers peuvent être livrés par la méthode la plus pratique, et leur intégrité sera automatiquement vérifiée par l'application client F-Droid, le processus de déploiement _f-droid.org_ et Repomaker."
 
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
 msgid "This means the security burden is shifted from the online, public webserver to a private signing machine.  Just keeping that machine out of the public eye goes a long way towards improving security.  There are a number of additional measures that can be taken to further improve the security of the signing process.  Here are some approaches, starting with the easiest and least security, and going on to more secure setups that require more work to setup and run.  Signing is not an resource intensive process, so any machine will work, even a 10 year old, basic laptop.  We recommend using a minimal [Debian](https://www.debian.org) install, and rebuilding the machine from scratch."
-msgstr ""
+msgstr "Cela signifie que la charge de sécurité est transférée du serveur Web public en ligne vers une machine à signer privée.  Le simple fait de garder cette machine à l'abri des regards du public contribue grandement à améliorer la sécurité.  Un certain nombre de mesures supplémentaires peuvent être prises pour améliorer encore la sécurité du processus de signature.  Voici quelques approches, en commençant par la plus simple et la moins sécurisée, et en passant par des installations plus sécurisées qui demandent plus de travail pour l'installation et l'exécution.  La signature n'est pas un processus exigeant en ressources, de sorte que n'importe quelle machine fonctionnera, même un ordinateur portable vieux de 10 ans.  Nous recommandons d'utiliser une installation minimale[Debian](https://www.debian.org) et de reconstruire la machine à partir de zéro."
 
 #. type: Title ###
 #: build/_docs/md/Building_a_Signing_Server.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Automated Signing Server with with HSM"
-msgstr "Serveur d'Authentification Automatisé avec HSM"
+msgstr "Serveur de signature automatisé avec HSM"
 
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
 msgid "For a fully automated signing setup, the machine running the signing needs to be online and running. Ideally this machine would have no remote access, at the very least remote access should be very carefully controlled and monitored.  A laptop makes it easy to work with even when remote access is disabled, since it provides a built-in keyboard and monitor.  If remote access is required, then any basic PC will work fine.  Using a Hardware Security Module (HSM) to store the keys prevents them from being stolen if the server is broken into.  An attacker could only run the signing process on that server."
-msgstr ""
+msgstr "Pour un système de signature entièrement automatisée, la machine qui exécute la signature doit être en ligne et en cours d'exécution. Idéalement, cette machine ne devrait pas avoir d'accès à distance, ou alors l'accès à distance devrait être très soigneusement contrôlé et surveillé.  Un ordinateur portable permet de travailler facilement, même lorsque l'accès à distance est désactivé, puisqu'il dispose d'un clavier et d'un moniteur intégrés.  Si l'accès à distance est nécessaire, n'importe quel PC de base fonctionnera parfaitement.  L'utilisation d'un module de sécurité matérielle (HSM) pour stocker les clés empêche qu'elles soient volées si le serveur est piraté.  Un attaquant ne pouvait exécuter le processus de signature que sur ce serveur."
 
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
-#, fuzzy
 msgid "Ideally, this machine would only be accessible via Tor.  That hides the physical location of the server, and hides the traffic from network.  This makes it much harder attackers to find the actual machine to attack."
-msgstr "Idéalement, cette machine devrait uniquement être accessible via Tor. Cela cache la localisation physique du serveur, et cache le trafic en provenance du réseau. Cela augmente la difficulté pour des attaquants pour trouver la machine à attaquer."
+msgstr "Idéalement, cette machine devrait être uniquement accessible via Tor. Cela cache la localisation physique du serveur et cache le trafic en provenance du réseau. Cela rend plus difficile de trouver la machine pour des attaquants."
 
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
 msgid "For the HSM, we recommend using [Nitrokey](https://www.nitrokey.com/)  hardware, since they are free software/hardware, and provide a wide range of options.  Use a separate machine to put the signing keys on HSM.  A good HSM will keep an audit trail of how many signatures have been made, so that information could be used to create an automatic auditing process to raise alarms if too many signatures have been made.  That could mean that this server was breached and used to sign unauthorized packages."
-msgstr ""
+msgstr "Pour le HSM, nous recommandons l'utilisation du matériel[Nitrokey](https://www.nitrokey.com/), puisqu'il s'agit de logiciels/matériel libre et qu'ils offrent un large éventail d'options.  Utilisez une machine séparée pour mettre les clés de signature sur HSM.  Un bon MHS conservera une piste de vérification du nombre de signatures qui ont été faites, de sorte que l'information pourrait être utilisée pour créer un processus de vérification automatique afin de déclencher des alarmes si de trop nombreuses signatures ont été faites.  Cela pourrait signifier que ce serveur a été violé et utilisé pour signer des paquets non autorisés."
 
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
@@ -526,45 +522,43 @@ msgstr "Une autre possibilité est d'utiliser une installation comme [Fedora](ht
 #: build/_docs/md/Building_a_Signing_Server.md
 #, no-wrap
 msgid "Basic laptop dedicated to signing"
-msgstr ""
+msgstr "Ordinateur portable basique dédié à la signature"
 
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
 msgid "Start with a laptop that can be wiped clean and rebuilt from scratch.  What is most important is that only the essential software is installed on it, and nothing else.  Do not include any browser at all, for example, since that is the most common vector of attack.  No remote access setup (e.g. SSH or VNC) should be installed or configured.  To sign apps and repos, someone would take out this laptop, connect it to the network, and run the signing process.  The signed results can then be published via the network connection.  When the signing is complete, the machine can be turned off and disconnected and kept in a safe place."
-msgstr ""
+msgstr "Commencez par un ordinateur portable qui peut être nettoyé et reconstruit à partir de zéro.  Le plus important, c'est que seul le logiciel essentiel y est installé, et rien d'autre.  N'incluez aucun navigateur, par exemple, car c'est le vecteur d'attaque le plus courant.  Aucune configuration d'accès à distance (par exemple SSH ou VNC) ne doit être installée ou configurée.  Pour signer des applications et des dépôts, quelqu'un pourrait sortir cet ordinateur portable, le connecter au réseau et lancer le processus de signature.  Les résultats signés peuvent ensuite être publiés via la connexion réseau.  Lorsque la signature est terminée, la machine peut être éteinte et déconnectée et conservée dans un endroit sûr."
 
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
 msgid "This could be made quite automatic with some custom scripts.  The person running the process would only need to take out the machine, connect it, turn it on, wait until the process completes, then put it all away again."
-msgstr ""
+msgstr "Cela pourrait être fait automatiquent avec certains scripts personnalisés.  La personne qui exécute le processus n'aurait qu'à retirer la machine, la connecter, l'allumer, attendre que le processus soit terminé, puis tout ranger à nouveau."
 
 #. type: Title ###
 #: build/_docs/md/Building_a_Signing_Server.md
 #, no-wrap
 msgid "Fully offline signing laptop with USB thumb drives"
-msgstr ""
+msgstr "Ordinateur portable de signature entièrement hors ligne avec clés USB"
 
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
 msgid "This process is based on the same basic, stripped down laptop as the previous example.  But this time, the networking should be entirely disabled before the install process.  For example, it is easy in many laptops to physically remove the WiFi card.  Therefore, it makes sense to use a laptop that does not include an ethernet jack, which are usually not possible to remove.  Otherwise, blacklisting all kernel modules related to neworking can suffice.  Since this machine is fully offline, the extra work of using an HSM is not as important, but it can't hurt to include it."
-msgstr ""
+msgstr "Ce processus est basé sur le même ordinateur portable basique dépouillé que l'exemple précédent.  Mais cette fois, le réseau devrait être entièrement désactivé avant le processus d'installation.  Par exemple, il est facile pour de nombreux ordinateurs portables de retirer physiquement la carte WiFi.  Par conséquent, il est logique d'utiliser un ordinateur portable qui n'inclut pas de prise Ethernet, qui ne sont en général pas possible à enlever.  Sinon, le blacklisting de tous les modules du noyau liés à neworking peut suffire.  Puisque cette machine est complètement hors ligne, le travail supplémentaire de l'utilisation d'un HSM n'est pas aussi important, mais cela ne peut pas faire de mal de l'inclure."
 
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
-#, fuzzy
 msgid "Download the full \"CD\" or \"DVD\" image of Debian to run the install.  Be sure to [verify](https://www.debian.org/CD/verify) the GPG signatures and the SHA-256 hashes.  One essential utility is _apt-offline_, which automates the process of downloading Debian packages, verifying their signatures, and copying them over to an offline machine."
-msgstr "Télécharger l'image \"CD\" ou \"DVD\" complète de Debian pour lancer l'installation. Soyez sur de [vérifier](https://www.debian.org/CD/verify) la signature GPG et le hash SHA-256. Un outil essentiel est _apt-offline_, qui automatise le processus de téléchargement des paquets Debian, en vérifiant leur signatures, et en les copiant sur une machine non-connectée."
+msgstr "Téléchargez l'image \"CD\" ou \"DVD\" complète de Debian pour lancer l'installation. Soyez sur de [vérifier](https://www.debian.org/CD/verify) la signature GPG et le hash SHA-256. Un outil essentiel est _apt-offline_, qui automatise le processus de téléchargement des paquets Debian, en vérifiant leurs signatures, et en les copiant sur une machine non-connectée."
 
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
-#, fuzzy
 msgid "To be extra careful, all of the software used should be verified.  Chromebooks are nice, cheap laptops that run Linux natively.  They also use Coreboot for the BIOS."
-msgstr "Pour être très prudent, tout les logiciels utilisés devrait être vérifiés. Les Chromebooks sont bons, ordinateurs portables premiers prix qui exécutent Linux nativement. Ils utilisent aussi Coreboot comme BIOS"
+msgstr "Pour être encore plus prudent, tous les logiciels utilisés devraient être vérifiés. Les Chromebooks sont de bons ordinateurs portables premiers prix qui exécutent Linux nativement. Ils utilisent aussi Coreboot comme BIOS."
 
 #. type: Bullet: '* '
 #: build/_docs/md/Building_a_Signing_Server.md
 msgid "Buy a computer off the shelf with cash, avoid having it shipped, especially across borders"
-msgstr ""
+msgstr "Achetez un ordinateur avec de l'argent comptant directement en magasin, évitez de le faire expédier, surtout de l'étranger"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Building_a_Signing_Server.md
@@ -574,12 +568,12 @@ msgstr "Achetez un [Chromebook](https://www.chromium.org/chromium-os/developer-i
 #. type: Bullet: '* '
 #: build/_docs/md/Building_a_Signing_Server.md
 msgid "Install a reproducibly built coreboot binary"
-msgstr ""
+msgstr "Installer un noyau coreboot binaire reproductible"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Building_a_Signing_Server.md
 msgid "Install from a reproducibly built Debian image, wiping out Chrome OS entirely"
-msgstr ""
+msgstr "Installez à partir d'une image Debian construite de manière reproductible, effaçant complètement Chrome OS"
 
 #. type: Title ##
 #: build/_docs/md/Building_a_Signing_Server.md
@@ -590,19 +584,17 @@ msgstr "L'Environnement Physique"
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
 msgid "The last thing to consider is the physical location where signatures happen, and where essential equipment is stored.  The signing environment must be physically secure. Otherwise, there is no way to prevent laptops or HSMs from being lost or used to sign inappropriate content.  For the offline machines, keeping them in a locked room is a good start.  For an online machine, forcing all network traffic and remote access over Tor hides the physical location of the machine from network observers."
-msgstr ""
+msgstr "La dernière chose à considérer est l'emplacement physique où les signatures se produisent et où l'équipement essentiel est entreposé.  L'environnement de signature doit être physiquement sécurisé. Sinon, il n'y a aucun moyen d'empêcher que des ordinateurs portables ou des HSM soient perdus ou utilisés pour signer des contenus inappropriés.  Pour les machines hors ligne, les garder dans une pièce fermée à clé est un bon début.  Pour une machine en ligne, forcer tout le trafic réseau et l'accès à distance sur Tor cache l'emplacement physique de la machine aux observateurs du réseau."
 
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
-#, fuzzy
 msgid "For high risk signing keys, using multiple layers of defense is important:"
-msgstr "Pour des clés de chiffrement à haut risque, l'utilisation de multiple couches de défense est important:"
+msgstr "Pour des clés de signature à haut risque, l'utilisation de multiples couches de défense est important :"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Building_a_Signing_Server.md
-#, fuzzy
 msgid "Restricted physical access to HSMs or smart cards"
-msgstr "Accès physique restreint au HSMs ou aux cartes à puce"
+msgstr "Accès physique restreint au HSM ou aux cartes à puce"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Building_a_Signing_Server.md
@@ -612,7 +604,7 @@ msgstr "Caméras de sécurité"
 #. type: Bullet: '* '
 #: build/_docs/md/Building_a_Signing_Server.md
 msgid "Onsite security guards"
-msgstr ""
+msgstr "Agents de sécurité sur place"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Building_a_Signing_Server.md
@@ -622,12 +614,12 @@ msgstr "Enregistrement des visiteurs"
 #. type: Bullet: '* '
 #: build/_docs/md/Building_a_Signing_Server.md
 msgid "A tools-resistant server safe for online code-signing servers"
-msgstr ""
+msgstr "Un coffre-fort résistant pour les serveurs de signature de code en ligne"
 
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
 msgid "The signing server should be physically separate from the rest of the infrastructure.  And the logs, machine, and network should be periodically audited."
-msgstr ""
+msgstr "Le serveur de signature doit être physiquement séparé du reste de l'infrastructure.  Et les journaux, la machine et le réseau devraient faire l'objet d'un audit périodique."
 
 #. type: Title ##
 #: build/_docs/md/Building_a_Signing_Server.md
@@ -638,7 +630,7 @@ msgstr "Décisions difficiles"
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
 msgid "Ideally all of these practices would be put into place, but each of these security measures comes at a cost of difficulty, expense, and complexity.  They can also delay the process of getting regular updates out.  So there are risks of implementing too strict security policies, much like the risks of not implementing enough."
-msgstr ""
+msgstr "Idéalement, toutes ces pratiques devraient être mises en place, mais chacune de ces mesures de sécurité a une contrainte de difficulté, de coût et de complexité.  Elles peuvent également retarder le processus de mise à jour régulière.  Il y a donc des risques de mettre en œuvre des politiques de sécurité trop strictes, tout comme des risques de ne pas en mettre en œuvre suffisamment."
 
 #. type: Title #
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -649,13 +641,12 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "Information used by `fdroid update` to compile the public index comes from several sources:"
-msgstr "Les informations utilisées par `fdroid update` pour compiler l'index public proviennent de nombreuses sources:"
+msgstr "Les informations utilisées par `fdroid update` pour compiler l'index public proviennent de plusieurs sources :"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy
 msgid "APK, media, etc files in the _repo_ sub-directory"
-msgstr "Les fichiers APK dans le répertoire du dépôt, et"
+msgstr "Les fichiers APK et média dans le sous-répertoire du _dépôt_"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1341,9 +1332,9 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid ""
-"    You can use \\$\\$SDK\\$\\$, \\$\\$NDK\\$\\$, \\$\\$MVN3\\$\\$ and \\$\\$QT\\$\\$ to\n"
-"    substitute the paths to the android SDK and NDK directories, maven 3\n"
-"    executable, and Qt SDK directory respectively. The following\n"
+"    You can use \\$\\$SDK\\$\\$, \\$\\$NDK\\$\\$ and \\$\\$MVN3\\$\\$ to\n"
+"    substitute the paths to the android SDK and NDK directories and the maven 3\n"
+"    executable respectively. The following\n"
 "    per-build variables are available likewise: \\$\\$VERSION\\$\\$,\n"
 "    \\$\\$VERCODE\\$\\$ and \\$\\$COMMIT\\$\\$.\n"
 msgstr ""
@@ -2487,12 +2478,12 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
-msgid "```bash fdroid:~$ git clone https://gitlab.com/fdroid/basebox.git fdroid:~$ cd basebox fdroid:~/basebox$ sudo ./makebuildserver_basebox.py --provider virtualbox fdroid:~/basebox$ vagrant box add --force jessie64 fdroid-jessie64-virtualbox.box fdroid:~/basebox$ rm fdroid-jessie64-virtualbox.box ```"
+msgid "```bash fdroid:~$ git clone https://gitlab.com/fdroid/basebox.git fdroid:~$ cd basebox fdroid:~/basebox$ sudo ./fdroid_basebox.py --provider virtualbox fdroid:~/basebox$ vagrant box add --force jessie64 fdroid-jessie64-virtualbox.box fdroid:~/basebox$ rm fdroid-jessie64-virtualbox.box ```"
 msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
-msgid "Additional documentation is available in the projects [README file](https://gitlab.com/fdroid/basebox#makebuildserver_baseboxpy)."
+msgid "Additional documentation is available in the projects [README file](https://gitlab.com/fdroid/basebox#fdroid_basebox)."
 msgstr ""
 
 #. type: Title ###
@@ -3292,7 +3283,7 @@ msgstr ""
 #: build/_docs/md/FAQ_-_App_Developers.md
 #, no-wrap
 msgid "Will my app be built from source?"
-msgstr "Mon application pourra-t-elle être compilée à partir des sources ?"
+msgstr "Mon application sera-t-elle compilée à partir des sources ?"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_App_Developers.md
@@ -4061,7 +4052,7 @@ msgstr "Quelle est la différence entre les sources et les binaires compilés ?"
 #. type: Plain text
 #: build/_docs/md/FAQ_-_General.md
 msgid "In the client, each package for an app is labelled either 'source' or 'bin'. These correspond to two different messages you'll see for the same package when browsing the repository on the web site, either \"This version is built and signed by F-Droid, and guaranteed to correspond to the source tarball below\" or \"This version is built and signed by the original developer.\""
-msgstr "Dans le client, chaque paquet d'application est intitulé 'source' ou 'bin'. Deux messages différents sont affichés pour un même paquet lorsque vous parcourez le dépôt sur le site web, soit \"Cette version est construite et signée par F-Droid et garantie comme correspondant à cette archive source\" ou \"Cette version est construite et signée par le développeur\"."
+msgstr "Dans le client, chaque paquet d'application est intitulé 'source' ou 'bin'. Deux messages différents sont affichés pour un même paquet lorsque vous parcourez le dépôt sur le site web, soit \"Cette version est construite et signée par F-Droid et garantie comme correspondant à cette archive source\" ou \"Cette version est construite et signée par son développeur\"."
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_General.md
@@ -5458,6 +5449,11 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Installing_the_Server_and_Repo_Tools.md
+msgid "Note: If you have Android Studio installed, you have the Android SDK installed.  It should be located at `~/Android/Sdk` instead of `~/android-sdk-linux`.  You can find the location in Android Studio when you open the Tools→SDK Manager menu."
+msgstr ""
+
+#. type: Plain text
+#: build/_docs/md/Installing_the_Server_and_Repo_Tools.md
 msgid "To add these settings permanently to your shell:"
 msgstr ""
 
@@ -5762,9 +5758,8 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Maintaining_the_Forum.md
-#, fuzzy
 msgid "```bash docker run hello-world ```"
-msgstr "```bash fdroid build ```"
+msgstr "```bash docker run hello-world ```"
 
 #. type: Title ####
 #: build/_docs/md/Maintaining_the_Forum.md
@@ -6065,6 +6060,60 @@ msgstr ""
 msgid "-----BEGIN CERTIFICATE----- MIIDXjCCAkagAwIBAgIETEnNADANBgkqhkiG9w0BAQUFADBxMQswCQYDVQQGEwJV SzEQMA4GA1UECBMHVW5rbm93bjERMA8GA1UEBxMIV2V0aGVyYnkxEDAOBgNVBAoT B1Vua25vd24xEDAOBgNVBAsTB1Vua25vd24xGTAXBgNVBAMTEENpYXJhbiBHdWx0 bmlla3MwHhcNMTAwNzIzMTcxMDI0WhcNMzcxMjA4MTcxMDI0WjBxMQswCQYDVQQG EwJVSzEQMA4GA1UECBMHVW5rbm93bjERMA8GA1UEBxMIV2V0aGVyYnkxEDAOBgNV BAoTB1Vua25vd24xEDAOBgNVBAsTB1Vua25vd24xGTAXBgNVBAMTEENpYXJhbiBH dWx0bmlla3MwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCW0HXkfAFO eCLIn9Z/eV0jID4qiEP1O6Tmsb9fL9DiJZOCZ8/K5/v0/lljRq+69AcP25H2b7zf I0ij2SQwUCgk+AUXsVb6sAgJvcjmMb+pr9QtkEWrX9bSjZ4UCvwTAJF7GbfGxN9K SUzx98tKY8gNc0Jl1zWvnk8JRV9CeqZaU1Y/h7M2yiwZ0kT8u6YXugsZ5W7TSv4L JTq5Hi/bEnHxuePDIyAn7YhioRLwcG4jTPI2kUuTm8+VmCHssqbBgFfgcN40KARt lLF14dib15XlNUmaCR9bxlp51Tmo1DiR7FBAWKyyjAg5O1cYtXYAohHoA/SmNOXF fyW5uMRCLG/ZAgMBAAEwDQYJKoZIhvcNAQEFBQADggEBAAjk72memAdnf/VnU9pz 77I5DVriwX5NtpHV33p7YPwHGuUJxUFL59XadN8oEeg9NmjEoLGryEufp9lrTN8w u6aFF60qk+IzsEKXKsBVOkgByevge/V+vpo7PW1mOWUmDlDzuPRtsFMXYeYDQKK9 3DQmCYOX/aVARKF+UkRUn5hptGDKXm4ha29qLbBYC0gMoq/m7GtG7trPpKpFA4gJ 7ODFl4ZT1shfZ45/WiFW0b7dgRd1HmSksNzRQPMECwIYIajZOu2NAbo222yCNyIR /tcU2aMmBwOM39VlvVKf/GNyEqqiwiTvIrYD7M77W/HghcGR1LJP50KxerP1XU5v Be8= -----END CERTIFICATE----- ```"
 msgstr ""
 
+#. type: Plain text
+#: build/_docs/md/Release_Channels_and_Signing_Keys.md
+msgid "To confirm that the `1DBA2E89 admin@f-droid.org` PGP key is trusted by the index JAR signing key that is built into the F-Droid client app, run these commands: ```bash sudo apt-get install wget vim-common unzip openjdk-8-jdk-headless wget https://f-droid.org/assets/admin@f-droid.org.jar"
+msgstr ""
+
+#. type: Title #
+#: build/_docs/md/Release_Channels_and_Signing_Keys.md
+#, no-wrap
+msgid "verify against the key embedded in fdroidclient"
+msgstr ""
+
+#. type: Plain text
+#: build/_docs/md/Release_Channels_and_Signing_Keys.md
+#, no-wrap
+msgid ""
+"git clone https://gitlab.com/fdroid/fdroidclient\n"
+"grep -m1 -Eo '3082035e[0-9a-f]+' fdroidclient/app/src/main/res/values/default_repos.xml | xxd -r -p - > fdroidclient.der\n"
+"keytool -import -noprompt -trustcacerts -alias fdroidclient -storepass android -file fdroidclient.der -keystore fdroidclient.jks\n"
+"jarsigner -keystore fdroidclient.jks -storepass android -strict -verify admin@f-droid.org.jar\n"
+msgstr ""
+
+#. type: Title #
+#: build/_docs/md/Release_Channels_and_Signing_Keys.md
+#, no-wrap
+msgid "verify against the key that signed the index.jar"
+msgstr ""
+
+#. type: Plain text
+#: build/_docs/md/Release_Channels_and_Signing_Keys.md
+msgid "wget https://f-droid.org/repo/index.jar unzip -p index.jar META-INF/CIARANG.RSA | openssl pkcs7 -print_certs -inform DER -out index.cer keytool -import -noprompt -trustcacerts -alias index -storepass android -file index.cer -keystore index.jks jarsigner -keystore index.jks -storepass android -strict -verify admin@f-droid.org.jar"
+msgstr ""
+
+#. type: Title #
+#: build/_docs/md/Release_Channels_and_Signing_Keys.md
+#, no-wrap
+msgid "verify against the key that is embedded in this page"
+msgstr ""
+
+#. type: Plain text
+#: build/_docs/md/Release_Channels_and_Signing_Keys.md
+msgid "wget -O - https://f-droid/docs/Release_Channels_and_Signing_Keys/ | openssl x509 -inform pem -outform der -out docs.der keytool -import -noprompt -trustcacerts -alias docs -storepass android -file docs.der -keystore docs.jks jarsigner -keystore docs.jks -storepass android -strict -verify admin@f-droid.org.jar"
+msgstr ""
+
+#. type: Title #
+#: build/_docs/md/Release_Channels_and_Signing_Keys.md
+#, no-wrap
+msgid "when satisfied with the verification, import it"
+msgstr ""
+
+#. type: Plain text
+#: build/_docs/md/Release_Channels_and_Signing_Keys.md
+msgid "unzip admin@f-droid.org.jar admin@f-droid.org.asc gpg --import admin@f-droid.org.asc ```"
+msgstr ""
+
 #. type: Title ##
 #: build/_docs/md/Release_Channels_and_Signing_Keys.md
 #: build/_docs/md/Release_Process.md
@@ -6228,7 +6277,27 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Release_Process.md
-msgid "If it is a major release, then a new stable branch (e.g. _stable-v1.0_ or _stable-v1.1_) should be created first.  The incomplete translations should be removed using `./tools/trim-incomplete-translations-for-release.py`.  This has to happen in the stable branch only, since it will remove the incomplete translations.  If the incomplete translations are remove from _master_, then Weblate will sync with that, and remove them there as well."
+msgid "If it is a major release, there are a few more steps."
+msgstr ""
+
+#. type: Bullet: '1. '
+#: build/_docs/md/Release_Process.md
+msgid "temporarily remove the _iw/in_ links: `find app/src/main/res/ -type l -delete`"
+msgstr ""
+
+#. type: Bullet: '2. '
+#: build/_docs/md/Release_Process.md
+msgid "In Android Studio, go to _Analyze_ -> _Inspect Code_"
+msgstr ""
+
+#. type: Bullet: '3. '
+#: build/_docs/md/Release_Process.md
+msgid "After running on the whole project, go to _Android Lint: Performance_, and click on _Unused Resources_, then click the _Remove All Unused Resources_ button.  Only commit changes to _strings.xml_, **not** _styles.xml_ or other files."
+msgstr ""
+
+#. type: Bullet: '4. '
+#: build/_docs/md/Release_Process.md
+msgid "Then it is time to create a new stable branch (e.g. _stable-v1.0_ or _stable-v1.1_) should be created first.  The incomplete translations should be removed using `./tools/trim-incomplete-translations-for-release.py`.  This has to happen in the stable branch only, since it will remove the incomplete translations.  If the incomplete translations are removed from _master_, then Weblate will sync with that, and remove them there as well."
 msgstr ""
 
 #. type: Bullet: '1. '
@@ -6810,7 +6879,7 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Reproducible_Builds.md
-msgid "- <https://gitlab.com/fdroid/fdroidserver/commit/8568805866dadbdcc6c07449ca6b84b80d0ab03c> - [Verification Server](../Verification_Server)  - <https://verification.f-droid.org> - <https://reproducible-builds.org> - <https://wiki.debian.org/ReproducibleBuilds> - <https://gitian.org/> - <https://issuetracker.google.com/issues/70292819> (_Google login and Javascript required_)  - <https://issuetracker.google.com/issues/37132313> (_Google login and Javascript required_)  - <https://issuetracker.google.com/issues/110237303> (_Google login and Javascript required_)"
+msgid "- <https://gitlab.com/fdroid/fdroidserver/commit/8568805866dadbdcc6c07449ca6b84b80d0ab03c> - [Verification Server](../Verification_Server)  - <https://verification.f-droid.org> - <https://reproducible-builds.org> - <https://wiki.debian.org/ReproducibleBuilds> - <https://gitian.org/> - [Google Issue #70292819 platform-27\\_r01.zip was overwritten with a new update](https://issuetracker.google.com/issues/70292819) (_Google login and Javascript required_)  - [Google Issue #37132313 platformBuildVersionName makes builds difficult to reproduce, creates unneeded diffs](https://issuetracker.google.com/issues/37132313) (_Google login and Javascript required_)  - [Google Issue #110237303 resources.arsc built with non-determism, prevents reproducible APK builds](https://issuetracker.google.com/issues/110237303) (_Google login and Javascript required_)"
 msgstr ""
 
 #. type: Title #
@@ -6874,19 +6943,24 @@ msgstr ""
 msgid "easy Tor support via Settings"
 msgstr ""
 
+#. type: Bullet: '-   '
+#: build/_docs/md/Security_Model.md
+msgid "[client-side HTTP “etag” cache check](https://gitlab.com/fdroid/fdroidclient/issues/562)  so the ETag cannot be abused to track users"
+msgstr ""
+
+#. type: Bullet: '-   '
+#: build/_docs/md/Security_Model.md
+msgid "list of official mirrors included in signed metadata, then the client [chooses mirrors](https://gitlab.com/fdroid/fdroidclient/issues/35)  based on availability and freshness based on local criteria like whether Tor is in use"
+msgstr ""
+
 #. type: Plain text
 #: build/_docs/md/Security_Model.md
-msgid "While the current setup is already a solid platform, we are implementing a number of improvements:"
+msgid "While the current setup is already a solid platform, there are a number of improvements that make sense to implement:"
 msgstr ""
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Security_Model.md
-msgid "The signed metadata will include list of official mirrors, then the client [chooses mirrors](https://gitlab.com/fdroid/fdroidclient/issues/35) based on availability and freshness based on local criteria like whether Tor is in use, closest on the internet, etc."
-msgstr ""
-
-#. type: Bullet: '-   '
-#: build/_docs/md/Security_Model.md
-msgid "We are also moving the standard HTTP “etag” cache check from the server [to the client](https://gitlab.com/fdroid/fdroidclient/issues/562) so it cannot be abused to track users"
+msgid "better handling of index expiry aka \"max age\""
 msgstr ""
 
 #. type: Bullet: '-   '
@@ -6958,7 +7032,7 @@ msgstr ""
 #. type: Title ###
 #: build/_docs/md/Security_Model.md
 #, no-wrap
-msgid "F-Droid as built in app store"
+msgid "F-Droid as built-in app store"
 msgstr ""
 
 #. type: Plain text
@@ -6971,6 +7045,33 @@ msgstr ""
 msgid "On top of this, F-Droid makes it as easy as possible to [build it into](https://gitlab.com/fdroid/privileged-extension/#how-do-i-build-it-into-my-rom)  ROM projects.  It is already included in [Replicant](https://www.replicant.us/), [CopperheadOS](https://copperhead.co/android/), [LineageOS for microG](https://lineage.microg.org/) and [Fairphone Open](https://code.fairphone.com/projects/fp-osos/)."
 msgstr ""
 
+#. type: Title ###
+#: build/_docs/md/Security_Model.md
+#, no-wrap
+msgid "Protecting against malicious contributor-generated data"
+msgstr ""
+
+#. type: Plain text
+#: build/_docs/md/Security_Model.md
+msgid "The app descriptions are submitted by all sorts of people, and they can also be taken from the app's source repository.  This data is ultimately delivered to the Android client or the user's browser via _f-droid.org_."
+msgstr ""
+
+#. type: Plain text
+#: build/_docs/md/Security_Model.md
+#, no-wrap
+msgid ""
+"* the Android client never runs CSS, Javascript, or dangerous HTML\n"
+"tags since it displays HTML via\n"
+"[`android.text.Html.fromHtml()`](https://gitlab.com/fdroid/fdroidclient/blob/1.3.1/app/src/main/java/org/fdroid/fdroid/views/AppDetailsRecyclerViewAdapter.java#L441)\n"
+"with image loading disabled\n"
+"* the _f-droid.org_ website protects against malicious and\n"
+"CSS/HTML/Javascript injection with a\n"
+"[strict HTTP Content Security Policy](https://observatory.mozilla.org/analyze.html?host=f-droid.org).\n"
+"* Repomaker filters the texts through Mozilla's\n"
+"[_bleach_](https://github.com/mozilla/bleach) and has a good\n"
+"[HTTP Content Security Policy](https://observatory.mozilla.org/analyze.html?host=repomaker.grobox.de).\n"
+msgstr ""
+
 #. type: Title ##
 #: build/_docs/md/Security_Model.md
 #, no-wrap
@@ -6979,12 +7080,17 @@ msgstr ""
 
 #. type: Bullet: '1. '
 #: build/_docs/md/Security_Model.md
-msgid "There was a quick, informal [security audit](https://dev.guardianproject.info/projects/bazaar/wiki/Initial_FDroid_Audit_by_pd0x)  done in 2013 by then graduate student Daniel McCarney aka _pd0x_."
+msgid "There was a quick, informal [security audit](https://dev.guardianproject.info/projects/bazaar/wiki/Initial_FDroid_Audit_by_pd0x)  ([_archived_](https://web.archive.org/web/20170317154208/https://dev.guardianproject.info/projects/bazaar/wiki/Initial_FDroid_Audit_by_pd0x))  done in 2013 by then graduate student Daniel McCarney aka _pd0x_."
 msgstr ""
 
 #. type: Bullet: '2. '
 #: build/_docs/md/Security_Model.md
-msgid "The first \"Bazaar\" project funded by Open Tech Fund included an [external public audit]({{ site.baseurl }}/2018/01/20/upcoming-security-audit.html)"
+msgid "The first \"Bazaar\" project funded by [Open Tech Fund](https://opentech.fund) included an [external public audit]({{ site.baseurl }}/2018/01/20/upcoming-security-audit.html)  from [Cure53](https://cure53.de)"
+msgstr ""
+
+#. type: Bullet: '3. '
+#: build/_docs/md/Security_Model.md
+msgid "The second \"Bazaar2\" project funded by Open Tech Fund included an [external public audit]({{ site.baseurl }}/2018/09/04/second-security-audit-results.html)  from [Radically Open Security](https://radicallyopensecurity.com/)"
 msgstr ""
 
 #. type: Title #
@@ -7241,7 +7347,7 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Signing_Process.md
-msgid "The two passwords entered go into _config.py*, as `keystorepass` and `keypass` respectively. The path to the keystore file is set in `keystore`, and the alias you chose for the key also go into that file is called `repo_keyalias`."
+msgid "The two passwords entered go into _config.py_, as `keystorepass` and `keypass` respectively. The path to the keystore file is set in `keystore`, and the alias you chose for the key also go into that file is called `repo_keyalias`."
 msgstr ""
 
 #. type: Title ###
@@ -7252,12 +7358,27 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Signing_Process.md
-msgid "The F-Droid tools can automatic generate and manage APK signing keys for each app that it maintaines With the repo index signing configured, all that remains to be done for package signing to work is to set the `keydname` field in _config.py_ to contain the same identifying details you entered before."
+msgid "The F-Droid tools can automatic generate and manage APK signing keys for each app that it maintains.  With the repo index signing configured, all that remains to be done for package signing to work is to set the _keydname_ field in _config.py_ to contain the same identifying details you entered before.  A new key will be generated using these details, for each application that is built. If a specific key is required for a particular application, this system can be overridden using the _keyaliases_ config settings."
 msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Signing_Process.md
-msgid "A new key will be generated using these details, for each application that is built. (If a specific key is required for a particular application, this system can be overridden using the keyaliases config settings."
+msgid "To set up `fdroid publish`, do these steps on the same machine where you copy APKs to and run `fdroid update`.  First, set _keydname_ in _config.py_, it should be something like this:"
+msgstr ""
+
+#. type: Plain text
+#: build/_docs/md/Signing_Process.md
+msgid "```python keydname = \"CN=example.com, O=Example Ltd, C=UK\" ```"
+msgstr ""
+
+#. type: Plain text
+#: build/_docs/md/Signing_Process.md
+msgid "Create a dir called _unsigned/_ next to the _metadata/_ and _repo/_ dirs, and run these commands to move the APK into place with a new name based on _Application ID_ and _Version Code_:"
+msgstr ""
+
+#. type: Plain text
+#: build/_docs/md/Signing_Process.md
+msgid "```console $ cd /path/to/repobasedir $ touch metadata/com.example.app.yml $ mkdir unsigned $ cp /path/to/app-release-unsigned.apk unsigned/com.example.app_1234.apk $ fdroid publish --verbose $ fdroid update --verbose $ fdroid server update --verbose ```"
 msgstr ""
 
 #. type: Title ###
@@ -7579,7 +7700,7 @@ msgstr ""
 #: build/_docs/md/Translation_and_Localization.md
 #, no-wrap
 msgid "Translation and Localization"
-msgstr ""
+msgstr "Traduction et localisation"
 
 #. type: Plain text
 #: build/_docs/md/Translation_and_Localization.md
@@ -7603,9 +7724,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: build/_docs/md/Translation_and_Localization.md
-#, fuzzy
 msgid "[_fdroidserver_ command line tool](https://hosted.weblate.org/projects/f-droid/fdroidserver)"
-msgstr "[Serveur et outils de construction](https://gitlab.com/fdroid/fdroidserver/issues)"
+msgstr "[_fdroidserver_ command line tool](https://hosted.weblate.org/projects/f-droid/fdroidserver)"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Translation_and_Localization.md
@@ -7652,7 +7772,7 @@ msgstr ""
 #: build/_docs/md/Translation_and_Localization.md
 #, no-wrap
 msgid "Contributing"
-msgstr ""
+msgstr "Contribuer"
 
 #. type: Plain text
 #: build/_docs/md/Translation_and_Localization.md
@@ -7663,7 +7783,7 @@ msgstr ""
 #: build/_docs/md/Translation_and_Localization.md
 #, no-wrap
 msgid "Adding a new language"
-msgstr ""
+msgstr "Ajouter une nouvelle langue"
 
 #. type: Plain text
 #: build/_docs/md/Translation_and_Localization.md

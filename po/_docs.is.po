@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Icelandic (F-Droid)\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
-"POT-Creation-Date: 2018-08-17 13:55+0200\n"
-"PO-Revision-Date: 2018-02-16 14:39+0000\n"
+"POT-Creation-Date: 2018-10-29 11:18+0100\n"
+"PO-Revision-Date: 2018-09-19 14:22+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: Icelandic <https://hosted.weblate.org/projects/f-droid/website-docs/is/>\n"
 "Language: is\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n % 10 != 1 || n % 100 == 11;\n"
-"X-Generator: Weblate 2.19\n"
+"X-Generator: Weblate 3.2-dev\n"
 
 #. type: Title #
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -127,6 +127,34 @@ msgid ""
 "                  └── *.png\n"
 "```\n"
 msgstr ""
+"```\n"
+"- <fdroiddata>/\n"
+"  └── metadata/\n"
+"      └── <package-id>/\n"
+"          └── <locale>/\n"
+"              ├── full_description.txt\n"
+"              ├── short_description.txt\n"
+"              ├── title.txt\n"
+"              ├── video.txt\n"
+"              ├── images/\n"
+"              │   ├── featureGraphic.png\n"
+"              │   ├── icon.png\n"
+"              │   ├── promoGraphic.png\n"
+"              │   └── tvBanner.png\n"
+"              ├── changelogs/\n"
+"              │   ├── <version-code>.txt\n"
+"              │   └── <version-code>.txt\n"
+"              ├── phoneScreenshots/\n"
+"              │   └── *.png\n"
+"              ├── sevenInchScreenshots/\n"
+"              │   └── *.png\n"
+"              ├── tenInchScreenshots/\n"
+"              │   └── *.png\n"
+"              ├── tvScreenshots/\n"
+"              │   └── *.png\n"
+"              └── wearScreenshots/\n"
+"                  └── *.png\n"
+"```\n"
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -188,6 +216,26 @@ msgid ""
 "                  └── *.png\n"
 "```\n"
 msgstr ""
+"```\n"
+"- fdroid/\n"
+"  └── repo/\n"
+"      └── <package-id>/\n"
+"          └── <locale>/\n"
+"              ├── featureGraphic.png\n"
+"              ├── icon.png\n"
+"              ├── promoGraphic.png\n"
+"              ├── tvBanner.png\n"
+"              ├── phoneScreenshots/\n"
+"              │   └── *.png\n"
+"              ├── sevenInchScreenshots/\n"
+"              │   └── *.png\n"
+"              ├── tenInchScreenshots/\n"
+"              │   └── *.png\n"
+"              ├── tvScreenshots/\n"
+"              │   └── *.png\n"
+"              └── wearScreenshots/\n"
+"                  └── *.png\n"
+"```\n"
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -532,7 +580,7 @@ msgstr ""
 #. type: Bullet: '* '
 #: build/_docs/md/Building_a_Signing_Server.md
 msgid "Security cameras"
-msgstr ""
+msgstr "Öryggismyndavélar"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Building_a_Signing_Server.md
@@ -558,7 +606,7 @@ msgstr ""
 #: build/_docs/md/Building_a_Signing_Server.md
 #, no-wrap
 msgid "Difficult decisions"
-msgstr ""
+msgstr "Erfiðar ákvarðanir"
 
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
@@ -655,7 +703,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.1 Categories<a name=\"Categories\"></a>"
-msgstr ""
+msgstr "7.1 Flokkar<a name=\"Categories\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -677,7 +725,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.2 Author Name<a name=\"Author-Name\"></a>"
-msgstr ""
+msgstr "7.2 Nafn höfundar<a name=\"Author-Name\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -699,7 +747,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.3 Author Email<a name=\"Author-Email\"></a>"
-msgstr ""
+msgstr "7.3 Tölvupóstfang höfundar<a name=\"Author-Email\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -721,7 +769,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.4 License<a name=\"License\"></a>"
-msgstr ""
+msgstr "7.4 Notkunarleyfi<a name=\"License\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -743,7 +791,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.5 Auto Name<a name=\"Auto-Name\"></a>"
-msgstr ""
+msgstr "7.5 Sjálfvirkt nafn<a name=\"Auto-Name\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -765,7 +813,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.6 Name<a name=\"Name\"></a>"
-msgstr ""
+msgstr "7.6 Nafn<a name=\"Name\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -798,7 +846,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.8 Web Site<a name=\"Web-Site\"></a>"
-msgstr ""
+msgstr "7.8 Vefsvæði<a name=\"Web-Site\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -815,7 +863,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.9 Source Code<a name=\"Source-Code\"></a>"
-msgstr ""
+msgstr "7.9 Grunnkóði<a name=\"Source-Code\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -832,7 +880,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.10 Issue Tracker<a name=\"Issue-Tracker\"></a>"
-msgstr ""
+msgstr "7.10 Verkskrásetjari (tracker)<a name=\"Issue-Tracker\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -849,7 +897,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.11 Changelog<a name=\"Changelog\"></a>"
-msgstr ""
+msgstr "7.11 Breytingaskrá<a name=\"Changelog\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -866,7 +914,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.12 Donate<a name=\"Donate\"></a>"
-msgstr ""
+msgstr "7.12 Styrkja<a name=\"Donate\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -888,7 +936,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.13 FlattrID<a name=\"FlattrID\"></a>"
-msgstr ""
+msgstr "7.13 FlattrID<a name=\"FlattrID\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -905,7 +953,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.14 LiberapayID<a name=\"LiberapayID\"></a>"
-msgstr ""
+msgstr "7.14 LiberapayID<a name=\"LiberapayID\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -922,7 +970,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.15 Bitcoin<a name=\"Bitcoin\"></a>"
-msgstr ""
+msgstr "7.15 Bitcoin<a name=\"Bitcoin\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -939,7 +987,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.16 Litecoin<a name=\"Litecoin\"></a>"
-msgstr ""
+msgstr "7.16 Litecoin<a name=\"Litecoin\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -956,7 +1004,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.17 Summary<a name=\"Summary\"></a>"
-msgstr ""
+msgstr "7.17 Samantekt<a name=\"Summary\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -978,7 +1026,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.18 Description<a name=\"Description\"></a>"
-msgstr ""
+msgstr "7.18 Lýsing<a name=\"Description\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1013,7 +1061,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "4000 char limit"
-msgstr ""
+msgstr "Takmarkast við 4000 stafi"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1056,32 +1104,32 @@ msgstr ""
 #. type: Bullet: '-   '
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "‘git’"
-msgstr ""
+msgstr "‘git’"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "‘svn’"
-msgstr ""
+msgstr "‘svn’"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "‘git-svn’"
-msgstr ""
+msgstr "‘git-svn’"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "‘hg’"
-msgstr ""
+msgstr "‘hg’"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "‘bzr’"
-msgstr ""
+msgstr "‘bzr’"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "‘srclib’"
-msgstr ""
+msgstr "‘srclib’"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1129,7 +1177,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.23 Build<a name=\"Build\"></a>"
-msgstr ""
+msgstr "7.23 Byggingarútgáfa<a name=\"Build\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1139,7 +1187,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "‘Build:1.2,12’"
-msgstr ""
+msgstr "‘Byggingarútgáfa:1.2,12’"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1265,9 +1313,9 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid ""
-"    You can use \\$\\$SDK\\$\\$, \\$\\$NDK\\$\\$, \\$\\$MVN3\\$\\$ and \\$\\$QT\\$\\$ to\n"
-"    substitute the paths to the android SDK and NDK directories, maven 3\n"
-"    executable, and Qt SDK directory respectively. The following\n"
+"    You can use \\$\\$SDK\\$\\$, \\$\\$NDK\\$\\$ and \\$\\$MVN3\\$\\$ to\n"
+"    substitute the paths to the android SDK and NDK directories and the maven 3\n"
+"    executable respectively. The following\n"
 "    per-build variables are available likewise: \\$\\$VERSION\\$\\$,\n"
 "    \\$\\$VERCODE\\$\\$ and \\$\\$COMMIT\\$\\$.\n"
 msgstr ""
@@ -1947,7 +1995,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.25 Disabled<a name=\"Disabled\"></a>"
-msgstr ""
+msgstr "7.25 Óvirkt<a name=\"Disabled\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2186,7 +2234,7 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid "7.34 Current Version<a name=\"Current-Version\"></a>"
-msgstr ""
+msgstr "7.34 Núverandi útgáfa<a name=\"Current-Version\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2411,12 +2459,12 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
-msgid "```bash fdroid:~$ git clone https://gitlab.com/fdroid/basebox.git fdroid:~$ cd basebox fdroid:~/basebox$ sudo ./makebuildserver_basebox.py --provider virtualbox fdroid:~/basebox$ vagrant box add --force jessie64 fdroid-jessie64-virtualbox.box fdroid:~/basebox$ rm fdroid-jessie64-virtualbox.box ```"
+msgid "```bash fdroid:~$ git clone https://gitlab.com/fdroid/basebox.git fdroid:~$ cd basebox fdroid:~/basebox$ sudo ./fdroid_basebox.py --provider virtualbox fdroid:~/basebox$ vagrant box add --force jessie64 fdroid-jessie64-virtualbox.box fdroid:~/basebox$ rm fdroid-jessie64-virtualbox.box ```"
 msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
-msgid "Additional documentation is available in the projects [README file](https://gitlab.com/fdroid/basebox#makebuildserver_baseboxpy)."
+msgid "Additional documentation is available in the projects [README file](https://gitlab.com/fdroid/basebox#fdroid_basebox)."
 msgstr ""
 
 #. type: Title ###
@@ -4043,7 +4091,7 @@ msgstr "F-Droid, er forrit sem á í \"samkeppni\" við Google Play, og er samr�
 #: build/_docs/md/FAQ_-_General.md
 #, no-wrap
 msgid "How can I report bugs or request features?"
-msgstr ""
+msgstr "Hvernig get ég tilkynnt um villur eða beðið um nýja eiginleika?"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_General.md
@@ -4130,7 +4178,7 @@ msgstr ""
 #: build/_docs/md/Feeds.md
 #, no-wrap
 msgid "Bugs and Suggestions"
-msgstr ""
+msgstr "Gallar og tillögur"
 
 #. type: Plain text
 #: build/_docs/md/Feeds.md
@@ -4184,6 +4232,21 @@ msgid ""
 "</opml>\n"
 "```\n"
 msgstr ""
+"```xml\n"
+"<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n"
+"<opml version=\"1.0\">\n"
+"  <head>\n"
+"    <title>Fréttastreymi tengd F-Droid (feeds)</title>\n"
+"  </head>\n"
+"  <body>\n"
+"    <outline title=\"F-Droid\">\n"
+"      <outline type=\"rss\" title=\"News and Reviews\" xmlUrl=\"https://f-droid.org/feed\" htmlUrl=\"https://f-droid.org/news-and-reviews/\"/>\n"
+"      <outline type=\"rss\" title=\"Wiki Changes by Humans\" xmlUrl=\"https://f-droid.org/wiki/index.php?title=Special:RecentChanges&amp;feed=atom\" htmlUrl=\"https://f-droid.org/wiki/page/Special:RecentChanges\"/>\n"
+"      <outline type=\"rss\" title=\"Latest Builds\" xmlUrl=\"https://f-droid.org/wiki/api.php?action=feedcontributions&amp;user=Robot&amp;feedformat=atom\" htmlUrl=\"https://f-droid.org/wiki/page/Special:Contributions/Robot\"/>\n"
+"    </outline>\n"
+"  </body>\n"
+"</opml>\n"
+"```\n"
 
 #. type: Title #
 #: build/_docs/md/Getting_logcat_messages_after_crash.md
@@ -4291,18 +4354,18 @@ msgstr ""
 #: build/_docs/md/How_to_Help.md
 #, no-wrap
 msgid "How to Help"
-msgstr ""
+msgstr "Hvernig á að hjálpa til"
 
 #. type: Plain text
 #: build/_docs/md/How_to_Help.md
 msgid "The project is entirely developed and maintained by volunteers. You can help in the following ways:"
-msgstr ""
+msgstr "Verkefnið er þróað og því viðhaldið af sjálfboðaliðum. Þú getur hjálpað til á eftirfarandi hátt:"
 
 #. type: Title ###
 #: build/_docs/md/How_to_Help.md
 #, no-wrap
 msgid "Follow our work"
-msgstr ""
+msgstr "Fylgstu með vinnunni okkar"
 
 #. type: Plain text
 #: build/_docs/md/How_to_Help.md
@@ -4323,7 +4386,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/How_to_Help.md
 msgid "If you are reporting an issue with the client, [check out these pointers](../Client_Bug_Reports) to make sure we have the best chance of reproducing and fixing your issue."
-msgstr ""
+msgstr "Ef þú þarft að tilkynna vandamál varðandi biðlaraforritið, [skaltu skoða þessar ábendingar](../Client_Bug_Reports) til að ganga úr skugga um að við höfum sem besta möguleika á að endurtaka og lagfæra vandamálið þitt."
 
 #. type: Title ###
 #: build/_docs/md/How_to_Help.md
@@ -4350,7 +4413,7 @@ msgstr ""
 #: build/_docs/md/How_to_Help.md
 #, no-wrap
 msgid "Update apps"
-msgstr ""
+msgstr "Uppfæra forrit"
 
 #. type: Plain text
 #: build/_docs/md/How_to_Help.md
@@ -4366,17 +4429,17 @@ msgstr "Þýðingar"
 #. type: Plain text
 #: build/_docs/md/How_to_Help.md
 msgid "The client application is available in many languages, but if yours is not included, or if it needs updating or improving, follow [these instructions](https://hosted.weblate.org/engage/f-droid/)."
-msgstr ""
+msgstr "Biðlaraforritið er tiltækt á mörgum tungumálum, en ef þitt tungumál er ekki þar á meðal eða ef það þarfnast endurnýjunar eða úrbóta, skoðaðu þá [þessar leiðbeiningar](https://hosted.weblate.org/engage/f-droid/)."
 
 #. type: Plain text
 #: build/_docs/md/How_to_Help.md
 msgid "The web site, this wiki , and app descriptions are not covered yet, but will be included in the same system at a later date."
-msgstr ""
+msgstr "Hlutar vefsvæðisins og lýsingar forrita eru ekki þýddar ennþá, en munu á síðari stigum verða þýdd með sama kerfinu."
 
 #. type: Plain text
 #: build/_docs/md/How_to_Help.md
 msgid "There's a [dedicated forum section](https://forum.f-droid.org/c/translation)  for discussions about translation."
-msgstr ""
+msgstr "Það er líka [sérstakur flokkur á spjallsvæðinu](https://forum.f-droid.org/c/translation) fyrir umræður tengdar þýðingum."
 
 #. type: Title ###
 #: build/_docs/md/How_to_Help.md
@@ -4418,18 +4481,18 @@ msgstr ""
 #: build/_docs/md/How_to_Help.md
 #, no-wrap
 msgid "Design"
-msgstr ""
+msgstr "Hönnun"
 
 #. type: Plain text
 #: build/_docs/md/How_to_Help.md
 msgid "We'd love any contributions to make the project prettier and easier to use. If you are good at writing we are working on improving the [Home page](https://f-droid.org/wiki/page/Home_page). If you can design mockups the client developers could use your help. Post them to the issue tracker for [client](https://gitlab.com/fdroid/fdroidclient/issues) or the [website](https://gitlab.com/fdroid/fdroid-website/issues)."
-msgstr ""
+msgstr "Við munum kunna vel að meta allt sem myndi gera verkefnishlutana fallegri og einfaldari í notkun. Ef þú ert pennafær má alltaf endurbæta síður á borð við [forsíðuna](https://f-droid.org/wiki/page/Home_page). Ef þú kannt að skissa upp viðmótshluta, geta forritararnir alltaf nýtt sér aðstoð þína. Sendu þær inn á verkskráninguna fyrir [forritið](https://gitlab.com/fdroid/fdroidclient/issues) eða [vefsvæðið](https://gitlab.com/fdroid/fdroid-website/issues)."
 
 #. type: Title #
 #: build/_docs/md/How_to_update_an_app.md
 #, no-wrap
 msgid "How to update an app"
-msgstr ""
+msgstr "Hvernig á að uppfæra forrit"
 
 #. type: Plain text
 #: build/_docs/md/How_to_update_an_app.md
@@ -5243,7 +5306,7 @@ msgstr ""
 #: build/_docs/md/Installing_the_Server_and_Repo_Tools.md
 #, no-wrap
 msgid "Windows"
-msgstr ""
+msgstr "Gluggar"
 
 #. type: Title ###
 #: build/_docs/md/Installing_the_Server_and_Repo_Tools.md
@@ -5382,6 +5445,11 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Installing_the_Server_and_Repo_Tools.md
+msgid "Note: If you have Android Studio installed, you have the Android SDK installed.  It should be located at `~/Android/Sdk` instead of `~/android-sdk-linux`.  You can find the location in Android Studio when you open the Tools→SDK Manager menu."
+msgstr ""
+
+#. type: Plain text
+#: build/_docs/md/Installing_the_Server_and_Repo_Tools.md
 msgid "To add these settings permanently to your shell:"
 msgstr ""
 
@@ -5440,7 +5508,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Installing_the_Server_and_Repo_Tools.md
 msgid "__TODO__"
-msgstr ""
+msgstr "__Verkefnalisti__"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Installing_the_Server_and_Repo_Tools.md
@@ -5498,7 +5566,7 @@ msgstr ""
 #: build/_docs/md/Maintaining_the_Forum.md
 #, no-wrap
 msgid "Paths"
-msgstr ""
+msgstr "Slóðir"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Maintaining_the_Forum.md
@@ -5550,7 +5618,7 @@ msgstr ""
 #: build/_docs/md/Maintaining_the_Forum.md
 #, no-wrap
 msgid "Upgrading"
-msgstr ""
+msgstr "Uppfæri"
 
 #. type: Plain text
 #: build/_docs/md/Maintaining_the_Forum.md
@@ -5581,7 +5649,7 @@ msgstr ""
 #: build/_docs/md/Maintaining_the_Forum.md
 #, no-wrap
 msgid "Troubleshooting"
-msgstr ""
+msgstr "Finna lausn á vandamálum"
 
 #. type: Plain text
 #: build/_docs/md/Maintaining_the_Forum.md
@@ -5603,7 +5671,7 @@ msgstr ""
 #: build/_docs/md/Maintaining_the_Forum.md
 #, no-wrap
 msgid "Installation log"
-msgstr ""
+msgstr "Uppsetningarannáll"
 
 #. type: Plain text
 #: build/_docs/md/Maintaining_the_Forum.md
@@ -5620,7 +5688,7 @@ msgstr ""
 #: build/_docs/md/Maintaining_the_Forum.md
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
 msgid "References:"
-msgstr ""
+msgstr "Tilvísanir:"
 
 #. type: Bullet: '* '
 #: build/_docs/md/Maintaining_the_Forum.md
@@ -5646,7 +5714,7 @@ msgstr ""
 #: build/_docs/md/Maintaining_the_Forum.md
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
 msgid "```bash"
-msgstr ""
+msgstr "```bash"
 
 #. type: Title #
 #: build/_docs/md/Maintaining_the_Forum.md
@@ -5988,6 +6056,60 @@ msgstr ""
 msgid "-----BEGIN CERTIFICATE----- MIIDXjCCAkagAwIBAgIETEnNADANBgkqhkiG9w0BAQUFADBxMQswCQYDVQQGEwJV SzEQMA4GA1UECBMHVW5rbm93bjERMA8GA1UEBxMIV2V0aGVyYnkxEDAOBgNVBAoT B1Vua25vd24xEDAOBgNVBAsTB1Vua25vd24xGTAXBgNVBAMTEENpYXJhbiBHdWx0 bmlla3MwHhcNMTAwNzIzMTcxMDI0WhcNMzcxMjA4MTcxMDI0WjBxMQswCQYDVQQG EwJVSzEQMA4GA1UECBMHVW5rbm93bjERMA8GA1UEBxMIV2V0aGVyYnkxEDAOBgNV BAoTB1Vua25vd24xEDAOBgNVBAsTB1Vua25vd24xGTAXBgNVBAMTEENpYXJhbiBH dWx0bmlla3MwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCW0HXkfAFO eCLIn9Z/eV0jID4qiEP1O6Tmsb9fL9DiJZOCZ8/K5/v0/lljRq+69AcP25H2b7zf I0ij2SQwUCgk+AUXsVb6sAgJvcjmMb+pr9QtkEWrX9bSjZ4UCvwTAJF7GbfGxN9K SUzx98tKY8gNc0Jl1zWvnk8JRV9CeqZaU1Y/h7M2yiwZ0kT8u6YXugsZ5W7TSv4L JTq5Hi/bEnHxuePDIyAn7YhioRLwcG4jTPI2kUuTm8+VmCHssqbBgFfgcN40KARt lLF14dib15XlNUmaCR9bxlp51Tmo1DiR7FBAWKyyjAg5O1cYtXYAohHoA/SmNOXF fyW5uMRCLG/ZAgMBAAEwDQYJKoZIhvcNAQEFBQADggEBAAjk72memAdnf/VnU9pz 77I5DVriwX5NtpHV33p7YPwHGuUJxUFL59XadN8oEeg9NmjEoLGryEufp9lrTN8w u6aFF60qk+IzsEKXKsBVOkgByevge/V+vpo7PW1mOWUmDlDzuPRtsFMXYeYDQKK9 3DQmCYOX/aVARKF+UkRUn5hptGDKXm4ha29qLbBYC0gMoq/m7GtG7trPpKpFA4gJ 7ODFl4ZT1shfZ45/WiFW0b7dgRd1HmSksNzRQPMECwIYIajZOu2NAbo222yCNyIR /tcU2aMmBwOM39VlvVKf/GNyEqqiwiTvIrYD7M77W/HghcGR1LJP50KxerP1XU5v Be8= -----END CERTIFICATE----- ```"
 msgstr ""
 
+#. type: Plain text
+#: build/_docs/md/Release_Channels_and_Signing_Keys.md
+msgid "To confirm that the `1DBA2E89 admin@f-droid.org` PGP key is trusted by the index JAR signing key that is built into the F-Droid client app, run these commands: ```bash sudo apt-get install wget vim-common unzip openjdk-8-jdk-headless wget https://f-droid.org/assets/admin@f-droid.org.jar"
+msgstr ""
+
+#. type: Title #
+#: build/_docs/md/Release_Channels_and_Signing_Keys.md
+#, no-wrap
+msgid "verify against the key embedded in fdroidclient"
+msgstr ""
+
+#. type: Plain text
+#: build/_docs/md/Release_Channels_and_Signing_Keys.md
+#, no-wrap
+msgid ""
+"git clone https://gitlab.com/fdroid/fdroidclient\n"
+"grep -m1 -Eo '3082035e[0-9a-f]+' fdroidclient/app/src/main/res/values/default_repos.xml | xxd -r -p - > fdroidclient.der\n"
+"keytool -import -noprompt -trustcacerts -alias fdroidclient -storepass android -file fdroidclient.der -keystore fdroidclient.jks\n"
+"jarsigner -keystore fdroidclient.jks -storepass android -strict -verify admin@f-droid.org.jar\n"
+msgstr ""
+
+#. type: Title #
+#: build/_docs/md/Release_Channels_and_Signing_Keys.md
+#, no-wrap
+msgid "verify against the key that signed the index.jar"
+msgstr ""
+
+#. type: Plain text
+#: build/_docs/md/Release_Channels_and_Signing_Keys.md
+msgid "wget https://f-droid.org/repo/index.jar unzip -p index.jar META-INF/CIARANG.RSA | openssl pkcs7 -print_certs -inform DER -out index.cer keytool -import -noprompt -trustcacerts -alias index -storepass android -file index.cer -keystore index.jks jarsigner -keystore index.jks -storepass android -strict -verify admin@f-droid.org.jar"
+msgstr ""
+
+#. type: Title #
+#: build/_docs/md/Release_Channels_and_Signing_Keys.md
+#, no-wrap
+msgid "verify against the key that is embedded in this page"
+msgstr ""
+
+#. type: Plain text
+#: build/_docs/md/Release_Channels_and_Signing_Keys.md
+msgid "wget -O - https://f-droid/docs/Release_Channels_and_Signing_Keys/ | openssl x509 -inform pem -outform der -out docs.der keytool -import -noprompt -trustcacerts -alias docs -storepass android -file docs.der -keystore docs.jks jarsigner -keystore docs.jks -storepass android -strict -verify admin@f-droid.org.jar"
+msgstr ""
+
+#. type: Title #
+#: build/_docs/md/Release_Channels_and_Signing_Keys.md
+#, no-wrap
+msgid "when satisfied with the verification, import it"
+msgstr ""
+
+#. type: Plain text
+#: build/_docs/md/Release_Channels_and_Signing_Keys.md
+msgid "unzip admin@f-droid.org.jar admin@f-droid.org.asc gpg --import admin@f-droid.org.asc ```"
+msgstr ""
+
 #. type: Title ##
 #: build/_docs/md/Release_Channels_and_Signing_Keys.md
 #: build/_docs/md/Release_Process.md
@@ -6058,7 +6180,7 @@ msgstr ""
 #: build/_docs/md/Release_Channels_and_Signing_Keys.md
 #, no-wrap
 msgid "Privileged Extension"
-msgstr ""
+msgstr "Forgangsviðbót"
 
 #. type: Plain text
 #: build/_docs/md/Release_Channels_and_Signing_Keys.md
@@ -6151,7 +6273,27 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Release_Process.md
-msgid "If it is a major release, then a new stable branch (e.g. _stable-v1.0_ or _stable-v1.1_) should be created first.  The incomplete translations should be removed using `./tools/trim-incomplete-translations-for-release.py`.  This has to happen in the stable branch only, since it will remove the incomplete translations.  If the incomplete translations are remove from _master_, then Weblate will sync with that, and remove them there as well."
+msgid "If it is a major release, there are a few more steps."
+msgstr ""
+
+#. type: Bullet: '1. '
+#: build/_docs/md/Release_Process.md
+msgid "temporarily remove the _iw/in_ links: `find app/src/main/res/ -type l -delete`"
+msgstr ""
+
+#. type: Bullet: '2. '
+#: build/_docs/md/Release_Process.md
+msgid "In Android Studio, go to _Analyze_ -> _Inspect Code_"
+msgstr ""
+
+#. type: Bullet: '3. '
+#: build/_docs/md/Release_Process.md
+msgid "After running on the whole project, go to _Android Lint: Performance_, and click on _Unused Resources_, then click the _Remove All Unused Resources_ button.  Only commit changes to _strings.xml_, **not** _styles.xml_ or other files."
+msgstr ""
+
+#. type: Bullet: '4. '
+#: build/_docs/md/Release_Process.md
+msgid "Then it is time to create a new stable branch (e.g. _stable-v1.0_ or _stable-v1.1_) should be created first.  The incomplete translations should be removed using `./tools/trim-incomplete-translations-for-release.py`.  This has to happen in the stable branch only, since it will remove the incomplete translations.  If the incomplete translations are removed from _master_, then Weblate will sync with that, and remove them there as well."
 msgstr ""
 
 #. type: Bullet: '1. '
@@ -6203,7 +6345,7 @@ msgstr ""
 #: build/_docs/md/Release_Process.md
 #, no-wrap
 msgid "privileged-extension"
-msgstr ""
+msgstr "forgangsviðbót"
 
 #. type: Bullet: '3. '
 #: build/_docs/md/Release_Process.md
@@ -6299,7 +6441,7 @@ msgstr ""
 #. type: Bullet: '* '
 #: build/_docs/md/Repository_Style_Guide.md
 msgid "*E.g* <https://gitlab.com/fdroid/fdroidclient/tree/master>"
-msgstr ""
+msgstr "*T.d* <https://gitlab.com/fdroid/fdroidclient/tree/master>"
 
 #. type: Plain text
 #: build/_docs/md/Repository_Style_Guide.md
@@ -6368,7 +6510,7 @@ msgstr ""
 #: build/_docs/md/Repository_Style_Guide.md
 #, no-wrap
 msgid "Descriptions"
-msgstr ""
+msgstr "Lýsingar"
 
 #. type: Plain text
 #: build/_docs/md/Repository_Style_Guide.md
@@ -6434,7 +6576,7 @@ msgstr ""
 #: build/_docs/md/Repository_Style_Guide.md
 #, no-wrap
 msgid "Donations"
-msgstr ""
+msgstr "Gjafir"
 
 #. type: Plain text
 #: build/_docs/md/Repository_Style_Guide.md
@@ -6456,12 +6598,12 @@ msgstr ""
 #: build/_docs/md/Repository_Style_Guide.md
 #, no-wrap
 msgid "Updating"
-msgstr ""
+msgstr "Uppfæri"
 
 #. type: Plain text
 #: build/_docs/md/Repository_Style_Guide.md
 msgid "- *E.g.* <https://gitlab.com/fdroid/fdroidclient/graphs/master> & <https://gitlab.com/fdroid/fdroidclient/network/master> & <http://f-droid.org/news-and-reviews>"
-msgstr ""
+msgstr "- *t.d.* <https://gitlab.com/fdroid/fdroidclient/graphs/master> & <https://gitlab.com/fdroid/fdroidclient/network/master> & <http://f-droid.org/news-and-reviews>"
 
 #. type: Plain text
 #: build/_docs/md/Repository_Style_Guide.md
@@ -6717,7 +6859,7 @@ msgstr ""
 #: build/_docs/md/Reproducible_Builds.md
 #, no-wrap
 msgid "TODO"
-msgstr ""
+msgstr "Verkefnalisti"
 
 #. type: Plain text
 #: build/_docs/md/Reproducible_Builds.md
@@ -6728,11 +6870,11 @@ msgstr ""
 #: build/_docs/md/Reproducible_Builds.md
 #, no-wrap
 msgid "Sources"
-msgstr ""
+msgstr "Uppruni"
 
 #. type: Plain text
 #: build/_docs/md/Reproducible_Builds.md
-msgid "- <https://gitlab.com/fdroid/fdroidserver/commit/8568805866dadbdcc6c07449ca6b84b80d0ab03c> - [Verification Server](../Verification_Server)  - <https://verification.f-droid.org> - <https://reproducible-builds.org> - <https://wiki.debian.org/ReproducibleBuilds> - <https://gitian.org/> - <https://issuetracker.google.com/issues/70292819> (_Google login and Javascript required_)  - <https://issuetracker.google.com/issues/37132313> (_Google login and Javascript required_)  - <https://issuetracker.google.com/issues/110237303> (_Google login and Javascript required_)"
+msgid "- <https://gitlab.com/fdroid/fdroidserver/commit/8568805866dadbdcc6c07449ca6b84b80d0ab03c> - [Verification Server](../Verification_Server)  - <https://verification.f-droid.org> - <https://reproducible-builds.org> - <https://wiki.debian.org/ReproducibleBuilds> - <https://gitian.org/> - [Google Issue #70292819 platform-27\\_r01.zip was overwritten with a new update](https://issuetracker.google.com/issues/70292819) (_Google login and Javascript required_)  - [Google Issue #37132313 platformBuildVersionName makes builds difficult to reproduce, creates unneeded diffs](https://issuetracker.google.com/issues/37132313) (_Google login and Javascript required_)  - [Google Issue #110237303 resources.arsc built with non-determism, prevents reproducible APK builds](https://issuetracker.google.com/issues/110237303) (_Google login and Javascript required_)"
 msgstr ""
 
 #. type: Title #
@@ -6796,19 +6938,24 @@ msgstr ""
 msgid "easy Tor support via Settings"
 msgstr ""
 
+#. type: Bullet: '-   '
+#: build/_docs/md/Security_Model.md
+msgid "[client-side HTTP “etag” cache check](https://gitlab.com/fdroid/fdroidclient/issues/562)  so the ETag cannot be abused to track users"
+msgstr ""
+
+#. type: Bullet: '-   '
+#: build/_docs/md/Security_Model.md
+msgid "list of official mirrors included in signed metadata, then the client [chooses mirrors](https://gitlab.com/fdroid/fdroidclient/issues/35)  based on availability and freshness based on local criteria like whether Tor is in use"
+msgstr ""
+
 #. type: Plain text
 #: build/_docs/md/Security_Model.md
-msgid "While the current setup is already a solid platform, we are implementing a number of improvements:"
+msgid "While the current setup is already a solid platform, there are a number of improvements that make sense to implement:"
 msgstr ""
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Security_Model.md
-msgid "The signed metadata will include list of official mirrors, then the client [chooses mirrors](https://gitlab.com/fdroid/fdroidclient/issues/35) based on availability and freshness based on local criteria like whether Tor is in use, closest on the internet, etc."
-msgstr ""
-
-#. type: Bullet: '-   '
-#: build/_docs/md/Security_Model.md
-msgid "We are also moving the standard HTTP “etag” cache check from the server [to the client](https://gitlab.com/fdroid/fdroidclient/issues/562) so it cannot be abused to track users"
+msgid "better handling of index expiry aka \"max age\""
 msgstr ""
 
 #. type: Bullet: '-   '
@@ -6880,7 +7027,7 @@ msgstr ""
 #. type: Title ###
 #: build/_docs/md/Security_Model.md
 #, no-wrap
-msgid "F-Droid as built in app store"
+msgid "F-Droid as built-in app store"
 msgstr ""
 
 #. type: Plain text
@@ -6893,6 +7040,33 @@ msgstr ""
 msgid "On top of this, F-Droid makes it as easy as possible to [build it into](https://gitlab.com/fdroid/privileged-extension/#how-do-i-build-it-into-my-rom)  ROM projects.  It is already included in [Replicant](https://www.replicant.us/), [CopperheadOS](https://copperhead.co/android/), [LineageOS for microG](https://lineage.microg.org/) and [Fairphone Open](https://code.fairphone.com/projects/fp-osos/)."
 msgstr ""
 
+#. type: Title ###
+#: build/_docs/md/Security_Model.md
+#, no-wrap
+msgid "Protecting against malicious contributor-generated data"
+msgstr ""
+
+#. type: Plain text
+#: build/_docs/md/Security_Model.md
+msgid "The app descriptions are submitted by all sorts of people, and they can also be taken from the app's source repository.  This data is ultimately delivered to the Android client or the user's browser via _f-droid.org_."
+msgstr ""
+
+#. type: Plain text
+#: build/_docs/md/Security_Model.md
+#, no-wrap
+msgid ""
+"* the Android client never runs CSS, Javascript, or dangerous HTML\n"
+"tags since it displays HTML via\n"
+"[`android.text.Html.fromHtml()`](https://gitlab.com/fdroid/fdroidclient/blob/1.3.1/app/src/main/java/org/fdroid/fdroid/views/AppDetailsRecyclerViewAdapter.java#L441)\n"
+"with image loading disabled\n"
+"* the _f-droid.org_ website protects against malicious and\n"
+"CSS/HTML/Javascript injection with a\n"
+"[strict HTTP Content Security Policy](https://observatory.mozilla.org/analyze.html?host=f-droid.org).\n"
+"* Repomaker filters the texts through Mozilla's\n"
+"[_bleach_](https://github.com/mozilla/bleach) and has a good\n"
+"[HTTP Content Security Policy](https://observatory.mozilla.org/analyze.html?host=repomaker.grobox.de).\n"
+msgstr ""
+
 #. type: Title ##
 #: build/_docs/md/Security_Model.md
 #, no-wrap
@@ -6901,12 +7075,17 @@ msgstr ""
 
 #. type: Bullet: '1. '
 #: build/_docs/md/Security_Model.md
-msgid "There was a quick, informal [security audit](https://dev.guardianproject.info/projects/bazaar/wiki/Initial_FDroid_Audit_by_pd0x)  done in 2013 by then graduate student Daniel McCarney aka _pd0x_."
+msgid "There was a quick, informal [security audit](https://dev.guardianproject.info/projects/bazaar/wiki/Initial_FDroid_Audit_by_pd0x)  ([_archived_](https://web.archive.org/web/20170317154208/https://dev.guardianproject.info/projects/bazaar/wiki/Initial_FDroid_Audit_by_pd0x))  done in 2013 by then graduate student Daniel McCarney aka _pd0x_."
 msgstr ""
 
 #. type: Bullet: '2. '
 #: build/_docs/md/Security_Model.md
-msgid "The first \"Bazaar\" project funded by Open Tech Fund included an [external public audit]({{ site.baseurl }}/2018/01/20/upcoming-security-audit.html)"
+msgid "The first \"Bazaar\" project funded by [Open Tech Fund](https://opentech.fund) included an [external public audit]({{ site.baseurl }}/2018/01/20/upcoming-security-audit.html)  from [Cure53](https://cure53.de)"
+msgstr ""
+
+#. type: Bullet: '3. '
+#: build/_docs/md/Security_Model.md
+msgid "The second \"Bazaar2\" project funded by Open Tech Fund included an [external public audit]({{ site.baseurl }}/2018/09/04/second-security-audit-results.html)  from [Radically Open Security](https://radicallyopensecurity.com/)"
 msgstr ""
 
 #. type: Title #
@@ -6924,7 +7103,7 @@ msgstr ""
 #: build/_docs/md/Setup_an_F-Droid_App_Repo.md
 #, no-wrap
 msgid "Overview"
-msgstr ""
+msgstr "Yfirlit"
 
 #. type: Plain text
 #: build/_docs/md/Setup_an_F-Droid_App_Repo.md
@@ -7040,7 +7219,7 @@ msgstr ""
 #: build/_docs/md/Setup_an_F-Droid_App_Repo.md
 #, no-wrap
 msgid "Customization"
-msgstr ""
+msgstr "Sérsníðing"
 
 #. type: Plain text
 #: build/_docs/md/Setup_an_F-Droid_App_Repo.md
@@ -7163,7 +7342,7 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Signing_Process.md
-msgid "The two passwords entered go into _config.py*, as `keystorepass` and `keypass` respectively. The path to the keystore file is set in `keystore`, and the alias you chose for the key also go into that file is called `repo_keyalias`."
+msgid "The two passwords entered go into _config.py_, as `keystorepass` and `keypass` respectively. The path to the keystore file is set in `keystore`, and the alias you chose for the key also go into that file is called `repo_keyalias`."
 msgstr ""
 
 #. type: Title ###
@@ -7174,12 +7353,27 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Signing_Process.md
-msgid "The F-Droid tools can automatic generate and manage APK signing keys for each app that it maintaines With the repo index signing configured, all that remains to be done for package signing to work is to set the `keydname` field in _config.py_ to contain the same identifying details you entered before."
+msgid "The F-Droid tools can automatic generate and manage APK signing keys for each app that it maintains.  With the repo index signing configured, all that remains to be done for package signing to work is to set the _keydname_ field in _config.py_ to contain the same identifying details you entered before.  A new key will be generated using these details, for each application that is built. If a specific key is required for a particular application, this system can be overridden using the _keyaliases_ config settings."
 msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Signing_Process.md
-msgid "A new key will be generated using these details, for each application that is built. (If a specific key is required for a particular application, this system can be overridden using the keyaliases config settings."
+msgid "To set up `fdroid publish`, do these steps on the same machine where you copy APKs to and run `fdroid update`.  First, set _keydname_ in _config.py_, it should be something like this:"
+msgstr ""
+
+#. type: Plain text
+#: build/_docs/md/Signing_Process.md
+msgid "```python keydname = \"CN=example.com, O=Example Ltd, C=UK\" ```"
+msgstr ""
+
+#. type: Plain text
+#: build/_docs/md/Signing_Process.md
+msgid "Create a dir called _unsigned/_ next to the _metadata/_ and _repo/_ dirs, and run these commands to move the APK into place with a new name based on _Application ID_ and _Version Code_:"
+msgstr ""
+
+#. type: Plain text
+#: build/_docs/md/Signing_Process.md
+msgid "```console $ cd /path/to/repobasedir $ touch metadata/com.example.app.yml $ mkdir unsigned $ cp /path/to/app-release-unsigned.apk unsigned/com.example.app_1234.apk $ fdroid publish --verbose $ fdroid update --verbose $ fdroid server update --verbose ```"
 msgstr ""
 
 #. type: Title ###
@@ -7270,7 +7464,7 @@ msgstr ""
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
 #, no-wrap
 msgid "Setup"
-msgstr ""
+msgstr "Uppsetning"
 
 #. type: Plain text
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
@@ -7330,7 +7524,7 @@ msgstr ""
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
 #, no-wrap
 msgid "Config"
-msgstr ""
+msgstr "Uppsetning"
 
 #. type: Plain text
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
@@ -7646,7 +7840,7 @@ msgstr ""
 #: build/_docs/md/Update_Processing.md
 #, no-wrap
 msgid "Detecting<a name=\"Detecting\"></a>"
-msgstr ""
+msgstr "Kanna<a name=\"Detecting\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Update_Processing.md
@@ -7672,7 +7866,7 @@ msgstr ""
 #: build/_docs/md/Update_Processing.md
 #, no-wrap
 msgid "Adding<a name=\"Adding\"></a>"
-msgstr ""
+msgstr "Bæti við<a name=\"Adding\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Update_Processing.md
@@ -8083,7 +8277,7 @@ msgstr ""
 #: build/_docs/md/Whitelabel_Builds.md
 #, no-wrap
 msgid "Preferences"
-msgstr ""
+msgstr "Kjörstillingar"
 
 #. type: Plain text
 #: build/_docs/md/Whitelabel_Builds.md

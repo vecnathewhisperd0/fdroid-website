@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
-"POT-Creation-Date: 2018-08-17 13:55+0200\n"
+"POT-Creation-Date: 2018-10-29 11:18+0100\n"
 "PO-Revision-Date: 2018-07-10 19:31+0000\n"
 "Last-Translator: Kristoffer Grundström <kristoffer.grundstrom1983@gmail.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/f-droid/website-docs/sv/>\n"
@@ -1271,9 +1271,9 @@ msgstr ""
 #: build/_docs/md/Build_Metadata_Reference.md
 #, no-wrap
 msgid ""
-"    You can use \\$\\$SDK\\$\\$, \\$\\$NDK\\$\\$, \\$\\$MVN3\\$\\$ and \\$\\$QT\\$\\$ to\n"
-"    substitute the paths to the android SDK and NDK directories, maven 3\n"
-"    executable, and Qt SDK directory respectively. The following\n"
+"    You can use \\$\\$SDK\\$\\$, \\$\\$NDK\\$\\$ and \\$\\$MVN3\\$\\$ to\n"
+"    substitute the paths to the android SDK and NDK directories and the maven 3\n"
+"    executable respectively. The following\n"
 "    per-build variables are available likewise: \\$\\$VERSION\\$\\$,\n"
 "    \\$\\$VERCODE\\$\\$ and \\$\\$COMMIT\\$\\$.\n"
 msgstr ""
@@ -2417,12 +2417,12 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
-msgid "```bash fdroid:~$ git clone https://gitlab.com/fdroid/basebox.git fdroid:~$ cd basebox fdroid:~/basebox$ sudo ./makebuildserver_basebox.py --provider virtualbox fdroid:~/basebox$ vagrant box add --force jessie64 fdroid-jessie64-virtualbox.box fdroid:~/basebox$ rm fdroid-jessie64-virtualbox.box ```"
+msgid "```bash fdroid:~$ git clone https://gitlab.com/fdroid/basebox.git fdroid:~$ cd basebox fdroid:~/basebox$ sudo ./fdroid_basebox.py --provider virtualbox fdroid:~/basebox$ vagrant box add --force jessie64 fdroid-jessie64-virtualbox.box fdroid:~/basebox$ rm fdroid-jessie64-virtualbox.box ```"
 msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Build_Server_Setup.md
-msgid "Additional documentation is available in the projects [README file](https://gitlab.com/fdroid/basebox#makebuildserver_baseboxpy)."
+msgid "Additional documentation is available in the projects [README file](https://gitlab.com/fdroid/basebox#fdroid_basebox)."
 msgstr ""
 
 #. type: Title ###
@@ -5388,6 +5388,11 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Installing_the_Server_and_Repo_Tools.md
+msgid "Note: If you have Android Studio installed, you have the Android SDK installed.  It should be located at `~/Android/Sdk` instead of `~/android-sdk-linux`.  You can find the location in Android Studio when you open the Tools→SDK Manager menu."
+msgstr ""
+
+#. type: Plain text
+#: build/_docs/md/Installing_the_Server_and_Repo_Tools.md
 msgid "To add these settings permanently to your shell:"
 msgstr ""
 
@@ -5994,6 +5999,60 @@ msgstr ""
 msgid "-----BEGIN CERTIFICATE----- MIIDXjCCAkagAwIBAgIETEnNADANBgkqhkiG9w0BAQUFADBxMQswCQYDVQQGEwJV SzEQMA4GA1UECBMHVW5rbm93bjERMA8GA1UEBxMIV2V0aGVyYnkxEDAOBgNVBAoT B1Vua25vd24xEDAOBgNVBAsTB1Vua25vd24xGTAXBgNVBAMTEENpYXJhbiBHdWx0 bmlla3MwHhcNMTAwNzIzMTcxMDI0WhcNMzcxMjA4MTcxMDI0WjBxMQswCQYDVQQG EwJVSzEQMA4GA1UECBMHVW5rbm93bjERMA8GA1UEBxMIV2V0aGVyYnkxEDAOBgNV BAoTB1Vua25vd24xEDAOBgNVBAsTB1Vua25vd24xGTAXBgNVBAMTEENpYXJhbiBH dWx0bmlla3MwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCW0HXkfAFO eCLIn9Z/eV0jID4qiEP1O6Tmsb9fL9DiJZOCZ8/K5/v0/lljRq+69AcP25H2b7zf I0ij2SQwUCgk+AUXsVb6sAgJvcjmMb+pr9QtkEWrX9bSjZ4UCvwTAJF7GbfGxN9K SUzx98tKY8gNc0Jl1zWvnk8JRV9CeqZaU1Y/h7M2yiwZ0kT8u6YXugsZ5W7TSv4L JTq5Hi/bEnHxuePDIyAn7YhioRLwcG4jTPI2kUuTm8+VmCHssqbBgFfgcN40KARt lLF14dib15XlNUmaCR9bxlp51Tmo1DiR7FBAWKyyjAg5O1cYtXYAohHoA/SmNOXF fyW5uMRCLG/ZAgMBAAEwDQYJKoZIhvcNAQEFBQADggEBAAjk72memAdnf/VnU9pz 77I5DVriwX5NtpHV33p7YPwHGuUJxUFL59XadN8oEeg9NmjEoLGryEufp9lrTN8w u6aFF60qk+IzsEKXKsBVOkgByevge/V+vpo7PW1mOWUmDlDzuPRtsFMXYeYDQKK9 3DQmCYOX/aVARKF+UkRUn5hptGDKXm4ha29qLbBYC0gMoq/m7GtG7trPpKpFA4gJ 7ODFl4ZT1shfZ45/WiFW0b7dgRd1HmSksNzRQPMECwIYIajZOu2NAbo222yCNyIR /tcU2aMmBwOM39VlvVKf/GNyEqqiwiTvIrYD7M77W/HghcGR1LJP50KxerP1XU5v Be8= -----END CERTIFICATE----- ```"
 msgstr ""
 
+#. type: Plain text
+#: build/_docs/md/Release_Channels_and_Signing_Keys.md
+msgid "To confirm that the `1DBA2E89 admin@f-droid.org` PGP key is trusted by the index JAR signing key that is built into the F-Droid client app, run these commands: ```bash sudo apt-get install wget vim-common unzip openjdk-8-jdk-headless wget https://f-droid.org/assets/admin@f-droid.org.jar"
+msgstr ""
+
+#. type: Title #
+#: build/_docs/md/Release_Channels_and_Signing_Keys.md
+#, no-wrap
+msgid "verify against the key embedded in fdroidclient"
+msgstr ""
+
+#. type: Plain text
+#: build/_docs/md/Release_Channels_and_Signing_Keys.md
+#, no-wrap
+msgid ""
+"git clone https://gitlab.com/fdroid/fdroidclient\n"
+"grep -m1 -Eo '3082035e[0-9a-f]+' fdroidclient/app/src/main/res/values/default_repos.xml | xxd -r -p - > fdroidclient.der\n"
+"keytool -import -noprompt -trustcacerts -alias fdroidclient -storepass android -file fdroidclient.der -keystore fdroidclient.jks\n"
+"jarsigner -keystore fdroidclient.jks -storepass android -strict -verify admin@f-droid.org.jar\n"
+msgstr ""
+
+#. type: Title #
+#: build/_docs/md/Release_Channels_and_Signing_Keys.md
+#, no-wrap
+msgid "verify against the key that signed the index.jar"
+msgstr ""
+
+#. type: Plain text
+#: build/_docs/md/Release_Channels_and_Signing_Keys.md
+msgid "wget https://f-droid.org/repo/index.jar unzip -p index.jar META-INF/CIARANG.RSA | openssl pkcs7 -print_certs -inform DER -out index.cer keytool -import -noprompt -trustcacerts -alias index -storepass android -file index.cer -keystore index.jks jarsigner -keystore index.jks -storepass android -strict -verify admin@f-droid.org.jar"
+msgstr ""
+
+#. type: Title #
+#: build/_docs/md/Release_Channels_and_Signing_Keys.md
+#, no-wrap
+msgid "verify against the key that is embedded in this page"
+msgstr ""
+
+#. type: Plain text
+#: build/_docs/md/Release_Channels_and_Signing_Keys.md
+msgid "wget -O - https://f-droid/docs/Release_Channels_and_Signing_Keys/ | openssl x509 -inform pem -outform der -out docs.der keytool -import -noprompt -trustcacerts -alias docs -storepass android -file docs.der -keystore docs.jks jarsigner -keystore docs.jks -storepass android -strict -verify admin@f-droid.org.jar"
+msgstr ""
+
+#. type: Title #
+#: build/_docs/md/Release_Channels_and_Signing_Keys.md
+#, no-wrap
+msgid "when satisfied with the verification, import it"
+msgstr ""
+
+#. type: Plain text
+#: build/_docs/md/Release_Channels_and_Signing_Keys.md
+msgid "unzip admin@f-droid.org.jar admin@f-droid.org.asc gpg --import admin@f-droid.org.asc ```"
+msgstr ""
+
 #. type: Title ##
 #: build/_docs/md/Release_Channels_and_Signing_Keys.md
 #: build/_docs/md/Release_Process.md
@@ -6157,7 +6216,27 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Release_Process.md
-msgid "If it is a major release, then a new stable branch (e.g. _stable-v1.0_ or _stable-v1.1_) should be created first.  The incomplete translations should be removed using `./tools/trim-incomplete-translations-for-release.py`.  This has to happen in the stable branch only, since it will remove the incomplete translations.  If the incomplete translations are remove from _master_, then Weblate will sync with that, and remove them there as well."
+msgid "If it is a major release, there are a few more steps."
+msgstr ""
+
+#. type: Bullet: '1. '
+#: build/_docs/md/Release_Process.md
+msgid "temporarily remove the _iw/in_ links: `find app/src/main/res/ -type l -delete`"
+msgstr ""
+
+#. type: Bullet: '2. '
+#: build/_docs/md/Release_Process.md
+msgid "In Android Studio, go to _Analyze_ -> _Inspect Code_"
+msgstr ""
+
+#. type: Bullet: '3. '
+#: build/_docs/md/Release_Process.md
+msgid "After running on the whole project, go to _Android Lint: Performance_, and click on _Unused Resources_, then click the _Remove All Unused Resources_ button.  Only commit changes to _strings.xml_, **not** _styles.xml_ or other files."
+msgstr ""
+
+#. type: Bullet: '4. '
+#: build/_docs/md/Release_Process.md
+msgid "Then it is time to create a new stable branch (e.g. _stable-v1.0_ or _stable-v1.1_) should be created first.  The incomplete translations should be removed using `./tools/trim-incomplete-translations-for-release.py`.  This has to happen in the stable branch only, since it will remove the incomplete translations.  If the incomplete translations are removed from _master_, then Weblate will sync with that, and remove them there as well."
 msgstr ""
 
 #. type: Bullet: '1. '
@@ -6738,7 +6817,7 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Reproducible_Builds.md
-msgid "- <https://gitlab.com/fdroid/fdroidserver/commit/8568805866dadbdcc6c07449ca6b84b80d0ab03c> - [Verification Server](../Verification_Server)  - <https://verification.f-droid.org> - <https://reproducible-builds.org> - <https://wiki.debian.org/ReproducibleBuilds> - <https://gitian.org/> - <https://issuetracker.google.com/issues/70292819> (_Google login and Javascript required_)  - <https://issuetracker.google.com/issues/37132313> (_Google login and Javascript required_)  - <https://issuetracker.google.com/issues/110237303> (_Google login and Javascript required_)"
+msgid "- <https://gitlab.com/fdroid/fdroidserver/commit/8568805866dadbdcc6c07449ca6b84b80d0ab03c> - [Verification Server](../Verification_Server)  - <https://verification.f-droid.org> - <https://reproducible-builds.org> - <https://wiki.debian.org/ReproducibleBuilds> - <https://gitian.org/> - [Google Issue #70292819 platform-27\\_r01.zip was overwritten with a new update](https://issuetracker.google.com/issues/70292819) (_Google login and Javascript required_)  - [Google Issue #37132313 platformBuildVersionName makes builds difficult to reproduce, creates unneeded diffs](https://issuetracker.google.com/issues/37132313) (_Google login and Javascript required_)  - [Google Issue #110237303 resources.arsc built with non-determism, prevents reproducible APK builds](https://issuetracker.google.com/issues/110237303) (_Google login and Javascript required_)"
 msgstr ""
 
 #. type: Title #
@@ -6802,19 +6881,24 @@ msgstr ""
 msgid "easy Tor support via Settings"
 msgstr ""
 
+#. type: Bullet: '-   '
+#: build/_docs/md/Security_Model.md
+msgid "[client-side HTTP “etag” cache check](https://gitlab.com/fdroid/fdroidclient/issues/562)  so the ETag cannot be abused to track users"
+msgstr ""
+
+#. type: Bullet: '-   '
+#: build/_docs/md/Security_Model.md
+msgid "list of official mirrors included in signed metadata, then the client [chooses mirrors](https://gitlab.com/fdroid/fdroidclient/issues/35)  based on availability and freshness based on local criteria like whether Tor is in use"
+msgstr ""
+
 #. type: Plain text
 #: build/_docs/md/Security_Model.md
-msgid "While the current setup is already a solid platform, we are implementing a number of improvements:"
+msgid "While the current setup is already a solid platform, there are a number of improvements that make sense to implement:"
 msgstr ""
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Security_Model.md
-msgid "The signed metadata will include list of official mirrors, then the client [chooses mirrors](https://gitlab.com/fdroid/fdroidclient/issues/35) based on availability and freshness based on local criteria like whether Tor is in use, closest on the internet, etc."
-msgstr ""
-
-#. type: Bullet: '-   '
-#: build/_docs/md/Security_Model.md
-msgid "We are also moving the standard HTTP “etag” cache check from the server [to the client](https://gitlab.com/fdroid/fdroidclient/issues/562) so it cannot be abused to track users"
+msgid "better handling of index expiry aka \"max age\""
 msgstr ""
 
 #. type: Bullet: '-   '
@@ -6886,7 +6970,7 @@ msgstr ""
 #. type: Title ###
 #: build/_docs/md/Security_Model.md
 #, no-wrap
-msgid "F-Droid as built in app store"
+msgid "F-Droid as built-in app store"
 msgstr ""
 
 #. type: Plain text
@@ -6899,6 +6983,33 @@ msgstr ""
 msgid "On top of this, F-Droid makes it as easy as possible to [build it into](https://gitlab.com/fdroid/privileged-extension/#how-do-i-build-it-into-my-rom)  ROM projects.  It is already included in [Replicant](https://www.replicant.us/), [CopperheadOS](https://copperhead.co/android/), [LineageOS for microG](https://lineage.microg.org/) and [Fairphone Open](https://code.fairphone.com/projects/fp-osos/)."
 msgstr ""
 
+#. type: Title ###
+#: build/_docs/md/Security_Model.md
+#, no-wrap
+msgid "Protecting against malicious contributor-generated data"
+msgstr ""
+
+#. type: Plain text
+#: build/_docs/md/Security_Model.md
+msgid "The app descriptions are submitted by all sorts of people, and they can also be taken from the app's source repository.  This data is ultimately delivered to the Android client or the user's browser via _f-droid.org_."
+msgstr ""
+
+#. type: Plain text
+#: build/_docs/md/Security_Model.md
+#, no-wrap
+msgid ""
+"* the Android client never runs CSS, Javascript, or dangerous HTML\n"
+"tags since it displays HTML via\n"
+"[`android.text.Html.fromHtml()`](https://gitlab.com/fdroid/fdroidclient/blob/1.3.1/app/src/main/java/org/fdroid/fdroid/views/AppDetailsRecyclerViewAdapter.java#L441)\n"
+"with image loading disabled\n"
+"* the _f-droid.org_ website protects against malicious and\n"
+"CSS/HTML/Javascript injection with a\n"
+"[strict HTTP Content Security Policy](https://observatory.mozilla.org/analyze.html?host=f-droid.org).\n"
+"* Repomaker filters the texts through Mozilla's\n"
+"[_bleach_](https://github.com/mozilla/bleach) and has a good\n"
+"[HTTP Content Security Policy](https://observatory.mozilla.org/analyze.html?host=repomaker.grobox.de).\n"
+msgstr ""
+
 #. type: Title ##
 #: build/_docs/md/Security_Model.md
 #, no-wrap
@@ -6907,12 +7018,17 @@ msgstr ""
 
 #. type: Bullet: '1. '
 #: build/_docs/md/Security_Model.md
-msgid "There was a quick, informal [security audit](https://dev.guardianproject.info/projects/bazaar/wiki/Initial_FDroid_Audit_by_pd0x)  done in 2013 by then graduate student Daniel McCarney aka _pd0x_."
+msgid "There was a quick, informal [security audit](https://dev.guardianproject.info/projects/bazaar/wiki/Initial_FDroid_Audit_by_pd0x)  ([_archived_](https://web.archive.org/web/20170317154208/https://dev.guardianproject.info/projects/bazaar/wiki/Initial_FDroid_Audit_by_pd0x))  done in 2013 by then graduate student Daniel McCarney aka _pd0x_."
 msgstr ""
 
 #. type: Bullet: '2. '
 #: build/_docs/md/Security_Model.md
-msgid "The first \"Bazaar\" project funded by Open Tech Fund included an [external public audit]({{ site.baseurl }}/2018/01/20/upcoming-security-audit.html)"
+msgid "The first \"Bazaar\" project funded by [Open Tech Fund](https://opentech.fund) included an [external public audit]({{ site.baseurl }}/2018/01/20/upcoming-security-audit.html)  from [Cure53](https://cure53.de)"
+msgstr ""
+
+#. type: Bullet: '3. '
+#: build/_docs/md/Security_Model.md
+msgid "The second \"Bazaar2\" project funded by Open Tech Fund included an [external public audit]({{ site.baseurl }}/2018/09/04/second-security-audit-results.html)  from [Radically Open Security](https://radicallyopensecurity.com/)"
 msgstr ""
 
 #. type: Title #
@@ -7169,7 +7285,7 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Signing_Process.md
-msgid "The two passwords entered go into _config.py*, as `keystorepass` and `keypass` respectively. The path to the keystore file is set in `keystore`, and the alias you chose for the key also go into that file is called `repo_keyalias`."
+msgid "The two passwords entered go into _config.py_, as `keystorepass` and `keypass` respectively. The path to the keystore file is set in `keystore`, and the alias you chose for the key also go into that file is called `repo_keyalias`."
 msgstr ""
 
 #. type: Title ###
@@ -7180,12 +7296,27 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Signing_Process.md
-msgid "The F-Droid tools can automatic generate and manage APK signing keys for each app that it maintaines With the repo index signing configured, all that remains to be done for package signing to work is to set the `keydname` field in _config.py_ to contain the same identifying details you entered before."
+msgid "The F-Droid tools can automatic generate and manage APK signing keys for each app that it maintains.  With the repo index signing configured, all that remains to be done for package signing to work is to set the _keydname_ field in _config.py_ to contain the same identifying details you entered before.  A new key will be generated using these details, for each application that is built. If a specific key is required for a particular application, this system can be overridden using the _keyaliases_ config settings."
 msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Signing_Process.md
-msgid "A new key will be generated using these details, for each application that is built. (If a specific key is required for a particular application, this system can be overridden using the keyaliases config settings."
+msgid "To set up `fdroid publish`, do these steps on the same machine where you copy APKs to and run `fdroid update`.  First, set _keydname_ in _config.py_, it should be something like this:"
+msgstr ""
+
+#. type: Plain text
+#: build/_docs/md/Signing_Process.md
+msgid "```python keydname = \"CN=example.com, O=Example Ltd, C=UK\" ```"
+msgstr ""
+
+#. type: Plain text
+#: build/_docs/md/Signing_Process.md
+msgid "Create a dir called _unsigned/_ next to the _metadata/_ and _repo/_ dirs, and run these commands to move the APK into place with a new name based on _Application ID_ and _Version Code_:"
+msgstr ""
+
+#. type: Plain text
+#: build/_docs/md/Signing_Process.md
+msgid "```console $ cd /path/to/repobasedir $ touch metadata/com.example.app.yml $ mkdir unsigned $ cp /path/to/app-release-unsigned.apk unsigned/com.example.app_1234.apk $ fdroid publish --verbose $ fdroid update --verbose $ fdroid server update --verbose ```"
 msgstr ""
 
 #. type: Title ###

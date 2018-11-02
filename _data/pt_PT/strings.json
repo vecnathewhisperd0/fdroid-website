@@ -8,10 +8,11 @@
     },
     "navigation": {
         "about": "Acerca",
-        "documentation": "Documentação",
+        "contribute": "Participar",
         "forum": "Fórum",
         "browse": "Explorar",
-        "contribute": "Participar",
+        "documentation": "Documentação",
+        "repomaker": "Criador de repositório",
         "tutorials": "Tutoriais",
         "news": "Notícias",
         "issues": "Problemas"
@@ -25,17 +26,22 @@
         },
         "search": {
             "noscript": "Precisa de JavaScript",
+            "search": "Procurar",
             "heading": "Procurar Apps"
         },
         "donate": {
             "bank_transfer_name": "Nome",
             "via_bank_transfer": "Transferência bancária",
-            "bitcoin_alt": "Fazer donativo via Bitcoin",
+            "powered_by_donations": "F-Droid é mantido através dos vossos donativos!",
+            "bitcoin_alt": "Fazer donativo através de Bitcoin",
             "litecoin_alt": "Fazer donativo via Litecoin",
             "flattr_alt": "Fazer donativo via Flattr",
             "paypal_alt": "Fazer donativo via PayPal",
             "liberapay_alt": "Fazer donativo via Liberapay",
-            "heading": "Fazer Donativo"
+            "heading": "Fazer Donativo",
+            "hellotux": "👕 T-Shirts 👕 de",
+            "hellotux_alt": "HELLOTUX",
+            "hellotux_donation": "F-Droid receberá 3 euros por camisa vendida."
         },
         "last_updated": {
             "heading": "Última atualização"
@@ -43,21 +49,25 @@
     },
     "package": {
         "website": "Página Web",
-        "license": "Licença",
-        "new_in_version": "Novo na versão [latest_version]",
-        "liberapay": "Liberapay",
+        "version_info": "<b>Versão[package_version]</b> ([package_version_code]) - Adicionada em [package_added_date]",
+        "donate": "Fazer Donativo",
+        "liberapay": "Site Liberapay",
         "flattr": "Flattr",
+        "license": "Licença",
         "build_metadata": "Compilar Metadados",
+        "new_in_version": "Novo na versão [latest_version]",
         "changelog": "Histórico de Versões",
-        "author": "Autor",
-        "suggest_downloading_via_fdroid": "Apesar de ser possível descarregar APKs, alertamos que ao instalar desta forma nao irá receber notificações para atualizações e que é uma forma menos segura para descargas. É recomendável usar o cliente F-Droid para o efeito.",
+        "packages": "Pacotes",
+        "issue_tracker": "Gestor de Problemas",
+        "signed_by_developer": "Produzido e compilado pelo desenvolvedor original.",
         "gpg_signature": "Assinatura PGP",
-        "source_code": "Código Fonte",
+        "signed_by_fdroid": "Desenvolvida e compilada por F-Droid, garantia correspondente a <a href=\"[source_code_url]\">tarball the origem tarball</a>.",
+        "author": "Autor",
         "technical_info": "Informação Técnica",
         "download": "Descarregar [file_extension]",
+        "source_code": "Código Fonte",
+        "suggest_downloading_via_fdroid": "Apesar de ser possível descarregar APKs, alertamos que ao instalar desta forma nao irá receber notificações para atualizações e que é uma forma menos segura para descargas. É recomendável usar o cliente F-Droid para o efeito.",
         "minimum_android_version": "Está versão requer Android [android_version] ou mais recente.",
-        "donate": "Fazer Donativo",
-        "issue_tracker": "Gestor de Problemas",
         "permissions": "Permissões"
     }
 }

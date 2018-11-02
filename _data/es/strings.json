@@ -8,38 +8,37 @@
     },
     "navigation": {
         "about": "Acerca de",
-        "contribute": "Contribuir",
+        "documentation": "Documentos",
         "forum": "Foro",
         "browse": "Consultar",
-        "documentation": "Documentos",
+        "contribute": "Contribuir",
         "repomaker": "Repomaker",
         "tutorials": "Tutoriales",
         "news": "Noticias",
         "issues": "Incidencias"
     },
     "package": {
+        "website": "Sitio web",
+        "permissions": "Permisos",
+        "donate": "Donar",
         "liberapay": "Liberapay",
         "technical_info": "Información técnica",
-        "download": "Descargar [file_extension]",
-        "minimum_android_version": "Esta versión requiere Android [android_version]  o superior.",
-        "suggest_downloading_via_fdroid": "Aunque las descargas APK estén disponibles abajo para tu elección, deberías saber que al instalar de este modo no recibirás notificaciones de actualizaciones, y que es una forma de descarga menos segura. Recomendamos que instales y uses el cliente de F-Droid.",
-        "anti_features_warning": "Esta aplicación tiene funciones que podrían no gustarte",
         "build_metadata": "Metadatos de construcción",
         "author": "Autor",
-        "signed_by_developer": "Compilada y firmada por el desarrollador original.",
-        "signed_by_fdroid": "Compilada y firmada por F-Droid, y garantizada su correspondencia con <a href=\"[source_code_url]\">este paquete de fuentes</a>.",
-        "donate": "Donar",
-        "website": "Sitio web",
-        "flattr": "Flattr",
-        "version_info": "<b>Versión [package_version]</b> ([package_version_code]) - Añadida el [package_added_date]",
-        "source_code": "Código fuente",
-        "packages": "Paquetes",
-        "issue_tracker": "Sistema de incidencias",
-        "permissions": "Permisos",
-        "license": "Licencia",
-        "changelog": "Historial de cambios",
         "new_in_version": "Novedades en la versión [latest_version]",
-        "gpg_signature": "Firma PGP"
+        "version_info": "<b>Versión [package_version]</b> ([package_version_code]) - Añadida el [package_added_date]",
+        "changelog": "Historial de cambios",
+        "issue_tracker": "Sistema de incidencias",
+        "signed_by_developer": "Compilada y firmada por el desarrollador original.",
+        "gpg_signature": "Firma PGP",
+        "signed_by_fdroid": "Compilada y firmada por F-Droid, y garantizada su correspondencia con <a href=\"[source_code_url]\">este paquete de fuentes</a>.",
+        "packages": "Paquetes",
+        "download": "Descargar [file_extension]",
+        "license": "Licencia",
+        "minimum_android_version": "Esta versión requiere Android [android_version]  o superior.",
+        "suggest_downloading_via_fdroid": "Aunque las descargas APK estén disponibles abajo para tu elección, deberías saber que al instalar de este modo no recibirás notificaciones de actualizaciones, y que es una forma de descarga menos segura. Recomendamos que instales y uses el cliente de F-Droid.",
+        "source_code": "Código fuente",
+        "flattr": "Flattr"
     },
     "sidebars": {
         "latest_packages": {
@@ -62,7 +61,10 @@
             "flattr_alt": "Donar vía Flattr",
             "paypal_alt": "Donar vía PayPal",
             "liberapay_alt": "Donar vía Liberapay",
-            "heading": "Donar"
+            "heading": "Donar",
+            "hellotux": "👕 Camisetas 👕 de",
+            "hellotux_alt": "HELLOTUX",
+            "hellotux_donation": "F-Droid recibirá 3 € por cada camiseta vendida."
         },
         "last_updated": {
             "heading": "Última actualización"
