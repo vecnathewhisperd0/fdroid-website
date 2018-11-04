@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-10-29 11:18+0100\n"
-"PO-Revision-Date: 2018-11-02 15:23+0000\n"
+"PO-Revision-Date: 2018-11-04 10:22+0000\n"
 "Last-Translator: Verdulo <tomek@disroot.org>\n"
 "Language-Team: Esperanto <https://hosted.weblate.org/projects/f-droid/website-docs/eo/>\n"
 "Language: eo\n"
@@ -9449,7 +9449,7 @@ msgstr "[implicite konekti per HTTPS](https://gitlab.com/fdroid/fdroidclient/blo
 #. type: Bullet: '-   '
 #: build/_docs/md/Security_Model.md
 msgid "server only works over HTTPS, [HTTP](http://f-droid.org) is a redirect"
-msgstr "servilo nur funkcias per HTTPS, [HTTP](http://f-droid.org) estas aldirektita"
+msgstr "servilo nur funkcias per HTTPS, [HTTP](http://f-droid.org) estas aldirektata"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Security_Model.md
