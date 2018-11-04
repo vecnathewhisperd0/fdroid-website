@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-10-29 11:18+0100\n"
-"PO-Revision-Date: 2018-11-02 15:23+0000\n"
-"Last-Translator: C. Rüdinger <Mail-an-CR@web.de>\n"
+"PO-Revision-Date: 2018-11-05 08:01+0000\n"
+"Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -5994,16 +5994,28 @@ msgid ""
 "  * Direct messages in a column (can be hidden in settings)\n"
 "  * Many other changes, improvements and bug fixes\n"
 msgstr ""
+"* {{ page.featured }}}}} **[Mastalab](https://f-droid.org/app/fr.gouv.etalab.mastodon)** ist ein leistungsfähiger Multi-Account Client für [Mastodon](https://joinmastodon.org). Viele neue Funktionen sind in diesem Sprung von 1.13.6 auf 1.15.2, jetzt mit Video- und Peertube-Unterstützung:\n"
+"  * Langer Druck auf den Bookmark-Button, um Toots mit einem anderen Konto zu bookmarken.\n"
+"  * Verifizierte URL in Profilen (derzeit nur auf mastodon.social verfügbar)\n"
+"  * Unterstützung für das Blockieren ganzer Instanzen\n"
+"  * Erlauben der Freigabe von Videos\n"
+"  * Anleitungsvideos im Menü\n"
+"  * Verwalten von Peertube-Videos (Vollbild + Kommentare)\n"
+"  * Der Bildschirmname wird im nicht kompakten Modus nicht angezeigt\n"
+"  * Filterproblem mit lokaler Zeitleiste\n"
+"  * Verfolgen von Peertube-Instanzen mit der Möglichkeit, Videos mit Mastodon-Konten zu kommentieren\n"
+"  * Direkte Nachrichten in einer Spalte (kann in den Einstellungen ausgeblendet werden)\n"
+"  * Viele weitere Änderungen, Verbesserungen und Bugfixes\n"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
 msgid "**[Markor](https://f-droid.org/app/net.gsantner.markor)** 1.3.0 is out with an \"Auto\" theme, automatically switching between dark and light theme based on time of day. It also supports Chrome Custom tabs, will now start editing documents at last known cursor position, and enables link highlighting in plaintext format. Long-pressing an image now adds img-src with max-height, long-pressing the \"Special key\" jumps to top/bottom and long-pressing \"Open external\" opens context search. On top of that you'll find improvements to TextActions and Representation, and bug fixes."
-msgstr ""
+msgstr "**[Markor](https://f-droid.org/app/net.gsantner.markor)** 1.3.0 ist mit einem \"Auto\"-Thema erhältlich, das automatisch zwischen dunklem und hellem Thema abhängig von der Tageszeit umschaltet. Es unterstützt auch Chrome Custom Tabs, beginnt nun mit der Bearbeitung von Dokumenten an der zuletzt bekannten Cursorposition und ermöglicht die Hervorhebung von Links im Klartextformat. Das lange Drücken auf ein Bild fügt nun img-src mit maximaler Höhe hinzu, das lange Drücken der \"Spezialtaste\" springt nach an oberere/untere Ende und das lange Drücken von \"Extern öffnen\" öffnet die Kontextsuche. Darüber hinaus finden Sie Verbesserungen bei TextActions und Representation sowie Bugfixes."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
 msgid "**[OsmAnd~](https://f-droid.org/app/net.osmand.plus)** 3.2.2 fixes a crash on startup that occurred with non-latin maps, improves rendering speed on Android 8.0 devices, adds support for the polygon (non-amenity) objects editings, and adds a \"Measure\" button to Actions in the context menu for the distance measuring plugin."
-msgstr ""
+msgstr "**[OsmAnd~](https://f-droid.org/app/net.osmand.plus)** 3.2.2.2 behebt einen Absturz beim Start, der bei nicht-lateinischen Karten auftrat, verbessert die Rendering-Geschwindigkeit auf Android 8.0-Geräten, unterstützt die Bearbeitung von Polygon-(Nicht-Änderungs-)Objekten und fügt den Aktionen im Kontextmenü des Entfernungsmess-Plugins eine Schaltfläche \"Messen\" hinzu."
 
 #. type: Plain text
 #: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
@@ -6084,7 +6096,7 @@ msgstr "Wir betrachten diesen Zug als großen Schritt in Richtung Anwenderrechte
 #. type: Plain text
 #: build/_posts/md/2018-10-20-twif-26-tagesschau-f-droid-repo-and-translation-workflow-improvement.md
 msgid "Background for non-German readers: Tagesschau is essentially the German national TV news, airing every day at 20:00. For a longer and more nuanced description, please [refer to Wikipedia](https://en.wikipedia.org/wiki/Tagesschau_(German_TV_series))."
-msgstr ""
+msgstr "Hintergrund für nicht-deutsche Leser: Die Tagesschau ist im Wesentlichen die nationale Fernsehnachricht, die jeden Tag um 20:00 Uhr ausgestrahlt wird. Eine längere und nuanciertere Beschreibung finden Sie [in der Wikipedia](https://de.wikipedia.org/wiki/Tagesschau_(ARD))."
 
 #. type: Title ####
 #: build/_posts/md/2018-10-20-twif-26-tagesschau-f-droid-repo-and-translation-workflow-improvement.md
@@ -6151,7 +6163,7 @@ msgstr "**[PocketMaps](https://f-droid.org/app/com.junjunguo.pocketmaps)** ist e
 #. type: Bullet: '* '
 #: build/_posts/md/2018-10-20-twif-26-tagesschau-f-droid-repo-and-translation-workflow-improvement.md
 msgid "**[MatLog Libre](https://f-droid.org/app/com.pluscubed.matloglibre)** shows a scrolling (tailed) view of the Android \"logcat\" system log, hence the goofy name. In version 1.2.0 the widget was fixed for Android 8+, and a filtered tags setting, progress bar loading from file and kernel log in shared zip were added. Among other small improvements, several crashes were also fixed."
-msgstr ""
+msgstr "**[MatLog Libre](https://f-droid.org/app/com.pluscubed.matloglibre)** zeigt eine scrollende (\"tail-te\") Ansicht des Android \"logcat\" Systemprotokolls, daher der alberne Name. In Version 1.2.0 wurde das Widget für Android 8+ repariert und eine gefilterte Tags-Einstellung, das Laden der Fortschrittsanzeige aus der Datei und das Kernel-Log im Shared Zip wurden hinzugefügt. Neben anderen kleinen Verbesserungen wurden auch mehrere Abstürze behoben."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-10-20-twif-26-tagesschau-f-droid-repo-and-translation-workflow-improvement.md
@@ -6161,17 +6173,17 @@ msgstr "{{ page.major }} Die \"Simple Mobile Tools\" **[File Manager](https://f-
 #. type: Bullet: '* '
 #: build/_posts/md/2018-10-20-twif-26-tagesschau-f-droid-repo-and-translation-workflow-improvement.md
 msgid "{{ page.major }} **[Open Link With](https://f-droid.org/app/com.tasomaniac.openwith.floss)** was updated from 1.9-floss to 2.3-floss. This app lets you open a link in another native app when you're stuck in the browser. It now supports browser selection, letting you choose between all browsers (previous behavior), one single browser, or to never suggest any browsers at all. Frequently-requested advanced settings were also added, and you can now set OLW itself as a browser, making all link clicks go through OLW automatically instead of having to use \"share link\"."
-msgstr ""
+msgstr "{{page.major}} **[Open Link With](https://f-droid.org/app/com.tasomaniac.openwith.floss)** wurde von 1.9-floss auf 2.3-floss aktualisiert. Mit dieser App können Sie einen Link in einer anderen nativen App öffnen, wenn Sie im Browser festsitzen. Es unterstützt nun die Auswahl eines Browsers, so dass Sie zwischen allen Browsern (früheres Verhalten), einem einzigen Browser oder nie einen Browser vorschlagen können. Häufig angeforderte erweiterte Einstellungen wurden ebenfalls hinzugefügt und Sie können OLW nun selbst als Browser einstellen, so dass alle Link-Klicks automatisch durch OLW gehen, anstatt \"Share Link\" verwenden zu müssen."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-10-20-twif-26-tagesschau-f-droid-repo-and-translation-workflow-improvement.md
 msgid "**[Password Store](https://f-droid.org/app/com.zeapo.pwdstore)** stores passwords in simple text files which are encrypted with OpenPGP. This update to 1.3.1 covers a new adaptive icon, ability to install to external [SD card](https://en.wikipedia.org/wiki/Secure_Digital), different password sort order, display of HOTP code if present, secure password entry, and other bug fixes and smaller improvements."
-msgstr ""
+msgstr "**[Password Store](https://f-droid.org/app/com.zeapo.pwdstore)** speichert Passwörter in einfachen Textdateien, die mit OpenPGP verschlüsselt sind. Dieses Update auf 1.3.1 enthält ein neues adaptives Icon, die Möglichkeit zur Installation auf einer externen [SD-Karte](https://de.wikipedia.org/wiki/SD-Karte), eine andere Sortierreihenfolge für Passwörter, die Anzeige von HOTP-Code, falls vorhanden, eine sichere Passworteingabe und andere Bugfixes und kleinere Verbesserungen."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-10-20-twif-26-tagesschau-f-droid-repo-and-translation-workflow-improvement.md
 msgid "**[Conversations](https://f-droid.org/app/eu.siacs.conversations)** was updated from 2.3.2+fcr to 2.3.4+fcr, updating translations, fixing connection issues with user@ip type JIDs and fixing sending OMEMO encrypted files to ChatSecure iOS users."
-msgstr ""
+msgstr "**[Conversations](https://f-droid.org/app/eu.siacs.conversations)** wurde von 2.3.2+fcr auf 2.3.4+fcr aktualisiert, Übersetzungen aktualisiert, Verbindungsprobleme mit JIDs vom Typ user@ip behoben und das Senden von OMEMO-verschlüsselten Dateien an ChatSecure iOS-Benutzer korrigiert."
 
 #. type: Plain text
 #: build/_posts/md/2018-10-20-twif-26-tagesschau-f-droid-repo-and-translation-workflow-improvement.md
@@ -6186,6 +6198,14 @@ msgid ""
 "  - Added a red border to media that don't have a description when composing\n"
 "  - Several smaller enhancements and bug fixes\n"
 msgstr ""
+"* {{ page.featured }}}}} Wieder riesige Aktualisierungen bei **[Mastalab](https://f-droid.org/app/fr.gouv.etalab.mastodon)**! Diese Woche wurde es von 1.15.2 auf 1.17.1 aktualisiert, wobei es um Folgendes ging:\n"
+"  - **Volle Unterstützung für [PeerTube](https://en.wikipedia.org/wiki/PeerTube)**: Kommentieren/Folgen/Boost/Antworten/Antworten/Fav von Ihrem eigenen Mastodon-Konto!\n"
+"  - Neues Layout für PeerTube-Instanzen\n"
+"  - Neuer Videoplayer, um PeerTube mit allen Geräten kompatibel zu machen.\n"
+"  - Komplette interne Überarbeitung von Live-Updates, jetzt mit Websockets mit dem wss-Protokoll für Streaming-URLs.\n"
+"  - Möglichkeit, Live-Updates nur dann zuzulassen, wenn die App läuft.\n"
+"  - Ein roter Rahmen wurde für Medien hinzugefügt, die beim Zusaamenstellen keine Beschreibung haben.\n"
+"  - Mehrere kleinere Verbesserungen und Bugfixes\n"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-10-20-twif-26-tagesschau-f-droid-repo-and-translation-workflow-improvement.md
