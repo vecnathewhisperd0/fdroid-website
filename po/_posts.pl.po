@@ -5827,7 +5827,7 @@ msgstr "Lustro Beta do testowania"
 #. type: Plain text
 #: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
 msgid "Tetaneutral is a non-profit ISP based in Toulouse, France. They have offered to host a mirror of our main F-Droid repository, as well as the archive. We are currently beta testing the setup, and if you'd like to give it a try, [tap here](https://fdroid.tetaneutral.net/fdroid/repo?fingerprint=43238D512C1E5EB2D6569F4A3AFBF5523418B82E0A3ED1552770ABB9A9C9CCAB) on your mobile device to add it as a \"user mirror\" for f-droid.org. (Link will not work on a PC or if you don't have the F-Droid app installed.)"
-msgstr "Tetaneutral jest non-profit ISP z siedzibą w Tuluzie we Francji. Zaproponowali hosta zwierciadło naszego głównego repozytorium F-Droid, a także archiwum. Obecnie testujemy wersję beta konfiguracji, a jeśli chcesz spróbować, kliknij [tutaj] (https://fdroid.tetaneutral.net/fdroid/repo?fingerprint=43238D512C1E5EB2D6569F4A3AFBF5523418B82E0A3ED1552770ABB9A9C9CCAB) na urządzeniu mobilnym, aby ją dodać. jako \"lustro użytkownika\" dla f-droid.org. (Link nie działa na komputerze lub jeśli nie masz zainstalowanej aplikacji F-Droid.)"
+msgstr "Tetaneutral jest non-profit ISP z siedzibą w Tuluzie we Francji. Zaproponowali hosta zwierciadło naszego głównego repozytorium F-Droid, a także archiwum. Obecnie testujemy wersję beta konfiguracji, a jeśli chcesz spróbować, kliknij [tutaj](https://fdroid.tetaneutral.net/fdroid/repo?fingerprint=43238D512C1E5EB2D6569F4A3AFBF5523418B82E0A3ED1552770ABB9A9C9CCAB) na urządzeniu mobilnym, aby ją dodać. jako \"lustro użytkownika\" dla f-droid.org. (Link nie działa na komputerze lub jeśli nie masz zainstalowanej aplikacji F-Droid.)"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
@@ -6058,7 +6058,7 @@ msgstr ""
 #. type: Bullet: '* '
 #: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
 msgid "{{ page.major }} Apparently we haven't been able to update **[PDF Converter](https://f-droid.org/app/swati4star.createpdf)** for 2 years. We now have 8.3.3 in the repository (previously 1.0) with too many changes to list. Of note is that we also picked up some older versions, and version 2.5 is the latest one that will install on Android 4.4. All versions after that require at least Android 5.0."
-msgstr "{{ page.major }} Najwyraźniej nie byliśmy w stanie zaktualizować **[Konwerter PDF] (https://f-droid.org/app/swati4star.createpdf)** przez 2 lata. Mamy teraz 8.3.3 w repozytorium (wcześniej 1.0) ze zbyt wieloma zmianami na liście. Należy zauważyć, że również wybraliśmy kilka starszych wersji, a wersja 2.5 jest najnowszą, która zainstaluje się na Androidzie 4.4. Wszystkie kolejne wersje wymagają co najmniej wersji Androida 5.0."
+msgstr "{{ page.major }} Najwyraźniej nie byliśmy w stanie zaktualizować **[Konwerter PDF](https://f-droid.org/app/swati4star.createpdf)** przez 2 lata. Mamy teraz 8.3.3 w repozytorium (wcześniej 1.0) ze zbyt wieloma zmianami na liście. Należy zauważyć, że również wybraliśmy kilka starszych wersji, a wersja 2.5 jest najnowszą, która zainstaluje się na Androidzie 4.4. Wszystkie kolejne wersje wymagają co najmniej wersji Androida 5.0."
 
 #. type: Plain text
 #: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md

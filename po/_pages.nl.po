@@ -654,7 +654,7 @@ msgstr "[Installatie van server- en pakketbrongereedschap](Installing_the_Server
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
 msgid "[Setup an F-Droid App Repo](Setup_an_F-Droid_App_Repo) How to setup your own repository of apps that users can easily add to their F-Droid client to get your apps directly from the source."
-msgstr "[Setup F-Droid App Repo](Setup_an_F-Droid_App_App_Repo) Hoe u uw eigen repository van apps kunt instellen die gebruikers eenvoudig kunnen toevoegen aan hun F-Droid client om uw apps direct van de bron te halen."
+msgstr "[Setup F-Droid App Repo](Setup_an_F-Droid_App_Repo) Hoe u uw eigen repository van apps kunt instellen die gebruikers eenvoudig kunnen toevoegen aan hun F-Droid client om uw apps direct van de bron te halen."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
