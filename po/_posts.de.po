@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-11-12 11:08+0100\n"
-"PO-Revision-Date: 2018-11-12 11:22+0100\n"
+"PO-Revision-Date: 2018-11-12 11:32+0100\n"
 "Last-Translator: C. Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\n"
 "Language: de\n"
@@ -6237,7 +6237,7 @@ msgstr "**[Blokada v3 (ad blocker)](https://f-droid.org/app/org.blokada.alarm)**
 #. type: Bullet: '* '
 #: build/_posts/md/2018-10-20-twif-26-tagesschau-f-droid-repo-and-translation-workflow-improvement.md
 msgid "**[The Light](https://f-droid.org/app/org.hlwd.bible)** has the bible in multiple languages. Version 3.4 is a small maintenance release adding 13 articles and 7 Youtubers."
-msgstr ""
+msgstr "**[The Light](https://f-droid.org/app/org.hlwd.bible)** liefert dei Bibel in mehreren Sprachen. Version 3.4 ist eine kleine Instandhaltungsversion, die 13 Artikel und 7 Youtuber hinzufügt."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-10-20-twif-26-tagesschau-f-droid-repo-and-translation-workflow-improvement.md
@@ -6308,17 +6308,17 @@ msgstr "Zwei neue Server aus dem GCC Compile Farm Project"
 #. type: Plain text
 #: build/_posts/md/2018-10-25-twif-27-new-servers-and-first-alpha-release-of-f-droid-1-5.md
 msgid "Many thanks to the [GCC Compile Farm Project](https://cfarm.tetaneutral.net), who have arranged two bare-metal servers for F-Droid, each with 16 cores, 145 GB RAM, and 2.6 TB disk. These are actually old Facebook machines, but the specs are still pretty impressive! And this is _in addition to_ the [F-Droid mirror from Tetaneutral]({{ site.baseurl }}{% post_url 2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing %}#beta-mirror-up-for-testing)."
-msgstr ""
+msgstr "Vielen Dank dem [GCC Compile Farm Project](https://cfarm.tetaneutral.net), das zwei dedizierte Server für F-Droid eingerichtet hat, jeder mit 16 Cores, 145 GB RAM und 2.6 TB Platte. Diese sind eigentlich alte Facebook-Maschinen, aber deren Spezifikationen sind immer noch einigermaßen beeindruckend! Und sie gibt es _zusätzlich_ zum [F-Droid-Spiegelserver von Tetaneutral]({{ site.baseurl }}{% post_url 2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing %}#beta-mirror-up-for-testing)."
 
 #. type: Plain text
 #: build/_posts/md/2018-10-25-twif-27-new-servers-and-first-alpha-release-of-f-droid-1-5.md
 msgid "The _GCC Compile Farm Project_ is a facilitator for free software developers to get access to resources. The management system for this project is hosted by [Tetaneutral](https://tetaneutral.net), and the machines themselves are hosted by various organizations around the world. These two machines will actually be hosted by the [Oregon State University Open Source Lab](https://osuosl.org) (OSUOSL)."
-msgstr ""
+msgstr "Das _GCC Compile Farm Project_ ist ein Vermittler für Entwickler freier Software, um Zugriff auf Ressourcen zu erlangen. Das Managementsystem für dieses Projekt wird von [Tetaneutral](https://tetaneutral.net) gehostet und die Maschinen selbst werden von verschiedenen Organisationen rund um den Globus gehostet. Das eigentliche Hosting dieser beiden Maschinen erfolgt durch das [Oregon State University Open Source Lab](https://osuosl.org) (OSUOSL)."
 
 #. type: Plain text
 #: build/_posts/md/2018-10-25-twif-27-new-servers-and-first-alpha-release-of-f-droid-1-5.md
 msgid "For people who will be working with them: Remember that these machines have real hard disks, not running in RAID configuration. They should only hold disposable content, as the hard disks could fail."
-msgstr ""
+msgstr "Für Leute, die mit ihnen arbeiten werden: Behalten Sie im Hinterkopf, dass diese Maschinen wirkliche Hard Disks besitzen, die nicht in einer RAID-Konfiguration laufen. Sie sollten nur entbehrliche Inhalte aufnehmen, da die Hard Disks versagen können."
 
 #. type: Title ####
 #: build/_posts/md/2018-10-25-twif-27-new-servers-and-first-alpha-release-of-f-droid-1-5.md
@@ -6329,12 +6329,12 @@ msgstr "Erste Alpha-Version des F-Droid-Client 1.5 veröffentlicht"
 #. type: Plain text
 #: build/_posts/md/2018-10-25-twif-27-new-servers-and-first-alpha-release-of-f-droid-1-5.md
 msgid "F-Droid client 1.5-alpha0 is out with a new ROM feature. There is now [a way to pre-install F-Droid with additional repositories](https://gitlab.com/fdroid/fdroidclient/merge_requests/705). These repositories can only be added, and can't override the main f-droid.org repositories. Also, the user is free to disable and delete, so this is only for the initial setup."
-msgstr ""
+msgstr "F-Droid-Client 1.5-alpha0 kam heraus mit einem neuen ROM-Feature. Es gibt nun [einen Weg, F-Droid mit zusätzlichen Repositorys vorzuinstallieren](https://gitlab.com/fdroid/fdroidclient/merge_requests/705). Diese Repositorys können nur ergänzt werden und können sich nicht über das Hauptrepository f-droid.org hinwegsetzen. Nachdem der Anwender frei darüber entscheiden kann, es zu deaktivieren oder zu löschen, gilt dies nur für die Ersteinrichtung."
 
 #. type: Plain text
 #: build/_posts/md/2018-10-25-twif-27-new-servers-and-first-alpha-release-of-f-droid-1-5.md
 msgid "So for example, Lineage could supply an image with a standard F-Droid APK pre-installed, and have it preconfigured with a specific repository. Or this could be Replicant, Fairphone, etc. This feature was designed in cooperation with Emteria, who largely implemented it, with substantial contributions from F-Droid people."
-msgstr ""
+msgstr "So könnte zum Beispiele Lineage ein Image mit einer vorinstallierten Standard-F-Droid-APK bereitstellen und es mit einem speziellen Repository vorkonfigurieren. Ebenso könnte das Replicant, Fairphone usw. tun. Dieses Feature wurde in Zusammenarbeit mit Emteria entworfen, die es größtenteils, mit wesentlichen Beiträgen von F-Droid-Leuten, umgesetzt haben."
 
 #. type: Title ####
 #: build/_posts/md/2018-10-25-twif-27-new-servers-and-first-alpha-release-of-f-droid-1-5.md
@@ -6346,12 +6346,12 @@ msgstr "F-Droid-Metadatenbereinigung"
 #: build/_posts/md/2018-10-25-twif-27-new-servers-and-first-alpha-release-of-f-droid-1-5.md
 #, no-wrap
 msgid "**[@Izzy](https://forum.f-droid.org/u/izzy)** has been working hard behind the scenes, doing the dirty grunt work that nobody else wants to do. In [this round](https://gitlab.com/fdroid/fdroiddata/issues/1414), he is removing all the website links which merely point at the source code.\n"
-msgstr ""
+msgstr "**[@Izzy](https://forum.f-droid.org/u/izzy)** beschäftigt sich intensiv hinter den Kulissen mit den Drecksarbeiten, die keiner sonst machen will. In [dieser Runde](https://gitlab.com/fdroid/fdroiddata/issues/1414) entfernt er alle Website-Links, die lediglich auf den Quellcode verweisen.\n"
 
 #. type: Plain text
 #: build/_posts/md/2018-10-25-twif-27-new-servers-and-first-alpha-release-of-f-droid-1-5.md
 msgid "If you follow the \"Website\" link from an app's description page, it should lead to a real website. Otherwise, it should be absent. Our metadata is full of cases where the website links to the source code, either directly duplicating the \"Source code\" link, or pointing somewhere very similar, for example to the README file. This work is fixing that, and unifying the way in which we link to things, which makes for a smoother experience."
-msgstr ""
+msgstr "Wenn Sie einem \"Website\"-Link auf einer Seite mit einer App-Beschreibung folgen, sollte er zu einer wirklichen Website führen. Ansonsten sollte er nicht vorhanden sein. Unsere Metadaten sind voll mit Fällen, in denen auf den Quellcode verlinkt wird, entweder direkt durch Verdoppelung des \"Quelltext\"-Links oder durch Verweis auf etwas sehr Ähnliches, zum Beispiel die README-Datei. Diese Arbeiten werden das beheben und die Art, in der wir auf etwas verlinken, vereinheitlichen, was für ein feineres Nutzererlebnis sorgen wird."
 
 #. type: Title ####
 #: build/_posts/md/2018-10-25-twif-27-new-servers-and-first-alpha-release-of-f-droid-1-5.md
@@ -6394,38 +6394,37 @@ msgstr "Wir haben eben erst davon erfahren, obwohl die Studie eigentlich im Jahr
 #. type: Bullet: '* '
 #: build/_posts/md/2018-10-25-twif-27-new-servers-and-first-alpha-release-of-f-droid-1-5.md
 msgid "**[Hide \"running in the background\" Notification](https://f-droid.org/app/com.iboalali.sysnotifsnooze)**: Hide the annoying \"running in the background\" notification."
-msgstr ""
+msgstr "**[Hide \"running in the background\" Notification](https://f-droid.org/app/com.iboalali.sysnotifsnooze)**: Die lästige Benachrichtigung \"läuft im Hintergrund\" ausblenden."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-10-25-twif-27-new-servers-and-first-alpha-release-of-f-droid-1-5.md
-#, fuzzy
 msgid "**[lWS](https://f-droid.org/app/net.basov.lws.fdroid)**: Lightweight web server (lws)."
-msgstr "**[9P](https://f-droid.org/app/se.tube42.p9.android)**: Wort-Puzzle"
+msgstr "**[lWS](https://f-droid.org/app/net.basov.lws.fdroid)**: Leichtgewichtiger Webserver (lws)."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-10-25-twif-27-new-servers-and-first-alpha-release-of-f-droid-1-5.md
 msgid "**[lWS QR](https://f-droid.org/app/net.basov.lws.qr.fdroid)**: Lightweight web server qr code generator plugin (lws qr)."
-msgstr ""
+msgstr "**[lWS QR](https://f-droid.org/app/net.basov.lws.qr.fdroid)**: QR-Codegenerator-Erweiterung für lWS (lws qr)."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-10-25-twif-27-new-servers-and-first-alpha-release-of-f-droid-1-5.md
 msgid "**[Weather Forecast](https://f-droid.org/app/uk.org.boddie.android.weatherforecast)**: View weather forecasts from yr.no."
-msgstr ""
+msgstr "**[Weather Forecast](https://f-droid.org/app/uk.org.boddie.android.weatherforecast)**: Wettervorhersagen von yr.no ansehen."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-10-25-twif-27-new-servers-and-first-alpha-release-of-f-droid-1-5.md
 msgid "{{ page.major }} More updates for the simple mobile tools. This time **[Calculator](https://f-droid.org/app/com.simplemobiletools.calculator)**, **[Music Player](https://f-droid.org/app/com.simplemobiletools.musicplayer)** and **[Notes](https://f-droid.org/app/com.simplemobiletools.notes)** updated to major version 5, again bumping up the minimum required Android from 4.1 to 5.0 and replacing the G+ button with Reddit."
-msgstr ""
+msgstr "{{ page.major }} Weitere Updates für die Simple Mobile Tools. Dieses Mal wurden **[Calculator](https://f-droid.org/app/com.simplemobiletools.calculator)**, **[Music Player](https://f-droid.org/app/com.simplemobiletools.musicplayer)** und **[Notes](https://f-droid.org/app/com.simplemobiletools.notes)** auf die Hauptversion 5 aktualisiert, mit der wiederum die Android-Minimalanforderung von 4.1 auf 5.0 angehoben und der G+ Button durch Reddit ersetzt wurde."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-10-25-twif-27-new-servers-and-first-alpha-release-of-f-droid-1-5.md
 msgid "**[Periodical](https://f-droid.org/app/de.arnowelzel.android.periodical)** was updated from 1.16 to 1.18, bringing updated translations from Crowdin, and reverting language codes back to their generic form to avoid missing translations when a regional language setting is used."
-msgstr ""
+msgstr "**[Periodical](https://f-droid.org/app/de.arnowelzel.android.periodical)** wurde von 1.16 auf 1.18 aktualisiert, bringt überarbeitete Übersetzungen aus Crowdin mit und führt Sprachcodes auf ihre Stammform zurück, um fehlende Übersetzungen zu vermeiden, wenn eine regionale Spracheinstellung verwendet wird."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-10-25-twif-27-new-servers-and-first-alpha-release-of-f-droid-1-5.md
 msgid "{{ page.major }} **[Zapp](https://f-droid.org/app/de.christinecoenen.code.zapp)** released version 2.0.0, with background playback of \"Mediathek\" videos, automatic pausing when a different app plays sound or during a phone call, a lockscreen widget, progress bar only showing when the video really stalls, and minimum Android version increased from 4.4 to 5.0."
-msgstr ""
+msgstr "{{ page.major }} **[Zapp](https://f-droid.org/app/de.christinecoenen.code.zapp)** veröffentlichte Version 2.0.0, mit Wiedergabe von \"Mediathek\"-Videos im Hintergrund, automatischer Pause, wenn eine andere App Töne wiedergibt oder während eines Telefonanrufs, einem Sperrbildschirm-Widget, einer Fortschrittsanzeige, die nur angezeigt wird, wenn das Video wirklich stehenbleibt und einer von 4.4 auf 5.0 erhöhten Android-Minimalanforderung."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-10-25-twif-27-new-servers-and-first-alpha-release-of-f-droid-1-5.md
