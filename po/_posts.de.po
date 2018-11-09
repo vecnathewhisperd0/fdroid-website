@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-11-12 11:08+0100\n"
-"PO-Revision-Date: 2018-11-12 11:35+0100\n"
-"Last-Translator: C. Rüdinger <Mail-an-CR@web.de>\n"
+"PO-Revision-Date: 2018-11-12 11:36+0100\n"
+"Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -5949,9 +5949,8 @@ msgstr "**[Elementary](https://f-droid.org/app/com.ultramegatech.ey)** ist eine 
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
-#, fuzzy
 msgid "{{ page.major }} **[Qz](https://f-droid.org/app/com.vonglasow.michael.qz)** (pronounced \"queues\") connects to an RDS/TMC receiver to receive live traffic messages, helping you avoid congestions. Version 2.0.0 is out, with the ability to send new messages as TraFF feeds to applications supporting it, updates to location tables, and fixing a bug causing the message list UI to miss some updates."
-msgstr "{{ page.major }} **[Qz](https://f-droid.org/app/com.vonglasow.michael.qz)** (ausgesprochen \"kju:s\") verbindet sich mit einem RDS/TMC-Empfänger, um Live-Verkehrsnachrichten zu erhalten, die Ihnen helfen, Staus zu vermeiden. Version 2.0.0 kam heraus mit der Möglichkeit, neue Meldungen als TraFF-Feeds an Anwendugen zu senden, die das unterstützen, Aktualisierungen der Standorttabellen und Behebung eines Fehlers, der dazu führte, dass die Nachrichtenliste manche Aktualisierungen verpasste."
+msgstr "{{ page.major }} **[Qz](https://f-droid.org/app/com.vonglasow.michael.qz)** (ausgesprochen \"kju:s\") verbindet sich mit einem RDS/TMC-Empfänger, um Live-Verkehrsnachrichten zu erhalten, die Ihnen helfen, Staus zu vermeiden. Version 2.0.0 kam heraus mit der Möglichkeit, neue Meldungen als TraFF-Feeds an Anwendugen zu senden, die das unterstützen, Aktualisierungen der Standorttabellen und Behebung eines Fehlers, der dazu führte, dass die Nachrichtenlistenoberfläche manche Aktualisierungen verpasste."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
@@ -6268,7 +6267,7 @@ msgstr "**[Manyverse](https://f-droid.org/app/se.manyver)** wurde von 0.18.10-02
 
 #. type: Plain text
 #: build/_posts/md/2018-10-20-twif-26-tagesschau-f-droid-repo-and-translation-workflow-improvement.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "* **[AnySoftKeyboard](https://f-droid.org/app/com.menny.android.anysoftkeyboard)** was updated from 1.9.2055 to 1.9.2445 bringing:\n"
 "  - Power-Saving mode improvements - you can pick which features to include in Power-Saving.\n"
@@ -6280,9 +6279,9 @@ msgstr ""
 "* **[AnySoftKeyboard](https://f-droid.org/app/com.menny.android.anysoftkeyboard)**-Update von 1.9.2055 auf 1.9.2445 bringt:\n"
 "  - Verbesserungen für die Akkuoptimierung - Sie können übernehmen, welche Funktionen in die Optimierung aufgenommen werden sollen.\n"
 "  - Daneben ermöglichen wir ein Umschalten zu einem dunklen, einfachen Design im Energiesparmodus. Aber das ist optional.\n"
-"  - Neues Workman Layout, Terminal generic-top-row and long-press fixes. Done by Alex Griffin.\n"
+"  - Neues Workman Layout, Terminal generic-top-row and long-press Fixes. Von Alex Griffin umgesetzt.\n"
 "  - Aktualisierte Sprachen: AR, BE, EU, FR, HU, IT, KA, KN, KU, LT, NB, NL, PT, RO, RU, SC, UK.\n"
-"  - Lösung für geringe Textvorschläge auf manchen Geräten\n"
+"  - Lösung für geringere Textvorschläge auf manchen Geräten\n"
 
 #. type: Title ####
 #: build/_posts/md/2018-10-20-twif-26-tagesschau-f-droid-repo-and-translation-workflow-improvement.md
