@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-11-12 11:08+0100\n"
-"PO-Revision-Date: 2018-11-12 11:34+0100\n"
-"Last-Translator: ssantos <ssantos@web.de>\n"
+"PO-Revision-Date: 2018-11-12 11:35+0100\n"
+"Last-Translator: C. Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -6030,7 +6030,7 @@ msgstr "**[OsmAnd~](https://f-droid.org/app/net.osmand.plus)** 3.2.2.2 behebt ei
 
 #. type: Plain text
 #: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "* **[Open Camera](https://f-droid.org/app/net.sourceforge.opencamera)** 1.44.1 adds a lot of new capabilities:\n"
 "  * New photo mode \"NR\" Noise Reduction, takes a burst of photos and aligns and merges to reduce noise (Camera2 API only, only supported on high end devices)\n"
@@ -6050,6 +6050,23 @@ msgid ""
 "  * New option to disable ever showing the \"What's New\" dialog (under Settings/On screen GUI/ \"Show What's New dialog\")\n"
 "  * _Many_ other updates and bug fixes\n"
 msgstr ""
+"* **[Open Camera](https://f-droid.org/app/net.sourceforge.opencamera)** 1.44.1 ergänzt eine Menge neuer Leistungen:\n"
+"  * Neuer Fotomodus \"NR\" Rauschreduktion, nimmt eine Fotoreihe auf, wertet sie aus und führt sie zur Rauschreduktion zusammen (nur mit Camera2 API, nur auf High-End-Geräten unterstützt)\n"
+"  * Neuer Fotomodus \"Focus {}\" zur Aktivierung von Focus Bracketing (nur mit Camera2 API)\n"
+"  * Neue Option in Einstellungen/\"Ghost image\", um entweder das zuletzt aufgenommene Foto oder ein auf dem Gerät ausgewähltes Bild zu überlagern\n"
+"  * Neue Option unter Einstellungen/Bildschirm-GUI/\"Lautstärkepegel anzeigen\", um während der Videoaufzeichnung den Lautstärkepegel auf dem Bildschirm anzuzeigen\n"
+"  * Neue Option unter Einstellungen/Videoeinstellungen/\"Video flat (log) profile\", um Videos mit kontrastarmen Profil aufzunehmen (nur mit Camera2 API)\n"
+"  * Neue Optionen unter Einstellungen/\"Verarbeitungseinstellungen...\" zur Festlegung der Filteroptionen Edge-Modus und Rauschreduktionsmodus (nur mit Camera2 API)\n"
+"  * Neue Option Einstellungen/Fotoeinstellungen/\"Längenmaß\", um die Verwendung von Fuß anstatt Meter für die GPS-Höhe in Fotostempeln und Videountertiteln zu ermöglichen\n"
+"  * Blitzsymbol auf dem Bildschirm (zur Anzeige, ob der Blitz auslösen wird oder nicht) jetzt vom Bildschirmblitz unterstützt\n"
+"  * Neue Camera2 API Debug-Option unter Einstellungen/\"Fotoeinstellungen\", um die Fotoaufnahme während der Aufnahme von Video-Features zu deaktivieren (wenn Ihr Gerät Probleme macht, Videos bei aktivierter Camera2 API aufzuzeichnen, versuchen Sie das zu deaktivieren)\n"
+"  * Camera2-Unterstützung für hochaufgelöste Fotoauflösungen (erforderlich, damit auf einigen Geräten die höchste Auflösung unterstützt wird, z. B. Nokia 6, Samsung Galaxy S6)\n"
+"  * Starten nach Vorhaben erkennt nun Aufträge für die Front- oder Rückkamera\n"
+"  * Video-Bitratenoptionen für 150Mbps und 200Mbps (funktioniert u. U. nicht auf allen Geräten)\n"
+"  * Neue Video-Tonquellen-Optionen: UNVERARBEITET (benötigt Android 7) und `STIMMENERKENNUNG`\n"
+"  * Unvollständige Griechisch-Übersetzung (Dankeschön an Wasilis Mandratzis-Walz)\n"
+"  * Neue Option, um die Anzeige des \"Was gibt's Neues\"-Dialog dauerhaft abzuschalten (unter Einstellungen/Bildschirm-GUI/ \"Was gibt's Neues-Dialog anzeigen\")\n"
+"  * _Viele_ weitere Aktualisierungen und Fehlerlösungen\n"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
@@ -6439,12 +6456,12 @@ msgstr "{{ page.major }} **[AFWall+](https://f-droid.org/app/dev.ukanth.ufirewal
 #. type: Bullet: '* '
 #: build/_posts/md/2018-10-25-twif-27-new-servers-and-first-alpha-release-of-f-droid-1-5.md
 msgid "**[SQRL - Main](https://f-droid.org/app/org.ea.sqrl)** updated to version 0.11.0, now handling screen rotations, offering manual language choice, and implementing x=n functionality. It has three new languages: French, Japanese and Spanish."
-msgstr ""
+msgstr "**[SQRL - Main](https://f-droid.org/app/org.ea.sqrl)** aktualisiert auf Version 0.11.0, die nun mit der Bildschirmdrehung umgehen kann, eine manuelle Sprachauswahl anbietet und eine x=n Funktionalität umsetzt. Sie enthält drei neue Sprachen: Französisch, Japanisch und Spanisch."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-10-25-twif-27-new-servers-and-first-alpha-release-of-f-droid-1-5.md
 msgid "**[Your local weather](https://f-droid.org/app/org.thosp.yourlocalweather)** updated from 4.2.6 to 4.3.1, with rewritten background services for faster and smoother updates, indication of wind direction in the current weather and forecast, and an option for time format."
-msgstr ""
+msgstr "**[Your local weather](https://f-droid.org/app/org.thosp.yourlocalweather)** Update von 4.2.6 auf 4.3.1, mit neu geschriebenen Hintergrunddiensten für schnellere und reibungslosere Aktualisierungen, Anzeige der Windrichtung in aktueller Wetterlage und -vorhersage und einer Option für ein Zeitformat."
 
 #. type: Title #
 #: build/_posts/md/2018-11-03-twif-28-newpipe-youtube-client-edition.md
