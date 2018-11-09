@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-11-12 11:08+0100\n"
-"PO-Revision-Date: 2018-11-12 11:33+0100\n"
-"Last-Translator: C. Rüdinger <Mail-an-CR@web.de>\n"
+"PO-Revision-Date: 2018-11-12 11:34+0100\n"
+"Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -6227,7 +6227,7 @@ msgstr "**[Riot.im](https://f-droid.org/app/im.vector.alpha)** und **[miniVector
 #. type: Bullet: '* '
 #: build/_posts/md/2018-10-20-twif-26-tagesschau-f-droid-repo-and-translation-workflow-improvement.md
 msgid "**[Syncopoli](https://f-droid.org/app/org.amoradi.syncopoli)** is an rsync client for your phone (currently only in the direction from phone to remote). Version v0.5 adds the ability to add multiple source directories, ability to verify ssh host fingerprint, proper space and string handling in rsync options, global configuration to exported config file, and various typo and crash fixes."
-msgstr ""
+msgstr "**[Syncopoli](https://f-droid.org/app/org.amoradi.syncopoli)** ist ein rsync-Client für Ihr Telefon (derzeit nur in der Richtung vom Telefon zur Fernbedienung). Version v0.5 bietet die Möglichkeit, mehrere Quellverzeichnisse hinzuzufügen, die Möglichkeit, den Fingerabdruck des ssh-Hosts zu überprüfen, die richtige Handhabung von Speicherplatz und Zeichenketten in den rsync-Optionen, die globale Konfiguration der exportierten Konfigurationsdatei sowie verschiedene Fehlerbehebungen."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-10-20-twif-26-tagesschau-f-droid-repo-and-translation-workflow-improvement.md
