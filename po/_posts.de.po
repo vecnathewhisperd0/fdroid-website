@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-11-12 11:08+0100\n"
-"PO-Revision-Date: 2018-11-12 11:32+0100\n"
+"PO-Revision-Date: 2018-11-12 11:33+0100\n"
 "Last-Translator: C. Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\n"
 "Language: de\n"
@@ -6210,7 +6210,7 @@ msgid ""
 "  - Added a red border to media that don't have a description when composing\n"
 "  - Several smaller enhancements and bug fixes\n"
 msgstr ""
-"* {{ page.featured }}}}} Wieder riesige Aktualisierungen bei **[Mastalab](https://f-droid.org/app/fr.gouv.etalab.mastodon)**! Diese Woche wurde es von 1.15.2 auf 1.17.1 aktualisiert, wobei es um Folgendes ging:\n"
+"* {{ page.featured }} Wieder riesige Aktualisierungen bei **[Mastalab](https://f-droid.org/app/fr.gouv.etalab.mastodon)**! Diese Woche wurde es von 1.15.2 auf 1.17.1 aktualisiert, wobei es um Folgendes ging:\n"
 "  - **Volle Unterstützung für [PeerTube](https://en.wikipedia.org/wiki/PeerTube)**: Kommentieren/Folgen/Boost/Antworten/Antworten/Fav von Ihrem eigenen Mastodon-Konto!\n"
 "  - Neues Layout für PeerTube-Instanzen\n"
 "  - Neuer Videoplayer, um PeerTube mit allen Geräten kompatibel zu machen.\n"
@@ -6237,7 +6237,7 @@ msgstr "**[Blokada v3 (ad blocker)](https://f-droid.org/app/org.blokada.alarm)**
 #. type: Bullet: '* '
 #: build/_posts/md/2018-10-20-twif-26-tagesschau-f-droid-repo-and-translation-workflow-improvement.md
 msgid "**[The Light](https://f-droid.org/app/org.hlwd.bible)** has the bible in multiple languages. Version 3.4 is a small maintenance release adding 13 articles and 7 Youtubers."
-msgstr "**[The Light](https://f-droid.org/app/org.hlwd.bible)** liefert dei Bibel in mehreren Sprachen. Version 3.4 ist eine kleine Instandhaltungsversion, die 13 Artikel und 7 Youtuber hinzufügt."
+msgstr "**[The Light](https://f-droid.org/app/org.hlwd.bible)** liefert die Bibel in mehreren Sprachen. Version 3.4 ist eine kleine Instandhaltungsversion, die 13 Artikel und 7 Youtuber hinzufügt."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-10-20-twif-26-tagesschau-f-droid-repo-and-translation-workflow-improvement.md
@@ -6334,7 +6334,7 @@ msgstr "F-Droid-Client 1.5-alpha0 kam heraus mit einem neuen ROM-Feature. Es gib
 #. type: Plain text
 #: build/_posts/md/2018-10-25-twif-27-new-servers-and-first-alpha-release-of-f-droid-1-5.md
 msgid "So for example, Lineage could supply an image with a standard F-Droid APK pre-installed, and have it preconfigured with a specific repository. Or this could be Replicant, Fairphone, etc. This feature was designed in cooperation with Emteria, who largely implemented it, with substantial contributions from F-Droid people."
-msgstr "So könnte zum Beispiele Lineage ein Image mit einer vorinstallierten Standard-F-Droid-APK bereitstellen und es mit einem speziellen Repository vorkonfigurieren. Ebenso könnte das Replicant, Fairphone usw. tun. Dieses Feature wurde in Zusammenarbeit mit Emteria entworfen, die es größtenteils, mit wesentlichen Beiträgen von F-Droid-Leuten, umgesetzt haben."
+msgstr "So könnte zum Beispiel Lineage ein Image mit einer vorinstallierten Standard-F-Droid-APK bereitstellen und es mit einem speziellen Repository vorkonfigurieren. Ebenso könnte das Replicant, Fairphone usw. tun. Dieses Feature wurde in Zusammenarbeit mit Emteria entworfen, die es größtenteils, mit wesentlichen Beiträgen von F-Droid-Leuten, umgesetzt haben."
 
 #. type: Title ####
 #: build/_posts/md/2018-10-25-twif-27-new-servers-and-first-alpha-release-of-f-droid-1-5.md
@@ -6362,7 +6362,7 @@ msgstr "Fortschritte bei der Konfiguration des automatischen Buildservers"
 #. type: Plain text
 #: build/_posts/md/2018-10-25-twif-27-new-servers-and-first-alpha-release-of-f-droid-1-5.md
 msgid "This week we created the new [fdroid-bootstrap-buildserver](https://gitlab.com/fdroid/fdroid-bootstrap-buildserver) project in GitLab. This project holds the [ansible](https://en.wikipedia.org/wiki/Ansible_%28software%29) script responsible for setting up and configuring a buildserver fully automatically. It has already successfully set up two buildservers. Once the script can do everything, which is quite close, the whole buildserver setup, including host and guest, will be recreatable and thus disposable. This is huge for us, especially in combination with the news above."
-msgstr ""
+msgstr "Diese Woche erstellten wir das neue Projekt [fdroid-bootstrap-buildserver](https://gitlab.com/fdroid/fdroid-bootstrap-buildserver) in Gitlab. Dieses Projekt enthält das [Ansible](https://en.wikipedia.org/wiki/Ansible_%28software%29)-Skript, das für die Einrichtung und Konfiguration eines vollautomatischen Buildservers verantwortlich ist. Es hat bereits erfolgreich zwei Buildserver eingerichtet. Sobald das Skript alles erledigen kann, was kurz bevor steht, wird die gesamte Buildserver-Einrichtung reproduzierbar und frei verfügbar sein. Dies ist gewaltig für uns, insbesondere in Kombination mit den o. g. Nachrichten."
 
 #. type: Title ####
 #: build/_posts/md/2018-10-25-twif-27-new-servers-and-first-alpha-release-of-f-droid-1-5.md
@@ -6429,12 +6429,12 @@ msgstr "{{ page.major }} **[Zapp](https://f-droid.org/app/de.christinecoenen.cod
 #. type: Bullet: '* '
 #: build/_posts/md/2018-10-25-twif-27-new-servers-and-first-alpha-release-of-f-droid-1-5.md
 msgid "**[AntennaPod](https://f-droid.org/app/de.danoeh.antennapod)** was updated from 1.6.5 to 1.7.0, with the new ExoPlayer, a fix for Bluetooth Forward, preferences + search redesign, notification improvements, different screens for feed info and settings, sort queue with Random or Smart Shuffle, true black AMOLED theme, improvements to feed parsing, and a fix for being killed by Android Oreo."
-msgstr ""
+msgstr "**[AntennaPod](https://f-droid.org/app/de.danoeh.antennapod)** wurde von 1.6.5 auf 1.7.0 aktualisiert, mit dem neuen ExoPlayer, einer Korrektur für Bluetooth Forward, einem neuen Design für Einstellungen + Suche, Benachrichtigungsverbesserungen, verschiedenen Bildschirmen für Feed-Infos und -Einstellungen, zufällig oder smart gemischter Warteschlangensortierung, einem wirklich schwarzen AMOLED-Thema, Verbesserungen am Feed-Parsing und einer Fehlerlösung für das Beenden durch Android Oreo."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-10-25-twif-27-new-servers-and-first-alpha-release-of-f-droid-1-5.md
 msgid "{{ page.major }} **[AFWall+](https://f-droid.org/app/dev.ukanth.ufirewall)** released version 3.0.0 with better support for Android Nougat, Oreo and Pie; a firewall toggle tile; adaptive icons; notifications channel; compatibility with magisk 17.x; better handling of background processes; and updated libraries, translations, and bug fixes. The minimum required Android was bumped from 4.0.3 to 5.0."
-msgstr ""
+msgstr "{{ page.major }} **[AFWall+](https://f-droid.org/app/dev.ukanth.ufirewall)** veröffentlichte die Version 3.0.0 mit besserer Unterstützung für Android Nougat, Oreo und Pie; einem Firewall-Schalter; adaptiven Icons; Benachrichtigungskanal; Kompatibilität mit Magisk 17.x; besserer Handhabung von Hintergrundprozessen; aktualisierten Bibliotheken, Übersetzungen und Fehlerkorrekturen. Die Android-Minimalanforderungen wurden von 4.0.3 auf 5.0 angehoben."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-10-25-twif-27-new-servers-and-first-alpha-release-of-f-droid-1-5.md
