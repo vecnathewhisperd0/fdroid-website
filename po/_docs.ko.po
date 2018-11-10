@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-11-05 13:01+0100\n"
-"PO-Revision-Date: 2018-10-24 17:33+0000\n"
+"PO-Revision-Date: 2018-11-12 11:34+0100\n"
 "Last-Translator: Myeongjin Lee <aranet100@gmail.com>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/f-droid/website-docs/ko/>\n"
 "Language: ko\n"
@@ -4145,7 +4145,7 @@ msgstr ""
 
 #. type: Title ###
 #: build/_docs/md/Feeds.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "IRC"
 msgstr "IRC"
 
@@ -5206,7 +5206,7 @@ msgstr ""
 
 #. type: Title ##
 #: build/_docs/md/Installing_the_Server_and_Repo_Tools.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Apple OSX"
 msgstr "Apple OSX"
 
@@ -5247,7 +5247,7 @@ msgstr ""
 
 #. type: Title ##
 #: build/_docs/md/Installing_the_Server_and_Repo_Tools.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Windows"
 msgstr "Windows"
 
@@ -5284,7 +5284,7 @@ msgstr ""
 
 #. type: Title ###
 #: build/_docs/md/Installing_the_Server_and_Repo_Tools.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Cygwin"
 msgstr "Cygwin"
 
@@ -6056,7 +6056,7 @@ msgstr ""
 #. type: Title ##
 #: build/_docs/md/Release_Channels_and_Signing_Keys.md
 #: build/_docs/md/Release_Process.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "fdroidserver"
 msgstr "fdroidserver"
 
@@ -6320,7 +6320,7 @@ msgstr ""
 
 #. type: Title ##
 #: build/_docs/md/Release_Process.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "fdroid-website"
 msgstr "fdroid-website"
 
@@ -6969,9 +6969,9 @@ msgstr ""
 
 #. type: Title ###
 #: build/_docs/md/Security_Model.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "F-Droid as built-in app store"
-msgstr "앱 스토어가 내장된 F-Droid"
+msgstr "F-Droid를 앱 스토어로 내장"
 
 #. type: Plain text
 #: build/_docs/md/Security_Model.md
@@ -7994,7 +7994,7 @@ msgstr ""
 
 #. type: Title ####
 #: build/_docs/md/Vulnerability_Scanning_with_Drozer.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "`make help`"
 msgstr "`make help`"
 
@@ -8017,7 +8017,7 @@ msgstr ""
 
 #. type: Title ####
 #: build/_docs/md/Vulnerability_Scanning_with_Drozer.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "`make clean`"
 msgstr "`make clean`"
 
@@ -8033,7 +8033,7 @@ msgstr ""
 
 #. type: Title ####
 #: build/_docs/md/Vulnerability_Scanning_with_Drozer.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "`make build`"
 msgstr "`make build`"
 
@@ -8044,7 +8044,7 @@ msgstr ""
 
 #. type: Title ####
 #: build/_docs/md/Vulnerability_Scanning_with_Drozer.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "`make kill`"
 msgstr "`make kill`"
 
@@ -8055,7 +8055,7 @@ msgstr ""
 
 #. type: Title ####
 #: build/_docs/md/Vulnerability_Scanning_with_Drozer.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "`make info`"
 msgstr "`make info`"
 
