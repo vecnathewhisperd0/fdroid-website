@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-11-12 11:08+0100\n"
-"PO-Revision-Date: 2018-11-12 11:36+0100\n"
+"PO-Revision-Date: 2018-11-12 11:38+0100\n"
 "Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\n"
 "Language: de\n"
@@ -6029,7 +6029,7 @@ msgstr "**[OsmAnd~](https://f-droid.org/app/net.osmand.plus)** 3.2.2.2 behebt ei
 
 #. type: Plain text
 #: build/_posts/md/2018-10-12-twif-25-tor-browser-matrix-room-enhancements-and-mirror-beta-testing.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "* **[Open Camera](https://f-droid.org/app/net.sourceforge.opencamera)** 1.44.1 adds a lot of new capabilities:\n"
 "  * New photo mode \"NR\" Noise Reduction, takes a burst of photos and aligns and merges to reduce noise (Camera2 API only, only supported on high end devices)\n"
@@ -6058,7 +6058,7 @@ msgstr ""
 "  * Neue Optionen unter Einstellungen/\"Verarbeitungseinstellungen...\" zur Festlegung der Filteroptionen Edge-Modus und Rauschreduktionsmodus (nur mit Camera2 API)\n"
 "  * Neue Option Einstellungen/Fotoeinstellungen/\"Längenmaß\", um die Verwendung von Fuß anstatt Meter für die GPS-Höhe in Fotostempeln und Videountertiteln zu ermöglichen\n"
 "  * Blitzsymbol auf dem Bildschirm (zur Anzeige, ob der Blitz auslösen wird oder nicht) jetzt vom Bildschirmblitz unterstützt\n"
-"  * Neue Camera2 API Debug-Option unter Einstellungen/\"Fotoeinstellungen\", um die Fotoaufnahme während der Aufnahme von Video-Features zu deaktivieren (wenn Ihr Gerät Probleme macht, Videos bei aktivierter Camera2 API aufzuzeichnen, versuchen Sie das zu deaktivieren)\n"
+"  * Neue Camera2 API Debug-Option unter Einstellungen/\"Fotoeinstellungen\", um die Fotoaufnahme während der Videoaufnahme-Funktion zu deaktivieren (wenn Ihr Gerät Probleme macht, Videos bei aktivierter Camera2 API aufzuzeichnen, versuchen Sie das zu deaktivieren)\n"
 "  * Camera2-Unterstützung für hochaufgelöste Fotoauflösungen (erforderlich, damit auf einigen Geräten die höchste Auflösung unterstützt wird, z. B. Nokia 6, Samsung Galaxy S6)\n"
 "  * Starten nach Vorhaben erkennt nun Aufträge für die Front- oder Rückkamera\n"
 "  * Video-Bitratenoptionen für 150Mbps und 200Mbps (funktioniert u. U. nicht auf allen Geräten)\n"
