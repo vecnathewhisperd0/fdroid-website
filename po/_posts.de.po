@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-11-12 11:08+0100\n"
-"PO-Revision-Date: 2018-11-12 11:38+0100\n"
-"Last-Translator: ssantos <ssantos@web.de>\n"
+"PO-Revision-Date: 2018-11-13 13:07+0000\n"
+"Last-Translator: C. Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -6464,9 +6464,9 @@ msgstr "**[Your local weather](https://f-droid.org/app/org.thosp.yourlocalweathe
 
 #. type: Title #
 #: build/_posts/md/2018-11-03-twif-28-newpipe-youtube-client-edition.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "\"TWIF 28: NewPipe YouTube Client Edition\""
-msgstr "\"TWIF 13: ÖPNV-Edition\""
+msgstr "\"TWIF 28: Ausgabe über den YouTube-Client NewPipe\""
 
 #. type: Plain text
 #: build/_posts/md/2018-11-03-twif-28-newpipe-youtube-client-edition.md
@@ -6475,39 +6475,38 @@ msgid ""
 "In this edition: Not too much occured this week but we do have a good number of updated apps including updates to the much loved NewPipe YouTube client and a streaming music app for YouTube too. All total there are 6 new and {{ page.number_of_updated_apps }} updated apps.\n"
 "<!--more-->\n"
 msgstr ""
+"In dieser Ausgabe: Es ist nicht viel passiert in dieser Woche, aber wir haben eine ordentliche Anzahl aktualisierter Apps, darunter Updates des sehr beliebten YouTube-Client NewPipe und auch eine Musik-Streaming-App für YouTube. Insgesamt gibt es 6 neue und {{ page.number_of_updated_apps }} aktualisierte Apps.\n"
+"<!--more-->\n"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-03-twif-28-newpipe-youtube-client-edition.md
-#, fuzzy
 msgid "[MinCal Widget](https://f-droid.org/app/cat.mvmike.minimalcalendarwidget): Minimal month calendar widget"
-msgstr "[Binaural Beats](https://f-droid.org/app/com.github.axet.binauralbeats): Meditationshelfer"
+msgstr "[MinCal Widget](https://f-droid.org/app/cat.mvmike.minimalcalendarwidget): Kleines Monatskalender-Widget"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-03-twif-28-newpipe-youtube-client-edition.md
-#, fuzzy
 msgid "[SauceNAO](https://f-droid.org/app/com.luk.saucenao): Unofficial SauceNAO client"
-msgstr "[BookList](https://f-droid.org/app/com.ames.books): Inoffizieller Google Books Viewer"
+msgstr "[SauceNAO](https://f-droid.org/app/com.luk.saucenao): Inoffizieller SauceNAO-Client"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-03-twif-28-newpipe-youtube-client-edition.md
 msgid "[ForceDoze](https://f-droid.org/app/com.suyashsrijan.forcedoze): Enable Doze mode immediately after screen off and turn off motion sensing"
-msgstr ""
+msgstr "[ForceDoze](https://f-droid.org/app/com.suyashsrijan.forcedoze): Doze-Modus unmittelbar nach Bildschirm- und Bewegungsmelderabschaltung aktivieren"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-03-twif-28-newpipe-youtube-client-edition.md
-#, fuzzy
 msgid "[baresip](https://f-droid.org/app/com.tutpro.baresip): baresip SIP client"
-msgstr "[TEdit](https://f-droid.org/app/com.atr.tedit): Ein einfacher Texteditor"
+msgstr "[baresip](https://f-droid.org/app/com.tutpro.baresip): baresip SIP-Client"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-03-twif-28-newpipe-youtube-client-edition.md
 msgid "{{ page.featured }} For all people who love streaming music from YouTube, [MusicPiped](https://f-droid.org/app/deep.ryd.rydplayer) is just the app for you. This app allows you to browse youtube and stream music directly in a clean, material design interface."
-msgstr ""
+msgstr "{{ page.featured }} Für all diejenigen, die es lieben Musik von YouTube zu streamen, [MusicPiped](https://f-droid.org/app/deep.ryd.rydplayer) ist genau die App für euch. Diese App ermöglicht euch, YouTube zu durchsuchen und Musik direkt über eine fehlerfreie Material-Design-Schnittstelle zu streamen."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-03-twif-28-newpipe-youtube-client-edition.md
 msgid "[Open Contacts](https://f-droid.org/app/opencontacts.open.com.opencontacts): Hide contacts away from apps stealing your contacts information"
-msgstr ""
+msgstr "[Open Contacts](https://f-droid.org/app/opencontacts.open.com.opencontacts): Kontakte vor Apps, die Ihre Kontaktdaten stehlen, verbergen"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-03-twif-28-newpipe-youtube-client-edition.md
@@ -6517,37 +6516,37 @@ msgstr ""
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-03-twif-28-newpipe-youtube-client-edition.md
 msgid "[OpenLauncher](https://f-droid.org/app/com.benny.openlauncher) is an alternative \"homescreen\" app for android. Version 0.6.0 fixes some issues with gestures while also adding more color preferences and better backup/restore options for settings."
-msgstr ""
+msgstr "[OpenLauncher](https://f-droid.org/app/com.benny.openlauncher) ist eine alternative \"Startbildschirm\"-App für Android. Version 0.6.0 behebt einige Probleme mit Gesten, führt daneben mehr Farbeinstellungen und bessere Sicherungs-/Wiederherstellungsoptionen in den Einstellungen ein."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-03-twif-28-newpipe-youtube-client-edition.md
 msgid "The SimpleMobileTools continue to get better. Release 5.1.1 of [Calendar](https://f-droid.org/app/com.simplemobiletools.calendar) brings pull-to-refresh for CalDAV events along with better filters and colors support. Like all 5.x releases of SimpleMobileTools apps, the minimum supported Android version is now 5.0."
-msgstr ""
+msgstr "Die SimpleMobileTools werden immer besser. Release 5.1.1 von [Calendar](https://f-droid.org/app/com.simplemobiletools.calendar) bringt \"Ziehen-zum-Auffrischen\" für CalDAV-Ereignisse, zusammen mit besserer Unterstützung von Filtern und Farben. Wie bei allen 5.x-Versionen der Apps von SimpleMobileTools ist die Android-Mindestanforderung nun 5.0."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-03-twif-28-newpipe-youtube-client-edition.md
 msgid "In addition to a higher minimum suported Android version, [Contacts](https://f-droid.org/app/com.simplemobiletools.contacts) 5.1.0 brings an optional nickname field, an option to show only contacts with phone numbers, a fix for disappearing contacts and more!"
-msgstr ""
+msgstr "Neben der erforderlichen, höheren Android-Version bringt [Contacts](https://f-droid.org/app/com.simplemobiletools.contacts) 5.1.0 ein optionales Spitznamenfeld, eine Option, nur Kontakte mit Telefonnummern anzuzeigen, eine Lösung für das Verschwinden von Kontakten und Weiteres!"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-03-twif-28-newpipe-youtube-client-edition.md
 msgid "[StreetComplete](https://f-droid.org/app/de.westnordost.streetcomplete) is a fun, easy app for improving OpenStreetMap. Version 8.3 provides several enhancements for quests involving accessibility and enhances the opening hours form along with a few other improvements."
-msgstr ""
+msgstr "[StreetComplete](https://f-droid.org/app/de.westnordost.streetcomplete) ist eine kinderleichte App, um OpenStreetMap zu verfeinern. Version 8.3 bietet einige Weiterentwicklungen für Fragen, die die Zugänglichkeit betreffen, verbessert das Öffnungszeitenformular neben ein paar weiteren Verbesserungen."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-03-twif-28-newpipe-youtube-client-edition.md
 msgid "[FairEmail](https://f-droid.org/app/eu.faircode.email) has seen a bit of development since 1.106. Several security related feautures have been added including encryption support, even for attachments. An advanced setting was also added to allow users the choice to make insecure connections without passwords."
-msgstr ""
+msgstr "[FairEmail](https://f-droid.org/app/eu.faircode.email) hat sich seit 1.106 weiterentwickelt. Einige sicherheitsbezogene Funktionen wurden hinzugefügt, einschließlich der Verschlüsselungsunterstützung, auch für Anhänge. Eine erweiterte Einstellung wurde ebenfalls ergänzt. Sie ermöglicht Nutzern die Wahl, unsichere Verbindungen ohne Passwort herzustellen."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-03-twif-28-newpipe-youtube-client-edition.md
 msgid "[Fennec F-Droid](https://f-droid.org/app/org.mozilla.fennec_fdroid) is a rebrand of Mozilla Firefox for F-Droid. Version 63 landed in F-Droid this week, now targeting Android Oreo. New features include picture in picture video support, notification channels, and a Canadian English (en-CA) locale."
-msgstr ""
+msgstr "[Fennec F-Droid](https://f-droid.org/app/org.mozilla.fennec_fdroid) ist ein Rebrand von Mozilla Firefox für F-Droid. Version 63, nun auf Android Oreo abzielend, landete diese Woche auf F-Droid. Neue Funktionen beinhalten die Bild-in-Bild-Videounterstützung, Benachrichtigungskanäle und die regionale Sprache kanadisches Englisch (en-CA)."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-03-twif-28-newpipe-youtube-client-edition.md
 msgid "{{ page.featured }} [NewPipe](https://f-droid.org/app/org.schabi.newpipe) is a client for the popular video streaming site YouTube. Version 0.14.2 brought with it better layouts for tablets and a list layout for downloaded media. Further, users can now share subscribed channels easily from the longpress menu."
-msgstr ""
+msgstr "{{ page.featured }} [NewPipe](https://f-droid.org/app/org.schabi.newpipe) ist ein Client für die populäre Video -Streaming-Site YouTube. Version 0.14.2 brachte bessere Layouts für Tablets und eine Layout-Liste für heruntergeladene Medien mit. Darüberhinaus können Benutzer jetzt abonnierte Kanäle leicht über das Gedrückt-halten-Menü teilen."
 
 #. type: Title #
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
