@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-11-12 11:08+0100\n"
-"PO-Revision-Date: 2018-11-13 13:07+0000\n"
-"Last-Translator: C. Rüdinger <Mail-an-CR@web.de>\n"
+"PO-Revision-Date: 2018-11-13 22:24+0000\n"
+"Last-Translator: Krombel <krombel@krombel.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -6511,7 +6511,7 @@ msgstr "[Open Contacts](https://f-droid.org/app/opencontacts.open.com.opencontac
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-03-twif-28-newpipe-youtube-client-edition.md
 msgid "{{ page.major }} [Rocket.Chat](https://f-droid.org/app/chat.rocket.android) version 3.0.0 entered F-Droid this week. Messages are now stored in an offline database so users can view them without a network connection. Emojis received better support with better autocomplete and reactions can now use custom emojis. Security has been improved with a fix for email based 2 factor authentication. Other new features include per channel draft messages collapse/uncollapse for text attachments on messages. To see the full set of changes view the [changelog](https://github.com/RocketChat/Rocket.Chat.Android/releases)."
-msgstr ""
+msgstr "{{ page.major }} [Rocket.Chat](https://f-droid.org/app/chat.rocket.android) version 3.0.0 erreichte F-Droid diese Woche. Nachrichten werden nun in einer Offline-Datenbank gespeichert, sodass Nutzer sie ansehen können ohne eine Netzwerk-Verbindung zu haben. Emojis werden nun besser unterstützt mit besserer Autovervollständigung. Reaktionen können nun angepasste Emojis benutzen. Die Sicherheit wurde verbessert mit einer Fehlerkorrektur für E-Mail-basierte 2-Faktor-Authentifizierung. Bei den anderen neuen Funktionen ist es nun möglich pro Kanal Entwürfe für Text-Anhänge an Nachrichten auf-& zuzuklappen. Um alle Änderungen zu sehen, schaue im [Änderungsprotokoll (englisch)](https://github.com/RocketChat/Rocket.Chat.Android/releases) nach."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-03-twif-28-newpipe-youtube-client-edition.md
@@ -6552,7 +6552,7 @@ msgstr "{{ page.featured }} [NewPipe](https://f-droid.org/app/org.schabi.newpipe
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
 #, no-wrap
 msgid "\"TWIF 29: New Matrix Server and Mirror Testers Wanted\""
-msgstr ""
+msgstr "\"TWIF 29: Neuer Matrix-Server und Mirror-Tester gesucht\""
 
 #. type: Plain text
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
@@ -6561,26 +6561,30 @@ msgid ""
 "In this edition: Lots of F-Droid news. We're looking for Mirror testers, and help with developing an auditing proxy. We are also setting up our own Matrix server, and have some news about Fairphone as a Service. In the app department, we have 12 new and {{ page.number_of_updated_apps }} updated apps.\n"
 "<!--more-->\n"
 msgstr ""
+"Diesmal: Viele F-Droid Nachrichten. Wir suchen Mirror-Tester und Hilfe beim entwickeln eines prüfenden Proxies (auditing proxy). Wir setzen auch unseren eigenen Matrix-Server auf und haben einige Neuigkeiten über Fairphone als Service. In der App-Abteilung haben wir 12 neue und {{ page.number_of_updated_apps }} aktualisierte Apps.\n"
+"<!--more-->\n"
 
 #. type: Title ####
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
 #, no-wrap
 msgid "Mirror testers wanted"
-msgstr ""
+msgstr "Mirror-Tester gesucht"
 
 #. type: Plain text
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
+#, fuzzy
 msgid "We have everything needed to support mirrors in place and running. Now we just need users to use them! This is still beta, so please report any problems you have to either the [forum](https://forum.f-droid.org/t/call-for-testing-add-a-mirror-as-a-source-for-your-f-droid/4490) or the [admin issue tracker](https://gitlab.com/fdroid/admin/issues). To add a mirror, scan the QR code or click on it from your Android device, and send it to F-Droid. F-Droid will then prompt you to add it as a mirror to F-Droid."
-msgstr ""
+msgstr "Wir haben alles um Mirror zu unterstützen bereit und laufend. Wir brauchen jetzt nur noch Nutzer, die sie nutzen! Dies ist noch beta, also melde jedes Problem das du hast entweder im [Forum](https://forum.f-droid.org/t/call-for-testing-add-a-mirror-as-a-source-for-your-f-droid/4490) oder dem [Administrator-Issue tracker](https://gitlab.com/fdroid/admin/issues). Um einen Mirror hinzuzufügen, scanne den QR-Code oder klicke von deinem Android-Gerät auf einen. Sende ihn anschließend an F-Droid, der dich auffordern wird, es als Mirror zu F-Droid hinzuzufügen."
 
 #. type: Plain text
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
+#, fuzzy
 msgid "These are the mirrors:"
-msgstr ""
+msgstr "Dies sind die Mirror:"
 
 #. type: Plain text
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "&nbsp;&nbsp;&nbsp;<a href=\"https://fdroid.tetaneutral.net/fdroid/repo?fingerprint=43238D512C1E5EB2D6569F4A3AFBF5523418B82E0A3ED1552770ABB9A9C9CCAB\">\n"
 "![fdroid.tetaneutral.net]({{ site.baseurl }}/assets/posts/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted/fdroid.tetaneutral.net.png)</a>\n"
@@ -6589,6 +6593,12 @@ msgid ""
 "&nbsp;&nbsp;&nbsp;<a href=\"https://bubu1.eu/fdroid/repo?fingerprint=43238D512C1E5EB2D6569F4A3AFBF5523418B82E0A3ED1552770ABB9A9C9CCAB\">\n"
 "![bubu1.eu]({{ site.baseurl }}/assets/posts/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted/bubu1.eu.png)</a>\n"
 msgstr ""
+"&nbsp;&nbsp;&nbsp;<a href=\"https://fdroid.tetaneutral.net/fdroid/repo?fingerprint=43238D512C1E5EB2D6569F4A3AFBF5523418B82E0A3ED1552770ABB9A9C9CCAB\">\n"
+"![fdroid.tetaneutral.net]({{ site.baseurl }}/assets/posts/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted/fdroid.tetaneutral.net.png)</a>\n"
+"&nbsp;&nbsp;&nbsp;<a href=\"https://mirror.cyberbits.eu/fdroid/repo?fingerprint=43238D512C1E5EB2D6569F4A3AFBF5523418B82E0A3ED1552770ABB9A9C9CCAB\">\n"
+"![mirror.cyberbits.eu]({{ site.baseurl }}/assets/posts/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted/mirror.cyberbits.eu.png)</a>\n"
+"&nbsp;&nbsp;&nbsp;<a href=\"https://bubu1.eu/fdroid/repo?fingerprint=43238D512C1E5EB2D6569F4A3AFBF5523418B82E0A3ED1552770ABB9A9C9CCAB\">\n"
+"![bubu1.eu]({{ site.baseurl }}/assets/posts/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted/bubu1.eu.png)</a>\n"
 
 #. type: Title ####
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
