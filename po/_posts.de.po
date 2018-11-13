@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-11-12 11:08+0100\n"
 "PO-Revision-Date: 2018-11-13 22:24+0000\n"
-"Last-Translator: C. Rüdinger <Mail-an-CR@web.de>\n"
+"Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -6604,24 +6604,24 @@ msgstr ""
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
 #, no-wrap
 msgid "Help wanted with auditing proxy"
-msgstr ""
+msgstr "Hilfe bei der Prüfung von Proxy gesucht"
 
 #. type: Plain text
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
 #, no-wrap
 msgid "**[@uniq](https://chaos.social/@uniq)** has put together an [auditing proxy](https://gitlab.com/fdroid/fdroidserver/issues/418) that forces all downloads to match a trusted whitelist during the build process. In order for this to reliably work, it needs to be able to act on HTTPS downloads as well. We are looking for help from people with experience with MITMproxy or similar things so that we can put together a solid, trustworthy configuration.\n"
-msgstr ""
+msgstr "**[@uniq](https://chaos.social/@uniq)** hat einen [Audit-Proxy](https://gitlab.com/fdroid/fdroidserver/issues/418) zusammengestellt, der alle Downloads zwingt, während des Build-Prozesses einer vertrauenswürdigen Whitelist zu entsprechen. Damit dies zuverlässig funktioniert, muss es auch auf HTTPS-Downloads reagieren können. Wir suchen Hilfe von Personen mit Erfahrung mit MITMproxy oder ähnlichen Dingen, damit wir eine solide, vertrauenswürdige Konfiguration zusammenstellen können.\n"
 
 #. type: Title ####
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
 #, no-wrap
 msgid "Hourly website translation updates"
-msgstr ""
+msgstr "Stundliche Aktualisierung der Übersetzung der Website"
 
 #. type: Plain text
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
 msgid "We recently started a [project to streamline the translation process](https://forum.f-droid.org/t/calling-all-translators-new-project-to-streamline-translation-process/3877), with a specific focus on the website and the Android client. **[@\\_hc](https://forum.f-droid.org/u/hans)** [announced](https://forum.f-droid.org/t/calling-all-translators-new-project-to-streamline-translation-process/3877/38) the first concrete improvement to this workflow: we now have hourly rebuilds of [https://staging.f-droid.org](https://staging.f-droid.org). If you are translating the website, the build process will check for updates once an hour."
-msgstr ""
+msgstr "Wir haben vor kurzem ein [Projekt zur Straffung des Übersetzungsprozesses](https://forum.f-droid.org/t/calling-all-translators-new-project-to-streamline-translation-process/3877) gestartet, mit einem besonderen Fokus auf die Website und den Android-Client. **[@\\_hc](https://forum.f-droid.org/u/hans)**[gekündigte an](https://forum.f-droid.org/t/calling-all-translators-new-project-to-streamline-translation-process/3877/38) die erste konkrete Verbesserung dieses Workflows: Wir haben jetzt stündliche Neubauten von [https://staging.f-droid.org](https://staging.f-droid.org). Wenn Sie die Website übersetzen, wird der Build-Prozess einmal pro Stunde nach Updates suchen."
 
 #. type: Title ####
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
@@ -6758,7 +6758,7 @@ msgstr "Sind sie aufgeblasene, unfreie RSS-Reader, die Ihre persönlichen Daten 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
 msgid "**[Mastalab](https://f-droid.org/app/fr.gouv.etalab.mastodon)**, your full-featured Mastodon (and Peertube) client, was updated to 1.19.2. This update adds the ability to block a domain from a profile, adds support for \"Boost to Original Audience\". The light theme was reworked, and it also has an improved theme picker. In addition to that, there are many smaller UX improvements (still a work in progress), and a host of bug fixes."
-msgstr ""
+msgstr "**[Mastalab](https://f-droid.org/app/fr.gouv.etalab.mastodon)**, Ihr vollwertiger Mastodon (und Peertube) Client, wurde auf 1.19.2 aktualisiert. Dieses Update bietet die Möglichkeit, eine Domain aus einem Profil zu blockieren und unterstützt nun \"Boost to Original Audience\". Das leichte Thema wurde überarbeitet und verfügt zudem über eine verbesserte Themenauswahl. Darüber hinaus gibt es viele kleinere UX-Verbesserungen (noch in Arbeit) und eine Vielzahl von Bugfixes."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
@@ -6768,17 +6768,17 @@ msgstr ""
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
 msgid "**[Simpletask](https://f-droid.org/app/nl.mpcjanssen.simpletask)** was updated from 10.2.7 to 10.2.9, fixing a crash when (un)completing a task, fixing state of completion checkbox when task list changes, and fixing tags sorting."
-msgstr ""
+msgstr "**[Simpletask](https://f-droid.org/app/nl.mpcjanssen.simpletask)** wurde von 10.2.7 auf 10.2.9 aktualisiert, um einen Absturz beim (Un-)Fertigstellen einer Aufgabe zu beheben, den Fertigstellungsgrad zu korrigieren, wenn sich die Aufgabenliste ändert und die Sortierung der Tags zu korrigieren."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
 msgid "{{ page.featured }} **[Open Contacts](https://f-droid.org/app/opencontacts.open.com.opencontacts)** hides contacts away from apps stealing your contacts information, by keeping contacts safe in a different database. It handles magic like showing the person's name upon receiving a call. Version 5.0 makes call log entries more consistent by placing icons to either side, adds a \"help\" activity, puts all activities in portrait mode, and the \"invalid number\" error in Dialer is now shown in-line rather than as an alert."
-msgstr ""
+msgstr "{{ page.featured }} **[Open Contacts](https://f-droid.org/app/opencontacts.open.com.opencontacts)** versteckt Kontakte vor Apps, die Ihre Kontaktinformationen stehlen, indem sie Kontakte in einer anderen Datenbank sicher aufbewahren. Es zeigt Erstaunliches wie die Anzeige des Namens der Person beim Empfangen eines Anrufs. Version 5.0 macht die Einträge in der Anrufliste konsistenter, indem sie Symbole auf beiden Seiten platziert, eine \"Hilfe\"-Aktivität hinzufügt, alle Aktivitäten in den Hochformat-Modus versetzt und der Fehler \"ungültige Nummer\" im Dialer nun inline und nicht mehr als Warnung angezeigt wird."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
 msgid "**[Tasks](https://f-droid.org/app/org.tasks)** was updated from 6.1.3 to 6.3.1, with a new location row in the task edit screen, location departure notifications, set CalDAV completion percentage and status, a new white theme color, new icons, new list and tag chips, and many other UI and UX improvements. Additionally, the minimum required Android version was bumped from 4.0.3 to 4.1."
-msgstr ""
+msgstr "**[Tasks](https://f-droid.org/app/org.tasks)** wurde von 6.1.3 auf 6.3.1 aktualisiert, mit einer neuen Standortzeile im Bildschirm zum Bearbeiten von Aufgaben, Benachrichtigungen über Standortverlagerungen, Setzen des CalDAV-Abschlussprozentsatzes und -Status, einer neuen weißen Themenfarbe, neuen Symbolen, neuen Listen- und Tag-Chips und vielen anderen UI- und UX-Verbesserungen. Zusätzlich wurde die minimal benötigte Android-Version von 4.0.3 auf 4.1 erhöht."
 
 #~ msgid "**[Nextcloud Talk](https://f-droid.org/app/com.nextcloud.talk2)** 3.0.0 is out. (Or 4.0. Who even knows anymore?) Now with video verification, ability to share files in a chat, easier chat handling and logging, and just generally a better experience. Read the [official blog post](https://nextcloud.com/blog/nextcloud-talk-4.0-is-out/) for the juicy details."
 #~ msgstr "**[Nextcloud Talk](https://f-droid.org/app/com.nextcloud.talk2)** 3.0.0 ist draußen. (Oder 4.0. Wer weiß sogar noch mehr?) Nun mit Video-Verifikation, der Möglichkeit, Dateien in einem Chat zu teilen, einfacherer Chat-Bedienung und -Anmeldung und überhaupt besserem Erlebniswert. Lesen Sie den [offiziellen Blog-Post](https://nextcloud.com/blog/nextcloud-talk-4.0-is-out/), um die reizvollen Einzelheiten zu erfahren."
