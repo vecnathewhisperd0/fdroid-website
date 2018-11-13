@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-11-12 11:08+0100\n"
-"PO-Revision-Date: 2018-11-13 22:24+0000\n"
+"PO-Revision-Date: 2018-11-13 23:02+0000\n"
 "Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\n"
 "Language: de\n"
@@ -6572,19 +6572,17 @@ msgstr "Mirror-Tester gesucht"
 
 #. type: Plain text
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
-#, fuzzy
 msgid "We have everything needed to support mirrors in place and running. Now we just need users to use them! This is still beta, so please report any problems you have to either the [forum](https://forum.f-droid.org/t/call-for-testing-add-a-mirror-as-a-source-for-your-f-droid/4490) or the [admin issue tracker](https://gitlab.com/fdroid/admin/issues). To add a mirror, scan the QR code or click on it from your Android device, and send it to F-Droid. F-Droid will then prompt you to add it as a mirror to F-Droid."
-msgstr "Wir haben alles um Mirror zu unterstützen bereit und laufend. Wir brauchen jetzt nur noch Nutzer, die sie nutzen! Dies ist noch beta, also melde jedes Problem das du hast entweder im [Forum](https://forum.f-droid.org/t/call-for-testing-add-a-mirror-as-a-source-for-your-f-droid/4490) oder dem [Administrator-Issue tracker](https://gitlab.com/fdroid/admin/issues). Um einen Mirror hinzuzufügen, scanne den QR-Code oder klicke von deinem Android-Gerät auf einen. Sende ihn anschließend an F-Droid, der dich auffordern wird, es als Mirror zu F-Droid hinzuzufügen."
+msgstr "Wir haben alles, was wir brauchen, um Mirrors an Ort und Stelle zu unterstützen. Jetzt brauchen wir nur noch Benutzer, die sie benutzen! Dies ist immer noch eine Beta-Version, also melden Sie bitte alle Probleme, die Sie haben, entweder im [forum](https://forum.f-droid.org/t/call-for-testing-add-a-mirror-as-a-source-for-your-f-droid/4490) oder im[admin issue tracker](https://gitlab.com/fdroid/admin/issues). Um einen Mirror hinzuzufügen, scannen Sie den QR-Code oder klicken Sie ihn von Ihrem Android-Gerät aus an und senden ihn an F-Droid. F-Droid wird Sie dann auffordern, es als Spiegel zu F-Droid hinzuzufügen."
 
 #. type: Plain text
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
-#, fuzzy
 msgid "These are the mirrors:"
-msgstr "Dies sind die Mirror:"
+msgstr "Dies sind die Mirrors:"
 
 #. type: Plain text
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "&nbsp;&nbsp;&nbsp;<a href=\"https://fdroid.tetaneutral.net/fdroid/repo?fingerprint=43238D512C1E5EB2D6569F4A3AFBF5523418B82E0A3ED1552770ABB9A9C9CCAB\">\n"
 "![fdroid.tetaneutral.net]({{ site.baseurl }}/assets/posts/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted/fdroid.tetaneutral.net.png)</a>\n"
