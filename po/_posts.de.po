@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-11-12 11:08+0100\n"
 "PO-Revision-Date: 2018-11-13 22:24+0000\n"
-"Last-Translator: Krombel <krombel@krombel.de>\n"
+"Last-Translator: C. Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -6627,142 +6627,133 @@ msgstr ""
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
 #, no-wrap
 msgid "Fairphone as a Service (FaaS)"
-msgstr ""
+msgstr "Fairphone als eine Dienstleistung (FaaS)"
 
 #. type: Plain text
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
 msgid "[Commown](https://commown.fr) (website in French only, sorry) is a French cooperative that supports fair and sustainable electronics by buying, and then leasing [Fairphones](https://www.fairphone.com/en/) to their customers. They recently announced you can now choose between Fairphone OS (Android with Google apps) and Fairphone Open OS (AOSP without any proprietary app)."
-msgstr ""
+msgstr "[Commown](https://commown.fr) (Internetseite leider nur in Französisch) ist eine französische Kooperative, die fairgehandelte und nachhaltige Elektronikartikel fördert, indem sie [Fairphones](https://www.fairphone.com/en/) kauft und ihren Kunden vermietet. Sie haben kürzlich angekündigt, dass man jetzt zwischen Fairphone OS (Android mit Google Apps) und Fairphone Open OS (AOSP ohne jegliche proprietäre App) auswählen kann."
 
 #. type: Plain text
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
 msgid "They preinstall several apps on the open version (F-Droid, Fennec, Silence, Amaze, etc.) so the user experience for beginners is better than only having the outdated AOSP system apps. All these apps are installed from F-Droid so they will continue to be updated by the F-Droid client."
-msgstr ""
+msgstr "Auf der Open-Version sind einige Apps (F-Droid, Fennec, Silence, Amaze, etc.) vorinstalliert, damit das Nutzererlebnis für Anfänger besser ist als wenn nur die nicht mehr zeitgemäßen AOSP-System-Apps bereitstehen. Alle diese Apps werden von F-Droid installiert und werden somit weiter über den F-Droid-Client aktualisiert."
 
 #. type: Plain text
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
 msgid "More reading:"
-msgstr ""
+msgstr "Weitere Berichte:"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
 msgid "[Commown at Solarimpulse](https://solarimpulse.com/companies/commown)"
-msgstr ""
+msgstr "[Commown auf Solarimpulse](https://solarimpulse.com/companies/commown)"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
 msgid "[Commons as the model for the future](https://medium.com/@myriamboure/commons-the-model-of-post-liberal-capitalism-55375f052a22) (Medium.com link. Sorry again.)"
-msgstr ""
+msgstr "[Allgemeingüter als das Zukunftsmodell](https://medium.com/@myriamboure/commons-the-model-of-post-liberal-capitalism-55375f052a22) (Medium.com-Link. Tut uns wiederum leid.)"
 
 #. type: Title ####
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "F-Droid Matrix server"
-msgstr "F-Droid Kern"
+msgstr "F-Droid-Matrix-Server"
 
 #. type: Plain text
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
 msgid "Several core F-Droid contributors use Matrix to communicate, both amongst themselves and with the F-Droid IRC rooms, which are bridged with Matrix. As Matrix became more popular for this, we've been building up our presence, establishing \"real\" rooms instead of the ones the bridge creates for us."
-msgstr ""
+msgstr "Einige Mitwirkende des F-Droid-Kernteams nutzen Matrix zur Kommunikation, sowohl untereinander als auch mit den F-Droid-IRC-Räumen, die in Matrix übergeleitet werden. Da Matrix auf diese Weise populärer wurde, haben wir unsere eigene Präsenz etabliert und \"echte\" Räume aufgebaut, anstatt derjenigen, die die Überleitung für uns erstellt."
 
 #. type: Plain text
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
 msgid "We've reached consensus within F-Droid that as the next step in this, we'd like to [set up our own Matrix server](https://gitlab.com/fdroid/admin/issues/94). We will be starting out small, only allowing core F-Droid contributors access, and only for the F-Droid rooms. **[@nicoalt](https://forum.f-droid.org/u/nicoalt)** and **[Mathijs](https://forum.f-droid.org/u/mvgorcum)** have volunteered to administrate the server as independent F-Droid contributors. **[@\\_hc](https://forum.f-droid.org/u/hans)** has contributed a VM for this purpose, and it is now in the process of being set up."
-msgstr ""
+msgstr "Wir haben innerhalb von F-Droid eine Übereinkunft getroffen, dass wir als nächsten Schritt in dieser Sache [unseren eigenen Matrix-Server einrichten](https://gitlab.com/fdroid/admin/issues/94) möchten. Wir werden klein anfangen, indem wir nur den F-Droid-Kern-Mitarbeitern, und nur für F-Droid-Räume, Zugang gestatten. **[@nicoalt](https://forum.f-droid.org/u/nicoalt)** und **[Mathijs](https://forum.f-droid.org/u/mvgorcum)** haben sich freiwillig gemeldet, den Server als unabhängige F-Droid-Mitarbeiter zu verwalten. **[@\\_hc](https://forum.f-droid.org/u/hans)** hat zu diesem Zweck eine VM beigesteuert und ist gerade dabei, sie einzurichten."
 
 #. type: Plain text
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
 msgid "We'd also like to thank **Max Dor** for his very generous offer to host and administrate a corporate-quality Matrix setup, with all bells and whistles, as part of a sponsorship deal with [Kamax](https://www.kamax.io). However, at this point we chose to go with a minimal setup, for which we can rely on our own resources and independent contributors."
-msgstr ""
+msgstr "Wir möchten auch **Max Dor** für sein sehr großzügiges Angebot danken, eine Matrix-Einrichtung in Unternehmensqualität mit allem Schnickschnack im Rahmen eines Sponsorvertrags mit [Kamax](https://www.kamax.io) zu hosten und zu verwalten. Wir haben uns an diesem Punkt jedoch dafür entschieden, mit einer Minimalkonfiguration zu beginnen, bei der wir auf unsere eigenen Ressourcen und unabhängigen Mitarbeiter bauen können."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
-#, fuzzy
 msgid "**[Keikai Launcher](https://f-droid.org/app/com.anpmech.launcher)**: Fast, minimalistic launcher."
-msgstr "**[Light Android Launcher](https://f-droid.org/app/com.github.postapczuk.lalauncher)**: Leichtgewichtige Start-App"
+msgstr "**[Keikai Launcher](https://f-droid.org/app/com.anpmech.launcher)**: Schneller, minimalistischer Launcher."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
-#, fuzzy
 msgid "**[Aria2App](https://f-droid.org/app/com.gianlu.aria2app)**"
-msgstr "**[Lobsters App](https://f-droid.org/app/com.nikhiljha.lobstersapp)**: Eine App für lobste.rs"
+msgstr "**[Aria2App](https://f-droid.org/app/com.gianlu.aria2app)**"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
 msgid "**[Pretend You're Xyzzy](https://f-droid.org/app/com.gianlu.pretendyourexyzzy)**"
-msgstr ""
+msgstr "**[Pretend You're Xyzzy](https://f-droid.org/app/com.gianlu.pretendyourexyzzy)**"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
-#, fuzzy
 msgid "**[Share my number](https://f-droid.org/app/com.github.characterdog.share_my_number)**"
-msgstr "**[BMI Calculator](https://f-droid.org/app/com.github.characterdog.bmicalculator)**: Einfacher BMI-Rechner"
+msgstr "**[Share my number](https://f-droid.org/app/com.github.characterdog.share_my_number)**"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
-#, fuzzy
 msgid "**[Gotify](https://f-droid.org/app/com.github.gotify)**: A client for receiving push notifications."
-msgstr "**[IPCam Demo](https://f-droid.org/app/com.github.niqdev.ipcam)**: Streaming von MJPEG_Videos auf Android"
+msgstr "**[Gotify](https://f-droid.org/app/com.github.gotify)**: Ein Client zum Empfangen von Push-Benachrichtigungen."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
-#, fuzzy
 msgid "**[Drowser](https://f-droid.org/app/com.jarsilio.android.drowser)**: Simple background app killer."
-msgstr "**[wownerujo](https://f-droid.org/app/com.wownero.wownerujo)**: Wownero-Börse"
+msgstr "**[Drowser](https://f-droid.org/app/com.jarsilio.android.drowser)**: Einfacher Hintergrund-App-Killer."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
-#, fuzzy
 msgid "**[CineLog](https://f-droid.org/app/com.ulicae.cinelog)**: Save reviews of movies."
-msgstr "**[wownerujo](https://f-droid.org/app/com.wownero.wownerujo)**: Wownero-Börse"
+msgstr "**[CineLog](https://f-droid.org/app/com.ulicae.cinelog)**: Filmbesprechungen speichern."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
 msgid "**[aRevelation](https://f-droid.org/app/de.igloffstein.maik.aRevelation)**: Password manager based on revelation password manager file format."
-msgstr ""
+msgstr "**[aRevelation](https://f-droid.org/app/de.igloffstein.maik.aRevelation)**: Auf dem Dateiformat des Revelation Password Manager basierende Passwortverwaltung."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
-#, fuzzy
 msgid "**[Travel Mate](https://f-droid.org/app/io.github.project_travel_mate)**: A complete travel guide."
-msgstr "**[Privacy Helper](https://f-droid.org/app/org.privacyhelper)**: Ein App-Datenschutzhandbuch"
+msgstr "**[Travel Mate](https://f-droid.org/app/io.github.project_travel_mate)**: Ein kompletter Reiseführer."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
 msgid "**[wX](https://f-droid.org/app/joshuatee.wx)**: Weather app geared towards storm chasers, meteorologists and weather enthusiasts."
-msgstr ""
+msgstr "**[wX](https://f-droid.org/app/joshuatee.wx)**: Wetter-App ausgerichtet auf Sturmjäger, Meteorologen und Wetterbegeisterte."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
 msgid "**[YouTube Stream](https://f-droid.org/app/org.thiolliere.youtubestream)**: Get youtube stream and open it with local application."
-msgstr ""
+msgstr "**[YouTube Stream](https://f-droid.org/app/org.thiolliere.youtubestream)**: YouTube-Stream beziehen und ihn mit einer lokalen Anwendung öffnen."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
-#, fuzzy
 msgid "**[SuperFreezZ](https://f-droid.org/app/superfreeze.tool.android)**"
-msgstr "**[9P](https://f-droid.org/app/se.tube42.p9.android)**: Wort-Puzzle"
+msgstr "**[SuperFreezZ](https://f-droid.org/app/superfreeze.tool.android)**"
 
 #. type: Plain text
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
 msgid "Due to time shortage, apps lacking a changelog URL in their F-Droid metadata were skipped this week."
-msgstr ""
+msgstr "Aufgrund der Kürze der Zeit wurden Apps, denen eine Changelog-URL in den F-Droid-Metadaten fehlte, diese Woche weggelassen."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
-#, fuzzy
 msgid "**[Cythara](https://f-droid.org/app/com.github.cythara)** is a musical instrument tuner, and was updated from 2.8 to 2.9. This update adds cello tuning, sets chromatic tuning as the default, and fixes a scrolling issue in landscape mode."
-msgstr "**[Cythara](https://f-droid.org/app/com.github.cythara)** ist ein Stimmgerät für Musikinstrumente. Dieses Update auf 2.8 ermöglicht die Installation auf einem externen Speicher. Weitere Neuerungen sind eine neue deutsche Übersetzung und ein neues Logo."
+msgstr "**[Cythara](https://f-droid.org/app/com.github.cythara)** ist ein Stimmgerät für Musikinstrumente und wurde von 2.8 auf 2.9 aktualisiert. Dieses Update ergänzt die Cellostimmung, legt chromatisches Stimmen als Standard fest und behebt ein Problem beim Blättern im Querformat."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
 msgid "**[Apple Flinger](https://f-droid.org/app/com.gitlab.ardash.appleflinger.android)** is a funny single- and multiplayer game, where you use a slingshot to shoot with apples. This update from 1.5.3 to 1.5.5 adds 12 more winter levels, more stats on-screen, a list of translators in the credits screen, and several translation updates. Additionally, there is now a wiki page on the website describing how to create new levels."
-msgstr ""
+msgstr "**[Apple Flinger](https://f-droid.org/app/com.gitlab.ardash.appleflinger.android)** ist ein lustiges Spiel für einen oder mehrere Spieler, bei dem ihr eine Schleuder verwendet, um mit Äpfeln zu schießen. Dieses Update von 1.5.3 auf 1.5.5 fügt 12 weitere Winter-Level hinzu, mehr Statistikwerte auf dem Bildschirm, eine Liste der Übersetzer in den Danksagungen und diverse Aktualisierungen von Übersetzungen. Zusätzlich gibt es nun eine Wiki-Seite auf der Website, die beschreibt, wie neue Level erstellt werden."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
 msgid "Are you sick of bloated non-free RSS readers that steal your personal information? Tired of convoluted syncing setups? Fed up having to create accounts everywhere? Try **[Feeder](https://f-droid.org/app/com.nononsenseapps.feeder)**! Version 1.8.0 removes the option to sync on Hotspots, fixes automatic synchronization not running on mobile, adds an option to sync when the app is opened, improves caching to reduce data use, improves sync speed, adds Simplified Chinese translation, and some smaller fixes."
-msgstr ""
+msgstr "Sind sie aufgeblasene, unfreie RSS-Reader, die Ihre persönlichen Daten stehlen, leid? Müde von verstrickten Synchronisationseinstellungen? Haben es satt, überall Konten einzurichten? Versuchen Sie **[Feeder](https://f-droid.org/app/com.nononsenseapps.feeder)**! Version 1.8.0 entfernt die Option an Hotspots zu synchronisieren, löst die automatische Synchronisation, die auf Mobilgeräten nicht funktioniert, fügt eine Option hinzu, um bei geöffneter App zu synchronisieren, verbessert die Zwischenspeicherung, um den Datenverbrauch zu reduzieren, verbessert die Synchronisationsgeschwindigkeit, ergänzt eine Übersetzung in vereinfachtes Chinesisch und einige kleinere Fixes."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
