@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-11-12 11:08+0100\n"
-"PO-Revision-Date: 2018-10-31 18:23+0000\n"
+"PO-Revision-Date: 2018-11-14 16:07+0000\n"
 "Last-Translator: WaldiS <admin@sto.ugu.pl>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/f-droid/website-posts/pl/>\n"
 "Language: pl\n"
@@ -6463,9 +6463,9 @@ msgstr "**[Twoja Lokalna Pogoda](https://f-droid.org/app/org.thosp.yourlocalweat
 
 #. type: Title #
 #: build/_posts/md/2018-11-03-twif-28-newpipe-youtube-client-edition.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "\"TWIF 28: NewPipe YouTube Client Edition\""
-msgstr "\"TWIF 13: Edycja Transport Publiczny\""
+msgstr "\"TWIF 28: Wersja klienta NewPipe YouTube\""
 
 #. type: Plain text
 #: build/_posts/md/2018-11-03-twif-28-newpipe-youtube-client-edition.md
@@ -6474,39 +6474,38 @@ msgid ""
 "In this edition: Not too much occured this week but we do have a good number of updated apps including updates to the much loved NewPipe YouTube client and a streaming music app for YouTube too. All total there are 6 new and {{ page.number_of_updated_apps }} updated apps.\n"
 "<!--more-->\n"
 msgstr ""
+"W tej edycji: w tym tygodniu nie było zbyt wiele, ale mamy sporo zaktualizowanych aplikacji, w tym aktualizacje dla bardzo lubianego klienta YouTube NewPipe i aplikacji do strumieniowego przesyłania muzyki na YouTube. Łącznie dostępnych jest 6 nowych i {{ page.number_of_updated_apps }} zaktualizowanych aplikacji.\n"
+"<!--more-->\n"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-03-twif-28-newpipe-youtube-client-edition.md
-#, fuzzy
 msgid "[MinCal Widget](https://f-droid.org/app/cat.mvmike.minimalcalendarwidget): Minimal month calendar widget"
-msgstr "[Binaural Beats](https://f-droid.org/app/com.github.axet.binauralbeats): Pomocnik medytacji"
+msgstr "[MinCal Widget](https://f-droid.org/app/cat.mvmike.minimalcalendarwidget): Minimalny widget kalendarza miesięcznego"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-03-twif-28-newpipe-youtube-client-edition.md
-#, fuzzy
 msgid "[SauceNAO](https://f-droid.org/app/com.luk.saucenao): Unofficial SauceNAO client"
-msgstr "[BookList](https://f-droid.org/app/com.ames.books): nieoficjalna przeglądarka Książek Google"
+msgstr "[SauceNAO](https://f-droid.org/app/com.luk.saucenao): Nieoficjalny klient SauceNAO"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-03-twif-28-newpipe-youtube-client-edition.md
 msgid "[ForceDoze](https://f-droid.org/app/com.suyashsrijan.forcedoze): Enable Doze mode immediately after screen off and turn off motion sensing"
-msgstr ""
+msgstr "[ForceDoze](https://f-droid.org/app/com.suyashsrijan.forcedoze): Włącz tryb drzemki natychmiast po wyłączeniu ekranu i wyłącz wykrywanie ruchu"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-03-twif-28-newpipe-youtube-client-edition.md
-#, fuzzy
 msgid "[baresip](https://f-droid.org/app/com.tutpro.baresip): baresip SIP client"
-msgstr "[TEdit](https://f-droid.org/app/com.atr.tedit): Prosty edytor tekstu"
+msgstr "[baresip](https://f-droid.org/app/com.tutpro.baresip): klient SIP baresip"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-03-twif-28-newpipe-youtube-client-edition.md
 msgid "{{ page.featured }} For all people who love streaming music from YouTube, [MusicPiped](https://f-droid.org/app/deep.ryd.rydplayer) is just the app for you. This app allows you to browse youtube and stream music directly in a clean, material design interface."
-msgstr ""
+msgstr "{{ page.featured }} Dla wszystkich, którzy lubią przesyłać muzykę z YouTube, [MusicPiped](https://f-droid.org/app/deep.ryd.rydplayer) to aplikacja dla ciebie. Ta aplikacja pozwala przeglądać youtube i strumieniować muzykę bezpośrednio w czystym, materialnym interfejsie projektowym."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-03-twif-28-newpipe-youtube-client-edition.md
 msgid "[Open Contacts](https://f-droid.org/app/opencontacts.open.com.opencontacts): Hide contacts away from apps stealing your contacts information"
-msgstr ""
+msgstr "[Open Contacts](https://f-droid.org/app/opencontacts.open.com.opencontacts): Ukryj kontakty przed aplikacjami, kradnąc informacje o kontaktach"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-03-twif-28-newpipe-youtube-client-edition.md
@@ -6516,7 +6515,7 @@ msgstr ""
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-03-twif-28-newpipe-youtube-client-edition.md
 msgid "[OpenLauncher](https://f-droid.org/app/com.benny.openlauncher) is an alternative \"homescreen\" app for android. Version 0.6.0 fixes some issues with gestures while also adding more color preferences and better backup/restore options for settings."
-msgstr ""
+msgstr "[OpenLauncher](https://f-droid.org/app/com.benny.openlauncher) to alternatywna aplikacja \"ekranu głównego\" dla Androida. Wersja 0.6.0 rozwiązuje niektóre problemy z gestami, a także dodaje więcej preferencji kolorów i lepsze opcje tworzenia kopii zapasowych/przywracania ustawień."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-03-twif-28-newpipe-youtube-client-edition.md
@@ -6536,23 +6535,23 @@ msgstr ""
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-03-twif-28-newpipe-youtube-client-edition.md
 msgid "[FairEmail](https://f-droid.org/app/eu.faircode.email) has seen a bit of development since 1.106. Several security related feautures have been added including encryption support, even for attachments. An advanced setting was also added to allow users the choice to make insecure connections without passwords."
-msgstr ""
+msgstr "[FairEmail](https://f-droid.org/app/eu.faircode.email) ujrzał trochę rozwoju od 1.106. Dodano kilka cech związanych z bezpieczeństwem, w tym obsługę szyfrowania, nawet w przypadku załączników. Dodano także zaawansowane ustawienie, aby umożliwić użytkownikom wybór niezabezpieczonych połączeń bez haseł."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-03-twif-28-newpipe-youtube-client-edition.md
 msgid "[Fennec F-Droid](https://f-droid.org/app/org.mozilla.fennec_fdroid) is a rebrand of Mozilla Firefox for F-Droid. Version 63 landed in F-Droid this week, now targeting Android Oreo. New features include picture in picture video support, notification channels, and a Canadian English (en-CA) locale."
-msgstr ""
+msgstr "[Fennec F-Droid](https://f-droid.org/app/org.mozilla.fennec_fdroid) to rebrand z Mozilla Firefox dla F-Droid. Wersja 63 wylądowała w F-Droid w tym tygodniu, teraz jest skierowana na Androida Oreo. Nowe funkcje obejmują obsługę obrazu w obrazie, kanały powiadamiania i kanadyjski język angielski (en-CA)."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-03-twif-28-newpipe-youtube-client-edition.md
 msgid "{{ page.featured }} [NewPipe](https://f-droid.org/app/org.schabi.newpipe) is a client for the popular video streaming site YouTube. Version 0.14.2 brought with it better layouts for tablets and a list layout for downloaded media. Further, users can now share subscribed channels easily from the longpress menu."
-msgstr ""
+msgstr "{{ page.featured }} [NewPipe](https://f-droid.org/app/org.schabi.newpipe) jest klientem popularnej witryny streamingowej YouTube. Wersja 0.14.2 przyniosła lepsze układy tabletów i układ listy pobranych mediów. Co więcej, użytkownicy mogą teraz udostępniać subskrybowane kanały z menu longpress."
 
 #. type: Title #
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
 #, no-wrap
 msgid "\"TWIF 29: New Matrix Server and Mirror Testers Wanted\""
-msgstr ""
+msgstr "\"TWIF 29: Potrzebni są nowi testerzy serwerów i testerów lustrzanych\""
 
 #. type: Plain text
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
@@ -6566,7 +6565,7 @@ msgstr ""
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
 #, no-wrap
 msgid "Mirror testers wanted"
-msgstr ""
+msgstr "Poszukiwani testerzy serwerów lustrzanych"
 
 #. type: Plain text
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
@@ -6576,7 +6575,7 @@ msgstr ""
 #. type: Plain text
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
 msgid "These are the mirrors:"
-msgstr ""
+msgstr "To są serwery lustrzane:"
 
 #. type: Plain text
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
@@ -6594,7 +6593,7 @@ msgstr ""
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
 #, no-wrap
 msgid "Help wanted with auditing proxy"
-msgstr ""
+msgstr "Potrzebna pomoc dzięki audytowi proxy"
 
 #. type: Plain text
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
@@ -6606,7 +6605,7 @@ msgstr ""
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
 #, no-wrap
 msgid "Hourly website translation updates"
-msgstr ""
+msgstr "Godzinowe aktualizacje tłumaczeń stron"
 
 #. type: Plain text
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
@@ -6617,7 +6616,7 @@ msgstr ""
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
 #, no-wrap
 msgid "Fairphone as a Service (FaaS)"
-msgstr ""
+msgstr "Fairphone jako usługa (FaaS)"
 
 #. type: Plain text
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
@@ -6627,33 +6626,33 @@ msgstr ""
 #. type: Plain text
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
 msgid "They preinstall several apps on the open version (F-Droid, Fennec, Silence, Amaze, etc.) so the user experience for beginners is better than only having the outdated AOSP system apps. All these apps are installed from F-Droid so they will continue to be updated by the F-Droid client."
-msgstr ""
+msgstr "Wstępnie instalują kilka aplikacji w otwartej wersji (F-Droid, Fennec, Silence, Amaze itd.), Więc wygoda korzystania dla początkujących jest lepsza niż tylko z nieaktualnymi aplikacjami systemu AOSP. Wszystkie te aplikacje są instalowane z F-Droid, więc będą nadal aktualizowane przez klienta F-Droid."
 
 #. type: Plain text
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
 msgid "More reading:"
-msgstr ""
+msgstr "Więcej czytania:"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
 msgid "[Commown at Solarimpulse](https://solarimpulse.com/companies/commown)"
-msgstr ""
+msgstr "[Commown w Solarimpulse](https://solarimpulse.com/companies/commown)"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
 msgid "[Commons as the model for the future](https://medium.com/@myriamboure/commons-the-model-of-post-liberal-capitalism-55375f052a22) (Medium.com link. Sorry again.)"
-msgstr ""
+msgstr "[Commons jako wzór na przyszłość] (https://medium.com/@myriamboure/commons-the-model-of-post-liberal-capitalism-55375f052a22) (link Medium.com przepraszam ponownie.)"
 
 #. type: Title ####
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "F-Droid Matrix server"
-msgstr "Rdzeń F-Droid"
+msgstr "Serwer F-Droid Matrix"
 
 #. type: Plain text
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
 msgid "Several core F-Droid contributors use Matrix to communicate, both amongst themselves and with the F-Droid IRC rooms, which are bridged with Matrix. As Matrix became more popular for this, we've been building up our presence, establishing \"real\" rooms instead of the ones the bridge creates for us."
-msgstr ""
+msgstr "Kilku głównych współpracowników F-Droid używa Matrix do komunikowania się, zarówno między sobą, jak między pokojami F-Droid IRC, które są połączone z Matrix. Ponieważ Matrix stał się coraz bardziej popularny, budowaliśmy naszą obecność, tworząc \"prawdziwe\" pokoje zamiast tych, które tworzy dla nas most."
 
 #. type: Plain text
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
@@ -6667,26 +6666,23 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
-#, fuzzy
 msgid "**[Keikai Launcher](https://f-droid.org/app/com.anpmech.launcher)**: Fast, minimalistic launcher."
-msgstr "**[Lekki Launcher Android](https://f-droid.org/app/com.github.postapczuk.lalauncher)**: Lekki launcher aplikacji"
+msgstr "**[Keikai Launcher](https://f-droid.org/app/com.anpmech.launcher)**: Szybki, minimalistyczny launcher."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
-#, fuzzy
 msgid "**[Aria2App](https://f-droid.org/app/com.gianlu.aria2app)**"
-msgstr "**[Aplikacja Lobsters](https://f-droid.org/app/com.nikhiljha.lobstersapp)**: Aplikacja dla lobste.rs"
+msgstr "**[Aria2App](https://f-droid.org/app/com.gianlu.aria2app)**"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
 msgid "**[Pretend You're Xyzzy](https://f-droid.org/app/com.gianlu.pretendyourexyzzy)**"
-msgstr ""
+msgstr "**[Pretend You're Xyzzy](https://f-droid.org/app/com.gianlu.pretendyourexyzzy)**"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
-#, fuzzy
 msgid "**[Share my number](https://f-droid.org/app/com.github.characterdog.share_my_number)**"
-msgstr "**[BMI Calculator](https://f-droid.org/app/com.github.characterdog.bmicalculator)**: Prosty kalkulator BMI"
+msgstr "**[Udostępnij mój numer](https://f-droid.org/app/com.github.characterdog.share_my_number)**"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
@@ -6696,58 +6692,53 @@ msgstr "**[IPCam Demo](https://f-droid.org/app/com.github.niqdev.ipcam)**: Strum
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
-#, fuzzy
 msgid "**[Drowser](https://f-droid.org/app/com.jarsilio.android.drowser)**: Simple background app killer."
-msgstr "**[wownerujo](https://f-droid.org/app/com.wownero.wownerujo)**: Portfel Wownero"
+msgstr "**[Drowser](https://f-droid.org/app/com.jarsilio.android.drowser)**: Prosty zabójca aplikacji w tle."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
-#, fuzzy
 msgid "**[CineLog](https://f-droid.org/app/com.ulicae.cinelog)**: Save reviews of movies."
-msgstr "**[wownerujo](https://f-droid.org/app/com.wownero.wownerujo)**: Portfel Wownero"
+msgstr "**[CineLog](https://f-droid.org/app/com.ulicae.cinelog)**: Zapisuj recenzje filmów."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
 msgid "**[aRevelation](https://f-droid.org/app/de.igloffstein.maik.aRevelation)**: Password manager based on revelation password manager file format."
-msgstr ""
+msgstr "**[aRevelation](https://f-droid.org/app/de.igloffstein.maik.aRevelation)**: Menedżer haseł oparty na formacie pliku menedżera haseł rewelacyjnych."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
-#, fuzzy
 msgid "**[Travel Mate](https://f-droid.org/app/io.github.project_travel_mate)**: A complete travel guide."
-msgstr "**[Privacy Helper](https://f-droid.org/app/org.privacyhelper)**: Przewodnik po prywatności aplikacji"
+msgstr "**[Travel Mate](https://f-droid.org/app/io.github.project_travel_mate)**: Kompletny przewodnik turystyczny."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
 msgid "**[wX](https://f-droid.org/app/joshuatee.wx)**: Weather app geared towards storm chasers, meteorologists and weather enthusiasts."
-msgstr ""
+msgstr "**[wX](https://f-droid.org/app/joshuatee.wx)**: Aplikacja pogodowa nastawiona na ścigacze burz, meteorologów i entuzjastów pogody."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
 msgid "**[YouTube Stream](https://f-droid.org/app/org.thiolliere.youtubestream)**: Get youtube stream and open it with local application."
-msgstr ""
+msgstr "**[YouTube Stream](https://f-droid.org/app/org.thiolliere.youtubestream)**: Pobierz strumień youtube i otwórz go za pomocą aplikacji lokalnej."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
-#, fuzzy
 msgid "**[SuperFreezZ](https://f-droid.org/app/superfreeze.tool.android)**"
-msgstr "**[9P](https://f-droid.org/app/se.tube42.p9.android)**: Słowo gra logiczna"
+msgstr "**[SuperFreezZ](https://f-droid.org/app/superfreeze.tool.android)**"
 
 #. type: Plain text
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
 msgid "Due to time shortage, apps lacking a changelog URL in their F-Droid metadata were skipped this week."
-msgstr ""
+msgstr "Z powodu braku czasu aplikacje, które nie mają adresu URL dziennika zmian w swoich metadanych F-Droida, zostały w tym tygodniu pominięte."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
-#, fuzzy
 msgid "**[Cythara](https://f-droid.org/app/com.github.cythara)** is a musical instrument tuner, and was updated from 2.8 to 2.9. This update adds cello tuning, sets chromatic tuning as the default, and fixes a scrolling issue in landscape mode."
-msgstr "**[Cythara](https://f-droid.org/app/com.github.cythara)** to tuner instrumentów muzycznych. Ta aktualizacja do wersji 2.8 umożliwia instalację w pamięci zewnętrznej. Inne najnowsze aktualizacje obejmują nowe niemieckie tłumaczenie i nowe logo."
+msgstr "**[Cythara](https://f-droid.org/app/com.github.cythara)** to tuner instrumentów muzycznych i został zaktualizowany z 2.8 do 2.9. Ta aktualizacja dodaje tuning wiolonczelowy, domyślnie ustawia chromatyczne strojenie i rozwiązuje problem przewijania w trybie poziomym."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
 msgid "**[Apple Flinger](https://f-droid.org/app/com.gitlab.ardash.appleflinger.android)** is a funny single- and multiplayer game, where you use a slingshot to shoot with apples. This update from 1.5.3 to 1.5.5 adds 12 more winter levels, more stats on-screen, a list of translators in the credits screen, and several translation updates. Additionally, there is now a wiki page on the website describing how to create new levels."
-msgstr ""
+msgstr "**[Apple Flinger](https://f-droid.org/app/com.gitlab.ardash.appleflinger.android)** to zabawna gra jedno- i wieloosobowa, w której używasz procy do strzelania z jabłek. Ta aktualizacja od 1.5.3 do 1.5.5 dodaje 12 kolejnych poziomów zimowych, więcej statystyk na ekranie, listę tłumaczy na ekranie kredytów i kilka aktualizacji tłumaczeń. Dodatkowo na stronie znajduje się strona wiki opisująca tworzenie nowych poziomów."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
@@ -6757,24 +6748,24 @@ msgstr ""
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
 msgid "**[Mastalab](https://f-droid.org/app/fr.gouv.etalab.mastodon)**, your full-featured Mastodon (and Peertube) client, was updated to 1.19.2. This update adds the ability to block a domain from a profile, adds support for \"Boost to Original Audience\". The light theme was reworked, and it also has an improved theme picker. In addition to that, there are many smaller UX improvements (still a work in progress), and a host of bug fixes."
-msgstr ""
+msgstr "**[Mastalab](https://f-droid.org/app/fr.gouv.etalab.mastodon)**, Twój w pełni funkcjonalny klient Mastodon (i Peertube) został zaktualizowany do wersji 1.19.2. Ta aktualizacja dodaje możliwość blokowania domeny z profilu, dodaje obsługę \"Zwiększ do oryginalnych odbiorców\". Motyw lekki został przerobiony i ma również ulepszony selektor kompozycji. Oprócz tego istnieje wiele mniejszych usprawnień UX (wciąż trwających w toku) i mnóstwo poprawek."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
 msgid "**[SolitaireCG](https://f-droid.org/app/net.sourceforge.solitaire_cg)** is an adaptation of Ken Magic's \"Solitaire\" for devices with few hardware buttons. Version 3.3 makes the upper right hand suit in large card art more visible. Other changes are fixed help file hyperlinks, now with back-to-top links. Under the hood, it now builds using gradle instead of ant. With big thanks to Rudy Sudrich for making this release a reality."
-msgstr ""
+msgstr "**[SolitaireCG](https://f-droid.org/app/net.sourceforge.solitaire_cg)** jest adaptacją \"Solitaire\" Kena Magic dla urządzeń z kilkoma przyciskami sprzętowymi. Wersja 3.3 sprawia, że górny prawy kombinezon staje się bardziej widoczny. Inne zmiany to poprawione hiperłącza do plików pomocy, teraz z linkami z powrotem do góry. Pod maską, teraz buduje używając gradle zamiast mrówki. Wielkie dzięki dla Rudy'ego Sudricha za uczynienie tego wydania rzeczywistością."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
 msgid "**[Simpletask](https://f-droid.org/app/nl.mpcjanssen.simpletask)** was updated from 10.2.7 to 10.2.9, fixing a crash when (un)completing a task, fixing state of completion checkbox when task list changes, and fixing tags sorting."
-msgstr ""
+msgstr "**[Simpletask](https://f-droid.org/app/nl.mpcjanssen.simpletask)** został zaktualizowany z wersji 10.2.7 do wersji 10.2.9, naprawiając awarię, gdy (nie) wykonujesz zadanie, ustawiając pole wyboru stanu ukończenia, gdy lista zadań się zmienia, i poprawia sortowanie znaczników."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
 msgid "{{ page.featured }} **[Open Contacts](https://f-droid.org/app/opencontacts.open.com.opencontacts)** hides contacts away from apps stealing your contacts information, by keeping contacts safe in a different database. It handles magic like showing the person's name upon receiving a call. Version 5.0 makes call log entries more consistent by placing icons to either side, adds a \"help\" activity, puts all activities in portrait mode, and the \"invalid number\" error in Dialer is now shown in-line rather than as an alert."
-msgstr ""
+msgstr "{{ page.featured }} **[Open Contacts](https://f-droid.org/app/opencontacts.open.com.opencontacts)** ukrywa kontakty przed aplikacjami, kradnąc informacje o kontaktach, utrzymując kontakty w bezpiecznej bazie danych. Obsługuje magię, tak jak pokazuje imię osoby po otrzymaniu połączenia. Wersja 5.0 sprawia, że wpisy w rejestrze połączeń stają się bardziej spójne, umieszczając ikony po obu stronach, dodając akcję \"Pomoc\", umieszczając wszystkie czynności w trybie portretu, a błąd \"nieprawidłowej liczby\" w Dialerze jest teraz wyświetlany w linii zamiast jako alert."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
 msgid "**[Tasks](https://f-droid.org/app/org.tasks)** was updated from 6.1.3 to 6.3.1, with a new location row in the task edit screen, location departure notifications, set CalDAV completion percentage and status, a new white theme color, new icons, new list and tag chips, and many other UI and UX improvements. Additionally, the minimum required Android version was bumped from 4.0.3 to 4.1."
-msgstr ""
+msgstr "**[Tasks](https://f-droid.org/app/org.tasks)** został zaktualizowany z 6.1.3 do 6.3.1, z nowym wierszem lokalizacji na ekranie edycji zadania, powiadomieniami o opuszczeniu lokalizacji, ustawieniem procentowym i stanem ukończenia CalDAV, nowym białym kolorem motywu, nowymi ikonami, nową listą i żetonami znaczników oraz wieloma inne ulepszenia UI i UX. Dodatkowo minimalna wymagana wersja Androida została zduplikowana z wersji 4.0.3 do wersji 4.1."
