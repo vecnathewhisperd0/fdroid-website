@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-11-12 11:08+0100\n"
 "PO-Revision-Date: 2018-11-14 16:07+0000\n"
-"Last-Translator: Tobias Bannert <tobannert@gmail.com>\n"
+"Last-Translator: C. Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -6561,7 +6561,7 @@ msgid ""
 "In this edition: Lots of F-Droid news. We're looking for Mirror testers, and help with developing an auditing proxy. We are also setting up our own Matrix server, and have some news about Fairphone as a Service. In the app department, we have 12 new and {{ page.number_of_updated_apps }} updated apps.\n"
 "<!--more-->\n"
 msgstr ""
-"Diesmal: Viele F-Droid Nachrichten. Wir suchen Mirror-Tester und Hilfe beim entwickeln eines prüfenden Proxies (auditing proxy). Wir setzen auch unseren eigenen Matrix-Server auf und haben einige Neuigkeiten über Fairphone als Service. In der App-Abteilung haben wir 12 neue und {{ page.number_of_updated_apps }} aktualisierte Apps.\n"
+"Diesmal: Viele F-Droid Nachrichten. Wir suchen Mirror-Tester und Hilfe bei der Entwicklung eines Auditing-Proxy. Wir setzen auch unseren eigenen Matrix-Server auf und haben einige Neuigkeiten über Fairphone als Service. In der App-Abteilung haben wir 12 neue und {{ page.number_of_updated_apps }} aktualisierte Apps.\n"
 "<!--more-->\n"
 
 #. type: Title ####
@@ -6573,7 +6573,7 @@ msgstr "Mirror-Tester gesucht"
 #. type: Plain text
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
 msgid "We have everything needed to support mirrors in place and running. Now we just need users to use them! This is still beta, so please report any problems you have to either the [forum](https://forum.f-droid.org/t/call-for-testing-add-a-mirror-as-a-source-for-your-f-droid/4490) or the [admin issue tracker](https://gitlab.com/fdroid/admin/issues). To add a mirror, scan the QR code or click on it from your Android device, and send it to F-Droid. F-Droid will then prompt you to add it as a mirror to F-Droid."
-msgstr "Wir haben alles, was wir brauchen, um Mirrors an Ort und Stelle zu unterstützen. Jetzt brauchen wir nur noch Benutzer, die sie benutzen! Dies ist immer noch eine Beta-Version, also melden Sie bitte alle Probleme, die Sie haben, entweder im [forum](https://forum.f-droid.org/t/call-for-testing-add-a-mirror-as-a-source-for-your-f-droid/4490) oder im[admin issue tracker](https://gitlab.com/fdroid/admin/issues). Um einen Mirror hinzuzufügen, scannen Sie den QR-Code oder klicken Sie ihn von Ihrem Android-Gerät aus an und senden ihn an F-Droid. F-Droid wird Sie dann auffordern, es als Spiegel zu F-Droid hinzuzufügen."
+msgstr "Wir haben alles, was wir brauchen, um Mirrors an Ort und Stelle zu unterstützen. Jetzt brauchen wir nur noch Anwender, die sie nutzen! Dies ist immer noch eine Beta-Version, also melden Sie bitte alle Probleme, die Sie haben, entweder im [Forum](https://forum.f-droid.org/t/call-for-testing-add-a-mirror-as-a-source-for-your-f-droid/4490) oder im [Issue Tracker für Administratoren](https://gitlab.com/fdroid/admin/issues). Um einen Mirror hinzuzufügen, scannen Sie den QR-Code oder klicken Sie ihn von Ihrem Android-Gerät aus an und senden ihn an F-Droid. F-Droid wird Sie dann auffordern, ihn als Spiegel zu F-Droid hinzuzufügen."
 
 #. type: Plain text
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
@@ -6761,7 +6761,7 @@ msgstr "**[Mastalab](https://f-droid.org/app/fr.gouv.etalab.mastodon)**, Ihr vol
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
 msgid "**[SolitaireCG](https://f-droid.org/app/net.sourceforge.solitaire_cg)** is an adaptation of Ken Magic's \"Solitaire\" for devices with few hardware buttons. Version 3.3 makes the upper right hand suit in large card art more visible. Other changes are fixed help file hyperlinks, now with back-to-top links. Under the hood, it now builds using gradle instead of ant. With big thanks to Rudy Sudrich for making this release a reality."
-msgstr ""
+msgstr "**[SolitaireCG](https://f-droid.org/app/net.sourceforge.solitaire_cg)** ist eine Adaptation von Ken Magic's \"Solitaire\" für Geräte mit wenig Hardware-Tasten. Version 3.3 macht die Kartenfarbe oben rechts auf großen Karten erkennbarer. Weitere Änderungen sind reparierte Hilfedatei-Verknüpfungen, jetzt mit Zurück-zum-Anfang-Links. Unter der Haube wird für Builds nun Gradle statt Ant verwendet. Mit einem großen Dankeschön an Rudy Sudrich, der dieses Release Wirklichkeit werden ließ."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
@@ -6771,7 +6771,7 @@ msgstr "**[Simpletask](https://f-droid.org/app/nl.mpcjanssen.simpletask)** wurde
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
 msgid "{{ page.featured }} **[Open Contacts](https://f-droid.org/app/opencontacts.open.com.opencontacts)** hides contacts away from apps stealing your contacts information, by keeping contacts safe in a different database. It handles magic like showing the person's name upon receiving a call. Version 5.0 makes call log entries more consistent by placing icons to either side, adds a \"help\" activity, puts all activities in portrait mode, and the \"invalid number\" error in Dialer is now shown in-line rather than as an alert."
-msgstr "{{ page.featured }} **[Open Contacts](https://f-droid.org/app/opencontacts.open.com.opencontacts)** versteckt Kontakte vor Apps, die Ihre Kontaktinformationen stehlen, indem sie Kontakte in einer anderen Datenbank sicher aufbewahren. Es zeigt Erstaunliches wie die Anzeige des Namens der Person beim Empfangen eines Anrufs. Version 5.0 macht die Einträge in der Anrufliste konsistenter, indem sie Symbole auf beiden Seiten platziert, eine \"Hilfe\"-Aktivität hinzufügt, alle Aktivitäten in den Hochformat-Modus versetzt und der Fehler \"ungültige Nummer\" im Dialer nun inline und nicht mehr als Warnung angezeigt wird."
+msgstr "{{ page.featured }} **[Open Contacts](https://f-droid.org/app/opencontacts.open.com.opencontacts)** versteckt Kontakte vor Apps, die Ihre Kontaktinformationen stehlen, indem sie Kontakte in einer anderen Datenbank sicher aufbewahrt. Sie zeigt Erstaunliches wie die Anzeige des Namens der Person beim Empfangen eines Anrufs. Version 5.0 macht die Einträge in der Anrufliste konsistenter, indem sie Symbole auf beiden Seiten platziert, eine \"Hilfe\"-Aktivität hinzufügt, alle Aktivitäten ins Hochformat versetzt und der Fehler \"ungültige Nummer\" im Dialer wird nun inline und nicht mehr als Warnung angezeigt."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
