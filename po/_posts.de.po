@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-11-12 11:08+0100\n"
-"PO-Revision-Date: 2018-11-14 16:07+0000\n"
+"PO-Revision-Date: 2018-11-15 20:07+0000\n"
 "Last-Translator: C. Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\n"
 "Language: de\n"
@@ -6619,7 +6619,7 @@ msgstr "Stündliche Aktualisierung der Website-Übersetzung"
 #. type: Plain text
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
 msgid "We recently started a [project to streamline the translation process](https://forum.f-droid.org/t/calling-all-translators-new-project-to-streamline-translation-process/3877), with a specific focus on the website and the Android client. **[@\\_hc](https://forum.f-droid.org/u/hans)** [announced](https://forum.f-droid.org/t/calling-all-translators-new-project-to-streamline-translation-process/3877/38) the first concrete improvement to this workflow: we now have hourly rebuilds of [https://staging.f-droid.org](https://staging.f-droid.org). If you are translating the website, the build process will check for updates once an hour."
-msgstr "Wir haben vor kurzem ein [Projekt zur Straffung des Übersetzungsprozesses](https://forum.f-droid.org/t/calling-all-translators-new-project-to-streamline-translation-process/3877) gestartet, mit einem besonderen Fokus auf die Website und den Android-Client. Als erste konkrete Verbesserung dieses Workflows machte **[@\\_hc](https://forum.f-droid.org/u/hans)**[die Ankündigung](https://forum.f-droid.org/t/calling-all-translators-new-project-to-streamline-translation-process/3877/38):  [https://staging.f-droid.org](https://staging.f-droid.org) wird jetzt stündlich neu aufgebaut. Wenn Sie die Website übersetzen, wird der Build-Prozess einmal pro Stunde nach Updates suchen."
+msgstr "Wir haben vor kurzem ein [Projekt zur Straffung des Übersetzungsprozesses](https://forum.f-droid.org/t/calling-all-translators-new-project-to-streamline-translation-process/3877) gestartet, mit einem besonderen Fokus auf die Website und den Android-Client. Als erste konkrete Verbesserung dieses Workflows machte **[@\\_hc](https://forum.f-droid.org/u/hans)** [die Ankündigung](https://forum.f-droid.org/t/calling-all-translators-new-project-to-streamline-translation-process/3877/38), dass [https://staging.f-droid.org](https://staging.f-droid.org) jetzt stündlich neu aufgebaut wird. Wenn Sie die Website übersetzen, wird der Build-Prozess einmal pro Stunde nach Updates suchen."
 
 #. type: Title ####
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
