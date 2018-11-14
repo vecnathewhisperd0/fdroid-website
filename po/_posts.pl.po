@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-11-12 11:08+0100\n"
-"PO-Revision-Date: 2018-11-14 16:07+0000\n"
+"PO-Revision-Date: 2018-11-15 20:07+0000\n"
 "Last-Translator: WaldiS <admin@sto.ugu.pl>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/f-droid/website-posts/pl/>\n"
 "Language: pl\n"
@@ -6510,7 +6510,7 @@ msgstr "[Open Contacts](https://f-droid.org/app/opencontacts.open.com.opencontac
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-03-twif-28-newpipe-youtube-client-edition.md
 msgid "{{ page.major }} [Rocket.Chat](https://f-droid.org/app/chat.rocket.android) version 3.0.0 entered F-Droid this week. Messages are now stored in an offline database so users can view them without a network connection. Emojis received better support with better autocomplete and reactions can now use custom emojis. Security has been improved with a fix for email based 2 factor authentication. Other new features include per channel draft messages collapse/uncollapse for text attachments on messages. To see the full set of changes view the [changelog](https://github.com/RocketChat/Rocket.Chat.Android/releases)."
-msgstr ""
+msgstr "{{ page.major }} [Rocket.Chat](https://f-droid.org/app/chat.rocket.android) w wersji 3.0.0 wprowadzono F-Droid w tym tygodniu. Wiadomości są teraz przechowywane w bazie danych offline, dzięki czemu użytkownicy mogą je wyświetlać bez połączenia sieciowego. Emojis otrzymał lepszą obsługę dzięki lepszemu autouzupełnianiu, a reakcje mogą teraz używać niestandardowych emotikonów. Udoskonalono zabezpieczenia dzięki poprawce do uwierzytelniania 2-czynnikowego opartego na poczcie e-mail. Inne nowe funkcje obejmują zwijanie/zwalnianie wersji roboczych wiadomości na kanał dla załączników tekstowych w wiadomościach. Aby zobaczyć pełny zestaw zmian, wyświetl [dziennik zmian](https://github.com/RocketChat/Rocket.Chat.Android/releases)."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-03-twif-28-newpipe-youtube-client-edition.md
@@ -6520,17 +6520,17 @@ msgstr "[OpenLauncher](https://f-droid.org/app/com.benny.openlauncher) to altern
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-03-twif-28-newpipe-youtube-client-edition.md
 msgid "The SimpleMobileTools continue to get better. Release 5.1.1 of [Calendar](https://f-droid.org/app/com.simplemobiletools.calendar) brings pull-to-refresh for CalDAV events along with better filters and colors support. Like all 5.x releases of SimpleMobileTools apps, the minimum supported Android version is now 5.0."
-msgstr ""
+msgstr "SimpleMobileTools są coraz lepsze. Wersja 5.1.1 z [Kalendarz](https://f-droid.org/app/com.simplemobiletools.calendar) przynosi ciągłe odświeżanie zdarzeń CalDAV wraz z lepszymi obsługą filtrów i kolorów. Podobnie jak wszystkie wersje 5.x aplikacji SimpleMobileTools, minimalna obsługiwana wersja Androida to teraz 5.0."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-03-twif-28-newpipe-youtube-client-edition.md
 msgid "In addition to a higher minimum suported Android version, [Contacts](https://f-droid.org/app/com.simplemobiletools.contacts) 5.1.0 brings an optional nickname field, an option to show only contacts with phone numbers, a fix for disappearing contacts and more!"
-msgstr ""
+msgstr "Poza wyższą minimalną suportowaną wersją Androida, [Kontakty](https://f-droid.org/app/com.simplemobiletools.contacts) 5.1.0 wprowadza opcjonalne pole pseudonimu, opcję wyświetlania tylko kontaktów z numerami telefonów, poprawka dla znikających kontaktów i wiele więcej!"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-03-twif-28-newpipe-youtube-client-edition.md
 msgid "[StreetComplete](https://f-droid.org/app/de.westnordost.streetcomplete) is a fun, easy app for improving OpenStreetMap. Version 8.3 provides several enhancements for quests involving accessibility and enhances the opening hours form along with a few other improvements."
-msgstr ""
+msgstr "[StreetComplete](https://f-droid.org/app/de.westnordost.streetcomplete) to zabawna, łatwa aplikacja do ulepszania OpenStreetMap. Wersja 8.3 zawiera kilka ulepszeń dla zadań związanych z dostępnością i poprawia formę godzin otwarcia wraz z kilkoma innymi ulepszeniami."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-03-twif-28-newpipe-youtube-client-edition.md
@@ -6560,6 +6560,8 @@ msgid ""
 "In this edition: Lots of F-Droid news. We're looking for Mirror testers, and help with developing an auditing proxy. We are also setting up our own Matrix server, and have some news about Fairphone as a Service. In the app department, we have 12 new and {{ page.number_of_updated_apps }} updated apps.\n"
 "<!--more-->\n"
 msgstr ""
+"W tej edycji: Mnóstwo nowości w F-Droid. Szukamy testerów Serwerów Lustrzanych  i pomagamy w rozwijaniu inspekcji serwera proxy. Zakładamy również własny serwer Matrix i mamy wiadomości o Fairphonie jako usłudze. W dziale aplikacji mamy 12 nowych i {{ page.number_of_updated_apps }} zaktualizowanych aplikacji.\n"
+"<!--more-->\n"
 
 #. type: Title ####
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
@@ -6570,7 +6572,7 @@ msgstr "Poszukiwani testerzy serwerów lustrzanych"
 #. type: Plain text
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
 msgid "We have everything needed to support mirrors in place and running. Now we just need users to use them! This is still beta, so please report any problems you have to either the [forum](https://forum.f-droid.org/t/call-for-testing-add-a-mirror-as-a-source-for-your-f-droid/4490) or the [admin issue tracker](https://gitlab.com/fdroid/admin/issues). To add a mirror, scan the QR code or click on it from your Android device, and send it to F-Droid. F-Droid will then prompt you to add it as a mirror to F-Droid."
-msgstr ""
+msgstr "Mamy wszystko, co jest potrzebne do obsługi serwerów lustrzanych. Teraz potrzebujemy tylko użytkowników, aby z nich korzystać! To wciąż jest wersja beta, więc zgłoś wszelkie problemy, które masz, albo na [forum](https://forum.f-droid.org/t/call-for-testing-add-a-mirror-as-a-source-for-your-f-droid/4490) lub na [admin do śledzenia błędów](https://gitlab.com/fdroid/admin/issues). Aby dodać lustro, zeskanuj kod QR lub kliknij go na urządzeniu z systemem Android i wyślij do F-Droid. F-Droid poprosi cię o dodanie go jako lustra do F-Droida."
 
 #. type: Plain text
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
@@ -6588,6 +6590,12 @@ msgid ""
 "&nbsp;&nbsp;&nbsp;<a href=\"https://bubu1.eu/fdroid/repo?fingerprint=43238D512C1E5EB2D6569F4A3AFBF5523418B82E0A3ED1552770ABB9A9C9CCAB\">\n"
 "![bubu1.eu]({{ site.baseurl }}/assets/posts/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted/bubu1.eu.png)</a>\n"
 msgstr ""
+"&nbsp;&nbsp;&nbsp;<a href=\"https://fdroid.tetaneutral.net/fdroid/repo?fingerprint=43238D512C1E5EB2D6569F4A3AFBF5523418B82E0A3ED1552770ABB9A9C9CCAB\">\n"
+"![fdroid.tetaneutral.net]({{ site.baseurl }}/assets/posts/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted/fdroid.tetaneutral.net.png)</a>\n"
+"&nbsp;&nbsp;&nbsp;<a href=\"https://mirror.cyberbits.eu/fdroid/repo?fingerprint=43238D512C1E5EB2D6569F4A3AFBF5523418B82E0A3ED1552770ABB9A9C9CCAB\">\n"
+"![mirror.cyberbits.eu]({{ site.baseurl }}/assets/posts/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted/mirror.cyberbits.eu.png)</a>\n"
+"&nbsp;&nbsp;&nbsp;<a href=\"https://bubu1.eu/fdroid/repo?fingerprint=43238D512C1E5EB2D6569F4A3AFBF5523418B82E0A3ED1552770ABB9A9C9CCAB\">\n"
+"![bubu1.eu]({{ site.baseurl }}/assets/posts/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted/bubu1.eu.png)</a>\n"
 
 #. type: Title ####
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
@@ -6599,7 +6607,7 @@ msgstr "Potrzebna pomoc dzięki audytowi proxy"
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
 #, no-wrap
 msgid "**[@uniq](https://chaos.social/@uniq)** has put together an [auditing proxy](https://gitlab.com/fdroid/fdroidserver/issues/418) that forces all downloads to match a trusted whitelist during the build process. In order for this to reliably work, it needs to be able to act on HTTPS downloads as well. We are looking for help from people with experience with MITMproxy or similar things so that we can put together a solid, trustworthy configuration.\n"
-msgstr ""
+msgstr "**[@uniq](https://chaos.social/@uniq)** przygotował serwer proxy [auditing proxy](https://gitlab.com/fdroid/fdroidserver/issues/418), który wymusza pobranie wszystkich pobrań do zaufanej białej listy podczas procesu kompilacji. Aby to działało niezawodnie, musi również być w stanie działać na plikach do pobrania HTTPS. Szukamy pomocy od osób mających doświadczenie z MITMproxy lub podobnych rzeczy, dzięki czemu możemy stworzyć solidną, godną zaufania konfigurację.\n"
 
 #. type: Title ####
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
@@ -6610,7 +6618,7 @@ msgstr "Godzinowe aktualizacje tłumaczeń stron"
 #. type: Plain text
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
 msgid "We recently started a [project to streamline the translation process](https://forum.f-droid.org/t/calling-all-translators-new-project-to-streamline-translation-process/3877), with a specific focus on the website and the Android client. **[@\\_hc](https://forum.f-droid.org/u/hans)** [announced](https://forum.f-droid.org/t/calling-all-translators-new-project-to-streamline-translation-process/3877/38) the first concrete improvement to this workflow: we now have hourly rebuilds of [https://staging.f-droid.org](https://staging.f-droid.org). If you are translating the website, the build process will check for updates once an hour."
-msgstr ""
+msgstr "Niedawno rozpoczęliśmy [projekt mający na celu usprawnienie procesu tłumaczenia](https://forum.f-droid.org/t/calling-all-translators-new-project-to-streamline-translation-process/3877), szczególny nacisk położony jest na stronę internetową i klienta Android. **[@\\_hc](https://forum.f-droid.org/u/hans)** [announced](https://forum.f-droid.org/t/calling-all-translators-new-project-to-streamline-translation-process/3877/38) pierwsze konkretne ulepszenie tego przepływu pracy: obecnie mamy godzinowe przebudowy [https://staging.f-droid.org](https://staging.f-droid.org). Jeśli tłumaczymy witrynę, proces kompilacji będzie sprawdzać aktualizacje raz na godzinę."
 
 #. type: Title ####
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
@@ -6621,7 +6629,7 @@ msgstr "Fairphone jako usługa (FaaS)"
 #. type: Plain text
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
 msgid "[Commown](https://commown.fr) (website in French only, sorry) is a French cooperative that supports fair and sustainable electronics by buying, and then leasing [Fairphones](https://www.fairphone.com/en/) to their customers. They recently announced you can now choose between Fairphone OS (Android with Google apps) and Fairphone Open OS (AOSP without any proprietary app)."
-msgstr ""
+msgstr "[Commown](https://commown.fr) (strona tylko w języku francuskim, przepraszam) to francuska spółdzielnia, która wspiera uczciwą i zrównoważoną elektronikę, kupując, a następnie dzierżawiąc [Fairphones](https://www.fairphone.com/en/) dla swoich klientów. Niedawno ogłosili, że możesz teraz wybierać pomiędzy systemem Fairphone OS (Android z aplikacjami Google) a systemem Fairphone Open OS (AOSP bez żadnej zastrzeżonej aplikacji)."
 
 #. type: Plain text
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
@@ -6657,12 +6665,12 @@ msgstr "Kilku głównych współpracowników F-Droid używa Matrix do komunikowa
 #. type: Plain text
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
 msgid "We've reached consensus within F-Droid that as the next step in this, we'd like to [set up our own Matrix server](https://gitlab.com/fdroid/admin/issues/94). We will be starting out small, only allowing core F-Droid contributors access, and only for the F-Droid rooms. **[@nicoalt](https://forum.f-droid.org/u/nicoalt)** and **[Mathijs](https://forum.f-droid.org/u/mvgorcum)** have volunteered to administrate the server as independent F-Droid contributors. **[@\\_hc](https://forum.f-droid.org/u/hans)** has contributed a VM for this purpose, and it is now in the process of being set up."
-msgstr ""
+msgstr "Osiągnęliśmy konsensus w F-Droid, że następnym krokiem będzie [skonfigurowanie własnego serwera Matrix](https://gitlab.com/fdroid/admin/issues/94). Będziemy rozpoczynać małe, pozwalając tylko rdzennym członkom F-Droida na dostęp i tylko na pokoje F-Droid. **[@nicoalt](https://forum.f-droid.org/u/nicoalt)** i **[Mathijs](https://forum.f-droid.org/u/mvgorcum)** zgłosili się na ochotnika do administrowania serwerem jako niezależni współpracownicy F-Droid. **[@\\_hc](https://forum.f-droid.org/u/hans)** wniósł w tym celu maszynę wirtualną i jest właśnie w trakcie jej tworzenia."
 
 #. type: Plain text
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
 msgid "We'd also like to thank **Max Dor** for his very generous offer to host and administrate a corporate-quality Matrix setup, with all bells and whistles, as part of a sponsorship deal with [Kamax](https://www.kamax.io). However, at this point we chose to go with a minimal setup, for which we can rely on our own resources and independent contributors."
-msgstr ""
+msgstr "Chcielibyśmy również podziękować **Max Dor** za bardzo hojną ofertę hostowania i zarządzania korporacyjną konfiguracją Matrix, z wszystkimi dzwonkami i gwizdkami, w ramach umowy sponsorskiej z [Kamax](https://www.kamax.io). Jednak w tym momencie zdecydowaliśmy się na minimalną konfigurację, za którą możemy polegać na własnych zasobach i niezależnych współpracownikach."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
@@ -6686,9 +6694,8 @@ msgstr "**[Udostępnij mój numer](https://f-droid.org/app/com.github.characterd
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
-#, fuzzy
 msgid "**[Gotify](https://f-droid.org/app/com.github.gotify)**: A client for receiving push notifications."
-msgstr "**[IPCam Demo](https://f-droid.org/app/com.github.niqdev.ipcam)**: Strumieniowanie wideo MJPEG w systemie Android"
+msgstr "**[Gotify](https://f-droid.org/app/com.github.gotify)**: Klient do odbierania powiadomień push."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
@@ -6743,7 +6750,7 @@ msgstr "**[Apple Flinger](https://f-droid.org/app/com.gitlab.ardash.appleflinger
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
 msgid "Are you sick of bloated non-free RSS readers that steal your personal information? Tired of convoluted syncing setups? Fed up having to create accounts everywhere? Try **[Feeder](https://f-droid.org/app/com.nononsenseapps.feeder)**! Version 1.8.0 removes the option to sync on Hotspots, fixes automatic synchronization not running on mobile, adds an option to sync when the app is opened, improves caching to reduce data use, improves sync speed, adds Simplified Chinese translation, and some smaller fixes."
-msgstr ""
+msgstr "Masz dość rozdętych niewolnych czytników RSS, które kradną twoje dane osobowe? Masz dość zawiłych konfiguracji synchronizacji? Masz dość konieczności tworzenia kont wszędzie? Spróbuj **[Feeder](https://f-droid.org/app/com.nononsenseapps.feeder)**! Wersja 1.8.0 usuwa opcję synchronizacji w hotspotach, naprawia automatyczną synchronizację nie uruchomioną na telefonie komórkowym, dodaje opcję synchronizacji po otwarciu aplikacji, poprawia buforowanie w celu zmniejszenia wykorzystania danych, zwiększa szybkość synchronizacji, dodaje tłumaczenie uproszczone chińskie, i mniejsze poprawki."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
