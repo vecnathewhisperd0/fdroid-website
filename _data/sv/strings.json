@@ -1,7 +1,7 @@
 {
     "index": {
         "download_fdroid": "Hämta F-Droid",
-        "introduction": "F-Droid är en installerbar katalog av fria applikationer, även kallat FOSS (Free and Open Source Software) för Android. Klienten gör det enkelt att hitta, installera, och hålla koll på uppdateringar på din enhet.",
+        "introduction": "F-Droid är en installerbar katalog av FOSS-applikationer (Fri och öppen programvara) för Android-platformen. Klienten gör det enkelt att bläddra bland, installera och hålla koll på uppdateringar för din enhet.",
         "gpg_signature": "PGP-signatur",
         "screenshot": "F-Droid Android app-skärmdump",
         "title": "Vad är F-Droid?"
