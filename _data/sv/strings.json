@@ -36,7 +36,7 @@
         "download": "Ladda ner [file_extension]",
         "license": "Licens",
         "minimum_android_version": "Den här versionen kräver Android [android_version] eller senare.",
-        "suggest_downloading_via_fdroid": "Nedan finns APK-nedladdningar tillgängliga, men du bör vara medveten att om att installering genom detta sätt förhindrar dig från att ta emot uppdateringsnotifieringar och är en mindre säker väg för nedladdning. Vi rekommenderar att du installerar och använder F-Droid istället.",
+        "suggest_downloading_via_fdroid": "Nedan finns APK-hämtningar tillgängliga, men du bör vara medveten att om att installering genom detta sätt förhindrar dig från att ta emot uppdateringsaviseringar och är en mindre säker väg för hämtning. Vi rekommenderar att du installerar och använder F-Droid istället.",
         "source_code": "Källkod",
         "flattr": "Flattr"
     },
