@@ -586,12 +586,12 @@ msgstr "[Bekannte Repositories](https://forum.f-droid.org/t/721) Eine Liste, die
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
 msgid "[Release Channels and Signing Keys](Release_Channels_and_Signing_Keys) These are the various channels that F-Droid software are released on, with info to verify them based on signing keys."
-msgstr "[Bezugsquellen und Signaturen](Release_Channels_and_Signing_Keys) Dies sind die verschiedenen Kanäle, über die F-Froid-Software abgerufen werden kann, inklusive der Informationen, wie ihre Echtheit anhand von Signierschlüsseln überprüft wird."
+msgstr "[Bezugsquellen und Signaturen](Release_Channels_and_Signing_Keys) Dies sind die verschiedenen Kanäle, über die F-Droid-Software abgerufen werden kann, inklusive der Informationen, wie ihre Echtheit anhand von Signierschlüsseln überprüft wird."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
 msgid "[Security Model](Security_Model) A brief explanation of how F-Droid delivers software to users securely."
-msgstr "[Sicherheitsmodell](Security_Model) Eine kurze Erklärung wie F-Froid Software sicher an seine Nutzer ausliefert."
+msgstr "[Sicherheitsmodell](Security_Model) Eine kurze Erklärung wie F-Droid Software sicher an seine Nutzer ausliefert."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md

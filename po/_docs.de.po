@@ -9296,10 +9296,10 @@ msgstr "Für eine angepasste F-Droid-Variante, die Automatische Aktualisierungen
 #~ msgstr "[Bekannte Repositories](https://forum.f-droid.org/t/721) Eine Liste, die versucht, bekannte , mit F-Droid kompatible Paketquellen im Auge zu behalten."
 
 #~ msgid "[Release Channels and Signing Keys](Release_Channels_and_Signing_Keys) These are the various channels that F-Droid software are released on, with info to verify them based on signing keys."
-#~ msgstr "[Ausgabekanäle und Signierschlüssel](Release_Channels_and_Signing_Keys) Dies sind die verschiedenen Kanäle, über die F-Froid-Software abgerufen werden kann, inklusive der Informationen, wie ihre Echtheit anhand von Signierschlüsseln überprüft wird."
+#~ msgstr "[Ausgabekanäle und Signierschlüssel](Release_Channels_and_Signing_Keys) Dies sind die verschiedenen Kanäle, über die F-Droid-Software abgerufen werden kann, inklusive der Informationen, wie ihre Echtheit anhand von Signierschlüsseln überprüft wird."
 
 #~ msgid "[Security Model](Security_Model) A brief explanation of how F-Droid delivers software to users securely."
-#~ msgstr "[Sicherheitsmodell](Security_Model) Eine kurze Erklärung wie F-Froid Software sicher an seine Nutzer ausliefert."
+#~ msgstr "[Sicherheitsmodell](Security_Model) Eine kurze Erklärung wie F-Droid Software sicher an seine Nutzer ausliefert."
 
 #~ msgid "[Translation and Localization](Translation_and_Localization) How all the parts of F-Droid are localized."
 #~ msgstr "[Übersetzung und Lokalisation](Translation_and_Localization) Wie alle Teile von F-Droid lokalisiert werden."
