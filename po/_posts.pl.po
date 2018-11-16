@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-11-12 11:08+0100\n"
-"PO-Revision-Date: 2018-11-15 20:07+0000\n"
+"PO-Revision-Date: 2018-11-16 10:17+0100\n"
 "Last-Translator: WaldiS <admin@sto.ugu.pl>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/f-droid/website-posts/pl/>\n"
 "Language: pl\n"
@@ -6649,7 +6649,7 @@ msgstr "[Commown w Solarimpulse](https://solarimpulse.com/companies/commown)"
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
 msgid "[Commons as the model for the future](https://medium.com/@myriamboure/commons-the-model-of-post-liberal-capitalism-55375f052a22) (Medium.com link. Sorry again.)"
-msgstr "[Commons jako wzór na przyszłość] (https://medium.com/@myriamboure/commons-the-model-of-post-liberal-capitalism-55375f052a22) (link Medium.com przepraszam ponownie.)"
+msgstr "[Commons jako wzór na przyszłość](https://medium.com/@myriamboure/commons-the-model-of-post-liberal-capitalism-55375f052a22) (link Medium.com przepraszam ponownie.)"
 
 #. type: Title ####
 #: build/_posts/md/2018-11-10-twif-29-new-matrix-server-and-mirror-testers-wanted.md
