@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-11-16 11:15+0100\n"
-"PO-Revision-Date: 2018-11-15 20:07+0000\n"
-"Last-Translator: C. Rüdinger <Mail-an-CR@web.de>\n"
+"PO-Revision-Date: 2018-11-19 17:17+0000\n"
+"Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -6789,7 +6789,7 @@ msgstr "**[Tasks](https://f-droid.org/app/org.tasks)** wurde von 6.1.3 auf 6.3.1
 #: build/_posts/md/2018-11-15-twif-30-publishing-applications-through-f-droid-gitlab-runners-and-pluggable-transports.md
 #, no-wrap
 msgid "\"TWIF 30: Publishing Applications through F-Droid, Gitlab Runners and Pluggable Transports\""
-msgstr ""
+msgstr "\"TWIF 30: Publishing-Anwendungen über F-Droid, Gitlab Runner und Pluggable Transports\""
 
 #. type: Plain text
 #: build/_posts/md/2018-11-15-twif-30-publishing-applications-through-f-droid-gitlab-runners-and-pluggable-transports.md
@@ -6805,55 +6805,56 @@ msgstr ""
 #: build/_posts/md/2018-11-15-twif-30-publishing-applications-through-f-droid-gitlab-runners-and-pluggable-transports.md
 #, no-wrap
 msgid "Publishing applications through F-Droid"
-msgstr ""
+msgstr "Veröffentlichen von Anwendungen über F-Droid"
 
 #. type: Plain text
 #: build/_posts/md/2018-11-15-twif-30-publishing-applications-through-f-droid-gitlab-runners-and-pluggable-transports.md
 msgid "If you were interested in adding an app to F-Droid, **[David](http://www.boddie.org.uk/david/www-repo/)** wrote about [his experience of adding one of his apps to F-Droid](http://www.boddie.org.uk/david/www-repo/Personal/Updates/2018/2018-11-11.html). It points to the necessary documentation and gives a good idea of what you can expect."
-msgstr ""
+msgstr "Wenn Sie daran interessiert wären, eine App zu F-Droid hinzuzufügen, schrieb **[David](http://www.boddie.org.uk/david/www-repo/)** über [seine Erfahrung, eine seiner Apps zu F-Droid hinzuzufügen](http://www.boddie.org.uk/david/www-repo/Personal/Updates/2018/2018-11-11.html). Es verweist auf die notwendigen Unterlagen und gibt einen guten Eindruck davon, was Sie erwarten können."
 
 #. type: Plain text
 #: build/_posts/md/2018-11-15-twif-30-publishing-applications-through-f-droid-gitlab-runners-and-pluggable-transports.md
 #, no-wrap
 msgid "> \"In summary, it was easier than I had imagined to publish an application in the F-Droid catalogue. The process was smooth and people were friendly and happy to help. If you write your own Free Software applications for Android, I encourage you to publish them via F-Droid and to submit your own metadata for them to make publication as quick and easy as possible.\"\n"
-msgstr ""
+msgstr "> \"Zusammenfassend lässt sich sagen, dass es einfacher war, als ich mir vorgestellt hatte, eine Anwendung im F-Droid-Katalog zu veröffentlichen. Der Prozess verlief reibungslos und die Leute waren freundlich und hilfsbereit. Wenn Sie Ihre eigenen Freie-Software-Anwendungen für Android schreiben, empfehle ich Ihnen, diese über F-Droid zu veröffentlichen und Ihre eigenen Metadaten einzureichen, um die Veröffentlichung so schnell und einfach wie möglich zu gestalten.\"\n"
 
 #. type: Plain text
 #: build/_posts/md/2018-11-15-twif-30-publishing-applications-through-f-droid-gitlab-runners-and-pluggable-transports.md
 msgid "Read: [Publishing Applications through F-Droid](http://www.boddie.org.uk/david/www-repo/Personal/Updates/2018/2018-11-11.html)"
-msgstr ""
+msgstr "Lesen: [Veröffentlichung von Anwendungen über F-Droid](http://www.boddie.org.uk/david/www-repo/Personal/Updates/2018/2018-11-11.html)"
 
 #. type: Title ####
 #: build/_posts/md/2018-11-15-twif-30-publishing-applications-through-f-droid-gitlab-runners-and-pluggable-transports.md
 #, no-wrap
 msgid "Private GitLab runners"
-msgstr ""
+msgstr "Private GitLab Läufer"
 
 #. type: Plain text
 #: build/_posts/md/2018-11-15-twif-30-publishing-applications-through-f-droid-gitlab-runners-and-pluggable-transports.md
 msgid "We now have the whole buildserver stack running on one of the [GCC Compile Farm](https://cfarm.tetaneutral.net) servers. **[@\\_hc](https://forum.f-droid.org/u/hans)** has set it up as as a GitLab runner, so it's now possible to do real, full builds for [fdroiddata](https://gitlab.com/fdroid/fdroiddata) merge requests. This also includes using machine learning in the form of [LibScout](https://github.com/reddr/libscout) to scan the final APK for trackers. See [fdroiddata!3936](https://gitlab.com/fdroid/fdroiddata/merge_requests/3936) for an example."
-msgstr ""
+msgstr "Wir haben jetzt den gesamten Buildserver-Stapel auf einem von der [GCC Compile Farm](https://cfarm.tetaneutral.net) laufen. **[@\\_hc](https://forum.f-droid.org/u/hans)** hat es als GitLab Läufer eingerichtet, so dass es nun möglich ist, echte, vollständige Builds für [fdroiddata](https://gitlab.com/fdroid/fdroiddata) Merge Requests durchzuführen. Dazu gehört auch die Nutzung von maschinellem Lernen in Form von [LibScout](https://github.com/reddr/libscout), um das endgültige APK nach Trackern zu durchsuchen. Siehe [fdroiddata!3936](https://gitlab.com/fdroid/fdroiddata/merge_requests/3936) für ein Beispiel."
 
 #. type: Plain text
 #: build/_posts/md/2018-11-15-twif-30-publishing-applications-through-f-droid-gitlab-runners-and-pluggable-transports.md
 msgid "The hard part is that the user who submitted the [merge request](https://gitlab.com/help/user/project/merge_requests/index.md) must register the runner for it to run on their merge requests. Please refer to [admin#106](https://gitlab.com/fdroid/admin/issues/106) on how to get access for yourself."
-msgstr ""
+msgstr "Der schwierige Teil ist, dass der Benutzer, der die [Merge-Anforderung](https://gitlab.com/help/user/project/merge_requests/index.md) eingereicht hat, den Läufer registrieren muss, damit er mit seinen Merge-Anforderungen laufen kann. Wie Sie selbst Zugang erhalten, erfahren Sie unter [admin#106](https://gitlab.com/fdroid/admin/issues/106)."
 
 #. type: Title ####
 #: build/_posts/md/2018-11-15-twif-30-publishing-applications-through-f-droid-gitlab-runners-and-pluggable-transports.md
 #, no-wrap
 msgid "Pluggable Transports"
-msgstr ""
+msgstr "Pluggable-Transporte"
 
 #. type: Plain text
 #: build/_posts/md/2018-11-15-twif-30-publishing-applications-through-f-droid-gitlab-runners-and-pluggable-transports.md
 msgid "The [Guardian Project](https://guardianproject.info) was approved a grant to work on integrating \"Pluggable Transports\" into three apps. The idea is to provide censorship circumvention by disguising traffic as something popular and innocuous, for example WebRTC traffic."
-msgstr ""
+msgstr "Das [Guardian Project](https://guardianproject.info) erhielt einen Zuschuss für die Integration von \"Pluggable Transports\" in drei Apps. Die Idee ist, die Umgehung der Zensur zu gewährleisten, indem man den Verkehr als etwas Populäres und Unschädliches tarnt, zum Beispiel WebRTC-Verkehr."
 
 #. type: Plain text
 #: build/_posts/md/2018-11-15-twif-30-publishing-applications-through-f-droid-gitlab-runners-and-pluggable-transports.md
+#, fuzzy
 msgid "Most likely, this will include Wikimedia and F-Droid for prototypes, with **[@uniq](https://chaos.social/@uniq)** doing most of the work. It'll probably be hard to integrate into the official F-Droid releases, so this grant will most likely end up with working prototypes that people can use if they want."
-msgstr ""
+msgstr "Wahrscheinlich wird dies Wikimedia und F-Droid für Prototypen einbeziehen, wobei **[@uniq](https://chaos.social/@uniq)** die meiste Arbeit leistet. Es wird wahrscheinlich schwierig sein, es in die offiziellen F-Droid-Releases zu integrieren, so dass dieser Zuschuss höchstwahrscheinlich zu funktionierenden Prototypen führen wird, die von den Leuten verwendet werden können, wenn sie wollen."
 
 #. type: Title ####
 #: build/_posts/md/2018-11-15-twif-30-publishing-applications-through-f-droid-gitlab-runners-and-pluggable-transports.md
