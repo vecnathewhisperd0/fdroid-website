@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-11-16 11:15+0100\n"
-"PO-Revision-Date: 2018-11-21 19:07+0000\n"
+"PO-Revision-Date: 2018-11-23 00:07+0000\n"
 "Last-Translator: C. Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\n"
 "Language: de\n"
@@ -6816,7 +6816,7 @@ msgstr "Sollten Sie Interesse haben, eine App zu F-Droid beizutragen, **[David](
 #: build/_posts/md/2018-11-15-twif-30-publishing-applications-through-f-droid-gitlab-runners-and-pluggable-transports.md
 #, no-wrap
 msgid "> \"In summary, it was easier than I had imagined to publish an application in the F-Droid catalogue. The process was smooth and people were friendly and happy to help. If you write your own Free Software applications for Android, I encourage you to publish them via F-Droid and to submit your own metadata for them to make publication as quick and easy as possible.\"\n"
-msgstr "> \"Zusammenfassend lässt sich sagen, dass es einfacher war, als ich mir vorgestellt hatte, eine Anwendung im F-Droid-Katalog zu veröffentlichen. Der Prozess verlief reibungslos und die Leute waren freundlich und hilfsbereit. Wenn Sie Ihre eigenen Freie-Software-Anwendungen für Android schreiben, empfehle ich Ihnen, diese über F-Droid zu veröffentlichen und Ihre eigenen Metadaten einzureichen, um die Veröffentlichung so schnell und einfach wie möglich zu gestalten.\"\n"
+msgstr "> \"Zusammenfassend lässt sich sagen, dass es einfacher war, als ich es mir vorgestellt hatte, eine Anwendung im F-Droid-Katalog zu veröffentlichen. Der Prozess verlief reibungslos und die Leute waren freundlich und hilfsbereit. Wenn Sie Ihre eigenen Freie-Software-Anwendungen für Android schreiben, empfehle ich Ihnen, diese über F-Droid zu veröffentlichen und Ihre eigenen Metadaten einzureichen, um die Veröffentlichung so schnell und einfach wie möglich zu gestalten.\"\n"
 
 #. type: Plain text
 #: build/_posts/md/2018-11-15-twif-30-publishing-applications-through-f-droid-gitlab-runners-and-pluggable-transports.md
