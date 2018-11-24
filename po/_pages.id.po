@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-06-30 12:21+0200\n"
-"PO-Revision-Date: 2018-05-08 19:51+0000\n"
+"PO-Revision-Date: 2018-11-24 08:40+0000\n"
 "Last-Translator: ditokp <ditokpl@gmail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/f-droid/website-pages/id/>\n"
 "Language: id\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.0-dev\n"
+"X-Generator: Weblate 3.3-dev\n"
 
 #. type: Title #
 #: build/_pages/md/403.md
@@ -338,7 +338,7 @@ msgstr "Fabian Rodriguez"
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Pierre Rudloff"
-msgstr ""
+msgstr "Pierre Rudloff"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
@@ -539,7 +539,7 @@ msgstr "Dokumen"
 #. type: Plain text
 #: build/_pages/md/docs.md
 msgid "F-Droid is both a repository of verified free software Android apps as well as a whole \"app store kit\", providing all the tools needed to setup and run an app store. It is a community-run free software project developed by a wide range of contributors. It also includes complete build and release tools for managing the process of turning app source code into published builds."
-msgstr ""
+msgstr "F-Droid adalah repositori dari aplikasi perangkat lunak bebas Android yang diverifikasi serta \"kit app store\" secara keseluruhan, yang menyediakan semua alat yang dibutuhkan untuk menyiapkan dan menjalankan toko aplikasi. Ini adalah proyek perangkat lunak bebas yang dikelola komunitas yang dikembangkan oleh berbagai kontributor. Ini juga mencakup alat pembuat dan rilis lengkap untuk mengelola proses pengubahan kode sumber aplikasi menjadi versi yang dipublikasikan."
 
 #. type: Plain text
 #: build/_pages/md/docs.md
