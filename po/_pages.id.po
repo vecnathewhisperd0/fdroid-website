@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-06-30 12:21+0200\n"
 "PO-Revision-Date: 2018-11-24 08:40+0000\n"
-"Last-Translator: ditokp <ditokpl@gmail.com>\n"
+"Last-Translator: lartial <lartialv@gmail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/f-droid/website-pages/id/>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
@@ -544,7 +544,7 @@ msgstr "F-Droid adalah repositori dari aplikasi perangkat lunak bebas Android ya
 #. type: Plain text
 #: build/_pages/md/docs.md
 msgid "The F-Droid server tools provide various scripts and tools that are used to maintain the main F-Droid application repository. You can use these same tools to create your own additional or alternative repository for publishing, or to assist in creating, testing and submitting metadata to the main repository."
-msgstr ""
+msgstr "Alat server F-Droid menyediakan berbagai skrip dan alat-alat yang digunakan untuk memelihara repositori utama aplikasi F-Droid. Anda dapat menggunakan alat yang sama untuk membuat repositori tambahan Anda sendiri atau repositori alternatif untuk penerbitan, atau untuk membantu dalam menciptakan, menguji dan mengirimkan metadata ke repositori utama."
 
 #. type: Title ###
 #: build/_pages/md/docs.md
