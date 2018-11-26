@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-11-23 14:32+0100\n"
-"PO-Revision-Date: 2018-11-25 10:07+0000\n"
-"Last-Translator: ssantos <ssantos@web.de>\n"
+"PO-Revision-Date: 2018-11-26 10:10+0000\n"
+"Last-Translator: C. Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -6999,17 +6999,18 @@ msgstr "  Wenn Sie Interesse an dem versorgungsnetzlosen, sozialen Netzwerk Scut
 #: build/_posts/md/2018-11-23-twif-31-a-look-at-app-rankings-and-briar-arrives.md
 #, no-wrap
 msgid "\"TWIF 31: A look at app rankings and Briar arrives\""
-msgstr "\"TWIF 31: Ein Blick auf die App-Rankings und Briar kommt.\""
+msgstr "\"TWIF 31: Ein Blick auf App-Rankings und Ankunft von Briar.\""
 
 #. type: Plain text
 #: build/_posts/md/2018-11-23-twif-31-a-look-at-app-rankings-and-briar-arrives.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "In this edition: A look into app rankings and Briar arrives as reproducible build.\n"
 "There are **{{ page.number_of_added_apps }}** new and **{{ page.number_of_updated_apps }}** updated apps.\n"
 "<!--more-->\n"
 msgstr ""
-"In dieser Ausgabe: Die Tagesschau betreibt ein F-Droid-Repo, Beginn der Übersetzungsoptimierung, Abschluss der Buildserver-Automation, sowie 2 neue und {{ page.number_of_updated_apps }} aktualisierte Apps.\n"
+"In dieser Ausgabe: Ein Blick in App-Rankings und Briar kommt als reproduzierbarer Build.\n"
+"Es gibt **{{ page.number_of_added_apps }}** neue und **{{ page.number_of_updated_apps }}** aktualisierte Apps.\n"
 "<!--more-->\n"
 
 #. type: Title ####
@@ -7022,7 +7023,7 @@ msgstr "Ein Blick in die App-Rankings"
 #: build/_posts/md/2018-11-23-twif-31-a-look-at-app-rankings-and-briar-arrives.md
 #, no-wrap
 msgid "**Mobilsicher** looked into how various app stores rank their apps in search results. F-Droid was mentioned as an option that deliberately uses a very simple ranking algorithm, although it's not very effective. [Article in German](https://mobilsicher.de/hintergrund/kritisch-hinterfragt-app-rankings-auf-android-und-ios).\n"
-msgstr "**Mobilsicher** untersuchte, wie verschiedene App-Stores ihre Apps in den Suchergebnissen bewerten. F-Droid wurde als eine Option erwähnt, die bewusst einen sehr einfachen Ranking-Algorithmus verwendet, obwohl er nicht sehr effektiv ist. [Artikel auf Deutsch](https://mobilsicher.de/hintergrund/kritisch-hinterfragt-app-rankings-auf-android-und-ios).\n"
+msgstr "**Mobilsicher** untersuchte, wie verschiedene App-Stores ihre Apps in den Suchergebnissen einordnen. Als eine Option wurde der F-Droid-Store erwähnt, der bewusst einen sehr einfachen Ranking-Algorithmus verwendet, wenngleich der nicht sehr effektiv ist. [Artikel auf Deutsch](https://mobilsicher.de/hintergrund/kritisch-hinterfragt-app-rankings-auf-android-und-ios).\n"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-23-twif-31-a-look-at-app-rankings-and-briar-arrives.md
@@ -7037,41 +7038,37 @@ msgstr "**[The Kana- uiz](https://f-droid.org/app/com.noprestige.kanaquiz)**: Ei
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-23-twif-31-a-look-at-app-rankings-and-briar-arrives.md
 msgid "The Pro versions of the **Simple Mobile Tools** are landing in F-Droid: **[Simple Contacts Pro](https://f-droid.org/app/com.simplemobiletools.contacts.pro)**, **[Simple File Manager Pro](https://f-droid.org/app/com.simplemobiletools.filemanager.pro)**, **[Simple Gallery Pro](https://f-droid.org/app/com.simplemobiletools.gallery.pro)** and **[Simple Notes Pro](https://f-droid.org/app/com.simplemobiletools.notes.pro)**. For background, see [this forum thread](https://forum.f-droid.org/t/simple-mobile-tool-are-becoming-paid/4553)."
-msgstr "Die Pro-Versionen der **Simple Mobile Tools** landen in F-Droid: **[Simple Contacts Pro](https://f-droid.org/app/com.simplemobiletools.contacts.pro)**, **[Simple File Manager Pro](https://f-droid.org/app/com.simplemobiletools.filemanager.pro)**, **[Simple Gallery Pro](https://f-droid.org/app/com.simplemobiletools.gallery.pro)** und **[Simple Notes Pro](https://f-droid.org/app/com.simplemobiletools.notes.pro)**. Für den Hintergrund siehe [diesen Forumsthread](https://forum.f-droid.org/t/simple-mobile-tool-are-becoming-paid/4553)."
+msgstr "Die Pro-Versionen der **Simple Mobile Tools** landen in F-Droid: **[Simple Contacts Pro](https://f-droid.org/app/com.simplemobiletools.contacts.pro)**, **[Simple File Manager Pro](https://f-droid.org/app/com.simplemobiletools.filemanager.pro)**, **[Simple Gallery Pro](https://f-droid.org/app/com.simplemobiletools.gallery.pro)** und **[Simple Notes Pro](https://f-droid.org/app/com.simplemobiletools.notes.pro)**. Hintergrundinformationen finden Sie in [diesem Forumsbeitrag](https://forum.f-droid.org/t/simple-mobile-tool-are-becoming-paid/4553)."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-23-twif-31-a-look-at-app-rankings-and-briar-arrives.md
-#, fuzzy
 msgid "**[KindMind](https://f-droid.org/app/com.sunyata.kindmind)**: Be aware of sad feelings and unmet needs."
-msgstr "**[CineLog](https://f-droid.org/app/com.ulicae.cinelog)**: Filmbesprechungen speichern."
+msgstr "**[KindMind](https://f-droid.org/app/com.sunyata.kindmind)**: Traurige Empfindungen und unbefriedigte Bedürfnisse erkennen."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-23-twif-31-a-look-at-app-rankings-and-briar-arrives.md
-#, fuzzy
 msgid "**[Quoting Stars](https://f-droid.org/app/de.fzi.bettyrieckmann.quotingstars)**: App for silent communications 2017."
-msgstr "**[NotificationLog](https://f-droid.org/app/de.jl.notificationlog)**: Systembenachrichtigungen lokal protokollieren"
+msgstr "**[Quoting Stars](https://f-droid.org/app/de.fzi.bettyrieckmann.quotingstars)**: App für Silent Communications 2017."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-23-twif-31-a-look-at-app-rankings-and-briar-arrives.md
-#, fuzzy
 msgid "**[Wave Lines Wallpaper](https://f-droid.org/app/de.markusfisch.android.wavelines)**: Wavy wallpaper."
-msgstr "**[Mars Live Wallpaper](https://f-droid.org/app/org.covolunablu.marswallpaper)**: Rotierender roter Planet"
+msgstr "**[Wave Lines Wallpaper](https://f-droid.org/app/de.markusfisch.android.wavelines)**: Wellige Hintergrundbilder."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-23-twif-31-a-look-at-app-rankings-and-briar-arrives.md
 msgid "**[Quicksy](https://f-droid.org/app/im.quicksy.client)**: A spin off of the popular Jabber/XMPP client [Conversations](https://f-droid.org/packages/eu.siacs.conversations/) by the same developer.  It adds automatic contact discovery.  Sign up with your phone number and Quicksy will automatically suggest possible contacts based on phone numbers in the local address book. This solves the \"empty contact list\" issue that a user faces on a new XMPP account. Unlike other messenger applications that use phone numbers, Quicksy keeps the federated nature of XMPP intact."
-msgstr "**[Quicksy](https://f-droid.org/app/im.quicksy.client)**: Ein Spin-Off des beliebten Jabber/XMPP-Clients [Conversations](https://f-droid.org/packages/eu.siacs.conversations/) vom gleichen Entwickler.  Es fügt eine automatische Kontakterkennung hinzu.  Registrieren Sie sich mit Ihrer Telefonnummer und Quicksy schlägt Ihnen automatisch mögliche Kontakte basierend auf Telefonnummern im lokalen Adressbuch vor. Dadurch wird das Problem der \"leeren Kontaktliste\" behoben, mit dem ein Benutzer bei einem neuen XMPP-Konto konfrontiert wird. Im Gegensatz zu anderen Messenger-Anwendungen, die Telefonnummern verwenden, behält Quicksy die föderierte Art von XMPP bei."
+msgstr "**[Quicksy](https://f-droid.org/app/im.quicksy.client)**: Ein Spin-Off des beliebten Jabber/XMPP-Clients [Conversations](https://f-droid.org/packages/eu.siacs.conversations/) vom gleichen Entwickler.  Es fügt eine automatische Kontakterkennung hinzu.  Registrieren Sie sich mit Ihrer Telefonnummer und Quicksy schlägt Ihnen automatisch mögliche Kontakte vor, die auf Telefonnummern im lokalen Adressbuch basieren. Dadurch wird das Problem der \"leeren Kontaktliste\" behoben, mit dem ein Benutzer bei einem neuen XMPP-Konto konfrontiert wird. Im Gegensatz zu anderen Messenger-Anwendungen, die Telefonnummern verwenden, behält Quicksy die föderierte Art von XMPP bei."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-23-twif-31-a-look-at-app-rankings-and-briar-arrives.md
-#, fuzzy
 msgid "**[Aruba Networks Login](https://f-droid.org/app/io.mkg20001.arubanetworkslogin)**"
-msgstr "**[Aria2App](https://f-droid.org/app/com.gianlu.aria2app)**"
+msgstr "**[Aruba Networks Login](https://f-droid.org/app/io.mkg20001.arubanetworkslogin)**"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-23-twif-31-a-look-at-app-rankings-and-briar-arrives.md
 msgid "**[Acastus Photon](https://f-droid.org/app/name.gdr.acastus_photon)**: An online address/poi search for navigation apps."
-msgstr "**[Acastus Photon](https://f-droid.org/app/name.gdr.acastus_photon)**: Eine Online-Adress-/POI-Suche nach Navigationsanwendungen."
+msgstr "**[Acastus Photon](https://f-droid.org/app/name.gdr.acastus_photon)**: Eine Online-Adress-/POI-Suche für Navigationsanwendungen."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-23-twif-31-a-look-at-app-rankings-and-briar-arrives.md
@@ -7090,24 +7087,23 @@ msgstr "**[OpenTopoMap Viewer](https://f-droid.org/app/org.nitri.opentopo)**: Op
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-23-twif-31-a-look-at-app-rankings-and-briar-arrives.md
-#, fuzzy
 msgid "**[UserLAnd](https://f-droid.org/app/tech.ula)**: Easiest way to run gnu/linux distros on android - no root required."
-msgstr "**[EtchDroid](https://f-droid.org/app/eu.depau.etchdroid)**: Eine Anwendung, die dabei hilft, Images auf USB-Laufwerke zu schreiben. Root-Rechte sind nicht erforderlich."
+msgstr "**[UserLAnd](https://f-droid.org/app/tech.ula)**: Einfachste Art GNU/Linux-Distros auf Android zu betreiben - Root-Rechte sind nicht erforderlich."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-23-twif-31-a-look-at-app-rankings-and-briar-arrives.md
 msgid "{{ page.major }} **[MinCal Widget](https://f-droid.org/app/cat.mvmike.minimalcalendarwidget)** was updated from 0.4.0 to 1.0.0, citing \"technical improvements\". It now requires at least Android 8.0 to run, which is a _huge_ jump up from 4.4."
-msgstr "{{ page.major }} **[MinCal Widget](https://f-droid.org/app/cat.mvmike.minimalcalendarwidget)** wurde von 0.4.0 auf 1.0.0.0 aktualisiert und verweist auf \"technische Verbesserungen\". Es erfordert nun mindestens Android 8.0, was ein _großer_ Sprung von 4.4 nach oben darstellt."
+msgstr "{{ page.major }} **[MinCal Widget](https://f-droid.org/app/cat.mvmike.minimalcalendarwidget)** wurde von 0.4.0 auf 1.0.0.0 aktualisiert und verweist auf \"technische Verbesserungen\". Verlangt nun mindestens Android 8.0, was einen _riesigen_ Sprung von 4.4 nach oben darstellt."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-23-twif-31-a-look-at-app-rankings-and-briar-arrives.md
 msgid "{{ page.major }} A major update for **[Scarlet FDroid](https://f-droid.org/app/com.bijoysingh.quicknote)**, the rich note-taking app formerly known as **Material Notes**. It was updated from 4.5.4 to 5.9.7 bringing improved search (by tags) with color, improved export features allowing markdown, lots of new features, and new UX for note options and all menus."
-msgstr "{{ page.major }} Ein großes Update für **[Scarlet FDroid](https://f-droid.org/app/com.bijoysingh.quicknote)**, die umfangreiche Notizapplikation, die früher als **Material Notes** bekannt war. Es wurde von 4.5.4 auf 5.9.7 aktualisiert und bietet eine verbesserte Suche (über Tags) mit Farbe, verbesserte Exportfunktionen mit Abschrift, viele neue Funktionen und ein neues Bedienerlebnis bei Notizoptionen und allen Menüs."
+msgstr "{{ page.major }} Ein großes Update für **[Scarlet FDroid](https://f-droid.org/app/com.bijoysingh.quicknote)**, die umfangreiche Notizapplikation, die früher als **Material Notes** bekannt war. Sie wurde von 4.5.4 auf 5.9.7 aktualisiert und bietet eine verbesserte Suche (über Tags) mit Farbe, verbesserte Exportfunktionen mit Abschrift, viele neue Funktionen und ein neues Bedienerlebnis bei Notizoptionen und allen Menüs."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-23-twif-31-a-look-at-app-rankings-and-briar-arrives.md
 msgid "**[Music Player GO](https://f-droid.org/app/com.iven.musicplayergo)** is a very slim music player with a colorful and simple \"Unified UI\". It was updated from 3.1.3.2 to 3.4.2, with UI refinements, adding a stroke to the selected album, theme changes, a search bar, and more."
-msgstr "**[Music Player GO](https://f-droid.org/app/com.iven.musicplayergo)** ist ein sehr schlanker Musikplayer mit einer bunten und einfachen \"vereinheitlichten Benutzerschnittstelle\". Es wurde von 3.1.3.2 auf 3.4.2 aktualisiert, mit Oberflächenverfeinerungen, dem Hinzufügen eines Streichs zum ausgewählten Album, Themenänderungen, einer Suchleiste und mehr."
+msgstr "**[Music Player GO](https://f-droid.org/app/com.iven.musicplayergo)** ist ein sehr schlanker Musikplayer mit einer bunten und einfachen \"vereinheitlichten Benutzerschnittstelle\". Er wurde von 3.1.3.2 auf 3.4.2 aktualisiert, mit Oberflächenverfeinerungen, dem Hinzufügen eines Streichs zum ausgewählten Album, Themenänderungen, einer Suchleiste und mehr."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-23-twif-31-a-look-at-app-rankings-and-briar-arrives.md
@@ -7132,7 +7128,7 @@ msgstr "**[Open Contacts](https://f-droid.org/app/opencontacts.open.com.opencont
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-23-twif-31-a-look-at-app-rankings-and-briar-arrives.md
 msgid "**[G-Droid](https://f-droid.org/app/org.gdroid.gdroid)**, an alternative client for the F-Droid repository, was updated from 0.1.4 to 0.2.1, fixing the layout on very small and very large screens, fixing the update button for installed apps, a loading animation for loading images, 2 new main screen views, and other UI improvements and fixes."
-msgstr "**[G-Droid](https://f-droid.org/app/org.gdroid.gdroid)**, ein alternativer Client für das F-Droid-Repository, wurde von 0.1.4 auf 0.2.1 aktualisiert, indem das Layout auf sehr kleinen und sehr großen Bildschirmen korrigiert wurde, der Update-Button für installierte Anwendungen korrigiert wurde, eine Ladeanimation zum Laden von Bildern, 2 neue Hauptbildschirmansichten und andere Verbesserungen und Korrekturen der Benutzerschnittstelle."
+msgstr "**[G-Droid](https://f-droid.org/app/org.gdroid.gdroid)**, ein alternativer Client für das F-Droid-Repository, wurde von 0.1.4 auf 0.2.1 aktualisiert, mit Korrektur des Layouts auf sehr kleinen und sehr großen Bildschirmen, Reparatur des Update-Button für installierte Anwendungen, einer Ladeanimation beim Laden von Bildern, 2 neuen Hauptbildschirmansichten und anderen Verbesserungen und Korrekturen der Benutzerschnittstelle."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-23-twif-31-a-look-at-app-rankings-and-briar-arrives.md
@@ -7142,12 +7138,12 @@ msgstr "**[The Light](https://f-droid.org/app/org.hlwd.bible)**, eine mehrsprach
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-23-twif-31-a-look-at-app-rankings-and-briar-arrives.md
 msgid "**[AtmosphereLogger](https://f-droid.org/app/org.tamanegi.atmosphere)** is an atmospheric pressure logger using your device's barometer sensor. It came back to life after 2 years, going from 0.1.4 to 0.2.3. Unfortunately it does not have published changelogs, but it appears to have grown an export feature at least."
-msgstr "**[AtmosphereLogger](https://f-droid.org/app/org.tamanegi.atmosphere)** ist ein Luftdrucklogger für dem Barometersensor Ihres Geräts. Es erwachte nach 2 Jahren wieder zum Leben und ging von 0.1.4 auf 0.2.3. Leider hat es keine veröffentlichten Changelogs, aber es scheint zumindest eine Exportfunktion entwickelt zu haben."
+msgstr "**[AtmosphereLogger](https://f-droid.org/app/org.tamanegi.atmosphere)** ist ein Luftdrucklogger für den Barometersensor Ihres Geräts. Er erwachte nach 2 Jahren wieder zum Leben und ging von 0.1.4 auf 0.2.3. Leider hat er keine veröffentlichten Changelogs, aber er scheint zumindest eine Exportfunktion entwickelt zu haben."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-23-twif-31-a-look-at-app-rankings-and-briar-arrives.md
 msgid "**[Transistor](https://f-droid.org/app/org.y20k.transistor)**, a bare-bones app for listening to internet radio, released 3.1.0, featuring a new app icon, improved handling of links from radio-browser.info, a new color scheme, and several bug fixes."
-msgstr "**[Transistor](https://f-droid.org/app/org.y20k.transistor)**, eine minimalistische App zum Hören von Internet-Radio, veröffentlicht 3.1.0, mit einem neuen App-Icon, verbesserter Handhabung von Verknüpfngen von radio-browser.info, einem neuen Farbschema und mehreren Fehlerkorrekturen."
+msgstr "**[Transistor](https://f-droid.org/app/org.y20k.transistor)**, eine minimalistische App zum Hören von Internet-Radio, veröffentlicht 3.1.0, mit einem neuen App-Icon, verbesserter Handhabung von Verknüpfungen von radio-browser.info, einem neuen Farbschema und mehreren Fehlerkorrekturen."
 
 #~ msgid "**[Nextcloud Talk](https://f-droid.org/app/com.nextcloud.talk2)** 3.0.0 is out. (Or 4.0. Who even knows anymore?) Now with video verification, ability to share files in a chat, easier chat handling and logging, and just generally a better experience. Read the [official blog post](https://nextcloud.com/blog/nextcloud-talk-4.0-is-out/) for the juicy details."
 #~ msgstr "**[Nextcloud Talk](https://f-droid.org/app/com.nextcloud.talk2)** 3.0.0 ist draußen. (Oder 4.0. Wer weiß sogar noch mehr?) Nun mit Video-Verifikation, der Möglichkeit, Dateien in einem Chat zu teilen, einfacherer Chat-Bedienung und -Anmeldung und überhaupt besserem Erlebniswert. Lesen Sie den [offiziellen Blog-Post](https://nextcloud.com/blog/nextcloud-talk-4.0-is-out/), um die reizvollen Einzelheiten zu erfahren."
