@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-11-23 14:32+0100\n"
-"PO-Revision-Date: 2018-11-27 20:07+0000\n"
+"PO-Revision-Date: 2018-11-29 13:08+0000\n"
 "Last-Translator: WaldiS <admin@sto.ugu.pl>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/f-droid/website-posts/pl/>\n"
 "Language: pl\n"
@@ -7033,7 +7033,7 @@ msgstr "**[The Kana Quiz](https://f-droid.org/app/com.noprestige.kanaquiz)**: Pr
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-23-twif-31-a-look-at-app-rankings-and-briar-arrives.md
 msgid "The Pro versions of the **Simple Mobile Tools** are landing in F-Droid: **[Simple Contacts Pro](https://f-droid.org/app/com.simplemobiletools.contacts.pro)**, **[Simple File Manager Pro](https://f-droid.org/app/com.simplemobiletools.filemanager.pro)**, **[Simple Gallery Pro](https://f-droid.org/app/com.simplemobiletools.gallery.pro)** and **[Simple Notes Pro](https://f-droid.org/app/com.simplemobiletools.notes.pro)**. For background, see [this forum thread](https://forum.f-droid.org/t/simple-mobile-tool-are-becoming-paid/4553)."
-msgstr ""
+msgstr "Wersje Pro **Simple Mobile Tools** lądują w F-Droid: **[Simple Contacts Pro](https://f-droid.org/app/com.simplemobiletools.contacts.pro)**, **[Simple File Manager Pro](https://f-droid.org/app/com.simplemobiletools.filemanager.pro)**, **[Simple Gallery Pro](https://f-droid.org/app/com.simplemobiletools.gallery.pro)** i **[Simple Notes Pro](https://f-droid.org/app/com.simplemobiletools.notes.pro)**. W tle, patrz [ten wątek na forum](https://forum.f-droid.org/t/simple-mobile-tool-are-becoming-paid/4553)."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-23-twif-31-a-look-at-app-rankings-and-briar-arrives.md
@@ -7053,7 +7053,7 @@ msgstr "**[Wave Lines Wallpaper](https://f-droid.org/app/de.markusfisch.android.
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-23-twif-31-a-look-at-app-rankings-and-briar-arrives.md
 msgid "**[Quicksy](https://f-droid.org/app/im.quicksy.client)**: A spin off of the popular Jabber/XMPP client [Conversations](https://f-droid.org/packages/eu.siacs.conversations/) by the same developer.  It adds automatic contact discovery.  Sign up with your phone number and Quicksy will automatically suggest possible contacts based on phone numbers in the local address book. This solves the \"empty contact list\" issue that a user faces on a new XMPP account. Unlike other messenger applications that use phone numbers, Quicksy keeps the federated nature of XMPP intact."
-msgstr ""
+msgstr "**[Quicksy](https://f-droid.org/app/im.quicksy.client)**: Wydzielenie popularnego klienta Jabber/XMPP [Konwersacje](https://f-droid.org/packages/eu.siacs.conversations/) tego samego programisty. Dodaje automatyczne wykrywanie kontaktów. Zarejestruj się za pomocą numeru telefonu, a Quicksy automatycznie zaproponuje możliwe kontakty na podstawie numerów telefonów w lokalnej książce adresowej. Rozwiązuje to problem \"pustej listy kontaktów\", z którym użytkownik się spotyka na nowym koncie XMPP. W przeciwieństwie do innych aplikacji komunikatorów używających numerów telefonów, Quicksy utrzymuje nienaruszoną federacyjną naturę XMPP."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-23-twif-31-a-look-at-app-rankings-and-briar-arrives.md
@@ -7068,7 +7068,7 @@ msgstr "**[Acastus Photon](https://f-droid.org/app/name.gdr.acastus_photon)**: A
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-23-twif-31-a-look-at-app-rankings-and-briar-arrives.md
 msgid "{{ page.featured }} **[Briar](https://f-droid.org/app/org.briarproject.briar.android)** has finally landed! This is a messenger and social network app that doesn't depend on the internet (but can take advantage of it when available), exchanging messages between phones directly. It is comparable to **[Manyverse](https://f-droid.org/app/se.manyver)** in that way. Thanks to **[@Tovok7](https://blog.grobox.de)** setting up [disorderfs](https://salsa.debian.org/reproducible-builds/disorderfs), this now builds [reproducibly](https://reproducible-builds.org), which the author requires for us to be allowed to publish it."
-msgstr ""
+msgstr "{{ page.featured }} **[Briar](https://f-droid.org/app/org.briarproject.briar.android)** w końcu wylądował! Jest to aplikacja sieci komunikacyjnej i społecznościowej, która nie zależy od Internetu (ale może korzystać z niego, gdy jest dostępna), bezpośrednio wymieniając wiadomości między telefonami. Jest porównywalny do **[Manyverse](https://f-droid.org/app/se.manyver)** w taki sposób. Dzięki **[@Tovok7](https://blog.grobox.de)** konfiguracji [disorderfs](https://salsa.debian.org/reproducible-builds/disorderfs), teraz buduje [w sposób odtwarzalny](https://reproducible-builds.org), którego autor wymaga, abyśmy mogli go opublikować."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-23-twif-31-a-look-at-app-rankings-and-briar-arrives.md
