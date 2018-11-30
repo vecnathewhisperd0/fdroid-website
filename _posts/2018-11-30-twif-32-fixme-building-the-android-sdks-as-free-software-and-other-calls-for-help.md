@@ -52,14 +52,28 @@ Nevertheless, ongoing help is needed! Please have a look at the [forum thread](h
 
 ### New apps
 
-* **[Frost](https://f-droid.org/app/com.pitchedapps.frost)**
-* **[Arch packages](https://f-droid.org/app/com.rascarlo.arch.packages)**
-* **[Simple Calendar Pro](https://f-droid.org/app/com.simplemobiletools.calendar.pro)**
+* **[Frost for Facebook](https://f-droid.org/app/com.pitchedapps.frost)** is a fully functional web wrapper, with many unique and native features: 
+  * True multi user interactions
+  * Better multitasking
+  * Contextual awareness
+  * Material Design
+  * Complete theme engine
+  * Fully opened
+  * Fixes the little things
+
+* **[Arch packages](https://f-droid.org/app/com.rascarlo.arch.packages)** An Arch Linux packages browser, it makes use of the official API to browse the repos.
+
+* Another Pro version of the **Simple Mobile Tools** is landing in F-Droid: **[Simple Calendar Pro](https://f-droid.org/app/com.simplemobiletools.calendar.pro)**. For background, see [this forum thread](https://forum.f-droid.org/t/simple-mobile-tool-are-becoming-paid/4553).
+
 * **[PiGrid Companion](https://f-droid.org/app/de.blocklink.pigrid)**: Gridcoin stakebox companion app.
+
 * **[Yaacc](https://f-droid.org/app/de.yaacc)**: Upnp client and server.
-* **[Open In WhatsApp](https://f-droid.org/app/io.github.subhamtyagi.openinwhatsapp)**: Open chat in whatsapp.
-* **[FiSSH](https://f-droid.org/app/science.iodev.fissh)**: Ssh authentication via fingerprint scanning over network (ssl sockets).
-* **[Firefly III Mobile](https://f-droid.org/app/xyz.hisname.fireflyiii)**: Mobile wrapper for firefly iii.
+
+* **[Open In WhatsApp](https://f-droid.org/app/io.github.subhamtyagi.openinwhatsapp)**: Open chat in Whatsapp.
+
+* **[FiSSH](https://f-droid.org/app/science.iodev.fissh)**: SSH authentication via fingerprint scanning over the network (SSL sockets). It stores your SSH key phrase and sends it to your PC securely via the LAN when an authorized fingerprint is detected by the fingerprint scanner. Your PC needs to be running the complementary [desktop app](https://git.iodev.science/ioan/FiSSH-Desktop).
+
+* **[Firefly III Mobile](https://f-droid.org/app/xyz.hisname.fireflyiii)**: Unofficial mobile client for Firefly III, a self-hosted financial manager. In order to use this app, you must first setup a [Firefly III instance](https://firefly-iii.org/).
 
 ### Updated apps
 
