@@ -560,7 +560,7 @@ msgstr "[FAQ - Umum](FAQ_-_General) Pertanyaan yang Sering Ditanyakan tentang F-
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
 msgid "[FAQ - Client](FAQ_-_Client) Frequently Asked Questions about how to use the F-Droid app in Android."
-msgstr "[FAQ - Klien](FAQ_-_Klien) Pertanyaan yang Sering Ditanyakan tentang bagaimana cara menggunakan aplikasi F-Droid di Android."
+msgstr "[FAQ - Klien](FAQ_-_Client) Pertanyaan yang Sering Ditanyakan tentang bagaimana cara menggunakan aplikasi F-Droid di Android."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
@@ -586,17 +586,17 @@ msgstr "[Repositori yang Dikenal](https://forum.f-droid.org/t/721) Daftar yang m
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
 msgid "[Release Channels and Signing Keys](Release_Channels_and_Signing_Keys) These are the various channels that F-Droid software are released on, with info to verify them based on signing keys."
-msgstr "[Saluran yang Dirilis dan Kunci Penandatanganan] (Release_Channels_and_Signing_Keys) Ini adalah berbagai saluran yang dirilis perangkat lunak F-Droid, dengan info untuk memverifikasi mereka berdasarkan kunci penandatanganan."
+msgstr "[Saluran yang Dirilis dan Kunci Penandatanganan](Release_Channels_and_Signing_Keys) Ini adalah berbagai saluran yang dirilis perangkat lunak F-Droid, dengan info untuk memverifikasi mereka berdasarkan kunci penandatanganan."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
 msgid "[Security Model](Security_Model) A brief explanation of how F-Droid delivers software to users securely."
-msgstr "[Model Keamanan] (Security_Model) Penjelasan singkat tentang bagaimana F-Droid memberikan perangkat lunak kepada pengguna secara aman."
+msgstr "[Model Keamanan](Security_Model) Penjelasan singkat tentang bagaimana F-Droid memberikan perangkat lunak kepada pengguna secara aman."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
 msgid "[Translation and Localization](Translation_and_Localization) How all the parts of F-Droid are localized."
-msgstr "[Terjemahan dan Lokalisasi] (Translation_and_Localization) Bagaimana semua bagian F-Droid dilokalisasi."
+msgstr "[Terjemahan dan Lokalisasi](Translation_and_Localization) Bagaimana semua bagian F-Droid dilokalisasi."
 
 #. type: Title ###
 #: build/_pages/md/docs.md
@@ -612,7 +612,7 @@ msgstr "[FAQ - Pengembang Aplikasi](FAQ_-_App_Developers) Pertanyaan yang Sering
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
 msgid "[Build Metadata Reference](Build_Metadata_Reference) All about the build \"recipes\""
-msgstr "[Referensi Membangun Metadata] (Build_Metadata_Reference) Semua tentang membangun \"resep\""
+msgstr "[Referensi Membangun Metadata](Build_Metadata_Reference) Semua tentang membangun \"resep\""
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
@@ -627,37 +627,37 @@ msgstr "[Pemrosesan Pembaruan](Update_Processing) Bagaimana pembaruan bisa terde
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
 msgid "[Inclusion Policy](Inclusion_Policy) & [Inclusion How-To](Inclusion_How-To)  Guidelines for how to request the inclusion of a new app."
-msgstr "[Kebijakan Penyertaan] (Inclusion_Policy) & [Penyertaan_Bagaimana-Untuk] (Inclusion_How-To)  Pedoman untuk cara meminta penyertaan aplikasi baru."
+msgstr "[Kebijakan Penyertaan](Inclusion_Policy) & [Penyertaan_Bagaimana-Untuk](Inclusion_How-To)  Pedoman untuk cara meminta penyertaan aplikasi baru."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
 msgid "[Importing Applications](Importing_Applications) Using `fdroid import` to build a new project."
-msgstr "[Mengimpor Aplikasi] (Importing_Applications) Menggunakan 'fdroid import' untuk membangun sebuah proyek baru."
+msgstr "[Mengimpor Aplikasi](Importing_Applications) Menggunakan 'fdroid import' untuk membangun sebuah proyek baru."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
 msgid "[Building Applications](Building_Applications) Using `fdroid build` to build an app."
-msgstr "[Membangun Aplikasi] (Building_Applications) Menggunakan 'fdroid build' untuk membangun sebuah aplikasi."
+msgstr "[Membangun Aplikasi](Building_Applications) Menggunakan 'fdroid build' untuk membangun sebuah aplikasi."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
 msgid "[All About Descriptions, Graphics, and Screenshots](All_About_Descriptions_Graphics_and_Screenshots) Showing off your app in F-Droid."
-msgstr "[Semua Tentang Deskripsi, Grafis, dan Tangkapan Layar] (All_About_Descriptions_Graphics_and_Screenshots) Perlihatkan aplikasi Anda di F-Droid."
+msgstr "[Semua Tentang Deskripsi, Grafis, dan Tangkapan Layar](All_About_Descriptions_Graphics_and_Screenshots) Perlihatkan aplikasi Anda di F-Droid."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
 msgid "[Publishing Nightly Builds](Publishing_Nightly_Builds) Make an automated repo of nightly builds of your app."
-msgstr "[Penerbitan Nightly Builds] (Publishing_Nightly_Builds) Membuat repo otomatis dari nightly builds dari aplikasi Anda."
+msgstr "[Penerbitan Nightly Builds](Publishing_Nightly_Builds) Membuat repo otomatis dari nightly builds dari aplikasi Anda."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
 msgid "[Installing the Server and Repo Tools](Installing_the_Server_and_Repo_Tools) How to install fdroidserver, the tools for running repos and build servers."
-msgstr "[Menginstal Server dan alat-alat Repo] (Installing_the_Server_and_Repo_Tools) Cara Instal fdroidserver, alat-alat untuk menjalankan repos dan membangun server."
+msgstr "[Menginstal Server dan alat-alat Repo](Installing_the_Server_and_Repo_Tools) Cara Instal fdroidserver, alat-alat untuk menjalankan repos dan membangun server."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
 msgid "[Setup an F-Droid App Repo](Setup_an_F-Droid_App_Repo) How to setup your own repository of apps that users can easily add to their F-Droid client to get your apps directly from the source."
-msgstr "[Menyiapkan Repo Aplikasi F-Droid] (Setup_an_F-Droid_App_Repo) Bagaimana menyiapkan repositori aplikasi Anda sendiri yang pengguna dapat dengan mudah menambahkan ke klien F-Droid mereka untuk mendapatkan aplikasi Anda langsung dari sumbernya."
+msgstr "[Menyiapkan Repo Aplikasi F-Droid](Setup_an_F-Droid_App_Repo) Bagaimana menyiapkan repositori aplikasi Anda sendiri yang pengguna dapat dengan mudah menambahkan ke klien F-Droid mereka untuk mendapatkan aplikasi Anda langsung dari sumbernya."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
@@ -667,7 +667,7 @@ msgstr ""
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
 msgid "[Signing Process](Signing_Process) How to setup cryptographic signatures with F-Droid tools"
-msgstr "[Proses Penandatanganan] (Signing_Process) Cara menyiapkan penandatanganan kriptografi dengan alat F-Droid"
+msgstr "[Proses Penandatanganan](Signing_Process) Cara menyiapkan penandatanganan kriptografi dengan alat F-Droid"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md

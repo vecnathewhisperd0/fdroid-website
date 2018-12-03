@@ -609,7 +609,7 @@ msgstr "Desenvolvedores"
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
 msgid "[FAQ - App Developers](FAQ_-_App_Developers) Frequently Asked Questions about F-Droid"
-msgstr "[FAQ - Desenvolvedores de Aplicativos](FAQ _-_ App_Developers) Perguntas frequentes sobre o F-Droid."
+msgstr "[FAQ - Desenvolvedores de Aplicativos](FAQ_-_App_Developers) Perguntas frequentes sobre o F-Droid."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
