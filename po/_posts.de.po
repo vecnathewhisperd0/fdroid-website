@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-12-03 18:00+0100\n"
 "PO-Revision-Date: 2018-12-03 21:49+0000\n"
-"Last-Translator: ssantos <ssantos@web.de>\n"
+"Last-Translator: C. Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -7309,12 +7309,8 @@ msgstr "\"TWIF 32: Erstellung der Android SDKs als Freie Software und andere Hil
 
 #. type: Plain text
 #: build/_posts/md/2018-11-30-twif-32-fixme-building-the-android-sdks-as-free-software-and-other-calls-for-help.md
-#, fuzzy
 msgid "In this edition: Building the Android SDKs as Free Software, F-Droid buildserver container, F-Droid article in c't magazine, repomaker Flatpak and TWIF Call for Help. There are **{{ page.number_of_added_apps }}** new and **{{ page.number_of_updated_apps }}** updated apps."
-msgstr ""
-"In dieser Ausgabe: Ein Blick in App-Rankings und Briar kommt als reproduzierbarer Build.\n"
-"Es gibt **{{ page.number_of_added_apps }}** neue und **{{ page.number_of_updated_apps }}** aktualisierte Apps.\n"
-"<!--more-->\n"
+msgstr "In dieser Ausgabe: Erstellung der Android SDKs als Freie Software, F-Droid Buildserver Container, F-Droid-Artikel im c't-Magazin, Repomaker Flatpak und TWIF-Hilferuf. Es gibt **{{ page.number_of_added_apps }}** neue und **{{ page.number_of_updated_apps }}** aktualisierte Apps."
 
 #. type: Title ###
 #: build/_posts/md/2018-11-30-twif-32-fixme-building-the-android-sdks-as-free-software-and-other-calls-for-help.md
@@ -7357,9 +7353,9 @@ msgstr "Unser **[@Izzy](https://forum.f-droid.org/u/izzy)** schreibt eine 3-teil
 
 #. type: Title ###
 #: build/_posts/md/2018-11-30-twif-32-fixme-building-the-android-sdks-as-free-software-and-other-calls-for-help.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Repomaker Flatpak"
-msgstr "Repomaker"
+msgstr "Repomaker Flatpak"
 
 #. type: Plain text
 #: build/_posts/md/2018-11-30-twif-32-fixme-building-the-android-sdks-as-free-software-and-other-calls-for-help.md
@@ -7518,9 +7514,8 @@ msgstr "**[PSLab](https://f-droid.org/wiki/page/org.fossasia.pslab)** wurde ins 
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-30-twif-32-fixme-building-the-android-sdks-as-free-software-and-other-calls-for-help.md
-#, fuzzy
 msgid "**[Omnidroid](https://f-droid.org/wiki/page/edu.nyu.cs.omnidroid.app)** was moved to the archive because it has been abandoned. You should switch to its successor, **[LibreTasks](https://f-droid.org/app/libretasks.app)**."
-msgstr "**[PSLab](https://f-droid.org/wiki/page/org.fossasia.pslab)** wurde ins Archiv verschoben, weil sie durch **[PSLab](https://f-droid.org/app/io.pslab)** ersetzt wurde."
+msgstr "**[Omnidroid](https://f-droid.org/wiki/page/edu.nyu.cs.omnidroid.app)** wurde ins Archiv verschoben, weil sie eingestellt wurde. Sie sollten zu ihrem Nachfolger **[LibreTasks](https://f-droid.org/app/libretasks.app)** wechseln."
 
 #~ msgid "**[Nextcloud Talk](https://f-droid.org/app/com.nextcloud.talk2)** 3.0.0 is out. (Or 4.0. Who even knows anymore?) Now with video verification, ability to share files in a chat, easier chat handling and logging, and just generally a better experience. Read the [official blog post](https://nextcloud.com/blog/nextcloud-talk-4.0-is-out/) for the juicy details."
 #~ msgstr "**[Nextcloud Talk](https://f-droid.org/app/com.nextcloud.talk2)** 3.0.0 ist draußen. (Oder 4.0. Wer weiß sogar noch mehr?) Nun mit Video-Verifikation, der Möglichkeit, Dateien in einem Chat zu teilen, einfacherer Chat-Bedienung und -Anmeldung und überhaupt besserem Erlebniswert. Lesen Sie den [offiziellen Blog-Post](https://nextcloud.com/blog/nextcloud-talk-4.0-is-out/), um die reizvollen Einzelheiten zu erfahren."
