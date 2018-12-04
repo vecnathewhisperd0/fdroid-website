@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-12-03 18:00+0100\n"
-"PO-Revision-Date: 2018-11-27 20:07+0000\n"
+"PO-Revision-Date: 2018-12-05 17:08+0000\n"
 "Last-Translator: WaldiS <admin@sto.ugu.pl>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/f-droid/website-docs/pl/>\n"
 "Language: pl\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 3.3-dev\n"
+"X-Generator: Weblate 3.4-dev\n"
 
 #. type: Title #
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -1436,7 +1436,7 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "`androidupdate=<auto/dirs>`\n"
 msgstr "`androidupdate=<auto/dirs>`\n"
 
@@ -6513,7 +6513,7 @@ msgstr "``` -----BEGIN PUBLIC KEY----- MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCA
 #. type: Plain text
 #: build/_docs/md/Release_Channels_and_Signing_Keys.md
 msgid "-----BEGIN CERTIFICATE----- MIIDXjCCAkagAwIBAgIETEnNADANBgkqhkiG9w0BAQUFADBxMQswCQYDVQQGEwJV SzEQMA4GA1UECBMHVW5rbm93bjERMA8GA1UEBxMIV2V0aGVyYnkxEDAOBgNVBAoT B1Vua25vd24xEDAOBgNVBAsTB1Vua25vd24xGTAXBgNVBAMTEENpYXJhbiBHdWx0 bmlla3MwHhcNMTAwNzIzMTcxMDI0WhcNMzcxMjA4MTcxMDI0WjBxMQswCQYDVQQG EwJVSzEQMA4GA1UECBMHVW5rbm93bjERMA8GA1UEBxMIV2V0aGVyYnkxEDAOBgNV BAoTB1Vua25vd24xEDAOBgNVBAsTB1Vua25vd24xGTAXBgNVBAMTEENpYXJhbiBH dWx0bmlla3MwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCW0HXkfAFO eCLIn9Z/eV0jID4qiEP1O6Tmsb9fL9DiJZOCZ8/K5/v0/lljRq+69AcP25H2b7zf I0ij2SQwUCgk+AUXsVb6sAgJvcjmMb+pr9QtkEWrX9bSjZ4UCvwTAJF7GbfGxN9K SUzx98tKY8gNc0Jl1zWvnk8JRV9CeqZaU1Y/h7M2yiwZ0kT8u6YXugsZ5W7TSv4L JTq5Hi/bEnHxuePDIyAn7YhioRLwcG4jTPI2kUuTm8+VmCHssqbBgFfgcN40KARt lLF14dib15XlNUmaCR9bxlp51Tmo1DiR7FBAWKyyjAg5O1cYtXYAohHoA/SmNOXF fyW5uMRCLG/ZAgMBAAEwDQYJKoZIhvcNAQEFBQADggEBAAjk72memAdnf/VnU9pz 77I5DVriwX5NtpHV33p7YPwHGuUJxUFL59XadN8oEeg9NmjEoLGryEufp9lrTN8w u6aFF60qk+IzsEKXKsBVOkgByevge/V+vpo7PW1mOWUmDlDzuPRtsFMXYeYDQKK9 3DQmCYOX/aVARKF+UkRUn5hptGDKXm4ha29qLbBYC0gMoq/m7GtG7trPpKpFA4gJ 7ODFl4ZT1shfZ45/WiFW0b7dgRd1HmSksNzRQPMECwIYIajZOu2NAbo222yCNyIR /tcU2aMmBwOM39VlvVKf/GNyEqqiwiTvIrYD7M77W/HghcGR1LJP50KxerP1XU5v Be8= -----END CERTIFICATE----- ```"
-msgstr ""
+msgstr "-----BEGIN CERTIFICATE----- MIIDXjCCAkagAwIBAgIETEnNADANBgkqhkiG9w0BAQUFADBxMQswCQYDVQQGEwJV SzEQMA4GA1UECBMHVW5rbm93bjERMA8GA1UEBxMIV2V0aGVyYnkxEDAOBgNVBAoT B1Vua25vd24xEDAOBgNVBAsTB1Vua25vd24xGTAXBgNVBAMTEENpYXJhbiBHdWx0 bmlla3MwHhcNMTAwNzIzMTcxMDI0WhcNMzcxMjA4MTcxMDI0WjBxMQswCQYDVQQG EwJVSzEQMA4GA1UECBMHVW5rbm93bjERMA8GA1UEBxMIV2V0aGVyYnkxEDAOBgNV BAoTB1Vua25vd24xEDAOBgNVBAsTB1Vua25vd24xGTAXBgNVBAMTEENpYXJhbiBH dWx0bmlla3MwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCW0HXkfAFO eCLIn9Z/eV0jID4qiEP1O6Tmsb9fL9DiJZOCZ8/K5/v0/lljRq+69AcP25H2b7zf I0ij2SQwUCgk+AUXsVb6sAgJvcjmMb+pr9QtkEWrX9bSjZ4UCvwTAJF7GbfGxN9K SUzx98tKY8gNc0Jl1zWvnk8JRV9CeqZaU1Y/h7M2yiwZ0kT8u6YXugsZ5W7TSv4L JTq5Hi/bEnHxuePDIyAn7YhioRLwcG4jTPI2kUuTm8+VmCHssqbBgFfgcN40KARt lLF14dib15XlNUmaCR9bxlp51Tmo1DiR7FBAWKyyjAg5O1cYtXYAohHoA/SmNOXF fyW5uMRCLG/ZAgMBAAEwDQYJKoZIhvcNAQEFBQADggEBAAjk72memAdnf/VnU9pz 77I5DVriwX5NtpHV33p7YPwHGuUJxUFL59XadN8oEeg9NmjEoLGryEufp9lrTN8w u6aFF60qk+IzsEKXKsBVOkgByevge/V+vpo7PW1mOWUmDlDzuPRtsFMXYeYDQKK9 3DQmCYOX/aVARKF+UkRUn5hptGDKXm4ha29qLbBYC0gMoq/m7GtG7trPpKpFA4gJ 7ODFl4ZT1shfZ45/WiFW0b7dgRd1HmSksNzRQPMECwIYIajZOu2NAbo222yCNyIR /tcU2aMmBwOM39VlvVKf/GNyEqqiwiTvIrYD7M77W/HghcGR1LJP50KxerP1XU5v Be8= -----END CERTIFICATE----- ```"
 
 #. type: Plain text
 #: build/_docs/md/Release_Channels_and_Signing_Keys.md
@@ -7177,15 +7177,14 @@ msgstr "![Tabela przepływów dla sprawdzenia odtwarzalności]({{ site.baseurl }
 
 #. type: Title ####
 #: build/_docs/md/Reproducible_Builds.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Publish both (upstream-)developer signed and F-Droid signed APKs"
-msgstr "Opublikuj pliki APK podpisane zarówno przez programistę (upstream-), jak i F-Droid"
+msgstr "Opublikuj podpisane pliki APK podpisane przez programistę (na starcie) oraz pliki podpisane przez F-Droid"
 
 #. type: Plain text
 #: build/_docs/md/Reproducible_Builds.md
-#, fuzzy
 msgid "Use this approach for shipping a version of an app, with both (upstream-)developer signed and F-Droid signed APKs. This enables us to ship updates for users who installed apps from other sources than F-Droid (eg. Play Store) which are therefore signed by the app-developers, while also shipping updates for apps which were built and signed by F-Droid."
-msgstr "Zastosuj to podejście do wysyłania wersji aplikacji z podpisanymi zarówno programistami (na starcie), jak i plikami APK podpisanymi przez F-Droid. Dzięki temu możemy wysyłać aktualizacje dla użytkowników, którzy zainstalowali aplikacje z innych źródeł niż F-Droid (np. Sklep Play), które są w ten sposób emitowane przez twórców aplikacji, a także wysyłane są aktualizacje aplikacji, które zostały zbudowane i zaaplikowane przez F-Droid."
+msgstr "Zastosuj to podejście do wysyłania wersji aplikacji z podpisanymi zarówno programistami (na starcie), jak i plikami APK podpisanymi przez F-Droid. Dzięki temu możemy wysyłać aktualizacje dla użytkowników, którzy zainstalowali aplikacje z innych źródeł niż F-Droid (np. Sklep Play), które są dlatego podpisane przez programistów aplikacji, a także dostarczają aktualizacje dla aplikacji, które zostały zbudowane i podpisane przez F-Droid."
 
 #. type: Plain text
 #: build/_docs/md/Reproducible_Builds.md
