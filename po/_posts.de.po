@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-12-03 18:00+0100\n"
 "PO-Revision-Date: 2018-12-07 05:32+0000\n"
-"Last-Translator: C. Rüdinger <Mail-an-CR@web.de>\n"
+"Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -7120,10 +7120,7 @@ msgstr "**[Markor](https://f-droid.org/app/net.gsantner.markor)**, ein voll ausg
 #: build/_posts/md/2018-11-15-twif-30-publishing-applications-through-f-droid-gitlab-runners-and-pluggable-transports.md
 #, fuzzy
 msgid "**[Open Contacts](https://f-droid.org/app/opencontacts.open.com.opencontacts)**, a privacy-friendly contact list that can't be read by other apps, was updated from 5.0 to 6.0, with contact names now a bit bolder, contacts following similar structure to call logs with actions either side of contact, and the call log now updates contact names as soon as a contact is added, rather than ignoring existing calls in the log."
-msgstr ""
-"**[Open Contacts](https://f-droid.org/app/opencontacts.open.com.opencontacts)**, eine datenschützende Kontakteliste, die von anderen Apps nicht gelesen werden kann, erhielt ein Update von 5.0 auf 6.0, nun mit etwas fetter gedruckten Kontaktnamen, \n"
-"contacts following similar structure to call logs with actions either side of contact, \n"
-"und das Anrufprotokoll übernimmt nun Kontaktnamen, sobald ein Kontakt hinzugefügt wird, statt schon existierende Anrufe im Protokoll nicht zu berücksichtigen."
+msgstr "**[Open Contacts](https://f-droid.org/app/opencontacts.open.com.opencontacts)**, eine datenschutzfreundliche Kontaktliste, die von anderen Anwendungen nicht gelesen werden kann, wurde von 5.0 auf 6.0 aktualisiert, mit etwas fetteren Kontaktnamen, Kontakten mit ähnlicher Struktur wie Anrufprotokolle mit Aktionen auf beiden Seiten des Kontakts, und die Anrufprotokolle aktualisieren nun die Kontaktnamen, sobald ein Kontakt hinzugefügt wird, anstatt bestehende Anrufe im Protokoll zu ignorieren."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-15-twif-30-publishing-applications-through-f-droid-gitlab-runners-and-pluggable-transports.md
@@ -7392,6 +7389,14 @@ msgid ""
 "  * Fully opened\n"
 "  * Fixes the little things\n"
 msgstr ""
+"* * **[Frost for Facebook](https://f-droid.org/app/com.pitchedapps.frost)** ist ein vollwertiger Web-Wrapper mit vielen einzigartigen und nativen Funktionen:\n"
+"  * Echte Multi-User-Interaktionen\n"
+"  * Besseres Multitasking\n"
+"  * Kontext-agnostisch\n"
+"  * Material Design\n"
+"  * Vollständige Themen-Engine\n"
+"  * Vollständig offen\n"
+"  * Behebt kleinere Probleme\n"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-30-twif-32-fixme-building-the-android-sdks-as-free-software-and-other-calls-for-help.md
@@ -7405,9 +7410,8 @@ msgstr "Eine weitere Pro-Version der **Simple Mobile Tools** landet in F-Droid: 
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-30-twif-32-fixme-building-the-android-sdks-as-free-software-and-other-calls-for-help.md
-#, fuzzy
 msgid "**[PiGrid Companion](https://f-droid.org/app/de.blocklink.pigrid)**: Gridcoin stakebox companion app."
-msgstr "**[NotificationLog](https://f-droid.org/app/de.jl.notificationlog)**: Systembenachrichtigungen lokal protokollieren"
+msgstr "**[PiGrid Companion](https://f-droid.org/app/de.blocklink.pigrid)**: Gridcoin Stakebox Begleiter App."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-30-twif-32-fixme-building-the-android-sdks-as-free-software-and-other-calls-for-help.md
@@ -7522,9 +7526,8 @@ msgstr "**[ToGoZip](https://f-droid.org/app/de.k3b.android.toGoZip)** ermöglich
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-30-twif-32-fixme-building-the-android-sdks-as-free-software-and-other-calls-for-help.md
-#, fuzzy
 msgid "**[Solitaire](https://f-droid.org/wiki/page/com.kmagic.solitaire)** was moved to the archive, as it is abandoned and has been replaced with **[SolitaireCG](https://f-droid.org/app/net.sourceforge.solitaire_cg)**, which in turn has matured a lot, is well maintained and offers additional features and games."
-msgstr "**[PSLab](https://f-droid.org/wiki/page/org.fossasia.pslab)** wurde ins Archiv verschoben, weil sie durch **[PSLab](https://f-droid.org/app/io.pslab)** ersetzt wurde."
+msgstr "**[Solitaire](https://f-droid.org/wiki/page/com.kmagic.solitaire)** wurde in das Archiv verschoben, da es aufgegeben wurde und durch **[SolitaireCG](https://f-droid.org/app/net.sourceforge.solitaire_cg)** ersetzt wurde, das wiederum stark gereift ist, gut gepflegt ist und zusätzliche Features und Spiele bietet."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-30-twif-32-fixme-building-the-android-sdks-as-free-software-and-other-calls-for-help.md
