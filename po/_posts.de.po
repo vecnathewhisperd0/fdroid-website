@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-12-03 18:00+0100\n"
-"PO-Revision-Date: 2018-12-05 17:08+0000\n"
+"PO-Revision-Date: 2018-12-06 16:27+0000\n"
 "Last-Translator: C. Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\n"
 "Language: de\n"
@@ -7432,7 +7432,7 @@ msgstr "**[Firefly III Mobile](https://f-droid.org/app/xyz.hisname.fireflyiii)**
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-30-twif-32-fixme-building-the-android-sdks-as-free-software-and-other-calls-for-help.md
 msgid "{{ page.major }} **[Tusky](https://f-droid.org/app/com.keylesspalace.tusky)**, a Mastodon client, had a major [update](https://github.com/tuskyapp/Tusky/releases) to 4.0, with redesigned preferences, refactored media detail view with support for sharing media files and copying their links, collapse long statuses, share videos to Tusky, and many more. This update also [removes support for Android 4](https://github.com/tuskyapp/Tusky/issues/476)."
-msgstr ""
+msgstr "{{ page.major }} **[Tusky](https://f-droid.org/app/com.keylesspalace.tusky)**, ein Mastodon-Client, hatte ein großes [Update](https://github.com/tuskyapp/Tusky/releases) auf 4.0, mit neu gestalteten Einstellungen, neu erstellter Mediendetailansicht, die das Teilen von Mediendateien und das Kopieren ihrer Links unterstützt, Einklappen langer Verläufe, der Videofreigabe für Tusky und vielem mehr. Diese Aktualisierung [beendet die Unterstützung von Android 4](https://github.com/tuskyapp/Tusky/issues/476)."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-30-twif-32-fixme-building-the-android-sdks-as-free-software-and-other-calls-for-help.md
