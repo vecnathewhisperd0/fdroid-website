@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-12-03 18:00+0100\n"
-"PO-Revision-Date: 2018-12-06 16:27+0000\n"
+"PO-Revision-Date: 2018-12-07 05:32+0000\n"
 "Last-Translator: C. Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\n"
 "Language: de\n"
@@ -7503,22 +7503,22 @@ msgstr "**[G-Droid](https://f-droid.org/app/org.gdroid.gdroid)** wurde von 0.2.1
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-30-twif-32-fixme-building-the-android-sdks-as-free-software-and-other-calls-for-help.md
 msgid "**[OSMBugs](https://f-droid.org/app/org.gittner.osmbugs)** was [updated](https://github.com/ChristopherGittner/OSMBugs/blob/HEAD/CHANGELOG.md) from 1-1-1 to 1-1-4, fixing the \"Failed to load from Mapdust\" bug, updating the Android annotations library, and fixing a translation error."
-msgstr ""
+msgstr "**[OSMBugs](https://f-droid.org/app/org.gittner.osmbugs)** wurde von 1-1-1 auf 1-1-4 [aktualisiert](https://github.com/ChristopherGittner/OSMBugs/blob/HEAD/CHANGELOG.md), behebt damit den Fehler \"Failed to load from Mapdust\", aktualisiert die Android Annotationsbibliothek, und korrigiert einen Übersetzungsfehler."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-30-twif-32-fixme-building-the-android-sdks-as-free-software-and-other-calls-for-help.md
 msgid "**[OpenTopoMap Viewer](https://f-droid.org/app/org.nitri.opentopo)** was updated from 1.0.2 to 1.0.4. **[@Poussinou](https://forum.f-droid.org/u/poussinou)** writes: It removes a big bug that causes the crash of the app when opening a GPX file. You can now display your tracks easily in the map since it has been corrected! Issue [here](https://github.com/Pygmalion69/OpenTopoMapViewer/issues/2). I don't know if it's worth the price to mention this update, but the author has corrected the bug very quickly and tagged a new release ASAP. It was very impressive. I love developers like that!"
-msgstr ""
+msgstr "**[OpenTopoMap Viewer](https://f-droid.org/app/org.nitri.opentopo)** wurde von 1.0.2 auf 1.0.4 aktualisiert. **[@Poussinou](https://forum.f-droid.org/u/poussinou)** schreibt: Es wird ein großer Fehler behoben, der den Absturz der App beim Öffnen einer GPX-Datei verursachte. Tracks können nun leicht auf der Karte angezeigt werden, nachdem er korrigiert wurde! [Hier](https://github.com/Pygmalion69/OpenTopoMapViewer/issues/2) das Issue. Ich weiß nicht, ob der Aufwand lohnt, diese Aktualisierung zu erwähnen, aber der Autor hat den Bug sehr schnell korrigiert und, sobald es ihm möglich war, ein neues Release ausgewiesen. Es war sehr beeindruckend. Ich liebe solche Entwickler!"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-30-twif-32-fixme-building-the-android-sdks-as-free-software-and-other-calls-for-help.md
 msgid "**[Your local weather](https://f-droid.org/app/org.thosp.yourlocalweather)** was [updated](https://raw.githubusercontent.com/thuryn/your-local-weather/HEAD/CHANGELOG) from 4.4.6 to 4.4.10, fixing a crash when the location has not been changed, OpenStreetMap API switched from http to https, and some translation changes."
-msgstr ""
+msgstr "**[Your local weather](https://f-droid.org/app/org.thosp.yourlocalweather)** wurde von 4.4.6 auf 4.4.10 [aktualisiert](https://raw.githubusercontent.com/thuryn/your-local-weather/HEAD/CHANGELOG), mit Beseitigung eines Absturzes, wenn sich der Standort nicht verändert hat, Wechsel des OpenStreetMap API von http auf https und einigen Übersetzungsänderungen."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-30-twif-32-fixme-building-the-android-sdks-as-free-software-and-other-calls-for-help.md
 msgid "**[ToGoZip](https://f-droid.org/app/de.k3b.android.toGoZip)** allows to send files (i.e. jpg-photos or mp3-music) or text (i.e. urls) to one predefined zip file by adding “Add To Zip” to Android’s share/send menu. Version 2.0.17 adds send/view/edit/delete of zip file to Settings-Menu and adds optional support for automatic zip-subfolder discovery."
-msgstr ""
+msgstr "**[ToGoZip](https://f-droid.org/app/de.k3b.android.toGoZip)** ermöglicht den Versand von Dateien (z. B. jpg-Fotos oder mp3-Musik) oder Text (z. B. URLs) an eine vorher definierte ZIP-Datei, indem “Add To Zip” in Android’s Teilen/Senden-Menü eingefügt wird. Version 2.0.17 ergänzt senden/ansehen/bearbeiten/löschen der ZIP-Datei im Einstellungsmenü und fügt eine optionale Unterstützung für eine automatische ZIP-Unterordnersuche hinzu."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-30-twif-32-fixme-building-the-android-sdks-as-free-software-and-other-calls-for-help.md
