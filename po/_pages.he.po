@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-06-30 12:21+0200\n"
-"PO-Revision-Date: 2018-12-06 10:32+0000\n"
+"PO-Revision-Date: 2018-12-06 16:27+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://hosted.weblate.org/projects/f-droid/website-pages/he/>\n"
 "Language: he\n"
@@ -92,7 +92,7 @@ msgstr "הלוגו של F-Droid עוצב על ידי William Theaker. העדכו
 #: build/_pages/md/about.md
 #, no-wrap
 msgid "Terms, etc."
-msgstr ""
+msgstr "תנאים וכו׳"
 
 #. type: Plain text
 #: build/_pages/md/about.md
@@ -163,7 +163,7 @@ msgstr "Jan C Borchardt"
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "Valerio Bozzolan"
-msgstr ""
+msgstr "Valerio Bozzolan"
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
