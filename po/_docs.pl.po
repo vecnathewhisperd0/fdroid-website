@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-12-06 17:02+0100\n"
-"PO-Revision-Date: 2018-12-05 17:08+0000\n"
+"PO-Revision-Date: 2018-12-08 09:08+0000\n"
 "Last-Translator: WaldiS <admin@sto.ugu.pl>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/f-droid/website-docs/pl/>\n"
 "Language: pl\n"
@@ -86,9 +86,8 @@ msgstr "Wszystkie zlokalizowane opisy i grafika pojawią się automatycznie w re
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
-#, fuzzy
 msgid "The last important detail is that the texts in the app's metadata file will override all other descriptive texts from _Fastlane_/_Triple-T_. That is specifically [_Name_](../Build_Metadata_Reference/#Name)/[_AutoName_](../Build_Metadata_Reference/#AutoName), [_Summary_](../Build_Metadata_Reference/#Summary), and [_Description_](../Build_Metadata_Reference/#Description).  Once an app's descriptive texts have been moved into the source repo, then file a [merge request](https://gitlab.com/fdroid/fdroiddata/merge_requests)  or [issue](https://gitlab.com/fdroid/fdroiddata/issues) to remove _Summary_ and _Description_ from the app's metadata file."
-msgstr "Ostatnim ważnym szczegółem jest to, że teksty w pliku metadanych aplikacji zastąpią wszystkie inne opisowe teksty z _Fastlane_/_Triple-T_. To jest właśnie [_Name_](../Build_Metadata_Reference/#Name)/[_AutoName_](../Build_Metadata_Reference/#AutoName), [_Summary_](../Build_Metadata_Reference/#Summary), i [_Description_](../Build_Metadata_Reference/#Description).  Po przeniesieniu opisowych tekstów aplikacji do repozytorium źródłowego zrób plik [merge request](https://gitlab.com/fdroid/fdroiddata/merge_requests)  lub [issue](https://gitlab.com/fdroid/fdroiddata/issues) aby usunąć _Summary_ and _Description_ from plik metadanych aplikacji."
+msgstr "Ostatni ważny szczegół jest to, że teksty w pliku metadanych aplikacji zastępują wszystkie inne teksty opisowe z _Fastlane_/_Triple-T_. Jest to szczególnie [_Name_](../Build_Metadata_Reference/#Name)/[_AutoName_](../Build_Metadata_Reference/#AutoName), [_Summary_](../Build_Metadata_Reference/#Summary), i [_Description_](../Build_Metadata_Reference/#Description).  Po przeniesieniu opisowych tekstów aplikacji do repozytorium źródłowego zgłoś prośbę [merge request](https://gitlab.com/fdroid/fdroiddata/merge_requests)  or [issue](https://gitlab.com/fdroid/fdroiddata/issues) aby usunąć _Summary_ and _Description_ z pliku metadanych aplikacji."
 
 #. type: Title ##
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -422,15 +421,13 @@ msgstr "Jeśli budujesz wyłącznie w celu testowania, a nie zamierzasz przekazy
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md
-#, fuzzy
 msgid "Along similar lines (and only in conjunction with `--test`, you can use `--force` to force a build of a Disabled application, where normally it would be completely ignored. Similarly a version that was found to contain ELFs or known non-free libraries can be forced to build. See also — _scanignore_ and _scandelete_ in the _Builds_ section."
-msgstr "Wzdłuż podobnych linii (i tylko w połączeniu z `--test`, możesz użyć `--force`, aby wymusić kompilację aplikacji Disabled, gdzie normalnie byłoby to całkowicie ignorowane. Podobnie wersja, która zawierała ELF lub znane niewolne biblioteki mogą być zmuszane do budowania Zobacz także - `scanignore =` i `scandelete =` w sekcji `Build:`."
+msgstr "Wzdłuż podobnych linii (i tylko w połączeniu z `--test`, możesz użyć `--force`, aby wymusić kompilację aplikacji Disabled, gdzie normalnie byłoby to całkowicie ignorowane. Podobnie wersja, która zawierała ELF lub znane niewolne biblioteki mogą być zmuszane do budowania Zobacz także -  — _scanignore_ i _scandelete_ w sekcji _Builds_."
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md
-#, fuzzy
 msgid "If the build was unsuccessful, you can find out why by looking at the output in the _logs/_ directory. If that isn’t illuminating, try building the app the regular way, step by step: android update project, ndk-build, ant debug."
-msgstr "Jeśli kompilacja nie powiodła się, możesz dowiedzieć się dlaczego, patrząc na dane wyjściowe w katalogu logs. Jeśli to się nie wyświetla, spróbuj zbudować aplikację w regularny sposób, krok po kroku: projekt aktualizacji Android, ndk-build, mrówka debugowania (ang. ant debug)."
+msgstr "Jeśli kompilacja nie powiodła się, możesz dowiedzieć się dlaczego, patrząc na dane wyjściowe w katalogu _logs/_. Jeśli to się nie wyświetla, spróbuj zbudować aplikację w regularny sposób, krok po kroku: projekt aktualizacji Android, ndk-build, ant debug."
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md
@@ -445,9 +442,8 @@ msgstr "Uruchamianie `fdroid build` w źródle twojej aplikacji"
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md
-#, fuzzy
 msgid "Another option for using `fdroid build` is to use a metadata file that is included in the app’s source itself, rather than in a _metadata/_ folder with lots of other apps. The _.fdroid.yml_ metadata file should be in the root of your source repo."
-msgstr "Inną opcją korzystania z `fdroid build` jest użycie pliku metadanych, który jest zawarty w samym źródle aplikacji, a nie w folderze `metadata/` z wieloma innymi aplikacjami. Ten plik metadanych powinien znajdować się w katalogu głównym repozytorium źródłowego i powinien być nazywany `.fdroid.json`, `.fdroid.xml`, `.fdroid.yaml`, or `.fdroid.txt`, w zależności od preferowanych danych formatu: JSON, XML, YAML,  lub formatu F-Droid `.txt`."
+msgstr "Inną opcją korzystania z `fdroid build` jest użycie pliku metadanych, który jest zawarty w samym źródle aplikacji, a nie w folderze _metadata/_ z wieloma innymi aplikacjami. Plik metadanych _.fdroid.yml_ powinien znajdować się w katalogu głównym repozytorium źródłowego."
 
 #. type: Plain text
 #: build/_docs/md/Building_Applications.md
@@ -732,9 +728,8 @@ msgstr "7.1 Kategorie<a name=\"Categories\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy
 msgid "Field Name: _Categories_"
-msgstr "Anty Funkcje"
+msgstr "Nazwa pola: _Kategorie_"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -750,15 +745,14 @@ msgstr "To jest konwertowane na (`<categories>`) w pliku XML (_index.xml_).\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "7.2 _AuthorName_<a name=\"AuthorName\"></a>"
-msgstr "7.2 Nazwa Autora<a name=\"AuthorName\"></a>"
+msgstr "7.2 _Nazwa Autora_<a name=\"AuthorName\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy
 msgid "Field Name: _AuthorName_"
-msgstr "Anty Funkcje"
+msgstr "Nazwa pola: _AutorName_"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -785,9 +779,8 @@ msgstr "7.3 Email Autora<a name=\"AuthorEmail\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy
 msgid "Field Name: _AuthorEmail_"
-msgstr "Biała Etykieta Kompilacji"
+msgstr "Nazwa pola: _AuthorEmail_"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -814,9 +807,8 @@ msgstr "7.4 Licencja<a name=\"License\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy
 msgid "Field Name: _License_"
-msgstr "Kod źródłowy"
+msgstr "Nazwa pola: _License_"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -842,9 +834,8 @@ msgstr "7.5 Automatyczna Nazwa<a name=\"AutoName\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy
 msgid "Field Name: _AutoName_"
-msgstr "Anty Funkcje"
+msgstr "Nazwa pola: _AutoName_"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -871,9 +862,8 @@ msgstr "7.6 Nazwa<a name=\"Name\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy
 msgid "Field Name: _Name_"
-msgstr "Biała Etykieta Kompilacji"
+msgstr "Nazwa pola: _Nazwa_"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -888,9 +878,8 @@ msgstr "7.7 Udostępnianie<a name=\"Provides\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy
 msgid "Field Name: _Provides_"
-msgstr "Biała Etykieta Kompilacji"
+msgstr "Nazwa pola: _Provides_"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -916,9 +905,8 @@ msgstr "7.8 Witryna internetowa<a name=\"WebSite\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy
 msgid "Field Name: _WebSite_"
-msgstr "Biała Etykieta Kompilacji"
+msgstr "Nazwa pola: _WebSite_"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -939,9 +927,8 @@ msgstr "7.9 Kod źródłowy<a name=\"SourceCode\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy
 msgid "Field Name: _SourceCode_"
-msgstr "Kod źródłowy"
+msgstr "Nazwa pola: _SourceCode_"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -962,9 +949,8 @@ msgstr "7.10 Śledzenie problemów<a name=\"IssueTracker\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy
 msgid "Field Name: _IssueTracker_"
-msgstr "Kod źródłowy"
+msgstr "Nazwa pola: _ImpressTracker_"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -985,9 +971,8 @@ msgstr "7.11 Dziennik zmian<a name=\"Changelog\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy
 msgid "Field Name: _Changelog_"
-msgstr "Biała Etykieta Kompilacji"
+msgstr "Nazwa pola: _Changelog_"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1008,9 +993,8 @@ msgstr "7.12 Darowizna<a name=\"Donate\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy
 msgid "Field Name: _Donate_"
-msgstr "Anty Funkcje"
+msgstr "Nazwa pola: _Donate_"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1036,9 +1020,8 @@ msgstr "7.13 FlattrID<a name=\"FlattrID\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy
 msgid "Field Name: _FlattrID_"
-msgstr "Anty Funkcje"
+msgstr "Nazwa pola: _FlattrID_"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1060,7 +1043,7 @@ msgstr "7.14 LiberapayID<a name=\"LiberapayID\"></a>"
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "Field Name: _LiberapayID_"
-msgstr ""
+msgstr "Nazwa pola: _LiberapayID_"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1081,9 +1064,8 @@ msgstr "7.15 Bitcoin<a name=\"Bitcoin\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy
 msgid "Field Name: _Bitcoin_"
-msgstr "Biała Etykieta Kompilacji"
+msgstr "Nazwa pola: _Bitcoin_"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1104,9 +1086,8 @@ msgstr "7.16 Litecoin<a name=\"Litecoin\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy
 msgid "Field Name: _Litecoin_"
-msgstr "Biała Etykieta Kompilacji"
+msgstr "Nazwa pola: _Litecoin_"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1127,9 +1108,8 @@ msgstr "7.17 Podsumowanie<a name=\"Summary\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy
 msgid "Field Name: _Summary_"
-msgstr "Kod źródłowy"
+msgstr "Nazwa pola: _Summary_"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1156,7 +1136,7 @@ msgstr "7.18 Opis<a name=\"Description\"></a>"
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "Field Name: _Description_"
-msgstr ""
+msgstr "Nazwa pola: _Description_"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1212,9 +1192,8 @@ msgstr "7.19 Uwagi do opiekuna<a name=\"MaintainerNotes\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy
 msgid "Field Name: _MaintainerNotes_"
-msgstr "Anty Funkcje"
+msgstr "Nazwa pola: _MaintainerNotes_"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1228,15 +1207,14 @@ msgstr "Informacje te są również publikowane na wiki."
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "7.20 _RepoType_<a name=\"RepoType\"></a>"
-msgstr "7.20 Typ Repo<a name=\"RepoType\"></a>"
+msgstr "7.20 _Typ Repo_<a name=\"RepoType\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy
 msgid "Field Name: _RepoType_"
-msgstr "Kod źródłowy"
+msgstr "Nazwa pola: _RepoType_"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1281,9 +1259,8 @@ msgstr "7.21 Repozytorium<a name=\"Repo\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy
 msgid "Field Name: _Repo_"
-msgstr "Kod źródłowy"
+msgstr "Nazwa pola: _Repo_"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1309,9 +1286,8 @@ msgstr "7.22 Pliki binarne<a name=\"Binaries\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy
 msgid "Field Name: _Binaries_"
-msgstr "Anty Funkcje"
+msgstr "Nazwa pola: _Binary_"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1337,9 +1313,8 @@ msgstr "7.23 Kompilacja<a name=\"Build\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy
 msgid "Field Name: `Build`"
-msgstr "Biała Etykieta Kompilacji"
+msgstr "Nazwa pola: `Build`"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1363,9 +1338,9 @@ msgstr "Oprócz trzech, zawsze wymaganych parametrów opisanych powyżej, można
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "`disable: <message>`\n"
-msgstr "`disable=<message>`\n"
+msgstr "`disable: <message>`\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1399,9 +1374,9 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "`subdir: <path>`\n"
-msgstr "`subdir=<path>`\n"
+msgstr "`subdir: <path>`\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1415,9 +1390,8 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy
 msgid "`submodules: yes`"
-msgstr "`submodules=yes`"
+msgstr "`submodules: yes`"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1435,9 +1409,8 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy
 msgid "`sudo: xxxx`"
-msgstr "`sudo=xxxx`"
+msgstr "`sudo: xxxx`"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1461,9 +1434,9 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "`timeout: <seconds>`\n"
-msgstr "`timeout=<seconds>`\n"
+msgstr "`timeout: <seconds>`\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1489,9 +1462,8 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy
 msgid "`init: xxxx`"
-msgstr "`init=xxxx`"
+msgstr "`init: xxxx`"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1521,9 +1493,8 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy
 msgid "`oldsdkloc: yes`"
-msgstr "`oldsdkloc=yes`"
+msgstr "`oldsdkloc: yes`"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1543,9 +1514,9 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "`target: <target>`\n"
-msgstr "`target=<target>`\n"
+msgstr "`target: <target>`\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1583,9 +1554,9 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "`androidupdate: <auto/dirs>`\n"
-msgstr "`androidupdate=<auto/dirs>`\n"
+msgstr "`androidupdate: <auto/dirs>`\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1623,9 +1594,8 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy
 msgid "`encoding: xxxx`"
-msgstr "`encoding=xxxx`"
+msgstr "`encoding: xxxx`"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1645,9 +1615,8 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy
 msgid "`forceversion: yes`"
-msgstr "`forceversion=yes`"
+msgstr "`forceversion: yes`"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1676,9 +1645,8 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy
 msgid "`forcevercode: yes`"
-msgstr "`forcevercode=yes`"
+msgstr "`forcevercode: yes`"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1692,9 +1660,9 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "`rm: <path1>[,<path2>,...]`\n"
-msgstr "`rm=<path1>[,<path2>,...]`\n"
+msgstr "`rm: <path1>[,<path2>,...]`\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1724,9 +1692,9 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "`extlibs: <lib1>[,<lib2>,...]`\n"
-msgstr "`extlibs=<lib1>[,<lib2>,...]`\n"
+msgstr "`extlibs: <lib1>[,<lib2>,...]`\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1742,9 +1710,8 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy
 msgid "`srclibs: [n:]a@r,[n:]b@r1,...`"
-msgstr "`srclibs=[n:]a@r,[n:]b@r1,...`"
+msgstr "`srclibs: [n:]a@r,[n:]b@r1,...`"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1857,9 +1824,8 @@ msgstr "‘CommonsWare’ - repo z kolekcją bibliotek open-source."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy
 msgid "`patch: x`"
-msgstr "`patch=x`"
+msgstr "`patch: x`"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1876,9 +1842,8 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy
 msgid "`prebuild: xxxx`"
-msgstr "`prebuild=xxxx`"
+msgstr "`prebuild: xxxx`"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1948,9 +1913,9 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "`scanignore: <path1>[,<path2>,...]`\n"
-msgstr "`scanignore=<path1>[,<path2>,...]`\n"
+msgstr "`scanignore: <path1>[,<path2>,...]`\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1978,9 +1943,9 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "`scandelete: <path1>[,<path2>,...]`\n"
-msgstr "`scandelete=<path1>[,<path2>,...]`\n"
+msgstr "`scandelete: <path1>[,<path2>,...]`\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2008,9 +1973,8 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy
 msgid "`build: xxxx`"
-msgstr "`build=xxxx`"
+msgstr "`build: xxxx`"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2056,9 +2020,9 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "`buildjni: [yes|no|<dir list>]`\n"
-msgstr "`buildjni=[yes|no|<dir list>]`\n"
+msgstr "`buildjni: [yes|no|<dir list>]`\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2100,9 +2064,9 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "`ndk: <version>`\n"
-msgstr "`ndk=<version>`\n"
+msgstr "`ndk: <version>`\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2134,9 +2098,9 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "`gradle: <flavour1>[,<flavour2>,...]`\n"
-msgstr "`gradle=<flavour1>[,<flavour2>,...]`\n"
+msgstr "`gradle: <flavour1>[,<flavour2>,...]`\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2167,9 +2131,9 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "`maven: yes[@<dir>]`\n"
-msgstr "`maven=yes[@<dir>]`\n"
+msgstr "`maven: yes[@<dir>]`\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2185,9 +2149,9 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "`preassemble: <task1>[,<task2>,...]`\n"
-msgstr "`preassemble=<task1>[,<task2>,...]`\n"
+msgstr "`preassemble: <task1>[,<task2>,...]`\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2201,9 +2165,9 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "`gradleprops: <prop1>[,<prop2>,...]`\n"
-msgstr "`gradleprops=<prop1>[,<prop2>,...]`\n"
+msgstr "`gradleprops: <prop1>[,<prop2>,...]`\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2227,9 +2191,9 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "`antcommands: <target1>[,<target2>,...]`\n"
-msgstr "`antcommands=<target1>[,<target2>,...]`\n"
+msgstr "`antcommands: <target1>[,<target2>,...]`\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2245,9 +2209,8 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy
 msgid "`output: glob/to/output.apk`"
-msgstr "`output=glob/to/output.apk`"
+msgstr "`output: glob/to/output.apk`"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2267,9 +2230,8 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy
 msgid "`novcheck: yes`"
-msgstr "`novcheck=yes`"
+msgstr "`novcheck: yes`"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2287,9 +2249,9 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "`antifeatures: <antifeature1>[,<antifeature2>,...]`\n"
-msgstr "`antifeatures=<antifeature1>[,<antifeature2>,...]`\n"
+msgstr "`antifeatures: <antifeature1>[,<antifeature2>,...]`\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2309,9 +2271,8 @@ msgstr "7.24 Niechciane Funkcje (ang. AntiFeatures)<a name=\"AntiFeatures\"></a>
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy
 msgid "Field Name: _AntiFeatures_"
-msgstr "Anty Funkcje"
+msgstr "Nazwa pola: _AntiFeatures_"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2382,9 +2343,8 @@ msgstr "7.25 Wyłączony<a name=\"Disabled\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy
 msgid "Field Name: _Disabled_"
-msgstr "Biała Etykieta Kompilacji"
+msgstr "Nazwa pola: _Disabled_"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2399,9 +2359,8 @@ msgstr "7.26 Wymaga root<a name=\"RequiresRoot\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy
 msgid "Field Name: _RequiresRoot_"
-msgstr "Anty Funkcje"
+msgstr "Nazwa pola: _RequiresRoot_"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2422,9 +2381,8 @@ msgstr "7.27 Zasady archiwizacji<a name=\"ArchivePolicy\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy
 msgid "Field Name: _ArchivePolicy_"
-msgstr "Kod źródłowy"
+msgstr "Nazwa pola: _ArchivePolicy_"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2444,9 +2402,8 @@ msgstr "7.28 Aktualizacja trybu sprawdzania<a name=\"UpdateCheckMode\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy
 msgid "Field Name: _UpdateCheckMode_"
-msgstr "Kod źródłowy"
+msgstr "Nazwa pola: _UpdateCheckMode_"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2576,9 +2533,8 @@ msgstr "7.29 Operacja Vercode<a name=\"VercodeOperation\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy
 msgid "Field Name: _VercodeOperation_"
-msgstr "Kod źródłowy"
+msgstr "Nazwa pola: _VercodeOperation_"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2601,7 +2557,7 @@ msgstr "7.30 Aktualizacja Sprawdź Ignoruj<a name=\"UpdateCheckIgnore\"></a>"
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "Field Name: _UpdateCheckIgnore_"
-msgstr ""
+msgstr "Nazwa pola: _UpdateCheckIgnore_"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2618,7 +2574,7 @@ msgstr "7.31 Aktualizacja Nazwy Wyboru<a name=\"UpdateCheckName\"></a>"
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "Field Name: _UpdateCheckName_"
-msgstr ""
+msgstr "Nazwa pola: _UpdateCheckName_"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2641,13 +2597,12 @@ msgstr "7.32 Aktualizacja Danych Wyboru<a name=\"UpdateCheckData\"></a>"
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
 msgid "Field Name: _UpdateCheckData_"
-msgstr ""
+msgstr "Nazwa pola: _UpdateCheckData_"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy
 msgid "Used in conjunction with _UpdateCheckMode_ for certain modes."
-msgstr "Używany w połączeniu z `Aktualizacja Trybu Sprawdzania` dla niektórych trybów."
+msgstr "Używany w połączeniu z _UpdateCheckMode_ dla niektórych trybów."
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2657,9 +2612,8 @@ msgstr "7.33 Tryb Automatycznej Aktualizacji<a name=\"AutoUpdateMode\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy
 msgid "Field Name: _AutoUpdateMode_"
-msgstr "Kod źródłowy"
+msgstr "Nazwa pola: _AutoUpdateMode_"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2713,9 +2667,8 @@ msgstr "7.34 Aktualna Wersja<a name=\"CurrentVersion\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy
 msgid "Field Name: _CurrentVersion_"
-msgstr "Anty Funkcje"
+msgstr "Nazwa pola: _CurrentVersion_"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2725,9 +2678,8 @@ msgstr "[Nazwa wersji](https://developer.android.com/guide/topics/manifest/manif
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy
 msgid "This field is normally automatically updated - see _UpdateCheckMode_."
-msgstr "To pole jest zwykle automatycznie aktualizowane - patrz Aktualizacja trybu sprawdzania."
+msgstr "To pole jest zwykle automatycznie aktualizowane - patrz _UpdateCheckMode_."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2743,9 +2695,8 @@ msgstr "7.35 Aktualny Kod Wersji<a name=\"CurrentVersionCode\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy
 msgid "Field Name: _CurrentVersionCode_"
-msgstr "Kod źródłowy"
+msgstr "Nazwa pola: _CurrentVersionCode_"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2755,9 +2706,8 @@ msgstr "[Kod wersji(https://developer.android.com/guide/topics/manifest/manifest
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy
 msgid "This field is normally automatically updated - see [_UpdateCheckMode_](#UpdateCheckMode)."
-msgstr "To pole jest zwykle automatycznie aktualizowane - patrz [Tryb sprawdzania aktualizacji](#UpdateCheckMode)."
+msgstr "o pole jest zwykle automatycznie aktualizowane - patrz [_UpdateCheckMode_](#UpdateCheckMode)."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2779,9 +2729,8 @@ msgstr "7.36 Brak Kodu Źródłowego (ang. NoSourceSince)<a name=\"NoSourceSince
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy
 msgid "Field Name: _NoSourceSince_"
-msgstr "Kod źródłowy"
+msgstr "Nazwa pola: _NoSourceSince_"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -5208,9 +5157,8 @@ msgstr "`adb install tmp/com.seawolfsanctuary.keepingtracks_20130727.apk -a` i s
 
 #. type: Bullet: '-   '
 #: build/_docs/md/How_to_update_an_app.md
-#, fuzzy
 msgid "Add any info for the next time above AutoUpdateMode, and see if the update check mode needs any tweaking."
-msgstr "Dodaj dowolne informacje następnym razem powyżej trybu automatycznej aktualizacji i sprawdź, czy tryb sprawdzania aktualizacji wymaga jakichkolwiek zmian."
+msgstr "Dodaj dowolne informacje następnym razem powyżej AutoUpdateMode i sprawdź, czy tryb sprawdzania aktualizacji wymaga jakichkolwiek zmian."
 
 #. type: Bullet: '-   '
 #: build/_docs/md/How_to_update_an_app.md
@@ -5490,9 +5438,8 @@ msgstr "Przeszukują kod źródłowy, aby sprawdzić, czy aplikacja korzysta z n
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Inclusion_How-To.md
-#, fuzzy
 msgid "They will list a summary of any [_AntiFeatures_](https://f-droid.org/wiki/page/Antifeatures) in your application."
-msgstr "Będą one zawierać podsumowanie wszystkich [AntyFunkcji](https://f-droid.org/wiki/page/Antifeatures) w twojej aplikacji."
+msgstr "Będą one zawierać podsumowanie wszystkich [_AntiFeatures_](https://f-droid.org/wiki/page/Antifeatures) w twojej aplikacji."
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Inclusion_How-To.md
@@ -6769,7 +6716,7 @@ msgstr ""
 #. type: Plain text
 #: build/_docs/md/Release_Channels_and_Signing_Keys.md
 msgid "-----BEGIN CERTIFICATE----- MIIDXjCCAkagAwIBAgIETEnNADANBgkqhkiG9w0BAQUFADBxMQswCQYDVQQGEwJV SzEQMA4GA1UECBMHVW5rbm93bjERMA8GA1UEBxMIV2V0aGVyYnkxEDAOBgNVBAoT B1Vua25vd24xEDAOBgNVBAsTB1Vua25vd24xGTAXBgNVBAMTEENpYXJhbiBHdWx0 bmlla3MwHhcNMTAwNzIzMTcxMDI0WhcNMzcxMjA4MTcxMDI0WjBxMQswCQYDVQQG EwJVSzEQMA4GA1UECBMHVW5rbm93bjERMA8GA1UEBxMIV2V0aGVyYnkxEDAOBgNV BAoTB1Vua25vd24xEDAOBgNVBAsTB1Vua25vd24xGTAXBgNVBAMTEENpYXJhbiBH dWx0bmlla3MwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCW0HXkfAFO eCLIn9Z/eV0jID4qiEP1O6Tmsb9fL9DiJZOCZ8/K5/v0/lljRq+69AcP25H2b7zf I0ij2SQwUCgk+AUXsVb6sAgJvcjmMb+pr9QtkEWrX9bSjZ4UCvwTAJF7GbfGxN9K SUzx98tKY8gNc0Jl1zWvnk8JRV9CeqZaU1Y/h7M2yiwZ0kT8u6YXugsZ5W7TSv4L JTq5Hi/bEnHxuePDIyAn7YhioRLwcG4jTPI2kUuTm8+VmCHssqbBgFfgcN40KARt lLF14dib15XlNUmaCR9bxlp51Tmo1DiR7FBAWKyyjAg5O1cYtXYAohHoA/SmNOXF fyW5uMRCLG/ZAgMBAAEwDQYJKoZIhvcNAQEFBQADggEBAAjk72memAdnf/VnU9pz 77I5DVriwX5NtpHV33p7YPwHGuUJxUFL59XadN8oEeg9NmjEoLGryEufp9lrTN8w u6aFF60qk+IzsEKXKsBVOkgByevge/V+vpo7PW1mOWUmDlDzuPRtsFMXYeYDQKK9 3DQmCYOX/aVARKF+UkRUn5hptGDKXm4ha29qLbBYC0gMoq/m7GtG7trPpKpFA4gJ 7ODFl4ZT1shfZ45/WiFW0b7dgRd1HmSksNzRQPMECwIYIajZOu2NAbo222yCNyIR /tcU2aMmBwOM39VlvVKf/GNyEqqiwiTvIrYD7M77W/HghcGR1LJP50KxerP1XU5v Be8= -----END CERTIFICATE----- ```"
-msgstr ""
+msgstr "-----BEGIN CERTIFICATE----- MIIDXjCCAkagAwIBAgIETEnNADANBgkqhkiG9w0BAQUFADBxMQswCQYDVQQGEwJV SzEQMA4GA1UECBMHVW5rbm93bjERMA8GA1UEBxMIV2V0aGVyYnkxEDAOBgNVBAoT B1Vua25vd24xEDAOBgNVBAsTB1Vua25vd24xGTAXBgNVBAMTEENpYXJhbiBHdWx0 bmlla3MwHhcNMTAwNzIzMTcxMDI0WhcNMzcxMjA4MTcxMDI0WjBxMQswCQYDVQQG EwJVSzEQMA4GA1UECBMHVW5rbm93bjERMA8GA1UEBxMIV2V0aGVyYnkxEDAOBgNV BAoTB1Vua25vd24xEDAOBgNVBAsTB1Vua25vd24xGTAXBgNVBAMTEENpYXJhbiBH dWx0bmlla3MwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCW0HXkfAFO eCLIn9Z/eV0jID4qiEP1O6Tmsb9fL9DiJZOCZ8/K5/v0/lljRq+69AcP25H2b7zf I0ij2SQwUCgk+AUXsVb6sAgJvcjmMb+pr9QtkEWrX9bSjZ4UCvwTAJF7GbfGxN9K SUzx98tKY8gNc0Jl1zWvnk8JRV9CeqZaU1Y/h7M2yiwZ0kT8u6YXugsZ5W7TSv4L JTq5Hi/bEnHxuePDIyAn7YhioRLwcG4jTPI2kUuTm8+VmCHssqbBgFfgcN40KARt lLF14dib15XlNUmaCR9bxlp51Tmo1DiR7FBAWKyyjAg5O1cYtXYAohHoA/SmNOXF fyW5uMRCLG/ZAgMBAAEwDQYJKoZIhvcNAQEFBQADggEBAAjk72memAdnf/VnU9pz 77I5DVriwX5NtpHV33p7YPwHGuUJxUFL59XadN8oEeg9NmjEoLGryEufp9lrTN8w u6aFF60qk+IzsEKXKsBVOkgByevge/V+vpo7PW1mOWUmDlDzuPRtsFMXYeYDQKK9 3DQmCYOX/aVARKF+UkRUn5hptGDKXm4ha29qLbBYC0gMoq/m7GtG7trPpKpFA4gJ 7ODFl4ZT1shfZ45/WiFW0b7dgRd1HmSksNzRQPMECwIYIajZOu2NAbo222yCNyIR /tcU2aMmBwOM39VlvVKf/GNyEqqiwiTvIrYD7M77W/HghcGR1LJP50KxerP1XU5v Be8= -----END CERTIFICATE----- ```"
 
 #. type: Plain text
 #: build/_docs/md/Release_Channels_and_Signing_Keys.md
@@ -7476,7 +7423,6 @@ msgstr "W przypadku korzystania z tego starszego podejścia, wszystko w metadany
 
 #. type: Plain text
 #: build/_docs/md/Reproducible_Builds.md
-#, fuzzy
 msgid "Here is an example for a _Binaries_ directive:"
 msgstr "Oto przykład dyrektywy _Binaries_:"
 
