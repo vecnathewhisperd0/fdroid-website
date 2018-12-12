@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-12-06 17:02+0100\n"
-"PO-Revision-Date: 2018-12-08 09:08+0000\n"
+"PO-Revision-Date: 2018-12-12 19:50+0000\n"
 "Last-Translator: WaldiS <admin@sto.ugu.pl>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/f-droid/website-docs/pl/>\n"
 "Language: pl\n"
@@ -665,9 +665,8 @@ msgstr "zlokalizowane teksty i grafika [osadzone w kodzie źródłowym aplikacji
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy
 msgid "These metadata files are simple, easy to edit text files, always named as the \"package name\" with file type appended.  There are a wide range of available fields for adding information to describe packages and/or apps.  For all of the fields like _AuthorName_ that apply to all releases of a package/app, the fields use CamelCase starting with an upper case letter.  All other fields use camelCase starting with a lower case letter, including per-build fields, localized fields, etc."
-msgstr "Te pliki metadanych to proste, łatwe do edycji pliki tekstowe, zawsze nazywane \"nazwą pakietu\" z dodanym typem pliku. Istnieje szeroki zakres dostępnych pól do dodawania informacji do opisu pakietów i/lub aplikacji. W przypadku wszystkich pól, takich jak \"AuthorName\", które dotyczą wszystkich wydań pakietu/aplikacji, pola korzystają z CamelCase zaczynając od dużej litery. Wszystkie inne pola korzystają z camelCase zaczynając od małej litery, w tym pól typu per-build, zlokalizowanych pól itp."
+msgstr "Te pliki metadanych to proste, łatwe do edycji pliki tekstowe, zawsze nazywane \"nazwą pakietu\" z dodanym typem pliku. Istnieje szeroki zakres dostępnych pól do dodawania informacji do opisu pakietów i/lub aplikacji. Dla wszystkich pól, takich jak _AuthorName_, które mają zastosowanie do wszystkich wydań pakietu/aplikacji, pola używają CamelCase zaczynając od dużej litery. Wszystkie inne pola korzystają z camelCase zaczynając od małej litery, w tym pól typu 'per-build', zlokalizowanych pól itp."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -733,9 +732,8 @@ msgstr "Nazwa pola: _Kategorie_"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy
 msgid "Any number of categories for the application to be placed in. There is no fixed list of categories - both the client and the web site will automatically show any categories that exist in any applications.  However, if your metadata is intended for the main F-Droid repository, you should use one of the existing categories (look at the site/client), or discuss the proposal to add a new one. _Categories_ must be a list of items, even if there is just one."
-msgstr "Dowolna liczba kategorii dla aplikacji, w której zostanie umieszczony. Nie ma ustalonej listy kategorii - zarówno klient, jak i strona internetowa automatycznie pokażą wszystkie kategorie istniejące w dowolnych aplikacjach. Jeśli jednak twoje metadane są przeznaczone dla głównego repozytorium F-Droid, powinieneś użyć jednej z istniejących kategorii (spójrz na stronę/klienta) lub omów propozycję, aby dodać nową."
+msgstr "Dowolna liczba kategorii dla aplikacji, w której zostanie umieszczony. Nie ma ustalonej listy kategorii - zarówno klient, jak i strona internetowa automatycznie pokażą wszystkie kategorie istniejące w dowolnych aplikacjach. Jeśli jednak twoje metadane są przeznaczone dla głównego repozytorium F-Droid, powinieneś użyć jednej z istniejących kategorii (spójrz na stronę/klienta) lub omów propozycję, aby dodać nową. _Kategorie_ musi być listą pozycji, nawet jeśli jest tylko jedna."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -761,9 +759,8 @@ msgstr "Imię i nazwisko autora, pełne, skrócone lub pseudonim. Jeśli jest ob
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy
 msgid "__Warning__: this overrides all _AuthorName_ entries [set in the app's source code](../All_About_Descriptions_Graphics_and_Screenshots)."
-msgstr "__Warning__: to przesłonięcie wszystkich wpisów nazw autorów [ustawionych w kodzie źródłowym aplikacji](../All_About_Descriptions_Graphics_and_Screenshots)."
+msgstr "__Warning__: to przesłoni wszystkie wpisy _AuthorName_ [ustawione w kodzie źródłowym aplikacji](../All_About_Descriptions_Graphics_and_Screenshots)."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -773,9 +770,9 @@ msgstr "To jest konwertowane na (`<author>`) w pliku XML (_index.xml_).\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "7.3 _AuthorEmail_<a name=\"AuthorEmail\"></a>"
-msgstr "7.3 Email Autora<a name=\"AuthorEmail\"></a>"
+msgstr "7.3 Email Autora <a name=\"AuthorEmail\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
