@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-12-06 17:02+0100\n"
-"PO-Revision-Date: 2018-12-12 19:50+0000\n"
+"PO-Revision-Date: 2018-12-15 09:08+0000\n"
 "Last-Translator: WaldiS <admin@sto.ugu.pl>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/f-droid/website-docs/pl/>\n"
 "Language: pl\n"
@@ -717,7 +717,7 @@ msgstr "Poniższe sekcje opisują pola rozpoznane w pliku."
 #: build/_docs/md/Build_Metadata_Reference.md
 #, fuzzy
 msgid "- [_Categories_](#Categories)  - [_AuthorName_](#AuthorName)  - [_AuthorEmail_](#AuthorEmail)  - [_License_](#License)  - [_AutoName_](#AutoName)  - [_Name_](#Name)  - [_Provides_](#Provides)  - [_WebSite_](#WebSite)  - [_SourceCode_](#SourceCode)  - [_IssueTracker_](#IssueTracker)  - [_Changelog_](#Changelog)  - [_Donate_](#Donate)  - [_FlattrID_](#FlattrID)  - [_LiberapayID_](#LiberapayID)  - [_Bitcoin_](#Bitcoin)  - [_Litecoin_](#Litecoin)  - [_Summary_](#Summary)  - [_Description_](#Description)  - [_MaintainerNotes_](#MaintainerNotes)  - [_RepoType_](#RepoType)  - [_Repo_](#Repo)  - [_Binaries_](#Binaries)  - [_Build_](#Build)  - [_AntiFeatures_](#AntiFeatures)  - [_Disabled_](#Disabled)  - [_RequiresRoot_](#RequiresRoot)  - [_ArchivePolicy_](#ArchivePolicy)  - [_UpdateCheckMode_](#UpdateCheckMode)  - [_UpdateCheckIgnore_](#UpdateCheckIgnore)  - [_VercodeOperation_](#VercodeOperation)  - [_UpdateCheckName_](#UpdateCheckName)  - [_UpdateCheckData_](#UpdateCheckData)  - [_AutoUpdateMode_](#AutoUpdateMode)  - [_CurrentVersion_](#CurrentVersion)  - [_CurrentVersionCode_](#CurrentVersionCode)  - [_NoSourceSince_](#NoSourceSince)"
-msgstr "- [Kategorie](#Categories) - [Nazwisko autora](#AuthorName) - [Adres e-mail autora](#AuthorEmail) - [Licencja](#License) - [Automatyczna Nazwa](#AutoName) - [Nazwa](#Name) - [Zapewnia](#Provides) - [Witryna internetowa](#WebSite) - [Kod źródłowy](#SourceCode) - [Moduł śledzenia problemów](#IssueTracker) - [Dziennik zmian](#Changelog) - [Darowizna](#Donate) - [_FlattrID_](#FlattrID) - [_LiberapayID_](#LiberapayID) - [_Bitcoin_](#Bitcoin) - [_Litecoin_](#Litecoin) - [Podsumowanie](#Summary) - [Opis](#Description) - [Uwagi do opiekuna](#MaintainerNotes) - [Typ repo](#RepoType) - [_Repo_](#Repo) - [Binaria](#Binaries) - [Kompilacja](#Build) - [Anty cechy](#AntiFeatures) - [Wyłącz](#Disabled) - [Wymaga root](#RequiresRoot) - [Zasady archiwizacji](#ArchivePolicy) - [Tryb sprawdzania aktualizacji](#UpdateCheckMode) - [Aktualizuj Sprawdzaj Ignoruj](#UpdateCheckIgnore) - [Operacja kodu](#VercodeOperation) - [Aktualizuj nazwę wyboru](#UpdateCheckName) - [Aktualizuj dane kontrolne](#UpdateCheckData) - [Tryb automatycznej aktualizacji](#AutoUpdateMode) - [Aktualna wersja](#CurrentVersion) - [Aktualny kod wersji](#CurrentVersionCode) - [Żadne Źródło](#NoSourceSince)"
+msgstr "- [_Kategorie_](#Categories) - [_Nazwa Autora_](#AuthorName) - [_Adres e-mail autora_](#AuthorEmail) - [_Licencja_](#License) - [_Automatyczna Nazwa_](#AutoName) - [Nazwa](#Name) - [Zapewnia](#Provides) - [Witryna internetowa](#WebSite) - [Kod źródłowy](#SourceCode) - [Moduł śledzenia problemów](#IssueTracker) - [Dziennik zmian](#Changelog) - [Darowizna](#Donate) - [_FlattrID_](#FlattrID) - [_LiberapayID_](#LiberapayID) - [_Bitcoin_](#Bitcoin) - [_Litecoin_](#Litecoin) - [Podsumowanie](#Summary) - [Opis](#Description) - [Uwagi do opiekuna](#MaintainerNotes) - [Typ repo](#RepoType) - [_Repo_](#Repo) - [Binaria](#Binaries) - [Kompilacja](#Build) - [Anty cechy](#AntiFeatures) - [Wyłącz](#Disabled) - [Wymaga root](#RequiresRoot) - [Zasady archiwizacji](#ArchivePolicy) - [Tryb sprawdzania aktualizacji](#UpdateCheckMode) - [Aktualizuj Sprawdzaj Ignoruj](#UpdateCheckIgnore) - [Operacja kodu](#VercodeOperation) - [Aktualizuj nazwę wyboru](#UpdateCheckName) - [Aktualizuj dane kontrolne](#UpdateCheckData) - [Tryb automatycznej aktualizacji](#AutoUpdateMode) - [Aktualna wersja](#CurrentVersion) - [Aktualny kod wersji](#CurrentVersionCode) - [Żadne Źródło](#NoSourceSince)"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -786,9 +786,8 @@ msgstr "Adres e-mail autora (ów). Można to pominąć (lub pozostawić puste)."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy
 msgid "__Warning__: this overrides all _AuthorEmail_ entries [set in the app's source code](../All_About_Descriptions_Graphics_and_Screenshots)."
-msgstr "__Warning__: powoduje to zastąpienie wszystkich wpisów w e-mailu autora [ustawionych w kodzie źródłowym aplikacji](../All_About_Descriptions_Graphics_and_Screenshots)."
+msgstr "__Warning__: to przesłoni wszystkie wpisy _AuthorEmail_ [ustawione w kodzie źródłowym aplikacji](../All_About_Descriptions_Graphics_and_Screenshots)."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -825,9 +824,9 @@ msgstr "To jest konwertowane na (`<license>`) w pliku XML (_index.xml_).\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "7.5 _AutoName_<a name=\"AutoName\"></a>"
-msgstr "7.5 Automatyczna Nazwa<a name=\"AutoName\"></a>"
+msgstr "7.5 _Nazwa Automatyczna_<a name=\"AutoName\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -836,9 +835,8 @@ msgstr "Nazwa pola: _AutoName_"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy
 msgid "The name of the application as can best be retrieved from the source code. This is done so that the commitupdates script can put a familiar name in the description of commits created when a new update of the application is found. The _AutoName_ entry is generated automatically when `fdroid checkupdates` is run."
-msgstr "Nazwa aplikacji może być najlepiej pobrana z kodu źródłowego. Dzieje się to tak, że skrypt commitupdates może umieścić znaną nazwę w opisie commitów utworzonych po znalezieniu nowej aktualizacji aplikacji. Wpis _AutoName_ jest generowany automatycznie po uruchomieniu `fdroid checkupdates`."
+msgstr "Nazwa aplikacji może być pobrana z kodu źródłowego. Dzieje się to tak, że skrypt commitupdates może umieścić znaną nazwę w opisie commits utworzonych po znalezieniu nowej aktualizacji aplikacji. Pozycja _AutoName_ jest generowana automatycznie po uruchomieniu programu `fdroid checkupdates`."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -896,9 +894,9 @@ msgstr "To jest konwertowane na (`<provides>`) plik XML (_index.xml_).\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "7.8 _WebSite_<a name=\"WebSite\"></a>"
-msgstr "7.8 Witryna internetowa<a name=\"WebSite\"></a>"
+msgstr "7.8 _Witryna internetowa_<a name=\"WebSite\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -918,9 +916,9 @@ msgstr "To jest konwertowane na (`<web>`) plik XML (_index.xml_).\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "7.9 _SourceCode_<a name=\"SourceCode\"></a>"
-msgstr "7.9 Kod źródłowy<a name=\"SourceCode\"></a>"
+msgstr "7.9 _Kod źródłowy_<a name=\"SourceCode\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -940,9 +938,9 @@ msgstr "To jest konwertowane na (`<source>`) plik XML (_index.xml_).\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "7.10 _IssueTracker_<a name=\"IssueTracker\"></a>"
-msgstr "7.10 Śledzenie problemów<a name=\"IssueTracker\"></a>"
+msgstr "7.10 _Śledzenie problemów_<a name=\"IssueTracker\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1183,9 +1181,9 @@ msgstr "To jest konwertowane na (`<desc>`) plik XML (_index.xml_).\n"
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "7.19 _MaintainerNotes_<a name=\"MaintainerNotes\"></a>"
-msgstr "7.19 Uwagi do opiekuna<a name=\"MaintainerNotes\"></a>"
+msgstr "7.19 _Uwagi do opiekuna_<a name=\"MaintainerNotes\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1271,9 +1269,8 @@ msgstr "Opcja git-svn łączy się z repozytorium SVN, a adres URL jest dokładn
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy
 msgid "If the _RepoType_ is `srclib`, then you must specify the name of the according srclib .txt file. For example if `scrlibs/FooBar.txt` exist and you want to use this srclib, then you have to set Repo to `FooBar`."
-msgstr "Jeśli typu Repo jest `srclib`, należy określić nazwę pliku .txt zgodnie z srclib. Na przykład, jeśli istnieje `scrlibs/FooBar.txt` potrzeba wobec używać ten srclib, a następnie należy ustawić Repo do `FooBar`."
+msgstr "Jeśli _RepoType_ to `srclib`, musisz podać nazwę odpowiedniego pliku srclib .txt. Na przykład jeśli istnieje `scrlibs/FooBar.txt` i chcesz użyć tego srclib, musisz ustawić Repo na` FooBar`."
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -1293,9 +1290,8 @@ msgstr "Lokalizacja plików binarnych używanych w procesie weryfikacji."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy
 msgid "If specified, F-Droid will verify the output apk file of a build against the one specified. You can use %v and %c to point to the version name and version code of the current build. To verify the F-Droid client itself you could use: `Binaries: https://f-droid.org/repo/org.fdroid.fdroid_%c.apk`"
-msgstr "Jeśli zostanie określony, F-Droid zweryfikuje wyjściowy plik APK kompilacji względem podanego. Możesz użyć %v i %c, aby wskazać nazwę wersji i kod wersji bieżącej kompilacji. Aby zweryfikować klienta F-Droid, możesz użyć: `Binaries:https://f-droid.org/repo/org.fdroid.fdroid_%c.apk`"
+msgstr "Jeśli zostanie określony, F-Droid zweryfikuje wyjściowy plik APK kompilacji względem podanego. Możesz użyć %v i %c, aby wskazać wersję i kod wersji bieżącej kompilacji. Aby zweryfikować klienta F-Droid, możesz użyć: `Binaries: https://f-droid.org/repo/org.fdroid.fdroid_%c.apk`"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2252,12 +2248,12 @@ msgstr "`antifeatures: <antifeature1>[,<antifeature2>,...]`\n"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 ":   List of Anti-Features for this specific build. They are described\n"
 "    in [_AntiFeatures_](#AntiFeatures).\n"
 msgstr ""
-":   Lista funkcji anty-funkcjonalnych dla tej konkretnej kompilacji.\n"
+":   Lista funkcji specjalnych dla tej konkretnej kompilacji.\n"
 "    Są opisane w [_AntiFeatures_](#AntiFeatures).\n"
 
 #. type: Title ###
@@ -2350,9 +2346,9 @@ msgstr "Jeśli to pole jest obecne, aplikacja nie zostanie umieszczona w publicz
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "7.26 _RequiresRoot_<a name=\"RequiresRoot\"></a>"
-msgstr "7.26 Wymaga root<a name=\"RequiresRoot\"></a>"
+msgstr "7.26 _Wymaga root_<a name=\"RequiresRoot\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2372,9 +2368,9 @@ msgstr "To jest konwertowane na (`<requirements>`) in the XML file (_index.xml_)
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "7.27 _ArchivePolicy_<a name=\"ArchivePolicy\"></a>"
-msgstr "7.27 Zasady archiwizacji<a name=\"ArchivePolicy\"></a>"
+msgstr "7.27 _Zasady archiwizacji_<a name=\"ArchivePolicy\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2393,9 +2389,9 @@ msgstr "Obecnie jedynym obsługiwanym formatem jest \"n versions\", gdzie n to l
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "7.28 _UpdateCheckMode_<a name=\"UpdateCheckMode\"></a>"
-msgstr "7.28 Aktualizacja trybu sprawdzania<a name=\"UpdateCheckMode\"></a>"
+msgstr "7.28 _Aktualizacja trybu sprawdzania_<a name=\"UpdateCheckMode\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2404,9 +2400,8 @@ msgstr "Nazwa pola: _UpdateCheckMode_"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy
 msgid "This determines the method using for determining when new releases are available - in other words, the updating of the _CurrentVersion_ and _CurrentVersionCode_ fields in the metadata by the `fdroid checkupdates` process."
-msgstr "Określa metodę wykorzystywaną do określenia, kiedy dostępne są nowe wersje - innymi słowy, aktualizację pól _CurrentVersion_ i _CurrentVersionCode_ w metadanych w procesie `fdroid checkupdates`."
+msgstr "Określa metodę używaną do określenia, kiedy dostępne są nowe wydania - innymi słowy, aktualizację pól _CurrentVersion_ i _CurrentVersionCode_ w metadanych w procesie `fdroid checkupdates`."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2430,7 +2425,7 @@ msgstr "`RepoManifest` - W najnowszym zatwierdzeniu pliki _AndroidManifest.xml_ 
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "    It currently works for every repository type to different extents,\n"
 "    except the srclib repo type. For git, git-svn and hg repo types, you\n"
@@ -2443,7 +2438,7 @@ msgid ""
 msgstr ""
 "    Obecnie działa dla każdego typu repozytorium w różnym zakresie,\n"
 "    z wyjątkiem typu repo srclib. W przypadku repozytoriów git, git-svn i hg,\n"
-"    możesz użyć \"RepoManifest/yourbranch\" jako UCM, aby \"twoja gałąź\"\n"
+"    możesz użyć \"RepoManifest/yourbranch\" jako _UpdateCheckMode_, aby \"twoja gałąź\"\n"
 "    była gałęzią używaną zamiast domyślnej. Domyślne wartości to \"master\" dla git,\n"
 "    \"default\" dla hg i none dla git-svn (pozostaje w tej samej gałęzi).\n"
 "    Z drugiej strony obsługa gałęzi nie została jeszcze zaimplementowana\n"
@@ -2490,9 +2485,8 @@ msgstr ""
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy
 msgid "`HTTP` - HTTP requests are used to determine the current version code and version name. This is controlled by the _UpdateCheckData_ field, which is of the form `urlcode|excode|urlver|exver`."
-msgstr "`HTTP` - Żądania HTTP są używane do określenia aktualnego kodu wersji i nazwy wersji. Jest to kontrolowane przez pole _UpdateCheckData_, które ma postać `urlcode|excode|urlver|exver`."
+msgstr "`HTTP` - żądania HTTP są używane do określenia aktualnego kodu wersji i nazwy wersji. Jest to kontrolowane przez pole _UpdateCheckData_, które ma postać `urlcode|excode|urlver|exver`."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2524,9 +2518,9 @@ msgstr ""
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "7.29 _VercodeOperation_<a name=\"VercodeOperation\"></a>"
-msgstr "7.29 Operacja Vercode<a name=\"VercodeOperation\"></a>"
+msgstr "7.29 _Operacja Vercode_<a name=\"VercodeOperation\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
