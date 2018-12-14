@@ -46,7 +46,7 @@ Die deutsche Fassung verzögert sich noch ein wenig. Wer es nicht abwarten kann,
 ### New apps
 
 * **[DeltaCamera](https://f-droid.org/app/de.uwepost.android.deltacam)**: Record movement (deltas) in one single image.
-* **[AnLinux](https://f-droid.org/app/exa.lnx.a)**: Run linux on android without root access.
+* **[AnLinux](https://f-droid.org/app/exa.lnx.a)**: Run Linux on Android without root access with the help of **[Termux](https://f-droid.org/app/com.termux)** and **[RoMote](https://f-droid.org/app/wseemann.media.romote)**. Several distros and WM/DE combinations are available.
 * **[/d/gapps](https://f-droid.org/app/org.droidtr.deletegapps)**: Delete/disable gapps.
 
 ### Updated apps
@@ -64,6 +64,19 @@ In total, **{{ page.number_of_updated_apps }}** apps were updated this week. Her
 * **[AndStatus](https://f-droid.org/app/org.andstatus.app)** [updated](http://andstatus.org/changelog.html) to 45.01, adding the "unread notifications" timeline. It also has improved handling of HTML content.
 
 * **[SimpleEmail](https://f-droid.org/app/org.dystopia.email)** 1.3.0 brings a better layout for the message list, refresh message list, and moves the color picker account outside of advanced.
+
+* Since we've mentioned SimpleEmail, its upstream app **[FairEmail](https://f-droid.org/app/eu.faircode.email)** got plenty of updates and fixes in the mean time, way too many to list here. What we can mention is that the app has lowered its device requirements so now it's compatible with Android 5 too.
+
+* And still talking about e-mail, **[InboxPager](https://f-droid.org/app/net.inbox.pager)** got a big update to 4.0 bringing an UI update and an internal file manager.
+
+* **[Conversations](https://f-droid.org/app/eu.siacs.conversations)** & **[Quicksy](https://f-droid.org/app/im.quicksy.client)** Since TWIF 26, version 2.3.4+fcr, the apps were updated continuously up to the current 2.3.9+fcr, fixing bugs and adding small improvements:
+  * Fixed group chat mentions when nick ends in a dot, asking for permissions after direct share, CVE-2018-18467, re-sending failed files in group chats and misc bug fixes for Android 9.
+  * Improved handling of bookmark nicks, long press on 'allow' or 'add back' snackbar to bring up 'reject', made PEP avatars public to play nice with the newly released Prosody 0.11, OMEMO stability improvements.
+  * Added context menu options for long pressing avatar in 1:1 chat and send PM menu entry in anonymous MUCs.
+
+* **[IceCatMobile](https://f-droid.org/app/org.gnu.icecat)** The free software rebranding of the latest Firefox-ESR release just got updated to version 60, besides the usual plethora of new features it also moves the UI to Photon, and so it drops support for Android 4.0.4 and older. Users of the Sync feature should keep an eye on [this bug report](https://savannah.gnu.org/bugs/?50960) if it suddenly doesn't work.
+
+* **[Hacker's Keyboard](https://f-droid.org/app/org.pocketworkstation.pckeyboard)** After almost 2 years of missing updates the keyboard was now updated, no ground-breaking features, but mostly fixes and compatibility updates for the new Android versions.
 
 ### Removed apps
 
