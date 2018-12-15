@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-12-06 17:02+0100\n"
-"PO-Revision-Date: 2018-12-15 09:08+0000\n"
+"PO-Revision-Date: 2018-12-16 19:08+0000\n"
 "Last-Translator: WaldiS <admin@sto.ugu.pl>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/f-droid/website-docs/pl/>\n"
 "Language: pl\n"
@@ -2552,9 +2552,8 @@ msgstr "Nazwa pola: _UpdateCheckIgnore_"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy
 msgid "When checking for updates (via _UpdateCheckMode_) this can be used to specify a regex which, if matched against the version name, causes that version to be ignored. For example, ’beta’ could be specified to ignore version names that include that text."
-msgstr "Podczas sprawdzania aktualizacji (poprzez 'UpdateCheckMode') można to wykorzystać do określenia wyrażenia regularnego, które w przypadku dopasowania do nazwy wersji powoduje, że ta wersja zostanie zignorowana. Na przykład można podać 'beta', aby zignorować nazwy wersji zawierające ten tekst."
+msgstr "Podczas sprawdzania aktualizacji (poprzez _UpdateCheckMode_) można tego użyć, aby określić wyrażenie regularne, które, jeśli jest dopasowane do nazwy wersji, powoduje, że ta wersja jest ignorowana. Na przykład można podać 'beta', aby zignorować nazwy wersji zawierające ten tekst."
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2575,9 +2574,8 @@ msgstr "Kiedy sprawdzanie aktualizacji (przez 'Sprawdź tryb aktualizacji') to m
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy
 msgid "You can also use `Ignore` to ignore package name searching. This should only be used in some specific cases, for example if the app’s build.gradle file does not contain the package name."
-msgstr "Umożliwia także 'Ignoruj' zignorować, wyszukiwanie nazwy pakietu. To można używać tylko w niektórych szczególnych przypadkach, na przykład, jeśli aplikacja _build.gradle_ plik nie zawiera nazwę pakietu."
+msgstr "Możesz także użyć opcji `Ignoruj`, aby ignorować wyszukiwanie nazwy pakietu. Powinno to być używane tylko w niektórych szczególnych przypadkach, na przykład jeśli plik build.gradle aplikacji nie zawiera nazwy pakietu."
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2608,9 +2606,8 @@ msgstr "Nazwa pola: _AutoUpdateMode_"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy
 msgid "This determines the method using for auto-generating new builds when new releases are available - in other words, adding a new Build Version line to the metadata. This happens in conjunction with the ’Update Check Mode’ functionality - i.e. when an update is detected by that, it is also processed by this."
-msgstr "Określa metodę używaną do automatycznego generowania nowych kompilacji, gdy są dostępne nowe wydania - innymi słowy, dodawania nowej linii wersji Build do metadanych. Dzieje się tak w połączeniu z funkcjonalnością 'Sprawdź Tryb Sprawdzania' - tj. po wykryciu aktualizacji przez nią jest ona również przetwarzana."
+msgstr "Określa metodę używaną do automatycznego generowania nowych kompilacji, gdy są dostępne nowe wydania - innymi słowy, dodawania nowej linii wersji Build do metadanych. Dzieje się tak w połączeniu z funkcjonalnością 'Sprawdź tryb sprawdzania' - tj. po wykryciu aktualizacji przez nią jest ona również przetwarzana."
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2702,9 +2699,8 @@ msgstr "o pole jest zwykle automatycznie aktualizowane - patrz [_UpdateCheckMode
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy
 msgid "If not set or set to `0`, clients will recommend the highest version they can, as if the _CurrentVersionCode_ was infinite."
-msgstr "Jeśli nie zostanie ustawione lub ustawione na '0', klienci zalecą najwyższą możliwą wersję, tak jakby 'Aktualny kod wersji' był nieskończony."
+msgstr "Jeśli nie zostanie ustawione lub ustawione na '0', klienci będą zalecać najwyższą możliwą wersję, tak jak gdyby _CurrentVersionCode_ był nieskończony."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -5635,7 +5631,6 @@ msgstr "Nie możemy tworzyć aplikacji przy użyciu zastrzeżonych zależności 
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Inclusion_Policy.md
-#, fuzzy
 msgid "We cannot build apps using proprietary ad libraries. We have nothing against advertisments (see [_AntiFeatures_](https://f-droid.org/wiki/page/Antifeatures)), but they must be provided by a FLOSS compatible way."
 msgstr "Nie możemy tworzyć aplikacji przy użyciu zastrzeżonych bibliotek reklam. Nie mamy nic przeciwko reklamie (zobacz [_AntiFeatures_](https://f-droid.org/wiki/page/Antifeatures)), ale muszą one być dostarczone w sposób kompatybilny z FLOSS."
 
@@ -8409,9 +8404,8 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
-#, fuzzy
 msgid "RepoType: git Repo: https://github.com/andybalaam/rabbit-escape Binaries: https://github.com/andybalaam/rabbit-escape/releases/download/v%v/rabbit-escape-%v.apk"
-msgstr "RepoType:git Repo:https://github.com/andybalaam/rabbit-escape Binaries:https://github.com/andybalaam/rabbit-escape/releases/download/v%v/rabbit-escape-%v.apk"
+msgstr "RepoType: git Repo: https://github.com/andybalaam/rabbit-escape Pliki binarne:: https://github.com/andybalaam/rabbit-escape/releases/download/v%v/rabbit-escape-%v.apk"
 
 #. type: Plain text
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
@@ -8435,9 +8429,8 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
-#, fuzzy
 msgid "AutoUpdateMode: Version v%v UpdateCheckMode: Tags v\\d+\\.\\d+(\\.\\d+)? CurrentVersion: 0.10.2 CurrentVersionCode: 102 ```"
-msgstr "AutoUpdateMode:Version v%v UpdateCheckMode:Tags v\\d+\\.\\d+(\\.\\d+)? CurrentVersion:0.10.2 CurrentVersionCode:102 ```"
+msgstr "AutoUpdateMode: Version v%v UpdateCheckMode: Tagi v\\d+\\.\\d+(\\.\\d+)? CurrentVersion: 0.10.2 CurrentVersionCode: 102 ```"
 
 #. type: Plain text
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
@@ -8643,15 +8636,13 @@ msgstr "Wykrywanie<a name=\"Detecting\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Update_Processing.md
-#, fuzzy
 msgid "There are various mechanisms in place for automatically detecting that updates are available for applications, with the _UpdateCheckMode_ field in the metadata determining which method is used for a particular application."
 msgstr "Istnieją różne mechanizmy automatycznego wykrywania, że aktualizacje są dostępne dla aplikacji, z polem _UpdateCheckMode_ w metadanych określających, która metoda jest używana dla konkretnej aplikacji."
 
 #. type: Plain text
 #: build/_docs/md/Update_Processing.md
-#, fuzzy
 msgid "Running the `fdroid checkupdates` command will apply this method to each application in the repository and update the _CurrentVersion_ and _CurrentVersionCode_ fields in the metadata accordingly."
-msgstr "Uruchomienie polecenia `fdroid checkupdates` zastosuje tę metodę do każdej aplikacji w repozytorium i odpowiednio zaktualizuje pola _CurrentVersion_ i _CurrentVersionCode_ w metadanych."
+msgstr "Uruchomienie polecenia `fdroid checkupdates` zastosuje tę metodę do każdej aplikacji w repozytorium i odpowiednio zaktualizuje pola _CurrentVersion_ oraz _CurrentVersionCode_ w metadanych."
 
 #. type: Plain text
 #: build/_docs/md/Update_Processing.md
