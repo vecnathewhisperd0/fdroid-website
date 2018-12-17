@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-12-06 17:02+0100\n"
-"PO-Revision-Date: 2018-12-16 19:08+0000\n"
+"PO-Revision-Date: 2018-12-18 17:08+0000\n"
 "Last-Translator: WaldiS <admin@sto.ugu.pl>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/f-droid/website-docs/pl/>\n"
 "Language: pl\n"
@@ -2446,9 +2446,8 @@ msgstr ""
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy
 msgid "`RepoTrunk` - For svn and git-svn repositories, especially those who don’t have a bundled _AndroidManifest.xml_ file, the Tags and RepoManifest checks will not work, since there is no version information to obtain. But, for those apps who automate their build process with the commit ref that HEAD points to, RepoTrunk will set the _CurrentVersion_ and _CurrentVersionCode_ to that number."
-msgstr "`RepoTrunk` - W przypadku repozytoriów svn i git-svn, szczególnie tych, które nie mają dołączonego pliku AndroidManifest.xml, sprawdzenia tagów i repoManifest nie będą działać, ponieważ nie ma informacji o wersji do uzyskania. Ale dla tych aplikacji, które automatyzują proces kompilowania z zatwierdzeniem, którego HEAD wskazuje, RepoTrunk ustawi bieżącą wersję i aktualną wersję kodu na ten numer."
+msgstr "`RepoTrunk` - W przypadku repozytoriów svn i git-svn, szczególnie tych, które nie mają dołączonego pliku _AndroidManifest.xml_, sprawdzenia Tagów i repoManifest nie będą działać, ponieważ nie ma informacji o wersji do uzyskania. Ale dla tych aplikacji, które automatyzują swój proces budowania z zatwierdzeniem odnowienia, na które wskazuje HEAD, RepoTrunk ustawi wartości _CurrentVersion_ i _CurrentVersionCode_ na ten numer."
 
 #. type: Bullet: '-   '
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2535,9 +2534,8 @@ msgstr "Operacje mają być stosowane do vercode uzyskane przez zdefiniowane 'Sp
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy
 msgid "Especially useful with apps that we want to compile for different ABIs, but whose vercodes don’t always have trailing zeros. For example, with _VercodeOperation_ set at something like `%c*10 + 4`, we will be able to track updates and build up to four different versions of every upstream version."
-msgstr "Szczególnie przydatna w przypadku aplikacji, które chcemy skompilować dla różnych ABIs, ale których vercodes nie zawsze mają końcowe zera. Na przykład, z 'Operacja Vercode' ustawione na coś w stylu `% c * 10 + 4`, będziemy mogli śledzić aktualizacje i budować do czterech różnych wersji każdej poprzedniej wersji."
+msgstr "Jest to szczególnie przydatne w przypadku aplikacji, które chcemy skompilować dla różnych ABI, ale których kody kreskowe nie zawsze mają końcowe zera. Na przykład, przy _VercodeOperation_ ustawionym na coś w stylu `%c*10 + 4`, będziemy mogli śledzić aktualizacje i budować do czterech różnych wersji każdej poprzedniej wersji."
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2568,9 +2566,8 @@ msgstr "Nazwa pola: _UpdateCheckName_"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy
 msgid "When checking for updates (via _UpdateCheckMode_) this can be used to specify the package name to search for. Useful when apps have a static package name but change it programmatically in some app flavors, by e.g.  appending \".open\" or \".free\" at the end of the package name."
-msgstr "Kiedy sprawdzanie aktualizacji (przez 'Sprawdź tryb aktualizacji') to można określić nazwę pakietu do wyszukiwania. Przydatne, gdy aplikacje mają nazwy pakietów statycznych, ale to programowo zmienić w niektórych aplikacji smaków, przez np. Dołączanie '.otwórz' lub '.free' na końcu nazwy pakietu."
+msgstr "Podczas sprawdzania aktualizacji (za pomocą _UpdateCheckMode_) można użyć tego parametru do określenia nazwy pakietu do wyszukania. Przydatne, gdy aplikacje mają statyczną nazwę pakietu, ale zmieniają ją programowo w niektórych aplikacjach, np. dodawanie \".open\" lub \".free\" na końcu nazwy pakietu."
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -5098,9 +5095,8 @@ msgstr "`hg log -p` np. libs | _build.xml_ | _AndroidManifest.xml_ | _project.pr
 
 #. type: Bullet: '-   '
 #: build/_docs/md/How_to_update_an_app.md
-#, fuzzy
 msgid "If you find proprietary files add a dummy build version to the metadata with a few words about the reason, add _NoSourceSince_ to the bottom and a line to the descripion beginning with Status: to the description explaining the reason that the app can't be updated"
-msgstr "Jeśli znajdziesz zastrzeżone pliki, dodaj do ich metadanych fałszywą wersję kompilacji z kilkoma słowami o przyczynie, dodaj _NoSourceSince_ na dole i linię do opisu zaczynającego się od Status: do opisu wyjaśniającego przyczynę, dla której aplikacja nie może być na bieżąco"
+msgstr "Jeśli znajdziesz zastrzeżone pliki, dodaj fałszywą wersję kompilacji do metadanych z kilkoma słowami o przyczynie, dodaj _NoSourceSince_ na dół i linię do opisu zaczynającego się od Status: do opisu wyjaśniającego przyczynę, dla której aplikacja nie może być zaktualizowana"
 
 #. type: Bullet: '-   '
 #: build/_docs/md/How_to_update_an_app.md
@@ -8372,7 +8368,7 @@ msgstr "Ustaw następujące informacje:"
 
 #. type: Plain text
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "```yaml\n"
 "Categories:\n"
@@ -8383,11 +8379,20 @@ msgid ""
 "WebSite: http://artificialworlds.net/rabbit-escape\n"
 "SourceCode: https://github.com/andybalaam/rabbit-escape\n"
 "IssueTracker: https://github.com/andybalaam/rabbit-escape/issues\n"
-msgstr "``` Categories:Games License:GPL-2.0-or-later AuthorName:Andy Balaam and the Rabbit Escape developers AuthorEmail:rabbitescape@artificialworlds.net WebSite:http://artificialworlds.net/rabbit-escape SourceCode:https://github.com/andybalaam/rabbit-escape IssueTracker:https://github.com/andybalaam/rabbit-escape/issues"
+msgstr ""
+"```yaml\n"
+"Kategorie:\n"
+" - Gry\n"
+"Licencja: GPL-2.0-or-later\n"
+"Nazwa Autora: Andy Balaam i programiści Rabbit Escape\n"
+"Email Autora: rabbitescape@artificialworlds.net\n"
+"Strona Internetowa: http://artificialworlds.net/rabbit-escape\n"
+"Kod Źródłowy: https://github.com/andybalaam/rabbit-escape\n"
+"Problemy: https://github.com/andybalaam/rabbit-escape/issues\n"
 
 #. type: Plain text
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "AutoName: Rabbit Escape\n"
 "Summary: Lemmings-like puzzle/action game\n"
@@ -8395,12 +8400,11 @@ msgid ""
 " 140 levels of puzzling action!\n"
 " ... blah blah ...\n"
 msgstr ""
-"Name:Rabbit Escape\n"
-"Summary:Lemmings-like puzzle/action game\n"
-"Description:\n"
-"140 levels of puzzling action!\n"
-" ... blah blah ...\n"
-".\n"
+"Automatyczna Nazwa: Rabbit Escape\n"
+"Krótki opis: Lemmings-like puzzle/action game\n"
+"Opis: |\n"
+" 140 poziomów zagadkowego działania!\n"
+" ... bla bla ...\n"
 
 #. type: Plain text
 #: build/_docs/md/Submitting_to_F-Droid_Quick_Start_Guide.md
