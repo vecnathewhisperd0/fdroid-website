@@ -11,6 +11,22 @@
     "add_repo": {
         "overview": {
             "title": "Obtenir plus de contenu."
+        },
+        "title": "Comment ajouter un dépôt à F-Droid",
+        "open_repo_link": {
+            "short_summary": "Ouvrir le lien du dépôt",
+            "title": "Ouvrir le lien du dépôt sur votre téléphone",
+            "steps": {
+                "step_1": "Téléchargez et installez l’application F-Droid sur votre Android.",
+                "step_2": "Cliquez sur le lien et ouvrez-le dans un navigateur Web sur votre téléphone.",
+                "step_3": "Lorsque le lien est ouvert, appuyez sur le bouton « Ajouter à F-Droid ».",
+                "step_7": "Appuyez sur un dépôt pour voir son contenu.",
+                "step_8": "Sélectionnez les applications que vous souhaitez avoir et installez-les sur votre téléphone."
+            }
+        },
+        "scan_qr_code": {
+            "short_summary": "Scanner un code QR",
+            "title": "Scanner un code QR à partir d’un autre appareil"
         }
     }
 }
