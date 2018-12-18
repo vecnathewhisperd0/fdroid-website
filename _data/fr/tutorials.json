@@ -64,7 +64,7 @@
             "steps": {
                 "step_1": "Cliquez sur un élément pour consulter ses détails.",
                 "step_2": "Cliquez sur « Modifier ».",
-                "step_4": "Toutes vos modifications sont sauvegardées automatiquement."
+                "step_4": "Toutes vos modifications sont enregistrées automatiquement."
             }
         },
         "share_repo": {
