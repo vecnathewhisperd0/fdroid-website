@@ -48,6 +48,9 @@ Die deutsche Fassung verzögert sich noch ein wenig. Wer es nicht abwarten kann,
 * **[DeltaCamera](https://f-droid.org/app/de.uwepost.android.deltacam)**: Record movement (deltas) in one single image.
 * **[AnLinux](https://f-droid.org/app/exa.lnx.a)**: Run Linux on Android without root access with the help of **[Termux](https://f-droid.org/app/com.termux)** and **[RoMote](https://f-droid.org/app/wseemann.media.romote)**. Several distros and WM/DE combinations are available.
 * **[/d/gapps](https://f-droid.org/app/org.droidtr.deletegapps)**: Delete/disable gapps.
+* **[PeerTube](https://f-droid.org/app/net.schueller.peertube)** PeerTube is a federated (ActivityPub) video streaming platform using P2P (WebTorrent) directly in the web browser.
+* **[DecSync CC](https://f-droid.org/app/org.decsync.cc)** & **[spaRSS DecSync](https://f-droid.org/app/org.decsync.sparss.floss)** These apps use the [DecSync](https://github.com/39aldo39/DecSync)-libs to synchronize key-value mappings without a server. They cover the Contacts/Calendars and the RSS use cases. To start synchronizing, all you have to do is synchronize the directory "DecSync" located in the primary external storage, using for example [Syncthing](https://f-droid.org/app/com.nutomic.syncthingandroid).
+* **[NoSurf for reddit](https://f-droid.org/en/packages/com.aaronhalbert.nosurfforreddit/)** Calls itself "the world's first **non-addictive** Reddit client", and offers ways to limit time wasting on reddit.
 
 ### Updated apps
 
