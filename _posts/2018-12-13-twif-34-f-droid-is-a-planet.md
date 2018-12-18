@@ -39,9 +39,9 @@ Hello FOSS Android enthusiasts and project leads! Do you want your FOSS and Andr
 
 **[@Izzy](https://forum.f-droid.org/u/izzy)** [writes](https://mastodon.technology/users/IzzyOnDroid/statuses/101210904206926714):
 
-Happy Chanukka, happy 2nd advent – and here comes a little present: I've just put the first article of my F-Droid series online. "F-Droid: The privacy-friendly alternative to Google Play Store" can be found at [https://android.izzysoft.de/articles/named/fdroid-intro-1](https://forum.f-droid.org/t/planet-f-droid-org-feed-aggregator-for-android-dev-related-blogs/4481).
+I've just put the first article of my F-Droid series online. "F-Droid: The privacy-friendly alternative to Google Play Store" can be found at [https://android.izzysoft.de/articles/named/fdroid-intro-1](https://android.izzysoft.de/articles/named/fdroid-intro-1).
 
-Die deutsche Fassung verzögert sich noch ein wenig. Wer es nicht abwarten kann, kauft sich die c't 25, der ich (nach Vereinbarung mit Heise) ein paar Wochen Vorsprung geben muss. 😉
+The German article is also online now at the same location.
 
 ### New apps
 
