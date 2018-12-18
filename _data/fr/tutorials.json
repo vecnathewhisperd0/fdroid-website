@@ -40,6 +40,42 @@
         "title": "Comment envoyer et recevoir des applications hors ligne",
         "intro": "Pas d’internet ? Pas de problème. Vous pouvez télécharger des applications depuis les personnes de votre entourage.",
         "step_1": "Ouvrez F-Droid. Appuyez sur « À proximité » dans le menu en bas de votre écran.",
-        "step_4": "Une fois connecté, choisissez les applications que vous souhaitez partager avec votre contact."
+        "step_4": "Une fois connecté, choisissez les applications que vous souhaitez partager avec votre contact.",
+        "step_5": "Appuyez sur le bouton « —> ».",
+        "step_6": "Une personne sera invitée à confirmer la demande de connexion.",
+        "step_7": "Appuyez sur le bouton « Installer » situé à côté des applications que vous souhaitez installer."
+    },
+    "create_repo": {
+        "overview": {
+            "title": "Ajoutez vos propres applications et fichiers."
+        },
+        "title": "Comment créer un dépôt",
+        "download_and_install": {
+            "title": "Téléchargez et installez Repomaker pour commencer la création",
+            "steps": {
+                "step_1": "Téléchargez et installez l’application web Repomaker sur votre ordinateur de bureau.",
+                "step_2": "Lancez l’application Web Repomaker. Connectez-vous ou Inscrivez-vous pour commencer.",
+                "step_3": "Créez un nouveau dépôt et nommez-le en conséquence.",
+                "step_6": "Vos applications seront affichées dans votre vue des contenus du dépôt."
+            }
+        },
+        "customize_repo": {
+            "title": "Personnalisez votre dépôt",
+            "steps": {
+                "step_1": "Cliquez sur un élément pour consulter ses détails.",
+                "step_2": "Cliquez sur « Modifier ».",
+                "step_4": "Toutes vos modifications sont sauvegardées automatiquement."
+            }
+        },
+        "share_repo": {
+            "title": "Personnalisez votre dépôt"
+        },
+        "update_repo": {
+            "title": "Mettre à jour votre dépôt",
+            "steps": {
+                "step_2": "Vous pouvez également ouvrir un seul élément pour ajouter une nouvelle version. Sélectionnez Modifier.",
+                "step_4": "Ensuite, ajoutez une nouvelle version dans la section « Historique des versions »."
+            }
+        }
     }
 }
