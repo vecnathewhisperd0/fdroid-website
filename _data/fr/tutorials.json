@@ -2,7 +2,7 @@
     "misc": {
         "step_x": "Étape [number]",
         "step_x_description": "Étape [number]: [description]",
-        "option_x_description": "Option [number]: [description]",
+        "option_x_description": "Option [number] : [description]",
         "overview": {
             "title": "Ce que vous pouvez faire avec F-Droid",
             "tutorial_x_title": "Tutoriel [number]: [title]"
