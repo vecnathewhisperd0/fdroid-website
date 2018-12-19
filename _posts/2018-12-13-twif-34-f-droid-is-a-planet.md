@@ -43,6 +43,8 @@ I've just put the first article of my F-Droid series online. "F-Droid: The priva
 
 The German article is also online now at the same location.
 
+![Article Screenshot]({{ site.baseurl }}/assets/posts/2018-12-13-twif-34-f-droid-is-a-planet/Izzy%20c%27t%20F-Droid%20article%20part%201.jpg)
+
 ### New apps
 
 * **[DeltaCamera](https://f-droid.org/app/de.uwepost.android.deltacam)**: Record movement (deltas) in one single image.
