@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-12-19 13:31+0100\n"
-"PO-Revision-Date: 2018-12-19 20:54+0000\n"
-"Last-Translator: C. Rüdinger <Mail-an-CR@web.de>\n"
+"PO-Revision-Date: 2018-12-20 20:08+0000\n"
+"Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -7650,7 +7650,7 @@ msgstr "**[Music Player GO](https://f-droid.org/app/com.iven.musicplayergo)** wu
 #. type: Bullet: '* '
 #: build/_posts/md/2018-12-13-twif-34-f-droid-is-a-planet.md
 msgid "{{ page.featured }} **[Mastalab](https://f-droid.org/app/fr.gouv.etalab.mastodon)** was [updated](https://gitlab.com/tom79/mastalab/tags) from 1.36.0 to 1.39.0 and now has an art timeline! The buttons for boosting or favoriting are now animated, \"create toot\" button is hidden while scrolling, there is support for scheduling _boosts_ (toots could already be scheduled), and many bugs were fixed. Oh, and it should now have textual descriptions for everything, for visually impaired users."
-msgstr ""
+msgstr "{{ page.featured }} **[Mastalab](https://f-droid.org/app/fr.gouv.etalab.mastodon)** wurde von 1.36.0 auf 1.39.0 [aktualisiert](https://gitlab.com/tom79/mastalab/tags) und hat jetzt eine Kunst-Timeline! Die Schaltflächen für Boosting oder Favoriten sind nun animiert, der \"create toot\"-Button ist beim Scrollen versteckt, es gibt Unterstützung für die Terminplanung von _boosts_ (toots konnten bereits geplant werden) und viele Fehler wurden behoben. Übrigens: es sollte jetzt textuelle Beschreibungen für alles geben, für sehbehinderte Benutzer."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-12-13-twif-34-f-droid-is-a-planet.md
