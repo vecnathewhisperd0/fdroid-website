@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-12-19 13:31+0100\n"
-"PO-Revision-Date: 2018-12-20 20:08+0000\n"
-"Last-Translator: ssantos <ssantos@web.de>\n"
+"PO-Revision-Date: 2018-12-21 17:24+0000\n"
+"Last-Translator: C. Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -7635,7 +7635,7 @@ msgstr "**[PeerTube](https://f-droid.org/app/net.schueller.peertube)** PeerTube 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-12-13-twif-34-f-droid-is-a-planet.md
 msgid "**[DecSync CC](https://f-droid.org/app/org.decsync.cc)** & **[spaRSS DecSync](https://f-droid.org/app/org.decsync.sparss.floss)** These apps use the [DecSync](https://github.com/39aldo39/DecSync)-libs to synchronize key-value mappings without a server. They cover the Contacts/Calendars and the RSS use cases. To start synchronizing, all you have to do is synchronize the directory \"DecSync\" located in the primary external storage, using for example [Syncthing](https://f-droid.org/app/com.nutomic.syncthingandroid)."
-msgstr ""
+msgstr "**[DecSync CC](https://f-droid.org/app/org.decsync.cc)** & **[spaRSS DecSync](https://f-droid.org/app/org.decsync.sparss.floss)** Diese Apps verwenden die [DecSync](https://github.com/39aldo39/DecSync)-Bibliotheken, um Schlüssel-Werte-Zuordnungen ohne einen Server zu synchronisieren. Sie decken die Anwendungsfälle Kontakte/Kalender und RSS ab. Um die Synchronisation zu starten, müssen Sie lediglich das Verzeichnis \"DecSync\", das im primären, externen Speicher lokalisiert ist, synchronisieren, indem Sie beispielsweise [Syncthing](https://f-droid.org/app/com.nutomic.syncthingandroid) nutzen."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-12-13-twif-34-f-droid-is-a-planet.md
@@ -7655,32 +7655,33 @@ msgstr "{{ page.featured }} **[Mastalab](https://f-droid.org/app/fr.gouv.etalab.
 #. type: Bullet: '* '
 #: build/_posts/md/2018-12-13-twif-34-f-droid-is-a-planet.md
 msgid "{{ page.featured }} **[Markor](https://f-droid.org/app/net.gsantner.markor)** comes with lots of changes in 1.5.0. I could write a summary, but you should really just check the [release blog post](https://gsantner.net/blog/2018/12/09/markor-release-v1.5.html) which explains everything in pictures! (And also in words.)"
-msgstr ""
+msgstr "{{ page.featured }} **[Markor](https://f-droid.org/app/net.gsantner.markor)** erreicht uns mit vielen Änderungen in 1.5.0. Ich könnte eine Zusammenfassung davon verfassen, aber Sie sollten wirklich einfach den [Beitrag im Release-Blog](https://gsantner.net/blog/2018/12/09/markor-release-v1.5.html) studieren, der alles in Bildern (und auch in Worten) erklärt!"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-12-13-twif-34-f-droid-is-a-planet.md
 msgid "**[Open Contacts](https://f-droid.org/app/opencontacts.open.com.opencontacts)** was [updated](https://gitlab.com/sultanahamer/OpenContacts/blob/HEAD/CHANGELOG) from 7.0 to 9.0, featuring a dark theme, support for phone numbers with symbols, delete all contacts, several UI and UX improvements and bugfixes, including an important fix for a crash in Android 8 (Oreo). **Please export and reimport all your contacts** in order for search to work. Apologies, but it's only a one-time thing."
-msgstr ""
+msgstr "**[Open Contacts](https://f-droid.org/app/opencontacts.open.com.opencontacts)** wurde von 7.0 auf 9.0 [aktualisiert](https://gitlab.com/sultanahamer/OpenContacts/blob/HEAD/CHANGELOG), mit Einführung eines dunklen Designs, der Unterstützung von Telefonnummern mit Symbolen, der Löschung aller Kontakte, verschiedenen Verbesserungen der Benutzerschnittstelle und -freundlichkeit sowie Fehlerkorrekturen, einschließlich einer wichtigen für eine Absturzursache unter Android 8 (Oreo). **Bitte exportieren und reimportieren Sie alle Ihre Kontakte**, damit die Suche funktioniert. Entschuldigen Sie bitte, aber das ist nur eine einmalige Angelegenheit."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-12-13-twif-34-f-droid-is-a-planet.md
 msgid "**[AndStatus](https://f-droid.org/app/org.andstatus.app)** [updated](http://andstatus.org/changelog.html) to 45.01, adding the \"unread notifications\" timeline. It also has improved handling of HTML content."
-msgstr ""
+msgstr "**[AndStatus](https://f-droid.org/app/org.andstatus.app)** [aktualisiert](http://andstatus.org/changelog.html) auf 45.01, ergänzt eine Zeitachse für \"ungelesene Benachrichtigungen\". Außerdem wurde die Verarbeitung von HTML-Inhalten verbessert."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-12-13-twif-34-f-droid-is-a-planet.md
+#, fuzzy
 msgid "**[SimpleEmail](https://f-droid.org/app/org.dystopia.email)** 1.3.0 brings a better layout for the message list, refresh message list, and moves the color picker account outside of advanced."
-msgstr ""
+msgstr "**[SimpleEmail](https://f-droid.org/app/org.dystopia.email)** 1.3.0 bringt ein besseres Layout für die Nachrichtenliste mit, das Auffrischen der Nachrichtenliste und verlegt den Farbauswahlwert aus den erweiterten Einstellungen."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-12-13-twif-34-f-droid-is-a-planet.md
 msgid "Since we've mentioned SimpleEmail, its upstream app **[FairEmail](https://f-droid.org/app/eu.faircode.email)** got plenty of updates and fixes in the mean time, way too many to list here. What we can mention is that the app has lowered its device requirements so now it's compatible with Android 5 too."
-msgstr ""
+msgstr "Wenn wir schon von SimpleEmail sprechen, ihre vorgeschaltete App **[FairEmail](https://f-droid.org/app/eu.faircode.email)** hat in der Zwischenzeit eine Vielzahl an Aktualisierungen und Korrekturen erhalten, zu viele, um sie hier aufzulisten. Was wir erwähnen sollten, ist, dass die App ihre Systemvoraussetzungen reduziert hat, sodass sie nun auch mit Android 5 kompatibel ist."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-12-13-twif-34-f-droid-is-a-planet.md
 msgid "And still talking about e-mail, **[InboxPager](https://f-droid.org/app/net.inbox.pager)** got a big update to 4.0 bringing an UI update and an internal file manager."
-msgstr ""
+msgstr "Und nochmals zur E-Mail, **[InboxPager](https://f-droid.org/app/net.inbox.pager)** erhielt ein wichtiges Update auf 4.0, das eine Aktualisierung der Benutzeroberfläche und einen internen Dateimanager mitbringt."
 
 #. type: Plain text
 #: build/_posts/md/2018-12-13-twif-34-f-droid-is-a-planet.md
@@ -7695,18 +7696,17 @@ msgstr ""
 #. type: Bullet: '* '
 #: build/_posts/md/2018-12-13-twif-34-f-droid-is-a-planet.md
 msgid "**[IceCatMobile](https://f-droid.org/app/org.gnu.icecat)** The free software rebranding of the latest Firefox-ESR release just got updated to version 60, besides the usual plethora of new features it also moves the UI to Photon, and so it drops support for Android 4.0.4 and older. Users of the Sync feature should keep an eye on [this bug report](https://savannah.gnu.org/bugs/?50960) if it suddenly doesn't work."
-msgstr ""
+msgstr "**[IceCatMobile](https://f-droid.org/app/org.gnu.icecat)** Der freie Software-Abkömmling der letzten Firefox-ESR-Version wurde gerade auf Version 60 aktualisiert, neben der gewohnten Fülle an neuen Funktionen, verschiebt sich auch die UI in Richtung Photon und somit geht auch die Unterstützung von Android-Versionen älter als 4.1 verloren. Nutzer der Sync-Funktion sollten einen Blick auf [diesen Fehlerbericht](https://savannah.gnu.org/bugs/?50960) werfen, wenn sie plötzlich nicht funktioniert."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-12-13-twif-34-f-droid-is-a-planet.md
 msgid "**[Hacker's Keyboard](https://f-droid.org/app/org.pocketworkstation.pckeyboard)** After almost 2 years of missing updates the keyboard was now updated, no ground-breaking features, but mostly fixes and compatibility updates for the new Android versions."
-msgstr ""
+msgstr "**[Hacker's Keyboard](https://f-droid.org/app/org.pocketworkstation.pckeyboard)** Nach fast 2 Jahren ohne Updates wurde die Tastatur nun aktualisiert, keine bahnbrechenden Neuerungen, sondern im Wesentlichen Korrekturen und Kompatibilitätsanpassungen für die neuen Android-Versionen."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-12-13-twif-34-f-droid-is-a-planet.md
-#, fuzzy
 msgid "**[Iven News Reader](https://f-droid.org/wiki/page/com.iven.lfflfeedreader)** was moved to the archive because the app has been marked as \"deprecated\" by its author."
-msgstr "**[PSLab](https://f-droid.org/wiki/page/org.fossasia.pslab)** wurde ins Archiv verschoben, weil sie durch **[PSLab](https://f-droid.org/app/io.pslab)** ersetzt wurde."
+msgstr "**[Iven News Reader](https://f-droid.org/wiki/page/com.iven.lfflfeedreader)** wurde ins Archiv verschoben, da die App durch ihren Autor als \"überholt\" markiert wurde."
 
 #~ msgid "**[Nextcloud Talk](https://f-droid.org/app/com.nextcloud.talk2)** 3.0.0 is out. (Or 4.0. Who even knows anymore?) Now with video verification, ability to share files in a chat, easier chat handling and logging, and just generally a better experience. Read the [official blog post](https://nextcloud.com/blog/nextcloud-talk-4.0-is-out/) for the juicy details."
 #~ msgstr "**[Nextcloud Talk](https://f-droid.org/app/com.nextcloud.talk2)** 3.0.0 ist draußen. (Oder 4.0. Wer weiß sogar noch mehr?) Nun mit Video-Verifikation, der Möglichkeit, Dateien in einem Chat zu teilen, einfacherer Chat-Bedienung und -Anmeldung und überhaupt besserem Erlebniswert. Lesen Sie den [offiziellen Blog-Post](https://nextcloud.com/blog/nextcloud-talk-4.0-is-out/), um die reizvollen Einzelheiten zu erfahren."
