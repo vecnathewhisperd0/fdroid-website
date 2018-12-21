@@ -104,6 +104,8 @@ In total, **{{ page.number_of_updated_apps }}** apps were updated this week. Her
 
 ### Beta updates
 
+The following updates won't be automatically suggested to you unless you have "Unstable updates" enabled in the F-Droid app settings, but you can expand the "Versions" tab and install them manually. Note that these are marked beta for a reason: proceed at your own risk.
+
 * {{ page.fdroid }} **[F-Droid](https://f-droid.org/app/org.fdroid.fdroid)** was [updated](https://gitlab.com/fdroid/fdroidclient/raw/HEAD/CHANGELOG.md) from 1.5-alpha0 to 1.5-alpha1, with UX and language cleanup of App Details.
 
 * **[Fennec F-Droid](https://f-droid.org/app/org.mozilla.fennec_fdroid)** was [updated](https://www.mozilla.org/en-US/firefox/android/notes/) from 63.0.2 to 64.0.1, with faster and more responsive scrolling, [Symantec certificates no longer trusted](https://blog.mozilla.org/security/2018/07/30/update-on-the-distrust-of-symantec-tls-certificates/) and several bug fixes including [security fixes](https://www.mozilla.org/security/advisories/mfsa2018-29/).
