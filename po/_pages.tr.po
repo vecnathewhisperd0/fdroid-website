@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-06-30 12:21+0200\n"
-"PO-Revision-Date: 2018-12-19 12:07+0100\n"
+"PO-Revision-Date: 2018-12-21 17:24+0000\n"
 "Last-Translator: Mesut Akcan <makcan@gmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/f-droid/website-pages/tr/>\n"
 "Language: tr\n"
@@ -496,7 +496,7 @@ msgstr "Aynı durum, uygulamaların daha yeni sürümlerini oluşturmaya yardım
 #. type: Plain text
 #: build/_pages/md/contribute.md
 msgid "Further information can be found in [the documentation](../docs), or by asking [on IRC](https://webchat.freenode.net/?channels=%23fdroid) (#fdroid on freenode)."
-msgstr ""
+msgstr "Daha fazla bilgi [dokümanlar] (../docs) bölümünde veya [IRC]'den sorulabilir(https://webchat.freenode.net/?channels=%23fdroid) (#fdroid on freenode)."
 
 #. type: Title ###
 #: build/_pages/md/contribute.md
@@ -528,7 +528,7 @@ msgstr ""
 #. type: Plain text
 #: build/_pages/md/contribute.md
 msgid "For working with the server and data projects, it’s a good idea to read [the manual]({{ \"/docs/\" | prepend: site.baseurl }})."
-msgstr ""
+msgstr "Sunucu ve veri projeleriyle çalışmak için, [manuel]({{ \"/docs/\" | prepend: site.baseurl }}) başlıklı makaleyi okumak iyi bir fikirdir."
 
 #. type: Title #
 #: build/_pages/md/docs.md
@@ -539,12 +539,12 @@ msgstr "Belgeler"
 #. type: Plain text
 #: build/_pages/md/docs.md
 msgid "F-Droid is both a repository of verified free software Android apps as well as a whole \"app store kit\", providing all the tools needed to setup and run an app store. It is a community-run free software project developed by a wide range of contributors. It also includes complete build and release tools for managing the process of turning app source code into published builds."
-msgstr ""
+msgstr "F-Droid, hem bir uygulama mağazasının kurulumu ve çalıştırılması için gereken tüm araçları sağlayan, hem doğrulanmış ücretsiz bir yazılım Android uygulamaları deposu hem de tüm bir \"uygulama mağazası kiti\" dir. Çok çeşitli katılımcılar tarafından geliştirilen, topluluk tarafından yönetilen ücretsiz bir yazılım projesidir. Ayrıca, uygulama kaynak kodunun yayınlanmış yapılara dönüştürülmesi sürecini yönetmek için eksiksiz oluşturma ve yayınlama araçlarını içerir."
 
 #. type: Plain text
 #: build/_pages/md/docs.md
 msgid "The F-Droid server tools provide various scripts and tools that are used to maintain the main F-Droid application repository. You can use these same tools to create your own additional or alternative repository for publishing, or to assist in creating, testing and submitting metadata to the main repository."
-msgstr ""
+msgstr "F-Droid sunucu araçları, ana F-Droid uygulama havuzunu korumak için kullanılan çeşitli komut dosyaları ve araçlar sağlar. Aynı araçları, yayınlamak için kendi ek veya alternatif deponuzu oluşturmak veya ana depoya meta verileri oluşturmaya, test etmeye ve göndermeye yardımcı olmak için kullanabilirsiniz."
 
 #. type: Title ###
 #: build/_pages/md/docs.md
@@ -560,12 +560,12 @@ msgstr "[SSS - Genel](FAQ_-_General) F-Droid hakkında Sık Sorulan Sorular"
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
 msgid "[FAQ - Client](FAQ_-_Client) Frequently Asked Questions about how to use the F-Droid app in Android."
-msgstr ""
+msgstr "[SSS - Müşteri](FAQ_-_Client) Android'de F-Droid uygulamasını kullanma hakkında Sıkça Sorulan Sorular."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
 msgid "[Anti-Features](https://f-droid.org/wiki/page/Antifeatures) What they are, what they mean, and what apps have them."
-msgstr ""
+msgstr "[Karşı-Özellikler](https://f-droid.org/wiki/page/Antifeatures) Ne oldukları, ne anlama geldikleri ve hangi uygulamaların onlara sahip oldukları."
 
 #. type: Title ###
 #: build/_pages/md/docs.md
@@ -576,27 +576,27 @@ msgstr "Daha Çok Bilgi"
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
 msgid "[How to Help](How_to_Help) Different ways anyone can contribute to the F-Droid project."
-msgstr ""
+msgstr "[Nasıl Yardım Edilir](How_to_Help) F-Droid projesine herkesin katkıda bulunabileceği farklı yollar."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
 msgid "[Known Repositories](https://forum.f-droid.org/t/721) A list that tries to keep track of known F-Droid compatible repositories."
-msgstr ""
+msgstr "[Bilinen Depolar](https://forum.f-droid.org/t/721) Bilinen F-Droid uyumlu depoları takip etmeye çalışan bir liste."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
 msgid "[Release Channels and Signing Keys](Release_Channels_and_Signing_Keys) These are the various channels that F-Droid software are released on, with info to verify them based on signing keys."
-msgstr ""
+msgstr "[Yayınlama Kanalları ve İmzalama Anahtarları](Release_Channels_and_Signing_Keys) Bunlar, F-Droid yazılımının piyasaya sürüldüğü çeşitli kanallardır ve bunları imzalama anahtarlarına dayanarak doğrulamak için bilgiler içerir."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
 msgid "[Security Model](Security_Model) A brief explanation of how F-Droid delivers software to users securely."
-msgstr ""
+msgstr "[Güvenlik Modeli](Security_Model) F-Droid'in yazılımı kullanıcılara nasıl güvenli bir şekilde verdiği hakkında kısa bir açıklama."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
 msgid "[Translation and Localization](Translation_and_Localization) How all the parts of F-Droid are localized."
-msgstr ""
+msgstr "[Çeviri ve Yerelleştirme](Translation_and_Localization) F-Droid'in tüm parçaları nasıl yerelleştirilir."
 
 #. type: Title ###
 #: build/_pages/md/docs.md
@@ -607,32 +607,32 @@ msgstr "Geliştiriciler"
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
 msgid "[FAQ - App Developers](FAQ_-_App_Developers) Frequently Asked Questions about F-Droid"
-msgstr ""
+msgstr "[SSS - Uygulama Geliştiricileri](FAQ_-_App_Developers) F-Droid hakkında Sıkça Sorulan Sorular"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
 msgid "[Build Metadata Reference](Build_Metadata_Reference) All about the build \"recipes\""
-msgstr ""
+msgstr "[Meta Veri Referansı Oluşturun](Build_Metadata_Reference) \"Tarifler\" hakkında her şey"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
 msgid "[Submitting to F-Droid: Quick Start Guide](Submitting_to_F-Droid_Quick_Start_Guide) Add an app to f-droid.org"
-msgstr ""
+msgstr "[F-Droid'e Gönderme: Hızlı Başlangıç Kılavuzu](Submitting_to_F-Droid_Quick_Start_Guide) Bir uygulamayı f-droid.org'a ekle"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
 msgid "[Update Processing](Update_Processing) How updates get detected and added."
-msgstr ""
+msgstr "[Güncelleme İşlemi](Update_Processing) Güncellemeler nasıl tespit edilir ve eklenir."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
 msgid "[Inclusion Policy](Inclusion_Policy) & [Inclusion How-To](Inclusion_How-To)  Guidelines for how to request the inclusion of a new app."
-msgstr ""
+msgstr "[Ekleme Politikası](Inclusion_Policy) & [Ekleme Nasıl Yapılır](Inclusion_How-To)  Yeni bir uygulamanın eklenmesini istemek için yönergeler."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
 msgid "[Importing Applications](Importing_Applications) Using `fdroid import` to build a new project."
-msgstr ""
+msgstr "[Uygulamaları İçe Aktarmak](Importing_Applications) Yeni bir proje oluşturmak için `fdroid içe aktarma` kullanmak."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
