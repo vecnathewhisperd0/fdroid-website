@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-06-30 12:21+0200\n"
-"PO-Revision-Date: 2018-12-21 17:24+0000\n"
+"PO-Revision-Date: 2018-12-22 20:08+0000\n"
 "Last-Translator: Mesut Akcan <makcan@gmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/f-droid/website-pages/tr/>\n"
 "Language: tr\n"
@@ -71,17 +71,17 @@ msgstr "Lisans"
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "The source code for this site and the content produced by the F-Droid community are a availble under the [GNU Affero General Public License version 3 or later (AGPLv3+)](https://www.gnu.org/licenses/agpl-3.0.html)."
-msgstr ""
+msgstr "Bu sitenin kaynak kodu ve F-Droid topluluğu tarafından üretilen içerik [GNU Affero Genel Kamu Lisansı sürüm 3 veya üstü (AGPLv3+)] altında kullanılabilir. (https://www.gnu.org/licenses/agpl-3.0.html)."
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "The content of the news section and the F-Droid logo are also available under [Creative Commons Attribution-ShareAlike 3.0 License (CC-BY-SA-3.0)](http://creativecommons.org/licenses/by-sa/3.0/) or [GNU General Public License version 3 or later (GPLv3+)](https://www.gnu.org/licenses/gpl-3.0.html)."
-msgstr ""
+msgstr "Haber bölümünün içeriği ve F-Droid logosu da [Creative Commons Attribution-ShareAlike 3.0 Lisansı (CC-BY-SA-3.0)] altında mevcuttur. (http://creativecommons.org/licenses/by-sa/3.0/) veya [GNU Genel Kamu Lisansı sürüm 3 veya üstü (GPLv3+)](https://www.gnu.org/licenses/gpl-3.0.html)."
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
 msgid "The descriptive text and graphics for each app have a specific license from that project.  Free software should also have free descriptions and graphics."
-msgstr ""
+msgstr "Her uygulamanın açıklayıcı metni ve grafikleri, söz konusu projeden belirli bir lisansa sahiptir. Özgür yazılımda ayrıca ücretsiz açıklamalar ve grafikler olmalıdır."
 
 #. type: Bullet: '* '
 #: build/_pages/md/about.md
@@ -97,12 +97,12 @@ msgstr "Koşullar, vb."
 #. type: Plain text
 #: build/_pages/md/about.md
 msgid "F-Droid is a non-profit [volunteer]({{ \"/contribute/\" | prepend: site.baseurl }}) project. Although every effort is made to ensure that everything in the repository is safe to install, you use it AT YOUR OWN RISK. Wherever possible, applications in the repository are built from source, and that source code is checked for potential security or privacy issues. This checking is far from exhaustive though, and there are no guarantees."
-msgstr ""
+msgstr "F-Droid kar amacı gütmeyen bir [gönüllü]({{ \"/contribute/\" | prepend: site.baseurl }}) projesidir. Depodaki her şeyin güvenli bir şekilde kurulmasını sağlamak için her türlü çaba gösterilmesine rağmen, KENDİ RİSKİNİZDE kullanabilirsiniz. Mümkün olan her durumda, depodaki uygulamalar kaynaktan oluşturulur ve bu kaynak kodu potansiyel güvenlik veya gizlilik konularında kontrol edilir. Bu kontrol her ne kadar kapsamlı olsa da, ve hiçbir garanti yoktur."
 
 #. type: Plain text
 #: build/_pages/md/about.md
 msgid "F-Droid respects your privacy. We don’t track you, or your device. We don’t track what you install. You don’t need an account to use the client, and it sends no additional identifying data when talking to our web server other than its version number. We don’t even allow you to install other applications from the repository that track you, unless you first enable ‘Tracking’ in the AntiFeatures section of preferences. Any personal data you decide to give us (e.g. your email address when registering for an account to post on the forum) goes no further than us, and will not be used for anything other than allowing you to maintain your account."
-msgstr ""
+msgstr "F-Droid gizliliğinize saygı duyar. Seni veya cihazınızı takip etmiyoruz. Ne yüklediğinizi izlemiyoruz. İstemciyi kullanmak için bir hesaba ihtiyacınız yoktur ve web sunucumuzla sürüm numarası dışında konuştuğunda ek tanımlayıcı veri göndermez. Tercihlerin AntiFeatures bölümünde \"İzleme\" yi etkinleştirmediğiniz sürece, sizi takip eden depodaki diğer uygulamaları yüklemenize bile izin vermiyoruz. Bize göndermeye karar verdiğiniz kişisel bilgiler (ör. Forumda bir hesap için kayıt yaptırırken e-posta adresiniz) bizden fazla olmayacak ve hesabınızı korumanıza izin vermekten başka bir şey için kullanılmayacaktır."
 
 #. type: Title ###
 #: build/_pages/md/about.md
@@ -481,7 +481,7 @@ msgstr "Uygulama Gönder"
 #. type: Plain text
 #: build/_pages/md/contribute.md
 msgid "If you see an application missing from the repository (after reading the [inclusion policy](../docs/Inclusion_Policy)), please feel free to submit it via the dedicated [Requests For Packaging](https://gitlab.com/fdroid/rfp/issues) issue tracker."
-msgstr ""
+msgstr "Depodan eksik bir uygulama görüyorsanız ([ekleme politikası](../docs/Inclusion_Policy)) okunduktan sonra, lütfen özel olarak göndermek için çekinmeyin [Paketleme Talepleri](https://gitlab.com/fdroid/rfp/issues) sorunu izleyici."
 
 #. type: Plain text
 #: build/_pages/md/contribute.md
