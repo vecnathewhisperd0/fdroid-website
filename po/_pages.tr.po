@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-06-30 12:21+0200\n"
-"PO-Revision-Date: 2018-12-22 20:08+0000\n"
+"PO-Revision-Date: 2018-12-25 12:08+0000\n"
 "Last-Translator: Mesut Akcan <makcan@gmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/f-droid/website-pages/tr/>\n"
 "Language: tr\n"
@@ -60,7 +60,7 @@ msgstr "İletişim"
 #. type: Plain text
 #: build/_pages/md/about.md
 msgid "You can discuss F-Droid or get help on the [forum](https://forum.f-droid.org) and IRC in the [#fdroid channel](https://webchat.freenode.net/?channels=%23fdroid) on freenode. The discussions on IRC are logged on [BotBot.me](https://botbot.me/freenode/fdroid).  You can send email at [team@f-droid.org](mailto:team@f-droid.org), but messages are much more likely to be answered on the forum or #fdroid channel. If you want to help, you can [join us]({{ \"/contribute/\" | prepend: site.baseurl }})."
-msgstr ""
+msgstr "F-Droid'i tartışabilir veya [#fdroid kanalı] içindeki [forum](https://forum.f-droid.org) ve freenode'daki IRC[#fdroid kanalı](https://webchat.freenode.net/?channels=%23fdroid)'den yardım alabilirsiniz. IRC'deki tartışmalar [BotBot.me](https://botbot.me/freenode/fdroid)'de günlüğe kaydedilir. [team@f-droid.org](mailto:team@f-droid.org) adresinden e-posta gönderebilirsiniz, ancak forumda veya #fdroid kanalında iletilerin yanıtlanması daha olasıdır. Yardım etmek istiyorsanız [bize katılın]({{ \"/contribute/\" | prepend: site.baseurl }})."
 
 #. type: Title ###
 #: build/_pages/md/about.md
@@ -486,7 +486,7 @@ msgstr "Depodan eksik bir uygulama görüyorsanız ([ekleme politikası](../docs
 #. type: Plain text
 #: build/_pages/md/contribute.md
 msgid "If you have the technical skills required, you can also put together the relevant metadata and [submit that via the F-Droid Data repository](https://gitlab.com/fdroid/fdroiddata/blob/master/CONTRIBUTING.md), which will drastically speed up the inclusion of the application."
-msgstr ""
+msgstr "Gerekli teknik becerilere sahipseniz, uygulamanın dahil edilmesini büyük ölçüde hızlandıracak olan ilgili meta verileri de bir araya getirebilir ve [bunu F-Droid Veri deposu aracılığıyla gönderebilirsiniz](https://gitlab.com/fdroid/fdroiddata/blob/master/CONTRIBUTING.md)."
 
 #. type: Plain text
 #: build/_pages/md/contribute.md
@@ -507,12 +507,12 @@ msgstr "Çeviri"
 #. type: Plain text
 #: build/_pages/md/contribute.md
 msgid "The client application is available in many languages. Should yours not be among those, or be in need of updates or improvement, please create an account and use the [translation system](https://hosted.weblate.org/projects/f-droid/) to make your changes."
-msgstr ""
+msgstr "İstemci uygulaması birçok dilde mevcuttur. Sizinkiler arasında değilse veya güncelleme veya iyileştirme ihtiyacı varsa, lütfen bir hesap oluşturun ve değişikliklerinizi yapmak için [çeviri sistemini](https://hosted.weblate.org/projects/f-droid/) kullanın."
 
 #. type: Plain text
 #: build/_pages/md/contribute.md
 msgid "Start with the overview of [Translation and Localization](../docs/Translation_and_Localization).  There’s also a [dedicated forum section](https://forum.f-droid.org/c/translation) for translation related discussions."
-msgstr ""
+msgstr "[Tercüme ve Yerelleştirme](../docs/Translation_and_Localization) özeti ile başlayın. Ayrıca çeviri ile ilgili tartışmalar için bir [özel forum bölümü](https://forum.f-droid.org/c/translation) bulunmaktadır."
 
 #. type: Title ###
 #: build/_pages/md/contribute.md
@@ -637,12 +637,12 @@ msgstr "[Uygulamaları İçe Aktarmak](Importing_Applications) Yeni bir proje ol
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
 msgid "[Building Applications](Building_Applications) Using `fdroid build` to build an app."
-msgstr ""
+msgstr "[Uygulamaları Oluşturma](Building_Applications) Bir uygulama oluşturmak için `fdroid build`kullanma."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
 msgid "[All About Descriptions, Graphics, and Screenshots](All_About_Descriptions_Graphics_and_Screenshots) Showing off your app in F-Droid."
-msgstr ""
+msgstr "[Açıklamalar, Grafikler ve Ekran Görüntüleri Hakkında Her Şey](All_About_Descriptions_Graphics_and_Screenshots) F-Droid'deki uygulamanızı gösterin."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
