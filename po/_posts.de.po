@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-12-19 13:31+0100\n"
-"PO-Revision-Date: 2018-12-21 17:24+0000\n"
+"PO-Revision-Date: 2018-12-25 12:08+0000\n"
 "Last-Translator: C. Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\n"
 "Language: de\n"
@@ -7136,7 +7136,6 @@ msgstr "**[Markor](https://f-droid.org/app/net.gsantner.markor)**, ein voll ausg
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-11-15-twif-30-publishing-applications-through-f-droid-gitlab-runners-and-pluggable-transports.md
-#, fuzzy
 msgid "**[Open Contacts](https://f-droid.org/app/opencontacts.open.com.opencontacts)**, a privacy-friendly contact list that can't be read by other apps, was updated from 5.0 to 6.0, with contact names now a bit bolder, contacts following similar structure to call logs with actions either side of contact, and the call log now updates contact names as soon as a contact is added, rather than ignoring existing calls in the log."
 msgstr "**[Open Contacts](https://f-droid.org/app/opencontacts.open.com.opencontacts)**, eine datenschutzfreundliche Kontaktliste, die von anderen Anwendungen nicht gelesen werden kann, wurde von 5.0 auf 6.0 aktualisiert, mit etwas fetteren Kontaktnamen, Kontakten mit ähnlicher Struktur wie Anrufprotokolle mit Aktionen auf beiden Seiten des Kontakts, und die Anrufprotokolle aktualisieren nun die Kontaktnamen, sobald ein Kontakt hinzugefügt wird, anstatt bestehende Anrufe im Protokoll zu ignorieren."
 
@@ -7669,7 +7668,6 @@ msgstr "**[AndStatus](https://f-droid.org/app/org.andstatus.app)** [aktualisiert
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-12-13-twif-34-f-droid-is-a-planet.md
-#, fuzzy
 msgid "**[SimpleEmail](https://f-droid.org/app/org.dystopia.email)** 1.3.0 brings a better layout for the message list, refresh message list, and moves the color picker account outside of advanced."
 msgstr "**[SimpleEmail](https://f-droid.org/app/org.dystopia.email)** 1.3.0 bringt ein besseres Layout für die Nachrichtenliste mit, das Auffrischen der Nachrichtenliste und verlegt den Farbauswahlwert aus den erweiterten Einstellungen."
 
