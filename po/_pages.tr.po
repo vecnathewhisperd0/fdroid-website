@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-06-30 12:21+0200\n"
-"PO-Revision-Date: 2018-12-25 12:08+0000\n"
-"Last-Translator: Mesut Akcan <makcan@gmail.com>\n"
+"PO-Revision-Date: 2018-12-29 20:08+0000\n"
+"Last-Translator: Ali Demirtas <alidemirtas94@gmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/f-droid/website-pages/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
@@ -523,7 +523,7 @@ msgstr "Geliştirmeye Yardım"
 #. type: Plain text
 #: build/_pages/md/contribute.md
 msgid "There are four git repositories hosted at GitLab – one for the [Android client application](https://gitlab.com/fdroid/fdroidclient), one for the [server tools](https://gitlab.com/fdroid/fdroidserver) for running a repository and building/installing applications locally, and one for the associated [metadata files for applications in the main F-Droid repository](https://gitlab.com/fdroid/fdroiddata).  The last repo is handling [website and documentation](https://gitlab.com/fdroid/fdroid-website).  The easiest way to contribute to development is to make clones of these projects and submit merge requests.  If you are making large changes, it would be good to discuss them on IRC or in the forum first, to ensure they fit with the direction of the project, and do not clash with or duplicate work already in development."
-msgstr ""
+msgstr "GitLab'da barındırılan dört git deposu vardır –  biri [Android istemci uygulaması] için (https://gitlab.com/fdroid/fdroidclient), biri [sunucu araçları] için (https://gitlab.com/fdroid/fdroidserver), bir depo çalıştırmak ve yerel olarak uygulamalar oluşturmak / yüklemek için ve bunlarla ilişkili [ana F-Droid deposundaki uygulamalar için meta veri dosyaları] (https://gitlab.com/fdroid/fdroiddata). Son repo [web sitesi ve belgeler] ile ilgileniyor (https://gitlab.com/fdroid/fdroid-website). Gelişime katkıda bulunmanın en kolay yolu, bu projelerin klonlarını yapmak ve birleştirme talepleri sunmaktır. Büyük değişiklikler yapıyorsanız, projenin yönüne uygun olduklarından emin olmak için IRC'de veya forumda görüşmek ve halihazırda geliştirilmekte olan işlerle çakışmamak veya çoğaltmamak için bunları iyi bir şekilde ele almak iyi olur."
 
 #. type: Plain text
 #: build/_pages/md/contribute.md
@@ -647,27 +647,27 @@ msgstr "[Açıklamalar, Grafikler ve Ekran Görüntüleri Hakkında Her Şey](Al
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
 msgid "[Publishing Nightly Builds](Publishing_Nightly_Builds) Make an automated repo of nightly builds of your app."
-msgstr ""
+msgstr "[Gecelik Sürüm Yayınlama] (Publishing_Nightly_Builds) Uygulamanızın her gece otomatik oluşturduğu repoyu oluşturun."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
 msgid "[Installing the Server and Repo Tools](Installing_the_Server_and_Repo_Tools) How to install fdroidserver, the tools for running repos and build servers."
-msgstr ""
+msgstr "[Sunucu ve Repo Araçlarının Kurulumu](Installing_the_Server_and_Repo_Tools) fdroid sunucusu nasıl kurulur, repoları çalıştırmak ve sunucuları kurmak için araçlar."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
 msgid "[Setup an F-Droid App Repo](Setup_an_F-Droid_App_Repo) How to setup your own repository of apps that users can easily add to their F-Droid client to get your apps directly from the source."
-msgstr ""
+msgstr "[Bir F-Droid App Repo Kurulumu](Setup_an_F-Droid_App_Repo) Kullanıcıların uygulamalarını F-Droid istemcilerine doğrudan kaynaktan alabilmeleri için ekleyebilecekleri kendi uygulama havuzunuzu nasıl kurarsınız."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
 msgid "[Build Server Setup](Build_Server_Setup) How to setup the complete f-droid.org build setup on your own machine."
-msgstr ""
+msgstr "[Sunucu Kurulumu Oluşturma](Build_Server_Setup) Kendi makinenizde f-droid.org kurulum ayarlarının tamamı nasıl kurulur."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
 msgid "[Signing Process](Signing_Process) How to setup cryptographic signatures with F-Droid tools"
-msgstr ""
+msgstr "[İmzalama İşlemi](Signing_Process) F-Droid araçlarıyla şifreleme imzaları nasıl ayarlanır"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
