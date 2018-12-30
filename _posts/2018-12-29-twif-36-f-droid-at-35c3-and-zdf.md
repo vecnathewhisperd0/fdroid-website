@@ -72,7 +72,7 @@ In total, **{{ page.number_of_updated_apps }}** apps were updated this week. Her
 
 * **[Nextcloud](https://f-droid.org/app/com.nextcloud.client)** [updated](https://github.com/nextcloud/android/blob/HEAD/CHANGELOG.md) to 3.4.1 with the following changes:
   * hide download when creating share links
-  * direct editing files with Collabora Collabora Server 4.0
+  * direct editing files with Collabora Server 4.0
   * sort deleted files by deletion date by default
   * setedit notes on shares
   * search inside of text files
@@ -90,7 +90,7 @@ In total, **{{ page.number_of_updated_apps }}** apps were updated this week. Her
   * Fixed sending PGP encrypted messages from quick reply
   * Try to guess initial location in ShareLocation based on SIM card
   * Show a warning snackbar before joining anon-non-private room (maybe you don't want your JID to be public)
-  * Show accept button to confirm SASL downgrade (server reconfigured
+  * Show accept button to confirm SASL downgrade (e.g. server reconfigured)
 
   ...but the big news is that thanks to the work of [Alex Palaistras](https://github.com/deuill), the minimum required Android version was lowered to Android 4.1. Previously, users who didn't have Android 4.4 (or newer) and users of Jolla/Blackberry devices with limited Android compatibility were stuck on Conversations 1.23.8, or needed to switch to **[Conversations Legacy](https://f-droid.org/app/eu.siacs.conversations.legacy)**. With this change, they can get up to date with the latest Conversations (and Quicksy) versions. That being said, be sure to read the whole [changelog](https://github.com/siacs/Conversations/blob/master/CHANGELOG.md) between 1.23.x and 2.3.10, so you don't get surprised by the new stuff (removed swipe, removed OTR, and so on and so forth).
 
