@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2018-12-31 13:17+0100\n"
-"PO-Revision-Date: 2019-01-02 17:06+0000\n"
+"PO-Revision-Date: 2019-01-03 20:11+0000\n"
 "Last-Translator: C. Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\n"
 "Language: de\n"
@@ -7996,7 +7996,7 @@ msgstr "\"TWIF 36: F-Droid auf dem 35C3 und ZDF\""
 #. type: Plain text
 #: build/_posts/md/2018-12-29-twif-36-f-droid-at-35c3-and-zdf.md
 msgid "In this edition: Second part of @Izzy's article series is available, Privacy-focused article at ZDF, F-Droid does 35C3 and F-Droid 1.5 released.  There are **{{ page.number_of_added_apps }}** new and **{{ page.number_of_updated_apps }}** updated apps."
-msgstr "In this edition: Zweiter Teil von @Izzy's Artikelreihe erhältlich, datenschutz-fokusierter Beitrag im ZDF, F-Droid schafft 35C3 und F-Droid 1.5 veröffentlicht.  Diese Woche **{{ page.number_of_added_apps }}** neue und **{{ page.number_of_updated_apps }}** aktualisierte Apps."
+msgstr "In dieser Ausgabe: Zweiter Teil von @Izzy's Artikelreihe erhältlich, datenschutz-fokusierter Beitrag im ZDF, F-Droid schafft 35C3 und F-Droid 1.5 veröffentlicht.  Diese Woche **{{ page.number_of_added_apps }}** neue und **{{ page.number_of_updated_apps }}** aktualisierte Apps."
 
 #. type: Title ###
 #: build/_posts/md/2018-12-29-twif-36-f-droid-at-35c3-and-zdf.md
@@ -8074,7 +8074,7 @@ msgstr "**[VLC](https://f-droid.org/app/org.videolan.vlc)**: Der VLC Media Playe
 #. type: Bullet: '* '
 #: build/_posts/md/2018-12-29-twif-36-f-droid-at-35c3-and-zdf.md
 msgid "{{ page.fdroid }} **[F-Droid](https://f-droid.org/app/org.fdroid.fdroid)** 1.5 [is out](https://gitlab.com/fdroid/fdroidclient/raw/HEAD/CHANGELOG.md)! This version brings improvements and bug fixes for \"Nearby Swap\", updated translations, support for swapping via [SD card](https://en.wikipedia.org/wiki/Secure_Digital)s, UX and language cleanup of App Details, and support for (ROM/OEM/vendor)-added repositories by means of `additional_repos.xml`."
-msgstr "{{ page.fdroid }} **[F-Droid](https://f-droid.org/app/org.fdroid.fdroid)** 1.5 [kam raus](https://gitlab.com/fdroid/fdroidclient/raw/HEAD/CHANGELOG.md)! Diese Version bringt Verbesserungen und Korrekturen für den \"Nachbarschaftstausch\", überarbeitete Übersetzungen, die Unterstützung eines Tauschs über die [SD-Karte](https://en.wikipedia.org/wiki/Secure_Digital)s, eine Bereinigung der App-Details hinsichtlich Anwendererlebnis und Sprache sowie die Unterstützung (ROM-/OEM-/anbieterseitig) ergänzter Repositories mithilfe von `additional_repos.xml`."
+msgstr "{{ page.fdroid }} **[F-Droid](https://f-droid.org/app/org.fdroid.fdroid)** 1.5 [kam raus](https://gitlab.com/fdroid/fdroidclient/raw/HEAD/CHANGELOG.md)! Diese Version bringt Verbesserungen und Korrekturen für den \"Nachbarschaftstausch\", überarbeitete Übersetzungen, die Unterstützung eines Tauschs über die [SD-Karte](https://en.wikipedia.org/wiki/Secure_Digital), eine Bereinigung der App-Details hinsichtlich Anwendererlebnis und Sprache sowie die Unterstützung (ROM-/OEM-/anbieterseitig) ergänzter Repositories mithilfe von `additional_repos.xml`."
 
 #. type: Plain text
 #: build/_posts/md/2018-12-29-twif-36-f-droid-at-35c3-and-zdf.md
@@ -8138,7 +8138,7 @@ msgid ""
 "  * Show a warning snackbar before joining anon-non-private room (maybe you don't want your JID to be public)\n"
 "  * Show accept button to confirm SASL downgrade (e.g. server reconfigured)\n"
 msgstr ""
-"* {{ page.featured }} **[Conversations](https://f-droid.org/app/eu.siacs.conversations)** & **[Quicksy](https://f-droid.org/app/im.quicksy.client)** [updated](https://github.com/siacs/Conversations/blob/HEAD/CHANGELOG.md): Just a point release seit dem [TWIF 34]({{ site.baseurl }}{% post_url 2018-12-13-twif-34-f-droid-is-a-planet %}), aber 2.3.10+fcr besitzt einige nette Verbesserungen:\n"
+"* {{ page.featured }} **[Conversations](https://f-droid.org/app/eu.siacs.conversations)** & **[Quicksy](https://f-droid.org/app/im.quicksy.client)** [aktualisiert](https://github.com/siacs/Conversations/blob/HEAD/CHANGELOG.md): Just a point release seit dem [TWIF 34]({{ site.baseurl }}{% post_url 2018-12-13-twif-34-f-droid-is-a-planet %}), aber 2.3.10+fcr besitzt einige nette Verbesserungen:\n"
 "  * Synchronisation von Gruppen-Chat-Beitritten/Austritten über mehrere Clients\n"
 "  * Reparatur des Versands von PGP-verschlüsselten Nachrichten als Schnellantwort\n"
 "  * Versuch, den Ausgangsstandort in ShareLocation basierend auf der SIM-Karte zu erraten\n"
