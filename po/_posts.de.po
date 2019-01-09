@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2019-01-10 21:30+0100\n"
-"PO-Revision-Date: 2019-01-03 20:11+0000\n"
+"PO-Revision-Date: 2019-01-10 13:06+0000\n"
 "Last-Translator: C. Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\n"
 "Language: de\n"
@@ -8221,154 +8221,148 @@ msgstr "Und das war's in diesem Jahr! Alles Gute und auf Wiedersehen in 2019!"
 
 #. type: Title #
 #: build/_posts/md/2019-01-05-twif-37-the-european-bug-bounty-edition.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "\"TWIF 37: The European Bug Bounty Edition\""
-msgstr "\"TWIF 35: Die Flatpak-Ausgabe\""
+msgstr "\"TWIF 37: Die Europäische Bug-Bounty-Ausgabe\""
 
 #. type: Plain text
 #: build/_posts/md/2019-01-05-twif-37-the-european-bug-bounty-edition.md
-#, fuzzy
 msgid "In this edition: Happy New Year, @Izzy's third F-Droid article on-line and Europe to fund bug bounties for 15 open source programs.  There are **{{ page.number_of_added_apps }}** new and **{{ page.number_of_updated_apps }}** updated apps, with a major release for UserLAnd."
-msgstr "In dieser Ausgabe: Zweiter Teil von @Izzy's Artikelreihe erhältlich, datenschutz-fokusierter Beitrag im ZDF, F-Droid schafft 35C3 und F-Droid 1.5 veröffentlicht.  Diese Woche **{{ page.number_of_added_apps }}** neue und **{{ page.number_of_updated_apps }}** aktualisierte Apps."
+msgstr "In dieser Ausgabe: Frohes Neues Jahr, @Izzy's dritter F-Droid-Artikel ist online und Europa will Bug-Bounties für 15 Open-Source-Programmme fördern.  Es gibt **{{ page.number_of_added_apps }}** neue und **{{ page.number_of_updated_apps }}** aktualisierte Apps, darunter eine wichtige Veröffentlichung von UserLAnd."
 
 #. type: Title ###
 #: build/_posts/md/2019-01-05-twif-37-the-european-bug-bounty-edition.md
 #, no-wrap
 msgid "Happy New Year"
-msgstr ""
+msgstr "Frohes Neues Jahr"
 
 #. type: Plain text
 #: build/_posts/md/2019-01-05-twif-37-the-european-bug-bounty-edition.md
 msgid "It's a new year! The F-Droid team wishes you a great 2019 in health, prosperity and freedom."
-msgstr ""
+msgstr "Das neue Jahr ist da! Das F-Droid-Team wünscht euch ein tolles 2019 in Gesundheit, Wohlstand und Freiheit."
 
 #. type: Title ###
 #: build/_posts/md/2019-01-05-twif-37-the-european-bug-bounty-edition.md
 #, no-wrap
 msgid "@Izzy's third F-Droid article on-line"
-msgstr ""
+msgstr "@Izzy's dritter F-Droid-Artikel online"
 
 #. type: Plain text
 #: build/_posts/md/2019-01-05-twif-37-the-european-bug-bounty-edition.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "**[@Izzy](https://forum.f-droid.org/u/izzy)** [writes](https://mastodon.technology/users/IzzyOnDroid/statuses/101334420638305540):\n"
-msgstr "**[@Izzy](https://forum.f-droid.org/u/izzy)** [schreibt](https://mastodon.technology/users/IzzyOnDroid/statuses/101210904206926714):\n"
+msgstr "**[@Izzy](https://forum.f-droid.org/u/izzy)** [schreibt](https://mastodon.technology/users/IzzyOnDroid/statuses/101334420638305540):\n"
 
 #. type: Plain text
 #: build/_posts/md/2019-01-05-twif-37-the-european-bug-bounty-edition.md
 msgid "Always wanted to run your own F-Droid repo – but were afraid it's too complicated? No longer, as part 3 of my [@fdroidorg](https://mastodon.technology/@fdroidorg) series shows:"
-msgstr ""
+msgstr "Wer wollte schon immer sein eigenes F-Droid-Repo betreiben – hatte aber Angst, es sei zu kompliziert? Jetzt nicht mehr, wie Teil 3 meiner [@fdroidorg](https://mastodon.technology/@fdroidorg)-Serie zeigt:"
 
 #. type: Plain text
 #: build/_posts/md/2019-01-05-twif-37-the-european-bug-bounty-edition.md
 msgid "[Your own F-Droid Repository with Repomaker](https://android.izzysoft.de/articles/named/fdroid-intro-3)"
-msgstr ""
+msgstr "[Ihr eigenes F-Droid-Repository mit Repomaker](https://android.izzysoft.de/articles/named/fdroid-intro-3)"
 
 #. type: Title ###
 #: build/_posts/md/2019-01-05-twif-37-the-european-bug-bounty-edition.md
 #, no-wrap
 msgid "Europe to fund bug bounties for 15 open source programs"
-msgstr ""
+msgstr "Europa fördert Bug-Bounties für 15 Open-Source-Programme"
 
 #. type: Plain text
 #: build/_posts/md/2019-01-05-twif-37-the-european-bug-bounty-edition.md
 msgid "Starting in January, [the European Commission is going to fund bug bounty programs for a number of open source projects](https://betanews.com/2018/12/30/european-commission-bug-bounty-open-source/), as part of the [FOSSA project](https://juliareda.eu/FOSSA/). Projects include Drupal, Notepad++, and of interest to F-Droid users: **[VLC](https://f-droid.org/app/org.videolan.vlc)**."
-msgstr ""
+msgstr "Ab Januar [beginnt die Europäische Kommission mit der Förderung von Bug-Bounty-Programmen für eine Reihe von Open-Source-Projekten](https://betanews.com/2018/12/30/european-commission-bug-bounty-open-source/), als Teil des [FOSSA-Projekts](https://juliareda.eu/FOSSA/). Eingeschlossene Projekte sind Drupal, Notepad++ und für F-Droid-Nutzer von Interesse: **[VLC](https://f-droid.org/app/org.videolan.vlc)**."
 
 #. type: Plain text
 #: build/_posts/md/2019-01-05-twif-37-the-european-bug-bounty-edition.md
 msgid "(via [@kuketzblog](https://social.tchncs.de/users/kuketzblog/statuses/101334611047910088))"
-msgstr ""
+msgstr "(über [@kuketzblog](https://social.tchncs.de/users/kuketzblog/statuses/101334611047910088))"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-01-05-twif-37-the-european-bug-bounty-edition.md
-#, fuzzy
 msgid "**[DCipher](https://f-droid.org/app/com.adityakamble49.dcipher)**: Secret text with 100% offline encryption."
-msgstr "**[CineLog](https://f-droid.org/app/com.ulicae.cinelog)**: Filmbesprechungen speichern."
+msgstr "**[DCipher](https://f-droid.org/app/com.adityakamble49.dcipher)**: Geheime Texte mit 100%-iger Offline-Verschlüsselung."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-01-05-twif-37-the-european-bug-bounty-edition.md
-#, fuzzy
 msgid "**[arXiv eXplorer](https://f-droid.org/app/com.gbeatty.arxiv)**"
-msgstr "**[Aria2App](https://f-droid.org/app/com.gianlu.aria2app)**"
+msgstr "**[arXiv eXplorer](https://f-droid.org/app/com.gbeatty.arxiv)**"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-01-05-twif-37-the-european-bug-bounty-edition.md
 msgid "**[Vanilla Metadata Fetch](https://f-droid.org/app/com.kanedias.vanilla.metadata)**: Vanilla music player metadata retrieval plugin."
-msgstr ""
+msgstr "**[Vanilla Metadata Fetch](https://f-droid.org/app/com.kanedias.vanilla.metadata)**: Erweiterung zur Metadatenabfrage für Vanilla Music Player."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-01-05-twif-37-the-european-bug-bounty-edition.md
 msgid "**[apps\\_Packages Info](https://f-droid.org/app/com.oF2pks.applicationsinfo)**: Updated applicationsinfos with colors & mini-tags (and basic fixes)."
-msgstr ""
+msgstr "**[apps\\_Packages Info](https://f-droid.org/app/com.oF2pks.applicationsinfo)**: Aktualisierte Anwendungsinfos mit Farben & Mini-Tags (sowie wichtigen Korrekturen)."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-01-05-twif-37-the-european-bug-bounty-edition.md
 msgid "**[Classical Music Tagger](https://f-droid.org/app/de.kromke.andreas.musictagger)**: A plain audio file metadata editor especially for classical music."
-msgstr ""
+msgstr "**[Classical Music Tagger](https://f-droid.org/app/de.kromke.andreas.musictagger)**: Ein schlichter Musikdatei-Metadaten-Editor speziell für klassische Musik."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-01-05-twif-37-the-european-bug-bounty-edition.md
 msgid "**[Tri Peaks Solitaire for Android](https://f-droid.org/app/eu.veldsoft.tri.peaks)**: Solitaire card game."
-msgstr ""
+msgstr "**[Tri Peaks Solitaire for Android](https://f-droid.org/app/eu.veldsoft.tri.peaks)**: Solitär-Kartenspiel."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-01-05-twif-37-the-european-bug-bounty-edition.md
 msgid "**[My Wifi Passwords](https://f-droid.org/app/info.aario.mywifipasswords)**: View your wi-fi passwords."
-msgstr ""
+msgstr "**[My Wifi Passwords](https://f-droid.org/app/info.aario.mywifipasswords)**: Ihre WLAN-Passwörter ansehen."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-01-05-twif-37-the-european-bug-bounty-edition.md
-#, fuzzy
 msgid "**[Meritous](https://f-droid.org/app/net.asceai.meritous)**: Dungeon crawl game."
-msgstr "**[OSMTracker](https://f-droid.org/app/net.osmtracker)**: GPS-Track-Recorder"
+msgstr "**[Meritous](https://f-droid.org/app/net.asceai.meritous)**: Dungeon-Spiel."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-01-05-twif-37-the-european-bug-bounty-edition.md
-#, fuzzy
 msgid "**[PhoneTrack](https://f-droid.org/app/net.eneiluj.nextcloud.phonetrack)**"
-msgstr "**[Aria2App](https://f-droid.org/app/com.gianlu.aria2app)**"
+msgstr "**[PhoneTrack](https://f-droid.org/app/net.eneiluj.nextcloud.phonetrack)**"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-01-05-twif-37-the-european-bug-bounty-edition.md
 msgid "**[35C3 Wifi Setup](https://f-droid.org/app/nl.eventinfra.wifisetup)**: Official noc application for connecting to the 35c3 wifi."
-msgstr ""
+msgstr "**[35C3 Wifi Setup](https://f-droid.org/app/nl.eventinfra.wifisetup)**: Offizielle NOC-Anwendung zur Verbindung mit dem WLAN des 35C3."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-01-05-twif-37-the-european-bug-bounty-edition.md
-#, fuzzy
 msgid "**[SuperUStats](https://f-droid.org/app/superustats.tool.android)**"
-msgstr "**[SuperFreezZ](https://f-droid.org/app/superfreeze.tool.android)**"
+msgstr "**[SuperUStats](https://f-droid.org/app/superustats.tool.android)**"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-01-05-twif-37-the-european-bug-bounty-edition.md
 msgid "**DAVdroid** is now known as **[DAVx⁵](https://f-droid.org/app/at.bitfire.davdroid)**. You can read more about this [here](https://www.davx5.com/faq/general/what-does-davx5-stand-for). It was also [updated](https://forums.bitfire.at/category/4/davdroid?tag=announcement) from 2.0.7-ose to 2.1-ose, removing the \"Accounts may be gone after rebooting\" startup dialog, and offering several smaller changes and bug fixes, and behind-the-scenes changes."
-msgstr ""
+msgstr "**DAVdroid** wird nun unter dem Namen **[DAVx⁵](https://f-droid.org/app/at.bitfire.davdroid)** geführt. Sie können [hier](https://www.davx5.com/faq/general/what-does-davx5-stand-for) mehr darüber erfahren. Sie wurde auch von 2.0.7-ose auf 2.1-ose [aktualisiert](https://forums.bitfire.at/category/4/davdroid?tag=announcement), womit der Startdialog \"Konten können nach einem Neustart verschwunden sein\" entfernt und einige kleinere Änderungen und Fehlerlösungen eingebracht werden, sowie Veränderungen hinter der Bühne."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-01-05-twif-37-the-european-bug-bounty-edition.md
 msgid "**[A Time Tracker](https://f-droid.org/app/com.markuspage.android.atimetracker)** lets you easily track how much time you spend on various activities. After 2½ years of inactivity, it [updated](https://github.com/netmackan/ATimeTracker/releases) to 0.50, moving all menu items to the Settings menu on the main screen, improving its F-Droid listing and making under-the-hood changes to its build process."
-msgstr ""
+msgstr "**[A Time Tracker](https://f-droid.org/app/com.markuspage.android.atimetracker)** lässt Sie einfach überwachen, wieviel Zeit Sie für verschiedene Aktivitäten verwenden. Nach 2½ Jahren der Inaktivität erhielt sie ein [Update](https://github.com/netmackan/ATimeTracker/releases) auf 0.50, in dem alle Menüelemente in das Einstellungsmenü auf dem Hauptbildschirm verschoben wurden, ihre F-Droid-Notierung verbessert wurde und interne Änderungen zu ihrem Build-Prozess gemacht wurden."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-01-05-twif-37-the-european-bug-bounty-edition.md
 msgid "**[QKSMS](https://f-droid.org/app/com.moez.QKSMS)** was [updated](https://github.com/moezbhatti/qksms/releases) from 3.5.4 to 3.6.1, adding the ability to share contact cards and to share multiple images directly from other apps. It also features an updated search bar style, faster startup, more detailed MMS summary, contact photo in notifications, and several bug fixes."
-msgstr ""
+msgstr "**[QKSMS](https://f-droid.org/app/com.moez.QKSMS)** wurde von 3.5.4 auf 3.6.1 [aktualisiert](https://github.com/moezbhatti/qksms/releases), ergänzt die Möglichkeit, Kontaktkarten und mehrere Bilder direkt aus anderen Apps zu teilen. Sie bietet auch ein neues Aussehen der Suchleiste, einen schnelleren Start, detailiertere MMS-Zusammnefassungen, Kontaktfotos in den Benachrichtigungen und einige Bugfixes."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-01-05-twif-37-the-european-bug-bounty-edition.md
 msgid "**[FOSS Browser](https://f-droid.org/app/de.baumann.browser)** 6.1.1 [is out](https://github.com/scoute-dich/browser/blob/HEAD/CHANGELOG.md), with an overview instead of startPage, order and filter bookmarks, edit url of bookmark, open favorite website on start, Code of Conduct site, and a Privacy Declaration. There are updates to the adBlock hosts list, help dialog, and French and Portugese translations. Beyond that you'll find many more fixes and improvements."
-msgstr ""
+msgstr "**[FOSS Browser](https://f-droid.org/app/de.baumann.browser)** 6.1.1 [kam heraus](https://github.com/scoute-dich/browser/blob/HEAD/CHANGELOG.md), mit einer Übersicht statt Startseite, Lesezeichensortierung und -filterung, URL-Bearbeitung bei Lesezeichen, Öffnen einer favorisierten Website beim Start, einer Seite mit Verhaltensnormen und einer Datenschutzerklärung. Es gibt Aktualisierungen an der adBlock-Hosts-Liste, einen Hilfedialog sowie französische und portugiesische Übersetzungen. Darüberhinaus werden Sie viele weitere Korrekturen und Verbesserungen finden."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-01-05-twif-37-the-european-bug-bounty-edition.md
 msgid "**[Yaacc](https://f-droid.org/app/de.yaacc)** lets you play media from UPNP/DLNA devices on your network, and lets UPNP/DLNA devices play media from your phone. This [update](https://github.com/tobexyz/yaacc-code/releases) to 2.1.0 will activate the device when unplugged in order to prevent device suspend; it will display cover art, current item and next item in the network player; and it adds new app icons."
-msgstr ""
+msgstr "**[Yaacc](https://f-droid.org/app/de.yaacc)** gibt Medien von UPNP/DLNA-Geräten in Ihrem Netz wieder und spielt Medien von Ihrem Android-Gerät auf UPNP/DLNA-Geräten ab. Dieses [Update](https://github.com/tobexyz/yaacc-code/releases) auf 2.1.0 wird das Gerät aktivieren, wenn es getrennt wird, um Geräteaussetzer zu verhindern; Albumcover, aktuelles und nächstes Element im Netzwerk-Player anzeigen; und es fügt neue App-Symbole hinzu."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-01-05-twif-37-the-european-bug-bounty-edition.md
 msgid "**[Mastalab](https://f-droid.org/app/fr.gouv.etalab.mastodon)** keeps moving at light speed, as it [updates](https://gitlab.com/tom79/mastalab/tags) from 1.50.3 to 1.62.1. This update includes Pixelfed readyness, although it requires something to be changed on the Pixelfed side as well. This change is expected to land any day now."
-msgstr ""
+msgstr "**[Mastalab](https://f-droid.org/app/fr.gouv.etalab.mastodon)** bewegt sich weiterhin in Lichtgeschwindigkeit, so wird sie von 1.50.3 auf 1.62.1 [aktualisiert](https://gitlab.com/tom79/mastalab/tags). Dieses Update beinhaltet die Pixelfed-Bereitschaft, auch wenn noch etwas auf der Pixelfed-Seite geändert werden muss. Diese Änderung wird jeden Tag erwartet."
 
 #. type: Plain text
 #: build/_posts/md/2019-01-05-twif-37-the-european-bug-bounty-edition.md
@@ -8382,11 +8376,18 @@ msgid ""
 "  * Set custom icons for videos & GIF media\n"
 "  * Display \"follow request sent\" in profile for locked accounts (undo the follow + flag)\n"
 msgstr ""
+"  Außerdem ergänzt es Möglichkeiten zum:\n"
+"  * Mischen von Tag-Zeitachsen (Eines dieser Worte/Alle dieser Worte/Keines dieser Worte) - Ihre Instanz muss das unterstützen (nächste Mastodon-Version)\n"
+"  * Umbennen von Tag-Zeitachsen\n"
+"  * Folgen von Misskey-Instanzen\n"
+"  * Öffnen von XMPP-Verknüpfungen und E-Mails mit externen Anwendungen (benutzerdefinierte Felder)\n"
+"  * Festlegen von eigenen Symbolen für Videos & GIF-Medien \n"
+"  * Anzeigen von \"Folgen-Anfrage gesendet\" im Profil für gesperrte Konten (das Folgen rückgängig machen + kennzeichnen)\n"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-01-05-twif-37-the-european-bug-bounty-edition.md
 msgid "**[KISS launcher](https://f-droid.org/app/fr.neamar.kiss)**'s [update](https://github.com/Neamar/KISS/releases) to 3.7.0 adds an AMOLED black theme."
-msgstr ""
+msgstr "**[KISS launcher](https://f-droid.org/app/fr.neamar.kiss)**'s [Update](https://github.com/Neamar/KISS/releases) auf 3.7.0 fügt ein schwarzes AMOLED-Design hinzu."
 
 #. type: Plain text
 #: build/_posts/md/2019-01-05-twif-37-the-european-bug-bounty-edition.md
