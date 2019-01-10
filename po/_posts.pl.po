@@ -7957,7 +7957,7 @@ msgstr "**[G-Droid](https://f-droid.org/app/org.gdroid.gdroid)**, alternatywny k
 #. type: Bullet: '* '
 #: build/_posts/md/2018-12-21-twif-35-the-flatpak-edition.md
 msgid "**[My Expenses](https://f-droid.org/app/org.totschnig.myexpenses)** was [updated](http://www.myexpenses.mobi/#versionlist) from 2.9.7.1 to 2.9.8, with a redesigned account list, saving goals and credit limits, scroll to current date on app start, custom colors, budgeting, and custom currencies."
-msgstr "**[Moje wydatki] (https://f-droid.org/app/org.totschnig.myexpenses)** został [zaktualizowany](http://www.myexpenses.mobi/versionlist) z 2.9.7.1 do 2.9 .8, z przeprojektowaną listą kont, zapisując cele i limity kredytowe, przewiń do bieżącej daty rozpoczęcia aplikacji, niestandardowych kolorów, budżetowania i niestandardowych walut."
+msgstr "**[Moje wydatki](https://f-droid.org/app/org.totschnig.myexpenses)** został [zaktualizowany](http://www.myexpenses.mobi/versionlist) z 2.9.7.1 do 2.9 .8, z przeprojektowaną listą kont, zapisując cele i limity kredytowe, przewiń do bieżącej daty rozpoczęcia aplikacji, niestandardowych kolorów, budżetowania i niestandardowych walut."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-12-21-twif-35-the-flatpak-edition.md
