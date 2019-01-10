@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2019-01-10 21:30+0100\n"
-"PO-Revision-Date: 2019-01-10 13:06+0000\n"
+"PO-Revision-Date: 2019-01-10 21:38+0100\n"
 "Last-Translator: C. Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\n"
 "Language: de\n"
@@ -8399,34 +8399,37 @@ msgid ""
 "  * Added Troubleshoot Notification settings page\n"
 "  * Added badge to indicate number of group invitations on the Home Screen ([#1923](https://github.com/vector-im/riot-android/issues/1923))\n"
 msgstr ""
+"* **[Riot.im](https://f-droid.org/app/im.vector.alpha)** 0.8.21 [schaffte es](https://github.com/vector-im/riot-android/blob/HEAD/CHANGES.rst) nach F-Droid, mit folgenden Verbesserungen:\n"
+"  * Anzeige der UserID unter der Namensanzeige in der Mitgliederdetailansicht ([#2756](https://github.com/vector-im/riot-android/issues/2756))\n"
+"  * Anklicken eines Nutzernamens und eines Raum-Avatars öffnet einen neuen Bildschirm mit Animation, um den Avatar im Vollbildschirm zu sehen, mit Zoomfunktion ([#2455](https://github.com/vector-im/riot-android/issues/2455))\n"
+"  * Hinzugefügte Einstellungsseite für die Benachrichtigung zur Fehlersuche\n"
+"  * Ergänzung einer Marke, um die Anzahl der Einladungen zu Gruppen auf dem Startbildschirm anzuzeigen ([#1923](https://github.com/vector-im/riot-android/issues/1923))\n"
 
 #. type: Plain text
 #: build/_posts/md/2019-01-05-twif-37-the-european-bug-bounty-edition.md
 #, no-wrap
 msgid "  This release also contains many bug fixes, and improvements to notification code.\n"
-msgstr ""
+msgstr "  Diese Version enthält auch viele Fehlerkorrekturen und Verbesserungen zum Benachrichtigungscode.\n"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-01-05-twif-37-the-european-bug-bounty-edition.md
-#, fuzzy
 msgid "**[Markor](https://f-droid.org/app/net.gsantner.markor)** is a text editor centered around simple markup formats like [Markdown](https://commonmark.org) and [todo.txt](http://todotxt.com) for note-taking and list management. Version 1.6.0 [is out](https://github.com/gsantner/markor/blob/HEAD/CHANGELOG.md) and comes with a way to insert date and/or time, and adds the website title when sharing into Markor. For more improvements and fixes, see the author's [blog post](https://gsantner.net/blog/2018/12/30/markor-release-v1.6.html)."
-msgstr "**[Markor](https://f-droid.org/app/net.gsantner.markor)** 1.1.0 ist raus. Markor ist ein leistungsstarker Texteditor für [Markdown](https://commonmark.org) und [todo.txt](http://todotxt.com)-Dateien. Diese Version ergänzt einige neue Funktionen für die Arbeit mit Bildern, eine Liste beliebter Dateien und einen virtuellen Ordner für beliebte und kürzlich verwendete Dateien. Weitere Verbesserungen und Fehlerlösungen finden Sie im begleitenden [Blog-Eintrag](https://gsantner.net/blog/android/2018/09/09/markor-release-v1.1.html)."
+msgstr "**[Markor](https://f-droid.org/app/net.gsantner.markor)** ist eine, rund um einfache Markup-Formate, wie [Markdown](https://commonmark.org) und [todo.txt](http://todotxt.com) zentrierte Textbearbeitung zum Aufzeichen von Notizen und zur Verwaltung von Listen. Version 1.6.0 [ist da](https://github.com/gsantner/markor/blob/HEAD/CHANGELOG.md) und bringt die Möglichkeit, Datum und/oder Zeit einzufügen, mit und ergänzt den Website-Titel beim Teilen in Markor. Weitere Verbesserungen und Korrekturen finden Sie im [Blog-Beitrag](https://gsantner.net/blog/2018/12/30/markor-release-v1.6.html) des Autors."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-01-05-twif-37-the-european-bug-bounty-edition.md
 msgid "**[SleepyWifi](https://f-droid.org/app/nl.devluuk.sleepywifi)** brings back \"turn Wi-Fi off when the phone is in sleepmode\" for Android 8.1. It [updated](https://github.com/DevLuuk/SleepyWifi/releases) from 1.1 to 1.3, adding a foreground notification, a 10-second delay for the notification, a Dutch translation and an \"About\" screen. Known bug: the app sometimes fails to re-enable Wi-Fi."
-msgstr ""
+msgstr "**[SleepyWifi](https://f-droid.org/app/nl.devluuk.sleepywifi)** bringt \"WLAN aussschalten, wenn das Gerät im Ruhezustand ist\" für Android 8.1 zurück. Sie wurde von 1.1 auf 1.3 [aktualisiert](https://github.com/DevLuuk/SleepyWifi/releases) mit Ergänzung einer Vordergrundbenachrichtigung, einer 10-Sekunden-Verzögerung für die Benachrichtigung, einer holländischen Übersetzung und einem \"Info\"-Bildschirm. Bekannter Fehler: der App mißlingt manchmal das WLAN-Wiedereinschalten."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-01-05-twif-37-the-european-bug-bounty-edition.md
-#, fuzzy
 msgid "**[Your local weather](https://f-droid.org/app/org.thosp.yourlocalweather)** was [updated](https://raw.githubusercontent.com/thuryn/your-local-weather/HEAD/CHANGELOG) from 4.5.3 to 4.6.3, adding per-widget location setting and settings for graphs and weather forecast, a combined graph and widgets with combined graph. Also fixes negative temperature in notifications, and weather forecast in widget."
-msgstr "**[Your local weather](https://f-droid.org/app/org.thosp.yourlocalweather)** wurde von 4.4.6 auf 4.4.10 [aktualisiert](https://raw.githubusercontent.com/thuryn/your-local-weather/HEAD/CHANGELOG), mit Beseitigung eines Absturzes, wenn sich der Standort nicht verändert hat, Wechsel des OpenStreetMap API von http auf https und einigen Übersetzungsänderungen."
+msgstr "**[Your local weather](https://f-droid.org/app/org.thosp.yourlocalweather)** wurde von 4.5.3 auf 4.6.3 [aktualisiert](https://raw.githubusercontent.com/thuryn/your-local-weather/HEAD/CHANGELOG), ergänzt Ortseinstellungen pro Widget und Einstellungen für Grafiken und Wettervorhersagen, eine kombinierte Grafik und Widgets mit kombinierter Grafik. Es werden auch Probleme bei der Darstellung negativer Temperaturen in den Benachrichtigungen und von Wettervorhersagen im Widget behoben."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-01-05-twif-37-the-european-bug-bounty-edition.md
 msgid "**[Manyverse](https://f-droid.org/app/se.manyver)** is a very different messenger than you're used to, because it works locally and off-grid. If you are unfamiliar with Manyverse and its underlying protocol, Secure Scuttlebutt, you should probably [read this background article](https://staltz.com/early-days-in-the-manyverse.html)."
-msgstr ""
+msgstr "**[Manyverse](https://f-droid.org/app/se.manyver)** ist ein ganz anderer Messenger als Sie ihn gewohnt sind, da er lokal und netzlos funktioniert. Wenn Ihnen Manyverse und das zugrunde liegendei Protokoll, Secure Scuttlebutt, nicht bekannt ist, sollten Sie vermutlich [diesen Hintergrundartikel lesen](https://staltz.com/early-days-in-the-manyverse.html)."
 
 #. type: Plain text
 #: build/_posts/md/2019-01-05-twif-37-the-european-bug-bounty-edition.md
@@ -8438,6 +8441,11 @@ msgid ""
 "    * re-share an internet p2p invite code\n"
 "    * block profiles, publicly or secretly\n"
 msgstr ""
+"  Dieses [Update](https://gitlab.com/staltz/manyverse/blob/HEAD/CHANGELOG.md) von 0.1811.14-beta auf 0.1901.2-beta bringt die folgenden neuen Funktionen:\n"
+"    * Notizen zu Internet-P2P-Einladungscodes\n"
+"    * Internet-P2P-Einladungscode löschen\n"
+"    * Internet-P2P-Einladungscode neu teilen\n"
+"    * Profile blockieren, öffentlich oder geheim\n"
 
 #. type: Plain text
 #: build/_posts/md/2019-01-05-twif-37-the-european-bug-bounty-edition.md
@@ -8448,17 +8456,21 @@ msgid ""
 "    * UI glitch in profile screen\n"
 "    * Wi-Fi discovery and sync on some devices\n"
 msgstr ""
+"  Und behebt:\n"
+"    * Navigationsfehler zwischen Profilansichten\n"
+"    * Störung der Benutzeroberfläche in der Profilansicht\n"
+"    * WLAN-Ermittlung und Synchronisation auf manchen Geräten\n"
 
 #. type: Plain text
 #: build/_posts/md/2019-01-05-twif-37-the-european-bug-bounty-edition.md
 #, no-wrap
 msgid "  Other improvements include quicker startup when user has many P2P invites and showing an informative text when loading takes too long.\n"
-msgstr ""
+msgstr "  Weitere Verbesserungen beinhalten einen schnelleren Startvorgang, wenn Anwender viele P2P-Einladungen haben, und die Einblendung eines informativen Texts, wenn das Laden zu lange dauert.\n"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-01-05-twif-37-the-european-bug-bounty-edition.md
 msgid "{{ page.major }} **[UserLAnd](https://f-droid.org/app/tech.ula)** lets you run GNU/Linux Distros on Android - no root required. It [updated](https://github.com/CypherpunkArmory/UserLAnd/releases) to version 2.0.0, adding a built-in terminal to UserLAnd. (Version 2.1.0 is expected in F-Droid soon and should fix crashes in the new terminal.)"
-msgstr ""
+msgstr "{{ page.major }} Mit **[UserLAnd](https://f-droid.org/app/tech.ula)** laufen GNU/Linux-Distributionen auf Android - Root ist nicht erforderlich. Das [Update](https://github.com/CypherpunkArmory/UserLAnd/releases) auf Version 2.0.0 ergänzt ein eingebautes Terminal in UserLAnd. (Version 2.1.0 wird in Kürze auf F-Droid erwartet und soll Abstürze im neuen Terminal beheben.)"
 
 #. type: Plain text
 #: build/_posts/md/2019-01-05-twif-37-the-european-bug-bounty-edition.md
@@ -8467,22 +8479,23 @@ msgid ""
 "* **[Nextcloud Talk](https://f-droid.org/app/com.nextcloud.talk2)** [released 3.2.0beta1](https://github.com/nextcloud/talk-android/releases/tag/v3.2.0beta1) with a completely reworked UI flow, and support for loading remote images. (There was also a regular \n"
 "[update](https://github.com/nextcloud/talk-android/releases) to 3.1.3 with some bug fixes.)\n"
 msgstr ""
+"* **[Nextcloud Talk](https://f-droid.org/app/com.nextcloud.talk2)** [veröffentlichte 3.2.0beta1](https://github.com/nextcloud/talk-android/releases/tag/v3.2.0beta1) mit einem komplett überarbeiteten Ablauf auf der Benutzeroberfläche und der Unterstützung für das Laden von Bildern von Remotecomputern. (Es gab auch ein reguläres \n"
+"[Update](https://github.com/nextcloud/talk-android/releases) auf 3.1.3 mit einigen Fehlerlösungen.)\n"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-01-05-twif-37-the-european-bug-bounty-edition.md
-#, fuzzy
 msgid "Most of the old simple mobile tools were moved to the archive: **[Calendar](https://f-droid.org/wiki/page/com.simplemobiletools.calendar)**, **[Contacts](https://f-droid.org/wiki/page/com.simplemobiletools.contacts)**, **[File Manager](https://f-droid.org/wiki/page/com.simplemobiletools.filemanager)**, **[Gallery](https://f-droid.org/wiki/page/com.simplemobiletools.gallery)** and **[Notes](https://f-droid.org/wiki/page/com.simplemobiletools.notes)**. They are no longer maintained, and have been replaced by their \"Pro\" counterparts."
-msgstr "Die Pro-Versionen der **Simple Mobile Tools** landen in F-Droid: **[Simple Contacts Pro](https://f-droid.org/app/com.simplemobiletools.contacts.pro)**, **[Simple File Manager Pro](https://f-droid.org/app/com.simplemobiletools.filemanager.pro)**, **[Simple Gallery Pro](https://f-droid.org/app/com.simplemobiletools.gallery.pro)** und **[Simple Notes Pro](https://f-droid.org/app/com.simplemobiletools.notes.pro)**. Hintergrundinformationen finden Sie in [diesem Forumsbeitrag](https://forum.f-droid.org/t/simple-mobile-tool-are-becoming-paid/4553)."
+msgstr "Die meisten der alten Simple Mobile Tools wurden ins Archiv verschoben: **[Calendar](https://f-droid.org/wiki/page/com.simplemobiletools.calendar)**, **[Contacts](https://f-droid.org/wiki/page/com.simplemobiletools.contacts)**, **[File Manager](https://f-droid.org/wiki/page/com.simplemobiletools.filemanager)**, **[Gallery](https://f-droid.org/wiki/page/com.simplemobiletools.gallery)** und **[Notes](https://f-droid.org/wiki/page/com.simplemobiletools.notes)**. Sie werden nicht mehr gepflegt und wurden durch ihre \"Pro\"-Gegenstücke ersetzt."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-01-05-twif-37-the-european-bug-bounty-edition.md
 msgid "**[AddressToGPS](https://f-droid.org/wiki/page/me.danielbarnett.addresstogps)** was [moved to the archive](https://gitlab.com/fdroid/fdroiddata/merge_requests/4207) because the network service it relies on stopped working recently, and there hasn't been activity from the app's maintainer in over 2 years. For more details, see [this issue](https://github.com/DanielBarnett714/AddressToGPS/issues/13). As replacement, we suggest **[Acastus Photon](https://f-droid.org/app/name.gdr.acastus_photon)**, or although heavy, **[OsmAnd~](https://f-droid.org/app/net.osmand.plus)** which can look up addresses even when offline."
-msgstr ""
+msgstr "**[AddressToGPS](https://f-droid.org/wiki/page/me.danielbarnett.addresstogps)** wurde [ins Archiv verschoben](https://gitlab.com/fdroid/fdroiddata/merge_requests/4207), weil der Netzwerkdienst, auf dem sie beruht, kürzlich eingestellt wurde und es seitens der App-Maintainer seit über 2 Jahren keine Aktivitäten mehr gab. Einzelheiten dazu finden Sie in [diesem Issue](https://github.com/DanielBarnett714/AddressToGPS/issues/13). Als Ersatz empfehlen wir **[Acastus Photon](https://f-droid.org/app/name.gdr.acastus_photon)** oder, obwohl sehr groß, **[OsmAnd~](https://f-droid.org/app/net.osmand.plus)**, womit man, sogar wenn offline, Adressen nachschlagen kann."
 
 #. type: Plain text
 #: build/_posts/md/2019-01-05-twif-37-the-european-bug-bounty-edition.md
 msgid "{{ page.number_of_removed_apps }} apps were removed."
-msgstr ""
+msgstr "{{ page.number_of_removed_apps }} Apps wurden entfernt."
 
 #. type: Title #
 #: build/_posts/md/2019-01-11-fdroid-at-35c3.md
