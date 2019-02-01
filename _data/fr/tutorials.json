@@ -46,7 +46,8 @@
         "step_4": "Une fois connecté, choisissez les applications que vous souhaitez partager avec votre contact.",
         "step_5": "Appuyez sur le bouton « —> ».",
         "step_6": "Une personne sera invitée à confirmer la demande de connexion.",
-        "step_7": "Appuyez sur le bouton « Installer » situé à côté des applications que vous souhaitez installer."
+        "step_7": "Appuyez sur le bouton « Installer » situé à côté des applications que vous souhaitez installer.",
+        "step_8": "Appuyez sur 'Installer' une dernière fois. Ensuite suivez les instructions d'Android pour finaliser l'installation."
     },
     "create_repo": {
         "overview": {
