@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2019-02-01 17:25+0100\n"
-"PO-Revision-Date: 2019-01-29 07:09+0000\n"
+"PO-Revision-Date: 2019-02-03 10:09+0000\n"
 "Last-Translator: Mesut Akcan <makcan@gmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/f-droid/website-pages/tr/>\n"
 "Language: tr\n"
@@ -49,7 +49,7 @@ msgstr "F-Droid, Android platformunda Ücretsiz ve Açık Kaynak (FOSS) yazılı
 #. type: Plain text
 #: build/_pages/md/about.md
 msgid "The _f-droid.org_ core infrastructure is operated by F-Droid Limited, a UK \"private company\" registered in England (no. [08420676](https://beta.companieshouse.gov.uk/company/08420676))."
-msgstr ""
+msgstr "_F-droid.org_ çekirdek altyapısı, İngiltere'de kayıtlı bir \"özel şirket\" olan F-Droid Limited tarafından işletilmektedir (no. [08420676] (https://beta.companieshouse.gov.uk/company/08420676))."
 
 #. type: Title ###
 #: build/_pages/md/about.md
@@ -884,9 +884,8 @@ msgstr "Geçmişte, bir depo oluşturmak zordu çünkü komut satırı hakkında
 
 #. type: Plain text
 #: build/_pages/md/repomaker.md
-#, fuzzy
 msgid "This all got easier now: with Repomaker, you are able to create your own repo and do not need to have any special knowledge to do so.  Check out the [installation guide](https://gitlab.com/fdroid/repomaker/blob/master/README.md#installation)  for information on how you can install Repomaker on your device."
-msgstr "Tüm bunlar artık daha kolay: Repomaker ile kendi deponuzu oluşturabilirsiniz ve bunun için özel bir bilgiye sahip olmanıza gerek yok. Repomaker'ın nasıl kurulacağı hakkında daha fazla bilgi yakında geliyor!"
+msgstr "Artık her şey daha kolaylaştı: Repomaker ile kendi deponuzu oluşturabilirsiniz ve bunun için özel bir bilgiye sahip olmanız gerekmez. Repomaker'ı cihazınıza nasıl kurabileceğiniz hakkında bilgi için [installation guide](https://gitlab.com/fdroid/repomaker/blob/master/README.md#installation göz atın."
 
 #. type: Plain text
 #: build/_pages/md/repomaker.md
