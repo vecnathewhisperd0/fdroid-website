@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2019-02-01 17:15+0100\n"
-"PO-Revision-Date: 2019-01-16 16:56+0000\n"
+"PO-Revision-Date: 2019-02-04 17:09+0000\n"
 "Last-Translator: C. Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\n"
 "Language: de\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.4-dev\n"
+"X-Generator: Weblate 3.5-dev\n"
 
 #. type: Title #
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md
@@ -8640,9 +8640,8 @@ msgstr "Es gab viele interessante und wichtige Vorträge, hier einige, die mir g
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-01-11-fdroid-at-35c3.md
-#, fuzzy
 msgid "Erik Albers of the FSFE gave [F-Droid: Pimp your Android(-fork) with the best Free Software apps](https://media.freifunk.net/v/35c3oio-74-f-droid-pimp-your-android-fork-with-the-best-free-software-apps)"
-msgstr "Erik Albers von der FSFE erläuterte [F-Droid: Pimpen Sie Ihr Android, Ihren Androidzweig mit den besten Free-Software-Apps](https://pretalx.35c3oio.freifunk.space/35c3oio/talk/UFZYAS/)"
+msgstr "Erik Albers von der FSFE erläuterte [F-Droid: Pimpen Sie Ihr Android, Ihren Androidzweig mit den besten Free-Software-Apps](https://media.freifunk.net/v/35c3oio-74-f-droid-pimp-your-android-fork-with-the-best-free-software-apps)"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-01-11-fdroid-at-35c3.md
@@ -8673,54 +8672,50 @@ msgstr "[LibreSilicon: Dezentrale Halbleiterherstellung](https://media.ccc.de/v/
 #: build/_posts/md/2019-01-12-twif-38.md
 #, no-wrap
 msgid "\"TWIF 38\""
-msgstr ""
+msgstr "\"TWIF 38\""
 
 #. type: Plain text
 #: build/_posts/md/2019-01-12-twif-38.md
-#, fuzzy
 msgid "In this edition: F-Droid 1.5.1 is the recommended version, firewall apps in the spotlight.  There are **{{ page.number_of_added_apps }}** new and **{{ page.number_of_updated_apps }}** updated apps."
-msgstr ""
-"In dieser Ausgabe: Ein Blick in App-Rankings und Briar kommt als reproduzierbarer Build.\n"
-"Es gibt **{{ page.number_of_added_apps }}** neue und **{{ page.number_of_updated_apps }}** aktualisierte Apps.\n"
-"<!--more-->\n"
+msgstr "In dieser Ausgabe: F-Droid 1.5.1 wird empfohlene Version, Firewall-Apps im Rampenlicht.  Es gibt **{{ page.number_of_added_apps }}** neue und **{{ page.number_of_updated_apps }}** aktualisierte Apps."
 
 #. type: Title ###
 #: build/_posts/md/2019-01-12-twif-38.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "F-Droid version 1.5.1"
-msgstr "\"F-Droid wird 1.0!\""
+msgstr "F-Droid-Version 1.5.1"
 
 #. type: Plain text
 #: build/_posts/md/2019-01-12-twif-38.md
 msgid "{{ page.major }} The main **[F-Droid](https://f-droid.org/app/org.fdroid.fdroid)** client has a new recommended version, while it only has some translations fixes and one graphics one (screenshot background on dark themes) compared to 1.5 (announced in [TWIF36](https://f-droid.org/en/2018/12/29/twif-36-f-droid-at-35c3-and-zdf.html)), it will appear for automatic install for users of 1.4 or older too."
-msgstr ""
+msgstr "{{ page.major }} Der **[F-Droid](https://f-droid.org/app/org.fdroid.fdroid)**-Client erhält eine neue Versionsempfehlung, während er, verglichen mit 1.5 (angekündigt im [TWIF36](https://f-droid.org/en/2018/12/29/twif-36-f-droid-at-35c3-and-zdf.html)), nur Korrekturen an einigen Übersetzungen und eine grafische Korrektur (Screenshot-Hintergrund bei dunklem Design) erhielt , wird er für Nutzer von 1.4 oder auch älter zur automatischen Installation erscheinen."
 
 #. type: Title ###
 #: build/_posts/md/2019-01-12-twif-38.md
 #, no-wrap
 msgid "Firewall apps in the spotlight"
-msgstr ""
+msgstr "Firewall-Apps im Rampenlicht"
 
 #. type: Plain text
 #: build/_posts/md/2019-01-12-twif-38.md
 msgid "_\"The 35th Chaos Communications Congress (35c3) ended about two weeks ago, and F-Droid was well represented there. Indeed, tons of free software projects and communities were there...\"_, and you can read more about in the dedicated [F-Droid at 35c3](https://fdroid.gitlab.io/fdroid-website/en/2019/01/11/fdroid-at-35c3.html) post. One of the more interesting, yet chilling, talks there was [\"How Facebook tracks you on Android (even if you don’t have a Facebook account)\"](https://media.ccc.de/v/35c3-9941-how_facebook_tracks_you_on_android) bringing to the light the ways that the Facebook SDK embedded into everyday (popular and closed sourced) apps becomes means to track users."
-msgstr ""
+msgstr "_\"Der 35. Chaos Communications Congress (35c3) ging vor ungefähr zwei Wochen zu Ende und F-Droid war bei ihm gut vertreten.  Tatsächlich gab es dort eine Unmenge freier Software-Projekte und Communities ...\"_ Mehr darüber erfahrt ihr im speziellen Post [F-Droid auf dem 35c3](https://fdroid.gitlab.io/fdroid-website/en/2019/01/11/fdroid-at-35c3.html). Einer der interessanteren, jedoch ernüchternden Vorträge dort war [\"Wie Facebook euch auf Android verfolgt (selbst wenn ihr kein Facebook-Konto habt)\"](https://media.ccc.de/v/35c3-9941-how_facebook_tracks_you_on_android), der die Methoden beleuchtete, wie (populäre und proprietäre) Alltags-Apps durch die Facebook-SDK-Einbettung zum Hilfsmittel zur Anwenderüberwachung werden."
 
 #. type: Plain text
 #: build/_posts/md/2019-01-12-twif-38.md
 msgid "One of the slides mentioned that firewalls, [AFWall+](https://f-droid.org/app/dev.ukanth.ufirewall) and [NetGuard](https://f-droid.org/app/eu.faircode.netguard), can contain data leaking to the Facebook servers, and while we would recommend you not to use apps that feature tracking, the good news is that both firewalls are available in F-Droid. Keep in mind that while NetGuard uses a local VPN to filter traffic, hence it can work on any device, AFWall+ needs a rooted device to function."
-msgstr ""
+msgstr "Eine der Folien erwähnte, dass Firewalls, [AFWall+](https://f-droid.org/app/dev.ukanth.ufirewall) und [NetGuard](https://f-droid.org/app/eu.faircode.netguard), den Datenfluss zu Facebook-Servern aufhalten können, und wenngleich wir euch empfehlen würden, keine Apps mit Überwachungsfunktionen zu nutzen, ist die gute Nachricht, dass beide Firewalls auf F-Droid abrufbar sind. Behaltet im Auge, dass NetGuard ein lokales VPN nutzt, um den Datenverkehr zu filtern, somit auf allen Geräten arbeiten kann, während AFWall+ ein gerootetes Gerät benötigt, um zu funktionieren."
 
 #. type: Plain text
 #: build/_posts/md/2019-01-12-twif-38.md
 msgid "An alternative firewall app, based on a local VPN too, is also [Blokada](https://f-droid.org/app/org.blokada.alarm), recently reviewed (in German) by Mike Kuketz on his blog [here](https://www.kuketz-blog.de/blokada-tracking-und-werbung-unter-android-unterbinden/)."
-msgstr ""
+msgstr "Eine alternative Firewall-App, die ebenfalls auf einem lokalen VPN beruht, ist auch [Blokada](https://f-droid.org/app/org.blokada.alarm), vor Kurzem von Mike Kuketz in seinem Blog [hier](https://www.kuketz-blog.de/blokada-tracking-und-werbung-unter-android-unterbinden/) (auf Deutsch) besprochen."
 
 #. type: Title ###
 #: build/_posts/md/2019-01-12-twif-38.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "F-Droid PHP library"
-msgstr "F-Droid Kern"
+msgstr "F-Droid PHP-Bibliothek"
 
 #. type: Plain text
 #: build/_posts/md/2019-01-12-twif-38.md
