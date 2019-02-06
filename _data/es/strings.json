@@ -18,7 +18,7 @@
         "issues": "Incidencias"
     },
     "package": {
-        "anti_features_warning": "Esta aplicación tiene características que podrían no gustarte.",
+        "anti_features_warning": "Esta aplicación tiene características que podrían no gustarte",
         "website": "Sitio web",
         "permissions": "Permisos",
         "donate": "Donar",
@@ -39,7 +39,8 @@
         "minimum_android_version": "Esta versión requiere Android [android_version]  o superior.",
         "suggest_downloading_via_fdroid": "Aunque las descargas APK estén disponibles abajo para tu elección, deberías saber que al instalar de este modo no recibirás notificaciones de actualizaciones, y que es una forma de descarga menos segura. Recomendamos que instales y uses el cliente de F-Droid.",
         "source_code": "Código fuente",
-        "flattr": "Flattr"
+        "flattr": "Flattr",
+        "anti_features": "Anti-funcionalidades"
     },
     "sidebars": {
         "latest_packages": {
