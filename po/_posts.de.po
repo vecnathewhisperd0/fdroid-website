@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2019-02-01 17:15+0100\n"
-"PO-Revision-Date: 2019-02-04 17:09+0000\n"
+"PO-Revision-Date: 2019-02-09 12:23+0000\n"
 "Last-Translator: C. Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\n"
 "Language: de\n"
@@ -8720,43 +8720,42 @@ msgstr "F-Droid PHP-Bibliothek"
 #. type: Plain text
 #: build/_posts/md/2019-01-12-twif-38.md
 msgid "[Izzy](https://android.izzysoft.de)'s PHP library for parsing F-Droid repositories is now an official part of the F-Droid software offering: [https://gitlab.com/fdroid/php-fdroid](https://gitlab.com/fdroid/php-fdroid)"
-msgstr ""
+msgstr "[Izzy](https://android.izzysoft.de)'s PHP-Bibliothek für das Parsing von F-Droid-Repositories ist nun offizieller Teil des F-Droid-Softwareangebots: [https://gitlab.com/fdroid/php-fdroid](https://gitlab.com/fdroid/php-fdroid)"
 
 #. type: Plain text
 #: build/_posts/md/2019-01-12-twif-38.md
 msgid "Contributions are welcome for adding support for index-v1.json and signature verification of index-v1.jar. We already have Java, Python, and Ruby code for doing this, so it should be fairly easy to do. Potential contributors should coordinate with Izzy."
-msgstr ""
+msgstr "Wünschenswert sind Beiträge, um die Unterstützung für index-v1.json und die Signaturüberprüfung von index-v1.jar zu ergänzen. Es exisitiert bereits Java-, Python-, und Ruby-Code, um das zu machen, somit sollte es ziemlich einfach sein, es zu erledigen. Potentielle Mitarbeiter sollten sich mit Izzy abstimmen."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-01-12-twif-38.md
 msgid "**[Dice Overflow](https://f-droid.org/app/eu.veldsoft.dice.overflow)**: A simple board logical game, it is a mix between dice and the ColorOverflow game. The goal of the game is to conquer all cells on the board."
-msgstr ""
+msgstr "**[Dice Overflow](https://f-droid.org/app/eu.veldsoft.dice.overflow)**: Ein einfaches Logik-Brettspiel, es ist eine Mischung aus einem Würfelspiel und dem Spiel „ColorOverflow“. Ziel des Spiels ist es, alle Felder auf dem Brett zu erobern."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-01-12-twif-38.md
 msgid "**[Oversec](https://f-droid.org/app/io.oversec.one)**: Privacy for All Apps! Encrypt and Disguise Messages in All Your Apps! You need to see the videos linked in the description!"
-msgstr ""
+msgstr "**[Oversec](https://f-droid.org/app/io.oversec.one)**: Datenschutz für alle Apps! Nachrichten in all euren Apps verschlüsseln und tarnen! Ihr müsst euch die Videos ansehen, die in der Beschreibung verlinkt sind!"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-01-12-twif-38.md
 msgid "**[SaidIt](https://f-droid.org/app/org.saiditnet.redreader)**: An official client for the news site saidit.net. This app is a fork of QuantumBadger's [RedReader](https://f-droid.org/app/org.quantumbadger.redreader)."
-msgstr ""
+msgstr "**[SaidIt](https://f-droid.org/app/org.saiditnet.redreader)**: Offizieller Client für die Nachrichtenseite saidit.net. Diese App ist ein Fork von QuantumBadger's [RedReader](https://f-droid.org/app/org.quantumbadger.redreader)."
 
 #. type: Plain text
 #: build/_posts/md/2019-01-12-twif-38.md
-#, fuzzy
 msgid "In total, **{{ page.number_of_updated_apps }}** apps were updated this week. While they all got their bugs fixed, their translations updated and expanded, here are the highlights:"
-msgstr "Insgesamt wurden diese Woche **{{ page.number_of_updated_apps }}** Apps aktualisiert. Hier die Höhepunkte:"
+msgstr "Insgesamt wurden diese Woche **{{ page.number_of_updated_apps }}** Apps aktualisiert. Während alle ihre Fehlerkorrekturen, aktualisierte und erweiterte Übersetzungen erhielten, hier die Höhepunkte:"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-01-12-twif-38.md
 msgid "**[Etar](https://f-droid.org/app/ws.xsoh.etar)** 1.0.14 saw some bug fixes, a new theme too. Also users are advised to switch to another [calendar widget app](https://f-droid.org/app/com.plusonelabs.calendar) since this functionality has been removed from Etar."
-msgstr ""
+msgstr "**[Etar](https://f-droid.org/app/ws.xsoh.etar)** 1.0.14 erhielt einige Fehlerlösungen und auch ein neues Design. Außerdem wird den Anwendern geraten, zu einer anderen [Kalender-Widget-App](https://f-droid.org/app/com.plusonelabs.calendar) zu wechseln, da diese Funktionalität aus Etar entfernt wurde."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-01-12-twif-38.md
 msgid "**ICSdroid** is now known as **[ICSx⁵](https://f-droid.org/app/at.bitfire.icsdroid)** following in the steps of DAVx⁵. You can read more about this [here](https://www.davx5.com/faq/general/what-does-davx5-stand-for)."
-msgstr ""
+msgstr "**ICSdroid** wird nun **[ICSx⁵](https://f-droid.org/app/at.bitfire.icsdroid)** genannt, folgt in dieser Hinsicht DAVx⁵. Mehr dazu erfahrt ihr [hier](https://www.davx5.com/faq/general/what-does-davx5-stand-for)."
 
 #. type: Plain text
 #: build/_posts/md/2019-01-12-twif-38.md
@@ -8772,11 +8771,20 @@ msgid ""
 "  * Pick up three different modes for videos (Torrent/Webview/Direct)\n"
 "  * Video starts automatically in fullscreen in landscape orientation.\n"
 msgstr ""
+"* **[Mastalab](https://f-droid.org/app/fr.gouv.etalab.mastodon)** behält seine Update-Frequenz bei, jetzt schon 1.63.1, das bringt\n"
+"  * Anmeldung über Peertube-Konten\n"
+"  * Anzeige von fünf Zeitachsen (Abonnements, Übersicht, Beliebt, Neu hinzugekommen, Lokal) mit Nummerierung\n"
+"  * Anzeige von Konten und ihren Kanälen\n"
+"  * Konten und Kanälen folgen / nicht folgen\n"
+"  * Kommentare beobachten + Kommentare schreiben/löschen\n"
+"  * Videos bewerten (Daumen hoch, Daumen runter, Bewertung entfernen).\n"
+"  * Aufnahme von drei verschiedenen Verfahren für Videos (Torrent/Webview/Direkt)\n"
+"  * Automatischer Beginn der Videowiedergabe im Vollbildmodus im Querformat.\n"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-01-12-twif-38.md
 msgid "Did we mention **[Peertube](https://f-droid.org/app/net.schueller.peertube)**? Yes, even more news, as the app got updated to 1.0.23 adding a work-in-progress like/dislike function, translations updates, general UI polish and video downloads."
-msgstr ""
+msgstr "Haben wir **[Peertube](https://f-droid.org/app/net.schueller.peertube)** erwähnt? Ja und es gibt weitere Neuigkeiten dazu, da die App auf 1.0.23 aktualisiert wurde mit Ergänzung einer noch in Entwicklung befindlichen Gefällt/Gefällt nicht-Funktion, Übersetzungsaktualisierungen, generell aufpolierter Benutzerschnittstelle und Video-Downloads."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-01-12-twif-38.md
@@ -8786,280 +8794,255 @@ msgstr ""
 #. type: Bullet: '* '
 #: build/_posts/md/2019-01-12-twif-38.md
 msgid "**[Movim](https://f-droid.org/app/com.movim.movim)** the distributed social networking platform based on XMPP has a new version of their app out, almost 2 years to the day. While the app (a wrapper around Webview) saw just a little polish, the services it connects to have evolved a great deal in the mean time, you can read more [here](https://nl.movim.eu/?node/pubsub.movim.eu/Movim/movim-0-14-scotty-anniversary-edition-J8qk3N)."
-msgstr ""
+msgstr "**[Movim](https://f-droid.org/app/com.movim.movim)** die auf XMPP basierende, dezentrale Soziale-Netzwerk-Plattform brachte nach fast 2 Jahren eine neue Version ihrer App heraus. Während die App (eine Verpackung um Webview) nur wenig aufpoliert wurde, entwickelten sich die Dienste, mit denen sie sich verbindet, in der Zwischenzeit immens weiter, mehr dazu erfahrt ihr [hier](https://nl.movim.eu/?node/pubsub.movim.eu/Movim/movim-0-14-scotty-anniversary-edition-J8qk3N)."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-01-12-twif-38.md
 msgid "\"Muzei Live Wallpaper\" got [updated to version 3.0](https://medium.com/muzei/announcing-muzei-live-wallpaper-3-0-d167dd5795a4), so while we wait for the main [Muzei](https://f-droid.org/app/net.nurik.roman.muzei) app to be updated (soon), apps like [Mysplash](https://f-droid.org/app/com.wangdaye.mysplash) and [Muzei - Bing Image of the Day](https://f-droid.org/en/app/de.devmil.muzei.bingimageofthedayartsource) that hook up with it had to update as well in order to be compatible with the updated APIs."
-msgstr ""
+msgstr "\"Muzei Live Wallpaper\" erhielt ein [Update auf Version 3.0](https://medium.com/muzei/announcing-muzei-live-wallpaper-3-0-d167dd5795a4). Während wir also auf die [Muzei](https://f-droid.org/app/net.nurik.roman.muzei)-Haupt-App warten, die (bald) aktualisiert werden soll, mussten Apps wie [Mysplash](https://f-droid.org/app/com.wangdaye.mysplash) und [Muzei - Bing Image of the Day](https://f-droid.org/en/app/de.devmil.muzei.bingimageofthedayartsource), die sich an sie anschließen, ebenfalls aktualisiert werden, um mit den aktualisierten APIs kompatibel zu sein."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-01-12-twif-38.md
-#, fuzzy
 msgid "**[UserLAnd](https://f-droid.org/app/tech.ula)** 2.1.0 is already here, so update, as the crashes in the new terminal were fixed."
-msgstr "**[UserLAnd](https://f-droid.org/app/tech.ula)**: Einfachste Art GNU/Linux-Distros auf Android zu betreiben - Root-Rechte sind nicht erforderlich."
+msgstr "**[UserLAnd](https://f-droid.org/app/tech.ula)** 2.1.0 ist schon da, also verbessert, da die Absturzursachen im neuen Terminal behoben wurden."
 
 #. type: Title #
 #: build/_posts/md/2019-01-25-twif-40-the-newpipe-broken-builds-edition.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "\"TWIF 40: The NewPipe Broken Builds edition\""
-msgstr "\"TWIF 28: Ausgabe über den YouTube-Client NewPipe\""
+msgstr "\"TWIF 40: Die Defekte-NewPipe-Builds-Ausgabe\""
 
 #. type: Plain text
 #: build/_posts/md/2019-01-25-twif-40-the-newpipe-broken-builds-edition.md
-#, fuzzy
 msgid "In this edition: NewPipe and broken builds, and more than 5000 followers on Mastodon.  There are **{{ page.number_of_added_apps }}** new and **{{ page.number_of_updated_apps }}** updated apps."
-msgstr ""
-"In dieser Ausgabe: Ein Blick in App-Rankings und Briar kommt als reproduzierbarer Build.\n"
-"Es gibt **{{ page.number_of_added_apps }}** neue und **{{ page.number_of_updated_apps }}** aktualisierte Apps.\n"
-"<!--more-->\n"
+msgstr "In dieser Ausgabe: NewPipe und kaputte Builds sowie mehr als 5000 Follower auf Mastodon. Es gibt **{{ page.number_of_added_apps }}** neue und **{{ page.number_of_updated_apps }}** aktualisierte Apps."
 
 #. type: Plain text
 #: build/_posts/md/2019-01-25-twif-40-the-newpipe-broken-builds-edition.md
 msgid "Hi everyone, here's a fresh new TWIF for you! Many thanks to **[@Licaon\\_Kter](https://forum.f-droid.org/u/Licaon_Kter)** for writing [edition 38]({{ site.baseurl }}{% post_url 2019-01-12-twif-38 %})! Unfortunately we had a problem with updating the website, which means it was delayed by almost two weeks. We now have a temporary solution in place for faster updates and are working on a permanent one. This edition will cover both TWIF 39 and 40."
-msgstr ""
+msgstr "Hallo zusammen, hier ein nagelneuer TWIF für euch! Vielen Dank an **[@Licaon\\_Kter](https://forum.f-droid.org/u/Licaon_Kter)** fürs Schreiben der [Ausgabe 38]({{ site.baseurl }}{% post_url 2019-01-12-twif-38 %})! Unglücklicherweise gab es ein Problem bei der Aktualisierung der Internetseite, was dazu führte, dass sie fast zwei Wochen Verspätung hatte. Gegenwärtig haben wir nun eine temporäre Lösung für schnellere Updates und arbeiten an einer dauerhaften. Diese Ausgabe wird sowohl TWIF 39 als auch 40 abdecken."
 
 #. type: Title ###
 #: build/_posts/md/2019-01-25-twif-40-the-newpipe-broken-builds-edition.md
 #, no-wrap
 msgid "NewPipe and broken builds"
-msgstr ""
+msgstr "NewPipe und defekte Builds"
 
 #. type: Plain text
 #: build/_posts/md/2019-01-25-twif-40-the-newpipe-broken-builds-edition.md
 msgid "We've had problems with building most apps, and with **[NewPipe](https://f-droid.org/app/org.schabi.newpipe)** in particular. **[@Bubu](https://forum.f-droid.org/u/Bubu)** reports:"
-msgstr ""
+msgstr "Wir hatten Probleme mit dem Building der meisten Apps, und insbesondere mit **[NewPipe](https://f-droid.org/app/org.schabi.newpipe)**. **[@Bubu](https://forum.f-droid.org/u/Bubu)** berichtet:"
 
 #. type: Bullet: '1. '
 #: build/_posts/md/2019-01-25-twif-40-the-newpipe-broken-builds-edition.md
 msgid "Google changes some things in Youtube's webinterface --> NewPipe can't play Youtube videos anymore (previous version works though)."
-msgstr ""
+msgstr "Google ändert einige Dinge an der Netzschnittstelle von YouTube --> NewPipe kann keine YouTube-Videos mehr abspielen (die Vorgängerversion funktioniert allerdings)."
 
 #. type: Bullet: '2. '
 #: build/_posts/md/2019-01-25-twif-40-the-newpipe-broken-builds-edition.md
 msgid "The NewPipe team soon releases an update that fixes the problem."
-msgstr ""
+msgstr "Das NewPipe-Team veröffentlicht bald ein Update, das das Problem löst."
 
 #. type: Bullet: '3. '
 #: build/_posts/md/2019-01-25-twif-40-the-newpipe-broken-builds-edition.md
 msgid "F-Droid buildserver is not fully stable at this point so builds are only running ~ every 2 days."
-msgstr ""
+msgstr "Der F-Droid Buildserver ist zu diesem Zeitpunkt nicht ganz stabil, so laufen Builds nur ~ alle 2 Tage."
 
 #. type: Bullet: '4. '
 #: build/_posts/md/2019-01-25-twif-40-the-newpipe-broken-builds-edition.md
 msgid "First build of NewPipe fails with a Github internal server error. (Great!)"
-msgstr ""
+msgstr "Der erste Build von NewPipe geht mit einem internen Serverfehler von Github schief. (Toll!)"
 
 #. type: Bullet: '5. '
 #: build/_posts/md/2019-01-25-twif-40-the-newpipe-broken-builds-edition.md
 msgid "At this point Google somehow pushes a license change to the Android SDK repositories (adding some [GDPR](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation) stuff), but as the license hash is checked programmatically by the SDK tools, this breaks all CI pipelines that install Android SDK components. It also breaks most builds in F-Droid, including the next build of NewPipe. (Great, again!)"
-msgstr ""
+msgstr "An diesem Punkt schiebt Google irgendwie eine Lizenzänderung in den Android-SDK-Repositories an (Ergänzung irgendwelchen [GDPR](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation)-Krams), da aber die Lizenz-Hashwerte programmgemäß durch die SDK-Tools überprüft werden, brechen damit alle CI Pipelines ab, die Android-SDK-Komponenten installieren. Es schaltet auch die meisten Builds in F-Droid ab, einschließlich des nächsten Build von NewPipe. (Noch toller!)"
 
 #. type: Bullet: '6. '
 #: build/_posts/md/2019-01-25-twif-40-the-newpipe-broken-builds-edition.md
 msgid "I'm trying to figure out what we need to change in our buildserver setup scripts to make it work again. Apparently solutions which other projects have found are not working for us as we are forced to use an older sdk-tools revision."
-msgstr ""
+msgstr "Ich versuche herauszufinden, was wir in unseren Buildserver-Konfigurationsskripten ändern müssen, damit er wieder funktioniert. Anscheinend funktionieren Lösungen, die andere Projekte gefunden haben, für uns nicht, da wir gezwungen sind, eine ältere Version der SDK-Tools zu verwenden."
 
 #. type: Bullet: '7. '
 #: build/_posts/md/2019-01-25-twif-40-the-newpipe-broken-builds-edition.md
 msgid "After almost a day of rebuilding F-Droid buildservers without success, everything magically starts working again without us changing anything. (So Google reverted their change?). Progress was tracked [here](https://gitlab.com/fdroid/fdroidserver/issues/620) and [here](https://gitlab.com/fdroid/fdroidserver/merge_requests/610)."
-msgstr ""
+msgstr "Nach fast einem Tag erfolglosem Neuaufsetzen der F-Droid-Buildserver, beginnt alles wieder wundersamerweise zu funktionieren, ohne dass wir etwas geändert haben. (Hat also Google die Änderung zurückgenommen?). Der Vorgang wurde [hier](https://gitlab.com/fdroid/fdroidserver/issues/620) und [hier](https://gitlab.com/fdroid/fdroidserver/merge_requests/610) aufgezeichnet."
 
 #. type: Plain text
 #: build/_posts/md/2019-01-25-twif-40-the-newpipe-broken-builds-edition.md
 msgid "Lessons learned:"
-msgstr ""
+msgstr "Fazit:"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-01-25-twif-40-the-newpipe-broken-builds-edition.md
 msgid "Everything breaks at the most inconvenient of times."
-msgstr ""
+msgstr "Alles bricht zur ungünstigsten Zeit zusammen."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-01-25-twif-40-the-newpipe-broken-builds-edition.md
 msgid "NewPipe needs a faster update channel than the main F-Droid repository. The discussion about this can be found [here](https://github.com/TeamNewPipe/NewPipe/issues/1981)."
-msgstr ""
+msgstr "NewPipe braucht einen schnelleren Update-Kanal als das F-Droid-Hauptrepository. Die Diskussion darüber findet ihr [hier](https://github.com/TeamNewPipe/NewPipe/issues/1981)."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-01-25-twif-40-the-newpipe-broken-builds-edition.md
 msgid "We need to mirror the sdkmanager repository, such that Google can't remotely break all our infrastructure."
-msgstr ""
+msgstr "Wir müssen unser SDK-Manager-Repository spiegeln, damit Google nicht ferngesteuert unsere ganze Infrastruktur abschalten kann."
 
 #. type: Plain text
 #: build/_posts/md/2019-01-25-twif-40-the-newpipe-broken-builds-edition.md
 msgid "The long-term fix for this is to [create free software builds of the Android SDK](https://forum.f-droid.org/t/call-for-help-making-free-software-builds-of-the-android-sdk/4685) so we are completely free from Google and their restrictive license terms. If you are as annoyed by this as we are, please have a look at the [forum thread](https://forum.f-droid.org/t/call-for-help-making-free-software-builds-of-the-android-sdk/4685) to see if you can help! **--@Coffee**"
-msgstr ""
+msgstr "Die langfristige Lösung dafür ist die [Erstellung freier Software-Builds des Android-SDK](https://forum.f-droid.org/t/call-for-help-making-free-software-builds-of-the-android-sdk/4685), damit wir uns komplett von Google und deren restriktiven Lizenzbedingungen befreien. Wenn ihr euch darüber genauso ärgert wie wir, werft bitte einen Blick auf diesen [Forumsbeitrag](https://forum.f-droid.org/t/call-for-help-making-free-software-builds-of-the-android-sdk/4685), um zu sehen, ob ihr mithelfen könnt! **--@Coffee**"
 
 #. type: Title ###
 #: build/_posts/md/2019-01-25-twif-40-the-newpipe-broken-builds-edition.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Over 5000 followers on Mastodon"
-msgstr "Wir haben 2500 Anhänger auf Mastodon erreicht!"
+msgstr "Über 5000 Anhänger auf Mastodon"
 
 #. type: Plain text
 #: build/_posts/md/2019-01-25-twif-40-the-newpipe-broken-builds-edition.md
 msgid "We surpassed 5000 followers on Mastodon this month. We are happy to see that more and more people are finding us, and also that Mastodon keeps growing."
-msgstr ""
+msgstr "Wir haben diesen Monat die Marke von 5000 Anhängern auf Mastodon überschritten. Wir sind sehr froh, dass mehr und mehr Menschen zu uns finden und auch dass Mastodon weiter wächst."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-01-25-twif-40-the-newpipe-broken-builds-edition.md
 msgid "Version 2.1 of the game **[2048](https://f-droid.org/app/com.uberspot.a2048)** was broken, and has been removed from the repository. Version 2.2 is expected to arrive soon."
-msgstr ""
+msgstr "Version 2.1 des Spiels **[2048](https://f-droid.org/app/com.uberspot.a2048)** war defekt und wurde aus dem Repository entfernt. Version 2.2 wird in Kürze erwartet."
 
 #. type: Plain text
 #: build/_posts/md/2019-01-25-twif-40-the-newpipe-broken-builds-edition.md
 msgid "Our volunteers have been busy adding new apps, {{ page.number_of_added_apps }} in total!"
-msgstr ""
+msgstr "Unsere Freiwilligen waren fleißig beim Hinzufügen neuer Apps, {{ page.number_of_added_apps }} insgesamt!"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-01-25-twif-40-the-newpipe-broken-builds-edition.md
-#, fuzzy
 msgid "**[YidKey KD](https://f-droid.org/app/click.dummer.yidkey)**: Yiddish keyboard (compatibility decomposition)."
-msgstr "**[PiGrid Companion](https://f-droid.org/app/de.blocklink.pigrid)**: Gridcoin Stakebox Begleiter App."
+msgstr "**[YidKey KD](https://f-droid.org/app/click.dummer.yidkey)**: Jiddische Tastatur (Kompatibilitätsabspaltung)."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-01-25-twif-40-the-newpipe-broken-builds-edition.md
-#, fuzzy
 msgid "**[Diceware Password Generator](https://f-droid.org/app/com.aptasystems.dicewarepasswordgenerator)**: Generate diceware passwords."
-msgstr "**[My Wifi Passwords](https://f-droid.org/app/info.aario.mywifipasswords)**: Ihre WLAN-Passwörter ansehen."
+msgstr "**[Diceware Password Generator](https://f-droid.org/app/com.aptasystems.dicewarepasswordgenerator)**: Erwürfelte Passwörter generieren."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-01-25-twif-40-the-newpipe-broken-builds-edition.md
-#, fuzzy
 msgid "**[Librery](https://f-droid.org/app/com.example.harisont.librery)**: Manage your ebooks."
-msgstr "**[Lobsters App](https://f-droid.org/app/com.nikhiljha.lobstersapp)**: Eine App für lobste.rs"
+msgstr "**[Librery](https://f-droid.org/app/com.example.harisont.librery)**: E-Books verwalten."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-01-25-twif-40-the-newpipe-broken-builds-edition.md
-#, fuzzy
 msgid "**[NextCompanion](https://f-droid.org/app/com.example.hochi.nextcompanion)**: Rogue client for nextbike (unofficial)."
-msgstr "**[Gotify](https://f-droid.org/app/com.github.gotify)**: Ein Client zum Empfangen von Push-Benachrichtigungen."
+msgstr "**[NextCompanion](https://f-droid.org/app/com.example.hochi.nextcompanion)**: Monster-Client für nextbike (inoffiziell)."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-01-25-twif-40-the-newpipe-broken-builds-edition.md
-#, fuzzy
 msgid "**[File Manager](https://f-droid.org/app/com.github.axet.filemanager)**: File manager with root browser."
-msgstr "**[File Manager](https://f-droid.org/app/com.simplemobiletools.filemanager)** 4.3.1 hat einige Korrekturen und Verbesserungen der Übersetzungen."
+msgstr "**[File Manager](https://f-droid.org/app/com.github.axet.filemanager)**: Dateimanager mit Root-Browser."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-01-25-twif-40-the-newpipe-broken-builds-edition.md
-#, fuzzy
 msgid "**[Turtl](https://f-droid.org/app/com.lyonbros.turtl)**: A secure, encrypted evernote alternative."
-msgstr "**[Trime](https://f-droid.org/app/com.osfans.trime)**: Chinesische Eingabemethode mit Rime Input Method Engine."
+msgstr "**[Turtl](https://f-droid.org/app/com.lyonbros.turtl)**: Eine sichere, verschlüsselte Evernote-Alternative."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-01-25-twif-40-the-newpipe-broken-builds-edition.md
-#, fuzzy
 msgid "**[M-Droid](https://f-droid.org/app/com.mdroid)**: Unofficial material designed client for f-droid."
-msgstr "**[G-Droid](https://f-droid.org/app/org.gdroid.gdroid)**: Ein alternativer Client, um das F-Droid-Repository zu durchsuchen."
+msgstr "**[M-Droid](https://f-droid.org/app/com.mdroid)**: Inoffizieller Client für F-Droid im Material Design."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-01-25-twif-40-the-newpipe-broken-builds-edition.md
-#, fuzzy
 msgid "**[Simple Decred Widget](https://f-droid.org/app/com.simpledecredwidget)**: Widget for viewing decred exchange rate."
-msgstr "[Simple Keyboard]](https://f-droid.org/app/rkr.simplekeyboard.inputmethod): Einfache Tastatur und sonst nichts"
+msgstr "**[Simple Decred Widget](https://f-droid.org/app/com.simpledecredwidget)**: Widget zur Beobachtung des Decred-Wechselkurses."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-01-25-twif-40-the-newpipe-broken-builds-edition.md
-#, fuzzy
 msgid "**[NorthDog Audio Compass](https://f-droid.org/app/cz.harvie.northdog)**: 3d audio compass."
-msgstr "**[Meritous](https://f-droid.org/app/net.asceai.meritous)**: Dungeon-Spiel."
+msgstr "**[NorthDog Audio Compass](https://f-droid.org/app/cz.harvie.northdog)**: 3D-Audio-Kompass."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-01-25-twif-40-the-newpipe-broken-builds-edition.md
-#, fuzzy
 msgid "**[House of Cards](https://f-droid.org/app/eu.veldsoft.house.of.cards)**: Solitaire-like card game."
-msgstr "**[Tri Peaks Solitaire for Android](https://f-droid.org/app/eu.veldsoft.tri.peaks)**: Solitär-Kartenspiel."
+msgstr "**[House of Cards](https://f-droid.org/app/eu.veldsoft.house.of.cards)**: Solitärähnliches Kartenspiel."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-01-25-twif-40-the-newpipe-broken-builds-edition.md
-#, fuzzy
 msgid "**[Lona](https://f-droid.org/app/io.github.lufte.lona)**: A snake-like html5 game."
-msgstr "**[Travel Mate](https://f-droid.org/app/io.github.project_travel_mate)**: Ein kompletter Reiseführer."
+msgstr "**[Lona](https://f-droid.org/app/io.github.lufte.lona)**: Snake-ähnliches HTML5-Spiel."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-01-25-twif-40-the-newpipe-broken-builds-edition.md
-#, fuzzy
 msgid "**[App Lock](https://f-droid.org/app/io.github.subhamtyagi.privacyapplock)**: Privacy app lock."
-msgstr "**[Open In WhatsApp](https://f-droid.org/app/io.github.subhamtyagi.openinwhatsapp)**: Chat in WhatsApp öffnen."
+msgstr "**[App Lock](https://f-droid.org/app/io.github.subhamtyagi.privacyapplock)**: App-Sperre zum Datenschutz."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-01-25-twif-40-the-newpipe-broken-builds-edition.md
-#, fuzzy
 msgid "**[HgLauncher](https://f-droid.org/app/mono.hg)**: A launcher for a slow day."
-msgstr "**[Senior Launcher](https://f-droid.org/app/de.nodomain.tobihille.seniorlauncher)**: Auf ältere Menschen ausgerichtete Starter-App."
+msgstr "**[HgLauncher](https://f-droid.org/app/mono.hg)**: Eine Starter-App für einen langsamen Tag."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-01-25-twif-40-the-newpipe-broken-builds-edition.md
 msgid "**[TpmsMonitor](https://f-droid.org/app/nodomain.freeyourgadget.tpmsmonitor)**: Manage bluetooth tire pressure monitor sensors."
-msgstr ""
+msgstr "**[TpmsMonitor](https://f-droid.org/app/nodomain.freeyourgadget.tpmsmonitor)**: Bluetooth-Reifendruck-Messsensoren verwalten."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-01-25-twif-40-the-newpipe-broken-builds-edition.md
-#, fuzzy
 msgid "**[Flyve MDM Agent](https://f-droid.org/app/org.flyve.mdm.agent.mqtt)**: Manage and secure effectively your mobile devices and applications."
-msgstr "**[Flyve MDM Agent](https://f-droid.org/app/org.flyve.mdm.agent)**: Mobile Geräte und Anwendungen effektiv verwalten und sichern."
+msgstr "**[Flyve MDM Agent](https://f-droid.org/app/org.flyve.mdm.agent.mqtt)**: Mobile Geräte und Anwendungen effektiv verwalten und sichern."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-01-25-twif-40-the-newpipe-broken-builds-edition.md
-#, fuzzy
 msgid "**[FASTer App Search Tool](https://f-droid.org/app/org.ligi.faster)**: Find apps just by typing."
-msgstr "**[Lobsters App](https://f-droid.org/app/com.nikhiljha.lobstersapp)**: Eine App für lobste.rs"
+msgstr "**[FASTer App Search Tool](https://f-droid.org/app/org.ligi.faster)**: Apps einfach durch Eintippen finden."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-01-25-twif-40-the-newpipe-broken-builds-edition.md
-#, fuzzy
 msgid "**[Presence Publisher](https://f-droid.org/app/org.ostrya.presencepublisher)**: Regularly publish to an mqtt topic."
-msgstr "**[TowerJumper](https://f-droid.org/app/org.pipoypipagames.towerjumper)**: Lockeres Geschicklichkeitsspiel."
+msgstr "**[Presence Publisher](https://f-droid.org/app/org.ostrya.presencepublisher)**: Regelmäßige Bekanntgaben an einen MQTT-Gegenstand."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-01-25-twif-40-the-newpipe-broken-builds-edition.md
-#, fuzzy
 msgid "**[Tape Measure](https://f-droid.org/app/org.secuso.privacyfriendlytapemeasure)**: Turn your device into a tape measure or ruler."
-msgstr "[Checkers](https://f-droid.org/app/org.secuso.privacyfriendlydame): Strategie-Brettspiel für einen oder zwei Spieler"
+msgstr "**[Tape Measure](https://f-droid.org/app/org.secuso.privacyfriendlytapemeasure)**: Gerät in ein Bandmaß oder Lineal verwandeln."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-01-25-twif-40-the-newpipe-broken-builds-edition.md
 msgid "**[News](https://f-droid.org/app/press.condense.www)**: A news recommendation engine with user customizable parameters."
-msgstr ""
+msgstr "**[News](https://f-droid.org/app/press.condense.www)**: Eine Nachrichten-Vorschlagsmaschine mit vom Nutzer anpassbaren Parametern."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-01-25-twif-40-the-newpipe-broken-builds-edition.md
-#, fuzzy
 msgid "**[Pixel Artist](https://f-droid.org/app/rodrigodavy.com.github.pixelartist)**: Make pixel art on android."
-msgstr "**[IPCam Demo](https://f-droid.org/app/com.github.niqdev.ipcam)**: Streaming von MJPEG_Videos auf Android"
+msgstr "**[Pixel Artist](https://f-droid.org/app/rodrigodavy.com.github.pixelartist)**: Pixel-Art auf Android schaffen."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-01-25-twif-40-the-newpipe-broken-builds-edition.md
 msgid "There was a [bug](https://github.com/Telegram-FOSS-Team/Telegram-FOSS/issues/288) in maintenance release 4.9.1a of **[Telegram](https://f-droid.org/app/org.telegram.messenger)**, where it wouldn't sync any messages for some people. We've removed this version from F-Droid. For those who already updated, upstream sources of 5.2 have been published and we are expecting these to land in F-Droid soon."
-msgstr ""
+msgstr "Es gab einen [Fehler](https://github.com/Telegram-FOSS-Team/Telegram-FOSS/issues/288) in der Version 4.9.1a von **[Telegram](https://f-droid.org/app/org.telegram.messenger)**, bei dem für einige Leute keine Nachrichten synchronisiert würden. Wir haben diese Version aus F-Droid entfernt. Für diejenigen, die bereits aktualisierten, der Upstream hat die Quellcodes von 5.2 veröffentlicht und wir erwarten, dass sie bald auf F-Droid landen werden."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-01-25-twif-40-the-newpipe-broken-builds-edition.md
 msgid "Some significant updates for **[Rocket.Chat](https://f-droid.org/app/chat.rocket.android)** 3.2.0, with a new user screen and a new room screen, support for muted state in the room, ability to delete the account, take a photo and send directly, and several other improvements."
-msgstr ""
+msgstr "Einige wichtige Aktualisierungen für **[Rocket.Chat](https://f-droid.org/app/chat.rocket.android)** 3.2.0, mit neuem Nutzer- und neuem Raum-Bildschirm, Unterstützung der Stummschaltung eines Raums, Möglichkeit das Konto zu löschen, ein Foto aufzunehmen und direkt zu verschicken sowie verschiedenen weiteren Verbesserungen."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-01-25-twif-40-the-newpipe-broken-builds-edition.md
 msgid "Several months worth of development for **[Waistline](https://f-droid.org/app/com.waist.line)**, a calorie and weight tracker app, which [updated](https://github.com/davidhealey/waistline/releases) from 2.3.7 to 2.4.2. Too many changes to list, but a selection: simplified food filter; filter by country; a new combined foods, meals and recipes page replacing the individual pages; and much more."
-msgstr ""
+msgstr "Einige Monate Mühe für die Weiterentwicklung von **[Waistline](https://f-droid.org/app/com.waist.line)**, einer App zur Kalorien- und Gewichtsüberwachung, die ein [Update](https://github.com/davidhealey/waistline/releases) von 2.3.7 auf 2.4.2 erhielt. Zu viele Änderungen, um sie aufzuzählen, aber zur Auswahl: vereinfachte Nahrungsmittelfilter; Filter nach Land; eine neue, kombinierte Nahrungsmittel-, Gerichte- und Rezepte-Seite, die die Einzelseiten ersetzt und vieles mehr."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-01-25-twif-40-the-newpipe-broken-builds-edition.md
 msgid "**[SecScanQR](https://f-droid.org/app/de.t_dankworth.secscanqr)** [updated](https://github.com/Fr4gorSoftware/SecScanQR/releases) from 1.1.9 to 1.2.0, adding the search engine Startpage, \"are you sure\" dialog before deleting history, and round launcher icons. A security fix prevents the OS from taking screenshots, and the \"WRITE EXTERNAL STORAGE\" permission is now only needed when you want to save the generated QR-code."
-msgstr ""
+msgstr "**[SecScanQR](https://f-droid.org/app/de.t_dankworth.secscanqr)** [aktualisiert](https://github.com/Fr4gorSoftware/SecScanQR/releases) von 1.1.9 auf 1.2.0, ergänzt die Suchmaschine Startpage, einen \"Sind Sie sicher\"-Abfrage vor Löschen des Verlaufs und runde Startersymbole. Eine Korrektur zur Sicherheit hindert das OS an der Aufnahme von Screenshots, und die Berechtigung \"AUF EXTERNEN SPEICHER SCHREIBEN\" wird nur noch benötigt, wenn der generierte QR-Code gespeichert werden soll."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-01-25-twif-40-the-newpipe-broken-builds-edition.md
-#, fuzzy
 msgid "**[Mastalab](https://f-droid.org/app/fr.gouv.etalab.mastodon)** was [updated](https://gitlab.com/tom79/mastalab/tags) from 1.64.1 to 1.65.1, now with support for deleting Peertube videos, NSFW control for Peertube videos, and many bug fixes."
-msgstr "**[Mastalab](https://f-droid.org/app/fr.gouv.etalab.mastodon)** bewegt sich weiterhin in Lichtgeschwindigkeit, so wird sie von 1.50.3 auf 1.62.1 [aktualisiert](https://gitlab.com/tom79/mastalab/tags). Dieses Update beinhaltet die Pixelfed-Bereitschaft, auch wenn noch etwas auf der Pixelfed-Seite geändert werden muss. Diese Änderung wird jeden Tag erwartet."
+msgstr "**[Mastalab](https://f-droid.org/app/fr.gouv.etalab.mastodon)** wurde von 1.64.1 auf 1.65.1 [aktualisiert](https://gitlab.com/tom79/mastalab/tags), nun mit der Unterstützung, Peertube-Videos zu löschen, NSFW-Steuerung für Peertube-Videos und vielen Fehlerlösungen."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-01-25-twif-40-the-newpipe-broken-builds-edition.md
-#, fuzzy
 msgid "**[G-Droid](https://f-droid.org/app/org.gdroid.gdroid)** [updated](https://gitlab.com/gdroid/gdroidclient/tags) from 0.6.2 to 0.7.1, with a new list view, show similar apps ordered by similarity, pull-down to refresh, different sorting methods, show apps the user might also like, uninstall button, and several other improvements and bug fixes."
-msgstr "**[G-Droid](https://f-droid.org/app/org.gdroid.gdroid)** wurde von 0.2.1 auf 0.3.0 [aktualisiert](https://gitlab.com/gdroid/gdroidclient/tags), mit Tags für Apps, die für Standardaufgaben verwendet werden und einem neuen Logo mit etwas Lila."
+msgstr "**[G-Droid](https://f-droid.org/app/org.gdroid.gdroid)** [aktualisiert](https://gitlab.com/gdroid/gdroidclient/tags) von 0.6.2 auf 0.7.1, mit neuer Listenansicht, Anzeige ähnlicher Apps nach Ähnlichkeit sortiert, Herunterziehen zum Auffrischen, verschiedenen Sortiermethoden, Anzeige von Apps, die dem Nutzer auch gefallen könnten, Deinstallationsschalter und einigen weiteren Verbesserungen und Fehlerkorrekturen."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-01-25-twif-40-the-newpipe-broken-builds-edition.md
