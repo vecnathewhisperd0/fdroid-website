@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2019-02-01 17:15+0100\n"
 "PO-Revision-Date: 2019-02-09 12:23+0000\n"
-"Last-Translator: C. Rüdinger <Mail-an-CR@web.de>\n"
+"Last-Translator: Johannes Keyser <johanneskeyser@posteo.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -9056,15 +9056,13 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-01-25-twif-40-the-newpipe-broken-builds-edition.md
-#, fuzzy
 msgid "**[F-Droid Privileged Extension](https://f-droid.org/app/org.fdroid.fdroid.privileged)** was updated from 0.2.8 to 0.2.9"
-msgstr "[Gadgetbridge](https://f-droid.org/app/nodomain.freeyourgadget.gadgetbridge)-Update von 0.26.1 nach 0.26.2"
+msgstr "**[F-Droid Privileged Extension](https://f-droid.org/app/org.fdroid.fdroid.privileged)** wurde aktualisiert von 0.2.8 auf 0.2.9"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-01-25-twif-40-the-newpipe-broken-builds-edition.md
-#, fuzzy
 msgid "**[Mathdroid](https://f-droid.org/wiki/page/org.jessies.mathdroid)**"
-msgstr "**[SuperUStats](https://f-droid.org/app/superustats.tool.android)**"
+msgstr "**[Mathdroid](https://f-droid.org/wiki/page/org.jessies.mathdroid)**"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-01-25-twif-40-the-newpipe-broken-builds-edition.md
