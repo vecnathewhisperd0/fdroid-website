@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2019-02-01 17:15+0100\n"
-"PO-Revision-Date: 2019-02-09 12:23+0000\n"
-"Last-Translator: Johannes Keyser <johanneskeyser@posteo.de>\n"
+"PO-Revision-Date: 2019-02-12 16:09+0000\n"
+"Last-Translator: C. Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -8789,7 +8789,7 @@ msgstr "Haben wir **[Peertube](https://f-droid.org/app/net.schueller.peertube)**
 #. type: Bullet: '* '
 #: build/_posts/md/2019-01-12-twif-38.md
 msgid "**[miniVector](https://f-droid.org/app/com.lavadip.miniVector)** was updated to 0.8.21 tracking the upstream [Riot.im](https://f-droid.org/app/im.vector.alpha) update that was featured in [TWIF37](https://f-droid.org/en/2019/01/05/twif-37-the-european-bug-bounty-edition.html) last week."
-msgstr ""
+msgstr "**[miniVector](https://f-droid.org/app/com.lavadip.miniVector)** wurde auf 0.8.21 aktualisiert, dem eingespielten [Riot.im](https://f-droid.org/app/im.vector.alpha)-Update folgend, das im [TWIF37](https://f-droid.org/en/2019/01/05/twif-37-the-european-bug-bounty-edition.html) letzte Woche vorgestellt wurde."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-01-12-twif-38.md
@@ -9047,12 +9047,12 @@ msgstr "**[G-Droid](https://f-droid.org/app/org.gdroid.gdroid)** [aktualisiert](
 #. type: Bullet: '* '
 #: build/_posts/md/2019-01-25-twif-40-the-newpipe-broken-builds-edition.md
 msgid "**[Sugarizer](https://f-droid.org/app/org.olpc_france.sugarizer)** is an implementation of the [Sugar Learning Platform](https://sugarlabs.org), a learning platform for children. In this [update](https://github.com/llaske/sugarizer/blob/HEAD/CHANGELOG.md) to 1.1.0, the activities Ebook Reader, Exerciser and Sprint Math were added, as well as a sort palette in Journal. It will now allow action on multiple items in Journal, copy from Journal to device and from device to Journal, show help tutorial on initial screen, and show help on activities in list view. This release also contains many bug fixes."
-msgstr ""
+msgstr "**[Sugarizer](https://f-droid.org/app/org.olpc_france.sugarizer)** ist eine Umsetzung der [Sugar Learning Platform](https://sugarlabs.org), einer Lernplattform für Kinder. In diesem [Update](https://github.com/llaske/sugarizer/blob/HEAD/CHANGELOG.md) auf 1.1.0, wurden die Aktivitäten Ebook Reader, Exerciser und Sprint Math genauso hinzugefügt, wie eine Art Palette im Journal. Sie ermöglicht nun Aktionen zu verschiedenen Themen im Journal, das Kopieren vom Journal auf das Gerät und umgekehrt, die Anzeige der Gebrauchsanleitung auf dem Eröffnungsbildschirm und von Hilfen zu Aktivitäten in der Listenansicht. Diese Version enthält zudem zahlreiche Korrekturen."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-01-25-twif-40-the-newpipe-broken-builds-edition.md
 msgid "{{ page.major }} **[OONI Probe](https://f-droid.org/app/org.openobservatory.ooniprobe)** released version 2.0.0, with a major UI overhaul. OONI Probe is a tool to measure internet censorship and other forms of interference. It can help to detect things like [this](https://ooni.torproject.org/post/zimbabwe-protests-social-media-blocking-2019/). Highlights of this [update](https://github.com/ooni/probe-android/releases) include an overview screen for all test results, enhanced website testing where you can test a website of your choice, and data usage tracking on a test-by-test basis."
-msgstr ""
+msgstr "{{ page.major }} **[OONI Probe](https://f-droid.org/app/org.openobservatory.ooniprobe)** veröffentlichte Version 2.0.0, mit einer grundsätzlichen Überarbeitung der Benutzerschnittstelle. OONI Probe ist ein Werkzeug, um Zensur im Internet und andere Formen der Einmischung zu messen. Es kann dabei helfen, Dinge wie [diese](https://ooni.torproject.org/post/zimbabwe-protests-social-media-blocking-2019/) aufzudecken. Höhepunkte dieser [Aktualisierung](https://github.com/ooni/probe-android/releases) beinhalten einen Übersichtsbildschirm für alle Testergebnisse, eine verbesserte Internetseitenprüfung, bei der eine Website eigener Wahl getestet werden kann, und Überwachung der Datenübertragung auf Test-für-Test-Basis."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-01-25-twif-40-the-newpipe-broken-builds-edition.md
@@ -9066,32 +9066,30 @@ msgstr "**[Mathdroid](https://f-droid.org/wiki/page/org.jessies.mathdroid)**"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-01-25-twif-40-the-newpipe-broken-builds-edition.md
-#, fuzzy
 msgid "**[33C3 Schedule](https://f-droid.org/wiki/page/org.ligi.fahrplan)**"
-msgstr "**[arXiv eXplorer](https://f-droid.org/app/com.gbeatty.arxiv)**"
+msgstr "**[33C3 Schedule](https://f-droid.org/wiki/page/org.ligi.fahrplan)**"
 
 #. type: Title #
 #: build/_posts/md/2019-02-01-twif-41-the-third-reproducible-app-edition.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "\"TWIF 41: The Third Reproducible App Edition\""
-msgstr "\"TWIF 14: Ausgabe zur Reproduzierbarkeitsfalle\""
+msgstr "\"TWIF 41: Die Ausgabe zur dritten reproduzierbaren App\""
 
 #. type: Plain text
 #: build/_posts/md/2019-02-01-twif-41-the-third-reproducible-app-edition.md
-#, fuzzy
 msgid "In this edition: Stringlate discontinued, part 2 of Izzy's F-Droid series is now online in German and androDNS: Third reproducible app in F-Droid.  There are **{{ page.number_of_added_apps }}** new and **{{ page.number_of_updated_apps }}** updated apps."
-msgstr "In dieser Ausgabe: Zweiter Teil von @Izzy's Artikelreihe erhältlich, datenschutz-fokusierter Beitrag im ZDF, F-Droid schafft 35C3 und F-Droid 1.5 veröffentlicht.  Diese Woche **{{ page.number_of_added_apps }}** neue und **{{ page.number_of_updated_apps }}** aktualisierte Apps."
+msgstr "In dieser Ausgabe: Stringlate hört auf, Teil 2 von @Izzy's F-Droid-Artikel ist nun in Deutsch online und androDNS: Dritte reproduzierbare App in F-Droid.  Diese Woche **{{ page.number_of_added_apps }}** neue und **{{ page.number_of_updated_apps }}** aktualisierte Apps."
 
 #. type: Title ###
 #: build/_posts/md/2019-02-01-twif-41-the-third-reproducible-app-edition.md
 #, no-wrap
 msgid "Stringlate discontinued"
-msgstr ""
+msgstr "Stringlate hört auf"
 
 #. type: Plain text
 #: build/_posts/md/2019-02-01-twif-41-the-third-reproducible-app-edition.md
 msgid "The developer of Stringlate has stopped all work on the project (more information [here](https://lonamiwebs.github.io/stringlate/)). It’s really a shame, since it is used to translate other FLOSS Android apps (available on F-Droid). The project is looking for a new maintainer and could use help from the community."
-msgstr ""
+msgstr "Der Entwickler von Stringlate hat alle Arbeiten am Projekt eingestellt (mehr Informationen dazu [hier](https://lonamiwebs.github.io/stringlate/)). Das ist wirklich schade, da es zur Übersetzung von weiteren (auf F-Droid abrufbaren) FLOSS-Apps genutzt wird. Das Projekt sucht nach einem neuen Maintainer und könnte Hilfe aus der Community gebrauchen."
 
 #. type: Plain text
 #: build/_posts/md/2019-02-01-twif-41-the-third-reproducible-app-edition.md
@@ -9100,104 +9098,94 @@ msgstr ""
 
 #. type: Title ###
 #: build/_posts/md/2019-02-01-twif-41-the-third-reproducible-app-edition.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Part 2 of Izzy's F-Droid series is now online in German"
-msgstr "Erster, in Englisch abrufbarer Artikel von Izzy's F-Droid-Serie"
+msgstr "Teil 2 von Izzy's F-Droid-Serie ist nun in Deutsch im Netz"
 
 #. type: Plain text
 #: build/_posts/md/2019-02-01-twif-41-the-third-reproducible-app-edition.md
 msgid "See: [F-Droid for advanced users and developers](https://android.izzysoft.de/articles/named/fdroid-intro-2). This article has earlier been released [in English](https://android.izzysoft.de/articles/named/fdroid-intro-2?lang=en) (on-line) and in print in c't magazine. In agreement with c't magazine, the German articles will be posted with a delay. As such, part 3 will be out in a few weeks, after the print version has been published."
-msgstr ""
+msgstr "Siehe: [F-Droid für fortgeschrittene Anwender und Entwickler](https://android.izzysoft.de/articles/named/fdroid-intro-2). Dieser Artikel wurde zunächst [in Englisch](https://android.izzysoft.de/articles/named/fdroid-intro-2?lang=en) (online) veröffentlicht und im c't-Magazin gedruckt. Mit Zustimmung des c't-Magazins wird der deutsche Artikel nun verzögert ins Netz gestellt. Genauso wird der 3. Teil in ein paar Wochen herauskommen, nachdem die gedruckte Version erschienen ist."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-02-01-twif-41-the-third-reproducible-app-edition.md
 msgid "{{ page.featured }} **[AndroDNS](https://f-droid.org/app/androdns.android.leetdreams.ch.androdns)**: We have the third [reproducible](https://reproducible-builds.org) app in F-Droid! This DNS client allows you to perform customized DNS queries directly from your mobile phone."
-msgstr ""
+msgstr "{{ page.featured }} **[AndroDNS](https://f-droid.org/app/androdns.android.leetdreams.ch.androdns)**: Wir haben die dritte [reproduzierbare](https://reproducible-builds.org) App in F-Droid! Dieser DNS-Client ermöglicht es, eigens angepasste DNS-Abfragen direkt von eurem Mobilgerät durchzuführen."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-02-01-twif-41-the-third-reproducible-app-edition.md
 msgid "**[eBooks](https://f-droid.org/app/android.nachiketa.ebookdownloader)**: Parse and find e-books to download."
-msgstr ""
+msgstr "**[eBooks](https://f-droid.org/app/android.nachiketa.ebookdownloader)**: E-Books zum Herunterladen analysieren und finden."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-02-01-twif-41-the-third-reproducible-app-edition.md
 msgid "**[MuPDF mini](https://f-droid.org/app/com.artifex.mupdf.mini.app)**: Minimalist viewer for pdf, xps, cbz, unprotected epub, and fb2 documents."
-msgstr ""
+msgstr "**[MuPDF mini](https://f-droid.org/app/com.artifex.mupdf.mini.app)**: Minimalistisches Lesegerät für Dokumente in den Formaten pdf, xps, cbz, ungeschütztes epub und fb2."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-02-01-twif-41-the-third-reproducible-app-edition.md
 msgid "**[Go to Sleep](https://f-droid.org/app/com.corvettecole.gotosleep)**: Reminds you to go to sleep... until you do."
-msgstr ""
+msgstr "**[Go to Sleep](https://f-droid.org/app/com.corvettecole.gotosleep)**: Erinnert Sie daran, ins Bett zu gehen ... bis Sie es tun."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-02-01-twif-41-the-third-reproducible-app-edition.md
-#, fuzzy
 msgid "**[Trigger](https://f-droid.org/app/com.example.trigger)**: Open a door over wifi or the internet."
-msgstr "**[Trime](https://f-droid.org/app/com.osfans.trime)**: Chinesische Eingabemethode mit Rime Input Method Engine."
+msgstr "**[Trigger](https://f-droid.org/app/com.example.trigger)**: Eine Tür über WLAN oder Internet öffnen."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-02-01-twif-41-the-third-reproducible-app-edition.md
-#, fuzzy
 msgid "**[Bop-MusicPlayer](https://f-droid.org/app/com.sahdeepsingh.Bop)**: A lightweight powerful music player."
-msgstr "[Music Player GO](https://f-droid.org/app/com.iven.musicplayergo): Sehr schlanker Musikplayer"
+msgstr "**[Bop-MusicPlayer](https://f-droid.org/app/com.sahdeepsingh.Bop)**: Ein leichtgewichtiger, leistungsstarker Music-Player."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-02-01-twif-41-the-third-reproducible-app-edition.md
-#, fuzzy
 msgid "**[ScraperClub](https://f-droid.org/app/com.scraperclub.android)**: Application for scraperclub."
-msgstr "**[Drowser](https://f-droid.org/app/com.jarsilio.android.drowser)**: Einfacher Hintergrund-App-Killer."
+msgstr "**[ScraperClub](https://f-droid.org/app/com.scraperclub.android)**: Anwendung für Scraperclub."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-02-01-twif-41-the-third-reproducible-app-edition.md
-#, fuzzy
 msgid "**[AppOpsX](https://f-droid.org/app/com.zzzmode.appopsx)**: A front-end for the appopsservice."
-msgstr "**[/d/gapps](https://f-droid.org/app/org.droidtr.deletegapps)**: Gapps löschen/deaktivieren."
+msgstr "**[AppOpsX](https://f-droid.org/app/com.zzzmode.appopsx)**: Frontend für AppOpsService."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-02-01-twif-41-the-third-reproducible-app-edition.md
-#, fuzzy
 msgid "**[piggybudget](https://f-droid.org/app/de.php_tech.piggybudget)**: Easily track your expenses."
-msgstr "**[Vädret](https://f-droid.org/app/fi.kroon.vadret)**: Wetter-App für Schweden."
+msgstr "**[piggybudget](https://f-droid.org/app/de.php_tech.piggybudget)**: Ausgaben leicht rückverfolgen."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-02-01-twif-41-the-third-reproducible-app-edition.md
-#, fuzzy
 msgid "**[GameDealz](https://f-droid.org/app/de.r4md4c.gamedealz)**: A non-official client for isthereanydeal.com."
-msgstr "**[Yaacc](https://f-droid.org/app/de.yaacc)**: UPnP-Client und -Server."
+msgstr "**[GameDealz](https://f-droid.org/app/de.r4md4c.gamedealz)**: Inoffizieller Client für isthereanydeal.com."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-02-01-twif-41-the-third-reproducible-app-edition.md
-#, fuzzy
 msgid "**[Free Klondike](https://f-droid.org/app/eu.veldsoft.free.klondike)**: A mixture of freecell and klondike solitaire."
-msgstr "**[Tri Peaks Solitaire for Android](https://f-droid.org/app/eu.veldsoft.tri.peaks)**: Solitär-Kartenspiel."
+msgstr "**[Free Klondike](https://f-droid.org/app/eu.veldsoft.free.klondike)**: Eine Mischung aus Freecell- und Klondike-Solitär."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-02-01-twif-41-the-third-reproducible-app-edition.md
-#, fuzzy
 msgid "**[TimeLimit](https://f-droid.org/app/io.timelimit.android.open)**"
-msgstr "**[SuperUStats](https://f-droid.org/app/superustats.tool.android)**"
+msgstr "**[TimeLimit](https://f-droid.org/app/io.timelimit.android.open)**"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-02-01-twif-41-the-third-reproducible-app-edition.md
-#, fuzzy
 msgid "**[Diab](https://f-droid.org/app/it.diab)**: A smart diabetes manager app."
-msgstr "**[Yaacc](https://f-droid.org/app/de.yaacc)**: UPnP-Client und -Server."
+msgstr "**[Diab](https://f-droid.org/app/it.diab)**: Intelligente App zur Diabetesüberwachung."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-02-01-twif-41-the-third-reproducible-app-edition.md
 msgid "**[CPU Stats](https://f-droid.org/app/jp.takke.cpustats)**: Show cpu usage within the statusbar."
-msgstr ""
+msgstr "**[CPU Stats](https://f-droid.org/app/jp.takke.cpustats)**: Anzeige der CPU-Nutzung in der Statusbar."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-02-01-twif-41-the-third-reproducible-app-edition.md
-#, fuzzy
 msgid "**[Trekarta](https://f-droid.org/app/mobi.maptrek)**: Simple, responsive map for your trek."
-msgstr "**[WateryDroid](https://f-droid.org/app/tmendes.com.waterydroid)**: Einfache App, um daran zu erinnern, Wasser zu trinken"
+msgstr "**[Trekarta](https://f-droid.org/app/mobi.maptrek)**: Einfache, reagible Karte für ihren Treck."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-02-01-twif-41-the-third-reproducible-app-edition.md
 msgid "**[SDB Viewer](https://f-droid.org/app/org.zephyrsoft.sdbviewer)**: View song lyrics, a translation of it and guitar chords."
-msgstr ""
+msgstr "**[SDB Viewer](https://f-droid.org/app/org.zephyrsoft.sdbviewer)**: Songtexte, Übersetzungen davon und Gitarrenakkorde ansehen."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-02-01-twif-41-the-third-reproducible-app-edition.md
@@ -9208,7 +9196,7 @@ msgstr "**[Simple Dilbert](https://f-droid.org/app/com.mareksebera.simpledilbert
 #. type: Bullet: '* '
 #: build/_posts/md/2019-02-01-twif-41-the-third-reproducible-app-edition.md
 msgid "**[Delta Chat](https://f-droid.org/app/com.b44t.messenger)** was [updated](https://raw.githubusercontent.com/deltachat/deltachat-android/HEAD/CHANGELOG.md) from 0.20.0 to 0.100.0 with a complete rework of the UI using pure material design, and too many improvements to list! Check out the [changelog](https://raw.githubusercontent.com/deltachat/deltachat-android/HEAD/CHANGELOG.md)."
-msgstr ""
+msgstr "**[Delta Chat](https://f-droid.org/app/com.b44t.messenger)** wurde von 0.20.0 auf 0.100.0 [aktualiesiert](https://raw.githubusercontent.com/deltachat/deltachat-android/HEAD/CHANGELOG.md) mit einer kompletten Überarbeitung der Benutzeroberfläche im reinen Material Design und zu vielen Verbesserungen, um sie aufzuzählen! Überprüft das [Änderungsprotokoll](https://raw.githubusercontent.com/deltachat/deltachat-android/HEAD/CHANGELOG.md)."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-02-01-twif-41-the-third-reproducible-app-edition.md
@@ -9222,29 +9210,28 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-02-01-twif-41-the-third-reproducible-app-edition.md
-#, fuzzy
 msgid "**[μMath+](https://f-droid.org/app/com.mkulesh.micromath.plus)** was [updated](https://github.com/mkulesh/microMathematics/releases) from 2.17.4 to 2.18.0, now with support for Android 9, assigning array elements by index, and displaying whole array without using indices."
-msgstr "**[Mysplash](https://f-droid.org/app/com.wangdaye.mysplash)** wurde von 3.4.1 auf 3.4.5 [aktualisiert](https://github.com/WangDaYeeeeee/Mysplash/releases), nun mit einem App-Download-Manager, Option einen Download-Manager auszuwählen, automatischem Nachtmodus sowie verschiedenen kleineren Änderungen und Korrekturen."
+msgstr "**[μMath+](https://f-droid.org/app/com.mkulesh.micromath.plus)** wurde von 2.17.4 auf 2.18.0 [aktualisiert](https://github.com/mkulesh/microMathematics/releases), nun mit Android-9-Unterstützung, Feldelementzuordnungen nach Index und Anzeige des gesamten Feldes ohne Verwendung von Indizes."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-02-01-twif-41-the-third-reproducible-app-edition.md
 msgid "**[Vinyl Music Player](https://f-droid.org/app/com.poupa.vinylmusicplayer)** [updated](https://github.com/AdrienPoupa/VinylMusicPlayer/blob/HEAD/CHANGELOG.md) from 0.18.0 to 0.19.2, adding a new smart playlist \"not played lately\", smart playlist decoration, and finish current song when the sleep timer runs out."
-msgstr ""
+msgstr "**[Vinyl Music Player](https://f-droid.org/app/com.poupa.vinylmusicplayer)** [aktualisiert](https://github.com/AdrienPoupa/VinylMusicPlayer/blob/HEAD/CHANGELOG.md) von 0.18.0 auf 0.19.2 fügt eine neue, intelligente Wiedergabeliste \"in letzter Zeit nicht gespielt\" hinzu, ergänzt ein Dekor für intelligente Wiedergabelisten und spielt den aktuellen Titel zu Ende, wenn der Sleep-Timer abläuft."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-02-01-twif-41-the-third-reproducible-app-edition.md
 msgid "**[SysLog](https://f-droid.org/app/com.tortel.syslog)** 2.2.0 [is out](https://github.com/Tortel/SysLog/blob/HEAD/Changelog.md) with instructions for rootless operation, updated dependencies and crash fixes in landscape mode."
-msgstr ""
+msgstr "**[SysLog](https://f-droid.org/app/com.tortel.syslog)** 2.2.0 [ist raus](https://github.com/Tortel/SysLog/blob/HEAD/Changelog.md) mit Anweisungen für den Betrieb ohne Root, aktualisierten Abhängigkeiten und Lösungen für Absturzursachen im Querformat."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-02-01-twif-41-the-third-reproducible-app-edition.md
 msgid "**[Yaacc](https://f-droid.org/app/de.yaacc)** was [updated](https://github.com/tobexyz/yaacc-code/releases) to 2.2.0, with content browsing now done in chunks, async and non blocking for the UI thread. Visualization was added when loading content, Yaacc UPnP Server now respects chunk load requests, and there is a load of bug fixes."
-msgstr ""
+msgstr "**[Yaacc](https://f-droid.org/app/de.yaacc)** wurde auf 2.2.0 [aktualisiert](https://github.com/tobexyz/yaacc-code/releases) mit stückweisem, asynchronem und die Nutzeroberfäche nicht blockierendem Durchsuchen der Inhalte. Für das Laden der Inhalte wurde eine Visualisierung hinzugefügt, Yaacc-UPnP-Server respektiert nun stückweise Ladeanforderungen und es gibt eine Reihe von Fehlerkorrekturen."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-02-01-twif-41-the-third-reproducible-app-edition.md
 msgid "**[wallabag](https://f-droid.org/app/fr.gaulupeau.apps.InThePoche)** is a self-hosted read-it-later app. It [updated](https://github.com/wallabag/android-app/releases) to 2.1.0 with a new fullscreen article view, Share and Copy options for the link menu, scrolling via hardware keys, TTS auto-switch to article's language, and a setting to keep screen on while reading."
-msgstr ""
+msgstr "**[wallabag](https://f-droid.org/app/fr.gaulupeau.apps.InThePoche)** ist eine selbstgehostete Später-Lesen-App, [aktualisiert](https://github.com/wallabag/android-app/releases) auf 2.1.0 mit einer neuen Vollbildartikelansicht, Teilen- und Kopie-Optionen im Kontextmenü, Blättern über Hardware-Tasten, automatischer TTS-Umschaltung in die Sprache des Artikels und einer Einstellung, um den Bildschirm während des Lesens eingeschaltet zu lassen."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-02-01-twif-41-the-third-reproducible-app-edition.md
@@ -9263,9 +9250,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-02-01-twif-41-the-third-reproducible-app-edition.md
-#, fuzzy
 msgid "**[Open Contacts](https://f-droid.org/app/opencontacts.open.com.opencontacts)** [updated](https://gitlab.com/sultanahamer/OpenContacts/blob/HEAD/CHANGELOG) from 9.0 to 11.0 with UI improvements and making the WhatsApp integration optional. It now supports importing VCard data as-is and there are many improvements to the contact details, such as showing phone number types in contact details. It is also possible to switch time format between 12/24 hours."
-msgstr "**[Open Contacts](https://f-droid.org/app/opencontacts.open.com.opencontacts)** wurde von 7.0 auf 9.0 [aktualisiert](https://gitlab.com/sultanahamer/OpenContacts/blob/HEAD/CHANGELOG), mit Einführung eines dunklen Designs, der Unterstützung von Telefonnummern mit Symbolen, der Löschung aller Kontakte, verschiedenen Verbesserungen der Benutzerschnittstelle und -freundlichkeit sowie Fehlerkorrekturen, einschließlich einer wichtigen für eine Absturzursache unter Android 8 (Oreo). **Bitte exportieren und reimportieren Sie alle Ihre Kontakte**, damit die Suche funktioniert. Entschuldigen Sie bitte, aber das ist nur eine einmalige Angelegenheit."
+msgstr "**[Open Contacts](https://f-droid.org/app/opencontacts.open.com.opencontacts)** [aktualisiert](https://gitlab.com/sultanahamer/OpenContacts/blob/HEAD/CHANGELOG) von 9.0 auf 11.0 mit Schnittstellenverbesserungen und Einführung einer optionalen WhatsApp-Integration. Sie unterstützt nun den Import von VCard-Daten, wie sie sind, und es gibt viele Verbesserungen an den Kontaktdetails, wie die Anzeige von Telefonnummern-Arten in den Kontakteinzelheiten. Außerdem kann man zwischen einem 12/24-Stunden-Zeitformat umschalten."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-02-01-twif-41-the-third-reproducible-app-edition.md
