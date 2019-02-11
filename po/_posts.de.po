@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2019-02-01 17:15+0100\n"
 "PO-Revision-Date: 2019-02-12 16:09+0000\n"
-"Last-Translator: C. Rüdinger <Mail-an-CR@web.de>\n"
+"Last-Translator: Tobias_Groza <tobias.groza@outlook.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -9189,9 +9189,8 @@ msgstr "**[SDB Viewer](https://f-droid.org/app/org.zephyrsoft.sdbviewer)**: Song
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-02-01-twif-41-the-third-reproducible-app-edition.md
-#, fuzzy
 msgid "**[KeePassDroid](https://f-droid.org/app/com.android.keepass)** was [updated](https://github.com/bpellin/keepassdroid/blob/HEAD/CHANGELOG) from 2.3.4 to 2.4.1, with a new fingerprint setting and better handling for large attachments."
-msgstr "**[Simple Dilbert](https://f-droid.org/app/com.mareksebera.simpledilbert)** [aktualisiert](https://github.com/smarek/Simple-Dilbert/blob/HEAD/CHANGELOG.md) auf 4.6, mit einem Android-SDK-Update auf v28 und vielen Fehlerlösungen."
+msgstr "**[KeePassDroid](https://f-droid.org/app/com.android.keepass)** wurde [aktualisiert](https://github.com/bpellin/keepassdroid/blob/HEAD/CHANGELOG) von Version 2.3.4 auf 2.4.1 mit neuen Fingerabdruck-Einstellungen und besserer Handhabung großer Anhänge."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-02-01-twif-41-the-third-reproducible-app-edition.md
