@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2019-02-01 17:15+0100\n"
-"PO-Revision-Date: 2019-02-12 16:09+0000\n"
-"Last-Translator: Tobias_Groza <tobias.groza@outlook.de>\n"
+"PO-Revision-Date: 2019-02-13 11:09+0000\n"
+"Last-Translator: C. Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -9205,7 +9205,7 @@ msgstr ""
 #. type: Bullet: '* '
 #: build/_posts/md/2019-02-01-twif-41-the-third-reproducible-app-edition.md
 msgid "**[openScale](https://f-droid.org/app/com.health.openscale)** is a weight and body metrics tracker, with support for Bluetooth scales. In this [update](https://github.com/oliexdev/openScale/releases) from 1.8.4 to 1.9.1, you'll find a custom Bluetooth stack to improve Bluetooth communication, new calculations and measurements, support for the Libra-W scale, and the usual smaller updates and bug fixes."
-msgstr ""
+msgstr "**[openScale](https://f-droid.org/app/com.health.openscale)** dient der Überwachung von Gewicht und Körperwerten, unterstützt Bluetooth-Waagen. In diesem [Update](https://github.com/oliexdev/openScale/releases) von 1.8.4 auf 1.9.1 finden Sie ein angepasstes Bluetooth-Register, um die Bluetooth-Kommunikation zu verbessern, neue Berechnungen und Messungen, die Unterstützung der Libra-W-Waage und die üblichen kleinen Verbesserungen und Korrekturen."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-02-01-twif-41-the-third-reproducible-app-edition.md
@@ -9235,17 +9235,17 @@ msgstr "**[wallabag](https://f-droid.org/app/fr.gaulupeau.apps.InThePoche)** ist
 #. type: Bullet: '* '
 #: build/_posts/md/2019-02-01-twif-41-the-third-reproducible-app-edition.md
 msgid "{{ page.featured }} Huge changes for **[Mastalab](https://f-droid.org/app/fr.gouv.etalab.mastodon)** again in this [update](https://gitlab.com/tom79/mastalab/tags) from 1.65.1 to 1.70.0. Mastalab now supports Pleroma, including moderator functions! In further news, you can now compose messages in either plain text, markdown or html. Support for scheduling toots on the server was added and there is now a setting to display new toots either above or below the \"fetch more\" button. Tag timelines can be switched into art timelines, GIFs are autostarted and looped, there are a bunch of Peertube improvements, and much more."
-msgstr ""
+msgstr "{{ page.featured }} Erneut riesige Änderungen an **[Mastalab](https://f-droid.org/app/fr.gouv.etalab.mastodon)** in dieser [Aktualisierung](https://gitlab.com/tom79/mastalab/tags) von 1.65.1 auf 1.70.0. Mastalab unterstützt nun Pleroma, einschließlich Moderatorfunktionen! Unter den weiteren Neuigkeiten, Nachrichten können nun aus einfachem, Markdown- oder HTML-Text zusammengesetzt sein. Die Unterstützung für Tröts auf dem Server nach Zeitplan wurde ergänzt und es gibt jetzt eine Einstellung, um neue Tröts entweder ober- oder unterhalb des Schalters \"weitere abrufen\" anzuzeigen. Tag-Zeitachsen können in Kunst-Zeitachsen umgewandelt werden, GIFs starten automatisch und werden wiederholt, es gibt ein Bündel an Peertube-Verbesserungen und vieles mehr."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-02-01-twif-41-the-third-reproducible-app-edition.md
 msgid "**[Revolution IRC](https://f-droid.org/app/io.mrarm.irc)** is a modern Android IRC client. It [released](https://github.com/MCMrARM/revolution-irc/releases) version 0.5.0, with advanced theming features, SASL External (CertFP) support, new message indicator and banner, date markers, start on boot option, and per-channel send history."
-msgstr ""
+msgstr "**[Revolution IRC](https://f-droid.org/app/io.mrarm.irc)** ist ein moderner IRC-Client für Android. Er [veröffentlichte](https://github.com/MCMrARM/revolution-irc/releases) Version 0.5.0, mit erweiterten Design-Features, Unterstützung von SASL External (CertFP), neuem Nachrichtenanzeiger und -banner, Datumsmarkierungen, einer Option für das Starten beim Hochfahren und einem Sendeverlauf pro Kanal."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-02-01-twif-41-the-third-reproducible-app-edition.md
 msgid "**[Open Camera](https://f-droid.org/app/net.sourceforge.opencamera)** was [updated](http://opencamera.sourceforge.net/history.html) from 1.44.1 to 1.45.2, now with a 'low light' noise reduction photo mode, continuous burst mode, support for writing WebP and PNG images, and H264, HEVC, 3GPP and WebM (no audio) videos. There is a new option to export (and re-import) all settings to a file, new layouts and on-screen icons, time-lapse rates of 120x and 240x, and many other updates and bug fixes."
-msgstr ""
+msgstr "**[Open Camera](https://f-droid.org/app/net.sourceforge.opencamera)** wurde von 1.44.1 auf 1.45.2 [aktualisiert](http://opencamera.sourceforge.net/history.html), nun mit einem Fotomodus zur Rauschreduktion bei 'schwachem Licht', ununterbrochenen Serienaufnahmen, Unterstützung zum Speichern von WebP- und PNG-Bildern sowie von Videos in H264, HEVC, 3GPP und WebM (ohne Ton). Es gibt eine neue Option zum Export (und Re-Import) aller Einstellungen in eine Datei, neue Layouts und Bildschirmsymbole, die Zeitraffertempos 120-fach und 240-fach und viele andere Verbesserungen und Korrekturen."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-02-01-twif-41-the-third-reproducible-app-edition.md
@@ -9255,22 +9255,22 @@ msgstr "**[Open Contacts](https://f-droid.org/app/opencontacts.open.com.opencont
 #. type: Bullet: '* '
 #: build/_posts/md/2019-02-01-twif-41-the-third-reproducible-app-edition.md
 msgid "{{ page.major }} **[Trireme for Deluge](https://f-droid.org/app/org.deluge.trireme)** is a thin client for the Deluge torrent software, and was [updated](https://github.com/teal77/trireme/releases) from 0.9.1 to 1.0.2, adding support for the new Deluge 2.0 RPC protocol. In addition to that there are some lesser UI tweaks and bug fixes."
-msgstr ""
+msgstr "{{ page.major }} **[Trireme for Deluge](https://f-droid.org/app/org.deluge.trireme)** ist ein schlanker Client für die Deluge-Torrent-Software und wurde von 0.9.1 auf 1.0.2 [aktualisiert](https://github.com/teal77/trireme/releases), womit die Unterstützung des neuen Protokolls Deluge 2.0 RPC ergänzt wird. Zusätzlich gibt es einige kleinere Anpassungen an der Nutzeroberfläche und Fehlerkorrekturen."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-02-01-twif-41-the-third-reproducible-app-edition.md
 msgid "The **[NewPipe](https://f-droid.org/app/org.schabi.newpipe)** that was broken has been reforged! This [update](https://github.com/TeamNewPipe/NewPipe/releases) to 0.15.1 should fix the breakage caused by Google's changes. In addition to that, downloaded files can now be opened with one click, the minimum Android version was bumped to 4.4, streams can be removed by swiping right, and postprocessing for downloads has been added."
-msgstr ""
+msgstr "**[NewPipe](https://f-droid.org/app/org.schabi.newpipe)**, einst defekt, wurde neu geformt! Dieses [Update](https://github.com/TeamNewPipe/NewPipe/releases) auf 0.15.1 sollte den durch Google's Änderungen verursachten Zusammenbruch beheben. Obendrein können heruntergeladene Dateien jetzt mit einem Klick geöffnet werden, die Android-Mindestversion wurde auf 4.4 angehoben, Streams können durch Nach-rechts-Wischen entfernt werden und eine Nachbearbeitung für Downloads wurde ergänzt."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-02-01-twif-41-the-third-reproducible-app-edition.md
 msgid "**[Telegram](https://f-droid.org/app/org.telegram.messenger)** was [updated](https://github.com/Telegram-FOSS-Team/Telegram-FOSS/blob/HEAD/Changelog.md) from 4.9.1 to 5.2.1 adding global permissions for groups, unified group settings, 5-second undo for deleting chats and clearing chat history, new sorting options in Contacts, and new animations when uploading and downloading media."
-msgstr ""
+msgstr "**[Telegram](https://f-droid.org/app/org.telegram.messenger)** wurde von 4.9.1 auf 5.2.1 [aktualisiert](https://github.com/Telegram-FOSS-Team/Telegram-FOSS/blob/HEAD/Changelog.md), ergänzt globale Berechtigungen für Gruppen, vereinheitlichte Gruppeneinstellungen, ein 5-sekündiges Rückgängig-Machen für das Löschen von Chats und die Bereinigung des Chat-Verlaufs, neue Sortiermöglichkeiten in den Kontakten und neue Animationen, wenn Medien hoch- und heruntergeladen werden."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-02-01-twif-41-the-third-reproducible-app-edition.md
 msgid "**[MinTube](https://f-droid.org/wiki/page/com.shapps.mintubeapp)** was moved to the archive because it fails to play any videos, and looks abandoned. See [https://github.com/imshyam/mintube/issues/39](https://github.com/imshyam/mintube/issues/39)."
-msgstr ""
+msgstr "**[MinTube](https://f-droid.org/wiki/page/com.shapps.mintubeapp)** wurde ins Archiv verschoben, weil sie bei der Wiedergabe sämtlicher Videos versagt und aufgegeben aussieht. Siehe [https://github.com/imshyam/mintube/issues/39](https://github.com/imshyam/mintube/issues/39)."
 
 #~ msgid "**[Nextcloud Talk](https://f-droid.org/app/com.nextcloud.talk2)** 3.0.0 is out. (Or 4.0. Who even knows anymore?) Now with video verification, ability to share files in a chat, easier chat handling and logging, and just generally a better experience. Read the [official blog post](https://nextcloud.com/blog/nextcloud-talk-4.0-is-out/) for the juicy details."
 #~ msgstr "**[Nextcloud Talk](https://f-droid.org/app/com.nextcloud.talk2)** 3.0.0 ist draußen. (Oder 4.0. Wer weiß sogar noch mehr?) Nun mit Video-Verifikation, der Möglichkeit, Dateien in einem Chat zu teilen, einfacherer Chat-Bedienung und -Anmeldung und überhaupt besserem Erlebniswert. Lesen Sie den [offiziellen Blog-Post](https://nextcloud.com/blog/nextcloud-talk-4.0-is-out/), um die reizvollen Einzelheiten zu erfahren."
