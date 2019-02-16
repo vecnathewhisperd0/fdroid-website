@@ -7,13 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2019-02-01 17:25+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2019-02-16 20:19+0000\n"
+"Last-Translator: Reback 00 <reback00@mailfence.com>\n"
+"Language-Team: Bengali (Bangladesh) <https://hosted.weblate.org/projects/f-droid/website-pages/bn_BD/>\n"
 "Language: bn_BD\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.5-dev\n"
 
 #. type: Title #
 #: build/_pages/md/403.md
@@ -36,12 +38,12 @@ msgstr ""
 #: build/_pages/md/about.md
 #, no-wrap
 msgid "About"
-msgstr ""
+msgstr "আমাদের সম্পর্কে"
 
 #. type: Plain text
 #: build/_pages/md/about.md
 msgid "F-Droid is a robot with a passion for Free and Open Source (FOSS) software on the Android platform. On this site you’ll find a repository of FOSS apps, along with an Android client to perform installations and updates, and news, reviews and other features covering all things Android and software-freedom related."
-msgstr ""
+msgstr "F-Droid একটি রোবট যার এ্যান্ড্রোয়েড প্ল্যাটফর্মে ফ্রি ও ওপেন সোর্স (FOSS) সফটওয়্যারের ব্যাপারে ভীষণ আগ্রহ। এই ওয়েবসাইটে আপনি FOSS এ্যাপের একটি রিপোসিটরি, এবং সঙ্গে এ্যন্ড্রোয়েড ক্লায়েন্ট পাবেন যেটির মাধ্যমে আপনি এ্যাপ ইন্সটল, আপডেট করা, খবরাখবর, মতামত এবং ফিচার এবং সফটওয়্যারে স্বাধীনতা নিয়ে সবকিছু জানতে পারবেন।"
 
 #. type: Plain text
 #: build/_pages/md/about.md
@@ -57,13 +59,13 @@ msgstr ""
 #. type: Plain text
 #: build/_pages/md/about.md
 msgid "You can discuss F-Droid or get help on the [forum](https://forum.f-droid.org) and IRC in the [#fdroid channel](https://webchat.freenode.net/?channels=%23fdroid) on freenode. The discussions on IRC are logged on [BotBot.me](https://botbot.me/freenode/fdroid).  You can send email at [team@f-droid.org](mailto:team@f-droid.org), but messages are much more likely to be answered on the forum or #fdroid channel. If you want to help, you can [join us]({{ \"/contribute/\" | prepend: site.baseurl }})."
-msgstr ""
+msgstr "আপনি F-Droid সম্পর্কে আলোচনা করতে বা সাহায্য পেতে আমাদের [ফোরামে](https://forum.f-droid.org) বা freenode আইআরসিতে [#fdroid চ্যানেলে](https://webchat.freenode.net/?channels=%23fdroid) যোগাযোগ করতে পারেন। আইআরসির আলোচনাগুলোর রেকর্ড থাকে [BotBot.me](https://botbot.me/freenode/fdroid)-তে।  আমাদেরকে ইমেইলও করতে পারেন [team@f-droid.org](mailto:team@f-droid.org) ঠিকানায়, কিন্তু জবাব পাওয়ার সবচেয়ে বেশি সুযোগ থাকে ফোরামে বা #fdroid চ্যানেলে। আপনি যদি এই প্রজেক্টে কোন সাহায্য করতে চান, তাহলে [এখানে দেখুন]({{ \"/contribute/\" | prepend: site.baseurl }})।"
 
 #. type: Title ###
 #: build/_pages/md/about.md
 #, no-wrap
 msgid "Consulting / Commercial Support"
-msgstr ""
+msgstr "পরামর্শ / বাণিজ্যিক সাপোর্ট"
 
 #. type: Plain text
 #: build/_pages/md/about.md
@@ -529,7 +531,7 @@ msgstr ""
 #: build/_pages/md/contribute.md
 #, no-wrap
 msgid "Report Problems"
-msgstr ""
+msgstr "সমস্যাগুলো রিপোর্ট করার মাধ্যমে"
 
 #. type: Plain text
 #: build/_pages/md/contribute.md
