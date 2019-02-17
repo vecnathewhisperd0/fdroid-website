@@ -32,9 +32,9 @@ There are **{{ page.number_of_added_apps }}** new and **{{ page.number_of_update
 
 ### First alpha of android-rebuilds is up
 
-The first alpha of the android-rebuilds repo for sdkmanager is up: https://mirror.f-droid.org/android-free/repository/repository.xml
+The first alpha of the android-rebuilds repo for sdkmanager is up: [https://mirror.f-droid.org/android-free/repository/repository.xml](https://mirror.f-droid.org/android-free/repository/repository.xml)
 
-This is the free software rebuild of all the Android SDK components, done by **[@beuc](https://gitlab.com/beuc)**. See: https://forum.f-droid.org/t/call-for-help-making-free-software-builds-of-the-android-sdk/
+This is the free software rebuild of all the Android SDK components, done by **[@beuc](https://gitlab.com/beuc)**. See: [https://forum.f-droid.org/t/call-for-help-making-free-software-builds-of-the-android-sdk/](https://forum.f-droid.org/t/call-for-help-making-free-software-builds-of-the-android-sdk/)
 
 The goal is to get it so that apps can use it instead of maven.google.com and any of the Google packages. It is very alpha, so anything could change or break at this point.
 
