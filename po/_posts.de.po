@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2019-02-01 17:15+0100\n"
-"PO-Revision-Date: 2019-02-13 11:09+0000\n"
-"Last-Translator: C. Rüdinger <Mail-an-CR@web.de>\n"
+"PO-Revision-Date: 2019-02-18 01:18+0000\n"
+"Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -9094,7 +9094,7 @@ msgstr "Der Entwickler von Stringlate hat alle Arbeiten am Projekt eingestellt (
 #. type: Plain text
 #: build/_posts/md/2019-02-01-twif-41-the-third-reproducible-app-edition.md
 msgid "H/T **[@Poussinou](https://forum.f-droid.org/u/poussinou)**"
-msgstr ""
+msgstr "H/T **[@Poussinou](https://forum.f-droid.org/u/poussinou)**"
 
 #. type: Title ###
 #: build/_posts/md/2019-02-01-twif-41-the-third-reproducible-app-edition.md
