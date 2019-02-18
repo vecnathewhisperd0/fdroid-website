@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2019-02-01 17:25+0100\n"
-"PO-Revision-Date: 2018-09-22 02:34+0000\n"
-"Last-Translator: mesnevi <shams@airpost.net>\n"
+"PO-Revision-Date: 2019-02-21 10:17+0000\n"
+"Last-Translator: Arthur <un-logic@ya.ru>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/f-droid/website-pages/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 3.2-dev\n"
+"X-Generator: Weblate 3.5-dev\n"
 
 #. type: Title #
 #: build/_pages/md/403.md
@@ -49,7 +49,7 @@ msgstr "Робот-симпатяга F-droid всем сердцем любит
 #. type: Plain text
 #: build/_pages/md/about.md
 msgid "The _f-droid.org_ core infrastructure is operated by F-Droid Limited, a UK \"private company\" registered in England (no. [08420676](https://beta.companieshouse.gov.uk/company/08420676))."
-msgstr ""
+msgstr "Основная инфраструктура _f-droid.org_ управляется F-Droid Limited, \"частной компанией\" Великобритании, зарегистрированной в Англии (рег. номер [08420676](https://beta.companieshouse.gov.uk/company/08420676))."
 
 #. type: Title ###
 #: build/_pages/md/about.md
@@ -66,18 +66,18 @@ msgstr "Вы можете обсудить F-Droid или получить по�
 #: build/_pages/md/about.md
 #, no-wrap
 msgid "Consulting / Commercial Support"
-msgstr ""
+msgstr "Консультации / Коммерческая поддержка"
 
 #. type: Plain text
 #: build/_pages/md/about.md
 msgid "If you're running an organisation that uses F-Droid or would like to use F-Droid, you will sometimes want to have an expert. For this, we have a list of companies and developers who contributed to F-Droid in one way or another and are available for consulting:"
-msgstr ""
+msgstr "Если Ваша организация использует F-Droid или желает использовать F-Droid, Вам может пригодиться специалист. Для этого мы ведём список компаний и разработчиков, которые внесли тот или иной вклад в F-Droid, а также готовы оказать консультацию:"
 
 #. type: Plain text
 #: build/_pages/md/about.md
 #, no-wrap
 msgid "<a href=\"{{ \"/consulting/\" | prepend: site.baseurl }}\" class=\"material-button\">Find an F-Droid Consultant</a>\n"
-msgstr ""
+msgstr "<a href=\"{{ \"/consulting/\" | prepend: site.baseurl }}\" class=\"material-button\">Найти консультанта по F-Droid</a>\n"
 
 #. type: Title ###
 #: build/_pages/md/about.md
@@ -451,12 +451,12 @@ msgstr "Оригинальный клиент приложения F-Droid ос�
 #: build/_pages/md/consulting.md
 #, no-wrap
 msgid "Consulting"
-msgstr ""
+msgstr "Консультации"
 
 #. type: Plain text
 #: build/_pages/md/consulting.md
 msgid "If you're running an organisation that uses F-Droid or would like to use F-Droid, you will sometimes want to have an expert. This page is a list of companies and developers who contributed to F-Droid in one way or another and are available for consulting. By contracting one of these companies or developers, your organisation can also (indirectly) support the development of F-Droid."
-msgstr ""
+msgstr "Если Ваша организация использует F-Droid или желает использовать F-Droid, Вам может пригодиться специалист. Для этого мы ведём список компаний и разработчиков, которые внесли тот или иной вклад в F-Droid, а также готовы оказать консультацию. Нанимая одну из этих компаний или кого-то из разработчиков, Ваша организация, к тому же, может (опосредованно) поддержать разработку F-Droid."
 
 #. type: Plain text
 #: build/_pages/md/consulting.md
@@ -470,53 +470,59 @@ msgid ""
 "  * Bug fixes or feature additions to the F-Droid client and server components\n"
 "  * Whitelabel solutions\n"
 msgstr ""
+"Имейте в виду, что экосистему F-Droid составляют несколько компонентов. А потому услуги консультации предлагают набор различных услуг, таких как\n"
+"  * Внедрение F-Droid в организациях\n"
+"  * Настройка и обслуживание репозиториев F-Droid\n"
+"  * Курсы для пользователей и администраторов\n"
+"  * Помощь по приведению приложения в соотетствие с требованиями по включению в основной репозиторий f-droid.org\n"
+"  * Исправления ошибок и добавление функциональности как в клиентскую, так и в серверную части F-Droid\n"
+"  * Решения по ребрендингу\n"
 
 #. type: Plain text
 #: build/_pages/md/consulting.md
 msgid "Check out the descriptions to find an appropriate consultant for your needs."
-msgstr ""
+msgstr "Ознакомьтесь с описаниями, чтобы подобрать подходящего под Ваши нужды консультанта."
 
 #. type: Title ###
 #: build/_pages/md/consulting.md
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Confidential Technologies GmbH"
-msgstr ""
+msgstr "Confidential Technologies GmbH"
 
 #. type: Bullet: '* '
 #: build/_pages/md/consulting.md
 msgid "__Website:__ [https://www.cotech.de/f-droid](https://www.cotech.de/f-droid)"
-msgstr ""
+msgstr "__Сайт:__ [https://www.cotech.de/f-droid](https://www.cotech.de/f-droid)"
 
 #. type: Bullet: '* '
 #: build/_pages/md/consulting.md
 msgid "__Email:__ [contact@cotech.de](mailto:contact@cotech.de)"
-msgstr ""
+msgstr "__E-mail:__ [contact@cotech.de](mailto:contact@cotech.de)"
 
 #. type: Bullet: '* '
 #: build/_pages/md/consulting.md
 msgid "__Phone:__ +49 531 3913154"
-msgstr ""
+msgstr "__Телефон:__ +49 531 3913154"
 
 #. type: Bullet: '* '
 #: build/_pages/md/consulting.md
 msgid "__Address:__ Confidential Technologies GmbH, c/o Institut für Betriebssysteme, Mühlenpfordtstr. 23, 38106 Braunschweig"
-msgstr ""
+msgstr "__Адрес:__ Confidential Technologies GmbH, c/o Institut für Betriebssysteme, Mühlenpfordtstr. 23, 38106 Braunschweig"
 
 #. type: Bullet: '* '
 #: build/_pages/md/consulting.md
 msgid "__Languages:__ English, German"
-msgstr ""
+msgstr "__Языки:__ Английский, Немецкий"
 
 #. type: Bullet: '* '
 #: build/_pages/md/consulting.md
 msgid "__Specializations:__ Custom F-Droid deployments, feature extensions, whitelabel solutions"
-msgstr ""
+msgstr "__Специализация:__ Внедрение специальных сборок F-Droid, расширение функциональности, решения по ребрендингу"
 
 #. type: Plain text
 #: build/_pages/md/consulting.md
-#, fuzzy
 msgid "If you're missing, you can [add yourself to the list](https://gitlab.com/fdroid/fdroid-website/blob/master/_pages/consulting.md)! Keep it sorted alphabetically, please."
-msgstr "Если вашего имени нет в списке — это ошибка, [добавьте себя](https://gitlab.com/fdroid/fdroid-website/blob/master/_pages/about.md)! Пожалуйста, сохраняйте в нём сортировку по фамилии."
+msgstr "Если вашего имени нет в списке — это ошибка, [добавьте себя](https://gitlab.com/fdroid/fdroid-website/blob/master/_pages/consulting.md)! Пожалуйста, сохраняйте в нём сортировку по фамилии."
 
 #. type: Title #
 #: build/_pages/md/contribute.md
@@ -867,9 +873,8 @@ msgstr "В старые добрые времена запустить репо�
 
 #. type: Plain text
 #: build/_pages/md/repomaker.md
-#, fuzzy
 msgid "This all got easier now: with Repomaker, you are able to create your own repo and do not need to have any special knowledge to do so.  Check out the [installation guide](https://gitlab.com/fdroid/repomaker/blob/master/README.md#installation)  for information on how you can install Repomaker on your device."
-msgstr "Сейчас всё гораздо проще. Для того, чтобы запустить свой собственный репозиторий, никаких особых знаний и умений не нужно: Repomaker к вашим услугам. Статья о том, как его установить и как им пользоваться — в ближайшем будущем!"
+msgstr "Сейчас всё гораздо проще. Для того, чтобы запустить свой собственный репозиторий, никаких особых знаний и умений не нужно: Repomaker к Вашим услугам. [Статья](https://gitlab.com/fdroid/repomaker/blob/master/README.md#installation) о том, как его установить на устройство и как им пользоваться."
 
 #. type: Plain text
 #: build/_pages/md/repomaker.md
