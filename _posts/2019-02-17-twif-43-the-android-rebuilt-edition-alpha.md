@@ -61,12 +61,12 @@ You can checkout [this](https://monitor.msg-net.de/d/kXzI4Jliks/worldping-endpoi
 
 * **[SUSI.AI](https://f-droid.org/app/ai.susi)**: Susi ai is an intelligent personal assistant.
 * **[EVE Mining Calc](https://f-droid.org/app/com.GTP.eveminer)**: Mining helper for eve online.
-* **[kboard Settings](https://f-droid.org/app/com.adgad.kboard)**
+* **[kboard](https://f-droid.org/app/com.adgad.kboard)**: A programmable keyboard for Android that lets you send phrases, lenny faces, macros, and data from the Internet in a single tap!
 * **[MultiVNC](https://f-droid.org/app/com.coboltforge.dontmind.multivnc)**: Vnc viewer that aims to be easy to use and fast.
 * **[TalkBack](https://f-droid.org/app/com.google.android.accessibility.talkback)**: Accessibility improvements.
 * **[Streak Alarm](https://f-droid.org/app/com.iatfei.streakalarm)**: Snapchat streaks reminder.
 * **[SQLiteViewer](https://f-droid.org/app/com.orpheusdroid.sqliteviewer)**: A simple sqlite database viewer.
-* **[Simple Draw Pro](https://f-droid.org/app/com.simplemobiletools.draw.pro)**
+* **[Simple Draw Pro](https://f-droid.org/app/com.simplemobiletools.draw.pro)**: The "pro" version replacing **[Draw](https://f-droid.org/wiki/page/com.simplemobiletools.draw)**. Follow through [here](https://github.com/SimpleMobileTools/Simple-Gallery/issues/1074) for the full story on what "pro" means.
 * **[Stop-o-Moto](https://f-droid.org/app/de.digisocken.stop_o_moto)**: Make gif and video files by taking single pictures.
 * **[Classical Music Scanner](https://f-droid.org/app/de.kromke.andreas.mediascanner)**: Auxiliary program for the unpopular music player and opus 1 music player.
 * **[Bépo clavier externe](https://f-droid.org/app/fr.bepo.clavierexterne)**: Bépo pour clavier externe.
@@ -106,8 +106,14 @@ In total, **{{ page.number_of_updated_apps }}** apps were updated this week. Her
 The following updates won't be automatically suggested to you unless you have "Unstable updates" enabled in the F-Droid app settings, but you can expand the "Versions" tab and install them manually. Note that these are marked beta for a reason: proceed at your own risk.
 
 * **[Pix-Art Messenger](https://f-droid.org/app/de.pixart.messenger)** was [updated](https://github.com/kriztan/Pix-Art-Messenger/blob/HEAD/CHANGELOG.md) from 2.1.5 to 2.2.0 beta (2019-02-10)
-* **[Conversations](https://f-droid.org/app/eu.siacs.conversations)** was [updated](https://github.com/siacs/Conversations/blob/HEAD/CHANGELOG.md) from 2.3.12+fcr to 2.4.0-beta+fcr
-* **[F-Droid](https://f-droid.org/app/org.fdroid.fdroid)** was [updated](https://gitlab.com/fdroid/fdroidclient/raw/HEAD/CHANGELOG.md) from 1.5.1 to 1.6-alpha0
+
+* **[Conversations](https://f-droid.org/app/eu.siacs.conversations)** was [updated](https://github.com/siacs/Conversations/blob/HEAD/CHANGELOG.md) from 2.3.12+fcr to 2.4.0-beta+fcr:
+  * New Backup / Restore feature
+  * Clearly distinguish between (private) group chats and (public) channels
+  * Redesigned participants view for group chats and channels
+  * Redesigned create new contact/group chat/channel flow in Start Conversation screen
+
+* {{ page.fdroid }} **[F-Droid](https://f-droid.org/app/org.fdroid.fdroid)** was [updated](https://gitlab.com/fdroid/fdroidclient/raw/HEAD/CHANGELOG.md) from 1.5.1 to 1.6-alpha0
 
 ### Removed apps
 
