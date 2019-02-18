@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2019-02-01 17:25+0100\n"
-"PO-Revision-Date: 2019-02-18 01:18+0000\n"
+"PO-Revision-Date: 2019-02-18 17:42+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://hosted.weblate.org/projects/f-droid/website-pages/he/>\n"
 "Language: he\n"
@@ -877,12 +877,12 @@ msgstr ""
 #. type: Plain text
 #: build/_pages/md/repomaker.md
 msgid "In the past, creating a repo has been difficult because you had to have knowledge on the command line, needed to edit text files to edit your packages' store details and had to paste screenshots in a special system of directories to have them served well inside the F-Droid app."
-msgstr ""
+msgstr "בעבר יצירת מאגר דרשה כמה צעדים מסובכים כיוון שהיה עליך להבין איך להפעיל את שורת הפקודה, לערוך קובצי טקסט כדי לערוך את פרטי החנות של החבילות שלך ולהדביק צילומי מסך במערכת מיוחד של תיקיות כדי שאלו יוגשו בתוך היישומון F-Droid."
 
 #. type: Plain text
 #: build/_pages/md/repomaker.md
 msgid "This all got easier now: with Repomaker, you are able to create your own repo and do not need to have any special knowledge to do so.  Check out the [installation guide](https://gitlab.com/fdroid/repomaker/blob/master/README.md#installation)  for information on how you can install Repomaker on your device."
-msgstr ""
+msgstr "מהיום הכול פשוט וקל יותר: בעזרת מייצר המאגרים (Repomaker), באפשרותך ליצור מאגר משלך.  נא לעיין ב[מדריך ההתקנה](https://gitlab.com/fdroid/repomaker/blob/master/README.md#installation)  לקבלת מידע בנוגע להתקנת מייצר המאגרים (Repomaker) על המכשיר לך."
 
 #. type: Plain text
 #: build/_pages/md/repomaker.md
