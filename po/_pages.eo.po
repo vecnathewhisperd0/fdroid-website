@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2019-02-01 17:25+0100\n"
-"PO-Revision-Date: 2019-02-03 06:06+0000\n"
+"PO-Revision-Date: 2019-02-21 10:17+0000\n"
 "Last-Translator: Verdulo <tomek@disroot.org>\n"
 "Language-Team: Esperanto <https://hosted.weblate.org/projects/f-droid/website-pages/eo/>\n"
 "Language: eo\n"
@@ -49,7 +49,7 @@ msgstr "F-Droid estas roboto kun inklino al Libera kaj Malfermkoda Programaro (F
 #. type: Plain text
 #: build/_pages/md/about.md
 msgid "The _f-droid.org_ core infrastructure is operated by F-Droid Limited, a UK \"private company\" registered in England (no. [08420676](https://beta.companieshouse.gov.uk/company/08420676))."
-msgstr "La ĉefa infrastrukturo de f-droid.org estas administrata de privata firmao F-Droid Limited registrita en Anglujo (n-ro [08420676](https://beta.companieshouse.gov.uk/company/08420676))."
+msgstr "La ĉefa infrastrukturo de _f-droid.org_ estas administrata de privata firmao F-Droid Limited registrita en Anglujo (n-ro [08420676](https://beta.companieshouse.gov.uk/company/08420676))."
 
 #. type: Title ###
 #: build/_pages/md/about.md
