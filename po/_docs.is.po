@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Icelandic (F-Droid)\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2019-02-01 17:25+0100\n"
-"PO-Revision-Date: 2019-02-15 12:23+0000\n"
+"PO-Revision-Date: 2019-02-21 10:17+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: Icelandic <https://hosted.weblate.org/projects/f-droid/website-docs/is/>\n"
 "Language: is\n"
@@ -96,7 +96,7 @@ msgstr ""
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "```\n"
 "- <fdroiddata>/\n"
@@ -2061,9 +2061,9 @@ msgstr ""
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "7.27 _ArchivePolicy_<a name=\"ArchivePolicy\"></a>"
-msgstr "7.16 Litecoin<a name=\"Litecoin\"></a>"
+msgstr "7.27 Geymslustefna (_ArchivePolicy_)<a name=\"ArchivePolicy\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2077,9 +2077,9 @@ msgstr ""
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "7.28 _UpdateCheckMode_<a name=\"UpdateCheckMode\"></a>"
-msgstr "7.1 Flokkar<a name=\"Categories\"></a>"
+msgstr "7.28 Uppfærsluprófunarhamur (_UpdateCheckMode_)<a name=\"UpdateCheckMode\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2177,9 +2177,9 @@ msgstr ""
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "7.29 _VercodeOperation_<a name=\"VercodeOperation\"></a>"
-msgstr "7.18 Lýsing<a name=\"Description\"></a>"
+msgstr "7.29 Útgáfukóðaútreikningur (_VercodeOperation_)<a name=\"VercodeOperation\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2193,9 +2193,9 @@ msgstr ""
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "7.30 _UpdateCheckIgnore_<a name=\"UpdateCheckIgnore\"></a>"
-msgstr "7.1 Flokkar<a name=\"Categories\"></a>"
+msgstr "7.30 Hunsun uppfærsluprófunar (_UpdateCheckIgnore_)<a name=\"UpdateCheckIgnore\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2204,9 +2204,9 @@ msgstr ""
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "7.31 _UpdateCheckName_<a name=\"UpdateCheckName\"></a>"
-msgstr "7.6 Nafn<a name=\"Name\"></a>"
+msgstr "7.31 Nafn fyrir uppfærsluprófun (_UpdateCheckName_)<a name=\"UpdateCheckName\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2231,9 +2231,9 @@ msgstr ""
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "7.33 _AutoUpdateMode_<a name=\"AutoUpdateMode\"></a>"
-msgstr "7.5 Sjálfvirkt nafn<a name=\"AutoName\"></a>"
+msgstr "7.33 Sjálfvirkur uppfærsluhamur (_AutoUpdateMode_)<a name=\"AutoUpdateMode\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2294,9 +2294,9 @@ msgstr ""
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "7.35 _CurrentVersionCode_<a name=\"CurrentVersionCode\"></a>"
-msgstr "7.34 Núverandi útgáfa<a name=\"CurrentVersion\"></a>"
+msgstr "7.35 Núverandi útgáfukóði (_CurrentVersionCode_)<a name=\"CurrentVersionCode\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
@@ -2321,9 +2321,9 @@ msgstr ""
 
 #. type: Title ###
 #: build/_docs/md/Build_Metadata_Reference.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "7.36 _NoSourceSince_<a name=\"NoSourceSince\"></a>"
-msgstr "7.9 Grunnkóði<a name=\"SourceCode\"></a>"
+msgstr "7.36 Enginn grunnkóði síðan (_NoSourceSince_)<a name=\"NoSourceSince\"></a>"
 
 #. type: Plain text
 #: build/_docs/md/Build_Metadata_Reference.md
