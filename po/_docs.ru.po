@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2019-02-01 17:25+0100\n"
-"PO-Revision-Date: 2019-02-21 10:17+0000\n"
+"PO-Revision-Date: 2019-02-23 18:06+0000\n"
 "Last-Translator: Arthur <un-logic@ya.ru>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/f-droid/website-docs/ru/>\n"
 "Language: ru\n"
@@ -85,7 +85,7 @@ msgstr "На самом деле, даже необязательно устан
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
 msgid "All the localized descriptions and graphics will automatically show up in the F-Droid repo once they are available in the source repo of a release that the repo builds.  For example, if these files are included in a _git_ repo's _master_ branch but not yet in a tagged release, they will not be included."
-msgstr "Все переводы описаний и подписей к изображениям автоматически попадают в основной репозиторий F-Droid после того, как их добавили в исходный репозиторий, из кода которого собирают очередную версию. Если изменения есть  в git-ветке _master_, но их нет в git-ветке, предназначенной для очередной сборки, они в эту сборку не попадут."
+msgstr "Все переводы описаний и подписей к изображениям автоматически попадают в основной репозиторий F-Droid после того, как их добавили в исходный репозиторий, из кода которого собирают очередную версию. Если изменения есть в git-ветке _master_, но их нет в git-ветке, предназначенной для очередной сборки, они в эту сборку не попадут."
 
 #. type: Plain text
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
@@ -6280,7 +6280,7 @@ msgstr ""
 #: build/_docs/md/Release_Channels_and_Signing_Keys.md
 #, no-wrap
 msgid "Repomaker"
-msgstr ""
+msgstr "Repomaker"
 
 #. type: Plain text
 #: build/_docs/md/Release_Channels_and_Signing_Keys.md
