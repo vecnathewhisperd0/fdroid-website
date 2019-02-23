@@ -1,9 +1,9 @@
 {
     "index": {
         "download_fdroid": "Скачать F-Droid",
-        "introduction": "F-Droid — это каталог бесплатных приложений с открытым исходным кодом для Android. Программа позволяет легко находить и устанавливать приложения на ваше устройство и следить за их обновлением.",
-        "gpg_signature": "PGP-подпись",
-        "screenshot": "F-Droid приложение для создания скриншотов на Android",
+        "introduction": "F-Droid — это каталог свободных приложений с открытым исходным кодом (FOSS) для платформы Android. Программа позволяет легко находить и устанавливать приложения на ваше устройство и следить за их обновлением.",
+        "gpg_signature": "Подпись PGP",
+        "screenshot": "Снимок экрана приложения F-Droid для Android",
         "title": "Что такое F-Droid?"
     },
     "navigation": {
@@ -29,7 +29,7 @@
         "version_info": "<b>Версия [package_version]</b> ([package_version_code]) - Добавлена [package_added_date]",
         "changelog": "История изменений",
         "issue_tracker": "Система отслеживания ошибок",
-        "signed_by_developer": "Приложение собрано и подписано разработчиком.",
+        "signed_by_developer": "Приложение собрано и подписано автором-разработчиком.",
         "gpg_signature": "PGP-подпись",
         "signed_by_fdroid": "Собрано и подписано F-Droid, и точно соответствует <a href=\"[source_code_url]\">исходному коду из архива</a>.",
         "packages": "Пакеты",
