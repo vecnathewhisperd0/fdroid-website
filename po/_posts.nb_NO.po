@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2019-02-01 17:15+0100\n"
-"PO-Revision-Date: 2018-10-04 03:33+0000\n"
+"PO-Revision-Date: 2019-02-25 06:18+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/f-droid/website-posts/nb_NO/>\n"
 "Language: nb_NO\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.2-dev\n"
+"X-Generator: Weblate 3.5-dev\n"
 
 #. type: Title #
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md
@@ -37,7 +37,7 @@ msgstr "Google opprettet OBB-filer aka \"[APK-utvidelse](https://developer.andro
 #. type: Plain text
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md
 msgid "OBB files are used by lots of apps like games and MAPS.ME.  F-Droid supports OBB by downloading and installing the OBB before the APK, so that once the APK is installed, the OBB files are already in place and ready to use.  F-Droid also provides an `Intent` method for apps to fetch the OBB download URLs in case the app itself needs to handle the OBB download/update.  That is similar to how it works in Google Play."
-msgstr "OBB-filer brukes av en mengde programmer som spill og MAPS.ME.  F-Droid støtter OBB ved å laste ned og installere OBB-en før APK-en, slik at når APK-en først er installert, er OBB-filene allerede på plass klare til bruk.  F-Droid tilbyr også en \"hensikt\"smetode for at programmer skal kunne hente OBB-nedlastningers nettadresser i fall selve programmer trenger å hanskes med OBB-nedlasting/oppdatering.  Dette ligner hvordan det virker i Google Play."
+msgstr "OBB-filer brukes av en mengde programmer som spill og MAPS.ME. F-Droid støtter OBB ved å laste ned og installere OBB-en før APK-en, slik at når APK-en først er installert, er OBB-filene allerede på plass klare til bruk. F-Droid tilbyr også en \"hensikt\"smetode for at programmer skal kunne hente OBB-nedlastningers nettadresser i fall selve programmer trenger å hanskes med OBB-nedlasting/oppdatering. Dette ligner hvordan det virker i Google Play."
 
 #. type: Plain text
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md
