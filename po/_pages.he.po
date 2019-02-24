@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2019-02-01 17:25+0100\n"
-"PO-Revision-Date: 2019-02-21 10:17+0000\n"
+"PO-Revision-Date: 2019-02-25 06:17+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://hosted.weblate.org/projects/f-droid/website-pages/he/>\n"
 "Language: he\n"
@@ -119,7 +119,7 @@ msgstr "F-Droid הוא מיזם [התנדבותי]({{ \"/contribute/\" | prepend
 #. type: Plain text
 #: build/_pages/md/about.md
 msgid "F-Droid respects your privacy. We don’t track you, or your device. We don’t track what you install. You don’t need an account to use the client, and it sends no additional identifying data when talking to our web server other than its version number. We don’t even allow you to install other applications from the repository that track you, unless you first enable ‘Tracking’ in the AntiFeatures section of preferences. Any personal data you decide to give us (e.g. your email address when registering for an account to post on the forum) goes no further than us, and will not be used for anything other than allowing you to maintain your account."
-msgstr ""
+msgstr "המוצרים מבית F-Droid מכבדים את הפרטיות שלך. איננו עוקבים אחריך או אחרי המכשיר שלך. איננו עוקבים אחרי ההתקנות שלך. אין לך צורך בחשבון משתמש כדי להשתמש בתכנית צד הלקוח והתכנית עצמה אינה שולחת פרטים מזהים בעת ההתקשרות עם השרת שלנו למעט מספר הגרסה. אנו אפילו לא מאפשרים להתקין יישומונים נוספים מהמאגר שעוקב אחריך למעט אם הפעלת באופן מפורש ‚מעקב’ בסעיף התכונות השליליות בהגדרות. כל נתון אישי שמתאים לך לשתף אתנו (כתובת דוא״ל בעת רישום ליצירת חשבון לפרסום בפורום) עוצר אצלנו ולא ישמש לשום מטרה למעט לתת לך אפשרות לתחזק את החשבון שלך."
 
 #. type: Title ###
 #: build/_pages/md/about.md
@@ -872,7 +872,7 @@ msgstr "מייצר המאגרים (Repomaker)"
 #. type: Plain text
 #: build/_pages/md/repomaker.md
 msgid "F-Droid.org is just a repo out of hundreds of repos created by individuals all around the globe. With the tools of F-Droid, everyone can create their own repo. So whether you are a musician who wants to publish their music or a developer who wants to serve nightly builds of their app, you are free to create your own repo and share it with other people independently of F-Droid.org."
-msgstr ""
+msgstr "F-Droid הוא פשוט מאגר של אלפי מאגרים שנוצרו על ידי אנשים פרטיים מכל רחבי העולם. בעזרת הכלים של F-Droid לכל אחד יש אפשרות ליצור מאגר משל עצמו. לכן, אם עיסוקך הוא מוזיקה וברצונך להפיץ את המוזיקה שלך או מפתח שמעוניין להגיש גרסאות ליליות של היישומון שלך, אנו מזמינים אותך ליצור מאגר ולשתף אותו עם כל אחד ללא אף תלות תחת F-Droid.org."
 
 #. type: Plain text
 #: build/_pages/md/repomaker.md
