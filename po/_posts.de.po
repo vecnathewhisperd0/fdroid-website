@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2019-02-01 17:15+0100\n"
-"PO-Revision-Date: 2019-03-02 12:16+0000\n"
-"Last-Translator: C. Rüdinger <Mail-an-CR@web.de>\n"
+"PO-Revision-Date: 2019-03-03 15:58+0000\n"
+"Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.5-dev\n"
+"X-Generator: Weblate 3.5\n"
 
 #. type: Title #
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md
@@ -37,7 +37,7 @@ msgstr "Google schuf OBB, auch bekannt als “[APK-Erweiterung] https://develope
 #. type: Plain text
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md
 msgid "OBB files are used by lots of apps like games and MAPS.ME.  F-Droid supports OBB by downloading and installing the OBB before the APK, so that once the APK is installed, the OBB files are already in place and ready to use.  F-Droid also provides an `Intent` method for apps to fetch the OBB download URLs in case the app itself needs to handle the OBB download/update.  That is similar to how it works in Google Play."
-msgstr "OBB-Dateien werden von vielen Apps wie Spielen oder MAPS.ME verwendet. F-Droid unterstützt OBB, indem die OBB vor der APK heruntergeladen und installiert werden kann, so dass die OBB-Dateien bereits an Ort und Stelle und gebrauchsfertig sind, wenn schließlich die APK installiert wird. F-Droid bietet auch eine ‘Intent‘-Methode für Apps an, um die Adresse (URL) für den OBB-Download abzurufen, für den Fall dass die App den Download/die Aktualisierung der OBB selbst erledigen muss. Die Funktionsweise ähnelt der in Google Play."
+msgstr "OBB-Dateien werden von vielen Apps wie Spielen oder MAPS.ME verwendet.  F-Droid unterstützt OBB, indem die OBB vor der APK heruntergeladen und installiert werden kann, so dass die OBB-Dateien bereits an Ort und Stelle und gebrauchsfertig sind, wenn schließlich die APK installiert wird. F-Droid bietet auch eine `Intent`-Methode für Apps an, um die Adresse (URL) für den OBB-Download abzurufen, für den Fall dass die App den Download/die Aktualisierung der OBB selbst erledigen muss. Die Funktionsweise ähnelt der in Google Play."
 
 #. type: Plain text
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md
@@ -58,7 +58,7 @@ msgstr "Eine der Besonderheiten bei der Verwendung von OBB-Dateien in Apps ist e
 #. type: Plain text
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md
 msgid "To get the URL for the two possible OBB files, send an `Intent` to F-Droid using these _Actions_:"
-msgstr "Um die URL für die zwei möglichen OBB-Dateien zu erhalten, senden Sie einen ‘Intent‘ an F-Droid unter Verwendung dieser _Actions_:"
+msgstr "Um die URL für die zwei möglichen OBB-Dateien zu erhalten, senden Sie einen `Intent` an F-Droid unter Verwendung dieser _Actions_:"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2017-02-20-f-droid-supports-apk-expansion-files-aka-obb.md
@@ -2430,7 +2430,7 @@ msgstr "[KeePassDroid](https://f-droid.org/app/com.android.keepass) wurde auf 2.
 #. type: Plain text
 #: build/_posts/md/2018-05-31-this-week-in-fdroid-w22.md
 msgid "I would like to point out that some apps that could have been in this overview were passed over, because they didn't have any changelogs that I could find. If you'd like your app to be picked up, be sure you _have_ changelogs, and make sure they are linked in the fdroid metadata or in fastlane format inside your repository. Better yet, if you have important updates coming out, drop us a line! See below."
-msgstr "Ich möchte darauf hinweisen, dass einige Apps, die in dieser Übersicht hätten sein können, übergangen wurden, weil sie keine Changelogs hatten, die ich finden konnte. Wenn Sie möchten, dass Ihre Anwendung aufgenommen wird, stellen Sie sicher, dass die Changelogs in den fdroid-Metadaten oder im Fastlane-Format in Ihrem Repository verlinkt sind. Besser noch: wenn Sie wichtige Updates haben, schreiben Sie uns! Siehe unten."
+msgstr "Ich möchte darauf hinweisen, dass einige Apps, die in dieser Übersicht hätten sein können, übergangen wurden, weil sie keine Changelogs hatten, die ich finden konnte. Wenn Sie möchten, dass Ihre Anwendung aufgenommen wird, stellen Sie sicher, dass die Changelogs in den fdroid-Metadaten oder im Fastlane-Format in Ihrem Repository _verlinkt sind_. Besser noch: wenn Sie wichtige Updates haben, schreiben Sie uns! Siehe unten."
 
 #. type: Plain text
 #: build/_posts/md/2018-05-31-this-week-in-fdroid-w22.md
@@ -3092,7 +3092,7 @@ msgstr "[Tusky](https://f-droid.org/app/com.keylesspalace.tusky) 2.0 ist rausgek
 #. type: Bullet: '* '
 #: build/_posts/md/2018-07-12-this-week-in-fdroid-w28.md
 msgid "[Termux](https://f-droid.org/app/com.termux) combines powerful terminal emulation with an extensive Linux package collection. Version 0.64 introduces basic accessibility support, and fixes some layout problems with the extra keyboard."
-msgstr "Termux](https://f-droid.org/app/com.termux) kombiniert eine leistungsfähige Terminalemulation mit einer umfangreichen Linux-Paket-Sammlung. Version 0.64 bietet grundlegende Unterstützung für Barrierefreiheit und behebt einige Layoutprobleme mit der zusätzlichen Tastatur."
+msgstr "[Termux](https://f-droid.org/app/com.termux) kombiniert eine leistungsfähige Terminalemulation mit einer umfangreichen Linux-Paket-Sammlung. Version 0.64 bietet grundlegende Unterstützung für Barrierefreiheit und behebt einige Layoutprobleme mit der zusätzlichen Tastatur."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-07-12-this-week-in-fdroid-w28.md
@@ -4032,7 +4032,7 @@ msgstr "{{ page.featured }} **[Markor](https://f-droid.org/app/net.gsantner.mark
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-16-twif-17-the-reproducible-builds-and-encrypted-e-mail-edition.md
 msgid "**[Gadgetbridge](https://f-droid.org/app/nodomain.freeyourgadget.gadgetbridge)** lets you use your Pebble/Mi Band/Amazfit Bip/Hplus device without the vendor's closed source application and without the need to create an account and transmit any of your data to the vendor's servers. Version 0.29.0 adds initial support for the ID115 and Lenovo Watch9, now shows a splash screen on startup, vertically aligns device icon in main activity, untested support for the google clock application, and improvements for Amazfit Cor and Bip."
-msgstr "Mit [Gadgetbridge](https://f-droid.org/app/nodomain.freeyourgadget.gadgetbridge)** können Sie Ihr Pebble/Mi Band/Amazfit Bip/Hplus-Gerät ohne die Closed-Source-Anwendung des Herstellers verwenden und ohne die Notwendigkeit, ein Konto zu erstellen und Ihre Daten an die Server des Herstellers zu übertragen. Version 0.29.0 fügt initiale Unterstützung für die ID115 und Lenovo Watch9 hinzu, zeigt nun beim Start einen Startbildschirm, richtet das Gerätesymbol in der Haupt-Activity vertikal aus, unterstützt die Google-Clock-Anwendung (ungetestet) und Verbesserungen für Amazfit Cor und Bip."
+msgstr "Mit **[Gadgetbridge](https://f-droid.org/app/nodomain.freeyourgadget.gadgetbridge)** können Sie Ihr Pebble/Mi Band/Amazfit Bip/Hplus-Gerät ohne die Closed-Source-Anwendung des Herstellers verwenden und ohne die Notwendigkeit, ein Konto zu erstellen und Ihre Daten an die Server des Herstellers zu übertragen. Version 0.29.0 fügt initiale Unterstützung für die ID115 und Lenovo Watch9 hinzu, zeigt nun beim Start einen Startbildschirm, richtet das Gerätesymbol in der Haupt-Activity vertikal aus, unterstützt die Google-Clock-Anwendung (ungetestet) und Verbesserungen für Amazfit Cor und Bip."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-16-twif-17-the-reproducible-builds-and-encrypted-e-mail-edition.md
@@ -4299,7 +4299,7 @@ msgstr ""
 #: build/_posts/md/2019-02-01-twif-41-the-third-reproducible-app-edition.md
 #, no-wrap
 msgid "**[F-Droid](https://f-droid.org/)** is a [repository](https://f-droid.org/packages/) of verified [free and open source](https://en.wikipedia.org/wiki/Free_and_open-source_software) Android apps, a **[client](https://f-droid.org/app/org.fdroid.fdroid)** to access it, as well as a whole \"app store kit\", providing all the tools needed to set up and run an app store. It is a community-run free software project developed by a wide range of contributors. This is their story this past week.\n"
-msgstr "[F-Droid](https://f-droid.org/) ist ein [Repository](https://f-droid.org/de/packages/) verifizierter [Free & Open Source](https://de.wikipedia.org/wiki/Free/Libre_Open_Source_Software) Android Apps, ein [Client](https://f-droid.org/app/org.fdroid.fdroid), um darauf zuzugreifen, sowie ein ganzes \"App Store Set\", das alle notwendigen Werkzeuge zum Einrichten und Betreiben eines App Stores bietet. Es ist ein gemeinschaftlich geführtes freies Softwareprojekt, das von einer Vielzahl von Mitwirkenden weiterentwickelt wird. Das ist ihre Geschichte der letzten Woche.\n"
+msgstr "**[F-Droid](https://f-droid.org/)** ist ein [Repository](https://f-droid.org/de/packages/) verifizierter [Free & Open Source](https://de.wikipedia.org/wiki/Free/Libre_Open_Source_Software) Android Apps, ein **[Client](https://f-droid.org/app/org.fdroid.fdroid)**, um darauf zuzugreifen, sowie ein ganzes \"App Store Set\", das alle notwendigen Werkzeuge zum Einrichten und Betreiben eines App Stores bietet. Es ist ein gemeinschaftlich geführtes freies Softwareprojekt, das von einer Vielzahl von Mitwirkenden weiterentwickelt wird. Das ist ihre Geschichte der letzten Woche.\n"
 
 #. type: Plain text
 #: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
@@ -4412,7 +4412,7 @@ msgstr "**[Orgzly](https://f-droid.org/app/com.orgzly)** ist eine hierarchisch a
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
 msgid "**[Contacts](https://f-droid.org/app/com.simplemobiletools.contacts)** is a simple app to manage your contacts. In version 4.3.0, contact exporting/importing was completely reworked from scratch. This release also has some stability and translation improvements."
-msgstr "[Contacts](https://f-droid.org/app/com.simplemobiletools.contacts) ist eine einfache App zur Kontakteverwaltung. In Version 4.3.0 wurde der Kontaktexport/-import grundlegend überarbeitet. Diese Version besitzt daneben einige Stabilitäts- und Übersetzungsverbesserungen."
+msgstr "**[Contacts](https://f-droid.org/app/com.simplemobiletools.contacts)** ist eine einfache App zur Kontakteverwaltung. In Version 4.3.0 wurde der Kontaktexport/-import grundlegend überarbeitet. Diese Version besitzt daneben einige Stabilitäts- und Übersetzungsverbesserungen."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
@@ -4454,7 +4454,7 @@ msgstr "**[Revolution IRC](https://f-droid.org/app/io.mrarm.irc)** ist der IRC-C
 #. type: Plain text
 #: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
 msgid "Send tips to **[@fdroidorg@mastodon.technology](https://mastodon.technology/@fdroidorg)** and remember to tag with **[#TWIF](https://mastodon.technology/tags/twif)**. Or use the [TWIF submission thread](https://forum.f-droid.org/t/twif-submission-thread) on the forum. The deadline to the next TWIF is **Thursday** 12:00 UTC."
-msgstr "Senden Sie Tipps an [@fdroidorg@mastodon.technology](https://mastodon.technology/@fdroidorg) und denken Sie an einen [#TWIF](https://mastodon.technology/tags/twif)-Tag. Oder nutzen Sie den [TWIF Submission Thread](https://forum.f-droid.org/t/twif-submission-thread) im Forum. Einsendeschluss für das nächste TWIF ist Donnerstag 12:00 UTC."
+msgstr "Senden Sie Tipps an **[@fdroidorg@mastodon.technology](https://mastodon.technology/@fdroidorg)** und denken Sie an einen **[#TWIF](https://mastodon.technology/tags/twif)**-Tag. Oder nutzen Sie den [TWIF Submission Thread](https://forum.f-droid.org/t/twif-submission-thread) im Forum. Einsendeschluss für das nächste TWIF ist **Donnerstag** 12:00 UTC."
 
 #. type: Title ####
 #: build/_posts/md/2018-08-30-twif-19-untis-tusky-and-rabbit-escape-updated.md
@@ -5263,7 +5263,7 @@ msgstr "Vergesst nicht eure Tipps einzusenden! Es gibt viel zu viele App-Updates
 #. type: Plain text
 #: build/_posts/md/2018-09-06-twif-20-security-audit-completed-buildserver-setup-with-ansible.md
 msgid "Send tips via [Mastodon](https://joinmastodon.org) to **[@fdroidorg@mastodon.technology](https://mastodon.technology/@fdroidorg)** on and remember to tag with **[#TWIF](https://mastodon.technology/tags/twif)**. Or use the [TWIF submission thread](https://forum.f-droid.org/t/twif-submission-thread) on the forum. The deadline to the next TWIF is **Thursday** 12:00 UTC."
-msgstr "Senden Sie Tipps an [@fdroidorg@mastodon.technology](https://mastodon.technology/@fdroidorg) und denken Sie an einen [#TWIF](https://mastodon.technology/tags/twif)-Tag. Oder nutzen Sie den [TWIF Submission Thread](https://forum.f-droid.org/t/twif-submission-thread) im Forum. Einsendeschluss für das nächste TWIF ist Donnerstag 12:00 UTC."
+msgstr "Senden Sie per  [Mastodon](https://joinmastodon.org) Tipps an **[@fdroidorg@mastodon.technology](https://mastodon.technology/@fdroidorg)** und denken Sie an einen **[#TWIF](https://mastodon.technology/tags/twif)**-Tag. Oder nutzen Sie den [TWIF Submission Thread](https://forum.f-droid.org/t/twif-submission-thread) im Forum. Einsendeschluss für das nächste TWIF ist **Donnerstag** 12:00 UTC."
 
 #. type: Plain text
 #: build/_posts/md/2018-09-06-twif-20-security-audit-completed-buildserver-setup-with-ansible.md
@@ -5390,7 +5390,7 @@ msgstr "**[NotificationLog](https://f-droid.org/app/de.jl.notificationlog)**: Sy
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
 msgid "**[PSLab](https://f-droid.org/app/io.pslab)**: Pocket Science Lab Android interface for PSLab hardware"
-msgstr "[PSLab](https://f-droid.org/de/packages/org.fossasia.pslab/): Pocket Science Lab Android-Schnittstelle für PSLab-Hardware"
+msgstr "**[PSLab](https://f-droid.org/de/packages/org.fossasia.pslab/)**: Pocket Science Lab Android-Schnittstelle für PSLab-Hardware"
 
 #. type: Bullet: '* '
 #: build/_posts/md/2018-09-14-twif-21-vms-donated-and-tor-browser-goes-android.md
@@ -7506,7 +7506,7 @@ msgid ""
 "  * Fully opened\n"
 "  * Fixes the little things\n"
 msgstr ""
-"* * **[Frost for Facebook](https://f-droid.org/app/com.pitchedapps.frost)** ist ein vollwertiger Web-Wrapper mit vielen einzigartigen und nativen Funktionen:\n"
+"* **[Frost for Facebook](https://f-droid.org/app/com.pitchedapps.frost)** ist ein vollwertiger Web-Wrapper mit vielen einzigartigen und nativen Funktionen:\n"
 "  * Echte Multi-User-Interaktionen\n"
 "  * Besseres Multitasking\n"
 "  * Kontext-agnostisch\n"
@@ -9200,7 +9200,7 @@ msgstr "**[Delta Chat](https://f-droid.org/app/com.b44t.messenger)** wurde von 0
 #. type: Bullet: '* '
 #: build/_posts/md/2019-02-01-twif-41-the-third-reproducible-app-edition.md
 msgid "{{ page.major }} **[EteSync](https://f-droid.org/app/com.etesync.syncadapter)** saw a huge [update](https://github.com/etesync/android/blob/HEAD/ChangeLog.md) from 0.22.6 to 1.0.1, adding support for changing the encryption password, Tasks support via OpenTasks, stock password entry, fixes for email invitations, support for the new associate account type, and more."
-msgstr "{{ page.major }} **[EteSync](https://f-droid.org/app/com.etesync.syncadapter)** sah ein riesiges [Update](https://github.com/etesync/android/blob/HEAD/ChangeLog.md) von 0.22.6 auf 1.0.1, ergänzt durch eine Unterstützung zur Änderung des Verschlüsselungspassworts, die Unterstützung von Aufgaben über OpenTasks, stock password entry, Korrekturen bei E-Mail-Einladungen, Unterstützung für den neu verknüpften Kontotyp und mehr."
+msgstr "{{ page.major }} **[EteSync](https://f-droid.org/app/com.etesync.syncadapter)** erlebte eine riesige [Aktualisierung](https://github.com/etesync/android/blob/HEAD/ChangeLog.md) von 0.22.6 auf 1.0.1, ergänzt durch eine Unterstützung zur Änderung des Verschlüsselungspassworts, die Unterstützung von Aufgaben über OpenTasks, stock password entry, Korrekturen bei E-Mail-Einladungen, Unterstützung für den neu verknüpften Kontotyp und mehr."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-02-01-twif-41-the-third-reproducible-app-edition.md
