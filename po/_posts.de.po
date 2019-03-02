@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2019-02-01 17:15+0100\n"
-"PO-Revision-Date: 2019-02-18 01:18+0000\n"
-"Last-Translator: ssantos <ssantos@web.de>\n"
+"PO-Revision-Date: 2019-03-02 12:16+0000\n"
+"Last-Translator: C. Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -9200,7 +9200,7 @@ msgstr "**[Delta Chat](https://f-droid.org/app/com.b44t.messenger)** wurde von 0
 #. type: Bullet: '* '
 #: build/_posts/md/2019-02-01-twif-41-the-third-reproducible-app-edition.md
 msgid "{{ page.major }} **[EteSync](https://f-droid.org/app/com.etesync.syncadapter)** saw a huge [update](https://github.com/etesync/android/blob/HEAD/ChangeLog.md) from 0.22.6 to 1.0.1, adding support for changing the encryption password, Tasks support via OpenTasks, stock password entry, fixes for email invitations, support for the new associate account type, and more."
-msgstr ""
+msgstr "{{ page.major }} **[EteSync](https://f-droid.org/app/com.etesync.syncadapter)** sah ein riesiges [Update](https://github.com/etesync/android/blob/HEAD/ChangeLog.md) von 0.22.6 auf 1.0.1, ergänzt durch eine Unterstützung zur Änderung des Verschlüsselungspassworts, die Unterstützung von Aufgaben über OpenTasks, stock password entry, Korrekturen bei E-Mail-Einladungen, Unterstützung für den neu verknüpften Kontotyp und mehr."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-02-01-twif-41-the-third-reproducible-app-edition.md
