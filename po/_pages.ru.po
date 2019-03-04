@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2019-02-01 17:25+0100\n"
-"PO-Revision-Date: 2019-02-23 18:06+0000\n"
+"PO-Revision-Date: 2019-03-05 11:57+0000\n"
 "Last-Translator: Arthur <un-logic@ya.ru>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/f-droid/website-pages/ru/>\n"
 "Language: ru\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 3.5-dev\n"
+"X-Generator: Weblate 3.5\n"
 
 #. type: Title #
 #: build/_pages/md/403.md
@@ -659,18 +659,18 @@ msgstr "[FAQ - Клиент](FAQ_-_Client) Часто задаваемые во�
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
 msgid "[Anti-Features](https://f-droid.org/wiki/page/Antifeatures) What they are, what they mean, and what apps have them."
-msgstr "[Нежелательные возможности](https://f-droid.org/wiki/page/Antifeatures) Что это такое, что это означает и какие приложения их содержат."
+msgstr "[Неприятные особенности](https://f-droid.org/wiki/page/Antifeatures) Что это такое, что это означает и какие приложения их содержат."
 
 #. type: Title ###
 #: build/_pages/md/docs.md
 #, no-wrap
 msgid "More Information"
-msgstr "Дальше — больше"
+msgstr "Дополнительные сведения"
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
 msgid "[How to Help](How_to_Help) Different ways anyone can contribute to the F-Droid project."
-msgstr "[Как помочь](How_to_Help) Как можно поучаствовать в проекте F-Droid."
+msgstr "[Как помочь](How_to_Help) Возможности для всех желающих поучаствовать в проекте F-Droid."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
@@ -680,7 +680,7 @@ msgstr "[Совместимые репозитории](https://forum.f-droid.or
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
 msgid "[Release Channels and Signing Keys](Release_Channels_and_Signing_Keys) These are the various channels that F-Droid software are released on, with info to verify them based on signing keys."
-msgstr "[Каналы публикации и ключи для подписывания](Release_Channels_and_Signing_Keys) Это способы публикации приложений в F-Droid и их верификации, в основе которых лежат ключи для цифровой подписи."
+msgstr "[Каналы публикации и ключи шифрования](Release_Channels_and_Signing_Keys) По этим каналам осуществляется распространение приложений F-Droid и ключей шифрования для их верификации."
 
 #. type: Bullet: '* '
 #: build/_pages/md/docs.md
