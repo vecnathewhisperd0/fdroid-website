@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2019-02-01 17:15+0100\n"
-"PO-Revision-Date: 2019-03-05 11:57+0000\n"
+"PO-Revision-Date: 2019-03-05 12:51+0000\n"
 "Last-Translator: Arthur <un-logic@ya.ru>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/f-droid/website-posts/ru/>\n"
 "Language: ru\n"
@@ -364,7 +364,7 @@ msgstr ""
 #: build/_posts/md/2017-07-03-cuba.md
 #, no-wrap
 msgid "This is exactly what the <a href=\"http://droid-tech.com/\">DroidT shop</a> did that I visited in <a href=\"https://en.wikipedia.org/wiki/Sancti_Sp%C3%ADritus\">Sancti Spíritus</a>, Cuba. They run their own repository within their local WiFi network. Currently, they offer more than 2000 apps, mostly games, but also other useful apps, for free to everybody within the range of their WiFi router. Having a worse store location than their competitors, it really helps them to drive people to their shop and to build up their reputation within the local community. So far, they are the only store in their city offering this free and convenient service to their customers.\n"
-msgstr "Именно так и поступил магазин <a href=\"http://droid-tech.com/\">DroidT</a>, который я посещал в <a href=\"https://en.wikipedia.org/wiki/Sancti_Sp%C3%ADritus\">Санкти-Спиритус</a> на Кубе. Они ведут свой собственный репозиторий в пределах локальной сети WiFi. Они предлагают более 2000 приложений, в основном игр, а также полезных приложений, бесплатно любому, в зоне охвата их маршрутизатором WiFi. Несмотря на проигрышное расположение их магазина, это привлекает к ним людей и укрепляет репутацию среди местных. Пока что они — единственный магазин, предоставляющий такую бесплатную и столь удобную услугу своим посетителям.\n"
+msgstr "Именно так и поступил магазин <a href=\"http://droid-tech.com/\">DroidT</a>, который я посещал в <a href=\"https://ru.wikipedia.org/wiki/%D0%A1%D0%B0%D0%BD%D0%BA%D1%82%D0%B8-%D0%A1%D0%BF%D0%B8%D1%80%D0%B8%D1%82%D1%83%D1%81_(%D0%9A%D1%83%D0%B1%D0%B0)\">Санкти-Спиритус</a> на Кубе. Они ведут свой собственный репозиторий в пределах локальной сети WiFi. Они предлагают более 2000 приложений, в основном игр, а также полезных приложений, бесплатно любому, в зоне охвата их маршрутизатором WiFi. Несмотря на проигрышное расположение их магазина, это привлекает к ним людей и укрепляет репутацию среди местных. Пока что они — единственный магазин, предоставляющий такую бесплатную и столь удобную услугу своим посетителям.\n"
 
 #. type: Plain text
 #: build/_posts/md/2017-07-03-cuba.md
@@ -414,7 +414,7 @@ msgstr "![]({{ site.baseurl }}/assets/posts/2017-07-03-cuba/be_update1.jpg)"
 #. type: Plain text
 #: build/_posts/md/2017-07-03-cuba.md
 msgid "It is great to see that the free technology that the F-Droid community worked on for so many years to liberate Android users is put to unexpected use by talented individuals in other countries like Cuba and helps to make a difference there."
-msgstr ""
+msgstr "Здорово видеть как свободные технологии над которыми сообщество F-Droid трудилось все эти годы, чтобы освободить пользователей Android, находит столь необычное применение талантливыми людьми в других странах, подобно Кубе, и помогает сделать вклад в общее дело."
 
 #. type: Plain text
 #: build/_posts/md/2017-07-03-cuba.md
@@ -426,13 +426,13 @@ msgstr "<hr />\n"
 #: build/_posts/md/2017-07-03-cuba.md
 #, no-wrap
 msgid "For the sake of completeness however, it should be mentioned that ordinary downloads and F-Droid are not the only ways that Cubans use to get apps. There are weekly data packages that are sent through the country on hard-drives by bus. These <a href=\"https://en.wikipedia.org/wiki/El_Paquete_Semanal\">Paquete Semanal</a> contain mostly movies and TV shows, but also news and apps.\n"
-msgstr ""
+msgstr "Для полноты картины стоит отметить, что простое скачивание и F-Droid — не единственные способы, которыми кубинцы привыкли получать свои приложения. Еженедельно по всей стране в автобусах разъезжают жёсткие диски, содержащие пакеты данных. В таких <a href=\"https://en.wikipedia.org/wiki/El_Paquete_Semanal\">еженедельных пакетах</a> преобладают фильмы и телепередачи, но есть также и новости и приложения.\n"
 
 #. type: Plain text
 #: build/_posts/md/2017-07-03-cuba.md
 #, no-wrap
 msgid "Then, there is a proprietary app called <a href=\"https://en.wikipedia.org/wiki/Zapya\">Zapya</a> that is very popular among young Cubans, because it allows them to wirelessly share apps and other files between two phones. Although F-Droid offers the same functionality, this is not yet widely known and currently being improved to match the simplicity that Zapya offers to Cubans at the moment.\n"
-msgstr ""
+msgstr "А также существует проприетарное приложение, называемое <a href=\"https://en.wikipedia.org/wiki/Zapya\">Zapya</a>, которое крайне популярно среди молодых кубинцев, поскольку позволяет обмениваться приложениями с телефона на телефон без проводов. Хотя F-Droid предлагает ту же функциональность, об этом не известно в широких кругах, и, в данный момент, ведётся её доработка с целью сравниться по простоте использования с той, что Zapya предлагает кубинцам уже сейчас.\n"
 
 #. type: Plain text
 #: build/_posts/md/2017-07-03-cuba.md
@@ -441,18 +441,20 @@ msgid ""
 "![]({{ site.baseurl }}/assets/posts/2017-07-03-cuba/zapya_sharing.jpg)<br/>\n"
 "*A Cuban sharing apps with Zapya*\n"
 msgstr ""
+"![]({{ site.baseurl }}/assets/posts/2017-07-03-cuba/zapya_sharing.jpg)<br/>\n"
+"*Кубинец обменивается приложениями при помощи Zapya*\n"
 
 #. type: Plain text
 #: build/_posts/md/2017-07-03-cuba.md
 #, no-wrap
 msgid "*This post was originally published on [blog.grobox.de/2017/how-f-droid-is-bringing-apps-to-cuba](https://blog.grobox.de/2017/how-f-droid-is-bringing-apps-to-cuba/).*\n"
-msgstr ""
+msgstr "*Оригинал этой записи располагается по адресу [blog.grobox.de/2017/how-f-droid-is-bringing-apps-to-cuba](https://blog.grobox.de/2017/how-f-droid-is-bringing-apps-to-cuba/).*\n"
 
 #. type: Title #
 #: build/_posts/md/2017-10-10-fdroid-is-1.0.md
 #, no-wrap
 msgid "\"F-Droid is 1.0!\""
-msgstr ""
+msgstr "\"F-Droid — 1.0!\""
 
 #. type: Plain text
 #: build/_posts/md/2017-10-10-fdroid-is-1.0.md
@@ -473,7 +475,7 @@ msgstr ""
 #: build/_posts/md/2017-10-10-fdroid-is-1.0.md
 #, no-wrap
 msgid "What's New"
-msgstr ""
+msgstr "Что нового"
 
 #. type: Plain text
 #: build/_posts/md/2017-10-10-fdroid-is-1.0.md
@@ -519,7 +521,7 @@ msgstr ""
 #: build/_posts/md/2017-10-10-fdroid-is-1.0.md
 #, no-wrap
 msgid "F-Droid is now a first class app store"
-msgstr ""
+msgstr "F-Droid теперь первоклассный магазин приложений"
 
 #. type: Plain text
 #: build/_posts/md/2017-10-10-fdroid-is-1.0.md
@@ -535,7 +537,7 @@ msgstr ""
 #: build/_posts/md/2017-10-10-fdroid-is-1.0.md
 #, no-wrap
 msgid "F-Droid in your language"
-msgstr ""
+msgstr "F-Droid на твоём языке"
 
 #. type: Plain text
 #: build/_posts/md/2017-10-10-fdroid-is-1.0.md
@@ -551,7 +553,7 @@ msgstr ""
 #: build/_posts/md/2017-10-10-fdroid-is-1.0.md
 #, no-wrap
 msgid "F-Droid app"
-msgstr ""
+msgstr "Приложение F-Droid"
 
 #. type: Plain text
 #: build/_posts/md/2017-10-10-fdroid-is-1.0.md
@@ -570,7 +572,7 @@ msgstr ""
 #: build/_posts/md/2017-10-10-fdroid-is-1.0.md
 #, no-wrap
 msgid "_fdroidserver_ tools"
-msgstr ""
+msgstr "Инструменты _fdroidserver_"
 
 #. type: Plain text
 #: build/_posts/md/2017-10-10-fdroid-is-1.0.md
@@ -627,7 +629,7 @@ msgstr ""
 #: build/_posts/md/2017-10-10-fdroid-is-1.0.md
 #, no-wrap
 msgid "Join us!"
-msgstr ""
+msgstr "Присоединяйтесь!"
 
 #. type: Plain text
 #: build/_posts/md/2017-10-10-fdroid-is-1.0.md
