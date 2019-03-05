@@ -49,7 +49,7 @@ msgstr "F-Droid, Android platformunda Ücretsiz ve Açık Kaynak (FOSS) yazılı
 #. type: Plain text
 #: build/_pages/md/about.md
 msgid "The _f-droid.org_ core infrastructure is operated by F-Droid Limited, a UK \"private company\" registered in England (no. [08420676](https://beta.companieshouse.gov.uk/company/08420676))."
-msgstr "_F-droid.org_ çekirdek altyapısı, İngiltere'de kayıtlı bir \"özel şirket\" olan F-Droid Limited tarafından işletilmektedir (no. [08420676] (https://beta.companieshouse.gov.uk/company/08420676))."
+msgstr "_F-droid.org_ çekirdek altyapısı, İngiltere'de kayıtlı bir \"özel şirket\" olan F-Droid Limited tarafından işletilmektedir (no. [08420676](https://beta.companieshouse.gov.uk/company/08420676))."
 
 #. type: Title ###
 #: build/_pages/md/about.md
