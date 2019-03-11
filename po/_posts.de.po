@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2019-03-07 22:33+0100\n"
-"PO-Revision-Date: 2019-03-11 16:10+0000\n"
+"PO-Revision-Date: 2019-03-12 08:48+0000\n"
 "Last-Translator: C. Rüdinger <Mail-an-CR@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-posts/de/>\n"
 "Language: de\n"
@@ -5021,7 +5021,7 @@ msgstr "Ein Verbesserungsvorschlag dazu wäre ein Scan dieser URLs mittels der G
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
 #, no-wrap
 msgid "Repomaker"
-msgstr "Verzeichnisersteller"
+msgstr "Repomaker"
 
 #. type: Plain text
 #: build/_posts/md/2018-09-04-second-security-audit-results.md
@@ -10052,56 +10052,48 @@ msgstr "Der vierte Teil von **[@Izzy](https://forum.f-droid.org/u/izzy)**'s F-Dr
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-02-23-twif-44-mirror-mirror-on-the-wall.md
-#, fuzzy
 msgid "**[AusweisApp2](https://f-droid.org/app/com.governikus.ausweisapp2)**: Eperso mit dem handy nutzen."
-msgstr "**[Aria2App](https://f-droid.org/app/com.gianlu.aria2app)**"
+msgstr "**[AusweisApp2](https://f-droid.org/app/com.governikus.ausweisapp2)**: Elektronischen Personalausweis mit dem Handy nutzen."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-02-23-twif-44-mirror-mirror-on-the-wall.md
-#, fuzzy
 msgid "**[Indigenous](https://f-droid.org/app/com.indieweb.indigenous)**: Indieweb micropub and microsub client."
-msgstr "**[CineLog](https://f-droid.org/app/com.ulicae.cinelog)**: Filmbesprechungen speichern."
+msgstr "**[Indigenous](https://f-droid.org/app/com.indieweb.indigenous)**: Indieweb Micropub und Microsub Client."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-02-23-twif-44-mirror-mirror-on-the-wall.md
-#, fuzzy
 msgid "**[Money Manager Ex](https://f-droid.org/app/com.money.manager.ex)**: Money management and expenses tracking."
-msgstr "**[File Manager](https://f-droid.org/app/com.github.axet.filemanager)**: Dateimanager mit Root-Browser."
+msgstr "**[Money Manager Ex](https://f-droid.org/app/com.money.manager.ex)**: Geldverwaltung und Ausgabenüberwachung."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-02-23-twif-44-mirror-mirror-on-the-wall.md
-#, fuzzy
 msgid "**[Binary Eye](https://f-droid.org/app/de.markusfisch.android.binaryeye)**: Yet another barcode scanner."
-msgstr "**[Wave Lines Wallpaper](https://f-droid.org/app/de.markusfisch.android.wavelines)**: Wellige Hintergrundbilder."
+msgstr "**[Binary Eye](https://f-droid.org/app/de.markusfisch.android.binaryeye)**: Noch ein weiterer Barcode-Scanner."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-02-23-twif-44-mirror-mirror-on-the-wall.md
-#, fuzzy
 msgid "**[LDAP Sync](https://f-droid.org/app/de.wikilab.android.ldapsync)**: Sync your contacts with ldap."
-msgstr "**[Event Sync for Facebook](https://f-droid.org/app/cz.dvratil.fbeventsync)**: Synchronisation von Facebook-Events mit dem Kalender"
+msgstr "**[LDAP Sync](https://f-droid.org/app/de.wikilab.android.ldapsync)**: Kontakte mit LDAP synchronisieren."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-02-23-twif-44-mirror-mirror-on-the-wall.md
-#, fuzzy
 msgid "**[Chord Reader](https://f-droid.org/app/org.handmadeideas.chordreader)**: Search for, display, transpose and save chords on your phone."
-msgstr "**[Trekarta](https://f-droid.org/app/mobi.maptrek)**: Einfache, reagible Karte für ihren Treck."
+msgstr "**[Chord Reader](https://f-droid.org/app/org.handmadeideas.chordreader)**: Akkorde suchen, anzeigen, transponieren und auf Ihrem Gerät speichern."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-02-23-twif-44-mirror-mirror-on-the-wall.md
 msgid "**[Crazyflie Client](https://f-droid.org/app/se.bitcraze.crazyfliecontrol2)**: Control your crazyflie quadcopter from your mobile device."
-msgstr ""
+msgstr "**[Crazyflie Client](https://f-droid.org/app/se.bitcraze.crazyfliecontrol2)**: Deinen Crazyflie Quadrocopter über dein Mobilgerät steuern device."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-02-23-twif-44-mirror-mirror-on-the-wall.md
-#, fuzzy
 msgid "**[DuckDuckGo Privacy Browser](https://f-droid.org/app/com.duckduckgo.mobile.android)** was [updated](https://github.com/duckduckgo/Android/releases) from 5.15.1 to 5.18.0. It fixes a bug that prevents opening homescreen or shared links in the app, adds an information box to let you know how to install the search widget, and improves the data clearing process. The URL bar was also polished and received a few small bugfixes."
-msgstr "**[DuckDuckGo Privacy Browser](https://f-droid.org/app/com.duckduckgo.mobile.android)** erhielt ein [Update](https://github.com/duckduckgo/Android/releases) von 5.13.0 auf 5.15.1, das die Einsatzmöglichkeit einer anonymen Übersicht, neue Einstellungen zum automatischen Löschen Ihrer Tabs und Daten und versteckte Verbesserungen, um den Datenlöschvorgang weiterzuentwickeln, mitbringt."
+msgstr "**[DuckDuckGo Privacy Browser](https://f-droid.org/app/com.duckduckgo.mobile.android)** erhielt ein [Update](https://github.com/duckduckgo/Android/releases) von 5.15.1 auf 5.18.0. Es behebt einen Fehler, der den Wechsel zum Startbildschirm oder das Öffnen freigegebener Links in der App verhindert, ergänzt eine Info-Box, um zu erfahren, wie das Such-Widget installiert wird, und verbessert den Datenbereinigungsvorgang. Außerdem wurde die Adressleiste aufpoliert und erhielt einige kleine Korrekturen."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-02-23-twif-44-mirror-mirror-on-the-wall.md
-#, fuzzy
 msgid "**[EteSync](https://f-droid.org/app/com.etesync.syncadapter)** 1.2.0 [is in](https://github.com/etesync/android/blob/HEAD/ChangeLog.md), adding a button to install OpenTasks if it isn't installed, and warning about clients that don't support email attachments when sending event invites."
-msgstr "{{ page.major }} **[EteSync](https://f-droid.org/app/com.etesync.syncadapter)** erlebte eine riesige [Aktualisierung](https://github.com/etesync/android/blob/HEAD/ChangeLog.md) von 0.22.6 auf 1.0.1, ergänzt durch eine Unterstützung zur Änderung des Verschlüsselungspassworts, die Unterstützung von Aufgaben über OpenTasks, stock password entry, Korrekturen bei E-Mail-Einladungen, Unterstützung für den neu verknüpften Kontotyp und mehr."
+msgstr "**[EteSync](https://f-droid.org/app/com.etesync.syncadapter)** 1.2.0 [ist da](https://github.com/etesync/android/blob/HEAD/ChangeLog.md), ergänzt einen Schalter, um OpenTasks zu installieren, falls es nicht installiert ist, und warnt vor Clients, die keine E-Mail-Anhänge unterstützen, wenn Einladungen zu Veranstaltungen verschickt werden."
 
 #. type: Bullet: '* '
 #: build/_posts/md/2019-02-23-twif-44-mirror-mirror-on-the-wall.md
