@@ -56,7 +56,7 @@ Fill the file with entries to update the repositories
 
 1. Configure your webserver
 
-This is an example server block for Nginx. If used, it should be copied to /etc/nginx/sites-available/ and symlinked to /etc/nginx/sites-enabled. Note that it is important that your URI be `/fdroid/repo` so that the app can automatically add your mirror.
+This is an example server block for nginx. If used, it should be copied to _/etc/nginx/sites-available/_ and symlinked to _/etc/nginx/sites-enabled_. Note that it is important that your URI be `/fdroid/repo` so that the app can automatically add your mirror.
 
 ```
 server {
