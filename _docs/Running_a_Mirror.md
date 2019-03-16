@@ -22,7 +22,7 @@ $ RSYNC_PASSWORD=dont-abuse-me-please rsync -v --list-only fdroid-mirror@mirror.
 
 This guide assumes the use of Nginx with a deb-based distribution, and mirroring the primary repository plus the archive. Please adjust accordingly if you're using alternatives or don't intend to mirror the archive. Also substitute the examples paths and domains for your own.
 
-For assistance with this process, try #fdroid-dev on Freenode, #fdroid-dev:f-droid.org on Matrix, or the [forum](https://forum.f-droid.org/).
+For assistance with this process, [feel free to reach out to us]({{ "/about/" | prepend: site.baseurl }}).
 
 1. Create appropriate directories
 
