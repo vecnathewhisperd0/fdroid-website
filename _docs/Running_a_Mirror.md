@@ -114,6 +114,6 @@ server {
 #### Other considerations
 
 * Forward emails from cronjob failures so you know if the synchronization fails
-* Set up monitoring on your mirror so you know if it goes down (ideally keyword on /var/www/fdroid/fdroid/repo/index.html)
+* Set up monitoring on your mirror so you know if it goes down (ideally keyword on _/var/www/fdroid/fdroid/repo/index.html_)
 * Harden your SSH server config (disable password authentication, install fail2ban)
 * Enable unattended upgrades
