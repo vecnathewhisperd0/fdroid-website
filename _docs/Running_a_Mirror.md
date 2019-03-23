@@ -24,7 +24,7 @@ $ RSYNC_PASSWORD=[password] rsync -v --list-only fdroid-mirror@mirror.f-droid.or
 
 This guide assumes the use of Nginx with a deb-based distribution, and mirroring the primary repository plus the archive. Please adjust accordingly if you're using alternatives or don't intend to mirror the archive. Also substitute the examples paths and domains for your own.
 
-For assistance with this process, try #fdroid-dev on Freenode, #fdroid-dev:f-droid.org on Matrix, or the [forum](https://forum.f-droid.org/).
+For assistance with this process, [feel free to reach out to us]({{ "/about/" | prepend: site.baseurl }}).
 
 1. Create appropriate directories
 
@@ -58,7 +58,7 @@ Fill the file with entries to update the repositories
 
 1. Configure your webserver
 
-This is an example server block for Nginx. If used, it should be copied to /etc/nginx/sites-available/ and symlinked to /etc/nginx/sites-enabled. Note that it is important that your URI be `/fdroid/repo` so that the app can automatically add your mirror.
+This is an example server block for nginx. If used, it should be copied to _/etc/nginx/sites-available/_ and symlinked to _/etc/nginx/sites-enabled_. Note that it is important that your URI be `/fdroid/repo` so that the app can automatically add your mirror.
 
 ```
 server {
@@ -97,6 +97,6 @@ server {
 #### Other considerations
 
 * Forward emails from cronjob failures so you know if the synchronization fails
-* Set up monitoring on your mirror so you know if it goes down (ideally keyword on /var/www/fdroid/fdroid/repo/index.html)
+* Set up monitoring on your mirror so you know if it goes down (ideally keyword on _/var/www/fdroid/fdroid/repo/index.html_)
 * Harden your SSH server config (disable password authentication, install fail2ban)
 * Enable unattended upgrades
