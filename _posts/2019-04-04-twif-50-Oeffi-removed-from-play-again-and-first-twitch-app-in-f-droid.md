@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "TWIF 50: Öffi removed from Play again, and first Twitch app in F-Droid"
+title: "TWIF 50: First Twitch app in F-Droid"
 edition: 50
 author: "Coffee"
 authorWebsite: "https://open.source.coffee"
@@ -23,18 +23,12 @@ forum: "https://forum.f-droid.org"
 
 This Week In F-Droid {{ page.edition }}, Week {{ page.date | date: "%V, %G" }} <a href="{{ site.baseurl }}/feed.xml"><img src="{{ site.baseurl }}/assets/Feed-icon-16x16.png" alt="Feed"></a>
 
-In this edition: Öffi temporarily removed from Play Store and Twire the first Twitch app to arrive in F-Droid.
+In this edition: Twire is the first Twitch app to arrive in F-Droid.
 There are **{{ page.number_of_added_apps }}** new and **{{ page.number_of_updated_apps }}** updated apps.
 
 <!--more-->
 
 **[F-Droid](https://f-droid.org/)** is a [repository](https://f-droid.org/packages/) of verified [free and open source](https://en.wikipedia.org/wiki/Free_and_open-source_software) Android apps, a **[client](https://f-droid.org/app/org.fdroid.fdroid)** to access it, as well as a whole "app store kit", providing all the tools needed to set up and run an app store. It is a community-run free software project developed by a wide range of contributors. This is their story this past week.
-
-### Öffi temporarily removed from Play Store
-
-Öffi was removed from the Google Play Store one more time, apparently because it had a "donate" button. It's now [back on the Play Store](https://www.heise.de/newsticker/meldung/Nahverkehrs-App-Oeffi-ist-zurueck-im-Play-Store-4153880.html) (link in German).
-
-Many FLOSS apps have a donate button, even when they are on the Play Store. They run the risk of being removed without warning.
 
 ### New apps
 
