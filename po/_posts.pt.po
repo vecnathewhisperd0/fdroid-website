@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2019-05-02 14:15+0200\n"
-"PO-Revision-Date: 2019-05-06 18:48+0000\n"
+"PO-Revision-Date: 2019-06-05 14:19+0000\n"
 "Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/f-droid/website-posts/pt/>\n"
 "Language: pt\n"
@@ -464,7 +464,7 @@ msgstr "10 de outubro, 10-10, é o dia perfeito para anunciar o F-Droid 1.0! Ap�
 #. type: Plain text
 #: build/_posts/md/2017-10-10-fdroid-is-1.0.md
 msgid "With 60+ languages, 100+ contributors, 2500+ apps, and many millions of downloads, F-Droid is already widely used.  It is even the default, built-in app store for two important Android ROM projects: [Replicant](https://www.replicant.us/) and [CopperheadOS](https://copperhead.co/android/)."
-msgstr ""
+msgstr "Com mais de 60 idiomas, mais de 100 colaboradores, mais de 2500 aplicativos e muitos milhões de downloads, o F-Droid já é amplamente utilizado.  É mesmo o app store padrão para dois projetos de ROM Android importantes: [Replicant](https://www.replicant.us/) e [CopperheadOS](https://copperhead.co/android/)."
 
 #. type: Plain text
 #: build/_posts/md/2017-10-10-fdroid-is-1.0.md
