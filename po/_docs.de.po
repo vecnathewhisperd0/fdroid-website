@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: team@f-droid.org\n"
 "POT-Creation-Date: 2019-05-10 20:06+0200\n"
-"PO-Revision-Date: 2019-06-05 14:17+0000\n"
-"Last-Translator: CurlingTongs <jobiwaff@googlemail.com>\n"
+"PO-Revision-Date: 2019-06-05 14:18+0000\n"
+"Last-Translator: Andreas Kromke <Andreas.Kromke@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/f-droid/website-docs/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -578,7 +578,7 @@ msgstr "Vollständig offline Signaturlaptop mit USB-Sticks"
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
 msgid "This process is based on the same basic, stripped down laptop as the previous example.  But this time, the networking should be entirely disabled before the install process.  For example, it is easy in many laptops to physically remove the WiFi card.  Therefore, it makes sense to use a laptop that does not include an ethernet jack, which are usually not possible to remove.  Otherwise, blacklisting all kernel modules related to neworking can suffice.  Since this machine is fully offline, the extra work of using an HSM is not as important, but it can't hurt to include it."
-msgstr "Diese Variante hat die selben Grundlagen - einen minimalistischen Laptop wie o.g.. Aber dieses mal werden die Netzwerkschnittstellen vor dem Installationsprozess vollständig deaktiviert. Beispielsweise kann bei vielen älteren Laptops das WLAN-Modul ausgebaut werden. Deshalb macht es Sinn, einen Laptop zu verwenden, der keinen LAN-Anschluss hat, da diese normalerweise nicht entfernt werden können. Andernfalls kann es ausreichen, alle Netzwerk-Kernel-Module zu deaktivieren. Da diese Maschine vollständig offline ist, ist der Extraaufwand ein HSM zu verwenden nicht so wichtig, aber er kann dennoch nicht schaden."
+msgstr "Dieser Vorgang verwendet den gleichen minimalistischen Laptop, wie oben erwähnt, aber diesmal wird der Netzwerkzugang vor dem Installationsprozess vollständig deaktiviert. Beispielsweise kann bei vielen älteren Laptops das WLAN-Modul ausgebaut werden. Deshalb ist es sinnvoll, einen Laptop zu verwenden, der keinen LAN-Anschluss hat, da diese normalerweise nicht entfernt werden können. Andernfalls kann es ausreichen, alle Netzwerk-Kernel-Module zu deaktivieren. Da diese Maschine vollständig offline ist, ist der Zusatzaufwand, ein HSM zu verwenden, nicht so wichtig, aber er kann dennoch nicht schaden."
 
 #. type: Plain text
 #: build/_docs/md/Building_a_Signing_Server.md
@@ -4092,7 +4092,7 @@ msgstr "    android.permission.RECEIVE_BOOT_COMPLETED\n"
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md
 msgid "For app swap to get current WiFi status, and prompt the user to enable WiFi when swapping:"
-msgstr "Für den App-Tausch, um den aktuellen WLAN-Status zu beziehen, und um den Nutzer beim Tauschen zur WLAN-Aktivierung aufzufordern:"
+msgstr "Für den App-Tausch, um den aktuellen WLAN-Status zu beziehen und um den Nutzer beim Tauschen zur WLAN-Aktivierung aufzufordern:"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md
@@ -4178,7 +4178,7 @@ msgstr "Was ist der Expertenmodus?"
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md
 msgid "Enabling the 'Expert Mode' setting in Preferences will make the client display additional information which is probably not useful to most people. This includes things like package IDs and signature hashes. Some extra configuration options also appear."
-msgstr "Die Aktivierung des 'Expertenmodus' in den Einstellungen führt dazu, dass ergänzende Informationen in der App angezeigt werden, die wahrscheinlich für die meisten Leute nicht hilfreich sind. Dazu gehören Dinge wie Paket-IDs und Signatur-Hashes. Daneben erscheinen auch einige zusätzliche Konfigurationsoptionen."
+msgstr "Die Aktivierung des „Expertenmodus” in den Einstellungen führt dazu, dass ergänzende Informationen in der App angezeigt werden, die wahrscheinlich für die meisten Leute nicht hilfreich sind. Dazu gehören Dinge wie Paket-IDs und Signatur-Hashes. Daneben erscheinen auch einige zusätzliche Konfigurationsoptionen."
 
 #. type: Title ###
 #: build/_docs/md/FAQ_-_Client.md
@@ -4200,7 +4200,7 @@ msgstr "Weitere Details unter [Issue 151](https://gitlab.com/fdroid/fdroidclient
 #: build/_docs/md/FAQ_-_Client.md
 #, no-wrap
 msgid "How do I update all my installed programs at once?"
-msgstr "Wie aktualisiere ich alle meine installierten Programme auf ein Mal?"
+msgstr "Wie aktualisiere ich alle meine installierten Programme auf einmal?"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md
@@ -4216,7 +4216,7 @@ msgstr "Warum zeigt der Client nicht, wie oft jede App installiert/heruntergelad
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md
 msgid "To show how many people had installed an app, we would have to be spying on them - in other words, keeping track of what apps people install and uninstall on their devices, and sending that data back to ourselves. We don't do that, and we're not going to do it."
-msgstr "Um anzuzeigen, wieviele Leute eine App installiert hatten, müssten wir sie ausspionieren - in anderen Worten, überwachen, welche Apps die Menschen auf ihren Geräten installieren und deinstallieren, und diese Daten an uns zurück senden. Das machen wir nicht und werden es auch nicht tun."
+msgstr "Um anzuzeigen, wieviele Leute eine App installiert hatten, müssten wir sie ausspionieren - in anderen Worten, überwachen, welche Apps die Menschen auf ihren Geräten installieren und deinstallieren, und diese Daten an uns zurücksenden. Das machen wir nicht und werden es auch nicht tun."
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md
@@ -4236,12 +4236,12 @@ msgstr "Ich könnte sie herunterladen und installieren, unmittelbar danach deins
 #. type: Bullet: '3.  '
 #: build/_docs/md/FAQ_-_Client.md
 msgid "I might download my app 1,000,000 times to make it look popular"
-msgstr "Ich könnte meine App eine Million Mal herunterladen, um sie beliebt aussehen zu lassen"
+msgstr "Ich könnte meine App eine Million Mal herunterladen, um vorzutäuschen, dass sie besonders beliebt ist"
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md
 msgid "Additionally, on a technical level, we don't even track that information. While the back-end server does track hits on each APK, these are actually served up by multiple front-end servers that cache.  This means one counted hit could represent one download, or a million.  Theoretically we could resolve this, but we are not interested enough to do so."
-msgstr "Außerdem, vom technischen Standpunkt her, überwachen wir nicht einmal diese Informationen. Während der Back-End-Server Treffer für jede APK sammelt, werden diese eigentlich durch eine Vielzahl von Front-End-Servern ausgeliefert, die als Zwischenspeicher fungieren. Das bedeutet, ein gezählter Treffer könnte einen Download darstellen oder eine Million. Theoretisch könnte das aufgelöst werden, aber wir haben kein großes Interesse, dies zu tun."
+msgstr "Außerdem, vom technischen Standpunkt her, überwachen wir nicht einmal diese Informationen. Während der Back-End-Server Treffer für jede APK-Datei sammelt, werden diese eigentlich durch eine Vielzahl von Front-End-Servern ausgeliefert, die als Zwischenspeicher fungieren. Das bedeutet, ein gezählter Treffer könnte einen einzigen Ladevorgang darstellen oder eine Million. Theoretisch könnte man das unterscheiden, aber wir sind daran nicht besonders interessiert."
 
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md
@@ -4257,7 +4257,7 @@ msgstr "Wie sende ich eine Paketquellenkonfiguration mittels NFC?"
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md
 msgid "Starting in v0.59, the F-Droid client supports sending repo configurations via NFC. For this to work, both the sending and receiving device must have NFC and be running Android 4.0 or newer."
-msgstr "Ab Version v0.59, unterstützt die F-Droid-App das Versenden einer Paketquellenkonfiguration über NFC. Damit das funktioniert, müssen sowohl das sendende als auch das empfangende Gerät NFC unterstützen, und es muss Android 4.0 oder neuer darauf laufen."
+msgstr "Ab Version v0.59 unterstützt die F-Droid-App das Versenden einer Paketquellenkonfiguration über NFC. Damit das funktioniert, müssen sowohl das sendende als auch das empfangende Gerät NFC unterstützen, und es muss Android 4.0 oder neuer darauf laufen."
 
 #. type: Bullet: '1.  '
 #: build/_docs/md/FAQ_-_Client.md
@@ -4293,7 +4293,7 @@ msgstr "Wie kann ich die F-Droid-App über NFC oder Android Beam versenden?"
 #. type: Plain text
 #: build/_docs/md/FAQ_-_Client.md
 msgid "Starting in v0.59, the F-Droid client supports sending the F-Droid app itself to another device to set it up for the first time. For this to work, both the sending and receiving device must have NFC, Android Beam, and be running Android 4.1 or newer."
-msgstr "Ab Version v0.59 unterstützt der F-Droid-Client das Senden der F-Droid-App selbst an ein anderes Gerät zur Ersteinrichtung. Damit das funktioniert, müssen sowohl das sendende als auch das empfangende Gerät über NFC, Android Beam, und Android 4.1 oder neuer verfügen."
+msgstr "Ab Version v0.59 unterstützt der F-Droid-Client das Senden der F-Droid-App selbst an ein anderes Gerät zur Ersteinrichtung. Damit das funktioniert, müssen sowohl das sendende als auch das empfangende Gerät NFC und Android Beam unterstützen, und die Android-Version muss 4.1 oder neuer sein."
 
 #. type: Bullet: '1.  '
 #: build/_docs/md/FAQ_-_Client.md
