@@ -117,32 +117,6 @@ msgid ""
 "\n"
 msgstr ""
 
-#. type: Plain text
-#: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
-msgid "Here's the general rule of filling the index from the metadata sources:"
-msgstr ""
-
-#. type: Plain text
-#: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
-#, no-wrap
-msgid ""
-"metadata file --> fdroiddata localized files --> fastlane/triple-t in app source\n"
-"\n"
-msgstr ""
-
-#. type: Plain text
-#: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
-msgid "For things that can also be scraped from the APK, then we get:"
-msgstr ""
-
-#. type: Plain text
-#: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
-#, no-wrap
-msgid ""
-"metadata file --> fdroiddata localized files --> fastlane/triple-t in app source --> APK\n"
-"\n"
-msgstr ""
-
 #. type: Title ##
 #: build/_docs/md/All_About_Descriptions_Graphics_and_Screenshots.md
 #, no-wrap
