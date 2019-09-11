@@ -18,7 +18,7 @@ our custom DSL looks a lot like the popular markup language YAML. That's
 why we started supporting to store app metadata in `.yml` file format a
 year ago.
 
-We've now decided to deprecate `.txt` metadata support altogether. Our
+We're finally deprecating `.txt` metadata support altogether. Our
 amazing packaging team is almost done moving our entire database to
 `.yml`.
 
