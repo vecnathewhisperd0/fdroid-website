@@ -6,7 +6,7 @@ authorWebsite: "https://chaos.social/@uniq"
 ---
 
 We keep a database containing structured information about all apps we're
-shipping. Architecture wise this is set of plain-text files in a version
+shipping. Architecture-wise, this is a set of plain text files in a version
 control system. It's the heart of our data-driven app building- and
 distribution- systems. Maybe you've heard someone mentioning
 [F-Droid Data](https://gitlab.com/fdroid/fdroiddata) already.
