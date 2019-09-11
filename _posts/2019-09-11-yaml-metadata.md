@@ -36,7 +36,7 @@ simpler for us and also lower the learning curve for new contributors.
 It will also make adding new features faster and simplify creating
 tooling, CI, auditing, metrics, etc.
 
-Additionally this will make our database more accessible to everyone. We
+Additionally, this will make our database more accessible to everyone. We
 hope to see developers, enthusiasts and scientists to come up with
 interesting third party tools, use-cases or studies.
 
