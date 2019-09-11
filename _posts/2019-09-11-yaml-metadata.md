@@ -27,7 +27,7 @@ so everyone can conveniently convert now deprecated `.txt` metadata files
 to `.yml`:
 
 ```
-$ fdroid rewritemeta -to yml
+$ fdroid rewritemeta --to yml
 ```
 
 In the long removing `.txt` metadata support will allow us to get rid of
