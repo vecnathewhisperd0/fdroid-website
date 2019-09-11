@@ -30,7 +30,7 @@ to `.yml`:
 $ fdroid rewritemeta --to yml
 ```
 
-In the long removing `.txt` metadata support will allow us to get rid of
+In the long run, removing `.txt` metadata support will allow us to get rid of
 a substantial amount of source-code. This will make maintenance a lot
 simpler for us and also lower the learning curve for new contributors.
 It will also make adding new features faster and simplify creating
