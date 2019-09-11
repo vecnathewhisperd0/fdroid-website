@@ -22,7 +22,7 @@ We've now decided to deprecate `.txt` metadata support altogether. Our
 amazing packaging team is almost done moving our entire database to
 `.yml`.
 
-For keeping things easy we will continue to ship a handy sub command
+To keep things easy, we will continue to ship a handy sub-command
 so everyone can conveniently convert now deprecated `.txt` metadata files
 to `.yml`:
 
