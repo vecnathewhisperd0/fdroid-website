@@ -40,9 +40,8 @@ Additionally this will make our database more accessible to everyone. We
 hope to see developers, enthusiasts and scientists to come up with
 interesting third party tools, use-cases or studies.
 
-Our thanks goes to: [Izzy](https://gitlab.com/IzzySoft),
-[Bubu](https://gitlab.com/Bubu) and
-[Licaon Kter](https://gitlab.com/licaon-kter) for migrating our
+Our thanks goes to: [Izzy](https://gitlab.com/IzzySoft) and
+[Bubu](https://gitlab.com/Bubu) for migrating our
 database and [Hans](https://gitlab.com/eighthave) and
 [me (uniqx)](https://gitlab.com/uniqx) for implementing YAML metadata
 support.
