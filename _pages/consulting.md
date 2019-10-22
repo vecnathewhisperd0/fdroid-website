@@ -25,6 +25,15 @@ Check out the descriptions to find an appropriate consultant for your needs.
 * __Languages:__ English, German
 * __Specializations:__ Custom F-Droid deployments, feature extensions, whitelabel solutions
 
+### FINDEISEN.SYSTEMS - Hardcore IT Consulting
+
+* __Website:__ [https://findeisen.systems](https://findeisen.systems)
+* __Email:__ [mail@findeisen.systems](mailto:mail@findeisen.systems)
+* __Phone:__ +49 176 41865073
+* __Address:__ FINDEISEN.SYSTEMS, Siidik 6, 25980 Sylt
+* __Languages:__ English, German
+* __Specializations:__ Android customization, secure communication, mobile security consulting
+
 ---
 
 If you're missing, you can
