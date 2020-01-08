@@ -119,6 +119,7 @@ and is brought to you by at least the following people:
 * Matthias Weiler
 * Nutchanon Wetchasit
 * Philipp Wollschlegel
+* Ali Demirtas
 
 If your name is missing, it’s a mistake and you should
 [add yourself to the list](https://gitlab.com/fdroid/fdroid-website/blob/master/_pages/about.md)!
