@@ -8,4 +8,5 @@ group :jekyll_plugins do
     gem "jekyll-polyglot", :git => 'https://gitlab.com/fdroid/jekyll-polyglot.git', :tag => 'master'
     gem 'jekyll-fdroid', :git => 'https://gitlab.com/fdroid/jekyll-fdroid.git', :branch => 'master'
     gem 'git'
+    gem 'kramdown-parser-gfm'
 end
