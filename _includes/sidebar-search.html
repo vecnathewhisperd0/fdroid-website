@@ -1,11 +1,18 @@
 <h3>{{ site.data.strings.sidebars.search.heading }}</h3>
-
+<link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/docs-searchbar.js@{version}/dist/cdn/docs-searchbar.min.css"
+    />
 <div>
-  <form method="get" class="search-form" action="https://search.f-droid.org/">
-    <div class="search-input-wrp">
-      <input type="search" class="search-input" name="q">
-    </div>
-    <input type="hidden" name="lang" value="{{ site.active_lang }}">
-    <input type="submit" value="{{ site.data.strings.sidebars.search.search }}" class="material-button" />
-  </form>
+  <input type="search" id="search-bar-input" />
+    <script src="https://cdn.jsdelivr.net/npm/docs-searchbar.js@{version}/dist/cdn/docs-searchbar.min.js"></script>
+    <script>
+      docsSearchBar({
+        hostUrl: 'https://search.fdroidgoes.live',
+        apiKey: 'e20ef7fdb2f3b072352afecde2e746a1f4c18b7372761b344fa49ea12f5674ff',
+        indexUid: 'website',
+        inputSelector: '#search-bar-input',
+        debug: true, // Set debug to true if you want to inspect the dropdown
+      })
+    </script>
 </div>
