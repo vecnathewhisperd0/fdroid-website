@@ -1,18 +1,14 @@
 <h3>{{ site.data.strings.sidebars.search.heading }}</h3>
-<link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/docs-searchbar.js@latest/dist/cdn/docs-searchbar.min.css"
-    />
 <div>
   <input type="search" id="search-bar-input" class="search-input"/>
-    <script src="https://cdn.jsdelivr.net/npm/docs-searchbar.js@latest/dist/cdn/docs-searchbar.min.js"></script>
+    <script src="{{ site.baseurl }}/js/lib/docs-searchbar.min.js"></script>
     <script>
       docsSearchBar({
-        hostUrl: 'https://search.fdroidgoes.live',
-        apiKey: 'e20ef7fdb2f3b072352afecde2e746a1f4c18b7372761b344fa49ea12f5674ff',
+        hostUrl: '{{ site.meilisearch_host_url }}',
+        apiKey: '{{ site.meilisearch_api_key }}',
         indexUid: 'website',
         inputSelector: '#search-bar-input',
-        debug: true, // Set debug to true if you want to inspect the dropdown
+        debug: false, // Set debug to true if you want to inspect the dropdown
       })
     </script>
 </div>
