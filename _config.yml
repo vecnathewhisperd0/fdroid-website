@@ -96,3 +96,6 @@ app_categories:
 
 # Set a custom cutmark to separate the excerpt from the rest of the post
 excerpt_separator: <!--more-->
+
+meilisearch_host_url: https://search.fdroidgoes.live
+meilisearch_api_key: e20ef7fdb2f3b072352afecde2e746a1f4c18b7372761b344fa49ea12f5674ff
