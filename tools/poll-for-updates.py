@@ -51,10 +51,7 @@ if m:
 # production needs to check the canonical git repo, while other
 # instances should check weblate, e.g. so staging.f-droid.org will
 # update when new translations appear.
-if 'deployserver' in socket.gethostname():
-    git_remote_url = 'https://gitlab.com/fdroid/fdroid-website.git'
-else:
-    git_remote_url = 'https://hosted.weblate.org/git/f-droid/website'
+git_remote_url = 'https://gitlab.com/eighthave/fdroid-website.git'
 
 subprocess.check_call(['git', 'fetch', '--quiet', git_remote_url])
 git_describe = subprocess.check_output(['git', 'describe', '--always', 'FETCH_HEAD']).strip()
