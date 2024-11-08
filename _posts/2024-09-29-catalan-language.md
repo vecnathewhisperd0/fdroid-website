@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "New language: Catalan"
-author: "multiple contributors"
+author: "pitroig"
 ---
 
 The F-Droid website is now also available in the Catalan language, thanks to the effort of several volunteer contributors through the years.
