@@ -25,12 +25,12 @@ Right now, we only support the payment methods that our fiscal hosts offer.  The
 
 <div class="payment-methods"></div>
 
-|      | {{ strings.currency }} | {{ strings.credit_card }}  | {{ strings.via_bank_transfer }} | {{ strings.paypal }} | {{ strings.crypto }} |
-|------|----------|--------------|---------------|--------|--------|
-| [<img src="{% asset liberapay_donate_button.svg %}" alt="{{ strings.liberapay_alt }}" height="24" />](https://liberapay.com/F-Droid-Data/)           | | ✓ | | ✓ | |
+|      | {{ strings.currency }} | {{ strings.credit_card }}  | {{ strings.via_bank_transfer }} | {{ strings.paypal }} |
+|------|----------|--------------|---------------|--------|
+| [<img src="{% asset liberapay_donate_button.svg %}" alt="{{ strings.liberapay_alt }}" height="24" />](https://liberapay.com/F-Droid-Data/)           | | ✓ | | ✓ |
 | [<img src="{% asset opencollectivelogo.svg %}" height="20" alt="{{ strings.opencollective_alt }}" /> <small>F-Droid-Euro</small>](https://opencollective.com/f-droid-euro) | EUR | ✓ |  | |
-| [<img src="{% asset opencollectivelogo.svg %}" height="20" alt="{{ strings.opencollective_alt }}" /> <small>F-Droid</small>](https://opencollective.com/f-droid)   | USD | ✓ | ✓ | ✓ | |
-| [<img src="{% asset github-sponsors.svg %}" height="20" alt="GitHub Sponsors" />](https://github.com/sponsors/f-droid) |  | ✓ | | ✓ | |
+| [<img src="{% asset opencollectivelogo.svg %}" height="20" alt="{{ strings.opencollective_alt }}" /> <small>F-Droid</small>](https://opencollective.com/f-droid)   | USD | ✓ | ✓ | ✓ |
+| [<img src="{% asset github-sponsors.svg %}" height="20" alt="GitHub Sponsors" />](https://github.com/sponsors/f-droid) |  | ✓ | | ✓ |
 
 Visit the info pages of our fiscal hosts to get more details on their fees:
 
@@ -48,11 +48,6 @@ If you would like to donate via a direct IBAN bank transfer, then donate via [F-
 <a href="https://opencollective.com/f-droid-euro"><img src="{% asset opencollective_button.png %}" height="40" alt="{{ strings.opencollective_alt }}"></a>
 &nbsp; &nbsp; &nbsp;
 </p>
-
-
-#### Cryptocurrency
-
-All cryptocurrency donations to F-Droid, including Bitcoin and many others, are [on hold](https://opencollective.com/opensource/updates/open-source-collective-is-disabling-contributions-in-cryptocurrencies) for the time being, this page will be updated if there any related changes.
 
 
 ## Swag
